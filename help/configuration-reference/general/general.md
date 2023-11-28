@@ -1,0 +1,112 @@
+---
+title: '[!UICONTROL General] &gt; [!UICONTROL General]'
+description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL General] sidan för Commerce Admin.
+exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
+feature: Configuration, System
+source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+workflow-type: tm+mt
+source-wordcount: '848'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL General] > [!UICONTROL General]
+
+{{config}}
+
+## [!UICONTROL Country Options]
+
+Se [Alternativ för land](../../getting-started/store-details.md#country-options) om du vill ha mer information om dessa konfigurationsfält och alternativ.
+
+![Allmänt > Alternativ för länder](./assets/general-country-options.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Default Country] | Butiksvy | Det land där din butik finns. |
+| [!UICONTROL Allow Countries] | Webbplats | De länder där du godkänner beställningar. |
+| [!UICONTROL Zip/Postal Code is Optional for] | Global | Länder som inte kräver postnummer i leveransadressen. |
+| [!UICONTROL European Union Countries] | Global | Länder som är medlemmar i Europeiska unionen. |
+| [!UICONTROL Top Destinations] | Butiksvy | De primära länder som du riktar in dig på för försäljning. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL State Options]
+
+Se [Lägesalternativ](../../getting-started/store-details.md#state-options) om du vill ha mer information om dessa konfigurationsfält och alternativ.
+
+![Allmänt > Lägesalternativ](./assets/general-state-options.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL State is required for] | Global | De länder (där du bedriver verksamhet) som kräver att en region eller stat ska anges i postadressen. |
+| [!UICONTROL Allow to Choose State if It is Optional for Country] | Global | För länder där det inte krävs, avgör om _Region/stat_ fältet är inkluderat i kundens postadress.<br /> <br />**`Yes`**- Innehåller _Region/stat_ fält i kundadressen, även om det inte krävs av landet.<br />**`No`** - Utesluter fältet Region/Delstat från kundadressen om det inte krävs av landet. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Locale Options]
+
+Se [Nationella inställningar](../../getting-started/store-details.md#locale-options) om du vill ha mer information om dessa konfigurationsfält och alternativ.
+
+![Allmänt > Språkalternativ](./assets/general-locale-options.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Timezone] | Webbplats | Den tidszon på primärmarknaden som betjänas av webbplatsen. Vanligtvis är tidszonen densamma som den som används i ditt företags fysiska plats. |
+| [!UICONTROL Locale] | Butiksvy | Språk, valuta och måttsystem som används på den marknad som butiksvyn betjänar. |
+| [!UICONTROL Weight Unit] | Butiksvy | Den måttenhet som vanligtvis används för leveranser från språkområdet. Alternativ: `lbs` / `kgs` |
+| [!UICONTROL First Day of Week] | Butiksvy | Den dag som anses vara den första dagen i veckan på den marknad som butiksvyn betjänar. |
+| [!UICONTROL Weekend Days] | Butiksvy | Dagar som infaller på helgen på marknaden som hanteras av butiksvyn. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Website Restrictions]
+
+{{ee-feature}}
+
+![Allmänt > Begränsningar av webbplatser](./assets/general-website-restrictions.png)<!-- zoom -->
+
+Mer information om hur du ändrar de här inställningarna finns i [Åtkomstbegränsningar](../../merchandising-promotions/event-configure.md#access-restrictions) i _Handbok för marknadsföring och reklam_.
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Access Restriction] | Webbplats | Avgör om webbplatsen fungerar i begränsat läge.<br /> <br />**`Yes`**- Åtkomsten till webbplatsen är begränsad på det sätt som anges i fälten nedan.<br />**`No`** - Begränsningar är inaktiverade och följande inställningar har ingen effekt. |
+| [!UICONTROL Restriction Mode] | Webbplats | Anger vilken typ av åtkomstbegränsning som gäller för webbplatsen.<br /> <br />**`Website Closed`**- All åtkomst till butikens framsida är begränsad, och butikens URL:er omdirigeras tillfälligt till landningssidan. Den här inställningen kan vara användbar vid webbplatsunderhåll eller före start.<br />**`Private Sales: Login Only`** - Endast registrerade kunder kan logga in för att få åtkomst till butiken. Alla butiks-URL:er omdirigeras tillfälligt till antingen den angivna landningssidan eller inloggningsformuläret. Användare kan inte skapa ett konto i det här läget.<br />**`Private Sales: Login and Register`**- Användarna måste logga in för att komma åt butiken. Alla butiks-URL:er omdirigeras tillfälligt till inloggningsformuläret tills användaren loggar in. Användare kan registrera sig för ett konto medan webbplatsen är i det här läget. |
+| [!UICONTROL Startup Page] | Butiksvy | När webbplatsen är i läget Privat försäljning avgör den här inställningen vilken sida som visas tills kunden loggar in.<br />  <br />**`To login form`**- Användarna dirigeras om till inloggningsformuläret tills de loggar in.<br />**`To landing page`** - Användare dirigeras om till den statiska sidan som anges nedan tills de loggar in.<br /> <br />**_Viktigt!_**Se till att du inkluderar en länk till inloggningssidan från den angivna landningssidan så att kunderna kan logga in för att komma åt den fullständiga webbplatsen. |
+| [!UICONTROL Landing Page] | Butiksvy | Bestämmer den första sidan som visas när webbplatsen är i läget Privat försäljning. |
+| [!UICONTROL HTTP Response] | Webbplats | Bestämmer det HTTP-svar som skickas när webbplatsen stängs och en anslutning görs av en robot, crawler eller spindel.<br /> <br />**`503 Service unavailable`**- Sidan är inte tillgänglig, men spindeln bör inte uppdatera indexet.<br />**`200 OK`** - Landningssidan är korrekt och bör av spindeln behandlas som den enda sidan på platsen. |
+| [!UICONTROL Enable Autocomplete on login/forgot password forms] | Webbplats | Anger om fälten på _Inloggning_ och _Glömt lösenordet_ formulär fylls i automatiskt från tidigare poster. Alternativ: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Store Information]
+
+![Allmänt > Store Information](./assets/general-store-information.png)<!-- zoom -->
+
+Mer information om hur du ändrar de här inställningarna finns i [Butiksinformation](../../getting-started/store-details.md) i _Starthandbok_.
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Store Name] | Butiksvy | Namnet på den butik som är associerad med butiksvyn. |
+| [!UICONTROL Store Phone Number] | Butiksvy | Butikens primära telefonnummer (kopplat till butiksvyn) är öppet för företag. Till exempel: Mån - fre, 9-5, Lör 9-16 PST |
+| Land | Webbplats | Det land där företaget som driver webbplatsen är beläget. |
+| [!UICONTROL Region/State] | Webbplats | Regionen eller delstaten för det företag som driver webbplatsen. |
+| [!UICONTROL ZIP/Postal Code] | Webbplats | Postnummer för det företag som driver webbplatsen. |
+| [!UICONTROL City] | Webbplats | Platsen för det företag som driver webbplatsen. |
+| [!UICONTROL Street Address] | Webbplats | Gatuadress eller adress till det företag som driver webbplatsen. |
+| [!UICONTROL Street Address Line 2|]Webbplats | Affärsgatans andra linje, om det behövs. |
+| [!UICONTROL VAT Number] | Webbplats | Momsnumret för det företag som äger handelsinstallationen, om tillämpligt. |
+| [!UICONTROL Validate VAT Number] |  | Verifierar momsregistreringsnumret. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Single-Store Mode]
+
+![Allmänt > Enbutiksläge](./assets/general-single-store-mode.png)<!-- zoom -->
+
+Mer information om hur du ändrar de här inställningarna finns i [Enstaka butiksläge](../../getting-started/websites-stores-views.md#single-store-mode) i _Starthandbok_.
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Enable Single-Store Mode] | Global | När det är aktiverat för single store-installationer döljs rutan för konfigurationsomfång och relaterade fältetikettalternativ: `Yes` / `No` <br/>**_Obs!_**Läget för en butik ignoreras för butiker med mer än en vy. |
+
+{:style=&quot;table-layout:auto&quot;}

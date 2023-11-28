@@ -1,0 +1,220 @@
+---
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
+description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Sales] sidan för Commerce Admin.
+exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
+feature: Configuration, Orders
+source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL Sales] > [!UICONTROL Sales]
+
+{{config}}
+
+{{beta-updates}}
+
+## [!UICONTROL General]
+
+![Allmänt](./assets/sales-general.png)<!-- zoom -->
+
+<!-- [General](https://docs.magento.com/user-guide/marketing/sales-documents-ref-id.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Hide Customer IP] | Butiksvy | Avgör om kundens IP-adress visas på order, fakturor, leveranser och kreditnotor. Alternativ: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Checkout Totals Sort Order]
+
+![Sorteringsordning för checksummor](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
+
+<!-- [Checkout Totals Sort Order](https://docs.magento.com/user-guide/sales/checkout-totals-sort-order.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Subtotal] | Webbplats | Ett tal som bestämmer när delsumman beräknas i relation till andra utcheckningssummor. Standardvärde: `10` |
+| [!UICONTROL Discount] | Webbplats | Ett tal som bestämmer när rabatten beräknas i relation till andra utcheckningssummor. Standardvärde: `20` |
+| [!UICONTROL Shipping] | Webbplats | Ett tal som bestämmer när leveransen beräknas i relation till andra utcheckningssummor. Standardvärde: `30` |
+| [!UICONTROL Tax] | Webbplats | Ett tal som bestämmer när moms beräknas i relation till andra utcheckningssummor. Standardvärde: `40` |
+| [!UICONTROL Fixed Product Tax] | Webbplats | Ett tal som bestämmer när fast produktskatt beräknas i relation till andra utcheckningssummor. Standardvärde: `50` |
+| [!UICONTROL Grand Total] | Webbplats | Ett tal som bestämmer när totalsumman beräknas i relation till andra utcheckningssummor. Standardvärde: `100` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Reorder]
+
+![Ändra ordning](./assets/sales-reorder.png)<!-- zoom -->
+
+<!-- [Reorder](https://docs.magento.com/user-guide/sales/reorders-allow.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Allow Reorder] | Butiksvy | Avgör om kunderna kan ändra ordning från sina konton. Alternativ: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Allow Zero Grand Total]
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Allow Zero Grand Total for Credit Memo] | Butiksvy | Avgör möjligheten att skapa en kreditnota med totalsumman noll. Alternativ: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Invoice and Packing Slip Design]
+
+![Design av faktura och följesedel](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
+
+<!-- [Invoice and Packing Slip Design](https://docs.magento.com/user-guide/marketing/sales-document-pdf-logo.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Logo for PDF Print-outs] | Butiksvy | Identifierar logotypfilen som visas i huvudet på PDF-fakturor och följesedlar. Tillåtna filtyper: <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
+| [!UICONTROL Logo for HTML Print View] | Butiksvy | Identifierar logotypfilen som visas i sidhuvudet i HTML i utskriftsvyn på fakturor och följesedlar. Tillåtna filtyper: <br/>JPG /JPEG <br/>GIF <br/>PNG |
+| [!UICONTROL Address] | Butiksvy | Butiksadressen som du vill att den ska visas på fakturor och följesedlar. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Minimum Order Amount]
+
+![Minsta orderbelopp](./assets/sales-minimum-order-amount.png)<!-- zoom -->
+
+<!-- [Minimum Order Amount](https://docs.magento.com/user-guide/sales/cart-minimum-order-amount.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Enable] | Webbplats | Avgör om ett minimiorderbelopp har angetts för platsen. Alternativ: `Yes` / `No` |
+| [!UICONTROL Minimum Amount] | Webbplats | Anger den minsta delsumman, beställ efter rabatt. |
+| [!UICONTROL Include Discount Amount] | Webbplats | Avgör om minimiorderbeloppet innehåller tillämpade rabatter. Alternativ: `Yes` / `No` |
+| [!UICONTROL Include Tax to Amount] | Webbplats | Avgör om minimiorderbeloppet inkluderar moms. Alternativ: `Yes` / `No` |
+| [!UICONTROL Description Message] | Butiksvy | Avgör meddelandet som visas högst upp i kundvagnen när kundvagnssumman är mindre än minimiorderbeloppet. Om inget anges visas följande standardmeddelande: `Minimum order amount is $[minimum_amount]` |
+| [!UICONTROL Error to Show in Shopping Cart] | Butiksvy | Avgör meddelandet som visas från mini-vagnen eller utcheckningslänken när orderbeloppet är mindre än det minimiorderbelopp som krävs. Om inget anges visas ett standardmeddelande. |
+| [!UICONTROL Validate Each Address Separately in Multi-address Checkout] | Webbplats | För order med flera artiklar avgör om orderartiklarna ska separeras mycket om det minimala orderbeloppet uppfylls. Alternativ: `Yes` / `No` |
+| [!UICONTROL Multi-address Description Message] | Butiksvy | För beställningar med flera adresser avgör vilket meddelande som visas i kundvagnen om artiklarna som skickas till en adress är mindre än minimiorderbeloppet. |
+| [!UICONTROL Multi-address Error to Show in Shopping Cart] | Butiksvy | För beställningar med flera adresser, avgör vilket meddelande som visas från minikorgen eller utcheckningslänken när orderbeloppet är mindre än det minsta orderbelopp som krävs. Om inget anges visas ett standardmeddelande. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Dashboard]
+
+![Kontrollpanel](./assets/sales-dashboard.png)<!-- zoom -->
+
+<!-- [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Use Aggregated Data] | Global | Avgör om aggregerade försäljningsdata i realtid används för att skapa rapporter om ögonblicksbilder på instrumentpanelen. Om du har en stor mängd data att bearbeta kan prestanda förbättras genom att realtidsdata inaktiveras. Alternativ: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Orders Cron Settings]
+
+![Kroniinställningar för order](./assets/sales-orders-cron-settings.png)<!-- zoom -->
+
+<!-- [Orders Cron Settings](https://docs.magento.com/user-guide/system/cron.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Pending Payment Order Lifetime] | Webbplats | Anger livslängden för väntande order i minuter. Standardinställning: `480` minuter (8 timmar) |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Gift Options]
+
+![Presentalternativ](./assets/sales-gift-options.png)<!-- zoom -->
+
+<!-- [Gift Options](https://docs.magento.com/user-guide/sales/gift-options.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Allow Gift Messages on Order Level] | Webbplats | Ange om ett presentmeddelande kan läggas till för hela ordern. |
+| [!UICONTROL Allow Gift Messages on Order Items] | Webbplats | Ange om ett presentmeddelande kan läggas till för en enskild orderartikel. |
+| [!UICONTROL Allow Gift Wrapping on Order Level] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Ange om en presentförpackning kan läggas till för hela ordern. |
+| [!UICONTROL Allow Gift Wrapping for Order Items] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Ange om det går att lägga till en presentförpackning för den enskilda orderartikeln. |
+| [!UICONTROL Allow Gift Receipt] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Ange om ett presentkvitto kan läggas till för ordern. |
+| [!UICONTROL Allow Printed Card] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Ange om ett utskrivet kort kan läggas till för ordern. |
+| [!UICONTROL Default Price for Printed Card] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Ange standardpriset för det utskrivna kortet. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Minimum Advertised Price]
+
+![Lägsta kampanjpris](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
+
+<!-- [Minimum Advertised Price](https://docs.magento.com/user-guide/catalog/product-price-minimum-advertised.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Enable MAP] | Webbplats | Aktiverar lägsta kampanjpris för din butik. Alternativ: `Yes` / `No` |
+| [!UICONTROL Display Actual Price] | Webbplats | Avgör var det faktiska priset på en produkt är synligt för kunden. Alternativ: <br/>**`In Cart`**- Visar det faktiska produktpriset i kundvagnen.<br/>**`Before Order Confirmation`** - Visar det faktiska produktpriset i slutet av utcheckningsprocessen, precis innan ordern har bekräftats. <br/>**`On Gesture`**- Visar det faktiska produktpriset i en popup när kunden klickar på&quot;Click for price&quot; eller&quot;What&#39;s this?&quot; länk. |
+| [!UICONTROL Default Popup Text Message] | Butiksvy | Det textmeddelande som visas när kunden väljer länken&quot;Klicka för pris&quot; från en kategorilista eller en produktvysida. |
+| [!UICONTROL Default "What's This" Text Message] | Butiksvy | Det textmeddelande som visas när kunden klickar på&quot;What&#39;s this?&quot; från produktvysidan. |
+| [!UICONTROL Manufacturer's Suggested Retail Price] | Global | Det detaljhandelspris som tillverkaren föreslår. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Order by SKU Settings]
+
+{{ee-feature}}
+
+![Inställningar för beställning efter SKU](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+
+<!-- [Order by SKU Settings](https://docs.magento.com/user-guide/customers/account-dashboard-order-by-sku.html) -->
+
+![Beställa efter SKU-inställningar för kundgrupp](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Enable Order by SKU on My Account in Storefront] | Webbplats | Avgör om Order by SKU är tillgängligt på kundkontots kontrollpanel. Alternativ: <br/>**`Yes, for Everyone`**- Fliken Order by SKU (Beställa efter SKU) visas på kontouppsättningen för alla kunder.<br/>**`Yes, for Specified Customer Groups`** - Fliken Ordna efter SKU visas på kontomanelen för medlemmar i angivna grupper eller en delad katalog. <br/>**`No`**- Fliken Order by SKU är inte tillgänglig på kundkontot. |
+| [!UICONTROL Customer Groups] | Webbplats | Bestämmer kundgrupperna. Alternativ: `General` / `Retailer` / `Wholesale` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Instant Purchase]
+
+![Omedelbart köp](./assets/sales-instant-purchase.png)<!-- zoom -->
+
+<!-- [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Butiksvy | Aktiverar direktköp för butiksvyn om betalningsmetoden, som Braintree, har valv aktiverat. Alternativ: `Yes` / `No` |
+| [!UICONTROL Button Text] | Butiksvy | Anger texten som visas på knappen Direktköp. Standardtexten är `Instant Purchase`. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]
+
+{{ee-feature}}
+
+![Arkivering av order, fakturor, utleveranser, kreditnotor](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
+
+Mer information om hur du ändrar de här inställningarna finns i [Konfigurera orderarkivet](../../stores-purchase/order-archive.md#configure-the-order-archive) i _Butiks and Purchase Experience Guide_.
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Enable Archiving] | Global | Avgör om arkivering är aktiverat. Alternativ: `Yes` / `No` |
+| [!UICONTROL Archive Orders Purchased] | Global | Anger antalet dagar som går innan en slutförd order arkiveras. Standardvärde: `30` |
+| [!UICONTROL Order  Statuses to be Archived] | Global | Bestämmer [status](../../stores-purchase/order-status.md) beställningar som ska arkiveras. Som standard arkiveras order med statusen Slutfört eller Stängt. Alternativ: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL RMA Settings]
+
+{{ee-feature}}
+
+![RMA-inställningar](./assets/sales-rma-settings.png)<!-- zoom -->
+
+Mer information om hur du ändrar de här inställningarna finns i [Konfigurera returer](../../stores-purchase/rma-configure.md) i _Butiks and Purchase Experience Guide_.
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Enable RMA on Storefront] | Webbplats | Avgör om kunderna kan skapa och visa RMA-begäranden från butiken. RMA kan tillämpas både på nya och befintliga order. Som standard är RMA inte aktiverat för butiken. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable RMA on Product Level] | Webbplats | Anger standardvärdet för fältet Aktivera RMA i produktinformationen. |
+| [!UICONTROL Use Store Address] | Webbplats | Bestämmer det kontaktnamn och den adress som används för försändelser av returnerade varor. Alternativ: <br/>**`Yes`**- Använder [Ursprungspunkt](../../stores-purchase/shipping-settings.md#point-of-origin) adress från Leveransinställningar.<br/>**`No`** - Öppnar adressformuläret så att du kan ange en alternativ adress. |
+
+{:style=&quot;table-layout:auto&quot;}

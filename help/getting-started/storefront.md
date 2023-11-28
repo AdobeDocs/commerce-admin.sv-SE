@@ -1,0 +1,85 @@
+---
+title: Vad är butiken?
+description: Lär dig mer om de sidor och funktionselement som din butik kan tillhandahålla som stöd för shoppingupplevelsen för dina kunder.
+exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
+feature: Storefront
+source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 0%
+
+---
+
+# Vad är butiken?
+
+Inom implementeringen av Adobe Commerce eller Magento Open Source är butiken den externa, offentliga delen av din butik. Det innehåller innehåll och funktionskomponenter som kunderna använder för att handla och köpa.
+
+Den väg kunderna går mot en försäljning kallas ibland för _väg att köpa_ och din butik innehåller komponenter som kunderna kan använda för att slutföra den här vägen. I följande avsnitt finns en översikt över de grundläggande sidtyperna som ger ett strategiskt värde - de platser kunderna vanligtvis besöker när de handlar i din butik. När du tittar på dem bör du överväga olika butiksfunktioner som kan användas i varje skede av kundresan.
+
+## Startsida
+
+Visste du att de flesta bara tillbringar några sekunder på en sida innan de bestämmer sig för att stanna eller åka någon annanstans? Det är inte länge sedan att göra ett intryck. Studier visar att man också älskar fotografier, särskilt av andra. Vilken design du än väljer bör allt på din hemsida flytta besökarna mot nästa steg i försäljningsprocessen. Tanken är att leda deras uppmärksamhet i ett sammanhängande flöde från en punkt till nästa.
+
+![Exempel på startsida för butiker](./assets/storefront-homepage-full.png){width="700"}
+
+## Katalogsida
+
+Katalogsidlistor har vanligtvis små produktbilder och korta beskrivningar och kan formateras som en lista eller ett rutnät. Du kan lägga till block, videoklipp och beskrivningar med nyckelord och även skapa specialdesigner för en kampanj eller säsong. Du kan skapa en särskild kategori för en livsstil eller ett varumärke som är en välstrukturerad samling produkter från olika kategorier.
+
+Den första produktbeskrivningen ger oftast kunderna tillräckligt med information för att de ska kunna ta en närmare titt. Folk som vet vad de vill ha kan lägga produkten i sina varukorgar och gå. Kunder som är inloggade på sina konton får en personlig shoppingupplevelse.
+
+![Samlingssida i butiken](./assets/storefront-collection-page.png){width="700"}
+
+## Sökresultat
+
+Visste du att det är nästan dubbelt så troligt att personer som använder sökningar köper något som de som bara använder navigering? Du kanske ser de här kunderna som _kvalificerad_.
+
+### [!DNL Live Search]
+
+Med [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) för Adobe Commerce ger din butik en snabb, superrelevant och intuitiv sökupplevelse och är tillgänglig för Adobe Commerce utan extra kostnad.
+
+![Exempel på Live-sökning - sök medan du skriver](./assets/storefront-search-as-you-type.png){width="700"}
+
+### Standardkatalogsökning
+
+Med [standardkatalogsökning](../catalog/search.md)innehåller din butik en sökruta i det övre högra hörnet och en länk till avancerad sökning i sidfoten. Alla söktermer som kunderna skickar sparas så att du kan se exakt vad de letar efter. Du kan ge förslag och ange synonymer och vanliga felstavningar. Visa sedan en viss sida när en sökterm anges.
+
+![Exempel på sökresultat för standardkataloger](./assets/storefront-search-results-page-full.png){width="700"}
+
+## Produktsida
+
+Det är mycket som pågår på produktsidan! Det första som fångar ögat på produktsidan är huvudbilden med ett högupplöst zoom- och miniatyrgalleri. Förutom pris och tillgänglighet finns det ett flikområde med mer information och en lista över relaterade produkter.
+
+![Exempel på butikens produktsida](./assets/storefront-product-page-full-m.png){width="700"}
+
+## Kundvagn
+
+Kundvagnen är den plats där ordersumman kan bestämmas, plus rabattkuponger och uppskattad frakt och moms, och en bra plats där du kan visa dina kreditmärken och sigill. Det är också en idealisk möjlighet att erbjuda en sista artikel. Som korsförsäljning kan du välja vilka artiklar som ska erbjudas som ett impulsköp när en viss artikel visas i kundvagnen.
+
+![Exempel på kundvagnssida för butiksskylt](./assets/storefront-cart-full.png){width="700"}
+
+## Utcheckningssida
+
+Utcheckningsprocessen består av två steg:
+
+1. Leveransinformation
+
+   Det första steget i utcheckningsprocessen är att kunden fyller i leveransadressuppgifterna och väljer leveranssätt. Om kunden har ett konto anges leveransadressen automatiskt, men kan ändras vid behov.
+
+   ![Exempel på kassautcheckningssida för butiker](./assets/storefront-checkout-shipping-full.png){width="700"}
+
+1. Granska och betala
+
+   Det andra steget i utcheckningsprocessen är att kunden väljer betalningsmetod och kan välja att använda en rabattkod.
+
+   >[!NOTE]
+   >
+   >Fast [!DNL Commerce] tillåter konfigurering av flera kupongkoder. Kunden får endast använda en kupongkod i kundvagnen. (Se [Kupongkoder](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) för mer information.)
+
+   ![Exempel på kassautcheckningssida för butiker](./assets/storefront-checkout-payment-full.png){width="700"}
+
+Förloppsindikatorn högst upp på sidan följer varje steg i utcheckningsprocessen och _Ordersammanfattning_ visar den information som har angetts fram till den här punkten.
+
+>[!NOTE]
+>
+>Undantaget för en tvåstegs utcheckning gäller för virtuella och/eller hämtningsbara produkter. Om det bara finns sådana produkter i kundvagnen omvandlas utcheckningen automatiskt till en enstegsprocedur eftersom ingen leveransinformation behövs.

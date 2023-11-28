@@ -1,0 +1,26 @@
+---
+title: Innehållsblock
+description: Ett -block kan användas för att visa fast information som text, bilder, inbäddad video och dynamisk information.
+exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
+source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 0%
+
+---
+
+# Innehållsblock
+
+A _block_ är en modulär innehållsenhet som kan placeras oftast var som helst på sidan. Innehållsblock kallas ibland _statiska block_, eller _CMS-block_. De kan användas för att visa fast information som text, bilder och inbäddad video samt dynamisk information som tillhandahålls av en widget eller som kommer från en databas eller annan källa. De flesta element på startsidan är block som enkelt kan hanteras.
+
+Du kan skapa anpassade innehållsblock utan att skriva kod och tilldela dem så att de visas på en viss plats i sidlayouten. Block kan placeras med [widget](widget-static-block.md) eller genom att sätta samman en [layoutuppdatering](layout-updates.md) i XML och spara det på servern. Mer information om hur du använder layoutuppdateringar finns i [Layout][1] information i _Utvecklarhandbok för Edge_.
+
+![Block på exempelbutikens startsida](./assets/storefront-blocks-home-page.png){width="600" zoomable="yes"}
+
+## Film om statiska och dynamiska block
+
+Läs om statisk och [dynamiska block](dynamic-blocks.md) genom att titta på den här videon:
+
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12)
+
+[1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

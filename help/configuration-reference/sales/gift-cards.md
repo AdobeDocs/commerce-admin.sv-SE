@@ -1,0 +1,78 @@
+---
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
+description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] sidan för Commerce Admin.
+exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
+feature: Configuration, Gift
+source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL Sales] > [!UICONTROL Gift Cards]
+
+{{ee-feature}}
+
+{{config}}
+
+## [!UICONTROL Gift Card Email Settings]
+
+![E-postinställningar för presentkort](./assets/gift-cards-gift-card-email-settings.png)<!-- zoom -->
+
+<!-- [Gift Card Email Settings](https://docs.magento.com/user-guide/catalog/product-gift-card-account-configuration.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Gift Card Notification Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av presentkortets e-postmeddelande. Standardvärde: `General Contact` |
+| [!UICONTROL Gift Card Notification Email Template] | Butiksvy | Bestämmer [mall](../../systems/email-templates.md) som används för presentkortsmeddelanden. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Gift Card General Settings]
+
+![Allmänna inställningar för presentkort](./assets/gift-cards-gift-card-general-settings.png)<!-- zoom -->
+
+<!-- [Gift Card General Settings](https://docs.magento.com/user-guide/catalog/product-gift-card-account-configuration.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Redeemable] | Global | Avgör om innehavaren av presentkortet kan lösa in sitt kontantvärde. Alternativ: `Yes` / `No`. |
+| [!UICONTROL Lifetime (days)] | Global | Anger antalet dagar som kortet är giltigt. Om kortet lämnas tomt upphör det inte att gälla. <br/><br/>**_Viktigt:_**På vissa platser är det olagligt att ange förfallodatum på presentkort. Kontrollera de lokala lagarna innan du anger en livstid för dina presentkort. |
+| [!UICONTROL Allow Gift Message] | Butiksvy | Avgör om möjligheten att inkludera ett presentmeddelande är tillgängligt för kunder som köper ett presentkort. Alternativ: `Yes` / `No`. |
+| [!UICONTROL Gift Message Maximum Length] | Butiksvy | Anger det maximala antalet tecken som tillåts i ett presentkortsmeddelande. Standardvärde: 255 |
+| [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Avgör om ett presentkortskonto genereras när en kund gör en beställning eller när ordern faktureras. Alternativ: `Ordered` / `Invoiced` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Email Sent from Gift Card Account Management]
+
+![E-post skickad från kontohantering för presentkort](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
+
+<!-- [Email Sent from Gift Card Account Management](https://docs.magento.com/user-guide/catalog/product-gift-card-account-configuration.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Gift Card Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av presentkortets e-postadress. Standardvärde: `General Contact` |
+| [!UICONTROL Gift Card Template] | Butiksvy | Bestämmer [mall](../../systems/email-templates.md) som används för presentkortets e-postadress. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Gift Card Account General Settings]
+
+![Allmänna inställningar för presentkortskonto](./assets/gift-cards-gift-card-account-general-settings.png)<!-- zoom -->
+
+<!-- [Gift Card Account General Settings](https://docs.magento.com/user-guide/catalog/product-gift-card-account-configuration.html) -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Code Length] | Global | Anger längden på presentkortskoden. |
+| [!UICONTROL Code Format] | Global | Bestämmer formatet för presentkortskoden. Alternativ: `Alphanumeric` / `Numeric` |
+| [!UICONTROL Code Prefix] | Global | Definierar alla prefix som har lagts till i början av koden. |
+| [!UICONTROL Code Suffix] | Global | Definierar alla suffix som har lagts till i slutet av koden. |
+| [!UICONTROL Dash Every X Characters] | Global | Om du vill ta med streck i koden bestämmer du antalet tecken mellan varje streck. |
+| [!UICONTROL New Pool Size] | Global | Anger storleken på den nya kodpoolen som ska genereras. |
+| [!UICONTROL Low Code Pool Threshold] | Global | Fastställer antalet poster i kodpoolen som utlöser en varning om att poolen måste fyllas på. |
+| [!UICONTROL Generate] | Global | Klicka för att generera en lista med presentkortskoder. |
+
+{:style=&quot;table-layout:auto&quot;}

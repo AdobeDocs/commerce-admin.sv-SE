@@ -1,0 +1,166 @@
+---
+title: Elements - HTML-kod
+description: Lär dig mer om innehållstypen HTML Code, som används för att lägga till kodfragment av HTML, CSS och JavaScript i [!DNL Page Builder] stage.
+exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
+feature: Page Builder, Page Content
+source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
+workflow-type: tm+mt
+source-wordcount: '977'
+ht-degree: 0%
+
+---
+
+# Elements - HTML-kod
+
+Använd _HTML Code_ innehållstyp för att lägga till kodfragment av HTML, CSS och JavaScript i [[!DNL Page Builder] stage](workspace.md#stage). Du kan till exempel lägga till anpassad HTML och deklarera en CSS-klass som kan användas på ett element på sidan. Du kan också lägga till ett kodfragment för en logotyp, knapp eller banderoll som du har fått från en tredjepartsleverantör.
+
+## Verktygslådan HTML Code
+
+![Verktygslådan HTML Code](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
+
+| Verktyg | Ikon | Beskrivning |
+| --------- | ---------- | ----------------- |
+| Flytta | ![Ikonen Flytta](./assets/pb-icon-move.png){width="25"} | Flyttar kodbehållaren HTML till en annan giltig plats på sidan. |
+| Inställningar | ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera HTML-kod, där du kan ändra egenskaperna för behållaren. |
+| Dölj | ![Dölj ikon](./assets/pb-icon-hide.png){width="25"} | Döljer kodbehållaren HTML. |
+| Visa | ![Visa ikon](./assets/pb-icon-show.png){width="25"} | Visar den dolda kodbehållaren HTML. |
+| Duplicera | ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av behållaren HTML Code. |
+| Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="25"} | Tar bort kodbehållaren HTML och dess innehåll från scenen. |
+
+{{$include /help/_includes/page-builder-hidden-element-note.md}}
+
+## Lägg till HTML-kod
+
+I följande exempel visas hur du bäddar in [Google Font][1] koda och deklarera anpassade rubrikklasser som åsidosätter den aktuella formatmallen.
+
+### Steg 1: Välj ett Google-teckensnitt
+
+1. Besök [Google Fonts][1] och välj den teckensnittsfamilj som du vill använda.
+
+1. Kopiera den genererade koden som ska bäddas in i `<head>` -delen av sidan och klistra in den tillfälligt i en textredigerare.
+
+   - Bädda in teckensnittskod
+   - CSS-regel
+
+1. Lägg till regeln font-family för varje rubrikklass, som omger rubrikklasserna i en `<style>` -tagg.
+
+   Den här koden klistras in i [!DNL Page Builder].
+
+   ```html
+   <style>
+      h1 {color: teal; font-family: 'Khand', sans-serif; }
+      h2 {color: teal; font-family: 'Khand', sans-serif; }
+      h3 {color: teal; font-family: 'Khand', sans-serif; }
+   </style>
+   ```
+
+### Steg 2: Lägg till koden på sidan
+
+1. I _Administratör_ sidopanel i din butik, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+
+1. Hitta sidan där teckensnittet ska vara tillgängligt och öppna den i redigeringsläge.
+
+1. Bläddra nedåt och expandera **[!UICONTROL Content]** -avsnitt.
+
+1. I [!DNL Page Builder] panel, expandera **[!UICONTROL Elements]** och dra **[!UICONTROL HTML Code]** platshållare för en rad, kolumn eller tabb som anges på scenen.
+
+   Använd den röda stödlinjen för att placera avgränsaren antingen före eller efter en annan innehållsbehållare i rad-, kolumn- eller tabbuppsättningen.
+
+   ![Dra en platshållare för HTML-kod till scenen](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
+
+1. Håll pekaren över behållaren HTML för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ), icon.
+
+1. Klistra in den inbäddade Google Fonts-koden och de formatdeklarationer som du har förberett i textrutan.
+
+   Om du vill göra det enklare att läsa kan du ange några mellanslag för indrag av koden.
+
+   ![HTML-kod och format](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+
+1. Uppdatera återstående inställningar efter behov (se [Ändra kodinställningar för HTML](#html-settings) för mer information).
+
+1. Klicka på i det övre högra hörnet **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+
+   Det nya teckensnittet återges när sidan visas via en webbläsare.
+
+### Steg 3: Förhandsgranska sidan
+
+1. I _[!UICONTROL Currently Active]_avsnitt, ange **[!UICONTROL Enable Page]**till `Yes`.
+
+   ![Aktivera sidan](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
+
+1. Klicka i det övre högra hörnet på **[!UICONTROL Save]** pil och välj **[!UICONTROL Save & Close]**.
+
+1. Hitta sidan i rutnätet och markera **[!UICONTROL View]** i _[!UICONTROL Actions]_kolumn.
+
+   ![Förhandsgranska sidrubrikerna med den nya teckensnittsfamiljen](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
+
+## Ändra kodinställningar för HTML {#html-settings}
+
+1. Håll pekaren över behållaren HTML för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+
+1. Redigera koden i textrutan efter behov.
+
+   HTML, CSS och JavaScript-kod stöds. Kodfragment som tillhör `<head>` kan du skriva in här.
+
+   Redigeraren innehåller även knappar för att infoga specialelement i koden:
+
+   | Knapp | Beskrivning |
+   | ------ | ----------- |
+   | Infoga widget... | Klicka för att infoga en widget vid markörens position i textrutan HTML. |
+   | Infoga bild... | Klicka för att infoga en överförd bild eller en bild från galleriet vid markörens position i textrutan HTML. |
+   | Infoga variabel... | Klicka för att infoga en variabel vid markörens position i textrutan HTML. |
+
+1. Uppdatera _[!UICONTROL Advanced]_inställningar efter behov.
+
+   - Om du vill styra placeringen av koden i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
+
+     | Alternativ | Beskrivning |
+     | ------ | ----------- |
+     | `Default` | Använder den standardinställning för justering som anges i formatmallen för det aktuella temat. |
+     | `Left` | Justerar listan längs den vänstra kanten på den överordnade behållaren, med hänsyn till eventuell utfyllnad som har angetts. |
+     | `Center` | Justerar listan i mitten av den överordnade behållaren, med hänsyn till eventuell utfyllnad som har angetts. |
+     | `Right` | Justerar blocket längs den högra kanten på den överordnade behållaren, med hänsyn till eventuell utfyllnad som har angetts. |
+
+     I följande exempel ställs alternativen in på att använda en centrering för det återgivna kodblocket.
+
+     ![Delning med centrering](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
+
+   - Ange **[!UICONTROL Border]** format som används på alla fyra sidorna i kodbehållaren:
+
+     | Alternativ | Beskrivning |
+     | ------ | ----------- |
+     | `Default` | Använder det standardkantlinjeformat som anges av den associerade formatmallen. |
+     | `None` | Visar inte någon synlig indikation för behållarkanterna. |
+     | `Dotted` | Behållarramen visas som en prickad linje. |
+     | `Dashed` | Behållarramen visas som en streckad linje. |
+     | `Solid` | Behållarramen visas som en heldragen linje. |
+     | `Double` | Behållarramen visas som en dubbel linje. |
+     | `Groove` | Behållarkanten visas som en utdragen linje. |
+     | `Ridge` | Behållarkanten visas som en rak linje. |
+     | `Inset` | Behållarramen visas som en indragen linje. |
+     | `Outset` | Behållarramen visas som en startrad. |
+
+   - Om du anger ett annat kantlinjeformat än `None`slutför du visningsalternativen för kantlinjer:
+
+     | Alternativ | Beskrivning |
+     | ------ |------------ |
+     | [!UICONTROL Border Color] | Ange färgen genom att välja en färgruta, klicka på färgväljaren eller genom att ange ett giltigt färgnamn eller motsvarande hexadecimalt värde. |
+     | [!UICONTROL Border Width] | Ange antalet pixlar för kantlinjens bredd. |
+     | [!UICONTROL Border Radius] | Ange antalet pixlar för att definiera radiens storlek som används för att runda varje hörn av kanten. |
+
+     {style="table-layout:auto"}
+
+   - (Valfritt) Ange namnen på **[!UICONTROL CSS classes]** från den aktuella formatmallen som ska användas för behållaren.
+
+     Avgränsa flera klassnamn med blanksteg.
+
+   - Ange värden i pixlar för **[!UICONTROL Margins and Padding]** för att bestämma de yttre marginalerna och den inre utfyllnaden för kodbehållaren.
+
+     Ange motsvarande värden i diagrammet.
+
+     | Behållarområde | Beskrivning |
+     | -------------- | ----------- |
+     | [!UICONTROL Margins] | Mängden tomt utrymme som används på ytterkanten på behållarens alla sidor. Alternativ: `Top` / `Right` / `Bottom` / `Left` |
+     | [!UICONTROL Padding] | Mängden tomt utrymme som används på behållarens inre kant på alla sidor. Alternativ: `Top` / `Right` / `Bottom` / `Left` |
+
+[1]: https://fonts.google.com/

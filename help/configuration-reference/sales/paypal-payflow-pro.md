@@ -1,0 +1,83 @@
+---
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt;  [!UICONTROL PayPal Payflow Pro]'
+description: Granska konfigurationsinställningarna i [!UICONTROL PayPal Payflow Pro] i [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] sidan för Commerce Admin.
+exl-id: 2aae038b-15c0-452a-98bc-4d97efbb60f6
+feature: Configuration, Payments
+source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL Sales] > [!UICONTROL Payment Methods] >  [!UICONTROL PayPal Payflow Pro]
+
+>[!IMPORTANT]
+>
+>**Krav för PSD2:** <br/>
+>Från och med den 14 september 2019 kan europeiska banker avböja betalningar som inte uppfyller [PSD2](../../getting-started/compliance-payment-services-directive.md) krav. För att uppfylla PSD2 [!DNL PayPal Payflow Pro] måste integreras med [!DNL Cardinal Commerce]. Mer information finns på [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+
+{{config}}
+
+## [!UICONTROL Required Settings]
+
+![Nödvändiga inställningar](./assets/paypal-payflow-pro-settings.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Email Associated with PayPal Merchant Account] | Webbplats | (Valfritt) Alla e-postadresser som är kopplade till ditt PayPal-handelskonto. E-postadresser är skiftlägeskänsliga och måste exakt matcha adresserna som finns på ditt konto. |
+| [!UICONTROL Partner] | Webbplats | Ditt PayPal Partner-ID, om tillämpligt. |
+| [!UICONTROL Vendor] | Webbplats | Ditt PayPal-användarnamn. |
+| Användare | Webbplats | ID för en annan användare på ditt PayPal-konto. |
+| [!UICONTROL Password] | Webbplats | Lösenordet som är kopplat till ditt PayPal-handelskonto. |
+| [!UICONTROL Test Mode] | Webbplats | När det är aktiverat körs PayPal Payflow Pro i en testmiljö. Stäng av testläget när du är redo att börja använda i produktionsläge. Alternativ: `Yes` / `No` |
+| [!UICONTROL Use Proxy] | Webbplats | En proxy kan användas för att dirigera om trafik när serverns brandvägg förhindrar direktåtkomst till PayPal-servern. Identifierar, om tillämpligt, den proxyserver som används för att upprätta anslutningen till PayPal-servern. Alternativ: `Yes` / `No` <br/><br/>Om det är aktiverat anger du proxyalternativen: <br/>**`Proxy Host`**- IP-adressen för proxyvärden.<br/>**`Proxy Port`** - Proxyportens nummer. |
+| [!UICONTROL Enable this Solution] | Webbplats | Avgör om PayPal Payflow Pro är tillgängligt för dina kunder som betalningsmetod. |
+| [!UICONTROL Enable PayPal Credit] | Webbplats | Avgör om PayPal-kredit är tillgängligt för dina kunder som betalningsalternativ. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Advertise PayPal Credit]
+
+![Annonsera PayPal Credit](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Publisher ID] | Webbplats | Det utgivar-ID som är kopplat till ditt PayPal-kreditkonto. |
+| [!UICONTROL Get Publisher ID from PayPal] |  | Hämtar ditt utgivar-ID från PayPal. |
+| [!UICONTROL Home Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] banner på startsidan. Alternativ: <br/>**`Display`**- Bestämmer om en[!DNL PayPal Credit] bannern visas på butikens hemsida. Alternativ: `Yes` / `No`<br/>**`Position`** - Bestämmer positionen för [!DNL PayPal Credit] banner på startsidan. Alternativ: Sidhuvud (mitten) / Sidlist (höger) <br/>**`Size`**- Anger storleken på [!DNL PayPal Credit] banner på startsidan. Alternativ: `190 x 100` / `234 x 60` / `300 x 50` / `468 x 60` / `728 x 90` /` 800 x 66` |
+| [!UICONTROL Catalog Category Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] på kategorisidor. Alternativ: (samma som [!UICONTROL Home Page]) |
+| [!UICONTROL Catalog Product Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] banner på produktsidor. Alternativ: (samma som [!UICONTROL Home Page]) |
+| [!UICONTROL Checkout Cart Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] banner on cart page. Alternativ: (samma som [!UICONTROL Home Page]) |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Basic Settings - PayPal Payflow Pro]
+
+![Grundinställningar](./assets/payment-methods-paypal-payflow-pro-basic-settings.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Title] | Butiksvy | Ett namn som identifierar PayPal Payflow Pro som en betalningsmetod vid utcheckning. |
+| [!UICONTROL Sort Order] | Butiksvy | Ett tal som bestämmer i vilken ordning PayPal Payflow Pro visas när det visas med andra betalningsmetoder vid utcheckning. |
+| [!UICONTROL Payment Action] | Webbplats | Bestämmer vilken åtgärd som PayPal ska vidta när en order skickas. Alternativ: <br/>**`Authorization`**- Godkänner köpet, men spärrar pengarna. Beloppet dras inte tillbaka förrän handlaren&quot;fångar&quot; det.<br/>**`Sale`** - Köpbeloppet godkänns och dras omedelbart tillbaka från kundens konto. |
+| **[!UICONTROL Credit Card Settings]** |  |  |
+| [!UICONTROL Allowed Credit Cart Types] | Webbplats | Bestämmer vilka kreditkort som är tillgängliga för kunder vid utcheckning. Välj varje kort som stöds. Alternativ: `American Express` (kräver ett extra avtal) / `Visa` / `MasterCard` / `Discover` / `JCB` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Advanced Settings]
+
+![Avancerade inställningar](./assets/payment-methods-paypal-payflow-pro-advanced-settings.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| Visa på kundvagn | Butiksvy | Avgör om PayPal Express Checkout visas som ett betalningsalternativ i kundvagnen. Alternativ: Ja (rekommenderas) / Nej |
+| [!UICONTROL Payment Action Applicable From] | Webbplats | Anger intervallet för det tillämpliga landsvalet. Alternativ: Alla tillåtna länder/specifika länder |
+| [!UICONTROL Countries Payment Applicable From] | Webbplats | Identifierar varje land från vilket betalning accepteras. Endast kunder med en faktureringsadress i ett visst land kan göra inköp med den här betalningsmetoden. |
+| [!UICONTROL Debug Mode] | Webbplats | Registrerar meddelanden som skickas mellan din butik och PayPal-betalningssystemet i en loggfil. Alternativ: `Yes` / `No` <br/><br/>**_Obs!_**Loggfilen lagras på servern och är bara tillgänglig för utvecklare. I enlighet med PCI-datasäkerhetsstandarder registreras inte kreditkortsinformation i loggfilen. |
+| [!UICONTROL Enable SSL Verification] | Webbplats | Aktiverar verifiering av värdsäkerhetscertifikatet. Alternativ: `Yes` / `No` |
+| [!UICONTROL Transfer Cart Line Items] | Webbplats | Visar en fullständig sammanfattning av radobjekten från kundens kundvagn på PayPal-webbplatsen. Alternativ: `Yes` / `No` |
+| [!UICONTROL Skip Order Review Step] | Webbplats | Avgör om kunderna kan slutföra transaktionen från PayPal-webbplatsen eller måste återvända till din butik och slutföra ordergranskningssteget innan ordern skickas. Alternativ: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}

@@ -1,0 +1,79 @@
+---
+title: Exempel på kundprisregel - rabatt med minimiköp
+description: Se ett exempel på hur du kan använda en kundprisregel för att erbjuda en rabatt med ett minimiköp.
+exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
+feature: Merchandising, Price Rules, Shopping Cart
+source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 0%
+
+---
+
+# Exempel på kundprisregel - rabatt med minimiköp
+
+Kundprisregler kan användas för att erbjuda en procentuell rabatt baserad på ett minimiköp. I följande exempel tillämpas en rabatt på 25 % på alla köp över 200,00 USD i en viss kategori. Rabattformatet är följande:
+
+X % rabatt på alla Y-dollar (kategori) över $Z-dollar
+
+## Steg 1. Skapa en kundvagnsregel
+
+Följ grundläggande [instruktioner](price-rules-cart.md) för att skapa en kundvagnsregel.
+
+## Steg 2. Definiera villkoren
+
+1. Rulla ned och expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Conditions]** -avsnitt.
+
+1. Klicka _Lägg till_ (![Ikonen Lägg till](../assets/icon-add-green-circle.png)) och välja **[!UICONTROL Product Attribute Combination]**.
+
+   ![Kundprisregelvillkor - kombination av produktattribut](./assets/condition1.png){width="500" zoomable="yes"}
+
+1. Klicka _Lägg till_ (![Ikonen Lägg till](../assets/icon-add-green-circle.png)) i början av nästa rad och i listan under **[!UICONTROL Product Attribute]**, välja **[!UICONTROL Category]**.
+
+   - Klicka på (**...**) _mer_ om du vill visa ytterligare alternativ.
+
+     ![Villkor för kundprisregel - kategorialternativ](./assets/condition3.png){width="600" zoomable="yes"}
+
+   - Klicka på _Väljare_ (![Ikonen Lista](../assets/icon-list-chooser.png)) om du vill visa de tillgängliga kategorierna. Markera kryssrutan för varje kategori som du vill ta med i kategoriträdet. Klicka på bockikonen för att godkänna kategorivalen.
+
+     ![Villkor för kundprisregel - kategori](./assets/condition4.png){width="600" zoomable="yes"}
+
+1. Klicka _Lägg till_ (![Ikonen Lägg till](../assets/icon-add-green-circle.png)) i början av nästa rad och gör följande:
+
+   - I listan under **[!UICONTROL Cart Item Attribute]**, välja **[!UICONTROL Price in cart]**.
+
+     ![Villkor för kundprisregel - kundvagnsartikelattribut](./assets/condition5.png){width="500"}
+
+   - Klicka **är** och välja `equals or greater than`.
+
+   - Klicka **...** och ange det belopp som priset i kundvagnen måste vara för att uppfylla villkoret. Skriv till exempel `30`.
+
+     ![Villkor för kundprisregel - pris i kundvagn](./assets/condition6.png){width="500"}
+
+1. Klicka på **[!UICONTROL Save and Continue Edit]**.
+
+## Steg 3. Definiera åtgärderna
+
+1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Actions]** och gör följande:
+
+   ![Åtgärder för kundprisregel](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
+
+   - Ange **[!UICONTROL Apply]** till `Percent of product price discount`.
+
+   - Ange **[!UICONTROL Discount Amount]**. Skriv till exempel `10` till 10 % rabatt.
+
+   - Om du vill förhindra att fler erbjudanden tillämpas på köpet anger du **[!UICONTROL Discard subsequent rules]** till `Yes`.
+
+1. Klicka **[!UICONTROL Save and Continue Edit]** och slutför regeln efter behov.
+
+## Steg 4. Fyll i etiketterna
+
+Complete [Steg 4](price-rules-cart.md) av kundprisregelns instruktioner om att ange etiketter som visas vid utcheckningen.
+
+## Steg 5: Spara och testa regeln
+
+{{new-price-rule}}
+
+1. När regeln är klar klickar du på **[!UICONTROL Save Rule]**.
+
+1. Testa regeln för att kontrollera att den fungerar som den ska.

@@ -1,0 +1,133 @@
+---
+title: Mediegalleriets resurshantering
+description: Lär dig hur du hanterar överförda mediefiler och mediefiler som du hämtar via en Adobe Stock-integrering.
+exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
+feature: Page Content, Media
+source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 0%
+
+---
+
+# Mediegalleriets resurshantering
+
+Den nya [Mediegalleri](media-gallery.md) innehåller verktyg för att hantera överförda mediefiler och resurser som du hämtar via en [Integrering med Adobe Stock](adobe-stock.md). Om du har sparat en Adobe Stock [förhandsgranskning av bild](adobe-stock-save-preview.md)kan du också [licens](adobe-stock-license-image.md) bilden i det nya mediegalleriet.
+
+## Överföra en resurs
+
+1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+
+1. Klicka på **[!UICONTROL Upload Image]**.
+
+1. Markera filen som ska överföras.
+
+   Den valda resursen överförs automatiskt till den valda mappen (eller till lagringsroten om ingen mapp har valts).
+
+## Visa tillgångsinformation
+
+1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+
+1. Klicka på de tre punkterna under resursen (![Ikonen Detaljer](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och sedan klicka på **[!UICONTROL View Details]**.
+
+   ![Resursåtgärder](./assets/media-gallery-asset-actions.png){width="600" zoomable="yes"}
+
+   Resursinformationen visas på en bildrutepanel. De innehåller information om var tillgången används:
+
+   - **[!UICONTROL Categories]**
+   - **[!UICONTROL Products]**
+   - **[!UICONTROL Pages]**
+   - **[!UICONTROL Blocks]**
+
+   ![Tillgångsinformation](./assets/media-gallery-asset-details.png){width="600" zoomable="yes"}
+
+   Om du vill se informationen klickar du på **[!UICONTROL Used In]** länkar . Rutnätet i följande exempel visar alla kategorier där en viss resurs används.
+
+   ![Kategorirutnät](./assets/media-gallery-asset-categories.png){width="600" zoomable="yes"}
+
+   Det går också att ta bort resursen från _Visa detaljer_ -avsnitt.
+
+## Redigera en resurs
+
+1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+
+1. Klicka på de tre punkterna under resursen (![Ikon på menyn Resurser](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och sedan klicka på **[!UICONTROL Edit]**.
+
+   ![Redigera resurs](./assets/media-gallery-edit-asset.png){width="600" zoomable="yes"}
+
+1. Ändra vid behov något av följande metadatavärden:
+
+   - **[!UICONTROL Title]**
+   - **[!UICONTROL Description]**
+   - **[!UICONTROL Tags/Keywords]**
+
+   Dessa data sparas i databasen och i själva filens metadata. För närvarande stöds XMP- och IPTC-format.
+
+   Du kan hämta bilden med de uppdaterade metadata.
+
+## Använda en resurs
+
+Resurser kan användas i stor utsträckning i hela administratören, till exempel [lägga till eller redigera en sida](page-add.md), [skapa eller redigera en kategori](../catalog/category-create.md), eller [infoga bilder från Innehållsredigeraren](editor-insert-image.md).
+
+1. Gå till det nya mediegalleriet från ett område där du kan använda medieresurser.
+
+1. Markera resursen och klicka på **[!UICONTROL Add Selected]**.
+
+## Ta bort resurser
+
+1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+
+1. Klicka **[!UICONTROL Delete Images...]** och markera kryssrutan för varje resurs som du vill ta bort.
+
+1. Klicka på **[!UICONTROL Delete Image]**.
+
+   ![Bekräfta borttagning](./assets/media-gallery-bulk-delete-confirm.png){width="500" zoomable="yes"}
+
+## Sök efter resurser
+
+1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+
+1. Använd **[!UICONTROL Search by keywords]** indata för bildsökning med nyckelord/taggar.
+
+   Sökningen i följande exempel söker efter resurser som innehåller en viss tagg (`mountain`).
+
+   ![Resurssökning](./assets/media-gallery-asset-search.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Mer information om hur du kan uppdatera bildtaggar finns i _[Redigera en resurs](#edit-an-asset)_ -avsnitt.
+
+## Filtrera resurser
+
+>[!NOTE]
+>
+>The _Används i_ kräver [!UICONTROL Media Gallery Image Optimization] är aktiverat i [konfigurationsinställningar](media-gallery-image-optimization.md).
+
+1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+
+1. Klicka på **[!UICONTROL Filters]** -fliken.
+
+   ![Filter](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
+
+1. Ange filteralternativen.
+
+   Du kan filtrera resurserna efter användning av enheterna:
+
+   - **[!UICONTROL Used in Categories]**
+   - **[!UICONTROL Used in Products]**
+   - **[!UICONTROL Used in Pages]**
+   - **[!UICONTROL Used in Blocks]**
+
+   Du kan också filtrera resurserna efter **[!UICONTROL Store View]**, **[!UICONTROL License Status]** och **[!UICONTROL Content Status]**. Ange ett datumintervall för **[!UICONTROL Uploaded Date]** och/eller **[!UICONTROL Modification Date]** för att filtrera resurser efter fildatum.
+
+1. Klicka **[!UICONTROL Apply Filters]** för att se resultaten.
+
+   Filtreringen i följande exempel hittar resurser som används i en viss kategori (`cars`) och är aktiverade.
+
+   ![Filter för aktiverade resurser efter kategori](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
+
+## Söka efter bilddubbletter
+
+1. Klicka på **[!UICONTROL Filters]** och väljer **[!UICONTROL Show duplicates]** kryssrutan.
+
+1. Klicka på **[!UICONTROL Apply Filters]**.
