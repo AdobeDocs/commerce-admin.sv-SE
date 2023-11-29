@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] sidan för Commerce Admin.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Butiksvy | Avgör om nyhetsbrev är aktiverade för butiksvyns omfång. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Subscription Options]
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 | [!UICONTROL Unsubscription Email Sender] | Butiksvy | Identifierar den butikskontakt som visas som avsändare av e-postmeddelanden som skickas till dem som begär att få avsluta sin nyhetsbrevsprenumeration. |
 | [!UICONTROL Unsubscription Email Template] | Butiksvy | Bestämmer e-postmallen som används för meddelandet som skickas till dem som begär att få avsluta sin nyhetsbrevsprenumeration. Standardmall: `Newsletter unsubscription success` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

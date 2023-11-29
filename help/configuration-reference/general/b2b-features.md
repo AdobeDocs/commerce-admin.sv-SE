@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
 description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL B2B Features] sidan för Commerce Admin.
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-source-git-commit: 4f4ddb6da9bbf3bc07efb3b8518ee71323d43b49
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 | [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md) | Webbplats | När det här alternativet är aktiverat kan kunder och gäster snabbt göra beställningar baserat på SKU eller produktnamn. Alternativ: `Yes` / `No` |
 | [[!UICONTROL Enable Requisition List]](../../b2b/configure-requisition-lists.md) | Webbplats | När det här alternativet är aktiverat kan kunder skapa och hantera rekvisitionslistor från sin kontokontrollpanel. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![B2B-funktioner med företag och delade kataloger aktiverade](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
@@ -42,7 +42,7 @@ När funktionen Företag är aktiverad är ytterligare fält tillgängliga för 
 | [!UICONTROL Enable Shared Catalog direct products price assigning] | Webbplats | När _[!UICONTROL Enable Shared Catalog]_fältet är inställt på `Yes`, är det här alternativet tillgängligt. När det här alternativet är aktiverat lagras endast produkter som är tilldelade till en delad katalog i prisindexet. Produkter som inte är tilldelade den delade katalogen visas inte i butiken. Alternativ: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Webbplats | När det här alternativet är aktiverat kan företagsköpare skicka en anbudsförfrågan från kundvagnen. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Payment Methods]
 
@@ -53,7 +53,7 @@ När funktionen Företag är aktiverad är ytterligare fält tillgängliga för 
 | [!UICONTROL Applicable Payment Methods] | Global | Bestämmer valet av betalningsmetoder som är tillgängliga för B2B-köpare. Alternativ: `All Payment Methods` / `Specific Payment Methods` |
 | [!UICONTROL Payment Methods] | Global | Anger varje betalningsmetod som är tillgänglig för B2B-köpare. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
@@ -64,7 +64,7 @@ När funktionen Företag är aktiverad är ytterligare fält tillgängliga för 
 | [!UICONTROL Applicable Shipping Methods] | Global | Bestämmer valet av leveransmetoder som är tillgängliga som standard för B2B-köpare. Alternativ: `All Shipping Methods` / `Specific Shipping Methods` |
 | [!UICONTROL Shipping Methods] | Global | Anger varje leveransmetod som är tillgänglig som standard för B2B-köpare. <br/>**_Obs!_**Du kan också begränsa leveransmetoderna för en viss [företagskonto](../../b2b/account-companies.md). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
@@ -74,6 +74,6 @@ När funktionen Företag är aktiverad är ytterligare fält tillgängliga för 
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | Webbplats | När det här alternativet är aktiverat kan företag skapa inköpsorder. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 

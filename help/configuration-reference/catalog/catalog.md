@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] sidan för Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3095'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!UICONTROL Mask for Meta Keywords] | Global | Bestämmer standardvärdet för _Meta-nyckelord_ fält baserat på platshållarvärden från andra fält och eventuell ytterligare text som anges. Standardplatshållare: <br/>Produktnamn - `{{name}}` |
 | [!UICONTROL Mask for Meta Description] | Global | Bestämmer standardvärdet för fältet Metabeskrivning baserat på platshållarvärden från andra fält och eventuell ytterligare text som anges. Standardplatshållare: <br/>Produktnamn - `{{name}}` <br/>Beskrivning - `{{description}}` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Reviews]
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Enabled] | Butiksvy | Aktiverar produktrecensioner. Alternativ: `Yes` / `No` |
 | [!UICONTROL Allow Guests to Write Reviews] | Webbplats | Avgör om kunderna måste öppna ett konto hos din butik för att kunna skriva produktrecensioner. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Show Swatches in Product List] | Butiksvy | Anger om färgrutorna visas i produktlistan. Alternativ: `Yes` / `No` |
 | [!UICONTROL Show Swatch Tooltip] | Butiksvy | Anger om verktygstipset för färgrutan visas. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Stock Alert Email Template] | Butiksvy | Identifierar mallen som används för e-postmeddelanden om lagervarningar. Standardmall: `Product stock alert` |
 | [!UICONTROL Alert Email Sender] | Butiksvy | Bestämmer butikskontakten som visas som avsändare av produktvarningsmeddelandet. Alternativ: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts Run Settings]
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 | [!UICONTROL Error Email Sender] | Global | Välj rollen som e-postmeddelandet är `from`. |
 | [!UICONTROL Error Email Template] | Global | Välj den e-postmall som ska användas för felmeddelanden för produktaviseringar. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Image Placeholders]
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 | [!UICONTROL Thumbnail] | Butiksvy | Identifierar platshållarfilen som valts för miniatyrbilden. |
 | [!UICONTROL Choose File] |  | Navigerar till filen och överför den som platshållarbild för typen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Lifetime of products in Recently Viewed Widget] | Global | Avgör hur länge i sekunder som visade produkter visas i listan över senast visade. |
 | [!UICONTROL Lifetime of products in Recently Compared Widget] | Global | Avgör hur länge jämförda produkter visas i listan över senast jämförda produkter i sekunder. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Video]
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show related video] | Butiksvy | Om du vill visa relaterade videoklipp anger du `Yes`. |
 | [!UICONTROL Auto restart video] | Butiksvy | Om du vill aktivera automatisk uppspelning av video anger du `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price]
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Price Scope] | Global | Bestämmer omfattningen för basvalutan. Alternativ: `Global` / `Website` |
 | [!UICONTROL Default Product Price] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Definierar standardproduktpriset, om tillämpligt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Layered Navigation]
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Default Price Navigation Step] | Butiksvy | Anger antalet produkter som ingår i varje steg. |
 | [!UICONTROL Maximum Number of Price Intervals] | Butiksvy | Fastställer en gräns för antalet prisintervall som visas i lagerstyrd navigering. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Permissions]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Adding to Cart] | Webbplats | Bestämmer vem som kan köpa produkter från kategorin. Alternativ: <br/>`Yes, for Everyone` - Alla kan placera produkter från kategorin i sina kundvagnar. <br/>`Yes, for Specified Customer Groups` - Tillåter endast medlemmar i valda kundgrupper att placera produkter från kategorin i sina kundvagnar. <br/>`No` - Ingen får placera produkter från kategorin i sina kundvagnar. |
 | [!UICONTROL Disallow Catalog Search by] | Webbplats | Identifierar de kundgrupper som inte tillåts söka efter produkter i kategorin. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -218,7 +218,7 @@ ht-degree: 0%
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Butiksvy | Om det finns flera URL:er som pekar på samma kategorisida använder det här alternativet en kanonisk meta-tagg för att identifiera den kategori-URL som sökmotorer ska indexera. URL:en innehåller ett fullständigt namn till kategorin med meta-taggen. Detta minskar dubblettinnehållet och förbättrar SEO. Alternativ: `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | Butiksvy | Om det finns flera URL:er som pekar på samma produktsida använder det här alternativet en kanonisk meta-tagg för att identifiera den produkt-URL som sökmotorer ska indexera. URL:en innehåller ett fullständigt namn till produkten med meta-taggen. Detta minskar dubblettinnehållet och förbättrar SEO. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Top Navigation]
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Maximal Depth] | Global | Anger antalet underkategorinivåer i den övre navigeringen. Standardvärdet för `0` placerar ingen gräns för antalet nivåer. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Search]
 
@@ -251,7 +251,7 @@ När Live Search är installerat innehåller katalogsökningen följande konfigu
 | [!UICONTROL Number of top search results to cache] | Butiksvy | Antalet populära söktermer och sökresultat som ska cachelagras för snabbare svar. Ange värdet för `0` cachelagrar alla söktermer och sökresultat när de anges en andra gång. Standardvärde: `100` |
 | [!UICONTROL Autocomplete Limit] | Butiksvy | Anger det maximala antalet rader som är tillgängliga i [storefront poser] sida. Standardvärdet kan ändras när Live Search installeras och uppdateras senare genom att den här konfigurationsinställningen ändras. Standardvärde: `8` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Commerce med Elasticsearch
 
@@ -289,7 +289,7 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 | [!UICONTROL Show Results Count for Each Suggestion] | Butiksvy | Anger om antalet sökresultat visas för varje förslag. Beroende på temat visas numret oftast inom hakparenteser efter förslaget. Alternativ: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | Butiksvy | Anger ett värde som motsvarar antalet termer i frågan som sökresultaten ska matcha för att returneras. Detta ger optimala resultat och relevans för kunderna. Procentvärden motsvarar ett tal och vid behov avrundas nedåt och används som minsta antal termer som ska matchas i frågan. Värdet kan vara ett negativt eller positivt heltal, ett negativt eller ett positivt tal, en kombination av de två eller flera kombinationerna. Mer information finns på [minimum_should_match, parameter](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) i dokumentationen för Elasticsearch. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Downloadable Product Options]
 
@@ -308,7 +308,7 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 | [!UICONTROL Use Content Disposition] | Butiksvy | Avgör hur länken till det hämtningsbara innehållet levereras, som en e-postbilaga eller som en infogad länk i ett webbläsarfönster. Alternativ: <br/>**`Attachment`**- Hämtningslänken levereras som en e-postbilaga.<br/>**`Inline`** - Hämtningslänken levereras som en intern länk på en webbsida. |
 | [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Webbplats | Avgör om gäster som köper hämtningsbara produkter måste registrera sig för ett konto och logga in för att slutföra utcheckningsprocessen. Alternativ: <br/>**`Yes`**- Om kundvagnen innehåller hämtningsbara produkter måste gästen antingen registrera sig för ett konto eller logga in på ett befintligt konto för att slutföra köpet.<br/>**`No`** - Hämtningslänken levereras som en intern länk i e-postmeddelandets brödtext.  <br/> _**Obs!**_ Gästutcheckning är bara tillgänglig för nedladdningsprodukter om Delningsbart är inställt på `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Date & Time Custom Options]
 
@@ -323,7 +323,7 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 | [!UICONTROL Time Format] | Butiksvy | Anger tidsformatet till antingen 12 eller 24 timmar. Alternativ: `12h AM/PM` / `24h` |
 | [!UICONTROL Year Range] | Butiksvy | Definierar start- och slutintervallet för år som visas i _År_ fält. Värdet måste anges i YYYY-format. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Events]
 
@@ -340,7 +340,7 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 | [!UICONTROL Number of Events to be Displayed in the Event Slider Widget] | Butiksvy | Anger antalet händelser som visas i widgeten för händelseglaget på kategorisidorna. Använd `limit="x"` variabel. |
 | [!UICONTROL Events to Scroll per Click in Event Slider Widget] | Butiksvy | Avgör antalet händelser som visas i händelseglagwidgeten på CMS-sidor, t.ex. hemsidan. Använd `scroll="x"` variabel. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Rule-Based Product Relations]
 
@@ -362,4 +362,4 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 | [!UICONTROL Show Upsell Products] | Global | Avgör vilken lista över merförsäljningsprodukter som visas i butiken. Det kan vara antingen den lista som väljs manuellt i produktinformationen, den lista som skapas som svar på en produktrelationsregel eller en kombination av de två. Alternativ: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
 | [!UICONTROL Rotation Mode for Products in Upsell Product List] | Global | Anger i vilken ordning produkterna i Upsell Product list visas. Alternativ: `Do not rotate` / `Shuffle` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

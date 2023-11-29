@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront] sidan för Commerce Admin.
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Mer information om hur du använder Google reCAPTCHA för att skydda din butik f
 | [!UICONTROL Theme] | Webbplats | Anger formatet för rutan Google reCAPTCHA. Alternativ: `Light Theme` (standard) / `Dark Theme` |
 | [!UICONTROL Language Code] | Butiksvy | The [kod med två tecken](https://developers.google.com/recaptcha/docs/language) som anger vilket språk som används för Google reCAPTCHA-text och -meddelanden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -46,7 +46,7 @@ Mer information om hur du använder Google reCAPTCHA för att skydda din butik f
 | [!UICONTROL Theme] | Global | Anger formatet för rutan Google reCAPTCHA. Alternativ: `Light Theme` (standard) / `Dark Theme` |
 | [!UICONTROL Language Code] | Butiksvy | A [kod med två tecken](https://developers.google.com/recaptcha/docs/language) som anger vilket språk som används för Google reCAPTCHA-text och -meddelanden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -61,7 +61,7 @@ Mer information om hur du använder Google reCAPTCHA för att skydda din butik f
 | [!UICONTROL Theme] | Webbplats | Anger formatet för rutan Google reCAPTCHA. Alternativ: `Light Theme` (standard) / `Dark Theme` |
 | [!UICONTROL Language Code] | Butiksvy | A [kod med två tecken](https://developers.google.com/recaptcha/docs/language) som anger vilket språk som används för Google reCAPTCHA-text och -meddelanden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -72,7 +72,7 @@ Mer information om hur du använder Google reCAPTCHA för att skydda din butik f
 | [!UICONTROL reCAPTCHA Validation Failure Message] | Butiksvy | Meddelandet som visas i butiken om verifieringen misslyckas. Standardtext: `reCAPTCHA verification failed.` |
 | [!UICONTROL reCAPTCHA Technical Failure Message] | Butiksvy | Meddelandet som visas i butiken om reCAPTCHA inte returnerar ett verifieringsresultat. Standardtext: `Something went wrong with reCAPTCHA. Please contact the store owner.` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -103,4 +103,4 @@ Mer information om hur du använder Google reCAPTCHA för att skydda din butik f
 | [!UICONTROL Enable for Coupon Codes] | Webbplats | Anger den typ av reCAPTCHA som används när kunderna anger en [kupong](../../merchandising-promotions/price-rules-cart-coupon.md). Alternativ:<br/>**`No`**- (standard) Validerar inte inskickandet av kupongkoden.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Kräver att användaren väljer _Jag är ingen robot_ kryssrutan.<br />**`Invisible reCAPTCHA v2`**- Validerar användarbeteende i bakgrunden utan att det krävs interaktioner baserat på poängen.<br/>**`Invisible reCAPTCHA v3`** - (Rekommenderas) Validerar användarbeteende i bakgrunden baserat på interaktionspoäng. |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | Webbplats | Anger den typ av reCAPTCHA som används när kunder betalar för ett köp med [PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md). Alternativ:<br/>**`No`**- (standard) Verifierar inte begäran om återställning av lösenord.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Kräver att användaren väljer _Jag är ingen robot_ kryssrutan.<br />**`Invisible reCAPTCHA v2`**- Validerar användarbeteende i bakgrunden utan att det krävs interaktioner baserat på poängen.<br/>**`Invisible reCAPTCHA v3`** - (Rekommenderas) Validerar användarbeteende i bakgrunden baserat på interaktionspoäng. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

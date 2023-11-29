@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings] sidan för Commerce Admin.
 exl-id: 28a5ef4b-265e-457a-9480-96763785b5fd
 feature: Configuration, Sales Channels
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,4 @@ Dessa inställningar är tillgängliga när [[!DNL Amazon Sales Channel]](https:
 | [!UICONTROL Enable Debug Logging] | Global | Välj `Enabled` för att samla in ytterligare synkroniseringsdata när felsökning behövs.<br/><br/>Det här alternativet är inaktiverat som standard och bör endast aktiveras när det behövs för felsökning, eftersom fortsatt loggning påverkar prestandan negativt. Om den är aktiverad för felsökning bör den vara inaktiverad när den är klar.<br/><br/>**_Anteckning _**: Amazon loggning av Sales Channeler skrivs till `/var/log/channel_amazon.log` och kan visas i [utvecklarläge](../systems/developer-tools.md#operation-modes). |
 | [!UICONTROL Read-Only Mode] | Global | Välj `Enabled` för att blockera alla utgående API-begäranden som ändrar tillstånd. Möjliga ändringar sparas, men skickas inte, förrän skrivskyddat läge har inaktiverats. Om du vill starta dataöverföringen igen väljer du `Disabled`.<br/><br/>När en databas migreras till en ny kopia av instansen (identifieras när en butiks URL ändras i konfigurationen) aktiveras skrivskyddat läge automatiskt.<br/><br/>Detta är avsett att användas på kopior av produktionsinstansen, som _Mellanlagring_ eller _QA_ och ska inte användas i produktionsinstansen.<br/><br/>**_Anteckning _**: Konfigurationscachen måste rensas för [!UICONTROL Read-Only Mode] för att aktivera. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Contacts]'
 description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL Contacts] sidan för Commerce Admin.
 exl-id: 1acd6683-772d-431f-8b74-230163ded1be
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Contact Us] | Butiksvy | Aktiverar [_Kontakta oss_](../../getting-started/store-details.md#contact-us-form) och placerar en länk i sidfoten. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options]
 
@@ -38,4 +38,4 @@ ht-degree: 0%
 | [!UICONTROL Email Sender] | Butiksvy | Identifierar den butikskontakt som används för alla svar på e-postfrågor från _Kontakta oss_ sida. Standardavsändare: `Custom Email 2` |
 | [!UICONTROL Email Template] | Butiksvy | Anger mallen som ska användas som bas för alla svar på e-postfrågor från _Kontakta oss_ sida. Standardmall: `Contact Form` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] sidan för Commerce Admin.
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 0%
 | [!UICONTROL Max Products Sent in 1  Hour] | Butiksvy | Begränsar antalet produkter som kan delas av en enskild användare under en tidsperiod på en timme. |
 | [!UICONTROL Limit Sending By] | Butiksvy | Bestämmer vilken metod som används för att identifiera avsändaren. Alternativen är: <br/>**`IP Address`**- (Rekommenderas) Identifierar avsändaren med IP-adressen för den dator som används för att skicka produktmeddelanden.<br/>**`Cookie (unsafe)`** - Identifierar avsändaren med en webbläsarcookie. Den här metoden är inte säker eftersom användaren kan ta bort cookien för att undvika begränsningen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

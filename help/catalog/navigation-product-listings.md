@@ -3,9 +3,9 @@ title: Produktlistor
 description: Lär dig hur du ändrar produktlistekonfigurationen, som avgör hur många produkter som visas per sida och vilket attribut som används för att sortera listan.
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
-source-git-commit: 7ae9955b0283cb7bcd757e7b45fdbc4c3b2181ca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Sidnumreringsinställningarna visas högst upp och längst ned i listan och styr
 | ![Visa per sida](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Anger hur många produkter som visas per sida. |
 | ![Sidnumreringslänkar](./assets/control-pagination.png) | Sidnumreringslänkar - Navigeringslänkar till andra sidor. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Konfigurera sidnumreringskontrollerna
 

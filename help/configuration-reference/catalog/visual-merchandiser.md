@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] sidan för Commerce Admin.
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 0%
 | [!UICONTROL Color Attribute Code] | Global | Anger det attribut som används för att sortera produkter efter färg. Standardvärde: `color` |
 | [!UICONTROL Color Order] | Global | Bestämmer sorteringsordningen när produkter sorteras efter färg. Ange varje färg på en separat rad. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

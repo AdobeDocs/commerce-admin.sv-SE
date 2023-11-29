@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] sidan för Commerce Admin.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Share Customer Accounts] | Global | Bestämmer omfattningen för kundkonton i butikshierarkin. Alternativ: <br/>**`Global`**- Kundkontoinformationen delas med alla webbplatser och butiker i Commerce-installationen.<br/>**`Per Website`** - Kundkontoinformationen är begränsad till den webbplats där kontot skapades. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Online Minutes Interval] | Global | Anger hur länge en kunds onlineaktivitet är tillgänglig från administratören. Lämna tomt i standardintervallet 15 minuter. |
 | [!UICONTROL Customer Data Lifetime] | Global | Fastställer antalet minuter innan osparade data som anges av kunden förfaller. Som standard upphör osparade data att gälla efter 60 minuter. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Welcome Email] | Butiksvy | Identifierar e-postmallen som används för välkomstmeddelandet som skickas när kontot har bekräftats. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Global | Anger om fältet som används för att ange och lagra momsregistreringsnumret är synligt från butiken. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Password Options]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Password Length] | Global | Anger det minsta antalet tecken som tillåts i ett lösenord. Talet måste vara större än noll (`0`). |
 | [!UICONTROL Lockout Time (minutes)] | Global | Anger hur många minuter ett kundkonto är låst efter för många misslyckade inloggningsförsök. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Account Information Options]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Change Email Template] | Butiksvy | Identifierar den standardmall för e-post som används när en kund ändrar sin e-postadress. |
 | [!UICONTROL Change Email and Password Template] | Butiksvy | Identifierar den standardmall för e-post som används när en kund ändrar e-postadress och lösenord. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Name and Address Options]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Webbplats | Avgör om kundens företag ingår i namn- och adressformuläret. Alternativ: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Webbplats | Avgör om kundens faxnummer är inkluderat i namn- och adressformuläret. Alternativ: `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Commerce-alternativ
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Webbplats | Avgör om kundens företag ingår i namn- och adressformuläret. Alternativ: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Webbplats | Avgör om kundens faxnummer är inkluderat i namn- och adressformuläret. Alternativ: `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Credit Options]
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 | [!UICONTROL Store Credit Update Email Sender] | Butiksvy | Bestämmer den butiksidentitet som visas som avsändare av kredituppdateringsmeddelanden som skickas till kunder. |
 | [!UICONTROL Store Credit Update Email Template] | Butiksvy | Bestämmer e-postmallen som används för kredituppdateringar. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Login Options]
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | Webbplats | Avgör vad som händer efter det att kunderna har loggat in på sina konton. Om du vill dirigera om kunder till deras kontouppläggningar väljer du `Yes`. Alternativ: <br/>**`Yes`**- Kontrollpanelen för kontot visas när kunderna loggar in på sina konton.<br/>**`No`** - Kunderna kan fortsätta handla efter att ha loggat in på sina konton. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Address Templates]
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!UICONTROL HTML] | Butiksvy | Den här mallen definierar ordningen för adressfält som finns under _Kundadresser_ i administrationspanelen ([!UICONTROL Customers] > [!UICONTROL Manage Customers]). Detta påverkar även dem som _Lägg till ny adress_ sida när en kund skapar en faktura- eller leveransadress på sin kontosida. |
 | [!UICONTROL PDF] | Butiksvy | Mallen definierar hur fakturerings- och leveransadresserna visas på utskrivna fakturor, försändelser och kreditnotor. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Segments]
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Customer Segment Functionality] | Global | Avgör om kundsegment kan användas för att skapa riktade kampanjer. Alternativ: `Yes` / `No` |
 | [!UICONTROL Real-time Check if Customer is Matched by Segment] | Global | Avgör om kundsegment valideras i realtid. Alternativ: <br/>**[!UICONTROL Yes]**- Kundsegment valideras i realtid (standardvärde).<br/>**[!UICONTROL No]** - Kundsegment valideras av en enda SQL-villkorsfråga. Detta förbättrar resultatet för segmentvalidering om det finns många kundsegment i systemet. Valideringen fungerar dock inte med en delad databas eller när det inte finns några registrerade kunder. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CAPTCHA]
 
@@ -224,4 +224,4 @@ ht-degree: 0%
 | [!UICONTROL Symbols Used in CAPTCHA] | Webbplats | Avgör vilka bokstäver (a-z och A-Z) och siffror (0-9) som visas i CAPTCHA. Symboler som är svåra att skilja från andra symboler, till exempel `i`, `l`, eller `1`, ingår inte i standarduppsättningen med CAPTCHA-symboler. |
 | [!UICONTROL Case Sensitive] | Webbplats | Avgör om CAPTCHA-tecken är skiftlägeskänsliga. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

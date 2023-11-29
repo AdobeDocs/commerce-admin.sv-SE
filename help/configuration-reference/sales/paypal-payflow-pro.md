@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt;  [!UICONTROL
 description: Granska konfigurationsinställningarna i [!UICONTROL PayPal Payflow Pro] i [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] sidan för Commerce Admin.
 exl-id: 2aae038b-15c0-452a-98bc-4d97efbb60f6
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable this Solution] | Webbplats | Avgör om PayPal Payflow Pro är tillgängligt för dina kunder som betalningsmetod. |
 | [!UICONTROL Enable PayPal Credit] | Webbplats | Avgör om PayPal-kredit är tillgängligt för dina kunder som betalningsalternativ. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] banner på produktsidor. Alternativ: (samma som [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] banner on cart page. Alternativ: (samma som [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Payflow Pro]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | **[!UICONTROL Credit Card Settings]** |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | Webbplats | Bestämmer vilka kreditkort som är tillgängliga för kunder vid utcheckning. Välj varje kort som stöds. Alternativ: `American Express` (kräver ett extra avtal) / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -80,4 +80,4 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Webbplats | Visar en fullständig sammanfattning av radobjekten från kundens kundvagn på PayPal-webbplatsen. Alternativ: `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | Webbplats | Avgör om kunderna kan slutföra transaktionen från PayPal-webbplatsen eller måste återvända till din butik och slutföra ordergranskningssteget innan ordern skickas. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

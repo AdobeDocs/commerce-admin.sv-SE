@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL Web] sidan för Commerce Admin.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1795'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | [!UICONTROL Auto-redirect to Base URL] | Butiksvy | (För inställningar för en enskild butik) Om det finns en bruten länk på din webbplats dirigerar om trafiken till bas-URL:en i stället för till en sida med meddelandet&quot;Hittar inte 404 sida&quot;. Alternativ:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_Viktigt:_**Använd inte automatisk omdirigering till bas-URL för inställningar för flera lager. |
 | [!UICONTROL Catalog media URL format] | Global | Definierar [URL-format](../../catalog/catalog-urls.md) som tilldelats produkter och kategorier. Alternativ: Unik hash per bildvariant (äldre läge) definierar det konverterade filnamnet som ett unikt hash-värde. Bildoptimering baserad på frågeparametrar definierar [bildoptimering](../../content-design/media-gallery-image-optimization.md) process beroende på frågeparametrar. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Use Web Server Rewrites] | Butiksvy | PHP-baserade system innehåller vanligtvis en fil som kallas `index.php` i rotmappen. Som standard visas filnamnet i URL:en precis efter namnet på rotmappen. När detta är aktiverat utelämnas systemet `index.php` från webbadressen. Denna användbarhet gör varje URL mer koncis och påverkar inte prestanda eller rangordning. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Base URLs]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Base URL for Static View Files] | Butiksvy | En sökväg som pekar på platsen för statiska filer som används av temat, t.ex. CSS, teckensnitt, bilder och JavaScript. En platshållare används för att representera bas-URL. Om din Commerce-installation har flera platser med samma mappstruktur kan du ha olika mappar för varje plats. Ställ in konfigurationsomfånget på rätt plats innan du anger bas-URL:en för statiska vyfiler. Du kan även ange en mapp utanför din Commerce-installation. |
 | [!UICONTROL Base URL for User Media Files] | Butiksvy | En sökväg som pekar på platsen för katalogbilder och andra mediefiler. En platshållare används för att representera bas-URL. Om din Commerce-installation har flera webbplatser med samma mappstruktur kan du ha olika mediamappar för var och en av dem. Detta ger dig möjlighet att säkerhetskopiera och återställa varje mediemapp separat. Du kan även ange en mediamapp utanför din Commerce-installation. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Base URLs (Secure)]
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 | [!UICONTROL Upgrade Insecure Requests] | Butiksvy | När det här alternativet är aktiverat konverteras osäkra (`HTTP`) begäranden som tas emot från webbläsaren till den säkra (`HTTPS`). Alternativ: `Yes` / `No` |
 | [!UICONTROL Offloader Header] | Global | Anger `offloader_header` i serverkonfigurationen för att identifiera protokollet mellan klienten och belastningsutjämnaren. De flesta Commerce-installationer använder standardvärdet, `X-Forwarded-Proto` (XFP) för att identifiera protokollet som antingen `HTTP` eller `HTTPS`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Pages]
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 | [!UICONTROL CMS No Cookies Page] | Butiksvy | Identifierar en specifik CMS-sida som visas när cookies inte är aktiverade för webbläsaren. På sidan förklaras varför cookies används och hur du aktiverar dem för varje webbläsare. Standardsidan är Aktivera cookies. |
 | [!UICONTROL Show Breadcrumbs for CMS Pages] | Butiksvy | Avgör om ett spårningsspår visas på alla CMS-sidor i katalogen. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Layouts]
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Default Category Layout] | Global | Bestämmer [layout](../../content-design/page-layout.md) som används som standard för kategorisidor. Alternativ: <br/>**`No layout updates`**- Som standard är layoutuppdateringar inte tillgängliga för kategorisidor.<br/>**`Empty`** - I används som standard en tom layout för kategorisidor. <br/>**`1 column`**- I används som standard en enda kolumnlayout för kategorisidor.<br/>**`2 columns with left bar`** - I används som standard en layout med två kolumner och sidofältet till vänster för kategorisidor. <br/>**`2 columns with right bar`**- I används som standard en layout med två kolumner och sidofältet till höger för kategorisidor.<br/>**`3 columns`** - I används som standard en layout med tre kolumner och sidofält till vänster och höger för kategorisidor.<br/>**`Page - Full Width`**- (Kräver [!DNL Page Builder]) Som standard används layouten Sida - Full bredd för kategorisidor i .<br/>**`Category - Full Width`** - (Kräver [!DNL Page Builder]) I används som standard layouten Kategori - hel bredd för kategorisidor. <br/>**`Product - Full Width`**- (Kräver [!DNL Page Builder]) I används som standard layouten Produkt - hel bredd för kategorisidor. |
 | Standardsidlayout | Global | Bestämmer [layout](../../content-design/page-layout.md) som används som standard för CMS-sidor. Alternativ: <br/>**`No layout updates`**- Som standard är layoutuppdateringar inte tillgängliga för CMS-sidor.<br/>**`Empty`** - I används som standard en tom layout för CMS-sidor. <br/>**`1 column`**- I används som standard en enda kolumnlayout för CMS-sidor.<br/>**`2 columns with left bar`** - I används som standard en layout med två kolumner och sidofältet till vänster för CMS-sidor.<br/>**`2 columns with right bar`**- I används som standard en layout med två kolumner och sidofältet till höger för CMS-sidor.<br/>**`3 columns`** - I används som standard en layout med tre kolumner och sidofält till vänster och höger för CMS-sidor.<br/>**`Page - Full Width`**- (Kräver [!UICONTROL Page Builder]) Som standard används layouten Sida - Full bredd för CMS-sidor i .<br/>**`Category - Full Width`** - (Kräver [!UICONTROL Page Builder]) I används som standard layouten Kategori - hel bredd för CMS-sidor. <br/>**`Product - Full Width`**- (Kräver [!DNL Page Builder]) I används som standard layouten Produkt - Full bredd för CMS-sidor. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Cookie Settings]
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Use HTTP Only] | Butiksvy | Avgör om Commerce Cookies bara kan användas över en osäker kanal (http), eller också kan användas över en krypterad kanal (https). Alternativ: `Yes` / `No` |
 | [!UICONTROL Cookie Restriction Mode] | Webbplats | Avgör om läget för begränsning av cookie är aktiverat. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Session Validation Settings]
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 | [!UICONTROL Validate HTTP_x_FORWARDED_FOR] | Global | Verifierar utgående proxydata och kontrollerar att den vidarebefordrade adressen för en begäran matchar  `$_SESSION` data. Sessionen avslutas om en annan adress för vidarebefordrad har identifierats. Alternativ: `Yes` / `No` |
 | [!UICONTROL Validate HTTP_USER_AGENT] | Global | `USER_AGENT` hänvisar till den webbläsare eller enhet som används för att komma åt webbplatsen. Den verifierar att namnet och versionen på webbläsaren och operativsystemet matchar `$_SESSION` data. Sessionen avslutas om en annan användaragent identifieras från en begäran till en annan i samma session. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Browser Capabilities Detection]
 
@@ -149,6 +149,6 @@ ht-degree: 0%
 | [!UICONTROL Show Notice if JavaScript is Disabled] | Butiksvy | Om JavaScript är inaktiverat i webbläsaren visas ett meddelande som uppmanar användaren att aktivera JavaScript-alternativ: `Yes` / `No` (inaktiveras) |
 | [!UICONTROL Show Notice if Local Storage is Disabled] | Butiksvy | Visar ett meddelande om den lokala cachen är inaktiverad. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 [1]: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html

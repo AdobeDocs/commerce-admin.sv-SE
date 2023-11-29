@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: Granska konfigurationsinställningarna i [!UICONTROL PayPal Payments Advanced] i [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] sidan för Commerce Admin.
 exl-id: c9159408-fbdf-4146-8292-9952cd5d01fa
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable this Solution] | Webbplats | Avgör om Avancerade PayPal-betalningar är tillgängliga för dina kunder som betalningsmetod. |
 | [!UICONTROL Enable PayPal Credit] | Webbplats | Avgör om PayPal-kredit är tillgängligt för dina kunder som betalningsalternativ. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] banner på produktsidor. Alternativ: (samma som [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] banner on cart page. Alternativ: (samma som [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings]
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | [!UICONTROL Sort Order] | Butiksvy | Ett tal som bestämmer i vilken ordning som Avancerade PayPal-betalningar visas när de visas tillsammans med andra betalningsmetoder vid utcheckning. |
 | [!UICONTROL Payment Action] | Webbplats | Bestämmer vilken åtgärd som PayPal ska vidta när en order skickas. Alternativ: <br/>**`Authorization`**- Godkänner köpet, men spärrar pengarna. Beloppet dras inte tillbaka förrän handlaren&quot;fångar&quot; det.<br/>**`Sale`** - Köpbeloppet godkänns och dras omedelbart tillbaka från kundens konto. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Send Email Confirmation] | Webbplats | Avgör om kunden får en e-postbekräftelse på betalningen. Alternativ: `Yes` / `No` |
 | [!UICONTROL URL Method for Cancel URL and Return URL] | Webbplats | Bestämmer metoden som används för att utbyta information med PayPal-servern under en transaktion. Alternativ: <br/>**`GET`**- Hämtar information som är resultatet av en process. (Det här är standardmetoden.)<br/>**`POST`** - Skickar ett datablock, t.ex. data som matats in i ett formulär, till datahanteringsprocessen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | Global | Avgör hur ofta kvittningsrapporter genereras av PayPal. Alternativ: `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | Global | Anger timmen, minuten och sekunden som kvittningsrapporter genereras. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | Butiksvy | Den hexadecimala färgkoden med sex tecken för kanten med två pixlar runt rubriken. |
 | [!UICONTROL Page Background Color] | Butiksvy | Den hexadecimala färgkoden på sex tecken för bakgrundsfärgen på den utcheckningssida som visas bakom rubriken och betalningsformuläret. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Express Checkout]
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | Webbplats | Bestämmer vilken åtgärd som PayPal ska utföra när den tar emot en order. Alternativ: <br/>**`Authorization`**- Godkänner köpet, men spärrar pengarna. Beloppet dras inte tillbaka förrän handlaren&quot;fångar&quot; det.<br/>**`Sale`** - Köpbeloppet godkänns och dras omedelbart tillbaka från kundens konto. <br/>**`Order`**- Representerar ett avtal med PayPal som tillåter handlaren att inom en angiven tidsperiod inhämta ett eller flera belopp upp till den beställda summan från kundens köparkonto. Det kan vara upp till 29 dagar. En eller flera fakturor måste genereras från Commerce Admin för att du ska kunna samla in pengarna. |
 | [!UICONTROL URL Display on Product Details Page] | Butiksvy | Avgör om knappen&quot;Checka ut med PayPal&quot; visas på produktsidor. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL PayPal Express Checkout - Advanced Settings]
 
@@ -143,4 +143,4 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Webbplats | Visar en fullständig sammanfattning av radobjekten från kundens kundvagn på PayPal-webbplatsen. Alternativ: `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | Webbplats | Avgör om kunderna kan slutföra transaktionen från PayPal-webbplatsen eller måste återvända till din butik och slutföra ordergranskningssteget innan ordern skickas. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

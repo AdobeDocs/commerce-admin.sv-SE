@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] sidan för Commerce Admin.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 | [!UICONTROL Frequency] | Butiksvy | Anger hur ofta platskartekategorier uppdateras. Alternativ: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som bestämmer prioriteten för uppdateringar av kategoriplatskartan i förhållande till annat innehåll. Noll (`0.0`) har lägst prioritet. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Products Options]
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som bestämmer prioriteten för uppdateringar av produktplatskartan i förhållande till annat innehåll. Noll (`0.0`) har lägst prioritet. |
 | [!UICONTROL Add Images into Sitemap] | Butiksvy | Anger i vilken utsträckning bilder ska tas med i platskartan. Alternativ: `None` / `Base Only` / `All` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Pages Options]
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 | [!UICONTROL Frequency] | Butiksvy | Anger hur ofta CMS-sidor för platskartor uppdateras. Alternativ: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som bestämmer prioriteten för uppdateringarna av CMS-sidans platskarta i förhållande till annat innehåll. Noll (`0.0`) har lägst prioritet. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Url Options]
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 | [!UICONTROL Frequency] | Butiksvy | Anger hur ofta URL-adresser ska uppdateras. Alternativ: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som bestämmer prioriteten för uppdatering av butiks-URL i relation till annat innehåll. Noll (`0.0`) har lägst prioritet. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Generation Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Error Email Sender] | Webbplats | Identifierar den butikskontakt som visas som avsändare av felmeddelandet. Alternativ: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Error Email Template] | Webbplats | Identifierar e-postmallen som används för felmeddelandet. Standardmall: `Sitemap generate Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sitemap File Limits]
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 | [!UICONTROL Maximum No of URLs Per File] | Butiksvy | Anger det maximala antalet URL:er som kan inkluderas i en enskild platskarta. |
 | [!UICONTROL Maximum File Size] | Butiksvy | Anger den maximala storleken för den genererade platskartan, i byte. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Submission Settings]
 
@@ -103,4 +103,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | Butiksvy | Aktiverar direktiv som ska skickas för filen robots.txt. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

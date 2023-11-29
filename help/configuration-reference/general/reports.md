@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
 description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL Reports] sidan för Commerce Admin.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 | [!UICONTROL Year-to-Date Starts] | Global | Anger den månad och dag som beräkningar för det aktuella året baseras på. |
 | [!UICONTROL Current Month Starts] | Global | Anger den dag i månaden som används i beräkningar för att markera början av den aktuella månaden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Options]
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 | [!UICONTROL Enable "Product Added To Wishlist" Report] | Global | Aktiverar eller inaktiverar insamling av statistik för produkter som lagts till i önskelistan. |
 | [!UICONTROL Enable "Share WishList" Report] | Global | Aktiverar eller inaktiverar insamling av statistik för delade önskelistor. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

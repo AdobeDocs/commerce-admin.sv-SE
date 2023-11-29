@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Pa
 description: Granska konfigurationsinställningarna i [!UICONTROL Payment Services] i [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] sidan för Commerce Admin.
 exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 feature: Configuration, Payments
-source-git-commit: aafda7f534f4170825edb7c163e4221df2f205bb
+source-git-commit: bf166c1debd7f10a4d988d231a1a47f32c4cea9e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Betalningstjänster erbjuder en nyckelfärdig självbetjäningslösning, inklusi
 
 Om du vill komma åt konfigurationsinställningarna för Betalningstjänster går du till _Administratör_ sidebar går till **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** och klicka **[!UICONTROL Settings]**.
 
-![Betalningstjänster](assets/payment-services-menu-small.png){zoomable: no, width: 400px}
+![Betalningstjänster](assets/payment-services-menu-small.png){width="400"}
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Om du vill komma åt konfigurationsinställningarna för Betalningstjänster gå
 
 ## [!UICONTROL General]
 
-![Allmänna inställningar](assets/payments-general-settings.png){zoomable: ja, bredd: 600px}
+![Allmänna inställningar](assets/payments-general-settings.png){width="600" zoomable="yes"}
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |---|---|---|
@@ -34,29 +34,29 @@ Om du vill komma åt konfigurationsinställningarna för Betalningstjänster gå
 | [!UICONTROL Payment mode] | butiksvy | Ange metod, eller miljö, för din butik. Alternativ: [!UICONTROL Sandbox] / [!UICONTROL Production] |
 | [!UICONTROL Sandbox Merchant ID] | butiksvy | Ditt handlar-ID för sandlådan, som genereras automatiskt vid introduktion av sandlådor. |
 | [!UICONTROL Production Merchant ID] | butiksvy | Ditt handlar-ID för produktion, som genereras automatiskt när sandlådan introduceras. |
-| [!UICONTROL Soft Descriptor] | webbplats eller butiksvy | Lägg till en mjuk beskrivning till webbplatserna och butiksvyn för att lägga till information till kundtransaktioner som avgränsar varumärken, butiker eller produktrader. The [!UICONTROL Use website] växlingsknappen använder alla mjuka beskrivningar som har lagts till på webbplatsnivå. The [!UICONTROL Use default] växlingsknappen använder alla mjuka beskrivningar som har lagts till som standard. |
+| [!UICONTROL Soft Descriptor] | webbplats eller butiksvy | Lägg till en mjuk beskrivning till webbplatserna och butiksvyer som ger information om kundtransaktioner och avgränsar varumärken, butiker eller produktlinjer. The [!UICONTROL Use website] växlingsknappen använder alla mjuka beskrivningar som har lagts till på webbplatsnivå. The [!UICONTROL Use default] växlingsknappen använder alla mjuka beskrivningar som har lagts till som standard. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit card fields]
 
-![Inställningar för kreditkortsfält](assets/payments-ccfields-settings.png){zoomable: ja, bredd: 600px}
+![Inställningar för kreditkortsfält](assets/payments-ccfields-settings.png){width="600" zoomable="yes"}
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |---|---|---|
-| [!UICONTROL Title] | butiksvy | Lägg till texten som ska visas som rubrik för det här betalningsalternativet i vyn Betalningsmetod vid utcheckning. Alternativ: [!UICONTROL text field] |
+| [!UICONTROL Title] | butiksvy | Lägg till texten som ska visas som rubrik för det här betalningsalternativet i vyn Betalningsmetod vid utcheckning. |
 | [!UICONTROL Payment Action] | webbplats | The [betalningsåtgärd](payment-methods.md#payment-actions) för den angivna betalningsmetoden. Alternativ: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL 3DS Secure authentication] | webbplats | Aktivera eller inaktivera [Säker 3DS-autentisering](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security-compliance/security.html#3ds). Alternativ: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | webbplats | Aktivera eller inaktivera kreditkortsfält som ska visas på utcheckningssidan. Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Vault enabled] | butiksvy | Aktivera eller inaktivera [kreditkortsvalv](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | butiksvy | Aktivera eller inaktivera möjligheten för handlare att slutföra beställningar för kunder i administratören [med en betalningsmetod som är skyddad](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | butiksvy | Aktivera eller inaktivera möjligheten att slutföra beställningar för kunder i administratören [med en betalningsmetod som är skyddad](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | webbplats | Aktivera eller inaktivera felsökningsläget. Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment buttons]
 
-![Inställningar för betalningsknappar](assets/payments-ppbuttons-settings.png){zoomable: ja, bredd: 600px}
+![Inställningar för betalningsknappar](assets/payments-ppbuttons-settings.png){width="600" zoomable="yes"}
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |---|---|---|
@@ -72,11 +72,12 @@ Om du vill komma åt konfigurationsinställningarna för Betalningstjänster gå
 | [!UICONTROL Show Apple Pay button] | butiksvy | Aktivera eller inaktivera betalningsalternativet Apple Pay där betalningsknappar visas. Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal Credit and Debit card button] | butiksvy | Aktivera eller inaktivera alternativet för kredit- och betalkortsbetalning där betalningsknappar visas. Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | webbplats | Aktivera eller inaktivera felsökningsläget. Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
-{:style=&quot;table-layout:auto&quot;}
+
+{style="table-layout:auto"}
 
 ## [!UICONTROL PayPal Smart Button Styling]
 
-![Ställningsinställningar för PayPal-betalningsknappar](assets/payments-buttonstyle-settings.png){zoomable: ja, bredd: 600px}
+![Ställningsinställningar för PayPal-betalningsknappar](assets/payments-buttonstyle-settings.png){width="600" zoomable="yes"}
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -88,4 +89,4 @@ Om du vill komma åt konfigurationsinställningarna för Betalningstjänster gå
 | [!UICONTROL Height] | Butiksvy | Definiera höjden på betalningsknapparna. Standardvärde: ingen |
 | [!UICONTROL Label] | Butiksvy | Definiera etikett som visas i betalningsknapparna. Alternativ: [!UICONTROL PayPal] / [!UICONTROL Checkout] / [!UICONTROL Buynow] / [!UICONTROL Pay] / [!UICONTROL Installment] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

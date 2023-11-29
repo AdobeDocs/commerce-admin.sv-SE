@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Invitations] sidan för Commerce Admin.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Customers to Add Custom Message to Invitation Email] | Butiksvy | Avgör om det finns ett fält i inbjudningsformuläret där den som bjuder in kan lägga till ett anpassat meddelande som skickas till den som bjuder in via e-post. Detta påverkar inte administratörens möjlighet att lägga till ett meddelande i en inbjudan. Alternativ: `Yes` / `No`. |
 | [!UICONTROL Max Invitations Allowed to be Sent at One Time] | Butiksvy | Anger det maximala antalet inbjudningar som inbjudaren kan skicka samtidigt. En annan inbjudan skickas till varje e-postadress som inbjudaren inkluderar i formuläret. Detta skyddar serverresurserna genom att förhindra ett stort antal inbjudningar från att skickas samtidigt och gör det mindre troligt att inbjudningar skickas som skräppost. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email]
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 | [!UICONTROL Customer Invitation Email Sender] | Butiksvy | Avgör avsändaren av det e-postmeddelande som inbjudna får när ett e-postmeddelande med en inbjudan skickas. Standardvärde: `General Contact` |
 | [!UICONTROL Customer Invitation Email Template] | Butiksvy | Bestämmer mallen för det e-postmeddelande som inbjudna får när ett e-postmeddelande med en inbjudan skickas. Standardmall: `Customer Invitation` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] sidan för Commerce Admin.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-source-git-commit: 74cc15bd7e0873705b46175ae5f277b1753ec5b5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Asynchronous sending] | Global | Avgör om e-postmeddelanden om försäljning skickas asynkront. Du bör aktivera asynkron sändning. Alternativ: <br/>**`Disable`**- (Standard) E-post om försäljning skickas när den utlöses av en händelse.<br/>**`Enable`** - (Rekommenderas) E-postmeddelanden skickas med förbestämda, regelbundna intervall. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postbeställningsmeddelande. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Order Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Comments]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To|Store View] | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande med en orderkommentar. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Order Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice]
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett fakturameddelande. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Invoice Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice Comments]
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Comment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande med en fakturakommentar. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Invoice Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Shipment Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment Comments]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Comment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande med en försändelsekommentar. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Shipment Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande med kreditnota. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Credit Memo Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo Comments]
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Comment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande med en kreditnotskommentar. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Credit Memo Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 | Skicka beställningen klar för hämtning av e-postkopia till | Butiksvy | Anger e-postadressen till alla som ska få en kopia av en _Beställ klart för hämtning_ e-post. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Order Ready For Pickup Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativ: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Purchase Order Approval]
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 | [!UICONTROL Error creating Order from Purchase Order (to Buyer)] | Butiksvy | Meddelar den som skapat ordern att ett fel uppstod vid konvertering av en inköpsorder till en order. |
 | [!UICONTROL Purchase Order required Approval (to Approver)] | Butiksvy | Skickar ett e-postmeddelande för att meddela godkännaren att inköpsordern kräver deras godkännande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Quote]
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 | [!UICONTROL Send Quote Email Copy To] | Butiksvy | Anger e-postadressen till varje person som ska få en kopia av offertmeddelandet. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Quote Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA]
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett RMA-e-postmeddelande. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send RMA  Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Authorization]
 
@@ -257,7 +257,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Authorization Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett RMA-auktoriseringsmeddelande. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send RMA Authorization Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Admin Comments]
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av meddelandet. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Customer Comments]
 
@@ -293,4 +293,4 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av meddelandet. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

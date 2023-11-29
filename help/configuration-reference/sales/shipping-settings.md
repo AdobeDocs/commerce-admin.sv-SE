@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] sidan för Commerce Admin.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Leveransinst
 | [!UICONTROL Street Address] | Webbplats | Gatuadress till ursprungsplatsen. |
 | [!UICONTROL Street Address Line 2] | Webbplats | En extra rad för gatuadressen till ursprungsplatsen, om det behövs. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipping Policy Parameters]
 
@@ -40,4 +40,4 @@ Mer information om hur du ändrar de här inställningarna finns i [Leveransinst
 | [!UICONTROL Apply Custom Shipping Policy] | Webbplats | Anger om din leveransprofil visas under utcheckningen. Alternativ: `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | Butiksvy | Innehåller din leveranspolicy som text. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

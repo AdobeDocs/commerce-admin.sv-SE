@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] sidan för Commerce Admin.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3812'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Webbplats | Avgör om ett schablonbelopp visas som ett alternativ vid utcheckning om metoden inte gäller för köpet. Alternativ: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer i vilken ordning som ett schablonbelopp visas när det visas med andra leveransmetoder vid utcheckning. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | Visa metod om den inte är tillämplig | Webbplats | Avgör om Fri frakt visas som ett alternativ vid utcheckning om metoden inte gäller för köpet. Alternativ: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer i vilken ordning som Fri frakt ska visas när det visas med andra leveransmetoder vid utcheckning. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Webbplats | Avgör om tabellavgifter visas som ett alternativ vid utcheckning om metoden inte gäller för köpet. Alternativ: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer i vilken ordning som tabellavgifter visas när de visas tillsammans med andra leveransmetoder vid utcheckning. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Search Radius] | Webbplats | Den radie i km som ska användas vid sökning efter upphämtningsplatser. |
 | [!UICONTROL Displayed Error Message] | Butiksvy | Ett meddelande som visas när en kund väljer att hämta i butik, men leveransmetoden är inte tillgänglig. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Origin of the Shipment] | Webbplats | (Endast UPS XML) Det land eller den region där produktleveransen kommer. |
 | [!UICONTROL Password] | Butiksvy | Lösenordet för ditt UPS-fraktkonto. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS-paketinformation](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Webbplats | Anger om hanteringsavgift tillämpas på varje order eller på varje paket i en order. |
 | [!UICONTROL Handling Fee] | Webbplats | Anger den hantering som ingår i fraktpriset. Hanteringsavgift kan anges som ett fast belopp eller som en procentandel. <br/><br/>**_Obs!_**Om du anger ett procentvärde använder du decimalformatet `0.25` för 25 %. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Tillåtna UPS-metoder](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Webbplats | Anger det minsta totala beloppet som en order måste uppnå för att få fri frakt. |
 | [!UICONTROL Displayed Error Message] | Butiksvy | Felmeddelandet som visas när den här leveransmetoden inte är tillgänglig av någon anledning. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS-länder och andra inställningar](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Webbplats | Anger om dataöverföringar mellan din butik och UPS är loggade i systemet för felsökning. Om det inte finns något problem som måste spåras och loggas bör det här alternativet anges till `No`. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer den ordning som UPS visas i när det visas med andra leveransmetoder vid utcheckning. Retur `0` överst i listan. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Webbplats | Lösenordet för ditt USPS-avsändarkonto. |
 | [!UICONTROL Mode] | Webbplats | Anger vilket överföringssätt som används för data som skickas till USPS-systemet. Alternativen är: <br/>**`Development`**- USPS verifierar inte att data som tas emot från Commerce Server skickas via SSL.<br/>**`Live`** - USPS verifierar att data som tas emot från Commerce-servern skickas via ett säkert socketlager (SSL). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Inställningar för USPS-paketering](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Machinable] | Webbplats | Anger om paketet kan bearbetas av datorn. Det här alternativet påverkar beräkningen av fraktkostnaden. |
 | [!UICONTROL Maximum Package Weight] | Webbplats | Anger den maximala vikt ett paket kan ha enligt vad som anges av USPS. Om de beställda produkterna överstiger den högsta paketvikten är detta fraktalternativ inte tillgängligt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Avgiftsinställningar för USPS-hantering](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Webbplats | Anger om hanteringsavgift tillämpas på varje order eller på varje paket i en order. |
 | [!UICONTROL Handling Fee] | Webbplats | Anger den hantering som ingår i fraktpriset. Hanteringsavgift kan anges som ett fast belopp eller som en procentandel. <br/><br/>**_Obs!_**Använd decimalformatet när du anger ett procentvärde `0.25` för 25 %. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Tillåtna USPS-metoder](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Webbplats | Anger det minimiorderbelopp som måste uppfyllas för att få fri frakt. |
 | [!UICONTROL Displayed Error Message] | Butiksvy | Felmeddelandet som visas när USPS inte är tillgängligt av någon anledning. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS-länder](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Webbplats | Avgör om en logg över dataöverföringar mellan din butik och USPS hanteras av systemet för felsökning. Om det inte finns något problem som måste spåras och loggas bör det här alternativet anges till `No`. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer i vilken ordning USPS visas när det visas med andra leveransmetoder vid utcheckning. Retur `0` överst i listan. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 | [!UICONTROL Sandbox Mode] | Webbplats | Om du vill köra FedEx-transaktioner i en testmiljö ställer du in sandlådeläget till `Yes`. Alternativ: `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | Webbplats | Vilken URL som krävs beror på inställningen för sandlådeläge. Alternativ: <br/>**`Production`**- URL:en för åtkomst till FedEx-webbtjänster när butiken är aktiv.<br/>**`Sandbox`** - URL:en för att komma åt testmiljön för FedEx-webbtjänster. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx Packaging](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
 
@@ -290,7 +290,7 @@ ht-degree: 0%
 | [!UICONTROL Dropoff] | Webbplats | Välj hämtningsmetod i listan: <br/>**`Regular Pickup`**- (Standard) Om du har ett stort antal leveranser kan det vara kostnadseffektivt att ordna regelbundna upphämtningar.<br/>**`Request Courier`** - Du måste anropa och begära ett FedEx-bud för att kunna hämta leveranser. <br/>**`Drop Box`**- Du måste släppa av leveranser i den lokala FedEx-listrutan.<br/>**`Business Service Center`** - Du måste släppa av leveranser på ditt lokala FedEx-affärstjänstcenter. <br/>**`Station`**- Du måste släppa av leveranser på din lokala FedEx-station. |
 | [!UICONTROL Maximum Package Weight] | Webbplats | Standardvärdet för FedEx är 150 pund. Kontakta din fraktfirma för att få maximal vikt. Vi rekommenderar att du använder standardvärdet om du inte har särskilda arrangemang med FedEx. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Hanteringsavgift för FedEx](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
 
@@ -303,7 +303,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Webbplats | Avgör hur hanteringsavgifter tillämpas. Alternativ: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Webbplats | Anger det belopp som debiteras som en hanteringsavgift, baserat på den metod som används för att beräkna beloppet. Om avgiften baseras på en fast avgift, ange beloppet i decimalform, t.ex. `4.90`. Om hanteringsavgiften baseras på en procentandel av ordern anger du beloppet som en procentandel. Om du till exempel vill debitera sex procent av ordern anger du värdet som `.06`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Leveransmetoder för FedEx](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
 
@@ -320,7 +320,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Webbplats | Anger det minsta orderbelopp som krävs för fri frakt. |
 | [!UICONTROL Displayed Error Message] | Butiksvy | Meddelandet som visas när FedEx inte är tillgängligt av någon anledning. Du kan använda standardmeddelandet eller ange ett annat. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx tillämpliga länder](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
 
@@ -335,7 +335,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Webbplats | Avgör när FedEx visas som en leveransmetod vid utcheckning. Alternativ: <br/>**`Yes`**- Leveransalternativet FedEx visas i leveransmetodlistan, oavsett om beställningen är berättigad att använda den.<br/>**`No`** - Leveransalternativet FedEx visas inte i leveransmetodlistan om det inte gäller för ordern (t.ex. om orderns vikt överstiger den högsta vikten). |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer i vilken ordning FedEx ska visas när det visas med andra leveransmetoder vid utcheckning. Retur `0` överst i listan. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Webbplats | Lösenord till DHL-speditorkontot. |
 | [!UICONTROL Account Number] | Webbplats | Ditt DHL-fraktkontonummer. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Inställningar för DHL-paket](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
@@ -369,7 +369,7 @@ ht-degree: 0%
 | [!UICONTROL Weight Unit] | Butiksvy | Bestämmer måttenheten för vikt som används i leveransberäkningar. Alternativ: `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | Butiksvy | Anger paketets storlek. Alternativ: <br/>**`Regular`**- De levererade förpackningarna uppfyller kraven i DHL:s standardförpackningsmetoder. I [!UICONTROL Allowed Methods] väljer du de paketeringsmetoder som ska användas för att leverera produkter från din butik.<br/>**`Specific`** - Om levererade paket har anpassade dimensioner fyller du i följande: [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Tillåtna DHL-metoder](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
@@ -385,7 +385,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping with Minimum Order Amount] | Webbplats | Ange något av följande: <br/>**`Enable`**- För att möjliggöra fri DHL-leverans för beställningar som uppfyller minimibeloppet.<br/>**`Disable`** - Erbjud ingen fri DHL-leverans med minimiorder. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Webbplats | Om du aktiverar [!UICONTROL Free Shipping with Minimum Order]anger du minimiorderns belopp i fältet. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL-länder](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
@@ -400,4 +400,4 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Webbplats | Skapar en loggfil med felinformation. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer i vilken ordning DHL visas när det visas med andra leveransmetoder vid utcheckning. Om du vill placera den högst upp i listan anger du `0`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] sidan för Commerce Admin.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | Webbplats | Ange det land där handlaren är registrerad för att bedriva verksamhet. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Rekommenderade lösningar
 
@@ -86,7 +86,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med check eller penningorder. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, minsta eller högsta ordersumma. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning med check eller betalningsorder visas när det visas med andra betalningsmetoder i kassan. Retur `0` om du vill placera den högst upp i listan. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
@@ -105,7 +105,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, minsta eller högsta ordersumma. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning via banköverföring visas när det visas med andra betalningsmetoder under utcheckning. Retur `0` om du vill placera den högst upp i listan. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Payment on Account]
 
@@ -126,7 +126,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan debiteras ett företagskonto. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, minsta eller högsta ordersumma. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer den order som betalning på konto visas när det visas med andra betalningsmetoder vid utcheckning. Retur `0` om du vill placera den högst upp i listan. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, minsta eller högsta ordersumma. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning via banköverföring visas när det visas med andra betalningsmetoder under utcheckning. Retur `0` om du vill placera den högst upp i listan. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
@@ -166,7 +166,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder för vilka noll deltotal utcheckning kan tillämpas. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer i vilken ordning titeln, t.ex. &quot;Ingen betalningsinformation krävs&quot;, visas när det visas tillsammans med andra betalningsmetoder vid utcheckning. Retur `0` om du vill placera den högst upp i listan. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
@@ -185,7 +185,7 @@ I avsnittet Grundinställningar för varje enskild betalningsmetod finns en omfa
 | [!UICONTROL Order] | Representerar ett avtal med PayPal som gör att handlaren kan hämta ett eller flera belopp upp till ordersumman från kundens köparkonto inom en angiven tidsperiod (upp till 29 dagar). |
 | [!UICONTROL Sale] | Köpbeloppet godkänns och dras omedelbart tillbaka från kundens konto. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -208,4 +208,4 @@ I avsnittet Grundinställningar för varje enskild betalningsmetod finns en omfa
 | [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan betalas av inköpsorder. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, minsta eller högsta ordersumma. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer den order som betalning via inköpsorder visas när det visas med andra betalningsmetoder vid utcheckning. Retur `0` om du vill placera den högst upp i listan. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

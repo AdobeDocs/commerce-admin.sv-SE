@@ -4,9 +4,9 @@ description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 role: Admin
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 | [!UICONTROL Default Display Currency] | Butiksvy | Den primära valuta som används för att visa priser. |
 | [!UICONTROL Allowed Currencies] | Butiksvy | Valutorna som är godkända av din butik för betalning. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer.io (legacy)]
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 | [!UICONTROL API key] | Global | Nyckeln som används för att komma åt konverteringstjänsten via [!DNL fixer.io] konto. Mer information finns i [[!DNL fixer.io]](https://fixer.io/). |
 | [!UICONTROL Connection Timeout in Seconds] | Global | Avgör antalet sekunder av inaktivitet innan en Fixer.io-session tar slut. Standardvärde: `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 | [!UICONTROL API key] | Global | Nyckeln som används för att komma åt konverteringstjänsten via [!DNL APILayer] konto. Mer information finns i [[!DNL APILayer]](https://apilayer.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | Global | Anger antalet sekunder av inaktivitet före en [!DNL APILayer] timeout för session. Standardvärdet är `100`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Currency Converter API]
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 | [!UICONTROL API key] | Global | Nyckeln som används för att komma åt konverteringstjänsten. Mer information finns i [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | Global | Anger antalet sekunder av inaktivitet före en [!DNL Currency Converter] timeout för session. Standardvärde:`100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Scheduled Import Settings]
 
@@ -82,4 +82,4 @@ ht-degree: 1%
 | [!UICONTROL Error Email Sender] | Webbplats | Identifierar den butikskontakt som visas som avsändare av felmeddelandet. Standardavsändare: `General Contact` |
 | [!UICONTROL Error Email Template] | Webbplats | Anger mallen som används som bas för felmeddelandet. Standardmall: `Currency Update Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

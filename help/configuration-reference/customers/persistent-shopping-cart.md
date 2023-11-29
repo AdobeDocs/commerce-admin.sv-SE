@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart] sidan för Commerce Admin.
 exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 feature: Configuration, Shopping Cart
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 0%
 | [!UICONTROL Persist Recently Viewed Products] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Anger om tillståndet för nyligen visade produkter behålls när sessionen avslutas. Alternativ: <br/>**`Yes`**- Tillståndet för nyligen visade produkter sparas när sessionen avslutas.<br/>**`No`** - Tillståndet för nyligen visade produkter sparas inte när sessionen avslutas. |
 | [!UICONTROL Persist Customer Group Membership and Segmentation] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Anger om statusen för kundens gruppmedlemskap och segmenteringskriterier behålls när sessionen avslutas. Alternativ: <br/>**`Yes`**- Status för kundens gruppmedlemskap och segmenteringsdata sparas när sessionen avslutas.<br/>**`No`** - Tillståndet för kundens gruppmedlemskap och segmenteringsdata sparas inte när sessionen avslutas. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

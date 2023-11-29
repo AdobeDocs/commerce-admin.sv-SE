@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] sidan för Commerce Admin.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Butiksvy | Gör det möjligt för kunder att ta emot RSS-flöden från butiken. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Wish List]
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Butiksvy | När det här alternativet är aktiverat visas en RSS-matningslänk högst upp på önskelistesidorna. Sidan för delning av önskelista innehåller en kryssruta som kunden kan markera för att länka till flödet från delade önskelistor. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog]
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 | [!UICONTROL Coupons/Discounts] | Butiksvy | När det här alternativet är aktiverat publiceras meddelanden om kuponger eller rabatter. |
 | [!UICONTROL Top Level Category] | Butiksvy | Publicerar meddelanden om ändringar i katalogstrukturen på den översta nivån, vilket återspeglas i huvudmenyn. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -63,4 +63,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Customer Order Status Notification] | Butiksvy | Ger kunderna möjlighet att spåra deras beställningsstatus via RSS-flöden. När det här alternativet är aktiverat visas en RSS-matningslänk i ordningen |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

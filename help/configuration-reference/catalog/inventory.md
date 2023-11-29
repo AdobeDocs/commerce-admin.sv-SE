@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] sidan för Commerce Admin.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 80630957dbe25d21c45f64d8027a39b7b396619d
+source-git-commit: 768c9fdc37127b408230983e39e98b11149713a7
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Inventory Check On Cart Load] | Global | Avgör om en lagerkontroll utförs när en produkt läses in i kundvagnen. Om du inaktiverar den här lagerkontrollen kan du förbättra prestanda för utcheckningssteg, särskilt när det finns många artiklar i kundvagnen. Men om ni hoppar över förvalideringen kan kunderna se _slut på lager_ fel senare i utcheckningsprocessen. Alternativ: `Yes` / `No` |
 | [!UICONTROL Synchronize with Catalog] | Global | När inställt på `Yes`, justeras lagerdata efter katalogändringarna (t.ex. produktborttagningar, SKU-ändringar och ändringar av produkttyper) och säkerställer enhetlighet mellan lager och katalog. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Stock Options]
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Increments] | Global | Fastställer antalet produkter som utgör en kvantitetsökning. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | Global | Avgör om artiklar på kreditnotor automatiskt returneras till lagret. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Bulk Operations]
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL Run asynchronously] | Global | Avgör om du kör gruppåtgärder asynkront för massproduktåtgärder inklusive [bulk](../../inventory-management/bulk-assignment.md) tilldela källor, ta bort tilldelning från källor och [överför lager till källa](../../inventory-management/inventory-transfer.md). Den samlar in massåtgärder fram till _[!UICONTROL Asynchronous batch size]_kör sedan dessa åtgärder. Den här funktionen är inaktiverad som standard. Vi rekommenderar att du granskar prestanda med flera åtgärder innan du aktiverar. Alternativ:<br/>**`Yes`**- Kör alla gruppåtgärder för [!DNL Inventory Management] asynkront. Om du vill aktivera måste du konfigurera en asynkron köhanterare.<br/>**`No`**- Standard. Kör inte gruppåtgärder asynkront. |
 | [!UICONTROL Asynchronous batch size] | Global | Ange **[!UICONTROL Run asynchronously]** till `Yes` ange ett värde för _[!UICONTROL Asynchronous batch size]_fält. <br/>Standardbatchstorleken är 100. När gruppprocesser når den här mängden körs de. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Inventory Indexer Settings]
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Stock/Source reindex strategy] | Global | Bestämmer vilken strategi som används för omindexering av lager/källa. Alternativ: `Synchronous` / `Asynchronous` (en asynkron köhanterare måste konfigureras för asynkront läge) |
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 > På grund av behovet av lageruppdateringar för de orderrelaterade aktiviteterna aktiveras också lagerindexeraren när produkten sparas, oavsett `Synchronous` eller `Asynchronous` inställning.
 
-
-{:style=&quot;table-layout:auto&quot;}
 
 ## [!UICONTROL Distance Provider for Distance Based SSA]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Provider] | Global | Bestämmer vilken provider som ska användas för algoritmen för val av avståndsprioritetskälla. Den här funktionen är aktiverad som standard. Alternativ: <br/>**`Google MAP`**- Använder Google tjänster för att beräkna avståndet och tiden mellan leveransdestinationsadressen och källplatserna (adress och GPS-koordinater). Det här alternativet kräver en Google API-nyckel och kan medföra avgifter via Google.<br/>**`Offline Calculation`** - Beräknar avståndet med hjälp av en inbäddad databas för att fastställa närmaste källa till leveransens måladress. Om du vill använda det här alternativet kan du behöva utvecklarhjälp för att initialt hämta databasplatsinnehållet för alla länder som du levererar till via en kommandorad. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Distance Provider]
 
@@ -111,4 +111,4 @@ ht-degree: 0%
 | [!UICONTROL Computation mode] | Global | Anger riktningar och sökvägar för att beräkna avståndet från leveransadressen och alla källor som är tilldelade till lagret. Som standard används körläget vid beräkningar. Alternativ: <br/>**`Driving`**- Standardinställning, begär standardkörriktningar via vägnätet.<br/>**`Walking`** - Begär promenadanvisningar med fotgängare och sidospolar (där sådana finns). <br/>**`Bicycling`**- Begär cykelväggar med cykliska vägar och önskade gator (för närvarande endast tillgängligt i USA och vissa kanadensiska städer). |
 | [!UICONTROL Value] | Global | Anger vad som ska beräknas och returneras för avståndet och tiden för källplatserna till leveransdestinationsadressen. Algoritmen Distance Priority (Avståndsprioritet) rekommenderar källan med kortast möjliga avstånd eller tid till leveransadressen, vilket ger snabbare och eventuellt billigare leverans för att leverera försändelser. Alternativ: <br/>**`Distance`**- Returnerar avståndet mellan punkter i mått (kilometer och meter) eller i imperium (engelska mil och fot).<br/>**`Time to Destination`** - Returnerar den tid som krävs för att resa från källplatserna till leveransadressen i timmar och minuter. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

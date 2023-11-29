@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Promotions] sidan för Commerce Admin.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Email Send Failure Threshold] | Global | Antalet gånger som påminnelsen försöker skicka ut meddelanden till en viss e-postadress och misslyckas. När värdet är 0 finns det inget tröskelvärde och meddelanden skickas även fortsättningsvis trots eventuella fel. |
 | [!UICONTROL Reminder Email Sender] | Butiksvy | Butiksidentiteten som visas som avsändare av e-postmeddelandet. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 | [!UICONTROL Code Suffix] | Global | Ett värde som läggs till i slutet av alla koder. Om du inte vill använda ett suffix lämnar du fältet tomt. |
 | [!UICONTROL Dash Every X Characters] | Global | Intervallet för att infoga ett bindestreck (-) i alla kupongkoder. Om du inte vill använda ett streck lämnar du fältet tomt. <br/>_**Obs!**_ Kupongkoder som bara skiljer sig åt med bindestreck anses vara olika koder. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL General] sidan för Commerce Admin.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Se [Alternativ för land](../../getting-started/store-details.md#country-options
 | [!UICONTROL European Union Countries] | Global | Länder som är medlemmar i Europeiska unionen. |
 | [!UICONTROL Top Destinations] | Butiksvy | De primära länder som du riktar in dig på för försäljning. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL State Options]
 
@@ -41,7 +41,7 @@ Se [Lägesalternativ](../../getting-started/store-details.md#state-options) om d
 | [!UICONTROL State is required for] | Global | De länder (där du bedriver verksamhet) som kräver att en region eller stat ska anges i postadressen. |
 | [!UICONTROL Allow to Choose State if It is Optional for Country] | Global | För länder där det inte krävs, avgör om _Region/stat_ fältet är inkluderat i kundens postadress.<br /> <br />**`Yes`**- Innehåller _Region/stat_ fält i kundadressen, även om det inte krävs av landet.<br />**`No`** - Utesluter fältet Region/Delstat från kundadressen om det inte krävs av landet. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
@@ -57,7 +57,7 @@ Se [Nationella inställningar](../../getting-started/store-details.md#locale-opt
 | [!UICONTROL First Day of Week] | Butiksvy | Den dag som anses vara den första dagen i veckan på den marknad som butiksvyn betjänar. |
 | [!UICONTROL Weekend Days] | Butiksvy | Dagar som infaller på helgen på marknaden som hanteras av butiksvyn. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Website Restrictions]
 
@@ -76,7 +76,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Åtkomstbegr
 | [!UICONTROL HTTP Response] | Webbplats | Bestämmer det HTTP-svar som skickas när webbplatsen stängs och en anslutning görs av en robot, crawler eller spindel.<br /> <br />**`503 Service unavailable`**- Sidan är inte tillgänglig, men spindeln bör inte uppdatera indexet.<br />**`200 OK`** - Landningssidan är korrekt och bör av spindeln behandlas som den enda sidan på platsen. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Webbplats | Anger om fälten på _Inloggning_ och _Glömt lösenordet_ formulär fylls i automatiskt från tidigare poster. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Information]
 
@@ -97,7 +97,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Butiksinform
 | [!UICONTROL VAT Number] | Webbplats | Momsnumret för det företag som äger handelsinstallationen, om tillämpligt. |
 | [!UICONTROL Validate VAT Number] |  | Verifierar momsregistreringsnumret. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Single-Store Mode]
 
@@ -109,4 +109,4 @@ Mer information om hur du ändrar de här inställningarna finns i [Enstaka buti
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | Global | När det är aktiverat för single store-installationer döljs rutan för konfigurationsomfång och relaterade fältetikettalternativ: `Yes` / `No` <br/>**_Obs!_**Läget för en butik ignoreras för butiker med mer än en vy. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

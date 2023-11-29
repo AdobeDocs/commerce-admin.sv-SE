@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] sidan för Commerce Admin.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Avgör om belöningspoäng automatiskt dras av från bidragsbeloppet. Alternativ: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Butiksvy | Anger CMS-sidan som förklarar belöningspoängprogrammet. En länk till standardsidan för belöningar visas på de platser i din butik där poäng kan erhållas. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Review Submission] | Webbplats | Fastställer antalet poäng som en kund som skickar in en granskning som godkänts för publicering får. |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | Webbplats | Begränsar antalet recensioner som kan användas för att få poäng per kund. Lämna tomt om du inte vill ha någon begränsning. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -76,4 +76,4 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Warning Email] | Butiksvy | Bestämmer mallen för e-postmeddelandet som kunderna får när utgångsvarningsgränsen har nåtts för en grupp punkter. Standardmall: `Reward Points Expiry Warning` |
 | [!UICONTROL Expiry Warning before (days)] | Global | Anger hur många dagar före utgångsdatum som meddelandet ska skickas. Lämna tomt om du inte vill skicka några förfallomeddelanden. Meddelandet skickas inte om antalet angivna dagar är större än poängens återstående livstid. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

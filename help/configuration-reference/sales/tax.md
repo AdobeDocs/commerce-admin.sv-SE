@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Tax] sidan för Commerce Admin.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: 0d1bb3666be18676acd770b6b96e4ee46d3cf1c9
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Skatteklasse
 | [!UICONTROL Default Tax Class for Product] | Global | Identifierar den standardskatteklass som används för produkter. |
 | [!UICONTROL Default Tax Class for Customer] | Global | Identifierar den standardskatteklass som används för kunder. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Calculation Settings]
 
@@ -50,7 +50,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Skatteklasse
 | [!UICONTROL Apply Tax On] | Webbplats | Avgör om momsen gäller för det ursprungliga priset eller för ett anpassat pris, om tillgängligt. Alternativ: `Custom price if available` / `Original price only` |
 | [!UICONTROL Enable Cross Border Trade] | Webbplats | När det här alternativet är aktiverat tillämpas konsekventa priser över gränserna för regioner med olika skattesatser. Alternativ: `Yes` / `No` <br/><br/>**_Obs!_**Vid användning av gränsöverskridande handel justeras vinstmarginalen efter skattesats. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Tax Destination Calculation]
 
@@ -62,7 +62,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Skatteklasse
 | [!UICONTROL Default State] | Butiksvy | Anger vilket tillstånd momsberäkningar baseras på. En asterisk (*) kan fungera som ett jokertecken för att ange alla lägen i det valda landet. |
 | [!UICONTROL Default Post Code] | Butiksvy | Identifierar postnumret eller postnumret som momsberäkningarna baseras på. En asterisk (*) kan fungera som jokertecken för att ange alla postnummer i det valda läget. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price Display Settings]
 
@@ -75,7 +75,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Konfigurera 
 | [!UICONTROL Display Product Prices in Catalog] | Butiksvy | Avgör om produktpriser som publiceras i katalogen inkluderar eller exkluderar moms, eller visar två versioner av priset, en med och den andra utan moms. Alternativ: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Obs!_**Om du anger att fältet Visa produktpriser ska vara `Including Tax`visas momsen bara om det finns en momsregel som matchar skatteursprunget eller om det finns en kundadress som matchar momsregeln. Händelser som kan utlösa en matchning är bland annat att skapa ett kundkonto, logga in eller använda skattnings- och leveransberäkningsverktyget i kundvagnen. |
 | [!UICONTROL Display Shipping Prices] | Butiksvy | Avgör om leveranspriserna inkluderar eller exkluderar moms, eller visar två versioner av leveranspriset; den ena med och den andra utan moms. Alternativ: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
@@ -92,7 +92,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Konfigurera 
 | [!UICONTROL Display Full Tax Summary] | Butiksvy | Avgör om kundvagnen innehåller en fullständig momssammanfattning. Alternativ: `Yes` / `No` |
 | [!UICONTROL Display Zero Tax Subtotal] | Butiksvy | Avgör om kundvagnen innehåller en momsdelsumma när momsen är noll. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
@@ -111,7 +111,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Konfigurera 
 | [!UICONTROL Display Gift Wrapping Prices] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Anger om priserna för presentationer ska inkluderas i delsumman. Alternativ: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 | [!UICONTROL Display Printed Card Prices] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Anger om priset på utskrivna kort ska ingå i delsumman. Alternativ: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixed Product Taxes]
 
@@ -130,4 +130,4 @@ Mer information om hur du ändrar de här inställningarna finns i [Fast produkt
 | [!UICONTROL FPT Tax Configuration] | Webbplats | Bestämmer hur FPT-skatt beräknas. Alternativ: <br/>**`Not Taxed`**- Välj det här alternativet om din skattejurisdiktion inte beskattar FPT. (Exempel: Kalifornien.)<br/>**`Taxed`** - Välj det här alternativet om din skattejurisdiktion inte beskattar FPT. (Till exempel Kanada.) <br/>**`Loaded and Displayed with Tax`**- Klicka på det här alternativet om FPT läggs till i ordersumman innan moms används. (Exempel: EU-länder.) |
 | [!UICONTROL Include FPT in Subtotal] | Webbplats | Avgör om FPT ingår i kundvagnens delsumma. Alternativ: <br/>**`Yes`**- Inkluderar FPT i kundvagnens delsumma.<br/>**`No`** - FPT ingår inte i delsumman och läggs efter delsumman i kundvagnen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

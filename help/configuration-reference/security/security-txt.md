@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Security] &gt; [!UICONTROL Security.txt] sidan för Commerce Admin.
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Mer information om hur du ändrar dessa konfigurationsinställningar finns i [Ra
 |--- |--- |--- |
 | [!UICONTROL Enable] | Webbplats | När det här alternativet är aktiverat `security.txt` filen sparas och innehåller information som krävs av säkerhetsforskare för att rapportera potentiella säkerhetsluckor till dig. Alternativ:<br />**`Yes`**- Skapar `security.txt` fil baserad på information som anges i _Kontaktinformation_ och _Annan information_ -avsnitt.<br />**`No`** - (standard) Skapar inte `security.txt` -fil. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Contact information]
 
@@ -36,7 +36,7 @@ Mer information om hur du ändrar dessa konfigurationsinställningar finns i [Ra
 | [!UICONTROL Phone] | Webbplats | Ett telefonnummer som kan användas för att rapportera säkerhetsproblem. |
 | [!UICONTROL Contact Page] | Webbplats | URL-adressen till en sida på din webbplats som innehåller en lista över säkerhetskontakter eller _Kontakta oss_ sida. Exempel: <br/>`https://mystore.com/security-contact.html`<br/>`https://mystore.com/contact/` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Other information]
 
@@ -51,4 +51,4 @@ Mer information om hur du ändrar dessa konfigurationsinställningar finns i [Ra
 | [!UICONTROL Policy] | Webbplats | URL:en till sidan som beskriver din säkerhetspolicy och rutiner för rapportering av säkerhetsluckor. Exempel: `https://mystore.com/security-reporting.html` Standard: `https://mystore.com/security` |
 | [!UICONTROL Signature] | Webbplats | En länk till din digitala signaturfil. Den digitala signaturen måste genereras från kommandoraden och sparas i `.well-known` på servern. Mer information finns i [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) på GitHub. Exempel: `https://mystore.com/.well-known/security.txt.sig` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

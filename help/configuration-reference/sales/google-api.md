@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Google API] sidan för Commerce Admin.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | Butiksvy | Avgör om identifieringsinformation tas bort från IP-adresser som visas i [!DNL Google Analytics] resultat. |
 | [!UICONTROL Enable Content Experiments] | Butiksvy | Aktiverar [Google Content Experiments](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), som kan användas för att testa upp till tio olika versioner av samma sida. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Analytics - Google Tag Manager]
 
@@ -48,7 +48,7 @@ När **[!UICONTROL Account Type]** är inställd på `Google Tag Manager`visas y
 | [!UICONTROL List property for the search results page] | Butiksvy | Anger [!DNL Google Tag Manager] egenskap som är associerad med sökresultatsidan. Standardvärde: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Butiksvy | Anger [!DNL Google Tag Manager] egenskap som är associerad med etiketterna för interna kampanjer. Standardvärde: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google AdWords]
 
@@ -68,7 +68,7 @@ När **[!UICONTROL Account Type]** är inställd på `Google Tag Manager`visas y
 | [!UICONTROL Conversion Value] | Butiksvy | Anger värdet som används för en _[!UICONTROL Constant]_konverteringsvärdetyp. |
 | [!UICONTROL Send Order Currency] | Butiksvy | Aktiverar transaktionsspecifika valutakonverteringsvärden i AdWords (för webbplatser med olika basvalutor). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google GTag]
 
@@ -88,7 +88,7 @@ När **[!UICONTROL Account Type]** är inställd på `Google Tag Manager`visas y
 | [!UICONTROL Anonymize IP] | Butiksvy | Avgör om identifieringsinformation tas bort från IP-adresser som visas i Google Analytics-resultat. |
 | [!UICONTROL Enable Content Experiments] | Butiksvy | Aktiverar [Google Content Experiments](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), som kan användas för att testa upp till tio olika versioner av samma sida. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
 
@@ -108,7 +108,7 @@ När **[!UICONTROL Account Type]** är inställd på `Google Tag Manager`visas y
 | [!UICONTROL List property for the search results page] | Butiksvy | Anger [!DNL Google Tag Manager] egenskap som är associerad med sökresultatsidan. Standardvärde: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Butiksvy | Anger [!DNL Google Tag Manager] egenskap som är associerad med etiketterna för interna kampanjer. Standardvärde: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google AdWords]
 
@@ -128,4 +128,4 @@ När **[!UICONTROL Account Type]** är inställd på `Google Tag Manager`visas y
 | [!UICONTROL Conversion Value] | Butiksvy | Anger värdet som används för en _[!UICONTROL Constant]_konverteringsvärdetyp. |
 | [!UICONTROL Send Order Currency] | Butiksvy | Aktiverar transaktionsspecifika valutakonverteringsvärden i AdWords (för webbplatser med olika basvalutor). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

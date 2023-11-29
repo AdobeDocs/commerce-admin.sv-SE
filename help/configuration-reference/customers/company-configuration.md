@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] sidan för Commerce Admin.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Mer information om hur du konfigurerar de här inställningarna finns i [Aktiver
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | Webbplats | Bestämmer om besökarna i din butik har möjlighet att välja [register](../../customers/customer-sign-in.md) för ett företagskonto eller ett enskilt konto. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
@@ -47,7 +47,7 @@ Mer information om hur du konfigurerar de här inställningarna finns i [Aktiver
 | [!UICONTROL Send Email Copy Method] | Butiksvy | E-postmetoden som används för att skicka en kopia av registreringens e-postmeddelande. Alternativ: `Bcc` / `Separate Email` |
 | [!UICONTROL Default Company Registration Email] | Butiksvy | E-postmallen som används som standard för företagsregistreringsmeddelandet. Standardmall: `Company Registration Request` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer-Related Emails]
 
@@ -63,7 +63,7 @@ Mer information om hur du konfigurerar de här inställningarna finns i [Aktiver
 | [!UICONTROL Default 'Customer Status Active' Email] | Butiksvy | E-postmallen som används som standard när en kunds status blir aktiv. Det här e-postmeddelandet skickas endast till kunden. Standardmall: `Customer Status Active` |
 | [!UICONTROL Default 'Customer Status Inactive' Email] | Butiksvy | E-postmallen som används som standard när en kunds status blir inaktiv. Det här e-postmeddelandet skickas endast till kunden. Standardmall: `Customer Status Inactive` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Status Change]
 
@@ -80,7 +80,7 @@ Mer information om hur du konfigurerar de här inställningarna finns i [Aktiver
 | [!UICONTROL Default 'Company Status Change to Blocked' Email] | Butiksvy | E-postmallen som används som standard när ett företags status ändras till _Blockerad_. Standardmall: `Company Status Blocked` |
 | [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Butiksvy | E-postmallen som används som standard när ett företags status ändras till _Väntar på godkännande_. Standardmall: `Company Status Pending Approval` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Credit]
 
@@ -97,4 +97,4 @@ Mer information om hur du konfigurerar de här inställningarna finns i [Aktiver
 | [!UICONTROL Refunded Email Template] | Butiksvy | E-postmallen som används som standard när ett belopp från en order återbetalas till företagskrediter. Det här e-postmeddelandet skickas till företagsadministratören. Standardmall: `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Butiksvy | E-postmallen som används som standard när en order återställs till företagskrediter. Det här e-postmeddelandet skickas till företagsadministratören. Standardmall: `Order Reverted to Company Credit` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

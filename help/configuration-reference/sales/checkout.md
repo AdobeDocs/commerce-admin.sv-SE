@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Checkout] sidan för Commerce Admin.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Address Search] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Anger om kunderna kan använda [adresssökning](../../stores-purchase/checkout-address-search.md) för leverans, granskning och betalningar. När detta är aktiverat använder du alternativet Antal kundadresser (Limit) för att ange antalet sparade adresser som krävs för att aktivera den här funktionen vid utcheckning. Alternativ: `Yes` / `No` |
 | Gräns för antal kundadresser | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) När adresssökning är aktiverat, avgör hur många sparade adresser som krävs för att aktivera den här funktionen vid utcheckning. När kundens antal sparade adresser uppfyller eller överstiger det här antalet återges endast standardadressen på _Leverans_ och _Granska och betala_ steg. Kunden kan använda en sökfunktion för att ändra den valda adressen. Standardvärdet är `10`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Preview Quote Lifetime (minutes)] | Butiksvy | Bestämmer den maximala åldern för offerten i minuter när den förhandsgranskas från kundvagnen. |
 | [!UICONTROL Enable Clear Shopping Cart] | Webbplats | Avgör om kundvagnen visar alternativet för användare att rensa innehållet i vagnen i en enda åtgärd. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Cart Link]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Cart Summary] | Webbplats | Anger vilket värde som visas inom parentes efter länken Min kundvagn. Alternativ: `Display number of items in cart` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Mini Cart
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Number of Items to Display Scrollbar] | Butiksvy | Anger antalet objekt som kan visas i minivagnen innan rullningslisten aktiveras. Standard: `5` |
 | [!UICONTROL Maximum Number of Items to Display] | Butiksvy | Anger det maximala antalet artiklar som kan visas i minivagnen. Standard: `10` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment Failed Emails]
 
@@ -95,4 +95,4 @@ ht-degree: 0%
 | [!UICONTROL Send Payment Failed Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande om misslyckade betalningar. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Payment Failed Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativ: <br />**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br />**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

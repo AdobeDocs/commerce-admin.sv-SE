@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] sidan för Commerce Admin.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!UICONTROL Gift Card Notification Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av presentkortets e-postmeddelande. Standardvärde: `General Contact` |
 | [!UICONTROL Gift Card Notification Email Template] | Butiksvy | Bestämmer [mall](../../systems/email-templates.md) som används för presentkortsmeddelanden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!UICONTROL Gift Message Maximum Length] | Butiksvy | Anger det maximala antalet tecken som tillåts i ett presentkortsmeddelande. Standardvärde: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Avgör om ett presentkortskonto genereras när en kund gör en beställning eller när ordern faktureras. Alternativ: `Ordered` / `Invoiced` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 | [!UICONTROL Gift Card Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av presentkortets e-postadress. Standardvärde: `General Contact` |
 | [!UICONTROL Gift Card Template] | Butiksvy | Bestämmer [mall](../../systems/email-templates.md) som används för presentkortets e-postadress. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -75,4 +75,4 @@ ht-degree: 0%
 | [!UICONTROL Low Code Pool Threshold] | Global | Fastställer antalet poster i kodpoolen som utlöser en varning om att poolen måste fyllas på. |
 | [!UICONTROL Generate] | Global | Klicka för att generera en lista med presentkortskoder. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

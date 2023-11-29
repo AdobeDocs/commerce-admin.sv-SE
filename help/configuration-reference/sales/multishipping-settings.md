@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] sidan för Commerce Admin.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: fcecad03e0b2176dbf5825546efb3d689f3187d5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Detaljerad information om hur du konfigurerar de här inställningarna för fler
 | [!UICONTROL Allow Shipping to Multiple Addresses] | Webbplats | Avgör om du tillåter att enstaka order skickas till flera adresser (endast registrerade kunder). Alternativ: `Yes` / `No` |
 | [!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses] | Webbplats | Anger en gräns för hur många enheter av en produkt som kan levereras till flera adresser. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

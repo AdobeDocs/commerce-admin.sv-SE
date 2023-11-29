@@ -2,9 +2,9 @@
 title: Konfigurationsomfattning
 description: Lär dig hur du anger omfånget för konfigurationsinställningar i Commerce Admin.
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
-source-git-commit: eb61d90c0a3bf5cac976fc8b79b23dc717aca3e6
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Vyn Store i det övre vänstra hörnet av många konfigurationssidor filtrerar v
 | [!UICONTROL Default Store View] | Namnet på den standardbutiksvy som är associerad med det överordnade arkivet. |
 | [!UICONTROL Stores Configuration] | Hoppar till rutnätet Lagrar, och det är samma sak som att välja [!UICONTROL Stores] > [!UICONTROL All Stores] från sidofältet Admin. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Använd kryssrutorna Systemvärde](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ Kryssrutans etikett ändras enligt det aktuella omfånget och refererar alltid t
 | [!UICONTROL Use Default] | Den här kryssrutan visas när konfigurationsomfånget är inställt på Main `Website`, och refererar till det standardarkiv som är tilldelat webbplatsen. |
 | [!UICONTROL Use Website] | Den här kryssrutan visas när konfigurationsomfånget är inställt på en viss butiksvy. När du väljer det här alternativet används inställningen från den överordnade webbplatsen som är associerad med butiksvyn. I det här fallet hoppas butiksnivån över eftersom den används i standardbutiken som är kopplad till webbplatsen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Ange omfånget
 
@@ -94,4 +94,4 @@ Gör följande innan du gör en konfigurationsinställning som bara gäller för
 | Språk | För att kunna hantera flera språk måste allt innehåll, inklusive produktbeskrivningar, vara [översatt](../stores-purchase/store-localize.md#localize-products) för varje butiksvy. |
 | Visa valuta | En annan [visningsvaluta](../stores-purchase/currency-configuration.md) kan användas för varje butiksvy, även om transaktionerna bearbetas på webbplatsnivå med basvalutan. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

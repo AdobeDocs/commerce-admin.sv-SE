@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Security] &gt; [!UICONTROL 2FA] sidan för Commerce Admin.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorau
 | [!UICONTROL Providers to use] | Global | Anger de tvåfaktorautentiseringsmetoder som du behöver. Om du väljer mer än en leverantör måste varje användare konfigurera varje 2FA-metod nästa gång de loggar in. |
 | [!UICONTROL Configuration Email URL for Web API] | Global | För anpassade implementeringar, URL:en för en alternativ e-postkonfigurationslänk som skickas till _Administratör_ användare vid första inloggningen. Använd platshållaren i e-postmallen `:tfat` för att ange var token matas in. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google]
 
@@ -39,7 +39,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorau
 |--- |--- |--- |
 | [!UICONTROL OTP Window] | Global | Livslängden i sekunder för varje engångslösenord som genereras av Google Authenticator. Standard: `30` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Duo Security]
 
@@ -51,7 +51,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorau
 | [!UICONTROL Secret Key] | Global | Den hemliga nyckeln från din [!DNL Duo Security] konto. |
 | [!UICONTROL API Hostname] | Global | API-värdnamnet från din [!DNL Duo Security] konto. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authy]
 
@@ -62,7 +62,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorau
 | [!UICONTROL API Key] | Global | API-nyckeln från [!DNL Authy] konto. |
 | [!UICONTROL OneTouch Message] | Global | Meddelandet som visas i [!DNL Authy] autentiseraren vid inloggning. Standard: `Login request to your Magento Admin` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL U2F Key]
 
@@ -72,4 +72,4 @@ Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorau
 |--- |--- |--- |
 | [!UICONTROL WebApi Challenge Domain] | Global | Domänen som används för att utfärda och bearbeta [!DNL WebAuthn] problem för anpassade WebAPI-implementeringar. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Magento Web API]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] sidan för Commerce Admin.
 exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
 feature: Configuration, Integration
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Default Response Charset] | Butiksvy | Anger standardteckenuppsättningen. Om den är tom används UTF-8. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL GraphQl Input Limits]
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Input Limits] | Butiksvy | Anger om indatagränser är aktiverade för GraphQL-anrop. Standardvärde: `No`. |
 | [!UICONTROL Maximum Page Size] | Butiksvy | Anger det maximala antalet objekt som tillåts i ett sidnumrerat sökresultat i GraphQL-svaret. Det här alternativet är inte tillgängligt när _Aktivera indatagränser_ = `No`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Web Api Input Limits]
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Maximum Page Size] | Butiksvy | Anger det maximala antalet objekt som tillåts i ett sidnumrerat sökresultat i webb-API-svaret. Det här alternativet är inte tillgängligt när _Aktivera indatagränser_ = `No`. |
 | [!UICONTROL Default Page Size] | Butiksvy | Anger standardantalet objekt i ett sidnumrerat sökresultat i webb-API-svaret. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Web API Security]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Allow Anonymous Guest Access] | Global | Fastställer att gäster kan få anonym åtkomst till CMS, katalog och lagra resurser från både SOAP- och REST-API:er. Som standard tillåts inte anonym gäståtkomst. Alternativ: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL JWT Authentication]
 
@@ -71,4 +71,4 @@ ht-degree: 0%
 | [!UICONTROL Customer JWT Expires In] | Global | Anger tiden (i minuter) innan en kundens JWT-bearer-token upphör att gälla. Kundens JWT-bearer-token upphör att gälla om 30 minuter om det här fältet är tomt eller har ett negativt värde. Standardvärde: `60` |
 | [!UICONTROL Admin User JWT Expires In] | Global | Anger tiden (i minuter) innan Admin JWT Bearer-token upphör att gälla. Admin JWT Bearer-token upphör att gälla om 30 minuter om det här fältet är tomt eller har ett negativt värde. Standardvärde: `60` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
