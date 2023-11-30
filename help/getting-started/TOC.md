@@ -5,7 +5,7 @@ breadcrumb-title: Komma igång
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 14c8c656fdba7bd08451161594d1347897ff6f12
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 0%
@@ -69,7 +69,7 @@ ht-degree: 0%
    + [Kundrapporter](customer-reports.md)
    + [Produktrapporter](product-reports.md)
    + [Privata försäljningsrapporter](private-sales-reports.md)
-   + [Business Intelligence-verktyg](business-intelligence.md)
+   + [Commerce Intelligence-verktyg](business-intelligence.md)
    + [New Relic-rapportering](new-relic-reporting.md)
 + Resurs {#resources}
    + [Ekosystem](resources.md)

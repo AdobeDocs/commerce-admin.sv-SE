@@ -1,32 +1,32 @@
 ---
-title: '''[!DNL Business Intelligence] verktyg'
-description: Läs om hur Adobe Commerce och Magento Open Source kan använda intelligenta verktyg för att få den kunskap som behövs för att fatta sunda affärsbeslut.
+title: '''[!DNL Commerce Intelligence] verktyg'
+description: Läs om hur Adobe Commerce och Magento Open Source kan använda Commerce Intelligence-verktyg för att få den kunskap som behövs för att fatta sunda affärsbeslut.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
 
-# [!DNL Business Intelligence] verktyg
+# [!DNL Commerce Intelligence] verktyg
 
-Använd intelligenta verktyg för att få den kunskap som behövs för att fatta sunda affärsbeslut.
+Använd Commerce Intelligence-verktygen för att få den kunskap som behövs för att fatta sunda affärsbeslut.
 
-## [!DNL Business Intelligence] konto
+## [!DNL Commerce Intelligence] konto
 
-När du aktiverar [!DNL Business Intelligence] via Adobe får du tillgång till fem instrumentpaneler med ungefär 70 rapporter. Dessa rapporter är utformade för att ge insikter om era data och svara på frågor som&quot;Hur växer mina order månadsvis?&quot;,&quot;Vilka är mina mest lojala kunder?&quot; och&quot;Fungerar min kupongstrategi?&quot; Mer information om den här verktygsuppsättningen finns i [Användarhandbok för MBI][1].
+När du aktiverar [!DNL Commerce Intelligence] via Adobe får du tillgång till fem instrumentpaneler med ungefär 70 rapporter. Dessa rapporter är utformade för att ge insikter om era data och svara på frågor som&quot;Hur växer mina order månadsvis?&quot;,&quot;Vilka är mina mest lojala kunder?&quot; och&quot;Fungerar min kupongstrategi?&quot; Mer information om den här verktygsuppsättningen finns i [Användarhandbok för Commerce Intelligence][1].
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] ingår i Adobe Commerce och Magento Open Source. Den här funktionen ger er tillgång till en uppsättning dynamiska rapporter som baseras på era produkt-, order- och kunddata, med en anpassad kontrollpanel som är anpassad efter era affärsbehov. while [!DNL Advanced Reporting] använder [!DNL Business Intelligence] för analyser behöver du inte ha något Business Intelligence-konto att använda [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] ingår i Adobe Commerce och Magento Open Source. Den här funktionen ger er tillgång till en uppsättning dynamiska rapporter som baseras på era produkt-, order- och kunddata, med en anpassad kontrollpanel som är anpassad efter era affärsbehov. while [!DNL Advanced Reporting] använder [!DNL Commerce Intelligence] för analyser behöver du inte ha något Commerce Intelligence-konto för att kunna använda [!DNL Advanced Reporting].
 
 Teknisk information finns i [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&quot;} i utvecklardokumentationen.
 
 >[!NOTE]
 >
->[!DNL Business Intelligence] konton använder inbyggd rapportering, i stället för [!DNL Advanced Reporting] -funktion.
+>[!DNL Commerce Intelligence] konton använder inbyggd rapportering, i stället för [!DNL Advanced Reporting] -funktion.
 
 ![Kontrollpanel för avancerad rapportering](./assets/reporting-advanced.png){width="700"}
 
