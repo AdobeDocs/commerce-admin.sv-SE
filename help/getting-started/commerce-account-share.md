@@ -3,9 +3,9 @@ title: Dela en [!DNL Commerce] konto
 description: Lär dig hur du ger begränsad åtkomst till dina [!DNL Commerce] konto för andra [!DNL Commerce] kontoinnehavare.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
+source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ The [!DNL Commerce] Supportteamet har inte åtkomst till kontot och kan inte kon
 
 1. Under _[!UICONTROL Shared Information]_gör du följande:
 
-   - Om du vill identifiera det delade kontot anger du en **[!UICONTROL Share Name]**. Det här namnet används som intern referens och är bara synligt för dig och den person som du delar ditt konto med.
+   - Om du vill identifiera det delade kontot anger du en **[!UICONTROL Share Name]**. Det här namnet används som intern referens och är bara synligt för dig och den person som du delar ditt konto med. (Ange inte ett resursnamn som börjar med `CLOUD SHARED ACCESS FROM MAG XYX`.)
    - Om du vill dela din personliga kontaktinformation med den nya användaren anger du **[!UICONTROL Your Email]** och **[!UICONTROL Your Phone]**.
 
 1. Under _[!UICONTROL Grant Account Permissions]_markerar du kryssrutan för varje [!DNL Commerce] produkt och tjänst som du vill dela.
@@ -95,6 +95,10 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
 1. Klicka på i den vänstra navigeringspanelen **[!UICONTROL Shared Access]**.
 
 1. Hitta kontot som ska återkallas under _[!UICONTROL Managing Users & Permissions]_och klicka **[!UICONTROL Delete]**.
+
+   >[!NOTE]
+   >
+   > If  **[!UICONTROL Delete]** visas inte, kontrollera om **[!UICONTROL Share Name]** börjar med `Cloud Shared Access from MAG XYZ` - vanligtvis, [dessa konton](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) kan inte tas bort.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Delete User]**.
 
