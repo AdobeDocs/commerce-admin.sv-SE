@@ -3,9 +3,9 @@ title: Paketprodukt
 description: Lär dig hur du skapar en paketprodukt där kunderna kan skapa en anpassad produkt i din butik.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Alternativen visas när kunden klickar på antingen **[!UICONTROL Customize]** e
 >[!NOTE]
 >
 >Det lägsta kampanjpriset är inte tillgängligt för paketprodukter som använder dynamiska priser.
+
+>[!NOTE]
+>
+>Överordnad paketprodukt visas alltid automatiskt som en merförsäljningsprodukt för alla dess underordnade produkter.
 
 If [Omedelbart köp](../stores-purchase/checkout-instant-purchase.md) är tillgänglig, _Omedelbart köp_ visas under _Lägg i kundvagnen_ för varje objekt i paketet.
 
@@ -276,3 +280,5 @@ Produktlagerstatus för paket är **_ändras inte automatiskt till Ej i lager_**
 ![Kryssruta](../assets/checkbox.png) Kvantiteten kan vara ett förinställt eller användardefinierat värde. Tilldela emellertid inte _[!UICONTROL User Defined]_till kryssruta eller indatatyper som har markerats flera gånger.
 
 ![Kryssruta](../assets/checkbox.png) Paketartiklar kan levereras tillsammans eller separat.
+
+![Kryssruta](../assets/checkbox.png) Överordnad paketprodukt visas alltid automatiskt som en merförsäljningsprodukt för alla dess underordnade produkter.
