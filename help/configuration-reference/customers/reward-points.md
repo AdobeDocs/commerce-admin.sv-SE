@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] sidan för Commerce Admin.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 <!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
-|--- |--- |--- |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Reward Points Functionality] | Global | Aktiverar eller inaktiverar belöningspoäng. Alternativ: `Yes` / `No`. |
 | [!UICONTROL Enable Reward Points Functionality on Storefront] | Webbplats | När det här alternativet är aktiverat kan kunderna tjäna in poäng genom sina aktiviteter och lösa in dem i kassan. Om det är inaktiverat kan bara administratörsanvändare tilldela och lösa in poäng för kunders räkning. Alternativ: `Yes` / `No`. |
 | [!UICONTROL Customers May See Reward Points History] | Webbplats | När det här alternativet är aktiverat kan kunderna se en detaljerad historik med varje periodisering, inlösen och förfallodatum för belöningspoäng på sin kontokontrollpanel. Alternativ: `Yes` / `No` |
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expire in (days)] | Webbplats | Anger belöningspoängens livstid i dagar. Varje batch med poäng som intjänas under olika aktiviteter har en separat livstid. Varje batch i historiken för belöningspunkter anger antalet dagar som återstår innan poängen upphör att gälla. Historien kan visas från kundens kontouppsättning, om den är aktiverad, och från administratören. Lämna tomt utan förfallodatum. |
 | [!UICONTROL Reward Points Expiry Calculation] | Webbplats | Bestämmer vilken metod som används för att bestämma när belöningspunkter förfaller. Alternativ: <br/>**`Static`**- Bestämmer den återstående livslängden för belöningspoäng baserat på antalet dagar som anges i konfigurationen. Om utgångsgränsen i konfigurationen ändras ändras inte utgångsdatumet för befintliga punkter.<br/>**`Dynamic`** - Beräknar antalet återstående dagar när belöningspunktssaldot ökar. Om utgångsgränsen i konfigurationen ändras uppdateras förfalloberäkningarna för alla befintliga punkter. |
 | [!UICONTROL Refund Reward Points Automatically] | Global | Avgör om tillgängliga belöningspoäng återbetalas automatiskt. Alternativ: `Yes` / `No` |
-| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Avgör om belöningspoäng automatiskt dras av från bidragsbeloppet. Alternativ: `Yes` / `No`. |
+| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Detta avgör om belöningspoäng som intjänats genom inköp annulleras helt eller delvis vid orderåterbetalning, när den här funktionen är aktiverad. Endast belöningspoäng från den order som de har fått påverkas när den ordern återbetalas. Alternativ: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Butiksvy | Anger CMS-sidan som förklarar belöningspoängprogrammet. En länk till standardsidan för belöningar visas på de platser i din butik där poäng kan erhållas. |
 
 {style="table-layout:auto"}
@@ -48,8 +48,8 @@ ht-degree: 0%
 <!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
-|--- |--- |--- |
-| [!UICONTROL Purchase] | Webbplats | Avgör om ett meddelande visas i kundvagnen som visar belöningspoängen för inköpet och kundens aktuella belöningspoängsaldo. Alternativ: `Yes` / `No` |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Purchase] | Webbplats | Fastställer om belöningspoäng intjänas för inköp baserat på den konfigurerade [Belöningsbaserade växelkurser](../../merchandising-promotions/reward-exchange-rates.md). Alternativ: `Yes` / `No` |
 | [!UICONTROL Registration] | Webbplats | Anger antalet poäng som tjänats in för att öppna ett kundkonto. |
 | [!UICONTROL Newsletter Signup] | Webbplats | Anger antalet poäng som en registrerad kund tjänat som prenumererar på ett nyhetsbrev. (Poäng är inte tillgängliga för abonnemang av gäster.) Om en kund säger upp prenumerationen och sedan prenumererar igen får kunden inga poäng för den andra prenumerationen. |
 | [!UICONTROL Converting Invitation to Customer] | Webbplats | Anger antalet poäng som en kund som skickar en inbjudan får när mottagaren sedan öppnar ett kundkonto. |

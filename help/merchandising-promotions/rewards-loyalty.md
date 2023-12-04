@@ -3,9 +3,9 @@ title: Belönings- och förmånsprogram
 description: Läs om belöningspoängsystemet som ni kan använda för att öka kundengagemanget och främja kundlojaliteten.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,11 @@ Konfiguration av belöningspunkter avgör hur belöningspunkter presenteras i bu
 
 1. Om du vill återbetala tillgängliga belöningspoäng automatiskt anger du **[!UICONTROL Refund Reward Points Automatically]** till `Yes`.
 
-1. Om du vill dra av belöningspoäng automatiskt anger du **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** till `Yes`.
+1. Ange om du vill annullera belöningspoäng som erhållits genom inköp när ordern som fått poäng helt eller delvis återbetalas **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** till `Yes`.
+
+   >[!NOTE]
+   >
+   >Endast poäng som intjänas i den order som återbetalas påverkas.
 
 1. Ange **[!UICONTROL Landing Page]** till innehållssidan som förklarar belöningspoängprogrammet.
 
