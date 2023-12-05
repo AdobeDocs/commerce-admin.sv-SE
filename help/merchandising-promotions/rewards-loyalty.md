@@ -3,9 +3,9 @@ title: Belönings- och förmånsprogram
 description: Läs om belöningspoängsystemet som ni kan använda för att öka kundengagemanget och främja kundlojaliteten.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
+source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ I det här steget anges antalet belöningspoäng som kan intjänas för olika ku
 
    ![Kundkonfiguration - åtgärder för att erhålla belöningspoäng per kund](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. Om du vill visa ett meddelande i kundvagnen som innehåller belöningspoäng som intjänats för köpet och kundens aktuella belöningspoäng anger du **[!UICONTROL Purchase]** till `Yes`.
+1. För att tillåta belöningspoäng att intjänas för inköp baserat på den konfigurerade [Belöningsbaserade växelkurser](reward-exchange-rates.md), ange **[!UICONTROL Purchase]** till `Yes`.
 
    >[!NOTE]
    >
