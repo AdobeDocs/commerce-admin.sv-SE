@@ -3,9 +3,9 @@ title: Paketprodukt
 description: Lär dig hur du skapar en paketprodukt där kunderna kan skapa en anpassad produkt i din butik.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: eca41f653aa6499743982199f067d6df86079010
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ Formuläret uppdateras för att återspegla ändringen.
    - Om priset ska återspegla de alternativ som kunden valt anger du **[!UICONTROL Dynamic Price]** till `Yes` och lämna **[!UICONTROL Price]** tom.
 
    - Ange ett fast pris för paketet **[!UICONTROL Dynamic Price]** till `No` och anger **[!UICONTROL Price]** som du vill debitera för paketet.
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] och [!UICONTROL Customer Group Price] (Pris) anges alltid som rabattprocent för alla paketprodukttyper.
 
 1. Eftersom produkten ännu inte är klar att publiceras kan du ange **[!UICONTROL Enable Product]** till `No`.
 
@@ -282,3 +286,5 @@ Produktlagerstatus för paket är **_ändras inte automatiskt till Ej i lager_**
 ![Kryssruta](../assets/checkbox.png) Paketartiklar kan levereras tillsammans eller separat.
 
 ![Kryssruta](../assets/checkbox.png) Överordnad paketprodukt visas alltid automatiskt som en merförsäljningsprodukt för alla dess underordnade produkter.
+
+![Kryssruta](../assets/checkbox.png) [!UICONTROL Special Price] och [!UICONTROL Customer Group Price] (Pris) anges alltid som rabattprocent för alla paketprodukttyper.
