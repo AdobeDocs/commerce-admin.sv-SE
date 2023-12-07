@@ -3,9 +3,9 @@ title: Säkerhet
 description: Lär dig mer om de verktyg som finns för att skydda era butiker och data, och riktlinjer för en säkerhetsåtgärdsplan om du upptäcker en kompromiss.
 exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
 feature: Security, Site Management
-source-git-commit: 671ec7015c37b24ca0acc615ae3715b8b870a453
+source-git-commit: fede05a413428520eec89d46f41a1cdd9c9c3a2e
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ Det finns flera sätt att skydda din butik och upprätthålla din datasäkerhet:
 - Implementera [CAPTCHA](security-captcha.md) eller [reCAPTCHA](security-google-recaptcha.md)
 - Konfigurera en [Säkerhetsgenomsökning](security-scan.md) för varje domän i Adobe Commerce- eller Magento Open Source-installationen.
 
-Besök [Security Center](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} och gå med i säkerhetsvarningsregistret för de senaste nyheterna om potentiella sårbarheter. Mer information om bästa säkerhetsmetoder finns i [Skydda din Commerce Site och Infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) i _Implementera spelningsbok_.
-
 >[!NOTE]
 >
 >Lager som har aktiverats [!DNL Adobe Identity Management Services] (IMS)-autentisering har inbyggda Adobe Commerce och Magento Open Source 2FA inaktiverat. Administratörsanvändare som är inloggade på sin Commerce-instans med sina inloggningsuppgifter för Adobe behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [[!DNL Adobe Identity Management Service] (IMS) Integreringsöversikt](../getting-started/adobe-ims-integration-overview.md).
 
+Besök [Security Center](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} om du vill få de senaste nyheterna om potentiella säkerhetsluckor, registrera dig för säkerhetsmeddelanden från Adobe och få tillgång till Adobe Trust Center.
+
 ![Security Center](./assets/product-security-home.png){width="700" zoomable="yes"}
+
+Mer information om bästa säkerhetsmetoder finns i [Skydda din Commerce Site och Infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) i _Implementera spelningsbok_.
 
 ## Åtgärdsplan för säkerhet
 

@@ -3,9 +3,9 @@ title: Lagra URL:er
 description: Lär dig mer om butiks-URL:er och hur du konfigurerar bas-URL:en och lagringskoderna.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Adobe Commerce och Magento Open Source kan konfigureras för att leverera alla s
 
 1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Base URL]** -avsnitt.
 
-   - **[!UICONTROL Base URL]** — Ange den fullständiga URL:en till din butik. Avsluta URL:en med ett snedstreck så att den kan utökas med ytterligare URL-nycklar från din butik. Exempel: `http://yourdomain.com/`
+   - **[!UICONTROL Base URL]** — Ange den fullständiga URL:en till din butik. Avsluta URL:en med ett snedstreck så att den kan utökas med ytterligare URL-nycklar från din butik. Till exempel: `http://yourdomain.com/`
 
      >[!NOTE]
      >
@@ -74,7 +74,7 @@ Om din domän har ett giltigt säkerhetscertifikat kan du konfigurera URL:er fö
 
    ![Allmän konfiguration - säkra bas-URL:er](../configuration-reference/general/assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Secure Base URL]** — Ange den fullständiga URL:en för säker bas, följt av ett snedstreck. Exempel: `https://yourdomain.com/`
+   - **[!UICONTROL Secure Base URL]** — Ange den fullständiga URL:en för säker bas, följt av ett snedstreck. Till exempel: `https://yourdomain.com/`
 
    - **[!UICONTROL Secure Base Link URL]** — Ändra inte platshållaren i det säkra baslänkens URL-fält. Den används för att skapa relativa länkar till den säkra bas-URL:en.
 
@@ -137,7 +137,7 @@ Om vissa sidor fortfarande får den osäkra URL:en (`http://`) gör du följande
 
 ## Använd en anpassad Admin URL
 
-Som en [bästa praxis för säkerhet](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)rekommenderar Adobe att du använder en unik administratörs-URL i stället för standardadressen _admin_ eller en vanlig term som _serverdel_. Även om webbplatsen inte skyddas direkt från en bestämd skadad skådespelare kan den minska exponeringen för skript som försöker få obehörig åtkomst.
+Som en [bästa praxis för säkerhet](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)rekommenderar Adobe att du använder en unik administratörs-URL i stället för standardadressen _admin_ eller en vanlig term som _serverdel_. Även om webbplatsen inte skyddas direkt från en bestämd skadad skådespelare kan den minska exponeringen för skript som försöker få obehörig åtkomst.
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
 >[!NOTE]
 >
->Som en försiktighetsåtgärd bör du inte ändra Admin URL själv om du inte vet hur du redigerar konfigurationsfiler på servern.
+>Som en försiktighetsåtgärd bör du inte ändra Admin URL själv om du inte vet hur du redigerar konfigurationsfiler på servern. För Adobe Commerce-projekt som distribueras i molninfrastruktur ändrar du Admin URL genom att följa följande [instruktioner](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) i *Infrastrukturhandbok för Adobe Commerce on Cloud*.
 
 ### Metod 1: Ändra från administratör
 
