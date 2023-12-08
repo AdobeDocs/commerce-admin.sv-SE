@@ -1,12 +1,12 @@
 ---
-title: '"rapportering"[!DNL New Relic]'
-description: Lär dig mer om den [!DNL New Relic] rapportering som är tillgänglig för konton för Adobe Commerce i molninfrastrukturen, som innehåller programvaran för New Relic APM-tjänsten.
+title: '''[!DNL New Relic] rapportering'
+description: Läs mer om [!DNL New Relic] för konton för Adobe Commerce i molninfrastruktur, som innehåller programvaran för New Relic APM-tjänsten.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: e9a7645aed0e3b48bf565b04cdb6a31ce5d39ca0
+source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 ## Steg 1: Registrera dig för en [!DNL New Relic] konto
 
-1. Gå till [[!DNL New Relic]][1] webbplatsen och registrera dig för ett konto.
+1. Gå till [[!DNL New Relic]][1] webbplats och registrera dig för ett konto.
 
-   Du kan också registrera dig för ett gratis testkonto.
+   Du kan också registrera dig för ett kostnadsfritt provkonto.
 
 1. Följ instruktionerna på webbplatsen. När du uppmanas till det väljer du den produkt som du vill installera först.
 
 1. När du är på ditt konto letar du reda på följande autentiseringsuppgifter som krävs för att slutföra Commerce-konfigurationen:
 
-   | Alternativ | Beskrivning |
+   | Alternativ | Beskrivning: __________ |
    | ------ | ----------- |
    | Konto-ID | Från [!DNL New Relic] konto-ID är kontonamnet i URL:en efter: `/accounts` |
-   | Program-ID | Från [!DNL New Relic] instrumentpanel för konto, klicka på **[!UICONTROL New Relic APM]**. Välj **[!UICONTROL Applications]**. Välj sedan programmet. Program-ID är numret i URL:en efter: `/applications/` |
-   | New Relic API-nyckel | Från [!DNL New Relic] instrumentpanel för konto, klicka på **[!UICONTROL Account Settings]**. Välj på menyn till vänster under Integreringar **[!UICONTROL Data Sharing]**. Du kan skapa, generera om eller ta bort API-nyckeln från den här sidan. |
+   | Program-ID | Från [!DNL New Relic] instrumentpanel för konto, klicka på **[!UICONTROL New Relic APM]**. Välj **[!UICONTROL Applications]**. Välj sedan programmet. Program-ID:t är numret i URL:en efter: `/applications/` |
+   | Ny Relic API-nyckel | Från [!DNL New Relic] instrumentpanel för konto, klicka på **[!UICONTROL Account Settings]**. Välj på menyn till vänster under Integreringar **[!UICONTROL Data Sharing]**. Du kan skapa, generera om eller ta bort API-nyckeln från den här sidan. |
    | API-nyckel för insikter | Från [!DNL New Relic] instrumentpanel för konto, klicka på **[!UICONTROL Insights]**. Välj **[!UICONTROL API Keys]**. API-nycklar för dina insikter visas på den här sidan. Klicka vid behov på plustecknet (**+**) bredvid Infoga tangenter för att generera en tangent. |
 
    {style="table-layout:auto"}
@@ -49,6 +49,11 @@ Används [!DNL New Relic APM Pro] PHP-agenten måste vara installerad på serve
    Mer information finns på [Konfigurera och kör cron][5] i utvecklardokumentationen.
 
 ## Steg 3: Konfigurera din butik
+
+>[!NOTE]
+>Dessa konfigurationsalternativ gäller inte för Adobe Commerce i molninfrastrukturen.
+>
+>Om du har ett Pro-avtal är New Relic redan [förkonfigurerad och aktiverad som standard](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Om du deltar i Starter-planen måste du fylla i [Konfigurationssteg för New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) som ingår i installationsprocessen.
 
 1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -72,17 +77,17 @@ Används [!DNL New Relic APM Pro] PHP-agenten måste vara installerad på serve
 
 1. (valfritt) för **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**, markera `Yes` för att skicka insamlade data för butiken och administratören som separata appar till New Relic.
 
-   Det här alternativet kräver att ett namn anges för **[!UICONTROL New Relic Application Name]**.
+   Det här alternativet kräver ett namn för **[!UICONTROL New Relic Application Name]**.
 
    >[!NOTE]
    >
-   >Om du aktiverar den här funktionen minskas antalet falska positiva [!DNL New Relic] varningar och möjliggör konfigurerad övervakning och varningar för frontend-prestanda. New Relic tar emot separata programdatafiler med programnamnet tillagt i `Adminhtml` och frontend. Exempel: `MyStore_Adminhtml`
+   >Om du aktiverar den här funktionen minskas antalet falska positiva [!DNL New Relic] varningar och möjliggör konfigurerad övervakning och varningar för frontend-prestanda. New Relic tar emot separata programdatafiler med programnamnet tillagt i `Adminhtml` och frontend. Till exempel: `MyStore_Adminhtml`
 
 1. När du är klar klickar du på **[!UICONTROL Save Config]**.
 
 ## Steg 4: Aktivera Cron för [!DNL New Relic] rapportering
 
-1. Expandera ![väljaren](../assets/icon-display-expand.png) eller avsnittet **[!UICONTROL Cron]** .
+1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Cron]** -avsnitt.
 
    ![New Relic Cron-konfiguration](./assets/new-relic-reporting-cron.png){width="600"}
 
@@ -109,9 +114,9 @@ Returnerar antalet aktiva Admin-användare.
 Returnerar namnen på aktiva Admin-användare.
 
     SELECT uniques(AdminName)
-    FROM Transaction
-    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15 minutes ago
-&lt;/your_app_name>
+    FRÅN-transaktion
+    WHERE appName=&#39;&lt;your_app_name>&#39; SEDAN 15 minuter sedan
+
 #### Senaste administratörsaktivitet
 
 Returnerar antalet senaste Admin-åtgärder.
@@ -144,12 +149,12 @@ Returnerar antalet programhändelser per kategori under den angivna tidsperioden
 
 Returnerar det genomsnittliga antalet programhändelser i katalogen per kategori under den angivna tidsperioden.
 
-    SELECT-genomsnitt (CatalogCategoryCount)
-    FRÅN Cron
-    DÄR CatalogCategoryCount INTE ÄR NULL
-    AND CatalogCategoryCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; SEDAN 2 minutes ago LIMIT 1
-
+    SELECT average(CatalogCategoryCount)FROM Cron WHERE CatalogCategoryCount IS NOT NULL AND CatalogCategoryCount > 0 AND appName = &#39;&#39; SINCE 2 minutes ago 2 minutes ago SELECT average(CatalogCategoryCount)SELECT average(CatalogCategoryCount)
+    FROM Cron
+    WHERE CatalogCategoryCount IS NOT NULL AND CatalogCategoryCount IS NOT NULL
+    AND CatalogCategoryCount 0 AND appName = &#39;&#39; SINCE 2 minutes ago 2 minutes ago 2 minutes ago 2 minutes ago 2 minutes ago 2 minutes ago 2 &lt;your_app_name>minutes ago 2 LIMIT 1
+&lt;/your_app_name>
+    
 #### Aktiva produkter
 
 Returnerar antalet programhändelser per produkt under den angivna tidsperioden.
@@ -284,9 +289,9 @@ Returnerar antalet aktiva kunder under den angivna tidsperioden.
 Returnerar namnen på aktiva kunder under den angivna tidsperioden.
 
     SELECT uniques(CustomerName)
-    FROM Transaction
-    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15 minutes ago
-&lt;/your_app_name>
+    FRÅN-transaktion
+    WHERE appName=&#39;&lt;your_app_name>&#39; SEDAN 15 minuter sedan
+
 #### De vanligaste kunderna
 
 Returnerar de främsta kunderna under den angivna tidsperioden.
@@ -297,7 +302,7 @@ Returnerar de främsta kunderna under den angivna tidsperioden.
 
 #### Senaste administratörsaktivitet
 
-Returnerar ett definierat antal poster för den senaste aktiviteten, som innehåller kundens namn och besökets varaktighet.
+Returnerar ett definierat antal poster för den senaste aktiviteten, som innehåller kundens namn och besökets längd.
 
     VÄLJ CustomerName, duration, name
     FROM Transaction
@@ -312,18 +317,18 @@ Returnerar ett definierat antal poster för den senaste aktiviteten, som innehå
 Returnerar antalet beställningar som gjorts under den angivna tidsperioden.
 
     SELECT count(Order)
-    FRÅN TRANSAKTION SEDAN 1 dag
+    FROM Transaktion SEDAN 1 dag sedan
 
 #### Totalt ordervärde
 
 Returnerar det totala antalet radartiklar som beställts under den angivna tidsperioden.
 
     SELECT sum(orderValue)
-    FRÅN TRANSAKTION SEDAN 1 dag
+    FROM Transaktion SEDAN 1 dag sedan
 
-#### Totalt antal beställda radartiklar
+#### Totalt antal beställda poster
 
-Returnerar det totala antalet radartiklar som beställts under den angivna tidsperioden.
+Returnerar det totala antalet radobjekt som beställts under den angivna tidsperioden.
 
     SELECT sum(lineItemCount)
     FRÅN TRANSAKTION SEDAN 1 dag
