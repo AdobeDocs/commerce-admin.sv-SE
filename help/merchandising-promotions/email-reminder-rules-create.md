@@ -3,16 +3,16 @@ title: Skapa e-postpåminnelser
 description: Lär dig hur du ställer in en påminnelseregel för e-post som använder en befintlig kundvagnsprisregel.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: b750accf7aab49357f04e16dc60791e704516141
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
 # Skapa e-postpåminnelser
 
-Innan du ställer in en påminnelseregel för e-post måste du först ställa in en kundprisregel för att definiera den kampanj som erbjuds. Regelvillkor som utlöser en e-postpåminnelse kan baseras på egenskaper för kundvagn, önskelisteegenskaper eller båda.
+Innan du konfigurerar en påminnelseregel för e-post måste du först [konfigurera en kundvagnsprisregel](price-rules-cart-create.md) för att definiera den kampanj som erbjuds. Regelvillkor som utlöser en e-postpåminnelse kan baseras på egenskaper för kundvagn, önskelisteegenskaper eller båda.
 
 >[!NOTE]
 >
@@ -55,7 +55,9 @@ Innan du ställer in en påminnelseregel för e-post måste du först ställa in
 
    >[!NOTE]
    >
-   >Om en kund har fler än en matchande övergiven kundvagn, önskelista eller kombination av båda aktiveras e-postpåminnelsen endast en gång för den kunden. Om du vill aktivera samma e-postpåminnelse igen använder du _[!UICONTROL Repeat Schedule]_fält för att ange antalet dagar mellan e-postmeddelanden.
+   >Om en kund har fler än en matchande övergiven kundvagn, önskelista eller kombination av båda aktiveras e-postpåminnelsen endast en gång för den kunden. Om du vill aktivera samma e-postpåminnelse igen använder du _[!UICONTROL Repeat Schedule]_fält för att ange antalet dagar mellan e-postmeddelanden. <br/>
+   >
+   >Samma e-postpåminnelse är **_inte hämtad_** för samma kund för **_new_** övergivna varukorgar och önskelistor **_efter_** den _[!UICONTROL Repeat Schedule]_är över.
 
    Slutför villkoret för att beskriva scenariot som utlöser e-postpåminnelsen.
 
