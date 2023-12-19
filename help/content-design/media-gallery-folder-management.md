@@ -3,9 +3,9 @@ title: Mapphantering för mediegalleriet
 description: Lär dig hur du använder mappar för att ordna medieresurser.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '139'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 1%
 Använd mappar för att ordna bilder i de nya [Mediegalleri](media-gallery.md). När antalet medieresurser ökar blir det enklare att hitta och hantera befintliga resurser i mediegalleriet.
 
 ## Skapa en mapp
+
+>[!NOTE]
+>
+>Du kan bara skapa en mapp i `pub/media/wysywig` och `pub/media/catalog/category` mappar.
 
 1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
@@ -30,7 +34,7 @@ Använd mappar för att ordna bilder i de nya [Mediegalleri](media-gallery.md). 
 
 >[!WARNING]
 >
->Om du tar bort en mapp tas alla bilder i mappen bort.
+>Om du tar bort en mapp tas alla bilder i mappen bort. Du kan bara ta bort en mapp i `pub/media/wysywig` och `pub/media/catalog/category` mappar.
 
 1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
