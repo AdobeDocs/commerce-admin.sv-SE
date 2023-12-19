@@ -3,9 +3,9 @@ title: Paketprodukt
 description: Lär dig hur du skapar en paketprodukt där kunderna kan skapa en anpassad produkt i din butik.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: eca41f653aa6499743982199f067d6df86079010
+source-git-commit: e38958bb57251ccc9409b849abc1aadb82ff0a54
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Ett paket är en _bygga din egen_, anpassningsbar produkt. Varje artikel i ett paket kan baseras på någon av följande produkttyper:
 
 - [Enkel produkt](product-create-simple.md)
+- [Virtuell produkt](product-create-virtual.md)
+- [Nedladdningsbar produkt](product-create-downloadable.md)
 - [Virtuell produkt](product-create-virtual.md)
 
 ![Paketprodukt](./assets/product-bundle.png){width="700" zoomable="yes"}
