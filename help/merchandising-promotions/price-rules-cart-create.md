@@ -3,9 +3,9 @@ title: Skapa en kundvagnsprisregel
 description: Lär dig hur du skapar en kundvagnsprisregel baserat på kundvagn- eller produktattribut.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: bf52884cb0eccd4d9c7326a95f8600a3ed950918
+source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -240,13 +240,13 @@ Kundvagnsprisregelåtgärderna beskriver hur priserna uppdateras när villkoren 
    | `Percent of product price discount` | Rabattartikel genom att subtrahera en procentandel från det ursprungliga priset. Rabatten gäller för varje kvalificerande artikel i kundvagnen. Till exempel: Retur `10` in [!UICONTROL Discount Amount] till ett uppdaterat pris som är 10 % lägre än det ursprungliga priset. |
    | `Fixed amount discount` | Rabattartikel genom att subtrahera ett fast belopp från det ursprungliga priset för varje kvalificerande artikel i kundvagnen. Till exempel: Retur `10` in [!UICONTROL Discount Amount] till ett uppdaterat pris som är 10 USD mindre än det ursprungliga priset. |
    | Fast beloppsrabatt för hela kundvagn | Rabatterar hela kundvagnen genom att subtrahera ett fast belopp från kundvagnssumman. Exempel: Ange 10 i [!UICONTROL Discount Amount] för att ta bort $10 från kundvagnen. Som standard gäller rabatten endast delsumman i kundvagnen. Använd _[!UICONTROL Apply to Shipping Amount]_alternativ. |
-   | `Buy X get Y free` | Definierar en kvantitet som kunden måste köpa för att få en kvantitet kostnadsfritt. (Med [!UICONTROL Discount Amount] är Y.) |
+   | `Buy X get Y free` | Definierar en kvantitet X som kunden måste köpa för att få en kvantitet Y **av samma produkt/variant** utan kostnad. (Med [!UICONTROL Discount Amount] är Y.) Den totala kvantiteten X+Y av samma artikel måste finnas i/läggas till i kundvagnen för att rabatten ska tillämpas. |
 
    {style="table-layout:auto"}
 
    - Ange **[!UICONTROL Discount Amount]** som ett tal, utan symboler. Beroende på vilket rabattalternativ du väljer kan talet 10 t.ex. visa en procentsats, ett fast belopp eller en kvantitet artiklar.
 
-   - För _Köp X och få Y utan kostnad_ rabatt, ange kvantiteten i **[!UICONTROL Discount Qty Step (Buy X)]** fält som kunden måste köpa för att få rabatten.
+   - För _Köp X och få Y utan kostnad_ rabatt, ange kvantiteten i **[!UICONTROL Discount Qty Step (Buy X)]** fält för en enskild produkt/SKU/radartikel som kunden måste köpa för att få rabatten på Y-kvantiteten. Både X och Y avser kvantiteter av samma SKU, och den specifika kvantiteten (variationer av en konfigurerbar produkt räknas separat) av artikeln måste läggas till i varukorgen manuellt.
 
    - I **[!UICONTROL Maximum Qty Discount is Applied To]** anger du den maximala kvantitet av samma produkt som berättigar till rabatt i samma inköp.
 
