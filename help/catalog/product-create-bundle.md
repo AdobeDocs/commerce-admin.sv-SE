@@ -3,9 +3,9 @@ title: Paketprodukt
 description: Lär dig hur du skapar en paketprodukt där kunderna kan skapa en anpassad produkt i din butik.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
+source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Formuläret uppdateras för att återspegla ändringen.
 
 1. Gör något av följande för att fastställa paketpriset:
 
-   - Om priset ska återspegla de alternativ som kunden valt anger du **[!UICONTROL Dynamic Price]** till `Yes` och lämna **[!UICONTROL Price]** tom.
+   - Om priset ska återspegla de alternativ som kunden valt anger du **[!UICONTROL Dynamic Price]** till `Yes` och lämna **[!UICONTROL Price]** tom. I det här fallet har en paketprodukt inte ett eget pris från katalogen, och produktpriset härleds från priset för de enskilda produkter som ingår i paketet.
 
    - Ange ett fast pris för paketet **[!UICONTROL Dynamic Price]** till `No` och anger **[!UICONTROL Price]** som du vill debitera för paketet.
 

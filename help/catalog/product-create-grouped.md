@@ -3,9 +3,9 @@ title: Grupperad produkt
 description: Lär dig skapa en grupperad produkt som består av enkla fristående produkter som presenteras som en grupp.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Använd alternativet [filterkontroller](../getting-started/admin-grid-controls.m
 1. Acceptera standardinställningen **[!UICONTROL SKU]** som baseras på produktnamnet eller anger ett annat.
 
    Observera att **[!UICONTROL Quantity]** fältet är inte tillgängligt eftersom värdet härleds från de enskilda produkter som utgör gruppen.
+
+   En grupperad produkt har inte ett eget pris i katalogen. Det grupperade produktpriset härleds från priset för de enskilda produkter som ingår i gruppen.
 
 1. Eftersom produkten ännu inte är klar att publiceras kan du ange **[!UICONTROL Enable Product]** till `No` ( ![Växla inte](../assets/toggle-no.png) ).
 
@@ -189,5 +191,7 @@ Om du har en annan bild för varje produkt i gruppen kan du ställa in konfigura
 - Grupperade underordnade produkter kan vara enkla, nedladdningsbara eller virtuella produkter **[!UICONTROL without custom options]**.
 
 - Varje inköpt artikel visas separat i kundvagnen i stället för som en del av gruppen.
+
+- En grupperad produkt har inte ett eget pris i katalogen. Det grupperade produktpriset härleds från priset för de enskilda produkter som ingår i gruppen.
 
 - Miniatyrbilden i kundvagnen kan ställas in så att den visar bilden från den grupperade överordnade produkten eller tillhörande produkt.

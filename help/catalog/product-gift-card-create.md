@@ -3,9 +3,9 @@ title: Presentkortsprodukt
 description: Lär dig hur du skapar en presentkortsprodukt som skapar en unik kod som en mottagarkund kan lösa in vid utcheckningen.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ Du kan använda standardinställningen `Gift Card` eller välj en annan. Gör n�
    - Om du vill definiera intervallet för minsta och högsta godtagbara värden anger du **[!UICONTROL Open Amount From]** och **[!UICONTROL To]** värden.
 
    Du kan skapa presentkort med fast pris, öppet belopp eller både och.
+
+   >[!NOTE]
+   >
+   >En presentkortsprodukt har inte ett eget pris i katalogen. Presentkortspriset hämtas från det valda presentkortsbeloppet under köpet.
 
    ![Presentkortsbelopp](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
@@ -152,5 +156,7 @@ Fyll i informationen i följande avsnitt efter behov:
 - Presentkortets livslängd kan vara obegränsad eller inställd på ett visst antal dagar.
 
 - Värdet på ett presentkort kan anges till ett fast belopp eller anges till ett öppet belopp med ett lägsta och högsta värde.
+
+- En presentkortsprodukt har inte ett eget pris i katalogen. Presentkortspriset hämtas från det valda presentkortsbeloppet under köpet.
 
 - Ett presentkortskonto för kunden kan skapas när ordern läggs eller när fakturan skickas.
