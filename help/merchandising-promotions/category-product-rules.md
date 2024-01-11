@@ -3,9 +3,9 @@ title: Kategoriregler för försäljning
 description: Lär dig hur du skapar en regel som dynamiskt ändrar produktval enligt en uppsättning villkor.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Regler för kategoriprodukter kan snabba upp processen att tilldela specifika pr
 
    ![Automatisk sortering](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
-   Sorteringen baseras på aktuella förhållanden:
+   Alternativ för sorteringsordning definieras globalt och används baserat på aktuella villkor. Du kan inte ange en annan sorteringsordning för vynivå för webbplatsen, butiken eller butiken.
 
    | Sorteringsalternativ | Beskrivning |
    |-----------| -----------|
