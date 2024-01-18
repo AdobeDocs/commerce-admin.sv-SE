@@ -4,9 +4,9 @@ description: Lär dig hur kunder som är kopplade till ett företagskonto kan sk
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 21361104fa06425df0b44d5c7ae204ef4d9e21ac
+source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Om citattecken är aktiverade i [Konfiguration av försäljningsfunktioner](conf
 1. Kunden loggar in på sitt användarkonto som köpare med [behörighet](account-company-roles-permissions.md) för att begära en offert.
 
 1. Lägger till de produkter de vill ska ingå i offerten i kundvagnen.
+
+   >[!TIP]
+   > 
+   >Om du har en lista över SKU:er att beställa kan du lägga dem i kundvagnen snabbare med [Snabbordning](quick-order.md).
 
 1. Markeringar **[!UICONTROL Request a Quote]**.
 
