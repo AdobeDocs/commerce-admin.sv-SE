@@ -4,9 +4,9 @@ description: Lär dig hur kunder som är kopplade till ett företagskonto kan sk
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
+source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ Om citattecken är aktiverade i [Konfiguration av försäljningsfunktioner](conf
 
 1. Kunden loggar in på sitt användarkonto som köpare med [behörighet](account-company-roles-permissions.md) för att begära en offert.
 
-1. Lägger till de produkter de vill ska ingå i offerten i kundvagnen.
+1. Lägger till produkterna som ska inkluderas i offerten i kundvagnen.
 
    >[!TIP]
    > 
-   >Om du har en lista över SKU:er att beställa kan du lägga dem i kundvagnen snabbare med [Snabbordning](quick-order.md).
+   >Kunderna kan snabbare lägga till en lista med SKU:er för produkter i kundvagnen genom att använda [Snabbordning](quick-order.md).
 
 1. Markeringar **[!UICONTROL Request a Quote]**.
 
    ![Begär en offert från kundvagnen](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. I **[!UICONTROL Add your comment]** skriver en kort anteckning som beskriver begäran.
+1. I **[!UICONTROL Add your comment]** kan kunden skriva en kort anteckning som beskriver förfrågan.
 
 1. Skriver in a **[!UICONTROL Quote Name]**.
 
@@ -51,4 +51,4 @@ Om citattecken är aktiverade i [Konfiguration av försäljningsfunktioner](conf
    - Skickar offerten till säljaren genom att välja **[!UICONTROL Request a Quote]**.
    - [!BADGE 1.5.0-betafunktion]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för betaprogramdeltagare"}**[!UICONTROL Save as Draft]**.
 
-     Om köparen sparar offerten som ett utkast är offerten tillgänglig i [!UICONTROL My Quotes] in `Draft` tillstånd. Det är inte synligt för säljaren förrän köparen öppnar offerten och skickar in den.
+     Om köparen sparar offerten som ett utkast är offerten tillgänglig i [!UICONTROL My Quotes] in `Draft` tillstånd. Säljaren kan inte se offerterna förrän köparen skickar dem för granskning.
