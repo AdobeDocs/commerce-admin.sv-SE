@@ -4,9 +4,9 @@ description: Granska konfigurationsinställningarna på [!UICONTROL Advanced] &g
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -142,21 +142,22 @@ Mer information om hur du ändrar de här inställningarna finns i [Systemmeddel
 
 {style="table-layout:auto"}
 
-## [!UICONTROL Scheduled Backup Settings]
+## [!UICONTROL Backup Settings]
 
-![Avancerad konfiguration - Inställningar för schemalagd säkerhetskopiering](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
-
-Mer information om hur du ändrar de här inställningarna finns i [Säkerhetskopiering av system](../../systems/backups.md) i _Handbok för adminsystem_.
+![Avancerad konfiguration - Inställningar för säkerhetskopiering](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
+Mer information om hur du ändrar de här inställningarna finns i [Säkerhetskopiering av system](../../systems/backups.md) i _Handbok för adminsystem_.
+
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Enable Scheduled Backup] | Global | Avgör om Commerce-instansen automatiskt säkerhetskopieras enligt ett regelbundet schema. Alternativ: `Yes` / `No` |
-| [!UICONTROL Backup Type] | Global | Anger vilka element i Commerce-instansen som ingår i säkerhetskopian. Alternativ: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | Global | Anger timmen, minuten och sekunden då den schemalagda säkerhetskopieringen börjar. |
-| [!UICONTROL Frequency] | Global | Avgör hur ofta den schemalagda säkerhetskopieringen sker. Alternativ: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | Global | Anger om butiken är i underhållsläge under den schemalagda säkerhetskopieringen. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Backup] | Global | Anger om Commerce-instansen tillåter säkerhetskopiering. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Visas när _[!UICONTROL Enable Backup]_är inställd på `Yes`.) Avgör om Commerce-instansen automatiskt säkerhetskopieras enligt ett regelbundet schema. Alternativ: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Visas när _[!UICONTROL Enable Scheduled Backup]_är inställd på `Yes`.) Anger vilka element i Commerce-instansen som ingår i säkerhetskopian. Alternativ: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | Global | (Visas när [!UICONTROL Enable Scheduled Backup] är inställd på `Yes`.) Anger timmen, minuten och sekunden då den schemalagda säkerhetskopieringen börjar. |
+| [!UICONTROL Frequency] | Global | (Visas när [!UICONTROL Enable Scheduled Backup] är inställd på `Yes`.) Avgör hur ofta den schemalagda säkerhetskopieringen sker. Alternativ: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | Global | (Visas när [!UICONTROL Enable Scheduled Backup] är inställd på `Yes`.) Anger om butiken är i underhållsläge under den schemalagda säkerhetskopieringen. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
