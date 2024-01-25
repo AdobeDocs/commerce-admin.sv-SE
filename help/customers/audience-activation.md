@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: f7b8e47aa5a8113fac768b8086ace3bf673193c5
+source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ I versionsinformationen beskrivs funktionsändringar och korrigeringar för till
 
 _15 augusti 2023_
 
-![Korrigera](../assets/new.svg) - Uppdaterade [Real-Time CDP Auditions dashboard](#real-time-cdp-audiences-dashboard) för att förenkla filtreringen.
+![Korrigera](../assets/fix.svg) - Uppdaterade [Real-Time CDP Auditions dashboard](#real-time-cdp-audiences-dashboard) för att förenkla filtreringen.
 
 _27 juni 2023_
 
@@ -49,6 +49,22 @@ _30 maj 2023_
 ![Nytt](../assets/new.svg) - Uppdaterade [Real-Time CDP Auditions dashboard](#real-time-cdp-audiences-dashboard) så att du kan sortera, söka efter och filtrera de aktiva målgrupperna i din Adobe Commerce-instans.
 
 +++
+
+### 2.1.0
+
+[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+
+_24 januari 2024_
+
+![Nytt](../assets/new.svg) - Uppdaterade [Real-Time CDP Auditions dashboard](#real-time-cdp-audiences-dashboard) för att inkludera de webbplatser som innehåller målgrupperna och ange vilka dynamiska block och kundprisregler som är konfigurerade att använda dessa målgrupper.
+
+### 2.0.1
+
+[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+
+_16 november 2023_
+
+![Korrigera](../assets/fix.svg) - Förbättrad stabilitet.
 
 ### 2.0.0
 
@@ -137,16 +153,20 @@ När du har installerat [!DNL Audience Activation] måste du logga in i din Comm
 
 1. Klicka **Spara konfiguration**.
 
-Med målgrupper aktiverade för er Adobe Commerce-instans kan ni
+## Var kan man använda Real-Time CDP målgrupper i Commerce?
+
+Med [!DNL Audience Activation] om tillägget är aktiverat kan du:
 
 - [Skapa en kundvagnsprisregel](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informerad av målgrupper
 - [Skapa ett dynamiskt block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informerad av målgrupper
 
 ## Real-Time CDP målgruppspanel
 
-Du kan visa alla aktiva målgrupper som är tillgängliga för anpassning i din Adobe Commerce-instans med **Real-Time CDP-målgrupper** kontrollpanel. Alla målgrupper du [aktiverad](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) i Adobe Commerce-destinationen i Real-Time CDP visas på den här instrumentpanelen.
+Du kan visa alla [aktiv](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) målgrupper som kan personaliseras i Adobe Commerce-instansen med **Real-Time CDP-målgrupper** kontrollpanel.
 
 Så här öppnar du **Real-Time CDP-målgrupper** kontrollpanelen, gå till _Administratör_ sidebar, sedan går du till **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Real-Time CDP Auditions Dashboard](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 Kontrollpanelen innehåller följande fält:
 
@@ -156,9 +176,12 @@ Kontrollpanelen innehåller följande fält:
 | `Search` | Gör att du kan söka efter aktiva målgrupper i din Commerce-instans. |
 | `Name` | Namn som ges till målgruppen i Real-Time CDP. |
 | `Origin` | Anger varifrån målgruppen kommer, till exempel `Experience Platform`. |
+| `Websites` | Anger vilka webbplatser som är konfigurerade att använda målgrupperna. |
+| `Dynamic Blocks` | Anger vilka dynamiska block som är konfigurerade att använda målgrupperna. |
+| `Cart Price Rules` | Anger vilka kundprisregler som har konfigurerats för att använda målgrupperna. |
 | `Last updated` | Anger när målgruppen ändrades i Real-Time CDP. |
 | `Sync now` | Hämtar nya eller uppdaterade målgrupper från Real-Time CDP. |
-| `Customize table` | Här kan du visa eller dölja `Origin` och `Last updated` kolumner. |
+| `Customize table` | Här kan du visa eller dölja `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`och `Last updated` kolumner. |
 
 {style="table-layout:auto"}
 
