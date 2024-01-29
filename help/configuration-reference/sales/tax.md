@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Tax] sidan för Commerce Admin.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: f95e6d22f83b518c64b254f0d98147e3c6ebaf42
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -123,11 +123,10 @@ Mer information om hur du ändrar de här inställningarna finns i [Fast produkt
 |--- |--- |--- |
 | [!UICONTROL Enable FPT] | Webbplats | Avgör om FPT är tillgängligt. Alternativ: `Yes` / `No` |
 | [!UICONTROL Display Prices in Product Lists] | Webbplats | Styr visningen av FPT i produktlistor. Alternativ:<br/> **`Including FPT Only`** - Priserna är fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna är fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT. Including FPT description and final price`** - De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`**- De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
-| Visa pris på produktvysida | Webbplats | Styr visningen av FPT på produktsidan. Alternativ:<br/> **`Including FPT Only`** - Priserna är fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna är fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT. Including FPT description and final price`** - De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`**- De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
+| [!UICONTROL Display Prices On Product View Page] | Webbplats | Styr visningen av FPT på produktsidan. Alternativ:<br/> **`Including FPT Only`** - Priserna är fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna är fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT. Including FPT description and final price`** - De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`**- De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
 | [!UICONTROL Display Prices in Sales Modules] | Webbplats | Styr visningen av FPT i kundvagnen och under utcheckningen. Alternativ:<br/> **`Including FPT Only`** - Priserna är fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna är fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT. Including FPT description and final price`** - De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`**- De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
 | [!UICONTROL Display Prices in Emails] | Webbplats | Styr visningen av FPT i e-post. Alternativ:<br/> **`Including FPT Only`** - Priserna är fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna är fasta produktskatter. FPT-beloppet visas separat.<br/>** Utom FPT. Inklusive FPT-beskrivning och slutpris **- De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`** - De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
-| [!UICONTROL Apply Discounts to FPT] | Webbplats | Avgör om rabatter kan tillämpas på FPT-beloppet. Alternativ: `Yes` / `No` |
-| [!UICONTROL FPT Tax Configuration] | Webbplats | Bestämmer hur FPT-skatt beräknas. Alternativ: <br/>**`Not Taxed`**- Välj det här alternativet om din skattejurisdiktion inte beskattar FPT. (Exempel: Kalifornien.)<br/>**`Taxed`** - Välj det här alternativet om din skattejurisdiktion inte beskattar FPT. (Till exempel Kanada.) <br/>**`Loaded and Displayed with Tax`**- Klicka på det här alternativet om FPT läggs till i ordersumman innan moms används. (Exempel: EU-länder.) |
+| [!UICONTROL Apply Tax to FPT] | Webbplats | Avgör om moms tillämpas på FPT-beloppet. Alternativ: `Yes` / `No` |
 | [!UICONTROL Include FPT in Subtotal] | Webbplats | Avgör om FPT ingår i kundvagnens delsumma. Alternativ: <br/>**`Yes`**- Inkluderar FPT i kundvagnens delsumma.<br/>**`No`** - FPT ingår inte i delsumman och läggs efter delsumman i kundvagnen. |
 
 {style="table-layout:auto"}
