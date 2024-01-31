@@ -3,9 +3,9 @@ title: Optimera bilder i Mediegalleriet
 description: Lär dig använda bildoptimering för [!DNL Commerce] medieresurser.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,5 @@ När funktionen för bildoptimering i Mediegalleriet är aktiverad infogas en op
 När _Maximal bredd_ och _Maximal höjd_ om du ändrar värden i konfigurationen uppdateras alla befintliga optimerade bilder som infogats tidigare.
 
 Bildoptimering i Mediegalleriet kräver att `media.gallery.renditions.update` köanvändare körs för att återskapa optimerade bilder när konfigurationen ändras. Se [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandbok_ för mer information.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}

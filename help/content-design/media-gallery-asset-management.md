@@ -3,7 +3,7 @@ title: Mediegalleriets resurshantering
 description: Lär dig hur du hanterar överförda mediefiler och mediefiler som du hämtar via en Adobe Stock-integrering.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -72,6 +72,8 @@ Resurser kan användas i stor utsträckning i hela administratören, till exempe
 1. Gå till det nya mediegalleriet från ett område där du kan använda medieresurser.
 
 1. Markera resursen och klicka på **[!UICONTROL Add Selected]**.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## Ta bort resurser
 
