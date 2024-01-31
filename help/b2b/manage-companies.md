@@ -6,9 +6,9 @@ role: Admin
 hide: false
 hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -17,20 +17,34 @@ ht-degree: 0%
 
 [!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för betaprogramdeltagare"}
 
-Funktionen för företagshantering effektiviserar affärsverksamheten för företag med komplexa organisationsstrukturer. Administratörsanvändare kan hantera företag som en grupp genom att skapa en företagshierarki som tilldelar närstående företag till ett utsett moderföretag. Med den här tilldelningen kan moderföretagets administratör hantera sitt eget konto och företagskontona för alla tilldelade företag.
+Företagshantering effektiviserar affärsverksamheten för företag med komplexa organisationsstrukturer. Administratörsanvändare kan skapa en företagshierarki för att spegla en B2B-organisation genom att tilldela företag till det utsedda överordnade företaget. Med den här tilldelningen kan administratören för det överordnade företaget visa och hantera företag inom organisationen.
 
-1. I _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Initiera företagsledningsuppgifter från *[!UICONTROL Companies]* vy. Gå till  **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Öppna företagsinformationssidan i företagsrutnätet för det överordnade företaget genom att välja **[!UICONTROL Edit]** åtgärd.
+![B2B Manage Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-![Företagsrutnät](./assets/company-detail-view.png){width="700" zoomable="yes"}
+I *[!UICONTROL Companies grid]*, *[!UICONTROL Company Type]* kolumn anger om ett företag hanteras som en del av en organisation eller som ett separat företag.
 
-Se [Hantera företagskonton](account-company-manage.md) om du vill ha mer information om företagsrutnätet.
+- `Parent` är en affärsorganisation med ett eller flera tilldelade företag. Ett överordnat företag kan inte tilldelas som underordnat till ett annat företag.
 
-## [!UICONTROL Company Hierarchy]
+- `Child` är ett företag som har tilldelats en organisation. Ett företag kan bara tilldelas till ett överordnat företag.
 
-När man började skapa ett företag [!UICONTROL Company Hierarchy] stödrastret är tomt när du expanderar det. När ett företag har skapats kan administratörsanvändare med lämplig behörighet använda [!UICONTROL Company Hierarchy] att bygga upp en överordnad företagsorganisation genom att redigera det utsedda överordnade företaget och tilldela närstående företag.
+- `Company` representerar ett enda företag. Ett enskilt företag kan bli en del av en organisation genom att göra det till ett moderföretag eller genom att tilldela det till ett befintligt moderföretag.
 
-![Stödraster för företagshierarki](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+När du redigerar ett överordnat eller underordnat företag expanderar *[!UICONTROL Company Hierarchy]* för att visa alla företag i organisationen. A `Current` flagga anger vilket företag du redigerar.
 
-Se [tilldela och ta bort tilldelning av företag](assign-companies.md) för mer information om tillgängliga åtgärder i [!UICONTROL Company Hierarchy] rutnät.
+![Företagshierarki för B2B](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+
+
+## Visa och konfigurera [!UICONTROL Company Hierarchy]
+
+När man började skapa ett företag [!UICONTROL Company Hierarchy] rutnätet är tomt. Det är också tomt om företaget är ett enda företag.
+
+![Företagshierarki för B2B](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+
+För överordnade företag kan administratörsanvändare med lämplig behörighet utföra följande uppgifter:
+
+- Bygg upp företagshierarkin genom att skapa en ny överordnad organisation eller uppdatera en befintlig.
+- Hantera en befintlig organisation för att lägga till eller ta bort företag.
+
+Mer information finns i [Hantera företagshierarkin](assign-companies.md).

@@ -4,9 +4,9 @@ description: Läs om hur du skapar företagskonton i Adobe Commerce Admin och i 
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Personen som skapar ett företagskonto från butiken tilldelas en roll som [för
 
       - **[!UICONTROL Company Legal Name]**
       - **[!UICONTROL VAT/TAX ID]**
-      - **[!UICONTROL Re-seller ID]**
+      - **[!UICONTROL Reseller ID]**
 
    ![Företagsinformation](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
@@ -74,7 +74,7 @@ Personen som skapar ett företagskonto från butiken tilldelas en roll som [för
 
 1. Slutför valideringen om reCAPTCHA är aktiverat för den här butiksfunktionen.
 
-1. När informationen är klar klickar du **[!UICONTROL Submit]**.
+1. När informationen är klar väljer du **[!UICONTROL Submit]**.
 
    När begäran om att skapa ett företagskonto godkänns av handlaren skickas ett e-postmeddelande till företagsadministratören.
 
@@ -86,7 +86,7 @@ Personen som skapar ett företagskonto från butiken tilldelas en roll som [för
 
 Processen att skapa ett företag från Admin är i stort sett densamma som i butiken, men med ytterligare fält.
 
-![Nytt företag](./assets/company-update.png){width="700" zoomable="yes"}
+![Lägg till ett nytt företag från administratören](./assets/company-add-new.png){width="700" zoomable="yes"}
 
 1. På _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -173,24 +173,24 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
    - Ändra **[!UICONTROL Applicable Payment Methods]** som är tillgängliga för företaget, rensa **[!UICONTROL Use config settings]** och välj något av följande:
 
      | Alternativ | Beskrivning |
-     | ------ | ----------- |
+     |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      | `B2B Payment Methods` | (Standard) Aktiverar alla [betalningsmetoder som angetts som standard](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods) för B2B-beställningar. |
      | `All Enabled Payment Methods` | Gör alla [aktiverade betalningsmetoder](../configuration-reference/sales/payment-methods.md) finns för kundkonton som är kopplade till företagskontot. |
-     | `Selected Payment Methods` | Gör att du kan välja betalningsmetoder som är tillgängliga för kundkonton som är kopplade till företagskontot. Om du vill välja flera betalningsmetoder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ. |
+     | `Selected Payment Methods` | Gör att du kan välja betalningsmetoder som är tillgängliga för kundkonton som är kopplade till företagskontot. Om du vill välja flera betalningsmetoder håller du ned Ctrl (PC) eller Kommando (Mac) och väljer varje alternativ. |
 
      {style="table-layout:auto"}
 
    - Ändra **[!UICONTROL Applicable Shipping Methods]** som är tillgängliga för företaget, rensa **[!UICONTROL Use config settings]** och välj något av följande:
 
      | Alternativ | Beskrivning |
-     | ------ | ----------- |
+     |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      | `B2B Shipping Methods` | (Standard) Aktiverar alla [leveransmetoder som angetts som standard](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) för B2B-beställningar. |
      | `All Enabled Shipping Methods` | Gör alla [aktiverade leveransmetoder](../configuration-reference/sales/delivery-methods.md) finns för kundkonton som är kopplade till företagskontot. |
-     | `Selected Shipping Methods` | Gör att du kan välja leveransmetoder som är tillgängliga för kundkonton som är kopplade till företagskontot. Om du vill välja flera leveransmetoder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på respektive alternativ. |
+     | `Selected Shipping Methods` | Gör att du kan välja leveransmetoder som är tillgängliga för kundkonton som är kopplade till företagskontot. Om du vill välja flera leveransmetoder håller du ned Ctrl (PC) eller Kommando (Mac) och väljer varje alternativ. |
 
      {style="table-layout:auto"}
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. När du är klar väljer du **[!UICONTROL Save]**.
 
    När begäran om att skapa ett företagskonto godkänns av handlaren skickas ett e-postmeddelande till företagsadministratörens e-postadress.
 
@@ -199,7 +199,7 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 ## Knappfält
 
 | Knapp | Beskrivning |
-|------- | ----------- |
+|---------------------------|------------------------------------------------------------------|
 | [!UICONTROL Back] | Återgår till sidan Företag utan att spara ändringar. |
 | [!UICONTROL Reset] | Återställer originalvärdena till fält som inte har sparats. |
 | [!UICONTROL Save] | Sparar ändringar i företaget och håller profilen öppen. |
@@ -210,7 +210,7 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 ## Fältbeskrivningar
 
 | Fält | Beskrivning |
-|--- |--- |
+|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | Företagsnamnet anges när företagskontot skapas för första gången och kan vara en förkortad version av det fullständiga juridiska namnet. |
 | [!UICONTROL Status] | (Endast administratör) Anger det aktuella tillståndet för företagskontot. Alternativ: <br/>**[!UICONTROL Active]**- Företagskontot har godkänts av butiksadministratören. Företagsadministratören och associerade medlemmar kan logga in kontot från butiken och göra inköp.<br/>**[!UICONTROL Pending Approval]** - En begäran om att öppna ett företagskonto har skickats, men har ännu inte godkänts av butiksadministratören. <br/>**[!UICONTROL Rejected]**- En begäran om att öppna ett företagskonto har skickats, men inte godkänts av butiksadministratören. De inloggningsuppgifter som användes för att skicka begäran blockeras.<br/>** Blockerad **- Företagsmedlemmar kan logga in och komma åt katalogen, men kan inte göra inköp. Butiksadministratören kan blockera ett företagskonto som inte är i gott skick. Butiksadministratören kan när som helst ta bort blocket på kontot. |
 | [!UICONTROL Company Email] | E-postadressen som är associerad med företagskontot. |
@@ -221,7 +221,7 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 ### [!UICONTROL Account Information]
 
 | Fält | Beskrivning |
-|--- |--- |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | Företagets officiella, fullständiga namn. |
 | [!UICONTROL VAT / TAX ID] | The [moms](../stores-purchase/vat.md) Nummer som tilldelas företaget av vissa jurisdiktioner för momsrapportering. Information om hur du konfigurerar kundens moms-/momsregistreringsnummer så att det visas i butiken finns i [Skapa nya kontoalternativ](../configuration-reference/customers/customer-configuration.md). <br/> **_Obs!_** Företagsadministratören och andra företagsanvändare har inte sina egna separata momsregistreringsnummer i sina kundkonton. |
 | [!UICONTROL Reseller ID] | Återförsäljningsnumret som har tilldelats företaget för momsrapportering. |
@@ -232,14 +232,15 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 ### [!UICONTROL Company Hierarchy]
 
 | Fält | Beskrivning |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID] | Företagets ID-nummer. |
 | [!UICONTROL Company Name] | Företagets fullständiga namn. <br/>A `current company indicator` visas på den företagsrad som redigeras. |
 | [!UICONTROL Company Email] | E-postadressen som är associerad med företagskontot. |
 | [!UICONTROL Phone Number] | Företagets primära telefonnummer. |
+| [!UICONTROL Country] | Det land där företaget är registrerat för att bedriva verksamhet. |
 | [!UICONTROL State/Province] | Den delstat eller provins där företaget är registrerat för att bedriva verksamhet. |
 | [!UICONTROL City] | Ort där företaget är registrerat för att bedriva verksamhet. |
-| [!UICONTROL Customer Group] | (Endast administratör) Anger [kundgrupp](../customers/customer-groups.md) eller [delad katalog](catalog-shared.md) som har tilldelats företaget. |
+| [!UICONTROL Group/Shared Catalog] | (Endast administratör) Anger [kundgrupp](../customers/customer-groups.md) eller [delad katalog](catalog-shared.md) som har tilldelats företaget. |
 | [!UICONTROL Company Admin] | Företagsadministratörens fullständiga namn. |
 | [!UICONTROL Action] | Listan över möjliga åtgärder för den företagsraden. |
 
@@ -248,7 +249,7 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 ### [!UICONTROL Legal Address]
 
 | Fält | Beskrivning |
-|--- |--- |
+|------------------------------|-----------------------------------------------------------------------------|
 | [!UICONTROL Street Address] | Den gatuadress där företaget är registrerat för att bedriva verksamhet. |
 | [!UICONTROL City] | Ort där företaget är registrerat för att bedriva verksamhet. |
 | [!UICONTROL Country] | Det land där företaget är registrerat för att bedriva verksamhet. |
@@ -261,7 +262,7 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 ### [!UICONTROL Company Admin]
 
 | Fält | Beskrivning |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Anger webbplatsen som företagsadministratören tillhör. |
 | [!UICONTROL Job Title] | Namnet på den företagsadministratör som hanterar företagskontot. |
 | [!UICONTROL Email] | Företagsadministratörens e-postadress kan vara samma som företagets e-postadress. Om en annan e-postadress anges skapas ett separat individuellt konto för företagsadministratören, utöver företagskontot. |
@@ -278,7 +279,7 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 ### [!UICONTROL Company Credit]
 
 | Fält | Beskrivning |
-|--- |--- |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | (Endast administratör) Valutan som accepteras av butiken för köp av företagskrediter. |
 | [!UICONTROL Credit Limit] | (Endast administratör) Den kreditgräns som utökas till företagskontot. |
 | [!UICONTROL Allow to Exceed Credit Limit] | (Endast administratör) Anger om företaget har behörighet att överskrida kreditgränsen. Alternativ: `Yes` / `No` |
@@ -289,13 +290,13 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 ### [!UICONTROL Advanced Settings]
 
 | Fält | Beskrivning |
-|--- |--- |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Customer Group] | (Endast administratör) Anger [kundgrupp](../customers/customer-groups.md) eller [delad katalog](catalog-shared.md) som har tilldelats företaget. |
 | [!UICONTROL Allow Quotes] | (Endast administratör) Avgör om företagsmedlemmar kan förbereda och skicka överlåtbara offerter för företagets räkning. |
 | [!UICONTROL Enable Purchase Orders] | (Endast administratör) Avgör om företagsmedlemmar kan skicka order som [inköpsorder](account-dashboard-my-purchase-orders.md) för företagets räkning. |
 | Tillämpliga betalningsmetoder | (Endast administratör) Anger betalningsmetoder som är tillgängliga för företagsköp. Alternativ: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
-| [!UICONTROL Payment Methods] | (Endast administratör) Börjar vara aktivt om specifika betalningsmetoder aktiveras. Om du vill göra flera betalningsmetoder tillgängliga för företagskontot håller du ned Ctrl-tangenten (PC) eller Kommando-tangenten (Mac) och klickar på varje alternativ. |
+| [!UICONTROL Payment Methods] | (Endast administratör) Börjar vara aktivt om specifika betalningsmetoder aktiveras. Om du vill göra flera betalningsmetoder tillgängliga för företagskontot håller du ned Ctrl-tangenten (PC) eller Kommando-tangenten (Mac) och väljer varje alternativ. |
 | [!UICONTROL Applicable Shipping Methods] | (Endast administratör) Anger leveransmetoder som är tillgängliga för företagsköp. Alternativ: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
-| [!UICONTROL Shipping Methods] | (Endast admin) Börjar vara aktivt om specifika leveransmetoder aktiveras. Om du vill göra flera betalningsmetoder tillgängliga för företagskontot håller du ned Ctrl-tangenten (PC) eller Kommando-tangenten (Mac) och klickar på varje alternativ. |
+| [!UICONTROL Shipping Methods] | (Endast admin) Börjar vara aktivt om specifika leveransmetoder aktiveras. Om du vill göra flera betalningsmetoder tillgängliga för företagskontot håller du ned Ctrl-tangenten (PC) eller Kommando-tangenten (Mac) och väljer varje alternativ. |
 
 {style="table-layout:auto"}

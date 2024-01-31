@@ -1,11 +1,11 @@
 ---
 title: Hantera företagskonton
-description: Läs mer om företagssidan och verktygen i rutnätet som hjälper dig att hantera företagskonton för din Adobe Commerce-butik.
+description: Lär dig hur du hanterar företagskonton för din Adobe Commerce-butik med hjälp av företagssidan och verktygen i rutnätet.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2493'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ The _[!UICONTROL Companies]_visas alla aktuella företagskonton, oavsett status.
 
 The _[!UICONTROL Actions]_kontroll ovanför rutnätet kan användas för att tillämpa en åtgärd på flera företagsposter. I stället för att godkänna varje enskild företagsbegäran kan du till exempel välja flera begäranden och aktivera kontona i en enda åtgärd. Vilka åtgärder som är tillgängliga beror på [behörigheter](../systems/permissions.md) för rollen som tilldelas ditt administratörskonto.
 
-Använd _[!UICONTROL Search]_funktion för att hitta företag i **Företag**stödraster efter nyckelord. Det kommer att hitta företaget genom att söka efter det angivna nyckelordet i **Företagsnamn**och **Överordnad**kolumner. Du kan filtrera efter **Företagstyp**för att visa moderbolag och deras närstående företag, eller endast visa underordnade företag.
+Använd _[!UICONTROL Search]_funktion för att hitta företag i **Företag**stödraster efter nyckelord. Sökindexnyckelorden från **Företagsnamn**och **Överordnad**kolumner. Du kan filtrera efter **Företagstyp**om du bara vill visa enskilda företag, endast moderföretag eller endast underordnade företag.
 
 ![Företagsrutnät](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -41,7 +41,7 @@ Följande åtgärder kan tillämpas på en eller flera poster.
 
 ### Aktivera företagskonton
 
-1. Ange **[!UICONTROL Actions]** styra till `Set Active`.
+1. Från **[!UICONTROL Actions]** kontroll, markera **[!UICONTROL Set Active]**.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
@@ -53,12 +53,12 @@ Metod 1: **Från kundrutnätet**
 
 1. På _Administratör_ sidebar, gå till [!UICONTROL **Kunder**] > [!UICONTROL **Alla kunder**].
 
-1. Ange [!UICONTROL **Åtgärder**] kontrollera något av följande:
+1. Från **[!UICONTROL Actions]** väljer du något av följande:
 
-   - `Active`
-   - `Inactive`
+   - **[!UICONTROL Active]**
+   - **[!UICONTROL Inactive]**
 
-1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
+1. Välj **[!UICONTROL OK]** för att tillämpa ändringen.
 
 Metod 2: **Från kontoredigeringssidan**
 
@@ -66,7 +66,7 @@ Metod 2: **Från kontoredigeringssidan**
 
 1. Leta reda på kundposten som ska redigeras i rutnätet.
 
-1. I _Åtgärder_ kolumn längst till höger, klicka på [!UICONTROL **Redigera**].
+1. I _Åtgärder_ kolumn längst till höger, markera [!UICONTROL **Redigera**].
 
 1. Välj [!UICONTROL **Kontoinformation**] -fliken.
 
@@ -78,7 +78,7 @@ Metod 2: **Från kontoredigeringssidan**
 
 Användare som är kopplade till ett blockerat företagskonto kan logga in och komma åt katalogen, men kan inte göra inköp. Ett företag med ett konto som inte fungerar som det ska kan tillfälligt blockeras tills ärendet är löst.
 
-1. Ange **[!UICONTROL Actions]** styra till `Block`.
+1. Från **[!UICONTROL Actions]** kontroll, markera **[!UICONTROL Block]**.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
@@ -86,7 +86,7 @@ Användare som är kopplade till ett blockerat företagskonto kan logga in och k
 
 Borttagna företagskonton kan inte återställas. Statusen för användarkonton som är kopplade till företaget är inställd på `Inactive` och företags-ID tas bort från profilerna för användarkonton. Information om företagsaktivitet och transaktioner sparas i systemet.
 
-1. Ange **[!UICONTROL Actions]** styra till `Delete`.
+1. Från **[!UICONTROL Actions]** kontroll, markera **[!UICONTROL Delete]**.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
@@ -94,7 +94,7 @@ Borttagna företagskonton kan inte återställas. Statusen för användarkonton 
 
 Krediten i konton för valda företag konverteras till den aktuella kursen för den valda valutan.
 
-1. Ange **[!UICONTROL Actions]** styra till `Convert Currency`.
+1. Från **[!UICONTROL Actions]** kontroll, markera **[!UICONTROL Convert Currency]**.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
@@ -104,13 +104,13 @@ Krediten i konton för valda företag konverteras till den aktuella kursen för 
 
 1. Klicka **[!UICONTROL Proceed]** för att slutföra konverteringen.
 
-### Redigera ett företagskonto
+## Redigera ett företagskonto
 
 Metod 1: **Snabbredigering**
 
 1. I den första kolumnen markerar du kryssrutan för det företagskonto som ska redigeras.
 
-1. Ange **[!UICONTROL Actions]** kolumn till `Edit`.
+1. Från **[!UICONTROL Actions]** kontroll, markera **[!UICONTROL Edit]**.
 
    Varje värde som kan uppdateras visas i en textruta.
 
@@ -130,7 +130,7 @@ Metod 2: **Fullständig redigering**
 
 1. Leta reda på den företagspost som ska redigeras i rutnätet.
 
-1. Klicka **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Välj **[!UICONTROL Edit]** från _[!UICONTROL Action]_kolumn.
 
 1. Gör nödvändiga ändringar i företagsinformationen.
 
@@ -191,7 +191,7 @@ I följande avsnitt finns en referens för de tillgängliga åtgärderna, altern
 ### Alternativ för åtgärdskontroll
 
 | Alternativ | Beskrivning |
-|--- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Anger status för alla valda företagsposter till `Active`. Företagsadministratörer får instruktioner om hur de anger sina lösenord så att de kan komma åt sina konton och hantera sina företag direkt i butiken. |
 | [!UICONTROL Block] | Begränsar företagskonton som inte är i gott skick samtidigt som kontot bevaras. Företagsmedlemmar kan logga in och komma åt katalogen, men de kan inte göra beställningar för företagets räkning. |
 | [!UICONTROL Delete] | Tar bort valda företagskonton. Statusen för användarkonton som är associerade med ett borttaget företag är inställd på `Inactive` och företags-ID tas bort från profilerna för användarkonton. Information om företagsaktivitet och transaktioner sparas i systemet. |
@@ -324,11 +324,11 @@ Följande kolumner är tillgängliga genom att ändra [kolumnlayout](../getting-
 #### [!UICONTROL Company Credit]
 
 | Fält | Beskrivning |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | Valutan som accepteras av butiken för inköp av företagskrediter. |
 | [!UICONTROL Credit Limit] | Kreditgränsen som utökas till företagskontot. |
 | [!UICONTROL Allow to Exceed Credit Limit] | Anger om företaget har behörighet att överskrida kreditgränsen. Alternativ: Ja/Nej |
-| [!UICONTROL Reason for Change] | En anteckning som förklarar varför företaget tillåts eller inte tillåts överskrida kreditgränsen. Det här fältet är bara aktivt om behörigheten att överskrida kreditgränsen ändras. |
+| [!UICONTROL Reason for Change] | En anteckning som förklarar omständigheterna när företaget kan eller inte kan överskrida kreditgränsen. Det här fältet är bara aktivt om behörigheten att överskrida kreditgränsen ändras. |
 
 {style="table-layout:auto"}
 

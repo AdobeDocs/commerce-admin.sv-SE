@@ -1,14 +1,14 @@
 ---
 title: Hantera företagshierarkin
-description: Bygg och hantera företagshierarkier för att stödja B2B-organisationer med komplexa operativa modeller.
+description: Lär dig hantera B2B-organisationer med komplexa operativa modeller genom att bygga upp företagshierarkier
 feature: B2B, Companies
 role: Admin
 hide: false
 hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -17,48 +17,46 @@ ht-degree: 0%
 
 [!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för betaprogramdeltagare"}
 
-Administratörer kan skapa en [!UICONTROL Company Hierarchy] genom att tilldela närstående företag till ett utsett moderföretag, som är företaget överst i organisationshierarkin.
+Administratörer kan skapa en [!UICONTROL Company Hierarchy] genom att tilldela närstående företag till ett utsett moderbolag, som är det företag som ligger överst i organisationen. Om [!UICONTROL Company Type] är `Company`, är företaget inte en del av en organisation och är berättigat att bli moderbolag, eller att tilldelas ett befintligt moderföretag.
 
-Skapa ett överordnat företag genom att redigera ett företag som inte har tilldelats till ett befintligt [!UICONTROL Company Hierarchy]och att utse närstående företag.
+I Admin hanterar du företagstilldelningar genom att redigera ett företag och sedan uppdatera [!UICONTROL Company Hierarchy] konfiguration för att tilldela eller ta bort tilldelning av företag.
 
-![Stödraster för företagshierarki](./assets/company-detail-view.png){width="700"}
-
-När ett företag har tilldelats en hierarki [!UICONTROL Company type] kolumn i **Företag** identifierar företaget som en `Parent` eller  `Child` företag.  Om [!UICONTROL Company Type] är `Company`är företaget inte del av en företagshierarki och kan bli ett moderföretag eller tilldelas ett befintligt moderföretag.
+![Stödraster för företagshierarki](./assets/company-detail-hierarchy-current-flag.png){width="700"}
 
 >[!NOTE]
 >
 >Mer information om [!UICONTROL Company Hierarchy] stödraster, se [Företagshierarki](account-company-create.md#company-hierarchy) fältbeskrivningar.
 
-I Admin hanterar du företagstilldelningar genom att redigera ett företag och sedan använda [!UICONTROL Company Hierarchy] i [!UICONTROL Company] sida för att tilldela eller ta bort tilldelningar av företag.
+## Tilldela företag till en organisation
 
-## Tilldela företag till ett moderföretag
-
-1. På _Administratör_ sidlist, navigera till **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Från _Administratör_ sidlist, navigera till **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
    ![Företagsrutnät](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. Öppna företagsinformationssidan i företagsrutnätet för att skapa tilldelningarna.
+1. I [!UICONTROL Companies] öppnar du företagsinformationssidan för att skapa tilldelningarna.
 
    - Om du vill tilldela ytterligare företag till ett befintligt överordnat företag väljer du **[!UICONTROL Edit]** åtgärd för huvudföretaget.
-   - Om du vill skapa ett nytt överordnat företag väljer du **[!UICONTROL Edit]** åtgärd för det företag som anges som moderföretag.
+   - Om du vill skapa ett överordnat företag väljer du **[!UICONTROL Edit]** åtgärd för det företag som ska utses till överordnad.
 
-     Du kan inte skapa ett nytt överordnat företag från ett befintligt överordnat eller underordnat företag.
+     Du kan inte skapa ett överordnat företag från ett befintligt överordnat eller underordnat företag.
 
-   ![Nytt företag](./assets/company-update.png){width="700" zoomable="yes"}
+1. Utöka på sidan med företagsinformation **[!UICONTROL Company Hierarchy]**.
 
-1. På sidan Företagsinformation expanderar du **[!UICONTROL Company Hierarchy]** och markera **[!UICONTROL Assign Companies]**.
+   ![Stödraster för företagshierarki](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-   ![Nytt företag](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+   I rutnätet visas befintliga företagstilldelningar, om sådana finns. Det överordnade företaget är alltid placerat högst upp i [!UICONTROL Company Hierarchy] rutnät. The `[!UICONTROL Current]` anger vilket företag som redigeras.
 
-   När du expanderar den här vyn kan du se befintliga företagstilldelningar, om det finns några. Det överordnade företaget visas alltid ovanpå _[!UICONTROL Company Hierarchy]_stödraster med `current company indicator` visas på den företagsrad som redigeras.
+1. Lägg till företag i den överordnade organisationen.
 
-1. Företag som är tillgängliga för tilldelning visas i rutnätet. Välj de företag som ska tilldelas och välj sedan **[!UICONTROL Assign Selected Companies]**.
+   - Välj från en lista över tillgängliga företag genom att välja **[!UICONTROL Assign Companies]**.
 
-1. Du kan **Markera alla på den här sidan** eller en specifik företagsradartikel och klicka på **[!UICONTROL Assign Selected Companies]**.
+   - **Markera alla på den här sidan** eller välj en eller flera specifika företagsradartiklar.
 
-   ![Nytt företag](./assets/assign-selected-companies.png){width="700" zoomable="yes"}
+   - Välj **[!UICONTROL Assign Selected Companies]**.
 
-1. Slutför företagstilldelningen genom att välja **[!UICONTROL Assign]**.
+   - Slutför företagstilldelningen genom att välja **[!UICONTROL Assign]**.
+
+     ![Tilldela företag till organisation](./assets/assign-selected-companies-hierarchy.png){width="675" zoomable="yes"}
 
 ## Ta bort tilldelning från ett moderföretag
 
@@ -66,14 +64,12 @@ I Admin hanterar du företagstilldelningar genom att redigera ett företag och s
 
    ![Företagsrutnät](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. På sidan Företag öppnar du företagsinformationssidan för det överordnade företaget genom att välja **[!UICONTROL Edit]** åtgärd.
+1. I [!UICONTROL Companies] rutnät, öppna företagsinformationssidan för det överordnade företaget genom att välja **[!UICONTROL Edit]**.
 
-   ![Nytt företag](./assets/company-update.png){width="700" zoomable="yes"}
+1. Visa listan över tilldelade företag genom att expandera **[!UICONTROL Company Hierarchy]**.
 
-1. Visa listan över tilldelade företag genom att expandera **[!UICONTROL Company Hierarchy]** nedrullningsbar meny.
+1. Från [!UICONTROL Company Hierarchy] rutnät, ta bort tilldelning från ett företag med hjälp av **[!UICONTROL Select]** funktionsmakrokontroll att välja **[!UICONTROL Unassign from parent]**.
 
-1. Ta bort tilldelningen av ett företag genom att välja **[!UICONTROL Select]** åtgärd för företaget och sedan välja **[!UICONTROL Unassign from parent]**.
-
-   ![Nytt företag](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+   ![Ta bort tilldelning av företag från en överordnad organisation](./assets/company-hierarchy-grid-unassign.png){width="700" zoomable="yes"}
 
 1. Ta bort det tilldelade företaget från hierarkin genom att välja **[!UICONTROL Unassign]**.
