@@ -3,9 +3,9 @@ title: Dela en [!DNL Commerce] konto
 description: Lär dig hur du ger begränsad åtkomst till dina [!DNL Commerce] konto för andra [!DNL Commerce] kontoinnehavare.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
+source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,12 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
 
    >[!NOTE]
    >
-   > If  **[!UICONTROL Delete]** visas inte, kontrollera om **[!UICONTROL Share Name]** börjar med `Cloud Shared Access from MAG XYZ` - vanligtvis, [dessa konton](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) kan inte tas bort.
+   > If  **[!UICONTROL Delete]** visas inte, kontrollera om **[!UICONTROL Share Name]** börjar med `Cloud Shared Access from MAG XYZ` - [dessa konton](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) kan inte tas bort.
+   > 
+   > Be i så fall kontoägaren att ändra kontot för delad åtkomst och rensa kontobehörigheterna. Efter den uppdateringen är delad åtkomst till någon av resurserna inte tillgänglig för användaren.
+   >
+   > Se dessutom till att användarna tas bort från projektet så att de inte längre får e-postmeddelanden: [Före detta teammedlemmar får Adobe Commerce molnmeddelanden via e-post](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Delete User]**.
 
