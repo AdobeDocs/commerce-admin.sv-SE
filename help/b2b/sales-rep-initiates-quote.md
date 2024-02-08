@@ -4,9 +4,9 @@ description: Lär dig hur en säljare kan skapa en offert för en viss köpare f
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: be3427f6cc2bab68b6d2b0fa0c36b83dc310e528
+source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ När du har skapat offertutkastet lägger du till produktartiklar, lägger till 
 
    Spara offerten som ett utkast eller skicka den till köparen.
 
-   Om du skickar offerten till köparen ändras statusen till `Submitted`och offerten är låst tills köparen får offerten, statusen uppdateras till utkastet och ett bekräftelsemeddelande visas:
+   - Om du sparar offerten som ett utkast uppdateras statusen till `Draft` och ett bekräftelsemeddelande visas:
 
-   ![Bekräftelseutkast till offert har skickats till köparen](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+     ![Bekräftelseutkast till offert har skickats till köparen](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
 
-Köparen får ett e-postmeddelande för att granska offerten. Offerten är låst tills köparen returnerar den för vidare förhandling. Säljaren kan visa offerten från offertrutnätet eller kundrutnätet.
+   - Om du skickar offerten till köparen ändras statusen till `Submitted`. Köparen får ett e-postmeddelande för att granska offerten. Offerten är låst tills köparen returnerar den för vidare förhandling. Säljaren kan visa offerten från offertrutnätet eller kundrutnätet.
 
 ## Visa och skapa offerter från kundstödrastret
 
