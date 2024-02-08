@@ -4,9 +4,9 @@ description: Lär dig hur en säljare kan skapa en offert för en viss köpare f
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
+source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ När du har skapat offertutkastet lägger du till produktartiklar, lägger till 
 
 1. Lägg till objekt i offerten genom att välja **[!UICONTROL Add Product By SKU]**. Ange SKU-numret och kvantiteten och välj sedan **[!UICONTROL Add Product]**.
 
-![Säljaren lägger till artiklar i offertutkast för köparen](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![Säljaren lägger till artiklar i offertutkast för köparen](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Använd radartikelrabatter på produkter efter behov.
 
@@ -67,7 +67,7 @@ När du har skapat offertutkastet lägger du till produktartiklar, lägger till 
 
    - På [!UICONTROL Discount Line item] formulär väljer du **[!UICONTROL Discount Type]**.
 
-   ![Använd radobjektrabatt på offert](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![Använd radobjektrabatt på offert](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - I [!UICONTROL Discount] anger du värdet för rabattypen. Om du till exempel har valt en rabatt i procent anger du 10 för att tillämpa en rabatt på 10 % på radobjektet.
 
@@ -85,7 +85,7 @@ När du har skapat offertutkastet lägger du till produktartiklar, lägger till 
 
 1. Lägg till ytterligare information för köparen.
 
-   I [!UICONTROL Negotiation - Comments], lägga till en anteckning och bifoga eventuella stödfiler som köparen behöver i [!UICONTROL Negotiation - Comments]
+   På **[!UICONTROL Negotiation - Comments]** lägger du till en anteckning och bifogar eventuella stödfiler som krävs för köparen.
 
    ![Säljaren lägger till information för köparen](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -95,9 +95,7 @@ När du har skapat offertutkastet lägger du till produktartiklar, lägger till 
 
    Spara offerten som ett utkast eller skicka den till köparen.
 
-   - Om du sparar offerten som ett utkast uppdateras statusen till `Draft` och ett bekräftelsemeddelande visas:
-
-     ![Bekräftelseutkast till offert har skickats till köparen](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+   - Om du sparar offerten som ett utkast uppdateras statusen till `Draft` och ett bekräftelsemeddelande visas.
 
    - Om du skickar offerten till köparen ändras statusen till `Submitted`. Köparen får ett e-postmeddelande för att granska offerten. Offerten är låst tills köparen returnerar den för vidare förhandling. Säljaren kan visa offerten från offertrutnätet eller kundrutnätet.
 
