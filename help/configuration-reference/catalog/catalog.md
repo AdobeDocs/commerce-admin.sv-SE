@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] sidan för Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 8ce1bca0a14b838c843c66e48a2c1cd895bb1340
 workflow-type: tm+mt
-source-wordcount: '3095'
+source-wordcount: '3134'
 ht-degree: 0%
 
 ---
@@ -207,13 +207,14 @@ ht-degree: 0%
 <!-- [Search Engine Optimization](https://docs.magento.com/user-guide/catalog/product-search-engine-optimization.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
-|--- |--- |--- |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Popular Search Terms] | Butiksvy | Bestämmer om _Vanliga sökvillkor_ implementeras i butiken. Den här inställningen gäller inte för butiker som använder [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Alternativ: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Butiksvy | Avgör om ett suffix, till exempel html eller htm, används på produkt-URL:er. Om det används ska du inte ange någon punkt före suffixet, eftersom det tillämpas automatiskt. |
 | [!UICONTROL Category URL Suffix] | Butiksvy | Avgör om ett suffix, till exempel html eller htm, används på kategorins URL:er. Om det används ska du inte ange någon punkt före suffixet, eftersom det tillämpas automatiskt. |
 | [!UICONTROL Use Categories Path for Product URLs] | Butiksvy | Anger om kategorisökvägar ingår i produkt-URL:er. Om du gör det kan flera URL-adresser peka på samma sida, vilket kan påverka sökordningen. Mer information finns på [Kanonisk meta-tagg](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | Butiksvy | Avgör om en permanent omdirigering skapas automatiskt när en URL-nyckel ändras. När det är implementerat är kryssrutan Skapa anpassad omdirigering för gammal URL under fältet för produkt-URL-nyckel markerad som standard. Alternativ: `Yes` / `No` |
 | [!UICONTROL Generate "category/product" URL Rewrites] | Global | Avgör om Adobe Commerce genererar data och sparar dem i omskrivningstabeller när en användare sparar en kategori som innehåller många tilldelade produkter. Alternativ: `Yes` / `No` <br/><br/>**_Viktigt:_**Om du sparar dessa genererade data i en URL-omskrivningstabell kan prestandan försämras. Se [Automatiska produktomdirigeringar](../../merchandising-promotions/url-redirect-product-automatic.md) för mer information. |
+| [!UICONTROL Apply transliteration for product URL] | Butiksvy | Avgör om translitterering används när produkt-URL:er skapas eller uppdateras. Alternativ: `Yes` / `No`. Standardvärdet är `Yes`. <br/><br/>I vissa fall bör du inaktivera translitterering. Om du till exempel har en webbutik på kinesiska rekommenderar SEO att URL:er för produkten matchar produktnamnet. Ställ in alternativet till `No` tillåter att kinesiska tecken används i produkt-URL:er i stället för ASCII-motsvarigheter. |
 | [!UICONTROL Page Title Separator] | Butiksvy | Identifierar tecknet som skiljer kategorinamnet och underkategorin åt i webbläsarens namnlist. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Butiksvy | Om det finns flera URL:er som pekar på samma kategorisida använder det här alternativet en kanonisk meta-tagg för att identifiera den kategori-URL som sökmotorer ska indexera. URL:en innehåller ett fullständigt namn till kategorin med meta-taggen. Detta minskar dubblettinnehållet och förbättrar SEO. Alternativ: `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | Butiksvy | Om det finns flera URL:er som pekar på samma produktsida använder det här alternativet en kanonisk meta-tagg för att identifiera den produkt-URL som sökmotorer ska indexera. URL:en innehåller ett fullständigt namn till produkten med meta-taggen. Detta minskar dubblettinnehållet och förbättrar SEO. Alternativ: `Yes` / `No` |
@@ -285,7 +286,7 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 | [!UICONTROL Search Recommendations Count] | Butiksvy | Anger antalet söktermer som erbjuds som rekommendationer. Som standard visas inte fler än fem. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Butiksvy | När inställt på `Yes`, visas antalet produkter som hittats för den föreslagna sökrekommendationen inom parentes. Alternativ: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | Butiksvy | Avgör om sökförslag visas för vanliga felstavningar. När det här alternativet är aktiverat visas sökförslag för alla förfrågningar som inte ger några resultat och som visas under `Did you mean` i **Sökresultat** sida. Sökförslag kan påverka sökresultatet. När inställt på `Yes`visas ytterligare alternativ för Aktivera sökning i Recommendations och tillhörande fält. Alternativ: `Yes` / `No` |
-| [!UICONTROL Search Suggestions Count] | Butiksvy | Anger antalet sökförslag som erbjuds. Exempel: `2` |
+| [!UICONTROL Search Suggestions Count] | Butiksvy | Anger antalet sökförslag som erbjuds. Till exempel: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | Butiksvy | Anger om antalet sökresultat visas för varje förslag. Beroende på temat visas numret oftast inom hakparenteser efter förslaget. Alternativ: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | Butiksvy | Anger ett värde som motsvarar antalet termer i frågan som sökresultaten ska matcha för att returneras. Detta ger optimala resultat och relevans för kunderna. Procentvärden motsvarar ett tal och vid behov avrundas nedåt och används som minsta antal termer som ska matchas i frågan. Värdet kan vara ett negativt eller positivt heltal, ett negativt eller ett positivt tal, en kombination av de två eller flera kombinationerna. Mer information finns på [minimum_should_match, parameter](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) i dokumentationen för Elasticsearch. |
 

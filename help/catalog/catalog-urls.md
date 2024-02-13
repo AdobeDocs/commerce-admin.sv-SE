@@ -3,9 +3,9 @@ title: Katalog- och produkt-URL:er
 description: Lär dig mer om URL-formattyperna för dina katalogprodukter och hur du konfigurerar dem.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ URL-nyckeln är en del av en statisk URL som beskriver produkten eller kategorin
 
 >[!NOTE]
 >
->Specialtecken med accent ersätts automatiskt av de vanliga versionerna utan accent i URL-tangenten. Till exempel: `ñ` ersätts automatiskt av `n`.
+>Som standard ersätts specialtecken med accent automatiskt med sina vanliga versioner utan accent i URL-tangenten. Till exempel: `ñ` ersätts automatiskt av `n`. Det här beteendet kan inaktiveras genom att ställa in _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_konfigurationsalternativ till `No`. Se [Konfigurera katalog-URL](#configure-catalog-urls).
 
 URL-nyckeln ska bestå av gemener med bindestreck som inte är avslutande mellan dessa tecken för att avgränsa ord. Bindestreck tillåts inte i början eller slutet av URL-nyckeln. En väldesignad, &quot;sökmotorvänlig&quot; URL-nyckel kan innehålla produktnamn och nyckelord för att förbättra det sätt på vilket den indexeras av sökmotorer. URL-nyckeln kan konfigureras för att skapa en automatisk omdirigering om URL-nyckeln ändras.
 
