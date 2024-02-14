@@ -5,9 +5,9 @@ breadcrumb-title: Handbok för adminsystem
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 6bc66517b7075e3abe57eec2a229cfa14bbd0633
+source-git-commit: c7ba2f0e75a730a8beb235b07fced8367bb87462
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 0%
       - [Importera nedladdningsbara produkter](data-transfer-downloadable-products.md)
       - [Importera skiktprisdata](data-import-price-tier.md)
    - [Schemalagd import och export](data-scheduled-import-export.md)
-   - [Instrumentpanel för datahantering](data-dashboard.md)
 - Åtgärdsloggar {#action-logs}
    - [Ökning](action-log.md)
    - [Åtgärdsloggrapport](action-log-report.md)
