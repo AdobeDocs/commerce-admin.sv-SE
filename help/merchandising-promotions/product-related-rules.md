@@ -3,9 +3,9 @@ title: Relaterade produktregler
 description: Lär dig mer om relaterade produktregler och hur de används för att dynamiskt presentera relaterade produkter, merförsäljning och korsförsäljning till dina kunder.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 91e6c63f1f6f16b957366f9d5cc651f9eded31c8
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -132,3 +132,12 @@ Beteendet för produktrelationsregler och visningen av matchade produkter bestä
 | [!UICONTROL Weighted Random] | Produkterna är randomiserade så att produkter som tillhör en regel med högre prioritet har större sannolikhet att visas än de som tillhör en regel med lägre prioritet. Produkterna reduceras sedan till den konfigurerbara maxgränsen och grupperas sedan om efter prioritet. Det här läget ger en chans att produkter med lägre prioritet visas ibland även om de återstående platserna kan fyllas med produkter med högre prioritet i en regel |
 
 {style="table-layout:auto"}
+
+## Använd Real-Time CDP målgrupper för att informera om relaterade produktregler
+
+>[!NOTE]
+>
+>Den här funktionen är i betaversion. Om du vill gå med i betaprogrammet skickar du en förfrågan till [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+
+Lär dig hur [activate](../customers/audience-activation.md) Real-Time CDP målgrupper i er Adobe Commerce-instans för att informera om relaterade produktregler.

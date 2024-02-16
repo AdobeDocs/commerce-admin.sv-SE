@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
+source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,15 @@ _30 maj 2023_
 ![Nytt](../assets/new.svg) - Uppdaterade [Real-Time CDP Auditions dashboard](#real-time-cdp-audiences-dashboard) så att du kan sortera, söka efter och filtrera de aktiva målgrupperna i din Adobe Commerce-instans.
 
 +++
+
+### 2.2.0-beta1
+
+[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+
+_16 februari 2024_
+
+![Nytt](../assets/new.svg) - Om du deltar i betatestningen bör du kontrollera att `composer.json` filen har följande på rotnivå: ` "minimum-stability": "beta"`.
+![Nytt](../assets/new.svg) - (**Beta**) Möjlighet att skapa [relaterade produktregler](../merchandising-promotions/product-related-rule-create.md) informerad av målgrupper.
 
 ### 2.1.0
 
@@ -147,11 +156,7 @@ När du har installerat [!DNL Audience Activation] måste du logga in i din Comm
 
 1. Expandera **[!UICONTROL Services]** och markera **[!UICONTROL [!DNL Data Connection]]**.
 
-1. I [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#send-historical-order-data) följ steg 1: **Skapa ett projekt i Adobe Developer Console** och 2: **Hämta konfigurationsfil**. Resultatet är en fil som du kopierar och klistrar in i **[!UICONTROL [!DNL Data Connection]]** konfigurationssida:
-
-   ![Konfiguration av Real-Time CDP Audience Admin](./assets/epc-admin-config.png){width="700" zoomable="yes"}
-
-1. Klicka **Spara konfiguration**.
+1. [Lägg till](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) tjänstkonto och autentiseringsuppgifter.
 
 ## Var kan man använda Real-Time CDP målgrupper i Commerce?
 
@@ -159,6 +164,7 @@ Med [!DNL Audience Activation] om tillägget är aktiverat kan du:
 
 - [Skapa en kundvagnsprisregel](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informerad av målgrupper
 - [Skapa ett dynamiskt block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informerad av målgrupper
+- [(**Beta**) Skapa en relaterad produktregel](../merchandising-promotions/product-related-rule-create.md) informerad av målgrupper
 
 ## Real-Time CDP målgruppspanel
 
@@ -187,11 +193,11 @@ Kontrollpanelen innehåller följande fält:
 
 ## Headless-support
 
-Du kan aktivera målgrupper i en headless Adobe Commerce-instans, som AEM och PWA, för att visa kundvagnsprisregler eller dynamiska block baserade på målgrupperna.
+Du kan aktivera målgrupper i en headless Adobe Commerce-instans, som AEM och PWA, för att visa kundprisregler, relaterade produktregler eller dynamiska block baserade på målgrupperna.
 
-### Kundprisregler
+### Kundprisregler och relaterade produktregler
 
-För kundvagnsprisregler kommunicerar en headless store till Experience Platform via [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Ramverket innehåller ett API på serversidan som implementeras med GraphQL. Målgruppsinformation, t.ex. en kunds segment, skickas till Commerce via en GraphQL-huvudparameter med namnet: `aep-segments-membership`.
+För kundvagnsprisregler och tillhörande produktregler kommunicerar en headless Store till Experience Platform via [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Ramverket innehåller ett API på serversidan som implementeras med GraphQL. Målgruppsinformation, t.ex. en kunds segment, skickas till Commerce via en GraphQL-huvudparameter med namnet: `aep-segments-membership`.
 
 Den övergripande arkitekturen är följande:
 
@@ -323,4 +329,35 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-När data har hämtats kan ni använda dem för att skapa målgruppsinformation [kundprisregler](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) och [dynamiska block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) i Commerce.
+När data har hämtats kan ni använda dem för att skapa målgruppsinformation [kundprisregler](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [dynamiska block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) och  [relaterade produktregler](../merchandising-promotions/product-related-rule-create.md) i Commerce.
+
+## Målgrupper visas inte i Commerce
+
+Om Real-Time CDP-målgrupper inte visas i Commerce kan det bero på:
+
+- Felaktig autentiseringstyp har valts i **Dataanslutning** konfigurationssida
+- Otillräckliga privilegier för genererad token
+
+I följande två avsnitt beskrivs hur du felsöker båda fallen.
+
+### Felaktig autentiseringstyp har valts i konfigurationen
+
+1. Öppna din Commerce-instans.
+1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Expandera **[!UICONTROL Services]** och markera **[!UICONTROL [!DNL Data Connection]]**.
+1. Kontrollera auktoriseringsmetoden server-till-server som du angav i **[!UICONTROL Authentication Type]** fältet är korrekt. Adobe rekommenderar att du använder **OAuth**. JWT har tagits bort. [Läs mer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+
+### Otillräckliga privilegier för genererad token
+
+Problemet kan bero på otillräcklig API-behörighet för den genererade token. Så här ser du till att din token har rätt behörigheter:
+
+1. Identifiera systemadministratören för Adobe Experience Platform i din organisation.
+1. Hitta projektet och autentiseringsuppgifterna som du kommer att använda.
+1. Identifiera e-postadressen till det tekniska kontot, till exempel: `fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com`.
+1. Be systemadministratören starta Adobe Experience Platform och gå till **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
+1. Använd det tekniska kontots e-postadress ovan för att söka efter de autentiseringsuppgifter som ska ändras.
+1. Öppna inloggningsuppgifterna och välj **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
+1. Lägg till **Tillgång till alla produktioner**.
+1. Klicka på **[!UICONTROL Save]**.
+1. [Återskapa](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) åtkomsttoken i konsolen.
+1. Verifiera att token ger ett giltigt svar med [API för målanslutningar](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).

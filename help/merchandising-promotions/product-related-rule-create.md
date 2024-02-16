@@ -3,9 +3,9 @@ title: Skapa en relaterad produktregel
 description: Lär dig hur du skapar en relaterad produktregel som kan aktiveras för att visa relaterade produkter, merförsäljning och korsförsäljning.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 8f5a5fb6c277086e5f70221e4a6a5ae1b9e1abfe
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ Processen med att skapa en relaterad produktregel liknar att ställa in en prisr
    - För **[!UICONTROL Result Limit]** anger du antalet poster som ska visas i resultatlistan. Det högsta antalet är 20.
 
    - Om regeln gäller för en viss [kundsegment](../customers/customer-segments.md), ange **[!UICONTROL Customer Segments]** till `Specified` och välj kundsegment i listan.
+
+   - (**Beta**) Om regeln gäller för en viss [Real-Time CDP](../customers/audience-activation.md), ange **[!UICONTROL Real-Time CDP Audience]** till `Specified` och välj Real-Time CDP målgrupp i listan. Den här funktionen är i betaversion. Om du vill gå med i betaprogrammet skickar du en förfrågan till [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+     ![Regel för relaterade produkter - Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
 
 1. Välj **[!UICONTROL Products to Match]** och bygga upp villkoren på samma sätt som för en [katalogprisregel](price-rules-catalog.md).
 
