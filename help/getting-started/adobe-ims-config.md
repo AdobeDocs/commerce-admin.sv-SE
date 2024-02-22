@@ -3,10 +3,10 @@ title: Konfigurera Commerce Admin-integrering med ID
 description: Följ den här valfria proceduren för att integrera inloggningar för användarkonton i Adobe Commerce Admin med Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 20b2560ce2b8071c740907292544519f8b1c3ddf
+source-git-commit: 0c79449ca05056d7a14242bbc859cb1bd4dc526e
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 1%
+source-wordcount: '755'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,8 @@ Commerce Admin-användare måste skapa ett konto hos en Adobe ID för att kunna 
 
 * Hämta Adobe Org-ID från [Adobe Admin Console](https://adminconsole.adobe.com/)
 * Generera ett nytt projekt, IMS API-nycklar och hemlighet från [Adobe Developer Console](https://developer.adobe.com/)
-* Aktivera `AdminAdobeIms` modul
-* Konfigurera Adobe Commerce i Adobe Admin Console.
+* Konfigurera Adobe Commerce-användare i Adobe Admin Console
+* Aktivera `AdminAdobeIms` -modul.
 
 För en lyckad integrering krävs att alla Adobe Commerce-användare har administratörskonton med samma namn och primära e-postadress. Om det inte finns något matchande administratörskonto måste en användare med nödvändig behörighet (vanligtvis tilldelad administratörsrollen) manuellt [skapa administratörens användarkonto](../systems/permissions-users-all.md#create-a-user) med samma namn och e-postadress.
 
@@ -69,7 +69,29 @@ Om du vill skapa projekt för en organisation måste Adobe Admin-kontot för org
 1. Klicka på **[!UICONTROL Save configured API]**.
 1. Kopiera [!UICONTROL Client ID] och [!UICONTROL Client Secret] nycklar från det skapade projektet.
 
-### Steg 3: Aktivera AdminAdobeIms-modulen
+### Steg 3: Konfigurera Adobe Commerce-användare i Adobe Admin Console
+
+Innan du aktiverar integreringen bör du kontrollera att alla Adobe Commerce Admin-användarkonton har ett motsvarande Adobe IMS-konto. Adobe Commerce-användare måste tillhöra en viss Adobe-organisation för att kunna logga in med en Adobe ID.
+
+>[!TIP]
+>
+>Du kan skapa flera användarkonton genom att överföra användarinformationen från en CSV-fil. Se [Hantera flera användare](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+
+1. I [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html), navigera till **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+
+1. Klicka på **[!UICONTROL Add User]**.
+
+1. Ange användarens e-postadress.
+
+   Om det är tillämpligt fylls den rekommenderade ID-typen i automatiskt. Du kan ändra den här inställningen till ett produkt-ID i listan, som baseras på din organisations inköpsplan.
+
+   Du kan lägga till upp till tio användare samtidigt. Om du vill lägga till fler upprepar du de föregående stegen när du har sparat ändringarna.
+
+1. Klicka på **[!UICONTROL Save]**.
+
+Användaren läggs till och visas i [!UICONTROL Users] lista.
+
+### Steg 4: Aktivera AdminAdobeIms-modulen
 
 The `AdminAdobeIms` -modulen ansvarar för integreringen av Adobe Commerce/Adobe IMS. När du har konfigurerat det nya projektet och kopierat ditt företags-ID, klient-ID och klienthemlighet kan du aktivera `AdminAdobeIms` -modul.
 
@@ -83,21 +105,3 @@ Retur `bin/magento admin:adobe-ims:enable`. Du uppmanas att ange följande param
 Adobe Commerce visar ett meddelande som anger om aktiveringen lyckades eller misslyckades.
 
 När du har aktiverat den här funktionen kan du överföra andra Adobe Commerce-användarkonton till Adobe IMS-konton. Adobe Commerce-användare måste tillhöra den konfigurerade Adobe-organisationen för att kunna logga in med en Adobe ID.
-
-### Steg 4: Konfigurera Adobe Commerce-användare i Adobe Admin Console
-
-När du har aktiverat den här funktionen kan du överföra andra Adobe Commerce-användarkonton till Adobe IMS-konton. Adobe Commerce-användare måste tillhöra minst en Adobe-organisation för att kunna logga in med en Adobe ID.
-
-1. I [Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html), navigera till **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
-
-1. Klicka på **[!UICONTROL Add User]**.
-
-1. Ange användarens e-postadress.
-
-   Om det är tillämpligt fylls den rekommenderade ID-typen i automatiskt. Du kan ändra den här inställningen till ett produkt-ID i listan, som baseras på din organisations inköpsplan.
-
-   Du kan lägga till upp till tio användare samtidigt. Om du vill lägga till fler upprepar du de föregående stegen när du har sparat ändringarna.
-
-1. Klicka på **[!UICONTROL Save]**.
-
-Användaren läggs till och visas i [!UICONTROL Users] lista.
