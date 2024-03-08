@@ -3,9 +3,9 @@ title: Sökresultat
 description: Lär dig hur du konfigurerar hur produkterna matchar sökvillkoren som anges i snabbsökningsrutan eller i formuläret för avancerad sökning.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,10 @@ I följande exempel används nyckelordsmappning baserad på SKU. När någon av 
 ## Viktad sökning
 
 Produktattribut som är aktiverade för katalogsökning kan tilldelas en vikt för att ge dem ett högre värde i sökresultaten. Attribut med större vikt returneras före attribut med lägre vikt. Om det till exempel finns två attribut i systemet _färg_ med en sökvikt på 3 och _description_ med sökvikten 1. En sökning efter ordet _röd_ returnerar en lista med produkter med färgattributvärdet `red` längst upp i sökresultaten och returnerar produkter med beskrivningar som innehåller ordet _röd_ längst ned i sökresultaten. I det här exemplet `color` har en större definierad vikt än `description` -attribut.
+
+>[!IMPORTANT]
+>
+>Sorteringen efter relevans påverkas av **_flera_** kriterier och förhållanden mellan dem **_samtidigt_**. [!UICONTROL Search Weight] är bara ett av dessa kriterier. Det innebär att attribut med lägre sökvikt ibland kan ha större relevans än attribut med högre sökvikt. Andra villkor kan vara antalet matchningar i ett givet attribut, positionen för det sökord som hittats och den övergripande textstrukturen före och efter ett sökord.
 
 **_Så här anger du sökviktsegenskaperna för ett attribut:_**
 
