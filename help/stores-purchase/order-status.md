@@ -3,41 +3,50 @@ title: Orderstatus
 description: Lär dig mer om fördefinierade orderstatusar och hur du definierar anpassade orderstatusar som är anpassade efter dina operativa behov.
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c2d5e9b41a76ba58d1343a8b3ee5122104d5bfe0
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # Orderstatus
 
-Alla order har en orderstatus som är associerad med en fas i orderbearbetningen [arbetsflöde](order-processing.md). Statusen för varje order visas i _Status_ kolumn i _Beställningar_ rutnät. Butiken har en uppsättning fördefinierade inställningar för orderstatus och ordertillstånd. Ordertillståndet beskriver positionen för en order i arbetsflödet.
+Alla order har en orderstatus som är associerad med en fas i orderbearbetningen [arbetsflöde](order-processing.md).\
+Skillnaden mellan orderstatus och orderstatus är att **[!UICONTROL order states]** används programmatiskt. De är inte synliga för kunder eller administratörer. De bestämmer flödet för en order och vilka åtgärder som är möjliga för en order i ett visst läge.\
+**[!UICONTROL Order statuses]** används för att förmedla status för en order till kunder och adminanvändare.
+Du kan skapa ytterligare orderstatusar som passar dina operativa behov. Beställningsstatus är praktiska om du vill visa förloppet utanför Adobe Commerce, t.ex. beställa plocknings- och leveransstatus. De påverkar inte arbetsflödet för orderbehandling.\
+Varje orderstatus är associerad med ett ordertillstånd. Butiken har en uppsättning fördefinierade inställningar för orderstatus och ordertillstånd.
+
+![Ordna lägen och statusvärden](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
+
+Statusen för varje order visas i _Status_ kolumn i _Beställningar_ rutnät.
 
 ![Orderstatus](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->En delvis återbetalningsorder finns kvar `Processing` status till **_alla_** beställda artiklar (inklusive återförda artiklar) skickas. Orderstatusen ändras inte till `Complete` när inte ens en orderartikel har levererats.
+>En delvis återbetalningsorder finns kvar `Processing` status till **_alla_** beställda artiklar (inklusive återförda artiklar) skickas. Orderstatusen ändras inte till `Complete` tills alla artiklar i ordern har levererats.
 
-## Arbetsflöde för orderstatus
+## Arbetsflöde för ordertillstånd
 
-![Arbetsflöde för orderstatus](./assets/order-workflow.png)
+![Arbetsflöde för ordertillstånd](./assets/order-state-workflow.png)
 
 ## Fördefinierad status
 
-| Orderstatus | Statuskod |  |
-|--- |--- |--- |
-| Bearbetar | `processing` | När status för nya order är &#39;Bearbetning&#39;, _Fakturera alla artiklar automatiskt_ blir tillgängligt i konfigurationen. Fakturor skapas inte automatiskt för order som läggs med hjälp av presentkort, butikskrediter, belöningspoäng eller andra offlinebetalningsmetoder. |
+| Orderstatus | Statuskod |                                                                                                                                                                                                                                                                                        |
+|--------------------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Mottaget | `received` | Den här statusen är den initiala statusen för order som placeras när asynkron orderplacering är aktiverad. |
 | Misstänkt bedrägeri | `fraud` | Ibland markeras beställningar som betalats via PayPal eller någon annan betalningsgateway som _Misstänkt bedrägeri_. Denna status innebär att ordern inte har någon utskickad faktura och att bekräftelsemeddelandet inte heller skickas. |
+| Bearbetar | `processing` | När status för nya order är &#39;Bearbetning&#39;, _Fakturera alla artiklar automatiskt_ blir tillgängligt i konfigurationen. Fakturor skapas inte automatiskt för order som läggs med hjälp av presentkort, butikskrediter, belöningspoäng eller andra offlinebetalningsmetoder. |
 | Väntande betalning | `pending_payment` | Den här statusen används om ordern skapas och PayPal eller liknande betalningsmetod används. Det innebär att kunden riktades till betalningstjänstens webbplats, men ingen returinformation har tagits emot ännu. Den här statusen ändras när kunden betalar. |
 | Betalningsgranskning | `payment_review` | Den här statusen visas när PayPal-betalningsgranskning är aktiverad. |
 | Väntande | `pending` | Den här statusen anger att ingen faktura eller försändelser har skickats. |
 | Parkerad | `holded` | Den här statusen kan endast tilldelas manuellt. Du kan spärra alla beställningar. |
-| Öppna | `STATE_OPEN` | Denna status innebär att en order eller kreditnota fortfarande är öppen och kan behöva ytterligare åtgärder. |
 | Complete | `complete` | Denna status innebär att ordern skapas, betalas och skickas till kunden. |
 | Stängd | `closed` | Den här statusen anger att en order har tilldelats en kreditnota och att kunden har fått en återbetalning. |
 | Avbruten | `canceled` | Den här statusen tilldelas manuellt i Admin eller, för vissa betalningslösningar, när kunden inte betalar inom den angivna tiden. |
+| Avvisad | `rejected` | Den här statusen innebär att en order avvisades under asynkron orderbearbetning. Detta inträffar när ett fel inträffar under asynkron orderplacering. |
 | PayPal avbruten återföring | `paypay_canceled_reversal` | Den här statusen innebär att PayPal avbröt återföringen. |
 | Pending PayPal | `pending_paypal` | Denna status innebär att beställningen togs emot av PayPal, men betalningen har ännu inte bearbetats. |
 | PayPal omvänd | `paypal_reversed` | Denna status innebär att PayPal återförde transaktionen. |
@@ -46,7 +55,7 @@ Alla order har en orderstatus som är associerad med en fas i orderbearbetningen
 
 ## Anpassad orderstatus
 
-Förutom förinställda statusinställningar för ordning kan du skapa egna statusinställningar för order, tilldela dem till orderlägen och ange en standardorderstatus för orderlägen. Orderläget anger positionen för ordern i orderbearbetningsarbetsflödet och orderstatusen definierar orderns status. Du kan till exempel behöva en anpassad orderstatus som `packaging"`, `backordered`eller en status som är specifik för dina behov. Du kan skapa ett beskrivande namn för den anpassade statusen och tilldela det till det associerade ordertillståndet i arbetsflödet.
+Förutom förinställda statusinställningar för ordning kan du skapa egna statusinställningar för beställning, tilldela dem till orderlägen och ange standardstatusvärden för beställningsstatus. Ordertillståndet anger positionen för ordern i orderbearbetningsarbetsflödet och orderstatusen tilldelar en meningsfull, översättningsbar etikett till positionen för ordern. Du kan till exempel behöva en anpassad orderstatus som `packaging"`, `backordered`eller en status som är specifik för dina behov. Du kan skapa ett beskrivande namn för den anpassade statusen och tilldela det till det associerade ordertillståndet i arbetsflödet.
 
 >[!NOTE]
 >
