@@ -3,20 +3,20 @@ title: Lägg till innehåll - Recommendations
 description: Läs mer om Product Recommendations Content Type, som används för att lägga till en lista med rekommendationer i [!DNL Page Builder] stage.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 13d00168e1253a7d2698b898caa30d9ca2ad3800
+source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Lägg till innehåll - Recommendations
 
-Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv [rekommendationsenhet](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) till [[!DNL Page Builder] stage](workspace.md#stage) för en CMS-sida, ett -block eller ett dynamiskt -block.
+Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv [rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) till [[!DNL Page Builder] stage](workspace.md#stage) för en CMS-sida, ett -block eller ett dynamiskt -block.
 
 >[!NOTE]
 >
->The [!DNL Page Builder] _Recommendations_ innehållstypen stöds i Adobe Commerce 2.4.4 och senare och finns i [Recommendations metapaket version 3.0.x eller senare](https://marketplace.magento.com/magento-product-recommendations.html). Lägg till [!DNL Page Builder] support för Product Recommendations, [se installationsinformationen](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **Den här innehållstypen är inte tillgänglig för Magento Open Source.**
+>The [!DNL Page Builder] _Recommendations_ innehållstypen stöds i Adobe Commerce 2.4.4 och senare och finns i [Recommendations metapaket version 3.0.x eller senare](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Lägg till [!DNL Page Builder] support för Product Recommendations, [se installationsinformationen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Den här innehållstypen är inte tillgänglig för Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv
 
 ## Lägg till en befintlig rekommendationsenhet
 
-1. Kontrollera att du redan har [har skapat en rekommendationsenhet](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) för [!DNL Page Builder] sidtyp.
+1. Kontrollera att du redan har [har skapat en rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) för [!DNL Page Builder] sidtyp.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv
 1. Gör något av följande:
 
    - Klicka på **[!UICONTROL Edit Product Recommendation]**.
-   - Håll pekaren över den tomma behållaren för att visa verktygslådan och klicka på knappen _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+   - Håll pekaren över den tomma behållaren för att visa verktygslådan och klicka på knappen _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png)).
 
    ![Redigera produktrekommendation](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv
 
 ## Redigera inställningar för rekommendationsenhet
 
-1. Håll pekaren över rekommendationsenhetsbehållaren för att visa verktygslådan och klicka på _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över rekommendationsenhetsbehållaren för att visa verktygslådan och klicka på _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png)).
 
    ![Rekommendationsverktygslåda](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv
 
 ## Duplicera en rekommendationsenhet
 
-1. Håll pekaren över rekommendationsenhetsbehållaren för att visa verktygslådan och klicka på _Duplicera_ ( ![Duplicera](./assets/pb-icon-duplicate.png){width="20"} ) i verktygslådan.
+1. Håll pekaren över rekommendationsenhetsbehållaren för att visa verktygslådan och klicka på _Duplicera_ (![Duplicera, ikon](./assets/pb-icon-duplicate.png)) i verktygslådan.
 
    Dupliceringen visas precis nedanför originalet.
 
-1. Om du vill flytta den duplicerade rekommendationsenheten till en ny position håller du pekaren över behållaren och klickar på knappen _Flytta_ ( ![Ikonen Flytta](./assets/pb-icon-move.png){width="20"} ) i verktygslådan.
+1. Om du vill flytta den duplicerade rekommendationsenheten till en ny position håller du pekaren över behållaren och klickar på knappen _Flytta_ (![Ikonen Flytta](./assets/pb-icon-move.png)) i verktygslådan.
 
 1. Markera och dra rekommendationsenheten tills den röda stödlinjen visas på den nya positionen.
 
@@ -106,7 +106,7 @@ Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv
 
 ## Ta bort en rekommendationsenhet från scenen
 
-1. Håll pekaren över rekommendationsenhetsbehållaren och klicka på _Ta bort_ ( ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="20"} ) i verktygslådan.
+1. Håll pekaren över rekommendationsenhetsbehållaren och klicka på _Ta bort_ ( ![Ikonen Ta bort](./assets/pb-icon-remove.png)) i verktygslådan.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 

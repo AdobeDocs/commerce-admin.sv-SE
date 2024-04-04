@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
+source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 maj 2023_
 ![Nytt](../assets/new.svg) - Uppdaterade [Real-Time CDP Auditions dashboard](#real-time-cdp-audiences-dashboard) så att du kan sortera, söka efter och filtrera de aktiva målgrupperna i din Adobe Commerce-instans.
 
 +++
+
+### 2.1.1
+
+[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+
+_4 april 2024_
+
+![Nytt](../assets/new.svg) - Stöd för PHP 8.3 har lagts till.
 
 ### 2.2.0-beta1
 
@@ -295,7 +303,10 @@ Läs mer om `dynamicBlocks` GraphQL-fråga i [dokumentation för utvecklare](htt
 
 ## Hämta målgrupper med Adobe Experience Platform Mobile SDK
 
-Innan du kan hämta Real-Time CDP-målgrupper med Adobe Experience Platform Mobile SDK måste du [installera och konfigurera SDK för din mobila handelsplats](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+Du kan hämta Real-Time CDP-målgrupper med Adobe Experience Platform Mobile SDK.
+
+1. [Installera](#install-the-extension) tillägget Audience Activation.
+1. [installera och konfigurera SDK för din mobila handelsplats](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
