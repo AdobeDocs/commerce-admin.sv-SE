@@ -3,9 +3,9 @@ title: Importera data
 description: Lär dig mer om riktlinjer för dataimport och hur du använder dataimportåtgärder.
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Om det finns ett attribut som anges i importfilen och dess värde härleds från
 
 - En fil kan inte importeras om alla rader är ogiltiga.
 - Ett icke-befintligt tjänstdata eller komplext datanamn anges i importfilen, till exempel en kolumn med en `_<non-existing name>` rubrik.
+
+Adobe Commerce importprocess kanske inte känner igen filer som är kodade i UTF-8 och som använder ett byteordningsmärke (BOM). Filer som innehåller en strukturlista kan leda till problem eller fel under importprocessen.
 
 ## Importera åtgärder
 
@@ -139,7 +141,7 @@ När produktdata importeras läggs nya produktdata till i befintliga produktdata
 
 1. För **[!UICONTROL Images File Directory]** anger du den relativa sökvägen till den plats på Commerce-servern där överförda bilder lagras.
 
-   Exempel: `product_images`.
+   Till exempel: `product_images`.
 
    >[!NOTE]
    >

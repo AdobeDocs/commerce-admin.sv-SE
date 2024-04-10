@@ -3,9 +3,9 @@ title: Konfigurera katalogsökning
 description: Lär dig konfigurera katalogsökning för din butik.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Det finns två varianter av katalogsökningskonfigurationen. Den första metoden
 >[!IMPORTANT]
 >
 >På [!DNL Elasticsearch 7] meddelande om att supporten upphör i augusti 2023 rekommenderas att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under uppgraderingen finns i [Migrerar till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) i _Uppgraderingshandbok_.
-
-{{beta2-updates}}
 
 ### Steg 1: Konfigurera allmänna sökalternativ
 

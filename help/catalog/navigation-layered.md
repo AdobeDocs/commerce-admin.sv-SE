@@ -3,10 +3,10 @@ title: Navigering i flera lager
 description: Se hur lagerstyrd navigering gör det enkelt för kunderna att hitta produkter baserat på kategori, prisintervall eller något annat tillgängligt attribut.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 
 ---
 
@@ -59,6 +59,10 @@ Följande instruktioner visar hur du ställer in grundläggande lagerstyrd navig
    ![Storefront-egenskaper](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Upprepa dessa steg för varje attribut som du vill inkludera i navigeringen i lager.
+
+>[!NOTE]
+>
+>När _[!UICONTROL Use in Search]_inställningen är inställd på `No`,_[!UICONTROL Use in Search Results Layered Navigation]_ inställningen visas inte och produktattributet används inte i sökningen med [!UICONTROL Use in Layered Navigation] inställningsvärde.
 
 >[!NOTE]
 >
@@ -124,15 +128,15 @@ Iterativ uppdelning ger den bästa produktfördelningen mellan olika prisinterva
 
 | Prissteg med 10 | Prissteg med 100 |
 |----------|--------|
-| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
-| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
-| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
-| $100.00 - $109.99 (1) | $700.00 och högre (1) |
-| $120.00 - $129.99 (2) |   |
-| $150.00 - $159.99 (1) |   |
-| $180.00 - $189.99 (1) |   |
-| $420.00 - $429.99 (1) |   |
-| $440.00 - $449.99 (1) |   |
+| 20,00 - 29,99 USD (1) | $0,00 - $99,99 (4) |
+| 30,00-39,99 USD (2) | 100-199,99 USD (5) |
+| 70,00-79,99 USD (1) | 400,00-499,99 USD (2) |
+| 100,00 - 109,99 USD (1) | $700.00 och högre (1) |
+| 120,00 - 129,99 USD (2) |   |
+| 150,00 - 159,99 USD (1) |   |
+| 180,00 - 189,99 USD (1) |   |
+| 420,00 - 429,99 USD (1) |   |
+| 440,00 - 449,99 USD (1) |   |
 | $710.00 och högre (1) |   |
 
 {style="table-layout:auto"}

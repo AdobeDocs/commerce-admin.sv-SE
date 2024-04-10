@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Br
 description: Granska konfigurationsinställningarna för [!UICONTROL Braintree] i [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] sidan för Commerce Admin.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 5488a0a991f497059ea39fbbc8a08fd8f546e1ac
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2603'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 
 {{config}}
 
-{{beta2-updates}}
-
 ## [!UICONTROL Basic Braintree Settings]
 
 ![Inställningar för grundläggande Braintree](./assets/payment-methods-braintree-basic-config.png)<!-- zoom -->
@@ -41,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Public Key] | Butiksvy | Detta är din användarspecifika, offentliga identifierare som begränsar åtkomsten till krypterade data. Varje användare som är kopplad till din Braintree-gateway har sin egen offentliga nyckel. Det här fältet visas när _[!UICONTROL Environment]_fältet är inställt på `Production`. |
 | [!UICONTROL Private Key] | Butiksvy | Detta är din användarspecifika, privata identifierare som begränsar åtkomsten till krypterade data. Varje användare som är kopplad till din Braintree-gateway har sin egen privata nyckel. Det här fältet visas när _[!UICONTROL Environment]_fältet är inställt på `Production`. |
 | [!UICONTROL Enable Card Payments] | Webbplats | Avgör om betalningsmetoden för kreditkort på Braintree är tillgänglig för dina kunder som betalningsmetod. Alternativ: `Yes` / `No` |
-| [!UICONTROL Enable Vault for Card Payments] | Webbplats | När det här alternativet är aktiverat tillhandahålls säker lagring för kundbetalningsinformation, så att kunderna inte behöver ange sin kreditkortsinformation igen för varje köp. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Vault for Card Payments] | Webbplats | När det här alternativet är aktiverat tillhandahålls säker lagring för kundbetalningsinformation så att kunderna inte behöver ange sin kreditkortsinformation på nytt för varje köp. Alternativ: `Yes` / `No` |
 | [!UICONTROL Enable Vault CVV Reverification] | Webbplats | När det här alternativet är aktiverat valideras CVV-reglerna som har konfigurerats på ditt Braintree-konto. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -54,6 +52,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Vault Title] | Webbplats | En beskrivande rubrik för din referens som identifierar valvet där kundkortsinformationen lagras. |
 | [!UICONTROL Merchant Account ID] | Webbplats | Det konto-ID för handelskonto som ska associeras med transaktioner från Braintree från den här webbplatsen. Om inget anges används standardhandelskontot från ditt Braintree. |
+| [!UICONTROL Enable Checkout Express Payments] | Webbplats | Ger en snabbare utcheckning med Express Payment-alternativ i början av utcheckningsprocessen, inklusive PayPal, PayLater, Apple Pay och Google Pay. Alternativ: `Yes` / `No` |
 | [!UICONTROL Skip Fraud Checks on Admin Orders] | Webbplats | Förhindrar att transaktionen skickas för utvärdering som en del av [!DNL Advanced Fraud Tools] kontroller, på beställningar som gjorts via administratören endast när den är inställd på `Yes`.<br/>Alternativ: `Yes` / `No` |
 | [!UICONTROL Bypass Fraud Protection Threshold] | Webbplats | `Advanced Fraud Protection` Kontroller ignoreras när tröskelvärdet uppnås eller överskrids. Om du lämnar fältet tomt inaktiveras det här alternativet. |
 | [!UICONTROL Debug] | Webbplats | Avgör om kommunikation mellan Braintree-systemet och din butik registreras i en loggfil. Alternativ: `Yes` / `No` |
@@ -68,7 +67,7 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Enable Webhook] | Webbplats | För att möjliggöra webbokrosfunktionaliteten för bedrägeriskydd gör ACH-betalningar och lokala betalningsmetoder. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Webhook] | Webbplats | För att möjliggöra webbokrosfunktionen för bedrägeriskydd, ACH-betalningar, lokala betalningsmetoder och tvister. Alternativ: `Yes` / `No` |
 | [!UICONTROL Fraud Protection URL] | Webbplats | Lägg till den här URL-adressen i ditt Braintree-konto som [!UICONTROL Webhook Destination URL]. **Denna URL måste vara säker och allmänt tillgänglig.** |
 | [!UICONTROL Fraud Protection Approve Order Status] | Webbplats | När bedrägeriskyddet har godkänts av Braintree tilldelas den valda orderstatusen till handelsordern. Den här statusen används för att uppdatera status för den order där betalningsmetoden ACH används och när den flyttas till `SETTLED` i Braintree. |
 | [!UICONTROL Fraud Protection Reject Order Status] | Webbplats | När bedrägeriskyddet avvisas av Braintree tilldelas den valda orderstatusen till handelsordern. Den här statusen används för att uppdatera status för den order där betalningsmetoden ACH används och när `SETTLEMENT` är `DECLINED` i Braintree. |
@@ -94,6 +93,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enabled ACH Direct Debit] | Webbplats | Bestämmer om [!DNL ACH Direct Debit] ingår som betalningsmetod via Braintree. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Vault for ACH Direct Debit] | Webbplats | Kunderna kan vault/store sin engångsbetalningsmetod ACH Direct Debit för framtida bruk. När betalningsinformationen har säkrats kan kunden använda betalningsmetoden ACH Direct Debit utan att behöva ange data på nytt eller autentisera sin betalningsinformation på nytt. Alternativ: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Webbplats | Bestämmer ordningen som [!DNL ACH Direct Debit] visas med andra betalningsmetoder vid utcheckning. |
 
 {style="table-layout:auto"}
@@ -105,6 +105,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable ApplePay through Braintree] | Webbplats | Avgör om Apple Pay inkluderas som betalningsmetod via Braintree. Alternativ: `Yes` / `No` <br/><br/> Domänen måste vara [har verifierats i Braintree först](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3). |
+| [!UICONTROL Enable Vault for ApplePay] | Webbplats | Kunderna kan validera/lagra sina betalningsmetoder i Apple Pay för framtida bruk. När betalningsinformationen har säkrats kan kunden använda Apple Pay utan att behöva ange några uppgifter eller autentisera sin betalningsinformation på nytt. Alternativ: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Webbplats | Anger vilken åtgärd Braintree ska vidta när en betalning bearbetas. Alternativ: <br/>**`Authorize`**- Medel på kundkortet godkänns, men överförs inte från kundens konto. En beställning skapas i din butiksadministratör. Du kan hämta försäljningen senare och skapa en faktura.<br/>**`Intent Sale`** - Medel på kundkortet godkänns och hämtas av Braintree, och en order och faktura skapas i din butiksadministratör. **_Obs!_** Det här var `Authorize and Capture` i 2.3.x och tidigare versioner. |
 | [!UICONTROL Merchant Name] | Butiksvy | Etikett som visas för kunder på ApplePay-popup-menyn. |
 | [!UICONTROL Sort Order] | Webbplats | Bestämmer i vilken ordning Apple Pay ska listas med andra betalningsmetoder vid utcheckning. |
@@ -119,6 +120,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled Local Payment Methods] | Webbplats | Avgör om lokal betalningsmetod ingår som betalningsmetod via Braintree. Alternativ: `Yes` / `No` |
 | [!UICONTROL Title] | Webbplats | Etikett som visas i avsnittet betalningssätt för utcheckning. Standardvärde: `Local Payments` |
+| [!UICONTROL Fallback Button Text] | Webbplats | Ange den text som ska användas för den knapp som visas på Braintree-reservsidan som tar kunderna tillbaka till webbplatsen. Standardvärde: `Complete Checkout` |
+| [!UICONTROL Redirect on Fail] | Webbplats | Anger den URL där kunderna ska omdirigeras när lokala betalningsmetoder avbryts, misslyckas eller stöter på fel. Det ska vara betalningssidan för kassan (till exempel `https://www.domain.com/checkout#payment`). |
 | [!UICONTROL Allowed Payment Method] | Webbplats | Välj den lokala betalningsmetod som ska aktiveras. Alternativ: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (stöds ännu inte) |
 | [!UICONTROL Sort Order] | Webbplats | Bestämmer den ordning som den lokala betalningsmetoden listas med andra betalningsmetoder vid utcheckning. |
 
@@ -135,6 +138,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enabled GooglePay through Braintree] | Webbplats | Bestämmer om [!DNL Google Pay] Betalning ingår som betalningsmetod via Braintree. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Vault for GooglePay] | Webbplats | Kunderna kan validera/lagra sina betalningsmetoder i Google Pay för framtida bruk. När betalningsinformationen har säkrats kan kunden använda Google Pay utan att behöva ange några uppgifter eller autentisera sin betalningsinformation på nytt. Alternativ: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Webbplats | Anger vilken åtgärd Braintree ska vidta när en betalning bearbetas. Alternativ: <br/>**`Authorize`**- Medel på kundkortet godkänns, men överförs inte från kundens konto. En beställning skapas i din butiksadministratör. Du kan hämta försäljningen senare och skapa en faktura.<br/>**`Intent Sale`** - Medel på kundkortet godkänns och hämtas av Braintree, och en order och faktura skapas i din butiksadministratör. **_Obs!_** Det här var `Authorize and Capture` i 2.3.x och tidigare versioner. |
 | [!UICONTROL Button Color] | Webbplats | Bestämmer färgen för [!DNL Google Pay] -knappen. Alternativ: `White` / `Black` |
 | [!UICONTROL Merchant ID] | Butiksvy | ID från Google måste anges här. |
@@ -150,6 +154,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | Webbplats | Bestämmer om [!DNL Venmo] ingår som betalningsmetod via Braintree. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Vault for Venmo] | Webbplats | Kunderna kan validera/lagra sin betalmetod i Venmo för framtida bruk. När betalningsinformationen har säkrats kan kunden använda betalningsmetoden Venmo utan att behöva skriva in uppgifter på nytt eller autentisera sin betalningsinformation på nytt. Alternativ: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Webbplats | Anger vilken åtgärd Braintree ska vidta när en betalning bearbetas. Alternativ: <br/>**`Authorize`**- Medel på kundkortet godkänns, men överförs inte från kundens konto. En beställning skapas i din butiksadministratör. Du kan hämta försäljningen senare och skapa en faktura.<br/>**`Intent Sale`** - Medel på kundkortet godkänns och hämtas av Braintree, och en order och faktura skapas i din butiksadministratör. **_Obs!_** Det här var  _Auktorisera och hämta_ i 2.3.x och tidigare versioner. |
 | [!UICONTROL Sort Order] | Webbplats | Bestämmer den ordning som Venmo listas med andra betalningsmetoder vid utcheckning. |
 
@@ -166,6 +171,7 @@ ht-degree: 0%
 | [!UICONTROL Enable PayPal PayLater through Braintree] | Webbplats | Avgör om PayPal PayLater inkluderas som betalningsmetod via Braintree. Alternativ: `Yes` / `No`. Det här fältet visas när `Enable PayPal through Braintree` är inställd på `Yes` |
 | [!UICONTROL Title] | Butiksvy | Etiketten som identifierar PayPal via Braintree till kunder vid utcheckning. Standardvärde: `PayPal` |
 | [!UICONTROL Vault Enabled] | Webbplats | När det här alternativet är aktiverat tillhandahålls säker lagring för kundbetalningsinformation, så att kunderna inte behöver ange sin PayPal-information på nytt för varje köp. Alternativ: `Yes` / `No` |
+| [!UICONTROL Send Cart Line Items for PayPal] | Webbplats | Skicka radartiklar (orderartiklar) till PayPal tillsammans med presentkort, Presentomslutning för artiklar, Presentomslutning för order, Store Credit, Shipping och Tax som radartiklar. Alternativ: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som avgör i vilken ordning PayPal via Braintree visas med andra betalningsmetoder vid utcheckning. |
 | [!UICONTROL Override Merchant Name] | Butiksvy | Ett alternativt namn som kan användas för att identifiera handlaren för varje butiksvy. |
 | [!UICONTROL Payment Action] | Webbplats | Bestämmer vilken åtgärd PayPal ska vidta via Braintree när en betalning bearbetas. Alternativ: <br/>**`Authorize`**- Medel på kundkortet godkänns, men överförs inte från kundens konto. En beställning skapas i din butiksadministratör. Du kan hämta försäljningen senare och skapa en faktura.<br/>**`Authorize and Capture`** - Medel på kundkortet godkänns och hämtas av PayPal via Braintree, och en order och faktura skapas i din butiksadministratör. |
@@ -176,6 +182,10 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | Webbplats | Avgör om PayPal-knappen visas i dialogrutan [mini cart](../../stores-purchase/cart-configuration.md#mini-cart) och [kundvagn](../../stores-purchase/cart.md) sida. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>Antingen **[!DNL PayPal Credit]** eller **[!DNL PayPal PayLater]** kan aktiveras. Båda metoderna kan inte aktiveras samtidigt.
 
 ### [!UICONTROL Styling]
 
@@ -205,9 +215,13 @@ Alternativen och inställningarna i det här avsnittet varierar beroende på vil
 | [!UICONTROL Button Label] | Webbplats | Anger etiketten för PayPal-knappen. Alternativ: `Paypal` / `Checkout` / `Buy Now` / `Pay` |
 | [!UICONTROL Color] | Webbplats | Bestämmer färgen på PayPal-knappen. Alternativ: `Blue` / `Black` / `Gold` / `Silver` |
 | [!UICONTROL Shape] | Webbplats | Bestämmer formen på PayPal-knappen. Alternativ: `Pill` / `Rectangle` |
-| [!UICONTROL Size] | Webbplats | Anger storleken på PayPal-knappen. Alternativ: `Medium` / `Large` / `Responsive` |
+| [!UICONTROL Size(Deprecated)] | Webbplats | Anger storleken på PayPal-knappen. Alternativ: `Medium` / `Large` / `Responsive` |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>The **[!DNL Size(Deprecated)]** konfigurationsfältet är föråldrat och används inte för att formatera PayPal-knapparna.
 
 **[!UICONTROL PayLater Messaging]**
 
@@ -252,7 +266,7 @@ När de här alternativen är angivna kan du se förhandsvisningen av PayPal-kna
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Name] | Butiksvy | Namnbeskrivningen består av två delar, som avgränsas med en asterisk (*). Den första delen av beskrivningen identifierar företaget eller DBA och den andra delen identifierar produkten. Till exempel: `company*myproduct`  <br/><br/>Längden på delarna Company och Product i beskrivningen kan fördelas på följande sätt, för en kombinerad längd på upp till 22 tecken: <br/>**`Option 1`**- Företag måste innehålla tre tecken / Produkten kan innehålla upp till 18 tecken<br/>**`Option 2`** - Företag måste bestå av sju tecken / Produkten kan innehålla upp till 14 tecken <br/>**`Option 3`**- Företag måste innehålla 12 tecken / Produkten kan innehålla upp till nio tecken |
-| [!UICONTROL Phone] | Butiksvy | Telefonbeskrivningen måste innehålla mellan tio och 14 tecken och kan bara innehålla siffror, bindestreck, parenteser och punkter. Exempel: `9999999999` `(999) 999-9999` `999.999.9999` |
-| [!UICONTROL URL] | Butiksvy | URL-beskrivningen representerar ditt domännamn och kan innehålla upp till 13 tecken. Exempel: `company.com` |
+| [!UICONTROL Phone] | Butiksvy | Telefonbeskrivningen måste innehålla mellan tio och 14 tecken och kan bara innehålla siffror, bindestreck, parenteser och punkter. Till exempel: `9999999999` `(999) 999-9999` `999.999.9999` |
+| [!UICONTROL URL] | Butiksvy | URL-beskrivningen representerar ditt domännamn och kan innehålla upp till 13 tecken. Till exempel: `company.com` |
 
 {style="table-layout:auto"}

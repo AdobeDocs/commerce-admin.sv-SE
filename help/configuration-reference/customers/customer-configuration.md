@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] sidan för Commerce Admin.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Create New Account Options]
 
-{{beta-updates}}
-
 ![Skapa nya kontoalternativ](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
 ![Skapa nya kontoalternativ (momsfält)](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
@@ -55,11 +53,11 @@ ht-degree: 0%
 | [!UICONTROL Default Group] | Butiksvy | Identifierar den första kundgruppen som tilldelas när ett konto skapas. |
 | [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | Global | (Endast tillgängligt om aktuellt konfigurationsomfång är inställt på `Default Group`.) Välj om den automatiska ändringen av kundgrupp baserat på moms-ID är aktiverad eller inaktiverad som standard. Inställningen kan åsidosättas på produktnivå. Inställningen påverkar systembeteendet i följande situationer: <br/> - Moms-ID för kundens standardadress eller hela standardadressen ändras. <br/> - Ändringen av kundgruppen emulerades under utcheckningen för en registrerad kund som inte hade någon tidigare sparad adress eller för en kund som registrerade sig under utcheckningen. <br/>Om den automatiska gruppändringen är aktiverad ändras kundgruppen automatiskt i det första fallet, och i det andra fallet tilldelas den tillfälligt emulerade kundgruppen. Om den automatiska gruppändringen är inaktiverad ändras aldrig kundgruppen som tilldelas, såvida inte administratören ändrar den manuellt. |
 | [!UICONTROL Show VAT Number on Storefront] | Webbplats | Avgör om momsregistreringsnumret är synligt för kunderna i butiken. Alternativ: `Yes` / `No` <br/> Påverkar endast vanliga icke-B2B-kundkonton. Företagskonton har sina egna separata fält för momsregistreringsnummer. |
-| [!UICONTROL Default Email Domain] | Butiksvy | Identifierar butikens standarddomän för e-post. Exempel: `mystore.com` |
+| [!UICONTROL Default Email Domain] | Butiksvy | Identifierar butikens standarddomän för e-post. Till exempel: `mystore.com` |
 | [!UICONTROL Default Welcome Email] | Butiksvy | Identifierar e-postmallen som används som standard _Välkommen_ e-post. |
 | [!UICONTROL Default Welcome Email Without Password] | Butiksvy | En alternativ mall för välkomstmeddelanden som används för nya kundkonton som skapas av administratören och som ännu inte har tilldelats något lösenord. |
 | [!UICONTROL Email Sender] | Butiksvy | Identifierar den butikskontakt som visas som avsändare av välkomstmeddelandet. |
-| [!UICONTROL Require Emails Confirmation] | Webbplats | Avgör om en begäran om att skapa ett konto kräver en bekräftelse från kunden. Alternativ: `Yes` / `No` |
+| [!UICONTROL Require Emails Confirmation] | Webbplats | Avgör om en begäran om att skapa ett konto kräver en bekräftelse från kunden. Alternativ: `Yes` / `No`. <br/><br/> _**Obs!**_ Från och med version 2.4.7 måste kunderna ange sin e-postadress och sitt lösenord på nytt för att logga in på sina konton efter e-postbekräftelse, oavsett webbläsare. |
 | [!UICONTROL Confirmation Link Email] | Butiksvy | Identifierar e-postmallen som används för bekräftelsemeddelandet. Standardmall: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | Butiksvy | Identifierar e-postmallen som används för välkomstmeddelandet som skickas när kontot har bekräftats. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Global | Anger om fältet som används för att ange och lagra momsregistreringsnumret är synligt från butiken. Alternativ: `Yes` / `No` |

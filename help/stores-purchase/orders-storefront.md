@@ -3,9 +3,9 @@ title: Beställningshantering i lager
 description: Läs om hur kunderna kan visa och hantera sin orderhistorik i Commerce Store.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -124,3 +124,51 @@ The _[!UICONTROL Reorder]_länken visas inte på_[!UICONTROL My Orders]_ och _[!
 >[!TIP]
 >
 >Om kundvagnen inte är tom och kunden klickar **[!UICONTROL Reorder]** (från [!UICONTROL My Orders] eller [!UICONTROL Order View] sida) finns produkterna kvar i varukorgen med de nya beställningsprodukterna.
+
+## Avbryt beställningar
+
+Avbryt är tillgängligt för kunder när [_Tillåt Avbryt_](cancel-allow.md) konfigurationsalternativet är aktiverat.
+
+Kunden kan initiera avbeställningsfunktionen för en viss order från tre sidor:
+
+- Sidan Mina beställningar
+- Sidan Ordervy
+- Sidan Mitt konto
+
+The _[!UICONTROL Cancel Order]_länk visas nära_[!UICONTROL Reorder]_ länk. Om beställningen inte kan avbrytas visas inte länken.
+
+![Avbryt länk på sidan Min beställning](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+
+Så här utför du avbeställningen:
+
+1. Klickningar **[!UICONTROL Cancel Order]**
+
+1. Anger en orsak till annullering
+
+   ![Annullera orderorsaker](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+
+   Du kan anpassa orsaken till annulleringen på [_Tillåt Avbryt_](cancel-allow.md) sida.
+
+1. Klickningar **[!UICONTROL Confirm]**
+
+   ![Avbryt på sidan Min beställning](./assets/cancel-order.png){width="700" zoomable="yes"}
+
+   Efter annulleringen fanns de order som fanns i _[!UICONTROL Pending]_status, ändra till_[!UICONTROL Canceled]_ status, de order som fanns i _[!UICONTROL Processing]_status, ändra till_[!UICONTROL Closed]_ status och en återbetalning kommer att behandlas.
+
+   När avbeställningen är klar skickas ett e-postmeddelande till kunden.
+
+   ![Avbryt beställning via e-post](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+
+   Information om annullering läggs till i kundens orderhistorik. Det visas i kommentarerna till ordningen och på fliken Kommentarshistorik.
+
+   ![Avbryt ordernoteringar](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+
+   ![Avbryt kommentarshistorik](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+
+   Om beställningen av någon anledning har ändrats till en status som inte kan avbrytas och kunden inte har uppdaterat sidan, visas fortfarande länken för att avbryta beställningen. När de försöker avbryta visas dock ett felmeddelande.
+
+   ![Felmeddelande för beställningsfel](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+
+   När du har uppdaterat sidan kan du se att ordningen redan är slutförd, vilket är orsaken till att annulleringen inte fungerade.
+
+   ![Avbryt beställning efter uppdatering](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

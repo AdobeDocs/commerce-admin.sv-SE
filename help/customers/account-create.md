@@ -3,9 +3,9 @@ title: Skapa ett enskilt kundkonto
 description: Besökarna kan enkelt skapa ett individuellt kundkonto för att hantera sina inköp.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ Följande instruktioner representerar standardkonfigurationen för kundkontot. I
 
 Som butiksadministratör kan du även ange [nya kontoalternativ](../customers/account-options-new.md) för att skicka en bekräftelse via e-post till nya registrerade kunder, vilket gör det lättare att säkerställa att registrerade konton är giltiga.
 
-{{beta-updates}}
+>[!NOTE]
+>
+>Från och med version 2.4.7 måste kunderna ange sin e-postadress och sitt lösenord på nytt för att logga in på sina konton efter e-postbekräftelse, oavsett webbläsare.
 
 ## Skapa konto från butiken
 

@@ -3,9 +3,9 @@ title: Indexhantering
 description: Lär dig mer om indexhantering, inklusive åtgärder som utlöser omindexering och bästa praxis.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 55b0672984ce8cdb853daf024299919beaf7ce0b
+source-git-commit: 28b8e430336090666402f3f2868311ef98d9217d
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -64,12 +64,12 @@ Omindexering och cachelagring har olika syften i Commerce. Indexen spårar datab
    **Indexhanteringskolumner**
 
    | Kolumn | Beskrivning |
-   | ------ | ----------- |
+   | ------ |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | [!UICONTROL Indexer] | Indexerarens namn. |
    | [!UICONTROL Description] | En beskrivning av indexeraren. |
    | [!UICONTROL Mode] | Anger det aktuella uppdateringsläget för varje indexerare. Alternativ: <br/>**[!UICONTROL Update on Save]**- Indexet ställs in på att uppdateras när en entitetsändring sparas. Dessa enheter omfattar produkter, kategorier och kunder. När sparåtgärden är klar börjar en serie steg fånga upp ändringarna och uppdatera indexet. Sidan Indexhantering uppdateras och tömmer indexeringsmeddelandet inom en minut eller två.<br/>**[!UICONTROL Update on Schedule]** - Indexet är inställt på att uppdateras enligt ett schema [cron](cron.md). cron-jobbet inkluderar schemaintervallet för omindexering och skrivning av uppdateringar till indexet vid körning. |
    | [!UICONTROL Schedule Status] | Visar schemats statusuppdateringar. |
-   | [!UICONTROL Status] | Visar något av följande: <br/>**[!UICONTROL Ready]**— Indexet är uppdaterat.<br/>**[!UICONTROL Scheduled]** - Omindexering planeras äga rum. <br/>**[!UICONTROL Running]**- Omindexering körs.<br/>**[!UICONTROL Reindex Required]** - En ändring har gjorts som kräver omindexering, men indexerarna kan inte uppdateras automatiskt. Kontrollera om [cron](cron.md) är tillgänglig och korrekt konfigurerad. |
+   | [!UICONTROL Status] | Visar något av följande: <br/>**[!UICONTROL Ready]**— Indexet är uppdaterat.<br/>**[!UICONTROL Suspended]** - Omindexering har pausats. <br/>**[!UICONTROL Processing]**- Omindexering pågår.<br/>**[!UICONTROL Reindex Required]** - En ändring har gjorts som kräver omindexering, men indexerarna kan inte uppdateras automatiskt. Kontrollera om [cron](cron.md) är tillgänglig och korrekt konfigurerad. |
    | [!UICONTROL Updated] | Anger det datum och den tidpunkt då ett index senast uppdaterades. |
 
    {style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: Önsklistorna
 description: Läs mer om önskelistor och hur de kan förbättra shoppingupplevelsen och främja mer försäljning.
 exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
 feature: Customers, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 9fd909c5ae6d8641bf402456d94facda4a33722d
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Delade önskelistor skickas från en e-postadress i butik, men meddelandetexten 
 
 ![Exempel på storefront - Min önskelista](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
-När en produkt med flera alternativ läggs till i en önskelista inkluderas alla alternativ som kunden har valt i önskelisteobjektets beskrivning. Om kunden till exempel lägger till samma par skor i tre olika färger visas varje par som ett separat önskelisteobjekt. Men om kunden lägger till samma produkt i önskelistan flera gånger visas produkten bara en gång, men med en uppdaterad kvantitet som återspeglar antalet gånger som produkten lagts till.
+När en produkt med flera alternativ läggs till i en önskelista inkluderas alla alternativ som kunden har valt i önskelisteobjektets beskrivning. Om kunden till exempel lägger till samma par skor i tre olika färger visas varje par som ett separat önskelisteobjekt. Men om kunden lägger till samma produkt i önskelistan flera gånger visas produkten bara en gång, men med den kvantitet som valts på produktsidan.
 
 ## Önsklistehjälp i administratören
 

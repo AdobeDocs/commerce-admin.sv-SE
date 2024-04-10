@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] sidan för Commerce Admin.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '3812'
+source-wordcount: '3773'
 ht-degree: 0%
 
 ---
@@ -106,28 +106,25 @@ ht-degree: 0%
 
 {{ups-api}}
 
-{{beta2-updates}}
+![Inställningar för UPS REST-konto](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
 ![Inställningar för UPS XML-konto](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS XML Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS REST Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enabled for Checkout] | Webbplats | Avgör om UPS är tillgängligt för kunder som leveransmetod vid utcheckning. Alternativ: `Yes` / `No` |
 | [!UICONTROL Enabled for RMA] | Webbplats | Avgör om UPS är tillgängligt för kunder som leveransmetod för en RMA. Alternativ: `Yes` / `No` |
-| [!UICONTROL UPS Type] | Butiksvy | Anger den metod som används för att ansluta till UPS-leveranssystemet. Alternativ: <br/>**`United Parcel Service XML`**- (Standard) Butiken skickar en XML-fil med data till UPS som en begäran.<br/>**`United Parcel Service`** - Butiken skickar nyckelvärdepar till UPS som en begäran. <br/><br/>**_Obs!_**Standardtypen för United Parcel Service är schemalagd för borttagning i Commerce. För nya konfigurationer bör du använda [!UICONTROL United Parcel Service XML] typ. |
 | _[!UICONTROL UPS Account Settings]_ |  |  |
 | [!UICONTROL Live Account] | Butiksvy | Anger att United Parcel Service-kontot är direktsänt. Alternativ: `Yes` / `No` |
-| [!UICONTROL Gateway URL] | Webbplats | Den URL som ansluter till UPS-systemet för att hämta dynamiska leveransfrekvenser. UPS-stödet för HTTP upphör. Standardvärde: `https://www.ups.com/using/services/rave/qcostcgi.cgi` |
 | [!UICONTROL Title] | Butiksvy | Namnet som används för den här leveransmetoden vid utcheckning. |
-| _[!UICONTROL UPS XML Account Settings]_ |  |  |
-| [!UICONTROL Access License Number] | Webbplats | Ditt licensnummer för åtkomst till ditt UPS-fraktkonto. |
-| [!UICONTROL Gateway XML URL] | Webbplats | För UPS XML-tjänsten visar följande URL:er som krävs för att överföra XML-data: Gateway XML-URL, Spårnings-XML-URL, Leveransbekräftets XML-URL, Leveransmottagarens XML-URL |
+| _[!UICONTROL UPS REST Account Settings]_ |  |  |
+| [!UICONTROL Gateway URL] | Webbplats | För UPS REST-tjänsten visas följande URL:er som krävs för att överföra JSON-data: Gateway-URL, Spårnings-URL, Leverans-URL |
 | [!UICONTROL Mode] | Webbplats | Anger vilket överföringssätt som används för data som skickas till UPS-systemet. Alternativ: <br/>**`Development`**- UPS:en verifierar inte att data som tas emot från Commerce Server skickas via SSL.<br/>**`Live`** - UPS verifierar att data som tas emot från Commerce-servern skickas via ett säkert socketlager (SSL). |
-| Användar-ID | Webbplats | Användar-ID för ditt UPS-avsändarkonto. |
-| [!UICONTROL Origin of the Shipment] | Webbplats | (Endast UPS XML) Det land eller den region där produktleveransen kommer. |
-| [!UICONTROL Password] | Butiksvy | Lösenordet för ditt UPS-fraktkonto. |
+| Användar-ID | Webbplats | Klient-ID för ditt UPS-avdelarkonto. |
+| [!UICONTROL Origin of the Shipment] | Webbplats | (Endast UPS REST) Det land eller den region där produktleveransen kommer. |
+| [!UICONTROL Password] | Butiksvy | Klienthemlighet för ditt UPS-avsändarkonto. |
 
 {style="table-layout:auto"}
 
@@ -138,12 +135,12 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | _[!UICONTROL UPS Negotiated Rate Settings]_ |  |  |
-| [!UICONTROL Enable Negotiated Rates] | Webbplats | (Endast UPS XML) Aktiverar/inaktiverar specialfrekvenser enligt ditt avtal med UPS. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Negotiated Rates] | Webbplats | (Endast UPS REST) Aktiverar/inaktiverar specialpriser enligt ditt avtal med UPS. Alternativ: `Yes` / `No` |
 | [!UICONTROL Packages Request Type] | Webbplats | Bestämmer hur vikt beräknas för försändelser med flera paket. Alternativ: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
-| [!UICONTROL Shipper Number] | Webbplats | (Endast UPS XML) Det sexsiffriga UPS-leveransnumret krävs för referens till användning av förhandlade hastigheter. |
-| [!UICONTROL Container] | Webbplats | Anger behållartypen som används för att paketera orderleveranser. Alternativ: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
+| [!UICONTROL Shipper Number] | Webbplats | (Endast UPS REST) Det sexsiffriga UPS-leveransnumret krävs för referens till användning av förhandlade hastigheter. |
+| [!UICONTROL Container] | Webbplats | Anger behållartypen som används för att paketera leveranser. Alternativ: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | Webbplats | Anger standardmåttenheten för produktvikt i butiken. Se [Dimensionell vikt](../../stores-purchase/carriers.md#dimensional-weight) om du vill ha mer information. |
-| [!UICONTROL Tracking XML URL] | Webbplats | (Endast UPS XML) Den UPS-URL som används för att spåra paket. |
+| [!UICONTROL Tracking URL] | Webbplats | (Endast UPS REST) Den UPS-URL som används för att spåra paket. |
 | [!UICONTROL Destination Type] | Webbplats | Anger standarddestinationstypen för leverans. Alternativ: `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | Webbplats | Anger den maximala vikt ett paket kan ha enligt UPS-inställningarna. Om de beställda produkterna överstiger den högsta paketvikten är detta fraktalternativ inte tillgängligt. Enligt [UPS.com](https://www.ups.com/us/en/global.page), får paketen inte överskrida 70 kg. Kontakta din fraktfirma för att kontrollera den högsta vikten. |
 | [!UICONTROL Pickup Method] | Webbplats | Anger UPS-hämtningsmetoden. Alternativ: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
@@ -185,8 +182,6 @@ ht-degree: 0%
 
 ### [!UICONTROL USPS]
 
-{{beta2-updates}}
-
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | Aktiverad för utcheckning | Webbplats | Avgör om USPS är tillgängligt för kunder som leveransmetod vid utcheckning. Alternativ: `Yes` / `No` |
@@ -208,7 +203,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS packaging Settings]_ |  |  |
 | [!UICONTROL Packages Request Type] | Webbplats | Bestämmer hur vikt beräknas för försändelser med flera paket. Alternativ: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
-| [!UICONTROL Container] | Webbplats | Anger behållartypen som används för att paketera orderleveranser. Alternativ: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / Icke-rektangulär |
+| [!UICONTROL Container] | Webbplats | Anger behållartypen som används för att paketera leveranser. Alternativ: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / Icke-rektangulär |
 | [!UICONTROL Size] | Webbplats | Anger storleksalternativet till den typiska paketstorleken för leverans. Det här alternativet påverkar beräkningen av fraktkostnaden. Alternativ: `Regular` / `Large` / `Oversize` |
 | [!UICONTROL Machinable] | Webbplats | Anger om paketet kan bearbetas av datorn. Det här alternativet påverkar beräkningen av fraktkostnaden. |
 | [!UICONTROL Maximum Package Weight] | Webbplats | Anger den maximala vikt ett paket kan ha enligt vad som anges av USPS. Om de beställda produkterna överstiger den högsta paketvikten är detta fraktalternativ inte tillgängligt. |
@@ -258,60 +253,56 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-{{beta2-updates}}
-
-![Kontoinställningar för FedEx](./assets/delivery-methods-fedex-account-settings.png)<!-- zoom -->
-
 <!-- [FedEx Account Settings](https://docs.magento.com/user-guide/shipping/fedex.html) -->
 
+#### Kontoinställningar för FedEx
+
+![Kontoinställningar för FedEx](./assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
-|--- |--- |--- |
-| _[!UICONTROL FedEx Account Settings]_ |  |  |
+|-------|------ |-----------------------------------------------------------------------------|
 | [!UICONTROL Enabled for Checkout] | Webbplats | Avgör om FedEx är tillgängligt för kunder som leveransmetod vid utcheckning. Alternativ: `Yes` / `No` |
 | [!UICONTROL Title] | Butiksvy | Titeln på det här leveransalternativet så som det visas i kundvagnskassan. |
 | [!UICONTROL Account ID] | Webbplats | Ditt FedEx-konto-ID. |
-| [!UICONTROL Meter Number] | Webbplats | Ditt FedEx-mätarnummer. |
-| [!UICONTROL Key] | Webbplats | Din FedEx-kontonyckel. |
-| [!UICONTROL Password] | Webbplats | Ditt FedEx-kontolösenord. |
+| [!UICONTROL Api Key] | Webbplats | FedEx-kontots API-nyckel. |
+| [!UICONTROL Secret Key] | Webbplats | API-hemlig nyckel för ditt FedEx-konto. |
 | [!UICONTROL Sandbox Mode] | Webbplats | Om du vill köra FedEx-transaktioner i en testmiljö ställer du in sandlådeläget till `Yes`. Alternativ: `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | Webbplats | Vilken URL som krävs beror på inställningen för sandlådeläge. Alternativ: <br/>**`Production`**- URL:en för åtkomst till FedEx-webbtjänster när butiken är aktiv.<br/>**`Sandbox`** - URL:en för att komma åt testmiljön för FedEx-webbtjänster. |
 
 {style="table-layout:auto"}
 
-![FedEx Packaging](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
+#### Inställningar för FedEx-paketering
 
-<!-- [FedEx Packaging](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx Packaging](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Packaging Settings]_ |  |  |
+| [!UICONTROL Pickup Type] | Webbplats | Välj hämtningsmetod i listan: <br/>**`DropOff at Fedex Location`**- (Standard) Anger att du släpper av leveranser på din lokala FedEx-station.<br/>**`Contact Fedex to Schedule`** - Anger att du kontaktar FedEx för att begära en hämtning. <br/>**`Use Scheduled Pickup`**- Anger att leveransen plockas upp som en del av en vanlig schemalagd hämtning.<br/>**`On Call`** - Anger att hämtningen schemaläggs genom att FedEx anropas. <br/>**`Package Return Program`**- Anger att leveransen plockas upp av FedEx Ground Package Return Program.<br/>**`Regular Stop`** - Anger att leveransen plockas upp enligt det vanliga hämtningsschemat. <br/>**`Tag`**- Anger att leveransupphämtningen är specifik för en Express-tagg eller markanrop. Detta gäller endast för returetiketter. |
 | [!UICONTROL Packages Request Type] | Webbplats | Bestämmer hur vikt beräknas för försändelser med flera paket. Alternativ: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
 | [!UICONTROL Packaging] | Webbplats | I listan väljer du den behållartyp som du vanligtvis använder för att paketera produkter som beställts från din butik. |
-| [!UICONTROL Dropoff] | Webbplats | Välj hämtningsmetod i listan: <br/>**`Regular Pickup`**- (Standard) Om du har ett stort antal leveranser kan det vara kostnadseffektivt att ordna regelbundna upphämtningar.<br/>**`Request Courier`** - Du måste anropa och begära ett FedEx-bud för att kunna hämta leveranser. <br/>**`Drop Box`**- Du måste släppa av leveranser i den lokala FedEx-listrutan.<br/>**`Business Service Center`** - Du måste släppa av leveranser på ditt lokala FedEx-affärstjänstcenter. <br/>**`Station`**- Du måste släppa av leveranser på din lokala FedEx-station. |
+| [!UICONTROL Weight Unit] | Webbplats | Den enhet som används för förpackningsvikt. Alternativ: `Pounds` (standard) / `Kilograms` |
 | [!UICONTROL Maximum Package Weight] | Webbplats | Standardvärdet för FedEx är 150 pund. Kontakta din fraktfirma för att få maximal vikt. Vi rekommenderar att du använder standardvärdet om du inte har särskilda arrangemang med FedEx. |
 
 {style="table-layout:auto"}
 
-![Hanteringsavgift för FedEx](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
+#### Inställningar för FedEx-hanteringsavgift
 
-<!-- [FedEx Handling Fee](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![Hanteringsavgift för FedEx](./assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Handling Fee Settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Webbplats | Bestämmer den metod som används för att beräkna hanteringsavgifter. Alternativ: `Fixed Fee` / `Percentage` <br/><br/>**_Obs!_**Hanteringsavgiften är valfri och visas som en extra avgift som läggs till fraktkostnaden för FedEx. |
 | [!UICONTROL Handling Applied] | Webbplats | Avgör hur hanteringsavgifter tillämpas. Alternativ: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Webbplats | Anger det belopp som debiteras som en hanteringsavgift, baserat på den metod som används för att beräkna beloppet. Om avgiften baseras på en fast avgift, ange beloppet i decimalform, t.ex. `4.90`. Om hanteringsavgiften baseras på en procentandel av ordern anger du beloppet som en procentandel. Om du till exempel vill debitera sex procent av ordern anger du värdet som `.06`. |
 
 {style="table-layout:auto"}
 
-![Leveransmetoder för FedEx](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
+#### Leveransmetoder för FedEx
 
-<!-- [FedEx Delivery Methods](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![Leveransmetoder för FedEx](./assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| _[!UICONTROL FedEx delivery methods]_ |  |  |
 | [!UICONTROL Residential Delivery] | Webbplats | Ange något av följande, beroende på om du säljer Business-to-Consumer (B2C) eller Business-to-Business (B2B): <br/>**`Yes`**- För B2C-leveranser<br/>**`No`** - För B2B-leveranser |
 | [!UICONTROL Allowed Methods] | Webbplats | Välj de leveransmetoder som du stöder i listan. Metoderna beror på ditt FedEx-konto, hur ofta och hur stora dina leveranser är och om du tillåter internationella leveranser. Som handlare kan du välja att endast erbjuda frakt på marken. |
 | [!UICONTROL Hub ID] | Webbplats | Ett ID från FedEx som används med [!DNL Smart Post] -metod. |
@@ -322,13 +313,12 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![FedEx tillämpliga länder](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
+#### FedEx tillämpliga landsinställningar
 
-<!-- [FedEx Applicable Countries](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx tillämpliga länder](./assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Applicable Countries]_ |  |  |
 | [!UICONTROL Ship to Applicable Countries] | Webbplats | Anger de länder där dina kunder kan leverera med FedEx. Alternativ: <br/>**`All Allowed Countries`**- Kunder från alla [länder](../../getting-started/store-details.md#country-options) som anges i butikskonfigurationen kan använda den här leveransmetoden.<br/>**`Specific Countries`** - När du har valt det här alternativet visas [!UICONTROL Ship to Specific Countries] visas. Välj varje land i listan där leveransmetoden kan användas. |
 | [!UICONTROL Ship to Specific Countries] | Webbplats | Anger de specifika länder där dina kunder kan leverera via FedEx. |
 | [!UICONTROL Debug] | Webbplats | Avgör om en logg över dataöverföringar mellan din butik och FedEx bevaras av systemet för felsökning. Om det inte finns något problem som måste spåras och loggas bör det här alternativet anges till `No`. |
@@ -379,7 +369,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL DHL allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Webbplats | I listan väljer du de leveransmetoder som du stöder. |
-| [!UICONTROL Ready Time] | Webbplats | Anger när paketet är klart för hämtning, i timmar, efter att en beställning har skickats. |
+| [!UICONTROL Ready Time] | Webbplats | Anger när paketet är klart för hämtning (i timmar) efter att en beställning har skickats. |
 | [!UICONTROL Displayed Error Message] | Butiksvy | Det här meddelandet visas när DHL av någon anledning inte är tillgängligt. Du kan använda standardmeddelandet eller skriva ett eget meddelande. |
 | [!UICONTROL Free Method] |  | Den här leveransmetoden liknar den vanliga fraktmetoden, men anges i DHL:s leveransalternativ och identifieras som DHL-leverans. I listan väljer du den leveransmetod du vill använda för erbjudanden om fri frakt. |
 | [!UICONTROL Free Shipping with Minimum Order Amount] | Webbplats | Ange något av följande: <br/>**`Enable`**- För att möjliggöra fri DHL-leverans för beställningar som uppfyller minimibeloppet.<br/>**`Disable`** - Erbjud ingen fri DHL-leverans med minimiorder. |

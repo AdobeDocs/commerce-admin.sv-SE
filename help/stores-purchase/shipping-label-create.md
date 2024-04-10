@@ -3,9 +3,9 @@ title: Skapa etiketter och paket
 description: Lär dig hur du paketerar artiklar i en beställning och skapar leveransetiketter.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -77,8 +77,6 @@ The [!DNL United States Postal Service] fartyg både nationellt och internatione
 ### FedEx-konfiguration
 
 FedEx levererar nationellt och internationellt. Lager utanför USA kan endast skapa FedEx-etiketter för internationella leveranser.
-
-{{beta2-updates}}
 
 1. Fortsätta i **[!UICONTROL Delivery Methods]** konfiguration, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL FedEx]** -avsnitt.
 

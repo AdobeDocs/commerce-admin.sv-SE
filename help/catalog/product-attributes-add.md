@@ -3,9 +3,9 @@ title: Lägga till attribut i en produkt
 description: Lär dig hur du lägger till attribut till produkter i din katalog.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,17 @@ ht-degree: 0%
 
    - `Filterable (no results)` - Navigering i flera lager innehåller filter för alla tillgängliga attributvärden och deras produktantal, inklusive produkter med noll (0) produktmatchningar. Om attributvärdet är en färgruta visas värdet som ett filter, men stryks över.
 
-1. Om du vill använda lagerstyrd navigering på sökresultatsidor anger du **[!UICONTROL Use in Search Results Navigation]** till `Yes` och ange ett tal i **[!UICONTROL Position]** fält.
+   >[!NOTE]
+   >
+   >När _[!UICONTROL Use in Search]_inställningen är inställd på `No`,_[!UICONTROL Use in Search Results Layered Navigation]_ inställningen visas inte och produktattributet används inte i sökningen med [!UICONTROL Use in Layered Navigation] inställningsvärde.
+
+1. Om du vill använda attributet i navigering i lager på sökresultatsidor anger du **[!UICONTROL Use in Search Results Layered Navigation]** till `Yes` och ange ett tal i **[!UICONTROL Position]** fält.
 
    Positionsnumret anger den relativa positionen för attributet i det lageruppbyggda navigeringsblocket.
+
+   >[!NOTE]
+   >
+   >The _[!UICONTROL Position]_är som standard nedtonat och du måste spara attributet innan du kan ändra den här inställningen.
 
 1. Om du vill använda attributet i prisregler anger du **[!UICONTROL Use for Promo Rule Conditions]** till `Yes`.
 

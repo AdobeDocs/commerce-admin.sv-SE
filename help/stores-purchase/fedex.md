@@ -3,9 +3,9 @@ title: FedEx
 description: Lär dig hur du konfigurerar FedEx som fraktfirma för din butik.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ A [FedEx-handelskonto][1] och registrering för FedEx Web Services Production Ac
 
 ## Steg 2: Aktivera FedEx för Store
 
-{{beta2-updates}}
-
 1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Delivery Methods]**.
@@ -45,9 +43,8 @@ A [FedEx-handelskonto][1] och registrering för FedEx Web Services Production Ac
 1. Ange följande information från ditt FedEx-konto:
 
    - **[!UICONTROL Account ID]**
-   - **[!UICONTROL Meter Number]**
-   - **[!UICONTROL Key]**
-   - **[!UICONTROL Password]**
+   - **[!UICONTROL Api Key]**
+   - **[!UICONTROL Secret Key]**
 
 1. Om du har konfigurerat en FedEx-sandlåda och vill arbeta i testmiljön anger du **[!UICONTROL Sandbox Mode]** till `Yes`.
 
@@ -57,26 +54,24 @@ A [FedEx-handelskonto][1] och registrering för FedEx Web Services Production Ac
 
    ![Kontoinställningar för FedEx](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
 
-## Steg 3: Paketbeskrivning och hanteringsavgift
+## Steg 3: Paketbeskrivning och hanteringsavgifter
 
-1. Välj **[!UICONTROL Packages Request Type]** till det alternativ som bäst beskriver din inställning när en order delas upp i flera leveranser:
+1. Ange **[!UICONTROL Pickup Type]** till den hämtningsmetod som används för försändelser.
+
+   - `DropOff at Fedex Location` - (Standard) Anger att du släpper av leveranser på din lokala FedEx-station.
+   - `Contact Fedex to Schedule` - Anger att du kontaktar FedEx för att begära en hämtning.
+   - `Use Scheduled Pickup` - Anger att leveransen plockas upp som en del av en vanlig schemalagd hämtning.
+   - `On Call` - Anger att hämtningen schemaläggs genom att FedEx anropas.
+   - `Package Return Program` - Anger att leveransen plockas upp av FedEx Ground Package Return Program.
+   - `Regular Stop` - Anger att leveransen plockas upp enligt det vanliga hämtningsschemat.
+   - `Tag` - Anger att leveransupphämtningen är specifik för en Express-tagg eller markanrop. Detta gäller endast för returetiketter.
+
+1. För **[!UICONTROL Packages Request Type]** väljer du den begärantyp som bäst beskriver din inställning när du delar upp en order i flera leveranser:
 
    - `Divide to equal weight (one request)`
    - `Use origin weight (few requests)`
 
-1. Välj typ av **[!UICONTROL Packaging]** som vanligen används för att leverera produkter från din butik.
-
-1. Ange **[!UICONTROL Dropoff]** till den hämtningsmetod som används för leverans.
-
-   - `Regular Pickup` - Om du har ett stort antal leveranser kan det vara kostnadseffektivt att göra arrangemang med FedEx för regelbundna upphämtningar.
-
-   - `Request Courier` - Du måste anropa och begära ett FedEx-bud för att kunna hämta leveranser.
-
-   - `Drop Box` - Du måste släppa av leveranser i närliggande FedEx-låda.
-
-   - `Business Service Center` - Du måste släppa av leveranser på ditt lokala FedEx-affärstjänstcenter.
-
-   - `Station` - Du måste släppa av leveranser på din lokala FedEx-station.
+1. För **[!UICONTROL Packaging]** väljer du den typ av FedEx-förpackning som du vanligtvis använder för att leverera produkter från din butik.
 
 1. Ange **[!UICONTROL Weight Unit]** till den måttenhet som används i ditt språkområde.
 

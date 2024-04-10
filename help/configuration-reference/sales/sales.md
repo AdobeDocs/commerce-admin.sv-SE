@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Sales] sidan för Commerce Admin.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # [!UICONTROL Sales] > [!UICONTROL Sales]
 
 {{config}}
-
-{{beta-updates}}
 
 ## [!UICONTROL General]
 
@@ -157,6 +155,18 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Multicoupon Settings]
+
+{{ee-feature}}
+
+![Inställningar för flera](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Maximum number of coupons per order] | Webbplats | Bestämmer det maximala antalet kuponger som tillåts per order |
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Order by SKU Settings]
 
 {{ee-feature}}
@@ -184,6 +194,19 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Butiksvy | Aktiverar direktköp för butiksvyn om betalningsmetoden, som Braintree, har valv aktiverat. Alternativ: `Yes` / `No` |
 | [!UICONTROL Button Text] | Butiksvy | Anger texten som visas på knappen Direktköp. Standardtexten är `Instant Purchase`. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Rate Limiting]
+
+![Hastighetsbegränsning](assets/sales-rate-limiting.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable rate limiting for placing orders] | Butiksvy | Avgör om hastighetsbegränsning används för att placera order från butiksvyn (standard är `No`). Alternativ: `Yes` / `No`. |
+| [!UICONTROL Requests limit per authenticated customer] | Butiksvy | Antalet inköpsbegäranden som en autentiserad kund kan göra under perioden. Standardgränsen är `10`. |
+| [!UICONTROL Requests limit per guest] | Butiksvy | Antalet inköpsbegäranden som en oautentiserad kund kan göra under den angivna perioden. Standardvärdet är `50`. |
+| [!UICONTROL Counter resets in a ...] | Butiksvy | Den tidsperiod under vilken en autentiserad/oautentiserad kund kan göra ett visst antal inköpsbegäranden (standard är `Minute`). Alternativ: `Minute` / `Hour` /`Day` |
 
 {style="table-layout:auto"}
 

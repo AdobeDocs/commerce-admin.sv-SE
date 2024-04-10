@@ -3,9 +3,9 @@ title: Kupongkoder
 description: Lär dig hur du använder kupongkoder med kundprisregler för att tillämpa en rabatt när en uppsättning villkor uppfylls.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1839'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Kupongkoder används med [kundprisregler](price-rules-cart.md) för att tillämp
 - Skapa butikskuponger för mobilanvändare
 
 Kupongkoder kan skickas via e-post eller inkluderas i nyhetsbrev, kataloger och annonser. Listan med kupongkoder kan exporteras och skickas till ett tryckeri. Ni kan också skapa butikskuponger med en snabb svarskod som kunderna kan skanna med sina smarttelefoner. QR-koden kan länka till en sida på webbplatsen med mer information om kampanjen.
+
+Från och med Commerce 2.4.7 kan kunderna tillämpa flera kuponger på en kundvagn. Handlarna kan också lägga på flera kuponger med hjälp av shoppingassistenten.
 
 ## Konfigurera kupongkoder
 

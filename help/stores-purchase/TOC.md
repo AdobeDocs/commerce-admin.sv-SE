@@ -5,9 +5,9 @@ breadcrumb-title: Butiks- och inköpsupplevelser
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 3eb659825e6bc5db1828c2362ee68893b4d1405b
+source-git-commit: 3dad65e528716a459839ee7995b38850bf6feca8
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,7 @@ ht-degree: 0%
    + [Jämför produkter](product-compare.md)
    + [Nyligen visade eller jämförda](products-viewed-compared.md)
    + [Tillåt ombeställningar](reorders-allow.md)
+   + [Tillåt annulleringsorder](cancel-allow.md)
 + Betalningar {#payments}
    + [Ökning](payments.md)
    + Betalningslösningar för PayPal {#paypal}

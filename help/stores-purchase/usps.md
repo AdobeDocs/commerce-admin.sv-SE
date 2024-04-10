@@ -3,7 +3,7 @@ title: United States Postal Service (USPS)
 description: Lär dig hur du konfigurerar USPS som fraktfirma för din butik.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -21,8 +21,6 @@ United States Postal Service är en oberoende posttjänst som tillhör USA:s reg
 Du kan även öppna en [USPS Web Tools][1] konto. När du är klar med registreringsprocessen får du ditt användar-ID och en URL till USPS-testservern. Mer information om webbverktygen för USPS finns i [Teknisk dokumentation][2].
 
 ## Steg 2: Aktivera USPS för din butik
-
-{{beta2-updates}}
 
 1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

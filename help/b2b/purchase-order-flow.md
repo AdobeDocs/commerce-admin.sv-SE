@@ -3,9 +3,9 @@ title: Inköpsorder för företag
 description: Lär dig mer om arbetsflöden för inköpsorder som gör det möjligt för företag att spåra och kontrollera utgifter.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ Inköpsorder är ett vanligt sätt för företag att spåra och kontrollera utgi
 Beroende på deras roll och beställning kan företagsanvändare omfattas av flera godkännanderegler. Och beroende på om du använder online- eller offlinebetalningsmetoder är flödet något annorlunda. Företagsadministratörer kan skapa order automatiskt utan att följa godkännandereglerna. Eftersom det är en säkerhetsrisk att lagra betalningsinformation online under godkännandeprocessen läggs dessa uppgifter till efter godkännandet och sedan konverteras inköpsordern till en verklig order.
 
 ![Inköpsorderflöde](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Det går inte att beställa om en eller flera produkter i inköpsordern är inaktiverade eller inte finns i lager.
 
 Arbetsflödet för inköpsorder för ett företag kan variera på några sätt:
 

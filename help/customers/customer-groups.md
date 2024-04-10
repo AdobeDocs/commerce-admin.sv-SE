@@ -3,9 +3,9 @@ title: Kundgrupper
 description: Använd kundgrupper för att avgöra vilka rabatter som är tillgängliga för kunder som är tilldelade till en grupp och den skatteklass som är associerad med gruppen.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Kundgrupper avgör vilka rabatter som är tillgängliga och vilken skatteklass s
 1. När du är klar klickar du på **[!UICONTROL Apply Filters]**.
 
 ## Skapa en kundgrupp
+
+>[!NOTE]
+>
+>Administratörsanvändare som inte har tillgång till alla webbplatser (tilldelas en roll med en Custom) [!UICONTROL Role Scope]) kan inte skapa, ändra eller ta bort kundgrupper.
 
 1. På _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 

@@ -3,9 +3,9 @@ title: Hantera en kundvagn
 description: Lär dig hur du kan hjälpa en kund med kundvagnen direkt från administratören.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -159,7 +159,7 @@ Du kan överföra artiklar till kundvagnen från kundens önskelista och nyligen
 
 1. Klicka på **[!UICONTROL Add selections to my cart]**.
 
-1. Använd en kupongkod om den finns:
+1. Använd en eller flera kupongkoder om sådana finns:
 
    - För **[!UICONTROL Apply Coupon Code]**, ange en giltig kupongkod.
 

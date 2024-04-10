@@ -4,9 +4,9 @@ description: Granska konfigurationsinställningarna på [!UICONTROL Advanced] &g
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -178,8 +178,6 @@ Mer information om hur du ändrar de här inställningarna finns i [Åtgärdslog
 
 ## [!UICONTROL Full Page Cache]
 
-{{beta2-patches-updates}}
-
 ![Avancerad konfiguration - helsidescache](./assets/system-full-page-cache.png)<!-- zoom -->
 
 Mer information om hur du ändrar de här inställningarna finns i [Cachelagring](../../systems/cache-management.md#full-page-caching) i _Handbok för adminsystem_.
@@ -190,11 +188,12 @@ Mer information om hur du ändrar de här inställningarna finns i [Cachelagring
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Bestämmer vilket program som används för att hantera helsidescachen. Alternativ: <br/>**`Built-in Application`**- Rekommenderas inte för produktionsmiljön.<br/>**`Varnish Caching`** - Rekommenderas för produktionsmiljön. |
 | [!UICONTROL TTL for public content] | Global | Anger livslängden för cacheminnet för offentligt innehåll i sekunder. Standardvärde: `120` |
+| [!UICONTROL Handles param size] | global | Anger maximalt antal [layouthandtag](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) för att bearbeta [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP-slutpunkt. Genom att begränsa storleken kan du förbättra säkerheten och prestandan. Standardvärde: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Anger de IP-adresser som kan tömma konfigurationen för lack för att generera en konfigurationsfil. Avgränsa flera poster med komma. Standardvärde: `localhost` |
 | [!UICONTROL Backend host] | Global | Anger den serverdelsvärd som genererar konfigurationsfiler. Standardvärde: `localhost` |
 | [!UICONTROL Backend port] | Global | Anger den serverdelsport som används för att generera konfigurationsfiler. Standardvärde: `8080` |
-| [!UICONTROL Grace period] | Global | Anger respitperioden i sekunder för generering av en konfigurationsfil. Standardvärde: `300` |
+| [!UICONTROL Grace period] | Global | Avgör hur länge varnish visar inaktuellt innehåll om serverdelen inte är responsiv. Standardvärde: `300` |
 | **[!UICONTROL Export Configuration]** |  |  |
 | [!UICONTROL Export VCL for Varnish 4] | Global | Exporterar `varnish.vcl` för version 4. |
 | [!UICONTROL Export VCL for Varnish 5] | Global | Exporterar `varnish.vcl` för version 5. |

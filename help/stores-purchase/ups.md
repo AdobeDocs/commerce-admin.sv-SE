@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Lär dig hur du konfigurerar UPS som fraktfirma för din butik.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
 
 ## Steg 2: Aktivera UPS för din butik
 
-{{beta2-updates}}
-
 1. På _Administratörssidlist_, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. På panelen till vänster, under **[!UICONTROL Sales]**, välja **[!UICONTROL Delivery Methods]**.
@@ -36,34 +34,33 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
 
 1. Ange **[!UICONTROL Enabled for Checkout]** till `Yes`.
 
-1. För ett UPS XML-konto (standard) anger du **[!UICONTROL UPS Type]** till `United Parcel Service XML` och gör följande:
+1. Gör följande för ett UPS REST-konto (standard):
 
-   - Ange dina UPS-autentiseringsuppgifter: **[!UICONTROL User ID]**, **[!UICONTROL Access License Number]** (det 16-siffriga UPS-kontot `Access Key`), och **[!UICONTROL Password]**
+   - Ange dina UPS-autentiseringsuppgifter: UPS ClientID som **[!UICONTROL User ID]**, UPS-klienthemlighet som **[!UICONTROL Password]**
 
    - Ange **[!UICONTROL Mode]** till `Live` för att skicka data till UPS-leveranssystemet via en säker anslutning. (I utvecklingsläget skickas inga data via en säker anslutning.)
 
-   - Verifiera **[!UICONTROL Gateway XML URL]** som krävs för att skicka begäranden via XML-fil.
+   - Verifiera **[!UICONTROL Gateway URL]** som krävs för att skicka begäranden. Använd en sandbox-URL för testläge och en produktions-URL för live-begäranden.
+
+   - Verifiera **[!UICONTROL Tracking URL]** som krävs för att hämta spårningsinformation. Använd en sandbox-URL för testläge och en produktions-URL för live-begäranden.
 
    - Ange **[!UICONTROL Origin of the Shipment]** till den region där försändelsen kommer.
 
    - Om du har specialpriser för UPS anger du **[!UICONTROL Enable Negotiated Rates]** till `Yes` och ange det sexsiffriga **[!UICONTROL Shipper Number]** som tilldelats dig av UPS.
-
-1. Ange ett UPS-standardkonto **[!UICONTROL UPS Type]** till `United Parcel Service` och gör följande:
-
-   >[!NOTE]
-   >
-   >Standardtypen för United Parcel Service är schemalagd för borttagning. För nya konfigurationer bör du använda standardinställningen  `United Parcel Service XML` typ. XML-typen krävs också för att generera [fraktsedlar](shipping-labels.md).
 
    - Ange **[!UICONTROL Live Account]** till något av följande:
 
       - `Yes` - Kör UPS i produktionsläge och erbjuder UPS som en leveransmetod för dina kunder.
       - `No` - Kör UPS i testläge.
 
-   - I **[!UICONTROL Gateway URL]** anger du den URL som används för att beräkna UPS-fraktkostnader.
+   >[!NOTE]
+   >
+   >Standardtypen för United Parcel Service är schemalagd för borttagning. Använd standardinställningen för nya konfigurationer `United Parcel Service REST` typ. REST-typen krävs också för att generera [fraktsedlar](shipping-labels.md).<br/>
+   >För version 2.4.7 **[!UICONTROL UPS Type]**  tas bort eftersom `UPS` och `UPS XML` typer är schemalagda för borttagning och `UPS REST` är standard. De UPS-API:er (United Parcel Service) som används av den inbyggda Adobe Commerce-integreringen är tillfälligt föråldrade eftersom de för närvarande inte stöder säkerhetsmodellen OAuth 2.0.
 
-     >[!IMPORTANT]
-     >
-     >UPS upphör med stödet för HTTP, som används i det aktuella standardvärdet (systemvärde). Rensa **[!UICONTROL Use system value]** och ändra URL:en för att använda HTTPS. Exempel: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
+   >[!IMPORTANT]
+   >
+   >UPS upphör med stödet för HTTP, som används i det aktuella standardvärdet (systemvärde). Rensa **[!UICONTROL Use system value]** och ändra URL:en för att använda HTTPS. Exempel: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
 1. För **[!UICONTROL Title]** anger du namnet på leveransalternativet så som du vill att det ska visas vid utcheckningen.
 

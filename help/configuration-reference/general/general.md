@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL General] sidan för Commerce Admin.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,6 @@ Mer information om hur du ändrar de här inställningarna finns i [Enstaka buti
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | Global | När det är aktiverat för single store-installationer döljs rutan för konfigurationsomfång och relaterade fältetikettalternativ: `Yes` / `No` <br/>**_Obs!_**Läget för en butik ignoreras för butiker med mer än en vy. |
+| [!UICONTROL Enable Single-Store Mode] | Global | När det är aktiverat för single store-installationer döljs rutan för konfigurationsomfång och relaterade fältetikettalternativ: `Yes` / `No` <br/>**_Obs!_**Läget för en butik ignoreras för butiker med mer än en vy.<br/> Om du aktiverar läget för en enskild butik kopieras alla katalog- och produktbutiksspecifika data från standardbutiksvyn till alla butiksvyomfång. Den kopierar bara katalog- och produktdata om butiken bara har en granskning. Om arkivet har en inaktiverad butiksgranskning och en aktiverad butik kopieras inte katalog- och produktdata.<br/> Om du aktiverar läget för en enskild butik ignoreras de lagerbortspecifika konfigurationsinställningarna för innehållsspecifika data. I stället används konfigurationsinställningar som definierats på den globala nivån för att säkerställa konsekvens mellan administratörsgränssnittet och butiken. |
 
 {style="table-layout:auto"}

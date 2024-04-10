@@ -3,28 +3,28 @@ title: Cachehantering
 description: Lär dig hur du använder verktygen för cachehantering, som är ett enkelt sätt att förbättra prestanda för din plats.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
 
 # Cachehantering
 
-Cachehanteringssystemet Adobe Commerce och Magento Open Source är ett enkelt sätt att förbättra webbplatsens prestanda. När ett cacheminne kräver en uppdatering visas ett meddelande längst upp på arbetsytan som guidar dig genom processen. Följ länken till Cachehantering och uppdatera ogiltiga cacheminnen.
+Cachehanteringssystemet Adobe Commerce och Magento Open Source är ett enkelt sätt att förbättra webbplatsens prestanda. När ett cacheminne kräver en uppdatering visas ett meddelande längst upp på arbetsytan med en länk till [!UICONTROL Cache Management] sida där du kan visa och uppdatera cacheminnen.
 
 ![Spara produktattribut - uppdatera cachemeddelande](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
->[!NOTE]
->
->När katalogenheter ändras kan det påverka andra sidor och göra flera cacher ogiltiga samtidigt. När du granskar sidan för cachehantering kan du se ogiltiga objekt som behöver uppdateras när de var _**inte redigerad direkt**_. Den här ogiltigförklaringen inträffar t.ex. när du redigerar en produkt i katalogen och den är tilldelad till en kategori eller när du ändrar en relaterad produktregel.
+The _[!UICONTROL Cache Management]_visas status för varje primärt cacheminne och tillhörande tagg. De stora knapparna i det övre högra hörnet kan användas för att tömma cacheminnet, eller den kompletta cachelagringen. Längst ned på sidan kan du med ytterligare knappar tömma katalogproduktbildernas cache och JavaScript/CSS-cache.
 
-The _[!UICONTROL Cache Management]_visas status för varje primärt cacheminne och tillhörande tagg. De stora knapparna i det övre högra hörnet kan användas för att tömma cacheminnet, eller den kompletta cachelagringen. Längst ned på sidan finns det ytterligare knappar för att tömma cacheminnet för katalogproduktbilder och JavaScript/CSS-cacheminnet.
+>[!IMPORTANT]
+>
+>När katalogenheter ändras kan det påverka andra sidor och göra flera cacher ogiltiga samtidigt. När du granskar sidan för cachehantering kan du se ogiltiga objekt som behöver uppdateras när de var _**inte redigerad direkt**_. Den här ogiltigförklaringen inträffar t.ex. när du redigerar en produkt i katalogen som är tilldelad en kategori eller när du ändrar en relaterad produktregel.
 
 När du har rensat ett cacheminne bör du alltid uppdatera webbläsaren så att du ser de senaste filerna. Webbläsarcachen rensas inte när du rensar Commerce-cachen. Du kan behöva rensa webbläsarens cache för att se uppdaterat innehåll.
 
-Ytterligare teknisk information finns på [Cacheöversikt](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=&quot;_blank&quot;} i _Utvecklingshandbok för Commerce Frontend_.
+Mer teknisk information om Adobe Commerce cachning finns på [Cacheöversikt](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=&quot;_blank&quot;} i _Utvecklingshandbok för Commerce Frontend_.
 
 Öppna _[!UICONTROL Cache Management]_gör något av följande:
 
@@ -102,12 +102,12 @@ Mer information om hur du tilldelar resurser för att bevilja åtkomst för admi
 
 ## Töm med kommandoraden
 
-I Commerce finns ytterligare alternativ för tömning av cache med kommandoraden. Dessa alternativ kan kräva utvecklarsupport för att slutföras. Fullständig information och kommandoalternativ finns i [Hantera cachen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-cache.html){:target=&quot;_blank&quot;} i _Konfigurationshandbok_.
+Systemadministratörer och utvecklare med tillgång till Commerce-programservern kan också hantera cache- och cachekonfigurationen från kommandoraden med Commerce CLI. Se [Hantera cachen](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) i _Konfigurationshandbok_.{:target=&quot;_blank&quot;}.
 
 ## Kontroller
 
 | Kontroll | Beskrivning |
-|--- |--- |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Mass Actions] | Markerar kryssrutan för flera cacher. Alternativ: <br/>**[!UICONTROL Select All]**— Markerar kryssrutan för alla cacheminnen.<br/>** Avmarkera alla **— Rensar kryssrutan för alla cacher.<br/>**[!UICONTROL Select Visible]** — Markerar kryssrutan för alla synliga cacheminnen. <br/>**[!UICONTROL Unselect Visible]**— Rensar kryssrutan för alla synliga cacher. |
 | [!UICONTROL Actions] | Anger vilken åtgärd som ska tillämpas på alla markerade cacheminnen. Alternativ: <br/>**[!UICONTROL Enable]**— Aktiverar alla markerade cacheminnen.<br/>**[!UICONTROL Disable]** — Inaktiverar alla markerade cacher. <br/>**[!UICONTROL Refresh]**— Uppdaterar alla markerade cacheminnen. |
 | [!UICONTROL Submit] | Tillämpar åtgärden på alla markerade cacheminnen. |
@@ -117,7 +117,7 @@ I Commerce finns ytterligare alternativ för tömning av cache med kommandoraden
 ### Knappar
 
 | Knapp | Beskrivning |
-|--- |--- |
+|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Flush Magento Cache] | Tar bort alla objekt i standardcachen för Commerce (`var/cache`), enligt deras associerade Commerce-taggar. |
 | [!UICONTROL Flush Cache Storage] | Tar bort alla objekt från cachen, oavsett Commerce-tagg. Om systemet använder en alternativ cacheplats tas alla cachelagrade filer som används av andra program bort. |
 | [!UICONTROL Flush Catalog Images Cache] | Tar bort alla automatiskt storleksändrade och vattenstämplade katalogbilder som lagras i `media/catalog/product/cache`. Om nyligen överförda bilder inte visas i katalogen kan du försöka tömma katalogen och uppdatera webbläsaren. |
@@ -128,23 +128,42 @@ I Commerce finns ytterligare alternativ för tömning av cache med kommandoraden
 
 ### Cacher
 
-| Cache | Beskrivning | Associerad tagg |
-| ----- | ----------- | -------------- |
-| [!UICONTROL Configuration] | Olika XML-konfigurationer som samlats in mellan moduler och sammanfogats.<br>**[!UICONTROL System]**-  `config.xml`,`local.xml`<br>**[!UICONTROL Module]** -  `config.xml` | `CONFIG` |
-| [!UICONTROL Layouts] | Instruktioner för layoutbygge. | `LAYOUT_GENERAL_CACHE_TAG` |
-| [!UICONTROL Blocks HTML output] | Sidblocken HTML. | `BLOCK_HTML` |
-| [!UICONTROL Collections Data] | Samla in datafiler. | `COLLECTION_DATA` |
-| [!UICONTROL Reflection Data] | Rensar API-gränssnittets reflektionsdata, som vanligtvis genereras under körning. | `REFLECTION` |
-| [!UICONTROL Database DDL operations] | Resultat av DDL-frågor, som att beskriva tabeller eller index. | `DB_DDL` |
-| [!UICONTROL Compiled Config] | Resultat av kodkompilering. | `COMPILED_CONFIG` |
-| [!UICONTROL EAV types and attributes] | Cacheminne för entitetstypsdeklaration. | `EAV` |
-| [!UICONTROL Customer Notification] | Tillfälliga meddelanden som visas i användargränssnittet. | `CUSTOMER_NOTIFICATION` |
-| [!UICONTROL Integrations Configuration] | Konfigurationsfil för integrering. | `INTEGRATION` |
-| [!UICONTROL Integrations API Configuration] | Konfigurationsfil för integrations-API. | `INTEGRATION_API_CONFIG` |
-| [!UICONTROL Page Cache] | Cachelagring av hela sidor. | `FPC` |
-| [!UICONTROL Translations] | Översättningsfiler. | `TRANSLATE` |
-| [!UICONTROL Web Services Configuration] | REST- och SOAP-konfigurationer, genererad WSDL-fil. | `WEBSERVICE` |
-| [!UICONTROL Target Rule] | Index för målregel | `TARGET_RULE` |
+The [!UICONTROL Cache Management] På sidan visas de cachetyper som du kan hantera från administratören med deras aktuella status. I det här avsnittet beskrivs de standardcachetyper som stöds av Adobe Commerce. The _Cache-tagg_ och _Cache-id_ kolumner beskriver värden som används i Commerce-programkoden:
+
+- `cache_type_id` definierar den unika identifieraren för en cachetyp.
+
+- `%CACHE_TYPE_TAG%` definierar den unika tagg som ska användas i cachetypsomfång.
+
+Utvecklare och systemintegratörer använder dessa värden för att konfigurera och hantera cachning när de anpassar eller integrerar med Adobe Commerce, till exempel för att utveckla integreringar med GraphQL API:er. The `cache type id` används även för cachehantering från programserverns kommandorad med Commerce CLI, till exempel ` bin/magento cache:status config` visar aktuell status för konfigurationscachen.
+
+>[!NOTE]
+>
+>Utvecklare och systemintegratörer kan anpassa och utöka Cachehanteringssystemet i Commerce för att stödja anpassade moduler och integreringar. Mer information finns i [Konfigurera cachelagring](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) i _Konfigurationshandbok för Adobe Commerce_.
+
+<!-- prettier-ignore -->
+
+#### Information om cachelista
+
+| Cache | Beskrivning | Cache-tagg | Cache-id |
+|-------|------------|----------|----------|
+| [!UICONTROL Configuration] | Commerce samlar in XML-konfiguration från alla moduler, sammanfogar den och sparar det sammanfogade resultatet i cachen.<br>**[!UICONTROL System]**-  `config.xml`,`local.xml`<br>**[!UICONTROL Module]** - `config.xml`<br><br>Cachen innehåller även lagringsinställningar som lagras i filsystemet och databasen. Rensa eller tömma den här cachetypen efter att konfigurationsfilerna har ändrats. | `CONFIG` | `config` |
+| [!UICONTROL Layouts] | Kompilerade sidlayouter, det vill säga layoutkomponenter från alla komponenter. Rensa eller tömma den här cachetypen efter att du har ändrat layoutfiler. | `LAYOUT_GENERAL_CACHE_TAG` | `layout` |
+| [!UICONTROL Blocks HTML output] | HTML sidfragment per block. Rengör eller tömma den här cachetypen efter att du har ändrat visningslagret. | `BLOCK_HTML` | `block_html` |
+| [!UICONTROL Collections Data] | Samla in datafiler som lagrar resultatet av databasfrågor. Om det behövs rensar Commerce cachen automatiskt, men tredjepartsutvecklare kan placera alla data i valfritt segment i cachen. Rensa eller tömma den här cachetypen om den anpassade modulen använder logik som resulterar i cacheposter som inte kan rensas. | `COLLECTION_DATA` | `collections` |
+| [!UICONTROL Reflections] | Rensar API-gränssnittets reflektionsdata, som vanligtvis genereras under körning. | `REFLECTION` | `reflection` |
+| `Database DDL operations` | Databasschema. Om det behövs rensar Commerce cachen automatiskt, men tredjepartsutvecklare kan placera alla data i valfritt segment i cachen. Rensa eller tömma den här cachetypen efter att du har gjort anpassade ändringar i databasschemat. (Detta är med andra ord uppdateringar som Commerce inte gör sig själv.) Ett sätt att uppdatera databasschemat automatiskt är att använda magentainställningarna:db-schema:uppgraderingskommando. | `DB_DDL` | `db_ddl` |
+| [!UICONTROL Compiled Config] | Resultat av kodkompilering. | `COMPILED_CONFIG` | `compiled_config` |
+| [!UICONTROL Webhooks Response Cache] | Cachelagrar svar på webkrok-begäranden. Mer information finns i [Webhooks Guide](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) i dokumentationen för Commerce-utvecklare. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL EAV types and attributes] | Deklarationscache för entitetstyper för metadata relaterade till EAV-attribut (t.ex. butiksetiketter, länkar till relaterad PHP-kod, attributåtergivning, sökinställningar osv.). Du behöver vanligtvis inte rensa eller tömma den här cachetypen. | `EAV` | `eav` |
+| [!UICONTROL Customer Notification] | Tillfälliga meddelanden som visas i användargränssnittet. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
+| [!UICONTROL GraphQL Query Resolver Results] | Caches the results from GraphQL query resolvers for customer, CMS page, CMS block, and product media gallery entities. Låt cachen vara aktiverad för att förbättra GraphQL prestanda. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
+| [!UICONTROL Integrations Configuration] | Konfigurationsfil för integrering. Rensa eller tömma det här cacheminnet när du har ändrat eller lagt till integreringar. | `INTEGRATION` | `config_integration` |
+| [!UICONTROL Integrations API Configuration] | Kompilerade API:er för integrering av butiker. | `INTEGRATION_API_CONFIG` | `config_integration_api` |
+| [!UICONTROL Admin UI SDK Cache] | Cachelagrar anpassningar av administratören. Se [Administratörskonfiguration och -testning](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) i _Handbok för administratörsgränssnitt för SDK_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Page Cache] | Cachelagring av hela sidor. | `FPC` | `full_page` |
+| [!UICONTROL Target Rule] | Index för målregel | `TARGET_RULE` | `target_rule` |
+| [!UICONTROL Web Services Configuration] | Cachelagrar webb-API-strukturen. | `WEBSERVICE` | `config_webservice` |
+| [!UICONTROL Translations] | Översättningsfiler. | `TRANSLATE` | `translate` |
 
 {style="table-layout:auto"}
 
@@ -180,6 +199,8 @@ Teknisk information finns på [Konfigurera och använda lack](https://experience
    - `Varnish Caching`
 
 1. Om du vill ange timeout för sidcachen anger du **[!UICONTROL TTL for public content]**. (Standardvärdet är `86400`)
+
+1. Ange maximalt antal [layouthandtag](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) för att bearbeta [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP-slutpunkt, ange **[!UICONTROL Handles param size]**. Genom att begränsa storleken kan du förbättra säkerheten och prestandan. (Standardvärdet är `100`)
 
 1. Om du använder lack fyller du i **[!UICONTROL Varnish Configuration]** enligt följande:
 

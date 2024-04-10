@@ -3,9 +3,9 @@ title: Vad är butiken?
 description: Lär dig mer om de sidor och funktionselement som din butik kan tillhandahålla som stöd för shoppingupplevelsen för dina kunder.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,7 @@ Utcheckningsprocessen består av två steg:
 1. Leveransinformation
 
    Det första steget i utcheckningsprocessen är att kunden fyller i leveransadressuppgifterna och väljer leveranssätt. Om kunden har ett konto anges leveransadressen automatiskt, men kan ändras vid behov.
+Om en gästkund anger en e-postadress som känns igen som tidigare registrerad visas inloggningsmeddelandet om [!UICONTROL Enable Guest Checkout Login] fältet i butikskonfigurationen är inställd på `Yes` (se [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) i _Referenshandbok för konfiguration_). Den här inställningen kan dock visa kundinformation för oautentiserade användare.
 
    ![Exempel på kassautcheckningssida för butiker](./assets/storefront-checkout-shipping-full.png){width="700"}
 
