@@ -1,42 +1,74 @@
 ---
 title: Instrumentpanel för datahantering
-description: Lär dig hur du får information om dataströmmar för Catalog Service, Live Search, Product Recommendations.
+description: Lär dig hur du får tillgång till insikter om dataströmmar för [!DNL Catalog Service], [!DNL Live Search]och [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
-source-git-commit: eed80afd8755d416d979c362f8c21fe97ce2d2ba
+exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
+source-git-commit: 13f47c8dccb98a721924df716ae0793db6889f3a
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
 
-
 # Instrumentpanel för datahantering
 
-Kontrollpanelen för datahantering ger insikt i dataströmmar för Adobe Commerce SaaS-produkter. Användare av [!DNL Live Search], [!DNL Product Recommendations]och [!DNL Catalog Service] kan visa produktsynkroniseringsstatus och synkronisera om data från en enda kontrollpanel.
+Kontrollpanelen för datahantering ger en översikt över synkroniseringsstatusen för produktdata som överförs från Commerce-databasen till Commerce SaaS-tjänster. Användare kan enkelt övervaka status för produktsynkronisering och initiera omsynkronisering av data från en enhetlig kontrollpanel. Den här funktionen ger värdefulla insikter om tillgängligheten av produktdata för butiken, så att den snabbt kan visas för kunderna.
+
+## Målgrupp
+
+Kontrollpanelen för datahantering är tillgänglig utan extra kostnad för alla Commerce-handlare som använder [[!DNL Product Recommendations]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview), eller [[!DNL Catalog Service]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) med en aktiv licens.
 
 Kontrollpanelen för datahantering finns på *System* > Dataöverföring > *Instrumentpanel för datahantering*.
 
 ![Instrumentpanel för datahantering](assets/data-management-dashboard.png)
 
-## Inställningar
+Kontrollpanelen innehåller följande fält:
 
-The **[!UICONTROL Settings]** till höger på sidan öppnas en dialogruta där du kan synkronisera om katalogdata.
+| Fält | Beskrivning |
+|--- |--- |
+| Omfång | Specifik webbplats för synkroniserade data. |
+| [!DNL Product Recommendations] | Visar synkroniseringsstatus, antal synkroniserade produkter och en tabell över [visningsbar](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synkroniserade produkter för [!DNL Product Recommendations]. |
+| [!DNL Live Search] | Visar synkroniseringsstatus, antal synkroniserade produkter och en tabell över [visningsbar](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synkroniserade produkter för [!DNL Live Search]. |
+| [!DNL Catalog Service] | Visar synkroniseringsstatus, antal synkroniserade produkter och en tabell över synkroniserade produkter för [!DNL Catalog Service]. |
+| Inställningar | Öppnar en dialogruta där du kan [manuellt synkronisera om katalogdata](#resync-catalog-data). |
+| Synkroniseringsstatus | Visar antalet produkter som har överförts från Commerce-databasen till någon av SaaS-tjänsterna under de senaste tre timmarna. Om du gör ovanliga uppdateringar av katalogen är det här värdet ofta noll. Om en synkronisering pågår klickar du på **[!UICONTROL Refresh]** för att få ett uppdaterat antal. |
+| Antal produkter | Återspeglar det totala antalet katalogprodukter som är tillgängliga för tjänsten. The [!DNL Product Recommendations] och [!DNL Live Search] instrumentpaneler visar totalt antal _visningsbar_ produkter. [!DNL Catalog Service] filtrerar inte produkter efter visning, så om du har båda [!DNL Catalog Service] och [!DNL Live Search] eller [!DNL Product Recommendations] kan de två kontrollpanelerna visa två olika värden för antalet produkter. |
+| Synkroniserade produkter | Innehåller information om produkterna i Commerce index. Som standard sorteras den här tabellen efter&quot;Senast uppdaterad&quot;. Om du vill hitta en viss produkt använder du **[!UICONTROL Search by SKU]** fält. Om du vill styra vilka kolumner som ska visas klickar du på **[!UICONTROL Customize Table]** till höger om bordet. |
 
-Om katalogdata synkroniseras igen måste tjänsten hämta data från Commerce-databasen. Den här åtgärden används vanligtvis under första gången du startar programmet när katalogsynkroniseringen inte har körts på ett par timmar.
+## Använda kontrollpanelen för datahantering
 
-## Synkroniseringsstatus
+När du uppdaterar produkter i Commerce-databasen överförs produktdata till SaaS-tjänster enligt din systemkonfiguration. När synkroniseringsprocessen startar, **Antal produkter** anger antalet produkter som skickas till SaaS-tjänster.
 
-The _[!UICONTROL Sync]_statuspanelen visar antalet produkter som har synkroniserats under de senaste tre timmarna. Om du gör ovanliga uppdateringar av katalogen är det här värdet ofta noll. Klicka **[!UICONTROL Refresh]**för att uppdatera antalet.
+>[!IMPORTANT]
+>
+>Den tid det tar att slutföra synkroniseringen varierar beroende på katalogstorleken och volymen på uppdaterade data.
 
-## Antal produkter
+När antalet bearbetade produkter matchar antalet uppdaterade produkter anger det att synkroniseringen är klar.
 
-Panelen för produktantal visar det totala antalet katalogprodukter som är tillgängliga för tjänsten.
+### Lista över synkroniserade produkter
 
-The [!DNL Product Recommendations] och [!DNL Live Search] instrumentpaneler visar totalt antal _visningsbar_ produkter. [!DNL Catalog Service] filtrerar inte produkter efter visning, så om du har båda [!DNL Catalog Service] och [!DNL Live Search] eller [!DNL Product Recommendations] kan de två kontrollpanelerna visa två olika värden för antalet produkter.
+Om du vill visa information om en synkroniserad produkt klickar du på produkten i tabellen.
 
-## Synkroniserade produkter
+![Information om synkroniserad produkt](assets/sync-product-detail.png)
 
-Registret Synced Products (Synkroniserade produkter) innehåller information om produkterna i indexet. Som standard sorteras den här tabellen efter&quot;Senast uppdaterad&quot;.
+### Synkronisera om katalogdata
 
-Om du vill hitta en viss produkt använder du **[!UICONTROL Search by SKU]** fält .
-Om du vill styra vilka kolumner som ska visas klickar du på **[!UICONTROL Customize Table]** till höger om bordet.
+För att dina Commerce SaaS-tjänster alltid ska vara uppdaterade med den senaste produktinformationen bör du [implementera ett schema](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) för synkronisering av katalogdata.
+
+Medan du kan [initiera manuellt](#manually-resync-catalog) En omsynkronisering av katalogdata från Commerce-databasen till SaaS-tjänster rekommenderas inte eftersom det kan öka belastningen på maskinvaruresurserna. Du kan behöva synkronisera om katalogen manuellt i följande scenarier:
+
+- När du gör stora ändringar i produktkatalogen, till exempel lägger till nya produkter, uppdaterar produktinformation eller ändrar kategorier
+
+- Om du märker några avvikelser eller prestandaproblem när du visar produktdata i dina butiker
+
+- Följa uppdateringar eller ändringar av integreringar mellan Commerce-databasen och SaaS-tjänsterna
+
+- När anpassningar eller konfigurationer distribueras som påverkar hanteringen av produktdata eller synkroniseringsprocesserna
+
+Genom att följa dessa riktlinjer och aktivt återsynkronisera katalogdata efter behov kan du upprätthålla datakonsekvens, precision och tillförlitlighet i hela Adobe Commerce-ekosystemet.
+
+#### Synkronisera om katalog manuellt
+
+Om du behöver synkronisera om katalogdata klickar du på **[!UICONTROL Settings]** till höger på sidan för att visa en dialogruta där du kan starta en omsynkronisering. Om katalogdata synkroniseras igen tvingas tjänsten att hämta data från Commerce-databasen till SaaS-tjänster.
+
+![Synkronisera produkter manuellt](assets/resync-data.png)
