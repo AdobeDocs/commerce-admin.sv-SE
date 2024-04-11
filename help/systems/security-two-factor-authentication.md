@@ -1,25 +1,25 @@
 ---
 title: Tvåfaktorautentisering (2FA)
-description: Lär dig mer om stöd för tvåfaktorsautentisering för att säkerställa säkerheten i din butik och dina data.
+description: Lär dig mer om stöd för tvåfaktorsautentisering för att säkerställa säkerheten i ditt system och dina data.
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
 
 # Tvåfaktorautentisering (2FA)
 
-Handeln _Administratör_ för installation av Adobe Commerce eller Magento Open Source ger tillgång till din butik, dina beställningar och dina kunddata. För att förhindra obehörig åtkomst till dina data ska alla användare som försöker logga in på _Administratör_ måste slutföra en autentiseringsprocess för att verifiera deras identitet.
+Commerce _Administratör_ för installation av Adobe Commerce eller Magento Open Source ger tillgång till din butik, dina beställningar och dina kunddata. För att förhindra obehörig åtkomst till dina data ska alla användare som försöker logga in på _Administratör_ måste slutföra en autentiseringsprocess för att verifiera deras identitet.
 
 >[!NOTE]
 >
->Implementeringen av tvåfaktorsautentisering (2FA) gäller för _Administratör_ och är inte tillgängligt för kundkonton. Den tvåfaktorsautentisering som skyddar ditt Commerce-konto har en separat inställning. Om du vill veta mer går du till [Skydda ditt Commerce-konto](../getting-started/commerce-account-secure.md).
+>Implementeringen av tvåfaktorsautentisering (2FA) gäller för _Administratör_ och är inte tillgängligt för kundkonton. Den tvåfaktorsautentisering som skyddar ditt Commerce-konto har en separat konfiguration. Om du vill veta mer går du till [Säkra ditt Commerce-konto](../getting-started/commerce-account-secure.md).
 
-Tvåfaktorsautentisering används ofta och det är vanligt att generera åtkomstkoder för olika webbplatser i samma app. Detta säkerställer att bara du kan logga in på ditt användarkonto. Om du tappar bort ditt lösenord eller om någon gissar det lägger tvåfaktorsautentisering till ett skyddslager. Du kan till exempel använda Google Authenticator för att generera koder för administratören av din butik, ditt Commerce-konto och Google-konto.
+Tvåfaktorsautentisering används ofta och det är vanligt att generera åtkomstkoder för olika webbplatser i samma app. Denna extra autentisering säkerställer att bara du kan logga in på ditt användarkonto. Om du tappar bort ditt lösenord eller om någon gissar det lägger tvåfaktorsautentisering till ett skyddslager. Du kan till exempel använda Google Authenticator för att generera koder för administratören av din butik, ditt Commerce-konto och Google-konto.
 
 ![Iphone för säkerhetskonfiguration - 2FA](./assets/google-authenticator-iphone.png){width="300"}
 
@@ -39,9 +39,9 @@ Du kan se det här [videodemo](https://video.tv.adobe.com/v/339104?quality=12&le
 
 1. Expandera på den vänstra panelen **[!UICONTROL Security]** och välja **[!UICONTROL 2FA]**.
 
-1. I _[!UICONTROL General]_väljer du varje **[!UICONTROL Provider to use]**.
+1. I _[!UICONTROL General]_väljer du de leverantörer som ska användas.
 
-   | Provider |  -funktion |
+   | Provider | Funktion |
    |--- |--- |
    | [!UICONTROL Google Authenticator] | Skapar ett engångslösenord i programmet för användarautentisering. |
    | [!UICONTROL Duo Security] | Tillhandahåller SMS och push-meddelanden. |
@@ -66,7 +66,9 @@ Slutför inställningarna för varje 2FA-metod som du behöver.
 
 Om du vill ändra hur länge engångslösenordet (OTP) är tillgängligt under inloggningen, avmarkerar du **[!UICONTROL Use system value]** kryssrutan. Ange sedan det antal sekunder som du vill ha **[!UICONTROL OTP Window]** att vara giltig.
 
-![Säkerhetskonfiguration - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+>[!NOTE]
+>
+>I Adobe Commerce 2.4.7 och senare styr konfigurationsinställningen för fönstret för engångslösenord hur lång tid (i sekunder) som systemet accepterar en administratörs engångslösenord efter att det har gått ut. Värdet måste vara mindre än 30 sekunder. Systemets standardinställning är `1`.<br><br> I version 2.4.6 bestämmer fönsterinställningen för engångslösenord antalet tidigare och framtida koder för engångslösenord som förblir giltiga. Värdet för `1` anger att den aktuella koden för engångslösenord plus en kod tidigare och en kod i framtiden förblir giltig vid en given tidpunkt.
 
 ### [!DNL Duo Security]
 
