@@ -1,38 +1,40 @@
 ---
 title: Adobe Experience Cloud Integration for Commerce Admin
-description: Läs mer om Admin Unified Experience-tillägget som integrerar handel med Experience Cloud så att kunderna kan komma åt Commerce-projekt från Experience Cloud hemsida.
+description: Läs mer om Admin Unified Experience-tillägget som integrerar Commerce med Experience Cloud så att kunderna kan komma åt Commerce-projekt från Experience Cloud hemsida.
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: a07c91bc2f01cd110f3e0ccd6d27fe5d37eb2fc9
+source-git-commit: 61874f3dac4f574ad393e8ae258f3d6c56c8f37e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Cloud Integration for Commerce
+# Adobe Experience Cloud Integration för Commerce
 
-{{ee-feature}}
+<table style="border:1px solid red">
+<tr><td><img alt="Funktionen Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Endast exklusiva funktioner i Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Läs mer</a>)</td></tr>
+</table>
 
-Integrera Adobe Commerce-projekt med Experience Cloud genom att aktivera Admin Unified Experience-tillägget. När integreringen är aktiv kan administratörer få åtkomst till Commerce-projekt från Adobe Experience Cloud.
+Integrera Adobe Commerce-projekt med Experience Cloud genom att aktivera Admin Unified Experience-tillägget. När integreringen är aktiv kan administratörer komma åt Commerce-projekt från Adobe Experience Cloud.
 
-![Få tillgång till Commerce från Experience Cloud hemsida](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
+![Gå till Commerce från Experience Cloud hemsida](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
 
-## Visa tillgängliga handelsprojekt
+## Visa tillgängliga Commerce-projekt
 
 Administratörer kan visa Commerce-projekt som de har behörighet att komma åt genom att välja **[!UICONTROL Commerce]** från Experience Cloud hemsida.
 
-![Arbetsytan för Commerce Projects på Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
+![Commerce Projects-arbetsyta på Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
 Administratörer kan öppna Admin och Storefront för varje projekt från [!DNL Commerce Projects] och visa ytterligare information.
 
-- **Ögonblicksbild av startsidan för Commerce Store**—Ögonblicksbild av butikens startsida. Om ett projekt har flera webbplatser visar ögonblicksbilden startsidan för standardwebbplatsen.
+- **Ögonblicksbild av startsidan för Commerce storefront**—Ögonblicksbild av butikens startsida. Om ett projekt har flera webbplatser visar ögonblicksbilden startsidan för standardwebbplatsen.
 
 - **[Projektnamn](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**—Identifierar instansens molnprojektmiljö. Projektnamnet är som standard [Git-grennamn](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) i molnprojektet. Ändra eller uppdatera projektnamnet i [Konfigurationsinställningar för Unified Experience Store](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin).
 
 - **[Lagringsplats-URL](../stores-purchase/store-urls.md)**- Visar bas-URL:en för standardwebbplatsen.
 
-- **[Miljötyp](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**—Handelsinstanser som distribueras till en utvecklings- eller mellanlagringsmiljö identifieras med en [!UICONTROL Development] eller [!UICONTROL Staging] etikett. Instanser som inte har någon etikett distribueras till en produktionsmiljö.
+- **[Miljötyp](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**—Commerce-instanser som distribueras till en utvecklings- eller staging-miljö identifieras med en [!UICONTROL Development] eller [!UICONTROL Staging] etikett. Instanser som inte har någon etikett distribueras till en produktionsmiljö.
 
 - **Åtkomst till Commerce Admin**—Öppna administratören genom att klicka på **[!UICONTROL Open]**.
 
@@ -42,13 +44,13 @@ Administratörer kan öppna Admin och Storefront för varje projekt från [!DNL 
 
 ## Autentiseringsflöde
 
-När integreringen av Experience Cloud är aktiverad använder administratörer följande arbetsflöde för att autentisera och få åtkomst till Commerce-projekt.
+När integreringen av Experience Cloud är aktiverad använder administratörer följande arbetsflöde för att autentisera och komma åt Commerce-projekt.
 
 1. Logga in via inloggningssidan för Experience Cloud.
 
    ![Experience Cloud inloggningssida](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
 
-   Administratörer måste logga in på Experience Cloud med affärsprofilen för Adobe för den organisation som är associerad med Commerce-instansen. Se [Hantera Adobe-profiler](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
+   Administratörer måste logga in på Experience Cloud med företagsprofilen Adobe för den organisation som är associerad med Commerce-instansen. Se [Hantera Adobe-profiler](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
 
 1. På Experience Cloud hemsida öppnar du [!UICONTROL Commerce Projects workspace] genom att välja **[!UICONTROL Open]**.
 
@@ -68,13 +70,13 @@ När integreringen av Experience Cloud är aktiverad använder administratörer 
 - Adobe Commerce i molninfrastruktur
 - Adobe Commerce-tillägg
 
-   - Commerce Admin - tillägg för enhetlig upplevelse (`magento/module-unified-experience`)
+   - Commerce Admin Unified Experience-tillägg (`magento/module-unified-experience`)
 
-     Om modulen inte är tillgänglig i Commerce-instansen kan den installeras med Composer.
+     Om modulen inte är tillgänglig på Commerce-instansen kan den installeras med Composer.
 
    - [Tjänsten Adobe I/O Events](https://developer.adobe.com/commerce/extensibility/events/)- Krävs för att skicka händelsedata för att hantera administratörsåtkomst till Commerce-projekt från Experience Cloud.
 
-     Integreringen av Adobe I/O Events med Commerce aktiveras av tillägget Commerce Event (`magento/commerce-eventing`) som finns i Adobe Commerce 2.4.4 och senare.
+     Integreringen av Adobe I/O Events med Commerce aktiveras av Commerce Event-tillägget (`magento/commerce-eventing`) som finns i Adobe Commerce 2.4.4 och senare.
 
 ## Aktivera integreringen
 
@@ -82,4 +84,4 @@ Aktivera integreringen genom att följa instruktionerna för att [Konfigurera in
 
 >[!TIP]
 >
->Om integreringen av Experience Cloud redan är aktiverad i Commerce-instansen finns mer information i [Hantera integreringen med Experience Cloud](admin-unified-experience-integration-manage.md) om du vill ha information om hur du ändrar eller uppdaterar konfigurationen, hanterar administratörsåtkomst och felsökning.
+>Om integreringen av Experience Cloud redan är aktiverad på Commerce-instansen finns mer information i [Hantera integreringen med Experience Cloud](admin-unified-experience-integration-manage.md) om du vill ha information om hur du ändrar eller uppdaterar konfigurationen, hanterar administratörsåtkomst och felsökning.
