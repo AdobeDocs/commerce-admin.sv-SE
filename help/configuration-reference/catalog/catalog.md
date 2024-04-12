@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] sidan för Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 8ce1bca0a14b838c843c66e48a2c1cd895bb1340
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3146'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | Butiksvy | Anger hur många produkter som visas per sida som standard i stödrastervyn. |
 | [!UICONTROL Products per Page on List Allowed Values] | Butiksvy | Bestämmer antalet produkter som visas i listvyn. Ange flera värden avgränsade med kommatecken om du vill välja alternativ. |
 | [!UICONTROL Products per Page on List Default Value] | Butiksvy | Anger antalet produkter som visas per sida som standard i listvyn. |
-| Produktlista sortera efter | Butiksvy | Bestämmer sorteringsordningen i sökresultatlistan. Valet av alternativ avgörs av kategorins visningsinställningar och de tillgängliga attribut som anges som `Used for Sorting in Product Listing`. Standardvärdet är `Use All Available Attributes` och innehåller vanligtvis Bästa värde, Namn, Pris |
+| Produktlista sortera efter | Butiksvy | Bestämmer sorteringsordningen i sökresultatlistan. Valet av alternativ avgörs av kategorins visningsinställningar och de tillgängliga attribut som anges som `Used for Sorting in Product Listing`. Standardvärdet är `Use All Available Attributes` och innehåller vanligtvis Bästa värde, Namn, Pris. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidget för produktlista](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Butiksvy | Om inställt på `Yes`, innehåller `ALL` i kontrollen &quot;Visa per sida&quot;. |
 | [!UICONTROL Remember Category Pagination] | Global | Om inställt på `Yes`, sparas de aktuella sidnumreringsvärdena för kategorier när kunderna bläddrar från en kategori till en annan i [produktlistor](../../catalog/navigation-product-listings.md). När du sparar värdet används mer lagringsutrymme och det kan påverka hur sidor indexeras av sökmotorer. Alternativ: `Yes` / `No` (standard) |
 | [!UICONTROL Use Flat Catalog Category] | Global | Aktiverar [platt kategoristruktur](../../catalog/catalog-flat.md) (rekommenderas inte). Alternativ: `Yes` / `No` |

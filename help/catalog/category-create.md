@@ -3,9 +3,9 @@ title: Skapa kategorier
 description: Du kan skapa så många ytterligare underkategorier som behövs, enligt det maximala menydjup som har angetts i konfigurationen.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Definiera även eventuella associerade nyckelord och attribut, till exempel:
 
 1. Om du vill att kategorisidan ska innehålla _`Filter by Attribute`_del av lagerstyrd navigering, ange **[!UICONTROL Anchor]**till `Yes`.
 
-1. För **[!UICONTROL Available Product Listing Sort By]** väljer du ett eller flera av de tillgängliga värdena som ska vara tillgängliga för kunderna för att sortera listan.
+1. För **[!UICONTROL Available Product Listing Sort By]** väljer du ett eller flera av de tillgängliga värdena som ska vara tillgängliga för kunderna för att sortera listan. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidget för produktlista](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
    Som standard inkluderas alla tillgängliga värden. Avmarkera **[!UICONTROL Use All]** om du vill ändra valen. Värdena kan till exempel vara:
 
@@ -122,7 +122,7 @@ Definiera även eventuella associerade nyckelord och attribut, till exempel:
    - `Product Name`
    - `Price`
 
-1. Om du vill ange standardsorteringsordningen för kategorin väljer du **[!UICONTROL Default Product Listing Sort By]** värde.
+1. Om du vill ange standardsorteringsordningen för kategorin väljer du **[!UICONTROL Default Product Listing Sort By]** värde. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidget för produktlista](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
 1. Ändra standardnavigeringen för lager [prissteg](navigation-layered.md#configure-price-navigation) om du vill göra följande:
 
