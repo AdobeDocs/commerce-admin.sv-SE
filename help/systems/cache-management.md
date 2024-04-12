@@ -3,16 +3,16 @@ title: Cachehantering
 description: Lär dig hur du använder verktygen för cachehantering, som är ett enkelt sätt att förbättra prestanda för din plats.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
+source-git-commit: fdf04be69754d0209772d9ceb244e3808f3b61d3
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
 
 # Cachehantering
 
-Cachehanteringssystemet Adobe Commerce och Magento Open Source är ett enkelt sätt att förbättra webbplatsens prestanda. När ett cacheminne kräver en uppdatering visas ett meddelande längst upp på arbetsytan med en länk till [!UICONTROL Cache Management] sida där du kan visa och uppdatera cacheminnen.
+Cachehanteringssystemet Adobe Commerce och Magento Open Source är ett enkelt sätt att förbättra webbplatsens prestanda. När ett cacheminne kräver en uppdatering visas ett meddelande med en länk till [!UICONTROL Cache Management] sidan för att slutföra uppdateringen.
 
 ![Spara produktattribut - uppdatera cachemeddelande](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
@@ -40,12 +40,12 @@ Omindexering och cachelagring har olika syften i Commerce. [Index](index-managem
 - Töm alltid cacheminnet efter installation av tillägg/moduler. Du kan installera ett eller flera tillägg och sedan tömma cachen.
 - Rensa cachen efter installation av Commerce. För nya installationer bör du även indexera om.
 - Töm cacheminnet när du har uppgraderat från en version av Open Source eller Commerce till en annan.
-- När du tömmer cacheminnen bör du tänka på vilken typ av cacheminne det är och schemalägga tömningen under icke-topptider. Välj till exempel en tid då få kunder får tillgång till webbplatsen, som sen natt eller tidig morgon. Om du rensar vissa cachetyper under högbelastningstider blir Admin mycket belastad och kan resultera i en nedladdad plats tills den är slutförd.
-- När [omindexering](index-management.md)behöver du inte också utföra en tömningscache.
+- När du tömmer cacheminnen bör du tänka på vilken typ av cacheminne det är och schemalägga tömningen under icke-topptider. Välj t.ex. en tid då få kunder använder webbplatsen, som sen natt eller tidig morgon. Om du rensar cachetyper under maximal efterfrågan kan belastningen på Admin öka, vilket kan leda till att webbplatsen går ned tills åtgärden har slutförts.
+- När [omindexering](index-management.md)behöver du inte tömma cachen.
 
 ## Rollresurser för cachehantering
 
-Användarna kan tilldelas åtkomst till specifika cacheunderhållsåtgärder per roll, inklusive alternativ för att visa, växla och tömma cacheminnen. Adobe rekommenderar att du bara aktiverar rensningsåtgärder för användare på administratörsnivå. Om du får tillgång till alla funktioner för cachehantering kan det påverka butikens prestanda.
+Du kan tilldela användare åtkomst till specifika cacheunderhållsåtgärder per roll, inklusive alternativ för att visa, växla och tömma cacheminnen. Adobe rekommenderar att du bara aktiverar rensningsåtgärder för användare på administratörsnivå. Om du får tillgång till alla funktioner för cachehantering kan det påverka butikens prestanda.
 
 ![Rollresurser - cachehantering](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ Mer information om hur du tilldelar resurser för att bevilja åtkomst för admi
    - `Select All`
    - `Select Visible`
 
-1. Markera kryssrutan för varje cache som åtgärden ska rikta sig till.
+1. Markera kryssrutan för varje cache som ska uppdateras.
 
 1. Ange **[!UICONTROL Actions]** till `Refresh` och klicka **[!UICONTROL Submit]**.
 
@@ -94,7 +94,7 @@ Mer information om hur du tilldelar resurser för att bevilja åtkomst för admi
 
 ## Töm JavaScript-/CSS-cachen
 
-1. Under _[!UICONTROL Additional Cache Management]_, klicka **[!UICONTROL Flush JavaScript/CSS Cache]**för att rensa alla JavaScript- och CSS-filer som har slagits samman till en enda fil.
+1. Under _[!UICONTROL Additional Cache Management]_, rensa JavaScript- och CSS-filer som har slagits samman till en enda fil genom att klicka på&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**.
 
    The `The JavaScript/CSS cache has been cleaned` visas högst upp på arbetsytan.
 
@@ -102,7 +102,7 @@ Mer information om hur du tilldelar resurser för att bevilja åtkomst för admi
 
 ## Töm med kommandoraden
 
-Systemadministratörer och utvecklare med tillgång till Commerce-programservern kan också hantera cache- och cachekonfigurationen från kommandoraden med Commerce CLI. Se [Hantera cachen](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) i _Konfigurationshandbok_.{:target=&quot;_blank&quot;}.
+Systemadministratörer och utvecklare med tillgång till Commerce-programservern kan också hantera cache- och cachekonfigurationen från kommandoraden med Commerce CLI. Se [Hantera cachen](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target=&quot;_blank&quot;} i _Konfigurationshandbok_.
 
 ## Kontroller
 
@@ -134,7 +134,7 @@ The [!UICONTROL Cache Management] På sidan visas de cachetyper som du kan hante
 
 - `%CACHE_TYPE_TAG%` definierar den unika tagg som ska användas i cachetypsomfång.
 
-Utvecklare och systemintegratörer använder dessa värden för att konfigurera och hantera cachning när de anpassar eller integrerar med Adobe Commerce, till exempel för att utveckla integreringar med GraphQL API:er. The `cache type id` används även för cachehantering från programserverns kommandorad med Commerce CLI, till exempel ` bin/magento cache:status config` visar aktuell status för konfigurationscachen.
+Utvecklare och systemintegratörer använder dessa värden för att konfigurera och hantera cachning när de anpassar eller integrerar med Adobe Commerce, till exempel för att utveckla integreringar med GraphQL API:er. The `cache type id` används också för cachehantering från programserverns kommandorad med Commerce CLI. Till exempel: ` bin/magento cache:status config` visar aktuell status för konfigurationscachen.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Utvecklare och systemintegratörer använder dessa värden för att konfigurera 
 | `Database DDL operations` | Databasschema. Om det behövs rensar Commerce cachen automatiskt, men tredjepartsutvecklare kan placera alla data i valfritt segment i cachen. Rensa eller tömma den här cachetypen efter att du har gjort anpassade ändringar i databasschemat. (Detta är med andra ord uppdateringar som Commerce inte gör sig själv.) Ett sätt att uppdatera databasschemat automatiskt är att använda magentainställningarna:db-schema:uppgraderingskommando. | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | Resultat av kodkompilering. | `COMPILED_CONFIG` | `compiled_config` |
 | [!UICONTROL Webhooks Response Cache] | Cachelagrar svar på webkrok-begäranden. Mer information finns i [Webhooks Guide](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) i dokumentationen för Commerce-utvecklare. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
-| [!UICONTROL EAV types and attributes] | Deklarationscache för entitetstyper för metadata relaterade till EAV-attribut (t.ex. butiksetiketter, länkar till relaterad PHP-kod, attributåtergivning, sökinställningar osv.). Du behöver vanligtvis inte rensa eller tömma den här cachetypen. | `EAV` | `eav` |
+| [!UICONTROL EAV types and attributes] | Cachelagrar entitetstypsdeklaration för metadata relaterade till attributen för entitetsattributvärde (EAV). Attributen omfattar butiksetiketter, länkar till relaterad PHP-kod, attributåtergivning, sökinställningar och så vidare. Du behöver vanligtvis inte rensa eller tömma den här cachetypen. | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | Tillfälliga meddelanden som visas i användargränssnittet. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | Caches the results from GraphQL query resolvers for customer, CMS page, CMS block, and product media gallery entities. Låt cachen vara aktiverad för att förbättra GraphQL prestanda. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | Konfigurationsfil för integrering. Rensa eller tömma det här cacheminnet när du har ändrat eller lagt till integreringar. | `INTEGRATION` | `config_integration` |
@@ -175,11 +175,11 @@ Adobe Commerce och Magento Open Source använder helsidescachning på servern f�
 >
 >Vi rekommenderar att [Finska cache](https://varnish-cache.org/){:target=&quot;_blank&quot;} får endast användas i en produktionsmiljö.
 
-Cachelagrat innehåll kan användas för att behandla begäranden från liknande typer av besök. Detta kan leda till att de sidor som visas för en besökare av en viss person skiljer sig från dem som visas för kunden. Vid cachelagring är varje besök en av tre typer:
+Cachelagrat innehåll kan användas för att behandla begäranden från liknande typer av besök. Detta kan leda till att sidor som visas för en besökare av en viss person skiljer sig från sidor som visas för en kund. Vid cachelagring är varje besök en av tre typer:
 
 - `Non-sessioned` - Vid ett icke-sessionerat besök visar kunderna sidor, men interagerar inte med butiken. Systemet cachelagrar innehållet på varje sida som visas och skickar dem till andra kunder som inte sitter bredvid varandra.
-- `Sessioned` - Vid ett besök som hålls på plats tilldelas de kunder som interagerar med butiken - genom aktiviteter som att jämföra produkter eller lägga till produkter i kundvagnen - ett sessions-ID. Cachelagrade sidor som genereras under sessionen används endast av den användaren under sessionen.
-- `Customer` - Kundsessioner skapas för dem som har registrerat sig för ett konto hos din butik och butik medan de är inloggade på sina konton. Under sessionen kan kunderna få specialerbjudanden, kampanjer och priser som baseras på deras tilldelade kundgrupp.
+- `Sessioned` - Vid ett besök på plats tilldelas de kunder som interagerar med butiken ett sessions-ID. Interaktionerna kan vara att jämföra produkter eller lägga till produkter i kundvagnen. Cachelagrade sidor som genereras under sessionen används endast av den användaren under sessionen.
+- `Customer` - Kundsessioner skapas för kunder som loggar in och handlar med sitt registrerade konto. Under sessionen kan kunderna få specialerbjudanden, kampanjer och priser baserat på deras tilldelade kundgrupp.
 
 Teknisk information finns på [Konfigurera och använda lack](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target=&quot;_blank&quot;} och [Använd Redis för Commerce-sidan och standardcachen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target=&quot;_blank&quot;} i _Konfigurationshandbok_.
 
