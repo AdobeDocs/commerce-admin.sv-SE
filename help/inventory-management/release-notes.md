@@ -3,9 +3,9 @@ title: '''[!DNL Inventory Management] versionsinformation'
 description: Läs versionsinformationen om du vill ha information om alla [!DNL Inventory Management] releaser.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3445'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Versionsinformationen beskriver releaser av [!DNL Inventory Management] och inne
 [!DNL Inventory Management] är ett specialprojekt för Magento Open Source Community Engineering som är öppet för medverkande. Se [GitHub-projekt](https://github.com/magento/inventory) databas och [wiki](https://github.com/magento/inventory/wiki) för att komma igång. Om du vill diskutera projektet går du med i [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) kanal ([självregistrering](https://opensource.magento.com/slack)).
 
 [Frigör schema](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} för kompatibla versioner.
+
+## v1.2.7
+
+[!DNL Inventory Management] Versionsinformation om 1.2.7 finns i [viktig versionsinformation 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -108,17 +112,17 @@ Versionsinformationen beskriver releaser av [!DNL Inventory Management] och inne
 
 Inventory management 1.2.4 (modulversion: `magento/inventory-metapackage = 1.2.4`) stöds i version 2.4.4 och är kompatibelt med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source.
 
-![Korrigerat problem](../assets/fix.svg) I Commerce visas nu ett korrekt värde för säljbar kvantitet för alla produkter i produktlistvyn för Admin. Tidigare visades ett tomt värde för säljbar kvantitet lagerförda produkter med SKU:er som innehöll specialtecken. <!--- MC-41936-->
+![Korrigerat problem](../assets/fix.svg) Commerce visar nu ett korrekt värde för försäljningsbar kvantitet för alla produkter i produktlistvyn för Admin. Tidigare visades ett tomt värde för säljbar kvantitet lagerförda produkter med SKU:er som innehöll specialtecken. <!--- MC-41936-->
 
 ![Korrigerat problem](../assets/fix.svg) Prestandan har förbättrats för kundvagn och utcheckning som att lägga till produkter i varukorgen i installationer med många (ungefär 10 000) inventeringskällor. <!--- MC-42570-->
 
-![Korrigerat problem](../assets/fix.svg) The `bin/magento inventory:reservation:list-inconsistencies` kommandot hanterar nu order med partiella leveranser korrekt, även om reservationerna missas från databasen och cachen har rensats. När det här kommandot kördes med en förrensad cache visades följande fel i Commerce: `Area code is not set`. <!--- MC-42142-->
+![Korrigerat problem](../assets/fix.svg) The `bin/magento inventory:reservation:list-inconsistencies` kommandot hanterar nu order med partiella leveranser korrekt, även om reservationerna missas från databasen och cachen har rensats. Tidigare visades följande fel när det här kommandot kördes med en förrensad cache: `Area code is not set`. <!--- MC-42142-->
 
 ![Korrigerat problem](../assets/fix.svg) Inkrementell indexering av grupperade underordnade produkter medför inte längre att andra grupperade produkter indexeras felaktigt när underordnade produkter delas. <!--- MC-41963-->
 
 ![Korrigerat problem](../assets/fix.svg) På sidan för butikskategori visas nu rätt produktantal när en produkt har tagits bort från en kategori via API. Tidigare var antalet produkter på kategorisidan felaktigt tills en omindexering gjordes. <!--- MC-42287-->
 
-![Korrigerat problem](../assets/fix.svg) Konfigurerbara produkter kan nu returneras till lager när en kreditnota skapas när **[!UICONTROL Manage Stock]** alternativet är inaktiverat. I Commerce visades tidigare inte **Återgå till lager** kryssrutan på sidan där kreditnotan skapades när det här alternativet inaktiverades. <!--- MC-42002-->
+![Korrigerat problem](../assets/fix.svg) Konfigurerbara produkter kan nu returneras till lager när en kreditnota skapas när **[!UICONTROL Manage Stock]** alternativet är inaktiverat. Tidigare visades inte **Återgå till lager** kryssrutan på sidan där kreditnotan skapades när det här alternativet inaktiverades. <!--- MC-42002-->
 
 ![Korrigerat problem](../assets/fix.svg) Hanteringen av lager som överstiger 10 000 artiklar har förbättrats. Tidigare hindrade prestationsproblem ibland handlarna från att redigera material i administratören innan de lanserade sin webbplats. <!--- MC-42643-->
 
