@@ -5,9 +5,9 @@ breadcrumb-title: Komma igång
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
+source-git-commit: 5c9d61ae16576b3298336b94c9b4101c78c05976
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,10 @@ ht-degree: 0%
 # Starthandbok för Adobe Commerce {#start}
 
 + [Starthandbok för Adobe Commerce](guide-overview.md)
++ [Vad är Adobe Commerce?](about.md)
 + [Versionsinformation](about-this-release.md)
 + [Inloggningsuppgifter och URL:er](login-urls.md)
-+ Handelskonton {#commerce-account}
++ Commerce {#commerce-account}
    + [Skapa och få åtkomst till ditt konto](commerce-account-create.md)
    + [Säkra ditt konto](commerce-account-secure.md)
    + [Dela ditt konto](commerce-account-share.md)
