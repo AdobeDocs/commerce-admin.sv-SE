@@ -3,9 +3,9 @@ title: Dela en [!DNL Commerce] konto
 description: Lär dig hur du ger begränsad åtkomst till dina [!DNL Commerce] konto för andra [!DNL Commerce] kontoinnehavare.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
+source-git-commit: 5886f0605312dc06360051188ffce983281a3ccd
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ The [!DNL Commerce] Supportteamet har inte åtkomst till kontot och kan inte kon
 1. Hämta följande information från [!DNL Commerce] konto för **nytt delat åtkomstbeviljande**:
 
    - Användaren måste ha registrerat sig för ett konto på account.adobe.com och loggas in via account.magento.com.
-   - The `Account ID` som visas längst upp till vänster i _[!UICONTROL Magento]_-fliken, precis ovanför **Logga ut**länk.
+   - The `MAGE ID/Account ID (MAG00XXXXXXX)` visas längst upp till vänster i _[!UICONTROL Magento]_-fliken, precis ovanför **Logga ut**länk.
    - The `Email` adress som är associerad med kontot.
 
 1. Logga in på [[!DNL Commerce] konto](commerce-account-create.md).
