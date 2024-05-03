@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Sales] sidan för Commerce Admin.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 9827b08e5b0123f84c87cbac672ce9bbec86f511
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Maximum number of coupons per order] | Webbplats | Bestämmer det maximala antalet kuponger som tillåts per order |
+| [!UICONTROL Maximum number of coupons per order] | Webbplats | Anger det maximala antalet kuponger som tillåts per order. Den här funktionen är endast tillgänglig i Admin, GraphQL och REST API. Och det är **_inte tillgängligt_** i Storefront. |
 
 {style="table-layout:auto"}
 
