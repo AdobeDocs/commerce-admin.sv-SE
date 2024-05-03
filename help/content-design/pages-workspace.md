@@ -3,9 +3,9 @@ title: Kontroller för arbetsytan Sida
 description: Lär dig mer om verktygen för arbetsytan som används för att hitta och uppdatera innehållssidor.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Sidans arbetsyta innehåller verktyg som hjälper dig att snabbt hitta de sidor 
 
 | Kolumn | Beskrivning |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | Anger start- och slutdatum när den valda designen används på produktsidan |
+| [!UICONTROL Custom design from/to] | Anger start- och slutdatum när den valda designen används på sidan. ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source). |
 | [!UICONTROL Custom Theme] | Använder ett anpassat tema på sidan |
 | [!UICONTROL Custom Layout] | Anger sidans anpassade layout |
 | [!UICONTROL Meta Title] | Meta title for the page |
@@ -111,7 +111,7 @@ Sökrutan i det övre vänstra hörnet i _[!UICONTROL Pages]_stödraster kan anv
 | [!UICONTROL Store View] | Filtrera sökningen baserat på butiksvyn. Alternativ: `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filtrera sökningen baserat på sidlayout. Alternativ: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | Filtrera sökningen på sidstatus. Alternativ: `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | Filtrera sökningen efter start- och slutdatum när den valda designen används på produktsidan |
+| [!UICONTROL Custom design from / to] | Filtrera sökningen efter start- och slutdatum när den valda designen används på sidan. ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source). |
 | [!UICONTROL Asset] | Filtrera sökningen efter sidrubrikresurser |
 | [!UICONTROL Custom Layout] | Filtrera sökningen baserat på en anpassad layout. Alternativ: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | Filtrera sökningen baserat på ett anpassat tema. Standardalternativ: `Magento Blank` / `Magento Luma` |
@@ -199,6 +199,10 @@ Klicka på _Visa_ (![Ögonikon](../assets/icon-view-eye.png)) och gör något av
 {{ee-feature}}
 
 Sidändringar kan tillämpas enligt schema och grupperas med andra innehållsändringar. Du kan skapa en kampanj baserat på schemalagda ändringar på en sida eller tillämpa ändringarna på en befintlig kampanj. Mer information finns i [Innehållsmellanlagring](content-staging.md).
+
+>[!NOTE]
+>
+>The [!UICONTROL Custom Design Update] har tagits bort från ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt på sidan. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
 
 >[!NOTE]
 >

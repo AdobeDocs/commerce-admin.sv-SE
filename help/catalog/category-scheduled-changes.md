@@ -3,9 +3,9 @@ title: Schemalagda ändringar för kategorier
 description: Lär dig schemalägga kategoriändringar för att stödja marknadsföringskampanjer och butikskampanjer.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Kategoriuppdateringar kan tillämpas enligt schema och grupperas med andra innehållsändringar. Du kan skapa en kampanj baserat på schemalagda ändringar av kategorin eller tillämpa ändringarna på en befintlig kampanj. Mer information finns på [Innehållsmellanlagring](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>The [!UICONTROL Schedule Design Update] har tagits bort från ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt i kategorin. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
 
 >[!NOTE]
 >

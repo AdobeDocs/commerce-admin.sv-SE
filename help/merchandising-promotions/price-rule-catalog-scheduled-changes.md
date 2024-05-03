@@ -3,9 +3,9 @@ title: Schemalagda ändringar av katalogens prisregler
 description: Lär dig hur du tillämpar katalogprisregler i schemat som en del av en kampanj och grupperar dem med andra innehållsändringar.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Rutan Schemalagda ändringar visas högst upp på sidan när en ny prisregel sparas eller uppdateras. Katalogens prisregler kan tillämpas på schemat som en del av en kampanj och grupperas med andra innehållsändringar. Du kan skapa en kampanj baserat på schemalagda ändringar av en prisregel eller tillämpa ändringarna på en befintlig kampanj.
+
+>[!NOTE]
+>
+>The [!UICONTROL From] och [!UICONTROL To] fält har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt i katalogprisregeln. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Schemalagda produktuppdateringar
 description: Lär dig schemalägga ändringar i produktlistor för supportkampanjer och kampanjprogram.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 1e809696ee6d623d162226628329ed53e8f71511
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Produktuppdateringar kan tillämpas enligt schema och grupperas med andra innehållsändringar. Du kan använda [innehållstagning](../content-design/content-staging.md) för att skapa en kampanj baserat på planerade ändringar av produkten eller tillämpa ändringarna på en befintlig kampanj.
+
+>[!NOTE]
+>
+>The [!UICONTROL Set Product as New From] och [!UICONTROL To] fält och [!UICONTROL Schedule Design Update] har tagits bort från ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt i produkten. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
 
 >[!NOTE]
 >

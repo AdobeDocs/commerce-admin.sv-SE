@@ -3,9 +3,9 @@ title: Mellanlagring av innehåll
 description: Med Content Staging kan ert affärsteam enkelt skapa, förhandsgranska och schemalägga en mängd olika innehållsuppdateringar för er butik direkt från administratören.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ Med innehållsuppläggning kan ert affärsteam enkelt skapa, förhandsgranska oc
 Termen _kampanj_ refererar till posten för en schemalagd ändring, eller en samling ändringar som hanteras från mellanlagringspanelen. Ändringarna kan visas i en kalender eller tidslinje. Villkoren _schemalagd ändring_ och _schemalagd uppdatering_ är utbytbara och hänvisar till en enda ändring.
 
 När du schemalägger en innehållsändring för en viss tidsperiod återgår innehållet till den tidigare versionen när den schemalagda ändringen upphör att gälla. Du kan skapa flera versioner av samma baslinjeinnehåll som ska användas för framtida uppdateringar. Du kan också stega dig tillbaka genom tidslinjen för att visa tidigare versioner av innehållet. Om du vill spara ett utkast anger du bara ett datum på tidslinjen som är så långt in i framtiden att det aldrig går till produktion.
+
+>[!NOTE]
+>
+>Fält relaterade till startdatum och slutdatum har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt på kundvagnsprisregeln, katalogprisregeln, produkten, kategorin och CMS-sidan. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
 
 ## Mellanlagringsobjekt och kampanjer för innehåll
 
