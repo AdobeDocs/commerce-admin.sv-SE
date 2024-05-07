@@ -3,9 +3,9 @@ title: Dela en [!DNL Commerce] konto
 description: Lär dig hur du ger begränsad åtkomst till dina [!DNL Commerce] konto för andra [!DNL Commerce] kontoinnehavare.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 5886f0605312dc06360051188ffce983281a3ccd
+source-git-commit: 1bf75814ed292a4623b934910026f9fb127058be
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Dina [!DNL Commerce] kontot innehåller information som du kan göra tillgänglig för betrodda medarbetare och tjänsteleverantörer som hjälper dig att hantera din webbplats. Som primär kontoinnehavare har du behörighet att bevilja begränsad tillgång till andra [!DNL Commerce] kontoinnehavare. Delad åtkomst kan återkallas, men kan inte överföras från en användare till en annan.
 
-The [!DNL Commerce] Supportteamet har inte åtkomst till kontot och kan inte konfigurera delad åtkomst för dig. Det är bara den primära kontoinnehavaren med rätt behörigheter som kan konfigurera delad åtkomst. När ditt konto delas förblir all känslig information, t.ex. din faktureringshistorik eller kreditkortsinformation, skyddad och delas inte med andra användare.
+The [!DNL Commerce] Supportteamet har inte åtkomst till kontot och kan inte konfigurera delad åtkomst för dig. Det är bara den primära kontoinnehavaren med rätt behörigheter som kan konfigurera delad åtkomst. När du delar kontoåtkomst förblir all känslig information, som faktureringshistorik eller kreditkortsinformation, skyddad och är aldrig tillgänglig för andra användare.
 
 >[!NOTE]
 >
@@ -47,14 +47,16 @@ The [!DNL Commerce] Supportteamet har inte åtkomst till kontot och kan inte kon
 
 1. Under _[!UICONTROL Shared Information]_gör du följande:
 
-   - Om du vill identifiera det delade kontot anger du en **[!UICONTROL Share Name]**. Det här namnet används som intern referens och är bara synligt för dig och den person som du delar ditt konto med. (Ange inte ett resursnamn som börjar med `CLOUD SHARED ACCESS FROM MAG XYX`.)
+   - Om du vill identifiera det delade kontot anger du en **[!UICONTROL Share Name]**. Det här namnet används som intern referens och är bara synligt för dig och den person som du delar ditt konto med.
+
+     Ett tips är att använda ditt organisationsnamn som [!UICONTROL Share Name]. Använd inte ett namn som börjar med `CLOUD SHARED ACCESS FROM MAG XYX`.
    - Om du vill dela din personliga kontaktinformation med den nya användaren anger du **[!UICONTROL Your Email]** och **[!UICONTROL Your Phone]**.
 
 1. Under _[!UICONTROL Grant Account Permissions]_markerar du kryssrutan för varje [!DNL Commerce] produkt och tjänst som du vill dela.
 
    ![Bevilja kontobehörigheter](./assets/shared-permissions.png){width="600"}
 
-1. När du är klar klickar du på **[!UICONTROL Create Shared Access]**.
+1. Klicka på **[!UICONTROL Create Shared Access]**.
 
    Den nya användarinformationen visas i _[!UICONTROL Manage Permissions]_på sidan Delad åtkomst och en e-postinbjudan med instruktioner om hur du får åtkomst till det delade kontot skickas till den nya användaren.
 
@@ -80,11 +82,11 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
 
    ![Support](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Du kan använda [Adobe Commerce Help Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) från det delade kontot för att söka efter artiklar och felsökningsinformation, hitta patchar för kända fel och skapa supportärenden.
+   Du kan använda [Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) från det delade kontot för att söka efter artiklar och felsökningsinformation, hitta patchar för kända fel och skapa supportärenden.
 
    >[!NOTE]
    >
-   >Efter att ha fått delad åtkomst måste användaren logga in på [[!DNL Commerce] konto](https://account.magento.com/customer/account/login), navigera till _Delad åtkomst_ och klickar på **[!UICONTROL Support]** -fliken. Den här åtgärden krävs endast första gången för att säkerställa att [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) är korrekt konfigurerad via `SSO` ring.
+   >Efter att ha fått delad åtkomst måste användaren logga in på [[!DNL Commerce] konto](https://account.magento.com/customer/account/login), navigera till _Delad åtkomst_ och klickar på **[!UICONTROL Support]** -fliken. Den här åtgärden är endast nödvändig första gången för att säkerställa att [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) är korrekt konfigurerad via `SSO` ring.
 
 1. Om du vill återgå till ditt eget konto klickar du på **Bakåt** i webbläsarens reglage **[!UICONTROL Switch Accounts]** till `My Account`.
 
@@ -98,15 +100,15 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
 
    >[!NOTE]
    >
-   > If  **[!UICONTROL Delete]** visas inte, kontrollera om **[!UICONTROL Share Name]** börjar med `Cloud Shared Access from MAG XYZ` - [dessa konton](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) kan inte tas bort.
+   > If  **[!UICONTROL Delete]** visas inte, kontrollera om **[!UICONTROL Share Name]** börjar med `Cloud Shared Access from MAG XYZ`. Du kan inte ta bort konton med det [namngivningsmönster](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
    > 
-   > Be i så fall kontoägaren att ändra kontot för delad åtkomst och rensa kontobehörigheterna. Efter den uppdateringen är delad åtkomst till någon av resurserna inte tillgänglig för användaren.
+   > Be i så fall kontoägaren att ändra kontot för delad åtkomst för att rensa kontobehörigheterna. Efter den uppdateringen kan användaren inte komma åt några kontoresurser.
    >
-   > Se dessutom till att användarna tas bort från projektet så att de inte längre får e-postmeddelanden: [Före detta teammedlemmar får Adobe Commerce molnmeddelanden via e-post](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > Se dessutom till att användarna tas bort från projektet så att de inte längre får e-postmeddelanden: [Före detta teammedlemmar får Adobe Commerce molnmeddelanden via e-post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
 
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Delete User]**.
 
 >[!NOTE]
 >
->Du kan inte ta bort användare med resursnamnet _Delad åtkomst i molnet från MAG[XYZ]_ i det här gränssnittet. Mer information finns i [Hur tar jag bort användare som beviljats delad åtkomst via ett Cloud-projekt?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).
+>Du kan inte ta bort användare med resursnamnet _Delad åtkomst i molnet från MAG[XYZ]_ i det här gränssnittet. Se [Hur tar jag bort användare som beviljats delad åtkomst via ett Cloud-projekt?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).
