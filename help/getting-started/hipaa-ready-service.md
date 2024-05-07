@@ -3,9 +3,9 @@ title: HIPAA-beredskap på Adobe Commerce
 description: Lär dig hur du kan lägga till Adobe Commerce HIPAA-Ready-modulen och få ytterligare funktioner som gör att du kan uppfylla dina HIPAA-skyldigheter.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
+source-git-commit: c21c8b76e37e617885bae3492801b45093a6b5a5
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Adobe HIPAA-Ready Services är tekniskt sett ett kompositmetapaket `magento/hipa
 
 ## Förbättrade funktioner för HIPAA-beredskap
 
-The `magento/hipaa-ee` paket innehåller en del ändringar och förbättringar av Commerce-basprodukten. I följande avsnitt finns information om dessa ändringar och hur de ändrar basprodukten.
+The `magento/hipaa-ee` i paketet introduceras vissa ändringar och förbättringar av Commerce basprodukt. I följande avsnitt finns information om dessa ändringar och hur de ändrar basprodukten.
 
 ### Åtgärdsloggar
 
@@ -182,7 +182,7 @@ Ingen av de SaaS-tjänster som erbjuds Adobe Commerce är tillgängliga i HIPAA-
 ### Inaktiverad gästutcheckning som standard
 
 - Utcheckning av gäster utgör en potentiell risk för olika aspekter av HIPAA, bland annat loggning, åtkomstkontroll, PHI-hygien och -hållning.
-- Gästutcheckning är inaktiverat som standard i modulen för beredskap för HIPAA, men kan aktiveras för mina handlare på egen risk.
+- Gästutcheckning är inaktiverat som standard i modulen HIPAA-beredskap, men kan aktiveras av handlare på egen risk.
 
 ### Inaktiverad nyhetsbrevfunktion som standard
 
@@ -191,3 +191,7 @@ Ingen av de SaaS-tjänster som erbjuds Adobe Commerce är tillgängliga i HIPAA-
 ### Inaktiverade inställningen för tjänsten Advanced Reporting som standard
 
 Inställningen för tjänsten Advanced Reporting är som standard inaktiverad för att förhindra att PHI används för analys och rapportering, men kan aktiveras av handlaren på egen risk.
+
+### Inaktiverad slutrutetjänst som standard
+
+Tjänsten Sendgrid är inaktiverad som standard eftersom programmet inte är HIPAA-kompatibelt. Handlare kan skicka in en supportförfrågan för att aktivera Sendgrid, men de måste bekräfta att de tar risken att använda tjänsten.
