@@ -3,9 +3,9 @@ title: Skapa en kundvagnsprisregel
 description: Lär dig hur du skapar en kundvagnsprisregel baserat på kundvagn- eller produktattribut.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
+source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '3302'
 ht-degree: 0%
 
 ---
@@ -328,7 +328,7 @@ Etiketten visas i orderns summeringsavsnitt för att identifiera rabatten. Etike
 
 1. Testa regeln för att kontrollera att den fungerar som den ska.
 
-   Prisreglerna bearbetas automatiskt med andra systemregler varje kväll. När du skapar en prisregel måste du ge den tillräckligt med tid för att komma in i systemet. Testa även regeln för att se till att den fungerar som den ska. I takt med att nya regler läggs till beräknar Commerce om priserna och prioriteringarna i enlighet därmed.
+   Prisreglerna bearbetas automatiskt med andra systemregler varje kväll. När du skapar en prisregel måste du ge den tillräckligt med tid för att komma in i systemet. Testa även regeln för att se till att den fungerar som den ska. I takt med att nya regler läggs till beräknar Commerce om priserna och prioriteterna utifrån detta.
 
 ## Demo av kundprisregel
 
@@ -360,6 +360,31 @@ I den här videon får du lära dig att skapa kundvagnsprisregler:
 ### [!UICONTROL Conditions]
 
 Anger villkoren som måste uppfyllas innan kundprisregeln aktiveras. Om inget anges gäller regeln alla produkter i vagnen. Villkoren kan baseras på vilken kombination av kundvagn och produktattribut som helst. Men [anpassningsbara alternativ](../catalog/settings-advanced-custom-options.md) kan inte refereras i kundprisregelvillkor.
+
+| Fält | Beskrivning |
+|--- |--- |
+| [!UICONTROL **Artikelattribut**] |  |
+| [!UICONTROL Price in cart] | Produktpris. Regeln gäller om produktpriset i kundvagnen är uppfyllt. |
+| [!UICONTROL Quantity in cart] | Produktkvantitet. Regeln gäller om produktkvantiteten i varukorgen är uppfylld. |
+| [!UICONTROL Row total in cart] | Produktradsumma. Regeln gäller om produktradsumman i kundvagnsvillkoret är uppfyllt. |
+| [!UICONTROL **Produktattribut**] |  |
+| [!UICONTROL Attribute Set] | Produktattributuppsättning. Regeln gäller om produkten uppfyller villkoren för produktattribut. |
+| [!UICONTROL Category] | Produktkategori. Regeln gäller om antingen själva produkten eller dess underordnade produkt uppfyller kategorivillkoret. |
+| [!UICONTROL Category (Children Only)] | Underordnad produktkategori. Regeln gäller om endast de underordnade produkterna uppfyller kategorivillkoret (själva produkten kontrolleras inte här). |
+| [!UICONTROL Category (Parent Only)] | Överordnad produktkategori. Regeln gäller om bara själva produkten uppfyller kategorivillkoret (underordnade produkter kontrolleras inte här). |
+| [!UICONTROL **Cart Attribute**] |  |
+| [!UICONTROL Subtotal (Excl. Tax)] | Delsumma (exklusive moms). Regeln gäller om kundvagnen uppfyller villkoret för delsumma (exklusive moms). |
+| [!UICONTROL Subtotal (Incl. Tax)] | Delsumma (inkl. moms). Regeln gäller om kundvagnen uppfyller villkoret för delsumma (inklusive moms). |
+| [!UICONTROL Subtotal] | Delsumma för kundvagn. Regeln gäller om kundvagnen uppfyller ett delvillkor. Kryssrutan inkluderar eller exkluderar moms enligt aktuella skatteinställningar. |
+| [!UICONTROL Total Items Quantity] | Total kvantitet av alla produkter i kundvagnen. Regeln gäller om kundvagnen uppfyller villkoren för total artikelkvantitet. |
+| [!UICONTROL Total Weight] | Total vikt för alla produkter i kundvagnen. Regeln gäller om kundvagnen uppfyller villkoret för total vikt. |
+| [!UICONTROL Payment Method] | Betalningsmetod vald vid utcheckning. Regeln gäller om villkoret för betalningsmetoden är uppfyllt. |
+| [!UICONTROL Shipping Method] | Leveransmetod vald vid utcheckning. Regeln gäller om leveransmetodvillkoret är uppfyllt. |
+| [!UICONTROL Shipping Postcode] | Postnummer för leveransadress. Regeln gäller om leveransadressen uppfyller postnummervillkoret. |
+| [!UICONTROL Shipping Region] | Leveransadress. Regeln gäller om leveransadressen uppfyller villkoren för regionen. |
+| [!UICONTROL Shipping State/Province] | Leveransadress, region. Regeln gäller om leveransadressen uppfyller villkoren för delstat/provins. |
+| [!UICONTROL Shipping Country] | Leveransadress land. Regeln gäller om leveransadressen uppfyller landsvillkoret. |
+| [!UICONTROL Customer Segment] | Regeln gäller om en registrerad kund eller gästkund uppfyller kundsegmentvillkoret. |
 
 ### [!UICONTROL Actions]
 
