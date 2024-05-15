@@ -3,9 +3,9 @@ title: Tillägg från Adobe
 description: Granska information om tillägg för Adobe Commerce och Magento Open Source som Adobe har släppt.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: c22ad5c3220f14588131d6b29a88dab3c5347681
+source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Det finns tillägg som installeras automatiskt med Adobe Commerce eller Magento 
 
 ### Braintree
 
-PayPal och Gene Commerce utvecklade tillsammans den officiella Braintree-utbyggnaden för Commerce 2.4.x-butiker. Uppdateringarna har en förbättrad utcheckningsupplevelse som är utformad för att öka konverteringen och innehåller PaySenare-alternativ som automatiskt visar relevanta PayLater-meddelanden och -knappar för konsumenter vid köp och utcheckning.
+PayPal och Gene Commerce har tillsammans utvecklat det officiella Braintree-tillägget för Commerce 2.4.x-butiker. Uppdateringarna har en förbättrad utcheckningsupplevelse som är utformad för att öka konverteringen och innehåller PaySenare-alternativ som automatiskt visar relevanta PayLater-meddelanden och -knappar för konsumenter vid köp och utcheckning.
 
 Tillägget installeras som standard, men kräver en [Braintree](https://www.braintreepayments.com/) och konfigurationen i administratören som ska aktiveras för din butik. Om du vill ta reda på vilka avgifter som gäller när du använder Braintree för att behandla dina transaktioner, ska du kontrollera [Braintree priser](https://www.braintreepayments.com/braintree-pricing).
 
@@ -53,7 +53,7 @@ De här funktionerna är aktiverade som standard. Varje Admin-användare måste 
 
 >[!NOTE]
 >
->Adobe Commerce-butiker som har aktiverat IMS-autentisering (Adobe Identity Management Services) för administratören har inaktiverat inbyggd Commerce 2FA. Användare som är inloggade på Admin med sina inloggningsuppgifter för Adobe behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [Integreringsöversikt för Adobe Identity Management-tjänst (IMS)](./adobe-ims-integration-overview.md).
+>Adobe Commerce-butiker som har aktiverat IMS-autentisering (Adobe Identity Management Services) för administratören har inaktiverat Commerce 2FA. Användare som är inloggade på Admin med sina inloggningsuppgifter för Adobe behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [Integreringsöversikt för Adobe Identity Management-tjänst (IMS)](./adobe-ims-integration-overview.md).
 
 ## Tillägg att lägga till
 
@@ -82,11 +82,6 @@ The [!DNL Catalog Service] ger er möjlighet att leverera en optimerad produktup
 ### [!DNL Payment Services]
 
 [!DNL Payment services] för Adobe Commerce och Magento Open Source är en helintegrerad betalningslösning som förenklar betalningsprocessen och ger dina kunder möjlighet att betala på sitt sätt. Samla alla betalnings- och transaktionsdata säkert inom Adobe Commerce Admin - så att ni kan hantera order och betalningar på ett och samma ställe och få en smidig utcheckning. Se [[!DNL Payment Services] Användarhandbok](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) för mer information.
-
-### [!DNL Quick Checkout]
-
-[!DNL Quick Checkout] för Adobe Commerce ger en smidig utcheckningsupplevelse som utformats för att konvertera engångsköpare till lojala kontoinnehavare.
-Se [[!DNL Quick Checkout] Användarhandbok](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) för mer information.
 
 ### [!DNL Store Fulfillment]
 
