@@ -7,8 +7,8 @@ breadcrumb-title: Handläggardokumentation
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 1%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Informationen i handlardokumentationen är utformad för att passa företagsanv�
 
 Adobe Commerce är en flexibel B2B- och B2C-handelsplattform som gör det möjligt för handlare och varumärken att öka intäkterna genom kundcentrerade digitala handelsupplevelser på både webben och fysiska platser. Det är det ledande valet för medelstora och stora företag eftersom det erbjuder de mest flexibla distributionsmodellerna, från lokalt till hanterat moln med garanterade serviceavtal. Adobe Commerce möjliggör integrering av API:er i första hand och fullt anpassningsbara tillägg, samt den mest omfattande uppsättningen av affärsfunktioner, från marknadsföring till försäljning och leverans. Adobe Commerce bygger på en öppen källkodsbas för att ge flexibilitet och utbyggbarhet precis som ingen annan handelsplattform.
 
-En lista över de avancerade funktionerna i Adobe Commerce finns på [Funktioner för handel](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) i _Versionsinformation_.
+En lista över de avancerade funktionerna i Adobe Commerce finns på [Commerce-funktioner](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) i _Versionsinformation_.
 
 ## Magento Open Source-kodbas
 
@@ -127,8 +127,8 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 | **1.4.0 B2B-version** - [Initiera offert för en köpare](../b2b/sales-rep-initiates-quote.md) ämnet ingår nu i _Handbok för B2B for Adobe Commerce_. Här beskrivs hur en säljare kan skapa en offert för en viss köpare för att påbörja förhandlingsprocessen. | Nytt | 06/13/23 |
 | **1.4.0 B2B-version** - [Förhandla om en offert](../b2b/quote-price-negotiation.md), [Förhandlingsbara offerter](../b2b/quotes.md)och [Aktivera B2B-funktioner](../b2b/enable-basic-features.md) ämnen uppdateras för att återspegla ändringar av säljarinitierade offerter och standardfunktioner. | Uppdatera | 06/13/23 |
 | **2.2.0 Integreringsversion av Adobe IMS** - [Inaktivera Commerce Admin-integrering med Adobe ID](../getting-started/adobe-ims-disable.md) ämnet ingår nu i _Starthandbok_. Här beskrivs en valfri procedur för att inaktivera integreringen av Adobe Commerce Admin med Adobe IMS. | Nytt | 06/13/23 |
-| **2.2.0 Integreringsversion av Adobe IMS** - Ändringar i [Integrering med Adobe Identity Management Service (IMS) - översikt](../getting-started/adobe-ims-integration-overview.md) och [Konfigurera Commerce Admin-integrering med Adobe ID](../getting-started/adobe-ims-config.md) ämnen som återspeglar den uppdaterade funktionen. | Uppdatera | 06/13/23 |
-| **[!DNL Audience Activation]** - Ny, uppdaterad och förbättrad information finns i [[!DNL Audience Activation]](../customers/audience-activation.md) ämne som återspeglar [!DNL Experience Platform Connector] konfigurationsgränssnittet och hur du använder den headless Commerce-instansen med kundprisregler och dynamiska block. | Uppdatera | 06/13/23 |
+| **2.2.0 Integreringsversion av Adobe IMS** - Ändringar i [Integrering med Adobe Identity Management Service (IMS) - översikt](../getting-started/adobe-ims-integration-overview.md) och [Konfigurera Commerce Admin Integration med Adobe ID](../getting-started/adobe-ims-config.md) ämnen som återspeglar den uppdaterade funktionen. | Uppdatera | 06/13/23 |
+| **[!DNL Audience Activation]** - Ny, uppdaterad och förbättrad information finns i [[!DNL Audience Activation]](../customers/audience-activation.md) ämne som återspeglar [!DNL Experience Platform Connector] konfigurationsgränssnittet och hur du använder headless Commerce-instanser med kundprisregler och dynamiska block. | Uppdatera | 06/13/23 |
 | **UPS API-borttagning** - Uppdaterade [United Parcel Service (UPS)](../stores-purchase/ups.md) ämne och [Leveransmetoder](../configuration-reference/sales/delivery-methods.md#ups) konfigurationsreferenssida för att återspegla en tillfällig borttagning av UPS-API:erna för generering av nya API-nycklar. | Uppdatera | 06/08/23 |
 | **2.4.6, release** - Uppdaterade [Produktlista](../catalog/products-list.md) och [Administratörskonfigurationsreferens](../configuration-reference/advanced/admin.md) för att inkludera information om produktvisningsbegränsningar som kan användas för att förbättra prestanda för stora kataloger. | Uppdatera | 03/14/23 |
 | **2.4.6, release** - Uppdaterade [Skapa och ta bort kundsegment](../customers/customer-segment-create.md) och [Referens för kundkonfiguration](../configuration-reference/customers/customer-configuration.md) ämnen som innehåller information om realtidsvalidering av segment. | Uppdatera | 03/14/23 |
@@ -138,7 +138,7 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 | **2.4.6, release** - Uppdaterade [Versionsinformation för Inventory management](../inventory-management/release-notes.md) med en beskrivande lista över korrigeringar som ingår i den senaste programpaketet (v1.2.6). | Uppdatera | 03/14/23 |
 | **2.4.6, release** - Uppdaterade [Versionsinformation för B2B](../b2b/release-notes.md) med en beskrivande lista över korrigeringar i den senaste tilläggsversionen (v1.3.5). | Uppdatera | 03/14/23 |
 | **Nytt ämne** - Lade till [Målgruppsaktivering](../getting-started/commerce-account-transfer.md) ämne till _Handbok för kundhantering_, som innehåller detaljerad information om hur du aktiverar Real-Time CDP-målgrupper i Adobe Commerce. | Nytt | 03/13/23 |
-| **Nytt ämne** - Lade till [Överför ett handelskonto](../getting-started/commerce-account-transfer.md) ämne till _Starthandbok_. | Nytt | 02/27/23 |
+| **Nytt ämne** - Lade till [Överföra ett Commerce-konto](../getting-started/commerce-account-transfer.md) ämne till _Starthandbok_. | Nytt | 02/27/23 |
 
 {style="table-layout:auto"}
 

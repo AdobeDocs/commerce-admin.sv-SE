@@ -5,7 +5,7 @@ exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Med [installation](install.md) och [aktivering](enable-basic-features.md) av B2B
 
 Företagskontokomponenten är en nyckelenhet inom B2B som alla andra funktioner på något sätt är beroende av. Det gör det möjligt att gå samman flera köpare som tillhör ett enda företag till ett enda företagskonto (eller företagskonto). Företagsadministratören kan skapa en företagsstruktur (divisioner, delsektioner och användare) som återspeglar företagets operativa modell och ger olika användarroller och behörigheter för företagsmedlemmar. Med den här strukturen kan företagsadministratören styra användaraktiviteten för företagskontot: beställning, offert, inköp, åtkomst till företagets kreditinformation eller profil osv.
 
-Från administratören kan administratören för Commerce-webbplatsen konfigurera hur företaget arbetar på webbplatsen. Konfiguration avgör vilka B2B-funktioner som är tillgängliga för företagsanvändare, inklusive betalningsmetoder, prisnivåer, möjligheten att förhandla priser med hjälp av offerter, möjligheten att skapa rekvisitionslistor med mera.
+Från Admin kan Commerce webbplatsadministratör konfigurera hur företaget arbetar på webbplatsen. Konfiguration avgör vilka B2B-funktioner som är tillgängliga för företagsanvändare, inklusive betalningsmetoder, prisnivåer, möjligheten att förhandla priser med hjälp av offerter, möjligheten att skapa rekvisitionslistor med mera.
 
 Mer information finns i [Företagskonton](account-companies.md).
 
@@ -48,7 +48,7 @@ Tjänster för Adobe Commerce är värdtjänster som ger utökade möjligheter f
 
 ## Delade kataloger
 
-Delade kataloger är de prisnivåer som gör det möjligt att ange anpassade priser per produkt för olika företag på en eller flera webbplatser. Genom att använda delade kataloger kan ni sälja produkter genom att tillämpa olika prisnivåer för olika kundgrupper. Stöd för delade kataloger är bara tillgängligt för Commerce-butiker som har konfigurerats för att stödja företagskonton.
+Delade kataloger är de prisnivåer som gör det möjligt att ange anpassade priser per produkt för olika företag på en eller flera webbplatser. Genom att använda delade kataloger kan ni sälja produkter genom att tillämpa olika prisnivåer för olika kundgrupper. Stöd för delade kataloger är endast tillgängligt för Commerce-butiker som har konfigurerats för att stödja företagskonton.
 
 Mer information finns i [Arbeta med delade kataloger](catalog-shared.md).
 
@@ -68,7 +68,7 @@ Använd funktionen Offerter för att initiera prisförhandlingar mellan en före
 
 Köpare och säljare använder offerten för att hantera förhandlingsprocessen - till exempel lägga till artiklar, uppdatera kvantiteter, begära och tillämpa rabatter - tills de når ett avtal. The _Citat_ rutnätet i Admin visar varje mottagen offert och underhåller en historik över kommunikationen mellan köpare och säljare.
 
-Stöd för Negotiable Quotes är endast tillgängligt för Commerce-butiker som har konfigurerats för att stödja företagskonton.
+Stöd för Negotiable Quotes finns endast för Commerce butiker som konfigurerats för att stödja företagskonton.
 
 Mer information finns i [Förhandlingsbara offerter](quotes.md).
 

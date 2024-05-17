@@ -5,7 +5,7 @@ mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3326'
+source-wordcount: '3322'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Forskning har visat att [64 % av kunderna](https://techreport.com/statistics/web
 Den här nya högpresterande butiken har redan lotsats av flera Adobe Commerce-handlare, som [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), en egenskap för HanesBrands. Resultaten talar för sig själva. Macdenform pages consistent deliver Google Lighthues scores of [Resultat av 100 och Core Web Vitals](https://treo.sh/sitespeed/www.maidenform.com) långt över genomsnittet i branschen.
 
 ![Resultat av webbplatshastighet](assets/maidenform-site.png){width=&quot;50%&quot; align=center}
-![Core Web Vitals chart](assets/maidenform-site-stats.png){zoomable=&quot;yes&quot;}
+![Core Web Vitals chart](assets/maidenform-site-stats.png){zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -186,7 +186,7 @@ Med Adobe Commerce första spelbok kan kunderna enkelt starta övergivna kundvag
 
 Adobe lägger också till Commerce-specifika kontrollpaneler i Adobe Experience Platform för att hjälpa marknadsförarna att analysera sina Commerce-data och identifiera möjligheter till personalisering.
 
-![En bild av en övergiven kundvagnskampanj](assets/use-case-playbook.png){zoomable=&quot;yes&quot;}
+![En bild av en övergiven kundvagnskampanj](assets/use-case-playbook.png){zoomable="yes"}
 
 #### Aktivera personalisering med målgrupper från Adobe CDP i realtid
 
