@@ -1,146 +1,105 @@
 ---
-title: Anpassning i stor skala
-description: Lär dig vilka funktioner i Adobe Commerce som gör att du kan skapa en personaliserad upplevelse för dina kunder.
+title: Skapa övertygande, personaliserade upplevelser i stor skala
+description: Lär dig vilka funktioner som finns i Adobe [!DNL Commerce] gör att ni kan skapa en personaliserad upplevelse för era kunder.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 5f40c98324c3033cdeb8a11e89a71497ced890b8
+source-git-commit: 1a63af10d76cb9d17a992e8822e99d50bcdfa84e
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
 
-# Anpassning i stor skala
+# Skapa övertygande, personaliserade upplevelser i stor skala
 
-&#x200B; personalisering i stor skala gör att företag kan personalisera shoppingupplevelsen för varje kundkontaktyta baserat på direkt sammanhang och tidigare observerat beteende. Målet är att presentera den mest relevanta och personaliserade upplevelsen varje gång.
+Adobe [!DNL Commerce] ger er en kraftfull verktygslåda för att personalisera alla kundkontaktytor och öka kundernas engagemang, konverteringar och intäkter.
 
-Ladda ned [_Komma igång med personalisering i stor skala_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) rapport.
+I den här artikeln får du lära dig:
 
-Om du vill skapa en personaliserad shoppingupplevelse måste du lära dig mer om vilken typ av data som behövs för att förstå kundsammanhanget. Därifrån får ni lära er om Adobe Commerce-funktioner som använder dessa data för att få de kundinsikter ni behöver för att skapa en personaliserad shoppingupplevelse.
+- Vad är personalisering?
+- Vilka data behöver jag för att uppnå personalisering?
+- Hur gör Adobe? [!DNL Commerce] Lås upp personalisering?
+- Tillgängliga användningsfall för personalisering
 
-Bilden nedan visar de koncept som används för att personalisera shoppingupplevelsen:
+## Vad är personalisering?
 
-![Bygga en personaliseringsprocess](assets/personalization-journey.png){width="700" zoomable="yes"}
+Personalisering innebär att skräddarsy olika aspekter av varje kunds köpupplevelse för att uppfylla deras unika behov, sammanhang och önskemål. Personalisering begränsas inte till innehåll på webbplatsen, eller rekommendationer av bäst lämpade produkter, utan omfattar i stället alla kontaktytor under hela kundresan, inklusive:
 
-I den här artikeln beskrivs de ovanstående begreppen mer ingående.
+- **Kampanjer och kommunikation** - Leverera relevanta och enhetliga meddelanden via kampanjer och kommunikation
+- **Produktidentifiering** - Visa rätt produkter för rätt kunder i rätt ögonblick
+- **Kampanjer och erbjudanden** - Målinriktade kampanjer och erbjudanden som får varje kund att konvertera
+- **Innehållsupplevelser** - Skräddarsy webbplatsinnehåll så att det känns hyper relevant för varje kund och deras resa
 
-## Hur personaliserar ni shoppingupplevelsen?
+![Typer av personalisering](assets/types-personalization.png){width="700" zoomable="yes"}
 
-Framgångsrik personalisering börjar med kundsammanhang. I det här avsnittet får du lära dig mer om de datatyper som är tillgängliga för att hjälpa dig att skapa kundsammanhang.
+Även om den här typen av personaliserade upplevelser kan tyckas vara genomförbara för en liten del av kunderna, och personalisering i stor skala för tusentals eller miljontals kunder över alla kontaktytor och kanaler, kan allt i realtid kännas omöjligt. I följande avsnitt får du lära dig hur Adobe [!DNL Commerce] och Adobe Experience Cloud kan hjälpa till.
 
-### Lagringsdata
+## Vilka data behöver jag för att uppnå personalisering?
 
-Data från Storefront, som även kallas beteendedata eller webbläsardata, kan visa insikter i hur era kunder interagerar med er webbplats. Exempel:
+Effektiv personalisering kräver sammanhang eller signaler som ger information om kunder som sedan kan användas för att ändra deras upplevelse. I följande tabell visas de olika datatyperna och rollen som Adobe [!DNL Commerce] spelar en roll när det gäller att stödja insamling och aktivering av dessa data.
 
-- Vilka produkter och kategorier är mina kunder mest intresserade av?
-- Vilken sorts sökfrågor är mina kunder mest engagerade i?
-- Lägger mina kunder produkter i varukorgen och överger den sedan?
-- Använder mina kunder en stationär eller mobil webbläsare?
+| Datatyper | data från Storefront (beteendehändelser) | Back office-data (händelser på serversidan) | Kundprofil och segmentdata |
+|---|---|---|---|
+| **Definition** | Klicka på eller vidta de åtgärder som kunderna ska vidta på er webbplats. | Information om livscykeln och detaljer för varje order (tidigare och aktuell). | Vilka era kunder är och vilka segment är de kvalificerade för? |
+| **Evenemang tagna med Adobe Commerce** | [pageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#pageview)<br>[productPageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)<br>[searchRequestSent](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#searchrequestsent)<br>[searchResponseReceived](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#searchresponsereceived)<br>[addToCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#addtocart)<br>[openCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#opencart)<br>[signIn](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#signin)<br>[signOut](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#signout)<br>[startCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#startcheckout)<br>[completeCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#completecheckout)<br>[createRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#createrequisitionlist)<br>[addToRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#addtorequisitionlist)<br>[removeFromRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#removefromrequisitionlist) | **Orderstatus**:<br>[orderPlaced](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderplaced)<br>[orderItemsReturnedInitiated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderitemsreturnedinitiated)<br>[orderItemsShipped](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderitemsshipped)<br>[orderCanceled](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#ordercancelled)<br>[**Orderhistorik**](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/connect-data#send-historical-order-data):<br>- SKU, namn, prisantal, rabatt<br>- produktkategori<br>- Betalningsbelopp, typ, valuta<br>- Leveranssätt och belopp<br>- Återbetalnings-ID, belopp, valuta<br>- Returorsak, villkor, upplösning<br>- Adress<br>- E-post | [**Profilpost**](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-profilerecord): (Namn, kön, adress, lojalitetsstatus, telefonnummer, e-postadress)<br>**Kontostatus**:<br>[accountCreated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountcreated)<br>[accountUpdated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountupdated)<br>[accountDeleted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountdeleted) |
 
-Följande butikshändelser samlar in data som kan hjälpa dig att svara på dessa frågor:
+Med allt detta rika förstapartsprogram [!DNL Commerce] är ni redo att målinrikta och personalisera varje kundupplevelse. I nästa avsnitt får du lära dig hur [!DNL Commerce] och Adobe Experience Cloud hjälper er att skapa personaliserade upplevelser och de användningsfall ni kan aktivera.
 
-- [pageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [searchRequestSent](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [searchResponseReceived](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [productPageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [addToCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [openCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [signIn](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [signOut](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [startCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [completeCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [createRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [addToRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [removeFromRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
+## Hur gör Adobe? [!DNL Commerce] möjliggör personalisering?
 
-### Back office-data
-
-Back office-data, som även kallas data på serversidan, kan avslöja insikter i orderns livscykel. Exempel:
-
-- Finns det produkter som köps oftare beroende på årstid?
-- Återvänder mina kunder produkter?
-- Hur kan jag beräkna kundens livstidsvärde?
-
-Följande back office-event samlar in data som kan hjälpa dig att besvara följande frågor:
-
-- [orderPlaced](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderItemsReturnedInitiated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderItemsShipped](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderCanceled](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-
-### Kundprofil och segmentdata
-
-Kundprofildata kan visa insikter om vilka era kunder är och vilka segment de är kvalificerade för. Exempel:
-
-- Namn
-- Kön
-- Adress
-- Förmånsstatus
-- Telefonnummer
-- E-postadress
-- Förmånsstatus
-- Telefonnummer
-- E-postadress
-- Rätt till uppgraderingar
-- Flerkanalskunder
-- Nya produkter
-- Guld-, silver- eller bronsmedlemmar
-
-Följande profilhändelser samlar in data som kan hjälpa dig att svara på dessa frågor:
-
-- [Profilpost](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-profilerecord)
-- [accountCreated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [accountUpdated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [accountDeleted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-
-Data från Storefront, back office och profile utgör grunden för Commerce kund- och ordersituation, som hjälper er att veta vilka produkter era kunder tittar på och slutligen köper. Sedan kan ni inrikta er på deras intressen och personalisera deras upplevelse. I nästa avsnitt får ni lära er vilka typer av personaliserade upplevelser ni kan interagera med era kunder.
-
-## Typer av personaliserade upplevelser
-
-Kund- och orderkontextdata i Commerce ger följande typer av personaliserade upplevelser:
-
-| Upplevelse | Beskrivning |
-|---|---|
-| **Produktupptäckt** | Innehåller marknadsföringstjänster som [distribueras som SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas). Det här är funktioner som gör att du kan använda beteendedata, produktattribut och lagernivåer för att automatiskt anpassa produktupptäckt för sökresultat, produktrekommendationer och webbsidor. De här funktionerna används [Adobe Sensei AI](https://business.adobe.com/products/sensei/adobe-sensei.html). |
-| **Webbplatsinnehåll** | Avser möjligheten att distribuera personliga dynamiska innehållsblock baserat på den aktuella kundens surfning på er webbplats. |
-| **Erbjudanden och kampanjer** | Gör att ni kan distribuera personaliserat kampanjinnehåll baserat på segmentdata. |
-| **Mått** | Använd dataanalys för att bättre förstå er verksamhet, inklusive intäkter, kanal- och varuprestanda, kampanjer och så vidare. |
-
-I de följande två avsnitten får du lära dig hur du kan använda dessa data för att skapa personaliserade upplevelser i [Adobe Experience Platform](#using-commerce-data-in-adobe-experience-platform) och in [inbyggda Commerce-funktioner](#using-commerce-data-in-native-commerce-features).
-
-## Använda Commerce-data i Adobe Experience Platform
-
-Om du vill skapa en personaliserad upplevelse för era kunder i alla kanaler skickar du dina Commerce-data till Experience Platform Edge Network med [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) tillägg.
+Adobe [!DNL Commerce] Med Data Sharing kan ni samla in och dela datatyperna i den föregående tabellen med andra Adobe Experience Cloud-produkter för att skapa enhetliga kundprofiler och målgrupper, personaliserade kampanjer samt omfattande analyser och insikter.
 
 ![Hur data flödar till Experience Platform](assets/commerce-edge.png){width="700" zoomable="yes"}
 
-I bilden ovan skickas data om din butiks-, back office- och kundprofil till Experience Platform med hjälp av en SDK, API och en källanslutning. Du behöver inte förstå hur dessa delar fungerar när tillägget hanterar komplexiteten i datadelningen för dig. När händelsedata finns i kanten kan du hämta dessa data till andra Experience Platform-program.
+Adobe [!DNL Commerce] Datautbyte innehåller två huvudkomponenter:
 
-I följande tabell visas några av de tillgängliga Experience Platform-programmen och hur dessa program använder dina Commerce-data.
+1. [Dataanslutning](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview): Dela butiks-, back office- och kundprofildata från Adobe [!DNL Commerce] till Adobe Experience Platform gränsnätverk som kan användas i alla Adobe Experience Cloud-program, inklusive
 
-| Upplevelse | Program | Hur Commerce Data används |
-|---|---|---|
-| **Webbplatsinnehåll** | [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview) | Adobe Commerce data underbygger enhetliga kundprofiler, där Real-Time CDP sammanfogar data från olika källor (ERP, CRM, CMS, POS) till unika profiler. Real-Time CDP kan också skapa både regelbaserade och AI-baserade segment som sedan kan användas i alla era marknadsföringslösningar. Ni kan också använda Real-Time CDP målgrupper för att personalisera innehållsblock, kampanjer och relaterade produktregler. Se [[!DNL Audience Activation]](../customers/audience-activation.md) om du vill veta mer. &#x200B; |
-|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerce-data kan aktiveras i Adobe [!DNL Target] för att testa, optimera och skapa dynamiska landningssidor. Du kan anpassa den ordning i vilken innehållet visas på en sida, till exempel beskrivningar, specifikationer, recensioner och rekommenderade produkter baserat på skickade Commerce-data. |
-| **Erbjudanden och kampanjer** | [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) | Adobe Commerce beteendedata och backoffice-data kan fungera som en utlösare för personaliserade flerkanalsresor, inklusive e-postkampanjer, SMS, push-meddelanden med mera. &#x200B; |
-| **Mått** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) och [Kund [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerce skickar både butiks- och backoffice-data till kunden [!DNL Journey Analytics] (och endast butiksdata till Adobe) [!DNL Analytics]) för att möjliggöra mer omfattande analyser utöver grundläggande mätvärden i Adobe Commerce Intelligence, som intäkter, varor och kampanjer. &#x200B; |
+   - [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview): Använd data från olika källor (ERP, CRM, POS) i enhetliga profiler och skapa regelbaserade eller AI-baserade segment.
+   - [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started): Lansera personaliserade flerkanalsresor, inklusive e-postkampanjer, SMS, push-meddelanden med mera.
+   - [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) och [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview): Få insikter om kunden och företaget.
+   - [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro): Testa och optimera innehåll, rekommenderade produkter, erbjudanden, navigering med mera.
 
-Mer information om hur du kan skicka dina Commerce-data till Experience Platform finns i [Dataanslutning](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
+1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation): Använd [!DNL Real-Time CDP] målgrupper för att personalisera dynamiska innehållsblock, kampanjer och relaterade produktregler på Adobe [!DNL Commerce] webbplats.
 
-## Använda Commerce-data i inbyggda Commerce-funktioner
+### Enkel personalisering: Kom igång med äkta Adobe [!DNL Commerce] funktioner
 
-I följande avsnitt får du lära dig hur du kan använda inbyggda Commerce-funktioner som Recommendations och Live Search för att skapa en personlig shoppingupplevelse. Du får också lära dig mer om en funktion som kallas [!DNL Audience Activation], som använder data från en produkt som finns i Experience Platform som kallas Real-Time CDP, vilket nämns [tidigare](#using-commerce-data-in-adobe-experience-platform). Även om Real-Time CDP inte är inbyggt i Commerce kan dess information hämtas till Commerce via [[!DNL Audience Activation]](../customers/audience-activation.md) tillägg.
+Adobe [!DNL Commerce] levererar kraftfull personalisering med sina inbyggda färdiga funktioner. I följande tabell beskrivs [!DNL Commerce] funktioner som ni kan aktivera direkt för att komma igång med personaliseringsresan.
 
-Tabellen nedan visar vilka Commerce-funktioner som finns för att omvandla Commerce kunddata och beställa kontextdata till användbara insikter.
+| Kategori | Funktioner |
+|---|---|
+| Personaliserad produktupptäckt | [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview): Personalisera och optimera sökresultaten baserat på en kunds beteendebeteende och tillhörighet på plats med hjälp av AI-baserad sökning.<br>[Intelligent kategorimarknadsföring](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch): AI-driven produktrankning på kategorisidor baserad på en kunds beteendebeteende och tillhörighet på plats.<br>[Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview): AI-baserade produktrekommendationer baserade på kundernas beteende, trender och engagemang.<br>[Relaterade produktregler](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules): Definiera anpassade regler för att visa produkter från din katalog för att driva merförsäljning. |
+| Personaliserat webbplatsinnehåll | [Dynamiska innehållsblock](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks): Visa personliga innehållsblock, till exempel banners, baserat på kundsegment i Adobe Commerce. |
+| Personaliserade erbjudanden och kampanjer | [Kundprisregler](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart): Använd rabatter på artiklar i kundvagnen baserat på en uppsättning villkor, inklusive kundsegment i Adobe [!DNL Commerce]. |
+| Insikter och mätning | [Adobe [!DNL Commerce] Intelligens](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started): Förstå hur era personaliseringsstrategier fungerar och förbättras över tid. |
 
-| Upplevelse | Funktion | Beskrivning |
-|---|---|---|
-| **Produktupptäckt** | [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) | Använder AI-rankningsalgoritmer för att anpassa och optimera sökresultat baserat på en kunds beteendebeteende på webbplatsen, vilket ökar sökrelevansen och konverteringsgraden. |
-|  | [Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) | Visar AI-baserade produktrekommendationer baserat på kundbeteende, trender, produktlikhet med mera. I kombination med din Adobe Commerce-katalog ger produktrekommendationer en engagerande, relevant och personaliserad upplevelse. |
-|  | [Kategorimarknadsföring](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch) | Kategorimarknadsföring görs via Live Search Admin och med hjälp av AI rangordnas produktsekvenser automatiskt på varje kategorisida för att öka relevansen och konverteringsgraden för varje kund. Du kan skapa och hantera AI-baserade regler för att automatiskt rangordna produktsekvenser på kategorisidor utifrån kundernas aktiviteter och tillhörigheter. |
-| **Webbplatsinnehåll** | [Dynamiska block som bygger på Commerce inbyggda funktioner](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Gör att ni kan leverera personaliserat webbplatsinnehåll baserat på logik som konfigurerats i prisregler och kundsegment. |
-|  | [Dynamiska block som informerats av Real-Time CDP målgrupper](../customers/audience-activation.md) | Gör att handlare kan leverera personaliserat webbplatsinnehåll baserat på målgrupper som konfigurerats i Real-Time CDP. |
-| **Erbjudanden och kampanjer** | [Kundprisregler](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) | Används för att tillämpa rabatter på artiklar i kundvagnen baserat på en uppsättning villkor. |
-|  | [Dynamiska block som bygger på Commerce inbyggda funktioner](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Gör att ni kan visa personaliserade bannerkampanjer baserat på kundsegment som konfigurerats internt i Commerce. |
-|  | [Dynamiska block som informerats av Real-Time CDP målgrupper](../customers/audience-activation.md) | Gör att ni kan visa personaliserade kampanjer baserat på målgrupper som konfigurerats i Real-Time CDP. |
-| **Mått** | [Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) | (tidigare kallat Magento Business Intelligence) är en molnplattform som ger bästa praxis för att hjälpa er att fatta datadrivna beslut och vidta tydliga och välgrundade åtgärder. Adobe Commerce Intelligence kan analysera era data för att hjälpa er att besvara frågor om ordertillväxt, kundbeteende och hur effektiva era marknadsföringsstrategier är. |
+## De vanligaste användningsområdena för personalisering
+
+Adobe [!DNL Commerce] kunderna använder färdiga funktioner och delar data med Adobe Experience Cloud för en rad olika användningsområden. I följande avsnitt beskrivs de vanligaste användningsområdena och hur de implementeras med Adobe [!DNL Commerce] Endast eller [!DNL Commerce] plus Experience Cloud-appar.
+
+### Personaliserade kampanjer och kommunikation
+
+| Användningsfall | Lösning |
+|---|---|
+| **Övergiven kundvagn och bläddring** - Leverera ett personaliserat e-postmeddelande om återengagemang när en kund överger sin kundvagn eller surfsession efter att ha visat ett högt engagemang | **Adobe [!DNL Commerce] Endast**:<br>[E-postpåminnelser](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules)<br>**Adobe [!DNL Commerce] med Adobe Journey Optimizer**:<br>[!DNL Commerce] data fungerar som utlösare för en flerkanalig avhoppsresa. Anpassa den resan utifrån kundattribut, vad de överger, andra shoppingbeteenden och tidigare köp.<br>Commerce med Adobe Journey Optimizer och Real-Time CDP: Skräddarsy kampanjer för att överge kunderna baserat på enhetliga kundprofiler och centralt hanterade målgrupper, till exempel för att skapa en hög övergivningsfrekvens. |
+| **Centraliserad målgruppsproduktion** - Skapa regelbaserade eller AI-baserade målgrupper baserat på webbplatsbeteende, tidigare köp, profilattribut, kategoritillhörighet, lojalitetsstatus, kundvärde med mera | **Adobe [!DNL Commerce] Endast**:<br>Samla in kundprofilinformation när [!DNL Commerce] kunder skapar konton. Skapa regelbaserade [kundsegment](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) och kundgrupper för att personalisera innehåll och kampanjer.<br>**Adobe [!DNL Commerce] med Adobe Real-Time CDP**:<br> [Enhetliga profiler](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) från olika datakällor och kanaler, regelbaserade eller AI-baserade målgrupper. |
+| **Personaliserat e-post-/SMS-erbjudande baserat på köpbeteende** - Skicka skräddarsydda erbjudanden till kunder via riktad e-post baserat på tidigare köp och kundbeteende, till exempel skicka erbjudanden för produkter eller kategorier som kunderna har tittat på eller varit engagerade i. | **Adobe [!DNL Commerce] Endast**:<br>Exportera data för användning med automatiserade marknadsföringslösningar.<br>**Adobe [!DNL Commerce] med Adobe Journey Optimizer och Real-Time CDP**:<br>[!DNL Commerce] data fungerar som utlösare för e-post- eller SMS-erbjudanden och ger signaler (kundbeteenden) att personalisera utifrån. Real-Time CDP behövs inte, men i allmänhet skapas dessa erbjudanden och kampanjer runt målgrupper, som skapas och hanteras inom Real-Time CDP. |
+| **Cross or Upsell Compatible Products/Brands** - Om en kund köper en produkt eller ett varumärke som är kompatibelt eller som visar på hög affinitet till en annan produkt eller ett annat varumärke, skickar du en kampanj (e-post/SMS) för att driva konverteringen av korsförsäljning. | **Adobe [!DNL Commerce] Endast**:<br>Använd Adobe [!DNL Commerce] [Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) för att rekommendera specifika produkter på webbplatsen. Du kan också använda [Relaterade produktregler](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) för att föreslå andra produkter.<br>**[!DNL Commerce] med [!DNL Target]**:<br>Adobe [!DNL Target] har också en inbyggd motor för produktrekommendationer med kraftfulla funktioner som kategoritillhörighet. Detta kan användas för korsning eller merförsäljning.<br>**[!DNL Commerce] med Adobe Journey Optimizer**:<br>Använd [!DNL Target] eller [!DNL Commerce] för att avgöra vilka produkter som ska rekommenderas och sedan leverera via Adobe Journey Optimizer. |
+
+### Personaliserade webbplatsupplevelser
+
+| Användningsfall | Lösning |
+|---|---|
+| **Personaliserat webbplatsinnehåll** - Anpassa banners för webbplatser och annat sidinnehåll baserat på kundernas agerande, som surfning och kategoritillhörighet. Distribuera innehåll som passar bäst baserat på resultaten från A/B-tester eller affärsmål. | **Adobe [!DNL Commerce] Endast**:<br>Distribuera segmentspecifika [dynamiska innehållsblock](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] med Real-Time CDP **:<br>Använd [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) för att driftsätta målgruppsspecifika dynamiska innehållsblock som svarar på åtgärder i realtid och enhetliga kundprofildata, samtidigt som de centralt hanterar profiler och målgrupper i Real-Time CDP.<br>**[!DNL Commerce] med[!DNL Target]**:<br>Anpassa alla delar av sajten, inklusive innehåll, navigeringsobjekt, sidlayout med mera med Adobe [!DNL Commerce] data i Adobe [!DNL Target]. A/B-testinnehåll, välj och distribuera automatiskt vinnande innehåll för varje kund.<br>**[!DNL Commerce] med AEM Assets **:<br>Lagra allt innehåll i Adobe Experience Manager Assets. Få direkt tillgång till materialet inifrån Adobe Commerce. Använd GenAI för att skapa innehållsvariationer som kan anpassas för olika segment eller målgrupper. |
+| **Personaliserat erbjudande på plats baserat på beteende** - Skräddarsy kampanjer baserat på kundernas agerande, som surfning och kategoritillhörighet. Distribuera nästa bästa erbjudande baserat på resultaten av A/B-tester eller affärsmål. | **Adobe [!DNL Commerce] Endast**:<br>Distribuera segmentspecifik katalog och [kundprisregler](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] med Real-Time CDP**:<br>Använd [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) för att driftsätta målgruppsspecifika erbjudanden och centralt hantera profiler/målgrupper i Real-Time CDP.<br>**Commerce med[!DNL Target]**: Använd offer decisioning för att avgöra vilket erbjudande som ska distribueras, A/B-tester eller ange affärsmål för att vägleda erbjudanden som distribueras i Adobe Commerce. |
+
+### Analyser och insikter
+
+| Användningsfall | Lösning |
+|---|---|
+| **Kundbeteende efter kanal** - Förstå nyanserna om hur kunderna engagerar sig i varje kanal (webb, personlig, app, övrigt) för att påverka marknadsföringsstrategier för varje kanal, förstå kundtratten och svagheterna i kundupplevelsen. | **Adobe [!DNL Commerce] Endast**:<br>[Adobe [!DNL Commerce] Intelligens](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) ger innehållsrik analys om [!DNL Commerce] kanal, men inte över flera kanaler eller större delar av kundresan.<br>**Adobe [!DNL Commerce] med Customer Journey Analytics**:<br>[!DNL Commerce] data matar in datapaneler för fullständig detaljrikedom i alla faser av kundupplevelsen (i alla kanaler). Förstå alla kontaktytor och den bredare tratten för att identifiera svaga punkter i kundresan där kunderna kan falla bort. |
+| **Inköpstrender** - Förstå köpbeteenden under en viss tidsperiod (t.ex. kundkorgsanalys, produktanalys) för att identifiera trender, säsongsvariation och optimera marknadsföring baserat på historiska köpmönster. | **Adobe [!DNL Commerce] Endast**:<br>[Adobe [!DNL Commerce] Intelligens](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) ger innehållsrik analys om [!DNL Commerce] kanal, men inte över flera kanaler eller större delar av kundresan.<br>**Adobe [!DNL Commerce] med Customer Journey Analytics**:<br>[!DNL Commerce] data matar in datapaneler för fullständig detaljrikedom i alla faser av kundupplevelsen (i alla kanaler). Förstå alla kontaktytor och den bredare tratten för att identifiera svaga punkter i kundresan där kunderna kan falla bort. |
+
+## Exempel på användningsfall
+
+Läs om hur du kan använda Adobe Journey Optimizer för att [skicka ett övergivet kundvagnsmeddelande](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
