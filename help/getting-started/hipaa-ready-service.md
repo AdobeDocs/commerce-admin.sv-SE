@@ -1,11 +1,11 @@
 ---
 title: HIPAA-beredskap på Adobe Commerce
-description: Lär dig hur du kan lägga till Adobe Commerce HIPAA-Ready-modulen och få ytterligare funktioner som gör att du kan uppfylla dina HIPAA-skyldigheter.
+description: Lär dig hur du kan lägga till Adobe Commerce HIPAA-Ready-tillägget och få ytterligare funktioner som gör att du kan uppfylla dina HIPAA-skyldigheter.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e132d66523feba579baf0bae14e1de9de4d6591
+source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,13 @@ HIPAA (Health Insurance Portability and Accounability Act) är den viktigaste fe
 
 ## Adobe Commerce HIPAA-Ready
 
-Adobe Commerce HIPAA-Ready har ytterligare funktioner som gör att handlare kan uppfylla sina respektive HIPAA-skyldigheter.
+Utbyggnaden av Adobe Commerce HIPAA-Ready lägger till ytterligare funktioner och funktioner i Adobe Commerce-installationer som gör att handlarna kan uppfylla sina respektive HIPAA-skyldigheter.
 
-Adobe Commerce HIPAA-Ready levereras som ett tillägg till Adobe Commerce, `magento/hipaa-ee` som finns för Adobe Commerce i molninfrastruktur eller Adobe Managed Services-projekt. Installationsprocessen för Adobe Commerce HIPAA-Ready inaktiverar vissa inbyggda tjänster och funktioner som uppfyller kraven för HIPAA. Se [Handikappade tjänster och funktioner](#disabled-services-and-features).
+Adobe Commerce HIPAA-Ready-tillägg `magento/hipaa-ee` finns för Adobe Commerce i molninfrastruktur eller Adobe Managed Services-projekt. Installationsprocessen för Adobe Commerce HIPAA-Ready inaktiverar vissa inbyggda tjänster och funktioner som uppfyller kraven för HIPAA. Se [Handikappade tjänster och funktioner](#disabled-services-and-features).
+
+>[!NOTE]
+>
+>Tillgång till HIPAA-funktioner är endast tillgänglig för handlare som har köpt tillägget för hälsovård för Adobe Commerce.
 
 *Dessa material är endast avsedda som information. Tillhandahållande av denna information berättigar inte mottagaren till några avtalsmässiga eller andra rättigheter. Även om det har gjorts ansträngningar för att säkerställa att informationen är korrekt från och med den dag då den har lämnats, finns det ingen representation om att informationen är korrekt och fullständig. Adobe förbinder sig inte att uppdatera denna information eftersom lagen eller Adobe ändras. Dokumentet får inte heller distribueras till någon annan part än den avsedda mottagaren utan skriftligt medgivande från Adobe.*
 
@@ -39,15 +43,16 @@ Adobe Commerce måste distribueras på antingen Adobe Commerce i molninfrastrukt
 
 ## Installation
 
-Installera den senaste versionen av tillägget Adobe HIPAA-Ready Services (`magento/hipaa-ee`) på en instans som kör Adobe Commerce version 2.4.6-p3 eller senare. Tillägget levereras som ett dispositionsmetapaket från [repo.magento.com](https://repo.magento.com) databas.
+**Förutsättning**
 
 >[!BEGINSHADEBOX]
 
-**Förutsättning**
-
-Du måste ha tillgång till [repo.magento.com](https://repo.magento.com) för att installera tillägget. För nyckelgenerering och för att erhålla nödvändiga rättigheter, se [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Adobe har etablerat ditt Adobe Commerce-konto för att komma åt tillägget HIPAA Ready.
+- Åtkomst till [repo.magento.com](https://repo.magento.com) för att installera tillägget. För nyckelgenerering och för att erhålla nödvändiga rättigheter, se [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
+
+Installera den senaste versionen av tillägget Adobe HIPAA-Ready Services (`magento/hipaa-ee`) på en instans som kör Adobe Commerce version 2.4.6-p3 eller senare. Tillägget levereras som ett dispositionsmetapaket från [repo.magento.com](https://repo.magento.com) databas. Metapaketet innehåller en samling moduler som aktiverar HIPAA-funktionerna för en Adobe Commerce-instans.
 
 1. På din lokala arbetsstation byter du till projektkatalogen för ditt Adobe Commerce i molninfrastrukturprojekt.
 
@@ -120,7 +125,7 @@ När uppdateringarna har distribuerats kontrollerar du att `Hipaa*` tillägg är
 
 ## Förbättrade funktioner för HIPAA-beredskap
 
-The `magento/hipaa-ee` i paketet introduceras vissa ändringar och förbättringar av Commerce basprodukt. I följande avsnitt finns information om dessa ändringar och hur de ändrar basprodukten.
+The `magento/hipaa-ee` I tillägget introduceras vissa ändringar och förbättringar av Commerce basprodukt. I följande avsnitt finns information om dessa ändringar och hur de ändrar basprodukten.
 
 ### Åtgärdsloggar
 
@@ -210,7 +215,7 @@ För att uppfylla HIPAA-kraven är vissa tjänster och funktioner som stöds av 
    - App Builder
    - Katalogtjänst
 
-- **[Tjänsten SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**- Den här tjänsten är inaktiverad som standard eftersom programmet inte är HIPAA-kompatibelt. Handlare kan skicka in en supportförfrågan för att aktivera Sendgrid, men de måste bekräfta att de tar risken att använda tjänsten.
+- **[Tjänsten SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**- Den här tjänsten är inaktiverad som standard eftersom programmet inte är HIPAA-kompatibelt.
 
 ### Funktioner som är inaktiverade som standard
 
