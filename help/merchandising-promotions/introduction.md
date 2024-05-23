@@ -1,11 +1,11 @@
 ---
 title: Introduktion till Commerce marknadsföring och reklam
-description: Lär dig Commerce verktyg för att skapa riktade kampanjer och möjligheter för kundengagemang.
+description: Förstå mer om Commerce-verktyg för att skapa riktade kampanjer och möjligheter för kundengagemang.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
 source-wordcount: '1094'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

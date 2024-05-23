@@ -1,6 +1,6 @@
 ---
 title: Starthandbok för Adobe Commerce
-description: Omfattande information för handlare som inte tidigare använt Adobe Commerce.
+description: Omfattande information för handlare som tidigare inte använt Adobe Commerce.
 seo-title: Adobe Commerce Getting Started Guide
 seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
@@ -8,7 +8,7 @@ recommendations: noCatalog
 source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 

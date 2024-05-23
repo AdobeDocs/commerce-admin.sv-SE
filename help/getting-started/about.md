@@ -1,6 +1,6 @@
 ---
 title: Vad är Adobe Commerce?
-description: Adobe Commerce är en e-handelsplattform för företag. Läs om de senaste funktionerna som ökar tillväxten för e-handelsteam globalt.
+description: Adobe Commerce är en e-handelsplattform för företag. Läs om de senaste funktionerna som ökar tillväxten för e-handelsteam över hela världen.
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
