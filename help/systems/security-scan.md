@@ -4,9 +4,9 @@ description: Lär dig hur du kör en förbättrad säkerhetsgenomsökning och ö
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 1f3173d17cc43227f7d44637f1ef0b62606cd0fd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,15 @@ Med den förbättrade säkerhetssökningen kan du övervaka var och en av dina A
 - Få tillgång till historiska säkerhetsrapporter som spårar och övervakar webbplatsernas förlopp.
 - Få åtkomst till den inskannade rapporten som visar lyckade och misslyckade kontroller, med rekommenderade åtgärder.
 
-Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen i [Handelskonto](../getting-started/commerce-account-create.md). Teknisk information finns på [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) i _Handbok för Commerce on Cloud Infrastructure_.
+Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen i [Commerce/Magento](../getting-started/commerce-account-create.md). Teknisk information finns på [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) i _Infrastrukturhandbok för Commerce on Cloud_.
 
 ![Verktyget för säkerhetsgenomsökning](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Kör en säkerhetssökning
 
-1. Gå till startsidan för Commerce och logga in på din [Handelskonto](../getting-started/commerce-account-create.md) och gör följande:
+1. Logga in på din Commerce hemsida [Commerce/Magento](../getting-started/commerce-account-create.md).
+
+1. Granska och godkänn villkoren för användning av verktyget för säkerhetsgenomsökning.
 
    - Välj **[!UICONTROL Security Scan]**.
    - Klicka på **[!UICONTROL Go to Security Scan]**.
@@ -37,7 +39,7 @@ Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från inst
 
 1. På _[!UICONTROL Monitored Websites]_sida, klicka **[!UICONTROL +Add Site]**.
 
-   Om du har flera platser med olika domäner måste du konfigurera en separat sökning för varje domän.
+   Om du har flera platser med olika domäner, konfigurerar du en separat sökning för varje domän.
 
    ![Övervakade platser](./assets/monitored-website.png){width="600" zoomable="yes"}
 
@@ -102,7 +104,7 @@ Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från inst
 
         När byggprocessen är klar kommer ändringarna att distribueras till din PWA-butik.
 
-1. Återgå till _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att fastställa ditt ägarskap till domänen.
+1. Återgå till _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka **[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap till domänen.
 
 1. När bekräftelsen är klar konfigurerar du **[!UICONTROL Set Automatic Security Scan]** alternativ för någon av följande typer:
 
