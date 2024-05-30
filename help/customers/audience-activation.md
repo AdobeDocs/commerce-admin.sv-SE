@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ composer require magento/audiences
 
 ### Konfigurera tillägget
 
-När du har installerat [!DNL Audience Activation] måste du logga in i din Commerce Admin och slutföra följande:
+När du har installerat [!DNL Audience Activation] måste du logga in på Commerce Admin och slutföra följande:
 
 1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
@@ -154,7 +154,7 @@ När du har installerat [!DNL Audience Activation] måste du logga in i din Comm
 
 1. I **[!UICONTROL Datastream ID]** -fältet, klistra in ID:t för den datastream som du skapade när du [aktiverad](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce som destination i Real-Time CDP.
 
-   Den här datastreamen skickar data från din Commerce-webbplats till Real-Time CDP för att avgöra om en kund tillhör en målgrupp. Om du ännu inte har skapat en datastream, [skapa](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) en i Experience Platform, [lägg till](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) till Commerce-destinationen i Real-Time CDP och till [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) i Admin.
+   Denna datastream skickar data från din Commerce webbplats till Real-Time CDP för att avgöra om en kund tillhör en viss målgrupp. Om du ännu inte har skapat en datastream, [skapa](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) en i Experience Platform, [lägg till](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) till Commerce-destinationen i Real-Time CDP och till [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) i Admin.
 
    >[!NOTE]
    >
@@ -173,6 +173,8 @@ Med [!DNL Audience Activation] om tillägget är aktiverat kan du:
 - [Skapa en kundvagnsprisregel](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informerad av målgrupper
 - [Skapa ett dynamiskt block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informerad av målgrupper
 - [(**Beta**) Skapa en relaterad produktregel](../merchandising-promotions/product-related-rule-create.md) informerad av målgrupper
+
+Ett komplett slutresultat om hur man exporterar [!DNL Commerce] data till Real-Time CDP, bygg en målgrupp och aktivera sedan målgruppen för [!DNL Commerce], se [Skapa en målgrupp i Real-Time CDP med [!DNL Commerce] händelsedata](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP målgruppspanel
 
@@ -215,7 +217,7 @@ Efter dig [installera](#install-the-extension) och [konfigurera](#configure-the-
 
 Om du vill hämta segmentmedlemskap från SDK läser du följande [kodfragment](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
-När segmenten har hämtats kan du skicka dem till Commerce i GraphQL-huvudet. Exempel:
+När segmenten har hämtats kan du skicka dem till Commerce i GraphQL sidhuvud. Exempel:
 
 ```bash
 curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-segments-membership: urlencoded_list_of_segments' -H 'Content-Type: application/json' --data-binary '{"query":"query {\ncustomer {\nfirstname\nlastname\nemail\n}\n}"}'
@@ -306,7 +308,7 @@ Läs mer om `dynamicBlocks` GraphQL-fråga i [dokumentation för utvecklare](htt
 Du kan hämta Real-Time CDP-målgrupper med Adobe Experience Platform Mobile SDK.
 
 1. [Installera](#install-the-extension) tillägget Audience Activation.
-1. [installera och konfigurera SDK för din mobila handelsplats](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [installera och konfigurera SDK för din mobila Commerce-webbplats](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
@@ -340,7 +342,7 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-När data har hämtats kan ni använda dem för att skapa målgruppsinformation [kundprisregler](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [dynamiska block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) och  [relaterade produktregler](../merchandising-promotions/product-related-rule-create.md) i Commerce.
+När data har hämtats kan ni använda dem för att skapa målgruppsinformation [kundprisregler](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [dynamiska block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) och  [relaterade produktregler](../merchandising-promotions/product-related-rule-create.md) i appen Commerce.
 
 ## Målgrupper visas inte i Commerce
 

@@ -3,9 +3,9 @@ title: Skapa övertygande, personaliserade upplevelser i stor skala
 description: Lär dig vilka funktioner som finns i Adobe [!DNL Commerce] gör att ni kan skapa en personaliserad upplevelse för era kunder.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 1a63af10d76cb9d17a992e8822e99d50bcdfa84e
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -102,4 +102,5 @@ Adobe [!DNL Commerce] kunderna använder färdiga funktioner och delar data med 
 
 ## Exempel på användningsfall
 
-Läs om hur du kan använda Adobe Journey Optimizer för att [skicka ett övergivet kundvagnsmeddelande](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Läs om hur du kan använda Adobe Journey Optimizer för att [skicka ett övergivet kundvagnsmeddelande](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Lär dig hur [skapa en publik i Real-Time CDP](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience) för att informera om en kundvagnsprisregel i Adobe [!DNL Commerce].
