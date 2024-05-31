@@ -1,7 +1,7 @@
 ---
-source-git-commit: 54f67ff2069ce92e78e6ecbe58091e018aa9f9ab
+source-git-commit: 5e1777aad33e743340c7fdf90cbdb473b6c23689
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2000'
 ht-degree: 0%
 
 ---
@@ -797,6 +797,13 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>bibliotek</td>
     <td>PHP Secure Communications Library - Pure-PHP-implementeringar av RSA, AES, SSH2, SFTP, X.509 osv.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/php-fig/cache.git">psr/cache</a>
+    </td>
+    <td>bibliotek</td>
+    <td>Gemensamt gränssnitt för att cacha bibliotek</td>
   </tr>
   <tr>
     <td>
