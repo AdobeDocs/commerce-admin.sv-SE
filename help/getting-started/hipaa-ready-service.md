@@ -1,12 +1,12 @@
 ---
 title: HIPAA-beredskap på Adobe Commerce
-description: Lär dig hur du kan lägga till Adobe Commerce HIPAA-Ready-tillägget och få ytterligare funktioner som gör att du kan uppfylla dina HIPAA-skyldigheter.
+description: Läs om hur du kan lägga till tillägget Adobe Commerce HIPAA-Ready och få ytterligare funktioner som gör att du kan uppfylla dina skyldigheter enligt HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
