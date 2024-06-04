@@ -3,9 +3,9 @@ title: Avancerade priser
 description: Läs mer om de avancerade prissättningsfunktionerna i Adobe Commerce.
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ The _[!UICONTROL Advanced Pricing]_-inställningarna definierar villkoren för s
 
 Avancerade prisuppgifter synkroniseras med produktsidor. Om du till exempel uppdaterar en nivåpriskvantitet uppdateras värdet på produktsidan.
 
-![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt med [B2B för Adobe Commerce](./b2b/../introduction.md) endast) Om du använder delade kataloger synkroniseras avancerade prisdata med både produktsidor och delade kataloger. Om du till exempel uppdaterar en nivåpriskvantitet uppdateras värdet i den delade katalogen och på produktsidan. Alla anpassade priser som anges i den delade katalogen har prioritet framför kundgruppspriserna. Se även [Ange priser och struktur för delade kataloger](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) i _Handbok för B2B for Adobe Commerce_.
+![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt med [Adobe Commerce B2B](./b2b/../introduction.md) endast) Om du använder delade kataloger synkroniseras avancerade prisdata med både produktsidor och delade kataloger. Om du till exempel uppdaterar en nivåpriskvantitet uppdateras värdet i den delade katalogen och på produktsidan. Alla anpassade priser som anges i den delade katalogen har prioritet framför kundgruppspriserna. Se även [Ange priser och struktur för delade kataloger](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) i _Adobe Commerce B2B-guide_.
 
 ![Avancerade priser](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

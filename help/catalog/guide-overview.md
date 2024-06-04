@@ -4,9 +4,9 @@ description: Omfattande information om funktioner i produktkataloger för Adobe 
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
-source-git-commit: 45a13c41bdb8a08b6b99790b6a47792219ed0bcd
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Den här guiden täcker:
 
 >[!TIP]
 >
->Med B2B för Adobe Commerce kan du underhålla delade kataloger med specialpriser för olika företag. Förutom standardkatalogen, den primära produktkatalogen, ger den kunden tillgång till två typer av delade kataloger med olika prisstrukturer. Mer information om funktionen för delad katalog finns i [Användarhandbok för B2B för Adobe Commerce](../b2b/catalog-shared.md).
+>Adobe Commerce B2B ger er möjlighet att underhålla delade kataloger med specialpris för olika företag. Förutom standardkatalogen, den primära produktkatalogen, ger den kunden tillgång till två typer av delade kataloger med olika prisstrukturer. Mer information om funktionen för delad katalog finns i [Användarhandbok för Adobe Commerce B2B](../b2b/catalog-shared.md).
 
 ## Tillgänglig dokumentation
 

@@ -3,7 +3,7 @@ title: E-postmallar
 description: Lär dig mer om e-postmallar och hur du kan använda dem för att stödja kommunikation med dina kunder och förstärka ert varumärke.
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 E-postmallar definierar layout, innehåll och formatering för automatiserade meddelanden som skickas från din butik. De kallas transaktionsbaserade e-postmeddelanden eftersom var och en är kopplad till en viss typ av transaktion eller händelse.
 
-Handeln innehåller en uppsättning responsiva e-postmallar som aktiveras av olika händelser som inträffar under butikens drift. Varje mall är optimerad för alla skärmstorlekar och kan visas både från skrivbordet och på surfplattor och mobila enheter. Det finns olika förberedda e-postmallar för kundaktiviteter, försäljning, produktvarningar, administratörsåtgärder och systemmeddelanden som du kan [anpassa](email-template-custom.md) för att återspegla ert varumärke.
+Commerce innehåller en uppsättning responsiva e-postmallar som aktiveras av olika händelser som inträffar när din butik används. Varje mall är optimerad för alla skärmstorlekar och kan visas både från skrivbordet och på surfplattor och mobila enheter. Det finns olika förberedda e-postmallar för kundaktiviteter, försäljning, produktvarningar, administratörsåtgärder och systemmeddelanden som du kan [anpassa](email-template-custom.md) för att återspegla ert varumärke.
 
-E-postmeddelanden kan återges av HTML och e-postklienter med vanlig text. Det kan finnas vissa skillnader mellan klienterna när det gäller hur e-postmeddelanden återges.
+Commerce e-postmeddelanden kan återges av HTML och e-postklienter med oformaterad text. Det kan finnas vissa skillnader mellan klienterna när det gäller hur e-postmeddelanden återges.
 
 ## Förbered din e-postlogotyp
 
@@ -98,7 +98,7 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 ### [!DNL Magento_Company]
 
-![B2B för Adobe Commerce](../assets/b2b.svg) (endast tillgängligt med B2B för Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Endast för Adobe Commerce B2B)
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
@@ -121,7 +121,7 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 ### [!DNL Magento_CompanyCredit]
 
-![B2B för Adobe Commerce](../assets/b2b.svg) (endast tillgängligt med B2B för Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Endast för Adobe Commerce B2B)
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
@@ -233,7 +233,7 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 ### [!DNL Magento_NegotiableQuote]
 
-![B2B för Adobe Commerce](../assets/b2b.svg) (endast tillgängligt med B2B för Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Endast för Adobe Commerce B2B)
 
 | Mall | Konfigurationssökväg |
 |--- |--- |

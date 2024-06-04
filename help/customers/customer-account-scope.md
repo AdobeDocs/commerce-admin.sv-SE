@@ -3,9 +3,9 @@ title: Omfattning av kundkonto
 description: Omfånget för kundkonton kan begränsas till webbplatsen där kontot skapades eller delas med alla webbplatser och butiker i butikshierarkin.
 exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
 feature: Customers, Configuration
-source-git-commit: 2541b2d55516e2a9c824825100c8348d81201ca9
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Sidhuvudet på alla sidor i din butik ger kunderna en inbjudan att _Logga in eller registrera_ för ett konto hos din butik. Kunder som öppnar ett konto har en rad fördelar, bland annat:
 
 * **Skapa kundkonto** - Besökarna kan skapa ett kundkonto så att de kan använda butiken som registrerad kund.
-* **Skapa ett företagskonto** Beroende på konfigurationen kan en besökare i din butik välja att skapa ett företagskonto. Mer information finns i [B2B för Adobe Commerce](../b2b/introduction.md).
+* **Skapa ett företagskonto** Beroende på konfigurationen kan en besökare i din butik välja att skapa ett företagskonto. Mer information finns i [Adobe Commerce B2B](../b2b/introduction.md).
 * **Snabbare utcheckning** — Registrerade kunder går igenom kassan snabbare eftersom mycket av informationen redan finns på deras konton.
 * **Självbetjäning** — Registrerade kunder kan uppdatera sin information, kontrollera orderstatus och till och med beställa från sina konton.
 

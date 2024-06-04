@@ -3,9 +3,9 @@ title: Prisområde
 description: Läs mer om vilket omfång som används för produktpriser, som kan konfigureras för att gälla både globalt och på webbplatsnivå.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Omfattningen av [basvaluta](../stores-purchase/currency-configuration.md) som an
 
 Olika faktorer kan påverka priset på samma produkt på en plats och inte på en annan. Det kan till exempel finnas ytterligare distributionskostnader för produkten och andra överväganden som påverkar priset på produkter som säljs i en viss butik. I följande diagram visas en multisiteinstallation med basvalutan inställd på webbplatsnivån. De butiker och butiksvyer som är kopplade till varje webbplats återspeglar de produktpriser som anges på webbplatsnivå.
 
-![B2B för Adobe Commerce](../assets/b2b.svg) Om du använder delade kataloger, se även [Ange priser och struktur för delade kataloger](../b2b/catalog-shared-pricing-structure.md) i _Handbok för B2B for Adobe Commerce_.
+![Adobe Commerce B2B](../assets/b2b.svg) Om du använder delade kataloger, se även [Ange priser och struktur för delade kataloger](../b2b/catalog-shared-pricing-structure.md) i _Adobe Commerce B2B-guide_.
 
 ![Diagram över prisomfång](./assets/catalog-price-scope.svg){width="550"}
 
@@ -39,7 +39,7 @@ Olika faktorer kan påverka priset på samma produkt på en plats och inte på e
 
 ## Använd omfång för att ställa in produktpriser
 
-Handel tillåter inte att ett produktpris anges för varje butik. Men du kan ändra priset per webbplats:
+Commerce tillåter inte att ett produktpris fastställs för varje butik. Men du kan ändra priset per webbplats:
 
 1. På _Administratör_ meny, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

@@ -3,9 +3,9 @@ title: Adresssökning vid utcheckning
 description: Lär dig hur du inkluderar adresssökning i kassan på din butik.
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Om kunden inte har någon standardleveransadress _Leverans_ sidvisning _Ingen ad
 
 ## Låst adresssökning efter citattecken
 
-![B2B för Adobe Commerce](../assets/b2b.svg) (endast tillgängligt med B2B för Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Endast för Adobe Commerce B2B)
 
 Om du aktiverar adresssökning påverkas även utcheckningen av order som skapas från offerter där kundens antal sparade adresser uppfyller eller överskrider den konfigurerade gränsen. När offerten är klar och kunden går vidare till kassan visas endast den valda leveransadressen. På sidan visas också ett meddelande om att leveransadressen är låst och endast kan ändras i offerten.
 

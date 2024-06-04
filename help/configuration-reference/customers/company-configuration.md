@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] sidan för Commerce Admin.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Med installation och aktivering av B2B för Adobe Commerce kan köpupplevelsen personaliseras med företagsspecifika funktioner. B2B för Adobe Commerce är en integrerad lösning som stöder både B2B- och B2C-modeller. Mer information om B2B-funktionerna finns i [Användarhandbok för B2B för Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Med installation och aktivering av Adobe Commerce B2B kan köpupplevelsen personaliseras med företagsspecifika funktioner. Adobe Commerce B2B är en integrerad lösning som stöder både B2B- och B2C-modeller. Mer information om B2B-funktionerna finns i [Användarhandbok för Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
 >Åtkomsten till dessa konfigurationsalternativ för B2B-funktioner styrs av [rollresurser](../../systems/permissions-user-roles.md#role-resources). De här rollresurserna måste anges för användarrollen som tilldelats administratörsanvändaren.
 
-Mer information om hur du konfigurerar de här inställningarna finns i [Aktivera grundläggande B2B-funktioner](../../b2b/enable-basic-features.md) i _Användarhandbok för B2B för Adobe Commerce_.
+Mer information om hur du konfigurerar de här inställningarna finns i [Aktivera grundläggande B2B-funktioner](../../b2b/enable-basic-features.md) i _Användarhandbok för Adobe Commerce B2B_.
 
 ## [!UICONTROL General]
 

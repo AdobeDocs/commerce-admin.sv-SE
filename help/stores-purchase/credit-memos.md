@@ -3,9 +3,9 @@ title: Kreditnotor
 description: Lär dig mer om kreditnotor och hur de används för att utfärda en partiell eller fullständig återbetalning.
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ Du kan återbetala beställningar på tre sätt:
 
 - Kontokredit - Beställningar som betalas med ett kreditkonto kan återbetalas som kontokredit:
    - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) [Butikskrediter](../customers/store-credit-using.md)
-   - ![B2B för Adobe Commerce](../assets/b2b.svg) (Finns med B2B för Adobe Commerce) [Betalning à conto](../b2b/enable-basic-features.md#configure-payment-on-account) (offline-metod)
-   - ![B2B för Adobe Commerce](../assets/b2b.svg) (Finns med B2B för Adobe Commerce) [Företagskrediter](../b2b/credit-company.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Finns med Adobe Commerce B2B) [Betalning à conto](../b2b/enable-basic-features.md#configure-payment-on-account) (offline-metod)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Finns med Adobe Commerce B2B) [Företagskrediter](../b2b/credit-company.md)
 - [Online-återbetalning](payments.md#online-payment-methods)- Beställningar som betalas med kreditkort via en betalningstjänst, som PayPal eller Braintree, återbetalas online via betalningsfunktionen.
 - [Offlineåterbetalning](payments.md#offline-payment-methods)—Beställningar som betalas med kontanter vid leverans ([COD](cash-on-delivery.md)) eller av [check eller penningorder](check-money-order.md) återbetalas offline.
 

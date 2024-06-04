@@ -3,9 +3,9 @@ title: Utfärda en kreditnota
 description: Lär dig hur du skapar och skriver ut en kreditnota för en fakturerad order.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Innan en kreditnota kan skrivas ut måste den skapas för en [fakturerad order](invoices.md#create-an-invoice). Du kan utfärda både online- och offlineåterbetalningar (helt eller delvis) från en öppen kreditnota, beroende på betalningsmetod.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Återbetalningar kan användas för att lagra krediter.
-- ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Återbetalningar kan tillämpas på företagskrediter.
+- ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt med Adobe Commerce B2B) Återbetalningar kan tillämpas på företagskrediter.
 - Inköp som görs med kreditkort kan återbetalas antingen online eller offline.
 - Inköp som görs med check eller penningorder måste återbetalas offline.
 
@@ -108,13 +108,13 @@ Bestäm vilken typ av återbetalning du vill utfärda - för en [kreditköp](#is
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Om du vill återbetala beloppet till kundens butikskredit väljer du **[!UICONTROL Refund to Store Credit]** kryssrutan.
 
-   - ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Om du vill återbetala beloppet till kundens företagskrediter väljer du **[!UICONTROL Refund to Company Credit]** kryssrutan.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt för Adobe Commerce B2B) Om du vill återbetala beloppet till kundens företagskrediter väljer du **[!UICONTROL Refund to Company Credit]** kryssrutan.
 
    - Om du vill återbetala offline klickar du **[!UICONTROL Refund Offline]**.
 
    - Om du vill återbetala online klickar du **[!UICONTROL Refund]**.
 
-   - ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Om köpet gjordes med företagskrediter klickar du på **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt för Adobe Commerce B2B) Om köpet gjordes med företagskrediter klickar du på **[!UICONTROL Refund to Company Credit]**.
 
    Se [Kreditnotor](credit-memos.md) för mer information om online- och offlineåterbetalningar.
 
@@ -195,7 +195,7 @@ Bestäm vilken typ av återbetalning du vill utfärda - för en [kreditköp](#is
 | [!UICONTROL Customer Name] | Namnet på den kund eller köpare som lade ordern. Kundens namn är länkat till kundprofilen. |
 | [!UICONTROL Email] | Kundens eller köparens e-postadress. E-postadressen är länkad för att öppna ett nytt e-postmeddelande. |
 | [!UICONTROL Customer Group] | Namnet på den kundgrupp eller delade katalog som kunden är tilldelad till. |
-| [!UICONTROL Company Name] | ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Namnet på det företag som är associerat med köparen, och för vars räkning beställningen görs. Företagsnamnet är kopplat till företagsprofilen. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt för Adobe Commerce B2B) Namnet på det företag som är associerat med köparen och för vars räkning beställningen görs. Företagsnamnet är kopplat till företagsprofilen. |
 
 {style="table-layout:auto"}
 
@@ -222,7 +222,7 @@ Bestäm vilken typ av återbetalning du vill utfärda - för en [kreditköp](#is
 | Fält | Beskrivning |
 |--- |--- |
 | [!UICONTROL Product] | Produktnamn, SKU och alternativ (om tillämpligt). |
-| [!UICONTROL Price] | Artikelns inköpspris. För B2B för Adobe Commerce återspeglar detta värde eventuell rabatt som tillämpas på objektet från den delade katalogen, om tillämpligt. |
+| [!UICONTROL Price] | Artikelns inköpspris. För Adobe Commerce B2B återspeglar detta värde eventuell rabatt som tillämpas på objektet från den delade katalogen, om tillämpligt. |
 | [!UICONTROL Qty] | Beställd kvantitet. |
 | [!UICONTROL Return to Stock] | Kryssruta som anger om den returnerade artikeln ska returneras till lagret. |
 | [!UICONTROL Qty to Refund] | Anger antalet enheter som returneras av produkten. |
@@ -254,7 +254,7 @@ Bestäm vilken typ av återbetalning du vill utfärda - för en [kreditköp](#is
 | [!UICONTROL Append Comments] | Kryssruta som anger om kommentarer är inkluderade i kreditnotan. |
 | [!UICONTROL Email Copy of Credit Memo] | Kryssruta som avgör om en kopia av kreditnotan skickas med e-post. |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Kryssruta som anger om summan ska återbetalas till [butikskredit](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Summan av alla poster som ska återbetalas. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt för Adobe Commerce B2B) Summan av alla poster som ska återbetalas. |
 
 {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ Betalningsmetoden som används för ordern avgör vilka återbetalningsknappar s
 |--- |--- |
 | **[!UICONTROL Refund]** | Om det ursprungliga köpet betalades med kreditkort via en betalningsgateway hanteras återbetalningsbeloppet av betalningsprocessorn. Information om hur du hanterar återbetalningar finns i dokumentationen från din betalningsleverantör. |
 | **[!UICONTROL Refund Offline]** | Om det ursprungliga köpet betalades med check eller penningorder, betalas pengarna tillbaka direkt till kunden genom att en check, ett presentkort eller kontanter utfärdas om du har en tegelsten och en fast butik. Kreditnotan fungerar som en post för offlinetransaktionen. |
-| **[!UICONTROL Refund to Company Credit]** | ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Om köpet debiterades företagskrediten returneras återbetalningen till [Företagskonto](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt för Adobe Commerce B2B) Om köpet debiterades företagskrediten återbetalas återbetalningen till [Företagskonto](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 

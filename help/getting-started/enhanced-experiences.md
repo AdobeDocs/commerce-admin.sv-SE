@@ -3,9 +3,9 @@ title: Förbättrade butiksupplevelser
 description: Lär dig mer om de många verktygen som hjälper er att maximera kundengagemang, kundlojalitet och lojalitet.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: ecc1ae5a741cab915369eac619905728d1c61061
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Adobe Commerce och Magento Open Source har en rad verktyg som hjälper er att sk
 
 - **Automatiska affärsregler** - Konfigurera [automatiserade affärsregler](../merchandising-promotions/price-rules-cart.md) som definierar produktrelationer och använder prisregler som utlöser rabatter baserat på olika villkor.
 
-- **Integrerat B2B och B2C** - med [B2B för Adobe Commerce](../b2b/introduction.md)kan ni betjäna både B2C- och B2B-kunder. Med en lättanvänd kundportal kan B2B-kunder skapa flera nivåer av köpare med specifika roller och behörigheter, spåra offerter och order, definiera regler för godkännande av inköp samt hantera sina krediter online.
+- **Integrerat B2B och B2C** - med [Adobe Commerce B2B](../b2b/introduction.md)kan ni betjäna både B2C- och B2B-kunder. Med en lättanvänd kundportal kan B2B-kunder skapa flera nivåer av köpare med specifika roller och behörigheter, spåra offerter och order, definiera regler för godkännande av inköp samt hantera sina krediter online.
 
 ## Inköpstillfälle
 

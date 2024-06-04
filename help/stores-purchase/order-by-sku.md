@@ -3,9 +3,9 @@ title: Beställa efter SKU
 description: Lär dig hur du konfigurerar din butik så att den stöder beställning via SKU som en smidighet för dina kunder.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ _Beställa efter SKU_ är en [widget](../content-design/widgets.md) som kan visa
 
 1. Klicka på **[!UICONTROL Save Config]**.
 
-![B2B för Adobe Commerce](../assets/b2b.svg) (B2B endast för Adobe Commerce) _**Om du vill aktivera funktionen Ordna efter SKU inaktiverar du funktionen Snabbordning:**_
+![Adobe Commerce B2B](../assets/b2b.svg) (endast Adobe Commerce B2B) _**Om du vill aktivera funktionen Ordna efter SKU inaktiverar du funktionen Snabbordning:**_
 
 1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

@@ -3,20 +3,20 @@ title: Indexhantering
 description: Lär dig mer om indexhantering, inklusive åtgärder som utlöser omindexering och bästa praxis.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 28b8e430336090666402f3f2868311ef98d9217d
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
 
 # Indexhantering
 
-Adobe Commerce och Magento Open Source indexerar om automatiskt när ett eller flera objekt ändras. Åtgärder som utlöser omindexering är bland annat prisändringar, att skapa prisregler för kataloger och kundvagnar, att lägga till nya kategorier och så vidare. För att optimera prestanda samlar Commerce in data i särskilda tabeller med hjälp av indexerare. När data ändras måste de indexerade tabellerna uppdateras - eller indexeras om. Handel omindexerar som en bakgrundsprocess och butiken är fortfarande tillgänglig under processerna.
+Adobe Commerce och Magento Open Source indexerar om automatiskt när ett eller flera objekt ändras. Åtgärder som utlöser omindexering är bland annat prisändringar, att skapa prisregler för kataloger och kundvagnar, att lägga till nya kategorier och så vidare. För att optimera prestandan samlar Commerce in data i särskilda tabeller med hjälp av indexerare. När data ändras måste de indexerade tabellerna uppdateras - eller indexeras om. Commerce indexerar om som en bakgrundsprocess och butiken är fortfarande tillgänglig under processerna.
 
-Omindexering av data snabbar upp bearbetningen och minskar kundens väntetid. Om du till exempel ändrar priset på en artikel från $4.99 till $3.99 indexeras data om för att visa prisändringen i butiken. Utan indexering måste Commerce beräkna priset på varje produkt i farten, hantera kundvagnsregler, paketpriser, rabatter, nivåpriser osv. Att läsa in priset för en produkt kan ta längre tid än kunden är beredd att vänta.
+Omindexering av data snabbar upp bearbetningen och minskar kundens väntetid. Om du till exempel ändrar priset på ett objekt från $4.99 till $3.99 indexeras data om i Commerce så att prisändringen visas i butiken. Utan indexering måste Commerce beräkna priset på varje produkt i farten, hantera kundvagnsregler, paketpriser, rabatter, nivåpriser osv. Att läsa in priset för en produkt kan ta längre tid än kunden är beredd att vänta.
 
-Indexerarna kan ställas in på att antingen uppdateras när de sparas eller enligt schema. Alla index kan använda båda alternativen, förutom kundstödraster som bara stöds när de sparas. När indexering görs när filen sparas, startar Commerce om indexeringen när åtgärder sparas. Indexhanteringssidan slutför uppdateringen och tömmer cacheminnet, och meddelandet om omindexering visas inom en minut eller två. Vid omindexering av ett schema körs ett omindexvärde enligt ett schema som ett cron-jobb. Ett systemmeddelande visas om en [cron](cron.md) är inte tillgänglig för att uppdatera indexerare som blir ogiltiga. Butiken är fortfarande tillgänglig under omindexeringsprocesserna.
+Indexerarna kan ställas in på att antingen uppdateras när de sparas eller enligt schema. Alla index kan använda båda alternativen, förutom kundstödraster som bara stöds när de sparas. När du indexerar när du sparar, startar Commerce om indexeringen när du sparar åtgärder. Indexhanteringssidan slutför uppdateringen och tömmer cacheminnet, och meddelandet om omindexering visas inom en minut eller två. Vid omindexering av ett schema körs ett omindexvärde enligt ett schema som ett cron-jobb. Ett systemmeddelande visas om en [cron](cron.md) är inte tillgänglig för att uppdatera indexerare som blir ogiltiga. Butiken är fortfarande tillgänglig under omindexeringsprocesserna.
 
 >[!NOTE]
 > Adobe Commerce handlare som använder Live Search, Catalog Service eller Product Recommendations kan använda en [SaaS-baserad prisindexerare](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html).
@@ -43,7 +43,7 @@ Omindexering och cachelagring har olika syften i Commerce. Indexen spårar datab
 
 >[!IMPORTANT]
 >
->För butiker som använder [B2B för Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) och har angett Elasticsearch som fulltext (`catalogsearch_fulltext`) indexerare: fulltextindexet måste köras igen efter att gruppbehörigheter har ändrats eller när permissions-indexeraren är i läget Scheduled.
+>För butiker som använder [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) och har angett Elasticsearch som fulltext (`catalogsearch_fulltext`) indexerare: fulltextindexet måste köras igen efter att gruppbehörigheter har ändrats eller när permissions-indexeraren är i läget Scheduled.
 
 1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -76,7 +76,7 @@ Omindexering och cachelagring har olika syften i Commerce. Indexen spårar datab
 
 ## Indexera om med kommandoraden
 
-I Commerce finns ytterligare alternativ för omindexering via kommandoraden. Fullständig information och kommandoalternativ finns i [Indexera om](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target=&quot;blank&quot;} i _Konfigurationshandbok_.
+I Commerce finns fler alternativ för indexering via kommandoraden. Fullständig information och kommandoalternativ finns i [Indexera om](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target=&quot;blank&quot;} i _Konfigurationshandbok_.
 
 ## Utlösarhändelser för index
 
@@ -103,8 +103,8 @@ I Commerce finns ytterligare alternativ för omindexering via kommandoraden. Ful
 | Åtgärd | Resultat | Kontroller |
 | ------ | ------ | -------- |
 | Skapa en butik, ny kundgrupp eller någon åtgärd som listas i `Actions that Cause a Full Reindex` | Fullständig omindexering | Fullständig omindexering utförs enligt det schema som bestäms av ditt Adobe Commerce- eller Magento Open Source-jobb. |
-| Massinläsning av artiklar (Commerce-import/export, Direct SQL-fråga och andra metoder som direkt lägger till, ändrar eller tar bort data) | Partiell omindexering (endast ändrade objekt omindexeras) | Med den frekvens som bestäms av ditt Commerce cron-jobb. |
-| Ändra omfång (till exempel från global till webbplats) | Partiell omindexering (endast ändrade objekt omindexeras) | Med den frekvens som bestäms av ditt Commerce cron-jobb. |
+| Massinläsning av objekt (Commerce import/export, Direct SQL-fråga och andra metoder som direkt lägger till, ändrar eller tar bort data) | Partiell omindexering (endast ändrade objekt omindexeras) | Med den frekvens som bestäms av ditt Commerce kron-jobb. |
+| Ändra omfång (till exempel från global till webbplats) | Partiell omindexering (endast ändrade objekt omindexeras) | Med den frekvens som bestäms av ditt Commerce kron-jobb. |
 
 {style="table-layout:auto"}
 

@@ -3,9 +3,9 @@ title: Förhandlingsbara offerter
 description: Lär dig mer om arbetsflöden för offerter och hur du kan tillhandahålla den här tjänsten till dina företagskonton.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Under förhandlingsprocessen kan offerten bara uppdateras av personen som gransk
 
 Förhandlingsbara offerter är bara tillgängliga om Adobe Commerce har följande konfigurationsinställningar:
 
-- [Tillägget B2B för Adobe Commerce är installerat](install.md)
+- [Adobe Commerce B2B-tillägget är installerat](install.md)
 - [Konfigurerade B2B-funktioner](enable-basic-features.md)
    - Aktivera företagskonton
    - Aktivera B2B-citat
@@ -134,7 +134,7 @@ Endast offertförfrågningar med `Open` status kan avvisas.
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | Skickar den uppdaterade offerten som ett svar på köparens fråga. Den här knappen är inaktiverad om säljaren väntar på ett svar från köparen. |
 | [!UICONTROL Back] | Återgår till _Citat_ utan att spara ändringarna. |
-| [!UICONTROL Create Copy] | [!BADGE Funktioner för 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för betaprogramdeltagare"}`<original quote name> (copy)`. Ändra namnet genom att redigera värdet i [!UICONTROL Name] och spara offerten som ett utkast. |
+| [!UICONTROL Create Copy] | [!BADGE Funktioner för 1.5.0-beta]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Available only for Beta program Deltagare&quot;} Skapa en ny offert från den aktuella offerten genom att kopiera och byta namn på den. När den nya offerten öppnas är standardnamnet `<original quote name> (copy)`. Ändra namnet genom att redigera värdet i [!UICONTROL Name] och spara offerten som ett utkast. |
 | [!UICONTROL Print] | Skickar offerten till en skrivare eller sparar den som en PDF-fil. |
 | [!UICONTROL Create a copy] | Skapar en kopia av offerten med namnet `<original quote name> (copy)` och öppnar den. Byt namn på och uppdatera den nya offerten efter behov innan du sparar den som ett utkast eller skickar den till köparen. |
 | [!UICONTROL Save as Draft] | Sparar ändringar som gjorts i offerten, men skickar den inte tillbaka till köparen. |

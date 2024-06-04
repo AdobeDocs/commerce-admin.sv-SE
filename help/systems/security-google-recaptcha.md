@@ -4,9 +4,9 @@ description: Lär dig konfigurera Google reCAPTCHA för administratörsåtkomst 
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Google reCAPTCHA konfigureras separat för Admin och storefront.
 
-- För administratören kan Google reCAPTCHA användas på [Logga in](../getting-started/admin-signin.md) och när en användare begär en lösenordsåterställning. Om standardhandeln [CAPTCHA](security-captcha.md) är aktiverat kan Google reCAPTCHA användas samtidigt utan problem.
+- För administratören kan Google reCAPTCHA användas på [Logga in](../getting-started/admin-signin.md) och när en användare begär en lösenordsåterställning. Om Commerce [CAPTCHA](security-captcha.md) är aktiverat kan Google reCAPTCHA användas samtidigt utan problem.
 
 - Google reCAPTCHA kan användas för att logga in på en [kundkonto](../customers/customer-sign-in.md), skicka ett meddelande från [Kontakta oss](../getting-started/store-details.md#contact-us-form) och på många andra platser i butiken.
 
@@ -43,7 +43,7 @@ Google reCAPTCHA kräver ett par API-nycklar för att kunna aktiveras. Du kan f�
 
 1. För **[!UICONTROL Label]**, anger du ett namn som identifierar nycklarna för intern referens.
 
-   Du behöver en uppsättning nycklar för varje reCAPTCHA-typ som används i din Adobe Commerce- eller Magento Open Source-installation. Exempel: `Commerce Invisible`
+   Du behöver en uppsättning nycklar för varje reCAPTCHA-typ som används i din Adobe Commerce- eller Magento Open Source-installation. Till exempel: `Commerce Invisible`
 
 1. För **[!UICONTROL reCAPTCHA type]** väljer du den metod som du vill använda.
 
@@ -160,7 +160,7 @@ Google reCAPTCHA kräver ett par API-nycklar för att kunna aktiveras. Du kan f�
    - [!UICONTROL Enable for Forgot Password]
    - [!UICONTROL Enable for Create New Customer Account]
    - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![B2B för Adobe Commerce](../assets/b2b.svg) (endast tillgängligt med B2B för Adobe Commerce)
+   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce B2B](../assets/b2b.svg) (Endast för Adobe Commerce B2B)
    - [!UICONTROL Enable for Contact Us]
    - [!UICONTROL Enable for Product Review]
    - [!UICONTROL Enable for Newsletter Subscription]

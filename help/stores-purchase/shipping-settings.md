@@ -3,9 +3,9 @@ title: Leveransinställningar
 description: Lär dig hur du konfigurerar leveransinställningar som definierar ursprung och leveransregler för din butik.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,4 @@ Med alternativen för leverans av flera adresser kan kunderna skicka en order ti
 
 >[!NOTE]
 >
->![B2B för Adobe Commerce](../assets/b2b.svg) (B2B för Adobe Commerce) För beställningar med flera leveransadresser: [Betalning à conto](../b2b/enable-basic-features.md#configure-payment-on-account) betalningsmetoden är inte tillgänglig under utcheckningen, även om den är aktiverad.
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) För beställningar med flera leveransadresser gäller följande: [Betalning à conto](../b2b/enable-basic-features.md#configure-payment-on-account) betalningsmetoden är inte tillgänglig under utcheckningen, även om den är aktiverad.

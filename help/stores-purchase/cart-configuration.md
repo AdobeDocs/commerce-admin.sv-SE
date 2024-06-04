@@ -3,9 +3,9 @@ title: Kundkonfiguration
 description: Läs mer om de kundvagnsfunktioner som du kan konfigurera för att stödja köpupplevelsen i din butik.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Kundvagnssidan kan konfigureras så att den visas när en artikel läggs till i 
 
 ## Offertlivstid
 
-Med installation och aktivering av B2B för Adobe Commerce kan du lägga till stöd för _Citat_ -funktion. Med den här funktionen kan auktoriserade köpare initiera prisförhandlingsprocessen genom att skicka en begäran från kundvagnen. The _Citat_ rutnätet visar varje mottagen offert och upprätthåller en historik över kommunikationen mellan köpare och säljare. Mer information om B2B-funktionerna finns i [Förhandlade offerter](../b2b/quotes.md) i _Användarhandbok för B2B för Adobe Commerce_.
+Med installation och aktivering av Adobe Commerce B2B kan du lägga till stöd för _Citat_ -funktion. Med den här funktionen kan auktoriserade köpare initiera prisförhandlingsprocessen genom att skicka en begäran från kundvagnen. The _Citat_ rutnätet visar varje mottagen offert och upprätthåller en historik över kommunikationen mellan köpare och säljare. Mer information om B2B-funktionerna finns i [Förhandlade offerter](../b2b/quotes.md) i _Användarhandbok för Adobe Commerce B2B_.
 
 Du kan bestämma hur länge ett pris är giltigt genom att ställa in livslängden för varukorgsofferten i konfigurationen. Om en kund t.ex. lämnar en kundvagn utan tillsyn efter flera dagar kanske priset för vissa artiklar inte längre är detsamma. Som standard är offertens livstid 30 dagar.
 

@@ -3,9 +3,9 @@ title: Produktlista
 description: Läs mer om[!UICONTROL Products]-sidan i Admin, där du kan skapa produkter och redigera befintliga.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Alla produkter i katalogen är tillgängliga från _[!UICONTROL Products]_i Admin, där du kan skapa produkter och redigera befintliga. Vid installation på flera platser kan varje webbplats erbjuda olika produkter som ska säljas från samma katalog.
 
-The _[!UICONTROL Products]_listan innehåller alla produkter i katalogen, anger de webbplatser där de är tillgängliga och om de är aktiverade för försäljning. Inom B2B för Adobe Commerce-installationer med [delade kataloger](../b2b/catalog-shared.md) aktiverat innehåller rutnätet en kolumn som anger vilka produkter som har alternativa rabattpriser i en delad katalog.
+The _[!UICONTROL Products]_listan innehåller alla produkter i katalogen, anger de webbplatser där de är tillgängliga och om de är aktiverade för försäljning. I Adobe Commerce B2B-installationer med [delade kataloger](../b2b/catalog-shared.md) aktiverat innehåller rutnätet en kolumn som anger vilka produkter som har alternativa rabattpriser i en delad katalog.
 
 Du kan bläddra igenom listsidan efter sida eller söka efter specifika produkter. Använd standarden [kontroller](../getting-started/admin-grid-controls.md) för att sortera och filtrera listan och använda [funktionsmakron](../getting-started/admin-actions-control.md) till utvalda produkter.
 
@@ -84,7 +84,7 @@ Den här konfigurationsinställningen för produktvisningsbegränsning är inakt
 | [!UICONTROL Status] | Anger produktens status. Alternativ: `Enabled` och `Disabled` |
 | [!UICONTROL Websites] | Anger de webbplatser där produkten finns tillgänglig. |
 | [!UICONTROL Action] | Öppnar produkten i redigeringsläge. |
-| [!UICONTROL Shared Catalog] | ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt med [B2B för Adobe Commerce](./b2b/../introduction.md) endast) Anger de delade kataloger som innehåller anpassade priser för produkten. |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt med [Adobe Commerce B2B](./b2b/../introduction.md) endast) Anger de delade kataloger som innehåller anpassade priser för produkten. |
 
 {style="table-layout:auto"}
 

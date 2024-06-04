@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL B2B for Adobe Commerce] versionsinformation'
-description: Läs versionsinformationen för information om ändringar i [!DNL B2B for Adobe Commerce] tillägg.
+title: '''[!DNL Adobe Commerce B2B] versionsinformation'
+description: Läs versionsinformationen för information om ändringar i [!DNL Adobe Commerce B2B] releaser.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
 workflow-type: tm+mt
-source-wordcount: '6937'
+source-wordcount: '6851'
 ht-degree: 0%
 
 ---
 
-# [!DNL B2B for Adobe Commerce] versionsinformation
+# [!DNL Adobe Commerce B2B] versionsinformation
 
 Versionsinformationen för B2B-tillägget innehåller tillägg och korrigeringar som Adobe har lagt till under en releasecykel, inklusive:
 
@@ -20,7 +20,7 @@ Versionsinformationen för B2B-tillägget innehåller tillägg och korrigeringar
 
 >[!NOTE]
 >
->Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) för information om vilka versioner av B2B Commerce-tillägget som stöds för tillgängliga Adobe Commerce-versioner.
+>Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) om du vill ha information om vilka versioner av B2B Commerce-tillägget som stöds för tillgängliga Adobe Commerce-utgåvor.
 
 ## B2B 1.5.0 beta
 
@@ -114,11 +114,11 @@ Den här versionen innehåller nya funktioner och förbättringar för B2B-över
 
 ![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1429--> I Store Configuration settings for B2B Features, the **[!UICONTROL Enable Shared Catalog direct products price assigning]** fältet inaktiveras nu automatiskt. I butiken döljs den när **[!UICONTROL Enable Company]** inställning eller **[!UICONTROL Enable Shared Catalog]** inställningen är inställd på **[!UICONTROL No]**.
 
-![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1683--> När ett företagskonto skapas från butiken validerar nu Commerce e-postadressen innan företagsregistreringen bearbetas. Om e-postadressen är ogiltig misslyckas åtgärden och inga kontouppdateringar bearbetas. Tidigare skapades ett kundkonto även om begäran om att skapa ett företagskonto misslyckades på grund av en ogiltig e-postadress.
+![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1683--> När du skapar ett företagskonto från butiken validerar Commerce nu e-postadressen innan företagsregistreringen bearbetas. Om e-postadressen är ogiltig misslyckas åtgärden och inga kontouppdateringar bearbetas. Tidigare skapades ett kundkonto även om begäran om att skapa ett företagskonto misslyckades på grund av en ogiltig e-postadress.
 
 ![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1664--> SKU:er som innehåller dubbla citattecken i den delade katalogen och prisstrukturen orsakar inte längre fel i administratören.
 
-![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1498--> Varnish-konfigurationen för Commerce-programmet har uppdaterats för att hindra gästanvändare från att se data från andra kundgrupper.
+![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1498--> Varnish-konfigurationen för Commerce-programmet har uppdaterats för att förhindra att gästanvändare ser data från andra kundgrupper.
 
 ### Känt fel
 

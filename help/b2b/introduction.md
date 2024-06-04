@@ -1,18 +1,18 @@
 ---
-title: Introduktion till [!DNL B2B for Adobe Commerce]
+title: Introduktion till [!DNL Adobe Commerce B2B]
 description: Förstå hur du kan använda de integrerade B2B-funktionerna för att tillgodose dina behov för företagskunder.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
+source-git-commit: 8e4e070f41f7d3bf872e81c9805e7c24779b812d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
 
-# Introduktion till [!DNL B2B for Adobe Commerce]
+# Introduktion till [!DNL Adobe Commerce B2B]
 
-Till skillnad från standardmodellen företag-till-kund är de integrerade B2B-funktionerna (Business to Business) utformade för att uppfylla behoven hos säljare (Adobe Commerce handlare) som har kunder som är företag. Det passar företag med komplexa organisationsstrukturer och flera användare med olika roller och nivåer av inköpsbehörighet. En typisk B2B-kund kan vara chef för en butik eller en köpare som handlar för ett företags räkning. I båda fallen sker transaktionen mellan ert företag och deras företag. Du kan också sälja produkter direkt till konsumenten. [!DNL B2B for Adobe Commerce] är en integrerad lösning som har stöd för både B2B- och B2C-modeller.
+Till skillnad från standardmodellen företag-till-kund är de integrerade B2B-funktionerna (Business to Business) utformade för att uppfylla behoven hos säljare (Adobe Commerce handlare) som har kunder som är företag. Det passar företag med komplexa organisationsstrukturer och flera användare med olika roller och nivåer av inköpsbehörighet. En typisk B2B-kund kan vara chef för en butik eller en köpare som handlar för ett företags räkning. I båda fallen sker transaktionen mellan ert företag och deras företag. Du kan också sälja produkter direkt till konsumenten. [!DNL Adobe Commerce B2B] är en integrerad lösning som stöder både B2B- och B2C-modeller.
 
 Med [installation](install.md) och [aktivering](enable-basic-features.md) av B2B-tillägget i din Adobe Commerce-butik kan köpupplevelsen anpassas med kundspecifika kataloger och priser samt riktat innehåll och riktade kampanjer.
 

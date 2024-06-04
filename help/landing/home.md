@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: Handläggardokumentation
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,8 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
   </tr>
 <tr>
   <td valign="top">
-      <img alt="B2B för Adobe Commerce" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>B2B för Adobe Commerce</strong></a>
+      <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>Adobe Commerce B2B</strong></a>
     <div><em>Funktionsuppsättningen är utformad för att tillgodose behoven hos säljare (handlare) vars kunder huvudsakligen är företag - möjligen med komplexa organisationsstrukturer och flera anställda med olika roller och nivåer av köpbehörighet.</em>
     <br></div>
   </td>
@@ -123,8 +123,8 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 
 | Beskrivning | Typ | Datum |
 | ----------- | ---- | ---- |
-| **1.4.0 B2B-version** - Versionsinformationen för B2B för Adobe Commerce beskriver ändringar och tillägg för [1.4.0-version](../b2b/release-notes.md#b2b-v140). | Uppdatera | 06/13/23 |
-| **1.4.0 B2B-version** - [Initiera offert för en köpare](../b2b/sales-rep-initiates-quote.md) ämnet ingår nu i _Handbok för B2B for Adobe Commerce_. Här beskrivs hur en säljare kan skapa en offert för en viss köpare för att påbörja förhandlingsprocessen. | Nytt | 06/13/23 |
+| **1.4.0 B2B-version** - Versionsinformationen för Adobe Commerce B2B beskriver ändringar och tillägg för [1.4.0-version](../b2b/release-notes.md#b2b-v140). | Uppdatera | 06/13/23 |
+| **1.4.0 B2B-version** - [Initiera offert för en köpare](../b2b/sales-rep-initiates-quote.md) ämnet ingår nu i _Adobe Commerce B2B-guide_. Här beskrivs hur en säljare kan skapa en offert för en viss köpare för att påbörja förhandlingsprocessen. | Nytt | 06/13/23 |
 | **1.4.0 B2B-version** - [Förhandla om en offert](../b2b/quote-price-negotiation.md), [Förhandlingsbara offerter](../b2b/quotes.md)och [Aktivera B2B-funktioner](../b2b/enable-basic-features.md) ämnen uppdateras för att återspegla ändringar av säljarinitierade offerter och standardfunktioner. | Uppdatera | 06/13/23 |
 | **2.2.0 Integreringsversion av Adobe IMS** - [Inaktivera Commerce Admin-integrering med Adobe ID](../getting-started/adobe-ims-disable.md) ämnet ingår nu i _Starthandbok_. Här beskrivs en valfri procedur för att inaktivera integreringen av Adobe Commerce Admin med Adobe IMS. | Nytt | 06/13/23 |
 | **2.2.0 Integreringsversion av Adobe IMS** - Ändringar i [Integrering med Adobe Identity Management Service (IMS) - översikt](../getting-started/adobe-ims-integration-overview.md) och [Konfigurera Commerce Admin Integration med Adobe ID](../getting-started/adobe-ims-config.md) ämnen som återspeglar den uppdaterade funktionen. | Uppdatera | 06/13/23 |

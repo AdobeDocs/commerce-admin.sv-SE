@@ -3,9 +3,9 @@ title: Utcheckningsprocess och alternativ
 description: Se hur Adobe Commerce och Magento Open Source samlar in den information som behövs för att slutföra transaktionen och sidan Kassa leder kunden genom varje steg i processen.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -66,13 +66,13 @@ Under det andra steget i processen väljer kunden [betalningsmetod](payments.md)
 
 >[!NOTE]
 >
->Även om det går att konfigurera flera kupongkoder i Commerce kan kunden bara använda en kupongkod i kundvagnen. (Se [Kupongkoder](../merchandising-promotions/price-rules-cart-coupon.md) för mer information.)
+>Även om Commerce tillåter konfigurering av flera kupongkoder, kan kunden bara använda en kupongkod i kundvagnen. (Se [Kupongkoder](../merchandising-promotions/price-rules-cart-coupon.md) för mer information.)
 
 ![Gransknings- och betalningssida vid utcheckning](./assets/storefront-checkout-step2-payment-review.png){width="700" zoomable="yes"}
 
 ### Granskning och betalningar - inköpsorder
 
-![B2B för Adobe Commerce](../assets/b2b.svg) (endast tillgängligt med B2B för Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Endast för Adobe Commerce B2B)
 
 När en kund är associerad med ett företag som har aktiverat [inköpsorder](../b2b/purchase-order-flow.md)bearbetas alla order som inköpsorder. Tillgängliga betalningsmetoder bestäms av företagskontoinställningarna.
 

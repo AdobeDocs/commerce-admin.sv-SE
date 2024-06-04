@@ -1,10 +1,10 @@
 ---
 title: Introduktion till kundhantering
-description: Lär dig hur du använder funktionerna för Kundhantering i Commerce för att förbättra kundupplevelsen för din butik.
+description: Lär dig hur du använder Commerce funktioner för kundhantering för att förbättra kundupplevelsen i din butik.
 exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
-source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,6 @@ På _Administratör_ sidlist, klicka [!UICONTROL Customers] för att visa menyal
 | [!UICONTROL Now Online] | Listar alla kunder och besökare som för närvarande [online](../customers/now-online.md) i din butik. |
 | [!UICONTROL Segments] | Listar [kundsegment](../customers/customer-segments.md) som används för att dynamiskt visa innehåll och kampanjer för specifika kunder baserat på olika egenskaper. |
 | [!UICONTROL Customer Groups] | The [kundgrupper](../customers/customer-groups.md) avgör vilka rabatter som finns tillgängliga för kunderna och vilken skatteklass som gäller för köpet. |
-| [!UICONTROL Companies] | (Kräver B2B för Adobe Commerce) Visar alla aktiva [företagskonton](../b2b/account-companies.md) och väntande förfrågningar, oavsett statusinställning, och innehåller de verktyg som används för att skapa och [hantera](../b2b/account-company-manage.md) företag. |
+| [!UICONTROL Companies] | (Kräver Adobe Commerce B2B) Visar alla aktiva [företagskonton](../b2b/account-companies.md) och väntande förfrågningar, oavsett statusinställning, och innehåller de verktyg som används för att skapa och [hantera](../b2b/account-company-manage.md) företag. |
 
 {style="table-layout:auto"}

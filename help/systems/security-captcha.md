@@ -4,9 +4,9 @@ description: Lär dig hur du konfigurerar CAPTCHA för administratörsåtkomst o
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Kunder kan behöva ange en CAPTCHA varje gång de loggar in på sina konton, ell
       - `Payflow Pro` (se [säkerhetsuppdatering](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _Knowledge Base_ artikel)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce)
-      - `Create company` ![B2B för Adobe Commerce](../assets/b2b.svg) (endast tillgängligt med B2B för Adobe Commerce)
+      - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (Endast för Adobe Commerce B2B)
 
    - Ange **[!UICONTROL Displaying Mode]** till något av följande:
 

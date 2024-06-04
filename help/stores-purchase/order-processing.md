@@ -3,9 +3,9 @@ title: Beställningsarbetsflöde och -bearbetning
 description: Lär dig mer om orderarbetsflöde, vilken status som gäller i varje steg och hur du flyttar beställningar genom den här processen.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Endast försäljningsorder som inte har fakturerats har statusen `Processing`och
 | [!UICONTROL Order Date] | Datum och tid då ordern lades. |
 | [!UICONTROL Purchased From] | Anger webbplatsen, butiken och butiksvyn där beställningen placerades. |
 | [!UICONTROL Placed from IP] | Anger IP-adressen till datorn som beställningen gjordes från. |
-| [!UICONTROL Order Placed from Quote] | ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Anger [citat](../b2b/quotes.md) varifrån ordern genererades, om tillämpligt. Offertnamnet är länkat till offerten. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt med Adobe Commerce B2B) Visar [citat](../b2b/quotes.md) varifrån ordern genererades, om tillämpligt. Offertnamnet är länkat till offerten. |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ Endast försäljningsorder som inte har fakturerats har statusen `Processing`och
 | [!UICONTROL Customer Name] | Namnet på den kund eller köpare som lade ordern. Kundnamnet är kopplat till kundprofilen. |
 | [!UICONTROL Email] | Kundens eller köparens e-postadress. E-postadressen är länkad för att öppna ett nytt e-postmeddelande. |
 | [!UICONTROL Customer Group] | Namnet på den kundgrupp eller delade katalog som kunden är tilldelad till. |
-| [!UICONTROL Company Name] | ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Namnet på det företag som köparen är associerad med och för vars räkning ordern placeras. Företagsnamnet är länkat till [företagsprofil](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt för Adobe Commerce B2B) Namnet på det företag som köparen är associerad med och för vars räkning beställningen görs. Företagsnamnet är länkat till [företagsprofil](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
@@ -220,9 +220,9 @@ I **[!UICONTROL Order Total]** gör du följande:
 | [!UICONTROL Total Refunded] | Det totala belopp som återbetalas från ordern, om tillämpligt. |
 | [!UICONTROL Total Due] | Det totala beloppet som förfaller. |
 | [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Det belopp som, i förekommande fall, tillämpas på den tillgängliga butikskrediten för ordern. |
-| [!UICONTROL Catalog Total Price] | ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Det totala priset på produkterna i offerten utan moms, enligt priset i den delade katalogen eller standardkatalogen som används som bas för offerten. Om visningsvalutan för butiken skiljer sig från basvalutan visas värdet i båda valutorna, med butiken inom hakparenteser. |
-| [!UICONTROL Negotiated Discount] | ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Rabatten som är resultatet av en offert som förhandlats fram mellan köpare och säljare. Om visningsvalutan för butiken skiljer sig från basvalutan visas värdet i båda valutorna, med butiken inom hakparenteser. |
-| [!UICONTROL Subtotal] | ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Katalogens totalpris minus rabatten. |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt för Adobe Commerce B2B) Det totala priset på objekten i offerten utan moms, enligt priset i den delade katalogen eller standardkatalogen som används som bas för offerten. Om visningsvalutan för butiken skiljer sig från basvalutan visas värdet i båda valutorna, med butiken inom hakparenteser. |
+| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt för Adobe Commerce B2B) Rabatten som är resultatet av en offert som förhandlats fram mellan köpare och säljare. Om visningsvalutan för butiken skiljer sig från basvalutan visas värdet i båda valutorna, med butiken inom hakparenteser. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt för Adobe Commerce B2B) Katalogens totalpris minus rabatten. |
 
 {style="table-layout:auto"}
 

@@ -2,9 +2,9 @@
 title: '[!UICONTROL Sales] menu'
 description: Commerce Admin innehåller [!UICONTROL Sales] -menyn, som ger tillgång till verktyg för att arbeta med beställningar beroende på var de finns i arbetsflödet.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ På _Administratör_ sidlist, klicka **[!UICONTROL Sales]**.
 
 ### [!UICONTROL Quotes]
 
-![B2B för Adobe Commerce](../assets/b2b.svg) (Finns med B2B för Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Finns med Adobe Commerce B2B)
 
 Auktoriserade köpare kan [förhandla om priset](../b2b/quotes.md) med säljaren genom att skicka en [förfrågan](../b2b/quote-request.md) från kundvagnen.
 

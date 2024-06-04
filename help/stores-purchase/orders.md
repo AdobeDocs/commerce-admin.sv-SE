@@ -3,9 +3,9 @@ title: Beställningar
 description: Lär dig mer om arbetsytan Beställningar och de sökfunktioner som används för att hitta beställningar i Admin.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Ytterligare kolumner är tillgängliga:
 | [!UICONTROL Payment Method] | Betalningsmetoden som ska användas för ordern. |
 | [!UICONTROL Total Refunded] | Alla belopp från ordern som ska återbetalas till kunden. |
 | [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Alla belopp i beställningen som ska återbetalas till kundens butikskrediter. |
-| [!UICONTROL Company Name] | ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt för B2B för Adobe Commerce) Namnet på [företag](../b2b/account-companies.md) som gjorde beställningen. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Finns för Adobe Commerce B2B) Namnet på [företag](../b2b/account-companies.md) som gjorde beställningen. |
 
 {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ Du kan använda sökrutan längst upp till vänster i stödrastret Beställninga
 
 ## Felsökningsresurser
 
-Hjälp om felsökning av orderproblem finns i följande artiklar i kunskapsbasen med Commerce Support:
+Hjälp om felsökning av orderproblem finns i följande artiklar i Commerce Support Knowledge Base:
 
 - [Visningsfel för order](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
 - [PayPal-dubblettorder 10415-fel](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)

@@ -1,18 +1,18 @@
 ---
 title: Översikt över delad katalog
-description: Lär dig mer om de delade kataloger som tillhandahålls av B2B för Adobe Commerce och hur du kan använda dem för att underhålla kataloger med anpassade priser för olika företagskonton.
+description: Lär dig mer om de delade kataloger som tillhandahålls av Adobe Commerce B2B och hur du kan använda dem för att underhålla kataloger med anpassade priser för olika företagskonton.
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
 
 # Översikt över delad katalog
 
-Med B2B för Adobe Commerce kan du hålla ordning _delad_ kataloger med anpassade priser för olika företag. Förutom standarden _primär_, produktkatalog, ger kundåtkomst till två typer av delade kataloger med olika prisstrukturer.
+Adobe Commerce B2B ger dig möjlighet att hålla ordning _delad_ kataloger med anpassade priser för olika företag. Förutom standarden _primär_, produktkatalog, ger kundåtkomst till två typer av delade kataloger med olika prisstrukturer.
 
 Om [Funktion för delad katalog](enable-basic-features.md) är aktiverat i konfigurationen, är den ursprungliga primära katalogen fortfarande synlig från Admin, men endast den gemensamma standardkatalogen (Allmänt) är synlig från arkivet. Dessutom kan egna kataloger skapas som bara är synliga för medlemmar i specifika [företag](account-companies.md) konton.
 
@@ -56,7 +56,7 @@ The [åtgärder kontroller](../getting-started/admin-actions-control.md) i det �
 | [!UICONTROL Select] | Väljer delade katalogposter för att tillämpa en åtgärd. Kontrollen i sidhuvudet kan användas för att markera alla eller avmarkera alla delade katalogposter i rutnätet. Markera kryssrutan om du vill välja en enskild delad katalog. |
 | [!UICONTROL ID] | En unik numerisk identifierare som tilldelas i sekvens när katalogen skapas. |
 | [!UICONTROL Name] | Namnet på den delade katalogen. Som standard är den delade standardkatalogen (Allmänt) tillgänglig. |
-| [!UICONTROL Type] | Identifierar typen av delad katalog som antingen: <br/>**[!UICONTROL Public]**- Den gemensamma standardkatalogen skapas automatiskt när B2B för Adobe Commerce installeras. Den har ursprungligen tilldelats `General` och `Not Logged In` kundgrupper och är synliga för gäster och enskilda inloggade kunder som inte är kopplade till ett företag. Systemet stöder endast en offentlig delad katalog åt gången.<br/>**[!UICONTROL Custom]** - En anpassad delad katalog innehåller priser som bara är synliga för inloggade associerade med de tilldelade företagskontona. Du kan skapa så många anpassade delade kataloger du behöver. |
+| [!UICONTROL Type] | Identifierar typen av delad katalog som antingen: <br/>**[!UICONTROL Public]**- Den gemensamma standardkatalogen skapas automatiskt när Adobe Commerce B2B installeras. Den har ursprungligen tilldelats `General` och `Not Logged In` kundgrupper och är synliga för gäster och enskilda inloggade kunder som inte är kopplade till ett företag. Systemet stöder endast en offentlig delad katalog åt gången.<br/>**[!UICONTROL Custom]** - En anpassad delad katalog innehåller priser som bara är synliga för inloggade associerade med de tilldelade företagskontona. Du kan skapa så många anpassade delade kataloger du behöver. |
 | [!UICONTROL Customer Tax Class] | Den momsklass som tilldelas motsvarande kundgrupp. Den här kolumnen visas inte i standardstödrastret, men du kan lägga till den genom att ändra kolumnlayouten. |
 | [!UICONTROL Created At] | Det datum och den tidpunkt då den delade katalogen skapades. |
 | [!UICONTROL Created By] | Förnamn och efternamn för den lagringsadministratör som skapade den delade katalogen. |

@@ -3,9 +3,9 @@ title: Vad är Adobe Commerce?
 description: Adobe Commerce är en e-handelsplattform för företag. Läs om de senaste funktionerna som ökar tillväxten för e-handelsteam över hela världen.
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
-source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -99,8 +99,8 @@ Båda funktionerna är kompatibla med Adobe Commerce inbyggda butiksarkitektur o
 >[!TIP]
 >Mer information om B2B Commerce-funktioner finns i vår dokumentation:
 >
->- [Användarhandbok för B2B för Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
->- [B2B for Adobe Commerce Developer Guide](https://developer.adobe.com/commerce/webapi/rest/b2b/)
+>- [Användarhandbok för Adobe Commerce B2B](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
+>- [Adobe Commerce B2B Developer Guide](https://developer.adobe.com/commerce/webapi/rest/b2b/)
 
 ### Betalningstjänster för Adobe Commerce
 

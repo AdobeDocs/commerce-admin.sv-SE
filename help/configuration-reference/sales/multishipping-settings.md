@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
 description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] sidan för Commerce Admin.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ Detaljerad information om hur du konfigurerar de här inställningarna för fler
 
 >[!NOTE]
 >
->![B2B för Adobe Commerce](../../assets/b2b.svg) (Endast för B2B för Adobe Commerce) För beställningar med flera leveransadresser finns [Betalning à conto](../../b2b/enable-basic-features.md#configure-payment-on-account) betalningsmetoden är inte tillgänglig under utcheckningen, även om den är aktiverad.
+>![Adobe Commerce B2B](../../assets/b2b.svg) (Gäller endast Adobe Commerce B2B) För beställningar med flera leveransadresser finns [Betalning à conto](../../b2b/enable-basic-features.md#configure-payment-on-account) betalningsmetoden är inte tillgänglig under utcheckningen, även om den är aktiverad.

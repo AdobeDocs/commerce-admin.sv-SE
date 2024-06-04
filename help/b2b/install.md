@@ -1,26 +1,26 @@
 ---
-title: Installera [!DNL B2B for Adobe Commerce] extension
-description: Lär dig hur du installerar [!DNL B2B for Adobe Commerce] metapackage.
+title: Installera [!DNL Adobe Commerce B2B] extension
+description: Lär dig hur du installerar [!DNL Adobe Commerce B2B] metapackage.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: e57aa4e8919c2de5341c4b8363197d6380bbb0f6
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
 
-# Installera [!DNL B2B for Adobe Commerce] extension
+# Installera [!DNL Adobe Commerce B2B] extension
 
-Tillägget B2B för Adobe Commerce är bara tillgängligt för Adobe Commerce v2.2.0 eller senare. Den installeras när du har installerat Adobe Commerce.
+Adobe Commerce B2B-tillägget är bara tillgängligt för Adobe Commerce v2.2.0 eller senare. Den installeras när du har installerat Adobe Commerce.
 
 Installera den senaste versionen av B2B-tillägget som stöds i den distribuerade Adobe Commerce-versionen.
 
 >[!NOTE]
 >
->Dessa installationsanvisningar gäller för Adobe Commerce som driftsätts lokalt. Information om hur du installerar B2B-tillägget för Commerce-projekt som distribueras i molninfrastruktur finns i [Commerce Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
+>Dessa installationsanvisningar gäller för Adobe Commerce som driftsätts lokalt. Information om hur du installerar B2B-tillägget för Commerce-projekt som distribueras i molninfrastrukturen finns i [Commerce Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
 
 ## Krav
 
@@ -81,7 +81,7 @@ När installationen är klar konfigurerar och startar du meddelandekonsument, in
 
 ## Meddelandekunder
 
-Tillägget B2B för Adobe Commerce använder MySQL för meddelandeköhantering. I följande tabell visas de meddelandekunder som stöder B2B-funktioner. När du har installerat tillägget startar du meddelandekunderna för de B2B-funktioner som krävs för din Commerce Store.
+Adobe Commerce B2B-tillägget använder MySQL för meddelandeköhantering. I följande tabell visas de meddelandekunder som stöder B2B-funktioner. När du har installerat tillägget startar du meddelandekunderna för de B2B-funktioner som krävs för din Commerce Store.
 
 | Konsument | Beskrivning |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ Om du vill aktivera asynkrona åtgärder för B2B-funktioner måste du starta fl
 
 >[!TIP]
 >
->Om du vill köra den i bakgrunden lägger du till `&` till kommandot, återgå till en uppmaning och fortsätta köra kommandon. Exempel: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
+>Om du vill köra den i bakgrunden lägger du till `&` till kommandot, återgå till en uppmaning och fortsätta köra kommandon. Till exempel: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
 
 Mer information finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandbok_.
 
@@ -154,4 +154,4 @@ Du kan också konfigurera scheman för meddelandekunder från [Lagra konfigurati
 
 ## Aktivera B2B-funktioner i administratören
 
-När du har installerat B2B-tillägget för Adobe Commerce och startat meddelandetjänsten för konsumenterna måste du också [aktivera B2B-funktioner i administratören](enable-basic-features.md).
+När du har installerat Adobe Commerce B2B-tillägget och startat för meddelandeanvändarna måste du också [aktivera B2B-funktioner i administratören](enable-basic-features.md).

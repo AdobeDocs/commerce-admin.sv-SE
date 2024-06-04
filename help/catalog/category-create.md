@@ -3,9 +3,9 @@ title: Skapa kategorier
 description: Du kan skapa så många ytterligare underkategorier som behövs, enligt det maximala menydjup som har angetts i konfigurationen.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Definiera även eventuella associerade nyckelord och attribut, till exempel:
 
 1. Välj **[!UICONTROL Customer Group]** där kategoribehörigheterna gäller.
 
-   ![B2B för Adobe Commerce](../assets/b2b.svg) ([B2B för Adobe Commerce](../b2b/introduction.md) (endast) Om det behövs kan du välja **[!UICONTROL Shared Catalog]** i stället.
+   ![Adobe Commerce B2B](../assets/b2b.svg) ([Adobe Commerce B2B](../b2b/introduction.md) (endast) Om det behövs kan du välja **[!UICONTROL Shared Catalog]** i stället.
 
 1. Ange följande behörigheter efter behov:
 
@@ -192,7 +192,7 @@ Definiera även eventuella associerade nyckelord och attribut, till exempel:
 
 1. Ange designinställningarna efter behov:
 
-   - ([B2B för Adobe Commerce](../b2b/introduction.md) bara) Om du vill använda designinställningarna för den överordnade kategorin för den här kategorin anger du **[!UICONTROL Use Parent Category Settings]** till `Yes`.
+   - ([Adobe Commerce B2B](../b2b/introduction.md) bara) Om du vill använda designinställningarna för den överordnade kategorin för den här kategorin anger du **[!UICONTROL Use Parent Category Settings]** till `Yes`.
 
    - Om du vill ändra utformningen på kategorisidorna väljer du **[!UICONTROL Theme]** som du vill använda.
 

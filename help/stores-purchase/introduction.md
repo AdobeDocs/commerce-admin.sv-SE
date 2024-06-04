@@ -2,9 +2,9 @@
 title: Introduktion till butiker och inköpsupplevelser
 description: Lär dig mer om de funktioner som används för att skapa och hantera onlinebutiker och hur kunderna upplever sina inköp.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: a56509eeedbb30a1e9cacfd521ea4c18e0241d94
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Adobe Commerce och Magento Open Source minskar antalet beställningsfel genom at
 
 >[!TIP]
 >
->![B2B för Adobe Commerce](../assets/b2b.svg) Med installation och aktivering av B2B för Adobe Commerce kan du konfigurera _Snabbordning_ för kunder som är kopplade till ett företagskonto. Den här funktionen minskar orderprocessen till flera klick när de vet namnet eller SKU:n på de produkter de vill beställa. Du kan också konfigurera stöd för Negotiable Quotes för dina företagskonton. Mer information om B2B-funktionerna finns i [Användarhandbok för B2B för Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) Med installation och aktivering av Adobe Commerce B2B kan du konfigurera _Snabbordning_ för kunder som är kopplade till ett företagskonto. Den här funktionen minskar orderprocessen till flera klick när de vet namnet eller SKU:n på de produkter de vill beställa. Du kan också konfigurera stöd för Negotiable Quotes för dina företagskonton. Mer information om B2B-funktionerna finns i [Användarhandbok för Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## Shoppingassistans
 

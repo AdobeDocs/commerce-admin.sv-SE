@@ -3,9 +3,9 @@ title: Betalningar - översikt
 description: Läs om betalningsmetoder och -tjänster som stöds internt i Adobe Commerce och Magento Open Source.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Commerce och Magento Open Source har flera inbyggda offlinebetalningsmetod
 - [Betalning av banköverföring](bank-transfer.md)
 - [Check/penningorder](check-money-order.md)
 - [Inköpsorder](purchase-order.md)
-- [Betalning à conto](../b2b/enable-basic-features.md#configure-payment-on-account) ![B2B för Adobe Commerce](../assets/b2b.svg) (Finns med B2B för Adobe Commerce)
+- [Betalning à conto](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (Finns med Adobe Commerce B2B)
 
 ## Betalningsmetoder online
 
@@ -78,7 +78,7 @@ Tjänsterna för bedrägeriskydd och -filter undersöker skickade order innan tr
 
 >[!NOTE]
 >
->För att ge stöd åt uppdateringar för säkerhetsefterlevnad tas det signerade bedrägeriskyddet bort från Commerce från och med version 2.4.0. Om du har använt integreringen Signera i en version 2.3.x eller tidigare rekommenderar vi att du går över till [Tillägget Signera Bedrägeri och återbetalningsskydd](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. Se till att du upprätthåller uppdateringar för tillägget enligt leverantörens riktlinjer.
+>För att ge stöd åt uppdateringar av säkerhetsefterlevnad har spärrskyddet för signerade bedrägerier tagits bort från Commerce från och med version 2.4.0. Om du har använt integreringen Signera i en version 2.3.x eller tidigare rekommenderar vi att du går över till [Tillägget Signera Bedrägeri och återbetalningsskydd](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. Se till att du upprätthåller uppdateringar för tillägget enligt leverantörens riktlinjer.
 
 ## Felsökningsresurser
 

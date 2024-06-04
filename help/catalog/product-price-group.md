@@ -3,9 +3,9 @@ title: Grupppriser
 description: Lär dig hur du använder grupppriser för att ange priser för rabatterade artiklar baserat på kundgrupper i din butik.
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Priserna för kundgrupper ingår i [differentierad prissättning](product-price-
 
 1. I _[!UICONTROL Customer Group Price]_avsnitt, klicka **[!UICONTROL Add]**.
 
-   Om din butik innehåller [B2B för Adobe Commerce](../b2b/introduction.md) och har [delade kataloger](../b2b/catalog-shared.md) aktiverat, det här avsnittet är etiketterat _[!UICONTROL Catalog and Tier Price]_.
+   Om din butik innehåller [Adobe Commerce B2B](../b2b/introduction.md) och har [delade kataloger](../b2b/catalog-shared.md) aktiverat, det här avsnittet är etiketterat _[!UICONTROL Catalog and Tier Price]_.
 
    ![Avancerade priser](./assets/product-price-group.png){width="600" zoomable="yes"}
 

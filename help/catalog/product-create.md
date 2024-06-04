@@ -3,9 +3,9 @@ title: Skapa en produkt
 description: Lär dig mer om de typer av produkter som du kan skapa för din katalog.
 exl-id: ff90bf8a-a64d-403f-bd09-5c8167a36f0b
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ De vanligaste produktinställningarna och attributen visas överst på sidan, f�
 | [[!UICONTROL Product in Websites]](settings-basic-websites.md) | Identifierar varje webbplats där produkten är tillgänglig, enligt butikshierarkin. |
 | [[!UICONTROL Design]](settings-advanced-design.md) | Används för att tillämpa ett annat tema på produktsidan, ändra kolumnlayouten, bestämma var produktalternativen ska visas och ange anpassad XML-kod. |
 | [[!UICONTROL Gift options]](product-gift-options.md) | Används för att aktivera eller inaktivera ett presentalternativ vid utcheckning på produktnivå. |
-| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![B2B för Adobe Commerce](../assets/b2b.svg) (Tillgängligt med [B2B för Adobe Commerce](../b2b/introduction.md) endast) Möjliggör underhåll av delade kataloger med anpassade priser för olika företag. |
+| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt med [Adobe Commerce B2B](../b2b/introduction.md) endast) Möjliggör underhåll av delade kataloger med anpassade priser för olika företag. |
 | [[!UICONTROL Downloadable Information]](product-create-downloadable.md#step-5-complete-the-downloadable-information) | Används för att definiera parametrar för produkthämtning. |
 
 {style="table-layout:auto"}

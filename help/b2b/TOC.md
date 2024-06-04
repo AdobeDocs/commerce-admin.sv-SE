@@ -1,11 +1,11 @@
 ---
-user-guide-title: ”[!DNL B2B for Adobe Commerce] Användarhandbok”
+user-guide-title: ”[!DNL Adobe Commerce B2B] Användarhandbok”
 user-guide-description: Lär dig använda de integrerade B2B-funktionerna för Adobe Commerce,
-breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
+breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 3b282f7ead80bb7b01046137c9c7127f92b8726c
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%
@@ -13,9 +13,9 @@ ht-degree: 2%
 ---
 
 
-# [!DNL B2B for Adobe Commerce] Användarhandbok {#b2b}
+# [!DNL Adobe Commerce B2B] Användarhandbok {#b2b}
 
-+ [[!DNL B2B for Adobe Commerce] Användarhandbok](guide-overview.md)
++ [[!DNL Adobe Commerce B2B] Användarhandbok](guide-overview.md)
 + [Introduktion till B2B-funktioner](introduction.md)
 + [Versionsinformation](release-notes.md)
 + [Installation](install.md)

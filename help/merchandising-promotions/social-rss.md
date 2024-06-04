@@ -3,9 +3,9 @@ title: Sociala medier och RSS-flöden
 description: Lär dig hur du lägger till sociala medier och annan integrering med RSS-flöden för att skapa varumärkes- och produktmedvetenhet.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,11 @@ Sociala nätverksplatser har ett antal plugin-program som enkelt kan läggas til
 
 1. Ange en beskrivning **[!UICONTROL Block Title]** för intern referens.
 
-   Exempel: `Facebook Like Button`.
+   Till exempel: `Facebook Like Button`.
 
 1. Tilldela en unik **[!UICONTROL Identifier]** till blocket med alla gemener och understreck i stället för mellanslag.
 
-   Exempel: `facebook_like_button`.
+   Till exempel: `facebook_like_button`.
 
 1. Om din Commerce-instans har flera butiksvyer väljer du varje **[!UICONTROL Store View]** där blocket ska vara tillgängligt.
 
@@ -81,7 +81,7 @@ Sociala nätverksplatser har ett antal plugin-program som enkelt kan läggas til
 
 1. Klicka på i det övre högra hörnet **[!UICONTROL Add Widget]** och gör följande:
 
-   - ![B2B för Adobe Commerce](../assets/b2b.svg) (Endast tillgängligt med B2B för Adobe Commerce) I _Inställningar_ avsnitt, ange **[!UICONTROL Type]** till `CMS Static Block` och klicka **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Endast tillgängligt med Adobe Commerce B2B) I _Inställningar_ avsnitt, ange **[!UICONTROL Type]** till `CMS Static Block` och klicka **[!UICONTROL Continue]**.
 
    - Verifiera att **[!UICONTROL Design Theme]** är inställt på det aktuella temat.
 

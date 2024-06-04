@@ -3,9 +3,9 @@ title: Nivåpriser
 description: Lär dig hur du använder nivåpriser för att erbjuda en mängdrabatt från en produktlista eller produktsida.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Priserna i butiken har företräde från högsta till lägsta kvantitet. Om du h
 
 1. Om din butik har flera webbplatser väljer du **[!UICONTROL Website]** för vilket nivåpriset gäller.
 
-1. Om det behövs kan du begränsa tillgången på prisnivån genom att välja **[!UICONTROL Customer Group]** eller **[!UICONTROL Shared Catalog]** (![B2B för Adobe Commerce](../assets/b2b.svg) Finns med [B2B för Adobe Commerce](./b2b/../introduction.md) endast).
+1. Om det behövs kan du begränsa tillgången på prisnivån genom att välja **[!UICONTROL Customer Group]** eller **[!UICONTROL Shared Catalog]** (![Adobe Commerce B2B](../assets/b2b.svg) Finns med [Adobe Commerce B2B](./b2b/../introduction.md) endast).
 
 1. För **[!UICONTROL Qty]** anger du den kvantitet som måste beställas för att få rabatten.
 
