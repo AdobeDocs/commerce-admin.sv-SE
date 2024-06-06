@@ -3,9 +3,9 @@ title: Vad är Adobe Commerce?
 description: Adobe Commerce är en e-handelsplattform för företag. Läs om de senaste funktionerna som ökar tillväxten för e-handelsteam över hela världen.
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 0774e2d0af7c3e33c726da8ae72012d97f42adb1
 workflow-type: tm+mt
-source-wordcount: '3320'
+source-wordcount: '3150'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ I och med att vi går längre in i 2024 är det viktigt för ledande företag at
 
 Forskning har visat att [64 % av kunderna](https://techreport.com/statistics/website-load-time-statistics-data) gå till en konkurrents webbplats och köpa en liknande artikel om deras webbupplevelse är dålig. Omvänt kan företag förvänta sig en förbättring av webbplatshastigheten med 0,1 sekunder [9,2 % ökning av genomsnittligt ordervärde](https://techreport.com/statistics/website-load-time-statistics-data).
 
-[EDGE DELIVERY SERVICES i ADOBE COMMERCE](https://experienceleague.adobe.com/developer/commerce/storefront/) är en uppsättning sammanställningsbara tjänster som ger affärsvärde genom att leverera enastående upplevelser, både när det gäller att skapa innehåll och kundupplevelser. Det kombinerar affärsbaserade funktioner, som dokumentbaserad framtagning av innehåll och inbyggd A/B-testning, med Adobe Commerce dropin-komponenter och innehållsleverans från kanten för blixtsnabba butiker&quot; (behöver t.ex. nämnas edge delivery).
+[EDGE DELIVERY SERVICES i ADOBE COMMERCE](https://experienceleague.adobe.com/developer/commerce/storefront/) är en uppsättning sammanställningsbara tjänster som ger affärsvärde genom att leverera enastående upplevelser, både när det gäller att skapa innehåll och kundupplevelser. Det kombinerar affärsbaserade funktioner, som dokumentbaserad framtagning av innehåll och inbyggd A/B-testning, med Adobe Commerce dropin-komponenter för centrala e-handelsfunktioner. Allt detta levereras från grunden för blixtsnabba butiksupplevelser.
 
 Den här nya högpresterande butiken har redan lotsats av flera Adobe Commerce-handlare, som [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), en egenskap för HanesBrands. Resultaten talar för sig själva. Macdenform pages consistent deliver Google Lighthues scores of [Resultat av 100 och Core Web Vitals](https://treo.sh/sitespeed/www.maidenform.com) långt över genomsnittet i branschen.
 
@@ -62,13 +62,14 @@ Hjärtat i denna nya upplevelsedrivna butik är en uppsättning principer som fo
 
 Konverteringen i Commerce är kopplad både till din förmåga att ansluta kunderna till era produkter på annan plats och till din förmåga att personalisera upplevelsen på plats på ett effektivt men målinriktat sätt. Genom att tillämpa principer i de centrala webbinarierna driver edge Delivery Service i Commerce båda mätvärdena.
 
-Det innebär att en snabbare, upplevelsestyrd webbplats rankas högre i sökmotorer, vilket sänker SEO-kostnaderna samtidigt som du ökar trafiken med organiska nyckelord och sökord. Detta ökar inte bara antalet besökare, det sammanför även kunder och produkter smidigare än någonsin tidigare, vilket gör att man snabbare kan hitta, välja och checka ut produkter.
+Det innebär att en snabbare, upplevelsestyrd webbplats rankas högre i sökmotorer, vilket sänker SEO-kostnaderna samtidigt som du ökar trafiken med organiska nyckelord och sökord. Detta ökar inte bara antalet besökare, det sammanför även kunder och produkter smidigare än någonsin tidigare, vilket gör det möjligt att snabbt identifiera, välja och checka ut produkter.
 
-Ni tjänar också på att kostnaderna för att skapa innehåll minskar eftersom era ägare av affärsmaterial snabbt och enkelt kan leverera samtidigt som era handelschefer levererar integrerade Commerce-funktioner. Inga fler operativa hinder för samarbetsteamen!
+Ni får också lägre kostnader för att skapa innehåll eftersom era ägare av affärsmaterial snabbt och enkelt kan förfina er butiksupplevelse samtidigt som era handelschefer levererar integrerade Commerce-funktioner. Inga fler operativa hinder för samarbetsteamen!
 
-Snabbhet för era team för innehållsframtagning, snabbhet när det gäller att leverera det innehållet till era kunder och snabbhet i den upplevelse era kunder lever i genom er nya, upplevelsestyrda, högpresterande butik.
+Allt detta uppnås med en sammansättningsbar arkitektur som sammanför CMS-system och publiceringsfunktioner med Adobe Commerce dropin-komponenter för att skapa en verkligt flexibel Commerce-butik. Adobe har en rad centrala funktioner för e-handel som dropins, bland annat produktlistsidor, produktinformationssidor och en ny listruta med ett enda steg som gör att du kan lägga till en smidig utcheckning på kundernas resor på ett plug-and-play-sätt. Kunderna kan börja använda Edge Delivery Services för viktiga delar av sin butik i kombination med sin befintliga teknik och sedan utöka från den sidan med tiden.
 
-Allt detta uppnås med en sammansättningsbar arkitektur som sammanför CMS- och publiceringsfunktionerna med Adobe Commerce dropin-komponenterna för att skapa en verkligt flexibel Commerce-butik. Ett bra exempel på detta är den nya enstegsknappen som gör att du kan lägga till en sömlös utcheckning på kundresan på ett plug-and-play-sätt.
+Resultatet: Snabbhet för era team som skapar innehåll, snabbhet när det gäller att leverera det innehållet till era kunder och snabbhet i hur era kunder interagerar digitalt med er via er nya, upplevelsestyrda, högpresterande butik.
+
 
 >[!TIP]
 >
@@ -80,9 +81,9 @@ Adobe sammanför Adobe Experience Manager Assets med Adobe Commerce för att ge 
 
 På så sätt kan en organisation använda Experience Manager Assets-Cloud Service som en enda källa till sanning för att skapa och hantera mediefiler och som en central DAM som driver Adobe Commerce till nya höjder av tillgångsskalbarhet.
 
-Med en ny tjänst för regelmotor kan du mata resurser i Experience Manager Assets till matchade produkter i Adobe Commerce baserat på SKU eller andra nyckelattribut baserade på din Commerce strategi. Uppdateringar delas automatiskt för att säkerställa att sajten har de senaste produktresurserna och variationerna av resurser på plats.
+Med en ny tjänst för regelmotor kan du mata resurser i Experience Manager Assets till matchade produkter i Adobe Commerce baserat på SKU eller andra nyckelattribut beroende på din Commerce strategi. Uppdateringar delas automatiskt för att säkerställa att sajten har de senaste produktresurserna och variationerna av resurser på plats.
 
-Skapa butiker för nya produktlanseringar eller säsongskampanjer snabbare genom att generera miljontals produktvarianter för personaliserade Commerce-upplevelser med hjälp av GenAI-tjänster i Experience Manager Assets.
+Anpassa er kundupplevelse och ge stöd för nya produktlanseringar, marknadsexpansion eller säsongskampanjer snabbare genom att generera miljontals produktvariationer med hjälp av GenAI-tjänster i Experience Manager Assets.
 
 ### B2B Commerce
 
@@ -108,7 +109,7 @@ Båda funktionerna är kompatibla med Adobe Commerce inbyggda butiksarkitektur o
 
 [Betalningstjänster för Adobe Commerce](https://business.adobe.com/products/magento/payment-services.html) är en SaaS-tjänst som förenklar betalningar och ökar konverteringar och försäljningsintäkter. Den används av företag som Toyota North America och har stöd för en rad betalningsmetoder och valfria funktioner för bedrägeri och missbruk på flera marknader. Det gör det möjligt för handlarna att på ett säkert sätt hantera betalningar och beställa data i en enda administratörsupplevelse för effektivitetsvinster.
 
-Den senaste releasen bygger på en rad uppdateringar från 2023 som lade till Apple Pay, en integrering med Signifyd, internationellt stöd för Storbritannien, Frankrike och Australien, infrastrukturskalning för företagsvolym och transaktionsrapportering. Nya funktioner ger fler betalningsalternativ och gör det enklare att komma igång, oavsett vilken butiksteknik som används.
+Den senaste releasen bygger på en rad uppdateringar från 2023 som lade till Apple Pay, en integrering med Signifyd för bedrägeriskydd, internationellt stöd för Storbritannien och Frankrike, infrastrukturskalning för företagsvolym och transaktionsrapportering. Nya funktioner ger fler betalningsalternativ och gör det enklare att komma igång, oavsett vilken butiksteknik som används.
 
 >[!TIP]
 >
@@ -118,7 +119,7 @@ Den senaste releasen bygger på en rad uppdateringar från 2023 som lade till Ap
 
 [!BADGE Ute nu]{type=Informative tooltip="Ute nu"}
 
-I den senaste versionen innehåller Betalningstjänster nu stöd från GraphQL så att handlarna kan acceptera och bearbeta betalningar för headless Store-implementeringar, som Adobe Experience Manager och andra anpassade front end-system.
+Betalningstjänster inkluderar nu stöd från GraphQL så att handlarna kan acceptera och bearbeta betalningar för headless Store-implementeringar, som Adobe Experience Manager och andra anpassade front end-system.
 
 Betalningstjänster ger dig även rätt prissättning, inklusive Interchange++ för mer konkurrenskraftig betalningshantering och [självbetjäningsintroduktion](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/get-started/production) till Payment Services Basic som ger betalningshantering i nästan 200 regioner världen över.
 
@@ -128,7 +129,7 @@ Betalningstjänster ger dig även rätt prissättning, inklusive Interchange++ f
 
 #### Google Pay for Payment Services
 
-[!BADGE Ute nu]{type=Informative tooltip="Tillgängligt 1H 2024"}
+[!BADGE Ute nu]{type=Informative tooltip="Ute nu"}
 
 Adobe Commerce har nu stöd för Google Pay, en ledande digital plånbok som förväntas bli [36 miljoner konsumenter](https://forecasts-na1.emarketer.com/591373e4aeb8830e3829e400/5efc402eac4d4d07841472f9?_gl=1*qmtm8x*_ga*OTEwMjg4NjExLjE3MDY2MzQ2MTk.*_ga_XXYLHB9SXG*MTcwNjk3NjkzNS44LjAuMTcwNjk3NjkzNS42MC4wLjA.*_gcl_au*MTkwNzgzOTY5OS4xNzA2NjM0NjE5LjQ3MzE4MjY5LjE3MDY3MTcyMjUuMTcwNjcxNzIyNQ.) kunder globalt. Google Pay ger stöd för de populära digitala plånböckerna som Apple Pay och PayPal.
 
@@ -138,7 +139,7 @@ Dessa digitala plånböcker ger kunderna rätt betalningsmetod för dem, vilket 
 >
 >Läs mer om hur du konfigurerar Google Pay i [dokumentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/payments-checkout/payments-options#google-pay-button).
 
-### AI-driven personalisering med Live Search
+### Live Search med Adobe Sensei
 
 [!BADGE Ute nu]{type=Informative tooltip="Ute nu"}
 
@@ -150,13 +151,13 @@ Adobe senaste version av Live Search fokuserar på att göra dessa funktioner en
 
 En handlare kan t.ex. ange en regel om att sökfrågor som innehåller frasen &quot;dress&quot; ska sorteras efter _trendobjekt_ algoritm. Samma handlare kan sedan använda _mest köpta_ för alla andra sökfrågor. Med den här uppdateringen kan varumärken visa upp sina bästa produkter för varje sökning, vilket förenklar personaliserad varuexponering.
 
-![En skärmbild av en sökmotor](assets/default-search-rule.png){align="center" zoomable="yes"}
+![En skärmbild av en sökmotor](assets/default-search-rule.png){align=center zoomable=&quot;yes&quot;}
 
 Adobe har också introducerat nya anpassningsalternativ för Live Search. Använda Live Search [PLP-widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling) och [Popovisningswidget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover)kan du utforma gränssnittsfunktionerna för Live-sökning, inklusive färgrutor, layoutalternativ för produktinformation, lägga till i kundvagnsknappar, prisreglage med mera med hjälp av verktygen för låg kodkonfiguration. Adobe ger full flexibilitet genom [öppna kodarkiv](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install), som fungerar som en implementering av metodtips.
 
 >[!TIP]
 >
->Läs mer om hur du kommer igång med Live Search i [dokumentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview):
+>Läs mer om hur du kommer igång med Live Search i [dokumentation och uppdaterad installationsguide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
 
 #### Instrumentpanel för datahantering
 
@@ -172,7 +173,7 @@ Den nya instrumentpanelen kan nås direkt från Adobe Commerce Admin ([!UICONTRO
 
 Förra året släpptes Adobe Commerce [Dataanslutning](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview), som automatiskt samlar in, mappar och delar en mängd Commerce-data, inklusive butiksklickningar, orderstatus och orderhistorik. Idag använder ledande företag inom digital handel Data Connection för att bryta ned datastrukturen, skapa enhetliga kundprofiler och målgrupper, personalisera kundresor och för att ge avancerade analyser.
 
-Under det första halvåret i år kommer Adobe att dela ännu fler data, bland annat [Commerce kundprofiler](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/update-account), mobilappsbeteende och anpassade attribut för back-office-event för att personalisera kampanjer och upplevelser i stor skala.
+I år kommer Adobe att dela ännu mer data, inklusive [Commerce kundprofiler](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/update-account), mobilappsbeteende och anpassade attribut för back-office-event för att personalisera kampanjer och upplevelser i stor skala.
 
 Kunderna kan till exempel använda Commerce kundregistreringar i realtid för att utlösa välkomstkampanjer i [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started).
 
@@ -184,7 +185,7 @@ Inledda av hundratals implementeringar av Adobe Commerce tillsammans med andra A
 
 Med Adobe Commerce första spelbok kan kunderna enkelt starta övergivna kundvagnskampanjer genom att vägleda dem genom datakonfigurationsprocessen. När kunderna är anslutna kan de snabbt lansera kampanjer, spara tid och hjälpa dem att öka försäljningen. En global återförsäljare lyckades konvertera 1,9 gånger per klick, fler än 1 000 personer återengagerade per vecka och en tvåsiffrig intäktsökning på grund av lanseringen av kampanjer i Adobe Commerce och Adobe Journey Optimizer.
 
-Adobe lägger också till Commerce-specifika kontrollpaneler i Adobe Experience Platform för att hjälpa marknadsförarna att analysera sina Commerce-data och identifiera möjligheter till personalisering.
+Adobe lägger också till Commerce-specifika dashboards i Adobe Experience Platform, som t.ex. recency-, frekvens- och intäktsrapporter, för att hjälpa marknadsförarna att analysera sina Commerce-data och identifiera segmenteringsstrategier och möjligheter till personalisering.
 
 ![En bild av en övergiven kundvagnskampanj](assets/use-case-playbook.png){zoomable="yes"}
 
@@ -192,20 +193,20 @@ Adobe lägger också till Commerce-specifika kontrollpaneler i Adobe Experience 
 
 Förra året lanserades Adobe Commerce [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), som utnyttjar enhetliga kundprofiler och målgrupper från Real-Time CDP för att personalisera kundresor. I synnerhet [Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started) sammanfogar Commerce-data med data från andra källor för att skapa detaljerade kundprofiler och målgruppssegment för att målinrikta innehåll och kampanjerbjudanden i Adobe Commerce.
 
-Under det första halvåret utökar Adobe dessa [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) möjlighet att låta marknadsförare och handlare använda de målgrupper som definieras i Adobe Real-Time CDP för att personalisera fler aspekter av Adobe Commerce shoppingupplevelse, inklusive [relaterade produkter](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules), [kampanjer](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart)och [innehållsblock](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).
+Adobe har expanderat dessa [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) möjlighet att låta marknadsförare och handlare använda de målgrupper som definieras i Adobe Real-Time CDP för att personalisera fler aspekter av Adobe Commerce shoppingupplevelse, inklusive [relaterade produktregler](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) för merförsäljning och korsförsäljning utöver [kampanjer](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) och [innehållsblock](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).
 
 #### Spåra och personalisera handel i mobilappar
 
-Adobe levererar personaliserade upplevelser till mobilappshandeln. Använda [Dataanslutning](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)kan du skicka mobilappshändelser från Adobe Commerce till andra Adobe Experience Cloud-program, som Adobe Real-Time CDP, Adobe Journey Optimizer, Customer Journey Analytics, Adobe Analytics och Adobe Target. Använda [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)kan ni personalisera appupplevelsen - inklusive dynamiskt innehåll, kampanjer och relaterade produktregler - baserat på målgrupper som skapats och hanteras i Adobe Real-Time CDP.
+Adobe levererar också personaliserade upplevelser till mobilappshandeln. Använda [Dataanslutning](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)kan du skicka mobilappshändelser från Adobe Commerce till andra Adobe Experience Cloud-program, som Adobe Real-Time CDP, Adobe Journey Optimizer, Customer Journey Analytics, Adobe Analytics och Adobe Target. Använda [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)kan ni personalisera mobilappsupplevelsen - inklusive dynamiskt innehåll, kampanjer och relaterade produktregler - baserat på målgrupper som skapats och hanteras i Adobe Real-Time CDP.
 
 ![Mobilappsdata](assets/mobile-app-data.png)
 
 >[!TIP]
 >
 >- Läs mer om hur du kommer igång med Adobe Commerce Data Connection i [dokumentation](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
->- Om du vill påbörja din personaliseringsresa kan du gå igenom [personalisering i stor skala](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale).
+>- Om du vill starta din personaliseringsresa och lära dig mer om vanliga användningsfall för personalisering kan du läsa [personalisering i stor skala](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale).
 
-Utforska Cocas digitala omvandlingsresa för att skapa personaliserade shoppingupplevelser i stor skala med Adobe Commerce Data Connection till Adobe Journey Optimizer och CDP i realtid. [Coca-Cola: Låsa upp data för att skapa konsumentcentrerade Commerce-upplevelser](https://business.adobe.com/summit/2024/sessions/cocacola-unlocking-data-to-create-consumercentric-s434.html).
+Utforska Cocas digitala omvandlingsresa för att skapa personaliserade shoppingupplevelser i stor skala med Adobe Commerce Data Connection med Adobe Journey Optimizer och CDP i realtid. [Coca-Cola: Låsa upp data för att skapa konsumentcentrerade Commerce-upplevelser](https://business.adobe.com/summit/2024/sessions/cocacola-unlocking-data-to-create-consumercentric-s434.html).
 
 ## Teknikaktiverad Commerce
 
@@ -215,55 +216,22 @@ Adobe Commerce är en sammansättningsbar e-handelsplattform som utformats för 
 
 Traditionella sammansättningsbara applikationer byggs med hjälp av punktintegreringar mellan flera tjänster. Den här metoden leder till ett spritt integrationsskikt med ökad teknisk skuld. Adobe Commerce förser utvecklarna med omfattande tilläggspunkter samt en utbyggbar plattform för att samordna API:er, händelser och data, vilket ger en flexibel sammansättningsbar arkitektur. Adobe Commerce-plattformen innehåller följande:
 
-- Omfattande [API](https://developer.adobe.com/commerce/webapi/) täckning
-- [Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/) för att anpassa interna affärsprocesser
-- [Administratörsgränssnitt](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/) utbyggbarhet
-- Över 700 [händelser](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+- Omfattande [API](https://developer.adobe.com/commerce/webapi/) täckning och API-samordning med [API-nät](https://developer.adobe.com/graphql-mesh-gateway/)
+- [Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/) för att anpassa interna affärsprocesser som att lägga till i kundvagnen och kassan
+- Detaljstyra Commerce [Administratörsgränssnitt](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/) för anpassade säljfunktioner
+- Över 700 [händelser](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events) bygga skalbara händelsestyrda integreringar
 
 ![Adobe Commerce extensibility chart](assets/comprehensive-extensibility.png)
 
-### Förbättringar i webhooks och Admin UI SDK
-
-[!BADGE Ute nu]{type=Informative tooltip="Ute nu"}
-
-I och med den senaste versionen fortsätter Adobe att vara ledande när det gäller att förenkla den disponibla utvecklingen för e-handelsföretag. Nu kan du [konfigurera webhooks via administratörsgränssnittet](https://developer.adobe.com/commerce/extensibility/webhooks/admin-configuration/) vilket gör det ännu enklare att utöka interna affärsprocesser som utcheckning, tillägg i kundvagnen med mera. Webbhooks kan nu också aktiveras villkorligt. Du kan t.ex. utlösa en webkrok för beräkning av frakt för utcheckningsprocessen endast för specifika postnummer.
-
-Utvecklare har nu mer detaljkontroll för att utöka administratörsgränssnittet, till exempel genom att lägga till ytterligare [kolumner](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/product/grid-columns/), [knappar](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/order/view-button/)och [massåtgärder](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/order/mass-action/) till befintliga administrationspaneler.
-
-Senare i år kommer Adobe att öka tillgängligheten för API-nät till över 200 globala platser, vilket minskar nätverksfördröjningen och ger bättre beräkningstid och ger en bättre övergripande upplevelse för kunderna.
-
->[!TIP]
->
->Läs våra [dokumentation](https://developer.adobe.com/commerce/extensibility/webhooks/).
-
 ### Integrationsstartpaket och färdigbyggda ERP-integreringar
 
-[!BADGE Tillgänglig juni 2024]{type=Informative tooltip="Tillgänglig juni 2024"}
-
-Att integrera en e-handelsplattform med ERP, OMS eller CRM är ett verksamhetskritiskt krav. Företagen kan spendera tiotusentals dollar på att bygga upp dessa integreringar. För att minska kostnaderna för integrering med back-office-system och för att förbättra tillförlitligheten i realtidsanslutningar introducerar Adobe ett startpaket för integrering.
-
-Paketet innehåller referensintegrationer för vanliga affärsdata, inklusive order, produkter och kunder. Det innehåller även introduktionsskript och en standardiserad arkitektur för utvecklare som bygger vidare på bästa praxis. Startsatsen (som för närvarande finns i betaversionen) förväntas minska integreringsarbetet med upp till 50 %.
-
-Senare i år kommer Adobe också att släppa färdigbyggda integreringar för två vanliga ERP-program med startpaketet för integrering:
-
-- [Microsoft Dynamics Finance &amp; Operations](https://www.microsoft.com/en-us/dynamics-365/products/finance)
-- [SAP S/4HANA](https://www.sap.com/products/erp/s4hana.html)
-
-Dessa referensintegreringar kan enkelt anpassas av utvecklare för att tillgodose verksamhetens behov, vilket minskar time to market och kostnaden för integreringar.
-
-#### Prenumerationshandeln drivs av Zuora
-
 [!BADGE Ute nu]{type=Informative tooltip="Ute nu"}
 
-Enligt finansföretaget UBS är prenumerationsekonomin på väg att nå 1,5 biljoner dollar, vilket är en ökning från 650 miljarder dollar 2021. Både konsumenter och företag blir allt mer bekväma med att köpa prenumerationsprodukter och prenumerationstjänster på grund av deras bekvämlighet och värde.
+Att integrera en e-handelsplattform med ERP, OMS eller CRM är ett verksamhetskritiskt krav. Företagen kan spendera tiotusentals dollar på att bygga upp dessa integreringar. För att minska kostnaderna för integrering med back-office-system och för att förbättra tillförlitligheten i realtidsanslutningar erbjuder Adobe [startpaket för integrering](https://developer.adobe.com/commerce/extensibility/starter-kit/create-integration/) för Adobe Commerce.
 
-För att ge företag möjlighet att lägga till intäktsströmmar för prenumerationer och stödja befintliga affärsmodeller med återkommande intäkter har Adobe Commerce samarbetat med Zuora - den branschledande prenumerationshanteringsplattformen - för att lansera [Zuora-prenumerationshantering för Adobe Commerce](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) tillägg.
+Paketet innehåller referensintegrationer för vanliga affärsdata, inklusive order, produkter och kunder.  Det innehåller även introduktionsskript och en standardiserad arkitektur för utvecklare som bygger vidare på bästa praxis. Startpaketet förväntas minska integreringsarbetet med upp till 50 %. Dessa referensintegreringar kan enkelt anpassas av utvecklare för att tillgodose verksamhetens behov, vilket minskar time to market och kostnaden för integreringar.
 
-Byggt på Adobe App Builder-ramverket, [Zuora-tillägg](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) mottagen [Adobe Commerce App Assurance Program](https://developer.adobe.com/commerce/marketplace/guides/sellers/assurance/) erkännande av följande förenklade och genomförbara metoder för utveckling av bästa praxis, inklusive React-inbyggd front end-arkitektur och användning av Adobe I/O Events och Adobe API Mesh för att begränsa anpassningar inom Adobe Commerce kärnplattform.
-
->[!TIP]
->
->Läs mer om hur du kommer igång med Zuora-tillägget i [dokumentation](https://commercemarketplace.adobe.com/media/catalog/product/zuora-revenue-management-with-subcriptions-1-0-0-ece/installation_guides.pdf?1708112475).
+I juni 2024 kommer Adobe att släppa den första acceleratorn för ERP-integrering som byggts med detta startpaket för integrering för [Microsoft Dynamics Finance &amp; Operations](https://www.microsoft.com/en-us/dynamics-365/products/finance). Integrationsacceleratorn för Microsoft ERP kan användas för att bearbeta beställningar, uppdatera produktdata och kundposter samt synkronisera lagernivåer från Microsoft Dynamics Finance &amp; Operations med Adobe Commerce. Microsoft Dynamics Finance &amp; Operations Accelerator finns i [Commerce Marketplace](https://commercemarketplace.adobe.com/).
 
 ### Adobe Commerce HIPAA-förberedda lösning
 
