@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -370,7 +370,7 @@ Problemet kan bero på otillräcklig API-behörighet för den genererade token. 
 1. Be systemadministratören starta Adobe Experience Platform och gå till **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. Använd det tekniska kontots e-postadress ovan för att söka efter de autentiseringsuppgifter som ska ändras.
 1. Öppna inloggningsuppgifterna och välj **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. Lägg till **Tillgång till alla produktioner**.
+1. Lägg till rollen som innehåller **[!UICONTROL Manage destinations]** behörighet.
 1. Klicka på **[!UICONTROL Save]**.
 1. [Återskapa](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) åtkomsttoken i konsolen.
 1. Verifiera att token ger ett giltigt svar med [API för målanslutningar](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
