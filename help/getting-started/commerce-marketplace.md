@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Läs mer om [!DNL Commerce Marketplace], som erbjuder handlare ett välstrukturerat urval av lösningar och ger kvalificerade utvecklare de verktyg, den plattform och den plats där de ska arbeta för att skapa ett livskraftigt företag.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 1a5a00493e9994343c7decc763f2decdd11192c7
+source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Utvecklare har traditionellt använt PHP för att skapa tillägg i processen som
 
 Följande resurser är en startpunkt för nya användare som vill bekanta sig med appar:
 
-### Handelsresurser:
+### Commerce-resurser
 
 - [Konfigurera I/O-händelser för Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 - [Konfigurera händelser för Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 - [Konfigurera administratörens användargränssnitts-SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Konvertera ett tillägg till en app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### App Builder-resurser:
+### App Builder-resurser
 
-- [Översikt över Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
+- [Commerce App Builder - översikt](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [Konfigurera API Mesh för Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [Distribuera App Builder-appar](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD för App Builder-appar](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
@@ -85,11 +85,55 @@ Installationsprocessen för [!DNL Marketplace] köp skiljer sig åt för _lokal_
 
 ## Support
 
-Om du behöver hjälp med att installera eller använda ett tillägg ska du först titta i dokumentationen som medföljer tillägget. Om du inte hittar svaret på din fråga kan du kontakta utvecklaren direkt med kontaktinformationen i tilläggslistan.
+Om du behöver hjälp med att installera eller använda ett tillägg ska du först titta i dokumentationen som medföljer tillägget. Om du inte hittar svaret på din fråga kan du kontakta utvecklaren direkt med kontaktinformationen i tilläggslistan. Om det ni köper på Marketplace inte uppfyller era behov kan ni [begär återbetalning](#refund-requests) inom 25 dagar från inköpsdatumet. Adobe granskar alla ansökningar om återbetalning och (om det godkänns) utfärdar rätt återbetalning. Information om supportfrågor som rör Commerce Marketplace finns i [[!DNL Marketplace] Help Center][5].
 
-Om det du köper på Commerce Marketplace inte uppfyller dina behov kan du begära en återbetalning inom 25 dagar från inköpsdatumet. Adobe granskar alla ansökningar om återbetalning och utfärdar, om det godkänns, rätt återbetalning.
+### Utcheckningsproblem
 
-Information om supportfrågor som rör Commerce Marketplace finns i [[!DNL Marketplace] Help Center][5].
+Adressfälten i din kontoprofil måste fyllas i för verifieringsändamål i Marketplace-inköpssystemet.
+
+1. Lägg till adressfälten i din Marketplace-kontoprofil.
+1. Spara den uppdaterade profilen.
+1. Fortsätt med utcheckningen.
+
+### Inloggningsproblem
+
+Inloggningsproblem är vanligtvis relaterade till en felmatchning mellan ditt MAGEID och e-postadressen i kontodatabasen. Kontakta Marketplace Support om du behöver hjälp.
+
+>[!INFO]
+>
+>Program- och tilläggsköp kan inte göras [överförd](#purchase-transfers) till ett nytt konto.
+
+### Frågor om öppen källkod
+
+Marketplace Support-teamet löser problem som rör [commercial.emarketplace.adobe.com/](https://commercemarketplace.adobe.com/) och [commercial developer.adobe.com/](https://commercedeveloper.adobe.com/) endast webbplatser. Skicka frågor om Magento Open Source till [Community Forum](https://community.magento.com/) eller [kontakta en partner](https://business.adobe.com/products/magento/partners.html) som kan hjälpa till med Magento Open Source.
+
+### Återbetalningsbegäranden
+
+Om du vill få pengarna tillbaka för ett Marketplace-köp loggar du in på ditt konto och följer dessa steg:
+
+1. Klicka [!UICONTROL **Min profil**] > [!UICONTROL **Köphistorik**].
+1. Leta upp köpet och klicka på [!UICONTROL **Begär återbetalning**].
+1. Fyll i formuläret för återbetalningsorder.
+
+Marketplace Support begär information när återbetalningsbegäran har genererats. Återbetalningsalternativet är tillgängligt i 25 dagar efter inköpsdatum. Se [Marketplace-kundavtal](https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html).
+
+### Orderfakturor
+
+Du kan hämta orderfakturor från [!UICONTROL **Köphistorik**] på Marketplace-kontot. Fakturan anger inte säljarens moms eller adress eftersom det för närvarande inte är ett Marketplace-krav.
+
+Om du vill hämta en orderfaktura för ett Marketplace-inköp loggar du in på ditt Marketplace-konto och följer dessa steg:
+
+1. Klicka [!UICONTROL **Min profil**] > [!UICONTROL **Köphistorik**].
+1. Hitta köpet.
+1. Klicka på skrivarikonen i det övre högra hörnet av ordningen.
+
+### Inköpsöverföringar
+
+Marketplace Support-teamet har inte möjlighet att överföra inköp till ett annat konto. Du måste köpa alla program och tillägg under det primära Commerce-kontot för att undvika installations- och distributionsproblem. Adobe Commerce har rätt till en unik identifierare. Eftersom Composer används för installation är det bara en uppsättning [åtkomstnycklar](#create-an-access-key) som är knuten till det primära kontot kan användas. Den enda tillgängliga lösningen är att [begär återbetalning](#refund-requests) från Marketplace-inköpskontot (om det är tillåtet enligt Adobe Commerce återbetalningsvillkor).
+
+Du kan [dela](commerce-account-share.md) en Commerce-instans via det primära kontot. Delad åtkomst ger särskilda behörigheter till ett underordnat konto från ett primärt konto. Den delade åtkomstpunkten genereras från det primära kontot. Det primära kontot kan vara Commerce-kontot, huvudhandelskontot eller ett konto som delas inom en organisation.
+
+Dessa särskilda behörigheter ger samma åtkomstnivå på Adobe Commerce som den primära, men överförs inte till Adobe Commerce Marketplace eller Developer Portal. Det innebär att köp av ett tillägg från ett underordnat konto på Marketplace inte kan delas med det primära kontot. Delad åtkomst är en enkelriktad gata (primärt konto för underordnade). Det fungerar inte när ett underordnat konto försöker dela tillbaka till det primära kontot.
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home
