@@ -4,9 +4,9 @@ description: Lär dig mer om stöd för tvåfaktorsautentisering för att säker
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
+source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,11 @@ Slutför inställningarna för varje 2FA-metod som du behöver.
 
 Om du vill ändra hur länge engångslösenordet (OTP) är tillgängligt under inloggningen, avmarkerar du **[!UICONTROL Use system value]** kryssrutan. Ange sedan det antal sekunder som du vill ha **[!UICONTROL OTP Window]** att vara giltig.
 
+![Säkerhetskonfiguration - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+
 >[!NOTE]
 >
->I Adobe Commerce 2.4.7 och senare styr konfigurationsinställningen för fönstret för engångslösenord hur lång tid (i sekunder) som systemet accepterar en administratörs engångslösenord efter att det har gått ut. Värdet måste vara mindre än 30 sekunder. Systemets standardinställning är `1`.<br><br> I version 2.4.6 bestämmer fönsterinställningen för engångslösenord antalet tidigare och framtida koder för engångslösenord som förblir giltiga. Värdet för `1` anger att den aktuella koden för engångslösenord plus en kod tidigare och en kod i framtiden förblir giltig vid en given tidpunkt.
+>I Adobe Commerce 2.4.7 och senare styr konfigurationsinställningen för fönstret för engångslösenord hur lång tid (i sekunder) som systemet accepterar en administratörs engångslösenord efter att det har gått ut. Värdet måste vara mindre än 30 sekunder. Systemets standardinställning är `29`.<br><br> I version 2.4.6 bestämmer fönsterinställningen för engångslösenord antalet tidigare och framtida koder för engångslösenord som förblir giltiga. Värdet för `1` anger att den aktuella koden för engångslösenord plus en kod tidigare och en kod i framtiden förblir giltig vid en given tidpunkt.
 
 ### [!DNL Duo Security]
 
