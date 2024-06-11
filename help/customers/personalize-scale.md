@@ -3,9 +3,9 @@ title: Skapa övertygande, personaliserade upplevelser i stor skala
 description: Lär dig vilka funktioner som finns i Adobe [!DNL Commerce] gör att ni kan skapa en personaliserad upplevelse för era kunder.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: 728a1fdb413009a00377cd8205dde93cd4feadc8
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1808'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,22 @@ Adobe [!DNL Commerce] Datautbyte innehåller två huvudkomponenter:
 
 1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation): Använd [!DNL Real-Time CDP] målgrupper för att personalisera dynamiska innehållsblock, kampanjer och relaterade produktregler på Adobe [!DNL Commerce] webbplats.
 
+### Personaliserade Adobe Storefront-upplevelser i alla kanaler, i stor skala
+
+Adobe [!DNL Commerce] kan dra nytta av en högpresterande butik som kallas [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/), för att leverera personaliserade upplevelser i alla kanaler, med AI-funktioner i centrum och snabba upp som grund.
+
+Med Edge Delivery Services kan man
+
+- **Skapa personaliserat innehåll**: Använd dokumentbaserad redigering, inbyggda experiment med generativ AI-text och bildvariationer för att personalisera upplevelsen i stor skala. Använd Assets och Generative AI för att skapa bilder i stor skala.
+
+- **Generera variationer**: Innehållsförfattare kan använda generativ AI för att skapa stora volymer personaliserade AI-drivna [textinnehåll och bildvariationer](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/generative-ai/generate-variations) med Adobe Firefly.
+
+- **Distribuera via Edge Delivery Services Storefront**: Innehåll på Edge och Commerce med instickskomponenter som bas för att skapa anpassade shoppingupplevelser för era målgrupper.
+
+- **Commerce och Adobe Experience Manager Assets**: Generativ AI-produktion och variationer i stor skala. Skapa, leverera och övervaka innehållsleverans över alla kanaler.
+
+![Antal släppningar: Produktinformationssida](assets/drop-in.png){width="700" zoomable="yes"}
+
 ### Enkel personalisering: Kom igång med äkta Adobe [!DNL Commerce] funktioner
 
 Adobe [!DNL Commerce] levererar kraftfull personalisering med sina inbyggda färdiga funktioner. I följande tabell beskrivs [!DNL Commerce] funktioner som ni kan aktivera direkt för att komma igång med personaliseringsresan.
@@ -90,7 +106,7 @@ Adobe [!DNL Commerce] kunderna använder färdiga funktioner och delar data med 
 
 | Användningsfall | Lösning |
 |---|---|
-| **Personaliserat webbplatsinnehåll** - Anpassa banners för webbplatser och annat sidinnehåll baserat på kundernas agerande, som surfning och kategoritillhörighet. Distribuera innehåll som passar bäst baserat på resultaten från A/B-tester eller affärsmål. | **Adobe [!DNL Commerce] Endast**:<br>Distribuera segmentspecifika [dynamiska innehållsblock](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] med Real-Time CDP **:<br>Använd [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) för att driftsätta målgruppsspecifika dynamiska innehållsblock som svarar på åtgärder i realtid och enhetliga kundprofildata, samtidigt som de centralt hanterar profiler och målgrupper i Real-Time CDP.<br>**[!DNL Commerce] med[!DNL Target]**:<br>Anpassa alla delar av sajten, inklusive innehåll, navigeringsobjekt, sidlayout med mera med Adobe [!DNL Commerce] data i Adobe [!DNL Target]. A/B-testinnehåll, välj och distribuera automatiskt vinnande innehåll för varje kund.<br>**[!DNL Commerce] med AEM Assets **:<br>Lagra allt innehåll i Adobe Experience Manager Assets. Få direkt tillgång till materialet inifrån Adobe Commerce. Använd GenAI för att skapa innehållsvariationer som kan anpassas för olika segment eller målgrupper. |
+| **Personaliserat webbplatsinnehåll** - Anpassa banners för webbplatser och annat sidinnehåll baserat på kundernas agerande, som surfning och kategoritillhörighet. Distribuera innehåll som passar bäst baserat på resultaten från A/B-tester eller affärsmål. | **Adobe [!DNL Commerce] Endast**:<br>Distribuera segmentspecifika [dynamiska innehållsblock](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] med Real-Time CDP **:<br>Använd [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) för att driftsätta målgruppsspecifika dynamiska innehållsblock som svarar på åtgärder i realtid och enhetliga kundprofildata, samtidigt som de centralt hanterar profiler och målgrupper i Real-Time CDP.<br>**[!DNL Commerce] med[!DNL Target]**:<br>Anpassa alla delar av sajten, inklusive innehåll, navigeringsobjekt, sidlayout med mera med Adobe [!DNL Commerce] data i Adobe [!DNL Target]. A/B-testinnehåll, välj och distribuera automatiskt vinnande innehåll för varje kund.<br>**[!DNL Commerce] med AEM Assets **:<br>Lagra allt innehåll i Adobe Experience Manager Assets. Få direkt tillgång till materialet inifrån Adobe Commerce. Använd generativ AI för att skapa innehållsvariationer som kan anpassas för olika segment eller målgrupper. |
 | **Personaliserat erbjudande på plats baserat på beteende** - Skräddarsy kampanjer baserat på kundernas agerande, som surfning och kategoritillhörighet. Distribuera nästa bästa erbjudande baserat på resultaten av A/B-tester eller affärsmål. | **Adobe [!DNL Commerce] Endast**:<br>Distribuera segmentspecifik katalog och [kundprisregler](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] med Real-Time CDP**:<br>Använd [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) för att driftsätta målgruppsspecifika erbjudanden och centralt hantera profiler/målgrupper i Real-Time CDP.<br>**Commerce med[!DNL Target]**: Använd offer decisioning för att avgöra vilket erbjudande som ska distribueras, A/B-tester eller ange affärsmål för att vägleda erbjudanden som distribueras i Adobe Commerce. |
 
 ### Analyser och insikter
