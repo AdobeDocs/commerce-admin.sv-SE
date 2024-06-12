@@ -3,9 +3,9 @@ title: Skapa en relaterad produktregel
 description: Lär dig hur du skapar en relaterad produktregel som kan aktiveras för att visa relaterade produkter, merförsäljning och korsförsäljning.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
+source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Processen med att skapa en relaterad produktregel liknar att ställa in en prisr
 
    - Om regeln gäller för en viss [kundsegment](../customers/customer-segments.md), ange **[!UICONTROL Customer Segments]** till `Specified` och välj kundsegment i listan.
 
-   - (**Beta**) Om regeln gäller för en viss [Real-Time CDP](../customers/audience-activation.md), ange **[!UICONTROL Real-Time CDP Audience]** till `Specified` och välj Real-Time CDP målgrupp i listan. Den här funktionen är i betaversion. Om du vill gå med i betaprogrammet skickar du en förfrågan till [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Om regeln gäller för en viss [Real-Time CDP](../customers/audience-activation.md), ange **[!UICONTROL Real-Time CDP Audience]** till `Specified` och välj Real-Time CDP målgrupp i listan. Den här funktionen är i betaversion. Om du vill gå med i betaprogrammet skickar du en förfrågan till [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
      ![Regel för relaterade produkter - Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
 

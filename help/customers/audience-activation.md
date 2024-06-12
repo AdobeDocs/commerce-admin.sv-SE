@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
+source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 maj 2023_
 ![Nytt](../assets/new.svg) - Uppdaterade [Real-Time CDP Auditions dashboard](#real-time-cdp-audiences-dashboard) så att du kan sortera, söka efter och filtrera de aktiva målgrupperna i din Adobe Commerce-instans.
 
 +++
+
+### 2.2.0
+
+[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+
+_12 juni 2024_
+
+![Nytt](../assets/new.svg) - GA-version för [relaterade produktregler](../merchandising-promotions/product-related-rule-create.md) informerad av målgrupper.
 
 ### 2.1.1
 
@@ -172,9 +180,11 @@ Med [!DNL Audience Activation] om tillägget är aktiverat kan du:
 
 - [Skapa en kundvagnsprisregel](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informerad av målgrupper
 - [Skapa ett dynamiskt block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informerad av målgrupper
-- [(**Beta**) Skapa en relaterad produktregel](../merchandising-promotions/product-related-rule-create.md) informerad av målgrupper
+- [Skapa en relaterad produktregel](../merchandising-promotions/product-related-rule-create.md) informerad av målgrupper
 
-Ett komplett slutresultat om hur man exporterar [!DNL Commerce] data till Real-Time CDP, bygg en målgrupp och aktivera sedan målgruppen för [!DNL Commerce], se [Skapa en målgrupp i Real-Time CDP med [!DNL Commerce] händelsedata](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>[!TIP]
+>
+>Ett komplett slutresultat om hur man exporterar [!DNL Commerce] data till Real-Time CDP, bygg en målgrupp och aktivera sedan målgruppen för [!DNL Commerce], se [Skapa en målgrupp i Real-Time CDP med [!DNL Commerce] händelsedata](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP målgruppspanel
 
@@ -195,6 +205,7 @@ Kontrollpanelen innehåller följande fält:
 | `Websites` | Anger vilka webbplatser som är konfigurerade att använda målgrupperna. |
 | `Dynamic Blocks` | Anger vilka dynamiska block som är konfigurerade att använda målgrupperna. |
 | `Cart Price Rules` | Anger vilka kundprisregler som har konfigurerats för att använda målgrupperna. |
+| `Related Product Rules` | Anger vilka relaterade produktregler som har konfigurerats för att använda målgrupperna. |
 | `Last updated` | Anger när målgruppen ändrades i Real-Time CDP. |
 | `Sync now` | Hämtar nya eller uppdaterade målgrupper från Real-Time CDP. |
 | `Customize table` | Här kan du visa eller dölja `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`och `Last updated` kolumner. |
