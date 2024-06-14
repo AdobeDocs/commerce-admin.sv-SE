@@ -4,10 +4,10 @@ user-guide-description: Lär dig använda [!DNL Inventory Management] funktioner
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 4%
+source-wordcount: '137'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
    - [Beställnings- och reservationsstatus](order-status.md)
    - [Produkttyper](product-types.md)
 - Kom igång {#get-started}
-   - [Handelsuppgraderingar](migrate.md)
+   - [Commerce uppgraderingar](migrate.md)
    - [Installera och uppdatera](install-update.md)
    - [Merchant sourcing](merchant-sourcing.md)
    - [Expandera och strukturera om lager](expand-restructure.md)
@@ -58,3 +58,5 @@ ht-degree: 4%
    - [Ökning](shipments.md)
    - [Skapa försändelser](shipments-create.md)
 - [CLI-referens](cli.md)
+- [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

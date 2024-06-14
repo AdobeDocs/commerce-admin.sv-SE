@@ -5,9 +5,9 @@ breadcrumb-title: Komma igång
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -75,3 +75,5 @@ ht-degree: 0%
    + [Ekosystem](resources.md)
    + [Tillägg](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
++ [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

@@ -5,9 +5,9 @@ breadcrumb-title: Butiks- och inköpsupplevelser
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 3dad65e528716a459839ee7995b38850bf6feca8
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -131,3 +131,5 @@ ht-degree: 0%
       + [Översikt över leveransetikett](shipping-labels.md)
       + [Konfigurera etiketter för leverans](shipping-label-configure.md)
       + [Skapa leveransetiketter](shipping-label-create.md)
++ [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

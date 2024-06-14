@@ -3,9 +3,9 @@ user-guide-title: Content and Design Guide
 user-guide-description: Omfattande information om innehåll och designfunktioner för Adobe Commerce- och Magento Open Source-administratörer och e-handelskunder.
 breadcrumb-title: Innehåll och design
 feature: CMS, Page Content
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -79,3 +79,5 @@ ht-degree: 0%
    - [Kontrollpanel för mellanlagring](content-staging-dashboard.md)
    - [Lägg till ett kampanjobjekt](content-staging-add-item.md)
    - [Förhandsgranska en kampanj](content-staging-preview.md)
+- [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

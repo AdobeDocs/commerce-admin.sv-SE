@@ -5,10 +5,10 @@ breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: addc34aeb4418aa3a1a9c2fc3adca738352ef94f
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 8%
+source-wordcount: '80'
+ht-degree: 0%
 
 ---
 
@@ -46,3 +46,5 @@ ht-degree: 8%
    - [Produkter](products.md)
    - [Recommendations](recommendations.md)
 - [Mallar](templates.md)
+- [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
