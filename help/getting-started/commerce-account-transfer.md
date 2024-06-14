@@ -1,20 +1,20 @@
 ---
-title: Överför ett handelskonto
+title: Överföra ett Commerce-konto
 description: Lär dig hur du överför ditt Commerce-konto till en annan ägare eller e-postadress.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: dd8ccda17b0ef83cb4b0ce130fdc9315026733b1
+source-git-commit: 59a88468dabfd1042b664f658225de2504b66b1b
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '986'
 ht-degree: 1%
 
 ---
 
-# Överför ett handelskonto
+# Överföra ett Commerce-konto
 
 När ditt ansvar förändras kan du behöva överföra ägarskapet för ditt befintliga Commerce-konto till en ny ägare eller till en annan e-postadress. Den här överföringen kräver en ändring av den primära användarens e-postadress som är kopplad till kontot.
 
-Följande information beskriver processen för att överföra ett Commerce-konto (MAGEID). Den innehåller inga ändringar av ägarskap för molnkontot (molnprojektet). Mer information om åtkomst till molnprojekt finns i [Hantera användaråtkomst](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) i _Handbok för Commerce on Cloud Infrastructure_.
+Följande information beskriver processen för överföring av ett Commerce-konto (MAGEID). Det innehåller inga ändringar av ägarskapet för molnkontot (molnprojektet eller New Relic). Mer information om åtkomst till molnprojekt finns i [Hantera användaråtkomst](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) i _Infrastrukturhandbok för Commerce on Cloud_.
 
 ## Identifiera din överföringstyp
 
@@ -30,11 +30,11 @@ Hur du slutför den här överföringen beror på vilket av följande scenarier 
 
 >[!NOTE]
 >
->I takt med att Adobe Commerce fortsätter att integrera med andra Adobe-lösningar kräver nu ett Commerce-konto (MAGEID) en association med en inloggning från Adobe. Den här Adobe ID använder samma e-postadress som är kopplad till ditt Commerce-konto.
+>I takt med att Adobe Commerce fortsätter att integrera med andra Adobe-lösningar kräver nu ett Commerce-konto (MAGEID) en koppling till en Adobe-inloggning. Den här Adobe ID använder samma e-postadress som är kopplad till ditt Commerce-konto.
 
 >[!NOTE]
 >
->Om den aktuella eller nya ägaren har ett Adobe-inloggningskonto som är kopplat till andra Adobe-produkter/tjänster kan du öppna en [supportbiljett](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) för hjälp med att överföra ett Commerce-konto till ett annat Adobe ID.
+>Om den aktuella eller nya ägaren har ett Adobe-inloggningskonto som är kopplat till andra Adobe-produkter/tjänster kan du öppna en [supportbiljett](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) om du behöver hjälp med att överföra ett Commerce-konto till en annan Adobe ID.
 
 ## Ny ändring av Adobe ID och e-post
 
@@ -44,7 +44,7 @@ Hur du slutför den här överföringen beror på vilket av följande scenarier 
 
 Den här överföringstypen kräver att du först skapar en associerad Adobe ID och sedan ändrar kontot till den nya ägarens e-postadress.
 
-1. Gå till [Handelskonto](https://account.magento.com/customer/account/login/).
+1. Gå till [Commerce](https://account.magento.com/customer/account/login/).
 
 1. Klicka på **[!UICONTROL Sign in with Adobe ID]**.
 
