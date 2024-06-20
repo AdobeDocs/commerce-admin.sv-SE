@@ -3,9 +3,9 @@ title: Dataöverföring
 description: Läs mer om stöd för dataöverföring, inklusive datavalidering.
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: 62978d10bc1b53d3a7983b0a37ccd64e6ab0f740
+source-git-commit: ae3bb3463df13c30ce34739bb6e476d3f7422671
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Använd import- och exportverktygen för att hantera flera poster i en enda åtg
 
 Du kan till exempel lägga till nya produkter i lagret, uppdatera produktdata och avancerade prisdata och ersätta en uppsättning befintliga produkter med nya produkter. Med import- och exportverktygen hanterar du stora produktkataloger effektivare eftersom du kan exportera data, redigera dem i ett kalkylblad och importera dem tillbaka till butiken i stället för att utföra flera åtgärder i administratören.
 
-Förutom import- och exportverktygen har Adobe Commerce processer som [katalogsynkronisering](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/data-services/catalog-sync.html) som exporterar produktdata från Commerce-servern till SaaS-tjänster. För funktioner som [Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)kan synkroniseringen göra det möjligt att returnera rekommendationer med korrekta namn, priser och tillgänglighet.
+Förutom import- och exportverktygen har Adobe Commerce processer som [SaaS-dataexport](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) som exporterar produktdata från Commerce-servern till SaaS-tjänster. SaaS-dataexport är integrerad med Commerce SaaS-tjänster som innefattar [Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), [Katalogtjänst](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview)och [SaaS-prisindexering](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/price-indexer/price-indexing).
 
 ## Dataverifiering
 

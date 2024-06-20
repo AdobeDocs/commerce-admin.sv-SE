@@ -3,9 +3,9 @@ title: Instrumentpanel för datahantering
 description: Lär dig hur du får tillgång till insikter om dataströmmar för [!DNL Catalog Service], [!DNL Live Search]och [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 13f47c8dccb98a721924df716ae0793db6889f3a
+source-git-commit: e883a678885aefaf832cece431e458c5d7741c40
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ När du uppdaterar produkter i Commerce-databasen överförs produktdata till Sa
 >Den tid det tar att slutföra synkroniseringen varierar beroende på katalogstorleken och volymen på uppdaterade data.
 
 När antalet bearbetade produkter matchar antalet uppdaterade produkter anger det att synkroniseringen är klar.
+
+>[!NOTE]
+>
+>Adobe tillhandahåller också ett kommandoradsgränssnitt och systemloggar som utvecklare och systemintegratörer kan använda för att hantera och spåra synkroniseringsåtgärder och felsöka fel för Commerce SaaS-tjänster. Mer information finns i [Exportguide för SaaS-data](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Lista över synkroniserade produkter
 
