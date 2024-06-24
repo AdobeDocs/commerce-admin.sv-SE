@@ -3,9 +3,9 @@ title: Dela en [!DNL Commerce] konto
 description: Lär dig hur du ger begränsad åtkomst till dina [!DNL Commerce] konto för andra [!DNL Commerce] kontoinnehavare.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 1bf75814ed292a4623b934910026f9fb127058be
+source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ The [!DNL Commerce] Supportteamet har inte åtkomst till kontot och kan inte kon
    Den nya användarinformationen visas i _[!UICONTROL Manage Permissions]_på sidan Delad åtkomst och en e-postinbjudan med instruktioner om hur du får åtkomst till det delade kontot skickas till den nya användaren.
 
    ![Hantera behörigheter för delad åtkomst](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Du behöver inte dela åtkomst till _[!UICONTROL Security Tool]_- Alla användare med ett MAGE-ID kan ställa in säkerhetssökningsverktyget med ett eget konto. De behöver bara de nödvändiga behörigheterna för att göra ändringar på webbplatsen och för att verifiera ägarskapet av domänen med hjälp av en av [obligatoriska metoder](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
 
 ## Åtkomst till ett delat konto
 
