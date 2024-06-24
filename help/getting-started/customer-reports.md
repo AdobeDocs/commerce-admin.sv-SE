@@ -3,9 +3,9 @@ title: Kundrapporter
 description: Kundrapporter som finns i Adobe Commerce och Magento Open Source ger insikt i kundaktiviteten under en viss tidsperiod eller ett visst datumintervall.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,8 @@ På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL C
 | [!UICONTROL Interval] | Totalt orderintervall, efter `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Namnet på den kund som lade beställningarna. |
 | [!UICONTROL Orders] | Antalet order för det angivna intervallet. |
-| [!UICONTROL Average] | Genomsnittligt orderbelopp. |
-| [!UICONTROL Total] | Summan av alla order för perioden. |
+| [!UICONTROL Average] | Genomsnittligt orderbelopp. Detta belopp beräknas alltid för produktpriser **exklusive moms** även om katalogproduktpriserna, orderdelsumman och ordersumman omfattar moms. Det innebär att det belopp som visas i rapporten skiljer sig från det belopp som visas i orderinformationen om ordersummorna inkluderar moms. |
+| [!UICONTROL Total] | Summan av alla order för perioden. Detta belopp beräknas alltid för produktpriser **exklusive moms** även om katalogproduktpriserna, orderdelsumman och ordersumman omfattar moms. Resultatet blir att summan som visas i rapporten skiljer sig från det belopp som visas i orderdetaljerna om ordersummorna inkluderar moms. |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL C
 | [!UICONTROL Interval] | Antalet order, efter `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Kunden som gjorde beställningen. |
 | [!UICONTROL Orders] | Antalet order för det angivna intervallet. |
-| [!UICONTROL Average] | Genomsnittligt orderbelopp. |
-| [!UICONTROL Total] | Summan av alla order för perioden. |
+| [!UICONTROL Average] | Genomsnittligt orderbelopp. Detta belopp beräknas alltid för produktpriser **exklusive moms** även om katalogproduktpriserna, orderdelsumman och ordersumman omfattar moms. Det innebär att det belopp som visas i rapporten skiljer sig från det belopp som visas i orderinformationen om ordersummorna inkluderar moms. |
+| [!UICONTROL Total] | Summan av alla order för perioden. Detta belopp beräknas alltid för produktpriser **exklusive moms** även om katalogproduktpriserna, orderdelsumman och ordersumman omfattar moms. Resultatet blir att det belopp som visas i rapporten skiljer sig från det belopp som visas i orderdetaljerna om ordersummorna inkluderar uppgifter. |
 
 {style="table-layout:auto"}
 
