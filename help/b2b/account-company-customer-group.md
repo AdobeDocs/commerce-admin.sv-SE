@@ -4,9 +4,9 @@ description: Lär dig hur du tilldelar en kundgrupp till ett företagskonto i di
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ Att tilldela en kundgrupp till ett företag är i princip detsamma som att tilld
    >The [!UICONTROL Customer Group] listan innehåller alla befintliga delade kataloger, även om delade kataloger är inaktiverade i konfigurationen.
 
    Om du ändrar kundgruppen som tilldelats företaget uppdateras profilerna för alla företagsmedlemmar.
+
+   >[!NOTE]
+   >
+   >När företagsgruppen har ändrats måste en företagsanvändare logga ut och logga in på Storefront för att se nya priser i katalogen.
 
    ![Ändra kundgrupp eller delad katalog](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
