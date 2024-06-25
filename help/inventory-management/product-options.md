@@ -3,9 +3,9 @@ title: "Konfigurera [!DNL Inventory Management] produktalternativ"
 description: Lär dig hur du konfigurerar [!DNL Inventory Management] produktkonfigurationsalternativ.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: ccd93a54b6fa23a7a54fb423f8232c72cd8fe027
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,8 @@ Konfigurera kvantiteter och ytterligare inställningar per [tillagd källa](sour
 
    Till exempel kan en artikel som säljs i steg om sex köpas i kvantiteter om 6, 12, 18 osv.
 
+   **[!UICONTROL Qty Increments]** anges hur många produktartiklar som måste köpas som en enskild produkt och som underordnade till konfigurerbara, grupperade och paketerade produkter.
+
 1. När du är klar klickar du på **[!UICONTROL Done]** och sedan **[!UICONTROL Save]**.
 
 ### Fältbeskrivningar
@@ -113,7 +115,7 @@ Konfigurera kvantiteter och ytterligare inställningar per [tillagd källa](sour
 | [!UICONTROL Qty Uses Decimals] | Global | Avgör om kunderna kan använda ett decimalvärde i stället för ett heltal när de anger beställd kvantitet. Alternativ:<br />`Yes` - Tillåter att värden anges som decimaler i stället för som heltal. Decimaler är lämpliga för produkter som säljs efter vikt, volym eller längd.<br />`No` - Kräver att kvantitetsvärden anges som heltal. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Global | Anger om delar av produkten kan levereras separat. Det här alternativet visas när **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Global | Avgör hur restorder hanteras. Restorder ändrar inte orderns bearbetningsstatus. Pengarna godkänns eller hämtas direkt när beställningen görs, oavsett om produkten finns i lager eller inte. Produkterna levereras när de blir tillgängliga. När det här alternativet är aktiverat bör du ange ett negativt värde för tröskelvärdet för Ej lagrad. Alternativ:<br/>`No Backorders` - Tar inte emot restorder när produkten inte finns i lager.<br />`Allow Qty Below 0` - Accepterar restorder när kvantiteten är under noll.<br />`Allow Qty Below 0 and Notify Customer` - Accepterar restorder när kvantiteten är under noll, men meddelar kunderna att beställningar fortfarande kan göras. |
-| [!UICONTROL Enable Qty Increments] | Global | Avgör om produkten kan säljas i kvantitetssteg. |
+| [!UICONTROL Enable Qty Increments] | Global | Avgör om produkten kan säljas i kvantitetssteg. Ökningar anger hur många produktartiklar som måste köpas som en enda produkt och som underordnade till konfigurerbara, grupperade och paketerade produkter. |
 
 >[!NOTE]
 >

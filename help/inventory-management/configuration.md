@@ -3,9 +3,9 @@ title: "Konfigurera [!DNL Inventory Management]"
 description: Läs mer om konfigurationen av [!DNL Inventory Management] alternativ som bestämmer källans tillgänglighet, butiksprodukter och orderleverans.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Ett annat sätt att använda tröskelvärdet för lagertillgänglighet är att h
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Avgör om delar av en produkt kan levereras separat. Det här alternativet visas när **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Anger om restorder är tillåtna. Anges på källnivå, beräknad på lagernivå baserad på tilldelade källor. Om det här alternativet är aktiverat för att tillåta restorder anger du ett negativt värde för tröskelvärdet för Ej lagrad (se [Konfigurera backorders](backorders.md)) rekommenderas. Alternativ:<br />**[!UICONTROL No Backorders]**: Tar inte emot restorder när produkten inte finns i lager.<br />**[!UICONTROL Allow Qty Below 0]**: Accepterar restorder när kvantiteten är under noll.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: Accepterar restorder när kvantiteten är under noll, men meddelar kunderna om att beställningar fortfarande kan göras. |
 | [!UICONTROL Notify for Quantity Below] | Anger den kvantitet som utlöser ett meddelande för Kvantitet under, varningar för lågt lager. Detta belopp dras av från den säljbara kvantiteten, inte från lagerkvantiteten. |
-| [!UICONTROL Enable Qty Increments] | Avgör om produkten kan säljas i kvantitetssteg. Om det här alternativet är aktiverat anger du den kvantitet produkter som måste köpas i ett steg. |
+| [!UICONTROL Enable Qty Increments] | Avgör om produkten kan säljas i kvantitetssteg. Om det här alternativet är aktiverat anger du den kvantitet produkter som måste köpas i ett steg. Ökningar anger hur många produktartiklar som måste köpas som en enda produkt och som underordnade till konfigurerbara, grupperade och paketerade produkter. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] använder inte det här värdet. När du slutför en retur eller en kreditnota returneras produktkvantiteten automatiskt till den berörda källkvantiteten. Se [Konfigurerar produktalternativ](product-options.md). |
 
 ## Återgång och arv för konfigurationsfall
