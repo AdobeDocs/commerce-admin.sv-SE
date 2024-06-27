@@ -1,5 +1,7 @@
 ---
 cloud: Experience Cloud
+solution-title: Commerce
+solution: Commerce
 product: magento
 feature-set: Commerce
 type: Documentation
@@ -7,12 +9,10 @@ audience: end-user
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/commerce-admin.sv-SE
 role: Admin, User
-solution: Commerce
-solution-title: Commerce
 level: Beginner, Intermediate
 topic: Commerce, Administration
 index: true
-source-git-commit: 047315b5bfa440a0c01f9b555c2d3a209caf320a
+source-git-commit: 50e5e33f3f5b88726ee4b468d5d9533c297721cd
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
