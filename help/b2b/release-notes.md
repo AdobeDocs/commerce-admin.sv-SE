@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Commerce B2B] versionsinformation'
 description: Läs versionsinformationen för information om ändringar i [!DNL Adobe Commerce B2B] releaser.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
+source-git-commit: 17eec4e7755ce4e83fb0533940bdce6c96ddc717
 workflow-type: tm+mt
-source-wordcount: '6851'
+source-wordcount: '6867'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,13 @@ Betaversionen av B2B v1.5.0 innehåller nya funktioner, kvalitetsförbättringar
 ![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1825-->Inköpsorder kan inte längre placeras av en användare som är associerad med företaget efter att företaget har spärrats. Tidigare kunde en användare som är associerad med företaget göra inköpsorder när företaget blockerades.
 
 ![Korrigerat problem](../assets/fix.svg)<!--ACP2E-1933-->Företagsadministratörer kan nu lägga till företagsanvändare från butiken. Tidigare loggade Commerce ett fel när en Admin-användare försökte lägga till en ny användare: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+## B2B v1.4.2-p1
+
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+
+![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p1 och 2.4.6-p6 har lagts till.
+
 
 ## B2B v1.4.2
 
