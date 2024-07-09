@@ -3,9 +3,9 @@ title: Skapa en kundvagnsprisregel
 description: Lär dig hur du skapar en kundvagnsprisregel baserat på kundvagn- eller produktattribut.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
+source-git-commit: 6ac8d41de0f97767296216f8239311bc6fbf168e
 workflow-type: tm+mt
-source-wordcount: '3302'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -393,7 +393,7 @@ Anger villkoren som måste uppfyllas innan kundprisregeln aktiveras. Om inget an
 | [!UICONTROL Apply] | Bestämmer vilken typ av beräkning som ska tillämpas på inköpet. Alternativ: <br/>**[!UICONTROL Percent of product price discount]**- Rabattartikel genom att subtrahera en procentandel från det ursprungliga priset. Till exempel: Retur `10` in _[!UICONTROL Discount Amount]_till ett uppdaterat pris som är 10 % lägre än det ursprungliga priset.<br/>**[!UICONTROL Fixed amount discount]**- Rabattartikel genom att subtrahera ett fast belopp från det ursprungliga priset för varje kvalificerande artikel i kundvagnen. Till exempel: Retur `10` in_[!UICONTROL Discount Amount]_ till ett uppdaterat pris som är 10 USD mindre än det ursprungliga priset. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Rabatterar hela kundvagnen genom att subtrahera ett fast belopp från kundvagnens delsumma. Till exempel: Retur `10` in _[!UICONTROL Discount Amount]_för att subtrahera $10 från vagnsdelsumman. Som standard gäller rabatten endast delsumman i kundvagnen. Om du vill tillämpa rabatten på delsumman och skicka separat, se_Tillämpa på leveransbelopp _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definierar en kvantitet som kunden måste köpa för att få en kvantitet utan kostnad. (Med_[!UICONTROL Discount Amount]_ är Y.) |
 | [!UICONTROL Discount Amount] | (Obligatoriskt) Erbjudandet om rabatt. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Anger det maximala antalet produkter som rabatten kan tillämpas på i samma inköp. |
-| [!UICONTROL Discount Qty Step (Buy X)] | Anger antalet produkter som representeras av `X` i en `Buy X Get Y Free` kampanj. |
+| [!UICONTROL Discount Qty Step (Buy X)] | Anger antalet produkter som representeras av `X` i en `Buy X Get Y Free` kampanj. Definierar även hur många produkter som måste läggas ihop i varukorgen för att kunna användas `Fixed amount discount` och `Percent of product price discount` kampanjer. |
 | [!UICONTROL Apply to Shipping Amount] | Avgör om rabatten tillämpas separat på delsumman och leveransbeloppen. I annat fall tillämpas den bara på delsumman. Alternativ: `Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | Avgör om regler med lägre prioritet (1 är den högsta prioriteten) kan tillämpas på produkten när den här kundprisregeln är en matchning. Aktivera det här alternativet om du vill förhindra att flera rabatter används för samma produkt. Alternativ: `Yes` / `No` |
 | [!UICONTROL Free Shipping] | Avgör om fri frakt ingår i kampanjen och, i så fall, för vilka artiklar. Alternativ: <br/>**[!UICONTROL No]**- Fri frakt är inte tillgängligt för den aktuella regeln.<br/>**[!UICONTROL For matching items only]** - Fri frakt endast för specifika artiklar i vagnen som matchar regeln. <br/>**[!UICONTROL For shipment with matching items]**- Fraktfritt för alla artiklar i vagnen. The [Fri frakt](../stores-purchase/shipping-free.md) leveransmetoden måste vara aktiverad för att det här alternativet ska kunna användas. |
