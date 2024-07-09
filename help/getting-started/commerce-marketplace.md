@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Läs mer om [!DNL Commerce Marketplace], som erbjuder handlare ett välstrukturerat urval av lösningar och ger kvalificerade utvecklare de verktyg, den plattform och den plats där de ska arbeta för att skapa ett livskraftigt företag.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
+source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Följande resurser är en startpunkt för nya användare som vill bekanta sig me
 
 - [Commerce App Builder - översikt](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [Konfigurera API Mesh för Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [Distribuera App Builder-appar](https://developer.adobe.com/app-builder/docs/guides/deployment/)
+- [Distribuera App Builder-program](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD för App Builder-appar](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - Komma igång med App Builder/Developer Console
    - [Komma igång med App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
@@ -85,7 +85,7 @@ Installationsprocessen för [!DNL Marketplace] köp skiljer sig åt för _lokal_
 
 ## Support
 
-Om du behöver hjälp med att installera eller använda ett tillägg ska du först titta i dokumentationen som medföljer tillägget. Om du inte hittar svaret på din fråga kan du kontakta utvecklaren direkt med kontaktinformationen i tilläggslistan. Om det ni köper på Marketplace inte uppfyller era behov kan ni [begär återbetalning](#refund-requests) inom 25 dagar från inköpsdatumet. Adobe granskar alla ansökningar om återbetalning och (om det godkänns) utfärdar rätt återbetalning. Information om supportfrågor som rör Commerce Marketplace finns i [[!DNL Marketplace] Help Center][5].
+Om du behöver hjälp med att installera eller använda ett tillägg ska du först titta i dokumentationen som medföljer tillägget. Om du inte hittar svaret på din fråga kan du kontakta utvecklaren direkt med kontaktinformationen i tilläggslistan. Om det ni köper på Marketplace inte uppfyller era behov kan ni [begär återbetalning](#refund-requests) inom 25 dagar från inköpsdatumet. Adobe granskar alla ansökningar om återbetalning och (om det godkänns) utfärdar rätt återbetalning. Om du har frågor om Commerce Marketplace kontaktar du [Support](mailto:commercemarketplacesupport@adobe.com).
 
 ### Utcheckningsproblem
 
@@ -139,5 +139,4 @@ Dessa särskilda behörigheter ger samma åtkomstnivå på Adobe Commerce som de
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://business.adobe.com/products/magento/magento-commerce.html
