@@ -3,9 +3,9 @@ user-guide-title: Content and Design Guide
 user-guide-description: Omfattande information om innehåll och designfunktioner för Adobe Commerce- och Magento Open Source-administratörer och e-handelskunder.
 breadcrumb-title: Innehåll och design
 feature: CMS, Page Content
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 0%
       - [Hantera temaresurser](theme-assets.md)
       - [Schemalägg designuppdateringar](schedule.md)
    - [Inställningar för sidavsnitt](page-setup.md)
-   - Layout {#layout}
+   - Sidlayout {#layout}
       - [Ökning](page-layout.md)
       - [Layoutexempel för Storefront](page-layout-examples.md)
       - [Layoutuppdateringar](layout-updates.md)
 - Innehållselement {#elements}
-   - Sidor {#pages}
+   - Sidorna {#pages}
       - [Ökning](pages.md)
       - [Kontroller för arbetsytan Sida](pages-workspace.md)
       - [Lägga till och ta bort sidor](page-add.md)
@@ -51,7 +51,7 @@ ht-degree: 0%
       - [Ny widget för produktlista](widget-new-products-list.md)
       - [Widgeten Beställningar och returer](widget-orders-returns.md)
       - [Karusellwidget för kataloghändelser](widget-event-carousel.md)
-- WYSIWYG Editor {#wysiwyg}
+- WYSIWYG-redigerare {#wysiwyg}
    - [Ökning](editor.md)
    - [Infoga en länk](editor-insert-link.md)
    - [Infoga en bild](editor-insert-image.md)
@@ -63,6 +63,13 @@ ht-degree: 0%
       - [Använda en mediedatabas](media-storage-database.md)
       - [Använd ett leveransnätverk](media-storage-content-delivery-network.md)
       - [URL för dynamiska media](catalog-urls-dynamic-media.md)
+   - Experience Manager Assets {#aem-assets}
+      - [Integrering med Assets](aem-assets.md)
+      - Onboarding {#onboarding}
+         - [Konfigurera AEM Assets](aem-assets-configure-aem.md)
+         - [Konfigurera Adobe Commerce](aem-assets-configure-commerce.md)
+         - [Konfigurera synkroniseringstjänster](aem-assets-setup-synchronization.md)
+      - [Använd AEM Assets](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Integrering med Adobe Stock](adobe-stock.md)
       - [Använda Adobe Stock-bilder](adobe-stock-manage.md)

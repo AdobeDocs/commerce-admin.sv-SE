@@ -1,24 +1,24 @@
 ---
 title: Produktlista
-description: Läs mer om[!UICONTROL Products]-sidan i Admin, där du kan skapa produkter och redigera befintliga.
+description: Lär dig mer om sidan _[!UICONTROL Products]_ i Admin, där du kan skapa produkter och redigera befintliga.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Produktlista
 
-Alla produkter i katalogen är tillgängliga från _[!UICONTROL Products]_i Admin, där du kan skapa produkter och redigera befintliga. Vid installation på flera platser kan varje webbplats erbjuda olika produkter som ska säljas från samma katalog.
+Alla produkter i katalogen är tillgängliga från sidan _[!UICONTROL Products]_i Admin, där du kan skapa produkter och redigera befintliga. Vid installation på flera platser kan varje webbplats erbjuda olika produkter som ska säljas från samma katalog.
 
-The _[!UICONTROL Products]_listan innehåller alla produkter i katalogen, anger de webbplatser där de är tillgängliga och om de är aktiverade för försäljning. I Adobe Commerce B2B-installationer med [delade kataloger](../b2b/catalog-shared.md) aktiverat innehåller rutnätet en kolumn som anger vilka produkter som har alternativa rabattpriser i en delad katalog.
+Listan _[!UICONTROL Products]_innehåller alla produkter i katalogen, visar de webbplatser där de är tillgängliga och om de är aktiverade för försäljning. I Adobe Commerce B2B-installationer där [delade kataloger](../b2b/catalog-shared.md) är aktiverade innehåller rutnätet en kolumn som anger vilka produkter som har alternativa rabattpriser i en delad katalog.
 
-Du kan bläddra igenom listsidan efter sida eller söka efter specifika produkter. Använd standarden [kontroller](../getting-started/admin-grid-controls.md) för att sortera och filtrera listan och använda [funktionsmakron](../getting-started/admin-actions-control.md) till utvalda produkter.
+Du kan bläddra igenom listsidan efter sida eller söka efter specifika produkter. Använd [standardkontrollerna](../getting-started/admin-grid-controls.md) för att sortera och filtrera listan och tillämpa [åtgärder](../getting-started/admin-actions-control.md) på valda produkter.
 
-![Produktstödraster](./assets/products-grid.png){width="700" zoomable="yes"}
+![Rutnät för produkter](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## Begränsa produktvisning
 
@@ -34,23 +34,23 @@ Den här konfigurationsinställningen för produktvisningsbegränsning är inakt
 
 >[!NOTE]
 >
->Om du inte vill att produktrutnätet ska begränsas använder du filter mer exakt för att skapa en samling som har färre objekt än det som anges i _[!UICONTROL Records Limit]_fält.
+>Om du inte vill att produktrutnätet ska begränsas använder du filter mer exakt för att skapa en samling som har färre objekt än det antal som anges i fältet _[!UICONTROL Records Limit]_.
 
-**_Så här konfigurerar du begränsningar för produktvisning:_**
+**_Så här konfigurerar du produktvisningsbegränsningen:_**
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera **[!UICONTROL Advanced]** och välja **[!UICONTROL Admin]**.
+1. Expandera **[!UICONTROL Advanced]** och välj **[!UICONTROL Admin]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Admin Grids]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Admin Grids]** och gör följande:
 
    - Ange **[!UICONTROL Limit Number of Products in Grid]** till `Yes`.
 
-   - (Valfritt) Ange ett värde i dialogrutan **[!UICONTROL Records Limit]** om du vill begränsa antalet produkter i rutnätet till ett visst värde. Standardminimivärdet är `20000`.
+   - (Valfritt) Ange ett värde i fältet **[!UICONTROL Records Limit]** för att begränsa antalet produkter i rutnätet till ett visst värde. Standardminimivärdet är `20000`.
 
    ![Konfigurationsinställningar för administratörsstödraster](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Sidkontroller
 
@@ -83,8 +83,9 @@ Den här konfigurationsinställningen för produktvisningsbegränsning är inakt
 | [!UICONTROL Visibility] | Anger var produkten visas i katalogen. Alternativ: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | Anger produktens status. Alternativ: `Enabled` och `Disabled` |
 | [!UICONTROL Websites] | Anger de webbplatser där produkten finns tillgänglig. |
+| [!UICONTROL Remote Media URL] | Om medieresurser för produkter hanteras med [AEM Assets-integrering för Commerce](../content-design/aem-assets.md) visas den här webbadressen för att visa Commerce-resursen i AEM Digital Asset Management-arkiv, den centrala databasen där resurserna finns. Det här fältet visas bara om AEM Assets-integreringen är aktiverad. |
 | [!UICONTROL Action] | Öppnar produkten i redigeringsläge. |
-| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt med [Adobe Commerce B2B](./b2b/../introduction.md) endast) Anger de delade kataloger som innehåller anpassade priser för produkten. |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med [Adobe Commerce B2B](./b2b/../introduction.md)) Anger de delade kataloger som innehåller anpassade priser för produkten. |
 
 {style="table-layout:auto"}
 
