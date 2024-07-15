@@ -2,7 +2,7 @@
 title: Konfigurera synkroniseringstjänsten
 description: "Lär dig hur du kopplar dina Adobe Commerce- och Experience Manager Assets-projekt till Assets Rule Engine-tjänsten för att möjliggöra resurssynkronisering mellan dessa två system."
 feature: CMS, Media
-source-git-commit: 9d7b1b58b472a99196213e5ab109142bc57b1692
+source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -45,8 +45,8 @@ Du behöver följande autentiseringsuppgifter för att autentisera och ansluta d
 | Obligatoriska data | Source | Var hittar du den? |
 | ---------- | ------ | ------------- |
 | API-nyckel från Magento-konto | Commerce | Ange den offentliga API-nyckeln för den Commerce-miljö som du använder, mellanlagring eller produktion. API-nycklarna för produktions- och mellanlagringsmiljöerna finns på sidan [Commerce Service Connector Setup](aem-assets-configure-commerce.md#configure-the-commerce-services-connector) i Admin, eller på sidan [!UICONTROL My Account] i avsnittet [!UICONTROL API Portal]. |
-| Commerce SaaS Project Identifier <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce Admin | Dessa värden identifierar Commerce-miljön och SaaS-datamallen och -projektet som ska anslutas till. Värdena kommer från [SaaS-identifierarkonfigurationen för Commerce Services Connector].(aem-assets-configure-commerce.md#configure-the-commerce-services-connector). |
-| AEM `programId`<br>`environmentId` | [AEM Assets redigeringsmiljö](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | Öppna AEM Sites-sidan och välj **[!UICONTROL Assets]**.  Kopiera projekt- och miljö-ID från URL:en: `https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
+| Commerce SaaS Project Identifier <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce Admin | Dessa värden identifierar Commerce-miljön och SaaS-datamallen och -projektet som ska anslutas till. Värdena kommer från [SaaS-identifierarkonfigurationen för Commerce Services Connector](aem-assets-configure-commerce.md#configure-the-commerce-services-connector). |
+| AEM `programId` och<br>`environmentId` | [AEM Assets redigeringsmiljö](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | Öppna AEM Sites-sidan och välj **[!UICONTROL Assets]**.  Kopiera projekt- och miljö-ID från URL:en:<br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
 | baseURL | Commerce storefront | [bas-URL](../stores-purchase/store-urls.md) för din Commerce-butik. |
 | OAuth-autentiseringsuppgifter för API-åtkomst | Commerce Admin | Du hittar dessa autentiseringsuppgifter i konfigurationsinställningarna för Commerce [för Assets-integreringen](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release). |
 

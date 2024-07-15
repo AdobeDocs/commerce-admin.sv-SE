@@ -2,7 +2,7 @@
 title: Installera och konfigurera Experience Manager Assets-integrering
 description: "Lär dig hur du installerar och konfigurerar  [!DNL AEM Assets Integration for Adobe Commerce]"
 feature: CMS, Media
-source-git-commit: 8d981258fcfe3515280fa8a7cc99770db7f467f4
+source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -171,8 +171,8 @@ AEM Assets Integration använder tjänsten Adobe I/O Events för att skicka anpa
 För konfiguration krävs följande steg.
 
 1. Aktivera Commerce Eventing-ramverket genom att konfigurera Adobe I/O-händelser på programservern och i Admin.
-1. Aktivera datasynkronisering mellan Adobe Commerce och AEM Assets genom att använda API:t för tjänsten Assets Rules Engine för att konfigurera anslutningen
-1. Aktivera integreringen av AEM Assets i Admin
+1. Aktivera datasynkronisering mellan Adobe Commerce och AEM Assets genom att använda API:t för tjänsten Assets Rules Engine för att konfigurera anslutningen.
+1. Aktivera integreringen av AEM Assets i Admin.
 
 ### Aktivera Commerce Eventing-ramverket
 
@@ -258,7 +258,7 @@ Du genererar autentiseringsuppgifterna genom att lägga till integreringen i Com
 
    1. Klicka på **[!UICONTROL API]** i den vänstra panelen.
 E
-   1. Välj den externa mediaresursen (**[!UICONTROL Catalog > Inventory > Products > External Media]**).
+   1. Välj den externa mediaresursen **[!UICONTROL Catalog > Inventory > Products > External Media]**.
 
    ![Admin Integration-konfiguration för API-resurser](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
@@ -281,15 +281,3 @@ Generera autentiseringsuppgifterna för OAuth på integreringssidan genom att kl
 >[!NOTE]
 >
 >Du kan också generera autentiseringsuppgifter med Adobe Commerce API:er. Mer information om den här processen och OAuth-baserad autentisering för Adobe Commerce finns i [OAuth-baserad autentisering](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) i Adobe Developer-dokumentationen.
-
-
-
-
-
-
-
-
-
-
-
-

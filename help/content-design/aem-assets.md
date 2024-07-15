@@ -2,9 +2,9 @@
 title: Experience Manager Assets Integration för Commerce
 description: Lär dig hur du integrerar Experience Manager Assets med din [!DNL Commerce] -instans för att få tillgång till ett oändligt antal mediefiler som kan användas i din butik.
 feature: CMS, Media, Configuration, Integration
-source-git-commit: fafe8d46931cc00e58d0888639fd8e739a170f8a
+source-git-commit: 8588973f265c6bd3dfdd41e574f27f653cc9da0e
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ Integrationen mellan Commerce och Adobe Experience Manager (AEM) Assets kombiner
    - **Dynamiska uppdateringar**-Håll produktbilderna aktuella med de senaste ändringarna i resurshanteringssystemet. Dessa automatiska uppdateringar säkerställer att butikerna alltid har den senaste produktinformationen.
    - **Effektiv kataloghantering**-Förenklar underhåll av produktkatalogen genom att automatisera rensning och uppdatering av resurser.
 
-## Vilka ändringar som görs när du aktiverar integreringen
-
-Produktlista - nytt fält [!UICONTROL Remote Media URL]
-
-Sidan med produktinformation - ingen ändring, förutom de resurser som visas kommer från AEM DAM
-
-
 ## Integrera Commerce och Experience Manager Assets
 
 >[!BEGINSHADEBOX]
@@ -51,12 +44,10 @@ Sidan med produktinformation - ingen ändring, förutom de resurser som visas ko
 
 >[!ENDSHADEBOX]
 
+Aktivera Commerce-integrationen med Experience Manager Assets genom att utföra följande uppgifter:
 
-Att möjliggöra Commerce-integrering med Experience Manager Assets är en trestegsprocess:
+1. [Konfigurera ditt Experience Manager Assets-projekt för att hantera Commerce-resurser](aem-assets-configure-aem.md)
 
-1. [Konfigurera ditt Experience Manager Assets-projekt för att hantera Commerce-resurser](aem-assets-configure-aem.md).
-
-1. [Installera Experience Manager Assets Integration-tillägget och konfigurera Adobe Commerce](aem-assets-configure-aem.md)
+1. [Installera Experience Manager Assets Integration-tillägget och konfigurera Adobe Commerce](aem-assets-configure-commerce.md)
 
 1. [Konfigurera synkroniseringstjänster](aem-assets-setup-synchronization.md)
-
