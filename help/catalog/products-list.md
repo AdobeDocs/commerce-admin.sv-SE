@@ -3,9 +3,9 @@ title: Produktlista
 description: Lär dig mer om sidan _[!UICONTROL Products]_ i Admin, där du kan skapa produkter och redigera befintliga.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
+source-git-commit: 8bb91b80f8ba957676c654e984deb5704b777612
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,6 @@ Den här konfigurationsinställningen för produktvisningsbegränsning är inakt
 | [!UICONTROL Visibility] | Anger var produkten visas i katalogen. Alternativ: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | Anger produktens status. Alternativ: `Enabled` och `Disabled` |
 | [!UICONTROL Websites] | Anger de webbplatser där produkten finns tillgänglig. |
-| [!UICONTROL Remote Media URL] | Om medieresurser för produkter hanteras med [AEM Assets-integrering för Commerce](../content-design/aem-assets.md) visas den här webbadressen för att visa Commerce-resursen i AEM Digital Asset Management-arkiv, den centrala databasen där resurserna finns. Det här fältet visas bara om AEM Assets-integreringen är aktiverad. |
 | [!UICONTROL Action] | Öppnar produkten i redigeringsläge. |
 | [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med [Adobe Commerce B2B](./b2b/../introduction.md)) Anger de delade kataloger som innehåller anpassade priser för produkten. |
 
