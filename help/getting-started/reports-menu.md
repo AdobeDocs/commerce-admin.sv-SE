@@ -1,38 +1,38 @@
 ---
-title: '[!UICONTROL Reports] menu'
+title: '[!UICONTROL Reports]-menyn'
 description: Adobe Commerce och Magento Open Source tillhandahåller ett stort urval rapporter som håller dig informerad om marknadsföringssatsningar, säljprodukter och kundaktiviteter.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
 source-git-commit: 35025c69bf9ba3902693cb9694bcf2b4e7882c7f
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Reports] meny
+# [!UICONTROL Reports]-menyn
 
 Adobe Commerce tillhandahåller ett stort urval rapporter som håller dig informerad om marknadsföringssatsningar, säljprodukter och kundaktiviteter. Menyn Rapporter ger enkel åtkomst till aktuell information om försäljning, produkter, kunder och kampanjer.
 
 ![Rapporter-menyn](./assets/overview.png){width="600"}
 
-## Visa [!UICONTROL Reports] meny
+## Visa menyn [!UICONTROL Reports]
 
-På _Administratör_ sidlist, välj **[!UICONTROL Reports]**.
+Välj **[!UICONTROL Reports]** på sidofältet _Admin_.
 
 ## Menyalternativ
 
 ### [!UICONTROL Marketing]
 
-Ett urval av [marknadsföringsrapporter](marketing-reports.md), inklusive produkter i kundvagnen, sökvillkor, övergivna kundvagnar och problemrapporter i nyhetsbrev.
+Ett urval av [marknadsföringsrapporter](marketing-reports.md), inklusive produkter i kundvagnen, sökvillkor, övergivna kundvagnar och nyhetsbrevets problemrapporter.
 
 ### [!UICONTROL Reviews]
 
-Val av produkt [granskningsrapporter](review-reports.md) omfattar Efter kund och Efter produkt.
+Urvalet av produkt [granskningsrapporter](review-reports.md) omfattar Efter kund och Efter produkt.
 
 ### [!UICONTROL Sales]
 
-Markeringen av [försäljningsrapporter](sales-reports.md) innehåller beställningar, moms, fakturering, frakt, återbetalningar, kuponger och kvittningsrapporter för PayPal och Braintree.
+Markeringen av [försäljningsrapporter](sales-reports.md) innehåller rapporter om beställningar, skatt, fakturerade, leveranser, återbetalningar, kuponger och kvittning för PayPal och Braintree.
 
 ### [!UICONTROL System Insights]
 
@@ -40,15 +40,15 @@ Markeringen av [försäljningsrapporter](sales-reports.md) innehåller beställn
 
 ### [!UICONTROL Customers]
 
-(Endast Adobe Commerce) [kundrapporter](customer-reports.md) innehåller Ordersumma, Orderkonto, Nytt, Önskningslistor och Segment.
+(Endast Adobe Commerce) Markeringen av [kundrapporter](customer-reports.md) innehåller Ordersumma, Orderkonto, Nytt, Önskningslistor och Segment.
 
 ### [!UICONTROL Products]
 
-Markeringen av [produktrapporter](product-reports.md) innehåller vyer, bestsellers, låg lagernivå, beställda och nedladdningar.
+Urvalet av [produktrapporter](product-reports.md) innehåller vyer, beställare, låg lagernivå, beställda och nedladdningar.
 
 ### [!UICONTROL Private Sales]
 
-(Endast Adobe Commerce) Urvalet av rapporter för [privat försäljning och evenemang](private-sales-reports.md) innehåller inbjudan, inbjudna kunder och konverteringar.
+(Endast Adobe Commerce) I urvalet av rapporter för [privat försäljning och evenemang](private-sales-reports.md) ingår Inbjudan, Inbjudna kunder och Konverteringar.
 
 ### [!UICONTROL Statistics]
 
@@ -56,4 +56,4 @@ Markeringen av [produktrapporter](product-reports.md) innehåller vyer, bestsell
 
 ### [!DNL Commerce Intelligence]
 
-Integrerad [[!DNL Commerce Intelligence]](business-intelligence.md) verktyg ger den insikt ni behöver för att fatta strategiska affärsbeslut.
+Integrerade [[!DNL Commerce Intelligence]](business-intelligence.md)-verktyg ger den insikt du behöver för att fatta strategiska affärsbeslut.

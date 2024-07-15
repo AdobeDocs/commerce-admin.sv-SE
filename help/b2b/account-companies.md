@@ -5,46 +5,46 @@ exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
 source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
 
 # Företagskonton
 
-När du lägger in B2B-företagskonton i din butik kan du förenkla företagets shoppingupplevelse genom att göra det möjligt för företag att skapa flera underkonton med flexibel behörighet baserat på användarroller i organisationen. Beroende på vilket företag det är kan en butiksadministratör anpassa kampanjer och priser efter deras behov och skapa skräddarsydda erbjudanden som tillgodoser kundernas krav och ökar beställningarna. Lägga till en företagskontoassociation till en standard [individuell](../customers/account-create.md) låter kunden använda de specifika inköpsarbetsflöden som definierats för företaget.
+När du lägger in B2B-företagskonton i din butik kan du förenkla företagets shoppingupplevelse genom att göra det möjligt för företag att skapa flera underkonton med flexibel behörighet baserat på användarroller i organisationen. Beroende på vilket företag det är kan en butiksadministratör anpassa kampanjer och priser efter deras behov och skapa skräddarsydda erbjudanden som tillgodoser kundernas krav och ökar beställningarna. Om du lägger till en företagskontoassociation till en standard [enskild](../customers/account-create.md) kan kunden använda de specifika inköpsarbetsflöden som definierats för företaget.
 
 Fördelar med ett företagskonto:
 
-- Obegränsat [företagsanvändare](account-company-users.md) och att skapa ytterligare konton, vilket förenklar företagsköp.
+- Erbjuder obegränsat antal [företagsanvändare](account-company-users.md) och skapande av ytterligare konton, vilket förenklar företagsköp.
 
-- Inkluderar stöd för _smart_ företagskontohierarki med annan [roller och behörigheter](account-company-roles-permissions.md) för beställningar.
+- Inkluderar stöd för en _smart_ företagskontohierarki med olika [roller och behörigheter](account-company-roles-permissions.md) för att placera order.
 
-- Tillhandahåller en mekanism för handlare att öka intäkterna genom att erbjuda [företagskredit](credit-company.md) som betalningsmetod.
+- Tillhandahåller en mekanism för handlare att öka intäkterna genom att erbjuda [företagskrediten](credit-company.md) som betalningsmetod.
 
 - Stöder [hantering](account-company-manage.md) av alla företagskonton i Admin.
 
 ## Visa företagskonton
 
-The _Företag_ visas alla aktiva företagskonton och väntande begäranden, oavsett statusinställning. Det innehåller även verktyg för [skapa](account-company-create.md) och [hantera](account-company-manage.md) företag. Använd standardkontrollerna för stödraster för att filtrera listan och justera kolumnlayouten. En lista med kolumnbeskrivningar finns i _Kolumnbeskrivningar_ avsnitt i [Hantera företagskonton](account-company-manage.md).
+Rutnätet _Företag_ visar alla aktiva företagskonton och väntande begäranden, oavsett statusinställning. Den innehåller även verktyg för att [skapa](account-company-create.md) och [hantera](account-company-manage.md) företagskonton. Använd standardkontrollerna för stödraster för att filtrera listan och justera kolumnlayouten. En lista med kolumnbeskrivningar finns i avsnittet _Kolumnbeskrivningar_ i [Hantera företagskonton](account-company-manage.md).
 
 Kunder kan skapa ett företagskonto från butiken eller en handlare kan skapa ett från administratören. Som standard är möjligheten att skapa företagskonton från butiken aktiverad. Om konfigurationen tillåter det kan en besökare i butiken begära att få öppna ett företagskonto. När företagskontot har godkänts kan företagsadministratören ställa in företagsstrukturen och användare med olika behörighetsnivåer.
 
-I _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]** i sidofältet _Admin_.
 
-![Företagsrutnät](./assets/companies-grid.png){width="700" zoomable="yes"}
+![Företagsstödraster](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-The [!UICONTROL Companies] visas alla företag oavsett status. Det exempel som visas visar konton för två företag:&quot;ACME&quot;-företaget och&quot;Vandelay&quot;-företaget.
+Rutnätet [!UICONTROL Companies] visar alla företag oavsett status. Det exempel som visas visar konton för två företag:&quot;ACME&quot;-företaget och&quot;Vandelay&quot;-företaget.
 
 ## Företagsadministratör
 
-I följande exempel visas _Kunder_ rutnät med de ursprungliga företagsadministratörskontona.
+I följande exempel visas rutnätet _Kunder_ med de ursprungliga företagsadministratörskontona.
 
-![Kundrutnät med företagskonto](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![Kundrutnät med företagsadministratörskonto](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
 Det är möjligt att den person som fungerar som företagsadministratör har flera roller inom företaget. Om en separat e-postadress anges för företagsadministratören, innehåller den inledande företagsstrukturen företagsadministratören plus ett individuellt användarkonto i företagsadministratörens namn. I så fall kan företagsadministratören logga in på kontot som företag eller som en enskild användare.
 
-Efter att kontot har skapats definierar företagsadministratören företagsstrukturen för [team](account-company-structure.md), ställer in [företagsanvändare](account-company-users.md)och upprättar [roller och behörigheter](account-company-roles-permissions.md) for each.
+När du har skapat kontot definierar företagsadministratören företagsstrukturen för [team](account-company-structure.md), konfigurerar [företagsanvändarna](account-company-users.md) och fastställer [roller och behörigheter](account-company-roles-permissions.md) för varje.
 
 ### Ange företagets administratörslösenord före första inloggningen
 
@@ -54,11 +54,11 @@ Efter att kontot har skapats definierar företagsadministratören företagsstruk
 
    >[!NOTE]
    >
-   >E-postadressmålen och innehållet i e-postmeddelandet bestäms av alternativen som anges i [e-postalternativ för företag](email-company-configuration.md) konfiguration.
+   >E-postadressmålen och innehållet i e-postmeddelandet bestäms av alternativen som anges i konfigurationen för [företagets e-postadress](email-company-configuration.md).
 
-1. Följer instruktionerna och klickar [!UICONTROL **link**] för att ange sitt lösenord.
+1. Följ instruktionerna och klicka på [!UICONTROL **link**] för att ange lösenordet.
 
-1. Skriver in a [!UICONTROL **Nytt lösenord**] för sitt konto och på nytt för att bekräfta.
+1. Ange ett [!UICONTROL **nytt lösenord**] för kontot och bekräfta igen.
 
    Lösenordet måste innehålla minst tre av följande teckentyper:
 
@@ -67,19 +67,19 @@ Efter att kontot har skapats definierar företagsadministratören företagsstruk
    - Nummer (1234567890)
    - Specialtecken (!@#$...)
 
-1. Klickningar [!UICONTROL **Ange ett nytt lösenord**].
+1. Klicka på [!UICONTROL **Ange ett nytt lösenord**].
 
    ![Kundinloggning - företagsadministratör](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
 
-1. När [!UICONTROL Customer Login] visas, kunderna anger [!UICONTROL **E-post**] och [!UICONTROL **Lösenord**].
+1. När sidan [!UICONTROL Customer Login] visas anger kunden sin [!UICONTROL **e-postadress**] och [!UICONTROL **lösenord**].
 
-1. Klickningar [!UICONTROL **Logga in**] för att få åtkomst till deras kontokontrollpanel.
+1. Klicka på [!UICONTROL **Logga in**] för att komma åt deras kontoinstrumentpanel.
 
-   ![Konto Dashboard - företag](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
+   ![Kontoinstrumentpanel - företag](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
 
 ## Företagsstruktur
 
-Ett företagskonto kan skapas för att återspegla affärsstrukturen. Till att börja med innehåller företagsstrukturen bara företagsadministratören, men kan utvidgas till att omfatta användargrupper. Användarna kan associeras med team eller vara organiserade i en hierarki av divisioner och indelningar inom företaget. Strukturen är utformad för att stödja användning av [regler för godkännande](account-dashboard-approval-rules.md) for [inköpsorder](purchase-order-flow.md) (PO) som är kopplade till företagskontot.
+Ett företagskonto kan skapas för att återspegla affärsstrukturen. Till att börja med innehåller företagsstrukturen bara företagsadministratören, men kan utvidgas till att omfatta användargrupper. Användarna kan associeras med team eller vara organiserade i en hierarki av divisioner och indelningar inom företaget. Strukturen har utformats för att stödja användning av [godkännanderegler](account-dashboard-approval-rules.md) för [inköpsorder](purchase-order-flow.md) (inköpsorder) som är kopplade till företagskontot.
 
 ![Företagsstruktur med divisioner](./assets/company-structure-diagram.svg){width="450"}
 

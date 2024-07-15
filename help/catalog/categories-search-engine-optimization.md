@@ -1,18 +1,18 @@
 ---
 title: Kategorier - Inställningar för sökmotoroptimering
-description: Läs mer om hur du använder [!UICONTROL Search Engine Optimization] inställningar för att definiera de URL-nyckelfält och metadatafält som används av sökmotorer för att indexera kategorin.
+description: Lär dig hur du använder inställningarna för [!UICONTROL Search Engine Optimization] för att definiera URL-nyckeln och metadatafälten som används av sökmotorer för att indexera kategorin.
 exl-id: 6c8af01d-d2aa-4c13-af76-663c47cbe38c
 feature: Catalog Management, Categories, Search
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 # Kategorier - Inställningar för sökmotoroptimering
 
-The _[!UICONTROL Search Engine Optimization]_-avsnittet anger [URL-nyckel](catalog-urls.md) och [metadata](../merchandising-promotions/meta-data.md) fält som används av sökmotorer för att indexera kategorin. Även om vissa sökmotorer ignorerar metatangentord används de fortfarande av andra. Det bästa sättet att använda SEO är att lägga in nyckelord med högt värde i både metatiteln och metabeskrivningen.
+Avsnittet _[!UICONTROL Search Engine Optimization]_anger fälten [ URL-nyckel ](catalog-urls.md) och [ metadata ](../merchandising-promotions/meta-data.md) som används av sökmotorer för att indexera kategorin. Även om vissa sökmotorer ignorerar metatangentord används de fortfarande av andra. Det bästa sättet att använda SEO är att lägga in nyckelord med högt värde i både metatiteln och metabeskrivningen.
 
 ![Sökmotoroptimering](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

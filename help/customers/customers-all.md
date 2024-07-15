@@ -11,33 +11,33 @@ ht-degree: 0%
 
 # Kundlista
 
-I Admin [!UICONTROL Customers] visas en lista över alla kunder som har registrerat sig för ett konto hos din butik eller som har lagts till av administratören. Använd standarden [stödrasterkontroller](../getting-started/admin-grid-controls.md) om du vill filtrera listan och justera kolumnlayouten. Mer information finns på [Hantera kundkonton](../customers/manage-account.md).
+I Admin visas i rutnätet [!UICONTROL Customers] alla kunder som har registrerat sig för ett konto hos din butik eller som har lagts till av administratören. Använd [standardkontrollerna för stödraster](../getting-started/admin-grid-controls.md) för att filtrera listan och justera kolumnlayouten. Mer information finns i [Hantera kundkonton](../customers/manage-account.md).
 
 ![Kundlista](assets/customer-accounts-all-grid.png){width="700" zoomable="yes"}
 
 ## Uppdatera kundinformation
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** på sidofältet _Admin_.
 
-1. Hitta kundposten och klicka på [!UICONTROL **Redigera**] i _[!UICONTROL Action]_kolumn.
+1. Hitta kundposten och klicka på [!UICONTROL **Redigera**] i kolumnen _[!UICONTROL Action]_.
 
 1. I den vänstra panelen väljer du den information som du vill redigera och gör de ändringar som behövs.
 
    >[!NOTE]
    >
-   >Mer information finns på [Uppdatera kundkonton](../customers/update-account.md).
+   >Mer information finns i [Uppdatera kundkonton](../customers/update-account.md).
 
-1. När du är klar klickar du på **[!UICONTROL Save Customer]**.
+1. Klicka på **[!UICONTROL Save Customer]** när du är klar.
 
-## Arbetsytekontroller
+## Workspace
 
 | Kontroll | Beskrivning |
 | --- | --- |
 | **[!UICONTROL Add New Customer]** | Skapar ett kundkonto. |
 | **[!UICONTROL Search]** | Startar en sökning efter kunder baserat på de aktuella filtren. |
-| **[!UICONTROL Filters]** | Definierar en uppsättning sökparametrar som används för att filtrera posterna som visas i [rutnät](../getting-started/admin-grid-controls.md). |
-| **[!UICONTROL Default View]** | Bestämmer standardkolumnen [layout](../getting-started/admin-grid-controls.md) i rutnätet. |
-| **[!UICONTROL Columns]** | Bestämmer markeringen för [kolumner](../getting-started/admin-grid-controls.md) och deras konton i rutnätet. Kolumnlayouten kan ändras och sparas som _visa_. Som standard inkluderas bara vissa av kolumnerna i rutnätet. |
+| **[!UICONTROL Filters]** | Definierar en uppsättning sökparametrar som används för att filtrera posterna som visas i [rutnätet](../getting-started/admin-grid-controls.md). |
+| **[!UICONTROL Default View]** | Anger stödrastrets standardkolumn [layout](../getting-started/admin-grid-controls.md). |
+| **[!UICONTROL Columns]** | Bestämmer markeringen av [kolumner](../getting-started/admin-grid-controls.md) och deras konton i rutnätet. Kolumnlayouten kan ändras och sparas som en _vy_. Som standard inkluderas bara vissa av kolumnerna i rutnätet. |
 | **[!UICONTROL Export]** | Exporterar de markerade posterna som en CSV- eller Excel XML-fil. |
 
 {style="table-layout:auto"}
@@ -59,8 +59,8 @@ I Admin [!UICONTROL Customers] visas en lista över alla kunder som har registre
 | **[!UICONTROL Web Site]** | Webbplatsen i butikshierarkin som kundkontot är kopplat till. |
 | **[!UICONTROL Confirmed Email]** | Anger om ett bekräftelsemeddelande krävs. |
 | **[!UICONTROL Account Created In]** | Anger butiksvyn som kundkontot skapades från. |
-| **[!UICONTROL Date of Birth]** | Kundens födelsedatum. <br><br>**_Viktigt:_**I enlighet med gällande säkerhets- och integritetspraxis bör du vara medveten om eventuella juridiska risker och säkerhetsrisker som är förknippade med lagring av kundernas fullständiga födelsedatum (månad, dag, år) med andra personliga identifierare. Vi rekommenderar att du begränsar lagringen av kundernas födelsedatum och föreslår att du använder kundens födelseår som ett alternativ. |
-| **[!UICONTROL Tax / VAT Number]** | Om tillämpligt, skattenumret eller [moms](../stores-purchase/vat.md) nummer som tilldelats kunden. <br/><br/>Det här fältet är inte detsamma som momsregistreringsnumret. |
+| **[!UICONTROL Date of Birth]** | Kundens födelsedatum. <br><br>**_Viktigt!_**I enlighet med aktuella säkerhets- och sekretessrutiner ska du vara medveten om eventuella juridiska risker och säkerhetsrisker som är förknippade med lagring av kunders födelsedatum (månad, dag, år) med andra personliga identifierare. Vi rekommenderar att du begränsar lagringen av kundernas födelsedatum och föreslår att du använder kundens födelseår som ett alternativ. |
+| **[!UICONTROL Tax / VAT Number]** | Om tillämpligt, momsregistreringsnumret eller [momsregistreringsnumret ](../stores-purchase/vat.md) som tilldelats kunden. <br/><br/>Det här fältet är inte detsamma som momsregistreringsnumret. |
 | **[!UICONTROL Gender]** | Kundens kön. |
 | **[!UICONTROL Action]** | Redigera - Öppnar företagskontot i redigeringsläge. |
 
@@ -68,7 +68,7 @@ I Admin [!UICONTROL Customers] visas en lista över alla kunder som har registre
 
 ### Ytterligare kolumner
 
-De här kolumnerna är tillgängliga genom att ändra [kolumnlayout](../getting-started/admin-grid-controls.md) i rutnätet.
+De här kolumnerna är tillgängliga genom att ändra [kolumnlayouten](../getting-started/admin-grid-controls.md) för stödrastret.
 
 | Kolumn | Beskrivning |
 | --- | --- |
@@ -80,7 +80,7 @@ De här kolumnerna är tillgängliga genom att ändra [kolumnlayout](../getting-
 | **[!UICONTROL Billing Lastname]** | Efternamnet i kundens faktureringsadress. |
 | **[!UICONTROL Billing Address]** | Den adress dit faktureringsinformation ska skickas. |
 | **[!UICONTROL Shipping Address]** | Den adress dit beställningar ska skickas. |
-| **[!UICONTROL VAT Number]** | Momsnumret som är associerat med kundadressen. För [digitala varor](../stores-purchase/taxes.md) moms som säljs i EU baseras på kundens faktureringsadress. <br/><br/>Det här fältet är inte detsamma som moms-/momsregistreringsnumret. |
-| **[!UICONTROL Account Lock]** | Anger kontots status. Som en säkerhetsåtgärd kan kundkonton [låst](../customers/password-options.md) efter för många inloggningsförsök. Värden: `Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | Momsnumret som är associerat med kundadressen. För [digitala varor](../stores-purchase/taxes.md) som säljs i EU baseras momsen på kundens faktureringsadress. <br/><br/>Det här fältet är inte detsamma som moms-/momsregistreringsnumret. |
+| **[!UICONTROL Account Lock]** | Anger kontots status. Som en säkerhetsåtgärd kan kundkonton vara [låsta](../customers/password-options.md) efter för många inloggningsförsök. Värden: `Locked` / `Unlocked` |
 
 {style="table-layout:auto"}

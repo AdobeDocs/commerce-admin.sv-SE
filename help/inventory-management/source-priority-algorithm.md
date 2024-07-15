@@ -1,5 +1,5 @@
 ---
-title: Konfigurera algoritmen för källprioritet
+title: Konfigurera Source-prioritetsalgoritmen
 description: Lär dig hur du konfigurerar källprioriteten som används för att sortera tilldelade källor i din Stock och gör rekommendationer.
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Konfigurera algoritmen för källprioritet
+# Konfigurera Source-prioritetsalgoritmen
 
 Anpassade lager innehåller en lista över källor att sälja och leverera tillgängligt produktlager via din butik. Den här algoritmen använder ordningen för tilldelade källor i ditt lager för att göra rekommendationer.
 
@@ -24,23 +24,23 @@ Vid körning, algoritmen:
 
 - Hoppar över inaktiverade källor om de hittas i listan
 
-Ordna källorna uppifrån och ned i prioritetsordning för att utföra beställningarna när du vill konfigurera dem. Källvalsalgoritmen (SSA) ger en algoritmprioritet som använder den här ordningen när leverans- och lageravdrag bestäms. Se [Prioritera källor för en Stock](stocks-prioritize-sources.md).
+Ordna källorna uppifrån och ned i prioritetsordning för att utföra beställningarna när du vill konfigurera dem. Source Selection Algorithm (SSA) ger en algoritmprioritet som använder den här ordningen för att fastställa leverans- och lageravdrag. Se [Prioritera källor för en Stock](stocks-prioritize-sources.md).
 
 ## Konfigurera källornas prioritet
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**.
+1. Gå till **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]** på sidofältet _Admin_.
 
-1. Öppna en resurs i redigeringsläge och navigera till _[!UICONTROL Sources]_område.
+1. Öppna ett lager i redigeringsläge och navigera till området _[!UICONTROL Sources]_.
 
 1. Klicka på **[!UICONTROL Assign Sources]**.
 
-1. I _[!UICONTROL Assign Sources]_markera kryssrutan för den önskade källan och klicka sedan på&#x200B;**[!UICONTROL Done]**om du vill tilldela en källa till lagret.
+1. I vyn _[!UICONTROL Assign Sources]_markerar du kryssrutan för den önskade källan och klickar sedan på&#x200B;**[!UICONTROL Done]**för att tilldela en källa till lagret.
 
 >[!NOTE]
 >
->När du använder [Avståndsprioritet](distance-priority-algorithm.md) Leveransalgoritm, om vägar och data inte returneras för den valda [Beräkningsläge](distance-priority-algorithm.md) (vid körning, cykling eller gång) för en leverans används som standard källprioritet för SSA.
+>När algoritmen [Distansprioritet](distance-priority-algorithm.md) används för leverans, och om vägar och data inte returneras för det valda [beräkningsläget](distance-priority-algorithm.md) (kör, cyklar eller går) för en leverans, används som standard Source-prioritet.
 
-![Källorder efter prioritering](assets/inventory-stock-priority-after.png)
+![Source-order efter prioritering](assets/inventory-stock-priority-after.png)
 
 | Ikoner | Beskrivning |
 |----------------------------------------------|----------------------------------------------------------------|

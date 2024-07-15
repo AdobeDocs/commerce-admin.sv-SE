@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Inom implementeringen av Adobe Commerce eller Magento Open Source är butiken den externa, offentliga delen av din butik. Det innehåller innehåll och funktionskomponenter som kunderna använder för att handla och köpa.
 
-Den väg kunderna går mot en försäljning kallas ibland för _väg att köpa_ och din butik innehåller komponenter som kunderna kan använda för att slutföra den här vägen. I följande avsnitt finns en översikt över de grundläggande sidtyperna som ger ett strategiskt värde - de platser kunderna vanligtvis besöker när de handlar i din butik. När du tittar på dem bör du överväga olika butiksfunktioner som kan användas i varje skede av kundresan.
+Den väg kunderna går till en försäljning kallas ibland för _köpväg_, och din butik innehåller komponenter som kunderna kan använda för att slutföra den här vägen. I följande avsnitt finns en översikt över de grundläggande sidtyperna som ger ett strategiskt värde - de platser kunderna vanligtvis besöker när de handlar i din butik. När du tittar på dem bör du överväga olika butiksfunktioner som kan användas i varje skede av kundresan.
 
 ## Startsida
 
@@ -32,31 +32,31 @@ Den första produktbeskrivningen ger oftast kunderna tillräckligt med informati
 
 ## Sökresultat
 
-Visste du att det är nästan dubbelt så troligt att personer som använder sökningar köper något som de som bara använder navigering? Du kanske ser de här kunderna som _kvalificerad_.
+Visste du att det är nästan dubbelt så troligt att personer som använder sökningar köper något som de som bara använder navigering? Dessa kunder kan betraktas som _förkvalificerade_.
 
 ### [!DNL Live Search]
 
-Med [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) för Adobe Commerce ger din butik en snabb, superrelevant och intuitiv sökupplevelse och är tillgänglig för Adobe Commerce utan extra kostnad.
+Med [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) för Adobe Commerce kan din butik erbjuda en snabb, superrelevant och intuitiv sökupplevelse och är tillgänglig för Adobe Commerce utan extra kostnad.
 
 ![Exempel på Live-sökning - sök medan du skriver](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### Standardkatalogsökning
 
-Med [standardkatalogsökning](../catalog/search.md)innehåller din butik en sökruta i det övre högra hörnet och en länk till avancerad sökning i sidfoten. Alla söktermer som kunderna skickar sparas så att du kan se exakt vad de letar efter. Du kan ge förslag och ange synonymer och vanliga felstavningar. Visa sedan en viss sida när en sökterm anges.
+Med [standardkatalogsökning](../catalog/search.md) innehåller din butik en sökruta i det övre högra hörnet och en länk till avancerad sökning i sidfoten. Alla söktermer som kunderna skickar sparas så att du kan se exakt vad de letar efter. Du kan ge förslag och ange synonymer och vanliga felstavningar. Visa sedan en viss sida när en sökterm anges.
 
-![Exempel på sökresultat för standardkataloger](./assets/storefront-search-results-page-full.png){width="700"}
+![Exempel på standardsökresultat för kataloger](./assets/storefront-search-results-page-full.png){width="700"}
 
 ## Produktsida
 
 Det är mycket som pågår på produktsidan! Det första som fångar ögat på produktsidan är huvudbilden med ett högupplöst zoom- och miniatyrgalleri. Förutom pris och tillgänglighet finns det ett flikområde med mer information och en lista över relaterade produkter.
 
-![Exempel på butikens produktsida](./assets/storefront-product-page-full-m.png){width="700"}
+![Exempelproduktsida för butiker](./assets/storefront-product-page-full-m.png){width="700"}
 
 ## Kundvagn
 
 Kundvagnen är den plats där ordersumman kan bestämmas, plus rabattkuponger och uppskattad frakt och moms, och en bra plats där du kan visa dina kreditmärken och sigill. Det är också en idealisk möjlighet att erbjuda en sista artikel. Som korsförsäljning kan du välja vilka artiklar som ska erbjudas som ett impulsköp när en viss artikel visas i kundvagnen.
 
-![Exempel på kundvagnssida för butiksskylt](./assets/storefront-cart-full.png){width="700"}
+![Exempel på kundvagnssida i butiken](./assets/storefront-cart-full.png){width="700"}
 
 ## Utcheckningssida
 
@@ -65,9 +65,9 @@ Utcheckningsprocessen består av två steg:
 1. Leveransinformation
 
    Det första steget i utcheckningsprocessen är att kunden fyller i leveransadressuppgifterna och väljer leveranssätt. Om kunden har ett konto anges leveransadressen automatiskt, men kan ändras vid behov.
-Om en gästkund anger en e-postadress som känns igen som tidigare registrerad visas inloggningsmeddelandet om [!UICONTROL Enable Guest Checkout Login] fältet i butikskonfigurationen är inställd på `Yes` (se [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) i _Referenshandbok för konfiguration_). Den här inställningen kan dock visa kundinformation för oautentiserade användare.
+Om en gästkund anger en e-postadress som känns igen som registrerad tidigare visas inloggningsmeddelandet om fältet [!UICONTROL Enable Guest Checkout Login] i butikskonfigurationen är inställt på `Yes` (se [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) i _Konfigurationsreferenshandboken_). Den här inställningen kan dock visa kundinformation för oautentiserade användare.
 
-   ![Exempel på kassautcheckningssida för butiker](./assets/storefront-checkout-shipping-full.png){width="700"}
+   ![Exempel på utcheckningssida för lagerframsida](./assets/storefront-checkout-shipping-full.png){width="700"}
 
 1. Granska och betala
 
@@ -75,11 +75,11 @@ Om en gästkund anger en e-postadress som känns igen som tidigare registrerad v
 
    >[!NOTE]
    >
-   >Fast [!DNL Commerce] tillåter konfigurering av flera kupongkoder. Kunden får endast använda en kupongkod i kundvagnen. (Se [Kupongkoder](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) för mer information.)
+   >Även om [!DNL Commerce] tillåter konfigurering av flera kupongkoder, kan kunden bara använda en kupongkod i kundvagnen. (Mer information finns i [Kupongkoder](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes).)
 
-   ![Exempel på kassautcheckningssida för butiker](./assets/storefront-checkout-payment-full.png){width="700"}
+   ![Exempel på utcheckningssida för lagerframsida](./assets/storefront-checkout-payment-full.png){width="700"}
 
-Förloppsindikatorn högst upp på sidan följer varje steg i utcheckningsprocessen och _Ordersammanfattning_ visar den information som har angetts fram till den här punkten.
+Förloppsindikatorn överst på sidan följer varje steg i utcheckningsprocessen och i _ordersammanfattningen_ visas den information som har angetts fram till den här punkten.
 
 >[!NOTE]
 >

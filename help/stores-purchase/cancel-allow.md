@@ -2,13 +2,13 @@
 title: Tillåt annulleringsorder
 description: Lär dig hur du kan ge kunderna möjlighet att avbryta.
 feature: Orders, Storefront
-source-git-commit: 613c081c02dd9b5e55de37dccd021af4e429d424
+exl-id: 5a8ef668-f929-4188-8574-0bccdd076f3e
+source-git-commit: a9d1dc4fe50e98f0f1dfc8ec204930e2cc885d6e
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # Tillåt annulleringsorder
 
@@ -16,31 +16,31 @@ När det här alternativet är aktiverat kan du avbryta en beställning direkt f
 
 ## Kriterier för annullering som ska aktiveras för en order
 
-- The _Tillåt annulleringsorder_ konfigurationsalternativet måste vara aktiverat.
+- Konfigurationsalternativet _Tillåt avbryt beställning_ måste vara aktiverat.
 
-- Om ordern är i `Hold`, `Canceled`, `Complete`, eller `Closed` status är alternativet för att avbryta inaktiverat i butiken.
+- Om ordningen har statusen `Hold`, `Canceled`, `Complete` eller `Closed` är alternativet för att avbryta inaktiverat i butiken.
 
 - Om någon av artiklarna i ordern har levererats är alternativet Avbryt inaktiverat i butiken.
 
 - Om någon artikel har betalats är alternativet för att avbryta aktiverat och återbetalningen skapas för den artikeln.
 
-- Om ordern är i `Pending` eller `Processing` status är alternativet för att avbryta aktiverat i butiken.
+- Om ordern har statusen `Pending` eller `Processing` aktiveras alternativet för att avbryta i butiken.
 
 ## Konfigurera för att tillåta kundannullering och anpassa orsaker till annullering
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och markera **[!UICONTROL Sales]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Order cancellation]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Order cancellation]**.
 
-   ![Alternativ för annullering av order](../configuration-reference/sales/assets/sales-order-cancellation.png){width="600" zoomable="yes"}
+   ![Alternativ för annullering av beställning](../configuration-reference/sales/assets/sales-order-cancellation.png){width="600" zoomable="yes"}
 
 1. Ange **[!UICONTROL Order cancellation through GraphQL]** till `Yes`.
 
    Den här inställningen aktiverar funktionen för att avbryta från kundkontot i butiken.
 
-1. I **[!UICONTROL Order Order cancellation reasons]** du kan lägga till, ta bort eller ändra en orsak till annullering.
+1. I **[!UICONTROL Order Order cancellation reasons]** kan du lägga till, ta bort eller ändra en orsak till annullering.
 
    Med den här inställningen visas annulleringsorsaker i butiken för kunden när de annullerar en order.
 Se till att du har angett minst en orsak.
@@ -51,28 +51,26 @@ Se till att du har angett minst en orsak.
 
 Kunden kan initiera avbeställningsfunktionen för en viss order från tre sidor:
 
-- _Mina beställningar_ page
+- _Sidan Mina beställningar_
 
-- _Ordervy_ page
+- _Ordervy_ sida
 
-- _Mitt konto_ page
+- Sidan _Mitt konto_
 
 ### Mina beställningar
 
-The _Avbryt beställning_ visas på sidan Mina beställningar om beställningen kan avbrytas.
+Knappen _Avbryt beställning_ visas på sidan Mina beställningar om beställningen kan avbrytas.
 
-![Exempel på butiker - sidan Mina beställningar](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
+![Exempel på lagerfront - sidan Mina beställningar](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
 
 ### Sidan Ordervy
 
-The _Avbryt beställning_ visas på sidan Visa ordning om det går att avbryta ordern.
+Knappen _Avbryt beställning_ visas på sidan Visa beställning om beställningen kan avbrytas.
 
-![Sidan med orderinformation](./assets/order-view-page-cancel.png){width="700" zoomable="yes"}
+![Sidan med beställningsinformation](./assets/order-view-page-cancel.png){width="700" zoomable="yes"}
 
 ### Mitt konto
 
-The _Avbryt beställning_ visas under Senaste beställningar på sidan Mitt konto, om beställningen kan annulleras.
+Knappen _Avbryt beställning_ visas i avsnittet Senaste beställningar på sidan Mitt konto, om beställningen kan avbrytas.
 
 ![Sidan Mitt konto](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}
-
-

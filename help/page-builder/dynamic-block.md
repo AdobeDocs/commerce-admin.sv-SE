@@ -1,6 +1,6 @@
 ---
 title: Lägg till innehåll - dynamiskt block
-description: Läs mer om innehållstypen Dynamiskt block, som används för att lägga till ett återanvändbart dynamiskt block i [!DNL Page Builder] stage.
+description: Lär dig mer om innehållstypen för dynamiskt block, som används för att lägga till ett återanvändbart dynamiskt block på  [!DNL Page Builder] scenen.
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Lägg till innehåll - dynamiskt block
 
-Använd innehållstypen Dynamiskt block för att lägga till en befintlig [dynamiskt block](../content-design/dynamic-blocks.md) till [[!DNL Page Builder] stage](workspace.md#stage).
+Använd innehållstypen för dynamiskt block för att lägga till ett befintligt [dynamiskt block](../content-design/dynamic-blocks.md) på [[!DNL Page Builder] scenen](workspace.md#stage).
 
 ![Dynamiskt block på butiken](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
@@ -23,10 +23,10 @@ Använd innehållstypen Dynamiskt block för att lägga till en befintlig [dynam
 | Verktyg | Ikon | Beskrivning |
 | --------- | ------------- | ----------------- |
 | Flytta | ![Ikonen Flytta](./assets/pb-icon-move.png){width="25"} | Flyttar blockbehållaren och dess innehåll till en annan plats på scenen. |
-| Inställningar | ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar _Redigera block_ sidan där du kan välja blocket och ändra egenskaperna för behållaren. |
+| Inställningar | ![Ikon för inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan _Redigera block_, där du kan välja blocket och ändra egenskaperna för behållaren. |
 | Dölj | ![Dölj ikon](./assets/pb-icon-hide.png){width="25"} | Döljer den aktuella blockbehållaren och dess innehåll. |
 | Visa | ![Visa ikon](./assets/pb-icon-show.png){width="25"} | Visar den dolda blockbehållaren och dess innehåll. |
-| Duplicera | ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av blockbehållaren och dess innehåll. |
+| Duplicera | ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av blockbehållaren och dess innehåll. |
 | Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="25"} | Tar bort blockbehållaren och dess innehåll från scenen. |
 
 {style="table-layout:auto"}
@@ -35,17 +35,17 @@ Använd innehållstypen Dynamiskt block för att lägga till en befintlig [dynam
 
 ## Lägg till ett befintligt dynamiskt block på scenen
 
-1. Navigera till [!DNL Page Builder] på målsidan, blocket, produkten eller kategorin.
+1. Navigera till arbetsytan [!DNL Page Builder] på målsidan, blocket, produkten eller kategorin.
 
-1. I [!DNL Page Builder] panel, expandera **[!UICONTROL Add Content]** och dra en **[!UICONTROL Dynamic Block]** platshållare till scenen.
+1. Expandera **[!UICONTROL Add Content]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Dynamic Block]** platshållare till scenen.
 
-   ![Dra en dynamisk blockplatshållare till scenen](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
+   ![Dra en platshållare för dynamiska block till scenen](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
-1. Håll pekaren över den tomma dynamiska blockbehållaren för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över den tomma dynamiska blockbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Verktygslådan Dynamiskt block](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. På _Redigera dynamiskt block_ sida, klicka **[!UICONTROL Select Dynamic Block]** och använd listan för att markera blocket.
+1. Klicka på **[!UICONTROL Select Dynamic Block]** på sidan _Redigera dynamiskt block_ och använd listan för att markera blocket.
 
    ![Markera ett dynamiskt block](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
@@ -70,11 +70,11 @@ Använd innehållstypen Dynamiskt block för att lägga till en befintlig [dynam
 
 1. Slutför de avancerade inställningarna efter behov.
 
-1. När du är klar klickar du på **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ### Avancerade inställningar
 
-1. Om du vill styra det dynamiska blockets placering i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
+1. Om du vill styra placeringen av det dynamiska blocket i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
 
    | Alternativ | Beskrivning |
    | ------ | ----------- |
@@ -85,7 +85,7 @@ Använd innehållstypen Dynamiskt block för att lägga till en befintlig [dynam
 
    {style="table-layout:auto"}
 
-1. Ange **[!UICONTROL Border]** format som används på alla fyra sidorna i den dynamiska blockbehållaren:
+1. Ange det **[!UICONTROL Border]**-format som ska användas på alla fyra sidor i den dynamiska blockbehållaren:
 
    | Alternativ | Beskrivning |
    | ------ | ----------- |
@@ -102,7 +102,7 @@ Använd innehållstypen Dynamiskt block för att lägga till en befintlig [dynam
 
    {style="table-layout:auto"}
 
-1. Om du anger ett annat kantlinjeformat än `None`slutför du visningsalternativen för kantlinjer:
+1. Om du anger ett annat kantlinjeformat än `None` fyller du i visningsalternativen för kantlinjen:
 
    | Alternativ | Beskrivning |
    | ------ |------------ |
@@ -116,7 +116,7 @@ Använd innehållstypen Dynamiskt block för att lägga till en befintlig [dynam
 
    Avgränsa flera klassnamn med blanksteg.
 
-1. Ange värden i pixlar för **[!UICONTROL Margins and Padding]** för att bestämma de yttre marginalerna och den inre utfyllnaden för den dynamiska blockbehållaren.
+1. Ange värden, i pixlar, för **[!UICONTROL Margins and Padding]** för att bestämma de yttre marginalerna och den inre utfyllnaden för den dynamiska blockbehållaren.
 
    Ange motsvarande värden i diagrammet.
 
@@ -129,7 +129,7 @@ Använd innehållstypen Dynamiskt block för att lägga till en befintlig [dynam
 
 ## Redigera inställningar för dynamisk blockbehållare
 
-1. Håll pekaren över den dynamiska blockbehållaren för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över den dynamiska blockbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Verktygslådan Dynamiskt block](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
 
@@ -139,21 +139,21 @@ Använd innehållstypen Dynamiskt block för att lägga till en befintlig [dynam
 
      ![Markera ett annat dynamiskt block](./assets/pb-add-content-dynamic-block-select.png){width="20"}
 
-   - Klicka på i listan över aktiva dynamiska block **[!UICONTROL Select]** för det block som du vill lägga till.
+   - I listan med aktiva dynamiska block klickar du på **[!UICONTROL Select]** för det block som du vill lägga till.
 
 1. Uppdatera de återstående inställningarna efter behov.
 
-1. När du är klar klickar du på **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ## Duplicera ett dynamiskt block
 
-1. Håll pekaren över den dynamiska blockbehållaren för att visa verktygslådan och välj _Duplicera_ ( ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Håll pekaren över den dynamiska blockbehållaren för att visa verktygslådan och välj ikonen _Duplicera_ ( ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="20"} ).
 
    Dupliceringen visas precis nedanför originalet.
 
    ![Duplicera ett dynamiskt block](./assets/pb-add-content-dynamic-block-duplicate.png){width="500" zoomable="yes"}
 
-1. Om du vill flytta det nya dynamiska blocket till en annan plats håller du pekaren över behållaren och väljer _Flytta_ ( ![Ikonen Flytta](./assets/pb-icon-move.png){width="20"} ) i verktygslådan
+1. Om du vill flytta det nya dynamiska blocket till en annan plats håller du pekaren över behållaren och väljer _Flytta_ ( ![ikonen Flytta](./assets/pb-icon-move.png){width="20"} ) i verktygslådan.
 
 1. Markera och dra det dynamiska blocket tills den röda stödlinjen visas på den nya positionen.
 
@@ -161,6 +161,6 @@ Använd innehållstypen Dynamiskt block för att lägga till en befintlig [dynam
 
 ## Ta bort ett dynamiskt block från scenen
 
-1. Håll pekaren över den dynamiska blockbehållaren för att visa verktygslådan och välj _Ta bort_ ( ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="20"} ).
+1. Håll pekaren över den dynamiska blockbehållaren för att visa verktygslådan och välj ikonen _Ta bort_ ( ![Ta bort ikon](./assets/pb-icon-remove.png){width="20"} ).
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Widgeten Beställningar och returer
 
-The _Beställningar och returer_ widgeten ger gästerna möjlighet att kontrollera status för sina order, utskriftsfakturor och spåra leveranser. När widgeten läggs till i butiken visas den bara för gäster och för kunder som inte är inloggade på sina konton. Gäster kan hitta beställningar genom att ange beställnings-ID, efternamn för fakturering och antingen e-postadress eller postnummer.
+Widgeten _Beställningar och Returer_ ger gästerna möjlighet att kontrollera status för sina beställningar, skriva ut fakturor och spåra leveranser. När widgeten läggs till i butiken visas den bara för gäster och för kunder som inte är inloggade på sina konton. Gäster kan hitta beställningar genom att ange beställnings-ID, efternamn för fakturering och antingen e-postadress eller postnummer.
 
 ![Widgeten Beställningar och Returer i sidofältet på butiken](./assets/storefront-widget-orders-returns-sidebar.png){width="600" zoomable="yes"}
 
 ## Widgeten för order och returer i butiken
 
-1. Kunden kan använda **[!UICONTROL Find Order By]** om du vill välja någon av följande parametrar som ska användas för att hitta ordningen:
+1. Kunden kan använda alternativet **[!UICONTROL Find Order By]** för att välja en av följande parametrar som ska användas för att hitta ordern:
 
    - E-postadress
    - Postnummer
@@ -27,42 +27,42 @@ The _Beställningar och returer_ widgeten ger gästerna möjlighet att kontrolle
 
 1. Anger antingen faktureringen **[!UICONTROL Email Address]** eller **[!UICONTROL ZIP Code]** som är associerad med ordern.
 
-1. Klickningar **[!UICONTROL Search]** för att hämta ordern.
+1. Klicka på **[!UICONTROL Search]** för att hämta ordern.
 
-   ![Orderinformation som visas i butiken](./assets/storefront-widget-orders-returns-view.png){width="700" zoomable="yes"}
+   ![Beställningsinformation visas i butiken](./assets/storefront-widget-orders-returns-view.png){width="700" zoomable="yes"}
 
 ## Ställa in widgeten för beställningar och returer
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add Widget]**.
+1. Klicka på **[!UICONTROL Add Widget]** i det övre högra hörnet.
 
-1. I _[!UICONTROL Settings]_gör du följande:
+1. Gör följande i avsnittet _[!UICONTROL Settings]_:
 
    - Ange **[!UICONTROL Type]** till `Orders and Returns`.
 
-   - Välj **[!UICONTROL Design Theme]** som används av butiken.
+   - Välj den **[!UICONTROL Design Theme]** som används av butiken.
 
 1. Klicka på **[!UICONTROL Continue]**.
 
-1. I _[!UICONTROL Storefront Properties]_gör du följande:
+1. Gör följande i avsnittet _[!UICONTROL Storefront Properties]_:
 
    - För **[!UICONTROL Widget Title]** anger du en beskrivande titel för widgeten.
 
      Den här titeln visas bara från administratören.
 
-   - För **[!UICONTROL Assign to Store Views]** markerar du de butiksvyer där widgeten visas.
+   - För **[!UICONTROL Assign to Store Views]** väljer du de butiksvyer där widgeten visas.
 
      Du kan välja en viss butiksvy eller `All Store Views`. Om du vill markera flera vyer håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
 
-   - (valfritt) för **[!UICONTROL Sort Order]** anger du en siffra som bestämmer i vilken ordning det här objektet visas med andra på samma del av sidan. (`0` = first, `1` = sekund, `3` = tredje och så vidare.)
+   - (Valfritt) Ange ett nummer för **[!UICONTROL Sort Order]** för att avgöra i vilken ordning det här objektet visas med andra på samma del av sidan. (`0` = först, `1` = sekund, `3` = tredje o.s.v.)
 
-1. I _[!UICONTROL Layout Updates]_avsnitt, klicka **[!UICONTROL Add Layout Update]**och gör följande:
+1. Klicka på **[!UICONTROL Add Layout Update]** i avsnittet _[!UICONTROL Layout Updates]_och gör följande:
 
    - Ange **[!UICONTROL Display On]** till den typ av sida där du vill att widgeten ska visas.
 
    - Om du vill bestämma var widgeten ska visas på sidan, fyller du i resten av layoutuppdateringsinformationen.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 1. När du uppmanas att uppdatera cacheminnet klickar du på länken i meddelandet längst upp på sidan och följer instruktionerna.

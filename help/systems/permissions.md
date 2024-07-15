@@ -19,6 +19,6 @@ Dessutom kan du begränsa administratörsåtkomsten ytterligare till endast en v
 
 När en administratörsanvändares åtkomst är begränsad till en viss webbplats eller butik visas de där de inte är auktoriserade inte eller visas nedtonade. Endast säljdata och andra data för tillåtna webbplatser och butiker visas för användaren.
 
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Som standard loggar systemet automatiskt (registrerar) alla åtgärder som en användare utför när ändringar görs i en butik. Administratörsåtgärder kan granskas i [Åtgärdsloggsrapport](action-log-report.md). Konfigurera inloggning [Loggning av administratörsåtgärder](action-log.md) i butikens avancerade administratörsinställningar.
+- ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Som standard loggar systemet automatiskt (registrerar) alla åtgärder som en användare utför när ändringar görs i en butik. Administratörsåtgärder kan granskas i [Åtgärdsloggrapporten](action-log-report.md). Konfigurera inloggning [Administratörsåtgärder Loggning](action-log.md) i butikens avancerade administratörsinställningar.
 
-![Administratör - alla användarkonton](./assets/users-all.png){width="700" zoomable="yes"}
+![Admin - alla användarkonton](./assets/users-all.png){width="700" zoomable="yes"}

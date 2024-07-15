@@ -14,13 +14,13 @@ ht-degree: 0%
 
 En önskelista är en lista över produkter som en registrerad kund kan dela med vänner eller spara för att överföra till kundvagnen senare. När önskelistor är aktiverade visas länken Lägg till i önskelista på kategori- och produktsidorna för varje produkt i butiken. Beroende på temat kan det vara en textlänk eller en grafisk bild.
 
-![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce stöder användningen av flera önskelistor per kundkonto.
+![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce stöder användning av flera önskelistor per kundkonto.
 
 ![Magento Open Source](../assets/open-source.svg) Magento Open Source stöder användningen av en enda önskelista per kundkonto.
 
 Delade önskelistor skickas från en e-postadress i butik, men meddelandetexten innehåller en personlig anteckning från kunden. Du kan anpassa e-postmallen som används när önskelistor delas och välja den butikskontakt som visas som avsändare.
 
-Önsklistorna kan uppdateras från kontrollpanelen i [kundkonto](../customers/account-dashboard.md). Artiklar kan läggas till eller överföras mellan önskelistan och vagnen av kunden eller butiksadministratören.
+Önsklistorna kan uppdateras från kontrollpanelen för [kundkontot](../customers/account-dashboard.md). Artiklar kan läggas till eller överföras mellan önskelistan och vagnen av kunden eller butiksadministratören.
 
 ![Exempel på storefront - Min önskelista](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
@@ -28,26 +28,26 @@ När en produkt med flera alternativ läggs till i en önskelista inkluderas all
 
 ## Önsklistehjälp i administratören
 
-Kunderna kan [hantera sina önskelistor](wishlist-storefront.md) genom att logga in på sina konton i butiken. Som butiksadministratör kan du även hantera kundernas önskelistor från administratören.
+Kunder kan [hantera sina önskelistor](wishlist-storefront.md) genom att logga in på sina konton i butiken. Som butiksadministratör kan du även hantera kundernas önskelistor från administratören.
 
 **_Så här uppdaterar du önskelisteobjekt från administratören:_**
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** på sidofältet _Admin_.
 
-1. Hitta kunden i listan och klicka på **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Hitta kunden i listan och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Välj **[!UICONTROL Wish List]** och söker efter det objekt som ska redigeras i listan.
+1. I den vänstra panelen väljer du **[!UICONTROL Wish List]** och söker efter objektet som ska redigeras i listan.
 
    Alla alternativ som har valts för produkten visas under produktnamnet.
 
-   ![Commerce Admin - önskelista för kund](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
+   ![Commerce Admin - kundönskelista](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
 
 1. Så här redigerar du produktalternativen:
 
-   - I **[!UICONTROL Action]** kolumn, klicka **[!UICONTROL Configure]**.
+   - Klicka på **[!UICONTROL Configure]** i kolumnen **[!UICONTROL Action]**.
 
-   - Uppdatera alternativen och **[!UICONTROL Quantity]** efter behov.
+   - Uppdatera alternativen och **[!UICONTROL Quantity]** efter behov på produktsidan.
 
    - Klicka på **[!UICONTROL OK]**.
 
-1. När du är klar klickar du på **[!UICONTROL Save Customer]** eller **[!UICONTROL Save and Continue Edit]**.
+1. Klicka på **[!UICONTROL Save Customer]** eller **[!UICONTROL Save and Continue Edit]** när du är klar.

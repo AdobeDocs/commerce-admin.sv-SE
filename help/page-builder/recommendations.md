@@ -1,6 +1,6 @@
 ---
 title: Lägg till innehåll - Recommendations
-description: Läs mer om Product Recommendations Content Type, som används för att lägga till en lista med rekommendationer i [!DNL Page Builder] stage.
+description: Läs mer om Product Recommendations-innehållstypen som används för att lägga till en lista med rekommendationer på  [!DNL Page Builder] scenen.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
 source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Lägg till innehåll - Recommendations
 
-Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv [rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) till [[!DNL Page Builder] stage](workspace.md#stage) för en CMS-sida, ett -block eller ett dynamiskt -block.
+Använd innehållstypen _Product Recommendations_ för att lägga till en befintlig, aktiv [rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) på [[!DNL Page Builder] stage](workspace.md#stage) för en CMS-sida, ett CMS-block eller ett dynamiskt block.
 
 >[!NOTE]
 >
->The [!DNL Page Builder] _Recommendations_ innehållstypen stöds i Adobe Commerce 2.4.4 och senare och finns i [Recommendations metapaket version 3.0.x eller senare](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Lägg till [!DNL Page Builder] support för Product Recommendations, [se installationsinformationen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Den här innehållstypen är inte tillgänglig för Magento Open Source.**
+>Innehållstypen [!DNL Page Builder] _Product Recommendations_ stöds i Adobe Commerce 2.4.4 och senare och finns i [Product Recommendations-metapaket version 3.0.x eller senare](https://commercemarketplace.adobe.com/magento-product-recommendations.html). [Se installationsinformationen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) om du vill lägga till [!DNL Page Builder]-stöd för Product Recommendations. **Den här innehållstypen är inte tillgänglig för Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -25,10 +25,10 @@ Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv
 | Verktyg | Ikon | Beskrivning |
 | --- | --| --- |
 | Flytta | ![Ikonen Flytta](./assets/pb-icon-move.png){width="25"} | Flyttar produktrekommendationsbehållaren och dess innehåll till en annan position på scenen. |
-| Inställningar | ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera produktrekommendation, där du kan välja rekommendationsenhet och ändra egenskaperna för behållaren. |
+| Inställningar | ![Ikon för inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera produktrekommendation, där du kan välja rekommendationsenhet och ändra egenskaperna för behållaren. |
 | Dölj | ![Dölj ikon](./assets/pb-icon-hide.png){width="25"} | Döljer den aktuella produktrekommendationsbehållaren och dess innehåll. |
 | Visa | ![Visa ikon](./assets/pb-icon-show.png){width="25"} | Visar den dolda produktrekommendationsbehållaren och dess innehåll. |
-| Duplicera | ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av produktrekommendationsbehållaren och dess innehåll. |
+| Duplicera | ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av produktrekommendationsbehållaren och dess innehåll. |
 | Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="25"} | Tar bort produktrekommendationsbehållaren och dess innehåll från scenen. |
 
 {style="table-layout:auto"}
@@ -37,68 +37,68 @@ Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv
 
 ## Lägg till en befintlig rekommendationsenhet
 
-1. Kontrollera att du redan har [har skapat en rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) för [!DNL Page Builder] sidtyp.
+1. Kontrollera att du redan [har skapat en rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) för sidtypen [!DNL Page Builder].
 
 >[!NOTE]
 >
->Du kan skapa rekommendationsenheter för [!DNL Page Builder] endast sidtypen i standardbutiksvyn.
+>Du kan bara skapa rekommendationsenheter för sidtypen [!DNL Page Builder] i standardbutiksvyn.
 
 1. Öppna sidan, blocket eller det dynamiska blocket i redigeringsläge.
 
-1. Expandera _[!UICONTROL Content]_och klicka **[!UICONTROL Edit with Page Builder]**eller inuti förhandsvisningsområdet för innehållet för att öppna [!DNL Page Builder] arbetsyta.
+1. Expandera avsnittet _[!UICONTROL Content]_och klicka på&#x200B;**[!UICONTROL Edit with Page Builder]**eller inuti förhandsvisningsområdet för innehåll för att öppna arbetsytan för [!DNL Page Builder].
 
-1. I [!DNL Page Builder] panel under _[!UICONTROL Layout]_, dra en **[!UICONTROL Row]**platshållare till scenen.
+1. Dra en **[!UICONTROL Row]**-platshållare till scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_.
 
-1. I [!DNL Page Builder] panel under _[!UICONTROL Add Content]_, dra en **[!UICONTROL Product Recommendation]**platshållare till raden.
+1. Dra en **[!UICONTROL Product Recommendation]**-platshållare till raden på panelen [!DNL Page Builder] under _[!UICONTROL Add Content]_.
 
-   ![Lägga till innehållstypen Produktrekommendation](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
+   ![Lägger till produktrekommendationens innehållstyp](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
 1. Gör något av följande:
 
    - Klicka på **[!UICONTROL Edit Product Recommendation]**.
-   - Håll pekaren över den tomma behållaren för att visa verktygslådan och klicka på knappen _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png)).
+   - Håll pekaren över den tomma behållaren för att visa verktygslådan och klicka på ikonen _Inställningar_ (![Inställningar-ikon](./assets/pb-icon-settings.png)).
 
    ![Redigera produktrekommendation](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. I _[!UICONTROL Selection]_avsnitt, klicka **[!UICONTROL Select]**.
+1. Klicka på **[!UICONTROL Select]** i avsnittet _[!UICONTROL Selection]_.
 
-1. I listan med aktiva produktrekommendationer söker du efter raden med rekommendationsenheten som du vill lägga till och klickar på **[!UICONTROL Select]** i den sista kolumnen.
+1. I listan med aktiva produktrekommendationer letar du reda på raden med rekommendationsenheten som du vill lägga till och klickar på **[!UICONTROL Select]** i den sista kolumnen.
 
    ![Vald produktrekommendation](./assets/pb-prex-select.png){width="600" zoomable="yes"}
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add Selected]**.
+1. Klicka på **[!UICONTROL Add Selected]** i det övre högra hörnet.
 
-   Namnet på den valda produktrekommendationen visas i dialogrutan _[!UICONTROL Selection]_i_[!UICONTROL Edit Product Recommendation]_ sida.
+   Namnet på den valda produktrekommendationen visas i avsnittet _[!UICONTROL Selection]_på sidan_[!UICONTROL Edit Product Recommendation]_.
 
-1. Gör nödvändiga ändringar i [Avancerade inställningar](#advanced-settings).
+1. Gör de ändringar som krävs för de [avancerade inställningarna](#advanced-settings).
 
    ![Redigera produktrekommendation](./assets/pb-prex-edit.png){width="600" zoomable="yes"}
 
 1. När du är klar gör du följande:
 
-   - Om du arbetar med ett helt maximerat webbläsarfönster klickar du på _Stäng helskärm_ (![Stäng helskärmsikonen](./assets/pb-icon-reduce.png)) i det övre högra hörnet av arbetsytan.
+   - Om du arbetar med ett helt maximerat webbläsarfönster klickar du på ikonen _Stäng helskärm_ (![Stäng helskärm ](./assets/pb-icon-reduce.png)) i det övre högra hörnet av arbetsytan.
 
-   - Klicka **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+   - Klicka på **[!UICONTROL Save]** om du vill använda inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
    När du återgår till scenen visas produktplatshållarbilder i behållaren.
 
 ## Redigera inställningar för rekommendationsenhet
 
-1. Håll pekaren över rekommendationsenhetsbehållaren för att visa verktygslådan och klicka på _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png)).
+1. Håll pekaren över rekommendationsenhetsbehållaren för att visa verktygslådan och klicka på ikonen _Inställningar_ (![Inställningar-ikon](./assets/pb-icon-settings.png)).
 
    ![Rekommendationsverktygslåda](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
-1. Gör nödvändiga ändringar i [Avancerade inställningar](#advanced-settings).
+1. Gör de ändringar som krävs för de [avancerade inställningarna](#advanced-settings).
 
-1. När du är klar klickar du på **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ## Duplicera en rekommendationsenhet
 
-1. Håll pekaren över rekommendationsenhetsbehållaren för att visa verktygslådan och klicka på _Duplicera_ (![Duplicera, ikon](./assets/pb-icon-duplicate.png)) i verktygslådan.
+1. Håll pekaren över rekommendationsenhetsbehållaren för att visa verktygslådan och klicka på ikonen _Duplicera_ (![Duplicera ikon](./assets/pb-icon-duplicate.png)) i verktygslådan.
 
    Dupliceringen visas precis nedanför originalet.
 
-1. Om du vill flytta den duplicerade rekommendationsenheten till en ny position håller du pekaren över behållaren och klickar på knappen _Flytta_ (![Ikonen Flytta](./assets/pb-icon-move.png)) i verktygslådan.
+1. Om du vill flytta den duplicerade rekommendationsenheten till en ny plats håller du pekaren över behållaren och klickar på ikonen _Flytta_ (![Flytta ](./assets/pb-icon-move.png)) i verktygslådan.
 
 1. Markera och dra rekommendationsenheten tills den röda stödlinjen visas på den nya positionen.
 
@@ -106,7 +106,7 @@ Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv
 
 ## Ta bort en rekommendationsenhet från scenen
 
-1. Håll pekaren över rekommendationsenhetsbehållaren och klicka på _Ta bort_ ( ![Ikonen Ta bort](./assets/pb-icon-remove.png)) i verktygslådan.
+1. Håll pekaren över rekommendationsenhetsbehållaren och klicka på ikonen _Ta bort_ ( ![Ta bort ikon](./assets/pb-icon-remove.png)) i verktygslådan.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
@@ -123,7 +123,7 @@ Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv
 
    {style="table-layout:auto"}
 
-1. Ange **[!UICONTROL Border]** som används på alla fyra sidorna i Product Recommendations-enheten:
+1. Ange den **[!UICONTROL Border]**-stil som ska användas på alla fyra sidor i Product Recommendations-enheten:
 
    | Alternativ | Beskrivning |
    | ------ | ----------- |
@@ -140,7 +140,7 @@ Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv
 
    {style="table-layout:auto"}
 
-1. Om du anger ett annat kantlinjeformat än `None`slutför du visningsalternativen för kantlinjer:
+1. Om du anger ett annat kantlinjeformat än `None` fyller du i visningsalternativen för kantlinjen:
 
    | Alternativ | Beskrivning |
    | ------ |------------ |
@@ -154,7 +154,7 @@ Använd _Recommendations_ innehållstyp för att lägga till en befintlig, aktiv
 
    Avgränsa flera klassnamn med blanksteg.
 
-1. Ange värden i pixlar för **[!UICONTROL Margins and Padding]** för att fastställa enhetens yttre marginaler och inre utfyllnad.
+1. Ange värden (i pixlar) för **[!UICONTROL Margins and Padding]** för att fastställa enhetens yttre marginaler och inre utfyllnad.
 
    Ange motsvarande värden i diagrammet.
 

@@ -5,7 +5,7 @@ exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Du kan använda en kombination av konfigurationsinställningar för att kontrollera tillgänglighetsmeddelanden för lager på produktsidor och i produktlistor på katalogsidor.
 
-![Grupperad produkt med meddelandet &quot;Out of Stock&quot;](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
+![Grupperad produkt med meddelandet &quot;Out of Stock&quot; ](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
 ## Stock-meddelanden på produktsidan
 
@@ -68,7 +68,7 @@ När Stock inte hanteras för en produkt förhindrar den här kombinationen av k
 
 Följande visningsalternativ är möjliga för kategorierna och sökresultatlistorna, beroende på produkttillgänglighet och konfigurationsinställningar.
 
-![Utlagrade meddelanden på kategorisidan](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+![Meddelande saknas på kategorisidan](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
 ### Exempel 1: Visa produkten med meddelandet &quot;Out of stock&quot;
 

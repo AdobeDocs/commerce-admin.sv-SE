@@ -5,7 +5,7 @@ exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ En nedladdningsbar produkt kan vara allt du kan leverera som en fil, till exempe
 
 Eftersom nedladdningen inte är tillgänglig förrän efter köpet kan du ta fram exempel, t.ex. ett utdrag från en bok, ett klipp från en ljudfil eller en trailer från en video. Ett exempel är något som kunden kan prova innan man köper produkten. De filer du gör tillgängliga för hämtning kan antingen överföras till servern eller från en annan server.
 
-![Nedladdningsbar produkt](./assets/storefront-product-downloadable.png){width="700" zoomable="yes"}
+![Hämtningsbar produkt](./assets/storefront-product-downloadable.png){width="700" zoomable="yes"}
 
 Hämtningsbara produkter kan konfigureras så att kunden måste logga in på ett konto för att kunna ta emot länken eller skickas med e-post och dela dem med andra. Status för ordern innan hämtningen blir tillgänglig, standardvärden och andra leveransalternativ anges i konfigurationen. När du planerar dina hämtningsbara katalogtillägg bör du tänka på följande:
 
@@ -26,26 +26,26 @@ Hämtningsbara produkter kan konfigureras så att kunden måste logga in på ett
 
 - Kunder som köper en nedladdningsbar produkt kan behöva logga in innan de går igenom kassan.
 
-- Leveransen av en nedladdningsbar produkt kan göras när beställningen görs i antingen en `Pending` eller `Invoiced` status.
+- Leveransen av en nedladdningsbar produkt kan göras när ordern har statusen `Pending` eller `Invoiced`.
 
-- Eftersom nedladdningsbara produkter inte levereras kan _Leverans_ steg i utcheckningen hoppas över när vagnen bara innehåller den nedladdningsbara produkten.
+- Eftersom nedladdningsbara produkter inte levereras hoppas steget _Leverans_ i utcheckningen över när vagnen bara innehåller den nedladdningsbara produkten.
 
 
 ## Konfigurera hämtningsalternativ
 
 De hämtningsbara konfigurationsinställningarna avgör standardvärdena och leveransalternativen för hämtningsbara produkter och anger om gästerna kan köpa hämtningar.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Catalog]** och välja **[!UICONTROL Catalog]** under.
+1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Downloadable Product Options]_-avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Downloadable Product Options]_.
 
-   ![Nedladdningsbara produktalternativ](../configuration-reference/catalog/assets/catalog-downloadable-product-options.png){width="700" zoomable="yes"}
+   ![Hämtningsbara produktalternativ](../configuration-reference/catalog/assets/catalog-downloadable-product-options.png){width="700" zoomable="yes"}
 
-   En detaljerad lista över dessa konfigurationsalternativ finns i [_Nedladdningsbara produktalternativ_](../configuration-reference/catalog/catalog.md#downloadable-product-options) i _Konfigurationsreferens_.
+   En detaljerad lista över dessa konfigurationsalternativ finns i [_Hämtningsbara produktalternativ_](../configuration-reference/catalog/catalog.md#downloadable-product-options) i _Konfigurationsreferens_.
 
-1. Ange status för orderprocessen när nedladdningen blir tillgänglig **[!UICONTROL Order Item Status to Enable Downloads]** till något av följande:
+1. Ange **[!UICONTROL Order Item Status to Enable Downloads]** till något av följande för att fastställa status för orderprocessen när hämtningen blir tillgänglig:
 
    - `Pending`
    - `Invoiced`
@@ -54,10 +54,10 @@ De hämtningsbara konfigurationsinställningarna avgör standardvärdena och lev
 
 1. Ange **[!UICONTROL Shareable]** till något av följande:
 
-   - `Yes` - Gör det möjligt för kunder att skicka nedladdningslänken till andra.
-   - `No` - Hindrar kunder från att dela nedladdningslänken med andra genom att kräva att kunderna loggar in på sina konton för att få tillgång till nedladdningslänkar.
+   - `Yes` - Gör att kunder kan skicka länken till andra via e-post.
+   - `No` - Hindrar kunder från att dela nedladdningslänken med andra genom att kräva att kunder loggar in på sina konton för att få åtkomst till nedladdningslänkar.
 
-1. För **[!UICONTROL Default Sample Title]** anger du den rubrik som du vill ska visas ovanför urvalet.
+1. För **[!UICONTROL Default Sample Title]** anger du den rubrik som du vill ska visas ovanför urvalet av exempel.
 
    ![Exempeltitel](./assets/product-downloadable-config-sample-title.png){width="400"}
 
@@ -67,18 +67,18 @@ De hämtningsbara konfigurationsinställningarna avgör standardvärdena och lev
 
    Den här inställningen används för att hålla webbläsarfönstret öppet.
 
-1. Ange hur hämtningsbart innehåll ska levereras **[!UICONTROL Use Content Disposition]** till något av följande:
+1. Om du vill avgöra hur hämtningsbart innehåll levereras ställer du in **[!UICONTROL Use Content Disposition]** på något av följande:
 
-   - `Attachment` - Levererar nedladdningslänken via e-post som en bilaga.
-   - `Inline` - Levererar nedladdningslänken som en länk på en webbplats.
+   - `Attachment` - Levererar nedladdningslänken via e-post som en bifogad fil.
+   - `Inline` - Levererar nedladdningslänken som en länk på en webbsida.
 
 1. Om du vill att köpare ska registrera sig för ett kundkonto och logga in innan de köper en nedladdning anger du **[!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items]** till `Yes`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Skapa en nedladdningsbar produkt
 
-I följande anvisningar visas hur du skapar en nedladdningsbar produkt med hjälp av en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. Varje obligatoriskt fält markeras med en röd asterisk (`*`). När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
+I följande instruktioner visas hur du skapar en hämtningsbar produkt med hjälp av en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. Alla obligatoriska fält är markerade med en röd asterisk (`*`). När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
 
 >[!NOTE]
 >
@@ -86,21 +86,21 @@ I följande anvisningar visas hur du skapar en nedladdningsbar produkt med hjäl
 
 ### Steg 1: Välj produkttyp
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
-1. På _[!UICONTROL Add Product]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ) i det övre högra hörnet väljer du `Downloadable Product`.
+1. Välj `Downloadable Product` på menyn _[!UICONTROL Add Product]_( ![menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ) i det övre högra hörnet.
 
    ![Lägg till hämtningsbar produkt](./assets/product-add-downloadable.png){width="700" zoomable="yes"}
 
 ### Steg 2: Välj attributuppsättning
 
-Exempeldata innehåller en [attributuppsättning](attribute-sets.md) anropad _Nedladdningsbar_ som har specialområden för nedladdningsbara produkter. Du kan använda en befintlig mall eller skapa en annan innan produkten sparas.
+Exempeldata innehåller en [attributuppsättning](attribute-sets.md) med namnet _Hämtningsbar_ som har specialfält för hämtningsbara produkter. Du kan använda en befintlig mall eller skapa en annan innan produkten sparas.
 
 Gör något av följande om du vill välja den attributuppsättning som används som mall för produkten:
 
-- För **[!UICONTROL Search]** anger du namnet på attributuppsättningen.
+- Ange namnet på attributuppsättningen för **[!UICONTROL Search]**.
 
-- Välj `Downloadable` attributuppsättning.
+- Välj attributuppsättningen `Downloadable` i listan.
 
 Formuläret uppdateras för att återspegla ändringen.
 
@@ -110,17 +110,17 @@ Formuläret uppdateras för att återspegla ändringen.
 
 1. Ange **[!UICONTROL Product Name]**.
 
-1. Acceptera standardinställningen **[!UICONTROL SKU]** som baseras på produktnamnet eller anger ett annat.
+1. Acceptera standardvärdet **[!UICONTROL SKU]** som baseras på produktnamnet eller ange ett annat.
 
 1. Ange produkten **[!UICONTROL Price]**.
 
-1. Eftersom produkten ännu inte är klar att publiceras kan du ange **[!UICONTROL Enable Product]** till `No`.
+1. Eftersom produkten ännu inte är klar att publiceras anger du **[!UICONTROL Enable Product]** till `No`.
 
-1. klicka **[!UICONTROL Save]** och fortsätta.
+1. klicka på **[!UICONTROL Save]** och fortsätt.
 
-   När produkten sparas kan du [Butiksvy](introduction.md#product-scope) Väljaren visas i det övre vänstra hörnet.
+   När produkten sparas visas väljaren [Store View](introduction.md#product-scope) i det övre vänstra hörnet.
 
-1. Välj **[!UICONTROL Store View]** där produkten ska finnas tillgänglig.
+1. Välj den **[!UICONTROL Store View]** där produkten ska vara tillgänglig.
 
    ![Välj butiksvy](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
@@ -131,23 +131,23 @@ Formuläret uppdateras för att återspegla ändringen.
    - `None`
    - `Taxable Goods`
 
-1. Ange **[!UICONTROL Quantity]** av den produkt som finns i lager.
+1. Ange **[!UICONTROL Quantity]** för produkten som finns i lager.
 
    Observera följande:
 
-   - Som standard **[!UICONTROL Stock Status]** är inställd på `Out of Stock`.
+   - Som standard är **[!UICONTROL Stock Status]** inställd på `Out of Stock`.
 
-   - Eftersom nedladdningsbara produkter inte levereras kan **[!UICONTROL Weight]** fältet används inte. Om du aktiverar den här funktionen blir den [Enkel produkt](product-create-simple.md) och _Är den här nedladdningsbara produkten?_ kan inte användas.
+   - Eftersom nedladdningsbara produkter inte levereras används inte fältet **[!UICONTROL Weight]**. Om du aktiverar den här funktionen blir den [enkel produkt](product-create-simple.md) och _Är den här hämtningsbara produkten?Det går inte att använda fliken_.
 
    >[!NOTE]
    >
-   >Om du aktiverar [Inventory management](../inventory-management/introduction.md), försäljare med en källa anger kvantiteten i det här avsnittet. Flera källhandlare lägger till källor och kvantiteter i avsnittet Källor. Se följande _Tilldela källor och kvantiteter (Inventory management)_ -avsnitt.
+   >Om du aktiverar [Inventory management](../inventory-management/introduction.md) anger handlare med en enda Source kvantiteten i det här avsnittet. Flera Source-handlare lägger till källor och kvantiteter i avsnittet Källor. Se följande avsnitt _Tilldela källor och kvantiteter (Inventory management)_.
 
-1. Acceptera standardinställningen **[!UICONTROL Visibility]** inställning för `Catalog, Search`.
+1. Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
-1. Så här fungerar produkten i [lista över nya produkter](../content-design/widget-new-products-list.md)väljer du **[!UICONTROL Set Product as New]** kryssrutan.
+1. Markera kryssrutan **[!UICONTROL Set Product as New]** om du vill att produkten ska visas i listan [med nya produkter](../content-design/widget-new-products-list.md).
 
-1. Tilldela _[!UICONTROL Categories]_till produkten klickar du på&#x200B;**[!UICONTROL Select…]**och gör något av följande:
+1. Om du vill tilldela _[!UICONTROL Categories]_till produkten klickar du på rutan **[!UICONTROL Select…]**och gör något av följande:
 
    **Välj en befintlig kategori**:
 
@@ -159,7 +159,7 @@ Formuläret uppdateras för att återspegla ändringen.
 
    - Klicka på **[!UICONTROL New Category]**.
 
-   - Ange **[!UICONTROL Category Name]** och väljer **[!UICONTROL Parent Category]**, som bestämmer dess position i [menystruktur](category-root.md).
+   - Ange **[!UICONTROL Category Name]** och välj **[!UICONTROL Parent Category]** som avgör dess position i [menystrukturen](category-root.md).
 
    - Klicka på **[!UICONTROL Create Category]**.
 
@@ -168,7 +168,7 @@ Formuläret uppdateras för att återspegla ändringen.
    - `Download`
    - `DVD`
 
-   Om det behövs kan du redigera [attribute](attribute-product-create.md) om du vill lägga till fler värden.
+   Om det behövs kan du redigera [attributet](attribute-product-create.md) och lägga till fler värden.
 
    Det kan finnas ytterligare attribut som beskriver produkten. Markeringen varierar beroende på attributuppsättning och du kan slutföra dem senare.
 
@@ -178,68 +178,68 @@ Formuläret uppdateras för att återspegla ändringen.
 
 ### Steg 5: Fyll i den hämtningsbara informationen
 
-Bläddra nedåt, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Downloadable Information]_och väljer **[!UICONTROL Is this downloadable product?]**kryssrutan.
+Bläddra nedåt, expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Downloadable Information]_och markera kryssrutan **[!UICONTROL Is this downloadable product?]**.
 
-När det är aktiverat visas _[!UICONTROL Downloadable Information]_-avsnittet har två delar. I den första delen beskrivs varje nedladdningslänk och i den andra delen beskrivs varje exempelfil. Standardvärdet för många av dessa alternativ kan anges i [konfiguration](#configure-the-download-options).
+När alternativet är aktiverat har avsnittet _[!UICONTROL Downloadable Information]_två delar. I den första delen beskrivs varje nedladdningslänk och i den andra delen beskrivs varje exempelfil. Standardvärdet för många av dessa alternativ kan anges i [konfigurationen](#configure-the-download-options).
 
-![Nedladdningsbar information](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
+![Hämtningsbar information](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Fyll i länkarna
 
-1. I _[!UICONTROL Links]_anger du **[!UICONTROL Title]**som du vill använda som rubrik för nedladdningslänkarna.
+1. I avsnittet _[!UICONTROL Links]_anger du den **[!UICONTROL Title]**som du vill använda som rubrik för hämtningslänkarna.
 
-1. Välj **[!UICONTROL Links can be purchased separately]** kryssrutan.
+1. Markera kryssrutan **[!UICONTROL Links can be purchased separately]** om tillämpligt.
 
-1. Klicka **[!UICONTROL Add Link]** och gör följande:
+1. Klicka på **[!UICONTROL Add Link]** och gör följande:
 
-   - Ange **[!UICONTROL Title]** och **[!UICONTROL Price]** av nedladdningen.
+   - Ange **[!UICONTROL Title]** och **[!UICONTROL Price]** för hämtningen.
 
-   - För båda **[!UICONTROL File]** och **[!UICONTROL Sample]** väljer du en av följande distributionsmetoder för nedladdningarna:
+   - För både **[!UICONTROL File]**- och **[!UICONTROL Sample]**-filer väljer du en av följande distributionsmetoder för hämtningarna:
 
       - `Upload File` - Välj den här metoden om du vill överföra distributionsfilen till servern. Bläddra till filen och markera den för överföring.
       - `URL` - Välj den här metoden om du vill komma åt distributionsfilen från en URL. Ange den fullständiga URL:en till den hämtade filen.
 
    >[!NOTE]
    >
-   >Du kan inte använda länkar till externa resurser som hämtningsbara produkter. Giltiga länkdomäner fördefinieras programmatiskt i `env.php` fil (se [env.php reference](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) i _Konfigurationshandbok_).
+   >Du kan inte använda länkar till externa resurser som hämtningsbara produkter. Giltiga länkdomäner är fördefinierade programmatiskt i filen `env.php` (se [env.php-referens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) i _konfigurationshandboken_).
 
    - Ange **[!UICONTROL Shareable]** till något av följande:
 
-      - `No` - Kunder måste logga in på sina konton för att få åtkomst till nedladdningslänken.
+      - `No` - Kunder måste logga in på sina konton för att komma åt nedladdningslänken.
 
-      - `Yes` - Skickar länken via e-post, som kunderna kan dela med andra.
+      - `Yes` - Skickar länken via e-post, som kunder kan dela med andra.
 
-      - `Use Config` - Använder metoden som anges i [Nedladdningsbara produktalternativ](../configuration-reference/catalog/catalog.md) konfiguration.
+      - `Use Config` - Använder den metod som anges i konfigurationen för [hämtningsbara produktalternativ](../configuration-reference/catalog/catalog.md).
 
    - Gör något av följande:
 
       - Om du vill begränsa antalet nedladdningar per kund anger du det maximala antalet för **[!UICONTROL Max. Downloads]**.
-      - Om du vill tillåta ett obegränsat antal nedladdningar väljer du **[!UICONTROL Unlimited]** kryssrutan.
+      - Markera kryssrutan **[!UICONTROL Unlimited]** om du vill tillåta ett obegränsat antal hämtningar.
 
-   ![Länkdetalj](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
+   ![Länkinformation](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
 
-1. Om du vill lägga till en länk klickar du på **[!UICONTROL Add Link]** och upprepa dessa steg.
+1. Om du vill lägga till en till länk klickar du på **[!UICONTROL Add Link]** och upprepar de här stegen.
 
 #### Fyll i exemplen
 
-1. I _[!UICONTROL Samples]_anger du **[!UICONTROL Title]**som du vill använda som rubrik för exemplen.
+1. I avsnittet _[!UICONTROL Samples]_anger du den **[!UICONTROL Title]**som du vill använda som rubrik för exemplen.
 
-1. Om du vill fylla i informationen för varje prov klickar du på **[!UICONTROL Add Link]**.
+1. Klicka på **[!UICONTROL Add Link]** om du vill slutföra informationen för varje exempel.
 
    ![Exempel](./assets/product-downloadable-samples.png){width="600" zoomable="yes"}
 
 1. Fyll i länkinformationen enligt följande:
 
-   - Ange **[!UICONTROL Title]** av det enskilda provet.
+   - Ange **[!UICONTROL Title]** för det enskilda exemplet.
 
    - Välj någon av följande distributionsmetoder:
 
       - `Upload File` - Välj den här metoden om du vill överföra distributionsfilen till servern. Bläddra till filen och markera den för överföring.
       - `URL` - Välj den här metoden om du vill komma åt distributionsfilen från en URL. Ange den fullständiga URL:en till den hämtade filen.
 
-   - Om du vill lägga till ytterligare ett exempel klickar du **[!UICONTROL Add Link]** och upprepa dessa steg.
+   - Om du vill lägga till ytterligare ett exempel klickar du på **[!UICONTROL Add Link]** och upprepar de här stegen.
 
-   - Om du vill ändra ordningen på proverna tar du _Ändra ordning_ ( ![Positionskontroll](../assets/icon-sort-order.png) ) och dra exemplet till en ny plats.
+   - Om du vill ändra ordningen på exemplen, tar du ikonen _Ändra ordning_ ( ![Positionskontrollen](../assets/icon-sort-order.png) ) och drar exemplet till en ny plats.
 
 ### Steg 6: Fyll i produktinformationen
 
@@ -254,15 +254,15 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 - [Design](settings-advanced-design.md)
 - [Presentalternativ](product-gift-options.md)
 
-### Steg 7: Publicera produkten
+### Steg 7: Publish produkten
 
 Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable Product]** till `Yes` och gör något av följande:
 
 **Metod 1:** Spara och förhandsgranska
 
-- Klicka på i det övre högra hörnet **[!UICONTROL Save]**.
+- Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-- Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på _Administratör_ ( ![Menypil](../assets/icon-menu-down-arrow-black.png) ).
+- Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil ](../assets/icon-menu-down-arrow-black.png) ).
 
   Butiken öppnas på en ny flik i webbläsaren.
 
@@ -270,30 +270,30 @@ Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable
 
 **Metod 2:** Spara och stäng
 
-På _[!UICONTROL Save]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ) väljer du **[!UICONTROL Save & Close]**.
+Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## StoreFront
 
-På kontrollpanelen för kundkonton visas _[!UICONTROL My Downloadable Products]_sid-länkar till varje order med nedladdningsbara produkter. Nedladdningarna blir tillgängliga från kundens konto när beställningen är klar.
+På kontrollpanelen för kundkonton länkar sidan _[!UICONTROL My Downloadable Products]_till varje order med hämtningsbara produkter. Nedladdningarna blir tillgängliga från kundens konto när beställningen är klar.
 
-![Mina nedladdningsbara produkter](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
+![Mina hämtningsbara produkter](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
-I följande tabell beskrivs _Mina nedladdningsbara produkter_ värden:
+I följande tabell beskrivs värdena för _Mina hämtningsbara produkter_:
 
 | Kolumn | Beskrivning |
 |--- |--- |
-| [!UICONTROL Order#] | The [beställa](../stores-purchase/orders.md) där den nedladdningsbara produkten köptes. Tillhandahåller en länk till orderinformationen. |
+| [!UICONTROL Order#] | Den [beställning](../stores-purchase/orders.md) där den hämtningsbara produkten köptes. Tillhandahåller en länk till orderinformationen. |
 | [!UICONTROL Date] | Orderskapandedatum. |
 | [!UICONTROL Title] | Namnet på den hämtningsbara produkten som köpts tillsammans med ordern. En länk till den hämtningsbara produkten. |
 | [!UICONTROL Status] | Beställningsstatus. |
 | [!UICONTROL Remaining Downloads] | Antal tillgängliga hämtningar av den hämtade produkten. |
 
-_**Så här hämtar du en produktfil från kontrollpanelen för konton**_
+_**Så här hämtar du en produktfil från kontouppsättningen**_
 
-1. På kontouppsättningen väljer kunden **[!UICONTROL My Downloadable Products]**.
+1. I kontouppsättningen väljer kunden **[!UICONTROL My Downloadable Products]**.
 
 1. Söker efter ordningen i listan och klickar på länken efter titeln.
 
-1. Klicka i det nedre högra hörnet av hämtningsfönstret på _ladda ned_ -ikon.
+1. Klicka på ikonen _download_ i det nedre högra hörnet av hämtningsfönstret.
 
 1. Söker efter filen på hämtningsplatsen och sparar filen på önskad plats.

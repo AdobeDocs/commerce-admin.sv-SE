@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] i Commerce Admin.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Betalningstjänster för Adobe Commerce och Magento Open Source utgör en nyckelfärdig självbetjäningslösning, inklusive sandlådetestning och en enkel konfiguration, för tillförlitlig och säker betalningshantering. Om du vill veta mer om den här kraftfulla verktygsuppsättningen och hur den kan ge dig de insikter och den kontroll du behöver för att skapa den bästa upplevelsen för dina köpare kan du läsa [_Användarhandbok för betaltjänster_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+>Betalningstjänster för Adobe Commerce och Magento Open Source utgör en nyckelfärdig självbetjäningslösning, inklusive sandlådetestning och en enkel konfiguration, för tillförlitlig och säker betalningshantering. Om du vill veta mer om den här kraftfulla verktygsuppsättningen och hur den kan ge dig de insikter och den kontroll du behöver för att skapa den bästa upplevelsen för dina köpare kan du läsa [_användarhandboken för betaltjänster_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
 
 {{config}}
 
@@ -40,11 +40,11 @@ Följande betalningslösningar rekommenderas som ett enkelt sätt för handlare 
 
 >[!NOTE]
 >
->Vissa betalningsintegreringar och paketerade tillägg har tagits bort i version 2.4.x och flyttats till Commerce Marketplace. Du hittar de senaste officiella tilläggen för betalningsintegration i [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
+>Vissa betalningsintegreringar och paketerade tillägg har tagits bort i version 2.4.x och flyttats till Commerce Marketplace. Du hittar de senaste officiella tilläggen för betalningsintegrering i [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
 ><br/>
->**Amazon Pay** och **Klarna**: Adobe Commerce och Magento Open Source, version 2.4.0 till 2.4.3, innehåller dessa tillägg som utvecklats av återförsäljare. Från och med version 2.4.4 ingår inte längre dessa tillägg i kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
+>**Amazon Pay** och **Klarna**: Adobe Commerce och Magento Open Source version 2.4.0 till 2.4.3 innehåller dessa tillägg som utvecklats av återförsäljare. Från och med version 2.4.4 ingår inte längre dessa tillägg i kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
 ><br/>
->Om du har aktiverat och konfigurerat något av dessa paketerade tillägg måste du uppdatera `composer.json` som en del av uppgraderingsprocessen för 2.4.4 och för att hantera tilläggsuppdateringar. Se [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _Uppgraderingshandbok_ för mer information.<br/>
+>Om du har aktiverat och konfigurerat något av de här paketerade tilläggen måste du uppdatera din `composer.json`-fil som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _uppgraderingshandboken_.<br/>
 ><br/>
 >**Worldplay**, **Eway**, **CyberSource** och **Authorize.Net**: Mer information om hur du gör en säker övergång från dessa betalningsintegreringar finns i [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}.
 
@@ -60,16 +60,16 @@ PayPal erbjuder olika betalningslösningar som uppfyller behoven hos företag av
 
 ### Betalningsgateways för PayPal
 
-- [PayPal Payflow Pro](paypal-payflow-pro.md) (Inkluderar Express Checkout)
-- [Länk till PayPal-betalningsflöde](paypal-payflow-link.md) (Inkluderar Express Checkout)
+- [PayPal Payflow Pro](paypal-payflow-pro.md) (inkluderar Express Checkout)
+- [PayPal Payflow Link](paypal-payflow-link.md) (inkluderar Express Checkout)
 
 ## Grundläggande betalningsmetoder
 
-Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredjepartsleverantör för att bearbeta transaktionen. Många av de grundläggande betalningssätten hanteras offline, i stället för online.
+Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredjepartsleverantör för att behandla transaktionen. Många av de grundläggande betalningssätten hanteras offline, i stället för online.
 
 ### [!UICONTROL Check / Money Order]
 
-![Check/penningorder](./assets/payment-methods-check-money-order.png)<!-- zoom -->
+![Kontrollera/Pengar beställ](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
 <!-- [Check / Money Order](https://docs.magento.com/user-guide/payment/check-money-order.html) -->
 
@@ -77,20 +77,20 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Webbplats | Avgör om kunderna kan betala med check eller penningorder. Alternativ: `Yes` / `No` |
 | [!UICONTROL Title] | Butiksvy | Namnet på den här betalningsmetoden som visas för kunder vid utcheckning. |
-| [!UICONTROL New Order Status] | Webbplats | Bestämmer startvärdet [orderstatus](../../stores-purchase/order-status.md) som har tilldelats order som har betalats av en check eller en betalningsorder. Standardvärde: `Pending` |
+| [!UICONTROL New Order Status] | Webbplats | Fastställer den initiala [orderstatusen](../../stores-purchase/order-status.md) som tilldelats order som betalas av en check eller en betalningsorder. Standardvärde: `Pending` |
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Avgör från vilka länder du godkänner betalning med check eller betalningsorder. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder från vilka du godkänner betalning med check eller betalningsorder. |
 | [!UICONTROL Make Check Payable to] | Butiksvy | Namnet på den enhet som checkar och betalningsorder ska betalas till. |
 | [!UICONTROL Send Check to] | Butiksvy | Gatuadress eller PO Box dit checkar och betalningsorder ska skickas. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Det minsta orderbeloppet som kan betalas med check eller penningorder. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med check eller penningorder. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, minsta eller högsta ordersumma. |
-| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning med check eller betalningsorder visas när det visas med andra betalningsmetoder i kassan. Retur `0` om du vill placera den högst upp i listan. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med check eller penningorder. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning med check eller betalningsorder visas när det visas med andra betalningsmetoder i kassan. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
-![Betalning av banköverföring](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
+![Banköverföringsbetalning](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
 <!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
 
@@ -102,8 +102,8 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Avgör från vilka länder du godkänner betalning via banköverföring. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder från vilka du godkänner betalning via banköverföring. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Det minsta orderbelopp som kan betalas genom banköverföring. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, minsta eller högsta ordersumma. |
-| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning via banköverföring visas när det visas med andra betalningsmetoder under utcheckning. Retur `0` om du vill placera den högst upp i listan. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning via banköverföring visas när det visas med andra betalningsmetoder under utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
 
@@ -111,7 +111,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 
 {{b2b-feature}}
 
-![Betalning à conto](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
+![Betalning på konto](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
 <!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
 
@@ -123,8 +123,8 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Bestämmer de länder där du tillåter företag att debitera sina konton för inköp. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder där företag kan debitera sina konton för inköp. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Anger det minsta orderbelopp som kan debiteras ett företagskonto. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan debiteras ett företagskonto. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, minsta eller högsta ordersumma. |
-| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer den order som betalning på konto visas när det visas med andra betalningsmetoder vid utcheckning. Retur `0` om du vill placera den högst upp i listan. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan debiteras ett företagskonto. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer den order som betalning på konto visas när det visas med andra betalningsmetoder vid utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
 
@@ -134,7 +134,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 
 ### [!UICONTROL Cash On Delivery Payment]
 
-![Kontant vid leverans](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
+![Kontant vid betalning](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
 
 <!-- [Cash On Delivery Payment](../../stores-purchase/cash-on-delivery.html) -->
 
@@ -146,14 +146,14 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Avgör från vilka länder du godkänner betalning via banköverföring. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder från vilka du godkänner betalning via banköverföring. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Anger det minsta orderbelopp som kan betalas genom banköverföring. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, minsta eller högsta ordersumma. |
-| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning via banköverföring visas när det visas med andra betalningsmetoder under utcheckning. Retur `0` om du vill placera den högst upp i listan. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning via banköverföring visas när det visas med andra betalningsmetoder under utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
-![Noll delsumma, utcheckning](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
+![Ingen deltotal utcheckning](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
 
 <!-- [Zero Subtotal Checkout](../../stores-purchase/zero-subtotal-checkout.html) -->
 
@@ -164,13 +164,13 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL New Order Status] | Webbplats | Bestämmer den initiala orderstatusen som tilldelats order som bearbetats som noll deltotal utcheckning. Standardvärde: `Pending` |
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Bestämmer från vilka länder som utcheckning av delsummor kan användas. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder för vilka noll deltotal utcheckning kan tillämpas. |
-| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer i vilken ordning titeln, t.ex. &quot;Ingen betalningsinformation krävs&quot;, visas när det visas tillsammans med andra betalningsmetoder vid utcheckning. Retur `0` om du vill placera den högst upp i listan. |
+| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer i vilken ordning titeln, t.ex. &quot;Ingen betalningsinformation krävs&quot;, visas när det visas tillsammans med andra betalningsmetoder vid utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
-Betalningsåtgärder har konfigurerats _per betalningsmetod_. Betalningsåtgärden avgör när medlen hämtas och när fakturor skapas för dina försäljningsorder.
+Betalningsåtgärder är konfigurerade _per betalningsmetod_. Betalningsåtgärden avgör när medlen hämtas och när fakturor skapas för dina försäljningsorder.
 
 I avsnittet Grundinställningar för varje enskild betalningsmetod finns en omfattande lista med de olika konfigurationsalternativen.
 
@@ -181,7 +181,7 @@ I avsnittet Grundinställningar för varje enskild betalningsmetod finns en omfa
 | [!UICONTROL Authorize and Capture] | Auktoriserar köparens konto för ordersumman och tar emot betalningen. En faktura skapas automatiskt. Du kan återbetala insamlade medel via kreditnota. Du kan inte annullera en order när betalningen har hämtats. |
 | [!UICONTROL Charge on shipment] | Amazon tar emot en registreringsförfrågan och debiterar kunden när en faktura skapas i Commerce. |
 | [!UICONTROL Charge on order] | Amazon skapar fakturan och debiterar kunden när ordern läggs. |
-| [!UICONTROL Not Capture] | När fakturan skickas registreras inte betalningen. Du måste hämta betalningen via Commerce senare. Det finns en hämtningsknapp i den ifyllda fakturan. Innan du hämtar kan du annullera fakturan. När du har hämtat kan du skapa en kreditnota och annullera fakturan. |
+| [!UICONTROL Not Capture] | När fakturan skickas registreras inte betalningen. Du förutsätts betala via Commerce senare. Det finns en hämtningsknapp i den ifyllda fakturan. Innan du hämtar kan du annullera fakturan. När du har hämtat kan du skapa en kreditnota och annullera fakturan. |
 | [!UICONTROL Order] | Representerar ett avtal med PayPal som gör att handlaren kan hämta ett eller flera belopp upp till ordersumman från kundens köparkonto inom en angiven tidsperiod (upp till 29 dagar). |
 | [!UICONTROL Sale] | Köpbeloppet godkänns och dras omedelbart tillbaka från kundens konto. |
 
@@ -189,7 +189,7 @@ I avsnittet Grundinställningar för varje enskild betalningsmetod finns en omfa
 
 >[!NOTE]
 >
->Markera inte _[!UICONTROL Not Capture]_om du inte är säker på att du kommer att hämta betalningen via Commerce senare. Du kan inte skapa en kreditnota förrän betalningen har hämtats med knappen Hämta.
+>Välj inte alternativet _[!UICONTROL Not Capture]_om du inte är säker på att du kommer att hämta betalningen via Commerce senare. Du kan inte skapa en kreditnota förrän betalningen har hämtats med knappen Hämta.
 
 ## [!UICONTROL Purchase Order]
 
@@ -201,11 +201,11 @@ I avsnittet Grundinställningar för varje enskild betalningsmetod finns en omfa
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Webbplats | Bestämmer om kunderna kan betala med inköpsorder (PO). Alternativ: `Yes` / `No` |
 | [!UICONTROL Title] | Butiksvy | Namnet på den här betalningsmetoden som visas för kunder vid utcheckning. |
-| [!UICONTROL New Order Status] | Webbplats | Bestämmer startvärdet [orderstatus](../../stores-purchase/order-status.md) som tilldelats order som betalats av PO. Standardvärde: Väntande |
+| [!UICONTROL New Order Status] | Webbplats | Bestämmer den initiala [orderstatusen](../../stores-purchase/order-status.md) som tilldelats order som betalats av inköpsorder. Standardvärde: Väntande |
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Bestämmer från vilka länder du godkänner betalning av inköpsorder. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder från vilka du godkänner betalning från inköpsorder. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Det minsta orderbelopp som kan betalas av inköpsorder. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan betalas av inköpsorder. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, minsta eller högsta ordersumma. |
-| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer den order som betalning via inköpsorder visas när det visas med andra betalningsmetoder vid utcheckning. Retur `0` om du vill placera den högst upp i listan. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan betalas av inköpsorder. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer den order som betalning via inköpsorder visas när det visas med andra betalningsmetoder vid utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}

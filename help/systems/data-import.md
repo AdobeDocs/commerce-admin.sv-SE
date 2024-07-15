@@ -44,7 +44,7 @@ Om det finns ett attribut som anges i importfilen och dess värde härleds från
 ### Ogiltiga filer
 
 - En fil kan inte importeras om alla rader är ogiltiga.
-- Ett icke-befintligt tjänstdata eller komplext datanamn anges i importfilen, till exempel en kolumn med en `_<non-existing name>` rubrik.
+- Ett tjänstdatanamn som inte finns eller ett komplext datanamn har angetts i importfilen, till exempel en kolumn med en `_<non-existing name>`-rubrik.
 
 Adobe Commerce importprocess kanske inte känner igen filer som är kodade i UTF-8 och som använder ett byteordningsmärke (BOM). Filer som innehåller en strukturlista kan leda till problem eller fel under importprocessen.
 
@@ -52,17 +52,17 @@ Adobe Commerce importprocess kanske inte känner igen filer som är kodade i UTF
 
 | Åtgärd | Beskrivning |
 | --------- | ----------- |
-| Lägg till/uppdatera | Nya produktdata läggs till i befintliga produktdata för de befintliga posterna i databasen. Alla fält utom `sku` kan uppdateras.<br><br>Nya momsklasser som anges i importdata skapas automatiskt.<br><br>Nya produktkategorier som anges i importfilen skapas automatiskt.<br><br>Nya SKU:er som anges i importfilen skapas automatiskt <br><br>**_Obs!_**För produkter kan du uppdatera alla fält utom SKU via import.<br><br>**_Viktigt:_** Det går inte att ta bort flera fältvärden, t.ex. webbplatser eller kategorier, med _Lägg till/uppdatera_ importbeteende. Dessa fält finns kvar i databasen efter importen om de inte finns med i CSV-filen. |
-| Ersätt | Befintliga produktdata ersätts med nya data.<br><br>**_Viktigt:_**Var försiktig när du ersätter data eftersom befintliga produktdata rensas och alla referenser i systemet går förlorade.<br><br>Om en SKU i importdata matchar SKU:n för en befintlig enhet tas alla fält, inklusive SKU:n, bort och en ny post skapas med CSV-data. Ett fel uppstår om CSV-filen refererar till en SKU som inte finns i databasen. Du kan kontrollera data för att visa fel. |
-| Ta bort | Alla entiteter i importdata som finns i databasen tas bort från databasen.<br><br>Om du tar bort ignoreras alla kolumner i importdata, förutom SKU. Du kan ignorera alla andra attribut i data.<br><br>Ett fel uppstår om CSV-filen refererar till en SKU som inte finns i databasen. Du kan kontrollera data för att visa fel. |
+| Lägg till/uppdatera | Nya produktdata läggs till i befintliga produktdata för de befintliga posterna i databasen. Alla fält utom `sku` kan uppdateras.<br><br>Nya momsklasser som anges i importdata skapas automatiskt.<br><br>Nya produktkategorier som anges i importfilen skapas automatiskt.<br><br>Nya SKU:er som anges i importfilen skapas automatiskt <br><br>**_Obs!_**För produkter kan du uppdatera alla fält utom SKU genom import.<br><br>**_Viktigt!_** Det går inte att ta bort flera fältvärden, till exempel webbplatser eller kategorier, med importfunktionen _Lägg till/uppdatera_. Dessa fält finns kvar i databasen efter importen om de inte finns med i CSV-filen. |
+| Ersätt | Befintliga produktdata ersätts med nya data.<br><br>**_Viktigt!_**Var försiktig när du ersätter data eftersom befintliga produktdata rensas och alla referenser i systemet går förlorade.<br><br>Om en SKU i importdata matchar SKU för en befintlig entitet tas alla fält, inklusive SKU:n, bort och en ny post skapas med CSV-data. Ett fel uppstår om CSV-filen refererar till en SKU som inte finns i databasen. Du kan kontrollera data för att visa fel. |
+| Ta bort | Alla entiteter i importdata som finns i databasen tas bort från databasen.<br><br>Ta bort ignorerar alla kolumner i importdata, förutom SKU. Du kan ignorera alla andra attribut i data.<br><br>Ett fel inträffar om CSV-filen refererar till en SKU som inte finns i databasen. Du kan kontrollera data för att visa fel. |
 
 {style="table-layout:auto"}
 
 ## Importprocess
 
-Importfilens storlek bestäms av inställningarna i dialogrutan `php.ini` på servern. Systemmeddelandet på _Importera_ sidan anger den aktuella storleksgränsen. Standardstorleken är 2 MB.
+Importfilens storlek bestäms av inställningarna i filen `php.ini` på servern. Systemmeddelandet på sidan _Importera_ anger den aktuella storleksgränsen. Standardstorleken är 2 MB.
 
-Specialtecken (som likhetstecken, större och mindre än symboler, enkla och dubbla citattecken, omvänt snedstreck, vertikalstreck och et-tecken) kan orsaka problem vid dataöverföring. För att säkerställa att sådana specialtecken tolkas korrekt kan de markeras som _escape-sekvens_. Om data till exempel innehåller en textsträng, som `code="str"`, `code="str2"`om du väljer att omsluta texten med dubbla citattecken ser du till att de ursprungliga dubbla citattecknen tolkas som en del av data. När systemet stöter på en dubbel uppsättning med dubbla citattecken är det förstått att den yttre uppsättningen med dubbla citattecken omsluter de faktiska data.
+Specialtecken (som likhetstecken, större och mindre än symboler, enkla och dubbla citattecken, omvänt snedstreck, vertikalstreck och et-tecken) kan orsaka problem vid dataöverföring. För att säkerställa att sådana specialtecken tolkas korrekt kan de markeras som en _escape-sekvens_. Om data till exempel innehåller en textsträng som `code="str"`, `code="str2"`, kan du omsluta texten med citattecken så att de ursprungliga citattecknen tolkas som en del av data. När systemet stöter på en dubbel uppsättning med dubbla citattecken är det förstått att den yttre uppsättningen med dubbla citattecken omsluter de faktiska data.
 
 När produktdata importeras läggs nya produktdata till i befintliga produktdatainmatningar i databasen. Alla fält utom SKU kan uppdateras via import. Alla befintliga produktdata ersätts med importerade nya data. Var försiktig när du ersätter data. Alla befintliga produktdata rensas och alla referenser i systemet går förlorade.
 
@@ -70,9 +70,9 @@ När produktdata importeras läggs nya produktdata till i befintliga produktdata
 
 ### Steg 1: Förbered data
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**på sidofältet_ Admin _.
 
-1. Under _Importinställningar_, ange **[!UICONTROL Entity Type]** till något av följande:
+1. Under _Importinställningar_ anger du **[!UICONTROL Entity Type]** till något av följande:
 
    - `Advanced Pricing`
    - `Products`
@@ -88,7 +88,7 @@ När produktdata importeras läggs nya produktdata till i befintliga produktdata
 
    Exempelfilen innehåller kolumnrubriker med platshållardata för produkttyperna.
 
-   ![Importera exempelfil för data](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
+   ![Importera dataexempelfil](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
 
 1. Undersök strukturen för exempelfilen och använd den för att förbereda CSV-importfilen och kontrollera att kolumnrubrikerna är rättstavade.
 
@@ -104,7 +104,7 @@ När produktdata importeras läggs nya produktdata till i befintliga produktdata
 
 ### Steg 2: Välj importbeteende
 
-![Dataimportbeteende](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
+![Beteende vid dataimport](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
 
 1. Ange **[!UICONTROL Import Behavior]** till något av följande:
 
@@ -117,7 +117,7 @@ När produktdata importeras läggs nya produktdata till i befintliga produktdata
    - `Stop on Error`
    - `Skip error entries`
 
-1. För **[!UICONTROL Allowed Errors Count]** anger du antalet fel som kan uppstå innan importen avbryts.
+1. För **[!UICONTROL Allowed Errors Count]** anger du antalet fel som kan inträffa innan importen avbryts.
 
    Standardvärdet är 10.
 
@@ -127,17 +127,17 @@ När produktdata importeras läggs nya produktdata till i befintliga produktdata
 
    I en CSV-fil är kommatecken standardavgränsare. Om du vill använda ett annat tecken kontrollerar du att data i CSV-filen matchar det tecken som du anger.
 
-1. Acceptera standardvärdet `_EMPTY_VALUE_` for **[!UICONTROL Empty attribute value constant]**.
+1. Acceptera standardvärdet `_EMPTY_VALUE_` för **[!UICONTROL Empty attribute value constant]**.
 
-1. Om du vill omsluta specialtecken som finns i data som _escape-sekvens_ väljer du **[!UICONTROL Fields Enclosure]** kryssrutan.
+1. Om du vill omsluta specialtecken som kan finnas i data som en _escape-sekvens_ markerar du kryssrutan **[!UICONTROL Fields Enclosure]**.
 
 ### Steg 3: Identifiera importfilen
 
 ![Dataimportfil](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Choose File]** för att markera filen som ska importeras.
+1. Klicka på **[!UICONTROL Choose File]** för att markera filen som ska importeras.
 
-1. Leta reda på CSV-filen som du förberedde för import och klicka på **[!UICONTROL Open]**.
+1. Leta reda på CSV-filen som du förberedde för import och klicka på **[!UICONTROL Open]**.
 
 1. För **[!UICONTROL Images File Directory]** anger du den relativa sökvägen till den plats på Commerce-servern där överförda bilder lagras.
 
@@ -145,13 +145,13 @@ När produktdata importeras läggs nya produktdata till i befintliga produktdata
 
    >[!NOTE]
    >
-   >Från Adobe Commerce och Magento Open Source `2.3.2` release, den sökväg som anges i _[!UICONTROL Images File Directory]_sammanfogar för import till bildens baskatalog: `<Magento-root-folder>/var/import/images`. Du kan till exempel placera `product_images` filer i `<Magento-root-directory>/var/import/images/product_images` mapp. Baskatalogen för import av bilder kan konfigureras i `\Magento\ImportExport\etc\config.xml` -fil. Om fjärrlagringsmodulen är aktiverad kan du importera filer till `<remote-storage-root-directory>/var/import/images/product_images` mapp.
+   >Från och med Adobe Commerce och Magento Open Source `2.3.2` sammanfogas sökvägen som anges i _[!UICONTROL Images File Directory]_för import till bildens baskatalog: `<Magento-root-folder>/var/import/images`. Du kan till exempel placera `product_images`-filerna i mappen `<Magento-root-directory>/var/import/images/product_images`. Baskatalogen för importbilderna kan konfigureras i filen `\Magento\ImportExport\etc\config.xml`. Om fjärrlagringsmodulen är aktiverad importerar du filer till mappen `<remote-storage-root-directory>/var/import/images/product_images`.
 
    Mer information om hur du importerar produktbilder finns i [Importera produktbilder](data-import-product-images.md).
 
 ### Steg 4: Kontrollera importdata
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Check Data]**.
+1. Klicka på **[!UICONTROL Check Data]** i det övre högra hörnet.
 
 1. Vänta en stund tills valideringsprocessen har slutförts.
 
@@ -173,17 +173,17 @@ När produktdata importeras läggs nya produktdata till i befintliga produktdata
 
 ## Importera historik
 
-Commerce lagrar en datapost som har importerats till din butik, inklusive startdatum och -tid, användare, körningstid och en länk till den importerade filen. The _Körningstid_ är importprocessens längd.
+Commerce sparar en post med data som har importerats till din butik, inklusive startdatum och starttid, användare, körningstid och en länk till den importerade filen. _Körningstid_ är importprocessens varaktighet.
 
 **_Så här visar du importhistoriken:_**
 
-På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**.
+Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**på sidofältet_ Admin _.
 
 ![Historik för dataimport](./assets/data-import-history.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Som standard finns importhistorikfiler i `<Magento-root-directory>/var/import_history` mapp. Om fjärrlagringsmodulen är aktiverad finns importhistorikfiler i `<remote-storage-root-directory>/import_export/import_history` mapp.
+>Som standard finns importhistorikfiler i mappen `<Magento-root-directory>/var/import_history`. Om fjärrlagringsmodulen är aktiverad finns importhistorikfiler i mappen `<remote-storage-root-directory>/import_export/import_history`.
 
 | Fält | Beskrivning |
 |--- |--- |
@@ -197,4 +197,4 @@ På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Da
 
 {style="table-layout:auto"}
 
-Ladda ned _Importerat/fel_ fil, klicka på **[!UICONTROL Download]**.
+Klicka på **[!UICONTROL Download]** om du vill hämta filen _Importerad/Error_.

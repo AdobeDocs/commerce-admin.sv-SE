@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] i Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
 source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Mask for SKU] | Global | Bestämmer SKU-fältets standardvärde baserat på platshållarvärden från andra fält och eventuell ytterligare text som anges. Standardplatshållare: <br/>Produktnamn - `{{name}}` |
 | [!UICONTROL Mask for Meta Title] | Global | Bestämmer standardvärdet för fältet Meta Title baserat på platshållarvärden från andra fält och eventuell ytterligare text som anges. Standardplatshållare: <br/>Produktnamn - `{{name}}` |
-| [!UICONTROL Mask for Meta Keywords] | Global | Bestämmer standardvärdet för _Meta-nyckelord_ fält baserat på platshållarvärden från andra fält och eventuell ytterligare text som anges. Standardplatshållare: <br/>Produktnamn - `{{name}}` |
+| [!UICONTROL Mask for Meta Keywords] | Global | Bestämmer standardvärdet för fältet _Meta Keywords_ baserat på platshållarvärden från andra fält och eventuell ytterligare text som anges. Standardplatshållare: <br/>Produktnamn - `{{name}}` |
 | [!UICONTROL Mask for Meta Description] | Global | Bestämmer standardvärdet för fältet Metabeskrivning baserat på platshållarvärden från andra fält och eventuell ytterligare text som anges. Standardplatshållare: <br/>Produktnamn - `{{name}}` <br/>Beskrivning - `{{description}}` |
 
 {style="table-layout:auto"}
@@ -55,10 +55,10 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | Butiksvy | Anger hur många produkter som visas per sida som standard i stödrastervyn. |
 | [!UICONTROL Products per Page on List Allowed Values] | Butiksvy | Bestämmer antalet produkter som visas i listvyn. Ange flera värden avgränsade med kommatecken om du vill välja alternativ. |
 | [!UICONTROL Products per Page on List Default Value] | Butiksvy | Anger antalet produkter som visas per sida som standard i listvyn. |
-| Produktlista sortera efter | Butiksvy | Bestämmer sorteringsordningen i sökresultatlistan. Valet av alternativ avgörs av kategorins visningsinställningar och de tillgängliga attribut som anges som `Used for Sorting in Product Listing`. Standardvärdet är `Use All Available Attributes` och innehåller vanligtvis Bästa värde, Namn, Pris. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidget för produktlista](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
-| [!UICONTROL Allow All Products per Page] | Butiksvy | Om inställt på `Yes`, innehåller `ALL` i kontrollen &quot;Visa per sida&quot;. |
-| [!UICONTROL Remember Category Pagination] | Global | Om inställt på `Yes`, sparas de aktuella sidnumreringsvärdena för kategorier när kunderna bläddrar från en kategori till en annan i [produktlistor](../../catalog/navigation-product-listings.md). När du sparar värdet används mer lagringsutrymme och det kan påverka hur sidor indexeras av sökmotorer. Alternativ: `Yes` / `No` (standard) |
-| [!UICONTROL Use Flat Catalog Category] | Global | Aktiverar [platt kategoristruktur](../../catalog/catalog-flat.md) (rekommenderas inte). Alternativ: `Yes` / `No` |
+| Produktlista sortera efter | Butiksvy | Bestämmer sorteringsordningen i sökresultatlistan. Valet av alternativ avgörs av kategorins visningsinställningar och de tillgängliga attribut som är inställda på `Used for Sorting in Product Listing`. Standardvärdet är `Use All Available Attributes` och innehåller vanligtvis Bästa värde, Namn, Pris. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidgeten Produktlista](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
+| [!UICONTROL Allow All Products per Page] | Butiksvy | Om värdet är `Yes` inkluderas alternativet `ALL` i kontrollen &quot;Visa per sida&quot;. |
+| [!UICONTROL Remember Category Pagination] | Global | Om värdet är `Yes` sparas de aktuella kategorisidbrytningsvärdena när kunderna bläddrar från en kategori till en annan i [produktlistor](../../catalog/navigation-product-listings.md). När du sparar värdet används mer lagringsutrymme och det kan påverka hur sidor indexeras av sökmotorer. Alternativ: `Yes` / `No` (standard) |
+| [!UICONTROL Use Flat Catalog Category] | Global | Aktiverar den [platta kategoristrukturen](../../catalog/catalog-flat.md) (rekommenderas inte). Alternativ: `Yes` / `No` |
 | [!UICONTROL Use Flat Catalog Product] | Global | Aktiverar plattproduktstrukturen. (rekommenderas inte) Alternativ: `Yes` / `No` |
 | [!UICONTROL Swatches per Product] | Butiksvy | Anger antalet tillgängliga färgrutor för varje produkt. Standard: `16` |
 | [!UICONTROL Show Swatches in Product List] | Butiksvy | Anger om färgrutorna visas i produktlistan. Alternativ: `Yes` / `No` |
@@ -140,9 +140,9 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL YouTube API key] | Butiksvy | Anger den API-nyckel som krävs för att ansluta till YouTube-servern. |
-| [!UICONTROL Autostart base video] | Butiksvy | Om du vill starta videon automatiskt när sidan har lästs in anger du att `Yes`. |
+| [!UICONTROL Autostart base video] | Butiksvy | Om du vill starta videon automatiskt när sidan har lästs in, anger du värdet `Yes`. |
 | [!UICONTROL Show related video] | Butiksvy | Om du vill visa relaterade videoklipp anger du `Yes`. |
-| [!UICONTROL Auto restart video] | Butiksvy | Om du vill aktivera automatisk uppspelning av video anger du `Yes`. |
+| [!UICONTROL Auto restart video] | Butiksvy | Ange `Yes` om du vill aktivera automatisk uppspelning av video. |
 
 {style="table-layout:auto"}
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Catalog Price Scope] | Global | Bestämmer omfattningen för basvalutan. Alternativ: `Global` / `Website` |
-| [!UICONTROL Default Product Price] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Definierar standardproduktpriset, om tillämpligt. |
+| [!UICONTROL Default Product Price] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Definierar standardproduktpriset, om tillämpligt. |
 
 {style="table-layout:auto"}
 
@@ -167,16 +167,16 @@ ht-degree: 0%
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://docs.magento.com/user-guide/catalog/navigation-layered-configuration.html) -->
 
-![Navigering i lager - automatisk (jämför prisintervall)](./assets/layered-navigation-equalize-price-range.png)<!-- zoom -->
+![Navigering i lager - Automatisk (jämför prisintervall)](./assets/layered-navigation-equalize-price-range.png)<!-- zoom -->
 
-![Navigering i flera lager - Automatisk (jämför produktantal)](./assets/layered-navigation-equalize-product-counts.png)<!-- zoom -->
+![Navigering i lager - Automatisk (jämför produktantal)](./assets/layered-navigation-equalize-product-counts.png)<!-- zoom -->
 
-![Navigering i flera lager - Manuell](./assets/layered-navigation-manual.png)<!-- zoom -->
+![Navigering i lager - Manuell](./assets/layered-navigation-manual.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Display Product Count] | Butiksvy | Avgör om produktantalet visas efter varje attribut, prisintervall och kategori. Alternativ: `Yes` / `No` |
-| [!UICONTROL Price Navigation Step Calculation] | Butiksvy | Bestämmer vilken metod som används för att bestämma [prisnavigeringssteg](../../catalog/navigation-layered.md#configure-price-navigation)). Alternativ: <br/>`Automatic (equalize price ranges)` - Baserar beräkningen på prisintervallet för produkter i gruppen. <br/>`Automatic (equalize product counts)` - Baserar beräkningen av antalet produkter i gruppen. Fastställer ett tröskelvärde för minsta antal produkter i gruppen, för att förhindra att de delas upp i mindre grupper. <br/>`Manual` - Använder divisionsgränsen som du anger för prisintervall. |
+| [!UICONTROL Price Navigation Step Calculation] | Butiksvy | Bestämmer metoden som används för att fastställa [prisnavigeringssteget](../../catalog/navigation-layered.md#configure-price-navigation)). Alternativ: <br/>`Automatic (equalize price ranges)` - Baserar beräkningen på prisintervallet för produkter i gruppen. <br/>`Automatic (equalize product counts)` - Baserar beräkningen på antalet produkter i gruppen. Fastställer ett tröskelvärde för minsta antal produkter i gruppen, för att förhindra att de delas upp i mindre grupper. <br/>`Manual` - Använder divisionsgränsen som du anger för prisintervall. |
 | [!UICONTROL Default Price Navigation Step] | Butiksvy | Anger antalet produkter som ingår i varje steg. |
 | [!UICONTROL Maximum Number of Price Intervals] | Butiksvy | Fastställer en gräns för antalet prisintervall som visas i lagerstyrd navigering. |
 
@@ -193,8 +193,8 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable] | Global | Aktiverar kategoribegränsningar. Som standard begränsas alla kategorier när du använder den här funktionen. Alternativ: `Yes` / `No` |
-| [!UICONTROL Allow Browsing Category] | Webbplats | Bestämmer vem som får bläddra igenom kategorier. Alternativ: <br/>`Yes, for Everyone` - Alla besökare och kunder kan bläddra i kategorin. <br/>`Yes, for Specified Customer Groups` - Tillåter endast medlemmar i valda kundgrupper att bläddra i kategorin. <br/>`No, Redirect to Landing Page` - Nekar åtkomst till kategorin och dirigerar om den till den valda sidan. |
-| [!UICONTROL Display Product Prices] | Webbplats | Kontrollerar visningen av produktpriser för kategorin. Alternativ: <br/>`Yes, for Everyone` - Alla kan se priset på produkterna i kategorin. <br/>`Yes, for Specified Customer Groups` - Tillåter endast medlemmar i valda kundgrupper att se priset på produkter i kategorin. <br/>`No` - Stänger av visningen av produktpriser för kategorin. |
+| [!UICONTROL Allow Browsing Category] | Webbplats | Bestämmer vem som får bläddra igenom kategorier. Alternativ: <br/>`Yes, for Everyone` - Gör att alla besökare och kunder kan bläddra i kategorin. <br/>`Yes, for Specified Customer Groups` - Tillåter endast medlemmar i valda kundgrupper att bläddra i kategorin. <br/>`No, Redirect to Landing Page` - Nekar åtkomst till kategorin och dirigerar om till den valda sidan. |
+| [!UICONTROL Display Product Prices] | Webbplats | Kontrollerar visningen av produktpriser för kategorin. Alternativ: <br/>`Yes, for Everyone` - Alla kan se priset på produkter i kategorin. <br/>`Yes, for Specified Customer Groups` - Endast medlemmar i valda kundgrupper kan se priset på produkter i kategorin. <br/>`No` - Stänger av visningen av produktpriser för kategorin. |
 | [!UICONTROL Allow Adding to Cart] | Webbplats | Bestämmer vem som kan köpa produkter från kategorin. Alternativ: <br/>`Yes, for Everyone` - Alla kan placera produkter från kategorin i sina kundvagnar. <br/>`Yes, for Specified Customer Groups` - Tillåter endast medlemmar i valda kundgrupper att placera produkter från kategorin i sina kundvagnar. <br/>`No` - Ingen får placera produkter från kategorin i sina kundvagnar. |
 | [!UICONTROL Disallow Catalog Search by] | Webbplats | Identifierar de kundgrupper som inte tillåts söka efter produkter i kategorin. |
 
@@ -208,13 +208,13 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | Butiksvy | Bestämmer om _Vanliga sökvillkor_ implementeras i butiken. Den här inställningen gäller inte för butiker som använder [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Alternativ: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | Butiksvy | Avgör om _Populära sökvillkor_ har implementerats i arkivet. Den här inställningen gäller inte för butiker som använder [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Alternativ: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Butiksvy | Avgör om ett suffix, till exempel html eller htm, används på produkt-URL:er. Om det används ska du inte ange någon punkt före suffixet, eftersom det tillämpas automatiskt. |
 | [!UICONTROL Category URL Suffix] | Butiksvy | Avgör om ett suffix, till exempel html eller htm, används på kategorins URL:er. Om det används ska du inte ange någon punkt före suffixet, eftersom det tillämpas automatiskt. |
-| [!UICONTROL Use Categories Path for Product URLs] | Butiksvy | Anger om kategorisökvägar ingår i produkt-URL:er. Om du gör det kan flera URL-adresser peka på samma sida, vilket kan påverka sökordningen. Mer information finns på [Kanonisk meta-tagg](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
+| [!UICONTROL Use Categories Path for Product URLs] | Butiksvy | Anger om kategorisökvägar ingår i produkt-URL:er. Om du gör det kan flera URL-adresser peka på samma sida, vilket kan påverka sökordningen. Mer information finns i [Kanonisk meta-tagg](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | Butiksvy | Avgör om en permanent omdirigering skapas automatiskt när en URL-nyckel ändras. När det är implementerat är kryssrutan Skapa anpassad omdirigering för gammal URL under fältet för produkt-URL-nyckel markerad som standard. Alternativ: `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | Global | Avgör om Adobe Commerce genererar data och sparar dem i omskrivningstabeller när en användare sparar en kategori som innehåller många tilldelade produkter. Alternativ: `Yes` / `No` <br/><br/>**_Viktigt:_**Om du sparar dessa genererade data i en URL-omskrivningstabell kan prestandan försämras. Se [Automatiska produktomdirigeringar](../../merchandising-promotions/url-redirect-product-automatic.md) för mer information. |
-| [!UICONTROL Apply transliteration for product URL] | Butiksvy | Avgör om translitterering används när produkt-URL:er skapas eller uppdateras. Alternativ: `Yes` / `No`. Standardvärdet är `Yes`. <br/><br/>I vissa fall bör du inaktivera translitterering. Om du till exempel har en webbutik på kinesiska rekommenderar SEO att URL:er för produkten matchar produktnamnet. Ställ in alternativet till `No` tillåter att kinesiska tecken används i produkt-URL:er i stället för ASCII-motsvarigheter. |
+| [!UICONTROL Generate "category/product" URL Rewrites] | Global | Avgör om Adobe Commerce genererar data och sparar dem i omskrivningstabeller när en användare sparar en kategori som innehåller många tilldelade produkter. Alternativ: `Yes` / `No` <br/><br/>**_Viktigt!_**Om du sparar genererade data i en URL-omskrivningstabell kan prestandan försämras. Mer information finns i [Automatiska produktomdirigeringar](../../merchandising-promotions/url-redirect-product-automatic.md). |
+| [!UICONTROL Apply transliteration for product URL] | Butiksvy | Avgör om translitterering används när produkt-URL:er skapas eller uppdateras. Alternativ: `Yes` / `No`. Standardvärdet är `Yes`. <br/><br/>I vissa fall bör du inaktivera transkribering. Om du till exempel har en webbutik på kinesiska rekommenderar SEO att URL:er för produkten matchar produktnamnet. Om du anger alternativet till `No` kan kinesiska tecken användas i produkt-URL:er i stället för ASCII-motsvarigheter. |
 | [!UICONTROL Page Title Separator] | Butiksvy | Identifierar tecknet som skiljer kategorinamnet och underkategorin åt i webbläsarens namnlist. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Butiksvy | Om det finns flera URL:er som pekar på samma kategorisida använder det här alternativet en kanonisk meta-tagg för att identifiera den kategori-URL som sökmotorer ska indexera. URL:en innehåller ett fullständigt namn till kategorin med meta-taggen. Detta minskar dubblettinnehållet och förbättrar SEO. Alternativ: `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | Butiksvy | Om det finns flera URL:er som pekar på samma produktsida använder det här alternativet en kanonisk meta-tagg för att identifiera den produkt-URL som sökmotorer ska indexera. URL:en innehåller ett fullständigt namn till produkten med meta-taggen. Detta minskar dubblettinnehållet och förbättrar SEO. Alternativ: `Yes` / `No` |
@@ -229,28 +229,28 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Maximal Depth] | Global | Anger antalet underkategorinivåer i den övre navigeringen. Standardvärdet för `0` placerar ingen gräns för antalet nivåer. |
+| [!UICONTROL Maximal Depth] | Global | Anger antalet underkategorinivåer i den övre navigeringen. Standardvärdet `0` har ingen gräns för antalet nivåer. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Search]
 
-Det finns två varianter av katalogsökningskonfigurationen: De inställningar som är tillgängliga när [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) installeras och de som finns för Adobe Commerce. Följ instruktionerna för installationen.
+Det finns två varianter av katalogsökningskonfigurationen: De inställningar som är tillgängliga när [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) installeras och de som är tillgängliga för Adobe Commerce. Följ instruktionerna för installationen.
 
 ### Adobe Commerce med [!DNL Live Search]
 
 När Live Search är installerat innehåller katalogsökningen följande konfigurationsinställningar:
 
-![Katalogsökning för Live Search](./assets/catalog-search-live-search.png)<!-- zoom -->
+![Katalogsökning för Live-sökning](./assets/catalog-search-live-search.png)<!-- zoom -->
 
 <!-- [Catalog Search for Live Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | Butiksvy | Det minsta antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationerna för Elasticsearch. Om du till exempel anger det här värdet som `2` i Adobe Commerce, uppdatera värdet i sökmotorn. |
+| [!UICONTROL Minimal Query Length] | Butiksvy | Det minsta antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationerna för Elasticsearch. Om du till exempel anger värdet `2` i Adobe Commerce, uppdaterar du värdet i sökmotorn. |
 | [!UICONTROL Maximum Query Length] | Butiksvy | Det maximala antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationerna för Elasticsearch. Om du till exempel anger värdet 300 i Adobe Commerce, uppdaterar du värdet i sökmotorn. |
-| [!UICONTROL Number of top search results to cache] | Butiksvy | Antalet populära söktermer och sökresultat som ska cachelagras för snabbare svar. Ange värdet för `0` cachelagrar alla söktermer och sökresultat när de anges en andra gång. Standardvärde: `100` |
-| [!UICONTROL Autocomplete Limit] | Butiksvy | Anger det maximala antalet rader som är tillgängliga i [storefront poser] sida. Standardvärdet kan ändras när Live Search installeras och uppdateras senare genom att den här konfigurationsinställningen ändras. Standardvärde: `8` |
+| [!UICONTROL Number of top search results to cache] | Butiksvy | Antalet populära söktermer och sökresultat som ska cachelagras för snabbare svar. Om du anger värdet `0` cachelagras alla söktermer och sökresultat när de anges en andra gång. Standardvärde: `100` |
+| [!UICONTROL Autocomplete Limit] | Butiksvy | Avgör det maximala antalet rader som är tillgängliga på sidan [storefront pover]. Standardvärdet kan ändras när Live Search installeras och uppdateras senare genom att den här konfigurationsinställningen ändras. Standardvärde: `8` |
 
 {style="table-layout:auto"}
 
@@ -264,13 +264,13 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 
 >[!IMPORTANT]
 >
->På grund av att supporten för Elasticsearch 7 upphör i augusti 2023 rekommenderas att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under uppgraderingen finns i [Migrerar till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) i _Uppgraderingshandbok_.
+>På grund av att supporten för Elasticsearch 7 upphör i augusti 2023 rekommenderas att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under produktuppgraderingen finns i [Migrera till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) i _uppgraderingshandboken_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | Butiksvy | Det minsta antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationerna för Elasticsearch. Om du till exempel anger det här värdet som `2` i Adobe Commerce, uppdatera värdet i sökmotorn. |
+| [!UICONTROL Minimal Query Length] | Butiksvy | Det minsta antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationerna för Elasticsearch. Om du till exempel anger värdet `2` i Adobe Commerce, uppdaterar du värdet i sökmotorn. |
 | [!UICONTROL Maximum Query Length] | Butiksvy | Det maximala antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationerna för Elasticsearch. Om du till exempel anger värdet 300 i Adobe Commerce, uppdaterar du värdet i sökmotorn. |
-| [!UICONTROL Number of top search results to cache] | Butiksvy | Antalet populära söktermer och sökresultat som ska cachelagras för snabbare svar. Ange värdet för `0` cachelagrar alla söktermer och sökresultat när de anges en andra gång. Standardvärde: `100` |
+| [!UICONTROL Number of top search results to cache] | Butiksvy | Antalet populära söktermer och sökresultat som ska cachelagras för snabbare svar. Om du anger värdet `0` cachelagras alla söktermer och sökresultat när de anges en andra gång. Standardvärde: `100` |
 | [!UICONTROL Enable EAV Indexer] | Global | Avgör om du vill aktivera eller inaktivera indexeraren för produkt-EAV. Den här funktionen förbättrar indexeringshastigheten och begränsar indexeraren från att användas av tillägg från tredje part. Det här alternativet visas endast för sökmotorer med Elasticsearch eller Elasticsearch 5.0+. Standardalternativ: `Yes` för aktiverad |
 | [!UICONTROL Autocomplete Limit] | Butiksvy | Det maximala antalet sökfrågor som ska visas under sökfältet för automatisk ifyllning av sökning. Om du begränsar den här mängden ökar sökningens prestanda och storleken på den visade listan minskar. Standardvärde: `8` |
 | Sökmotor | Global | Identifierar den sökmotor som krävs för att bearbeta begäranden om katalogdata. Elasticsearch 7.6.x krävs för alla installationer av Adobe Commerce. Alternativ: `Elasticsearch 7` |
@@ -278,23 +278,23 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 | [!UICONTROL Elasticsearch Server Port] | Global | Anger antalet serverportar som används av Elasticsearch. Standardvärde: `9200` |
 | [!UICONTROL Elasticsearch Index Prefix] | Global | Tilldelar ett prefix som identifierar indexvärdet för Elasticsearch. Standardvärde: `magento2` |
 | [!UICONTROL Enable Elasticsearch HTTP Auth] | Global | Om det här alternativet är aktiverat används HTTP-autentisering för att fråga efter användarnamn och lösenord innan Elasticsearch Server används. Alternativ: `Yes` / `No` |
-| [!UICONTROL Elasticsearch HTTP Username] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är inställd på `Yes`, anger användarnamnet för Elasticsearch HTTP-autentisering. |
-| [!UICONTROL Elasticsearch HTTP Password] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är inställd på `Yes`, anger lösenordet för Elasticsearch HTTP-autentisering. |
+| [!UICONTROL Elasticsearch HTTP Username] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är inställd på `Yes` anges användarnamnet för Elasticsearch HTTP-autentisering. |
+| [!UICONTROL Elasticsearch HTTP Password] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är inställd på `Yes` anges lösenordet för Elasticsearch HTTP-autentisering. |
 | [!UICONTROL Elasticsearch Server Timeout] | Global | Anger antalet sekunder innan serverns timeout inträffar. Standardvärde: `15` |
 | [!UICONTROL Test Connection] |  | Validerar Elasticsearch-anslutningen. |
-| [!UICONTROL Enable Search Recommendations] | Butiksvy | Avgör om sökrekommendationer erbjuds när en sökning inte ger några resultat och visas under `Related search terms` på sökresultatsidan. Alternativ: `Yes` / `No` <br/>Om inställningen är Ja visas ytterligare alternativ för _[!UICONTROL Search Recommendations Count]_och_[!UICONTROL Shows Results Count for Each Recommendation]_. |
+| [!UICONTROL Enable Search Recommendations] | Butiksvy | Avgör om sökrekommendationer erbjuds när en sökning inte ger några resultat och visas under avsnittet `Related search terms` på sökresultatsidan. Alternativ: `Yes` / `No` <br/> Om värdet är Ja visas ytterligare alternativ för _[!UICONTROL Search Recommendations Count]_och_[!UICONTROL Shows Results Count for Each Recommendation]_. |
 | [!UICONTROL Search Recommendations Count] | Butiksvy | Anger antalet söktermer som erbjuds som rekommendationer. Som standard visas inte fler än fem. |
-| [!UICONTROL Show Results Count for Each Recommendation] | Butiksvy | När inställt på `Yes`, visas antalet produkter som hittats för den föreslagna sökrekommendationen inom parentes. Alternativ: `Yes` / `No` |
-| [!UICONTROL Enable Search Suggestions] | Butiksvy | Avgör om sökförslag visas för vanliga felstavningar. När det här alternativet är aktiverat visas sökförslag för alla förfrågningar som inte ger några resultat och som visas under `Did you mean` i **Sökresultat** sida. Sökförslag kan påverka sökresultatet. När inställt på `Yes`visas ytterligare alternativ för Aktivera sökning i Recommendations och tillhörande fält. Alternativ: `Yes` / `No` |
+| [!UICONTROL Show Results Count for Each Recommendation] | Butiksvy | När värdet är `Yes` visas antalet produkter som hittats för den föreslagna sökrekommendationen inom hakparenteser. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Search Suggestions] | Butiksvy | Avgör om sökförslag visas för vanliga felstavningar. När det här alternativet är aktiverat visas sökförslag för alla förfrågningar som inte ger några resultat och som visas under avsnittet `Did you mean` på sidan **Sökresultat**. Sökförslag kan påverka sökresultatet. Om värdet är `Yes` visas ytterligare alternativ för Aktivera sökning i Recommendations och associerade fält. Alternativ: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | Butiksvy | Anger antalet sökförslag som erbjuds. Till exempel: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | Butiksvy | Anger om antalet sökresultat visas för varje förslag. Beroende på temat visas numret oftast inom hakparenteser efter förslaget. Alternativ: `Yes` / `No` |
-| [!UICONTROL Minimum Terms to Match] | Butiksvy | Anger ett värde som motsvarar antalet termer i frågan som sökresultaten ska matcha för att returneras. Detta ger optimala resultat och relevans för kunderna. Procentvärden motsvarar ett tal och vid behov avrundas nedåt och används som minsta antal termer som ska matchas i frågan. Värdet kan vara ett negativt eller positivt heltal, ett negativt eller ett positivt tal, en kombination av de två eller flera kombinationerna. Mer information finns på [minimum_should_match, parameter](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) i dokumentationen för Elasticsearch. |
+| [!UICONTROL Minimum Terms to Match] | Butiksvy | Anger ett värde som motsvarar antalet termer i frågan som sökresultaten ska matcha för att returneras. Detta ger optimala resultat och relevans för kunderna. Procentvärden motsvarar ett tal och vid behov avrundas nedåt och används som minsta antal termer som ska matchas i frågan. Värdet kan vara ett negativt eller positivt heltal, ett negativt eller ett positivt tal, en kombination av de två eller flera kombinationerna. Mer information finns i [minimum_should_match-parametern](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) i Elasticsearch-dokumentationen. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Downloadable Product Options]
 
-![Nedladdningsbara produktalternativ](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
+![Hämtningsbara produktalternativ](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
 
 <!-- [Downloadable Product Options](https://docs.magento.com/user-guide/catalog/product-download-options.html) -->
 
@@ -302,12 +302,12 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 |--- |--- |--- |
 | [!UICONTROL Order Item Status to Enable Downloads] | Webbplats | Anger den status som en order måste ha innan hämtningar blir tillgängliga. Alternativ: `Pending` / `Invoiced` |
 | [!UICONTROL Default Maximum Number of Downloads] | Webbplats | Fastställer standardantalet nedladdningar som är tillgängliga för en kund. |
-| [!UICONTROL Shareable] | Webbplats | Avgör om kunderna måste logga in på sina konton för att komma åt nedladdningslänken. Alternativ: <br/>**Ja** - Länken kan skickas med e-post, som sedan kan delas med andra. <br/>**Nej** - Kunder måste logga in på sina konton för att få åtkomst till nedladdningslänken. |
+| [!UICONTROL Shareable] | Webbplats | Avgör om kunderna måste logga in på sina konton för att komma åt nedladdningslänken. Alternativ: <br/>**Ja** - Tillåter att länken skickas via e-post, som sedan kan delas med andra. <br/>**Nej** - Kunder måste logga in på sina konton för att få åtkomst till nedladdningslänken. |
 | [!UICONTROL Default Sample Title] | Butiksvy | Standardtiteln för alla exempelfiler. |
 | [!UICONTROL Default Link Title] | Butiksvy | Standardlänken för alla nedladdningsbara titlar. |
 | [!UICONTROL Opens Links in New Window] | Webbplats | Avgör om nedladdningslänken öppnas i ett nytt webbläsarfönster. Alternativ: `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | Butiksvy | Avgör hur länken till det hämtningsbara innehållet levereras, som en e-postbilaga eller som en infogad länk i ett webbläsarfönster. Alternativ: <br/>**`Attachment`**- Hämtningslänken levereras som en e-postbilaga.<br/>**`Inline`** - Hämtningslänken levereras som en intern länk på en webbsida. |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Webbplats | Avgör om gäster som köper hämtningsbara produkter måste registrera sig för ett konto och logga in för att slutföra utcheckningsprocessen. Alternativ: <br/>**`Yes`**- Om kundvagnen innehåller hämtningsbara produkter måste gästen antingen registrera sig för ett konto eller logga in på ett befintligt konto för att slutföra köpet.<br/>**`No`** - Hämtningslänken levereras som en intern länk i e-postmeddelandets brödtext.  <br/> _**Obs!**_ Gästutcheckning är bara tillgänglig för nedladdningsprodukter om Delningsbart är inställt på `Yes`. |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Webbplats | Avgör om gäster som köper hämtningsbara produkter måste registrera sig för ett konto och logga in för att slutföra utcheckningsprocessen. Alternativ: <br/>**`Yes`**- Om kundvagnen innehåller hämtningsbara produkter måste gästen antingen registrera sig för ett konto eller logga in på ett befintligt konto för att slutföra köpet.<br/>**`No`** - Hämtningslänken levereras som en intern länk i e-postmeddelandets brödtext.  <br/> _**Obs!**_ Gästutcheckning är bara tillgänglig för hämtningsprodukter om Delningsbar är inställt på `Yes`. |
 
 {style="table-layout:auto"}
 
@@ -319,10 +319,10 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Use JavaScript Calendar] | Butiksvy | Avgör om JavaScript-kalendern används som indatakontroll för datumfält. Alternativ: `Yes` / `No` <br/>Om inställt på `No`visas en separat listruta för varje del av datumfältet. |
+| [!UICONTROL Use JavaScript Calendar] | Butiksvy | Avgör om JavaScript-kalendern används som indatakontroll för datumfält. Alternativ: `Yes` / `No` <br/>Om värdet är `No` visas en separat listruta för varje del av datumfältet. |
 | [!UICONTROL Date Fields Order] | Butiksvy | Fastställer ordningen för de tre datumfälten. Alternativ: `Day` / `Month` / `Year` |
 | [!UICONTROL Time Format] | Butiksvy | Anger tidsformatet till antingen 12 eller 24 timmar. Alternativ: `12h AM/PM` / `24h` |
-| [!UICONTROL Year Range] | Butiksvy | Definierar start- och slutintervallet för år som visas i _År_ fält. Värdet måste anges i YYYY-format. |
+| [!UICONTROL Year Range] | Butiksvy | Definierar start- och slutintervallet för år som visas i fältet _År_. Värdet måste anges i YYYY-format. |
 
 {style="table-layout:auto"}
 
@@ -338,8 +338,8 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 |--- |--- |--- |
 | [!UICONTROL Enable Catalog Events Functionality] | Webbplats | Avgör om händelsemodulen är aktiverad. |
 | [!UICONTROL Enable Catalog Event Widget on Frontend] | Butiksvy | Avgör om händelsewidgeten är tillgänglig i butiken. Detta är ett statiskt block med information om händelser på din plats. |
-| [!UICONTROL Number of Events to be Displayed in the Event Slider Widget] | Butiksvy | Anger antalet händelser som visas i widgeten för händelseglaget på kategorisidorna. Använd `limit="x"` variabel. |
-| [!UICONTROL Events to Scroll per Click in Event Slider Widget] | Butiksvy | Avgör antalet händelser som visas i händelseglagwidgeten på CMS-sidor, t.ex. hemsidan. Använd `scroll="x"` variabel. |
+| [!UICONTROL Number of Events to be Displayed in the Event Slider Widget] | Butiksvy | Anger antalet händelser som visas i widgeten för händelseglaget på kategorisidorna. Om du vill åsidosätta använder du variabeln `limit="x"`. |
+| [!UICONTROL Events to Scroll per Click in Event Slider Widget] | Butiksvy | Avgör antalet händelser som visas i händelseglagwidgeten på CMS-sidor, t.ex. hemsidan. Om du vill åsidosätta använder du variabeln `scroll="x"`. |
 
 {style="table-layout:auto"}
 
@@ -353,13 +353,13 @@ Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsin
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Maximum Number of Products in Related Products List] | Global | Anger det högsta antalet produkter som kan visas i _Samhörande produkter_ lista. |
+| [!UICONTROL Maximum Number of Products in Related Products List] | Global | Avgör det maximala antalet produkter som kan visas i listan _Relaterade produkter_. |
 | [!UICONTROL Show Related Products] | Global | Avgör vilken lista över relaterade produkter som visas i butiken. Det kan vara antingen den lista som väljs manuellt i produktinformationen, den lista som skapas som svar på en produktrelationsregel eller en kombination av de två. Alternativ: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
-| [!UICONTROL Rotation Mode for Products in Related Products List] | Global | Bestämmer i vilken ordning produkterna i _Samhörande produkter_ visas. Alternativ: `Do not rotate` / `Shuffle` |
+| [!UICONTROL Rotation Mode for Products in Related Products List] | Global | Anger i vilken ordning produkterna i listan _Relaterade produkter_ visas. Alternativ: `Do not rotate` / `Shuffle` |
 | [!UICONTROL Maximum Number of Products in Cross-Sell Product List] | Global | Anger det maximala antalet produkter som kan visas i korsförsäljningslistan. |
 | [!UICONTROL Show Cross-Sell Products] | Global | Avgör vilken lista över korsförsäljningsprodukter som visas i butiken. Det kan vara antingen den lista som väljs manuellt i produktinformationen, den lista som skapas som svar på en produktrelationsregel eller en kombination av de två. Alternativ: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
 | [!UICONTROL Rotation Mode for Products in Cross-Sell Products List] | Global | Bestämmer i vilken ordning produkterna i korsförsäljningslistan visas. Alternativ: Rotera inte/Blanda inte |
-| [!UICONTROL Maximum Number of Products in Upsell Product List] | Global | Anger det högsta antalet produkter som kan visas i _Merförsäljning_ lista. |
+| [!UICONTROL Maximum Number of Products in Upsell Product List] | Global | Avgör det maximala antalet produkter som kan visas i listan _Merförsäljning_. |
 | [!UICONTROL Show Upsell Products] | Global | Avgör vilken lista över merförsäljningsprodukter som visas i butiken. Det kan vara antingen den lista som väljs manuellt i produktinformationen, den lista som skapas som svar på en produktrelationsregel eller en kombination av de två. Alternativ: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
 | [!UICONTROL Rotation Mode for Products in Upsell Product List] | Global | Anger i vilken ordning produkterna i Upsell Product list visas. Alternativ: `Do not rotate` / `Shuffle` |
 

@@ -14,30 +14,30 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Massåtgärdsloggen registrerar information om asynkrona massåtgärder som körs i bakgrunden, till exempel import/export eller tilldelning [anpassade priser](../b2b/catalog-shared-manage.md#update-custom-pricing) till flera produkter i en [delad katalog](../b2b/catalog-shared.md).
+Massåtgärdsloggen registrerar information om asynkrona massåtgärder som körs i bakgrunden, till exempel import/export eller tilldelning av [anpassade priser](../b2b/catalog-shared-manage.md#update-custom-pricing) till flera produkter i en [delad katalog](../b2b/catalog-shared.md).
 
 ![Logg för massåtgärder](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## Konfigurera massåtgärder
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Advanced]** och välja **[!UICONTROL System]**.
+1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Bulk Actions]** och ange alternativ för att spara loggen:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Bulk Actions]** och ange alternativet för att spara loggen:
 
-   **[!UICONTROL Days Saved in Log]** — Ange antalet dagar som massåtgärder sparas i en logg.
+   **[!UICONTROL Days Saved in Log]** - Ange antalet dagar som massåtgärder sparas i en logg.
 
    ![Avancerad konfiguration - massåtgärder](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
 
    En detaljerad lista över konfigurationsinställningarna finns i [_Massåtgärder_](../configuration-reference/advanced/system.md) i _Konfigurationsreferens_.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Visa massåtgärder
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**på sidofältet_ Admin _.
 
 1. Sök efter önskad åtgärd i loggen.
 
-1. I _[!UICONTROL Action]_kolumn, klicka **[!UICONTROL Details]**.
+1. Klicka på **[!UICONTROL Details]** i kolumnen _[!UICONTROL Action]_.

@@ -15,21 +15,21 @@ Butiksadministratören är det säkra back office där handlare ställer in prod
 
 ## Variabler och kundkommunikation
 
-Variabler är information som kan skapas en gång och användas på flera platser. Butiken innehåller många fördefinierade variabler som enkelt kan användas för att personalisera [e-post](email-templates.md) och [nyhetsbrev](../merchandising-promotions/newsletter-template.md) mallar och andra typer av [innehåll](../content-design/introduction.md#content). Du kan också skapa anpassade variabler för att inkludera information som är specifik för dina behov.
+Variabler är information som kan skapas en gång och användas på flera platser. Butiken innehåller många fördefinierade variabler som enkelt kan användas för att anpassa mallar för [e-post](email-templates.md) och [nyhetsbrev](../merchandising-promotions/newsletter-template.md) samt andra typer av [innehåll](../content-design/introduction.md#content). Du kan också skapa anpassade variabler för att inkludera information som är specifik för dina behov.
 
 - [Fördefinierade variabler](variables-predefined.md)
 - [Anpassade variabler](variables-custom.md)
 
-En av uppgifterna du bör utföra innan du lanserar din butik är att granska e-postmallarna som används för all kommunikation som skickas från din butik för att se till att de speglar ditt varumärke. Detta inkluderar anpassning av e-post och [nyhetsbrevmallar](../merchandising-promotions/newsletter-template.md)och fakturor och följesedlar för PDF. Det innehåller även personalisering av innehållet med variabler och [taggar](markup-tags.md).
+En av uppgifterna du bör utföra innan du lanserar din butik är att granska e-postmallarna som används för all kommunikation som skickas från din butik för att se till att de speglar ditt varumärke. Detta inkluderar anpassning av e-post- och [nyhetsbrevmallar](../merchandising-promotions/newsletter-template.md) samt PDF-fakturor och följesedlar. Det omfattar även att anpassa innehållet med variabler och [markup-taggar](markup-tags.md).
 
 ## Driftshantering
 
 Administratören stöder även olika uppgifter för systemadministratörer som kan hantera administratörsanvändare inom organisationen och hantera butiken. De innehåller följande verktyg:
 
-- **Administratörsanvändarkonton och behörigheter** - Hantera administratör [användarkonton](permissions-users-all.md), samt tillhörande [roller och behörigheter](permissions-user-roles.md) som styr deras åtkomst till webbplatser och funktionsområden i administratören.
-- **Administratörssessioner och webbplatsbegränsningar** - Granskning [säkerhet](security.md) bästa praxis och lär dig hur du hanterar administratörssessioner och autentiseringsuppgifter, implementerar CAPTCHA och hanterar begränsningar för webbplatser.
-- **Systemverktyg** - Utför rutinuppgifter [index](index-management.md) och [cache](cache-management.md) förvaltningsverksamhet, [säkerhetskopiera](backups.md) systemet, hantera [schemalagda operationer](data-scheduled-import-export.md)och använda ett sortiment av [utvecklingsverktyg](developer-tools.md).
-- **Dataöverföring** - Använd [dataöverföring](data-transfer.md) verktyg för att importera och exportera data, samt hantera produkt-, prissättnings-, kund- och momsdata.
-- **Integreringar** - Ange platsen för OAuth-autentiseringsuppgifter och omdirigerings-URL för [tredjepartsintegreringar](integrations.md)och identifiera tillgängliga API-resurser.
-- **Åtgärdsloggar** - ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Åtkomst till posterna ([åtgärdsloggar](action-log.md)) för ändringar som gjorts av administratörsanvändare som arbetar i din butik.
-- **Supportverktyg** - ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Supportverktygen ([Datainsamling](support.md#data-collector) och [Systemrapporter](support.md#access-system-reports)) är utformade för att identifiera kända fel i systemet. De kan användas som en resurs under utvecklings- och optimeringsprocesserna och som ett diagnostiskt verktyg som hjälper vårt supportteam att identifiera och lösa problem.
+- **Administratörsanvändarkonton och behörigheter** - Hantera administratörsanvändarkonton [](permissions-users-all.md), samt associerade [roller och behörigheter](permissions-user-roles.md) som styr deras åtkomst till platser och funktionsområden i administratören.
+- **Administratörssessioner och webbplatsbegränsningar** - Granska [säkerheten](security.md) och lär dig hantera administratörssessioner och autentiseringsuppgifter, implementera CAPTCHA och hantera webbplatsbegränsningar.
+- **Systemverktyg** - Utför rutinmässiga [index](index-management.md)- och [cache](cache-management.md)-hanteringsåtgärder, [säkerhetskopiera](backups.md) systemet, hantera [schemalagda åtgärder](data-scheduled-import-export.md) och använd ett sortiment av [utvecklingsverktyg](developer-tools.md).
+- **Dataöverföring** - Använd [dataöverföringsverktygen](data-transfer.md) för att importera och exportera data, samt för att hantera produkt-, prissättnings-, kund- och momsdata.
+- **Integrationer** - Ange platsen för OAuth-autentiseringsuppgifter och omdirigerings-URL för [tredjepartsintegreringar](integrations.md) och identifiera tillgängliga API-resurser.
+- **Åtgärdsloggar** - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Åtkomst till posterna ([åtgärdsloggar](action-log.md)) för ändringar gjorda av administratörsanvändare som arbetar i din butik.
+- **Supportverktyg** - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Supportverktygen ([Datainsamlaren](support.md#data-collector) och [Systemrapporter](support.md#access-system-reports)) är utformade för att identifiera kända fel i systemet. De kan användas som en resurs under utvecklings- och optimeringsprocesserna och som ett diagnostiskt verktyg som hjälper vårt supportteam att identifiera och lösa problem.

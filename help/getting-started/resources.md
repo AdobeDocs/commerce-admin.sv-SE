@@ -5,7 +5,7 @@ exl-id: 05fb3769-6f99-45c0-81d6-3ccdd50dc047
 feature: Support
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ Adobe har massor av affärsresurser, tekniska resurser, självhjälpsverktyg och
 
 | Ekosystemresurs | Beskrivning |
 | ------------------ | ----------- |
-| [Produktdokumentation][1] | Handlare, designers och utvecklare kan använda dokumentationen för att få en djupare insikt i hur de kan utnyttja [!DNL Commerce] att utöka sin verksamhet. |
-| [Bibliotek för handelsresurser][3] | Använd e-böcker, e-handelsrapporter och webbinarier för att få expertinsikter och affärsresurser online för att utveckla och förbättra er butik. |
-| [Adobe Product Security Incident Response][4] | Gå med i säkerhetsregistret för att få den senaste informationen om potentiella säkerhetsluckor och [Bästa praxis för säkerhet][5]. |
+| [Produktdokumentation][1] | Handlare, designers och utvecklare kan använda dokumentationen för att få en djupare insikt i hur de kan använda kraften hos [!DNL Commerce] för att utöka sin verksamhet. |
+| [Commerce-resursbibliotek][3] | Få tillgång till e-böcker, Commerce rapporter och webbinarier för att få expertkunskaper och affärsresurser online för att utveckla och förbättra er butik. |
+| [Adobe Product Security Incident Response][4] | Gå med i registret för säkerhetsvarningar om du vill ha den senaste informationen om potentiella säkerhetsluckor och [Bästa praxis för säkerhet][5]. |
 | [Community-forum][6] | Forumen ger tillgång till ett nätverk av dedikerade Adobe Commerce- och Magento Open Source-entusiaster som delar tips, tricks och support. |
 | [Blogg][7] | Kolla in bloggen för att få den senaste informationen om nya funktioner, trender, bästa praxis, kommande evenemang med mera. |
-| [Event och webbinarier][8] | Håll koll på kalendern med kommande event och webbinarier. Det händer alltid något i [!DNL Commerce] ekosystem. |
-| [[!DNL Commerce Marketplace]][9] | Besök [!DNL Commerce] nästa generations marknadsplats för lösningar för digital handel. [!DNL Commerce Marketplace] erbjuder handlare ett välstrukturerat urval av lösningar och samtidigt ger kvalificerade utvecklare de verktyg, den plattform och den plats som krävs för ett livskraftigt företag. |
-| [Utbildning och certifiering][10] | Lär dig utnyttja kraften och flexibiliteten i Adobe Commerce och Magento Open Source. Utbildning erbjuds för alla roller i ert företag, inklusive marknadsförare, designers, utvecklare och andra. Erfaren [!DNL Commerce] kan man validera sina kunskaper genom att skaffa en [!DNL Commerce] certifiering. |
+| [Händelser och webbinarier][8] | Håll koll på kalendern med kommande event och webbinarier. Det händer alltid något i ekosystemet [!DNL Commerce]. |
+| [[!DNL Commerce Marketplace]][9] | Besök nästa generations [!DNL Commerce]-marknadsplats för lösningar för digital handel. [!DNL Commerce Marketplace] erbjuder handlare ett välstrukturerat urval av lösningar och ger kvalificerade utvecklare verktyg, plattform och primär plats för ett livskraftigt företag. |
+| [Utbildning och certifiering][10] | Lär dig utnyttja kraften och flexibiliteten i Adobe Commerce och Magento Open Source. Utbildning erbjuds för alla roller i ert företag, inklusive marknadsförare, designers, utvecklare och andra. Erfarna [!DNL Commerce]-yrkesverksamma kan validera sina kunskaper i den verkliga världen genom att erhålla en [!DNL Commerce]-certifiering. |
 | [Partners][12] | Adobe partners arbetar för att lyckas och tillhandahåller anpassade integreringar, kundupplevelser i toppklass, strategiska marknadsföringsinitiativ samt expertprestanda och skalbarhetsoptimering för både lokala och molnbaserade lösningar. |
 | [Adobe Commerce Managed Services][13] | Adobe Commerce Managed Services-teamet hjälper handlare och Solution Partners att maximera sina framgångar. Experterna erbjuder omfattande analyser och rekommendationer för bästa praxis, från arkitekturplanering till postdriftsättning. |
 

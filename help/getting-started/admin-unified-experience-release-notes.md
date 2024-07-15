@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Admin Unified Experience for Adobe Commerce] versionsinformation'
-description: Läs versionsinformationen om du vill ha information om den senaste versionen av [!DNL Admin Unified Experience] tillägg för Commerce.
+title: '[!DNL Admin Unified Experience for Adobe Commerce] versionsinformation'
+description: Läs versionsinformationen om du vill ha information om den senaste versionen av tillägget  [!DNL Admin Unified Experience] för Commerce.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
 source-git-commit: b198c4864e6ad6c20633a3f5483067c55c4e997b
 workflow-type: tm+mt
@@ -11,15 +11,15 @@ ht-degree: 0%
 
 # Versionsinformation för Admin Unified Experience
 
-Versionsinformation om tillägget Enhetlig upplevelse i Commerce Admin (`magento/module-unified-experience`) tillägg och korrigeringar som Adobe har lagt till under en releasecykel, inklusive:
+De här versionsinformationen för Commerce Admin Unified Experience-tillägget (`magento/module-unified-experience`) fångar tillägg och korrigeringar som Adobe har lagt till under en versionscykel, inklusive:
 
-![Nytt](../assets/new.svg) Nya funktioner
-![Korrigerat problem](../assets/fix.svg) Korrigeringar och förbättringar
+![Nya](../assets/new.svg) nya funktioner
+![ Åtgärdat problem ](../assets/fix.svg) Korrigeringar och förbättringar
 
 
 >[!NOTE]
 >
->Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) om du vill ha detaljerad information om statusen för Admin Unified Experience-tillägget i förhållande till Adobe Commerce.
+>Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) om du vill ha mer information om status för Admin Unified Experience-tillägget i förhållande till Adobe Commerce.
 
 ## 1.0-version
 
@@ -27,9 +27,9 @@ Versionsinformation om tillägget Enhetlig upplevelse i Commerce Admin (`magento
 
 [!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
 
-![Nytt](../assets/new.svg) General Availability-versionen av Admin Unified Experience-tillägget som möjliggör integrering med Adobe Experience Cloud.
+![Ny](../assets/new.svg) allmän tillgänglighetsversion av Admin Unified Experience-tillägget som möjliggör integrering med Adobe Experience Cloud.
 
-![Nytt](../assets/new.svg) När Admin Unified Experience-tillägget installeras och aktiveras i ett Adobe Commerce-projekt kan administratörer [visa och komma åt Adobe Commerce-instanser från Experience Cloud hemsida](admin-unified-experience-integration-overview.md).
+![Nytt](../assets/new.svg) När Admin Unified Experience-tillägget har installerats och aktiverats i ett Adobe Commerce-projekt kan administratörer [visa och få åtkomst till Adobe Commerce-instanser från startsidan för Experience Cloud](admin-unified-experience-integration-overview.md).
 
 
 ## 1.0-utgåva (beta)
@@ -38,6 +38,6 @@ Versionsinformation om tillägget Enhetlig upplevelse i Commerce Admin (`magento
 
 [!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
 
-![Nytt](../assets/new.svg) Första betaversionen av Admin Unified Experience-tillägget som möjliggör integrering med Adobe Experience Cloud.
+![Nytt](../assets/new.svg) Inledande betaversion av Admin Unified Experience-tillägget som möjliggör integrering med Adobe Experience Cloud.
 
-![Nytt](../assets/new.svg) När Admin Unified Experience-tillägget installeras och aktiveras i ett Adobe Commerce-projekt kan administratörer [visa och komma åt Adobe Commerce-instanser från Experience Cloud hemsida](admin-unified-experience-integration-overview.md).
+![Nytt](../assets/new.svg) När Admin Unified Experience-tillägget har installerats och aktiverats i ett Adobe Commerce-projekt kan administratörer [visa och få åtkomst till Adobe Commerce-instanser från startsidan för Experience Cloud](admin-unified-experience-integration-overview.md).

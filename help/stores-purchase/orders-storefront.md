@@ -1,6 +1,6 @@
 ---
 title: Beställningshantering i lager
-description: Läs om hur kunderna kan visa och hantera sin orderhistorik i Commerce Store.
+description: Se hur kunderna kan se och hantera sin orderhistorik i Commerce Store.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
 source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
@@ -18,7 +18,7 @@ Kunderna har tillgång till alla sina beställningar från sitt konto. Beställn
 
 {{b2b-feature}}
 
-Din initiala _[!UICONTROL My Orders]_resultaten innehåller också matchande order från underordnade användare från alla webbplatser i handelsinstansen. En kund som är associerad med ett företagskonto kan filtrera orderlistan för att snabbt hitta poster i resultaten. För att visa filteralternativen klickar kunden på&#x200B;**[!UICONTROL Filter]**och klicka **[!UICONTROL Close]**om du vill dölja filtren.
+Dina ursprungliga _[!UICONTROL My Orders]_-resultat innehåller även matchande order från underordnade användare från alla webbplatser i handelsinstansen. En kund som är associerad med ett företagskonto kan filtrera orderlistan för att snabbt hitta poster i resultaten. Om du vill visa filteralternativen klickar kunden på&#x200B;**[!UICONTROL Filter]**och klickar på&#x200B;**[!UICONTROL Close]**för att dölja filtren.
 
 ![Mina beställningar](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -34,25 +34,25 @@ Din initiala _[!UICONTROL My Orders]_resultaten innehåller också matchande ord
 
 ## Visa en order
 
-Kunden hittar ordern i listan och klickar **[!UICONTROL View Order]**. I den öppna ordningen kan de göra något av följande:
+En kund hittar ordern i listan och klickar på **[!UICONTROL View Order]**. I den öppna ordningen kan de göra något av följande:
 
-![Visa order](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
+![Visa ordning](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
 
 ### Visa nyligen beställda produkter
 
-The **[!UICONTROL Recent Orders]** -blocket visas i sidlisten och på **[!UICONTROL My Account]** för kunder som är inloggade efter att ha gjort en beställning. Här visas fem produkter från det senaste köpet.
+Blocket **[!UICONTROL Recent Orders]** visas i sidofältet och på sidan **[!UICONTROL My Account]** för kunder som är inloggade efter att ha gjort en beställning. Här visas fem produkter från det senaste köpet.
 
-Kunden kan läsa produkterna i kundvagnen genom att välja produkterna och klicka på **[!UICONTROL Add to Cart]**. De kan också visa den sista ordningen genom att klicka **[!UICONTROL View all]**, som dirigeras om till _[!UICONTROL My Account]_sidan och **[!UICONTROL Recent Orders]**-block.
+Kunden kan läsa produkter i kundvagnen genom att välja produkterna och klicka på **[!UICONTROL Add to Cart]**. De kan även visa den sista ordningen genom att klicka på **[!UICONTROL View all]**, som dirigerar om till sidan _[!UICONTROL My Account]_och **[!UICONTROL Recent Orders]**-blocket.
 
 ### Skriv ut order
 
-1. Kunden klickar **[!UICONTROL Print Order]**.
+1. Kunden klickar på **[!UICONTROL Print Order]**.
 
 1. Följ instruktionerna i dialogrutan Skriv ut för att slutföra utskriften.
 
 ### Skriv ut fakturor
 
-1. På **[!UICONTROL Invoices]** klickar kunden på något av följande:
+1. På fliken **[!UICONTROL Invoices]** klickar kunden på något av följande:
 
    - **[!UICONTROL Print All Invoices]**
 
@@ -64,7 +64,7 @@ Kunden kan läsa produkterna i kundvagnen genom att välja produkterna och klick
 
 ### Skriv ut försändelser
 
-1. På **[!UICONTROL Order Shipments]** klickar kunden på något av följande:
+1. På fliken **[!UICONTROL Order Shipments]** klickar kunden på något av följande:
 
    - **[!UICONTROL Print All Shipments]**
 
@@ -76,25 +76,25 @@ Kunden kan läsa produkterna i kundvagnen genom att välja produkterna och klick
 
 ### Spåra en leverans
 
-1. På **[!UICONTROL Order Shipments]** flik, klicka **[!UICONTROL Track this Shipment]**.
+1. Klicka på **[!UICONTROL Track this Shipment]** på fliken **[!UICONTROL Order Shipments]**.
 
    All spårningsinformation som är tillgänglig visas i ett popup-fönster.
 
-1. När det är klart klickar kunden **[!UICONTROL Close Window]**.
+1. När det är klart klickar kunden på **[!UICONTROL Close Window]**.
 
 ### Skriv ut återbetalningar
 
-1. På **Återbetalningar** klickar kunden på något av följande:
+1. På fliken **Återbetalningar** klickar kunden på något av följande:
 
    - **Skriv ut alla återbetalningar**
 
-   - **Skriv ut återbetalning**
+   - **Återbetalning för utskrift**
 
    ![Återbetalningar](./assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
 
 1. Använder dialogrutan Skriv ut för att slutföra utskriften.
 
-Beställningar är tillgängliga för kunder när [_Tillåt ombeställning_](reorders-allow.md) konfigurationsalternativet är aktiverat.
+Kunder kan ändra ordning när konfigurationsalternativet [_Tillåt ändring_](reorders-allow.md) är aktiverat.
 
 Kunden kan initiera omsorteringsfunktionen för en viss order från två sidor:
 
@@ -103,7 +103,7 @@ Kunden kan initiera omsorteringsfunktionen för en viss order från två sidor:
 
 ## Beställningar
 
-The _[!UICONTROL Reorder]_-länken visas i listan med order nära_[!UICONTROL View]_ länk.
+Länken _[!UICONTROL Reorder]_visas i listan med order nära länken_[!UICONTROL View]_.
 
 ![Länken Ändra ordning på sidan Min beställning](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -111,23 +111,23 @@ The _[!UICONTROL Reorder]_-länken visas i listan med order nära_[!UICONTROL Vi
 
 Kunden dirigeras om till kundvagnen och alla produkter läggs i kundvagnen.
 
-**Fall 2.** Vissa produkter från beställningen kan inte beställas
+**Fall 2.** Vissa produkter från beställningen är inte tillgängliga för omsortering
 
 >[!NOTE]
 >
->Det går att ändra ordning `Not Visible Individually` produkter.
+>Det går att ordna om `Not Visible Individually` produkter.
 
-The _[!UICONTROL Reorder]_länken visas inte på_[!UICONTROL My Orders]_ och _[!UICONTROL View Order]_sidor.
+Länken _[!UICONTROL Reorder]_visas inte på sidorna_[!UICONTROL My Orders]_ och _[!UICONTROL View Order]_.
 
-![Min beställningssida](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
+![Sidan Min beställning](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->Om kundvagnen inte är tom och kunden klickar **[!UICONTROL Reorder]** (från [!UICONTROL My Orders] eller [!UICONTROL Order View] sida) finns produkterna kvar i varukorgen med de nya beställningsprodukterna.
+>Om kundvagnen inte är tom och kunden klickar på **[!UICONTROL Reorder]** (från sidan [!UICONTROL My Orders] eller [!UICONTROL Order View]) finns de befintliga produkterna kvar i kundvagnen med de tillagda ombeställningsprodukterna.
 
 ## Avbryt beställningar
 
-Avbryt är tillgängligt för kunder när [_Tillåt Avbryt_](cancel-allow.md) konfigurationsalternativet är aktiverat.
+Avbryt är tillgängligt för kunder när konfigurationsalternativet [_Tillåt Avbryt_](cancel-allow.md) är aktiverat.
 
 Kunden kan initiera avbeställningsfunktionen för en viss order från tre sidor:
 
@@ -135,25 +135,25 @@ Kunden kan initiera avbeställningsfunktionen för en viss order från tre sidor
 - Sidan Ordervy
 - Sidan Mitt konto
 
-The _[!UICONTROL Cancel Order]_länk visas nära_[!UICONTROL Reorder]_ länk. Om beställningen inte kan avbrytas visas inte länken.
+Länken _[!UICONTROL Cancel Order]_visas nära länken_[!UICONTROL Reorder]_. Om beställningen inte kan avbrytas visas inte länken.
 
 ![Avbryt länk på sidan Min beställning](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
 Så här utför du avbeställningen:
 
-1. Klickningar **[!UICONTROL Cancel Order]**
+1. Klicka på **[!UICONTROL Cancel Order]**
 
 1. Anger en orsak till annullering
 
-   ![Annullera orderorsaker](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+   ![Avbryt beställningsorsaker](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
 
-   Du kan anpassa orsaken till annulleringen på [_Tillåt Avbryt_](cancel-allow.md) sida.
+   Du kan anpassa orsaken till annulleringen på sidan [_Tillåt Avbryt_](cancel-allow.md).
 
-1. Klickningar **[!UICONTROL Confirm]**
+1. Klicka på **[!UICONTROL Confirm]**
 
    ![Avbryt på sidan Min beställning](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Efter annulleringen fanns de order som fanns i _[!UICONTROL Pending]_status, ändra till_[!UICONTROL Canceled]_ status, de order som fanns i _[!UICONTROL Processing]_status, ändra till_[!UICONTROL Closed]_ status och en återbetalning kommer att behandlas.
+   Efter annulleringen kommer de order som hade statusen _[!UICONTROL Pending]_att ändras till status_[!UICONTROL Canceled]_, de order som hade statusen _[!UICONTROL Processing]_att bearbetas, ändras till status_[!UICONTROL Closed]_ och en återbetalning kommer att bearbetas.
 
    När avbeställningen är klar skickas ett e-postmeddelande till kunden.
 
@@ -161,14 +161,14 @@ Så här utför du avbeställningen:
 
    Information om annullering läggs till i kundens orderhistorik. Det visas i kommentarerna till ordningen och på fliken Kommentarshistorik.
 
-   ![Avbryt ordernoteringar](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+   ![Avbryt orderanteckningar](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
 
-   ![Avbryt kommentarshistorik](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+   ![Avbryt kommentarhistorik](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
 
    Om beställningen av någon anledning har ändrats till en status som inte kan avbrytas och kunden inte har uppdaterat sidan, visas fortfarande länken för att avbryta beställningen. När de försöker avbryta visas dock ett felmeddelande.
 
-   ![Felmeddelande för beställningsfel](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+   ![Avbryt felmeddelande om beställning](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
 
    När du har uppdaterat sidan kan du se att ordningen redan är slutförd, vilket är orsaken till att annulleringen inte fungerade.
 
-   ![Avbryt beställning efter uppdatering](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}
+   ![Avbryt beställningen efter uppdatering](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

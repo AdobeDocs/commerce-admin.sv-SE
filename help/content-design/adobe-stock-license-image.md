@@ -5,30 +5,30 @@ exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
 # Licensiera en Adobe Stock-bild
 
-Adobe Stock-mediefiler som du vill använda för din produktion i Adobe Commerce och Magento Open Source butiker bör licensieras. Med den här licensieringen får du laglig åtkomst till bilden och kan eliminera den Adobe Stock-vattenstämpel som finns på alla [förhandsgranskning av bilder][save-preview]. Om du vill licensiera bilder eller spara redan licensierade bilder måste du vara inloggad på ditt Adobe-konto.
+Adobe Stock-mediefiler som du vill använda för din produktion i Adobe Commerce och Magento Open Source butiker bör licensieras. Med den här licensieringen får du laglig åtkomst till bilden och kan ta bort den Adobe Stock-vattenstämpel som finns i alla [bildförhandsvisningar][save-preview]. Om du vill licensiera bilder eller spara redan licensierade bilder måste du vara inloggad på ditt Adobe-konto.
 
-Den nya [[!DNL Media Gallery]](media-gallery.md) har en direkt integrering med Adobe Stock, vilket gör det enkelt att licensiera bilder direkt från gallerisidan.
+Den nya [[!DNL Media Gallery]](media-gallery.md) har en direkt integrering med Adobe Stock, vilket gör det enkelt att licensiera dina bilder direkt från gallerisidan.
 
 ## Förutsättningar
 
-Den här funktionen kräver [Adobe Stock Integration][adobe-stock-integration] modul och konfiguration. Licenser [Adobe Stock][adobe-stock] för bilder krävs en betald Adobe Stock-plan och [Adobe][adobe-signin].
+Den här funktionen kräver modulen och konfigurationen för [Adobe Stock Integration][adobe-stock-integration]. Licensiering av [Adobe Stock][adobe-stock]-bilder kräver en betald Adobe Stock-plan och ett [Adobe-konto][adobe-signin].
 
-## Licensiera en bild från den nya [!DNL Media Gallery]
+## Licensiera en bild från nya [!DNL Media Gallery]
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
 
-1. Följ stegen på [Använda Adobe Stock-bilder][using-adobe-stock] för att logga in och spara förhandsvisningsbilder i [medielagring][media-storage].
+1. Följ stegen i [Använda Adobe Stock-bilder][using-adobe-stock] för att logga in och spara förhandsvisningsbilder i [medielagringen][media-storage].
 
    ![Sparad förhandsvisningsbild](./assets/adobe-stock-gallery-unlicensed.png){width="600" zoomable="yes"}
 
-1. Klicka på de tre punkterna under bilden (![Ikon på menyn Resurser](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och sedan klicka på **[!UICONTROL License]**.
+1. Klicka på de tre punkterna under bilden (![Ikonen Resurs-menyn](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och klicka sedan på **[!UICONTROL License]**.
 
    ![Adobe Stock bildåtgärder](./assets/adobe-stock-gallery-image-actions.png){width="600" zoomable="yes"}
 
@@ -36,33 +36,33 @@ Den här funktionen kräver [Adobe Stock Integration][adobe-stock-integration] m
    >
    >Om du inte är inloggad visas inloggningsformuläret. Mer information om inloggning finns i [Använda Adobe Stock-bilder][using-adobe-stock].
 
-1. I bekräftelsedialogrutan klickar du på **[!UICONTROL Confirm]** för att licensiera bilden.
+1. I bekräftelsedialogrutan för licensiering klickar du på **[!UICONTROL Confirm]** för att licensiera bilden.
 
    ![Licensbekräftelse](./assets/adobe-stock-gallery-license-confirm.png){width="350" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Du måste ha [Adobe Stock-krediter][stock-credits] i ditt konto för att licensiera bilden.
+   >Du måste ha [Adobe Stock-krediter][stock-credits] tillgängliga på ditt konto för att licensiera bilden.
 
 ## Licensiera en bild från standardmedielagringen
 
-1. [Åtkomst till Adobe Stock Search-stödrastret][access-search].
+1. [Öppna Adobe Stock Search-rutnätet][access-search].
 
-1. Till [visa bildinformation][view-details]klickar du på en bild i sökstödrastret.
+1. Om du vill [visa bildinformationen][view-details] klickar du på en bild i sökstödrastret.
 
 1. Beroende på den aktuella licensstatusen för bilden gör du något av följande:
 
    - Om bilden redan är licensierad klickar du på **[!UICONTROL Save]**.
 
-   - Om bilden är _not_ licensierad, klicka **[!UICONTROL License and Save]**.
+   - Om bilden är _inte_ licensierad klickar du på **[!UICONTROL License and Save]**.
 
      >[!NOTE]
      >
-     >Du måste ha [Adobe Stock-krediter][stock-credits] i ditt konto för att licensiera bilden.
+     >Du måste ha [Adobe Stock-krediter][stock-credits] tillgängliga på ditt konto för att licensiera bilden.
 
-   Den här åtgärden visar en uppmaning om att ange ett filnamn som används för att spara bilden i [medielagring][media-storage]. Ett standardfilnamn anges, men du kan anpassa namnet efter dina inställningar.
+   Den här åtgärden visar en uppmaning om att ange ett filnamn som används för att spara bilden i [medielagringen][media-storage]. Ett standardfilnamn anges, men du kan anpassa namnet efter dina inställningar.
 
-   ![Spara Adobe Stock-licensierad bild](./assets/adobe-stock-save-licensed.png){width="550" zoomable="yes"}
+   ![Spara licensierad Adobe Stock-bild](./assets/adobe-stock-save-licensed.png){width="550" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Confirm]**.
 

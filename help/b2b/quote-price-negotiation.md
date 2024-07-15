@@ -5,18 +5,18 @@ exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
 source-git-commit: 734290b9d609a173186325b418cd92cbf41b0efb
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
 
 # Förhandla om en offert
 
-If [B2B-citattecken är aktiverade](configure-quotes.md) i konfigurationen kan prisförhandlingar inledas av en auktoriserad köpare från ett företag eller en säljare.
+Om [B2B-offerter är aktiverade](configure-quotes.md) i konfigurationen kan prisförhandling initieras av en auktoriserad köpare från ett företag eller en säljare.
 
-Köparna initierar prisförhandlingsprocessen av [begära en offert](quote-request.md) från kundvagnen. Säljarna kan inleda förhandlingar genom att [skapa ett utkast till offert för en köpare](sales-rep-initiates-quote.md), uppdaterar offerten med de ursprungliga orderartiklarna och priserna och skickar den till köparen.
+Köparna initierar prisförhandlingsprocessen genom att [begära en offert](quote-request.md) från kundvagnen. Försäljningsrepresentanter kan initiera förhandlingar genom att [skapa ett utkast till offert för en köpare](sales-rep-initiates-quote.md), uppdatera offerten med de ursprungliga orderartiklarna och -priserna och skicka den till köparen.
 
-När prisförhandlingen börjar visas citattecken i [Citat](quotes.md) rutnät. Alla förhandlingar mellan köparen och säljaren äger rum via e-post och inleds och spåras utifrån offertens detaljvy.
+När prisförhandlingen börjar visas citattecken i rutnätet [Offerter](quotes.md). Alla förhandlingar mellan köparen och säljaren äger rum via e-post och inleds och spåras utifrån offertens detaljvy.
 
 Under förhandlingsprocessen kan säljaren göra följande från administratören:
 
@@ -27,27 +27,27 @@ Under förhandlingsprocessen kan säljaren göra följande från administratöre
 - Lägg till kommentarer
 - Skicka den uppdaterade offerten till köparen eller spara som ett utkast
 
-Köparna hanterar offertförhandlingsprocessen från butiken med [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md). När offerten är öppen för granskning anges dess status på köparens konto till `Pending`. Köparen kan ändra och skicka offerten på nytt även om den har avvisats eller gått ut.
+Köpare hanterar offertförhandlingsprocessen från butiken med [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md). Medan offerten är öppen för granskning är dess status på köparens konto inställd på `Pending`. Köparen kan ändra och skicka offerten på nytt även om den har avvisats eller gått ut.
 
 ## Steg 1: Visa förfrågan
 
-1. Gå till sidlisten Admin **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
+1. Gå till **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** på sidlisten Admin.
 
-   Den nya begäran visas i _[!UICONTROL Quotes]_rutnät.
+   Den nya begäran visas i rutnätet _[!UICONTROL Quotes]_.
 
-1. I _Åtgärder_ kolumn, klicka **[!UICONTROL View]**.
+1. Klicka på **[!UICONTROL View]** i kolumnen _Åtgärder_.
 
    ![Ny offert](./assets/quote-grid-new.png){width="700" zoomable="yes"}
 
 ## Steg 2: Ändra offerten
 
-1. Under _[!UICONTROL Quote & Account Information]_klickar du på_ Kalender _(![Kalenderikon](../assets/icon-calendar.png)).
+1. Klicka på ikonen _Kalender_ (![Kalender-ikon](../assets/icon-calendar.png)) under _[!UICONTROL Quote & Account Information]_.
 
-   ![Offert- och kontoinformation](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
+   ![Citat- och kontoinformation](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
-1. Välj en **[!UICONTROL Expiration Date]** för offerten.
+1. Välj en **[!UICONTROL Expiration Date]** som offert.
 
-1. Bläddra nedåt till _[!UICONTROL Quote Totals]_och uppdatera **[!UICONTROL Negotiated Price]**efter behov.
+1. Bläddra ned till avsnittet _[!UICONTROL Quote Totals]_och uppdatera **[!UICONTROL Negotiated Price]**efter behov.
 
    ![Uppdatera förhandlat pris](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -61,65 +61,66 @@ Köparna hanterar offertförhandlingsprocessen från butiken med [[!UICONTROL My
 
 1. Ange **[!UICONTROL SKU]** och **[!UICONTROL Qty]** som ska läggas till.
 
-   ![Lägg till i offert efter SKU](./assets/quote-details-add-by-sku.png){width="600" zoomable="yes"}
+   ![Lägg till i offert av SKU](./assets/quote-details-add-by-sku.png){width="600" zoomable="yes"}
 
 ### Tillämpa uppdateringar av radobjekt
 
-Använd radobjektsändringar i _[!UICONTROL Items Quoted]_vid behov.
+Använd radobjektsändringar i avsnittet _[!UICONTROL Items Quoted]_om det behövs.
 
-![Tillämpa uppdateringar av radobjekt](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
+![Använd uppdateringar av radobjekt](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
 - Ändra **[!UICONTROL Quantity]** som måste köpas till föreslaget pris.
 
 - Välj **[!UICONTROL Configure]** och ändra produktalternativen.
 
-  The [!UICONTROL Configure] alternativet är bara tillgängligt på en radartikel för en konfigurerbar produkt
+  Alternativet [!UICONTROL Configure] är bara tillgängligt på ett radobjekt för en konfigurerbar produkt
 
-- I **[!UICONTROL Action]** väljer du en åtgärd för att uppdatera objektet:
+- Välj en åtgärd för att uppdatera objektet på menyn **[!UICONTROL Action]**:
    - **Rabattartikel** om du vill tillämpa en rabatt som en procentandel, ett fast belopp eller ett föredraget pris.
-Du kan även låsa rabattbeloppet för att förhindra ytterligare rabatter. Om rabatten inte är låst tillämpas både rabatten för radobjekt och eventuell rabatt på offertnivån på produktpriset.
-   - **Lämna en anteckning till köparen** att ge köparen ytterligare information om en artikel
+Du kan även låsa rabattbeloppet för att förhindra ytterligare rabatter. Om rabatten inte är låst
+både radrabatt och rabatt på offertnivå tillämpas på produktpriset.
+   - **Lämna en anteckning till köparen** för att ge köparen ytterligare information om ett objekt
    - **Ta bort** om du vill ta bort ett objekt från offerten.
 
 ### Tillämpa ändringar och uppdatera
 
-- Om du vill använda ändringarna klickar du på **[!UICONTROL Add to Quote]**.
+- Klicka på **[!UICONTROL Add to Quote]** om du vill använda ändringarna.
 
-- Om du vill uppdatera offerten klickar du på **[!UICONTROL Recalculate the Quote]**.
+- Klicka på **[!UICONTROL Recalculate the Quote]** om du vill uppdatera offerten.
 
-- Om du vill tillämpa ändringarna och uppdatera offerten till den delade katalogen och prisreglerna klickar du på **[!UICONTROL Update Prices]** och sedan klicka **[!UICONTROL Proceed]** för att bekräfta uppdateringen.
+- Om du vill tillämpa ändringarna och uppdatera offerten till den delade katalogen och prisreglerna klickar du på **[!UICONTROL Update Prices]** och sedan på **[!UICONTROL Proceed]** för att bekräfta uppdateringen.
 
   ![Objekt som citerats](./assets/quote-detail-items-quoted.png){width="600" zoomable="yes"}
 
 ### Uppdatera leveransinformation
 
-1. Om köparen inkluderar en _Leverera till_ adress i offerten, klicka på **[!UICONTROL Get shipping methods and rates]**.
+1. Om köparen inkluderar en _leveransadress_ i offerten klickar du på **[!UICONTROL Get shipping methods and rates]**.
 
 1. Välj leveranssätt bland de tillgängliga alternativen.
 
-1. Ange en **[!UICONTROL Proposed Shipping Price]**.
+1. Ange **[!UICONTROL Proposed Shipping Price]**.
 
-   The _[!UICONTROL Quote Totals]_uppdateras för att återspegla det föreslagna fraktpriset.
+   _[!UICONTROL Quote Totals]_har uppdaterats för att återspegla det föreslagna leveranspriset.
 
 ### Bifoga ett stöddokument
 
-1. Under _Lägg till din kommentar_ ruta, klicka **[!UICONTROL Attach file]**.
+1. Klicka på **[!UICONTROL Attach file]** under rutan _Lägg till din kommentar_.
 
-   Som standard [bifogade filer](../configuration-reference/sales/quotes.md) kan vara upp till 2 MB i något av följande filformat: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG eller JPEG, PNG.
+   Som standard kan [bifogade filer](../configuration-reference/sales/quotes.md) vara upp till 2 MB i något av följande filformat: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG eller JPEG, PNG.
 
 1. Välj filen i katalogen.
 
 ## Steg 3: Uppdatera offertnivåinformation och skicka ditt svar
 
-1. I _[!UICONTROL Negotiation]_i_[!UICONTROL Comments]_ anger du ditt svar på **[!UICONTROL Add your comment]** -avsnitt.
+1. I avsnittet _[!UICONTROL Negotiation]_på fliken_[!UICONTROL Comments]_ anger du ditt svar i avsnittet **[!UICONTROL Add your comment]**.
 
-1. Om du vill inkludera ett stöddokument klickar du på **[!UICONTROL Attach file]** och välj filen i katalogen.
+1. Om du vill inkludera ett stöddokument klickar du på **[!UICONTROL Attach file]** och väljer filen i din katalog.
 
    Den största tillåtna filstorleken för bilagor är 2 MB.
 
 1. Så här tillämpar du en rabatt på hela offerten:
 
-   - Under _[!UICONTROL Quote Totals]_i_[!UICONTROL Negotiated Price]_ väljer du någon av följande rabattyper:
+   - Välj någon av följande rabattyper under _[!UICONTROL Quote Totals]_i avsnittet_[!UICONTROL Negotiated Price]_:
 
       - `Percentage Discount`
       - `Amount Discount`
@@ -133,7 +134,7 @@ Du kan även låsa rabattbeloppet för att förhindra ytterligare rabatter. Om r
 
    - Om offerten är klar att skickas tillbaka till köparen klickar du på **[!UICONTROL Send]**.
 
-   - Om du vill fortsätta att arbeta med offerten senare klickar du på **[!UICONTROL Save as Draft]**.
+   - Klicka på **[!UICONTROL Save as Draft]** om du vill fortsätta arbeta med offerten senare.
 
 ## Steg 4: Följ upp en offert
 
@@ -149,9 +150,9 @@ Om du vill övervaka offertens position i arbetsflödet kontrollerar du din e-po
 
 | Knapp | Beskrivning |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Återgår till _[!UICONTROL Quotes]_utan att spara ändringarna. |
+| [!UICONTROL Back] | Återgår till sidan _[!UICONTROL Quotes]_utan att spara ändringarna. |
 | [!UICONTROL Print] | Skickar offerten till en skrivare eller sparar den som en PDF-fil. |
-| [!UICONTROL Create Copy] | [!BADGE Funktioner för 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för betaprogramdeltagare"}`(copy)` som läggs till i det ursprungliga namnet. Byt namn på det nya citattecknet genom att redigera [!UICONTROL Name] fält. Bearbeta den nya offerten genom att spara den som ett utkast eller skicka den till kunden. |
+| [!UICONTROL Create Copy] | [!BADGE 1.5.0-beta-funktioner]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Tillgängligt endast för Beta-programdeltagare&quot;} Skapar och öppnar en kopia av det aktuella citattecknet med `(copy)` som tillägg till det ursprungliga namnet. Byt namn på den nya offerten genom att redigera fältet [!UICONTROL Name]. Bearbeta den nya offerten genom att spara den som ett utkast eller skicka den till kunden. |
 | [!UICONTROL Save as Draft] | Spara ändringar som gjorts i offerten, men skicka inte tillbaka den till köparen. |
 | [!UICONTROL Decline] | Avböjer begäran om att förhandla om priser, antingen på den inledande undersökningen eller under pågående förhandlingar. När en offert avvisas bör säljaren lägga till en kommentar som förklarar beslutet. När en offert avvisas återställs alla förhandlade priser till ursprungsvärdena. Den här knappen är inaktiverad medan säljaren väntar på ett svar från köparen. |
 | [!UICONTROL Send] | Skickar den uppdaterade offerten som ett svar på köparens fråga. Den här knappen är inaktiverad om säljaren väntar på ett svar från köparen. |
@@ -166,15 +167,15 @@ Citatinformation och funktioner i Admin är ordnade i följande avsnitt.
 
 | Fält | Beskrivning |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Name] | Namnet som tilldelats en offertförfrågan av [köpare](account-company-roles-permissions.md). |
-| [!UICONTROL Status] | Anger offertens aktuella tillstånd. Status för en offert kan bara ändras genom åtgärder från antingen köparen eller säljaren. Se även [Statusinställningar](quotes.md) från Admin och [köparkonto](account-dashboard-my-quotes.md). |
+| [!UICONTROL Name] | Namnet som tilldelats en offertförfrågan av [köparen](account-company-roles-permissions.md). |
+| [!UICONTROL Status] | Anger offertens aktuella tillstånd. Status för en offert kan bara ändras genom åtgärder från antingen köparen eller säljaren. Se även [statusinställningarna](quotes.md) från administratören och [köparens konto](account-dashboard-my-quotes.md). |
 | [!UICONTROL Created] | Datum och tid då köparen först skickade anbudsförfrågan. |
 | [!UICONTROL Created By] | Förnamn och efternamn på den företagsköpare som skickade anbudsförfrågan. |
-| [!UICONTROL Expiration Date] | Anger den sista dagen som den aktuella offerten är giltig. Standardförfallodatumet anges i konfigurationen till 30 dagar efter att en köpare har skickat in en anbudsförfrågan. <br/><br/>Säljaren kan åsidosätta standardförfallodatumet genom att ange ett annat datum (MMM DD ÅÅÅÅ) eller välja datumet från kalendern. Offerten upphör aldrig att gälla om fältet lämnas tomt. <br/><br/>För öppna offerter får säljaren [e-postmeddelande](../systems/email-templates.md) 48 timmar innan offerten ska gå ut. Köpare meddelas 24 timmar före utgångsdatumet. <br/><br/>Offertens status ändras till _Utgånget_ och köparen inte kan göra fler ändringar i offerten. De föreslagna priserna i offerten återgår till de ursprungliga värdena från katalogen. <br/><br/>Om en offert är öppen för granskning av säljaren när offerten är inställd på att förfalla, återställs förfallodatumet enligt det intervall som är inställt i konfigurationen. <br/><br/>Förfallodatumet är det enda fältet i _Offert och konto_ som kan redigeras under granskningsprocessen. |
-| [!UICONTROL Company] | Det juridiska namnet för [företag](account-companies.md) som köparen representerar. |
-| [!UICONTROL Company Admin Email] | E-postadressen till [företagsadministratör](account-company-admin.md). |
-| [!UICONTROL Sales Rep] | The [säljare](account-company-manage.md) som arbetar för säljaren och är den primära kontaktperson som tilldelats företagskontot. |
-| [!UICONTROL Shared Catalog (or Customer Group)] | The [delad katalog](catalog-shared.md) eller [kundgrupp](account-company-customer-group.md) till vilket företaget har tilldelats. Offerten kan innehålla anpassade priser från den delade katalogen som är tilldelad företaget. |
+| [!UICONTROL Expiration Date] | Anger den sista dagen som den aktuella offerten är giltig. Standardförfallodatumet anges i konfigurationen till 30 dagar efter att en köpare har skickat in en anbudsförfrågan. <br/><br/>Säljaren kan åsidosätta standardförfallodatumet genom att ange ett annat datum (MMM DD YYYY) eller välja datumet i kalendern. Offerten upphör aldrig att gälla om fältet lämnas tomt. <br/><br/>För öppna offerter får säljaren ett [e-postmeddelande](../systems/email-templates.md) 48 timmar innan offerten är schemalagd att förfalla. Köpare meddelas 24 timmar före utgångsdatumet. <br/><br/>Statusen för offerten ändras till _Förfallen_ och köparen kan inte göra fler ändringar i offerten. De föreslagna priserna i offerten återgår till de ursprungliga värdena från katalogen. <br/><br/>Om en offert är öppen för granskning av säljaren när offerten är inställd på att förfalla, återställs förfallodatumet enligt det intervall som är inställt i konfigurationen. <br/><br/>Förfallodatumet är det enda fältet i avsnittet _Citat och konto_ som kan redigeras under granskningsprocessen. |
+| [!UICONTROL Company] | Det juridiska namnet för det [företag](account-companies.md) som köparen representerar. |
+| [!UICONTROL Company Admin Email] | E-postadressen till [företagets administratör](account-company-admin.md). |
+| [!UICONTROL Sales Rep] | [säljaren](account-company-manage.md) som arbetar för säljaren och är den primära kontakten som tilldelats företagskontot. |
+| [!UICONTROL Shared Catalog (or Customer Group)] | Den [delade katalogen](catalog-shared.md) eller [kundgruppen](account-company-customer-group.md) som företaget är tilldelat. Offerten kan innehålla anpassade priser från den delade katalogen som är tilldelad företaget. |
 
 {style="table-layout:auto"}
 
@@ -214,7 +215,7 @@ Citatinformation och funktioner i Admin är ordnade i följande avsnitt.
 | Fält | Beskrivning |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Shipping Address] | Visar den leveransadress som anges i köparens konto. Leveransadressen är tom om köparen inte angav någon adress innan begäran skickades. |
-| [!UICONTROL Shipping Method & Price] | Länken Hämta leveransmetoder och fraktsatser visas om köparen har en _Leverera till_ adress i offerten. |
+| [!UICONTROL Shipping Method & Price] | Länken Hämta leveransmetoder och fraktsatser visas om köparen inkluderar en _leveransadress_ i offerten. |
 
 {style="table-layout:auto"}
 
@@ -232,11 +233,11 @@ Citatinformation och funktioner i Admin är ordnade i följande avsnitt.
 | Fält | Beskrivning |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Total Cost] | Den totala kostnaden för säljaren av de artiklar som ingår i offerten. |
-| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | Det totala priset för artiklarna i offerten utan moms, enligt priserna i den delade katalogen eller den primära katalogen som används som bas för offerten. Expandera avsnittet för att visa de värden som används i beräkningen, beroende på [Visa delsumma](../configuration-reference/sales/tax.md) i konfigurationen. Alternativ: <br/>**[!UICONTROL Subtotal (Excl. Tax)]**- Katalogens totala pris utan uppskattad moms.<br/>**[!UICONTROL Subtotal (Incl. Tax)]** - Katalogens totala pris utan uppskattad moms. <br/>**[!UICONTROL Estimated Tax]**- Momsbeloppet som beräknas gälla för katalogens totalpris. |
-| Förhandlat pris | Den rabatt som erbjuds köparen kan baseras på något av följande: <br/>**[!UICONTROL Percentage Discount]**- Rabatten i procent.<br/>**[!UICONTROL Amount Discount]** - Rabatten som ett fast belopp. <br/>**[!UICONTROL Proposed Price]**- Det pris som säljaren föreslår.<p>Om alla artiklar i offerten har en låst artikelrabatt visas [!UICONTROL Negotiated Price] -avsnittet är inaktiverat eftersom ingen ytterligare rabatt kan tillämpas.</p><p>Om en produkt har en rabatt på radobjekt som inte är låst tillämpas både rabatten på radobjektet och rabatten på offertnivån på produktpriset.</p> |
-| [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | Det totala föreslagna priset för varje radartikel i offerten, antingen med eller utan moms, beroende på [momsberäkning](../configuration-reference/sales/tax.md) inställningar i konfigurationen. |
+| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | Det totala priset för artiklarna i offerten utan moms, enligt priserna i den delade katalogen eller den primära katalogen som används som bas för offerten. Expandera avsnittet för att visa de värden som används i beräkningen, beroende på inställningen [Visa delsumma](../configuration-reference/sales/tax.md) i konfigurationen. Alternativ: <br/>**[!UICONTROL Subtotal (Excl. Tax)]**- Katalogens totala pris utan uppskattad moms.<br/>**[!UICONTROL Subtotal (Incl. Tax)]** - Katalogens totala pris utan uppskattad moms. <br/>**[!UICONTROL Estimated Tax]**- Momsbeloppet som beräknas gälla för katalogens totalpris. |
+| Förhandlat pris | Rabatten som erbjuds köparen kan baseras på något av följande: <br/>**[!UICONTROL Percentage Discount]**- Rabatten i procent.<br/>**[!UICONTROL Amount Discount]** - Rabatten som ett fast belopp. <br/>**[!UICONTROL Proposed Price]**- Det pris som säljaren föreslår.<p>Om alla artiklar i offerten har en låst artikelrabatt inaktiveras avsnittet [!UICONTROL Negotiated Price] eftersom ingen ytterligare rabatt kan tillämpas.</p><p>Om en produkt har en rabatt på radobjekt som inte är låst tillämpas både rabatten på radobjektet och rabatten på offertnivån på produktpriset.</p> |
+| [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | Det totala föreslagna priset för varje radartikel i offerten, antingen med eller utan moms, beroende på inställningarna för [momsberäkning](../configuration-reference/sales/tax.md) i konfigurationen. |
 | [!UICONTROL Shipping & Handling] | Det belopp som säljaren angett i fältet Föreslaget leveranspris i avsnittet Leveransinformation i offerten. Om fältet är tomt baseras beloppet på den valda leveransmetoden. |
-| [!UICONTROL Estimated Tax] | Momsbeloppet som beräknas förfalla, enligt inställningarna i konfigurationen [visningsinställningar](../configuration-reference/sales/tax.md). |
+| [!UICONTROL Estimated Tax] | Momsbeloppet som beräknas förfalla enligt inställningarna i [visningsinställningarna](../configuration-reference/sales/tax.md). |
 | [!UICONTROL Quote Grand Total (Incl. Tax)] | Slutsumman längst ned i offerten som innehåller förhandlat pris, uppskattad moms samt föreslagen frakt och hantering. |
 
 {style="table-layout:auto"}

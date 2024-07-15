@@ -25,13 +25,13 @@ Innehållsområdet för en layout med en kolumn sträcker sig över huvudkolumne
 
 Innehållsområdet i den här layouten är uppdelat i två kolumner. Huvudinnehållskolumnen placeras till höger och sidlisten till vänster.
 
-![Exempel på två kolumner med vänster stapel](./assets/page-layout-2-col-left-bar.png){width="700" zoomable="yes"}
+![Exempel på två kolumner med vänster fält](./assets/page-layout-2-col-left-bar.png){width="700" zoomable="yes"}
 
 ## Två kolumner med höger fält
 
 Den här layouten är en spegelbild av den andra tvåkolumnslayouten. Den här gången flyter sidofältet åt höger och huvudinnehållskolumnen åt vänster.
 
-![Exempel på två kolumner med höger stapel](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
+![Exempel på två kolumner med höger fält](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
 
 ## Tre kolumner
 

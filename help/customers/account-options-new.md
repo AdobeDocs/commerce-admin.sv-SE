@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Nya alternativ för kundkonton
 
-I _[!UICONTROL Create New Account Options]_i konfigurationen kombineras de grundläggande kontoalternativen med mer avancerade alternativ som relaterar till moms-ID-validering och anpassade integreringar. Följande instruktioner täcker endast de vanligaste alternativen. Mer information om automatiska kundgrupptilldelningar finns i [momsvalidering](../stores-purchase/vat.md).
+I avsnittet _[!UICONTROL Create New Account Options]_i konfigurationen kombineras de grundläggande kontoalternativen med mer avancerade alternativ som relaterar till moms-ID-validering och anpassade integreringar. Följande instruktioner täcker endast de vanligaste alternativen. Mer information om automatiska kundgrupptilldelningar finns i [momsvalidering](../stores-purchase/vat.md).
 
 ![Skapa nya kontoalternativ](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 ## Ange grundläggande alternativ för kundkonton
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Customers]** och välja **[!UICONTROL Customer Configuration]**.
+1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Customer Configuration]**.
 
-1. Expandera **[!UICONTROL Create New Account Options]** avsnitt:
+1. Expandera avsnittet **[!UICONTROL Create New Account Options]**:
 
    ![Skapa standardinställningar för nya kontoalternativ](../configuration-reference/customers/assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
@@ -30,15 +30,15 @@ I _[!UICONTROL Create New Account Options]_i konfigurationen kombineras de grund
 
    - Ange **[!UICONTROL Default Group]** till kundgruppen som tilldelas nya kunder när ett konto skapas.
 
-   - Om du har en _Mervärdesskatt_ och vill att den ska vara synlig för kunderna, ange **[!UICONTROL Show VAT Number on Storefront]** till `Yes`.
+   - Om du har ett _Value Added Tax_-nummer och vill att det ska vara synligt för kunderna anger du **[!UICONTROL Show VAT Number on Storefront]** till `Yes`.
 
-   - Om du vill att en kunds e-post ska krävas när en kund skapas i en administratörsorder anger du **[!UICONTROL Email is required field for Admin order creation]** till `Yes`.
+   - Om du vill att en kunds e-postadress ska krävas när administratörsordern skapas för en kund anger du **[!UICONTROL Email is required field for Admin order creation]** till `Yes`.
 
    - Ange **[!UICONTROL Default Email Domain]** för butiken, till exempel `mystore.com`
 
    - Ange **[!UICONTROL Default Welcome Email]** till mallen som används för välkomstmeddelandet som skickas till nya kunder.
 
-   - Om du vill att kunderna ska bekräfta sin begäran om att öppna ett konto hos din butik anger du **[!UICONTROL Require Emails Confirmation]** till `Yes`. Sedan anger du **[!UICONTROL Confirmation Link Email]** till mallen som används för bekräftelsemeddelandet.
+   - Om du vill att kunderna ska bekräfta sin begäran om att öppna ett konto hos din butik anger du **[!UICONTROL Require Emails Confirmation]** till `Yes`. Ange sedan **[!UICONTROL Confirmation Link Email]** till mallen som används för bekräftelsemeddelandet.
 
      >[!NOTE]
      >
@@ -46,14 +46,14 @@ I _[!UICONTROL Create New Account Options]_i konfigurationen kombineras de grund
 
    - Ange **[!UICONTROL Welcome Email]** till mallen som används för välkomstmeddelandet som skickas när kontot har bekräftats.
 
-   - Ange **[!UICONTROL Default Welcome Email without Password]** till mallen som används när ett kundkonto skapas som ännu inte har något lösenord. Ett kundkonto som skapats från administratören har till exempel ännu inte tilldelats något lösenord.
+   - Ange **[!UICONTROL Default Welcome Email without Password]** till mallen som används när ett kundkonto som ännu inte har något lösenord skapas. Ett kundkonto som skapats från administratören har till exempel ännu inte tilldelats något lösenord.
 
    - Ange **[!UICONTROL Email Sender]** till butikskontakten som visas som avsändare av välkomstmeddelandet.
 
-   - Om du vill att kunderna ska bekräfta sin begäran om att öppna ett konto hos din butik anger du **[!UICONTROL Require Emails Confirmation]** till `Yes`. Sedan anger du **[!UICONTROL Confirmation Link Email]** till mallen som används för bekräftelsemeddelandet.
+   - Om du vill att kunderna ska bekräfta sin begäran om att öppna ett konto hos din butik anger du **[!UICONTROL Require Emails Confirmation]** till `Yes`. Ange sedan **[!UICONTROL Confirmation Link Email]** till mallen som används för bekräftelsemeddelandet.
 
    ![Skapa nya kontoalternativ med moms aktiverat](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-   Mer information om de olika alternativen som finns i den här uppsättningen konfigurationsalternativ finns i _Skapa nya kontoalternativ_ [konfigurationsreferens](../configuration-reference/customers/customer-configuration.md).
+   Mer information om de olika alternativen i den här konfigurationsalternativsuppsättningen finns i _Skapa nya kontoalternativ_ [konfigurationsreferensen](../configuration-reference/customers/customer-configuration.md).
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

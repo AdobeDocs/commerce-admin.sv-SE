@@ -12,32 +12,32 @@ ht-degree: 0%
 
 # Systemmeddelanden
 
-The _Meddelanden_ På sidan visas alla meddelanden ordnade efter allvarlighetsgrad, med den senaste högst upp. Åtgärdskommandona kan användas för att markera enskilda meddelanden som lästa, visa mer detaljerad information eller för att ta bort meddelandet från inkorgen.
+På sidan _Meddelanden_ visas alla meddelanden ordnade efter allvarlighetsgrad, med det senaste högst upp. Åtgärdskommandona kan användas för att markera enskilda meddelanden som lästa, visa mer detaljerad information eller för att ta bort meddelandet från inkorgen.
 
-1. Öppna _[!UICONTROL Notifications]_sida:
+1. Öppna sidan _[!UICONTROL Notifications]_genom att göra något av följande:
 
-   - Klicka på _Meddelande_ i sidhuvudet. Om ett eller flera nya meddelanden visas klickar du på **[!UICONTROL See All]**.
+   - Klicka på ikonen _Meddelande_ i sidhuvudet. Om ett eller flera nya meddelanden visas klickar du på **[!UICONTROL See All]**.
 
-   - På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
+   - Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**på sidofältet_ Admin _.
 
-1. I **[!UICONTROL Action]** gör du något av följande:
+1. Gör något av följande i kolumnen **[!UICONTROL Action]**:
 
-   - Mer information får du genom att klicka **[!UICONTROL Read Details]** om du vill öppna den länkade sidan i ett nytt fönster.
+   - Om du vill ha mer information klickar du på **[!UICONTROL Read Details]** för att öppna den länkade sidan i ett nytt fönster.
 
-   - Behåll meddelandet i inkorgen genom att klicka **[!UICONTROL Mark As Read]**.
+   - Klicka på **[!UICONTROL Mark As Read]** om du vill behålla meddelandet i din inkorg.
 
-     ![Administratör - meddelanden](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
+     ![Admin - Meddelanden](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
-   - Klicka på om du vill ta bort meddelandet **[!UICONTROL Remove]**.
+   - Klicka på **[!UICONTROL Remove]** om du vill ta bort meddelandet.
 
 1. Gör något av följande om du vill använda en åtgärd på flera meddelanden:
 
    - Markera kryssrutan i den första kolumnen för varje meddelande som ska hanteras.
-   - Om du vill markera flera meddelanden anger du **[!UICONTROL Mass Actions]** kontroll efter behov.
+   - Om du vill markera flera meddelanden anger du kontrollen **[!UICONTROL Mass Actions]** efter behov.
 
-1. Ange **[!UICONTROL Actions]** kontrollera något av följande:
+1. Ställ in kontrollen **[!UICONTROL Actions]** på något av följande:
 
    - `Mark as Read`
    - `Remove`
 
-1. Klicka **[!UICONTROL Submit]** för att slutföra processen.
+1. Klicka på **[!UICONTROL Submit]** för att slutföra processen.

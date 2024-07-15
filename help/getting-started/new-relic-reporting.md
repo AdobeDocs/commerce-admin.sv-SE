@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL New Relic] rapportering'
-description: Läs mer om [!DNL New Relic] för konton för Adobe Commerce i molninfrastruktur, som innehåller programvaran för New Relic APM-tjänsten.
+title: '[!DNL New Relic]-rapportering'
+description: Läs mer om  [!DNL New Relic] rapporteringen för konton för Adobe Commerce i molninfrastrukturen, som innehåller programvaran för New Relic APM-tjänsten.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL New Relic] rapportering
+# [!DNL New Relic]-rapportering
 
-[New Relic][1] är en tjänst för programvaruanalys som hjälper er att analysera och förbättra applikationsinteraktioner. Konton för Adobe Commerce i molninfrastruktur inkluderar programvaran för [!DNL New Relic APM] service. Mer information finns i [New Relic-tjänster][4] i _Handbok för Commerce on Cloud Infrastructure_.
+[New Relic][1] är en tjänst för programvaruanalys som hjälper dig att analysera och förbättra programinteraktioner. Konton för Adobe Commerce i molninfrastrukturen inkluderar programvaran för tjänsten [!DNL New Relic APM]. Mer information finns i [New Relic-tjänster][4] i _Commerce on Cloud Infrastructure Guide_.
 
-## Steg 1: Registrera dig för en [!DNL New Relic] konto
+## Steg 1: Registrera ett [!DNL New Relic]-konto
 
-1. Gå till [[!DNL New Relic]][1] webbplats och registrera dig för ett konto.
+1. Gå till webbplatsen [[!DNL New Relic]][1] och registrera dig för ett konto.
 
    Du kan också registrera dig för ett kostnadsfritt provkonto.
 
@@ -25,79 +25,79 @@ ht-degree: 0%
 
 1. När du är på ditt konto letar du reda på följande autentiseringsuppgifter som krävs för att slutföra Commerce-konfigurationen:
 
-   | Alternativ | Beskrivning: __________ |
+   | Alternativ | Beskrivning |
    | ------ | ----------- |
-   | Konto-ID | Från [!DNL New Relic] konto-ID är kontonamnet i URL:en efter: `/accounts` |
-   | Program-ID | Från [!DNL New Relic] instrumentpanel för konto, klicka på **[!UICONTROL New Relic APM]**. Välj **[!UICONTROL Applications]**. Välj sedan programmet. Program-ID:t är numret i URL:en efter: `/applications/` |
-   | Ny Relic API-nyckel | Från [!DNL New Relic] instrumentpanel för konto, klicka på **[!UICONTROL Account Settings]**. Välj på menyn till vänster under Integreringar **[!UICONTROL Data Sharing]**. Du kan skapa, generera om eller ta bort API-nyckeln från den här sidan. |
-   | API-nyckel för insikter | Från [!DNL New Relic] instrumentpanel för konto, klicka på **[!UICONTROL Insights]**. Välj **[!UICONTROL API Keys]**. API-nycklar för dina insikter visas på den här sidan. Klicka vid behov på plustecknet (**+**) bredvid Infoga tangenter för att generera en tangent. |
+   | Konto-ID | Från din [!DNL New Relic]-kontokontrollpanel är konto-ID numret i URL:en efter: `/accounts` |
+   | Program-ID | Klicka på **[!UICONTROL New Relic APM]** på kontrollpanelen för ditt [!DNL New Relic]-konto. Välj **[!UICONTROL Applications]** på menyn. Välj sedan programmet. Program-ID:t är numret i URL:en efter: `/applications/` |
+   | Ny Relic API-nyckel | Klicka på **[!UICONTROL Account Settings]** på kontrollpanelen för ditt [!DNL New Relic]-konto. Välj **[!UICONTROL Data Sharing]** på menyn till vänster under Integreringar. Du kan skapa, generera om eller ta bort API-nyckeln från den här sidan. |
+   | API-nyckel för insikter | Klicka på **[!UICONTROL Insights]** på kontrollpanelen för ditt [!DNL New Relic]-konto. Välj **[!UICONTROL API Keys]** på menyn till vänster under Administration. API-nycklar för dina insikter visas på den här sidan. Klicka vid behov på plustecknet (**+**) bredvid Infoga tangenter för att generera en tangent. |
 
    {style="table-layout:auto"}
 
-## Steg 2: Installera [!DNL New Relic] -agent på servern
+## Steg 2: Installera agenten [!DNL New Relic] på servern
 
-Används [!DNL New Relic APM Pro] PHP-agenten måste vara installerad på servern för att du ska kunna samla in och överföra data.
+Om du vill använda [!DNL New Relic APM Pro] för att samla in och överföra data måste PHP-agenten vara installerad på servern.
 
 1. När du uppmanas att välja en webbagent klickar du på **PHP**.
 
 1. Följ instruktionerna för att konfigurera PHP-agenten på servern.
 
-   Om du behöver hjälp, se [New Relic for PHP][3].
+   Om du behöver hjälp kan du läsa [New Relic för PHP][3].
 
 1. Kontrollera att kron körs på servern.
 
-   Mer information finns på [Konfigurera och kör cron][5] i utvecklardokumentationen.
+   Mer information finns i [Konfigurera och köra cron][5] i utvecklardokumentationen.
 
 ## Steg 3: Konfigurera din butik
 
 >[!NOTE]
 >Dessa konfigurationsalternativ gäller inte för Adobe Commerce i molninfrastrukturen.
 >
->Om du har ett Pro-avtal är New Relic redan [förkonfigurerad och aktiverad som standard](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Om du deltar i Starter-planen måste du fylla i [Konfigurationssteg för New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) som ingår i installationsprocessen.
+>Om du har ett Pro-avtal är New Relic redan [förkonfigurerat och aktiverat som standard](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Om du har startplaner måste du slutföra de [konfigurationssteg för New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) som ingår i installationsprocessen.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. I den vänstra navigeringspanelen där **[!UICONTROL General]** är expanderad, välj **[!UICONTROL New Relic Reporting]** och gör följande:
+1. Välj **[!UICONTROL New Relic Reporting]** i den vänstra navigeringspanelen där **[!UICONTROL General]** är expanderat och gör följande:
 
    ![New Relic Reporting-konfiguration](./assets/new-relic-reporting-general.png){width="600"}
 
    * Ange **[!UICONTROL Enable New Relic Integration]** till `Yes`.
 
-   * I **[!UICONTROL Insights API URL]**, ersätt procentvärdet (`%`) med ditt New Relic konto-ID.
+   * I **[!UICONTROL Insights API URL]** ersätter du procentsymbolen (`%`) med ditt New Relic konto-ID.
 
-   * Ange **[!UICONTROL New Relic Account ID]**.
+   * Ange din **[!UICONTROL New Relic Account ID]**.
 
-   * Ange **[!UICONTROL New Relic Application ID]**.
+   * Ange din **[!UICONTROL New Relic Application ID]**.
 
-   * Ange **[!UICONTROL New Relic API Key]**.
+   * Ange din **[!UICONTROL New Relic API Key]**.
 
-   * Ange dig **[!UICONTROL Insights API Key]**.
+   * Ange **[!UICONTROL Insights API Key]**.
 
-1. För **[!UICONTROL New Relic Application Name]**, anger du ett namn som identifierar konfigurationen för intern referens.
+1. För **[!UICONTROL New Relic Application Name]** anger du ett namn som identifierar konfigurationen för intern referens.
 
-1. (valfritt) för **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**, markera `Yes` för att skicka insamlade data för butiken och administratören som separata appar till New Relic.
+1. (Valfritt) För **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]** väljer du `Yes` om du vill skicka insamlade data för butiken och administratören som separata appar till New Relic.
 
-   Det här alternativet kräver ett namn för **[!UICONTROL New Relic Application Name]**.
+   Det här alternativet kräver ett namn angivet för **[!UICONTROL New Relic Application Name]**.
 
    >[!NOTE]
    >
-   >Om du aktiverar den här funktionen minskas antalet falska positiva [!DNL New Relic] varningar och möjliggör konfigurerad övervakning och varningar för frontend-prestanda. New Relic tar emot separata programdatafiler med programnamnet tillagt i `Adminhtml` och frontend. Till exempel: `MyStore_Adminhtml`
+   >Om du aktiverar den här funktionen minskas antalet [!DNL New Relic]-varningar som är falskt positiva och det går att konfigurera övervakning och varningar med strikt hänsyn till klientens prestanda. New Relic tar emot separata programdatafiler med namnen Application Name (Programnamn) tillagt i `Adminhtml` och FrontLine. Till exempel: `MyStore_Adminhtml`
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
-## Steg 4: Aktivera Cron för [!DNL New Relic] rapportering
+## Steg 4: Aktivera Cron för [!DNL New Relic]-rapportering
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Cron]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Cron]**.
 
    ![New Relic Cron-konfiguration](./assets/new-relic-reporting-cron.png){width="600"}
 
 1. Ange **[!UICONTROL Enable Cron]** till `Yes`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## [!DNL New Relic] frågor
 
-[!DNL New Relic Insights] data baseras på programsatser som skrivs i [!DNL New Relic Query Language] (NRQL) och eventuella egna parametrar som du kan inkludera. Data kan returneras från ad hoc-frågor eller från frågor som sparats på kontrollpanelen. Mer information finns i [NRQL-referens][6] i [!DNL New Relic] dokumentation.
+[!DNL New Relic Insights]-data baseras på satser som är skrivna i [!DNL New Relic Query Language] (NRQL) och eventuella egna parametrar som du kan inkludera. Data kan returneras från ad hoc-frågor eller från frågor som sparats på kontrollpanelen. Mer information finns i [NRQL-referens][6] i [!DNL New Relic]-dokumentationen.
 
 ### Administratörshändelser
 
@@ -106,7 +106,7 @@ Används [!DNL New Relic APM Pro] PHP-agenten måste vara installerad på serve
 Returnerar antalet aktiva Admin-användare.
 
     SELECT uniqueCount(AdminId)
-    FRÅN-transaktion
+    FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39; SEDAN 15 minuter sedan
 
 #### Aktiva administratörsanvändare
@@ -114,7 +114,7 @@ Returnerar antalet aktiva Admin-användare.
 Returnerar namnen på aktiva Admin-användare.
 
     SELECT uniques(AdminName)
-    FRÅN-transaktion
+    FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39; SEDAN 15 minuter sedan
 
 #### Senaste administratörsaktivitet
@@ -122,8 +122,8 @@ Returnerar namnen på aktiva Admin-användare.
 Returnerar antalet senaste Admin-åtgärder.
 
     SELECT count(AdminId)
-    FRÅN-transaktion
-    WHERE appName =&#39;&lt;your_app_name>&#39; FACET AdminName SEDAN 1 dag sedan
+    FROM Transaction
+    WHERE appName =&#39;&lt;ditt_app_name>&#39; FACET AdminName SEDAN 1 dag sedan
 
 #### Senaste administratörsaktivitet
 
@@ -131,8 +131,8 @@ Returnerar detaljerad information om de senaste administratörsåtgärderna, ink
 
     VÄLJ AdminName, varaktighet, namn
     FRÅN transaktion
-    DÄR appName=&#39;&#39; OCH AdminName &lt;your_app_name>ÄR INTE NULL
-    OCH AdminName!&lt;/your_app_name>= &quot;N/A&quot;-GRÄNS 50
+    DÄR appName=&#39;&lt;your_app_name>&#39; OCH AdminName ÄR INTE NULL
+    OCH AdminName!&lt;/your_app_name>= &quot;N/A&quot; GRÄNS 50
 
 ### Cron-evenemang
 
@@ -140,139 +140,139 @@ Returnerar detaljerad information om de senaste administratörsåtgärderna, ink
 
 Returnerar antalet programhändelser per kategori under den angivna tidsperioden.
 
-    SELECT-genomsnitt (CatalogCategoryCount)
-    FRÅN Cron
-    DÄR CatalogCategoryCount INTE ÄR NULL
-    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 minuter
+    SELECT Average(CatalogCategoryCount)
+    FROM Cron
+    WHERE CatalogCategoryCount IS NOT NULL
+    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 minutes
 
 #### Aktuellt antal kataloger
 
 Returnerar det genomsnittliga antalet programhändelser i katalogen per kategori under den angivna tidsperioden.
 
-    SELECT average(CatalogCategoryCount)FROM Cron WHERE CatalogCategoryCount IS NOT NULL AND CatalogCategoryCount > 0 AND appName = &#39;&#39; SINCE 2 minutes ago 2 minutes ago SELECT average(CatalogCategoryCount)SELECT average(CatalogCategoryCount)
+    SELECT average(CatalogCategoryCount)
     FROM Cron
-    WHERE CatalogCategoryCount IS NOT NULL AND CatalogCategoryCount IS NOT NULL
-    AND CatalogCategoryCount 0 AND appName = &#39;&#39; SINCE 2 minutes ago 2 minutes ago 2 minutes ago 2 minutes ago 2 minutes ago 2 minutes ago 2 &lt;your_app_name>minutes ago 2 LIMIT 1
+    WHERE CatalogCategoryCount IS NOT NULL
+    AND CatalogCategoryCount > 0
+    AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago 2 minutes ago LIMIT 1
 &lt;/your_app_name>
-    
 #### Aktiva produkter
 
 Returnerar antalet programhändelser per produkt under den angivna tidsperioden.
 
-    SELECT-genomsnitt(CatalogProductActiveCount)
-    FRÅN Cron
-    DÄR CatalogProductActiveCount INTE ÄR NULL
-    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 minuter
+    SELECT Average(CatalogProductActiveCount)
+    FROM Cron
+    WHERE CatalogProductActiveCount IS NOT NULL
+    AND appName = &#39;&lt;ditt_app_name>&#39; TIMESERIES 2 minutes
 
 #### Antal aktiva produkter
 
 Returnerar det genomsnittliga antalet aktiva programhändelser per produkt under den angivna tidsperioden.
 
-    SELECT-genomsnitt(CatalogProductActiveCount)
-    FRÅN Cron
-    DÄR CatalogProductActiveCount INTE ÄR NULL
+    SELECT Average(CatalogProductActiveCount)
+    FROM Cron
+    WHERE CatalogProductActiveCount IS NOT NULL
     AND CatalogProductActiveCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; SEDAN 2 minutes ago LIMIT 1
+    AND appName = &#39;&lt;ditt_app_name>&#39; SEDAN 2 minutes SEDAN LIMIT 1
 
 #### Konfigurerbara produkter
 
 Returnerar det genomsnittliga antalet programhändelser för konfigurerbara produkter under den angivna tidsperioden.
 
-    SELECT-genomsnitt (CatalogProductConfigurableCount)
-    FRÅN Cron
+    SELECT Average(CatalogProductConfigurableCount)
+    FROM Cron
     DÄR CatalogProductConfigurableCount INTE ÄR NULL
-    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 minuter
+    AND appName = &#39;&lt;ditt_app_name>&#39; TIMESERIES 2 minuter
 
 #### Konfigurerbart produktantal
 
 Returnerar det genomsnittliga antalet programhändelser per konfigurerbar produkt under den angivna tidsperioden.
 
-    SELECT-genomsnitt (CatalogProductConfigurableCount)
-    FRÅN Cron
-    DÄR CatalogProductConfigurableCount INTE ÄR NULL
+    SELECT Average(CatalogProductConfigurableCount)
+    FROM Cron
+    WHERE CatalogProductConfigurableCount IS NOT NULL
     AND CatalogProductConfigurableCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; SEDAN 2 minutes ago LIMIT 1
+    AND appName = &#39;&lt;ditt_app_name>&#39; SEDAN 2 minuter sedan LIMIT 1
 
 #### Antal produkter (alla)
 
 Returnerar det totala antalet programhändelser för alla produkter.
 
-    SELECT-genomsnitt(CatalogProductCount)
-    FRÅN Cron
-    DÄR CatalogProductCount INTE ÄR NULL
-    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 minuter
+    SELECT Average(CatalogProductCount)
+    FROM Cron
+    WHERE CatalogProductCount IS NOT NULL
+    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 minutes
 
 #### Aktuellt produktantal (alla)
 
 Returnerar det genomsnittliga antalet programhändelser för alla produkter under den angivna tidsperioden.
 
-    SELECT-genomsnitt(CatalogProductCount)
-    FRÅN Cron
-    DÄR CatalogProductCount INTE ÄR NULL
+    SELECT Average(CatalogProductCount)
+    FROM Cron
+    WHERE CatalogProductCount IS NOT NULL
     AND CatalogProductCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; SEDAN 2 minutes ago LIMIT 1
+    AND appName = &#39;&lt;your_app_name>&#39; SEDAN 2 minuter sedan LIMIT 1
 
 #### Kundantal
 
 Returnerar det genomsnittliga antalet programhändelser per kund.
 
-    SELECT-genomsnitt (CustomerCount)
-    FRÅN Cron
+    VÄLJ medel(CustomerCount)
+    FRÅN KRON
     DÄR CustomerCount INTE ÄR NULL
     OCH CustomerCount > 0&lt;
-    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 minuter
+    AND appName = &#39;&lt;ditt_app_name>&#39; TIDSERVAR 2 minuter
 
 #### Aktuellt kundantal
 
 Returnerar det genomsnittliga antalet kunder under den angivna tidsperioden.
 
-    SELECT-genomsnitt (CustomerCount)
-    FRÅN Cron
+    VÄLJ medel(CustomerCount)
+    FROM Cron
     DÄR CustomerCount INTE ÄR NULL
     OCH CustomerCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; SEDAN 2 minutes ago LIMIT 1
+    AND appName = &#39;&lt;your_app_name>&#39; SEDAN 2 minuter sedan BEGRÄNSNING 1
 
 #### Modulstatus
 
 Returnerar det genomsnittliga antalet gånger som programmoduler aktiveras, inaktiveras eller installeras under den angivna tidsperioden.
 
-    SELECT-genomsnitt (ModulesDisabled), genomsnitt (ModulesEnabled), genomsnitt
-    (ModulerInstallerade)
-    FRÅN KÖRN&lt;
-    WHERE appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 minuter
+    SELECT-genomsnitt(ModulesDisabled), medel(ModulesEnabled), medel
+    (ModulesInstalled)
+    FROM Cron&lt;
+    WHERE appName = &#39;&lt;ditt_app_name>&#39; TIMESERIES 2 minuter
 
 #### Aktuell modulstatus
 
 Returnerar det genomsnittliga antalet gånger moduler aktiverades, inaktiverades eller installerades under den angivna tidsperioden.
 
-    SELECT-genomsnitt (ModulesDisabled), genomsnitt (ModulesEnabled), genomsnitt
-    (ModulerInstallerade)
-    FRÅN Cron
-    WHERE appName = &#39;&lt;your_app_name>&#39; SEDAN 2 minutes ago LIMIT 1
+    SELECT-genomsnitt(ModulesDisabled), medel(ModulesEnabled), medel
+    (ModulesInstalled)
+    FROM Cron
+    WHERE appName = &#39;&lt;ditt_app_name>&#39; SEDAN 2 minuter sedan LIMIT 1
 
 #### Antal webbplatser och butiker
 
 Returnerar det genomsnittliga antalet programhändelser per webbplats och butik under den angivna tidsperioden.
 
-    SELECT-genomsnitt (StoreViewCount), genomsnitt(WebsiteCount)
-    FRÅN Cron
+    SELECT Average(StoreViewCount), Average(WebsiteCount)
+    FROM Cron
     WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 minuter
 
 #### Aktuellt antal webbplatser och butiker
 
 Returnerar det genomsnittliga antalet aktuella programhändelser under den angivna tidsperioden.
 
-    SELECT-genomsnitt (StoreViewCount), genomsnitt(WebsiteCount)
-    FRÅN Cron
-    WHERE appName = &#39;&lt;your_app_name>&#39; SEDAN 2 minutes ago LIMIT 1
+    SELECT Average(StoreViewCount), Average(WebsiteCount)
+    FROM Cron
+    WHERE appName = &#39;&lt;ditt_app_name>&#39; SEDAN 2 minuter sedan LIMIT 1
 
 #### Cron - alla data från händelse
 
 Returnerar alla data för programhändelser.
 
-    VÄLJ *
-    FRÅN Cron
-    WHERE appName = &#39;&lt;your_app_name>&#39;
+    SELECT *
+    FROM Cron
+    WHERE appName = &#39;&lt;ditt_appnamn>&#39;
 
 ### Kunder
 
@@ -281,15 +281,15 @@ Returnerar alla data för programhändelser.
 Returnerar antalet aktiva kunder under den angivna tidsperioden.
 
     SELECT uniqueCount(CustomerId)
-    FRÅN-transaktion
-    WHERE appName = &#39;&lt;your_app_name>&#39; SEDAN 15 minuter sedan
+    FROM Transaction
+    WHERE appName = &#39;&lt;ditt_app_name>&#39; SEDAN 15 minuter sedan
 
 #### Aktiva kunder
 
 Returnerar namnen på aktiva kunder under den angivna tidsperioden.
 
     SELECT uniques(CustomerName)
-    FRÅN-transaktion
+    FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39; SEDAN 15 minuter sedan
 
 #### De vanligaste kunderna
@@ -297,18 +297,18 @@ Returnerar namnen på aktiva kunder under den angivna tidsperioden.
 Returnerar de främsta kunderna under den angivna tidsperioden.
 
     SELECT count(CustomerId)
-    FRÅN-transaktion
-    WHERE appName = &#39;&lt;your_app_name>&#39; FACET CustomerName SEDAN 1 dag sedan
+    FROM Transaction
+    WHERE appName = &#39;&lt;ditt_app_name>&#39; FACET CustomerName SEDAN 1 dag sedan
 
 #### Senaste administratörsaktivitet
 
 Returnerar ett definierat antal poster för den senaste aktiviteten, som innehåller kundens namn och besökets längd.
 
-    VÄLJ CustomerName, duration, name
-    FROM Transaction
+    VÄLJ CustomerName, varaktighet, namn
+    FRÅN transaktion
     WHERE appName=&#39;&lt;your_app_name>&#39;
     AND CustomerName IS NOT NULL
-    och CustomerName !&lt;/your_app_name>= &quot;N/A&quot;-GRÄNS 50
+    och CustomerName!&lt;/your_app_name>= &quot;N/A&quot; GRÄNS 50
 
 ### Beställningar
 
@@ -323,15 +323,15 @@ Returnerar antalet beställningar som gjorts under den angivna tidsperioden.
 
 Returnerar det totala antalet radartiklar som beställts under den angivna tidsperioden.
 
-    SELECT sum(orderValue)
-    FROM Transaktion SEDAN 1 dag sedan
+    VÄLJ sum(orderValue)
+    FROM Transaktion sedan 1 dag sedan
 
-#### Totalt antal beställda poster
+#### Totalt antal beställda radartiklar
 
-Returnerar det totala antalet radobjekt som beställts under den angivna tidsperioden.
+Returnerar det totala antalet radartiklar som beställts under den angivna tidsperioden.
 
     SELECT sum(lineItemCount)
-    FRÅN TRANSAKTION SEDAN 1 dag
+    FROM Transaction SEDAN 1 dag sedan
 
 
 [1]: https://newrelic.com/

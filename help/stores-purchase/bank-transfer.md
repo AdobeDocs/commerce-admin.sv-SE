@@ -16,31 +16,31 @@ Adobe Commerce och Magento Open Source tillåter att du godkänner betalning som
 
 **_Så här konfigurerar du banköverföringsbetalningar:_**
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Payment Methods]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
-1. Under _Andra betalningsmetoder_, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Bank Transfer Payment]** -avsnitt.
+1. Under _Andra betalningsmetoder_ expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Bank Transfer Payment]**.
 
-   ![Betalning av banköverföring](../configuration-reference/sales/assets/payment-methods-bank-transfer-payment.png){width="600" zoomable="yes"}
+   ![Banköverföringsbetalning](../configuration-reference/sales/assets/payment-methods-bank-transfer-payment.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Rensa vid behov först **[!UICONTROL Use system value]** om du vill ändra inställningarna.
+   >Om det behövs avmarkerar du kryssrutan **[!UICONTROL Use system value]** för att ändra de här inställningarna.
 
-1. Aktivera banköverföringar genom att ange **[!UICONTROL Enabled]** till `Yes`.
+1. Om du vill aktivera banköverföringar anger du **[!UICONTROL Enabled]** till `Yes`.
 
-1. För **[!UICONTROL Title]**, anger du en titel som identifierar betalningsmetoden för banköverföring vid utcheckning.
+1. För **[!UICONTROL Title]** anger du en titel som identifierar banköverföringsbetalningsmetoden vid utcheckning.
 
-1. Ange **[!UICONTROL New Order Status]** till `Pending` tills betalningen är godkänd.
+1. Ange **[!UICONTROL New Order Status]** till `Pending` tills betalningen har auktoriserats.
 
 1. Ange **[!UICONTROL Payment from Applicable Countries]** till något av följande:
 
    - `All Allowed Countries` - Kunder från alla [länder](../getting-started/store-details.md#country-options) som anges i din butikskonfiguration kan använda den här betalningsmetoden.
 
-   - `Specific Countries` - När du har valt det här alternativet visas _[!UICONTROL Payment from Specific Countries]_visas. Om du vill markera flera länder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
+   - `Specific Countries` - När du har valt det här alternativet visas listan _[!UICONTROL Payment from Specific Countries]_. Om du vill markera flera länder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
 
-1. Ange **[!UICONTROL Instructions]** som kunderna måste följa för att göra en banköverföring.
+1. Ange **[!UICONTROL Instructions]** som dina kunder måste följa för att kunna ställa in en banköverföring.
 
    Beroende på i vilket land banken är belägen och bankens behov kan du inkludera följande information:
 
@@ -50,7 +50,7 @@ Adobe Commerce och Magento Open Source tillåter att du godkänner betalning som
    - Bankens namn
    - Bankadress
 
-1. Ange **[!UICONTROL Minimum Order Total]** och **[!UICONTROL Maximum Order Total]** till de belopp som krävs för att få använda betalningsmetoden.
+1. Ange **[!UICONTROL Minimum Order Total]** och **[!UICONTROL Maximum Order Total]** till de belopp som krävs för att kvalificera dig för den här betalningsmetoden.
 
    >[!NOTE]
    >
@@ -58,6 +58,6 @@ Adobe Commerce och Magento Open Source tillåter att du godkänner betalning som
 
 1. För **[!UICONTROL Sort Order]** anger du ett tal som bestämmer positionen för det här objektet i listan över betalningsmetoder som visas vid utcheckning.
 
-   Det här talet är relativt till de andra betalningsmetoderna. (`0` = first, `1` = sekund, `2` = tredje och så vidare.)
+   Det här talet är relativt till de andra betalningsmetoderna. (`0` = först, `1` = sekund, `2` = tredje o.s.v.)
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

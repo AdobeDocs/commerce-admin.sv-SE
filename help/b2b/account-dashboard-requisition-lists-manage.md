@@ -18,7 +18,7 @@ Det främsta skälet till att upprätthålla en rekvisitionslista är att det ä
 
 ## Öppna en rekvisitionslista
 
-1. Från kontouppsättningen väljer kunden **[!UICONTROL My Requisition Lists]**.
+1. Kunden väljer **[!UICONTROL My Requisition Lists]** från sin kontouppsättning.
 
 1. Söker efter den rekvisitionslista som de vill öppna och klickar på **[!UICONTROL View]** och gör något av följande:
 
@@ -27,51 +27,51 @@ Det främsta skälet till att upprätthålla en rekvisitionslista är att det ä
 1. Kunden gör något av följande för att välja de produkter som ska läggas till:
 
    - Markerar kryssrutan för varje objekt.
-   - Klickningar **[!UICONTROL Select All]**.
+   - Klicka på **[!UICONTROL Select All]**.
 
-1. Anger **[!UICONTROL Qty]** som ska läggas i vagnen.
+1. Anger **[!UICONTROL Qty]** som ska läggas till i kundvagnen.
 
 1. Så här ändrar du produktalternativ:
 
-   - Klicka på _Redigera_ (![Pennikon](../assets/icon-edit-pencil.png)).
+   - Klicka på ikonen _Redigera_ (![Penna ](../assets/icon-edit-pencil.png)) i radobjektet.
    - Ändrar de alternativ som är nödvändiga.
-   - Klickningar **[!UICONTROL Update Requisition List]**.
+   - Klicka på **[!UICONTROL Update Requisition List]**.
 
-1. Klickningar **[!UICONTROL Add to Cart]**.
+1. Klicka på **[!UICONTROL Add to Cart]**.
 
-   ![Rekvisitionslistdetalj](./assets/requisition-list-view.png){width="700" zoomable="yes"}
+   ![Information om rekvisitionslista](./assets/requisition-list-view.png){width="700" zoomable="yes"}
 
 ### Kopiera objekt till en annan lista
 
 1. Kunden markerar kryssrutan för varje objekt som ska flyttas.
 
-1. Klickningar **[!UICONTROL Copy Selected]** och gör något av följande:
+1. Klicka på **[!UICONTROL Copy Selected]** och gör något av följande:
 
    - Väljer en befintlig rekvisitionslista.
-   - Klickningar **[!UICONTROL Create New Requisition List]**.
+   - Klicka på **[!UICONTROL Create New Requisition List]**.
 
 ### Exportera en lista
 
 1. Kunden öppnar den rekvisitionslista som ska exporteras.
 
-1. Klicka på **[!UICONTROL Export]** länk.
+1. Klicka på länken **[!UICONTROL Export]**.
 
-Adobe Commerce genererar och hämtar en CSV-lista med `sku` och `qty` värden.
+Adobe Commerce genererar och hämtar en CSV-lista med `sku`- och `qty`-värden.
 
 ### Flytta objekt till en annan lista
 
 1. Kunden markerar kryssrutan för varje objekt som ska flyttas.
 
-1. Klickningar **[!UICONTROL Move Selected]** och gör något av följande:
+1. Klicka på **[!UICONTROL Move Selected]** och gör något av följande:
 
    - Väljer en befintlig rekvisitionslista.
-   - Klickningar **[!UICONTROL Create New Requisition List]**.
+   - Klicka på **[!UICONTROL Create New Requisition List]**.
 
 ### Skriva ut en lista
 
-1. I listans övre högra hörn klickar kunden **[!UICONTROL Print]**.
+1. I listans övre högra hörn klickar kunden på **[!UICONTROL Print]**.
 
-1. Verifierar utdataenheten och klickar **[!UICONTROL Print]**.
+1. Verifierar utdataenheten och klickar på **[!UICONTROL Print]**.
 
    ![Skriv ut rekvisitionslista](./assets/requisition-list-print.png){width="500" zoomable="yes"}
 
@@ -79,17 +79,17 @@ Adobe Commerce genererar och hämtar en CSV-lista med `sku` och `qty` värden.
 
 Kunden gör följande för att redigera produktalternativ i listan:
 
-1. Klicka på _Penna_ (![Pennikon](../assets/icon-edit-pencil.png)) för att öppna produktsidan.
+1. Klicka på ikonen _Penna_ (![Penna-ikon](../assets/icon-edit-pencil.png)) för att öppna produktsidan.
 
 1. Ändrar de alternativ som är nödvändiga.
 
-1. Klickningar **[!UICONTROL Update Requisition List]**.
+1. Klicka på **[!UICONTROL Update Requisition List]**.
 
    ![Uppdatera rekvisitionslista](./assets/requisition-list-update.png){width="700" zoomable="yes"}
 
 En produkt i rekvisitionslistan kan redigeras när:
 
-- Produkten har **[!UICONTROL all options set]** (när det är en [konfigurerad produkt](../catalog/product-create-configurable.md) i rekvisitionslistan).
+- Produkten har **[!UICONTROL all options set]** (när den är en [konfigurerad produkt](../catalog/product-create-configurable.md) i rekvisitionslistan).
 
   Produkten är **[!UICONTROL added to this Requisition List]**.
 
@@ -101,17 +101,17 @@ En produkt i rekvisitionslistan kan redigeras när:
 
 1. Kunden markerar kryssrutan för varje objekt som ska tas bort.
 
-1. Klickningar **[!UICONTROL Remove Selected]**.
+1. Klicka på **[!UICONTROL Remove Selected]**.
 
-1. När du uppmanas att bekräfta klickar du **[!UICONTROL Delete]**.
+1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Delete]**.
 
 ### Byta namn på en lista
 
-1. Efter listtiteln klickar kunden **[!UICONTROL Rename]**.
+1. Efter listtiteln klickar kunden på **[!UICONTROL Rename]**.
 
-1. Infogar en annan **[!UICONTROL Requisition List Name]**.
+1. Anger en annan **[!UICONTROL Requisition List Name]**.
 
-1. Klickningar **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
    ![Byt namn på rekvisitionslista](./assets/requisition-list-rename.png){width="300"}
 
@@ -120,9 +120,9 @@ En produkt i rekvisitionslistan kan redigeras när:
 
 1. Kunden öppnar rekvisitionslistan som ska tas bort.
 
-1. Klickningar **[!UICONTROL Delete Requisition List]**.
+1. Klicka på **[!UICONTROL Delete Requisition List]**.
 
-1. När du uppmanas att bekräfta klickar du **[!UICONTROL Delete]**.
+1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Delete]**.
 
 >[!NOTE]
 >

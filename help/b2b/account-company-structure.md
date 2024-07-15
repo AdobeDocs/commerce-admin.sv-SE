@@ -27,26 +27,26 @@ Det är möjligt att den person som fungerar som företagsadministratör har fle
 
 ![Företagsstruktur med administratör och användarkonto](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
 
-För handlare återspeglas hela företagsstrukturen i _Företag_ och _Kunder_ rutnät i administratören. I företagsrutnätet visas alla företag oavsett status. I följande exempel visas konton för två företag: _KOM_ företag och _Vendelay_ företag.
+För handlare återspeglas den fullständiga företagsstrukturen i rutnäten _Företag_ och _Kunder_ i Admin. I företagsrutnätet visas alla företag oavsett status. I följande exempel visas konton för två företag: företaget _ACME_ och företaget _Vendelay_.
 
-![Företagsrutnät](./assets/companies-grid.png){width="700" zoomable="yes"}
+![Företagsstödraster](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-I följande exempel visas [!UICONTROL Customers] med de ursprungliga företagsadministratörskontona för dessa företag.
+I följande exempel visas rutnätet [!UICONTROL Customers] med de inledande företagskontona för dessa företag.
 
-![Kundrutnät med företagskonto](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![Kundrutnät med företagsadministratörskonto](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-När du har skapat kontot måste företagsadministratören definiera företagsstrukturen för [team](account-company-structure.md), konfigurera [företagsanvändare](account-company-users.md), och upprätta [roller och behörigheter](account-company-roles-permissions.md) for each.
+När du har skapat kontot måste företagsadministratören definiera företagsstrukturen för [team](account-company-structure.md), konfigurera [företagsanvändarna](account-company-users.md) och upprätta [roller och behörigheter](account-company-roles-permissions.md) för varje.
 
 ## Företagsstrukturikoner
 
 | Ikon | Beskrivning |
 | ---- | ----------------- |
-| ![ikon för företagsadministratör](./assets/company-icon-admin.png) | Representerar företagsadministratören i företagsstrukturen. |
+| ![Ikon för företagsadministratör](./assets/company-icon-admin.png) | Representerar företagsadministratören i företagsstrukturen. |
 | ![Teamikon](./assets/company-icon-team.png) | Representerar ett team i företagsstrukturen. |
 | ![Användarikon](./assets/company-icon-user.png) | Representerar en användare i företagsstrukturen. |
 | ![Ikonen Flytta](./assets/company-icon-move.png) | Flyttar ett team till en annan position i företagsstrukturen. |
-| ![expansionsikon](./assets/company-icon-expand.png) | Utökar ett team i företagsstrukturen. |
-| ![Dölj ikon](./assets/company-icon-collapse.png) | Komprimerar ett team i företagsstrukturen. |
+| ![Utbyggnadsikon](./assets/company-icon-expand.png) | Utökar ett team i företagsstrukturen. |
+| ![Komprimera ikon](./assets/company-icon-collapse.png) | Komprimerar ett team i företagsstrukturen. |
 
 {style="table-layout:auto"}
 
@@ -54,15 +54,15 @@ När du har skapat kontot måste företagsadministratören definiera företagsst
 
 Strukturen för ett företagskonto bör återspegla inköpsorganisationen, oavsett om det är enkelt och platt eller en komplex organisation med olika team för varje avdelning och avdelning i företaget.
 
-Om butiken [konfigurerad](enable-basic-features.md) Att tillåta företag att hantera sina egna konton är en av de första uppgifterna som en företagsadministratör måste utföra när kontot har godkänts. I företagskontot representeras företagets struktur som ett träd med företagsadministratören högst upp.
+Om butiken är [konfigurerad](enable-basic-features.md) för att tillåta företag att hantera sina egna konton, är konfigurering av företagsstrukturen en av de första uppgifterna som en företagsadministratör kan utföra efter att kontot har godkänts. I företagskontot representeras företagets struktur som ett träd med företagsadministratören högst upp.
 
 ![Företagsstruktur med team](./assets/company-structure-teams-diagram.svg){width="450"}
 
 1. Företagsadministratören loggar in på sitt konto.
 
-1. I den vänstra panelen väljer **[!UICONTROL Company Structure]**.
+1. Välj **[!UICONTROL Company Structure]** i den vänstra panelen.
 
-1. Under **[!UICONTROL Business Structure]**, klickningar **[!UICONTROL Add Team]** och gör följande:
+1. Under **[!UICONTROL Business Structure]** klickar du på **[!UICONTROL Add Team]** och gör följande:
 
    - Anger **[!UICONTROL Team Title]** och **[!UICONTROL Description]**.
 
@@ -70,7 +70,7 @@ Om butiken [konfigurerad](enable-basic-features.md) Att tillåta företag att ha
 
      ![Lägg till team](./assets/company-structure-add-team.png){width="700" zoomable="yes"}
 
-   - När det är klart klickar du **[!UICONTROL Save]**.
+   - Klicka på **[!UICONTROL Save]** när du är klar.
 
    - Skapar så många team som behövs.
 
@@ -78,17 +78,17 @@ Om butiken [konfigurerad](enable-basic-features.md) Att tillåta företag att ha
 
 1. Så här skapar du en hierarki av team:
 
-   - Markerar det överordnade teamet och klickar på **[!UICONTROL Add Team]**.
+   - Väljer det överordnade teamet och klickar på **[!UICONTROL Add Team]**.
 
      ![Företagsstruktur med divisioner](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
 
    - Anger **[!UICONTROL Team Title]** och **[!UICONTROL Description]**.
 
-   - Klickningar **[!UICONTROL Save]**.
+   - Klicka på **[!UICONTROL Save]**.
 
 1. Upprepar dessa steg för att skapa så många team, eller divisioner och indelningar som behövs.
 
-   ![Företagets struktur med divisioner och indelningar](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
+   ![Företagsstruktur med divisioner och indelningar](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
 
 ## Flytta ett team
 
@@ -106,21 +106,21 @@ När företagsadministratören arbetar med företagsstrukturen kan de dra team e
 
 1. Företagsadministratören väljer det team som ska tas bort.
 
-1. Klickningar **[!UICONTROL Delete Selected]**.
+1. Klicka på **[!UICONTROL Delete Selected]**.
 
-1. När du uppmanas att bekräfta klickar du **[!UICONTROL Delete]**.
+1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Delete]**.
 
 ## Expandera eller komprimera teamstrukturen
 
 När företagsadministratören arbetar med företagsstrukturen kan de komprimera eller expandera trädet:
 
-- Klickningar **[!UICONTROL Collapse All]** eller **[!UICONTROL Expand All]**.
+- Klicka på **[!UICONTROL Collapse All]** eller **[!UICONTROL Expand All]**.
 
-- Klickningar ![Utökad ikon](../assets/icon-display-collapse.png) för att komprimera ett team eller ![Komprimerad ikon](../assets/icon-display-expand.png) för att utöka ett team.
+- Klicka på ![Utökad ikon](../assets/icon-display-collapse.png) om du vill komprimera ett team eller på ![Komprimerad ikon](../assets/icon-display-expand.png) om du vill expandera ett team.
 
 ## Tilldela användare till team
 
-När team och användare först läggs till i [företagsstruktur](account-company-structure.md), placeras de på samma nivå under företagsadministratören.
+När team och användare först läggs till i [företagsstrukturen](account-company-structure.md) placeras de på samma nivå under företagsadministratören.
 
 ![Företagsstruktur med användare och team](./assets/company-users-added.png){width="700" zoomable="yes"}
 
@@ -135,6 +135,6 @@ När team och användare först läggs till i [företagsstruktur](account-compan
 
 1. I den vänstra panelen väljer företagsadministratören **[!UICONTROL Company Structure]**.
 
-1. Om du vill tilldela en användare till ett befintligt team drar de (![Ikonen Flytta](../assets/icon-move.png)) användaren under rätt team.
+1. Om du vill tilldela en användare till ett befintligt team drar de (![ikonen Flytta](../assets/icon-move.png)) användaren till rätt team.
 
    ![Grupptilldelningar](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}

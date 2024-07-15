@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] i Commerce Admin.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 ## [!UICONTROL Gift Card Email Settings]
 
-![E-postinställningar för presentkort](./assets/gift-cards-gift-card-email-settings.png)<!-- zoom -->
+![Inställningar för e-post med presentkort](./assets/gift-cards-gift-card-email-settings.png)<!-- zoom -->
 
 <!-- [Gift Card Email Settings](https://docs.magento.com/user-guide/catalog/product-gift-card-account-configuration.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Gift Card Notification Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av presentkortets e-postmeddelande. Standardvärde: `General Contact` |
-| [!UICONTROL Gift Card Notification Email Template] | Butiksvy | Bestämmer [mall](../../systems/email-templates.md) som används för presentkortsmeddelanden. |
+| [!UICONTROL Gift Card Notification Email Sender] | Butiksvy | Identifierar den [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av presentkortsmeddelandet. Standardvärde: `General Contact` |
+| [!UICONTROL Gift Card Notification Email Template] | Butiksvy | Bestämmer [mallen](../../systems/email-templates.md) som används för presentkortets e-postmeddelande. |
 
 {style="table-layout:auto"}
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | Global | Avgör om innehavaren av presentkortet kan lösa in sitt kontantvärde. Alternativ: `Yes` / `No`. |
-| [!UICONTROL Lifetime (days)] | Global | Anger antalet dagar som kortet är giltigt. Om kortet lämnas tomt upphör det inte att gälla. <br/><br/>**_Viktigt:_**På vissa platser är det olagligt att ange förfallodatum på presentkort. Kontrollera de lokala lagarna innan du anger en livstid för dina presentkort. |
+| [!UICONTROL Lifetime (days)] | Global | Anger antalet dagar som kortet är giltigt. Om kortet lämnas tomt upphör det inte att gälla. <br/><br/>**_Viktigt!_**På vissa platser är det inte tillåtet att ange förfallodata för presentkort. Kontrollera de lokala lagarna innan du anger en livstid för dina presentkort. |
 | [!UICONTROL Allow Gift Message] | Butiksvy | Avgör om möjligheten att inkludera ett presentmeddelande är tillgängligt för kunder som köper ett presentkort. Alternativ: `Yes` / `No`. |
 | [!UICONTROL Gift Message Maximum Length] | Butiksvy | Anger det maximala antalet tecken som tillåts i ett presentkortsmeddelande. Standardvärde: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Avgör om ett presentkortskonto genereras när en kund gör en beställning eller när ordern faktureras. Alternativ: `Ordered` / `Invoiced` |
@@ -47,14 +47,14 @@ ht-degree: 0%
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
-![E-post skickad från kontohantering för presentkort](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
+![E-post skickad från presentkortskontohantering](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
 
 <!-- [Email Sent from Gift Card Account Management](https://docs.magento.com/user-guide/catalog/product-gift-card-account-configuration.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Gift Card Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av presentkortets e-postadress. Standardvärde: `General Contact` |
-| [!UICONTROL Gift Card Template] | Butiksvy | Bestämmer [mall](../../systems/email-templates.md) som används för presentkortets e-postadress. |
+| [!UICONTROL Gift Card Email Sender] | Butiksvy | Identifierar den [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av presentkortets e-postmeddelande. Standardvärde: `General Contact` |
+| [!UICONTROL Gift Card Template] | Butiksvy | Bestämmer [mallen](../../systems/email-templates.md) som används för presentkortets e-postadress. |
 
 {style="table-layout:auto"}
 

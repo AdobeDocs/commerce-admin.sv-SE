@@ -60,7 +60,7 @@ ht-degree: 0%
       + [Paketprodukt](product-create-bundle.md)
       + [Nedladdningsbar produkt](product-create-downloadable.md)
       + [Presentkort](product-gift-card-create.md)
-   + Digitala resurser {#digital-assets}
+   + Digitala produktresurser {#digital-assets}
       + [Katalogbilder och videoklipp](catalog-images-video.md)
       + [Konfiguration av bildresurs](product-image-config.md)
       + [Hantera produktbilder](product-image.md)
@@ -76,7 +76,7 @@ ht-degree: 0%
       + [Nivåpriser](product-price-tier.md)
       + [Lägsta annonspris](product-price-minimum-advertised.md)
    + [Schemalägg produktuppdateringar](product-scheduled-changes.md)
-   + Referens för produktinställningar {#settings}
+   + Produktinställningsreferens {#settings}
       + [Källor](sources.md)
       + [Innehåll](product-content.md)
       + [Konfigurationer](product-configurations.md)

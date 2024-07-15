@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] i Commerce Admin.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Rss Config]
 
-![Rss-konfiguration](./assets/rss-feeds-rss-config.png)<!-- zoom -->
+![RSS-konfiguration](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
 <!-- [Rss Config](https://docs.magento.com/user-guide/marketing/rss-feed.html) -->
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Order]
 
-![Beställning](./assets/rss-feeds-order.png)<!-- zoom -->
+![Beställ](./assets/rss-feeds-order.png)<!-- zoom -->
 
 <!-- [Order](https://docs.magento.com/user-guide/sales/order-status-notification.html) -->
 

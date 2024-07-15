@@ -1,10 +1,10 @@
 ---
 title: Lägga till och ta bort sidor
-description: Lär dig hur du lägger till och tar bort innehållssidor som används i [!DNL Commerce] butik.
+description: Lär dig hur du lägger till och tar bort innehållssidor som används i din [!DNL Commerce] butik.
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -21,53 +21,53 @@ I följande instruktioner får du hjälp med varje steg för att skapa en enkel 
 
 ### Steg 1: Skapa sidan
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Page]**.
 
    ![Ny sida](./assets/pages-new-page.png){width="600" zoomable="yes"}
 
-1. Om du inte vill publicera sidan direkt anger du **[!UICONTROL Enable Page]** till `No`.
+1. Om du inte vill publicera sidan omedelbart anger du **[!UICONTROL Enable Page]** till `No`.
 
 1. Ange **[!UICONTROL Page Title]**.
 
-   Sidans rubrik visas på sidan [breadcrumb](../catalog/navigation-breadcrumb-trail.md) navigering.
+   Sidtiteln visas i navigeringen [breadcrumb](../catalog/navigation-breadcrumb-trail.md).
 
 ### Steg 2: Slutför innehållet
 
-Beroende på din [Konfiguration av avancerade verktyg för innehåll](../configuration-reference/general/content-management.md), lägger till sidinnehållet.
+Lägg till sidinnehållet beroende på konfigurationen för [avancerade verktyg för innehåll](../configuration-reference/general/content-management.md).
 
 #### Använda innehållsverktygen i Page Builder
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
    ![Innehåll med Page Builder](../page-builder/assets/pb-page-content.png){width="600" zoomable="yes"}
 
-1. I **[!UICONTROL Content Heading]** anger du den rubrik som du vill ska visas överst på sidan.
+1. Ange den rubrik som du vill ska visas överst på sidan i rutan **[!UICONTROL Content Heading]**.
 
-   Om den är aktiverad visas [Page Builder](../page-builder/introduction.md) -scenen och -panelen visas under innehållsrubriken. Mer information finns i [Arbetsyta](../page-builder/workspace.md). If _Page Builder_ är inte aktiverat öppnas redigeraren i WYSIWYG-läge med verktygsfältet överst.
+   Om det här alternativet är aktiverat visas [Page Builder](../page-builder/introduction.md)-scenen och panelen nedanför innehållsrubriken. Mer information finns i [Workspace](../page-builder/workspace.md). Om _Page Builder_ inte är aktiverat öppnas redigeraren i WYSIWYG-läge med verktygsfältet överst.
 
 1. Fyll i innehållet och formatera texten efter behov.
 
 #### Använda redigeringsverktygsfältet
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
    ![Innehåll](./assets/page-content-editor.png){width="600" zoomable="yes"}
 
-1. I **[!UICONTROL Content Heading]** anger du den rubrik som du vill ska visas överst på sidan.
+1. Ange den rubrik som du vill ska visas överst på sidan i rutan **[!UICONTROL Content Heading]**.
 
 1. Fyll i innehållet och formatera texten efter behov.
 
-   Du kan lägga till [bilder](media-storage.md), [variabler](../systems/variables-predefined.md)och [widgetar](widgets.md) efter behov. Mer information finns i [Använda redigeraren](editor.md).
+   Du kan lägga till [bilder](media-storage.md), [variabler](../systems/variables-predefined.md) och [widgetar](widgets.md) efter behov. Mer information finns i [Använda redigeraren](editor.md).
 
 ### Steg 3: Fyll i SEO-informationen
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]**.
 
    ![Sökmotoroptimering](./assets/page-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. Acceptera standardinställningen eller ange en annan **[!UICONTROL URL Key]** som består av alla gemener, med bindestreck i stället för mellanslag.
+1. Acceptera standardvärdet eller ange en annan **[!UICONTROL URL Key]** som består av alla gemener, med bindestreck i stället för mellanslag.
 
    Standardnyckeln för URL skapades när sidan sparades och baseras på rubriken Innehåll.
 
@@ -75,11 +75,11 @@ Beroende på din [Konfiguration av avancerade verktyg för innehåll](../configu
 
    Meta-title får inte innehålla fler än 70 tecken och visas i webbläsarens namnlist och på fliken.
 
-1. Ange det värde du vill ha **[!UICONTROL Meta Keywords]** som sökmotorer kan använda för att indexera sidan.
+1. Ange ditt val av **[!UICONTROL Meta Keywords]** med högt värde som sökmotorer kan använda för att indexera sidan.
 
    Avgränsa flera ord med komma. Meta-nyckelord ignoreras av vissa sökmotorer, men används av andra.
 
-1. För **[!UICONTROL Meta Description]**, anger du en kort beskrivning av sidan för sökresultatlistor.
+1. Ange en kort beskrivning av sidan för sökresultatlistor för **[!UICONTROL Meta Description]**.
 
    I idealfallet bör beskrivningen vara 150-160 tecken lång, med en maxgräns på 255.
 
@@ -87,11 +87,11 @@ Beroende på din [Konfiguration av avancerade verktyg för innehåll](../configu
 
 ### Steg 4: Ange sidans omfattning
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Page in Websites]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Page in Websites]**.
 
    ![Sidor på webbplatser](./assets/page-in-websites.png){width="600" zoomable="yes"}
 
-1. I **[!UICONTROL Store View]** väljer du varje vy där sidan ska vara tillgänglig.
+1. I listan **[!UICONTROL Store View]** väljer du varje vy där sidan ska vara tillgänglig.
 
    Om installationen har flera webbplatser väljer du varje webbplats och butiksvy där sidan ska vara tillgänglig.
 
@@ -99,7 +99,7 @@ Beroende på din [Konfiguration av avancerade verktyg för innehåll](../configu
 
 {{ee-feature}}
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Hierarchy]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Hierarchy]**.
 
    ![Hierarki](./assets/page-hierarchy.png){width="600" zoomable="yes"}
 
@@ -107,7 +107,7 @@ Beroende på din [Konfiguration av avancerade verktyg för innehåll](../configu
 
 ### Steg 6: Ange designändringar (valfritt)
 
-1. Om du vill ändra sidans layout expanderar du ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Design]**.
+1. Expandera ![Expanderingsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Design]** om du vill ändra sidans layout.
 
    ![Design](./assets/page-design.png){width="600" zoomable="yes"}
 
@@ -122,7 +122,7 @@ Beroende på din [Konfiguration av avancerade verktyg för innehåll](../configu
    - `Category -- Full Width` (Kräver Page Builder)
    - `Product -- Full Width` (Kräver Page Builder)
 
-1. Använda en **[!UICONTROL Custom Layout Update]** väljer du namnet på filen i listan.
+1. Om du vill använda en **[!UICONTROL Custom Layout Update]** väljer du namnet på filen i listan.
 
    Mer information finns i [Layoutuppdateringar](layout-updates.md).
 
@@ -131,31 +131,31 @@ Beroende på din [Konfiguration av avancerade verktyg för innehåll](../configu
    - `Magento Black`
    - `Magento Luma`
 
-1. ![Magento Open Source](../assets/open-source.svg) (Endast Magento Open Source) Om du vill schemalägga en designändring expanderar du ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** och gör följande:
+1. ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Om du vill schemalägga en designändring expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** och gör följande:
 
    ![Anpassad designuppdatering](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
 
-   - Använd kalendern (![Kalenderikon](../assets/icon-calendar.png)) för att välja **[!UICONTROL From]** och **[!UICONTROL To]** datum för när ändringen ska träda i kraft.
+   - Använd kalendern (![kalenderikon](../assets/icon-calendar.png)) för att välja datum **[!UICONTROL From]** och **[!UICONTROL To]** för ändringen som ska gälla.
 
-   - Om du vill använda ett annat tema på sidan väljer du namnet på **[!UICONTROL New Theme]**.
+   - Om du vill använda ett annat tema på sidan markerar du namnet på **[!UICONTROL New Theme]**.
 
-   - Välj knappen **[!UICONTROL Layout]** som du vill använda.
+   - Om du vill ändra sidans kolumnlayout väljer du **[!UICONTROL Layout]** som du vill använda.
 
 ### Steg 7: Förhandsgranska sidan
 
-1. Klicka på **[!UICONTROL Save]** pil och välj **[!UICONTROL Save & Close]** för att återgå till sidstödrastret.
+1. Klicka på pilen **[!UICONTROL Save]** och välj **[!UICONTROL Save & Close]** för att gå tillbaka till sidstödrastret.
 
-1. Hitta sidan i rutnätet och markera **[!UICONTROL View]** i _[!UICONTROL Action]_kolumn.
+1. Hitta sidan i rutnätet och välj **[!UICONTROL View]** i kolumnen _[!UICONTROL Action]_.
 
 1. Om du vill gå tillbaka till rutnätet klickar du på **[!UICONTROL Back]** i det övre vänstra hörnet i webbläsarfönstret.
 
-### Steg 8: Publicera sidan
+### Steg 8: Publish
 
-1. Välj **[!UICONTROL Edit]** i _[!UICONTROL Action]_stödrastrets kolumn.
+1. Välj **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_i rutnätet.
 
 1. Ange **[!UICONTROL Enable Page]** till `Yes`.
 
-1. Klicka på **[!UICONTROL Save]** pil och välj **[!UICONTROL Save & Close]**.
+1. Klicka på pilen **[!UICONTROL Save]** och välj **[!UICONTROL Save & Close]**.
 
 ## Duplicera en sida
 
@@ -163,13 +163,13 @@ Alla innehållssidor kan användas som mallar och sparas som dubbletter. Du kan 
 
 ![Spara och duplicera](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
 
-1. Leta reda på sidan som du vill duplicera i rutnätet och klicka på **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Leta reda på sidan som du vill duplicera i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Klicka på **[!UICONTROL Save]** pil och välj **[!UICONTROL Save & Duplicate]**.
+1. Klicka på pilen **[!UICONTROL Save]** och välj **[!UICONTROL Save & Duplicate]**.
 
-1. När du ser meddelanden om att sidan har sparats och duplicerats klickar du **[!UICONTROL Back]** i det övre knappfältet för att gå tillbaka till rutnätet.
+1. När du ser meddelanden om att sidan har sparats och duplicerats klickar du på **[!UICONTROL Back]** i det övre knappfältet för att gå tillbaka till rutnätet.
 
 1. Hitta den duplicerade sidan i rutnätet och notera följande:
 
@@ -177,19 +177,19 @@ Alla innehållssidor kan användas som mallar och sparas som dubbletter. Du kan 
    - En unik, men tillfällig URL-nyckel tilldelas.
    - Sidans status är `Disabled`.
 
-1. Öppna den duplicerade sidan i _Redigera_ och gör följande:
+1. Öppna den duplicerade sidan i läget _Redigera_ och gör följande:
 
-   - Om du vill publicera sidan direkt anger du **[!UICONTROL Enable Page]** till `Yes`.
+   - Om du vill publicera sidan omedelbart anger du **[!UICONTROL Enable Page]** till `Yes`.
 
-   - Uppdatera **[!UICONTROL Page Title]**, efter behov.
+   - Uppdatera **[!UICONTROL Page Title]** efter behov.
 
-   - Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Search Engine Optimization]** och ange det unika **[!UICONTROL URL Key]** som du vill använda för den duplicerade sidan.
+   - Expandera ![Utvidgningsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Search Engine Optimization]** och ange den unika **[!UICONTROL URL Key]** som du vill använda för den duplicerade sidan.
 
      ![Tillfällig URL-nyckel](./assets/page-search-engine-optimization-url-key-duplicate.png){width="600" zoomable="yes"}
 
    - Uppdatera det återstående sidinnehållet efter behov.
 
-1. Klicka på **[!UICONTROL Save]** pil och välj **[!UICONTROL Save & Close]**.
+1. Klicka på pilen **[!UICONTROL Save]** och välj **[!UICONTROL Save & Close]**.
 
    Den duplicerade sidan i rutnätet återspeglar dina ändringar.
 
@@ -206,26 +206,26 @@ Alla innehållssidor kan användas som mallar och sparas som dubbletter. Du kan 
 
 ## Ta bort en sida
 
-Det finns två sätt att ta bort en skapad sida. Du kan ta bort den från _[!UICONTROL Pages]_stödraster eller från_[!UICONTROL Edit]_ sida.
+Det finns två sätt att ta bort en skapad sida. Du kan ta bort den från stödrastret _[!UICONTROL Pages]_eller från sidan_[!UICONTROL Edit]_.
 
 ### Metod 1: Ta bort en sida från sidstödrastret
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
 
 1. Leta upp sidorna med hjälp av filter ovanför stödrastret och markera kryssrutan för en eller flera sidor som ska tas bort.
 
 1. I listans övre vänstra hörn anger du **[!UICONTROL Actions]** till `Delete`.
 
-1. Bekräfta åtgärden genom att klicka **[!UICONTROL OK]**.
+1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
 
 ### Metod 2: Ta bort en sida från redigeringssidan
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
 
 1. Hitta sidan som ska tas bort.
 
-1. I _[!UICONTROL Actions]_kolumn för sidenheten klickar du på&#x200B;**[!UICONTROL Select]**och välja **[!UICONTROL Edit]**.
+1. Klicka på **[!UICONTROL Select]** i kolumnen _[!UICONTROL Actions]_för sidenheten och välj **[!UICONTROL Edit]**.
 
-1. Klicka på i knappfältet **[!UICONTROL Delete Page]**.
+1. Klicka på **[!UICONTROL Delete Page]** i knappfältet.
 
-1. Bekräfta åtgärden genom att klicka **[!UICONTROL OK]**.
+1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.

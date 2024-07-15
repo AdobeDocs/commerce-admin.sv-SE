@@ -13,24 +13,24 @@ ht-degree: 0%
 
 # Godkänn ett företagskonto
 
-Status för begäranden som tagits emot från butiken för att skapa ett företag är `Pending Approval` tills begäran har granskats av butiksadministratören och antingen godkänts eller avvisats. Statusen för ett företagskonto kan vara något av följande:
+Status för begäranden som tagits emot från butiken för att skapa ett företag är `Pending Approval` tills begäran granskas av butiksadministratören och antingen godkänns eller avvisas. Statusen för ett företagskonto kan vara något av följande:
 
 - [!UICONTROL Active]
 - [!UICONTROL Pending Approval]
 - [!UICONTROL Rejected]
 - [!UICONTROL Blocked]
 
-Du kan också använda [Åtgärdskontroll](account-company-manage.md) för att godkänna flera företagsförfrågningar.
+Du kan också använda [åtgärdskontrollen](account-company-manage.md) för att godkänna flera företagsförfrågningar.
 
 ![Väntar på godkännande](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
 
 ## Godkänn ett väntande företagskonto
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]** på sidofältet _Admin_.
 
-   Du kan använda _[!UICONTROL Columns]_väljaren ovanför rutnätet för att visa **[!UICONTROL Status]**kolumn.
+   Du kan använda väljaren _[!UICONTROL Columns]_ovanför stödrastret för att visa kolumnen **[!UICONTROL Status]**.
 
-1. I _[!UICONTROL Action]_kolumn, klicka **[!UICONTROL Edit]**.
+1. Klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
 1. Ange **[!UICONTROL Company Status]** till `Active`.
 
@@ -40,13 +40,13 @@ Du kan också använda [Åtgärdskontroll](account-company-manage.md) för att g
 
    Företagsadministratören får ett e-postmeddelande om att företaget nu är aktivt.
 
-1. Ange om tillämpligt **[!UICONTROL Sales Representative]** till ett specifikt administratörskonto.
+1. Ange **[!UICONTROL Sales Representative]** till ett specifikt administratörsanvändarkonto om tillämpligt.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png)  den **[!UICONTROL Account Information]** -avsnittet och använd **[!UICONTROL Comment]** för att ange anteckningar om kontot.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Account Information]** och använd fältet **[!UICONTROL Comment]** för att ange anteckningar om kontot.
 
    Kommentarerna visas inte i butiken.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
    Ett bekräftelsemeddelande skickas till företaget och företagsadministratören som bekräftar att företagskontot har godkänts.
 

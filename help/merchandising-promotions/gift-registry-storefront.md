@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-The [Presentregister](gift-registries.md) i kundkontot listas kundens aktuella presentregister och tillhörande händelse. Kunderna kan hantera de aktuella registren och lägga till nya.
+Avsnittet [Presentregister](gift-registries.md) i kundkontot innehåller en lista över kundens aktuella presentregister och den associerade händelsen. Kunderna kan hantera de aktuella registren och lägga till nya.
 
 ![Presentregister](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
@@ -22,7 +22,7 @@ The [Presentregister](gift-registries.md) i kundkontot listas kundens aktuella p
 
 Kunder kan skapa och hantera presentregister från sina konton. All information som är associerad med varje typ av register är tillgänglig från kundens konto.
 
-![Exempel på storefront - presentregisterinformation](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
+![Exempelarkiv - presentregisterinformation](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 | Avsnitt | Beskrivning |
 |--- |--- |
@@ -40,9 +40,9 @@ Kunder kan skapa och hantera presentregister från sina konton. All information 
 
 ## Skapa ett presentregister
 
-1. Kunden väljer **[!UICONTROL Gift Registry]** på deras kontokontrollpanel.
+1. Kunden väljer **[!UICONTROL Gift Registry]** på sin kontokontrollpanel.
 
-1. På _Presentregister_ sida, klicka **[!UICONTROL Add New]**.
+1. Klicka på **[!UICONTROL Add New]** på sidan _Presentregister_.
 
 1. Väljer en **[!UICONTROL Gift Registry Type]**, till exempel:
 
@@ -52,19 +52,19 @@ Kunder kan skapa och hantera presentregister från sina konton. All information 
 
    - Bröllop
 
-1. Klickningar **[!UICONTROL Next]**.
+1. Klicka på **[!UICONTROL Next]**.
 
-1. Anger nödvändig information och klickar **[!UICONTROL Save]**.
+1. Anger nödvändig information och klickar på **[!UICONTROL Save]**.
 
 ## Lägg till en produkt i ett register
 
 1. Kunden öppnar den produkt som han/hon vill lägga till i presentregisterhändelsen.
 
-1. Klickningar **[!UICONTROL Add to Cart]**.
+1. Klicka på **[!UICONTROL Add to Cart]**.
 
-1. Klickningar **[!UICONTROL View and Edit Cart]** i minivagnen.
+1. Klicka på **[!UICONTROL View and Edit Cart]** i minivagnen.
 
-1. På sidan Kundvagn väljer du den händelse de vill ha och klickar/trycker **[!UICONTROL Add All To Gift Registry]**.
+1. På sidan Kundvagn väljer den händelse de vill ha och klickar/trycker på **[!UICONTROL Add All To Gift Registry]**.
 
    Objekt läggs till i presentregistret för den valda händelsen.
 
@@ -74,7 +74,7 @@ Kunder kan skapa och hantera presentregister från sina konton. All information 
 
 1. Söker efter registerhändelsen som de vill hantera och klickar på **[!UICONTROL Share]**.
 
-1. Anger nödvändig information och klickar **[!UICONTROL Share Gift Registry]**.
+1. Anger nödvändig information och klickar på **[!UICONTROL Share Gift Registry]**.
 
 ## Redigera ett presentregister
 
@@ -84,7 +84,7 @@ Kunder kan skapa och hantera presentregister från sina konton. All information 
 
 1. Ändrar eventuella alternativ efter behov.
 
-1. Redigerar nödvändiga alternativ och klickningar **[!UICONTROL Save]**.
+1. Redigerar nödvändiga alternativ och klickar på **[!UICONTROL Save]**.
 
 ## Hantera presentregisterobjekt
 
@@ -94,11 +94,11 @@ Kunder kan skapa och hantera presentregister från sina konton. All information 
 
 1. Söker efter registerhändelsen, markerar de objekt som ska hanteras och klickar på **[!DNL Manage Items]**.
 
-1. Ändrar nödvändiga alternativ, t.ex. **[!UICONTROL Note]** och **[!UICONTROL Qty]**.
+1. Ändrar de nödvändiga alternativen, till exempel **[!UICONTROL Note]** och **[!UICONTROL Qty]**.
 
-1. Om det behövs tar du bort ett objekt från presentregistret genom att markera kryssrutan och klicka på **[!UICONTROL Delete]**.
+1. Om det behövs tar bort ett objekt från presentregistret genom att markera kryssrutan och klicka på **[!UICONTROL Delete]**.
 
-1. Klickningar **[!UICONTROL Update Gift Registry]** för att spara ändringarna.
+1. Klicka på **[!UICONTROL Update Gift Registry]** för att spara ändringarna.
 
 ## Ta bort ett presentregister
 
@@ -106,4 +106,4 @@ Kunder kan skapa och hantera presentregister från sina konton. All information 
 
 1. Söker efter registerhändelsen som de vill hantera och klickar på **[!UICONTROL Delete]**.
 
-1. Klickningar **[!UICONTROL OK]** för att bekräfta.
+1. Bekräfta genom att klicka på **[!UICONTROL OK]**.

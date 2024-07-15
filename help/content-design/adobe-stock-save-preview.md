@@ -12,23 +12,23 @@ ht-degree: 1%
 
 # Spara en Adobe Stock-förhandsvisning
 
-En förhandsvisning är en vattenstämplad version av en Adobe Stock-resurs. Förhandsgranskning av bilder är kostnadsfria och ett bra sätt att experimentera med olika bilder innan du bestämmer dig för att [köpa en licens][stock-license] för specifika bilder och använda dem i era produktionsbutiker.
+En förhandsvisning är en vattenstämplad version av en Adobe Stock-resurs. Förhandsvisningar av bilder är kostnadsfria och ett bra sätt att experimentera med olika bilder innan du bestämmer dig för att [köpa en licens][stock-license] för specifika bilder och använda dem i dina produktionsbutiker.
 
-När du är redo att licensiera en bild är den nya [[!DNL Media Gallery]](media-gallery.md) har en direkt integrering med Adobe Stock, vilket gör det enkelt att licensiera bilden direkt från gallerisidan.
+När du är redo att licensiera en bild erbjuder nya [[!DNL Media Gallery]](media-gallery.md) en direkt integrering med Adobe Stock, vilket gör det enkelt att licensiera bilden direkt från gallerisidan.
 
 ## Förutsättningar
 
-Den här funktionen kräver [Adobe Stock Integration][adobe-stock-integration] modul och konfiguration.
+Den här funktionen kräver modulen och konfigurationen för [Adobe Stock Integration][adobe-stock-integration].
 
 ## Spara en förhandsvisningsbild
 
-1. [Åtkomst till Adobe Stock sökstödraster][access-search].
+1. [Öppna Adobe Stock sökrutnät][access-search].
 
-1. Till [visa bildinformation][view-details]klickar du på en bild i sökstödrastret.
+1. Om du vill [visa bildinformationen][view-details] klickar du på en bild i sökstödrastret.
 
 1. Klicka på **[!UICONTROL Save Preview]**.
 
-   Den här åtgärden visar en uppmaning om att ange ett filnamn som används för att spara bilden i [medielagring][media-storage]. Ett standardfilnamn anges, men du kan anpassa namnet efter dina inställningar.
+   Den här åtgärden visar en uppmaning om att ange ett filnamn som används för att spara bilden i [medielagringen][media-storage]. Ett standardfilnamn anges, men du kan anpassa namnet efter dina inställningar.
 
    ![Spara Adobe Stock-förhandsvisningsbild](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 

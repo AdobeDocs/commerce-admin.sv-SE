@@ -17,7 +17,7 @@ ht-degree: 1%
 + Kundhanteringsverktyg {#customers-menu}
    + [Kundlista](customers-all.md)
    + [Nu online](now-online.md)
-   + [Anpassning i stor skala](personalize-scale.md)
+   + [Personalization i stor skala](personalize-scale.md)
 + Kundkonton {#customer-accounts}
    + [Kontoomfång](customer-account-scope.md)
    + Kontoalternativ {#configure}
@@ -37,7 +37,7 @@ ht-degree: 1%
       + [Attributegenskaper](attribute-properties.md)
       + [Adressattribut](address-attributes.md)
       + [Adressmallar](address-templates.md)
-   + Butikskredit {#store-credit}
+   + Butikskrediten {#store-credit}
       + [Arbetsflöde för butikskrediter](store-credit.md)
       + [Konfigurera butikskredit](credit-configure.md)
       + [Använd butikskredit](store-credit-using.md)

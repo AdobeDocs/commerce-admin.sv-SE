@@ -13,59 +13,59 @@ ht-degree: 0%
 
 # Företagsroller och behörigheter
 
-Roller för företagsanvändare skapas med olika behörighetsnivåer för att komma åt säljinformation och säljresurser. Som standard är företagsadministratören en _superanvändare_ med fullständig behörighet. The [Åtkomst nekad](../content-design/pages.md#access-denied) visas om användaren inte har behörighet att komma åt sidan.
+Roller för företagsanvändare skapas med olika behörighetsnivåer för att komma åt säljinformation och säljresurser. Som standard är företagsadministratören en _superanvändare_ med fullständig behörighet. Sidan [Åtkomst nekad](../content-design/pages.md#access-denied) visas om användaren inte har behörighet att komma åt sidan.
 
-![Sidan Roller och behörigheter med standardroll](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
+![Sidan Roller och behörigheter med standardrollen](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
-Systemet har en fördefinierad standardanvändarroll som du kan använda _as_ eller anpassa efter dina behov. Du kan skapa så många roller som behövs för att matcha företagets struktur och organisationsansvar, som exempelvis följande:
+Systemet har en fördefinierad standardanvändarroll, som du kan använda _som_ eller ändra efter behov. Du kan skapa så många roller som behövs för att matcha företagets struktur och organisationsansvar, som exempelvis följande:
 
-- **Standardanvändare** — Standardanvändaren har fullständig åtkomst till aktiviteter relaterade till försäljning och offerter samt skrivskyddad åtkomst till företagsprofil och kreditinformation.
+- **Standardanvändare** - Standardanvändaren har fullständig åtkomst till aktiviteter relaterade till försäljning och offerter, och skrivskyddad åtkomst till företagsprofil och kreditinformation.
 
-- **Senior Buyer** — En högre köpare kan ha tillgång till alla Sales- och Quotes-resurser och endast visa behörigheter för företagsprofilen, användare och team, betalningsinformation och företagskrediter.
+- **Senior Buyer** - En Senior Buyer kan ha åtkomst till alla Sales- och Quotes-resurser och endast visa behörigheter för företagsprofilen, användare och team, betalningsinformation och företagskrediter.
 
-- **Assistent Buyer** — En assistentköpare kan ha behörighet att göra en beställning med _Utcheckning med offert_ och för att visa order, offerter och information i företagsprofilen.
+- **Assistant Buyer** - En assistentköpare kan ha behörighet att göra en beställning med _Checka ut med offert_ och visa beställningar, offerter och information i företagsprofilen.
 
 ## Hantera roller och behörigheter
 
 1. Företagsadministratören loggar in på sitt butikskonto.
 
-1. I den vänstra panelen väljer **[!UICONTROL Roles and Permissions]**.
+1. Välj **[!UICONTROL Roles and Permissions]** i den vänstra panelen.
 
 1. Slutför någon av följande uppgifter.
 
 ### Skapa en roll
 
-1. Klickningar **[!UICONTROL Add New Role]**.
+1. Klicka på **[!UICONTROL Add New Role]**.
 
    ![Lägg till ny roll](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"}
 
-1. Anger en beskrivning **[!UICONTROL Role Name]**.
+1. Anger en beskrivande **[!UICONTROL Role Name]**.
 
-1. Under _[!UICONTROL Role Permissions]_gör något av följande:
+1. Gör något av följande under _[!UICONTROL Role Permissions]_:
 
    - Markerar kryssrutan för varje resurs eller aktivitet som användare som har tilldelats rollen har behörighet att komma åt.
 
-   - Markerar **[!UICONTROL All]** och avmarkerar kryssrutan för varje resurs eller aktivitet som användare som har tilldelats rollen inte har behörighet att komma åt.
+   - Markerar kryssrutan **[!UICONTROL All]** och avmarkerar kryssrutan för varje resurs eller aktivitet som användare som har tilldelats rollen inte har behörighet att komma åt.
 
-1. Klickningar **[!UICONTROL Save Role]**.
+1. Klicka på **[!UICONTROL Save Role]**.
 
 1. Skapar så många roller som behövs genom att upprepa de här stegen.
 
 ### Ändra en roll
 
-1. För rollen som ska ändras klickar företagsadministratören på **[!UICONTROL Edit]** i _[!UICONTROL Actions]_kolumn.
+1. Företagsadministratören klickar på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Actions]_för rollen som ska ändras.
 
 1. Gör nödvändiga ändringar i namn- och behörighetsinställningarna.
 
-1. När det är klart klickar du **[!UICONTROL Save Role]**.
+1. Klicka på **[!UICONTROL Save Role]** när du är klar.
 
 ### Duplicera en roll
 
-1. Företagsadministratören klickar på den roll som ska dupliceras **[!UICONTROL Duplicate]** i _[!UICONTROL Actions]_kolumn.
+1. Företagsadministratören klickar på **[!UICONTROL Duplicate]** i kolumnen _[!UICONTROL Actions]_för att rollen ska dupliceras.
 
 1. Gör nödvändiga ändringar i namn- och behörighetsinställningarna.
 
-1. När det är klart klickar du **[!UICONTROL Save Role]**.
+1. Klicka på **[!UICONTROL Save Role]** när du är klar.
 
 ### Ta bort en roll
 
@@ -73,15 +73,15 @@ Systemet har en fördefinierad standardanvändarroll som du kan använda _as_ el
 
    Endast roller utan tilldelade användare kan tas bort.
 
-1. Klickningar **[!UICONTROL Delete]** i _[!UICONTROL Actions]_kolumn.
+1. Klicka på **[!UICONTROL Delete]** i kolumnen _[!UICONTROL Actions]_.
 
-1. När du uppmanas att bekräfta klickar du **[!UICONTROL OK]**.
+1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
 ## Åtgärder
 
 | Åtgärd | Beskrivning |
 |-----------| ----------- |
-| [!UICONTROL Duplicate] | Skapar en kopia av den valda rollen. Namnet på den duplicerade rollen har `- Duplicated` läggs till i slutet. |
+| [!UICONTROL Duplicate] | Skapar en kopia av den valda rollen. Namnet på den duplicerade rollen har `- Duplicated` lagts till i slutet. |
 | [!UICONTROL Edit] | Ändra namn och/eller uppsättning behörigheter. |
 | [!UICONTROL Delete] | Ta bort rollen. Endast roller utan tilldelade användare kan tas bort. |
 
@@ -130,14 +130,14 @@ När du har definierat de roller som behövs tilldelar företagsadministratören
 
 1. Loggar in på deras företagskonto som företagsadministratör.
 
-1. I den vänstra panelen väljer **[!UICONTROL Company Users]**.
+1. Välj **[!UICONTROL Company Users]** i den vänstra panelen.
 
-   ![Företag](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+   ![Företagsanvändare](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. Söker efter användaren i listan och klickar **[!UICONTROL Edit]**.
+1. Söker efter användaren i listan och klickar på **[!UICONTROL Edit]**.
 
 1. Väljer lämplig **[!UICONTROL User Role]** för användaren.
 
    ![Redigera användare - välj en användarroll](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 
-1. Klickningar **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.

@@ -1,48 +1,48 @@
 ---
-title: '''[!DNL Page Builder] Genomgång del 1: enkel sida'
-description: Använd exempelfilerna och följ stegen för att skapa en enkel sida i [!DNL Page Builder] gränssnitt.
+title: '[!DNL Page Builder] Gå igenom del 1: enkel sida'
+description: Använd exempelfilerna och följ stegen för att skapa en enkel sida i  [!DNL Page Builder] gränssnittet.
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
 source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3334'
 ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] Genomgång del 1: enkel sida
+# [!DNL Page Builder] Gå igenom del 1: enkel sida
 
-Följ den här tredelade övningen för att bekanta dig med [!DNL Page Builder] genom att skapa en enkel sida som visar hur enkelt det är att skapa innehållsrika sidor i din egen design.
+Följ den här trestegsövningen för att bekanta dig med arbetsytan i [!DNL Page Builder] genom att skapa en enkel sida som visar hur enkelt det är att skapa innehållsrika sidor i din egen design.
 
 ![Exempel på enkel sida](./assets/pb-tutorial1-simple-layout.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->Dessa genomgångar uppdateras för att återspegla de senaste ändringarna av [!DNL Page Builder] i version 2.4.1. Om du använder en tidigare version av Adobe Commerce använder du [!DNL Page Builder] genomgångsövningar som ingår i [[!DNL Commerce] 2.3 Användarhandbok](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>Dessa genomgången uppdateras för att återspegla de senaste ändringarna av arbetsytan [!DNL Page Builder] i version 2.4.1. Om du använder en tidigare version av Adobe Commerce kan du använda genomgången av [!DNL Page Builder] som ingår i användarhandboken för [[!DNL Commerce]  2.3](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
 ## Innan du börjar
 
-Innan du påbörjar den här övningen rekommenderas att du ökar [Löptid för administratörssession](../systems/security-admin.md) för att förhindra att sessionen tajmar ut medan du arbetar.
+Innan du startar den här övningen bör du öka [livstiden för administratörssessioner](../systems/security-admin.md) så att inte sessionen kan göra någon timeout medan du arbetar.
 
 Verifiera de nödvändiga konfigurationsinställningarna för innehållshantering:
 
-- WYSIWYG-redigeraren är aktiverad i [WYSIWYG-alternativ](../content-design/editor.md#configure-the-editor) konfiguration.
+- WYSIWYG-redigeraren är aktiverad i konfigurationen [WYSIWYG-alternativ](../content-design/editor.md#configure-the-editor) .
 
-- [!DNL Page Builder] är aktiverat i [Avancerade innehållsverktyg](setup.md) konfiguration.
+- [!DNL Page Builder] är aktiverat i konfigurationen [Avancerade innehållsverktyg](setup.md).
 
 ### Ladda ned genomgången av bildresurser
 
-1. Ladda ned [`simple-page-assets`](./assets/simple-page-assets.zip) och spara filen på din lokala dator.
+1. Hämta filen [`simple-page-assets`](./assets/simple-page-assets.zip) och spara filen på din lokala dator.
 
 1. Navigera till den hämtade filen och extrahera de zippade filerna.
 
-   Högerklicka och välj **[!UICONTROL Extract All]** filer. Välj sedan målmappen och klicka på **[!UICONTROL Extract]**.
+   Högerklicka på och välj **[!UICONTROL Extract All]** filer i ett Windows-system. Välj sedan målmappen och klicka på **[!UICONTROL Extract]**.
 
    I ett Mac-system kan du bara dubbelklicka på zip-filen och flytta de extraherade filerna till målmappen.
 
    Mappen innehåller följande bildfiler:
 
-   ![[!DNL Page Builder] genomgång av filer - enkelt sidelement](./assets/pb-tutorial-simple-page-assets.png){width="500"}
+   ![[!DNL Page Builder] genomgången av filer - enkla sidelement](./assets/pb-tutorial-simple-page-assets.png){width="500"}
 
 Följ de tre delarna av genomgången i ordning.
 
@@ -50,83 +50,83 @@ Följ de tre delarna av genomgången i ordning.
 
 I den här delen av Simple Page skapar du en sida med en rad och en banderoll med helt utfall. Raden har olika bakgrundsbilder för datorer och mobila enheter.
 
-![[!DNL Page Builder] hel utfallsrad med banderoll](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}
+![[!DNL Page Builder] hel utfallsrad med banner ](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}
 
 ### Steg 1: Skapa en sida
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add New Page]** och gör följande:
+1. Klicka på **[!UICONTROL Add New Page]** i det övre högra hörnet och gör följande:
 
-   - Om du vill förhindra att sidan publiceras i din butik anger du **[!UICONTROL Enable Page]** till `No`.
+   - Om du vill förhindra att den här sidan publiceras i din butik anger du **[!UICONTROL Enable Page]** till `No`.
 
-   - För **[!UICONTROL Page Title]**, ange `Simple Page`.
+   - Ange `Simple Page` för **[!UICONTROL Page Title]**.
 
-   ![Grundläggande sidinställningar](./assets/pb-tutorial1-currently-active.png){width="600" zoomable="yes"}
+   ![Grundinställningar för sidor](./assets/pb-tutorial1-currently-active.png){width="600" zoomable="yes"}
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Design]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Design]**.
 
-   Observera att **[!UICONTROL Layout]** är inställd på `Page -- Full Width` som standard. Förutom de fem standarderna [layout](../content-design/page-layout.md) alternativ, [!DNL Page Builder] lägger till helbreddslayouter för sidor, kategorier och produkter.
+   Observera att **[!UICONTROL Layout]** är inställt på `Page -- Full Width` som standard. Utöver de fem standardalternativen för [layout](../content-design/page-layout.md) lägger [!DNL Page Builder] till helbreddslayouter för sidor, kategorier och produkter.
 
 1. Om exempeldata är tillgängliga anger du **[!UICONTROL New Theme]** till `Magento Luma`. Annars kan du välja ett annat tillgängligt tema eller lämna det tomt om du vill använda standardtemat.
 
-   The _[!UICONTROL New Theme]_kan användas för att åsidosätta standardtemat och för att tillämpa ett annat tema på sidan.
+   Inställningen _[!UICONTROL New Theme]_kan användas för att åsidosätta standardtemat och tillämpa ett annat tema på sidan.
 
    >[!NOTE]
    >
-   >Layouten Full Width kan bara användas med en kompatibel [tema](../content-design/themes.md).
+   >Layouten för full bredd kan bara användas med ett kompatibelt [tema](../content-design/themes.md).
 
    ![Inställningar för siddesign](./assets/pb-tutorial1-design-section.png){width="600" zoomable="yes"}
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-   När sidan sparas, namnet _Enkel sida_ visas i det övre vänstra hörnet på sidan.
+   När sidan sparas visas namnet _Enkel sida_ i det övre vänstra hörnet på sidan.
 
 ### Steg 2: Formatera raden
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Content]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Content]**.
 
-   Den här åtgärden visar [!DNL Page Builder] förhandsgranska med en tom rad.
+   Den här åtgärden visar förhandsvisningen av [!DNL Page Builder] med en tom rad.
 
    >[!NOTE]
    >
-   >The [Innehållsrubrik](workspace.md) fältet är valfritt. Som standard är den formaterad som rubriknivå 1 (H1) enligt temat. För denna övning ska _Innehållsrubrik_ lämnas tom.
+   >Fältet [Innehållsrubrik](workspace.md) är valfritt. Som standard är den formaterad som rubriknivå 1 (H1) enligt temat. _Innehållsrubrik_ är tom för den här övningen.
 
-   ![Förhandsgranska sidinnehåll med tom rad](./assets/pb-content-preview-empty.png){width="600" zoomable="yes"}
+   ![Förhandsgranskning av sidinnehåll med tom rad](./assets/pb-content-preview-empty.png){width="600" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Edit with Page Builder]** eller inuti förhandsvisningsområdet.
+1. Klicka på **[!UICONTROL Edit with Page Builder]** eller i förhandsvisningsområdet för innehållet.
 
-   I den utökade [!DNL Page Builder] [arbetsyta](workspace.md)innehåller panelen till vänster de innehållsverktyg du kan använda för att skapa innehåll på scenen.
+   I den utökade [!DNL Page Builder] [arbetsytan](workspace.md) innehåller panelen till vänster de innehållsverktyg som du kan använda för att skapa ditt innehåll på scenen.
 
 1. Håll pekaren över den tomma raden för att visa verktygslådan.
 
    Varje innehållsbehållare har en verktygslåda med liknande alternativ.
 
-   ![[!DNL Page Builder] rad, verktygslåda](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
+   Verktygslådan för ![[!DNL Page Builder]-raden](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
 
-1. I verktygslådan Rad väljer du _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} -ikon.
+1. Välj ikonen _Inställningar_ (![Inställningar](./assets/pb-icon-settings.png){width="20"}) i verktygslådan Rader.
 
-1. Under _[!UICONTROL Appearance]_, välja **Fullt utfall**.
+1. Välj **Fullständigt utfall** under _[!UICONTROL Appearance]_.
 
    Inställningen för fullständigt utfall utökar den vänstra och högra kanten av innehållsområdet för raden och bakgrunden till hela sidbredden.
 
    ![Radinställningar - fullständigt utfall](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. Bläddra nedåt till _[!UICONTROL Advanced]_och ange alla **[!UICONTROL Margins and Padding]**inställningar till `0`.
+1. Bläddra ned till avsnittet _[!UICONTROL Advanced]_och ange alla **[!UICONTROL Margins and Padding]**-inställningar till `0`.
 
    Med den här inställningen utökas radens hela bredd.
 
    ![Radinställningar - marginaler och utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. Spara inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta, bläddra uppåt till sidans överkant och klicka på **[!UICONTROL Save]** längst upp till höger.
+1. Om du vill spara inställningarna och återgå till arbetsytan [!DNL Page Builder] rullar du uppåt på sidan och klickar på **[!UICONTROL Save]** i det övre högra hörnet.
 
 ### Steg 3: Lägg till en banderoll
 
 >[!NOTE]
 >
->[!DNL Page Builder] har en ny innehållstyp som heter _Banderoll_, som visas i det här steget. Vad som tidigare var _Banderoll_ på menyn Innehåll är nu ett _Dynamiskt block_.
+>[!DNL Page Builder] har en ny innehållstyp som heter _Banner_ och som beskrivs i det här steget. Det som tidigare var alternativet _Banner_ på menyn Innehåll är nu ett _dynamiskt block_.
 
-1. I [!DNL Page Builder] panel, expandera **[!UICONTROL Media]** och dra en **Banderoll** platshållare till scenen.
+1. Expandera **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **Banner**-platshållare till scenen.
 
    ![Dra en bannerinnehållstyp till scenen](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 1. Håll pekaren över banderollbehållaren för att visa verktygslådan.
@@ -135,45 +135,45 @@ I den här delen av Simple Page skapar du en sida med en rad och en banderoll me
    >
    >Scenen har nu två innehållsbehållare, var och en med en separat verktygslåda. Eftersom banderollen är kapslad i raden måste du se till att du arbetar i rätt verktygslåda.
 
-   Förutom verktygslådan finns det _Överför bild_ och _Välj från galleri_ -knappar inkluderas så att du snabbt kan ändra banderollen direkt från scenen.
+   Förutom verktygslådan finns knapparna _Överför bild_ och _Välj från galleri_ med så att du snabbt kan ändra banderollen direkt från scenen.
 
-   ![Banderollverktygslåda](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
+   ![Banderollverktygslådan](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
 
-1. I verktygslådan Banner väljer du _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. I banderollverktygslådan väljer du ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Under _[!UICONTROL Appearance]_, välja **[!UICONTROL Collage Right]**.
+1. Välj **[!UICONTROL Collage Right]** under _[!UICONTROL Appearance]_.
 
    Inställningen Collage Right (collage till höger) placerar innehållet på banderollens högra sida.
 
-   ![Banderollutseende - collage höger](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![Banderollutseende - collage right](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. Bläddra nedåt till _[!UICONTROL Background]_och ange bakgrundsbilden för banderollen:
+1. Bläddra ned till avsnittet _[!UICONTROL Background]_och ange bakgrundsbilden för banderollen:
 
-   - För **[!UICONTROL Background Image]**, klicka **Överför**.
+   - För **[!UICONTROL Background Image]** klickar du på **Överför**.
 
-     ![Banderollbakgrund - ladda upp bild](./assets/pb-tutorial1-row-background-image-upload.png){width="600" zoomable="yes"}
+     ![Banderollbakgrund - överför bild](./assets/pb-tutorial1-row-background-image-upload.png){width="600" zoomable="yes"}
 
-     Navigera till katalogen där du sparade de extraherade enkla sidelementen och välj `wide-banner-background.jpg` -fil.
+     Navigera till katalogen där du sparade de extraherade enkla sidelementen och välj filen `wide-banner-background.jpg`.
 
      Bilden överförs och en miniatyrbild av den överförda bilden visas. Filnamn, bildstorlek och filstorlek anges nedan.
 
      ![Överförd bakgrundsbild i mediegalleriet](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
-   - För **[!UICONTROL Background Mobile Image]**, klicka **Överför**.
+   - För **[!UICONTROL Background Mobile Image]** klickar du på **Överför**.
 
-     I samma katalog väljer du `wide-banner-background-mobile.jpg` -fil.
+     I samma filkatalog väljer du filen `wide-banner-background-mobile.jpg`.
 
      Den mobila bakgrundsbilden används för mobila enheter och även när en webbläsarfönsterstorlek ändras till bredden på en mobil enhet.
 
      ![Välja exempelbanderollbild för mobilen](./assets/pb-tutorial1-row-settings-background-mobile-image-selected.png){width="600" zoomable="yes"}
 
-   - Bläddra tillbaka till sidans överkant och klicka **[!UICONTROL Save]** för att spara inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+   - Bläddra tillbaka till sidans överkant och klicka på **[!UICONTROL Save]** för att spara inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
      Bakgrunden visas på scenen och radens hela bredd utökas.
 
-     ![Banderoll med bakgrundsbild](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
+     ![Banner med bakgrundsbild](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
-   Lägg märke till platshållartexten som visas på radens högra sida. Textens position återspeglar _Sortera åt höger_ inställning för utseende.
+   Lägg märke till platshållartexten som visas på radens högra sida. Positionen för den här texten återspeglar utseendeinställningen _Höger collage_ .
 
 1. Klicka på platshållartexten och skriv följande meddelande på två rader:
 
@@ -181,32 +181,32 @@ I den här delen av Simple Page skapar du en sida med en rad och en banderoll me
 
    `New LUMA yoga collection`
 
-   Redigeringsverktygsfältet visas ovanför textrutan. Du kan skriva och formatera text direkt från scenen eller genom att välja _Inställningar_ i banderollverktygslådan.
+   Redigeringsverktygsfältet visas ovanför textrutan. Du kan ange och formatera text antingen direkt från scenen eller genom att välja _Inställningar_ i banderollverktygslådan.
 
    ![Redigera banderollinnehåll från scenen](./assets/pb-tutorial1-banner-stage-text.png){width="600" zoomable="yes"}
 
 1. Använd formatering på texten:
 
-   - Markera den första textraden. Gå sedan till redigeringsverktygsfältet under **Format**, välja `Heading 2`.
+   - Markera den första textraden. Gå sedan till redigeringsverktygsfältet under **Format** och välj `Heading 2`.
 
-     ![Använda formatet Rubrik 2](./assets/pb-tutorial1-banner-stage-text-format-line1.png){width="600" zoomable="yes"}
+     ![Använder formatet Rubrik 2](./assets/pb-tutorial1-banner-stage-text-format-line1.png){width="600" zoomable="yes"}
 
-   - Markera den andra textraden. Gå sedan till redigeringsverktygsfältet under **Format**, välja `Paragraph`.
+   - Markera den andra textraden. Gå sedan till redigeringsverktygsfältet under **Format** och välj `Paragraph`.
 
    Formatinställningarna använder formaten från formatmallen som är kopplad till det aktuella temat.
 
-   ![Banderoll på innehållsscenen med formaterad text](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
+   ![Banderoll i innehållsscenen med formaterad text](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 __
 
-1. Hovra för att visa banderollverktygslådan väljer du _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ) ikonen igen och bläddra sedan till _[!UICONTROL Content]_-avsnitt.
+1. Hovra för att visa banderollverktygslådan, välj ikonen _Inställningar_ ( ![Inställningarna ](./assets/pb-icon-settings.png){width="20"} ) igen och bläddra sedan till avsnittet _[!UICONTROL Content]_.
 
-   Observera att texten visas i _Meddelandetext_ box. Text kan anges och redigeras antingen från scenen eller från _[!UICONTROL Content]_i banderollinställningarna.
+   Observera att texten visas i rutan _Meddelandetext_. Text kan anges och redigeras antingen från scenen eller från avsnittet _[!UICONTROL Content]_i banderollinställningarna.
 
    ![Banderollinställningar - meddelandetext](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
-1. Fortsätta i _[!UICONTROL Content]_anger du banderolllänken och knappen:
+1. Ange banderolllänken och knappen för att fortsätta i avsnittet _[!UICONTROL Content]_:
 
-   - Ange **Länk** till `Category`och klicka sedan på **[!UICONTROL Select]** för att visa kategoriträdet.
+   - Ange **Länk** till `Category` och klicka sedan på **[!UICONTROL Select]** för att visa kategoriträdet.
 
    - Välj `What's New` som den länkade kategorin.
 
@@ -214,9 +214,9 @@ __
 
    - Ange **[!UICONTROL Show Button]** till `Always`.
 
-   - För **[!UICONTROL Button Text]**, ange `Shop Now` som texten som visas på knappen.
+   - För **[!UICONTROL Button Text]** anger du `Shop Now` som texten som visas på knappen.
 
-   - För **[!UICONTROL Button Type]**, acceptera `Primary` standard.
+   - Acceptera standardvärdet `Primary` för **[!UICONTROL Button Type]**.
 
      Knappformatet från det aktuella temat avgör knappformatet.
 
@@ -226,66 +226,66 @@ __
 
    - Ange **[!UICONTROL Show Overlay]** till `Always`.
 
-   - För **[!UICONTROL Overlay Color]** gör du något av följande:
+   - Gör något av följande för **[!UICONTROL Overlay Color]**:
 
       - Klicka på färgrutan och välj den vita färgrutan.
-      - Klicka på _Ingen färg_ textruta och ange `White` eller hexadecimalt värde `#ffffff`.
+      - Klicka i textrutan _Ingen färg_ och ange `White` eller det hexadecimala värdet `#ffffff`.
 
      Klicka sedan på **[!UICONTROL Apply]**.
 
-     ![Banderollinställningar - övertäckningsfärg för knapp](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
+     ![Banderollinställningar - färg för knappövertäckning](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
-   - Bläddra tillbaka till sidans överkant och klicka **[!UICONTROL Save]** för att spara inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+   - Bläddra tillbaka till sidans överkant och klicka på **[!UICONTROL Save]** för att spara inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
      Knappen visas under banderollmeddelandet på scenen.
 
-     ![Banderoll på innehållsscenen med textmeddelande och knapp](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
+     ![Banderoll i innehållsscenen med textmeddelande och knapp](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
 
-1. Klicka på i det övre högra hörnet av scenen _Stäng helskärm_ (![Stäng helskärmsikonen](./assets/pb-icon-reduce.png)).
+1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till _[!UICONTROL Content]_-avsnitt för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
 
    Du kan växla mellan de två arbetsytelägen när du vill.
 
-1. Klicka i det övre högra hörnet på **[!UICONTROL Save]** pil och välj **[!UICONTROL Save & Close]**.
+1. Klicka på pilen **[!UICONTROL Save]** i det övre högra hörnet och välj **[!UICONTROL Save & Close]**.
 
-1. Klicka på knappen [Cachehantering](../systems/cache-management.md) i meddelandet längst upp på sidan och uppdatera eventuell ogiltig cache.
+1. Om du uppmanas till det klickar du på länken [Cachehantering](../systems/cache-management.md) i meddelandet längst upp på sidan och uppdaterar eventuell ogiltig cache.
 
 ## Del 2: Innehållen rad med två lika kolumner
 
-I den här delen av övningen lägger du till en rad på sidan och delar upp raden i två lika stora kolumner. Sedan lägger du till en länkad bild i varje kolumn. I instruktionerna läggs varje ny rad till före den första raden för att skapa [!DNL Page Builder] panelen justeras efter scenen. I slutet av övningen ordnar du om raderna så att de matchar exemplet med enkel sida.
+I den här delen av övningen lägger du till en rad på sidan och delar upp raden i två lika stora kolumner. Sedan lägger du till en länkad bild i varje kolumn. I instruktionerna läggs varje ny rad till före den första raden så att panelen [!DNL Page Builder] hamnar på scenen. I slutet av övningen ordnar du om raderna så att de matchar exemplet med enkel sida.
 
-![Exempelsida med innesluten rad med två lika kolumner](./assets/pb-tutorial1-contained-row-with-two-equal-columns.png){width="600" zoomable="yes"}
+![Exempelsida med innesluten rad med två lika stora kolumner](./assets/pb-tutorial1-contained-row-with-two-equal-columns.png){width="600" zoomable="yes"}
 
 ### Steg 1: Lägg till en rad
 
-1. I rutnätet Sidor finns _Enkel sida_ som du skapade i den första delen av den här övningen och väljer **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Leta reda på den _enkla sidan_ som du skapade i den första delen av den här övningen i sidstödrastret och välj **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Content]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Content]**.
 
-1. Klicka **[!UICONTROL Edit with Page Builder]** eller inuti förhandsvisningsområdet.
+1. Klicka på **[!UICONTROL Edit with Page Builder]** eller i förhandsvisningsområdet för innehållet.
 
-1. I [!DNL Page Builder] panel under _[!UICONTROL Layout]_, dra en **[!UICONTROL Row]**platshållare till scenen och placera den ovanför banderollen.
+1. Dra en **[!UICONTROL Row]**-platshållare till scenen under [!DNL Page Builder] och placera den ovanför banderollen._[!UICONTROL Layout]_
 
    Den röda stödlinjen markerar gränsen mellan de två raderna.
 
-   ![Lägga till en ny rad ovanför banderollen](./assets/pb-tutorial1-row-drag-to-stage.png){width="600" zoomable="yes"}
+   ![Lägger till en ny rad ovanför banderollen](./assets/pb-tutorial1-row-drag-to-stage.png){width="600" zoomable="yes"}
 
-1. Håll pekaren över den nya raden för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över den nya raden för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Verktygslådan Rad](./assets/pb-tutorial1-row-settings.png){width="600" zoomable="yes"}
 
-1. Under _[!UICONTROL Appearance]_, acceptera **Innehållet**standardinställning.
+1. Under _[!UICONTROL Appearance]_godkänner du standardinställningen **Innehållet**.
 
    Den här inställningen begränsar radens innehållsområde till bredden på sidan enligt temat.
 
-   ![Behåll standardinställningen för innehållet utseende](./assets/pb-tutorial1-row-settings-appearance.png){width="600" zoomable="yes"}
+   ![Behåller standardinställningen för innehållet utseende](./assets/pb-tutorial1-row-settings-appearance.png){width="600" zoomable="yes"}
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Save]** för att spara inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet för att spara inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ### Steg 2: Lägg till en kolumn
 
-1. I [!DNL Page Builder] panel under _[!UICONTROL Layout]_, dra en **[!UICONTROL Column]**platshållare till den nya raden.
+1. Dra en **[!UICONTROL Column]**-platshållare på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_till den nya raden.
 
    ![Dra en kolumninnehållstyp till scenen](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
@@ -293,19 +293,19 @@ I den här delen av övningen lägger du till en rad på sidan och delar upp rad
 
    ![Rad med två kolumner med samma bredd](./assets/pb-tutorial1-columns-equal-width.png){width="600" zoomable="yes"}
 
-1. Klicka på cirkeln i det övre vänstra hörnet av den första kolumnen _Stödraster_ kontroll (![Stödrasterkontroll](./assets/pb-icon-grid-control.png)) för att visa stödlinjerna för stödrastret.
+1. Klicka på den cirkulära kontrollen _Stödraster_ (![Stödrasterkontroll](./assets/pb-icon-grid-control.png)) i det övre vänstra hörnet i den första kolumnen om du vill visa stödlinjerna för stödrastret.
 
-   Rutnätet ser till att innehållet justeras på ett enhetligt sätt och att det återges korrekt på både stationära och mobila enheter. Information om hur du konfigurerar stödrasterstorleken finns i [Konfigurera [!DNL Page Builder]](setup.md#configure-page-builder) i [!DNL Page Builder] Installationsämne.
+   Rutnätet ser till att innehållet justeras på ett enhetligt sätt och att det återges korrekt på både stationära och mobila enheter. Information om hur du konfigurerar stödrasterstorleken finns i avsnittet [Konfigurera [!DNL Page Builder]](setup.md#configure-page-builder) i avsnittet [!DNL Page Builder] Konfigurera.
 
    Siffrorna inom parentes (6/12) i den övre kanten av varje kolumnbehållare anger antalet rutnätsindelningar i varje kolumn och det totala antalet indelningar i raden.
 
-   ![Visa information om stödrasterstorlek för kolumnen](./assets/pb-tutorial1-columns-grid-size.png){width="600" zoomable="yes"}
+   ![Visar information om stödrasterstorlek för kolumnen](./assets/pb-tutorial1-columns-grid-size.png){width="600" zoomable="yes"}
 
 ### Steg 3: Lägg till bilder med länkar
 
 I det här steget får du lära dig hur du överför en bild till banderollen.
 
-1. I [!DNL Page Builder] panel, expandera **[!UICONTROL Media]** och dra ett **[!UICONTROL Image]** platshållare till den första kolumnen.
+1. Expandera avsnittet **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Image]** platshållare till den första kolumnen.
 
    ![Dra bildinnehållstypen till den första kolumnen](./assets/pb-tutorial1-column1-media-image-drag.png){width="600" zoomable="yes"}
 
@@ -315,41 +315,41 @@ I det här steget får du lära dig hur du överför en bild till banderollen.
 
    För en bild som finns på datorn kan du välja någon av följande metoder:
 
-   - **Överför bildfilen**: I den första kolumnen klickar du på **[!UICONTROL Upload Image]**. Navigera sedan till katalogen där du sparade de extraherade enkla sidelementen och välj `small-banner-1.jpg` -fil.
+   - **Överför bildfilen**: Klicka på **[!UICONTROL Upload Image]** i den första kolumnen. Gå sedan till katalogen där du sparade de extraherade enkla sidelementen och välj filen `small-banner-1.jpg`.
 
      ![Överförd bild har lagts till i den första kolumnen](./assets/pb-tutorial1-column1-image.png){width="600" zoomable="yes"}
 
-     Upprepa den här åtgärden om du vill lägga till `small-banner-2.jpg` till den andra kolumnen.
+     Upprepa den här åtgärden om du vill lägga till filen `small-banner-2.jpg` i den andra kolumnen.
 
-   - **Dra bildfilen**: Öppna den enkla sidresursmappen på skrivbordet och placera den bredvid administratörsfönstret där du arbetar med [!DNL Page Builder] stage. Dra sedan filen `small-banner-1.jpg` från den enkla sidresursmappen och släpp den i den första kolumnen.
+   - **Dra bildfilen**: På skrivbordet öppnar du den enkla sidresursmappen och placerar den bredvid administratörsfönstret där du arbetar med [!DNL Page Builder] -scenen. Dra sedan filen `small-banner-1.jpg` från den enkla sidresursmappen och släpp den i den första kolumnen.
 
      ![Dra bilden till den andra kolumnen](./assets/pb-tutorial1-column-image-drag.png){width="600" zoomable="yes"}
 
-     Upprepa den här åtgärden om du vill lägga till `small-banner-2.jpg` till den andra kolumnen.
+     Upprepa den här åtgärden om du vill lägga till filen `small-banner-2.jpg` i den andra kolumnen.
 
 1. Bestäm vilken sida i katalogen som du vill länka till varje bild.
 
-1. Håll pekaren över bilden i den första kolumnen för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över bilden i den första kolumnen för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Verktygslådan Bild](./assets/pb-tutorial1-column1-image-settings.png){width="600" zoomable="yes"}
 
 1. Länka bilden till en kategori:
 
-   - Rulla nedåt och ange **Länk** till `Category`.
+   - Rulla ned och ange **Länk** till `Category`.
 
-   - I kategoriträdet ska du gå nedåt och välja `Men's Hoodies & Sweatshirt` kategori.
+   - Gå till kategoriträdet, gå nedåt och välj kategorin `Men's Hoodies & Sweatshirt`.
 
-   - I det övre högra hörnet **[!UICONTROL Save]** inställningarna och återgå till [!DNL Page Builder] arbetsyta.
+   - I det övre högra hörnet **[!UICONTROL Save]** inställningarna och återgår till arbetsytan i [!DNL Page Builder].
 
-1. Upprepa föregående steg om du vill länka bilden i den andra kolumnen till _Kugghjul_ kategori.
+1. Upprepa föregående steg om du vill länka bilden i den andra kolumnen till kategorin _Kugghjul_.
 
-1. Klicka på i det övre högra hörnet av scenen _Stäng helskärm_ (![Stäng helskärmsikonen](./assets/pb-icon-reduce.png)).
+1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till _[!UICONTROL Content]_-avsnitt för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
 
-1. Klicka i det övre högra hörnet på **[!UICONTROL Save]** pil och välj **[!UICONTROL Save & Close]**.
+1. Klicka på pilen **[!UICONTROL Save]** i det övre högra hörnet och välj **[!UICONTROL Save & Close]**.
 
-1. När du uppmanas till det klickar du på [Cachehantering](../systems/cache-management.md) i meddelandet längst upp på sidan och uppdatera eventuell ogiltig cache.
+1. När du uppmanas till det klickar du på länken [Cachehantering](../systems/cache-management.md) i meddelandet längst upp på sidan och uppdaterar eventuell ogiltig cache.
 
 ## Del 3: Rad med full bredd och olika kolumner
 
@@ -359,37 +359,37 @@ Den sista raden på den här sidan innehåller innehåll från en produktgranskn
 
 ### Steg 1: Lägg till en rad
 
-1. I rutnätet Sidor finns _Enkel sida_ som du skapade i den första delen av den här övningen och väljer **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Leta reda på den _enkla sidan_ som du skapade i den första delen av den här övningen i sidstödrastret och välj **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Content]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Content]**.
 
-1. Klicka **[!UICONTROL Edit with Page Builder]** eller inuti förhandsvisningsområdet.
+1. Klicka på **[!UICONTROL Edit with Page Builder]** eller i förhandsvisningsområdet för innehållet.
 
-1. I [!DNL Page Builder] panel under _[!UICONTROL Layout]_, dra en **[!UICONTROL Row]**platshållare till scenen och placera den ovanför raden som skapades i den andra delen av den här övningen.
+1. Dra en **[!UICONTROL Row]**-platshållare till scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_och placera den ovanför raden som skapades i den andra delen av den här övningen.
 
    En röd stödlinje markerar gränsen mellan de två raderna.
 
-   ![Lägga till en ny rad](./assets/pb-tutorial1-add-new-row.png){width="600" zoomable="yes"}
+   ![Lägger till en ny rad](./assets/pb-tutorial1-add-new-row.png){width="600" zoomable="yes"}
 
-1. Håll pekaren över den nya raden för att visa verktygslådan och välj _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över den nya raden för att visa verktygslådan och välj ikonen _Inställningar_ (![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Verktygslådan Rad](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
-1. På sidan Redigera rad under _[!UICONTROL Appearance]_, välja **[!UICONTROL Full Width]**.
+1. Välj **[!UICONTROL Full Width]** på sidan Redigera rad under _[!UICONTROL Appearance]_.
 
    Den här inställningen begränsar innehållsområdet till den maximala sidbredd som definieras av temat. Bakgrundsfärgen och/eller bilden är inte begränsad och radens hela bredd utökas.
 
    ![Välja utseende med full bredd](./assets/pb-tutorial1-row-settings-appearance-full-width.png){width="600" zoomable="yes"}
 
-1. I _[!UICONTROL Background]_sektion, ange `#f1f1f1` som **[!UICONTROL Background Color]**.
+1. I avsnittet _[!UICONTROL Background]_anger du `#f1f1f1` som **[!UICONTROL Background Color]**.
 
-   ![Ange bakgrundsfärg](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
+   ![Anger bakgrundsfärg](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. Bläddra nedåt till _[!UICONTROL Advanced]_och ange alla **Marginaler och utfyllnad**värden till `0`.
+1. Bläddra ned till avsnittet _[!UICONTROL Advanced]_och ange alla **Marginaler och utfyllnad**till `0`.
 
-   ![Ange marginaler och utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+   ![Anger marginaler och utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. Bläddra tillbaka till sidans överkant och klicka **[!UICONTROL Save]** för att spara inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. Bläddra tillbaka till sidans överkant och klicka på **[!UICONTROL Save]** för att spara inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
    Radens bakgrundsfärg är nu en blek beige.
 
@@ -397,35 +397,35 @@ Den sista raden på den här sidan innehåller innehåll från en produktgranskn
 
 ### Steg 2: Lägg till kolumner med olika bredd
 
-1. I [!DNL Page Builder] panel under _[!UICONTROL Layout]_, dra en **[!UICONTROL Column]**platshållare till den översta raden på scenen.
+1. Dra en **[!UICONTROL Column]**-platshållare till den översta raden på scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_.
 
    ![Dra en kolumn till scenen](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
 
-1. Dra den högra kanten på den första kolumnen till den fyra av 12 (`4/12`) i rutnätet.
+1. Dra den högra kanten på den första kolumnen till den fyra av 12 (`4/12`)-positionen i rutnätet.
 
    Den andra kolumnens storlek justeras till åtta av 12 (`8/12`).
 
    ![Ändra storlek på den första kolumnen](./assets/pb-tutorial1-column-first-4.png){width="600" zoomable="yes"}
 
-1. Håll pekaren över den första kolumnbehållaren för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över den första kolumnbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Bläddra nedåt till _[!UICONTROL Advanced]_och ange alla **Marginaler och utfyllnad**värden till `0`.
+1. Bläddra ned till avsnittet _[!UICONTROL Advanced]_och ange alla **Marginaler och utfyllnad**till `0`.
 
-   ![Ange marginaler och utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+   ![Anger marginaler och utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. Bläddra tillbaka till sidans överkant och klicka **[!UICONTROL Save]** för att spara inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. Bläddra tillbaka till sidans överkant och klicka på **[!UICONTROL Save]** för att spara inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ### Steg 3: Lägg till en bild i den första kolumnen
 
-1. I [!DNL Page Builder] panel, expandera **[!UICONTROL Media]** och dra **[!UICONTROL Image]** innehållstypen till den första kolumnen.
+1. Expandera **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Image]**-innehållstyp till den första kolumnen.
 
    ![Dra en bildinnehållstyp till den första kolumnen](./assets/pb-tutorial1-column1-image-drag.png){width="600" zoomable="yes"}
 
-1. Klicka på i bildplatshållaren **[!UICONTROL Upload Image]**.
+1. Klicka på **[!UICONTROL Upload Image]** i bildplatshållaren.
 
    ![Överför bild](./assets/pb-tutorial1-column1-image-upload.png){width="600" zoomable="yes"}
 
-1. Navigera till katalogen där du sparade de extraherade enkla sidelementen och välj `review-image.jpg` -fil.
+1. Navigera till katalogen där du sparade de extraherade enkla sidelementen och välj filen `review-image.jpg`.
 
    Den överförda bilden visas i den första kolumnen och blandas smidigt med radens bakgrundsfärg.
 
@@ -435,31 +435,31 @@ Den sista raden på den här sidan innehåller innehåll från en produktgranskn
 
 Den andra kolumnen på raden ska innehålla innehåll från en kundrecension, inklusive den femstjärniga graderingsbilden och det formaterade textmeddelandet.
 
-1. I [!DNL Page Builder] panel, expandera **[!UICONTROL Elements]** och dra **[!UICONTROL Text]** innehållstypen till den andra kolumnen.
+1. Expandera avsnittet **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra innehållstypen **[!UICONTROL Text]** till den andra kolumnen.
 
    ![Dra textinnehållstypen till scenen](./assets/pb-tutorial1-column2-text-drag.png){width="600" zoomable="yes"}
 
 1. Klicka i textelementet för att visa redigeringsverktygsfältet.
 
-1. Klicka på knappen _Infoga bild_ (![Ikonen Infoga bild](./assets/editor-btn-insert-edit-image.png)) och gör följande:
+1. Klicka på ikonen _Infoga bild_ (![ikonen Infoga bild](./assets/editor-btn-insert-edit-image.png)) i verktygsfältet och gör följande:
 
    ![Infoga en bild i texten](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - I _[!UICONTROL Insert/edit image]_klickar du på_ Sök _( ![Ikonen Sök](./assets/editor-btn-find-source.png) ) bredvid ikonen_[!UICONTROL Source]_ fält.
+   - Klicka på ikonen _Sök_ ( ![Sök-ikon](./assets/editor-btn-find-source.png) ) bredvid fältet _[!UICONTROL Source]_i dialogrutan_[!UICONTROL Insert/edit image]_.
 
      ![Dialogrutan Infoga/redigera bild](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
-   - På _[!UICONTROL Select Images]_sida, klicka **[!UICONTROL Choose Files]**.
+   - Klicka på **[!UICONTROL Choose Files]** på sidan _[!UICONTROL Select Images]_.
 
-   - I mappen där du sparade de enkla sidelementen väljer du `rating.png`.
+   - Välj `rating.png` i den mapp där du sparade de enkla sidresurserna.
 
-   - På sidan dubbelklickar du på bildpanelen för att markera den och infogar dess URL i fältet Källa.
+   - På sidan dubbelklickar du på bildpanelen för att markera den och infoga dess URL-adress i fältet Source.
 
-     ![Välja bilden på sidan](./assets/pb-tutorial1-column2-editor-gallery-select-image.png){width="600" zoomable="yes"}
+     ![Välja bild på sidan](./assets/pb-tutorial1-column2-editor-gallery-select-image.png){width="600" zoomable="yes"}
 
-   - För **[!UICONTROL Image Description]**, ange `5-Star Rating` och klicka **[!UICONTROL OK]** för att infoga bilden i kolumnen.
+   - I **[!UICONTROL Image Description]** anger du `5-Star Rating` och klickar på **[!UICONTROL OK]** för att infoga bilden i kolumnen.
 
-   - Klicka på **Centrera** (![Centrera](./assets/editor-btn-align-center.png)) för att centrera bilden i kolumnen.
+   - Klicka på **Centrera** (![Centrera](./assets/editor-btn-align-center.png)) i redigeringsverktygsfältet om du vill centrera bilden i kolumnen.
 
      ![Centrerad klassificeringsbild](./assets/pb-tutorial1-column2-5stars-centered.png){width="600" zoomable="yes"}
 
@@ -477,49 +477,49 @@ Den andra kolumnen på raden ska innehålla innehåll från en kundrecension, in
 
 1. Formatera texten:
 
-   - Klicka var som helst på den första textraden och i redigeringsverktygsfältet under **Format**, välja `Heading 2`.
+   - Klicka någonstans på den första textraden och välj `Heading 2` i redigeringsverktygsfältet under **Format**.
 
-   - Markera den återstående texten och klicka på redigeringsverktygsfältet under **Format**, välja `Paragraph`.
+   - Markera den återstående texten och välj `Paragraph` i redigeringsverktygsfältet under **Format**.
 
    Texten formateras enligt den formatmall som är kopplad till temat.
 
 1. Hämta bildens mått så att du kan centrera innehållet lodrätt i kolumnen:
 
-   - Håll pekaren över bilden i den första kolumnen för att visa verktygslådan och välj _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+   - Håll pekaren över bilden i den första kolumnen för att visa verktygslådan och välj ikonen _Inställningar_ (![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
    - Observera bildens dimensioner under miniatyrbilden.
 
      ![Bilddimensioner visas under miniatyrbilden](./assets/pb-tutorial1-column1-image-dimensions.png){width="600" zoomable="yes"}
 
-   - Klicka på i det övre högra hörnet **Stäng**.
+   - Klicka på **Stäng** i det övre högra hörnet.
 
 1. Centrera innehållet lodrätt i den andra kolumnen:
 
-   - Håll pekaren över den andra kolumnen för att visa verktygslådan och välj _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+   - Håll markören över den andra kolumnen för att visa verktygslådan och välj ikonen _Inställningar_ (![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
    >[!NOTE]
    >
    >Se till att du väljer kolumnbehållaren i stället för textbehållaren för att visa rätt verktygslåda.
 
-   - För **[!UICONTROL Minimum Height]**, ange `450` som bildens höjd i pixlar i den första kolumnen.
+   - I **[!UICONTROL Minimum Height]** anger du `450` som bildens höjd i pixlar i den första kolumnen.
 
    - Ange **[!UICONTROL Vertical Alignment]** till `Center`.
 
-   ![Ange minsta höjd och lodrät justering](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
+   ![Anger minsta höjd och lodrät justering](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. Bläddra nedåt till _[!UICONTROL Advanced]_och ange alla **[!UICONTROL Margins and Padding]**värden till noll ( `0` ).
+1. Rulla ned till avsnittet _[!UICONTROL Advanced]_och ange alla **[!UICONTROL Margins and Padding]**-värden till noll ( `0` ).
 
-   ![Ange marginaler och utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+   ![Anger marginaler och utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. Bläddra tillbaka till sidans överkant och klicka i det övre högra hörnet **[!UICONTROL Save]** för att spara inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. Bläddra tillbaka till sidans övre del och klicka på **[!UICONTROL Save]** i det övre högra hörnet för att spara inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
    ![Rad med granskningsinnehåll på scenen](./assets/pb-tutorial1-row-reviw-content.png){width="600" zoomable="yes"}
 
 ### Steg 5: Infoga en katalogproduktlänk
 
-1. Välj `Antonia Racer Tank` text och klicka på _Infoga länk_ (![Infoga länkikon](./assets/editor-btn-insert-edit-link.png)) i redigeringsverktygsfältet.
+1. Markera texten `Antonia Racer Tank` och klicka på ikonen _Infoga länk_ (![Infoga länkikon](./assets/editor-btn-insert-edit-link.png)) i redigeringsverktygsfältet.
 
-1. I _Infoga länk_ anger du länken till katalogprodukten:
+1. I dialogrutan _Infoga länk_ anger du länken till katalogprodukten:
 
    - Ange produkten **[!UICONTROL URL]**.
 
@@ -527,7 +527,7 @@ Den andra kolumnen på raden ska innehålla innehåll från en kundrecension, in
 
      `../antonia-racer-tank.html`
 
-   - (valfritt) för **Titel** anger du produktnamnet.
+   - (Valfritt) Ange produktnamnet för **Rubrik**.
 
      Attributet för titellänken används av vissa webbläsare som verktygstips.
 
@@ -539,21 +539,21 @@ Den andra kolumnen på raden ska innehålla innehåll från en kundrecension, in
 
      ![Banderoll med länkad text](./assets/pb-tutorial1-text-link-highlight.png){width="600" zoomable="yes"}
 
-1. Klicka på i det övre högra hörnet av scenen _Stäng helskärm_ (![Stäng helskärmsikonen](./assets/pb-icon-reduce.png)).
+1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till _[!UICONTROL Content]_-avsnitt för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
 ### Steg 6: Ändra radordningen
 
-När alla tre raderna är klara är det sista steget att ordna om raderna så att de matchar originalet _Enkel sida_ exempel. Om du vill matcha originalexemplet måste den första raden flyttas längst ned och den sista raden måste flyttas högst upp.
+När alla tre raderna är klara är det sista steget att ordna om raderna så att de matchar det ursprungliga _enkla sidexemplet_. Om du vill matcha originalexemplet måste den första raden flyttas längst ned och den sista raden måste flyttas högst upp.
 
-1. Expandera vid behov ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Content]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Content]** om det behövs.
 
-1. Klicka **[!UICONTROL Edit with Page Builder]** eller inuti förhandsvisningsområdet.
+1. Klicka på **[!UICONTROL Edit with Page Builder]** eller i förhandsvisningsområdet för innehållet.
 
-1. Håll pekaren över den första raden på scenen för att visa verktygslådan och välj _Flytta_ ( ![Ikonen Flytta](./assets/pb-icon-move.png)).
+1. Håll markören över den första raden på scenen för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta-ikon](./assets/pb-icon-move.png)).
 
    ![Flytta](./assets/pb-tutorial1-row-toolbox-move.png){width="600" zoomable="yes"}
 
@@ -569,14 +569,14 @@ När alla tre raderna är klara är det sista steget att ordna om raderna så at
 
    Radordningen på sidan matchar nu exemplet med enkel sida.
 
-1. Klicka på i det övre högra hörnet av scenen _Stäng helskärm_ (![Stäng helskärmsikonen](./assets/pb-icon-reduce.png)).
+1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till _[!UICONTROL Content]_-avsnitt för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
 
-1. Klicka i det övre högra hörnet på **[!UICONTROL Save]** pil och välj **[!UICONTROL Save & Close]**.
+1. Klicka på pilen **[!UICONTROL Save]** i det övre högra hörnet och välj **[!UICONTROL Save & Close]**.
 
-1. Klicka på knappen [Cachehantering](../systems/cache-management.md) i meddelandet längst upp på sidan och uppdatera eventuell ogiltig cache.
+1. Om du uppmanas till det klickar du på länken [Cachehantering](../systems/cache-management.md) i meddelandet längst upp på sidan och uppdaterar eventuell ogiltig cache.
 
 Du har slutfört Simple Page-övningen. Behåll det du skapat så att du kan hänvisa till det senare.
 
-När du är klar fortsätter du till [Del 2: Block](2-blocks.md).
+När du är klar fortsätter du till [del 2: Block](2-blocks.md).

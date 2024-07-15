@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Lagra sekretesspolicy
 
-Butiken innehåller ett exempel på sekretesspolicy som måste uppdateras med din egen information. Din integritetspolicy bör beskriva vilken typ av information ditt företag samlar in och hur den används. Den bör även ange filnamnen för [cookies](compliance-cookie-law.md#default-cookies) som finns på datorer som tillhör personer som besöker er butik. Eventuella ytterligare cookies som är kopplade till tillägg och tillägg från tredje part ska tas med i listan.
+Butiken innehåller ett exempel på sekretesspolicy som måste uppdateras med din egen information. Din integritetspolicy bör beskriva vilken typ av information ditt företag samlar in och hur den används. Den bör även innehålla en lista med filnamn för [cookies](compliance-cookie-law.md#default-cookies) som finns på datorer för personer som besöker din butik. Eventuella ytterligare cookies som är kopplade till tillägg och tillägg från tredje part ska tas med i listan.
 
 ## Personuppgifter
 
@@ -26,7 +26,7 @@ All information som rimligen identifierar eller kan användas för att direkt el
 
 All återgivning av information som gör det möjligt för identiteten på en person som uppgifterna gäller att rimligen kunna härledas antingen direkt eller indirekt. PII definieras som information som direkt identifierar en individ (till exempel namn, adress, socialförsäkringsnummer eller annat identifieringsnummer). Det är också information genom vilken ett organ avser att identifiera specifika personer med andra dataelement (indirekt identifiering). Dessa dataelement kan omfatta en kombination av kön, ras, födelsedatum, geografisk indikator och andra beskrivningar. Dessutom innehåller det information som medger att en viss individ kontaktas fysiskt eller online på samma sätt som personligt identifierbar information. Denna information kan bevaras antingen i pappersform, elektroniskt eller i andra medier.
 
-![Exempel på butik - integritetspolicy](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
+![Exempelarkiv - sekretesspolicy](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
 
 ## Redigera din integritetspolicy
 
@@ -34,18 +34,18 @@ All återgivning av information som gör det möjligt för identiteten på en pe
 >
 >Luma-exempeldata innehåller ett exempel på sekretesspolicy som du kan ändra för att använda.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
 
-1. I rutnätet hittar du **[!UICONTROL Privacy Policy]**. Sedan i _[!UICONTROL Action]_kolumn, klicka **[!UICONTROL Select]**och välja **[!UICONTROL Edit]**.
+1. Leta reda på **[!UICONTROL Privacy Policy]** i rutnätet. Klicka sedan på **[!UICONTROL Select]** i kolumnen _[!UICONTROL Action]_och välj **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >
-   >Om du ändrar URL-nyckeln för sekretesspolicyn måste du även skapa en [anpassad URL-omskrivning](../merchandising-promotions/url-rewrite-custom.md) för att omdirigera trafik till den nya URL-nyckeln. Annars returneras länken i sidfoten `404 Page Not Found`.
+   >Om du ändrar URL-nyckeln för sekretesspolicysidan måste du även skapa en [anpassad URL-omskrivning](../merchandising-promotions/url-rewrite-custom.md) för att dirigera om trafik till den nya URL-nyckeln. Annars returnerar länken i sidfoten `404 Page Not Found`.
 
-1. Expandera **[!UICONTROL Content]** och gör nödvändiga ändringar i innehållet.
+1. Expandera avsnittet **[!UICONTROL Content]** och gör nödvändiga ändringar i innehållet.
 
-   Mer information om hur du använder verktyg för sidinnehåll finns i [Slutför innehållet](../content-design/page-add.md#step-2-complete-the-content) i _Content and Design Guide_.
+   Mer information om hur du använder verktyg för sidinnehåll finns i [Slutför innehållet](../content-design/page-add.md#step-2-complete-the-content) i _Innehåll- och designguiden_.
 
    ![Sekretesspolicy - redigera innehåll](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Save Page]**.
+1. Klicka på **[!UICONTROL Save Page]** när du är klar.

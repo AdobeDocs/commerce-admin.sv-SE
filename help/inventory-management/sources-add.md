@@ -5,7 +5,7 @@ exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -14,81 +14,81 @@ ht-degree: 0%
 
 Hantera lagerhantering och orderhantering från flera platser med anpassade källor. Skapa en källa för varje plats, t.ex. lagerlokaler, butiker, distributionscenter och lossningsplatser. Tilldela källor och uppdateringskvantiteter per produkt
 
-Om du redigerar standardkällan kan du redigera alla konfigurationer förutom namn och kod. Vi rekommenderar att handlare med en enda källa lägger till information som matchar deras plats.
+Om du redigerar Source Standard kan du redigera alla konfigurationer förutom namn och kod. Vi rekommenderar att handlare med en enda källa lägger till information som matchar deras plats.
 
 ## Lägg till en lagerkälla
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Source]**.
 
    ![Hantera källor](assets/inventory-sources.png)
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL General]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL General]** och gör följande:
 
    - Identifiera lagerkällan genom att ange en unik **[!UICONTROL Name]**.
 
-   - Ange ett unikt **[!UICONTROL Code]**.
+   - Ange en unik **[!UICONTROL Code]**.
 
      Koden stöder versaler och gemener, siffror, bindestreck och understreck. Koden är ett unikt ID som används vid tilldelning till lager och export av importerade data.
 
    - Om den här lagerkällan är klar att användas anger du **[!UICONTROL Is Enabled]** till `Yes`.
 
-   - Ange en kort beskrivning **[!UICONTROL Description]** för den här platsen för snabb referens eller ytterligare information.
+   - Ange en kort **[!UICONTROL Description]** för den här platsen för snabb referens eller ytterligare information.
 
-   - För **[!UICONTROL Latitude]** och **[!UICONTROL Longitude]** Ange GPS-koordinaterna (Global Positioning System) för lokaliseringen.
+   - För **[!UICONTROL Latitude]** och **[!UICONTROL Longitude]** anger du GPS-koordinaterna (Global Positioning System) för platsen.
 
-     Hitta GPS-koordinaterna med [Google Maps][1]anger du adressen i sökrutan. Högerklicka på markören på kartan och välj **[!UICONTROL What's here?]**. GPS-koordinaterna visas i informationsrutan nedanför gatuadressen.
+     Om du vill hitta GPS-koordinaterna med [Google Maps][1] anger du adressen i sökrutan. Högerklicka på markören på kartan och välj **[!UICONTROL What's here?]**. GPS-koordinaterna visas i informationsrutan nedanför gatuadressen.
 
      ![Allmänna källalternativ](assets/inventory-source-general.png)
 
    - Om den här lagerkällan är en hämtningsplats anger du **[!UICONTROL Use as Pickup Location]** till `Yes`.
 
-     Standardkällan kan inte användas som hämtningsplats för hämtningsorder i butiken.
+     Source-standardinställningen kan inte användas som hämtningsplats för hämtningsorder i butiken.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Contact Info]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Contact Info]** och gör följande:
 
    - För **[!UICONTROL Contact Name]** anger du det fullständiga namnet på den primära kontakten på platsen.
 
-   - Ange en **[!UICONTROL Email]** adress för att kontakta platsen.
+   - Ange en **[!UICONTROL Email]**-adress för att kontakta platsen.
 
-   - För **[!UICONTROL Phone]** anger du riktnummer och telefonnummer.
+   - Ange riktnummer och telefonnummer för **[!UICONTROL Phone]**.
 
-   - För **[!UICONTROL Fax]** anger du riktnummer och telefonnummer för faxet, om tillgängligt.
+   - Ange riktnummer och telefonnummer för faxet för **[!UICONTROL Fax]**, om tillgängligt.
 
      ![Kontaktinformation](assets/inventory-source-contact-info.png)
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Address Data]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Address Data]** och gör följande:
 
    - Välj **[!UICONTROL Country]**.
 
-   - För **[!UICONTROL State/Province]** anger du standardförkortningen för den aktuella regionen.
+   - För **[!UICONTROL State/Province]** anger du standardförkortningen för delstaten eller provinsen.
 
    - Ange **[!UICONTROL City]**.
 
-   - Ange fysisk **[!UICONTROL Street]** adress.
+   - Ange den fysiska **[!UICONTROL Street]**-adressen.
 
-   - För **[!UICONTROL Postcode]** Ange postnummer.
+   - Ange postnummer för **[!UICONTROL Postcode]**.
 
      ![Adressdata](assets/inventory-source-address.png)
 
-1. Om du angav källan som en hämtningsplats i det tidigare steget expanderar du ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Pickup Location]** och ge beskrivande information om platsen:
+1. Om du anger källan som en hämtningsplats i det tidigare steget expanderar du avsnittet ![Expansionsväljare](../assets/icon-display-expand.png) i **[!UICONTROL Pickup Location]** och anger beskrivande information om platsen:
 
-   - Ange **[!UICONTROL Frontend Name]** på hämtningsplatsen.
+   - Ange **[!UICONTROL Frontend Name]** för hämtningsplatsen.
 
-   - Ange en **[!UICONTROL Frontend Description]** på hämtningsplatsen. Använd den här textrutan för att visa butikstimmar, platsen i förhållande till andra landmärken eller annan användbar information som hjälper kunden att välja rätt hämtningsplats.
+   - Ange en **[!UICONTROL Frontend Description]** av hämtningsplatsen. Använd den här textrutan för att visa butikstimmar, platsen i förhållande till andra landmärken eller annan användbar information som hjälper kunden att välja rätt hämtningsplats.
 
      ![Hämtningsplats](assets/inventory-pickup-location.png)
 
-   Mer information om hur du konfigurerar e-postmeddelanden när du använder en källa som hämtningsplats finns i [Försäljningsmejl](../configuration-reference/sales/sales-emails.md) i _Referenshandbok för konfiguration_.
+   Mer information om hur du konfigurerar e-postmeddelanden när du använder en källa som hämtningsplats finns i [Försäljningsmeddelanden](../configuration-reference/sales/sales-emails.md) i _Konfigurationsreferenshandboken_.
 
 1. Gör något av följande om du vill spara ditt arbete:
 
    - Om du vill spara ditt arbete och fortsätta redigera klickar du på **[!UICONTROL Save & Continue]**.
 
-   - Om du vill spara ditt arbete och gå tillbaka till sidan Hantera källor klickar du på nedpilen (![Menypil](../assets/icon-menu-down-arrow-red.png)) och välja **[!UICONTROL Save & Close]**.
+   - Om du vill spara ditt arbete och gå tillbaka till sidan Hantera källor klickar du på nedpilen (![menypil](../assets/icon-menu-down-arrow-red.png)) och väljer **[!UICONTROL Save & Close]**.
 
-   - Om du vill spara ditt arbete på den aktuella källposten och ange en ny källa väljer du **[!UICONTROL Save & New]**.
+   - Välj **[!UICONTROL Save & New]** om du vill spara ditt arbete på den aktuella källposten och ange en ny källa.
 
 ## Knappfält
 
@@ -96,7 +96,7 @@ Om du redigerar standardkällan kan du redigera alla konfigurationer förutom na
 |--|--|
 | [!UICONTROL Back] | Återgår till sidan Hantera källor. |
 | [!UICONTROL Reset] | Återställer alla fält i formuläret till sina värden när de senast sparades. |
-| [!UICONTROL Save & Continue] | Sparar alla ändringar och låter formuläret vara öppet för vidare redigering. Klicka på nedpilen om du vill se ytterligare alternativ:<br/>**[!UICONTROL Save & Close]**- Sparar ändringar i den aktuella posten, stänger formuläret och återgår till sidan Hantera källor.<br/>**[!UICONTROL Save & New]** - Sparar ändringar, stänger den aktuella posten och öppnar ett nytt tomt formulär. |
+| [!UICONTROL Save & Continue] | Sparar alla ändringar och låter formuläret vara öppet för vidare redigering. Klicka på nedåtpilen för ytterligare alternativ: <br/>**[!UICONTROL Save & Close]**- Sparar ändringar i den aktuella posten, stänger formuläret och återgår till sidan Hantera källor.<br/>**[!UICONTROL Save & New]** - Sparar ändringar, stänger den aktuella posten och öppnar ett nytt tomt formulär. |
 
 ## Fältbeskrivningar
 
@@ -108,7 +108,7 @@ Om du redigerar standardkällan kan du redigera alla konfigurationer förutom na
 | [!UICONTROL Is Enabled] | Fastställer om lagerkällan är tillgänglig för användning. Alternativ: Ja/Nej |
 | [!UICONTROL Description] | En kort beskrivning av lagerkällans plats. Inkludera information som är användbar för dina Admin-användare. |
 | [!UICONTROL Latitude] | Anger latitudkoordinaten för lagerkällan för GPS. Ange värdet som ett tal, föregånget av ett plus- eller minustecken efter behov. Gradsymbolen och bokstäverna är inte tillåtna. Exempel: Latitude 32.7555 |
-| [!UICONTROL Longitude] | Anger longitudkoordinaten för lagerkällan för GPS. Ange värdet som ett tal, föregånget av ett plus- eller minustecken efter behov. Gradsymbolen och bokstäverna är inte tillåtna. Exempel: `-97.3308` |
+| [!UICONTROL Longitude] | Anger longitudkoordinaten för lagerkällan för GPS. Ange värdet som ett tal, föregånget av ett plus- eller minustecken efter behov. Gradsymbolen och bokstäverna är inte tillåtna. Till exempel: `-97.3308` |
 | **[!UICONTROL Contact Info]** | |
 | [!UICONTROL Contact Name] | Namnet på den primära kontakten på lagerkällans plats. |
 | [!UICONTROL Email] | Den primära kontaktens e-postadress. |

@@ -1,5 +1,5 @@
 ---
-title: Introduktion till [!DNL Adobe Commerce B2B]
+title: Introduktion till  [!DNL Adobe Commerce B2B]
 description: Förstå hur du kan använda de integrerade B2B-funktionerna för att tillgodose dina behov för företagskunder.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
@@ -26,15 +26,15 @@ Mer information finns i [Företagskonton](account-companies.md).
 
 >[!NOTE]
 >
->När den är aktiverad kan din butik ge företagen möjlighet att _Betala på konto_, vilket innebär att göra inköp på en företagskreditrad. Som handlare kan du allokera kredit för ett företagskonto och hantera kreditinställningar för ett företag samt återbetala kredit.
+>När det här alternativet är aktiverat kan din butik ge företag möjlighet att _Betala på konto_, vilket innebär att göra inköp på en företagskreditrad. Som handlare kan du allokera kredit för ett företagskonto och hantera kreditinställningar för ett företag samt återbetala kredit.
 
 ## Företagsledning
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för betaprogramdeltagare"}
+[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för Beta programdeltagare"}
 
 Med företagsledning kan handlaradministratörer effektivisera administration och hantering av B2B-organisationer med komplexa operativa modeller.
 
-Användare med rätt behörighet från administratören kan skapa en **[!UICONTROL Company Hierarchy]** som återspeglar organisationsstrukturen i ett affärsföretag som består av flera företag. Med den här hierarkin kan de visa och hantera företag som en grupp. Administratören kan till exempel utse ett moderföretag och tilldela alla företag som är verksamma som dotterföretag till moderbolaget. Därefter kan administratören för det överordnade företaget visa och hantera företagskonton för alla tilldelade företag.
+Från administratören kan användare med rätt behörighet skapa en **[!UICONTROL Company Hierarchy]** som speglar organisationsstrukturen för ett företag som består av flera företag. Med den här hierarkin kan de visa och hantera företag som en grupp. Administratören kan till exempel utse ett moderföretag och tilldela alla företag som är verksamma som dotterföretag till moderbolaget. Därefter kan administratören för det överordnade företaget visa och hantera företagskonton för alla tilldelade företag.
 
 Mer information finns i [Företagshantering](manage-companies.md).
 
@@ -66,11 +66,11 @@ Använd funktionen Offerter för att initiera prisförhandlingar mellan en före
 
 * En säljare kan initiera en offert för en köpare från Admin.
 
-Köpare och säljare använder offerten för att hantera förhandlingsprocessen - till exempel lägga till artiklar, uppdatera kvantiteter, begära och tillämpa rabatter - tills de når ett avtal. The _Citat_ rutnätet i Admin visar varje mottagen offert och underhåller en historik över kommunikationen mellan köpare och säljare.
+Köpare och säljare använder offerten för att hantera förhandlingsprocessen - till exempel lägga till artiklar, uppdatera kvantiteter, begära och tillämpa rabatter - tills de når ett avtal. Rutnätet _Offerter_ i Admin visar varje mottagen offert och underhåller en historik över kommunikationen mellan köpare och säljare.
 
 Stöd för Negotiable Quotes finns endast för Commerce butiker som konfigurerats för att stödja företagskonton.
 
-Mer information finns i [Förhandlingsbara offerter](quotes.md).
+Mer information finns i [Förhandlingsbara citattecken](quotes.md).
 
 ## Godkännanden av inköpsorder
 

@@ -4,14 +4,14 @@ description: Få tillgång till information om kundaktivitet, t.ex. när kunden 
 exl-id: 8e805095-76b2-4237-98dc-aa32f15f2637
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # Uppdatera en kundprofil
 
-Den vänstra panelen i _[!UICONTROL Customer Information]_sidan innehåller information om kundaktivitet, adresser, orderstatistik, senaste beställningar, kundvagnsinnehåll, produktrecensioner och nyhetsbrev.
+Den vänstra panelen på sidan _[!UICONTROL Customer Information]_innehåller information om kundaktivitet, adresser, orderstatistik, senaste beställningar, kundvagnsinnehåll, produktrecensioner och prenumerationer på nyhetsbrev.
 
 ![Kundprofil](assets/cust-profile.png){width="700" zoomable="yes"}
 
@@ -21,7 +21,7 @@ Metod 1: **_Snabbredigering_**
 
 1. I den första kolumnen markerar du kryssrutan för det kundkonto som ska redigeras.
 
-1. Ange **[!UICONTROL Actions]** kolumn till `Edit`.
+1. Ange **[!UICONTROL Actions]**-kolumnen till `Edit`.
 
    >[!INFO]
    >
@@ -42,82 +42,82 @@ Metod 2: **_Fullständig redigering_**
 
 1. Leta reda på kundposten som ska redigeras i rutnätet.
 
-1. I _Åtgärder_ kolumn längst till höger, klicka på **[!UICONTROL Edit]**.
+1. Klicka på **[!UICONTROL Edit]** i kolumnen _Åtgärder_ längst till höger.
 
 1. Gör nödvändiga ändringar i företagsinformationen.
 
    >[!INFO]
    >
-   >Mer information finns på [Uppdatera en kundprofil](../customers/update-account.md).
+   >Mer information finns i [Uppdatera en kundprofil](../customers/update-account.md).
 
-1. När du är klar klickar du på **[!UICONTROL Save Customer]**.
+1. Klicka på **[!UICONTROL Save Customer]** när du är klar.
 
 >[!INFO]
 >
->Om du vill ångra alla redigeringar innan du sparar klickar du på **[!UICONTROL Reset]** i det övre knappfältet om du vill återställa alla ändringar till den senast sparade versionen.
+>Om du vill ångra alla redigeringar innan du sparar, klickar du på **[!UICONTROL Reset]** i det övre knappfältet för att återställa alla ändringar till den senast sparade versionen.
 
 ## Kundinformation
 
 ### [!UICONTROL Customer View]
 
-The _Kundvy_ innehåller information om kunden, inklusive **[!UICONTROL Personal Information]**, **[!UICONTROL Reward Points Balance]** och **[!UICONTROL Store Credit Balance]**.
+Fliken _Kundvy_ visar information om kunden, inklusive **[!UICONTROL Personal Information]**, **[!UICONTROL Reward Points Balance]** och **[!UICONTROL Store Credit Balance]**.
 
 ### [!UICONTROL Account Information]
 
-The [Kontoinformation](../customers/account-dashboard-account-information.md) -fliken innehåller detaljerad information om kunden, där en Admin-användare kan redigera personlig information, e-post, fjärrshoppinghjälp, födelsedatum och bifoga kunden till webbplatsen eller företaget.
+Fliken [Kontoinformation](../customers/account-dashboard-account-information.md) innehåller detaljerad information om kunden, där en Admin-användare kan redigera personlig information, e-post, fjärrshoppinghjälp, födelsedatum och bifoga kunden till webbplatsen eller företaget.
 
 ### [!UICONTROL Addresses]
 
-The [Adresser](../customers/account-dashboard-address-book.md) -fliken innehåller kundens standardadresser för fakturering och leverans samt eventuella ytterligare adresser som de använder ofta.
+Fliken [Adresser](../customers/account-dashboard-address-book.md) innehåller kundens standardadresser för fakturering och leverans samt eventuella ytterligare adresser som de använder ofta.
 
 ### [!UICONTROL Orders]
 
-The [Beställningar](../stores-purchase/orders.md) rutnätet innehåller en lista över alla aktuella kundorder. Administratören kan spåra deras status.
+Rutnätet [Beställningar](../stores-purchase/orders.md) innehåller en lista över alla aktuella kundorder. Administratören kan spåra deras status.
 
 ### [!UICONTROL Returns]
 
 {{ee-feature}}
 
-The [Returnerar](../stores-purchase/returns.md) -fliken visar de aktuella returnerade kundförfrågningarna.
+Fliken [Returnerar](../stores-purchase/returns.md) visar de aktuella returnerade kundförfrågningarna.
 
 ### [!UICONTROL Shopping cart]
 
-The [kundvagn](../stores-purchase/cart.md) I visas produkter som finns i varukorgen, men av någon anledning har köpet inte slutförts.
+Fliken [Kundvagn](../stores-purchase/cart.md) visar produkter som för närvarande finns i vagnen, men av någon anledning slutfördes inte köpet.
 
 ### [!UICONTROL Wish List]
 
-A [önskelista](../stores-purchase/wishlists.md) visar en lista över produkter som en kund kan överföra till kundvagnen senare.
+En [önskelista](../stores-purchase/wishlists.md) visar en lista över produkter som en kund kan överföra till kundvagnen senare.
 
 ### [!UICONTROL Gift Registry]
 
 {{ee-feature}}
 
-The [Presentregister](../merchandising-promotions/gift-registry-storefront.md) i listas kundens aktuella presentregister och tillhörande händelse.
+Avsnittet [Presentregister](../merchandising-promotions/gift-registry-storefront.md) visar kundens aktuella presentregister och den associerade händelsen.
 
 
 ### [!UICONTROL Store Credit]
 
 {{ee-feature}}
 
-The [Butikskredit](../customers/store-credit.md) fliken visar ett belopp som återställs till ett kundkonto. Administratören kan hantera värdet.
+På fliken [Butikskrediter](../customers/store-credit.md) visas ett belopp som återställs till ett kundkonto. Administratören kan hantera det här värdet.
 
 ### [!UICONTROL Newsletter]
 
-The [Nyhetsbrev](../merchandising-promotions/newsletters.md) visas alla e-postmeddelanden som skickas till den aktuella kunden.
+Fliken [Nyhetsbrev](../merchandising-promotions/newsletters.md) visar alla e-postmeddelanden som skickats till den aktuella kunden.
 
 ### [!UICONTROL Billing Agreements]
 
-The [Faktureringsavtal](../stores-purchase/paypal-billing-agreements.md) På fliken visas alla PayPal-faktureringsavtal mellan butiken och kunden.
+Fliken [Faktureringsavtal](../stores-purchase/paypal-billing-agreements.md) visar alla PayPal-faktureringsavtal mellan butiken och kunden.
 
 ### [!UICONTROL Product Reviews]
 
-The [Produktrecensioner](../catalog/settings-advanced-product-reviews.md) på den här fliken visas alla recensioner som har skickats in av den här kunden.
+Fliken [Produktrecensioner](../catalog/settings-advanced-product-reviews.md) visar alla recensioner som skickats in av den här kunden.
 
 ### [!UICONTROL Reward Points]
 
 {{ee-feature}}
 
-The [Belöningspunkter](../merchandising-promotions/rewards-loyalty.md) visas kundens aktuella saldo för belöningspoäng. En administratör kan hantera det här värdet.
+Avsnittet [Belöningspunkter](../merchandising-promotions/rewards-loyalty.md) visar kundens aktuella saldo för belöningspoäng. En administratör kan hantera det här värdet.
 
 ## Knappfält
 

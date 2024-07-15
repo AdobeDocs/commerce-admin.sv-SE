@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] i Commerce Admin.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Innan Google reCAPTCHA kan konfigureras måste du se till att `PHP.ini` filen innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [Nödvändiga PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) i _Installationshandbok_.
+>Innan du kan konfigurera Google reCAPTCHA måste du se till att filen `PHP.ini` innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [Nödvändiga PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) i _installationshandboken_.
 
 {{config}}
 
-Mer information om hur du ändrar de här inställningarna finns i [Google reCAPTCHA](../../systems/security-google-recaptcha.md) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Google reCAPTCHA](../../systems/security-google-recaptcha.md) i _handboken för administratörssystem_.
 
 ## [!UICONTROL reCAPTCHA v2 ("I am not a robot")]
 
@@ -30,13 +30,13 @@ Mer information om hur du ändrar de här inställningarna finns i [Google reCAP
 | [!UICONTROL Google API Secret Key] | Global | Den hemliga nyckel som är kopplad till ditt Google reCAPTCHA-konto. |
 | [!UICONTROL Size] | Global | Storleken på rutan Google reCAPTCHA som visas vid inloggning. Alternativ: `Normal` (standard) / `Compact` |
 | [!UICONTROL Theme] | Global | Anger formatet för rutan Google reCAPTCHA. Alternativ: `Light Theme` (standard) / `Dark Theme` |
-| [!UICONTROL Language Code] | Global | A [kod med två tecken](https://developers.google.com/recaptcha/docs/language) som anger vilket språk som används för Google reCAPTCHA-text och -meddelanden. |
+| [!UICONTROL Language Code] | Global | En [kod med två tecken](https://developers.google.com/recaptcha/docs/language) som anger vilket språk som används för Google reCAPTCHA-text och -meddelanden. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
-![reCAPTCHA v2 osynlig](./assets/recaptcha-admin-v2-invisible.png)<!-- zoom -->
+![reCAPTCHA v2 Osynlig](./assets/recaptcha-admin-v2-invisible.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--|--|--|
@@ -44,7 +44,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Google reCAP
 | [!UICONTROL Google API Secret Key] | Global | Den hemliga nyckel som är kopplad till ditt Google reCAPTCHA-konto. |
 | [!UICONTROL Invisible Badge Position] | Global | Positionen för det osynliga reCAPTCHA-märket på varje sida. Alternativ: `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Global | Anger formatet för rutan Google reCAPTCHA. Alternativ: `Light Theme` (standard) / `Dark Theme` |
-| [!UICONTROL Language Code] | Global | A [kod med två tecken](https://developers.google.com/recaptcha/docs/language) som anger vilket språk som används för Google reCAPTCHA-text och -meddelanden. |
+| [!UICONTROL Language Code] | Global | En [kod med två tecken](https://developers.google.com/recaptcha/docs/language) som anger vilket språk som används för Google reCAPTCHA-text och -meddelanden. |
 
 {style="table-layout:auto"}
 
@@ -59,7 +59,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Google reCAP
 | [!UICONTROL Minimum Score Threshold] | Global | Det lägsta poängvärde som identifierar en användarinteraktion som en potentiell risk, där 1.0 är en typisk användarinteraktion och 0.0 är troligtvis en robot. Standard: `0.5` |
 | [!UICONTROL Invisible Badge Position] | Global | Positionen för det osynliga reCAPTCHA-märket på varje sida. Alternativ: `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Global | Anger formatet för rutan Google reCAPTCHA. Alternativ: `Light Theme` (standard) / `Dark Theme` |
-| [!UICONTROL Language Code] | Global | A [kod med två tecken](https://developers.google.com/recaptcha/docs/language) som anger vilket språk som används för Google reCAPTCHA-text och -meddelanden. |
+| [!UICONTROL Language Code] | Global | En [kod med två tecken](https://developers.google.com/recaptcha/docs/language) som anger vilket språk som används för Google reCAPTCHA-text och -meddelanden. |
 
 {style="table-layout:auto"}
 
@@ -88,7 +88,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Google reCAP
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--|--|--|
-| [!UICONTROL Enable for Login] | Global | Bestämmer vilken typ av reCAPTCHA som är aktiverad för [Administratörsinloggning](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Alternativ:<br/>**`No`**- (standard) Verifierar inte administratörsinloggningen.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Kräver att användaren väljer _Jag är ingen robot_ kryssrutan.<br />**`Invisible reCAPTCHA v2`**- Validerar användarbeteende i bakgrunden utan att det krävs interaktioner baserat på poängen.<br/>**`Invisible reCAPTCHA v3`** - (Rekommenderas) Validerar användarbeteende i bakgrunden baserat på interaktionspoäng. |
-| [!UICONTROL Enable for Forgot Password] | Global | Bestämmer vilken typ av reCAPTCHA som är aktiverad för att begära en [Lösenordsåterställning för administratör](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Alternativ:<br/>**`No`**- (standard) Verifierar inte begäran om återställning av lösenord.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Kräver att användaren väljer _Jag är ingen robot_ kryssrutan.<br />**`Invisible reCAPTCHA v2`**- Validerar användarbeteende i bakgrunden utan att det krävs interaktioner baserat på poängen.<br/>**`Invisible reCaptcha v3`** - (Rekommenderas) Validerar användarbeteende i bakgrunden baserat på interaktionspoäng. |
+| [!UICONTROL Enable for Login] | Global | Bestämmer vilken typ av reCAPTCHA som är aktiverad för [administratörsinloggningen](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Alternativ:<br/>**`No`**- (standard) Verifierar inte administratörsinloggningen.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Kräver att användaren markerar kryssrutan _Jag är inte en robot_.<br />**`Invisible reCAPTCHA v2`**- Validerar användarbeteende i bakgrunden utan att det krävs interaktioner baserat på poäng.<br/>**`Invisible reCAPTCHA v3`** - (Rekommenderas) Validerar användarbeteende i bakgrunden baserat på interaktionspoäng. |
+| [!UICONTROL Enable for Forgot Password] | Global | Bestämmer vilken typ av reCAPTCHA som är aktiverad för att begära en [återställning av administratörslösenord](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Alternativ:<br/>**`No`**- (standard) Verifierar inte begäran om återställning av lösenord.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Kräver att användaren markerar kryssrutan _Jag är inte en robot_.<br />**`Invisible reCAPTCHA v2`**- Validerar användarbeteende i bakgrunden utan att det krävs interaktioner baserat på poäng.<br/>**`Invisible reCaptcha v3`** - (Rekommenderas) Validerar användarbeteende i bakgrunden baserat på interaktionspoäng. |
 
 {style="table-layout:auto"}

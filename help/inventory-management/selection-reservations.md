@@ -1,26 +1,26 @@
 ---
-title: Källalgoritmer och reservationer
-description: Lär dig mer om källvalsalgoritmen och reservationssystem som körs i bakgrunden för att hålla dina säljbara kvantiteter uppdaterade.
+title: Source algoritmer och reservationer
+description: Läs mer om Source Selection Algorithm and Reservations systems som körs i bakgrunden för att hålla dina säljbara kvantiteter uppdaterade.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '2173'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
 
-# Källalgoritmer och reservationer
+# Source algoritmer och reservationer
 
-Hjärtat i [!DNL Inventory Management] spårar alla tillgängliga produkter praktiskt taget och i lager. Källvalsalgoritmen och reservationssystemen körs i bakgrunden, vilket håller dina säljbara kvantiteter uppdaterade, checkar ut utan kollisioner och leveransalternativ rekommenderas.
+Kärnan i [!DNL Inventory Management] spårar alla tillgängliga produkter praktiskt taget och i era lagerlokaler och butiker. Systemen Source Selection Algorithm and Reservations körs i bakgrunden, vilket håller dina säljbara kvantiteter uppdaterade, checkar ut utan kollisioner och leveransalternativ rekommenderas.
 
 >[!NOTE]
 >
->Se [dokumentation för utvecklare](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) om du vill ha information om hur du arbetar med [!DNL Inventory Management] programmatiskt.
+>Mer information om att arbeta med [!DNL Inventory Management]-systemet med programkod finns i [utvecklardokumentationen](https://developer.adobe.com/commerce/php/development/framework/inventory-management/).
 
-## Algoritm för källval
+## Source Selection Algorithm
 
-Källvalsalgoritmen (SSA) analyserar och fastställer den bästa matchningen för källor och leveranser med hjälp av prioritetsordningen för källor som konfigurerats i ett lager. Vid orderleverans innehåller algoritmen en rekommenderad lista över källor, tillgängliga kvantiteter och belopp som ska dras av enligt den valda algoritmen. [!DNL Inventory Management] innehåller en prioritetsalgoritm och stöder tillägg för nya alternativ.
+Source Selection Algorithm (SSA) analyserar och fastställer den bästa matchningen för källor och leveranser med hjälp av prioritetsordningen för källor som konfigurerats i ett lager. Vid orderleverans innehåller algoritmen en rekommenderad lista över källor, tillgängliga kvantiteter och belopp som ska dras av enligt den valda algoritmen. [!DNL Inventory Management] innehåller en prioritetsalgoritm och stöder tillägg för nya alternativ.
 
 Med flera olika platser kan globala kunder och transportföretag med olika leveransalternativ och fraktavgifter vara svåra att hitta, eftersom ni vet att ert faktiska lager är tillgängligt och att det är svårt att hitta det bästa leveransalternativet. SSA utför arbetet åt dig från att spåra lagerförsäljningsbara kvantiteter över alla källor till att beräkna och göra rekommendationer för leveranser.
 
@@ -31,7 +31,7 @@ Med flera olika platser kan globala kunder och transportföretag med olika lever
 - Reserverar lagerkvantiteter vid orderinlämning, avdrag från lagerbehållning vid orderbearbetning och leverans
 - Stöder backorder med utökade alternativ för negativa tröskelvärden
 
-**Hantera utleveranser** - Algoritmen är till hjälp när du bearbetar och skickar beställningar. Du kan köra algoritmen för att få rekommendationer om de bästa källorna för leverans av produkten eller åsidosätta valen till:
+**Hantera leveranser** - Algoritmen hjälper dig att bearbeta och skicka beställningar. Du kan köra algoritmen för att få rekommendationer om de bästa källorna för leverans av produkten eller åsidosätta valen till:
 
 - Leverera partiella leveranser, skicka endast ett fåtal produkter från specifika platser och slutför hela beställningen senare
 - Leverera hela beställningen från en källa
@@ -43,9 +43,9 @@ SSA kan utökas för support från tredje part och anpassade algoritmer för att
 >
 >SSA fungerar annorlunda för virtuella och nedladdningsbara produkter, vilket kanske inte medför fraktkostnader. I dessa fall körs algoritmen implicit när den skapar fakturor och de föreslagna resultaten används alltid. Du kan inte justera dessa resultat för virtuella och hämtningsbara produkter.
 
-### Algoritm för källprioritet
+### Source prioritetsalgoritm
 
-Anpassade lager innehåller en lista över källor att sälja och leverera tillgängligt produktlager via din butik. Algoritmen Källprioritet använder ordningen för tilldelade källor i lagret för att rekommendera produktavdrag per källa vid fakturering och leverans av ordern.
+Anpassade lager innehåller en lista över källor att sälja och leverera tillgängligt produktlager via din butik. Source prioritetsalgoritm använder ordningen för tilldelade källor i lagret för att rekommendera produktavdrag per källa vid fakturering och leverans av ordern.
 
 Vid körning, algoritmen:
 
@@ -66,7 +66,7 @@ Algoritmen Avståndsprioritet jämför platsen för leveransdestinationsadressen
 
 Du har två alternativ för att beräkna avståndet och tiden för att hitta den närmaste källan för leverans:
 
-- **GOOGLE MAP** - Användare [Google Maps Platform][1] tjänster för att beräkna avståndet och tiden mellan leveransdestinationsadressen och källplatserna (adress och GPS-koordinater). Det här alternativet använder källans latitud och longitud. En Google API-nyckel krävs med [API för geokodning][2] och [Avståndsmatris-API][3] aktiverat. Det här alternativet kräver en Google-faktureringsplan och kan medföra avgifter via Google.
+- **Google MAP** - Använder [Google Maps Platform][1]-tjänster för att beräkna avståndet och tiden mellan leveransdestinationsadressen och källplatserna (adress och GPS-koordinater). Det här alternativet använder källans latitud och longitud. En Google API-nyckel krävs med [API för geokodning][2] och [API:t för distansmatris][3] aktiverat. Det här alternativet kräver en Google-faktureringsplan och kan medföra avgifter via Google.
 
 - **Offlineberäkning** - Beräknar avståndet med nedladdade och importerade geokoddata för att fastställa närmaste källa till leveransens måladress. Det här alternativet använder landskoderna för leveransadressen och källan. Om du vill konfigurera det här alternativet kan du behöva utvecklarassistans för att initialt hämta och importera geokoder via en kommandorad.
 
@@ -74,7 +74,7 @@ Om du vill konfigurera väljer du konfigurationer och slutför ytterligare steg 
 
 ### Anpassade algoritmer
 
-[!DNL Commerce] har stöd för anpassad utveckling och tillägg för att lägga till alternativa algoritmer för att prioritera källor. Du kan t.ex. ha en prioritetsalgoritm som baseras på geografi och en annan som baseras på utgiften av stocken eller ett kundattribut. När kostnaden för Stock ändras kan implementeringen enkelt ändra algoritmer för att säkerställa lägsta kostnad.
+[!DNL Commerce] stöder anpassad utveckling och tillägg för att lägga till alternativa algoritmer för att prioritera källor. Du kan t.ex. ha en prioritetsalgoritm som baseras på geografi och en annan som baseras på utgiften av stocken eller ett kundattribut. När kostnaden för Stock ändras kan implementeringen enkelt ändra algoritmer för att säkerställa lägsta kostnad.
 
 ## Reservationer
 
@@ -82,7 +82,7 @@ I stället för att omedelbart dra av eller lägga till produktlagerkvantiteter 
 
 >[!NOTE]
 >
->Reservationsmöjligheterna kräver `inventory.reservations.updateSalabilityStatus` meddelandekökonsument som ska köras kontinuerligt. Använd `bin/magento queue:consumers:list` -kommando. Om meddelandekökonsumenten inte finns med i listan startar du den: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>Reservationsfunktionen kräver att meddelandekökonsumenten `inventory.reservations.updateSalabilityStatus` körs kontinuerligt. Använd kommandot `bin/magento queue:consumers:list` om du vill kontrollera om det körs. Om meddelandekökonsumenten inte finns med i listan startar du den: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Beställningsreservationer
 
@@ -90,9 +90,9 @@ Reservationsplats håller på lagerkvantiteter som dras av från den försäljni
 
 Följande diagram hjälper till att definiera processen för reservationer under en order och fram till leverans.
 
-![Reservationer från order till leverans](assets/diagram-quantity.png){width="600" zoomable="yes"}
+![Reservationer från beställning till leverans](assets/diagram-quantity.png){width="600" zoomable="yes"}
 
-En kund skickar en order. [!DNL Commerce] kontrollerar den aktuella lagerförsäljningsbara kvantiteten. Om det finns tillräckligt med lager på lagernivå, kan en reservation placera en tillfällig förvaring för produkt-SKU (för det lagret) och beräkna om den försäljningsbara kvantiteten.
+En kund skickar en order. [!DNL Commerce] kontrollerar den aktuella lagerförsäljningskvantiteten. Om det finns tillräckligt med lager på lagernivå, kan en reservation placera en tillfällig förvaring för produkt-SKU (för det lagret) och beräkna om den försäljningsbara kvantiteten.
 
 När du har fakturerat ordern bestämmer du vilka produktbelopp som ska dras av och skickas från källorna. Leveransen bearbetas och skickas från en eller flera valda källor till kunden. Kvantiteterna dras automatiskt från källagrets kvantitet och reservationer som är klara. Fullständig information och exempel finns i [Om beställningsstatus och beställning](order-status.md).
 
@@ -110,17 +110,17 @@ Reservationer är åtgärder som bara kan läggas till som tillägg, ungefär so
 
 Innan systemet kan utfärda en reservation som svar på en ny order, avgör det om det finns tillräckligt med säljbara artiklar för att ordern ska kunna utföras. Följande kvantitetsfaktor i beräkningen:
 
-- **Lagerartikelkvantitet**. StockItem-kvantiteten är den aggregerade lagermängden från alla fysiska källor för den aktuella försäljningskanalen. Tänk dig ett exempel där Baltimore-källan har 20 enheter av en produkt, där Austin-källan har 25 enheter av samma produkt och Reno-källan har 10. När alla dessa källor är kopplade till Stock A är antalet StockItem för den här produkten 55 (20 + 25 + 10). (När artiklar levereras uppdaterar lagerindexeraren de tillgängliga kvantiteterna vid varje källa.)
+- **StockItem-kvantitet**. StockItem-kvantiteten är den aggregerade lagermängden från alla fysiska källor för den aktuella försäljningskanalen. Tänk dig ett exempel där Baltimore-källan har 20 enheter av en produkt, där Austin-källan har 25 enheter av samma produkt och Reno-källan har 10. När alla dessa källor är kopplade till Stock A är antalet StockItem för den här produkten 55 (20 + 25 + 10). (När artiklar levereras uppdaterar lagerindexeraren de tillgängliga kvantiteterna vid varje källa.)
 
 - **Utestående reservationer**. Systemet summerar alla ursprungliga reservationer som inte har kompenserats. Talet är alltid negativt. Om kund A har en reservation för tio artiklar, och kund B har en reservation på 5 för artiklar, så har vi utestående reservationer för produktsumman -15.
 
 Handlaren kan därför utföra en inkommande order så länge som kunden beställer mindre än 40 (55 + -15) enheter.
 
-När du är klar med bearbetningen av en order (Fullständigt, Avbrutet, Stängt), bör alla reservationer i den orderns omfattning tolkas som `0`. Detta rensar alla försäljningsbara kvantiteter.
+När du har slutfört bearbetningen av en order (Fullständigt, Avbrutet, Stängt), bör alla reservationer i orderns omfattning matchas till `0`. Detta rensar alla försäljningsbara kvantiteter.
 
 >[!NOTE]
 >
->Restorder (med tröskelvärden utanför lager) och Notify for Quantity Under Threshold settings (Meddela om kvantitet under tröskelvärde) påverkar också beräkningen av försäljningsbara kvantiteter, men de ligger utanför det här ämnets räckvidd. Mer information om de här inställningarna finns i [Konfigurerar [!DNL Inventory Management]](./configuration.md).
+>Restorder (med tröskelvärden utanför lager) och Notify for Quantity Under Threshold settings (Meddela om kvantitet under tröskelvärde) påverkar också beräkningen av försäljningsbara kvantiteter, men de ligger utanför det här ämnets räckvidd. Mer information om de här inställningarna finns i [Konfigurera [!DNL Inventory Management]](./configuration.md).
 
 ## Reservationsobjekt
 
@@ -144,7 +144,7 @@ Metadata `event_type` kan ha följande värden:
 - `creditmemo_created`
 - `invoice_created`
 
-För närvarande måste metadataobjektstypen vara `order`och objekt-ID är order-ID.
+För närvarande måste metadataobjektstypen vara `order` och objekt-ID:t är order-ID:t.
 
 I framtida versioner kan det vara möjligt att skapa en reservation när en kund lägger till en artikel i en kundvagn. Varje artikel kan reserveras för en fast tidsperiod, t.ex. 15 minuter, så att kunden kan reservera artiklar medan han/hon fortsätter att handla. När den här typen av reservation är aktiverad kan metadata innehålla ytterligare typer av information.
 
@@ -152,7 +152,7 @@ I framtida versioner kan det vara möjligt att skapa en reservation när en kund
 
 I följande exempel visas sekvensen med reservationer som genererats för en enkel order.
 
-1. Kunden gör en inköpsorder för 25 produktenheter `SKU-1`. Reservationen innehåller följande information:
+1. Kunden gör en inköpsorder för 25 enheter av produkten `SKU-1`. Reservationen innehåller följande information:
 
    ```text
    reservation_id = 1
@@ -182,31 +182,31 @@ I följande exempel visas sekvensen med reservationer som genererats för en enk
    event_type = shipment_created
    ```
 
-De tre `quantity` summan av värdena upp till 0 (-25 + 5 + 20). Systemet ändrar inga befintliga reservationer.
+De tre `quantity`-värdena är summerade till 0 (-25 + 5 + 20). Systemet ändrar inga befintliga reservationer.
 
 ## Tar bort bearbetade reservationer
 
-The `inventory_cleanup_reservations` cron-jobb kör SQL-frågor för att rensa reservationsdatabastabellen. Som standard körs den varje dag vid midnatt, men du kan konfigurera tider och frekvens. Kronjobbet kör ett skript som frågar databasen efter fullständiga reservationssekvenser där summan av kvantitetsvärdena är 0. När alla reservationer för en viss produkt som har sitt ursprung samma dag (eller annan konfigurerad tid) har kompenserats, tar kronijobbet bort alla reservationer samtidigt.
+Kronjobbet `inventory_cleanup_reservations` kör SQL-frågor för att rensa reservationsdatabastabellen. Som standard körs den varje dag vid midnatt, men du kan konfigurera tider och frekvens. Kronjobbet kör ett skript som frågar databasen efter fullständiga reservationssekvenser där summan av kvantitetsvärdena är 0. När alla reservationer för en viss produkt som har sitt ursprung samma dag (eller annan konfigurerad tid) har kompenserats, tar kronijobbet bort alla reservationer samtidigt.
 
-The `inventory_reservations_cleanup` cron-jobbet är inte detsamma som `inventory.reservations.cleanup` meddelandekökonsument. Konsumenten tar asynkront bort reservationer per produkt-SKU efter att en produkt har tagits bort, medan kronijobbet rensar hela reservationstabellen. Konsumenten krävs när du aktiverar [**Synkronisera med katalog**](../configuration-reference/catalog/inventory.md) Stock-alternativ i butikskonfigurationen. Se [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandbok_.
+Kronijobbet `inventory_reservations_cleanup` är inte detsamma som meddelandekökonsumenten `inventory.reservations.cleanup`. Konsumenten tar asynkront bort reservationer per produkt-SKU efter att en produkt har tagits bort, medan kronijobbet rensar hela reservationstabellen. Konsumenten krävs när du aktiverar alternativet [**Synkronisera med katalog**](../configuration-reference/catalog/inventory.md) i butikskonfigurationen. Se [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandboken_.
 
 Ofta går det inte att kompensera alla ursprungliga reservationer som gjorts under en och samma dag. Detta kan inträffa när en kund gör en beställning precis innan kronijobbet påbörjas eller gör ett köp med en offlinebetalningsmetod, som en banköverföring. De kompenserade reservationssekvenserna finns kvar i databasen tills de alla kompenseras. Denna praxis påverkar inte reservationsberäkningar, eftersom summan för varje reservation är 0.
 
 >[!NOTE]
 >
->Det finns CLI-kommandon som du kan använda för att upptäcka och hantera reservationsinkonsekvenser (se [[!DNL Inventory Management] CLI-referens](cli.md)).
+>Det finns CLI-kommandon som du kan använda för att identifiera och hantera reservationsinkonsekvenser (se [[!DNL Inventory Management] CLI-referens](cli.md)).
 
 ### Reservationsuppdateringar
 
-Alla ändringar i order och produktbelopp [!DNL Commerce] registrerar automatiskt reservationskompensationer. Du behöver inte ange kompenseringar via administratören eller koden för att uppdatera eller rensa dessa spärrar. Reservationer påverkas endast av angivna reservationer för att spärra en kvantitet eller för att rensa ett spärrbelopp (som kompenserar för reservationerna).
+När ändringar är slutförda i order och produktbelopp registrerar [!DNL Commerce] automatiskt reservationskompensationer. Du behöver inte ange kompenseringar via administratören eller koden för att uppdatera eller rensa dessa spärrar. Reservationer påverkas endast av angivna reservationer för att spärra en kvantitet eller för att rensa ett spärrbelopp (som kompenserar för reservationerna).
 
 Så här fungerar de:
 
-- **Skickad order** - När en order skickas för flera produkter, bokförs detta belopp. Om du t.ex. beställer fem bakåtpaket från en amerikansk webbplats bokförs `-5` för denna SKU och aktie. Den säljbara kvantiteten minskas med 5.
+- **Skickad order** - När en order skickas för flera produkter, bokförs en reservation för det beloppet. Om du t.ex. beställer fem bakåtpaket från en amerikansk webbplats får du en reservation på `-5` för denna SKU och detta lager. Den säljbara kvantiteten minskas med 5.
 
-- **Annullerad order** - När en order annulleras (helt eller delvis), bokförs en kompensation för att rensa beloppet. Om du till exempel avbryter tre ryggpaket anges en +3-reservation för den SKU:n och aktien, vilket rensar spärren. Den säljbara kvantiteten ökas med 3.
+- **Avbruten order** - När en order annulleras (helt eller delvis), bokförs en kompensationsreservation för att rensa beloppet. Om du till exempel avbryter tre ryggpaket anges en +3-reservation för den SKU:n och aktien, vilket rensar spärren. Den säljbara kvantiteten ökas med 3.
 
-- **Leveransordning** - När en order levereras (helt eller delvis), bokförs en kompensation för att rensa beloppet. Om du till exempel skickar två bakpaket anges en +2-reservation för den SKU:n och aktien, vilket rensar spärren. Produktkvantiteten minskas direkt med 2 för leveransen. Den beräknade försäljningsbara kvantiteten uppdateras också för det reducerade lagerbeloppet, men påverkas inte längre av reservationen.
+- **Levererad order** - När en order levereras (helt eller delvis), bokförs en kompensation för att rensa beloppet. Om du till exempel skickar två bakpaket anges en +2-reservation för den SKU:n och aktien, vilket rensar spärren. Produktkvantiteten minskas direkt med 2 för leveransen. Den beräknade försäljningsbara kvantiteten uppdateras också för det reducerade lagerbeloppet, men påverkas inte längre av reservationen.
 
 ![Reservationsuppdateringar](assets/diagram-reservation.png){width="600" zoomable="yes"}
 

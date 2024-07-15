@@ -1,6 +1,6 @@
 ---
 title: Element - rubrik
-description: Lär dig mer om innehållstypen Rubrik, som används för att lägga till en textbehållare med en rubriknivå från H1 till H6 i [!DNL Page Builder] stage.
+description: Lär dig mer om innehållstypen Rubrik, som används för att lägga till en textbehållare med en rubriknivå från H1 till H6 på  [!DNL Page Builder] scenen.
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Element - rubrik
 
-Rubriknivåer skapar en hierarki som organiserar innehåll och hjälper sökmotorer att indexera varje sida. Använd _Rubrik_ innehållstypen i [[!DNL Page Builder] stage](workspace.md#stage) om du vill lägga till en textbehållare med en rubriknivå från H1 till H6 på scenen. Rubriker formateras enligt den formatmall som är kopplad till det aktuella temat.
+Rubriknivåer skapar en hierarki som organiserar innehåll och hjälper sökmotorer att indexera varje sida. Använd innehållstypen _Rubrik_ i [[!DNL Page Builder] scenen](workspace.md#stage) för att lägga till en textbehållare med rubriknivå från H1 till H6 på scenen. Rubriker formateras enligt den formatmall som är kopplad till det aktuella temat.
 
-The [Innehållsrubrik](workspace.md) fältet i _[!UICONTROL Content]_kan användas för att lägga till en H1-rubrik högst upp på sidan. Fältet är emellertid ett äldre fält än tidigare [!DNL Commerce] versioner och tillhandahålls för stöd av äldre innehåll. Det här fältet drar inte nytta av [!DNL Page Builder]Avancerade funktioner. Vi rekommenderar att du lämnar fältet Innehållsrubrik tomt och använder [!DNL Page Builder] Rubrikinnehållstyp om du vill lägga till rubriker på valfri nivå på sidan.
+Fältet [Innehållsrubrik](workspace.md) i avsnittet _[!UICONTROL Content]_kan användas för att lägga till en H1-rubrik högst upp på sidan. Fältet är dock äldre än tidigare [!DNL Commerce] versioner och har stöd för äldre innehåll. Det här fältet utnyttjar inte de avancerade funktionerna i [!DNL Page Builder]. Vi rekommenderar att du lämnar fältet Innehållsrubrik tomt och använder innehållstypen [!DNL Page Builder] Rubrik för att lägga till rubriker på alla nivåer på sidan.
 
 Följande exempel visar hur innehållstypen Innehållsrubrik och Rubrik visas när de formateras med Luma-temat.
 
-![Innehållsrubrik och rubriknivåer i butiken](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
+![Innehållsrubrik och rubriknivåer på butiken](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-Du kan dra en rubrik från _Element_ i [!DNL Page Builder] till en rad, kolumn eller tabbuppsättning på scenen. Du kan styra rubriknivån och justeringen i redigeringsverktygsfältet på scenen, eller med _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+Du kan dra en rubrik från avsnittet _Element_ på panelen [!DNL Page Builder] till en rad, kolumn eller tabbuppsättning på scenen. Rubriknivån och justeringen kan styras från redigeringsverktygsfältet på scenen eller med kontrollen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -32,16 +32,16 @@ Du kan dra en rubrik från _Element_ i [!DNL Page Builder] till en rad, kolumn e
 
 Precis som för alla innehållsbehållare visas verktygslådan när du för muspekaren över behållaren.
 
-![Verktygslåda för rubrikbehållare](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
+![Verktygslådan Rubrikbehållare](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
 | Verktyg | Ikon | Beskrivning |
 | --------- | ----------------- | ---------------------- |
 | Flytta | ![Ikonen Flytta](./assets/pb-icon-move.png){width="25"} | Flyttar rubrikbehållaren till en annan giltig plats på sidan. |
 | (etikett) | Rubrik | Identifierar den aktuella behållaren som en rubrik. |
-| Inställningar | ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera rubrik, där du kan ändra egenskaperna för behållaren. |
+| Inställningar | ![Ikon för inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera rubrik, där du kan ändra egenskaperna för behållaren. |
 | Dölj | ![Dölj ikon](./assets/pb-icon-hide.png){width="25"} | Döljer rubrikbehållaren. |
 | Visa | ![Visa ikon](./assets/pb-icon-show.png){width="25"} | Visar den dolda rubrikbehållaren. |
-| Duplicera | ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av rubrikbehållaren. |
+| Duplicera | ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av rubrikbehållaren. |
 | Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="25"} | Tar bort rubrikbehållaren och dess innehåll från scenen. |
 
 {style="table-layout:auto"}
@@ -50,11 +50,11 @@ Precis som för alla innehållsbehållare visas verktygslådan när du för musp
 
 ## Lägg till en rubrik
 
-1. I [!DNL Page Builder] panel, expandera **[!UICONTROL Elements]** och dra en **[!UICONTROL Heading]** platshållare för en rad, kolumn eller tabb som anges på scenen.
+1. Expandera **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Heading]** platshållare till en rad, kolumn eller tabb på scenen.
 
    ![Dra en rubrik till scenen](./assets/pb-elements-heading-drag.png){width="600" zoomable="yes"}
 
-1. I redigeraren anger du rubriktexten över `Edit Heading Text` platshållare.
+1. Skriv rubriktexten över platshållaren `Edit Heading Text` i redigeraren.
 
    Som standard tilldelas rubriktexten en rubriktyp på nivå två (H2).
 
@@ -66,15 +66,15 @@ Precis som för alla innehållsbehållare visas verktygslådan när du för musp
 
 ## Redigera rubrikinställningar
 
-1. Håll pekaren över rubrikbehållaren för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över rubrikbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Rubrik, verktygslåda](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
+   ![Verktygslådan Rubrik](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
-1. Uppdatera rubrikinnehållet (**[!UICONTROL Heading Type]** och **[!UICONTROL Heading Text]**) vid behov.
+1. Uppdatera rubrikinnehållet (**[!UICONTROL Heading Type]** och **[!UICONTROL Heading Text]**) om det behövs.
 
    Du kan även uppdatera innehållet i rubrikredigeraren.
 
-1. Uppdatera _[!UICONTROL Advanced]_inställningar efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
 
    - Om du vill styra rubrikens placering i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
 
@@ -87,7 +87,7 @@ Precis som för alla innehållsbehållare visas verktygslådan när du för musp
 
      {style="table-layout:auto"}
 
-   - Ange **[!UICONTROL Border]** format som används på alla fyra sidorna av rubrikbehållaren:
+   - Ange formatet **[!UICONTROL Border]** som ska användas på alla fyra sidorna i rubrikbehållaren:
 
      | Alternativ | Beskrivning |
      | ------ | ----------- |
@@ -104,7 +104,7 @@ Precis som för alla innehållsbehållare visas verktygslådan när du för musp
 
      {style="table-layout:auto"}
 
-   - Om du anger ett annat kantlinjeformat än `None`slutför du visningsalternativen för kantlinjer:
+   - Om du anger ett annat kantlinjeformat än `None` fyller du i visningsalternativen för kantlinjen:
 
      | Alternativ | Beskrivning |
      | ------ |------------ |
@@ -118,7 +118,7 @@ Precis som för alla innehållsbehållare visas verktygslådan när du för musp
 
      Avgränsa flera klassnamn med blanksteg.
 
-   - Ange värden i pixlar för **[!UICONTROL Margins and Padding]** för att bestämma de yttre marginalerna och den inre utfyllnaden för rubrikbehållaren.
+   - Ange värden, i pixlar, för **[!UICONTROL Margins and Padding]** för att bestämma de yttre marginalerna och den inre utfyllnaden för rubrikbehållaren.
 
      Ange motsvarande värden i diagrammet.
 
@@ -129,19 +129,19 @@ Precis som för alla innehållsbehållare visas verktygslådan när du för musp
 
      {style="table-layout:auto"}
 
-1. När du är klar klickar du på **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ## Duplicera en rubrik
 
 För en formaterad rubrik med specifika inställningar är det effektivare att duplicera rubriken i stället för att börja om med en ny platshållare.
 
-1. Håll pekaren över rubrikbehållaren för att visa verktygslådan och välj _Duplicera_ ( ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Håll pekaren över rubrikbehållaren för att visa verktygslådan och välj ikonen _Duplicera_ ( ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="20"} ).
 
    Dupliceringen visas precis nedanför originalet.
 
    ![Duplicera en rubrikbehållare](./assets/pb-elements-heading-duplicate.png){width="500" zoomable="yes"}
 
-1. Hovra över den nya rubrikbehållaren för att visa verktygslådan och välja _Flytta_ ( ![Ikonen Flytta](./assets/pb-icon-move.png){width="20"} ).
+1. Håll pekaren över den nya rubrikbehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta ](./assets/pb-icon-move.png){width="20"} ).
 
    ![Flytta en rubrik](./assets/pb-elements-heading-move.png){width="500" zoomable="yes"}
 
@@ -149,8 +149,8 @@ För en formaterad rubrik med specifika inställningar är det effektivare att d
 
    De övre och nedre kantlinjerna i varje behållare visas som streckade linjer när rubriken flyttas.
 
-   ![Flytta den duplicerade rubriken till rätt position](./assets/pb-elements-heading-move-guideline.png){width="500" zoomable="yes"}
+   ![Flyttar den duplicerade rubriken till position](./assets/pb-elements-heading-move-guideline.png){width="500" zoomable="yes"}
 
 1. Om du vill ändra rubriknivån klickar du på rubriktexten och väljer den nya nivån i redigeringsverktygsfältet.
 
-   ![Välja en ny rubriknivå](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
+   ![Välj en ny rubriknivå](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}

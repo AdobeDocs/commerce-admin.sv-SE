@@ -1,6 +1,6 @@
 ---
 title: Lägg till innehåll - blockera
-description: Läs mer om innehållstypen Blockera som används för att lägga till ett återanvändbart block i [!DNL Page Builder] stage.
+description: Lär dig mer om blockinnehållstypen som används för att lägga till ett återanvändbart block på  [!DNL Page Builder] scenen.
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Lägg till innehåll - blockera
 
-Använd _Blockera_ innehållstyp för att lägga till en befintlig, aktiv [block](../content-design/blocks.md) till [[!DNL Page Builder] stage](workspace.md#stage). I följande exempel innehåller den första kolumnen blocket med en sidmeny för sidan. Den andra kolumnen innehåller en bild.
+Använd innehållstypen _Block_ för att lägga till ett befintligt, aktivt [block](../content-design/blocks.md) på [[!DNL Page Builder] scenen](workspace.md#stage). I följande exempel innehåller den första kolumnen blocket med en sidmeny för sidan. Den andra kolumnen innehåller en bild.
 
 ![Blockera med en sidmeny](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
 
@@ -23,10 +23,10 @@ Använd _Blockera_ innehållstyp för att lägga till en befintlig, aktiv [block
 | Verktyg | Ikon | Beskrivning |
 | --------- | -------- | ------------- |
 | Flytta | ![Ikonen Flytta](./assets/pb-icon-move.png) | Flyttar blockbehållaren och dess innehåll till en annan plats på scenen. |
-| Inställningar | ![Ikonen Inställningar](./assets/pb-icon-settings.png) | Öppnar sidan Redigera block, där du kan välja blocket och ändra egenskaperna för behållaren. |
+| Inställningar | ![Ikon för inställningar](./assets/pb-icon-settings.png) | Öppnar sidan Redigera block, där du kan välja blocket och ändra egenskaperna för behållaren. |
 | Dölj | ![Dölj ikon](./assets/pb-icon-hide.png) | Döljer den aktuella blockbehållaren och dess innehåll. |
 | Visa | ![Visa ikon](./assets/pb-icon-show.png) | Visar den dolda blockbehållaren och dess innehåll. |
-| Duplicera | ![Duplicera, ikon](./assets/pb-icon-duplicate.png) | Skapar en kopia av blockbehållaren och dess innehåll. |
+| Duplicera | ![Duplicera ikon](./assets/pb-icon-duplicate.png) | Skapar en kopia av blockbehållaren och dess innehåll. |
 | Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png) | Tar bort blockbehållaren och dess innehåll från scenen. |
 
 {style="table-layout:auto"}
@@ -35,19 +35,19 @@ Använd _Blockera_ innehållstyp för att lägga till en befintlig, aktiv [block
 
 ## Lägg till ett befintligt block
 
-1. Navigera till [!DNL Page Builder] på målsidan, blocket, det dynamiska blocket, produkten eller kategorin.
+1. Navigera till arbetsytan [!DNL Page Builder] på målsidan, blocket, det dynamiska blocket, produkten eller kategorin.
 
-1. I [!DNL Page Builder] panel, expandera **[!UICONTROL Add Content]** och dra en **[!UICONTROL Block]** platshållare till scenen.
+1. Expandera **[!UICONTROL Add Content]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Block]** platshållare till scenen.
 
    ![Dra ett block till scenen](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
-1. Håll pekaren över den tomma blockbehållaren för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} ).
+1. Håll pekaren över den tomma blockbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="25"} ).
 
 1. Klicka på **[!UICONTROL Select Block]**.
 
    ![Markera ett block](./assets/pb-add-content-block-select.png){width="200"}
 
-1. Klicka på på raden i det block som du vill lägga till **[!UICONTROL Select]** i den sista kolumnen.
+1. Klicka på **[!UICONTROL Select]** i den sista kolumnen i det block som du vill lägga till.
 
    ![Markerat block](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
 
@@ -57,7 +57,7 @@ Använd _Blockera_ innehållstyp för att lägga till en befintlig, aktiv [block
 
 1. Fyll i återstående inställningar efter behov och använd fältbeskrivningarna i slutet av den här sidan som referens.
 
-1. När du är klar klickar du på **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ### Avancerade inställningar
 
@@ -72,7 +72,7 @@ Använd _Blockera_ innehållstyp för att lägga till en befintlig, aktiv [block
 
    {style="table-layout:auto"}
 
-1. Ange en **[!UICONTROL Border]** format som används på blockbehållarens alla fyra sidor:
+1. Ange ett **[!UICONTROL Border]**-format som ska användas på alla fyra sidor i blockbehållaren:
 
    | Alternativ | Beskrivning |
    | ------ | ----------- |
@@ -89,7 +89,7 @@ Använd _Blockera_ innehållstyp för att lägga till en befintlig, aktiv [block
 
    {style="table-layout:auto"}
 
-1. Om du anger ett annat kantlinjeformat än `None`slutför du visningsalternativen för kantlinjer:
+1. Om du anger ett annat kantlinjeformat än `None` fyller du i visningsalternativen för kantlinjen:
 
    | Alternativ | Beskrivning |
    | ------ |------------ |
@@ -103,7 +103,7 @@ Använd _Blockera_ innehållstyp för att lägga till en befintlig, aktiv [block
 
    Avgränsa flera klassnamn med blanksteg.
 
-1. Ange värden i pixlar för **[!UICONTROL Margins and Padding]** för att fastställa blockbehållarens yttre och inre utfyllnad.
+1. Ange värden, i pixlar, för **[!UICONTROL Margins and Padding]** för att fastställa blockbehållarens yttre marginaler och inre utfyllnad.
 
    Ange motsvarande värden i diagrammet.
 
@@ -116,26 +116,26 @@ Använd _Blockera_ innehållstyp för att lägga till en befintlig, aktiv [block
 
 ## Redigera blockinställningar
 
-1. Håll pekaren över blockbehållaren och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} ) i verktygslådan.
+1. Håll pekaren över blockbehållaren och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="25"} ) i verktygslådan.
 
    ![Blockera verktygslåda](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
-1. Om du vill välja ett annat block klickar du på **[!UICONTROL Select Block]**.
+1. Klicka på **[!UICONTROL Select Block]** om du vill välja ett annat block.
 
-   - Klicka på i listan över aktiva block **[!UICONTROL Select]** det block som du vill lägga till.
+   - Klicka på **[!UICONTROL Select]** i listan med aktiva block på det block som du vill lägga till.
    - Klicka på **[!UICONTROL Add Selected]**.
 
 1. Uppdatera de återstående inställningarna efter behov och använd fältbeskrivningarna i slutet av den här sidan som referens.
 
-1. När du är klar klickar du på **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ## Duplicera ett block
 
-1. Håll pekaren över blockbehållaren för att visa verktygslådan och välj _Duplicera_ (![Duplicera, ikon](./assets/pb-icon-duplicate.png)).
+1. Håll pekaren över blockbehållaren för att visa verktygslådan och välj ikonen _Duplicera_ (![Duplicera ikon](./assets/pb-icon-duplicate.png)).
 
    Dupliceringen visas precis nedanför originalet.
 
-1. Om du vill flytta det nya blocket till en ny plats håller du pekaren över behållaren och klickar sedan _Flytta_ (![Ikonen Flytta](./assets/pb-icon-move.png)) i verktygslådan
+1. Om du vill flytta det nya blocket till en ny plats håller du pekaren över behållaren och klickar sedan på _Flytta_ (![ikonen Flytta](./assets/pb-icon-move.png)) i verktygslådan.
 
 1. Markera och dra blocket tills den röda stödlinjen visas på den nya positionen.
 
@@ -143,6 +143,6 @@ Använd _Blockera_ innehållstyp för att lägga till en befintlig, aktiv [block
 
 ## Ta bort ett block från scenen
 
-1. Håll pekaren över blockbehållaren för att visa verktygslådan och välj _Ta bort_ (![Ikonen Ta bort](./assets/pb-icon-remove.png)).
+1. Håll pekaren över blockbehållaren för att visa verktygslådan och välj ikonen _Ta bort_ (![Ta bort ikon](./assets/pb-icon-remove.png)).
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.

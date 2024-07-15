@@ -14,37 +14,37 @@ ht-degree: 0%
 
 Den grundläggande kundkontoinformationen innehåller ditt namn, din e-postadress och ditt lösenord, och kan underhållas från kundkontots kontrollpanel i butiken.
 
-![Kontoinformation i butiken](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
+![Kontoinformation på butiken](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
-I sidofältet på ditt konto kan kunden välja **[!UICONTROL Account Information]** och gör något av följande för att uppdatera kontoinformationen.
+I sidofältet för ditt konto kan kunden välja **[!UICONTROL Account Information]** och göra något av följande för att uppdatera sin kontoinformation.
 
 ## Uppdatera namnet på kontonamnet
 
-Kunden ändrar värdena i **[!UICONTROL First Name]** och **[!UICONTROL Last Name]** fält efter behov.
+Kunden ändrar värdena i fälten **[!UICONTROL First Name]** och **[!UICONTROL Last Name]** efter behov för att uppdatera namnet på kontot.
 
 >[!INFO]
 >
->Ytterligare fält visas som en del av namnet om [kundkonfiguration](../configuration-reference/customers/customer-configuration.md) innehåller ett prefix, initial i mitten och suffix.
+>Ytterligare fält visas som en del av namnet om [kundkonfigurationen](../configuration-reference/customers/customer-configuration.md) innehåller ett prefix, mellaninitial och suffix.
 
 ## Ändra e-postadress
 
-1. Kunden väljer **[!UICONTROL Change Email]** kryssrutan.
+1. Kunden markerar kryssrutan **[!UICONTROL Change Email]**.
 
-1. Anger deras nya **[!UICONTROL Email]** adress.
+1. Anger deras nya **[!UICONTROL Email]**-adress.
 
-1. Anger deras **[!UICONTROL Current Password]**.
+1. Ange deras **[!UICONTROL Current Password]**.
 
    ![Ändra e-postadress](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
-1. Klickningar **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 ## Ändra lösenord
 
-1. Kunden väljer **[!UICONTROL Change Password]** kryssrutan.
+1. Kunden markerar kryssrutan **[!UICONTROL Change Password]**.
 
-1. Anger deras **[!UICONTROL Current Password]**.
+1. Ange deras **[!UICONTROL Current Password]**.
 
-1. Anger deras **[!UICONTROL New Password]**.
+1. Ange deras **[!UICONTROL New Password]**.
 
    >[!INFO]
    >

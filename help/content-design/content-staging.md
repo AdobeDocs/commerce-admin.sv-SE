@@ -14,19 +14,19 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Med innehållsuppläggning kan ert affärsteam enkelt skapa, förhandsgranska och schemalägga en mängd olika innehållsuppdateringar för er butik direkt från _Administratör_. I stället för att tänka på en statisk sida bör du överväga att en sida ska vara en samling med olika element som kan ändras _på_ eller _av_ baserat på ett schema. Du kan använda innehållstaggning för att skapa en sida som ändras automatiskt under året enligt ett schema.
+Med innehållstaggning kan ditt affärsteam enkelt skapa, förhandsgranska och schemalägga en mängd innehållsuppdateringar för din butik direkt från _Admin_. I stället för att tänka på en statisk sida bör du överväga att en sida ska vara en samling med olika element som kan aktiveras _den_ eller _av_ baserat på ett schema. Du kan använda innehållstaggning för att skapa en sida som ändras automatiskt under året enligt ett schema.
 
-Termen _kampanj_ refererar till posten för en schemalagd ändring, eller en samling ändringar som hanteras från mellanlagringspanelen. Ändringarna kan visas i en kalender eller tidslinje. Villkoren _schemalagd ändring_ och _schemalagd uppdatering_ är utbytbara och hänvisar till en enda ändring.
+Termen _kampanj_ refererar till posten för en schemalagd ändring, eller en samling ändringar som hanteras från mellanlagringsinstrumentpanelen. Ändringarna kan visas i en kalender eller tidslinje. Termerna _schemalagd ändring_ och _schemalagd uppdatering_ är utbytbara och refererar till en enskild ändring.
 
 När du schemalägger en innehållsändring för en viss tidsperiod återgår innehållet till den tidigare versionen när den schemalagda ändringen upphör att gälla. Du kan skapa flera versioner av samma baslinjeinnehåll som ska användas för framtida uppdateringar. Du kan också stega dig tillbaka genom tidslinjen för att visa tidigare versioner av innehållet. Om du vill spara ett utkast anger du bara ett datum på tidslinjen som är så långt in i framtiden att det aldrig går till produktion.
 
 >[!NOTE]
 >
->Fält relaterade till startdatum och slutdatum har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt på kundvagnsprisregeln, katalogprisregeln, produkten, kategorin och CMS-sidan. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
+>Fält som är relaterade till startdatum och slutdatum har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt på kundvagnsprisregeln, katalogprisregeln, produkten, kategorin och CMS-sidan. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
 
 ## Mellanlagringsobjekt och kampanjer för innehåll
 
-När en ny schemalagd uppdatering skapas för något av följande objekt skapas en motsvarande kampanj som platshållare och _[!UICONTROL Scheduled Changes]_visas längst upp på sidan. Platshållarkampanjen har ett startdatum, men inte ett slutdatum. Du kan schemalägga uppdateringar av innehållet som en del av en kampanj och sedan förhandsgranska och dela ändringarna per datum, tid eller butiksvy. När en ny kampanj har skapats för ett objekt kan du tilldela den som en schemalagd uppdatering för andra objekt.
+När en ny schemalagd uppdatering skapas för något av följande objekt skapas en motsvarande kampanj som platshållare och rutan _[!UICONTROL Scheduled Changes]_visas längst upp på sidan. Platshållarkampanjen har ett startdatum, men inte ett slutdatum. Du kan schemalägga uppdateringar av innehållet som en del av en kampanj och sedan förhandsgranska och dela ändringarna per datum, tid eller butiksvy. När en ny kampanj har skapats för ett objekt kan du tilldela den som en schemalagd uppdatering för andra objekt.
 
 - [Produkter](../catalog/product-scheduled-changes.md)
 - [Kategorier](../catalog/category-scheduled-changes.md)
@@ -39,7 +39,7 @@ När en ny schemalagd uppdatering skapas för något av följande objekt skapas 
 
 1. **Skapa baslinjeinnehållet**
 
-   Baslinjen är innehållet i en resurs utan en kampanj och innehåller allt under _[!UICONTROL Scheduled Changes]_överst på sidan. Baslinjeinnehållet används alltid, såvida det inte finns en aktiv kampanj med ändringar schemalagda för den platsen på tidslinjen.
+   Baslinjen är innehållet i en resurs utan kampanj och innehåller allt under avsnittet _[!UICONTROL Scheduled Changes]_överst på sidan. Baslinjeinnehållet används alltid, såvida det inte finns en aktiv kampanj med ändringar schemalagda för den platsen på tidslinjen.
 
 1. **Skapa den första kampanjen**
 
@@ -47,7 +47,7 @@ När en ny schemalagd uppdatering skapas för något av följande objekt skapas 
 
    >[!NOTE]
    >
-   >Startdatum och slutdatum för kampanj måste definieras med **_standard_** Administratörens tidszon, som konverteras från den lokala tidszonen för varje webbplats. Tänk dig ett exempel där du har flera webbplatser i olika tidszoner, men du vill starta en kampanj som baseras på en tidszon i USA. I det här fallet måste du schemalägga en separat uppdatering för varje lokal tidszon och ange **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** i konverterad från varje lokal webbplatstidszon till standardtidszonen för administratörer.
+   >Startdatum och slutdatum för kampanj måste definieras med hjälp av administratörstidszonen **_default_** som konverteras från den lokala tidszonen för varje webbplats. Tänk dig ett exempel där du har flera webbplatser i olika tidszoner, men du vill starta en kampanj som baseras på en tidszon i USA. I det här fallet måste du schemalägga en separat uppdatering för varje lokal tidszon och ange **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** som konverteras från varje lokal webbplats tidszon till standardtidszonen för administratörer.
 
 1. **Lägg till en andra kampanj**
 
@@ -65,9 +65,9 @@ När en ny schemalagd uppdatering skapas för något av följande objekt skapas 
 >
 >När en mellanlagringsuppdatering är aktiv för en entitet redigerar entiteten den aktuella aktiva mellanlagringsuppdateringen. Det påverkar inte baslinjeinnehållet, som återställs när mellanlagringsuppdateringen avslutas.
 
-## [!UICONTROL Content Staging] kontrollpanel
+## Kontrollpanel för [!UICONTROL Content Staging]
 
-The [!UICONTROL Content Staging] [kontrollpanel](content-staging-dashboard.md) ger synlighet i alla planerade webbplatsändringar och uppdateringar. Alla dagar, datumintervall och tidsperioder i en kampanj kan förhandsgranskas och delas med andra.
+[!UICONTROL Content Staging] [dashboard](content-staging-dashboard.md) ger synlighet i alla planerade webbplatsändringar och uppdateringar. Alla dagar, datumintervall och tidsperioder i en kampanj kan förhandsgranskas och delas med andra.
 
 ![Kontrollpanel för mellanlagring](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
 
@@ -79,8 +79,8 @@ Titta på den här videon om du vill veta mer om innehållstagning:
 
 ## Felsökningsresurser
 
-Hjälp om hur du felsöker problem med innehållstagning finns i följande [!DNL Commerce] Supportkunskapsbasartiklar:
+Hjälp med felsökning av problem med innehållstagning finns i följande artiklar i [!DNL Commerce] kunskapsbasen med supportfrågor:
 
-- [Fel 404 på alla sidor på grund av problem med att mellanlagra innehåll](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
-- [Uppdateringar av schemalagd förproduktion av innehåll visas inte med snabb inlagring](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
-- [Kan jag schemalägga Content Staging-uppdateringar för priser i en delad katalog?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)
+- [Fel 404 på alla sidor på grund av problem med mellanlagring av innehåll](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
+- [Uppdateringar för schemalagd förproduktion av innehåll visas inte med inaktuell snabbcache](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
+- [Kan jag schemalägga uppdateringar av innehållsmellanlagring för priser i en delad katalog?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)

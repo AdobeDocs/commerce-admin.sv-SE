@@ -4,89 +4,89 @@ description: Lär dig mer om Admin Dashboard, som vanligtvis är den första sid
 exl-id: 56957c0a-1618-444b-a37a-ecf0d7b27eae
 source-git-commit: 7b6d70e2f3052af69075790cec1f396e2505bf8b
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Kontrollpanel för administratörer
 
-Kontrollpanelen är vanligtvis den första sidan som visas när du loggar in på _Administratör_ och kan ge en realtidsöversikt över försäljning och kundaktivitet. Instrumentpanelsdata ger en ögonblicksbild av försäljning under hela löptiden, genomsnittligt orderbelopp, senaste beställningar och söktermer. Diagrammet visar slutförda order och belopp för det valda datumintervallet och kan genereras från antingen dynamiska realtidsdata eller historiska aggregerade data. Flikarna längst ned ger snabba rapporter om era bästsäljande produkter, de mest visade produkterna, nya kunder och kunder som har köpt mest.
+Kontrollpanelen är vanligtvis den första sidan som visas när du loggar in på _Admin_ och kan ge en realtidsöversikt över försäljning och kundaktivitet. Instrumentpanelsdata ger en ögonblicksbild av försäljning under hela löptiden, genomsnittligt orderbelopp, senaste beställningar och söktermer. Diagrammet visar slutförda order och belopp för det valda datumintervallet och kan genereras från antingen dynamiska realtidsdata eller historiska aggregerade data. Flikarna längst ned ger snabba rapporter om era bästsäljande produkter, de mest visade produkterna, nya kunder och kunder som har köpt mest.
 
 Om du har en stor mängd data att bearbeta kan diagrammet stängas av för att förbättra prestandan. Kontrollpanelen i följande exempel är konfigurerad att använda realtidsdata och visar slutförda order per timme under de senaste 24 timmarna. Diagrammet uppdateras för varje slutförd order.
 
-![Kontrollpanel](./assets/dashboard-full.png){zoomable=&quot;yes&quot;}
+![Instrumentpanel](./assets/dashboard-full.png){zoomable="yes"}
 
 [Avancerad rapportering](business-intelligence.md#advanced-reporting) visar en anpassad kontrollpanel baserad på produkt-, order- och kunddata.
 
-![Avancerad rapportering](./assets/dashboard-advanced-reporting.png){zoomable=&quot;yes&quot;}
+![Avancerad rapportering](./assets/dashboard-advanced-reporting.png){zoomable="yes"}
 
 ## Konfigurera instrumentpanelen
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**och gör något av följande.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _och fyll i någon av följande inställningar.
 
 1. När konfigurationen är klar klickar du på **[!UICONTROL Save Config]**.
 
-1. När du har sparat ändringarna klickar du på **[!UICONTROL Cache Management]** och uppdatera alla ogiltiga cacheminnen.
+1. När du har sparat ändringarna klickar du på **[!UICONTROL Cache Management]** och uppdaterar alla ogiltiga cacheminnen.
 
 ### Aktivera diagram
 
 Om du har en stor mängd data att bearbeta kan du stänga av visningen av diagrammet för att förbättra prestandan. Om alternativet inte är aktiverat visas meddelandet&quot;Inga data hittades&quot; i stället för diagrammet, även om sammanfattningssummorna nedan fortfarande genereras.
 
-1. I den vänstra navigeringspanelen under **[!UICONTROL Advanced]**, välja **[!UICONTROL Admin]**.
+1. Välj **[!UICONTROL Admin]** i den vänstra navigeringspanelen under **[!UICONTROL Advanced]**.
 
-1. Expandera vid behov **[!UICONTROL Dashboard]** -avsnitt.
+1. Expandera avsnittet **[!UICONTROL Dashboard]** om det behövs.
 
    ![Avancerad konfiguration - Aktivera diagram](./assets/admin-dashboard-config.png){width="600"}
 
-1. Om du vill ändra standardvärdet tar du bort **[!UICONTROL Use system value]** kryssrutan.
+1. Om du vill ändra standardvärdet avmarkerar du kryssrutan **[!UICONTROL Use system value]**.
 
 1. Ange **Aktivera diagram** till `Yes`.
 
-Mer information om konfigurationsalternativen för Admin finns i [Referenshandbok för konfiguration](../configuration-reference/advanced/admin.md).
+Mer information om alternativen för administratörskonfiguration finns i [referenshandboken för konfiguration](../configuration-reference/advanced/admin.md).
 
 ### Ändra startsidan
 
-Kontrollpanelen är standard [startsida](../configuration-reference/advanced/admin.md) för Admin, men du kan konfigurera en annan startsida.
+Kontrollpanelen är standardstartsida [för administratören](../configuration-reference/advanced/admin.md), men du kan konfigurera en annan startsida.
 
-1. Om du inte redan har Admin-konfigurationsalternativen öppna väljer du **[!UICONTROL Admin]** under _[!UICONTROL Advanced]_i den vänstra navigeringspanelen.
+1. Om du inte redan har administratörskonfigurationsalternativen öppna väljer du **[!UICONTROL Admin]** under _[!UICONTROL Advanced]_i den vänstra navigeringspanelen.
 
-1. Klicka för att expandera **Startsida** -avsnitt.
+1. Klicka för att expandera avsnittet **Startsida**.
 
-   ![Admin Dashboard - inställning av startsida](./assets/admin-startup-page.png){width="600"}
+   ![Admin Dashboard - inställning för startsida](./assets/admin-startup-page.png){width="600"}
 
-1. Rensa **[!UICONTROL Use system value]** och väljer **Startsida** som du vill ska visas när du loggar in på administratören.
+1. Avmarkera kryssrutan **[!UICONTROL Use system value]** och välj den **startsida** som du vill ska visas när du loggar in på Admin.
 
 ### Välj startdatum
 
-1. I den vänstra navigeringspanelen under **[!UICONTROL General]**, välja **Rapporter**.
+1. Välj **Rapporter** i den vänstra navigeringspanelen under **[!UICONTROL General]**.
 
-1. Utöka **[!UICONTROL Dashboard]** -avsnitt.
+1. Expandera avsnittet **[!UICONTROL Dashboard]** på sidan.
 
-1. Rensa **[!UICONTROL Use system value]** kryssrutor för datuminställningarna och gör följande:
+1. Avmarkera kryssrutorna **[!UICONTROL Use system value]** för datuminställningarna och gör följande:
 
-   - Ange **Från år till datum** till **Månad** och **Dag**.
+   - Ange **år till datum från** till **månad** och **dag**.
 
    - Ange **Aktuell månadsstart** till **Dag**.
 
    ![Admin Dashboard - datuminställningar](./assets/reports-dashboard.png){width="600"}
 
-Mer information om [!UICONTROL Reports] konfigurationsalternativ, se [_Referenshandbok för konfiguration_](../configuration-reference/general/reports.md).
+Mer information om konfigurationsalternativen för [!UICONTROL Reports] finns i [_referenshandboken för konfiguration_](../configuration-reference/general/reports.md).
 
 ### Konfigurera datakällan
 
 Instrumentpanelsdiagrammet kan genereras i realtid eller med hjälp av historiska, aggregerade data. Om prestanda är ett problem kan du snabba upp saker genom att använda aggregerade data.
 
-1. Klicka för att expandera i den vänstra navigeringspanelen **Försäljning** och välja **Försäljning** under.
+1. Klicka för att expandera **Försäljning** i den vänstra navigeringspanelen och välj **Försäljning** under.
 
-1. Utöka **[!UICONTROL Dashboard]** -avsnitt.
+1. Expandera avsnittet **[!UICONTROL Dashboard]** på sidan.
 
    ![Admin Dashboard - inställning för datakälla](./assets/config-sales-dashboard.png){width="600"}
 
-1. Rensa **[!UICONTROL Use system value]** kryssruta och ange **[!UICONTROL Use Aggregated Data]** till något av följande:
+1. Avmarkera kryssrutan **[!UICONTROL Use system value]** och ange **[!UICONTROL Use Aggregated Data]** till något av följande:
 
-   - För historiska, aggregerade data väljer du `Yes`.
-   - För realtidsdata väljer du `No`.
+   - Välj `Yes` för historiska, aggregerade data.
+   - Välj `No` för realtidsdata.
 
 ## Diagramavsnitt
 

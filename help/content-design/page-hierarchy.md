@@ -4,7 +4,7 @@ description: Lär dig hur sidhierarkisystemet ger dig möjlighet att ordna dina 
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Med arkivsidans hierarkisystem kan du ordna dina innehållssidor och lägga till sidnumrering, navigering och menyer. Sekretesspolicyn i exempeldata är ett exempel på en sida med en meny till vänster. Om du publicerar en stor mängd innehåll regelbundet kan du använda en sidhierarki för att ordna ditt innehåll så att det blir enkelt för människor att hitta intresseartiklar.
 
-I sidhierarkisystemet används noder för att identifiera relaterade innehållsdelar och för att ordna innehållssidor i överordnade/underordnade relationer. En överordnad nod fungerar som en mapp som kan innehålla underordnade noder och sidor. Den relativa positionen för varje nod och sida i hierarkin visas som en _träd_ struktur. En nod kan innehålla andra noder och innehållssidor, och en enda innehållssida kan vara kopplad till flera noder och andra innehållssidor i en överordnad/underordnad eller grannrelation.
+I sidhierarkisystemet används noder för att identifiera relaterade innehållsdelar och för att ordna innehållssidor i överordnade/underordnade relationer. En överordnad nod fungerar som en mapp som kan innehålla underordnade noder och sidor. Den relativa positionen för varje nod och sida i hierarkin visas som en _träd_-struktur. En nod kan innehålla andra noder och innehållssidor, och en enda innehållssida kan vara kopplad till flera noder och andra innehållssidor i en överordnad/underordnad eller grannrelation.
 
-![Sida med vänster navigering](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
+![Sida med vänsternavigering](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
 
 ## Konfigurera sidhierarki
 
@@ -25,13 +25,13 @@ Konfigurationsinställningarna aktiverar sidhierarkisystemet och metadata och fa
 
 ![CMS-sidhierarki](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. I den vänstra panelen under _[!UICONTROL General]_, välja **[!UICONTROL Content Management]**.
+1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]**  och göra de ändringar som behövs.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** och gör de ändringar som behövs.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 | Fält | Beskrivning |
 |--- |--- |
@@ -45,21 +45,21 @@ Konfigurationsinställningarna aktiverar sidhierarkisystemet och metadata och fa
 
 I följande exempel visas hur du skapar en nod med enkel navigering till relaterade innehållssidor. Även om en nod inte har någon associerad innehållssida har den en URL-nyckel som kan refereras till någon annanstans på platsen.
 
-Du kan till exempel skapa en nod med namnet _Pressmeddelanden_ som navigerar till enskilda pressmeddelanden. Sedan kan du lägga in länken på _Om oss_ till noden. Du kan också skapa en nod för en samling med bakomliggande utgåvor av nyhetsbrevet.
+Du kan till exempel skapa en nod med namnet _Pressmeddelanden_ som har navigering till enskilda pressmeddelanden. Sedan kan du inkludera länken på sidan _Om oss_ till noden. Du kan också skapa en nod för en samling med bakomliggande utgåvor av nyhetsbrevet.
 
-Använd kommandot [Widget](widgets.md) verktyg för att skapa en länk till en CMS-hierarkisk nod och placera widgeten i ett innehållsblock eller en -sida.
+Om du vill länka till en nod använder du verktyget [Widget](widgets.md) för att skapa en CMS-hierarkikodlänk och placerar widgeten i ett innehållsblock eller en -sida.
 
 ![Exempel på navigeringsmeny på sidan Om oss](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
 
 ### Steg 1: Skapa en nod
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Hierarchy]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Hierarchy]**på sidofältet_ Admin _.
 
-   ![CMS-sidstödraster](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
+   ![Rutnät för CMS-sidor](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
 
-1. Ovanför stödrastret klickar du på **[!UICONTROL Add Node...]**.
+1. Klicka på **[!UICONTROL Add Node...]** ovanför rutnätet.
 
-1. Under _[!UICONTROL Page Properties]_, ange **[!UICONTROL Title]**för noden och en lämplig **[!UICONTROL URL Key]**.
+1. Under _[!UICONTROL Page Properties]_anger du en **[!UICONTROL Title]**för noden och en lämplig **[!UICONTROL URL Key]**.
 
    URL-nyckeln ger en unik webbadress för noden. Det måste bestå av enbart små bokstäver, och bindestreck måste användas för att avgränsa ord i stället för blanksteg.
 
@@ -85,21 +85,21 @@ Använd kommandot [Widget](widgets.md) verktyg för att skapa en länk till en C
 
 1. Klicka på noden högst upp i hierarkin.
 
-   The _[!UICONTROL Page Properties]_visas nu information om noden.
+   Avsnittet _[!UICONTROL Page Properties]_visar nu information om noden.
 
-1. Under **[!UICONTROL Render Metadata in HTML Head]** gör du följande:
+1. Gör följande under **[!UICONTROL Render Metadata in HTML Head]**:
 
-   ![Inställningar för återgivning av metadata](./assets/page-hierarchy-render-metadata.png){width="400" zoomable="yes"}
+   ![Återge metadatainställningar](./assets/page-hierarchy-render-metadata.png){width="400" zoomable="yes"}
 
-   - Om du vill identifiera noden som den översta i hierarkin anger du **[!UICONTROL First]** till `Yes`.
+   - Om du vill identifiera noden som överst i hierarkin anger du **[!UICONTROL First]** till `Yes`.
 
    - Om du vill visa en sidnumreringskontroll anger du **[!UICONTROL Next/Previous]** till `Yes`.
 
    - Om du vill ordna sidorna i hierarkin som en bok anger du **[!UICONTROL Enable Chapter/Section]** till `Yes`.
 
-     Om du inte vill inkludera noden som en del av boken låter du standardinställningen vara kvar `No`.
+     Om du inte vill inkludera noden som en del av boken låter du standardvärdet `No` vara kvar.
 
-   - Om du vill tilldela en nod till en viss del av boken anger du **[!UICONTROL Chapter/Section]** till något av följande:
+   - Om du vill tilldela noden till en viss del av boken anger du **[!UICONTROL Chapter/Section]** till något av följande:
 
       - `No` - Definierar inte noden som kapitel/avsnitt.
       - `Chapter` - Tilldelar den aktuella noden som ett kapitel.
@@ -108,7 +108,7 @@ Använd kommandot [Widget](widgets.md) verktyg för att skapa en länk till en C
 
 ### Steg 4: Lägg till sidnumreringskontroller
 
-1. Under _Sidnumreringsalternativ för kapslade sidor_, ange **[!UICONTROL Enable Pagination]** till `Yes`.
+1. Under _Sidnumreringsalternativ för kapslade sidor_ anger du **[!UICONTROL Enable Pagination]** till `Yes`.
 
 1. För **[!UICONTROL Frame]** anger du antalet sidlänkar som du vill ta med i sidnumreringskontrollen.
 
@@ -120,27 +120,27 @@ Använd kommandot [Widget](widgets.md) verktyg för att skapa en länk till en C
 
 Om du vill att noden ska visas på menyn gör du följande:
 
-1. Under _Alternativ på menyn Sidnavigering_, ange **[!UICONTROL Show in navigation menu]** till `Yes`.
+1. Under _Alternativ på menyn Sidnavigering_ anger du **[!UICONTROL Show in navigation menu]** till `Yes`.
 
    Den här inställningen avgör om en navigeringsmeny genereras för sidhierarkin.
 
    ![Alternativ på sidnavigeringsmenyn](./assets/page-hierarchy-page-navigation-menu-options.png){width="300" zoomable="yes"}
 
-1. Om du vill ange menyns plats i förhållande till innehållet anger du **[!UICONTROL Menu Layout]**:
+1. Om du vill ange menyns plats i relation till innehållet anger du **[!UICONTROL Menu Layout]**:
 
    - `Content` - Menylayouten finns i innehållet.
-   - `Use Default` - Använder det menyformat som anges i [konfiguration](../configuration-reference/general/content-management.md).
+   - `Use Default` - Använder det menyformat som anges i [konfigurationen](../configuration-reference/general/content-management.md).
    - `Left Column` - Menyn visas till vänster om innehållet.
    - `Right Column` - Menyn visas till höger om innehållet.
 
-1. Om du vill ange hur mycket av detaljerna som ska visas på menyn anger du **[!UICONTROL Menu Detalization]** till något av följande:
+1. Om du vill ange hur mycket information som ska visas på menyn anger du **[!UICONTROL Menu Detalization]** till något av följande:
 
-   - `Only Children` - Innehåller endast undersidor på menyn.
+   - `Only Children` - Inkluderar endast undersidor på menyn.
    - `Neighbours and Children` - Inkluderar undersidor och andra sidor på samma nivå i hierarkin.
 
-1. Ange menyns djup genom att ange **[!UICONTROL Maximal Depth]** för maximalt antal nivåer som ska inkluderas.
+1. Om du vill fastställa menyns djup anger du **[!UICONTROL Maximal Depth]** för det maximala antalet nivåer som ska inkluderas.
 
-1. Om du vill formatera menyn väljer du **[!UICONTROL List Type]**:
+1. Om du vill formatera menyn väljer du en **[!UICONTROL List Type]**:
 
    - `Unordered` - Menyalternativen är inte numrerade och kan formateras med eller utan punkter. Alternativ för oordnad listtyp: Standard / Cirkel / Skiva / Fyrkant
    - `Ordered` - Menyalternativen är numrerade och kan formateras som numeriska, alfabetiska eller latinska siffror i antingen versaler eller gemener.
@@ -151,8 +151,8 @@ Om du vill att noden ska visas på menyn gör du följande:
    - `Disc`
    - `Square`
 
-1. Om du även vill att noden ska visas på navigeringsmenyn bläddrar du till _Huvudnavigeringsmenyalternativ_ och ange **[!UICONTROL Show in Navigation menu]** till `Yes`.
+1. Om du även vill att noden ska vara synlig på navigeringsmenyn, bläddrar du till _Alternativ för huvudnavigeringsmeny_ och anger **[!UICONTROL Show in Navigation menu]** som `Yes`.
 
-   ![Huvudmenyalternativ](./assets/page-hierarchy-main-navigation-menu-options.png){width="250" zoomable="yes"}
+   ![Huvudmenyalternativ för navigering](./assets/page-hierarchy-main-navigation-menu-options.png){width="250" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Save]**.

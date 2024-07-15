@@ -5,20 +5,20 @@ exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
 
 # Skatter
 
-Konfigurera din butik för att beräkna skatter enligt kraven för din språkinställning. Du kan konfigurera [momsklasser](tax-class.md) för produkter och kundgrupper, och skapa [momsregler](tax-rules.md) som kombinerar produkt- och kundklasser, skattezoner och skattesatser. Commerce innehåller även konfigurationsinställningar för fasta produktskatter, sammansatta skatter och visning av priser över internationella gränser. Om du måste samla in en [moms](vat.md)kan du konfigurera din butik så att den automatiskt beräknar lämplig mängd med validering.
+Konfigurera din butik för att beräkna skatter enligt kraven för din språkinställning. Du kan ställa in [momsklasser](tax-class.md) för produkter och kundgrupper och skapa [skatteregler](tax-rules.md) som kombinerar produkt- och kundklasser, skattezoner och skattesatser. Commerce innehåller även konfigurationsinställningar för fasta produktskatter, sammansatta skatter och priser över landsgränser. Om du måste samla in en [mervärdesskatt](vat.md) kan du konfigurera din butik så att rätt belopp beräknas automatiskt vid valideringen.
 
 >[!NOTE]
 >
->Adobe Commerce och Magento Open Source, version 2.4.0 till 2.4.3, innehåller tillägget Vertex som utvecklades av leverantören och som används för att integrera med Vertex Cloud för att tillhandahålla skattehantering och adressrensning. Från och med version 2.4.4 är det här tillägget inte längre bundet till kärnversionen och måste installeras och uppdateras från Commerce Marketplace eller direkt från leverantören. [Kontakthörn](https://marketplace.magento.com/partner/vertex_inc) om du vill ha information om tillägget och dokumentationen.<br><br>
+>Adobe Commerce och Magento Open Source, version 2.4.0 till 2.4.3, innehåller tillägget Vertex som utvecklades av leverantören och som används för att integrera med Vertex Cloud för att tillhandahålla skattehantering och adressrensning. Från och med version 2.4.4 är det här tillägget inte längre bundet till kärnversionen och måste installeras och uppdateras från Commerce Marketplace eller direkt från leverantören. [Kontakta hörnet](https://marketplace.magento.com/partner/vertex_inc) om du vill ha information om tillägget och dokumentationen.<br><br>
 >
->Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Se [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _Uppgraderingshandbok_.
+>Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Se [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _uppgraderingshandboken_.
 
 ## Snabbreferens
 
@@ -28,7 +28,7 @@ Använd följande tabeller som referens när du konfigurerar inställningar för
 
 ### Momsberäkningsmetoder
 
-Alternativ för beräkningsmetod för moms inkluderar [!UICONTROL Unit Price], [!UICONTROL Row Total]och [!UICONTROL Total]. I följande tabell beskrivs hur avrundning (till två siffror) hanteras för olika inställningar.
+Alternativ för momsberäkningsmetoder är [!UICONTROL Unit Price], [!UICONTROL Row Total] och [!UICONTROL Total]. I följande tabell beskrivs hur avrundning (till två siffror) hanteras för olika inställningar.
 
 | Inställning | Beräkning och visning |
 |--- |--- |
@@ -40,7 +40,7 @@ Alternativ för beräkningsmetod för moms inkluderar [!UICONTROL Unit Price], [
 
 ### Katalogpriser med eller utan moms
 
-De möjliga visningsfälten varierar beroende på beräkningsmetoden och om katalogpriserna innehåller eller exkluderar skatter. Visningsfält har två decimaler i normala beräkningar. I vissa kombinationer av prisinställningar visas priser som både inkluderar och exkluderar moms. När båda visas på samma radartikel kan det vara förvirrande för kunderna och utlösa en [varning](taxes.md#warning-messages).
+De möjliga visningsfälten varierar beroende på beräkningsmetoden och om katalogpriserna innehåller eller exkluderar skatter. Visningsfält har två decimaler i normala beräkningar. I vissa kombinationer av prisinställningar visas priser som både inkluderar och exkluderar moms. När båda visas på samma radobjekt kan det vara förvirrande för kunderna och utlöser en [varning](taxes.md#warning-messages).
 
 | Inställning | Beräkning och visning |
 |--- |--- |
@@ -51,7 +51,7 @@ De möjliga visningsfälten varierar beroende på beräkningsmetoden och om kata
 
 >[!IMPORTANT]
 >
->Det finns förändringar jämfört med tidigare versioner för EU-handlare eller andra momshandlare som visar priser, inklusive skatt, och som är verksamma i flera länder med olika butiksvyer. Om ni läser in priser med fler än två siffror avrundar Commerce automatiskt alla priser till två siffror för att säkerställa att ett konsekvent pris presenteras för köparna.
+>Det finns förändringar jämfört med tidigare versioner för EU-handlare eller andra momshandlare som visar priser, inklusive skatt, och som är verksamma i flera länder med olika butiksvyer. Om du läser in priser med mer än två siffror avrundar Commerce automatiskt alla priser till två siffror för att säkerställa att ett konsekvent pris presenteras för köparna.
 
 ### Leveranspriser med eller utan moms
 
@@ -64,11 +64,11 @@ De möjliga visningsfälten varierar beroende på beräkningsmetoden och om kata
 
 ### Momsbelopp som radartiklar
 
-Om du vill visa två olika momsbelopp som separata radobjekt, till exempel GST och PST för kanadensiska butiker, måste du ange olika prioriteringar för relaterade momsregler. I tidigare skatteberäkningar skulle dock skatter med olika prioriteringar automatiskt kompletteras. Om du vill visa separata skattebelopp utan att göra en felaktig sammanställning av momsbeloppen kan du ange olika prioriteringar och även välja _Beräkna endast av delsumma_ kryssrutan. Den här inställningen skapar korrekt beräknade momsbelopp som visas som separata radartiklar.
+Om du vill visa två olika momsbelopp som separata radobjekt, till exempel GST och PST för kanadensiska butiker, måste du ange olika prioriteringar för relaterade momsregler. I tidigare skatteberäkningar skulle dock skatter med olika prioriteringar automatiskt kompletteras. Om du vill visa separata momsbelopp utan en felaktig sammanställning av momsbeloppen kan du ange olika prioriteter och även markera kryssrutan _Beräkna endast för delsumma_. Den här inställningen skapar korrekt beräknade momsbelopp som visas som separata radartiklar.
 
 ## Varningsmeddelanden
 
-Vissa kombinationer av skatterelaterade alternativ kan vara förvirrande för kunderna och utlösa en varning. Dessa villkor kan uppstå när momsberäkningsmetoden är inställd på `Row` eller `Total`och kunden får priser som både exkluderar och inkluderar moms. Den kan också inträffa när det finns moms per artikel i kundvagnen. Eftersom momsberäkningen är avrundad kan beloppet som visas i kundvagnen skilja sig från det belopp som kunden förväntar sig att betala.
+Vissa kombinationer av skatterelaterade alternativ kan vara förvirrande för kunderna och utlösa en varning. Dessa villkor kan uppstå när momsberäkningsmetoden är inställd på `Row` eller `Total` och kunden får priser som både exkluderar och inkluderar moms. Den kan också inträffa när det finns moms per artikel i kundvagnen. Eftersom momsberäkningen är avrundad kan beloppet som visas i kundvagnen skilja sig från det belopp som kunden förväntar sig att betala.
 
 Om momsberäkningen baseras på en problematisk konfiguration visas följande varningar:
 
@@ -87,7 +87,7 @@ Handlare som ännu inte har nått tröskelvärdet (50 000/100 00 euro i årsverk
 Handlare som är föremål för revision av skatter som betalas för digitala varor måste lämna två stödjande uppgifter för att fastställa kundens bostad.
 
 - Kundens leveransadress och ett kvitto på en lyckad betalningstransaktion kan användas för att fastställa kundens bosättningsort. (Betalning accepteras endast om leveransadressen stämmer överens med betalarens information.)
-- Informationen kan också hämtas direkt från datalagret i Commerce-databastabellerna.
+- Informationen kan också hämtas direkt från datalagret i Commerce databastabeller.
 
 _**Så här samlar du in skatteinformation för digitala varor:**_
 
@@ -97,7 +97,7 @@ _**Så här samlar du in skatteinformation för digitala varor:**_
 
 1. Tilldela alla era digitala varor till produktskatterna för digitala varor.
 
-1. Skapa [momsregler](tax-rules.md) för fysiska varor, med användning av fysiska produktskatteklasser och koppla dem till lämpliga skattesatser.
+1. Skapa [momsregler](tax-rules.md) för dina fysiska varor med hjälp av fysiska produktskatteklasser och associera dem med lämpliga skattesatser.
 
 1. Skapa skatteregler för era digitala varor med produktskatterna för digitala varor och koppla dem till lämplig skattesats för EU:s medlemsländer.
 
@@ -108,7 +108,7 @@ _**Så här samlar du in skatteinformation för digitala varor:**_
 Ytterligare resurser:
 
 - [Europeiska kommissionens skatteunion och tullunion][1]
-- [EU 1015 Förändringar av leveransplats][2]
+- [EU 1015 Platsen för leveransändringar][2]
 
 [1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
 [2]: https://www2.deloitte.com/global/en/services/tax.html

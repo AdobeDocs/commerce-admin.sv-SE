@@ -14,7 +14,7 @@ ht-degree: 0%
 
 En konfigurerbar produkt ser ut som en enskild produkt med en listruta över varje variant. Varje listartikel är i själva verket en separat enkel produkt med en unik SKU, som gör det möjligt att spåra lager för varje produktvariation. Du kan uppnå en liknande effekt genom att använda en enkel produkt med anpassade alternativ, men utan möjlighet att spåra lager för varje variation.
 
-I följande instruktioner visas hur du skapar en konfigurerbar produkt med en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. Varje obligatoriskt fält markeras med en röd asterisk (`*`). När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
+I följande instruktioner visas hur du skapar en konfigurerbar produkt med hjälp av en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. Alla obligatoriska fält är markerade med en röd asterisk (`*`). När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
 
 ![Konfigurerbar produkt](./assets/product-configurable.png){width="700" zoomable="yes"}
 
@@ -22,7 +22,7 @@ I följande instruktioner visas hur du skapar en konfigurerbar produkt med en [p
 
 Även om en konfigurerbar produkt använder fler SKU:er och till att börja med tar lite längre tid att konfigurera, kan det spara tid i slutänden. Om du planerar att utöka din verksamhet är den konfigurerbara produkttypen ett bra val för produkter med flera alternativ.
 
-Förbered en [attributuppsättning](attribute-sets.md) som innehåller ett attribut som är inställt på en av de tillåtna indatatyperna för varje produktvariation. Attributuppsättningen kan till exempel innehålla listruteattribut för färg och storlek.
+Innan du börjar förbereder du en [attributuppsättning](attribute-sets.md) som innehåller ett attribut som är inställt på en av de tillåtna indatatyperna för varje produktvariant. Attributuppsättningen kan till exempel innehålla listruteattribut för färg och storlek.
 
 Egenskaperna för varje attribut som används för en konfigurerbar produktvariation måste ha följande inställningar:
 
@@ -31,31 +31,31 @@ Egenskaperna för varje attribut som används för en konfigurerbar produktvaria
 | Egenskap | Inställning |
 |--- |--- |
 | [!UICONTROL Scope] | `Global` |
-| [!UICONTROL Catalog Input Type for Store Owner] | Indatatypen för alla attribut som används för en produktvariation måste vara något av följande: `Dropdown`, `Visual Swatch`, eller `Text Swatch`. |
+| [!UICONTROL Catalog Input Type for Store Owner] | Indatatypen för alla attribut som används för en produktvariation måste vara något av följande: `Dropdown`, `Visual Swatch` eller `Text Swatch`. |
 | [!UICONTROL Values Required] | `Yes` |
 
 {style="table-layout:auto"}
 
 ### Steg 1: Välj produkttyp
 
-1. På _Administratör_ sidebar, gå till  **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
-1. På _[!UICONTROL Add Product]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ) i det övre högra hörnet väljer du **[!UICONTROL Configurable Product]**.
+1. Välj **[!UICONTROL Configurable Product]** på menyn _[!UICONTROL Add Product]_( ![menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ) i det övre högra hörnet.
 
    ![Lägg till konfigurerbar produkt](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
 ### Steg 2: Välj attributuppsättning
 
-The [attributuppsättning](attribute-sets.md) bestämmer valet av fält som används i produkten. Attributuppsättningen som används i följande exempel har attribut för färg och storlek. Attributuppsättningens namn anges längst upp på sidan och ställs från början in på `Default`.
+[attributuppsättningen](attribute-sets.md) avgör vilka fält som används i produkten. Attributuppsättningen som används i följande exempel har attribut för färg och storlek. Attributuppsättningens namn anges högst upp på sidan och ställs från början in på `Default`.
 
 1. Om du vill välja attributuppsättning för produkten klickar du på fältet överst på sidan och gör något av följande:
 
-   - För **[!UICONTROL Search]** anger du namnet på attributuppsättningen.
+   - Ange namnet på attributuppsättningen för **[!UICONTROL Search]**.
    - I listan väljer du den attributuppsättning som du vill använda.
 
    Formuläret uppdateras för att återspegla ändringen.
 
-1. Om du vill lägga till ytterligare ett attribut i attributuppsättningen klickar du på **[!UICONTROL Add Attribute]** och följ instruktionerna i [Lägga till ett attribut](product-attributes-add.md).
+1. Om du vill lägga till ytterligare ett attribut i attributuppsättningen klickar du på **[!UICONTROL Add Attribute]** och följer instruktionerna i [Lägga till ett attribut](product-attributes-add.md).
 
    ![Välj mall](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
@@ -63,19 +63,19 @@ The [attributuppsättning](attribute-sets.md) bestämmer valet av fält som anv�
 
 1. Ange produkten **[!UICONTROL Product Name]**.
 
-1. Acceptera standardinställningen **[!UICONTROL SKU]** som baseras på produktnamnet eller anger ett annat.
+1. Acceptera standardvärdet **[!UICONTROL SKU]** som baseras på produktnamnet eller ange ett annat.
 
 1. Ange produkten **[!UICONTROL Price]**.
 
-1. Eftersom produkten ännu inte är klar att publiceras kan du ange **[!UICONTROL Enable Product]** till `No`.
+1. Eftersom produkten ännu inte är klar att publiceras anger du **[!UICONTROL Enable Product]** till `No`.
 
-1. klicka **[!UICONTROL Save]** och fortsätta.
+1. klicka på **[!UICONTROL Save]** och fortsätt.
 
-   När produkten sparas kan du [Butiksvy](introduction.md#product-scope) Väljaren visas i det övre vänstra hörnet.
+   När produkten sparas visas väljaren [Store View](introduction.md#product-scope) i det övre vänstra hörnet.
 
-1. Välj **[!UICONTROL Store View]** där produkten ska finnas tillgänglig.
+1. Välj den **[!UICONTROL Store View]** där produkten ska vara tillgänglig.
 
-   ![Välj butiksvyn](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![Välj butiksvy](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ### Steg 4: Slutför de grundläggande inställningarna
 
@@ -84,27 +84,27 @@ The [attributuppsättning](attribute-sets.md) bestämmer valet av fält som anv�
    - `None`
    - `Taxable Goods`
 
-1. The **[!UICONTROL Quantity]** bestäms av produktvariationerna så att du kan lämna det tomt.
+1. **[!UICONTROL Quantity]** bestäms av produktvariationerna, så du kan lämna den tom.
 
 1. Lämna **[!UICONTROL Stock Status]** som angivet.
 
-   Lagerstatus för en konfigurerbar produkt bestäms av varje associerad konfiguration. Eftersom produkten sparades utan att någon kvantitet angavs har **[!UICONTROL Stock Status]** är inställd på `Out of Stock`.
+   Lagerstatus för en konfigurerbar produkt bestäms av varje associerad konfiguration. Eftersom produkten sparades utan att någon kvantitet angavs, är **[!UICONTROL Stock Status]** inställd på `Out of Stock`.
 
    >[!NOTE]
    >
-   >The **Stock-status** av den konfigurerbara produkten är en **_halvmanuell_** styrd inställning. Den kontrolleras delvis av statusen Stock för dess underordnade produkter. Det ingår i en **_multivillkor_** beräkning av lagerstatus, som beskrivs i [Konfigurera Stock-status](#configure-the-stock-status) -avsnitt.
+   >**Stock-status** för den konfigurerbara produkten är en **_halvmanuell_** kontrollerad inställning. Den kontrolleras delvis av statusen Stock för dess underordnade produkter. Det ingår i en **_multikriterieberäkning_** för Stock-status, som beskrivs i avsnittet [Konfigurera Stock-status](#configure-the-stock-status).
 
 1. Ange produkten **[!UICONTROL Weight]**.
 
 >[!NOTE]
 >
->En konfigurerbar produkt måste alltid ha en vikt. Om du väljer **[!UICONTROL This item has no weight]** från listrutan ändras den automatiskt till **[!UICONTROL This item has weight]** när du har sparat produkten.
+>En konfigurerbar produkt måste alltid ha en vikt. Om du väljer **[!UICONTROL This item has no weight]** i listrutan ändras den automatiskt till **[!UICONTROL This item has weight]** när du har sparat produkten.
 
-1. Acceptera standardinställningen **[!UICONTROL Visibility]** inställning för `Catalog, Search`.
+1. Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
-1. Så här visar du produkten i listan över [nya produkter](../content-design/widget-new-products-list.md)väljer du **[!UICONTROL Set Product as New]** kryssrutan.
+1. Markera kryssrutan **[!UICONTROL Set Product as New]** om du vill visa produkten i listan över [nya produkter](../content-design/widget-new-products-list.md).
 
-1. Om du vill tilldela produktkategorier klickar du på **[!UICONTROL Select…]** och gör något av följande:
+1. Om du vill tilldela kategorier till produkten klickar du på rutan **[!UICONTROL Select…]** och gör något av följande:
 
    **Välj en befintlig kategori**:
 
@@ -118,9 +118,9 @@ The [attributuppsättning](attribute-sets.md) bestämmer valet av fält som anv�
 
    - Klicka på **[!UICONTROL New Category]**.
 
-   - Ange **[!UICONTROL Category Name]** och väljer **[!UICONTROL Parent Category]** som bestämmer dess placering i menystrukturen.
+   - Ange **[!UICONTROL Category Name]** och välj **[!UICONTROL Parent Category]** som avgör dess position i menystrukturen.
 
-   s- klicka **[!UICONTROL Create Category]**.
+   s- Klicka på **[!UICONTROL Create Category]**.
 
 1. Välj **[!UICONTROL Country of Manufacture]**.
 
@@ -128,7 +128,7 @@ The [attributuppsättning](attribute-sets.md) bestämmer valet av fält som anv�
 
 ### Steg 5: Spara och fortsätt
 
-Nu är ett bra tillfälle att spara ditt arbete. Klicka på i det övre högra hörnet **[!UICONTROL Save]**. I nästa serie steg ställer du in konfigurationerna för varje produktvariant.
+Nu är ett bra tillfälle att spara ditt arbete. Klicka på **[!UICONTROL Save]** i det övre högra hörnet. I nästa serie steg ställer du in konfigurationerna för varje produktvariant.
 
 ## Del 2: Lägga till konfigurationer
 
@@ -138,13 +138,13 @@ Förloppsindikatorn högst upp på sidan visar var du befinner dig i processen o
 
 ### Steg 1: Välj attribut
 
-1. Fortsätt uppifrån och ned, rulla nedåt till _[!UICONTROL Configurations]_och klicka **[!UICONTROL Create Configurations]**.
+1. Bläddra nedåt till avsnittet _[!UICONTROL Configurations]_och klicka på&#x200B;**[!UICONTROL Create Configurations]**om du fortsätter uppifrån.
 
    ![Konfigurationer](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
 1. Markera kryssrutan för alla attribut som du vill inkludera som en konfiguration.
 
-   I detta exempel `color` och `size` är markerade.
+   I det här exemplet är `color` och `size` markerade.
 
    ![Välj attribut](./assets/product-create-configurable-step1.png){width="600" zoomable="yes"}
 
@@ -158,7 +158,7 @@ Förloppsindikatorn högst upp på sidan visar var du befinner dig i processen o
 
    - Markera kryssrutan för attributet.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Next]**.
+1. Klicka på **[!UICONTROL Next]** i det övre högra hörnet.
 
 ### Steg 2: Ange attributvärden
 
@@ -166,11 +166,11 @@ Förloppsindikatorn högst upp på sidan visar var du befinner dig i processen o
 
    ![Attributvärden](./assets/product-create-configurable-step2.png){width="600" zoomable="yes"}
 
-1. Om du vill ordna om attributen klickar du på knappen _Ändra ordning_ ( ![Ikon för sorteringsordning](../assets/icon-sort-order.png) ) och flytta avsnittet till en ny plats.
+1. Om du vill ordna om attributen, tar du ikonen _Ändra ordning_ ( ![Sorteringsordning](../assets/icon-sort-order.png) ) och flyttar avsnittet till en ny plats.
 
    Ordningen bestämmer positionen för listrutorna på produktsidan.
 
-1. Klicka på i förloppsindikatorn **[!UICONTROL Next]**.
+1. Klicka på **[!UICONTROL Next]** i förloppsindikatorn.
 
 ### Steg 3: Konfigurera bilder, pris och kvantitet
 
@@ -180,7 +180,7 @@ Välj de konfigurationsalternativ som gäller.
 
 Använd någon av följande metoder för att konfigurera **[!UICONTROL images]**:
 
-**Metod 1:** Använda en enda uppsättning bilder på alla SKU:er
+**Metod 1:** Använda en uppsättning bilder på alla SKU:er
 
 1. Välj **[!UICONTROL Apply single set of images to all SKUs]**.
 
@@ -194,11 +194,11 @@ Eftersom bilden för den överordnade produkten redan har överförts kan du anv
 
 1. Välj **[!UICONTROL Apply unique images by attribute to each SKU]**.
 
-1. Välj **[!UICONTROL Attribute]** som bilderna illustrerar, till exempel `color`.
+1. Markera **[!UICONTROL Attribute]** som bilderna illustrerar, till exempel `color`.
 
 1. För varje attributvärde bläddrar du till de bilder du vill använda för den konfigurationen eller drar dem till rutan.
 
-   Om du drar bilden till en värderuta visas den även i avsnitten för de andra värdena. Om du vill ta bort en bild klickar du på _Papperskorgen_ (![Papperskorgsikon](../assets/icon-delete-trashcan-solid.png)).
+   Om du drar bilden till en värderuta visas den även i avsnitten för de andra värdena. Om du vill ta bort en bild klickar du på ikonen _Papperskorgen_ (![papperskorgen](../assets/icon-delete-trashcan-solid.png)).
 
    ![Unika bilder per SKU](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
 
@@ -220,7 +220,7 @@ Använd någon av följande metoder för att konfigurera **[!UICONTROL prices]**
 
 1. Om priset skiljer sig för var och en eller för vissa variationer av produkten väljer du **[!UICONTROL Apply unique prices by attribute to each SKU]**.
 
-1. Välj **[!UICONTROL Attribute]** detta är grunden för prisskillnaden.
+1. Välj den **[!UICONTROL Attribute]** som utgör grunden för prisskillnaden.
 
 1. Ange **[!UICONTROL Price]** för varje attributvärde.
 
@@ -232,15 +232,15 @@ Använd någon av följande metoder för att konfigurera **[!UICONTROL Quantity]
 
 **Metod 1:** Använd samma kvantitet för alla SKU:er
 
-Om kvantiteten är densamma för alla SKU:er väljer du **[!UICONTROL Apply single quantity to each SKU]** och ange kvantiteten.
+Om kvantiteten är densamma för alla SKU:er väljer du **[!UICONTROL Apply single quantity to each SKU]** och anger kvantiteten.
 
 _Handlare med en enda källa_ - Ange **[!UICONTROL Quantity]**.
 
-_Handlare med flera källor som använder [Inventory management](../inventory-management/introduction.md)_ - Tilldela källor och lägg till kvantiteter för alla genererade produktvarianter:
+_Flera Source-handlare använder [Inventory management](../inventory-management/introduction.md)_ - Tilldela källor och lägg till kvantiteter för alla genererade produktvarianter:
 
-1. Välj **[!UICONTROL Apply single quantity to each SKU]** alternativ.
+1. Välj alternativet **[!UICONTROL Apply single quantity to each SKU]**.
 
-1. Om du vill lägga till en källa klickar du **[!UICONTROL Assign Sources]**.
+1. Klicka på **[!UICONTROL Assign Sources]** om du vill lägga till en källa.
 
 1. Bläddra eller sök efter en källa som du vill lägga till. Markera kryssrutan bredvid de källor som du vill lägga till för produkten.
 
@@ -248,39 +248,39 @@ _Handlare med flera källor som använder [Inventory management](../inventory-ma
 
    ![En kvantitet för alla SKU:er, tilldela källa](./assets/inventory-configure-product-quantity.png){width="600" zoomable="yes"}
 
-**Metod 2:** Använd annan kvantitet efter attribut
+**Metod 2:** Använd en annan kvantitet efter attribut
 
 _Handlare med en enda källa_ - Ange **[!UICONTROL Quantity]**.
 
-_Handlare med flera källor som använder [Inventory management](../inventory-management/introduction.md)_ - Tilldela källor och lägg till kvantiteter för alla genererade produktvarianter:
+_Flera Source-handlare använder [Inventory management](../inventory-management/introduction.md)_ - Tilldela källor och lägg till kvantiteter för alla genererade produktvarianter:
 
 1. Om kvantiteten är olika för varje SKU väljer du **[!UICONTROL Apply unique quantity by attribute to each SKU]**.
 
-1. Ange **[!UICONTROL Quantity]** for each.
+1. Ange **[!UICONTROL Quantity]** för varje.
 
    ![Olika kvantiteter per attribut](./assets/product-configurations-quantity-different.png){width="600" zoomable="yes"}
 
-När konfigurationen för bilder, pris och kvantitet är klar klickar du på **[!UICONTROL Next]** längst upp till höger.
+När konfigurationen för bilder, pris och kvantitet är klar klickar du på **[!UICONTROL Next]** i det övre högra hörnet.
 
 ### Steg 4: Generera produktkonfigurationer
 
 Vänta en stund tills produktlistan visas och gör något av följande:
 
-- Om du är nöjd med konfigurationen klickar du på **[!UICONTROL Generate Products]**.
+- Om du är nöjd med konfigurationerna klickar du på **[!UICONTROL Generate Products]**.
 
-- Om du vill korrigera klickar du på **[!UICONTROL Back]**.
+- Klicka på **[!UICONTROL Back]** om du vill korrigera.
 
-![Granska sammanfattningen innan du genererar produktvariationer](./assets/product-create-configurable-summary.png){width="600" zoomable="yes"}
+![Granska sammanfattningen innan produktvariationer genereras](./assets/product-create-configurable-summary.png){width="600" zoomable="yes"}
 
-De aktuella produktvariationerna visas längst ned i _Konfiguration_ -avsnitt.
+De aktuella produktvariationerna visas längst ned i avsnittet _Konfiguration_.
 
 ![Aktuella konfigurationer](./assets/product-create-configurable-generated.png){width="600" zoomable="yes"}
 
 ### Steg 5: Lägg till produktbilder
 
-1. Rulla ned och expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Images and Videos]_-avsnitt.
+1. Bläddra nedåt och utöka ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Images and Videos]_.
 
-1. Klicka på _Kamera_ och bläddra till huvudbilden som du vill använda för den konfigurerbara produkten.
+1. Klicka på rutan _Kamera_ och bläddra till huvudbilden som du vill använda för den konfigurerbara produkten.
 
 Mer information finns i [Bilder och video](product-images-and-video.md).
 
@@ -302,15 +302,15 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
 - [Presentalternativ](product-gift-options.md)
 
-### Steg 7: Publicera produkten
+### Steg 7: Publish produkten
 
 1. Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable Product]** till `Yes` och gör något av följande:
 
    - **Metod 1:** Spara och förhandsgranska
 
-      - Klicka på i det övre högra hörnet **[!UICONTROL Save]**.
+      - Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-      - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på _Administratör_ ( ![Menypil](../assets/icon-menu-down-arrow-black.png) ).
+      - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil ](../assets/icon-menu-down-arrow-black.png) ).
 
      Butiken öppnas på en ny flik i webbläsaren.
 
@@ -318,65 +318,65 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
    - **Metod 2:** Spara och stäng
 
-     På _[!UICONTROL Save]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ) väljer du **[!UICONTROL Save & Close]**.
+     Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ### Steg 8: Konfigurera kundvagnsminiatyrerna
 
 Om du har en annan bild för varje variant kan du ställa in konfigurationen så att rätt bild används för kundvagnsminiatyrbilden.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Checkout]** under.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Shopping Cart]_-avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Shopping Cart]_.
 
 1. Ange **[!UICONTROL Configurable Product Image]** till `Product Thumbnail Itself`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
    ![Kundvagn - konfigurerbar produktbild](./assets/config-checkout-configurable-product.png){width="600" zoomable="yes"}
 
 ## Konfigurera Stock-status
 
-Konfigurerbar produktlagerstatus skiljer sig från den enkla produktens lagerstatus, där det är en direkt representation av produktens tillgänglighet. För en konfigurerbar produkt är lagerstatusen en del av en **_multivillkor_** beräkning av lagerstatus.
+Konfigurerbar produktlagerstatus skiljer sig från den enkla produktens lagerstatus, där det är en direkt representation av produktens tillgänglighet. För en konfigurerbar produkt är lagerstatusen en del av en **_multikriterieberäkning_** för lagerstatus.
 
 ### Ökning
 
 De viktigaste principerna för Stock-statusrelationer är följande:
 
-- När du ändrar **[!UICONTROL Stock Status]** av den konfigurerbara produkten som `Out of Stock` och klicka **[!UICONTROL Save]**, det är **_inte kontrollerad_** efter lagerstatus för sina underordnade produkter. Den visas alltid som `Out of Stock` i Admin och på Storefront.
+- När du ändrar **[!UICONTROL Stock Status]** för den konfigurerbara produkten till `Out of Stock` och klickar på **[!UICONTROL Save]**, styrs den **_inte_** av de underordnade produkternas Stock-status. Det visas alltid som `Out of Stock` i Admin och på Storefront.
 
-- När du anger **[!UICONTROL Stock Status]** av den konfigurerbara produkten som `In Stock` och klicka **[!UICONTROL Save]**, det är **_endast delvis kontrollerad_** baserat på lagerstatus för dess underordnade produkter, som återspeglas i Admin och på Storefront.
+- När du anger **[!UICONTROL Stock Status]** för den konfigurerbara produkten som `In Stock` och klickar på **[!UICONTROL Save]** kontrolleras den **_endast delvis_** av de underordnade produkternas Stock-status, som återspeglas i Admin och på Storefront.
 
 ### Detaljbeskrivning
 
-The _Stock-status_ av den konfigurerbara produkten styrs delvis av Stock-statusen för dess underordnade produkter och enligt följande **_multivillkor_** beräkning av lagerstatus:
+_Stock-status_ för den konfigurerbara produkten styrs delvis av Stock-statusen för dess underordnade produkter och enligt följande **_multivillkor_**-lagerstatusberäkningar:
 
 #### Endast med standardkälla/standardlager:
 
-- Om den konfigurerbara produktStock-statusen är **_manuellt_** ange till `Out of Stock` av en administratörsanvändare, filimport eller API-anrop kvarstår som `Out of Stock` på båda **_Administratör_** och **_Storefront_** tills det är  **_manuellt_** ändrat till `In stock` av en administratörsanvändare, filimport eller API-anrop. Den kan inte styras av lagerstatusen för dess underordnade produkter.
+- Om den konfigurerbara produktStock-statusen är **_manuellt_** inställd på `Out of Stock` av en administratörsanvändare, filimport eller API-anrop förblir den `Out of Stock` på både **_Admin_** och **_Storefront_** tills den **_ändras manuellt_** till `In stock` av en administratörsanvändare, filimport eller API-anrop. Den kan inte styras av lagerstatusen för dess underordnade produkter.
 
-- Om den konfigurerbara produktStock-statusen är **_manuellt_** ange till `In Stock` av en administratörsanvändare, filimport eller API-anrop, är dess arkivstatus **_automatiskt_** kontrolleras av Stock-statusen för dess underordnade produkter på båda **_Administratör_** och **_Storefront_**.
+- Om den konfigurerbara produktStock-statusen är **_manuellt_** inställd på `In Stock` av en Admin-användare, en filimport eller ett API-anrop, styrs dess lagerstatus **_automatiskt_** av den underordnade produktens Stock-status både på **_Admin_** och **_Storefront_** .
 
 >[!NOTE]
 >
->Anpassade lager och källor ingår i [Inventory management](../inventory-management/sources-stocks.md) och vi rekommenderar att du använder verktyget exklusivt för att hantera lager och källfiler. Standardfunktionerna för källa och lager är en del av `CatalogInventory` som nu är inaktuellt.
+>Anpassade lager och källor ingår i tillägget [Inventory management](../inventory-management/sources-stocks.md) och vi rekommenderar att du använder det här verktyget enbart för att hantera lager och källor. Standardfunktionerna för källa och lager ingår i modulen `CatalogInventory`, som nu är inaktuell.
 
 #### Med minst en anpassad källa/aktie:
 
-- Om det konfigurerbara värdet för produktStock-status är **_manuellt_** ange till `Out of Stock` av en administratörsanvändare, filimport eller API-anrop kvarstår som `Out of Stock` på båda **_Administratör_** och **_Storefront_** tills det är **_manuellt_** ändrat till `In Stock` av en administratörsanvändare, filimport eller API-anrop. Den **_inte_** kontrolleras med avseende på deras underordnade produkters Stock-status.
+- Om det konfigurerbara värdet för produktStock-status är **_manuellt_** inställt på `Out of Stock` av en Admin-användare, filimport eller API-anrop förblir det `Out of Stock` på både **_Admin_** och **_Storefront_** tills det **_ändras manuellt_** till `In Stock` av en Admin-användare, fil-import eller API-anrop. Det **_kan inte_** kontrolleras av den underordnade produktens arkivstatus.
 
-- Om det konfigurerbara värdet för produktStock-status är **_manuellt_** ange till `In Stock` av en administratörsanvändare, filimport eller API-anrop, är dess arkivstatus **_automatiskt_** styrs av Stock-status för dess underordnade produkter på **_Storefront_** endast.
+- Om det konfigurerbara värdet för produktStock-status är **_manuellt_** inställt på `In Stock` av en Admin-användare, en filimport eller ett API-anrop, styrs dess lagerstatus **_automatiskt_** endast av den underordnade produktens Storefront **_6} -status._**
 
-- Om det konfigurerbara värdet för produktStock-status är **_manuellt_** ange till `In Stock` av en administratörsanvändare, filimport eller API-anrop kvarstår som `In Stock` i **_Administratör_** tills det är **_manuellt_** ändrat till `Out of Stock` av en administratörsanvändare, filimport eller API-anrop. Den **_inte_** kontrolleras med avseende på deras underordnade produkters Stock-status.
+- Om det konfigurerbara värdet för produktStock-status är **_manuellt_** inställt på `In Stock` av en administratörsanvändare, filimport eller API-anrop förblir det `In Stock` i **_Admin_** tills det **_ändras manuellt_** till `Out of Stock` av en administratörsanvändare, filimport eller API-anrop. Det **_kan inte_** kontrolleras av den underordnade produktens arkivstatus.
 
 ## Saker att komma ihåg
 
 - En konfigurerbar produkt låter kunden välja mellan olika indatatyper: listrutor, flera markeringar, visuella färgrutor och textrutor. Varje alternativ är en separat, enkel produkt.
 
-- [Stock-status](../inventory-management/sources-stocks.md) för en konfigurerbar produkt är en inställning som styrs halvmanuellt. Den skiljer sig från den enkla produktens lagerstatus, där den utgör en direkt representation av produktens tillgänglighet. För en konfigurerbar produkt är lagerstatusen en del av en lagerstatusberäkning med flera kriterier.
+- [Stock-status](../inventory-management/sources-stocks.md) för en konfigurerbar produkt är en halvmanuell inställning. Den skiljer sig från den enkla produktens lagerstatus, där den utgör en direkt representation av produktens tillgänglighet. För en konfigurerbar produkt är lagerstatusen en del av en lagerstatusberäkning med flera kriterier.
 
-- Konfigurerbara underordnade produkter kan vara enkla eller virtuella produkter **utan anpassade alternativ**. Om du vill göra anpassade underordnade produkter virtuella måste du välja `Тhis item has no weight` för **[!UICONTROL Weight]** för var och en av dem.
+- Konfigurerbara underordnade produkter kan vara enkla eller virtuella produkter **utan anpassade alternativ**. Om du vill göra anpassade underordnade produkter virtuella måste du välja `Тhis item has no weight` för inställningen **[!UICONTROL Weight]** för var och en av dem.
 
 - En konfigurerbar produkt har inte ett eget pris i katalogen. Det konfigurerbara produktpriset härleds från dess [!UICONTROL In Stock] underordnade produkter.
 
@@ -386,6 +386,6 @@ The _Stock-status_ av den konfigurerbara produkten styrs delvis av Stock-statuse
 
 - Miniatyrbilden i kundvagnen kan ställas in så att bilden visas från den konfigurerbara produktposten eller från produktvariationen.
 
-- [Attribut för färgrutor](swatches.md#create-swatches-for-products) kan konfigureras så att inte motsvarande enkla produktbilder visas när du väljer färgrutan genom att ställa in **[!UICONTROL Update Product Preview Image]** alternativvärde till `No` på sidan för redigering av attribut i Admin.
+- [Färgruteattribut](swatches.md#create-swatches-for-products) kan konfigureras så att de inte visar motsvarande enkla produktbilder när färgrutan väljs genom att ställa in alternativvärdet **[!UICONTROL Update Product Preview Image]** på `No` på attributredigeringssidan i Admin.
 
-- Temat styr hur bildgalleriet fungerar när en användare växlar mellan produktkonfigurationer. Standardbeteendet för _Tom_ temat är att åsidosätta de överordnade konfigurerbara produktbilderna med den valda produktvarianten. För Luma-temat är standardbeteendet att lägga till de valda produktvariationsbilderna i de överordnade konfigurerbara produktbilderna.
+- Temat styr hur bildgalleriet fungerar när en användare växlar mellan produktkonfigurationer. Standardbeteendet för temat _Tom_ är att åsidosätta de överordnade konfigurerbara produktbilderna med den valda produktvariationen. För Luma-temat är standardbeteendet att lägga till de valda produktvariationsbilderna i de överordnade konfigurerbara produktbilderna.

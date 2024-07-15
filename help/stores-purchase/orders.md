@@ -12,36 +12,36 @@ ht-degree: 0%
 
 # Beställningar
 
-The _Beställningar_ i rutnätet visas alla aktuella order och deras status och [orderstatus](order-status.md) via [arbetsflöde](order-processing.md). Ett enkelt sätt att förstå den grundläggande processen är att en order blir en [faktura](invoices.md)och en faktura blir [försändelse](shipments.md). Rutnätet representerar det första steget i processen och det är där du kan [uppdatera](order-update.md) befintliga order och skapa order.
+Rutnätet _Beställningar_ visar alla aktuella order och spårar deras förlopp och [orderstatus](order-status.md) via [arbetsflödet](order-processing.md). Ett enkelt sätt att förstå den grundläggande processen är att en order blir en [faktura](invoices.md) och en faktura blir en [leverans](shipments.md). Rutnätet representerar det första steget i processen och det är där du kan [uppdatera](order-update.md) befintliga order och skapa order.
 
-Vanligtvis skapas order när kunderna slutför utcheckningsprocessen från butiken. Men om en kund behöver hjälp kan du även få åtkomst till deras [kundvagn](shopping-assisted-cart-manage.md) eller [skapa en order](customer-account-create-order.md) antingen från _Beställningar_ eller direkt från kundkontot.
+Vanligtvis skapas order när kunderna slutför utcheckningsprocessen från butiken. Om en kund behöver hjälp kan du även få åtkomst till kundens [kundvagn](shopping-assisted-cart-manage.md) eller [skapa en beställning](customer-account-create-order.md) antingen från rutnätet _Beställningar_ eller direkt från kundkontot.
 
 ## Arbetsytan Beställningar
 
-På arbetsytan Beställningar visas alla aktuella order och du kan redigera befintliga order och [skapa](customer-account-create-order.md) beställningar. Varje rad i rutnätet representerar en kundorder och varje kolumn representerar ett attribut eller datafält. Använd standarden [kontroller](../getting-started/admin-grid-controls.md) för att sortera och filtrera listan, hitta order och tillämpa [funktionsmakron](../getting-started/admin-actions-control.md) till valda order. Använd flikarna ovanför sidnumreringskontrollerna för att filtrera listan, ändra standardvyn, ändra och ordna om kolumner samt exportera data.
+På arbetsytan Beställningar visas alla aktuella beställningar, och du kan redigera befintliga beställningar och [skapa](customer-account-create-order.md) beställningar. Varje rad i rutnätet representerar en kundorder och varje kolumn representerar ett attribut eller datafält. Använd [kontrollerna](../getting-started/admin-grid-controls.md) som standard för att sortera och filtrera listan, söka efter order och tillämpa [åtgärder](../getting-started/admin-actions-control.md) på valda order. Använd flikarna ovanför sidnumreringskontrollerna för att filtrera listan, ändra standardvyn, ändra och ordna om kolumner samt exportera data.
 
 ![Ordningsrutnät](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ### Rutnätslayout
 
-Markeringen av kolumner och deras ordning i rutnätet kan ändras enligt dina önskemål. Den nya layouten kan sparas som ett rutnät _visa_. Som standard inkluderas bara nio av 20 tillgängliga kolumner i rutnätet.
+Markeringen av kolumner och deras ordning i rutnätet kan ändras enligt dina önskemål. Den nya layouten kan sparas som ett stödraster _vy_. Som standard inkluderas bara nio av 20 tillgängliga kolumner i rutnätet.
 
-![Ordna rutnätskolumner](./assets/order-grid-columns.png){width="600" zoomable="yes"}
+![Ordna kolumner för stödraster](./assets/order-grid-columns.png){width="600" zoomable="yes"}
 
 #### Ändra kolumnmarkeringen
 
-Klicka i det övre högra hörnet på _Kolumner_ ( ![Kolumninställningar](../assets/icon-columns.png) ) och gör följande:
+Klicka på kontrollen _Kolumner_ ( ![Kolumninställningar](../assets/icon-columns.png) ) i det övre högra hörnet och gör följande:
 
 - Markera kryssrutan för den kolumn som du vill lägga till i rutnätet.
 - Avmarkera kryssrutan för de kolumner som du vill ta bort från stödrastret.
 
 #### Återställ kolumnmarkeringen
 
-1. Klicka på _Kolumner_ ( ![Kolumninställningar](../assets/icon-columns.png) ).
+1. Klicka på kontrollen _Kolumner_ ( ![Kolumninställningar](../assets/icon-columns.png) ).
 
-1. Om du vill återställa stödrasterkolumnerna klickar du på **[!UICONTROL Reset]**.
+1. Klicka på **[!UICONTROL Reset]** om du vill återställa stödrasterkolumnerna.
 
-   Stödrasterlayouten ändras till att endast visas [standardkolumner](#column-descriptions).
+   Rutnätslayouten ändras så att endast [standardkolumner](#column-descriptions) visas.
 
 #### Flytta en kolumn
 
@@ -51,34 +51,34 @@ Klicka i det övre högra hörnet på _Kolumner_ ( ![Kolumninställningar](../a
 
 #### Spara en stödrastervy
 
-1. Klicka på **[!UICONTROL View]** ( ![Ögonikon](../assets/icon-view-eye.png) ).
+1. Klicka på kontrollen **[!UICONTROL View]** ( ![Ögon-ikon](../assets/icon-view-eye.png) ).
 
 1. Klicka på **[!UICONTROL Save Current View]**.
 
-1. Ange en **[!UICONTROL name]** för vyn.
+1. Ange **[!UICONTROL name]** som vy.
 
-1. Om du vill spara alla ändringar klickar du på pilen ( ![Pilikon](../assets/icon-arrow-save.png) ).
+1. Om du vill spara alla ändringar klickar du på pilen ( ![pilikonen](../assets/icon-arrow-save.png) ).
 
    Namnet på vyn visas nu som den aktuella vyn.
 
 #### Ändra vyn
 
-Klicka på **[!UICONTROL View]** ( ![Ögonikon](../assets/icon-view-eye.png) ). Gör sedan något av följande:
+Klicka på kontrollen **[!UICONTROL View]** ( ![Ögon-ikon](../assets/icon-view-eye.png) ). Gör sedan något av följande:
 
 - Om du vill använda en annan vy klickar du på vyns namn.
 
-- Om du vill ändra namnet på en vy klickar du på _Redigera_ ( ![Pennikon](../assets/icon-edit-pencil.png) ) och uppdatera namnet.
+- Om du vill ändra namnet på en vy klickar du på ikonen _Redigera_ ( ![Penna ](../assets/icon-edit-pencil.png) ) och uppdaterar namnet.
 
-### Arbetsytekontroller
+### Workspace
 
 | Kontroll | Beskrivning |
 |--- |--- |
-| [!UICONTROL Create New Order] | Skapar en order. Se [Skapa en beställning](customer-account-create-order.md) för mer information. |
+| [!UICONTROL Create New Order] | Skapar en order. Mer information finns i [Skapa en beställning](customer-account-create-order.md). |
 | [!UICONTROL Go to Archive] | Visar en lista med arkiverade order. |
 | [!UICONTROL Search] | Startar en sökning efter order baserat på de aktuella filtren. |
 | [!UICONTROL Filters] | Definierar en uppsättning sökparametrar som används för att filtrera posterna som visas i rutnätet. |
 | [!UICONTROL Default View] | Anger stödrastrets standardkolumnlayout. |
-| [!UICONTROL Columns] | Anger markeringen av kolumner och deras ordning i rutnätet. Kolumnlayouten kan ändras och sparas som _visa_. Som standard inkluderas bara vissa av kolumnerna i rutnätet. |
+| [!UICONTROL Columns] | Anger markeringen av kolumner och deras ordning i rutnätet. Kolumnlayouten kan ändras och sparas som en _vy_. Som standard inkluderas bara vissa av kolumnerna i rutnätet. |
 | [!UICONTROL Export] | Exporterar de markerade posterna som en CSV- eller Excel XML-fil. |
 
 {style="table-layout:auto"}
@@ -87,11 +87,11 @@ Klicka på **[!UICONTROL View]** ( ![Ögonikon](../assets/icon-view-eye.png) ). 
 
 Om du vill utföra en åtgärd på en viss order markerar du kryssrutan i den första kolumnen i varje order. Om du vill markera eller avmarkera alla order använder du kontrollen längst upp i kolumnen.
 
-![Orderåtgärder](./assets/orders-action.png){width="600" zoomable="yes"}
+![Beställa åtgärder](./assets/orders-action.png){width="600" zoomable="yes"}
 
 | Kontroll | Beskrivning |
 |--- |--- |
-| [!UICONTROL Actions] | Visar alla åtgärder som kan tillämpas på valda order. Om du vill tillämpa en åtgärd på en order eller en grupp av order markerar du kryssrutan i den första kolumnen i varje order. <br/>Orderåtgärder: `Cancel` / `Hold` / `Unhold` / `Print Invoices` / `Print Packing Slips` / `Print Credit Memos` / `Print All` / `Print Shipping Labels` / `Move to Archive` ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) |
+| [!UICONTROL Actions] | Visar alla åtgärder som kan tillämpas på valda order. Om du vill tillämpa en åtgärd på en order eller en grupp av order markerar du kryssrutan i den första kolumnen i varje order. <br/>Beställa åtgärder: `Cancel` / `Hold` / `Unhold` / `Print Invoices` / `Print Packing Slips` / `Print Credit Memos` / `Print All` / `Print Shipping Labels` / `Move to Archive` ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) |
 | [!UICONTROL Mass Actions] | Kan användas för att markera flera poster som mål för åtgärden. Markera kryssrutan i den första kolumnen i varje post som är föremål för åtgärden. Alternativ: `Select All` / `Unselect All` / `Select Visible` / `Unselect Visible` |
 | [!UICONTROL Submit] | Tillämpar den aktuella åtgärden på de markerade orderposterna. |
 | [!UICONTROL Edit] | Öppnar ordningen i redigeringsläge. |
@@ -130,8 +130,8 @@ Ytterligare kolumner är tillgängliga:
 | [!UICONTROL Customer Name] | Förnamn och efternamn på den kund som lade ordern. |
 | [!UICONTROL Payment Method] | Betalningsmetoden som ska användas för ordern. |
 | [!UICONTROL Total Refunded] | Alla belopp från ordern som ska återbetalas till kunden. |
-| [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Alla belopp i beställningen som ska återbetalas till kundens butikskrediter. |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Finns för Adobe Commerce B2B) Namnet på [företag](../b2b/account-companies.md) som gjorde beställningen. |
+| [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Alla belopp i ordern som ska återbetalas till kundens butikskrediter. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (tillgänglig med Adobe Commerce B2B) Namnet på det [företag](../b2b/account-companies.md) som gjorde beställningen. |
 
 {style="table-layout:auto"}
 
@@ -145,23 +145,23 @@ Du kan använda sökrutan längst upp till vänster i stödrastret Beställninga
 
 1. Ange en sökterm i sökrutan.
 
-1. Om du vill visa resultatet klickar du på _Sök_ ( ![Ikon för förstoringsglas](../assets/icon-magnify-search.png) ).
+1. Om du vill visa resultatet klickar du på _Sök_ ( ![Förstoringsglaset ](../assets/icon-magnify-search.png) ).
 
 ### Filtrera sökningen
 
-1. Om du vill visa urvalet av sökfilter klickar du på _Filter_ ( ![Tratt, ikon](../assets/icon-filter-search.png) ).
+1. Om du vill visa urvalet av sökfilter klickar du på fliken _Filter_ ( ![Tratt icon](../assets/icon-filter-search.png) ).
 
-   ![Beställningsfilter](./assets/order-search-filter.png){width="600" zoomable="yes"}
+   ![Beställa filter](./assets/order-search-filter.png){width="600" zoomable="yes"}
 
 1. Fyll i så många av filtren du vill för att beskriva de order du vill hitta.
 
-1. Klicka **[!UICONTROL Apply Filters]** för att visa resultaten.
+1. Klicka på **[!UICONTROL Apply Filters]** för att visa resultatet.
 
 ### Sökfilter
 
 | Filter | Beskrivning |
 |--- |--- |
-| [!UICONTROL Purchase Date] | Filtrerar sökningen baserat på köpdatum. Om du vill söka efter order inom ett datumintervall anger du båda **[!UICONTROL from]** och **[!UICONTROL to]** datum. |
+| [!UICONTROL Purchase Date] | Filtrerar sökningen baserat på köpdatum. Om du vill söka efter order inom ett datumintervall anger du både **[!UICONTROL from]**- och **[!UICONTROL to]**-datumen. |
 | [!UICONTROL ID] | Filtrerar sökningen baserat på order-ID. |
 | [!UICONTROL Grand Total (Base)] | Filtrerar sökningen baserat på totalsumman för varje order, vilket inkluderar alla krediter som har tillämpats på ordern. |
 | [!UICONTROL Grand Total (Purchased)] | Filtrerar sökningen baserat på totalsumman för inköpta objekt i varje order. |
@@ -187,8 +187,8 @@ Du kan använda sökrutan längst upp till vänster i stödrastret Beställninga
 
 Hjälp om felsökning av orderproblem finns i följande artiklar i Commerce Support Knowledge Base:
 
-- [Visningsfel för order](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
+- [Visningsfel för beställningar](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
 - [PayPal-dubblettorder 10415-fel](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)
 - [Nya order skickas till arkivet](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.html)
-- [Beställningar som inte visas i beställningsrutnätet i administratören](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
-- [Orderstatus - felaktig leverans skapad via REST API](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-7/mdva-30972-magento-patch-order-status-incorrect-shipment-created-via-rest-api.html)
+- [Beställningar visas inte i rutnätet för beställningar i Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
+- [Beställningsstatus - felaktig leverans skapad via REST API](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-7/mdva-30972-magento-patch-order-status-incorrect-shipment-created-via-rest-api.html)

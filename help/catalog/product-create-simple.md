@@ -5,32 +5,32 @@ exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
 
 # Enkel produkt
 
-En av nycklarna till att utnyttja kraften i olika produkttyper är att lära sig när man ska använda en enkel, fristående produkt. En enkel produkt kan säljas individuellt eller som en del av en grupperad produkt, konfigurerbar produkt eller paketprodukt. En enkel produkt med anpassade alternativ kallas ibland för _sammansatt produkt_.
+En av nycklarna till att utnyttja kraften i olika produkttyper är att lära sig när man ska använda en enkel, fristående produkt. En enkel produkt kan säljas individuellt eller som en del av en grupperad produkt, konfigurerbar produkt eller paketprodukt. En enkel produkt med anpassade alternativ kallas ibland för en _sammansatt produkt_.
 
-I följande instruktioner visas hur du skapar en enkel produkt med en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. Varje obligatoriskt fält markeras med en röd asterisk (`*`). När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
+I följande instruktioner visas hur du skapar en enkel produkt med en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. Alla obligatoriska fält är markerade med en röd asterisk (`*`). När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
 
 ![Enkel produkt](./assets/product-simple.png){width="700" zoomable="yes"}
 
 ## Steg 1: Välj produkttyp
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
-1. På _[!UICONTROL Add Product]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ) längst upp till höger väljer du **[!UICONTROL Simple Product]**.
+1. Välj **[!UICONTROL Simple Product]** på menyn _[!UICONTROL Add Product]_( ![menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ) i det övre högra hörnet.
 
    ![Lägg till enkel produkt](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
 ## Steg 2: Välj attributuppsättning
 
-Välj [attributuppsättning](attribute-sets.md) som används som mall för produkten:
+Så här väljer du den [attributuppsättning](attribute-sets.md) som används som mall för produkten:
 
-- Klicka på **[!UICONTROL Attribute Set]** och ange hela eller delar av attributuppsättningens namn.
+- Klicka i fältet **[!UICONTROL Attribute Set]** och ange hela eller en del av attributuppsättningens namn.
 
 - Välj den attributuppsättning som du vill använda i listan som visas.
 
@@ -42,19 +42,19 @@ Formuläret uppdateras för att återspegla ändringen.
 
 1. Ange **[!UICONTROL Product Name]**.
 
-1. Acceptera standardinställningen **[!UICONTROL SKU]** som baseras på produktnamnet eller anger ett annat.
+1. Acceptera standardvärdet **[!UICONTROL SKU]** som baseras på produktnamnet eller ange ett annat.
 
 1. Ange produkten **[!UICONTROL Price]**.
 
-1. Eftersom produkten ännu inte är klar att publiceras ställer du in **[!UICONTROL Enable Product]** alternativ till `No`.
+1. Eftersom produkten ännu inte är klar att publiceras anger du alternativet **[!UICONTROL Enable Product]** till `No`.
 
-1. klicka **[!UICONTROL Save]** och fortsätta.
+1. klicka på **[!UICONTROL Save]** och fortsätt.
 
-   När produkten sparas kan du [Butiksvy](introduction.md#product-scope) Väljaren visas i det övre vänstra hörnet.
+   När produkten sparas visas väljaren [Store View](introduction.md#product-scope) i det övre vänstra hörnet.
 
-1. Välj **[!UICONTROL Store View]** där produkten ska finnas tillgänglig.
+1. Välj den **[!UICONTROL Store View]** där produkten ska vara tillgänglig.
 
-   ![Välj butiksvyn](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![Välj butiksvy](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Steg 4: Slutför de grundläggande inställningarna
 
@@ -71,19 +71,19 @@ Formuläret uppdateras för att återspegla ändringen.
    - `VAT Reduced`
    - `VAT Standard`
 
-1. Ange **[!UICONTROL Quantity]** av den produkt som finns i lager.
+1. Ange **[!UICONTROL Quantity]** för produkten som finns i lager.
 
-   Som standard **[!UICONTROL Stock Status]** är inställd på `In Stock`.
+   Som standard är **[!UICONTROL Stock Status]** inställd på `In Stock`.
 
    >[!NOTE]
    >
-   >Om du aktiverar [Inventory management](../inventory-management/introduction.md), försäljare med en källa anger kvantiteten i det här avsnittet. Flera källhandlare lägger till källor och kvantiteter i avsnittet Källor. Se följande _Tilldela källor och kvantiteter (Inventory management)_ -avsnitt.
+   >Om du aktiverar [Inventory management](../inventory-management/introduction.md) anger handlare med en enda Source kvantiteten i det här avsnittet. Flera Source-handlare lägger till källor och kvantiteter i avsnittet Källor. Se följande avsnitt _Tilldela källor och kvantiteter (Inventory management)_.
 
-1. Ange **[!UICONTROL Weight]** av produkten.
+1. Ange **[!UICONTROL Weight]** för produkten.
 
-1. Acceptera standardinställningen **[!UICONTROL Visibility]** inställning för `Catalog, Search`.
+1. Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
-1. Tilldela _[!UICONTROL Categories]_till produkten klickar du på&#x200B;**[!UICONTROL Select…]**och gör något av följande:
+1. Om du vill tilldela _[!UICONTROL Categories]_till produkten klickar du på rutan **[!UICONTROL Select…]**och gör något av följande:
 
    **Välj en befintlig kategori**:
 
@@ -95,11 +95,11 @@ Formuläret uppdateras för att återspegla ändringen.
 
    - Klicka på **[!UICONTROL New Category]**.
 
-   - Ange **[!UICONTROL Category Name]** och väljer **[!UICONTROL Parent Category]** som bestämmer dess placering i menystrukturen.
+   - Ange **[!UICONTROL Category Name]** och välj **[!UICONTROL Parent Category]** som avgör dess position i menystrukturen.
 
    - Klicka på **[!UICONTROL Create Category]**.
 
-1. Så här visar du produkten i listan över [nya produkter](../content-design/widget-new-products-list.md)väljer du **[!UICONTROL Set Product as New]** kryssrutan.
+1. Markera kryssrutan **[!UICONTROL Set Product as New]** om du vill visa produkten i listan över [nya produkter](../content-design/widget-new-products-list.md).
 
 1. Välj **[!UICONTROL Country of Manufacture]**.
 
@@ -122,17 +122,17 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 - [Design](settings-advanced-design.md)
 - [Presentalternativ](product-gift-options.md)
 
-## Steg 6: Publicera produkten
+## Steg 6: Publish produkten
 
-1. Om du vill publicera produkten i katalogen anger du **[!UICONTROL Enable Product]** växla till `Yes`.
+1. Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable Product]**-växeln till `Yes`.
 
 1. Gör något av följande:
 
    - **Metod 1:** Spara och förhandsgranska
 
-      - Klicka på i det övre högra hörnet **[!UICONTROL Save]**.
+      - Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-      - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på _Administratör_ (![Menypil](../assets/icon-menu-down-arrow-black.png)).
+      - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ (![Menypil](../assets/icon-menu-down-arrow-black.png)).
 
      Butiken öppnas på en ny flik i webbläsaren.
 
@@ -140,7 +140,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
    - **Metod 2:** Spara och stäng
 
-     På _[!UICONTROL Save]_ ( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ) väljer du **[!UICONTROL Save & Close]**.
+     Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## Saker att komma ihåg
 

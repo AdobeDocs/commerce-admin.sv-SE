@@ -1,36 +1,36 @@
 ---
 title: Medielagring
-description: Lär dig hur medielagring hjälper dig att ordna och få tillgång till Commerce-mediefiler som lagras på servern.
+description: Lär dig hur medielagring hjälper dig att ordna och få tillgång till Commerce mediefiler som lagras på servern.
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
 source-git-commit: 7dae6b6d387c796c5ff472293c6590fabaa83e85
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # Medielagring
 
-Med medielagring kan du ordna och få tillgång till mediefiler som lagras på servern. Sökvägen till filernas plats avgörs av [bas-URL](../stores-purchase/store-urls.md) konfiguration. Filer i medielagring kan nås från redigeraren när du arbetar med sidor och statiska block. Vanligtvis finns medielagring i filsystemet på samma server som [!DNL Commerce] programfiler.
+Med medielagring kan du ordna och få tillgång till mediefiler som lagras på servern. Sökvägen till filernas plats bestäms av konfigurationen för [bas-URL](../stores-purchase/store-urls.md) . Filer i medielagring kan nås från redigeraren när du arbetar med sidor och statiska block. Vanligtvis finns medielagring i filsystemet på samma server som programfilerna för [!DNL Commerce].
 
-Alternativt kan mediefiler hanteras i en [databas](media-storage-database.md)eller på en separat server eller [innehållsleveransnätverk](media-storage-content-delivery-network.md). Fördelen med att använda alternativ lagring är att det minimerar den arbetsinsats som krävs för att synkronisera media. Synkroniseringsprestanda påverkas särskilt när flera instanser av systemet distribueras på olika servrar som behöver åtkomst till samma bilder, CSS-filer och andra mediefiler.
+Alternativt kan mediefiler hanteras i en [databas](media-storage-database.md), på en separat server eller i ett [leveransnätverk](media-storage-content-delivery-network.md). Fördelen med att använda alternativ lagring är att det minimerar den arbetsinsats som krävs för att synkronisera media. Synkroniseringsprestanda påverkas särskilt när flera instanser av systemet distribueras på olika servrar som behöver åtkomst till samma bilder, CSS-filer och andra mediefiler.
 
-Redigeraren kan konfigureras att använda statisk eller [URL för dynamiska media](../catalog/catalog-urls.md#configure-catalog-media-url-format) för kataloginnehåll i kategorier eller produktbeskrivningar.
+Redigeraren kan konfigureras att använda statiska eller [dynamiska medie-URL:er](../catalog/catalog-urls.md#configure-catalog-media-url-format) för kataloginnehåll i kategori- eller produktbeskrivningar.
 
-![[!DNL Commerce] Medielagring](./assets/media-storage.png){width="650" zoomable="yes"}
+![[!DNL Commerce] medielagring](./assets/media-storage.png){width="650" zoomable="yes"}
 
 ## Lägg till filer i medielagringen
 
 De första två stegen är samma som om du infogar en bild.
 
-1. På [redigerare](editor.md) klickar du på _Infoga bild_ -ikon.
+1. Klicka på ikonen _Infoga bild_ i verktygsfältet [redigerare](editor.md) .
 
    ![Ikonen Infoga bild](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   Åtgärden öppnar _[!UICONTROL Insert/edit image]_-dialogrutan.
+   Den här åtgärden öppnar dialogrutan _[!UICONTROL Insert/edit image]_.
 
-1. Efter _[!UICONTROL Source]_klickar du på_ Sök _ikon (![Ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
+1. Efter _[!UICONTROL Source]_klickar du på ikonen_ Sök _(![ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
 1. Gör något av följande i katalogträdet till vänster:
 
@@ -50,15 +50,15 @@ De första två stegen är samma som om du infogar en bild.
 
    - Klicka på **[!UICONTROL Open]**.
 
-   Så här använder du resurser från Adobe Stock med [integration](adobe-stock.md):
+   Så här använder du resurser från Adobe Stock med [integreringen](adobe-stock.md):
 
    - Klicka på **[!UICONTROL Search Adobe Stock]**.
 
-   - Lägga till en förhandsvisning eller licensierad bild från Adobe Stock (se [Använda Adobe Stock-bilder](adobe-stock-manage.md)).
+   - Lägg till en förhandsvisning eller licensierad bild från Adobe Stock (se [Använda Adobe Stock-bilder](adobe-stock-manage.md)).
 
 Bilderna överförs till den aktuella medielagringsmappen på servern.
 
-![[!DNL Commerce] Medielagring](./assets/media-storage.png){width="650" zoomable="yes"}
+![[!DNL Commerce] medielagring](./assets/media-storage.png){width="650" zoomable="yes"}
 
 ## Infoga en bild från medielagring
 
@@ -66,9 +66,9 @@ Bilderna överförs till den aktuella medielagringsmappen på servern.
 
 ### Metod 1: WYSIWYG-läge
 
-1. På [redigerare](editor.md) klickar du på _Infoga bild_ -ikon.
+1. Klicka på ikonen _Infoga bild_ i verktygsfältet [redigerare](editor.md) .
 
-1. Efter _[!UICONTROL Source]_klickar du på_ Sök _ikon (![Ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
+1. Efter _[!UICONTROL Source]_klickar du på ikonen_ Sök _(![ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
    ![Markera sökikonen](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
@@ -78,8 +78,8 @@ Bilderna överförs till den aktuella medielagringsmappen på servern.
 
 ### Metod 2: HTML-läge
 
-1. Placera markören i koden där `<img>` -taggen ska infogas.
+1. Placera markören i koden där taggen `<img>` ska infogas.
 
 1. Klicka på **[!UICONTROL Insert Image]**.
 
-   ![Infoga bild (läget HTML)](./assets/editor-html-mode-insert-image.png){width="600" zoomable="yes"}
+   ![Infoga bild (HTML-läge)](./assets/editor-html-mode-insert-image.png){width="600" zoomable="yes"}

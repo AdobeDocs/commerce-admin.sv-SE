@@ -14,15 +14,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-När det här alternativet är aktiverat kan RMA-begäranden skickas in av kunder från butiken. Ett RMA-nummer kan bara genereras om det finns ett objekt i ordningen som kan returneras. Begäranden att returnera enskilda objekt hanteras av _Aktivera RMA_ i varje produktpost. Som standard används konfigurationsinställningarna på produkten (_[!UICONTROL Use Config Settings]_är markerat). If_[!UICONTROL Enable RMA]_ är inställd på `No`, visas produkten inte i listan med artiklar som kan returneras. Om du ändrar _Aktivera RMA_ gäller det både nya och befintliga order.
+När det här alternativet är aktiverat kan RMA-begäranden skickas in av kunder från butiken. Ett RMA-nummer kan bara genereras om det finns ett objekt i ordningen som kan returneras. Begäranden att returnera enskilda objekt hanteras av attributet _Enable RMA_ i varje produktpost. Som standard används konfigurationsinställningarna för produkten (_[!UICONTROL Use Config Settings]_är valt). Om_[!UICONTROL Enable RMA]_ är inställt på `No` visas produkten inte i listan med objekt som är tillgängliga för retur. Om du ändrar inställningen _Aktivera RMA_ gäller den både nya och befintliga order.
 
 ## Aktivera RMA för din butik
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Sales]** under.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL RMA Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL RMA Settings]**.
 
    ![RMA-inställningar](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
@@ -32,12 +32,12 @@ När det här alternativet är aktiverat kan RMA-begäranden skickas in av kunde
 
 1. Ange **[!UICONTROL Enable RMA on Product Level]** till `Yes`.
 
-   Den här inställningen avgör beteendet för _Aktivera RMA_ attribut för enskilda produkter i butiken:
+   Den här inställningen avgör beteendet för attributet _Aktivera RMA_ för enskilda produkter i butiken:
 
-   - När [!UICONTROL Enable RMA on Product Level] är inställd på `Yes`kan kunderna i butiken returnera alla enskilda produkter. Den innehåller båda _[!UICONTROL Enable RMA]_= `Yes` och_[!UICONTROL Enable RMA]_ = `No` produktattributvärden.
-   - När [!UICONTROL Enable RMA on Product Level] är inställd på `No`kan kunder i butiken bara returnera produkter med _[!UICONTROL Enable RMA]_= `Yes` produktattributvärde.
+   - När [!UICONTROL Enable RMA on Product Level] är inställt på `Yes` kan kunder i butiken returnera alla enskilda produkter. Den innehåller både _[!UICONTROL Enable RMA]_= `Yes` och_[!UICONTROL Enable RMA]_ = `No` produktattributsvärden.
+   - När [!UICONTROL Enable RMA on Product Level] är inställt på `No` kan kunder på butiken bara returnera produkter med ett _[!UICONTROL Enable RMA]_= `Yes` produktattributvärde.
 
-1. Ange **[!UICONTROL Use Store Address]** till något av följande värden:
+1. Ange **[!UICONTROL Use Store Address]** till ett av följande värden:
 
    - `Yes` - Skicka returnerade produkter till butiksadressen.
    - `No` - Ange en alternativ adress för produktreturer.
@@ -48,13 +48,13 @@ När det här alternativet är aktiverat kan RMA-begäranden skickas in av kunde
 
 ## Konfigurera leveransmetoder för returer
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Delivery Methods]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Delivery Methods]**.
 
 1. Expandera avsnittet för transportören som du vill använda för returtjänsten, till exempel **[!UICONTROL UPS]**.
 
-   ![Aktivera RMA-tjänst för transportföretag](./assets/rma-delivery-method.png){width="600" zoomable="yes"}
+   ![Aktivera RMA-tjänsten för transportföretaget](./assets/rma-delivery-method.png){width="600" zoomable="yes"}
 
 1. Ange **[!UICONTROL Enabled for RMA]** till `Yes`.
 
@@ -66,11 +66,11 @@ Om du aktiverar RMA-nummer för din butik och katalogen innehåller produkter so
 
 1. Öppna produkten i redigeringsläge.
 
-1. Rulla ned och expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Autosettings]** -avsnitt.
+1. Bläddra nedåt och utöka ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Autosettings]**.
 
-1. Rensa **[!UICONTROL Use Config Setting]** vid behov.
+1. Avmarkera kryssrutan **[!UICONTROL Use Config Setting]** om det behövs.
 
-1. Växla **[!UICONTROL Enable RMA]** ange till `No`.
+1. Växla inställningen **[!UICONTROL Enable RMA]** till `No`.
 
    ![Inaktivera RMA för en produkt](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"}
 

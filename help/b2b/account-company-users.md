@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Hantera företagsanvändarkonton
 
-Företagsanvändare tilldelas av företagsadministratören och visas från administratören i dialogrutan _[!UICONTROL Customers]_rutnät efter kundtyp,_[!UICONTROL Company User]_. Dessa personer är vanligtvis köpare med olika behörighetsnivåer för att få tillgång till butikstjänster och resurser.
+Företagsanvändare tilldelas av företagsadministratören och visas från administratören i rutnätet _[!UICONTROL Customers]_utifrån kundtypen_[!UICONTROL Company User]_. Dessa personer är vanligtvis köpare med olika behörighetsnivåer för att få tillgång till butikstjänster och resurser.
 
-Företagsadministratören ställer först in [företagsstruktur](account-company-structure.md)och sedan utför följande uppgifter efter behov:
+Företagsadministratören ställer först in [företagsstrukturen](account-company-structure.md) och slutför sedan följande uppgifter efter behov:
 
 - Skapa företagsanvändare och tilldela användare till team
 
@@ -29,15 +29,15 @@ Företagsadministratören ställer först in [företagsstruktur](account-company
 
 1. Från butiken loggar företagsadministratören in på sitt konto.
 
-1. I den vänstra panelen väljer **[!UICONTROL Company Users]**.
+1. Välj **[!UICONTROL Company Users]** i den vänstra panelen.
 
-   ![Företag](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+   ![Företagsanvändare](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. Klickningar **[!UICONTROL Add New User]** och gör följande:
+1. Klicka på **[!UICONTROL Add New User]** och gör följande:
 
-   - Anger **[!UICONTROL Job Title]** för den nya användaren.
+   - Anger den nya användarens **[!UICONTROL Job Title]**.
 
-   - Väljer lämplig **[!UICONTROL User Role]** om rollerna och behörigheterna är definierade. Annars kan de gå tillbaka senare för att tilldela rollen.
+   - Väljer lämplig **[!UICONTROL User Role]** om roller och behörigheter har definierats. Annars kan de gå tillbaka senare för att tilldela rollen.
 
      ![Lägg till ny användare](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
@@ -47,50 +47,50 @@ Företagsadministratören ställer först in [företagsstruktur](account-company
       - **[!UICONTROL Email]**
       - **[!UICONTROL Phone Number]**
 
-   Som standard är **[!UICONTROL Status]** för kontot är `Active`.
+   Som standard är **[!UICONTROL Status]** för kontot `Active`.
 
-1. När det är klart klickar du **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 1. Upprepar processen att skapa så många företagsanvändare som behövs.
 
    De nya användarna visas i listan Företagsanvändare tillsammans med företagsadministratören.
 
-Företagsadministratören kan påminna varje företagsanvändare om att lägga till standardfakturerings- och leveransadressen i sin första order för att spara tid [adressbok](../customers/account-dashboard-address-book.md).
+Om du vill spara tid under den första beställningen kan företagsadministratören påminna varje företagsanvändare om att lägga till företagets standardfakturerings- och leveransadress i sin [adressbok](../customers/account-dashboard-address-book.md).
 
 ## Redigera företagsanvändare
 
 1. Från butiken loggar företagsadministratören in på sitt konto.
 
-1. I den vänstra panelen väljer **[!UICONTROL Company Users]**.
+1. Välj **[!UICONTROL Company Users]** i den vänstra panelen.
 
-1. Söker efter användarposten som ska uppdateras och klickar **[!UICONTROL Edit]**.
+1. Söker efter användarposten som ska uppdateras och klickar på **[!UICONTROL Edit]**.
 
 1. Gör de ändringar som behövs.
 
-1. När det är klart klickar du **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ## Ta bort en företagsanvändare
 
 1. Från butiken loggar företagsadministratören in på sitt konto.
 
-1. I den vänstra panelen väljer **[!UICONTROL Company Structure]**.
+1. Välj **[!UICONTROL Company Structure]** i den vänstra panelen.
 
 1. Väljer företagsanvändaren i företagsstrukturen.
 
-1. Klickningar **[!UICONTROL Delete Selected]**.
+1. Klicka på **[!UICONTROL Delete Selected]**.
 
    ![Ta bort användare](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
-1. När du uppmanas att bekräfta klickar du **[!UICONTROL Delete]**.
+1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Delete]**.
 
-I Admin finns företagsanvändaren kvar i listan i [Kunder](../customers/customers-all.md) stödraster, men med `Inactive` status.
+I Admin visas företagsanvändaren fortfarande i rutnätet [Kunder](../customers/customers-all.md), men med statusen `Inactive`.
 
 ## Fältbeskrivningar
 
 | Fält | Beskrivning |
 |--------------|---------------|
 | [!UICONTROL Job Title] | Företagsanvändarens jobbtitel. |
-| [!UICONTROL User Role] | The [roll](account-company-roles-permissions.md) som tilldelats företagsanvändaren. Alternativ: `Default User` / (övriga roller) |
+| [!UICONTROL User Role] | Den [roll](account-company-roles-permissions.md) som tilldelats företagsanvändaren. Alternativ: `Default User` / (andra roller) |
 | [!UICONTROL First Name] | Företagsanvändarens förnamn. |
 | [!UICONTROL Last Name] | Företagsanvändarens efternamn. |
 | [!UICONTROL Email] | Företagsanvändarens e-postadress. |

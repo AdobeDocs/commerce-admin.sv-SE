@@ -18,7 +18,7 @@ I följande exempel läggs en kampanjbild till på kategorisidan under kampanjen
 
 ## Lägg till kampanjartikeln för en kategori
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** på sidofältet _Admin_.
 
 1. Leta reda på kategorin som du vill använda i kampanjen och öppna den i redigeringsläge.
 
@@ -30,25 +30,25 @@ I följande exempel läggs en kampanjbild till på kategorisidan under kampanjen
 
    ![Tilldela till en befintlig kampanj](./assets/content-staging-assign-to-existing-campaign.png){width="600" zoomable="yes"}
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
-1. För **[!UICONTROL Category Image]**, klicka **[!UICONTROL Upload]** och välj den bild som ska visas på kategorisidan under kampanjen.
+1. För **[!UICONTROL Category Image]** klickar du på **[!UICONTROL Upload]** och väljer den bild som ska visas på kategorisidan under kampanjen.
 
-   ![Lägga till en kategoribild](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
+   ![Lägger till en kategoribild](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ## Validera objektet
 
-1. På _Administratör_ sidebar, gå till  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**på sidofältet_ Admin _.
 
 1. Hitta kampanjen i den visade listan eller tidslinjen och öppna den för att få tillgång till informationen:
 
-   - Om du vill visa en lista klickar du **[!UICONTROL Select]** och sedan **[!UICONTROL View/Edit]** i _[!UICONTROL Action]_kolumn.
+   - Om du vill visa en lista klickar du på **[!UICONTROL Select]** och sedan på **[!UICONTROL View/Edit]** i kolumnen _[!UICONTROL Action]_.
    - Om du vill visa en tidslinje klickar du en gång för att visa sammanfattningen och sedan på **[!UICONTROL View/Edit]**.
 
    ![Kampanjinformation](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Categories]** om du vill visa en lista över tilldelade kategorier.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Categories]** om du vill visa listan med tilldelade kategorier.
 
-1. Om du vill granska sidorna för kategorin när kampanjen är aktiv går du tillbaka till kontrollpanelen, klickar på kampanjen igen och klickar sedan på **[!UICONTROL Preview]**.
+1. Om du vill granska sidorna för kategorin när kampanjen är aktiv går du tillbaka till instrumentpanelen, klickar på kampanjen igen och sedan på **[!UICONTROL Preview]**.

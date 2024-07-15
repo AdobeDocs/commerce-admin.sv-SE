@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Placera innehållsblock
 
-Koden som styr sidlayout och placering av block skrivs i XML [Widgetar](widgets.md). Dessa widgetar gör det enkelt att placera ett block på en viss plats på sidan, och även för en viss produkt eller kategori utan att behöva skriva någon kod. Du kan välja varje alternativ i en lista i stället för att försöka komma ihåg alla möjliga kombinationer.
+Koden som styr sidlayout och placering av block skrivs i XML [Widgets](widgets.md). Dessa widgetar gör det enkelt att placera ett block på en viss plats på sidan, och även för en viss produkt eller kategori utan att behöva skriva någon kod. Du kan välja varje alternativ i en lista i stället för att försöka komma ihåg alla möjliga kombinationer.
 
-I följande lista beskrivs de platser per sidtyp där block vanligtvis placeras. Mer information om hur områden på sidan definieras finns i [Standardsidlayout](page-layout.md#standard-page-layouts).
+I följande lista beskrivs de platser per sidtyp där block vanligtvis placeras. Mer information om hur områden på sidan definieras finns i [Standardsidlayouter](page-layout.md#standard-page-layouts).
 
 ## Kategori- och CMS-sidor
 
@@ -22,7 +22,7 @@ I följande lista beskrivs de platser per sidtyp där block vanligtvis placeras.
 | [!UICONTROL Breadcrumbs] | Navigeringshjälpen överst på många sidor som visar din aktuella plats som en länk. Allt annat innehåll som placeras i vägbeskrivningarna flyter till höger om vägbeskrivningarna, om de visas. |
 | [!UICONTROL Left Column] | Innehållet läggs till i den vänstra kolumnen. |
 | [!UICONTROL Main Content Area] | Innehåll läggs till i huvudinnehållsområdet. |
-| [!UICONTROL My Cart Extra Actions] | Innehållet visas under _Delsumma för kundvagn_ när kunden klickar på kundvagnsikonen överst på sidan. |
+| [!UICONTROL My Cart Extra Actions] | Innehållet visas under _kundvagnsdelsumman_ när kunden klickar på kundvagnsikonen överst på sidan. |
 | [!UICONTROL Navigation Bar] | Innehållet visas under huvudnavigeringsfältet. |
 | [!UICONTROL Page Bottom] | Innehållet visas längst ned på sidan. |
 | [!UICONTROL Page Footer] | Innehållet visas ovanför sidfoten på sidan. |
@@ -38,23 +38,23 @@ I följande lista beskrivs de platser per sidtyp där block vanligtvis placeras.
 | Blockreferens | Position |
 |----------|-------- |
 | [!UICONTROL Alert URLs] | Innehållet visas under produktens titel på produktinformationssidan. |
-| [!UICONTROL Bottom Block Options Wrapper] | Om anpassade alternativ läggs till visas innehållet under _Lägg i kundvagnen_ -knappen. |
+| [!UICONTROL Bottom Block Options Wrapper] | Om anpassade alternativ läggs till visas innehållet under knappen _Lägg till i kundvagnen_. |
 | [!UICONTROL Breadcrumbs] | Innehållet visas till höger om vägbeskrivningar - navigeringshjälpen som tillhandahåller länkar som en sökväg som visas nedanför navigeringsfältet. |
 | [!UICONTROL Info Column Options Wrapper] | Om du lägger till anpassade alternativ visas innehållet till höger. Samma plats gäller för konfigurerbara alternativ. |
 | [!UICONTROL Left Column] | Innehållet visas under de vänstra kolumnblocken. |
 | [!UICONTROL Main Content Area] | Innehållet visas under huvudinnehållsområdet. |
-| [!UICONTROL My Cart Extra Actions] | Innehållet visas under _Delsumma för kundvagn_ när kunden klickar på kundvagnsikonen överst på sidan. |
+| [!UICONTROL My Cart Extra Actions] | Innehållet visas under _kundvagnsdelsumman_ när kunden klickar på kundvagnsikonen överst på sidan. |
 | [!UICONTROL Navigation Bar] | Innehållet visas under huvudnavigeringsfältet. |
 | [!UICONTROL Page Bottom] | Innehållet visas längst ned på sidan. |
 | [!UICONTROL Page Footer] | Innehållet visas ovanför sidfoten på sidan. |
 | [!UICONTROL Page Header] | Innehållet visas under sidhuvudet på sidan. |
 | [!UICONTROL Page Top] | Innehållet visas högst upp på sidan. |
-| [!UICONTROL PayPal Express Checkout (Payflow Edition) Shortcut Wrapper] | Om betalningsmetoden PayPal är aktiverad visas innehållet nedanför _PayPal-köp_ -knappen. |
-| [!UICONTROL PayPal Express Checkout Shortcut Wrapper] | Om betalningsmetoden PayPal är aktiverad visas innehållet nedanför _PayPal-köp_ -knappen. |
+| [!UICONTROL PayPal Express Checkout (Payflow Edition) Shortcut Wrapper] | Om betalningsmetoden PayPal är aktiverad visas innehållet under knappen _PayPal buy_ . |
+| [!UICONTROL PayPal Express Checkout Shortcut Wrapper] | Om betalningsmetoden PayPal är aktiverad visas innehållet under knappen _PayPal buy_ . |
 | [!UICONTROL Product Tags List] | Innehållet visas under taggfältet för produkter. |
 | [!UICONTROL Product View Extra Hint] | Innehållet visas under produktens huvudpris. |
 | [!UICONTROL Right Column] | Innehållet visas under de högra kolumnblocken. |
 | [!UICONTROL Store Language] | Innehållet visas till höger om språkväljaren. |
-| [!UICONTROL Tags List Before] | Innehållet visas ovanför _[!UICONTROL Add Your Tags]_fält. |
+| [!UICONTROL Tags List Before] | Innehållet visas ovanför fältet _[!UICONTROL Add Your Tags]_. |
 
 {style="table-layout:auto"}

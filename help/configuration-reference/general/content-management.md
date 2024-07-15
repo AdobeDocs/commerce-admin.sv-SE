@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Content Management]'
-description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL Content Management] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL Content Management] i Commerce Admin.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
 source-git-commit: 5eef49c10680a47574afe3d3ecfa430dca7ad9ff
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable WYSIWYG Editor] | Butiksvy | Anger om redigeraren är aktiverad för butiken. Alternativ: Aktiverat som standard/inaktiverat som standard/inaktiverat helt |
 | [!UICONTROL WYSIWYG Editor] | Webbplats | Anger vilken version av TinyMCE-redigeraren som används för WYSIWYG-redigeraren. Alternativ: <br/>**`TinyMCE 5`**- (Standard) Använder TinyMCE version 5 som WYSIWYG-standardredigerare.<br><br>_** Obs!**_En uppdatering av TinyMCE 5.10-biblioteket i Adobe Commerce och Magento Open Source 2.4.5 åtgärdar en sårbarhet som tillåter godtycklig JavaScript-körning vid uppdatering av en bild eller länk med vissa typer av URL:er. TinyMCE 3 togs bort i version 2.4.0 och togs bort i version 2.4.3. TinyMCE 4 togs bort i version 2.4.4. |
-| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Global | Bestämmer om [statiska URL:er](../../content-design/catalog-urls-dynamic-media.md) används för mediainnehåll som refereras från WYSIWYG-redigeraren. Inställningen gäller alla platser där WYSIWYG-redigeraren är tillgänglig, inklusive produkter, kategorier, sidor och block. Alternativ: <br/>**`Yes`**- Använder statiska URL:er för mediainnehåll som infogas med WYSIWYG-redigeraren. Statiska URL:er är absoluta och bryts om [bas-URL](../../stores-purchase/store-urls.md) av butiksändringarna.<br/>**`No`** (Standard) - Använder dynamiska URL:er för mediainnehåll som infogas med WYSIWYG-redigeraren, baserat på  `{{media url="..."}}` -direktivet. Dynamiska URL:er är relativa och bryts inte om bas-URL:en för butiken ändras. |
+| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Global | Avgör om [statiska URL:er](../../content-design/catalog-urls-dynamic-media.md) används för mediainnehåll som refereras från WYSIWYG-redigeraren. Inställningen gäller alla platser där WYSIWYG-redigeraren är tillgänglig, inklusive produkter, kategorier, sidor och block. Alternativ: <br/>**`Yes`**- Använder statiska URL:er för mediainnehåll som infogas med WYSIWYG-redigeraren. Statiska URL:er är absoluta och bryts om butikens [bas-URL](../../stores-purchase/store-urls.md) ändras.<br/>**`No`** (Standard) - Använder dynamiska URL:er för mediainnehåll som infogas med WYSIWYG-redigeraren, baserat på direktivet `{{media url="..."}}`. Dynamiska URL:er är relativa och bryts inte om bas-URL:en för butiken ändras. |
 
 {style="table-layout:auto"}
 
@@ -52,16 +52,16 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Enable Page Builder] | Global | Anger om [!DNL Page Builder] avancerade verktyg finns tillgängliga. Alternativ: <br/>**`Yes`**- [!DNL Page Builder] -arbetsytan visas i innehållsavsnittet för sidor, block, produkter och kategorier.<br/>**`No`** - Standardverktygen för CMS-redigering visas i _[!UICONTROL Content]_av sidor, block, produkter och kategorier. |
-| [!UICONTROL Enable Page Builder Content Preview] | Global | Anger om [!DNL Page Builder] förhandsgranskning av innehåll är aktiverat för produkter och kategorier. Alternativ: `Yes` / `No` <br/>**_Obs!_**Detta är inställt på `Yes` som standard, men om du stänger av förhandsgranskningen kan du förhindra prestandaproblem som uppstår när du läser in förhandsgranskningar i ett produkt- eller kategoriformulär. |
-| [!UICONTROL Google Maps API Key] | Global | The [!DNL Google Maps] API-nyckel från ditt Google-konto. |
-| [!UICONTROL Test Key] |  | Validerar [!DNL Google Maps] API-nyckel. |
-| [!UICONTROL Google Maps Style] | Global | Klistra in [!DNL Google Maps] formatera JSON-kod här om du vill ändra utseendet och känslan för Map-innehållstypen. |
-| [!UICONTROL Default Column Grid Size] | Global | Anger standardantalet kolumner i [!DNL Page Builder] rutnät. |
-| [!UICONTROL Maximum Column Grid Size] | Global | Anger det maximala antalet kolumner i [!DNL Page Builder] rutnät. |
+| [!UICONTROL Enable Page Builder] | Global | Avgör om de [!DNL Page Builder] avancerade innehållsverktygen är tillgängliga. Alternativ: <br/>**`Yes`**- Arbetsytan [!DNL Page Builder] visas i innehållsavsnittet för sidor, block, produkter och kategorier.<br/>**`No`** - Standardverktygen för CMS-redigering visas i avsnittet _[!UICONTROL Content]_med sidor, block, produkter och kategorier. |
+| [!UICONTROL Enable Page Builder Content Preview] | Global | Avgör om [!DNL Page Builder]-innehållsförhandsvisningar är aktiverade för produkter och kategorier. Alternativ: `Yes` / `No` <br/>**_Obs!_**Det här är inställt på `Yes` som standard, men om du stänger av förhandsgranskningen kan du förhindra prestandaproblem som uppstår när förhandsgranskningar läses in i ett produkt- eller kategoriformulär. |
+| [!UICONTROL Google Maps API Key] | Global | API-nyckeln [!DNL Google Maps] från ditt Google-konto. |
+| [!UICONTROL Test Key] |  | Verifierar API-nyckeln för [!DNL Google Maps]. |
+| [!UICONTROL Google Maps Style] | Global | Klistra in JSON-koden för formatet [!DNL Google Maps] här om du vill ändra utseendet och känslan för innehållstypen för kartan. |
+| [!UICONTROL Default Column Grid Size] | Global | Anger standardantalet kolumner i rutnätet [!DNL Page Builder]. |
+| [!UICONTROL Maximum Column Grid Size] | Global | Anger det maximala antalet kolumner i rutnätet [!DNL Page Builder]. |
 
 {style="table-layout:auto"}
 
 >[!TIP]
 >
->Med Page Builder är det enkelt att skapa innehållsrika sidor med anpassade layouter som förbättrar ert visuella berättande och som ökar kundernas engagemang och lojalitet. Funktionerna är utformade för att förbättra kvaliteten och minska tiden och kostnaden för att skapa anpassade sidor. Mer information om de här funktionerna och hur du kan använda dem för att skapa engagerande innehåll för din Adobe Commerce eller Magento Open Source Store finns i [_Användarhandbok för Page Builder_](../../page-builder/guide-overview.md).
+>Med Page Builder är det enkelt att skapa innehållsrika sidor med anpassade layouter som förbättrar ert visuella berättande och som ökar kundernas engagemang och lojalitet. Funktionerna är utformade för att förbättra kvaliteten och minska tiden och kostnaden för att skapa anpassade sidor. Mer information om de här funktionerna och hur du kan använda dem för att skapa engagerande innehåll för din Adobe Commerce eller Magento Open Source store finns i [_användarhandboken för Page Builder_](../../page-builder/guide-overview.md).

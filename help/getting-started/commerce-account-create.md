@@ -1,35 +1,35 @@
 ---
-title: Skapa och få tillgång till [!DNL Commerce] konto
-description: Läs mer om [!DNL Commerce] konton, som hanterar de produkter och tjänster som du har köpt.
+title: Skapa och få åtkomst till ditt [!DNL Commerce] konto
+description: Lär dig mer om  [!DNL Commerce] konton, som hanterar de produkter och tjänster som du har köpt.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
 source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '336'
 ht-degree: 2%
 
 ---
 
 
-# Få åtkomst till dina [!DNL Commerce] konto
+# Åtkomst till ditt [!DNL Commerce]-konto
 
-Dina [!DNL Commerce] kontot har en separat inloggning från din butiksadministratör. Du kan komma åt det här kontot från [!DNL Commerce] eller från din butiksadministratör. Från kontrollpanelen i [!DNL Commerce] kan du hitta information som är relaterad till de produkter och tjänster som du har köpt samt din kontakt- och faktureringsinformation. Viss information är endast synlig för licensägare.
+Ditt [!DNL Commerce]-konto har en separat inloggning från din butiksadministratör. Du kan komma åt det här kontot från webbplatsen [!DNL Commerce] eller från din butiksadministratör. På kontrollpanelen för ditt [!DNL Commerce]-konto hittar du information som är relaterad till de produkter och tjänster som du har köpt samt din kontakt- och faktureringsinformation. Viss information är endast synlig för licensägare.
 
-![Dina [!DNL Commerce] konto](./assets/home-acct.png){width="700"}
+![Ditt [!DNL Commerce]-konto](./assets/home-acct.png){width="700"}
 
 >[!NOTE]
 >
->När du har skapat ditt konto bör du använda Tvåfaktorautentisering (TFA) för att [skydda ditt konto](commerce-account-secure.md).
+>När du har skapat ditt konto rekommenderar vi att du använder Tvåfaktorautentisering (TFA) för att [skydda ditt konto](commerce-account-secure.md).
 
-## Logga in på [!DNL Commerce] konto
+## Logga in på ditt [!DNL Commerce]-konto
 
-En Adobe ID krävs för att få tillgång till ett Commerce-konto. Om du redan har ett Commerce-konto men inte har ett Adobe ID kan du skapa ett under inloggningsprocessen.
+Du måste ha en Adobe ID för att få tillgång till ett Commerce-konto. Om du redan har ett Commerce-konto men inte har någon Adobe ID kan du skapa ett under inloggningsprocessen.
 
 >[!WARNING]
 >
 >Använd den e-postadress som är kopplad till ditt befintliga Commerce-konto MAGEID. Om du använder en annan e-postadress skapas ett MAGEID.
 
-1. Gå till [[!DNL Commerce] webbplats](https://account.magento.com/customer/account/login/).
+1. Gå till [[!DNL Commerce] platsen](https://account.magento.com/customer/account/login/).
 
 1. Klicka på **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -39,17 +39,17 @@ En Adobe ID krävs för att få tillgång till ett Commerce-konto. Om du redan h
 
    >[!TIP]
    >
-   >Om du använde en e-postadress som är kopplad till ett befintligt Commerce-konto-MAGEID, länkar inloggningsprocessen automatiskt den till din Adobe ID.
+   >Om du använde en e-postadress som är kopplad till ett befintligt Commerce-konto-MAGEID, länkar inloggningsprocessen automatiskt till din Adobe ID.
 
-## Skapa en [!DNL Commerce] konto
+## Skapa ett [!DNL Commerce]-konto
 
-Alla kan skapa en kostnadsfri [!DNL Commerce] konto. E-postadressen som du använder för att skapa ett Commerce-konto kan bara kopplas till ett konto.
+Alla kan skapa ett kostnadsfritt [!DNL Commerce]-konto. E-postadressen som du använder för att skapa ett Commerce-konto kan bara kopplas till ett konto.
 
 >[!NOTE]
 >
->Använd en Adobe ID för att skapa och få tillgång till ett Commerce-konto. Om du inte har någon Adobe ID kan du skapa en när du skapar ett konto. Om du redan har ett Commerce-konto men inte har någon Adobe ID går du till [logga in på ett Commerce-konto](#log-in-to-your-dnl-commerce-account).
+>Använd en Adobe ID för att skapa och få tillgång till ett Commerce-konto. Om du inte har någon Adobe ID kan du skapa en när du skapar ett konto. Om du redan har ett Commerce-konto men inte har någon Adobe ID kan du läsa [logga in på ett Commerce-konto](#log-in-to-your-dnl-commerce-account).
 
-1. Gå till [[!DNL Commerce] webbplats](https://account.magento.com/customer/account/login/).
+1. Gå till [[!DNL Commerce] platsen](https://account.magento.com/customer/account/login/).
 
 1. Klicka på **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -69,7 +69,7 @@ Alla kan skapa en kostnadsfri [!DNL Commerce] konto. E-postadressen som du anvä
 
 ## Återställ lösenordet
 
-1. Gå till [[!DNL Commerce] webbplats](https://account.magento.com/customer/account/login/).
+1. Gå till [[!DNL Commerce] platsen](https://account.magento.com/customer/account/login/).
 
 1. Klicka på **[!UICONTROL Sign in with Adobe ID]**.
 

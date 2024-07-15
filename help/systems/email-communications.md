@@ -12,52 +12,52 @@ ht-degree: 0%
 
 # Konfigurera e-postkommunikation
 
-The _Inställningar för att skicka e-post_ ger dig möjlighet att dirigera returnerad e-post eller svar till en viss adress. Om din butik körs på en SMTP- eller Windows-server kan du kontrollera värd- och portinställningarna.
+Med _inställningarna för att skicka e-post_ kan du dirigera returnerad e-post eller svar till en viss adress. Om din butik körs på en SMTP- eller Windows-server kan du kontrollera värd- och portinställningarna.
 
 >[!IMPORTANT]
 >
->**Säkerhetsmeddelande** Alla handlare bör omedelbart ställa in sin sändningskonfiguration för e-post för att skydda mot en nyligen identifierad potentiell fjärrexekvering av kod. Du bör undvika att använda [!DNL Sendmail] för e-postkommunikation. I _[!UICONTROL Mail Sending Settings]_måste du se till att_[!UICONTROL Set Return Path]_ är inställd på `No`.
+>**Säkerhetsmeddelande** Alla handlare bör omedelbart ställa in sin sändningskonfiguration för e-post för att skydda mot en nyligen identifierad potentiell fjärrexekvering av kod. Vi rekommenderar att du undviker att använda [!DNL Sendmail] för e-postkommunikation tills problemet är löst. Kontrollera att _[!UICONTROL Set Return Path]_är inställt på `No` i_[!UICONTROL Mail Sending Settings]_.
 
-En detaljerad lista över konfigurationsinställningarna finns i [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) i _Konfigurationsreferens_.
+En detaljerad lista över konfigurationsinställningarna finns i [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) i _konfigurationsreferensen_.
 
 ## Konfigurera e-postkommunikation
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Advanced]** och välja **[!UICONTROL System]**.
+1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Mail Sending Settings]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Mail Sending Settings]** och gör följande:
 
    ![Avancerad konfiguration - inställningar för e-postsändning](../configuration-reference/advanced/assets/system-mail-sending-settings.png){width="600" zoomable="yes"}
 
-   - Ange vid behov **[!UICONTROL Disable Email Communications]** till `No`.
+   - Ange **[!UICONTROL Disable Email Communications]** till `No` om det behövs.
 
    - För **[!UICONTROL Transport]** väljer du transporttyp för e-postkommunikation från butiken: `Sendmail` eller `SMTP`
 
    - Om du kör på en SMTP- eller Windows-server kontrollerar du följande inställningar:
 
-      - **[!UICONTROL Host]** - `localhost` eller andra
+      - **[!UICONTROL Host]** - `localhost` eller annan
 
-      - **[!UICONTROL Port (25)]** - `25` eller andra
+      - **[!UICONTROL Port (25)]** - `25` eller annan
 
-   - För **[!UICONTROL Set Return Path]** väljer du något av följande alternativ:
+   - Välj något av följande alternativ för **[!UICONTROL Set Return Path]**:
 
-      - `No` - (Rekommenderat säkerhetsmått) Rutorna returnerade e-post till standardbutikens e-postadress.
+      - `No` - (rekommenderat säkerhetsmått) Rutorna returnerade e-post till standardbutikens e-postadress.
       - `Yes` - Vägarna returnerade e-post till standardbutikens e-postadress.
       - `Specified` - Vägarna returnerade e-post till den e-postadress som angavs i **[!UICONTROL Return Path Email]**.
 
    - Konfigurera anslutningen om den körs på en SMTP-server:
 
-      - **[!UICONTROL Username]** - Ange inloggningsnamnet för SMTP-servern.
+      - **[!UICONTROL Username]** - Ange inloggningsanvändarnamnet för SMTP-servern.
       - **[!UICONTROL Password]** - Ange lösenordet för SMTP-serverinloggningen.
-      - **[!UICONTROL Auth]** - Välj autentiseringstyp för SMTP-serveranslutningen: `NONE` , `PLAIN`, eller `LOGIN`
+      - **[!UICONTROL Auth]** - Välj autentiseringstyp för SMTP-serveranslutningen: `NONE`, `PLAIN` eller `LOGIN`
       - **[!UICONTROL SSL]** - Välj verifieringstyp för serversäkerhetscertifikatet: `SSL` eller `TLS`
 
      ![Avancerad konfiguration - inställningar för e-postsändning](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Sales Emails]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales Emails]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL General Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL General Settings]**.
 
 1. Ange **[!UICONTROL Asynchronous sending]** till `Enable`.
 
@@ -65,4 +65,4 @@ En detaljerad lista över konfigurationsinställningarna finns i [_[!UICONTROL M
 
    En detaljerad lista över konfigurationsinställningarna finns i [_Allmänna inställningar_](../configuration-reference/sales/sales-emails.md) i _Konfigurationsreferens_.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

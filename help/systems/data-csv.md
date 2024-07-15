@@ -5,7 +5,7 @@ exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
 feature: Products, Customers, Data Import/Export
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ CSV-filformatet (kommaavgränsat värde) används som bas för dataöverförings
 >
 >Vi rekommenderar att du använder ett program som har stöd för UTF-8-kodning, till exempel Anteckningar++, för att redigera CSV-filer. Microsoft® Excel infogar ytterligare tecken i kolumnrubriken i CSV-filen, vilket kan förhindra att data importeras tillbaka till Commerce. Om du arbetar i Mac kan du spara data i CSV-format (Windows).
 
-CSV-filer har en specifik struktur som måste matcha databasen. Varje kolumnrubrik motsvarar attributkoden för fältet som representeras av kolumnen. För att kolumnrubrikerna ska kunna läsas i Commerce måste du först exportera data från din butik som en CSV-fil. Du kan sedan redigera data och importera dem på nytt till Commerce.
+CSV-filer har en specifik struktur som måste matcha databasen. Varje kolumnrubrik motsvarar attributkoden för fältet som representeras av kolumnen. För att kolumnrubrikerna ska kunna läsas av Commerce måste du först exportera data från din butik som en CSV-fil. Du kan sedan redigera data och importera dem på nytt till Commerce.
 
 Om du öppnar en exporterad CSV-fil i ett textredigeringsprogram ser du att värden avgränsas med kommatecken och att flera värden omges med dubbla citattecken. Under importen kan du ange ett eget avgränsningstecken, men som standard används ett komma.
 
@@ -31,13 +31,13 @@ En fullständig export av produktdatabasen innehåller information om varje prod
 
 Den första raden i tabellen innehåller namnen på attributen, som används som kolumnrubriker. De återstående raderna beskriver de enskilda produktposterna. Alla rader som börjar med ett värde i SKU-kolumnen är början av en ny produktpost. En enstaka produkt kan innehålla flera rader som innehåller information om flera bilder eller produktalternativ. Nästa rad som har ett värde i SKU-kolumnen börjar med en ny produkt.
 
-Kategorikolumnen innehåller en sökväg för varje kategori som produkten är tilldelad till. Sökvägen innehåller rotkategorin, följt av ett snedstreck (`/`) mellan varje nivå. Som standard är kommatecknet `,` används för att skilja olika kategorisökvägar åt. (Du kan ange ett annat avgränsningstecken med _[!UICONTROL Multiple value separator]_alternativ.) Exempel:
+Kategorikolumnen innehåller en sökväg för varje kategori som produkten är tilldelad till. Sökvägen innehåller rotkategorin, följt av ett snedstreck (`/`) mellan varje nivå. Som standard används kommatecknet `,` för att skilja olika kategorisökvägar åt. (Du kan ange ett annat avgränsningstecken med alternativet _[!UICONTROL Multiple value separator]_.) Exempel:
 
 `Default Category/Gear,Default Category/Gear/Bags`
 
 Om du vill importera data behöver du bara inkludera SKU:n och eventuella kolumner med ändringar. Alla tomma kolumner ignoreras under importprocessen. Det går inte att lägga till attribut under importprocessen. Du kan bara inkludera befintliga attribut.
 
-En detaljerad beskrivning av respektive produktattribut finns på [Produktens CSV-filstruktur](data-attributes-product.md).
+En detaljerad beskrivning av varje produktattribut finns i [Product CSV File Structure](data-attributes-product.md).
 
 | Kolumnnamn | Beskrivning |
 | ----------- | ----------- |
@@ -50,11 +50,11 @@ En detaljerad beskrivning av respektive produktattribut finns på [Produktens CS
 
 Kundernas CSV-fil innehåller kundinformation från databasen och har följande struktur:
 
-Den första raden i tabellen innehåller namnen på attributkolumnerna (som är desamma som attributkoder). Det finns två typer av kolumnnamn, vilket visas i följande tabell. Andra rader innehåller attributvärden, tjänstdata och komplexa data. Varje rad med icke-tomma värden i `email` och `_website` kolumner startar beskrivningen av den efterföljande kunden. Varje rad kan representera kunddata med eller utan adressdata, eller enbart adressdata. Om en rad bara innehåller adressdata ignoreras värdena i kolumnerna, som är relaterade till kundprofilen, och kan vara tomma.
+Den första raden i tabellen innehåller namnen på attributkolumnerna (som är desamma som attributkoder). Det finns två typer av kolumnnamn, vilket visas i följande tabell. Andra rader innehåller attributvärden, tjänstdata och komplexa data. Varje rad med värden som inte är tomma i kolumnerna `email` och `_website` startar beskrivningen av efterföljande kund. Varje rad kan representera kunddata med eller utan adressdata, eller enbart adressdata. Om en rad bara innehåller adressdata ignoreras värdena i kolumnerna, som är relaterade till kundprofilen, och kan vara tomma.
 
 Om du vill lägga till eller ersätta mer än en adress för en kund lägger du till en rad för varje ny adress med tomma kunddata och nya eller uppdaterade adressdata nedanför kunddataraden.
 
-En detaljerad beskrivning av varje kundattribut finns på [CSV-filstruktur för kunder](data-attributes-customer.md).
+En detaljerad beskrivning av varje kundattribut finns i [Kundens CSV-filstruktur](data-attributes-customer.md).
 
 | Kolumnnamn | Beskrivning |
 | ----------- | ----------- |

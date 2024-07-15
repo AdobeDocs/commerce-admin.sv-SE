@@ -32,9 +32,9 @@ Du kan gå ned på en lista med kunder i segmentet och exportera data.
 
 ![Gå ned till kunddata](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
 
-Om du vill vara säker på att du har de senaste data måste segmentdata uppdateras. Om segmentdata inte är tillgängliga eller är inaktuella klickar du på **[!UICONTROL Refresh Segment Data]** i knappfältet som ska uppdateras.
+Om du vill vara säker på att du har de senaste data måste segmentdata uppdateras. Om segmentdata inte är tillgängliga eller är inaktuella kan du uppdatera genom att klicka på **[!UICONTROL Refresh Segment Data]** i knappfältet.
 
-1. För **[!UICONTROL Export to]** väljer du ett exportformat:
+1. Välj ett exportformat för **[!UICONTROL Export to]**:
 
    * CSV - En kommaavgränsad värdefil som innehåller oformaterade textdata.
    * Excel XML - ett XML-baserat kalkylbladsdataformat.

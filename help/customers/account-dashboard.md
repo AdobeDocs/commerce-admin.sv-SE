@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Kunderna kan hantera och övervaka sin egen information och sina aktiviteter via sin kontokontrollpanel. Kunderna kan ändra beställning, spåra beställningar, hantera leveransadresser och betalningsmetoder, produktrecensioner, prenumerationer på nyhetsbrev med mera.
 
-![Kontrollpanel för konto i butiken](assets/customer-account-dashboard.png){width="700" zoomable="yes"}
+![Kontrollpanel för konto på butiken](assets/customer-account-dashboard.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
-> Med installation och aktivering av Adobe Commerce B2B kan köpupplevelsen personaliseras med företagsspecifika funktioner. Alla alternativ för kontrollpanelen för B2B-konton (inköpsorder, rekvisitionslistor och förhandlade offerter) kan aktiveras för kunder som är kopplade till ett företag. Mer information om B2B-funktionerna finns i [Användarhandbok för Adobe Commerce B2B](../b2b/introduction.md).
+> Med installation och aktivering av Adobe Commerce B2B kan köpupplevelsen personaliseras med företagsspecifika funktioner. Alla alternativ för kontrollpanelen för B2B-konton (inköpsorder, rekvisitionslistor och förhandlade offerter) kan aktiveras för kunder som är kopplade till ett företag. Mer information om B2B-funktionerna finns i [Adobe Commerce B2B-användarhandboken](../b2b/introduction.md).
 
 ![Kontrollpanel för företagskonto i butiken](assets/company-admin-account-dashboard.png){width="700" zoomable="yes"}
 
@@ -48,7 +48,7 @@ Tabellen nedan innehåller information om alla avsnitt som är tillgängliga i v
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | (Endast företag) Visar alla offerter som kunden lämnat in, med en länk till detaljerad information. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | (Endast företag) Upprätthåller alla rekvisitionslistor som har skapats av kunden. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | (Endast företag) En företagsadministratör kan hantera företagsinformation, t.ex. företagsnamn och adress, kontaktinformation för företagsadministratör och betalningsinformation. |
-| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Endast företag) Visar aktuellt utestående saldo, tillgänglig kredit och kreditgränsen som allokeras till kontot, följt av en lista över utestående fakturor. Avsnittet Företagskrediter visas bara på kontrollpanelen när [Betalning à conto](../b2b/enable-basic-features.md#configure-payment-on-account) är aktiverat i konfigurationen. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Endast företag) Visar aktuellt utestående saldo, tillgänglig kredit och kreditgränsen som allokeras till kontot, följt av en lista över utestående fakturor. Avsnittet Företagskrediter visas bara på kontrollpanelen när [Betalning på konto](../b2b/enable-basic-features.md#configure-payment-on-account) är aktiverat i konfigurationen. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | (Endast företag) Används av företagsadministratören för att definiera företagets affärsstruktur. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | (Endast företag) Används av företagsadministratören för att skapa användarkonton för företagsköpare. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | (Endast företag) Används av företagsadministratören för att definiera roller för företagsanvändare med olika behörighetsnivåer. |

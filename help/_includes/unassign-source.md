@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om du frigör en källa rensas alla kvantitetsdata. Om du tilldelar en källa kan det orsaka problem med försäljningsbara kvantiteter, reservationer och väntande order. Vi rekommenderar att du bearbetar alla beställningar innan du tar bort tilldelning av källor eller gör andra källändringar. Du kan också använda nya kommandon för att identifiera och uppdatera reservationer. Se [[!DNL Inventory Management] CLI-referens](../inventory-management/cli.md) för mer information.
+>Om du frigör en källa rensas alla kvantitetsdata. Om du tilldelar en källa kan det orsaka problem med försäljningsbara kvantiteter, reservationer och väntande order. Vi rekommenderar att du bearbetar alla beställningar innan du tar bort tilldelning av källor eller gör andra källändringar. Du kan också använda nya kommandon för att identifiera och uppdatera reservationer. Mer information finns i [[!DNL Inventory Management] CLI-referens](../inventory-management/cli.md).

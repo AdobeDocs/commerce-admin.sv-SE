@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Inköpsorder för företag
 
-Inköpsorder är ett vanligt sätt för företag att spåra och kontrollera utgifter. [Inköpsorder](../stores-purchase/purchase-order.md) är en av de standardmetoder för offlinebetalning som stöds i Adobe Commerce och Magento Open Source. När B2B av Adobe Commerce installeras och [_Aktivera inköpsorder_](account-company-manage.md#advanced-settings) aktiveras för ett företagskonto och alla order skapas automatiskt som inköpsorder (PO). Företagsanvändare med obligatoriska [behörigheter](account-company-roles-permissions.md) kan skapa, redigera och ta bort PO:er som de skapar och PO:er som skapas av underordnade användare.
+Inköpsorder är ett vanligt sätt för företag att spåra och kontrollera utgifter. [Inköpsorder](../stores-purchase/purchase-order.md) är en av de standardmetoder för offlinebetalning som stöds i Adobe Commerce och Magento Open Source. När B2B av Adobe Commerce har installerats och [_Aktivera inköpsorder_](account-company-manage.md#advanced-settings) har aktiverats för ett företagskonto skapas alla order automatiskt som inköpsorder (PO). Företagsanvändare med de nödvändiga [behörigheterna](account-company-roles-permissions.md) kan skapa, redigera och ta bort PO:er som de skapar och PO:er som skapas av underordnade användare.
 
 ## Inköpsorderflöde
 
@@ -30,7 +30,7 @@ Arbetsflödet för inköpsorder för ett företag kan variera på några sätt:
 
   >[!NOTE]
   >
-  >Som standard är `Purchase order has been submitted for approval` meddelandet visas alltid för företagsanvändare, även när inga godkännanderegler har angetts. När ingen godkännandeprocess krävs får företagsanvändare automatiskt ett e-postmeddelande som informerar dem om att ordern har skapats och godkänts.
+  >Som standard visas ett `Purchase order has been submitted for approval`-meddelande alltid för företagsanvändare, även när inga godkännanderegler har angetts. När ingen godkännandeprocess krävs får företagsanvändare automatiskt ett e-postmeddelande som informerar dem om att ordern har skapats och godkänts.
 
 - Om godkännandereglerna definieras av företagsadministratören, går användarna igenom godkännandeprocessen.
 - Information om offlinebetalning anges när inköpsordern skapas.
@@ -38,7 +38,7 @@ Arbetsflödet för inköpsorder för ett företag kan variera på några sätt:
 
 >[!NOTE]
 >
->Inköpsorder skapar en _ögonblicksbild_ av artikelpriser, rabatter och fraktpriser när ordern skapades. Om priset på en artikel ändras efter att inköpsordern har skapats, används det ursprungliga priset.
+>Inköpsorder skapar en _ögonblicksbild_ av artikelpriser, rabatter och leveranspriser när ordern skapades. Om priset på en artikel ändras efter att inköpsordern har skapats, används det ursprungliga priset.
 
 ### Exempel på grundläggande arbetsflöde
 
@@ -71,23 +71,23 @@ Alla dessa faktorer kan påverka den exakta utcheckningsprocessen.
 
 ## [!UICONTROL My Purchase Orders]
 
-När inköpsorder är aktiverade för ett företag **[!UICONTROL My Purchase Orders]** objektet visas i den vänstra panelen för kunder som är inloggade på ett företagsanvändarkonto. Det finns tre flikar med olika inköpsorderlistor och funktioner:
+När inköpsorder är aktiverade för ett företag visas objektet **[!UICONTROL My Purchase Orders]** på den vänstra panelen för kunder som är inloggade på ett företagsanvändarkonto. Det finns tre flikar med olika inköpsorderlistor och funktioner:
 
 - **[!UICONTROL My Purchase Orders]**: PO:er skapade av kunden.
-- **[!UICONTROL Company Purchase Orders]**: PO:er som görs av underordnade användare inom företaget (beror på företagets struktur och roller).
+- **[!UICONTROL Company Purchase Orders]**: PO:er som har gjorts av underordnade användare inom företaget (beroende på företagsstruktur och roller).
 - **[!UICONTROL Requires My Approval]**: (Synligt för utsedda godkännare) PO:er som väntar på kundens godkännande. Räknaren visar hur många order som väntar på godkännande.
 
 ![Mina inköpsorder](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
-Mer information om vilka inköpsorderfunktioner som stöds för företagsanvändare finns i [Mina inköpsorder](account-dashboard-my-purchase-orders.md).
+Mer information om vilka inköpsorderfunktioner som stöds för företagsanvändare i butiken finns i [Mina inköpsorder](account-dashboard-my-purchase-orders.md).
 
 ## Betalningsmetoder offline eller online
 
-Arbetsflödena kan variera beroende på betalningsmetoden. Mer information om betalningsmetoder i Adobe Commerce finns i [Betalningsmetoder](../stores-purchase/payments.md) i _Experience Guide för försäljning och inköp_.
+Arbetsflödena kan variera beroende på betalningsmetoden. Mer information om betalningsmetoder i Adobe Commerce finns i [Betalningsmetoder](../stores-purchase/payments.md) i _Handboken för försäljning och köp_.
 
 >[!IMPORTANT]
 >
->Inköpsorder ska använda en _Kontext_ utcheckningsupplevelsen. _Ej kontext_ Utcheckningar stöds inte eftersom de åsidosätter det normala utcheckningsflödet. I allmänhet _Kontext_ innebär att kunden stannar kvar på din e-handelsplats för att slutföra processen. _Ej kontext_ är när kunden besöker en annan webbplats för att slutföra köpet.
+>Inköpsorder ska använda en _kontextutcheckning_. _Utcheckningar utan kontext_ stöds inte eftersom de åsidosätter det normala utcheckningsflödet. I allmänhet innebär _Kontext_ att kunden stannar kvar på din e-handelsplats för att slutföra processen. _Kontexten är slut_ när kunden besöker en annan webbplats för att slutföra köpet.
 
 ### Onlinebetalningar
 

@@ -13,25 +13,25 @@ ht-degree: 0%
 
 # Tilldela en kundgrupp till ett företag
 
-Att tilldela en kundgrupp till ett företag är i princip detsamma som att tilldela en delad katalog. Om den delade katalogen inte är [aktiverad i konfigurationen](enable-basic-features.md), en kundgrupp - och inte en delad katalog - tilldelas ett företag.
+Att tilldela en kundgrupp till ett företag är i princip detsamma som att tilldela en delad katalog. Om den delade katalogen inte är [aktiverad i konfigurationen](enable-basic-features.md) tilldelas en kundgrupp - och inte en delad katalog - till ett företag.
 
 >[!NOTE]
 >
 > Endast en kundgrupp eller delad katalog kan tilldelas ett företag åt gången. En kundgrupp som är associerad med en delad katalog kan inte tas bort.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]** på sidofältet _Admin_.
 
-1. Hitta företaget i rutnätet och klicka på **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Hitta företaget i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
    ![Redigera företag](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
 
-1. Bläddra nedåt och expandera på företagssidan ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Advanced Settings]** -avsnitt.
+1. Bläddra nedåt och expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Advanced Settings]** på företagssidan.
 
-1. Ange lämplig **[!UICONTROL Customer Group]**.
+1. Ange rätt **[!UICONTROL Customer Group]**.
 
    >[!NOTE]
    >
-   >The [!UICONTROL Customer Group] listan innehåller alla befintliga delade kataloger, även om delade kataloger är inaktiverade i konfigurationen.
+   >Listan [!UICONTROL Customer Group] innehåller alla befintliga delade kataloger, även om delade kataloger är inaktiverade i konfigurationen.
 
    Om du ändrar kundgruppen som tilldelats företaget uppdateras profilerna för alla företagsmedlemmar.
 

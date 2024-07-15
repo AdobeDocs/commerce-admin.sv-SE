@@ -5,7 +5,7 @@ exl-id: df8cf89a-c897-4a9a-9e84-3bae946683a4
 feature: Customers, Storefront
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ En önskelista är ett bekvämt sätt för kunderna att återkalla produkter som
 
 ![Exempel på storefront - Min önskelista](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
-![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce stöder användningen av flera önskelistor per kundkonto.
+![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce stöder användning av flera önskelistor per kundkonto.
 
 ![Magento Open Source](../assets/open-source.svg) Kodbasen Magento Open Source stöder användningen av en enda önskelista per kundkonto.
 
@@ -28,19 +28,19 @@ I butiken kan kunden skapa en önskelista från sin kontopanel, en produktsida, 
 
 ### Metod 1: Från ett kundkonto
 
-1. I sidofältet på kontouppsättningen väljer kunden **[!UICONTROL My Wish List]**.
+1. Kunden väljer **[!UICONTROL My Wish List]** i sidofältet på sin kontokontrollpanel.
 
-1. Klicka i det övre högra hörnet **[!UICONTROL Create New Wish List]**.
+1. Klicka på **[!UICONTROL Create New Wish List]** i det övre högra hörnet.
 
 1. Ange önskelistans namn.
 
-1. Om du vill att andra ska kunna se önskelistan väljer du **[!UICONTROL Public Wish List]** kryssrutan.
+1. Om du vill att andra ska kunna se önskelistan markerar du kryssrutan **[!UICONTROL Public Wish List]**.
 
    >[!NOTE]
    >
-   >Huvudskillnaden mellan `Public` och `Private` önskelistor är att privata önskelistor inte är [sökbar](wishlist-configuration.md#add-wish-list-search) genom önskelistor.
+   >Den största skillnaden mellan `Public` och `Private` önskelistor är att privata önskelistor inte är [sökbara](wishlist-configuration.md#add-wish-list-search) via önskelistor.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
    ![Skapa ny önskelista](./assets/account-dashboard-wishlist-create-new.png){width="700" zoomable="yes"}
 
@@ -50,39 +50,39 @@ I butiken kan kunden skapa en önskelista från sin kontopanel, en produktsida, 
 
 1. Hovrar över produkten.
 
-1. Kunden klickar på pilen bredvid _Lägg till i önskelista_ -ikonen och markerar **[!UICONTROL Create New Wish List]**.
+1. Kunden klickar på pilen bredvid ikonen _Lägg till i önskelista_ och väljer **[!UICONTROL Create New Wish List]**.
 
 1. Anger önskelistans namn.
 
-1. Om du vill att andra ska kunna se önskelistan väljer du **[!UICONTROL Public Wish List]** kryssrutan.
+1. Om du vill att andra ska kunna se önskelistan markerar du kryssrutan **[!UICONTROL Public Wish List]**.
 
-1. När det är klart klickar du **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ### Metod 3: Från produktinformationssidan
 
 1. Från butiken går kunden till detaljsidan för den produkt de vill lägga till i önskelistan.
 
-1. Klicka på pilen bredvid **[!UICONTROL Add to Wish List]** och väljer **[!UICONTROL Create New Wish List]**.
+1. Klicka på pilen bredvid **[!UICONTROL Add to Wish List]** och välj **[!UICONTROL Create New Wish List]**.
 
 1. Anger **[!UICONTROL Wish List Name]**.
 
-1. Om du vill att andra ska kunna se önskelistan väljer du **[!UICONTROL Public Wish List]** kryssrutan.
+1. Om du vill att andra ska kunna se önskelistan markerar du kryssrutan **[!UICONTROL Public Wish List]**.
 
-1. När det är klart klickar du **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
    ![Skapa ny önskelista från sidan Produktinformation](./assets/account-dashboard-wishlist-create-from-pdp.png){width="700" zoomable="yes"}
 
 ### Metod 4: Från kundvagnen
 
-1. Kunden öppnar **[!UICONTROL Shopping Cart]** sida.
+1. Kunden öppnar sidan **[!UICONTROL Shopping Cart]**.
 
-1. Under objektet klickar du på pilen bredvid **[!UICONTROL Move to Wishlist]** och väljer **[!UICONTROL Create New Wish List]**.
+1. Klicka på pilen bredvid **[!UICONTROL Move to Wishlist]** under objektet och välj **[!UICONTROL Create New Wish List]**.
 
 1. Anger **[!UICONTROL Wish List Name]**.
 
-1. Om du vill att andra ska kunna se önskelistan väljer du **[!UICONTROL Public Wish List]** kryssrutan.
+1. Om du vill att andra ska kunna se önskelistan markerar du kryssrutan **[!UICONTROL Public Wish List]**.
 
-1. När det är klart klickar du **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ![Skapa ny önskelista från sidan Kundvagn](./assets/account-dashboard-wishlist-create-from-cart.png){width="700" zoomable="yes"}
 
@@ -90,38 +90,38 @@ I butiken kan kunden skapa en önskelista från sin kontopanel, en produktsida, 
 
 1. I önskelistan pekar kunden på produkten för att visa alternativen.
 
-1. Lägga till en **[!UICONTROL Comment]** om produkten, anger texten i rutan under priset.
+1. Om du vill lägga till **[!UICONTROL Comment]** om produkten skriver du texten i rutan nedanför priset.
 
    ![Redigera alternativ](./assets/account-dashboard-wishlist-edit-options.png){width="700" zoomable="yes"}
 
 1. Om du vill ändra urvalet av produktalternativ klickar du på **[!UICONTROL Edit]** och gör följande:
 
    - Uppdaterar alternativen på produktinformationssidan.
-   - Klickningar **[!UICONTROL Update Wish List]**.
+   - Klicka på **[!UICONTROL Update Wish List]**.
 
 ## Lägg en önskelisteprodukt i kundvagnen
 
 1. I önskelistan pekar kunden på den produkt som du vill lägga till.
 
-1. Uppdaterar **[!UICONTROL Qty]** och redigera de andra alternativen efter behov.
+1. Uppdaterar **[!UICONTROL Qty]** och redigerar de andra alternativen efter behov.
 
-1. Klickningar **[!UICONTROL Add to Cart]**.
+1. Klicka på **[!UICONTROL Add to Cart]**.
 
 ## Dela önskelistan
 
-1. Kunden klickar **[!UICONTROL Share Wishlist]**.
+1. Kunden klickar på **[!UICONTROL Share Wishlist]**.
 
 1. Anger e-postadressen till varje person som ska ta emot önskelistan, åtskilda med kommatecken.
 
 1. Lägger till en **[!UICONTROL Message]** som ska inkluderas i e-postmeddelandet.
 
-1. Klickningar **[!UICONTROL Share Wish List]**.
+1. Klicka på **[!UICONTROL Share Wish List]**.
 
    ![Dela din önskelista](./assets/account-dashboard-wishlist-sharing.png){width="700" zoomable="yes"}
 
-   Meddelandet skickas från din primära [butikskontakt](../getting-started/store-details.md#store-email-addresses) och innehåller en miniatyrbild av varje produkt, med länkar till din butik.
+   Meddelandet skickas från din primära [butikskontakt](../getting-started/store-details.md#store-email-addresses) och innehåller en miniatyrbild av varje produkt med länkar till din butik.
 
-   ![E-postadress för delad önskelista](./assets/account-dashboard-wishlist-sharing-email.png){width="500" zoomable="yes"}
+   ![E-post för delad önskelista](./assets/account-dashboard-wishlist-sharing-email.png){width="500" zoomable="yes"}
 
 ## Redigera önskelistor
 
@@ -133,10 +133,10 @@ Kunderna kan ändra sin önskelista på flera sätt från sin kontokontrollpanel
 
 1. Kunden markerar kryssrutan för varje objekt som ska flyttas.
 
-1. Klickningar **[!UICONTROL Move Selected to Wish List]** och gör något av följande:
+1. Klicka på **[!UICONTROL Move Selected to Wish List]** och gör något av följande:
 
    - Väljer en befintlig önskelista.
-   - Klickningar **[!UICONTROL Create New Wish List]**.
+   - Klicka på **[!UICONTROL Create New Wish List]**.
 
 ### Kopiera objekt till en annan lista
 
@@ -144,10 +144,10 @@ Kunderna kan ändra sin önskelista på flera sätt från sin kontokontrollpanel
 
 1. Markerar kryssrutan för varje objekt som ska flyttas.
 
-1. Klickningar **[!UICONTROL Copy Selected to Wish List]** och gör något av följande:
+1. Klicka på **[!UICONTROL Copy Selected to Wish List]** och gör något av följande:
 
    - Väljer en befintlig önskelista.
-   - Klickningar **[!UICONTROL Create New Wish List]**.
+   - Klicka på **[!UICONTROL Create New Wish List]**.
 
 ## Ta bort en önskelista
 
@@ -155,9 +155,9 @@ Kunderna kan ändra sin önskelista på flera sätt från sin kontokontrollpanel
 
 1. Kunden öppnar önskelistan som ska tas bort.
 
-1. Klickningar **[!UICONTROL Delete Wish List]**.
+1. Klicka på **[!UICONTROL Delete Wish List]**.
 
-1. När du uppmanas att bekräfta klickar du **[!UICONTROL OK]**.
+1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
 >[!IMPORTANT]
 >
@@ -165,32 +165,32 @@ Kunderna kan ändra sin önskelista på flera sätt från sin kontokontrollpanel
 
 ## Överför önskelisteobjekt till kundvagnen
 
-För att överföra alla önskelisteartiklar till kundvagnen klickar kunden **[!UICONTROL Add All to Cart]**.
+Om du vill överföra alla önskelisteobjekt till kundvagnen klickar kunden på **[!UICONTROL Add All to Cart]**.
 
 Om du vill lägga till ett enstaka objekt gör kunden följande:
 
-1. Hovrar över objektet och anger **[!UICONTROL Qty]** som de vill lägga i vagnen.
+1. Hovrar över objektet och anger **[!UICONTROL Qty]** som de vill lägga till i kundvagnen.
 
-1. Klickningar **[!UICONTROL Add to Cart]**.
+1. Klicka på **[!UICONTROL Add to Cart]**.
 
 ## Hitta en önskelista för kunden
 
-Om [Widgeten Önska listsökning](wishlist-configuration.md#add-wish-list-search) som finns på dina butikssidor kan kunderna söka efter önskelistans namn eller e-postadress.
+Om widgeten [Önsklistesökning](wishlist-configuration.md#add-wish-list-search) ingår på dina butikssidor kan kunderna söka efter önskelisteägarens namn eller e-postadress.
 
 1. Från widgeten Söklista väljer kunden ett sökalternativ.
 
-1. Anger önskelisteägarens namn eller e-postadress och klickar **[!UICONTROL Search]**.
+1. Anger önskelistans ägare eller e-postadress och klickar på **[!UICONTROL Search]**.
 
-   The _Önsklistesökning_ öppnas sidan och alla matchande önskelistor visas i sökresultatavsnittet.
+   Sidan _Önsklistesökning_ öppnas och alla matchande önskelistor visas i sökresultatavsnittet.
 
    >[!NOTE]
    >
    >Endast offentliga önskelistor visas i sökresultaten - kundernas privata önskelistor kan inte visas offentligt.
 
-1. Om du vill visa listan över önskelisteobjekt klickar du på **[!UICONTROL View]**.
+1. Klicka på **[!UICONTROL View]** om du vill visa listan över önskelisteobjekt.
 
    Ägarnamnet och datumet för den senaste uppdateringen visas för varje önskelista.
 
-1. Kunden markerar kryssrutan nedanför produkten och klickar för att lägga till en produkt i kundvagnen **[!UICONTROL Add to Cart]**.
+1. Kunden markerar kryssrutan nedanför produkten och klickar på **[!UICONTROL Add to Cart]** för att lägga till en produkt i kundvagnen.
 
    Du kan också lägga till saker du gillar från en annan kunds önskelista till din egen.

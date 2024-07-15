@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Kategoriuppdateringar kan tillämpas enligt schema och grupperas med andra innehållsändringar. Du kan skapa en kampanj baserat på schemalagda ändringar av kategorin eller tillämpa ändringarna på en befintlig kampanj. Mer information finns på [Innehållsmellanlagring](../content-design/content-staging.md).
+Kategoriuppdateringar kan tillämpas enligt schema och grupperas med andra innehållsändringar. Du kan skapa en kampanj baserat på schemalagda ändringar av kategorin eller tillämpa ändringarna på en befintlig kampanj. Mer information finns i [Innehållsfördelning](../content-design/content-staging.md).
 
 >[!NOTE]
 >
->The [!UICONTROL Schedule Design Update] har tagits bort från ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt i kategorin. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
+>Fliken [!UICONTROL Schedule Design Update] har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt i kategorin. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
 
 >[!NOTE]
 >
@@ -26,46 +26,46 @@ Kategoriuppdateringar kan tillämpas enligt schema och grupperas med andra inneh
 
 ## Schemalägg en uppdatering av en kategori
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** på sidofältet _Admin_.
 
 1. Välj den kategori som ska ändras i kategoriträdet till vänster.
 
-1. I _Schemalagda ändringar_ överst på sidan klickar du på **[!UICONTROL Schedule New Update]**.
+1. Klicka på **[!UICONTROL Schedule New Update]** i rutan _Schemalagda ändringar_ längst upp på sidan.
 
    ![Schemalagda ändringar](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
 
-1. Med **[!UICONTROL Save as a New Update]** om du väljer det här alternativet anger du de grundläggande parametrarna för uppdateringen:
+1. Med alternativet **[!UICONTROL Save as a New Update]** markerat anger du de grundläggande parametrarna för uppdateringen:
 
-   - För **[!UICONTROL Update Name]** anger du ett namn för den nya innehållstagningskampanjen.
+   - Ange ett namn för den nya innehållstagningskampanjen för **[!UICONTROL Update Name]**.
 
-   - Ange en kort beskrivning **[!UICONTROL Description]** av uppdateringen och hur den ska användas.
+   - Ange en kort **[!UICONTROL Description]** av uppdateringen och hur den ska användas.
 
-   - Använd kalendern ( ![Kalenderikon](../assets/icon-calendar.png) ) för att välja **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** för kampanjen.
+   - Använd kalenderverktyget ( ![kalenderikonen](../assets/icon-calendar.png) ) för att välja **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** för kampanjen.
 
    >[!IMPORTANT]
    >
-   >Campaign **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** måste definieras med hjälp av **_standard_** Administratörens tidszon, som konverteras från den lokala tidszonen för varje webbplats. Om du till exempel har flera webbplatser i olika tidszoner där du vill starta en kampanj som baseras på en tidszon i USA måste du schemalägga en separat uppdatering för varje lokal tidszon. Du ställer in **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** för varje, som konverteras från den lokala webbplatsens tidszon till standardtidszonen för administratörer.
+   >Kampanjen **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** måste definieras med hjälp av administratörstidszonen **_default_** som konverteras från den lokala tidszonen på varje webbplats. Om du till exempel har flera webbplatser i olika tidszoner där du vill starta en kampanj som baseras på en tidszon i USA måste du schemalägga en separat uppdatering för varje lokal tidszon. Du ställer in **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** för varje, som konverteras från den lokala webbplatsens tidszon till administratörens standardtidszon.
 
    ![Schemalagda ändringar](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
 
 1. Gör de ändringar som behövs för den schemalagda uppdateringen.
 
-1. Klicka på om du vill förhandsgranska ändringarna **[!UICONTROL Preview]** i det övre högra knappfältet.
+1. Om du vill förhandsgranska ändringarna klickar du på **[!UICONTROL Preview]** i det övre högra knappfältet.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ## Tilldela till en befintlig uppdatering
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** på sidofältet _Admin_.
 
 1. Välj den kategori som ska ändras i kategoriträdet till vänster.
 
-1. I _Schemalagda ändringar_ överst på sidan klickar du på **[!UICONTROL Schedule New Update]**.
+1. Klicka på **[!UICONTROL Schedule New Update]** i rutan _Schemalagda ändringar_ längst upp på sidan.
 
 1. Välj **[!UICONTROL Assign to Existing Campaign]**.
 
-1. Leta reda på den kampanj som behövs och klicka på **[!UICONTROL Select]**.
+1. Leta reda på den kampanj som behövs i listan och klicka på **[!UICONTROL Select]**.
 
 1. Gör de ändringar som krävs i den schemalagda uppdateringen.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.

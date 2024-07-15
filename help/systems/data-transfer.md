@@ -19,17 +19,17 @@ Du kan till exempel lägga till nya produkter i lagret, uppdatera produktdata oc
 
 >[!NOTE]
 >
->Adobe Commerce stöder också SaaS-dataexport för överföring av produktdata från Commerce-servern till SaaS-tjänster. SaaS-dataexport är integrerad med Commerce SaaS-tjänster som innefattar [Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)och [Katalogtjänst](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Mer information finns i [Exportguide för SaaS-data](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerce stöder också SaaS-dataexport för överföring av produktdata från Commerce-servern till SaaS-tjänster. SaaS-dataexport är integrerad med Commerce SaaS-tjänster, inklusive [Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) och [katalogtjänsten](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Mer information finns i [Exportguiden för SaaS-data](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## Dataverifiering
 
-Alla data måste valideras för att säkerställa kvaliteten, tillförlitligheten och integriteten hos värdena innan de importeras till arkivet. Valideringen börjar när du klickar **[!UICONTROL Check Data]**. Under processen kontrolleras alla enheter i importfilen för följande:
+Alla data måste valideras för att säkerställa kvaliteten, tillförlitligheten och integriteten hos värdena innan de importeras till arkivet. Valideringen börjar när du klickar på **[!UICONTROL Check Data]**. Under processen kontrolleras alla enheter i importfilen för följande:
 
-- **Attribut** - Kolumnrubriknamnen verifieras för att säkerställa att de matchar motsvarande attribut i systemdatabasen. Värdet för varje attribut kontrolleras för att säkerställa att det uppfyller kraven för datatypen (decimal, integer, varchar, text och datetime).
-- **Komplexa data** - Värden som härstammar från en definierad uppsättning, t.ex. en listruta eller flera valda indatatyper, verifieras för att säkerställa att värdena finns i den definierade uppsättningen.
-- **Tjänstdata** - Värdena i tjänstdatakolumner verifieras för att säkerställa att egenskaperna eller de komplexa datavärdena överensstämmer med det som redan har definierats i systemdatabasen.
+- **Attribut** - Kolumnrubriknamn verifieras för att säkerställa att de matchar motsvarande attribut i systemdatabasen. Värdet för varje attribut kontrolleras för att säkerställa att det uppfyller kraven för datatypen (decimal, integer, varchar, text och datetime).
+- **Komplexa data** - Värden som kommer från en definierad uppsättning, till exempel en listruta eller flera valda indatatyper, verifieras för att säkerställa att värdena finns i den definierade uppsättningen.
+- **Tjänstdata** - Värdena i tjänstdatakolumner verifieras för att säkerställa att egenskaperna eller de komplexa datavärdena är konsekventa med det som redan är definierat i systemdatabasen.
 - **Obligatoriska värden** - För nya entiteter kontrolleras om det finns obligatoriska attributvärden i filen. För befintliga enheter behöver du inte kontrollera om det finns obligatoriska attributvärden.
-- **Avgränsare** - Även om avgränsarna inte syns när de visas i ett kalkylblad, avgränsas datavärdena i en CSV-fil med kommatecken, och textvärdena omges med citattecken. Under valideringsprocessen kontrolleras formateringen för avgränsarna och varje uppsättning citattecken som omger teckensträngar.
+- **Avgränsare** - Även om avgränsarna inte syns när de visas i ett kalkylblad avgränsas datavärdena i en CSV-fil med kommatecken, och textvärdena omges med citattecken. Under valideringsprocessen kontrolleras formateringen för avgränsarna och varje uppsättning citattecken som omger teckensträngar.
 
 Resultatet av valideringen visas i avsnittet Valideringsresultat och innehåller följande information:
 
@@ -37,7 +37,7 @@ Resultatet av valideringen visas i avsnittet Valideringsresultat och innehåller
 - Antalet ogiltiga rader
 - Antalet fel som hittats
 
-Om data är giltiga kan du _Importen lyckades_ visas.
+Om data är giltiga visas ett _meddelande om att importen lyckades_.
 
 ![Systemmeddelande - filen är giltig](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 

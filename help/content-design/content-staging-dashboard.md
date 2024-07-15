@@ -14,29 +14,29 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-The [!UICONTROL Content Staging] Dashboard ger en översikt över alla aktiva och kommande kampanjer. Kontrollpanelens format kan ändras från ett rutnät till en tidslinje. Du kan också använda filter för att hitta kampanjer, anpassa kolumnlayouten och spara olika vyer av rutnätet. Mer information om arbetsytans kontroller finns i [Arbetsyta för administratörer](../getting-started/admin-workspace.md).
+Kontrollpanelen [!UICONTROL Content Staging] ger en översikt över alla aktiva och kommande kampanjer. Kontrollpanelens format kan ändras från ett rutnät till en tidslinje. Du kan också använda filter för att hitta kampanjer, anpassa kolumnlayouten och spara olika vyer av rutnätet. Mer information om arbetsytekontroller finns i [Admin workspace](../getting-started/admin-workspace.md).
 
-![Kontrollpanel för mellanlagring i stödrastervyn](./assets/content-staging-grid-view.png){width="600" zoomable="yes"}
+![Kontrollpanelen för mellanlagring i stödrastervyn](./assets/content-staging-grid-view.png){width="600" zoomable="yes"}
 
 ## Visa kontrollpanelen för mellanlagring
 
-1. På _Administratör_ sidebar, gå till  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**på sidofältet_ Admin _.
 
-1. Om du vill ändra kontrollpanelens format anger du **[!UICONTROL View As]** styra till `list`, `Grid`, eller `Timeline`.
+1. Om du vill ändra kontrollpanelens format anger du **[!UICONTROL View As]**-kontrollen till `list`, `Grid` eller `Timeline`.
 
    ![Tidslinjevy](./assets/content-staging-dashboard-timeline.png){width="600" zoomable="yes"}
 
    När tidslinjen visas kan du använda skjutreglaget i det nedre högra hörnet för att justera vyn från en till fyra veckor. Varje kolumn representerar en dag.
 
-1. Om tidslinjen visas drar du skjutreglaget till `4w` längst till höger om du vill visa ett längre tidsintervall.
+1. Om tidslinjen visas drar du skjutreglaget till positionen `4w` längst till höger för att visa ett längre tidsintervall.
 
    ![Fyrveckorsvy](./assets/content-staging-timeline-4-week-view.png){width="600" zoomable="yes"}
 
 1. Klicka på ett objekt på sidan om du vill visa allmän information om kampanjen.
 
-   - Klicka på **[!UICONTROL View/Edit]**.
+   - Klicka på **[!UICONTROL View/Edit]** om du vill öppna kampanjen.
 
-   - Om du vill se hur kampanjen ser ut för kunderna i butiken den dagen klickar du på **[!UICONTROL Preview]**.
+   - Klicka på **[!UICONTROL Preview]** om du vill se hur kampanjen ser ut för kunder i butiken den dagen.
 
    ![Kampanjinformation](./assets/content-staging-campaign-info.png){width="600" zoomable="yes"}
 
@@ -50,7 +50,7 @@ The [!UICONTROL Content Staging] Dashboard ger en översikt över alla aktiva oc
 | [!UICONTROL Start Time] | Det datum då kampanjen startar. |
 | [!UICONTROL End Time] | Datumet då kampanjen avslutas. |
 | [!UICONTROL Description] | Ytterligare beskrivning av varje kampanj. |
-| [!UICONTROL Action] | De åtgärder som kan tillämpas på en enskild post är bland annat:<br/>**[!UICONTROL View/Edit]**- Öppnar kampanjen i redigeringsläge.<br/>**[!UICONTROL Preview]** - Visar kampanjen i förhandsgranskningsläge. |
+| [!UICONTROL Action] | Åtgärderna som kan tillämpas på en enskild post omfattar:<br/>**[!UICONTROL View/Edit]**- Öppnar kampanjen i redigeringsläge.<br/>**[!UICONTROL Preview]** - Visar kampanjen i förhandsgranskningsläge. |
 
 {style="table-layout:auto"}
 
@@ -68,17 +68,17 @@ Kampanjen i det här exemplet innehåller två kategorier och tre enskilda produ
 
 Följ stegen nedan om du vill redigera något av objekten i kampanjen.
 
-1. På _Administratör_ sidebar, gå till  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**på sidofältet_ Admin _.
 
 1. Hitta kampanjen i den visade listan eller tidslinjen och öppna den för att få tillgång till informationen:
 
-   - Om du vill visa en lista klickar du **[!UICONTROL Select]** och sedan **[!UICONTROL View/Edit]** i _[!UICONTROL Action]_kolumn.
+   - Om du vill visa en lista klickar du på **[!UICONTROL Select]** och sedan på **[!UICONTROL View/Edit]** i kolumnen _[!UICONTROL Action]_.
    - Om du vill visa en tidslinje klickar du en gång för att visa sammanfattningen och sedan på **[!UICONTROL View/Edit]**.
 
-1. Uppdatera någon av inställningarna i _[!UICONTROL General]_efter behov.
+1. Uppdatera inställningarna i avsnittet _[!UICONTROL General]_efter behov.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) alla avsnitt som innehåller ett objekt som ska redigeras.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i alla avsnitt som innehåller ett objekt som ska redigeras.
 
-   ![Uppdaterar tilldelade produkter för en kampanjartikel](./assets/content-staging-campaign-edit-products.png){width="600" zoomable="yes"}
+   ![Uppdaterar tilldelade produkter för ett kampanjobjekt](./assets/content-staging-campaign-edit-products.png){width="600" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Save]**.

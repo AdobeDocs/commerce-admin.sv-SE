@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Paketprodukt
 
-Ett paket är en _bygga din egen_, anpassningsbar produkt. Varje artikel i ett paket kan baseras på någon av följande produkttyper:
+Ett paket är en _bygg en egen_, anpassningsbar produkt. Varje artikel i ett paket kan baseras på någon av följande produkttyper:
 
 - [Enkel produkt](product-create-simple.md)
 - [Virtuell produkt](product-create-virtual.md)
@@ -29,25 +29,25 @@ Alternativen visas när kunden klickar på antingen **[!UICONTROL Customize]** e
 >
 >Överordnad paketprodukt visas alltid automatiskt som en merförsäljningsprodukt för alla dess underordnade produkter.
 
-If [Omedelbart köp](../stores-purchase/checkout-instant-purchase.md) är tillgänglig, _Omedelbart köp_ visas under _Lägg i kundvagnen_ för varje objekt i paketet.
+Om [Direktköp](../stores-purchase/checkout-instant-purchase.md) är tillgängligt visas knappen _Direktköp_ nedanför knappen _Lägg till i kundvagnen_ för varje objekt i paketet.
 
 ![Anpassa paket](./assets/product-bundle-customize.png){width="600" zoomable="yes"}
 
-Följande instruktioner tar dig igenom processen med att skapa en paketprodukt med en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. Varje obligatoriskt fält markeras med en röd asterisk (`*`). När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
+Följande instruktioner tar dig genom processen att skapa en paketprodukt med hjälp av en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. Alla obligatoriska fält är markerade med en röd asterisk (`*`). När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
 
 ## Steg 1: Välj produkttyp
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
-1. I det övre högra hörnet på _[!UICONTROL Add Product]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ) väljer du **[!UICONTROL Bundle Product]**.
+1. Välj **[!UICONTROL Bundle Product]** i det övre högra hörnet på menyn _[!UICONTROL Add Product]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
    ![Lägg till paketprodukt](./assets/product-add-bundle.png){width="700" zoomable="yes"}
 
 ## Steg 2: Välj attributuppsättning
 
-Välj [attributuppsättning](attribute-sets.md) som används som mall för produkten gör du något av följande:
+Gör något av följande om du vill välja den [attributuppsättning](attribute-sets.md) som används som mall för produkten:
 
-- För **[!UICONTROL Search]**, ange namnet på attributuppsättningen,
+- För **[!UICONTROL Search]** anger du namnet på attributuppsättningen,
 - I listan väljer du den attributuppsättning som du vill använda.
 
 Formuläret uppdateras för att återspegla ändringen.
@@ -58,33 +58,33 @@ Formuläret uppdateras för att återspegla ändringen.
 
 1. Ange produkten **[!UICONTROL Product Name]**.
 
-1. Godkänn standardinställningen **[!UICONTROL SKU]** som baseras på produktnamnet eller anger ett annat värde.
+1. Acceptera standardvärdet **[!UICONTROL SKU]** som baseras på produktnamnet eller ange ett annat värde.
 
    Så här avgör du vilken typ av SKU som tilldelas till varje källartikel:
 
-   - A **[!UICONTROL Dynamic SKU]** kan tilldelas automatiskt till varje paketobjekt genom att lägga till ett suffix till standard-SKU:n. Som standard är den inställd på `Yes`.
+   - En **[!UICONTROL Dynamic SKU]** kan tilldelas automatiskt till varje källobjekt genom att ett suffix läggs till i standard-SKU:n. Som standard är den inställd på `Yes`.
 
-   - Om du vill tilldela en unik SKU för varje paketartikel anger du **[!UICONTROL Dynamic SKU]** till `No`.
+   - Om du föredrar att tilldela en unik SKU för varje paketobjekt anger du **[!UICONTROL Dynamic SKU]** till `No`.
 
    ![Dynamisk SKU och pris](./assets/product-bundle-manual-sku.png){width="600" zoomable="yes"}
 
 1. Gör något av följande för att fastställa paketpriset:
 
-   - Om priset ska återspegla de alternativ som kunden valt anger du **[!UICONTROL Dynamic Price]** till `Yes` och lämna **[!UICONTROL Price]** tom. I det här fallet har en paketprodukt inte ett eget pris från katalogen, och produktpriset härleds från priset för de enskilda produkter som ingår i paketet.
+   - Om du vill att priset ska återspegla de alternativ som valts av kunden anger du **[!UICONTROL Dynamic Price]** till `Yes` och lämnar **[!UICONTROL Price]** tomt. I det här fallet har en paketprodukt inte ett eget pris från katalogen, och produktpriset härleds från priset för de enskilda produkter som ingår i paketet.
 
-   - Ange ett fast pris för paketet **[!UICONTROL Dynamic Price]** till `No` och anger **[!UICONTROL Price]** som du vill debitera för paketet.
+   - Om du vill debitera ett fast pris för paketet anger du **[!UICONTROL Dynamic Price]** till `No` och anger **[!UICONTROL Price]** som du vill debitera för paketet.
 
    >[!NOTE]
    >
-   >[!UICONTROL Special Price] och [!UICONTROL Customer Group Price] (Pris) anges alltid som rabattprocent för alla paketprodukttyper.
+   >[!UICONTROL Special Price] och [!UICONTROL Customer Group Price] (Tier Price) anges alltid som rabattprocent för alla paketprodukttyper.
 
-1. Eftersom produkten ännu inte är klar att publiceras kan du ange **[!UICONTROL Enable Product]** till `No`.
+1. Eftersom produkten ännu inte är klar att publiceras anger du **[!UICONTROL Enable Product]** till `No`.
 
-1. Klicka **[!UICONTROL Save]** och fortsätta.
+1. Klicka på **[!UICONTROL Save]** och fortsätt.
 
-   När produkten sparas kan du [Butiksvy](introduction.md#product-scope) Väljaren visas i det övre vänstra hörnet.
+   När produkten sparas visas väljaren [Store View](introduction.md#product-scope) i det övre vänstra hörnet.
 
-1. Välj **[!UICONTROL Store View]** där produkten ska finnas tillgänglig.
+1. Välj den **[!UICONTROL Store View]** där produkten ska vara tillgänglig.
 
    ![Välj butiksvy](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
@@ -95,27 +95,27 @@ Formuläret uppdateras för att återspegla ändringen.
    - `None`
    - `Taxable Goods`
 
-   Om paketet har Dynamic Pricing bestäms momsen för **_var_** paketobjekt. Om paketet har fast pris, bestäms momsen för **_hel_** paketprodukt.
+   Om paketet har dynamiska priser bestäms momsen för **_varje_**-paketobjektet. Om paketet har fast pris fastställs momsen för paketprodukten **_hel_**.
 
 1. Observera följande:
 
-   - The **[!UICONTROL Quantity]** är inte tillgängligt eftersom värdet bestäms för varje paketartikel.
+   - **[!UICONTROL Quantity]** är inte tillgänglig eftersom värdet har bestämts för varje paketobjekt.
 
-   - Som standard är **[!UICONTROL Stock Status]** är inställd på `In Stock`.
+   - Som standard är **[!UICONTROL Stock Status]** inställd på `In Stock`.
 
 1. Gör något av följande för att bestämma paketets vikt:
 
-   - Om du vill att vikten ska återspegla de alternativ som kunden valt anger du **[!UICONTROL Dynamic Weight]** set `Yes` och lämna **[!UICONTROL Weight]** tom.
+   - Om du vill att vikten ska återspegla de alternativ som valts av kunden anger du **[!UICONTROL Dynamic Weight]**, anger `Yes` och lämnar **[!UICONTROL Weight]** tomt.
 
-   - Ange en fast vikt för paketet **[!UICONTROL Dynamic Weight]** till `No` och anger **[!UICONTROL Weight]** av paketet.
+   - Om du vill tilldela en fast vikt till paketet anger du **[!UICONTROL Dynamic Weight]** till `No` och anger **[!UICONTROL Weight]** för paketet.
 
    ![Dynamisk vikt](./assets/product-bundle-dynamic-weight.png){width="600" zoomable="yes"}
 
-1. Så här visar du produkten i listan över [nya produkter](../content-design/widget-new-products-list.md)väljer du **[!UICONTROL Set Product as New]** kryssrutan.
+1. Markera kryssrutan **[!UICONTROL Set Product as New]** om du vill visa produkten i listan över [nya produkter](../content-design/widget-new-products-list.md).
 
-1. Acceptera standardinställningen **[!UICONTROL Visibility]** inställning för `Catalog, Search`.
+1. Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
-1. Tilldela _[!UICONTROL Categories]_till produkten klickar du på&#x200B;**[!UICONTROL Select…]**och gör något av följande:
+1. Om du vill tilldela _[!UICONTROL Categories]_till produkten klickar du på rutan **[!UICONTROL Select…]**och gör något av följande:
 
    **Välj en befintlig kategori:**
 
@@ -129,7 +129,7 @@ Formuläret uppdateras för att återspegla ändringen.
 
    - Klicka på **[!UICONTROL New Category]**.
 
-   - Ange **[!UICONTROL Category Name]** och väljer **[!UICONTROL Parent Category]** som bestämmer dess placering i menystrukturen.
+   - Ange **[!UICONTROL Category Name]** och välj **[!UICONTROL Parent Category]** som avgör dess position i menystrukturen.
 
    - Klicka på **[!UICONTROL Create Category]**.
 
@@ -139,18 +139,18 @@ Formuläret uppdateras för att återspegla ändringen.
 
 ## Steg 5: Lägg till paketobjekten
 
-The _[!UICONTROL Bundle Items]_-avsnittet används för att lägga till artiklar i en paketprodukttyp och för att redigera det aktuella urvalet av artiklar.
+Avsnittet _[!UICONTROL Bundle Items]_används för att lägga till objekt i en paketprodukttyp och för att redigera det aktuella urvalet av objekt.
 
-![Paketartiklar definierade för en produkt](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
+![Paketobjekt har definierats för en produkt](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
-1. Bläddra nedåt till _Paketera objekt_ avsnitt och ange **[!UICONTROL Ship Bundle Items]** till något av följande:
+1. Bläddra ned till avsnittet _Paketobjekt_ och ställ in **[!UICONTROL Ship Bundle Items]** på något av följande:
 
    - `Separately`
    - `Together`
 
-   Om du väljer `Together`måste alla paketartiklar tilldelas samma [källa](../inventory-management/sources-manage.md).
+   Om du väljer `Together` måste alla paketobjekt tilldelas samma [källa](../inventory-management/sources-manage.md).
 
-1. Klicka **[!UICONTROL Add Option]** och gör följande:
+1. Klicka på **[!UICONTROL Add Option]** och gör följande:
 
    - Ange en **[!UICONTROL Option Title]** som ska användas som fältetikett.
 
@@ -161,9 +161,9 @@ The _[!UICONTROL Bundle Items]_-avsnittet används för att lägga till artiklar
       - `Checkbox`
       - `Multiple Select`
 
-   - Om du vill göra fältet till en obligatorisk post väljer du **[!UICONTROL Required]** kryssrutan.
+   - Markera kryssrutan **[!UICONTROL Required]** om du vill göra fältet till en obligatorisk post.
 
-   - Klicka **[!UICONTROL Add Products to Option]** och markera kryssrutan för varje produkt som du vill ta med i det här alternativet.
+   - Klicka på **[!UICONTROL Add Products to Option]** och markera kryssrutan för varje produkt som du vill inkludera i det här alternativet.
 
      Om det finns många produkter använder du listfiltren och sidnumreringskontrollerna för att hitta de produkter du behöver.
 
@@ -171,36 +171,36 @@ The _[!UICONTROL Bundle Items]_-avsnittet används för att lägga till artiklar
 
      ![Lägg till valda produkter](./assets/product-bundle-add-products-to-option.png){width="600" zoomable="yes"}
 
-   - När objekten visas i _Alternativ_ väljer du ett objekt som **[!UICONTROL Default]** markering.
+   - När objekten visas i avsnittet _Alternativ_ väljer du ett objekt som ska vara **[!UICONTROL Default]** -markeringen.
 
-   - I _Standardantal_ anger du kvantiteten för varje artikel som ska läggas till i paketet när en kund väljer artikeln.
+   - I kolumnen _Standardkvantitet_ anger du kvantiteten för varje artikel som ska läggas till i paketet när en kund väljer artikeln.
 
-   - Om du vill tillåta kunderna att ändra kvantiteten för en paketartikel väljer du **[!UICONTROL User Defined]**.
+   - Om du vill tillåta kunder att ändra kvantiteten för ett paketobjekt väljer du **[!UICONTROL User Defined]**.
 
 
      >[!NOTE]
      >
-     >Kvantiteten kan vara ett förinställt eller användardefinierat värde. Tilldela emellertid inte _[!UICONTROL User Defined]_till kryssruta eller indatatyper som har markerats flera gånger.
+     >Kvantiteten kan vara ett förinställt eller användardefinierat värde. Tilldela emellertid inte egenskapen _[!UICONTROL User Defined]_till kryssrutor eller indatatyper med flera val.
 
      Som standard kan kunden inte ändra standardkvantiteten som ingår i en paketartikel. Kunden kan dock ange den kvantitet av artikeln som ska inkluderas i paketet.
 
-     Om till exempel standardkvantiteten för Sprite-statussamlingen är inställd på `2` och kundorder `4` av denna paketoption är det totala antalet köpta kulor `8`.
+     Om till exempel standardantalet för Sprite-statussamlingen är `2` och kundbeställningarna `4` för det paketalternativet, blir det totala antalet köpta bollar `8`.
 
      ![Objektinformation](./assets/product-bundle-item-detail.png){width="600" zoomable="yes"}
 
 1. Upprepa dessa steg för varje objekt som du vill lägga till i paketet.
 
-1. Om du vill ändra objektens ordning i ett paketavsnitt klickar du på _Flytta_ ( ![Ikonen Flytta](../assets/icon-move.png) ) i början av raden och dra objektet till rätt plats.
+1. Om du vill ändra objektens ordning i ett paketavsnitt klickar du på ikonen _Flytta_ ( ![Flytta ](../assets/icon-move.png) ) i början av raden och drar objektet till rätt plats.
 
    ![Ändra ordning på paketobjekt](./assets/product-bundle-items-move.png){width="600" zoomable="yes"}
 
-   Du kan också ändra objektens ordning i data för en exporterad paketprodukt och sedan importera den igen till katalogen. Mer information finns i [Importerar paketprodukter](../systems/data-transfer-bundle-products.md).
+   Du kan också ändra objektens ordning i data för en exporterad paketprodukt och sedan importera den igen till katalogen. Mer information finns i [Importera paketprodukter](../systems/data-transfer-bundle-products.md).
 
    Om du vill få en bättre vy över arbetsytan kan du komprimera varje avsnitt först och sedan dra dem till rätt plats.
 
-1. Om du vill ta bort ett objekt från paketet klickar du på **[!UICONTROL Delete]** ( ![Papperskorgsikon](../assets/icon-delete-trashcan.png) ).
+1. Om du vill ta bort ett objekt från paketet klickar du på ikonen **[!UICONTROL Delete]** ( ![papperskorgen ](../assets/icon-delete-trashcan.png) ).
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ## Steg 6: Fyll i produktinformationen
 
@@ -215,17 +215,17 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 - [Design](settings-advanced-design.md)
 - [Presentalternativ](product-gift-options.md)
 
-## Steg 7: Publicera produkten
+## Steg 7: Publish produkten
 
-1. Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable Product]** till `Yes` ( ![Växla ja](../assets/toggle-yes.png) ).
+1. Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable Product]** till `Yes` ( ![Växla ja ](../assets/toggle-yes.png) ).
 
 1. Gör något av följande:
 
    **Metod 1:** Spara och förhandsgranska
 
-   - Klicka på i det övre högra hörnet **[!UICONTROL Save]**.
+   - Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-   - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på _Administratör_ ( ![Menypil](../assets/icon-menu-down-arrow-black.png) ).
+   - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil ](../assets/icon-menu-down-arrow-black.png) ).
 
      Butiken öppnas på en ny flik i webbläsaren.
 
@@ -233,13 +233,13 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
    **Metod 2:** Spara och stäng
 
-   På _[!UICONTROL Save]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ) väljer du **[!UICONTROL Save & Close]**.
+   Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## Indatakontroller
 
 | Kontroll | Beskrivning | Exempel |
 |--- |--- |--- |
-| [!UICONTROL Drop-down] | Visar en listruta med alternativ för produktnamn och pris. Det går bara att markera ett objekt. | ![Nedrullningsbar meny](./assets/product-bundle-input-type-drop-down.png){width="200"} |
+| [!UICONTROL Drop-down] | Visar en listruta med alternativ för produktnamn och pris. Det går bara att markera ett objekt. | ![Listruta](./assets/product-bundle-input-type-drop-down.png){width="200"} |
 | [!UICONTROL Radio Buttons] | Visar en alternativknapp för varje alternativ, följt av produktnamn och pris. Det går bara att markera ett objekt. | ![Alternativknappar](./assets/product-bundle-input-type-radio-buttons.png){width="200"} |
 | [!UICONTROL Checkbox] | Visar en kryssruta för varje alternativ, följt av produktnamn och pris. Du kan markera flera objekt. | ![Kryssruta](./assets/product-bundle-input-type-checkbox.png){width="200"} |
 | [!UICONTROL Multiple Select] | Visar en lista med alternativ med produktnamn och pris. Om du vill markera flera objekt håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje objekt. | ![Flera val](./assets/product-bundle-input-type-multiple-select.png){width="200"} |
@@ -259,32 +259,32 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
 ## Produktlagerstatus för paket
 
-Produktlagerstatus för paket är **_ändras automatiskt till Utanför lager_** när något av dessa scenarier inträffar:
+Bundle-produktlagerstatus ändras **_automatiskt till Utanför lager_** när något av följande inträffar:
 
-- Alla alternativ är valfria och alla tillhörande produkter är _Slut på lager_.
+- Alla alternativ är valfria och alla tillhörande produkter är _Utanför lager_.
 
-- Vissa alternativ är obligatoriska och produkter som är kopplade till obligatoriska alternativ är _Slut på lager_.
+- Vissa alternativ är obligatoriska och produkter som är kopplade till obligatoriska alternativ är _Utanför lager_.
 
-Produktlagerstatus för paket är **_ändras inte automatiskt till Ej i lager_** när något av dessa scenarier inträffar:
+Status för produktlager ändras **_inte automatiskt till Utanför lager_** när något av dessa scenarier inträffar:
 
-- Alla alternativ är valfria och minst en tillhörande produkt är _I Stock_.
+- Alla alternativ är valfria och minst en associerad produkt är _I Stock_.
 
 - Vissa alternativ krävs och minst en associerad produkt i varje obligatoriskt alternativ är _I Stock_.
 
 ## Saker att komma ihåg
 
-![Kryssruta](../assets/checkbox.png) Kunderna kan _bygga egna_ paketprodukt.
+![Kryssruta](../assets/checkbox.png) Kunder kan _skapa egna_ paketprodukter.
 
 ![Kryssruta](../assets/checkbox.png) Paketobjekt kan vara enkla eller virtuella produkter utan anpassade alternativ.
 
-![Kryssruta](../assets/checkbox.png) Prisvyn kan anges till antingen `Price Range` eller `As Low As`.
+![Kryssruta](../assets/checkbox.png) Prisvyn kan ställas in på `Price Range` eller `As Low As`.
 
-![Kryssruta](../assets/checkbox.png) SKU och Weight kan vara `Fixed` eller `Dynamic`.
+![Kryssruta](../assets/checkbox.png) SKU och vikt kan vara antingen `Fixed` eller `Dynamic`.
 
-![Kryssruta](../assets/checkbox.png) Kvantiteten kan vara ett förinställt eller användardefinierat värde. Tilldela emellertid inte _[!UICONTROL User Defined]_till kryssruta eller indatatyper som har markerats flera gånger.
+![Kryssruta](../assets/checkbox.png) Kvantiteten kan vara en förinställning eller ett användardefinierat värde. Tilldela emellertid inte egenskapen _[!UICONTROL User Defined]_till kryssrutor eller indatatyper med flera val.
 
 ![Kryssruta](../assets/checkbox.png) Paketartiklar kan levereras tillsammans eller separat.
 
-![Kryssruta](../assets/checkbox.png) Överordnad paketprodukt visas alltid automatiskt som en merförsäljningsprodukt för alla dess underordnade produkter.
+![Kryssruta](../assets/checkbox.png) Överordnad paketprodukt visas alltid som en merförsäljningsprodukt för alla dess underordnade produkter automatiskt.
 
-![Kryssruta](../assets/checkbox.png) [!UICONTROL Special Price] och [!UICONTROL Customer Group Price] (Pris) anges alltid som rabattprocent för alla paketprodukttyper.
+![Kryssruta](../assets/checkbox.png) [!UICONTROL Special Price] och [!UICONTROL Customer Group Price] (pris) anges alltid som rabattprocent för alla paketprodukttyper.

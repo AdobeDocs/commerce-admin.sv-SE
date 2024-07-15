@@ -16,34 +16,34 @@ Produktlistor kan ställas in så att de visas som standard som antingen en list
 
 >[!NOTE]
 >
->När du sorterar en kategori efter ett produktattribut sorteras även produkter med samma attributvärden efter deras _[!UICONTROL Product ID]_i stigande ordning.
+>När en kategori sorteras efter ett produktattribut sorteras produkter med samma attributvärden också efter deras _[!UICONTROL Product ID]_i stigande ordning.
 
 ![Produkter som visas som ett rutnät](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
 ## Konfigurera produktlistor
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Catalog]** och välja **[!UICONTROL Catalog]** under.
+1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Storefront]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Storefront]**.
 
    ![Konfigurationsalternativ för Storefront](../configuration-reference/catalog/assets/catalog-storefront.png){width="600" zoomable="yes"}
 
-   En detaljerad lista över dessa alternativ finns på [Storefront](../configuration-reference/catalog/catalog.md#storefront) i _Konfigurationsreferens_.
+   En detaljerad lista över dessa alternativ finns i [Storefront](../configuration-reference/catalog/catalog.md#storefront) i _Konfigurationsreferens_.
 
    >[!NOTE]
    >
-   >För korrekt visning av produkter och deras priser enligt _produktsortering efter pris_ kontrollerar du att inställningarna för priset visas i dialogrutan [Momskonfiguration](../configuration-reference/sales/tax.md) har samma värde (`Excluding Tax` **eller** `Including Tax`). För _[!UICONTROL Calculation Settings]_, kontrollera **[!UICONTROL Catalog Prices]**värde. Och för_[!UICONTROL Price Display Settings]_, kontrollera **[!UICONTROL Display Product Prices in Catalog]** värde. Om de har olika värden kan prisfiltren i lagernavigeringen eventuellt inte filtrera och sortera produkter efter pris.
+   >Om du vill visa produkter och deras priser på rätt sätt enligt _produktsortering efter pris_ kontrollerar du att inställningarna för prisvisningen i [Momskonfiguration](../configuration-reference/sales/tax.md) har samma värde (`Excluding Tax` **eller** `Including Tax`). Kontrollera värdet **[!UICONTROL Catalog Prices]** för _[!UICONTROL Calculation Settings]_. Och för_[!UICONTROL Price Display Settings]_, kontrollera värdet **[!UICONTROL Display Product Prices in Catalog]**. Om de har olika värden kan prisfiltren i lagernavigeringen eventuellt inte filtrera och sortera produkter efter pris.
 
-1. Ange standard **[!UICONTROL List Mode]** till något av följande:
+1. Ange standardvärdet **[!UICONTROL List Mode]** till något av följande:
 
    - `Grid Only`
    - `List Only`
    - `Grid (default) / List`
    - `List (default / Grid`
 
-1. För **[!UICONTROL Products per Page on Grid Allowed Values]** anger du antalet produkter som ska visas per sida i stödrasterformat.
+1. För **[!UICONTROL Products per Page on Grid Allowed Values]** anger du antalet produkter som du vill ska visas per sida när den visas i stödrasterformat.
 
    Om du vill ange ett urval av värden avgränsar du varje tal med ett kommatecken.
 
@@ -57,13 +57,13 @@ Produktlistor kan ställas in så att de visas som standard som antingen en list
 
 1. Ange **[!UICONTROL Product Listing Sorted by]** till standardattributet som ursprungligen används för att sortera listan.
 
-1. För att ge kunderna möjlighet att lista alla produkter, ange **[!UICONTROL Allow All Products on Page]** till `Yes`.
+1. Om du vill ge kunderna möjlighet att lista alla produkter anger du **[!UICONTROL Allow All Products on Page]** till `Yes`.
 
-1. Om du vill behålla alla sidnumreringsinställningar när kunderna bläddrar bland kataloglistorna anger du **[!UICONTROL Remember Category Pagination]** till `Yes`.
+1. Om du vill behålla alla sidnumreringsinställningar när kunderna bläddrar genom kataloglistor anger du **[!UICONTROL Remember Category Pagination]** till `Yes`.
 
    Om du aktiverar den här inställningen behålls antalet produkter som visas i en lista eller rutnät när kunderna bläddrar från en kategori till en annan. Som standard är det här fältet inställt på `No` eftersom det använder mer cache-lagring och kan påverka hur sidor indexeras av sökmotorer.
 
-1. Om du använder [platt katalog](catalog-flat.md) (**rekommenderas inte**) gör du följande:
+1. Gör följande om du använder en [platt katalog](catalog-flat.md) (**rekommenderas inte**):
 
    - Om du vill visa en platt kategorilista med produkter anger du **[!UICONTROL Use Flat Catalog Category]** till `Yes`.
 
@@ -71,7 +71,7 @@ Produktlistor kan ställas in så att de visas som standard som antingen en list
 
 1. Om du vill tillåta dynamiska referenser för medieresurser i kategori- och produkt-URL:er anger du **[!UICONTROL Allow Dynamic Media URLs in Products and Categories]** till `Yes`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Sidkontroller
 
@@ -95,7 +95,7 @@ Sidnumreringsinställningarna visas högst upp och längst ned i listan och styr
 | Kontroll | Beskrivning |
 |--- |--- |
 | ![Visa stödraster](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Visar listan i antingen rutnät- eller listformat. |
-| ![Sortera efter](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Ändrar sorteringsordningen i listan. The _[!UICONTROL Used for Sorting in Product Listing]_egenskapen storefront avgör vilken [produktattribut](../catalog/product-attributes.md) kan användas för att sortera listan. |
+| ![Sortera efter](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Ändrar sorteringsordningen för listan. Egenskapen _[!UICONTROL Used for Sorting in Product Listing]_storefront avgör vilka [produktattribut](../catalog/product-attributes.md) som kan användas för att sortera listan. |
 | ![Visa per sida](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Anger hur många produkter som visas per sida. |
 | ![Sidnumreringslänkar](./assets/control-pagination.png) | Sidnumreringslänkar - Navigeringslänkar till andra sidor. |
 
@@ -103,21 +103,21 @@ Sidnumreringsinställningarna visas högst upp och längst ned i listan och styr
 
 ### Konfigurera sidnumreringskontrollerna
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Hitta den butiksvy som du vill konfigurera och, i dialogrutan **[!UICONTROL Action]** kolumn, klicka **[!UICONTROL Edit]**.
+1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen **[!UICONTROL Action]**.
 
-1. Under **[!UICONTROL Other Settings]**, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Pagination]** -avsnitt.
+1. Under **[!UICONTROL Other Settings]** expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Pagination]**.
 
    ![Sidnumrering](./assets/config-design-pagination.png){width="600" zoomable="yes"}
 
    Mer information om de här inställningarna finns i [Designkonfiguration](../content-design/configuration.md).
 
-1. För **[!UICONTROL Pagination Frame]** anger du antalet länkar som du vill ska visas i sidnumreringskontrollen.
+1. I **[!UICONTROL Pagination Frame]** anger du antalet länkar som du vill ska visas i sidnumreringskontrollen.
 
-1. För **[!UICONTROL Pagination Frame Skip]** anger du antalet länkar som du vill hoppa över innan du visar nästa uppsättning länkar i sidnumreringskontrollen.
+1. För **[!UICONTROL Pagination Frame Skip]** anger du antalet länkar som du vill hoppa över innan nästa uppsättning länkar visas i sidnumreringskontrollen.
 
-   Om sidnumreringsramen t.ex. har fem länkar och du vill hoppa till de kommande fem länkarna, hur många länkar vill du hoppa över? Om du anger värdet till fyra (`4`) är den sista länken från den föregående uppsättningen den första länken i nästa uppsättning.
+   Om sidnumreringsramen t.ex. har fem länkar och du vill hoppa till de kommande fem länkarna, hur många länkar vill du hoppa över? Om du anger värdet till fyra (`4`) är den sista länken från föregående uppsättning den första länken i nästa uppsättning.
 
 1. För **[!UICONTROL Anchor Text for Previous]** anger du den text som du vill ska visas för länken Föregående.
 
@@ -125,4 +125,4 @@ Sidnumreringsinställningarna visas högst upp och längst ned i listan och styr
 
 1. För **[!UICONTROL Anchor Text for Next]** anger du den text som du vill ska visas för länken Nästa. Lämna tomt om du vill använda standardpilen.
 
-1. När du är klar klickar du på **[!UICONTROL Save Configuration]**.
+1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.

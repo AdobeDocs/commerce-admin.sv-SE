@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Transaktioner
 
-The _Transaktioner_ På sidan visas alla betalningsaktiviteter som har utförts mellan din butik och ett betalningssystem. Där finns även mer detaljerad information.
+På sidan _Transaktioner_ visas alla betalningsaktiviteter som har utförts mellan din butik och ett betalningssystem, och du får tillgång till mer detaljerad information.
 
 ## Visa transaktioner
 
-På _Administratör_ sidebar, gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
+Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**på sidofältet_ Admin _.
 
 ![Transaktionsrutnät](./assets/transactions.png){width="600" zoomable="yes"}
 
@@ -41,7 +41,7 @@ På sidan med transaktionsinformation kan du se rutnätet med transaktionsdetalj
 
 ### Transaktionsdata
 
-Det här avsnittet innehåller information om transaktionen och en länk till ordersidan i **Order-ID** kolumn.
+Det här avsnittet innehåller information om transaktionen och en länk till ordersidan i kolumnen **Order ID** .
 
 | Kolumn | Beskrivning |
 |--- |--- |
@@ -55,7 +55,7 @@ Det här avsnittet innehåller information om transaktionen och en länk till or
 
 ### Underordnade transaktioner
 
-Underordnade transaktioner visas i rutnätet efter att fakturor har skapats för [order](orders.md). Med det här formatet kan du spåra transaktionshistorik efter en transaktionshierarki.
+Underordnade transaktioner visas i rutnätet efter att fakturor för [order](orders.md) har skapats. Med det här formatet kan du spåra transaktionshistorik efter en transaktionshierarki.
 
 ### [!UICONTROL Transaction Details]
 
@@ -86,4 +86,4 @@ Det här avsnittet innehåller ytterligare information för en viss transaktion.
 
 >[!NOTE]
 >
->Om transaktionsinformationen inte är tillgänglig eller är inaktuell klickar du på **[!UICONTROL Fetch]** i knappfältet för att uppdatera dem.
+>Om transaktionsinformationen inte är tillgänglig eller är inaktuell kan du uppdatera den genom att klicka på **[!UICONTROL Fetch]** i knappfältet.

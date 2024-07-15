@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Returnerar
 
-A _returnerad varuauktorisering_ (RMA) kan beviljas kunder som begär att få returnera en artikel för ersättning eller återbetalning. Normalt kontaktar kunden handlaren för att begära en återbetalning. Om det godkänns tilldelas det ett unikt RMA-nummer som identifierar den returnerade produkten. I konfigurationen kan du antingen aktivera RMA för alla produkter eller bara tillåta RMA för vissa produkter. The _[!UICONTROL Returns]_rutnätet visar de aktuella returnerade varuförfrågningarna (RMA) och används för att ange nya returförfrågningar.
+En _returnerad varuauktorisering_ (RMA) kan beviljas kunder som begär att returnera en artikel för ersättning eller återbetalning. Normalt kontaktar kunden handlaren för att begära en återbetalning. Om det godkänns tilldelas det ett unikt RMA-nummer som identifierar den returnerade produkten. I konfigurationen kan du antingen aktivera RMA för alla produkter eller bara tillåta RMA för vissa produkter. Rutnätet _[!UICONTROL Returns]_visar aktuella returnerade varuförfrågningar (RMA) och används för att ange nya returförfrågningar.
 
 ![Returnerar rutnät](./assets/return.png){width="600" zoomable="yes"}
 
@@ -35,11 +35,11 @@ RMA-nummer kan utfärdas för enkla, grupperade, konfigurerbara och paketerade p
 
 ## Arbetsflöde för RMA och retur
 
-1. **Ta emot begäran** - Om [aktiverad](rma-configure.md#enable-rmas-for-your-store) för butiken kan både registrerade kunder och gäster begära en RMA. Du kan också [skicka en RMA-begäran i administratören](#create-a-return-request-in-the-admin).
+1. **Ta emot begäran** - Om [aktiverad](rma-configure.md#enable-rmas-for-your-store) för butiken kan både registrerade kunder och gäster begära en RMA. Du kan också [skicka en RMA-begäran i Admin](#create-a-return-request-in-the-admin).
 
-2. **RMA utfärdad** - När du har övervägt begäran kan du auktorisera den delvis, helt eller avbryta den. Om du godkänner returen och godkänner att betala för returleveransen, kan du skapa en leveransorder från administratören med en leverantör som stöds.
+2. **RMA utfärdad** - När du har övervägt begäran kan du auktorisera den delvis, helt eller avbryta begäran. Om du godkänner returen och godkänner att betala för returleveransen, kan du skapa en leveransorder från administratören med en leverantör som stöds.
 
-3. **Mottagen varuexponering och produktretur har bearbetats** - Följande flödesschema beskriver den operativa ordern för att slutföra returprocessen:
+3. **Merchandise mottagen och produktretur bearbetad** - I följande flödesschema beskrivs den operativa ordningen för att slutföra returprocessen:
 
    ![Arbetsflöde för produktretur](./assets/workflow-customer-returns.png){width="500"}
 
@@ -64,21 +64,21 @@ Under livscykeln kan en returnerad varuauktorisering (RMA) ha många tilldelade 
 
 ## Skapa en returbegäran i administratören
 
-En handlare kan skapa en returbegäran för kundens räkning från administratören. Kunderna kan [skapa en returbegäran](rma-customer-experience.md) i butiken för en Adobe Commerce-butik.
+En handlare kan skapa en returbegäran för kundens räkning från administratören. Kunder kan [skapa en returbegäran](rma-customer-experience.md) i butiken för en Adobe Commerce-butik.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
+1. Gå till **[!UICONTROL Sales]** > **[!UICONTROL Returns]** på sidofältet _Admin_.
 
 1. Klicka på **[!UICONTROL New Return Request]**.
 
-1. Om du vill skapa en returbegäran klickar du på en order med en `Complete` status.
+1. Om du vill skapa en returbegäran klickar du på en order med statusen `Complete`.
 
-1. Under _[!UICONTROL Return Information]_väljer du **[!UICONTROL Return Items]**-fliken.
+1. Under avsnittet _[!UICONTROL Return Information]_väljer du fliken **[!UICONTROL Return Items]**.
 
-1. Om du vill lägga till objekt som ska returneras klickar du på **[!UICONTROL Add Items]**.
+1. Klicka på **[!UICONTROL Add Items]** om du vill lägga till objekt som ska returneras.
 
 1. Markera kryssrutan för den önskade produkten och klicka på **[!UICONTROL Add Selected Product to returns]**.
 
-1. För **[!UICONTROL Requested]** anger du antalet artiklar som ska returneras.
+1. Ange antalet objekt som ska returneras för **[!UICONTROL Requested]**.
 
 1. Ange **[!UICONTROL Return Reason]** till något av följande:
 
@@ -87,7 +87,7 @@ En handlare kan skapa en returbegäran för kundens räkning från administratö
    - `Out of Service`
    - `Other`
 
-   Om orsaken till returen skiljer sig från alternativen i listan kan du ange en egen om du väljer `Other` alternativ.
+   Om orsaken till returen skiljer sig från alternativen i listan kan du ange en egen om du väljer alternativet `Other`.
 
 1. Ange **[!UICONTROL Item Condition]** till något av följande:
 
@@ -101,8 +101,8 @@ En handlare kan skapa en returbegäran för kundens räkning från administratö
    - `Refund`
    - `Store Credit`
 
-1. Om du vill skapa en retur klickar du **[!UICONTROL Submit Returns]**.
+1. Klicka på **[!UICONTROL Submit Returns]** om du vill skapa en retur.
 
-   ![Begärda RMA-objekt](./assets/return-item-request.png){width="600" zoomable="yes"}
+   ![RMA-objekt begärdes](./assets/return-item-request.png){width="600" zoomable="yes"}
 
-   Den nyligen skickade RMA-begäran visas på **[!UICONTROL Returns]** sida med en `Pending` status.
+   Den nyligen skickade RMA-begäran visas på sidan **[!UICONTROL Returns]** med statusen `Pending`.

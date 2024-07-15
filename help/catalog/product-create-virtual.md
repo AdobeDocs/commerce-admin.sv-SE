@@ -5,36 +5,36 @@ exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
 # Virtuell produkt
 
-Virtuella produkter, eller digitala varor, representerar icke-materiella tillgångar som medlemskap, tjänster, garantier eller prenumerationer samt digitala nedladdningar av böcker, musik, videor eller andra produkter. Virtuella produkter kan säljas separat eller inkluderas som en del av [Grupperad produkt](product-create-grouped.md), [Konfigurerbar produkt](product-create-configurable.md), eller [Paketprodukt](product-create-bundle.md) produkttyper.
+Virtuella produkter, eller digitala varor, representerar icke-materiella tillgångar som medlemskap, tjänster, garantier eller prenumerationer samt digitala nedladdningar av böcker, musik, videor eller andra produkter. Virtuella produkter kan säljas individuellt eller inkluderas som en del av produkttyperna [Grupperad produkt](product-create-grouped.md), [Konfigurerbar produkt](product-create-configurable.md) eller [Paketprodukt](product-create-bundle.md).
 
-Förutom frånvaron av _[!UICONTROL Weight]_är processen att skapa en virtuell produkt och en enkel produkt densamma. I följande instruktioner visas hur du skapar en virtuell produkt med en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
+Förutom att fältet _[!UICONTROL Weight]_saknas är processen att skapa en virtuell produkt och en enkel produkt densamma. I följande instruktioner visas hur du skapar en virtuell produkt med hjälp av en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
 
 >[!NOTE]
 >
->PayPal har ersatt stödet för försäljning av digitala varor via PayPal Express Checkout. De rekommenderar att du använder antingen [PayPal Payments Standard](../stores-purchase/paypal-payments-standard.md) eller någon annan PayPal-betalningstjänst för att bearbeta alla order som innehåller virtuella produkter.
+>PayPal har ersatt stödet för försäljning av digitala varor via PayPal Express Checkout. De rekommenderar att du antingen använder [PayPal Payments Standard](../stores-purchase/paypal-payments-standard.md) eller någon annan PayPal-betalningsgateway för att bearbeta alla order som innehåller virtuella produkter.
 
 ![Virtuell produkt](./assets/product-virtual-membership.png){width="700" zoomable="yes"}
 
 ## Steg 1: Välj produkttyp
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
-1. På _[!UICONTROL Add Product]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ) i det övre högra hörnet väljer du **[!UICONTROL Virtual Product]**.
+1. Välj **[!UICONTROL Virtual Product]** på menyn _[!UICONTROL Add Product]_( ![menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ) i det övre högra hörnet.
 
    ![Lägg till virtuell produkt](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
 ## Steg 2: Välj attributuppsättning
 
-Välj [attributuppsättning](attribute-sets.md) som används som mall för produkten gör du något av följande:
+Gör något av följande om du vill välja den [attributuppsättning](attribute-sets.md) som används som mall för produkten:
 
-- Klicka på **[!UICONTROL Attribute Set]** och ange hela eller delar av attributuppsättningens namn.
+- Klicka i fältet **[!UICONTROL Attribute Set]** och ange hela eller en del av attributuppsättningens namn.
 
 - Välj den attributuppsättning som du vill använda i listan som visas.
 
@@ -46,17 +46,17 @@ Formuläret uppdateras för att återspegla ändringen.
 
 1. Ange **[!UICONTROL Product Name]**.
 
-1. Acceptera standardinställningen **[!UICONTROL SKU]** som baseras på produktnamnet eller anger ett annat.
+1. Acceptera standardvärdet **[!UICONTROL SKU]** som baseras på produktnamnet eller ange ett annat.
 
 1. Ange produkten **[!UICONTROL Price]**.
 
-1. Eftersom produkten ännu inte är klar att publiceras kan du ange **[!UICONTROL Enable Product]** till `No`.
+1. Eftersom produkten ännu inte är klar att publiceras anger du **[!UICONTROL Enable Product]** till `No`.
 
-1. Klicka **[!UICONTROL Save]** och fortsätta.
+1. Klicka på **[!UICONTROL Save]** och fortsätt.
 
-   När produkten sparas kan du [Butiksvy](introduction.md#product-scope) Väljaren visas i det övre vänstra hörnet.
+   När produkten sparas visas väljaren [Store View](introduction.md#product-scope) i det övre vänstra hörnet.
 
-1. Välj **[!UICONTROL Store View]** där produkten ska finnas tillgänglig.
+1. Välj den **[!UICONTROL Store View]** där produkten ska vara tillgänglig.
 
    ![Välj butiksvy](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
@@ -67,19 +67,19 @@ Formuläret uppdateras för att återspegla ändringen.
    - `None`
    - `Taxable Goods`
 
-1. Ange **[!UICONTROL Quantity]** av den produkt som finns i lager och gör följande:
+1. Ange **[!UICONTROL Quantity]** för produkten som finns i lager och gör följande:
 
-   - Acceptera standardinställningen **[!UICONTROL Stock Status]** inställning för `In Stock`.
+   - Acceptera standardinställningen **[!UICONTROL Stock Status]** för `In Stock`.
 
-     Eftersom en virtuell produkt inte har levererats **[!UICONTROL Weight]** fältet används inte.
+     Eftersom ingen virtuell produkt har levererats används inte fältet **[!UICONTROL Weight]**.
 
-   - Acceptera standardinställningen **[!UICONTROL Visibility]** inställning för `Catalog, Search`.
+   - Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
    >[!NOTE]
    >
-   >Om du aktiverar [Inventory management](../inventory-management/introduction.md)anger handlare med en enda källa kvantiteten i det här avsnittet. Flera källhandlare lägger till källor och kvantiteter i avsnittet Källor. Se följande _Tilldela källor och kvantiteter (Inventory management)_ -avsnitt.
+   >Om du aktiverar [Inventory management](../inventory-management/introduction.md) anger handlare med en enda källa kvantiteten i det här avsnittet. Flera källhandlare lägger till källor och kvantiteter i avsnittet Källor. Se följande avsnitt _Tilldela källor och kvantiteter (Inventory management)_.
 
-1. Tilldela **[!UICONTROL Categories]** till produkten klickar du på **[!UICONTROL Select…]** och gör något av följande:
+1. Om du vill tilldela **[!UICONTROL Categories]** till produkten klickar du på rutan **[!UICONTROL Select…]** och gör något av följande:
 
    **Välj en befintlig kategori**:
 
@@ -91,7 +91,7 @@ Formuläret uppdateras för att återspegla ändringen.
 
    - Klicka på **[!UICONTROL New Category]**.
 
-   - Ange **[!UICONTROL Category Name]** och väljer **[!UICONTROL Parent Category]** som bestämmer dess placering i menystrukturen.
+   - Ange **[!UICONTROL Category Name]** och välj **[!UICONTROL Parent Category]** som avgör dess position i menystrukturen.
 
    - Klicka på **[!UICONTROL Create Category]**.
 
@@ -116,9 +116,9 @@ Fyll i informationen i följande avsnitt efter behov:
 
 >[!NOTE]
 >
->The _[!UICONTROL Is this downloadable product?]_är inaktiverat som standard. Om du aktiverar den här funktionen för en virtuell produkt blir produkten [Nedladdningsbar](product-create-downloadable.md#downloadable-product).
+>Alternativet _[!UICONTROL Is this downloadable product?]_är inaktiverat som standard. Om du aktiverar den här funktionen för en virtuell produkt blir produkten [nedladdningsbar](product-create-downloadable.md#downloadable-product).
 
-## Steg 6: Publicera produkten
+## Steg 6: Publish produkten
 
 1. Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable Product]** till `Yes`.
 
@@ -126,9 +126,9 @@ Fyll i informationen i följande avsnitt efter behov:
 
    - **Metod 1:** Spara och förhandsgranska
 
-      - Klicka i det övre högra hörnet **[!UICONTROL Save]**.
+      - Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-      - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på _Administratör_ ( ![Menypil](../assets/icon-menu-down-arrow-black.png) ).
+      - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil ](../assets/icon-menu-down-arrow-black.png) ).
 
      Butiken öppnas på en ny flik i webbläsaren.
 
@@ -136,7 +136,7 @@ Fyll i informationen i följande avsnitt efter behov:
 
    - **Metod 2:** Spara och stäng
 
-     På _[!UICONTROL Save]_(![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ) väljer du **[!UICONTROL Save & Close]**.
+     Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_(![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## Saker att komma ihåg
 

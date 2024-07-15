@@ -14,21 +14,21 @@ ht-degree: 0%
 
 För att ge någon begränsad åtkomst till administratören är det första steget att skapa en roll som har rätt behörighetsnivå. När rollen har sparats kan du lägga till nya användare och tilldela den begränsade rollen för att ge dem begränsad åtkomst till administratören.
 
-![Administratör - användarroller](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
+![Admin - användarroller](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
 
 ## Definiera en roll
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add New Role]**.
+1. Klicka på **[!UICONTROL Add New Role]** i det övre högra hörnet.
 
 1. Slutför stegen för att definiera rollen:
 
 ### Steg 1: Lägg till rollnamnet
 
-1. Under _[!UICONTROL Role Information]_, ange en beskrivning **[!UICONTROL Role Name]**.
+1. Under _[!UICONTROL Role Information]_anger du en beskrivande **[!UICONTROL Role Name]**.
 
-1. Under _[!UICONTROL Current User Identity Verification]_anger du ditt lösenord.
+1. Ange ditt lösenord under _[!UICONTROL Current User Identity Verification]_.
 
    ![Systembehörigheter - rollinformation](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -43,19 +43,19 @@ För att ge någon begränsad åtkomst till administratören är det första ste
    - `All`
    - `Custom`
 
-   Om inställt på `Custom` för en installation på flera platser markerar du kryssrutan för webbplatsen och lagret där rollen ska användas.
+   Om värdet är `Custom` för en installation på flera platser markerar du kryssrutan för webbplatsen och lagret där rollen ska användas.
 
    ![Resurser för användarroll - anpassat omfång](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Användare med en `Custom` rollomfånget kan inte skapa webbplatser och kategorier, tilldela produkter till kategorier eller redigera produkter på _[!UICONTROL All Store Views]_omfång när de tilldelas till begränsade butiker. Dessa användare kan inte heller utföra andra_ global _åtgärder som påverkar omfattningar där de inte har tillgång till dem.
+   >Användare med rollomfånget `Custom` kan inte skapa webbplatser och kategorier, tilldela produkter till kategorier eller redigera produkter i omfattningen _[!UICONTROL All Store Views]_när de tilldelas begränsade butiker. De här användarna kan inte heller utföra andra_ globala _åtgärder som påverkar scope där de inte har åtkomst.
 
-1. Under _[!UICONTROL Roles Resources]_, ange **[!UICONTROL Resource Access]**till `Custom`.
+1. Under _[!UICONTROL Roles Resources]_anger du **[!UICONTROL Resource Access]**till `Custom`.
 
-1. I **[!UICONTROL Resource]** trädstruktur, markera kryssrutan för varje administratörsfunktion som rollen har åtkomst till.
+1. Markera kryssrutan för varje administratörsfunktion som rollen har åtkomst till i trädstrukturen **[!UICONTROL Resource]**.
 
-   Om du vill skapa en administratörsroll med tillgång till skatteinställningar väljer du både moms och system/skatt. Om du konfigurerar en webbplats för ett område som skiljer sig från ditt standardvärde [ursprungsplats](../stores-purchase/shipping-settings.md#point-of-origin)måste du tillåta åtkomst till system-/leveransresurserna för rollen. Leveransinställningarna bestämmer momssatsen som används för katalogpriser.
+   Om du vill skapa en administratörsroll med tillgång till skatteinställningar väljer du både moms och system/skatt. Om du konfigurerar en webbplats för en region som skiljer sig från din [leveransplats](../stores-purchase/shipping-settings.md#point-of-origin) måste du tillåta åtkomst till system-/leveransresurserna för rollen. Leveransinställningarna bestämmer momssatsen som används för katalogpriser.
 
    ![Tilldelade användarrollresurser](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
@@ -63,21 +63,21 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
    >[!NOTE]
    >
-   >En administratör måste ha **[!UICONTROL Sales / Archive]** behörigheter för deras rollomfång för att se _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ och _[!UICONTROL Shipments]_beställa [tabbar](../stores-purchase/order-processing.md).
+   >En Admin-användare måste ha **[!UICONTROL Sales / Archive]** behörigheter för att kunna se flikarna _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ och _[!UICONTROL Shipments]_order [ ](../stores-purchase/order-processing.md).
 
-1. När du är klar klickar du på **[!UICONTROL Save Role]**.
+1. Klicka på **[!UICONTROL Save Role]** när du är klar.
 
    Rollen visas nu i rutnätet och kan tilldelas användarkonton.
 
 ## Tilldela användare en roll
 
-1. Från _[!UICONTROL Roles]_öppnar du posten i redigeringsläge.
+1. Öppna posten i redigeringsläge från stödrastret _[!UICONTROL Roles]_.
 
-1. Under _[!UICONTROL Current User Identity Verification]_anger du lösenordet för ditt användarkonto.
+1. Ange ditt lösenord för användarkontot under _[!UICONTROL Current User Identity Verification]_.
 
-1. Välj **[!UICONTROL Role Users]**.
+1. Välj **[!UICONTROL Role Users]** på den vänstra panelen.
 
-   The _[!UICONTROL Role Users]_visas först när en ny roll har sparats.
+   Alternativet _[!UICONTROL Role Users]_visas bara när en ny roll har sparats.
 
    ![Användarkonton som tilldelats rollen](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
@@ -93,7 +93,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 ## Redigera en roll
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**på sidofältet_ Admin _.
 
 1. Leta reda på rollen med hjälp av filter ovanför stödrastret och klicka på rollnamnet.
 
@@ -107,13 +107,13 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 ## Ta bort en roll
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**på sidofältet_ Admin _.
 
 1. Leta reda på rollen med hjälp av filter ovanför stödrastret och öppna i redigeringsläge.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Delete Role]**.
+1. Klicka på **[!UICONTROL Delete Role]** i det övre högra hörnet.
 
-1. Bekräfta åtgärden genom att klicka **[!UICONTROL OK]**.
+1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
 
 ## Demo av användarroller
 
@@ -125,9 +125,9 @@ I den här videon får du lära dig mer om hur du hanterar användarroller:
 
 En anpassad roll kan tilldelas åtkomst till följande resurser. På den länkade sidan finns mer information om de funktioner som är kopplade till varje resurs.
 
-![Adobe Commerce](../assets/adobe-logo.svg) - Endast Adobe Commerce
+![Adobe Commerce](../assets/adobe-logo.svg) - endast Adobe Commerce
 
-![Adobe Commerce B2B](../assets/b2b.svg) - Endast tillgängligt med Adobe Commerce B2B
+![Adobe Commerce B2B](../assets/b2b.svg) - endast tillgängligt med Adobe Commerce B2B
 
 | Resurs |   |   |
 | --- | --- | --- |
@@ -152,7 +152,7 @@ En anpassad roll kan tilldelas åtkomst till följande resurser. På den länkad
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
 |  | [`Design`](../content-design/introduction.md#design) | [`Themes`](../content-design/themes.md)<br/>[`Schedule`](../content-design/schedule.md) |  |
-|  | [Innehållsmellanlagring](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
+|  | [Mellanlagring av innehåll](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |

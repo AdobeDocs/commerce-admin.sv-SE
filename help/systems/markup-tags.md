@@ -5,14 +5,14 @@ exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 # Markeringstaggar
 
-En märkordstagg är ett direktiv som innehåller kodfragment med en relativ referens till ett objekt i din butik, t.ex. en variabel, URL, bild eller block. Markeringstaggar kan användas var som helst där redigeraren finns tillgänglig och ingår HTML i [e-post](email-templates.md) och [nyhetsbrev](../merchandising-promotions/newsletter-template.md) -mallar och andra typer av [innehåll](../content-design/introduction.md#content).
+En märkordstagg är ett direktiv som innehåller kodfragment med en relativ referens till ett objekt i din butik, t.ex. en variabel, URL, bild eller block. Markeringstaggar kan användas var som helst där redigeraren är tillgänglig och ingår i HTML i mallarna [email](email-templates.md) och [newsletter](../merchandising-promotions/newsletter-template.md) samt andra typer av [innehåll](../content-design/introduction.md#content).
 
 Markeringstaggar omges av dubbla klammerparenteser och kan antingen genereras med widgetverktyget eller skrivas direkt i HTML. I stället för att hårdkoda hela sökvägen till en sida kan du använda en tagg som representerar butikens URL. De märkordstaggar som beskrivs i följande exempel är:
 
@@ -20,13 +20,13 @@ Markeringstaggar omges av dubbla klammerparenteser och kan antingen genereras me
 
 ## Anpassad variabel
 
-Du kan använda taggen Variable för att infoga en [egen variabel](variables-custom.md) till en e-postmall, block, nyhetsbrev och innehållssidor.
+Du kan använda taggen Variable-kod för att infoga en [anpassad variabel](variables-custom.md) i en e-postmall, block, nyhetsbrev och innehållssidor.
 
 \{\{CustomVar code= &quot;my_custom_variable&quot;}}
 
 ## Lagra URL
 
-Markeringstaggen Butiks-URL representerar webbplatsens bas-URL och används som ersättning för den första delen av en fullständig URL, inklusive domännamnet. Det finns två versioner av den här taggen: en som skickas direkt till din butik och den andra med ett snedstreck (`/`) i slutet som används när en bana läggs till.
+Markeringstaggen Butiks-URL representerar webbplatsens bas-URL och används som ersättning för den första delen av en fullständig URL, inklusive domännamnet. Det finns två versioner av den här märkordstaggen: en som kommer direkt till din butik och den andra med ett snedstreck (`/`) i slutet som används när en sökväg läggs till.
 
 \{\{store url=&#39;kläder/skor/kvinnor&#39;}}
 
@@ -88,15 +88,15 @@ Navigera om möjligt till sidan som du vill länka till och kopiera den fullstä
 
 ### Steg 2. Lägg till markeringen i URL:en
 
-URL-taggen för butik representerar webbplatsens bas-URL och används som ersättning för HTTP-adressdelen i butikens URL, inklusive domännamnet och `.com`. Det finns två versioner av taggen som du kan använda, beroende på vilket resultat du vill uppnå.
+URL-taggen för butik representerar bas-URL:en för din webbplats och används som ersättning för HTTP-adressdelen i butikens URL, inklusive domännamnet och `.com`. Det finns två versioner av taggen som du kan använda, beroende på vilket resultat du vill uppnå.
 
-`store direct_url` - Länkar direkt till en sida.
+`store direct_url` - länkar direkt till en sida.
 
-`store url` - Placerar ett snedstreck i slutet så att ytterligare referenser kan läggas till som en bana.
+`store url` - Placerar ett snedstreck i slutet så att ytterligare referenser kan läggas till som en sökväg.
 
 I följande exempel omges URL-tangenten med enkla citattecken och hela taggen omges med dubbla klammerparenteser. När märkordet används med en ankartagg placeras det inuti ankarpunktens dubbla citattecken. För att undvika missförstånd kan du växla med enkla och dubbla citattecken för varje kapslad uppsättning med citattecken.
 
-Om du börjar med en fullständig URL-adress tar du bort HTTP-adressen (`http://` eller `https://`) del av webbadressen, upp till och med `.com/`. I stället för detta anger du taggen Store URL markup, upp till det inledande enkla citattecknet.
+Om du börjar med en fullständig URL-adress tar du bort HTTP-adressen (`http://` eller `https://`) från URL-adressen, till och med `.com/`. I stället för detta anger du taggen Store URL markup, upp till det inledande enkla citattecknet.
 
 #### Lagra URL-märkordstagg
 
@@ -126,4 +126,4 @@ Klistra in den färdiga ankartaggen i koden för en CMS-sida, -block, -banderoll
 
 ### Fullständig länk med markering
 
-\&lt;a href=&quot;\{\{store url=&amp;#39;apparel/shoes&amp;#39;}}&quot;>Shoe Sale\&lt;/a>
+\&lt;a href=&quot;\{\{store url=&#39;kläm/skor&#39;}}&quot;>Skådeförsäljning\&lt;/a>

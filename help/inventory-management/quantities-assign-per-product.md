@@ -12,38 +12,38 @@ ht-degree: 0%
 
 # Tilldela kvantiteter per produkt
 
-Efter tillägg [källor](sources-assign-per-product.md), uppdaterar lagerkvantiteterna för din produkt. Dessa värden spårar tillgängliga lagerbehållningsbelopp.
+När du har lagt till [källor](sources-assign-per-product.md) uppdaterar du lagerkvantiteterna för din produkt. Dessa värden spårar tillgängliga lagerbehållningsbelopp.
 
-Om du vill dölja en källas lager från leveranser utan att ta bort källan anger du _[!UICONTROL Source Item Status]_till `Out of Stock`. SSA- och leveransalternativen har endast åtkomst till källor som listas som `In Stock` med tillgänglig lagerkvantitet.
+Om du vill dölja en källas lager från leveranser utan att ta bort källan anger du _[!UICONTROL Source Item Status]_till `Out of Stock`. SSA- och leveransalternativen har bara åtkomst till källor som listas som `In Stock` med tillgänglig lagerkvantitet.
 
 Alla uppdaterade kvantiteter och källor visas i produktrutnätet.
 
 ## Uppdatera kvantiteter
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
 1. Leta upp och öppna en produkt i redigeringsläge.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Sources]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Sources]**.
 
 1. Ange **[!UICONTROL Source Item Status]** till `In Stock`.
 
-1. om du vill uppdatera lagerbehållningen anger du ett belopp för **[!UICONTROL Qty]**.
+1. Om du vill uppdatera kvantiteten för lagerbehållning anger du ett belopp för **[!UICONTROL Qty]**.
 
 1. Gör något av följande om du vill ange ett meddelande för lagerkvantiteter:
 
-   - Anpassad meddelandekvantitet - Avmarkera alternativet **[!UICONTROL Use Default]** kryssrutan och ange ett belopp i **[!UICONTROL Notify Qty]**.
-   - Standardkvantitet för meddelanden - Välj **[!UICONTROL Use Default]** kryssrutan. [!DNL Commerce] kontrollerar och använder inställningen i _[!UICONTROL Advanced Inventory]_eller global lagringskonfiguration.
+   - Anpassad meddelandekvantitet - Avmarkera kryssrutan **[!UICONTROL Use Default]** och ange ett belopp i **[!UICONTROL Notify Qty]**.
+   - Standardkvantitet för meddelande - Markera kryssrutan **[!UICONTROL Use Default]**. [!DNL Commerce] kontrollerar och använder inställningen i _[!UICONTROL Advanced Inventory]_eller den globala lagringskonfigurationen.
 
-   ![Uppdatera produktkvantiteter per källa](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
+   ![Uppdatera produktkvantiteter per Source](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
 1. Spara genom att göra något av följande:
 
    - Klicka på **[!UICONTROL Save]**.
 
-   - På **[!UICONTROL Save]** (![Menypil](../assets/icon-menu-down-arrow-red.png)) väljer du **[!UICONTROL Save & Close]**.
+   - Välj **[!UICONTROL Save & Close]** på menyn **[!UICONTROL Save]** (![Menypil](../assets/icon-menu-down-arrow-red.png)).
 
 
-Produktstödrastret uppdateras med en lista över alla källor och relaterade kvantiteter. För produkter med fler än fem tilldelade källor håller du muspekaren över _[!UICONTROL Quantity per Source]_för att se hela listan.
+Produktstödrastret uppdateras med en lista över alla källor och relaterade kvantiteter. För produkter med fler än fem tilldelade källor håller du pekaren över kolumnen _[!UICONTROL Quantity per Source]_för att se den fullständiga listan.
 
 ![Produktkvantiteter per källa](assets/inventory-product-quantity.png){width="600" zoomable="yes"}

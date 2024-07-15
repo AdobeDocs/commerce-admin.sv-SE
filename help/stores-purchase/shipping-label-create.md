@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Om du vill skapa etiketter för frakt måste du först skapa ett fraktförares konto som stöder etiketter. Följ sedan instruktionerna för att ange en beskrivning av paketet och dess innehåll.
 
-När du har konfigurerat etikettinformationen för frakt och skickat en beställning ansluter Commerce till transportföretagets system, skickar en beställning och får en etikett och ett spårningsnummer. Om det finns en leveransetikett för den här leveransen i systemet ersätts den med en ny. Befintliga spårningsnummer ersätts dock inte. Alla nya spårningsnummer läggs till i det befintliga.
+När du har konfigurerat etikettinformationen för frakt och skickat en beställning ansluter Commerce till transportföretagets system, skickar en beställning och får en fraktsetikett och ett spårningsnummer. Om det finns en leveransetikett för den här leveransen i systemet ersätts den med en ny. Befintliga spårningsnummer ersätts dock inte. Alla nya spårningsnummer läggs till i det befintliga.
 
 ## Steg 1: Kontakta dina fraktfirmor
 
@@ -24,20 +24,20 @@ Kontakta varje fraktfirma som du använder för att aktivera leveransetiketter f
 
 Följ instruktionerna från respektive fraktfirma för att lägga till stöd för leveransetiketter till ditt konto.
 
-- **FedEx** - Kontakt [FedEx Web Integration Services][1] om du vill veta mer om kraven för etikettutskrift för ditt konto.
-- **USPS** - Se [API-portal för webbverktyg][4] under Speditörsupporten om du vill veta hur du ställer in etikettens utskriftsuppgifter.
-- **UPS**- Kontakt [UPS][2] för att bekräfta att ditt konto har stöd för fraktsetiketter. Om du vill generera leveransetiketter måste du använda alternativet UPS XML.
-- **DHL** - Kontakt [DHL eCommerce Solutions][3] om du vill veta mer om kraven för etikettutskrift för ditt konto.
+- **FedEx** - Kontakta [FedEx Web Integration Services][1] om du vill veta mer om etikettutskriftskraven för ditt konto.
+- **USPS** - Läs [API-portalen för webbverktyg][4] i supportcentret för Shipper om du vill veta hur du ställer in etikettens utskriftsautentiseringsuppgifter.
+- **UPS**- Kontakta [UPS][2] för att bekräfta att ditt konto har stöd för etiketter för leverans. Om du vill generera leveransetiketter måste du använda alternativet UPS XML.
+- **DHL** - Kontakta [DHL eCommerce Solutions][3] om du vill veta mer om kraven för etikettutskrift för ditt konto.
 
 ## Steg 2: Uppdatera konfigurationen för varje transportföretag
 
-1. Se till att [Butiksinformation](../getting-started/store-details.md#store-information) är klar.
+1. Kontrollera att din [Store-information](../getting-started/store-details.md#store-information) är fullständig.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och markera **[!UICONTROL Shipping Settings]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Origin]** -avsnittet och konfigurera **[!UICONTROL Shipping Origin Address]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Origin]** och konfigurera **[!UICONTROL Shipping Origin Address]**.
 
 1. Följ instruktionerna nedan för varje transportföretagskonto som aktiveras för etikettutskrift.
 
@@ -45,25 +45,25 @@ Följ instruktionerna från respektive fraktfirma för att lägga till stöd fö
 
 United Parcel Service levererar både internt och internationellt. Leveransetiketter kan bara genereras för leveranser som har sitt ursprung i USA.
 
-1. I _[!UICONTROL Sales]_väljer du **[!UICONTROL Delivery Methods]**.
+1. Välj **[!UICONTROL Delivery Methods]** i avsnittet _[!UICONTROL Sales]_i den vänstra panelen.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL UPS]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL UPS]**.
 
-1. Verifiera att din UPS **[!UICONTROL Shipper Number]** är korrekt.
+1. Kontrollera att din UPS **[!UICONTROL Shipper Number]** är korrekt.
 
-   Ditt nummer visas bara när [!DNL United Parcel Service XML] är aktiverat.
+   Ditt leveransnummer visas bara när [!DNL United Parcel Service XML] är aktiverat.
 
 1. Klicka på **[!UICONTROL Save Config]**.
 
 ### USPS-konfiguration
 
-The [!DNL United States Postal Service] fartyg både nationellt och internationellt.
+[!DNL United States Postal Service] levereras både nationellt och internationellt.
 
-1. Fortsätta i **[!UICONTROL Delivery Methods]** konfiguration, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL USPS]** -avsnitt.
+1. Expandera ![-expanderingsväljaren ](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL USPS]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
 
-1. Verifiera att **[!UICONTROL Secure Gateway URL]** är korrekt.
+1. Kontrollera att **[!UICONTROL Secure Gateway URL]** är korrekt.
 
-1. Ange **[!UICONTROL Password]** som tillhandahålls av USPS.
+1. Ange **[!UICONTROL Password]** som du fått från USPS.
 
 1. Ange **[!UICONTROL Size]** till `Large` och ange värden för följande dimensioner:
 
@@ -78,7 +78,7 @@ The [!DNL United States Postal Service] fartyg både nationellt och internatione
 
 FedEx levererar nationellt och internationellt. Lager utanför USA kan endast skapa FedEx-etiketter för internationella leveranser.
 
-1. Fortsätta i **[!UICONTROL Delivery Methods]** konfiguration, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL FedEx]** -avsnitt.
+1. Expandera ![-expanderingsväljaren ](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL FedEx]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
 
 1. Kontrollera att följande FedEx-autentiseringsuppgifter är korrekta:
 
@@ -92,9 +92,9 @@ FedEx levererar nationellt och internationellt. Lager utanför USA kan endast sk
 
 DHL tillhandahåller internationella sjöfartstjänster.
 
-1. Fortsätta i **[!UICONTROL Delivery Methods]** konfiguration, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL DHL]** -avsnitt.
+1. Expandera ![-expanderingsväljaren ](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL DHL]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
 
-1. Verifiera att **[!UICONTROL Gateway URL]** är korrekt.
+1. Kontrollera att **[!UICONTROL Gateway URL]** är korrekt.
 
 1. Kontrollera att följande autentiseringsuppgifter är fullständiga:
 
@@ -108,31 +108,31 @@ DHL tillhandahåller internationella sjöfartstjänster.
 
 ### Metod 1: Skapa etikett för ny leverans
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Gå till **[!UICONTROL Sales]** > **[!UICONTROL Orders]** på sidofältet _Admin_.
 
 1. Leta reda på ordningen i rutnätet och öppna posten.
 
    Orderns status måste vara antingen `Pending` eller `Processing`.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Ship]**.
+1. Klicka på **[!UICONTROL Ship]** i det övre högra hörnet.
 
 1. Bekräfta leveransinformationen enligt transportföretagets krav.
 
-1. I det nedre högra hörnet väljer du **[!UICONTROL Create Shipping Label]** kryssrutan.
+1. Markera kryssrutan **[!UICONTROL Create Shipping Label]** i det nedre högra hörnet.
 
 1. Klicka på **[!UICONTROL Submit Shipment]**.
 
 1. Lägg till eller uppdatera produkter i paketet:
 
-   - Om du vill lägga till produkter från beställningen i paketet klickar du på **[!UICONTROL Add Products]**. The _[!UICONTROL Quantity]_kolumnen visar det maximala antalet produkter som är tillgängliga för paketet.
+   - Om du vill lägga till produkter från ordningen i paketet klickar du på **[!UICONTROL Add Products]**. Kolumnen _[!UICONTROL Quantity]_visar det maximala antalet produkter som är tillgängliga för paketet.
 
-   - Markera kryssrutan för varje produkt som ska läggas till i paketet och ange **[!UICONTROL Quantity]** av var och en. Klicka sedan på **[!UICONTROL Add Selected Product(s) to Package]**.
+   - Markera kryssrutan för varje produkt som ska läggas till i paketet och ange **[!UICONTROL Quantity]** för varje produkt. Klicka sedan på **[!UICONTROL Add Selected Product(s) to Package]**.
 
-   - Om du vill lägga till ett paket klickar du **[!UICONTROL Add Package]**.
+   - Klicka på **[!UICONTROL Add Package]** om du vill lägga till ett paket.
 
-   - Om du vill ta bort ett paket klickar du **[!UICONTROL Delete Package]**.
+   - Klicka på **[!UICONTROL Delete Package]** om du vill ta bort ett paket.
 
-   - Om du vill avbryta en beställning klickar du **[!UICONTROL Cancel]**. Ingen leveransetikett skapas och _[!UICONTROL Create Shipping Label]_är avmarkerad.
+   - Om du vill avbryta en beställning klickar du på **[!UICONTROL Cancel]**. Ingen leveransetikett har skapats och kryssrutan _[!UICONTROL Create Shipping Label]_har tagits bort.
 
    >[!NOTE]
    >
@@ -144,15 +144,15 @@ DHL tillhandahåller internationella sjöfartstjänster.
 
 ### Metod 2: Skapa etikett för befintlig leverans
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**på sidofältet_ Admin _.
 
 1. Hitta beställningen i rutnätet och öppna leveransformuläret.
 
-1. I _[!UICONTROL Shipping and Tracking Information]_avsnitt, klicka **[!UICONTROL Create Shipping Label]**.
+1. Klicka på **[!UICONTROL Create Shipping Label]** i avsnittet _[!UICONTROL Shipping and Tracking Information]_.
 
 1. Distribuera de beställda produkterna till rätt paket och klicka på **[!UICONTROL OK]**.
 
-1. Klicka på **[!UICONTROL Show Packages]**.
+1. Klicka på **[!UICONTROL Show Packages]** om du vill granska paketinformationen.
 
 ## Steg 4: Skriv ut etiketterna
 
@@ -164,27 +164,27 @@ Leveransetiketter genereras i PDF-format och kan skrivas ut från administratör
 
 ### Metod 1: Skriv ut etikett från utleveransformulär
 
-1. På _Administratörssidlist_, går till någon av följande sidor och letar sedan upp försändelseposten:
+1. Gå till någon av följande sidor på _Admin-sidlisten_ och leta sedan reda på försändelseposten:
 
-   - **[!UICONTROL Sales]** > **[!UICONTROL Orders]** - Leta reda på ordningen i rutnätet och öppna posten. Välj **[!UICONTROL Shipments]**. Öppna sedan försändelseposten.
+   - **[!UICONTROL Sales]** > **[!UICONTROL Orders]** - Hitta ordningen i rutnätet och öppna posten. Välj **[!UICONTROL Shipments]** på den vänstra panelen. Öppna sedan försändelseposten.
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - Hitta leveransen i rutnätet och öppna posten.
 
-1. Om du vill hämta PDF-filen går du till _[!UICONTROL Shipping and Tracking]_formuläravsnitt och klicka **[!UICONTROL Print Shipping Label]**.
+1. Om du vill hämta PDF-filen går du till avsnittet _[!UICONTROL Shipping and Tracking]_i formuläret och klickar på&#x200B;**[!UICONTROL Print Shipping Label]**.
 
    Beroende på inställningarna i webbläsaren kan etiketterna visas och skrivas ut direkt från PDF-filen.
 
-   The _[!UICONTROL Print Shipping Label]_visas först när transportören har genererat etiketter för leveransen. Om knappen saknas klickar du på&#x200B;**[!UICONTROL Create Shipping Label]**. Knappen visas när Commerce tar emot etiketten från transportföretaget.
+   Knappen _[!UICONTROL Print Shipping Label]_visas bara efter att transportören har genererat etiketter för leveransen. Om knappen saknas klickar du på&#x200B;**[!UICONTROL Create Shipping Label]**. Knappen visas när Commerce har tagit emot etiketten från transportören.
 
 ### Metod 2: Skriv ut etiketter för flera order
 
-1. På _Administratörssidlist_, går till någon av följande sidor och väljer sedan beställningar eller leveranser för utskrift:
+1. Gå till någon av följande sidor på sidofältet _Admin_ och välj sedan beställningar eller leveranser för utskrift:
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Orders]** - I rutnätet markerar du kryssrutan för varje order med leveransetiketter som ska skrivas ut.
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - Markera kryssrutan för varje leverans med etiketter som ska skrivas ut i rutnätet.
 
-1. Ange **[!UICONTROL Actions]** styra till `Print Shipping Labels`.
+1. Ställ in kontrollen **[!UICONTROL Actions]** på `Print Shipping Labels`.
 
 1. Klicka på **[!UICONTROL Submit]**.
 
@@ -197,33 +197,33 @@ En fullständig uppsättning fraktsetiketter skrivs ut för varje leverans som �
 | [!UICONTROL Type] | Pakettyperna skiljer sig åt beroende på transportör och metod. Standardpakettypen för varje bärare väljs från början. USPS kräver inte pakettypen för inhemska leveranser. |
 | [!UICONTROL Customs Value] | (Endast internationella transporter) Det deklarerade värdet eller försäljningspriset för innehållet i en internationell transport. |
 | [!UICONTROL Total Weight] | Den totala vikten för alla produkter som läggs till i paketet beräknas automatiskt. Värdet kan också ändras manuellt och anges som pund eller kilogram. |
-| [!UICONTROL Length, Width, Height] | (Valfritt) Paketdimensionerna används endast för anpassade paket. Du kan ange måttenheter som tum eller centimeter.<br/><br/>**[!UICONTROL Not Required]**: Fraktbolaget skickar ingen bekräftelse på leveransen till butiken.<br/><br/>**[!UICONTROL No Signature]**: Leveransbekräftelse utan mottagarens underskrift skickas till butiken av fraktfirman.<br/><br/>**[!UICONTROL Signature Required]**: Transportföretaget får mottagarens signatur och förser butiken med en tryckt kopia.<br/><br/>**[!UICONTROL Direct]**: (Endast FedEx) FedEx hämtar en signatur från någon på leveransadressen. Om ingen kan signera för paketet försöker fraktfirman leverera paketet vid ett annat tillfälle.<br/><br/>**[!UICONTROL Indirect]**: (Endast FedEx-leveranser för boende) FedEx får en signatur från någon (eventuellt en granne eller byggnadschef) på leveransadressen. Mottagaren kan lämna en signerad FedEx-dörrtagg för att godkänna att paketet lämnas utan att någon är närvarande för att signera det.<br/><br/>**[!UICONTROL Contents]**: (Endast USPS) Välj en av följande beskrivningar av paketet:<br/>- Gåva<br/>- Dokument<br/>- Exempel på företag<br/>- Returnerade varor<br/>- Merchandise<br/>- Övriga <br/><br/>**[!UICONTROL Explanation]**: (Endast USPS) En detaljerad beskrivning av paketets innehåll.<br/><br/>**[!UICONTROL Adult Required]**: Transportföretaget får en vuxenmottagares signatur och förser butiken med en utskriven kopia. |
+| [!UICONTROL Length, Width, Height] | (Valfritt) Paketdimensionerna används endast för anpassade paket. Du kan ange måttenheter som tum eller centimeter.<br/><br/>**[!UICONTROL Not Required]**: Fraktbolaget har inte skickat någon bekräftelse på leveransen till butiken.<br/><br/>**[!UICONTROL No Signature]**: Leveransbekräftelse utan mottagarens signatur skickas till butiken av fraktfirman.<br/><br/>**[!UICONTROL Signature Required]**: Transportföretaget får mottagarens signatur och förser butiken med en utskriven kopia.<br/><br/>**[!UICONTROL Direct]**: (Endast FedEx) FedEx hämtar en signatur från någon på leveransadressen. Om ingen kan signera för paketet försöker fraktfirman leverera paketet vid ett annat tillfälle.<br/><br/>**[!UICONTROL Indirect]**: (Endast FedEx-leveranser för boende) FedEx hämtar signaturen för någon (eventuellt en granne eller byggnadschef) på leveransadressen. Mottagaren kan lämna en signerad FedEx-dörrtagg för att godkänna att paketet lämnas utan att någon är närvarande för att signera det.<br/><br/>**[!UICONTROL Contents]**: (Endast USPS) Välj en av följande beskrivningar av paketet: <br/>- Gift<br/>- Documents<br/>- Commercial Sample<br/>- Returned Goods<br/>- Merchandise<br/>- Other <br/><br/>**[!UICONTROL Explanation]**: (Endast USPS) En detaljerad beskrivning av paketets innehåll.<br/><br/>**[!UICONTROL Adult Required]**: Transportföretaget får en vuxenmottagares signatur och förser butiken med en utskriven kopia. |
 
 {style="table-layout:auto"}
 
 ## Skapa paket
 
-The _[!UICONTROL Create Packages]_visas när du väljer att skapa en etikett. Du kan börja konfigurera det första paketet omedelbart.
+Fönstret _[!UICONTROL Create Packages]_visas när du väljer att skapa en leveransetikett. Du kan börja konfigurera det första paketet omedelbart.
 
 ### Konfigurera ett paket
 
 >[!NOTE]
 >
->Om du väljer ett icke-standardvärde för [!UICONTROL Type] eller välja att kräva en signaturbekräftelse, kan priset på en leverans skilja sig från det du debiterade kunden.
+>Om du väljer ett icke-standardvärde för [!UICONTROL Type] eller väljer att kräva en signaturbekräftelse, kan priset på en leverans skilja sig från det du debiterade kunden.
 
 1. Om du vill visa en lista över levererade produkter och lägga till dem i paketet klickar du på **[!UICONTROL Add Products]**.
 
    - Ange produkter och kvantiteter.
 
-     The _[!UICONTROL Qty]_kolumn visar den maximala kvantitet som är tillgänglig att lägga till. För den första förpackningen är numret den totala kvantiteten av produkten som ska levereras.
+     Kolumnen _[!UICONTROL Qty]_visar den maximala kvantitet som är tillgänglig att lägga till. För den första förpackningen är numret den totala kvantiteten av produkten som ska levereras.
 
-   - Om du vill lägga till produkterna i paketet klickar du på **[!UICONTROL Add Selected Product(s) to Package]**.
+   - Klicka på **[!UICONTROL Add Selected Product(s) to Package]** om du vill lägga till produkterna i paketet.
 
-1. Om du vill lägga till ett paket klickar du **[!UICONTROL Add Package]**.
+1. Klicka på **[!UICONTROL Add Package]** om du vill lägga till ett paket.
 
    Du kan lägga till flera paket och redigera dem samtidigt.
 
-1. Om du vill ta bort ett paket klickar du **[!UICONTROL Delete Package]**.
+1. Klicka på **[!UICONTROL Delete Package]** om du vill ta bort ett paket.
 
 När produkterna har lagts till i paketet kan kvantiteten inte redigeras direkt.
 
@@ -245,22 +245,22 @@ När produkterna har lagts till i paketet kan kvantiteten inte redigeras direkt.
 
 ### Generera fraktsetiketter
 
-När du har distribuerat alla produkter är det totala antalet paket som du kommer att använda lika med antalet för det sista paketet i listan. The _OK_ knappen är inaktiverad tills alla levererade artiklar distribueras till paket och all nödvändig information är slutförd.
+När du har distribuerat alla produkter är det totala antalet paket som du kommer att använda lika med antalet för det sista paketet i listan. Knappen _OK_ inaktiveras tills alla levererade artiklar distribueras till paket och all nödvändig information är slutförd.
 
-Om du vill generera etiketterna klickar du på **[!UICONTROL OK]**.
+Klicka på **[!UICONTROL OK]** om du vill generera etiketterna.
 
-Klicka **[!UICONTROL Cancel]** vid behov stoppa processen. Paketen sparas inte och leveransetikettprocessen avbryts.
+Om det behövs kan du klicka på **[!UICONTROL Cancel]** för att stoppa processen. Paketen sparas inte och leveransetikettprocessen avbryts.
 
 ### Fältbeskrivningar
 
 | Fält | Beskrivning |
 |--- |--- |
-| [!UICONTROL Type] | Anger typen av paket. Välj ett av de fördefinierade värdena. De tillgängliga pakettyperna är olika för varje fraktfirma. När popup-fönstret Skapa paket öppnas visas standardpaketet för transportföretaget i fältet Typ. Om du väljer ett paket som inte är utformat av en fraktfirma måste du ange paketets mått. För fraktsetiketter som skapats för DHL-, FedEx- och UPS-leveranser ställs fältet Typ av varor in på `Merchandise`. För USPS återspeglar fältet värdet från _Innehåll_ fältet i _[!UICONTROL Create Packages]_-fönstret. |
+| [!UICONTROL Type] | Anger typen av paket. Välj ett av de fördefinierade värdena. De tillgängliga pakettyperna är olika för varje fraktfirma. När popup-fönstret Skapa paket öppnas visas standardpaketet för transportföretaget i fältet Typ. Om du väljer ett paket som inte är utformat av en fraktfirma måste du ange paketets mått. För leveransetiketter som skapats för DHL-, FedEx- och UPS-leveranser anges fältet Typ av varor till `Merchandise`. För USPS visar fältet värdet från fältet _Contents_ i fönstret _[!UICONTROL Create Packages]_. |
 | [!UICONTROL Total Weight] | Paketets totala vikt. Fältet är förifyllt med den totala vikten av produkter i ett paket. Måttenheten kan anges till antingen pund eller kilo. |
 | [!UICONTROL Length] | Längden på ett paket, ett heltal och flyttal. Fältet aktiveras om den anpassade pakettypen används. Måttenheten kan anges till antingen tum eller centimeter. |
 | [!UICONTROL Width] | Bredden på ett paket, heltal och flyttal. Fältet aktiveras om den anpassade pakettypen används. Måttenheterna kan anges i listrutan bredvid fältet Höjd. Välj mellan tum och centimeter. |
 | [!UICONTROL Height] | Höjden på ett paket, ett heltal och flyttal. Fältet aktiveras om den anpassade pakettypen används. Måttenheterna kan anges i listrutan bredvid fältet Höjd. Välj mellan tum och centimeter. |
-| [!UICONTROL Signature] | Definierar leveransbekräftelse. Alternativ:<br/><br/>**[!UICONTROL Not Required]**: Du får inget bekräftelsebrev.<br/><br/>**[!UICONTROL No Signature]**: Du får ett leveransbekräftelsemeddelande utan mottagarens underskrift.<br/><br/>**[!UICONTROL Signature Required]**: Transportföretaget får mottagarens signatur och förser dig med den utskrivna kopian.<br/><br/>**[!UICONTROL Adult Required]**: Transportföretaget får den vuxenmottagarens signatur och förser dig med den utskrivna kopian.<br/><br/>**[!UICONTROL Direct (FedEx only)]**: FedEx hämtar en signatur från någon på leveransadressen och försöker leverera igen om ingen kan signera för paketet.<br/><br/>**[!UICONTROL Indirect (FedEx only)]**: FedEx hämtar en signatur på ett av tre sätt:<br/>1) från någon på leveransadressen, <br/>2) från en granne, byggnadschef eller annan person på adressen, eller <br/>(3) mottagaren kan lämna en signerad FedEx-dörrtagg som godkänner att paketet släpps utan att någon är närvarande. Endast tillgängligt för leveranser på bostäder. Alternativen kan variera något för olika fraktsätt. Den senaste informationen finns i transportföretagets resurser. |
+| [!UICONTROL Signature] | Definierar leveransbekräftelse. Alternativ:<br/><br/>**[!UICONTROL Not Required]**: Inget leveransbekräftelsemeddelande skickas till dig.<br/><br/>**[!UICONTROL No Signature]**: Ett leveransbekräftelsemeddelande utan en mottagares signatur skickas till dig.<br/><br/>**[!UICONTROL Signature Required]**: Leveransföretaget får mottagarens signatur och förser dig med den utskrivna kopian.<br/><br/>**[!UICONTROL Adult Required]**: Transportföretaget får den vuxenmottagarens signatur och förser dig med den utskrivna kopian.<br/><br/>**[!UICONTROL Direct (FedEx only)]**: FedEx hämtar en signatur från någon på leveransadressen och försöker leverera igen om ingen kan signera för paketet.<br/><br/>**[!UICONTROL Indirect (FedEx only)]**: FedEx får en signatur på något av följande tre sätt: <br/>(1) från någon på leveransadressen; <br/>(2) från en granne, byggnadschef eller annan person på adressen; eller <br/>(3) kan mottagaren lämna en signerad FedEx-dörrtagg som godkänner att paketet släpps utan någon närvarande. Endast tillgängligt för leveranser på bostäder. Alternativen kan variera något för olika fraktsätt. Den senaste informationen finns i transportföretagets resurser. |
 | [!UICONTROL Contents] | (Endast tillgängligt för USPS-leveranser) Beskrivning av paketets innehåll. Alternativ: `Gift` / `Documents` / `Commercial Sample` / `Returned Goods` / `Merchandise` / `Other` |
 | [!UICONTROL Explanation] | (Endast USPS-leveranser) Detaljerad beskrivning av paketets innehåll. |
 

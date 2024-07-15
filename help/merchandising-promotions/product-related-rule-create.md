@@ -18,27 +18,27 @@ Processen med att skapa en relaterad produktregel liknar att ställa in en prisr
 
 >[!NOTE]
 >
->För ett attribut som ska användas i en målregel är [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) egenskapen måste anges till `Yes`.
+>För att ett attribut ska kunna användas i en målregel måste egenskapen [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) anges till `Yes`.
 
 >[!NOTE]
 >
->The `All Store Views` omfångsvärdet används alltid för båda [!UICONTROL Products to Match] och [!UICONTROL Products to Display] villkor för alla produktattribut. Detta gäller också när produktattributen har olika värden för olika butiksvyer och webbplatser.
+>Omfattningsvärdet `All Store Views` används alltid för både [!UICONTROL Products to Match]- och [!UICONTROL Products to Display]-villkor för alla produktattribut. Detta gäller också när produktattributen har olika värden för olika butiksvyer och webbplatser.
 
 ## Skapa en relaterad produktregel
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add Rule]**.
+1. Klicka på **[!UICONTROL Add Rule]** i det övre högra hörnet.
 
    ![Regel för relaterade produkter - information](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
 
 1. Slutför **[!UICONTROL Rule Information]** enligt följande:
 
-   - Ange en **[!UICONTROL Rule Name]** för att identifiera regeln när du arbetar i administratören.
+   - Ange en **[!UICONTROL Rule Name]** som identifierar regeln när du arbetar i administratören.
 
-   - För **[!UICONTROL Priority]** anger du ett tal som bestämmer i vilken ordning resultaten ska visas på sidan när resultaten från andra regler har samma plats som mål. Nummer `1` har högsta prioritet.
+   - För **[!UICONTROL Priority]** anger du ett tal som avgör i vilken ordning resultaten visas på sidan när resultat från andra regler har samma plats som mål. Numret `1` har högsta prioritet.
 
-   - Aktivera regeln genom att ange **[!UICONTROL Status]** till `Active`.
+   - Om du vill aktivera regeln anger du **[!UICONTROL Status]** till `Active`.
 
    - Ange **[!UICONTROL Apply To]** till något av följande:
 
@@ -46,39 +46,39 @@ Processen med att skapa en relaterad produktregel liknar att ställa in en prisr
       - `Up-sells`
       - `Cross-sells`
 
-   - Om regeln ska vara aktiv under ett visst tidsintervall anger du **[!UICONTROL From]** och **[!UICONTROL To]** datum.
+   - Om regeln ska vara aktiv under ett visst tidsintervall anger du datumen **[!UICONTROL From]** och **[!UICONTROL To]**.
 
    - För **[!UICONTROL Result Limit]** anger du antalet poster som ska visas i resultatlistan. Det högsta antalet är 20.
 
-   - Om regeln gäller för en viss [kundsegment](../customers/customer-segments.md), ange **[!UICONTROL Customer Segments]** till `Specified` och välj kundsegment i listan.
+   - Om regeln gäller för ett specifikt [kundsegment](../customers/customer-segments.md) anger du **[!UICONTROL Customer Segments]** till `Specified` och väljer kundsegmentet i listan.
 
-   - Om regeln gäller för en viss [Real-Time CDP](../customers/audience-activation.md), ange **[!UICONTROL Real-Time CDP Audience]** till `Specified` och välj Real-Time CDP målgrupp i listan. Den här funktionen är i betaversion. Om du vill gå med i betaprogrammet skickar du en förfrågan till [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Om regeln gäller för en viss [Real-Time CDP-målgrupp](../customers/audience-activation.md) anger du **[!UICONTROL Real-Time CDP Audience]** till `Specified` och väljer målgruppen för Real-Time CDP i listan. Den här funktionen är i betaversion. Om du vill gå med i betaprogrammet skickar du en begäran till [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
-     ![Regel för relaterade produkter - Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
+     ![Relaterade produkter - Real-Time CDP-målgrupp](./assets/rtcdp-related-products.png){width="500"}
 
-1. Välj **[!UICONTROL Products to Match]** och bygga upp villkoren på samma sätt som för en [katalogprisregel](price-rules-catalog.md).
+1. Välj **[!UICONTROL Products to Match]** i den vänstra panelen och skapa villkoren på samma sätt som du gör för en [katalogprisregel](price-rules-catalog.md).
 
-   ![Relaterade produkter - produkter att matcha](./assets/catalog-related-products-match.png){width="500"}
+   ![Relaterade produkter - produkter som ska matcha](./assets/catalog-related-products-match.png){width="500"}
 
-1. Välj **[!UICONTROL Products to Display]** och skapa resultatvillkor på samma sätt som för en [katalogprisregel](price-rules-catalog.md).
+1. I den vänstra panelen väljer du **[!UICONTROL Products to Display]** och skapar resultatvillkoren på samma sätt som du gör för en [katalogprisregel](price-rules-catalog.md).
 
-   ![Relaterad produktregel - produkter som ska visas](./assets/catalog-related-products-to-display.png){width="500"}
+   ![Relaterade produkter - produkter att visa](./assets/catalog-related-products-to-display.png){width="500"}
 
    Slutför villkoret för att beskriva de produkter som du vill inkludera i de visade resultaten.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ## Ta bort en relaterad produktregel
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**på sidofältet_ Admin _.
 
 1. Hitta den relaterade produktregel som du vill ta bort.
 
 1. Klicka på regeln för att öppna informationssidan.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL Delete]** i det övre högra hörnet.
 
-1. Bekräfta åtgärden genom att klicka **[!UICONTROL OK]**.
+1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
 
 ## Demo av relaterade produktregler
 

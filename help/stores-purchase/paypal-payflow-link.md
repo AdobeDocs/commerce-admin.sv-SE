@@ -5,7 +5,7 @@ exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,12 @@ Kreditnotor stöds för både online- och offlineåterbetalningar. Flera online�
 
 >[!IMPORTANT]
 >
->**Krav för PSD2:** <br/>
->Från och med den 14 september 2019 kan europeiska banker avböja betalningar som inte uppfyller [PSD2](../getting-started/compliance-payment-services-directive.md) krav. För att uppfylla PSD2 måste PayPal Payflow Link integreras med kardinalhandeln. Mer information finns på [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+>**PSD2-krav:** <br/>
+>Från och med den 14 september 2019 kan europeiska banker avböja betalningar som inte uppfyller kraven för [PSD2](../getting-started/compliance-payment-services-directive.md). För att uppfylla PSD2 måste PayPal Payflow Link integreras med Cardinal Commerce. Mer information finns i [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
 
 ## Krav
 
-- [PayPal Business Account][1] PayPal Payflow Pro-gatewayen länkar handlarkontot på PayPal till handlarens webbplats och fungerar som både gateway och handlarkonto.
+- [PayPal Business Account][1] PayPal Payflow Pro-gatewayen länkar handlarkontot på PayPal till handlarens webbplats, vilket fungerar som både gateway och handlarkonto.
 
 - Om du hanterar flera Commerce-webbplatser måste du ha ett separat PayPal-handelskonto för varje webbplats.
 
@@ -31,29 +31,29 @@ Kreditnotor stöds för både online- och offlineåterbetalningar. Flera online�
 
 1. **Kunden går till kassan** - I kassan väljer kunden att betala med länken PayPal Payflow och anger kreditkortsinformationen. Kunden behöver inte ha ett personligt PayPal-konto.
 1. **Kunden väljer Betala nu** - Kunden trycker på knappen Betala nu för att skicka ordern.
-1. **Kunden anger kreditkortsinformation** - Kunden anger kreditkortsinformationen i ett formulär som hanteras av PayPal. Om kunden klickar på _Avbryt betalning_ länk, kunden återgår till kassan med betalningsinformation och orderstatusen ändras till _Avbruten_.
-1. **Kunden skickar ordern** - Kreditkortsinformationen skickas direkt till PayPal och sparas inte någonstans på handelsplatsen.
+1. **Kunden anger kreditkortsinformation** - Kunden anger kreditkortsinformationen i ett formulär som hanteras av PayPal. Om kunden klickar på länken _Avbryt betalning_ återgår kunden till kassan för betalningsinformation och orderstatusen ändras till _Avbruten_.
+1. **Kunden skickar beställningen** - Kreditkortsinformationen skickas direkt till PayPal och sparas inte någonstans på Commerce webbplats.
 
 ## Orderarbetsflöde
 
-1. **PayPal tar emot begäran** - PayPal tar emot kundens förfrågan till Pay Now.
+1. **PayPal tar emot begäran** - PayPal tar emot begäran från kunden till Pay Now.
 1. **PayPal verifierar betalningsinformationen** - PayPal verifierar kreditkortsinformationen och tilldelar lämplig status:
-   - **Betalning verifierad:** Om den är verifierad visas _Väntande betalning_ status är ursprungligen tilldelad ordern tills transaktionen är kvittad.
-   - **Bearbetar** - Transaktionen lyckades.
+   - **Betalningen har verifierats:** Om den är verifierad tilldelas statusen _Väntande betalning_ initialt till ordern tills transaktionen har kvittats.
+   - **Bearbetar** - transaktionen lyckades.
    - **Väntande betalning** - Systemet fick inget svar från PayPal.
    - **Avbruten** - Transaktionen misslyckades av någon anledning.
-   - **Misstänkt bedrägeri** - transaktionen godkändes inte av en del av [Bedrägerifilter för PayPal](paypal.md#paypal-fraud-management-filters). Systemet får ett svar från PayPal om att transaktionen granskas av bedrägeritjänsten.
-   - **Avbryt betalning:** Om kunden klickar på _Avbryt betalning_ länk, kunden återgår till kassan med betalningsinformation och orderstatusen ändras till _Avbruten_.
-1. **Kunden omdirigeras till bekräftelsesidan**  - Om transaktionen slutförs utan fel dirigeras kunden om till orderbekräftelsesidan i din butik. Om transaktionen misslyckas av någon anledning visas ett felmeddelande på utcheckningssidan och kunden omdirigeras till att upprepa utcheckningsprocessen. Dessa situationer hanteras av PayPal.
-1. **Merchant slutför order** - Handlarfakturorna och skickar ordern som vanligt.
+   - **Misstänkt bedrägeri** - Transaktionen överförde inte några av [PayPal-bedrägerifiltren](paypal.md#paypal-fraud-management-filters). Systemet får ett svar från PayPal om att transaktionen granskas av bedrägeritjänsten.
+   - **Avbryt betalning:** Om kunden klickar på länken _Avbryt betalning_ återgår kunden till kassan för betalningsinformation och orderstatusen ändras till _Avbruten_.
+1. **Kunden omdirigeras till bekräftelsesidan** - Om transaktionen slutförs utan fel omdirigeras kunden till orderbekräftelsesidan i din butik. Om transaktionen misslyckas av någon anledning visas ett felmeddelande på utcheckningssidan och kunden omdirigeras till att upprepa utcheckningsprocessen. Dessa situationer hanteras av PayPal.
+1. **Merchant slutför beställning** - Handlingsfakturorna och skickar beställningen som vanligt.
 
 ## Konfigurera ditt PayPal-konto
 
-1. Logga in på [PayPal-företagskonto][2].
+1. Logga in på ditt [PayPal-företagskonto][2].
 
-1. Konfigurera [Hosted Checkout Pages][4] med PayPal Manager med följande inställningar:
+1. Konfigurera [värdbaserade utcheckningssidor][4] med PayPal Manager med följande inställningar:
 
-   - Under **[!UICONTROL Security Options]** utför du följande inställningar:
+   - Fyll i följande inställningar under **[!UICONTROL Security Options]**:
 
      **[!UICONTROL AVS]**: `No`
 
@@ -61,19 +61,19 @@ Kreditnotor stöds för både online- och offlineåterbetalningar. Flera online�
 
      **[!UICONTROL Enable Secure Token]**: `Yes`
 
-   - Välj **[!UICONTROL Customize]** och sedan välja **[!UICONTROL Layout C]**.
+   - Välj **[!UICONTROL Customize]** och välj sedan **[!UICONTROL Layout C]**.
 
      Layout C visar endast kredit- och betalkortsfält och kan antingen ramas in på din webbplats eller användas som ett fristående popup-fönster. Storleken är fast på 490 x 565 pixlar, med extra utrymme för felmeddelanden. I vissa system åtgärdar den här inställningen ett problem med genomskinlig omdirigering.
 
-1. När konfigurationsinställningarna är klara klickar du **[!UICONTROL Save and Publish]**.
+1. När konfigurationsinställningarna är klara klickar du på **[!UICONTROL Save and Publish]**.
 
 1. Konfigurera en extra användare (rekommenderas av PayPal):
 
-   - På den andra raden i huvudmenyn klickar du på **[!UICONTROL Manage Users]**.
+   - Klicka på **[!UICONTROL Manage Users]** på den andra raden i huvudmenyn.
 
-   - Om du vill lägga till en annan användare till kontot klickar du på **[!UICONTROL Add User]**.
+   - Klicka på **[!UICONTROL Add User]** om du vill lägga till en annan användare till kontot.
 
-   - Fyll i de obligatoriska fälten i följande avsnitt i _Lägg till användare_ formulär:
+   - Fyll i de obligatoriska fälten i följande avsnitt i formuläret _Lägg till användare_:
 
       - [!UICONTROL Admin Confirmation]
       - [!UICONTROL User Information]
@@ -86,31 +86,31 @@ Kreditnotor stöds för både online- och offlineåterbetalningar. Flera online�
 
 >[!TIP]
 >
->Klicka **[!UICONTROL Save Config]** när som helst för att spara förloppet.
+>Klicka på **[!UICONTROL Save Config]** när du vill spara förloppet.
 
 ### Steg 1: Påbörja konfigurationen
 
 Den här installationsmetoden förutsätter att du har ett befintligt PayPal-konto.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Payment Methods]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
-1. Om din Commerce-installation har flera webbplatser, butiker eller vyer anger du **[!UICONTROL Store View]** till butiksvyn där du vill använda den här konfigurationen.
+1. Om din Commerce-installation har flera webbplatser, butiker eller vyer anger du **[!UICONTROL Store View]** i butiksvyn där du vill använda den här konfigurationen.
 
-1. I _[!UICONTROL Merchant Location]_väljer du **[!UICONTROL Merchant Country]**där företaget finns.
+1. I avsnittet _[!UICONTROL Merchant Location]_väljer du **[!UICONTROL Merchant Country]**där ditt företag finns.
 
    Den här inställningen bestämmer valet av PayPal-lösningar som visas i konfigurationen.
 
    ![Handelsland](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Expandera **[!UICONTROL PayPal Payment Gateways]** (om det behövs) och klicka på **[!UICONTROL Configure]** for **[!UICONTROL Payflow Link]**.
+1. Expandera **[!UICONTROL PayPal Payment Gateways]** (om det behövs) och klicka på **[!UICONTROL Configure]** för **[!UICONTROL Payflow Link]**.
 
    ![Betalflödeslänk - Konfigurera](./assets/payflow-link.png){width="600" zoomable="yes"}
 
 ### Steg 2: Slutför de obligatoriska PayPal-inställningarna
 
-![Nödvändiga PayPal-inställningar - PayPal-betalningsflödeslänk](./assets/payflow-required-link.png){width="600" zoomable="yes"}
+![Obligatoriska PayPal-inställningar - PayPal-betalningsflödeslänk](./assets/payflow-required-link.png){width="600" zoomable="yes"}
 
 1. (Valfritt) Ange **[!UICONTROL Email Associated with your PayPal Merchant Account]**.
 
@@ -124,9 +124,9 @@ Den här installationsmetoden förutsätter att du har ett befintligt PayPal-kon
    - **[!UICONTROL User]** - ID:t för en annan användare som är konfigurerad för ditt PayPal-konto.
    - **[!UICONTROL Vendor]** - Ditt PayPal-användarnamn.
 
-1. Ange **[!UICONTROL Password]** som är kopplat till ditt PayPal-konto.
+1. Ange **[!UICONTROL Password]** som är associerad med ditt PayPal-konto.
 
-1. Så här kör du testtransaktioner: ange **[!UICONTROL Test Mode]** till `Yes`.
+1. Om du vill köra testtransaktioner anger du **[!UICONTROL Test Mode]** till `Yes`.
 
    När du testar konfigurationen i en sandlåda ska du bara använda [kreditkortsnummer][3] som rekommenderas av PayPal. När du är redo att börja producera återgår du till konfigurationen och ställer in testläget på `No`.
 
@@ -140,9 +140,9 @@ Den här installationsmetoden förutsätter att du har ett befintligt PayPal-kon
 
 1. Ange **[!UICONTROL Enable Payflow Link]** till `Yes`.
 
-1. Om du vill aktivera [PayPal Express-kassan](paypal-express-checkout.md) alternativ för kunder, ange **[!UICONTROL Enable Express Checkout]** till `Yes`.
+1. Om du vill aktivera alternativen för [PayPal Express Checkout](paypal-express-checkout.md) för kunder anger du **[!UICONTROL Enable Express Checkout]** till `Yes`.
 
-1. Om du vill erbjuda [PayPal Credit](paypal.md#paypal-credit-and-pay-later) till era kunder, **[!UICONTROL Enable PayPal Credit]** till `Yes`.
+1. Om du vill erbjuda dina kunder [PayPal-kredit](paypal.md#paypal-credit-and-pay-later) anger du **[!UICONTROL Enable PayPal Credit]** till `Yes`.
 
 ### Steg 3: Ställa in annonsering för PayPal-kredit/Adverise PayPal PayLater (valfritt)
 
@@ -150,20 +150,20 @@ Från och med version 2.4.3 stöds PayPal PayLater i distributioner som inkluder
 
 Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande:
 
-- `Yes` - För att konfigurera Advertize PayPal PayLater
-- `No` - För att ställa in Advertize PayPal Credit
+- `Yes` - Om du vill konfigurera annonser för PayPal PayLater
+- `No` - För att konfigurera annonsering för PayPal-kredit
 
 #### Annonsera PayPal Credit
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Advertise PayPal Credit]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Advertise PayPal Credit]**.
 
-   ![Annonsera PayPal Credit](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
+   ![Annonsera PayPal-kredit](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
-1. Om du vill hämta din kontoinformation klickar du på **[!UICONTROL Get Publisher ID from PayPal]** och följ instruktionerna.
+1. Om du vill hämta din kontoinformation klickar du på **[!UICONTROL Get Publisher ID from PayPal]** och följer instruktionerna.
 
-1. Ange **[!UICONTROL Publisher ID]**.
+1. Ange din **[!UICONTROL Publisher ID]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Home Page]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Home Page]**.
 
    ![Annonsera inställningar för startsidan för PayPal-kredit](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
@@ -183,7 +183,7 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
    - `728 x 90`
    - `800 x 66`
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) de återstående avsnitten och upprepa föregående steg för konfigurationen av hemsidan:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) för de återstående avsnitten och upprepa föregående steg för konfigurationen av startsidan:
 
    - **[!UICONTROL Catalog Category Page]**
    - **[!UICONTROL Catalog Product Page]**
@@ -191,11 +191,11 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
 
 #### Annonsera PayPal PayLater
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Advertise PayPal PayLater]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Advertise PayPal PayLater]**.
 
 1. Ange **[!UICONTROL Enable PayPal PayLater]** till `Yes`.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Home Page]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Home Page]**.
 
    ![Annonsera inställningar för startsidan för PayPal-kredit](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
@@ -211,27 +211,27 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
    - `Text`
    - `Flex`
 
-1. För [!UICONTROL Style Layout] **[!UICONTROL Text]** only, set **[!UICONTROL Logo Type]** till något av följande:
+1. För [!UICONTROL Style Layout] **[!UICONTROL Text]** anger du **[!UICONTROL Logo Type]** till något av följande:
 
    - `Primary`
    - `Alternative`
    - `Inline`
    - `None`
 
-1. För [!UICONTROL Style Layout] **[!UICONTROL Text]** only, set **[!UICONTROL Logo Position]** till något av följande:
+1. För [!UICONTROL Style Layout] **[!UICONTROL Text]** anger du **[!UICONTROL Logo Position]** till något av följande:
 
    - `Left`
    - `Right`
    - `Top`
 
-1. För [!UICONTROL Style Layout] **[!UICONTROL Text]** only, set **[!UICONTROL Text Color]** till något av följande:
+1. För [!UICONTROL Style Layout] **[!UICONTROL Text]** anger du **[!UICONTROL Text Color]** till något av följande:
 
    - `Black`
    - `White`
    - `Monochrome`
    - `Grayscale`
 
-1. För [!UICONTROL Style Layout] **[!UICONTROL Text]** only, set **[!UICONTROL Text Size]** till något av följande:
+1. För [!UICONTROL Style Layout] **[!UICONTROL Text]** anger du **[!UICONTROL Text Size]** till något av följande:
 
    - `10px`
    - `11px`
@@ -241,14 +241,14 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
    - `15px`
    - `16px`
 
-1. För [!UICONTROL Style Layout] **[!UICONTROL Flex]** only, set **[!UICONTROL Ratio]** till något av följande:
+1. För [!UICONTROL Style Layout] **[!UICONTROL Flex]** anger du **[!UICONTROL Ratio]** till något av följande:
 
    - `1x1`
    - `1x4`
    - `8x1`
    - `20x1`
 
-1. För [!UICONTROL Style Layout] **[!UICONTROL Flex]** only, set **[!UICONTROL Color]** till något av följande:
+1. För [!UICONTROL Style Layout] **[!UICONTROL Flex]** anger du **[!UICONTROL Color]** till något av följande:
 
    - `Blue`
    - `Black`
@@ -258,7 +258,7 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
    - `Monochrome`
    - `Grayscale`
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) de återstående avsnitten och upprepa föregående steg:
+1. Expandera ![Expanderingsväljaren](../assets/icon-display-expand.png) för de återstående avsnitten och upprepa föregående steg:
 
    - **[!UICONTROL Catalog Product Page]**
    - **[!UICONTROL Checkout Cart Page]**
@@ -267,33 +267,33 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
 
 ### Steg 4: Slutför de grundläggande inställningarna
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Basic Settings - PayPal Payflow Link]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Basic Settings - PayPal Payflow Link]**.
 
    ![Grundinställningar - Länk till PayPal-betalningsflöde](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-basic-settings.png){width="600" zoomable="yes"}
 
-1. För **[!UICONTROL Title]**, anger du en titel som identifierar PayPal Payflow Link under utcheckningen.
+1. För **[!UICONTROL Title]** anger du en titel som identifierar PayPal Payflow Link under utcheckningen.
 
-   Vi rekommenderar att du använder titeln _Debet- eller kreditkort_.
+   Vi rekommenderar att du använder titeln _Debit eller Credit Card_.
 
-1. Om du erbjuder flera betalningsmetoder anger du ett nummer för **[!UICONTROL Sort Order]** för att bestämma i vilken ordning Payflow Link ska visas när de visas tillsammans med andra betalningsmetoder.
+1. Om du erbjuder flera betalningsmetoder anger du ett nummer för **[!UICONTROL Sort Order]** för att bestämma i vilken ordning Payflow Link ska visas när den visas tillsammans med andra betalningsmetoder.
 
-   Det här talet är relativt till de andra betalningsmetoderna. (`0` = first, `1` = sekund, `2` = tredje och så vidare.)
+   Det här talet är relativt till de andra betalningsmetoderna. (`0` = först, `1` = sekund, `2` = tredje o.s.v.)
 
 1. Ange **[!UICONTROL Payment Action]** till något av följande:
 
    - `Authorization` - Godkänner köpet och spärrar pengarna. Beloppet dras inte tillbaka förrän handlaren har tagit det.
-   - `Sale` - Köpbeloppet godkänns och dras omedelbart tillbaka från kundens konto.
+   - `Sale` - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto.
 
 ### Steg 5: Slutför de avancerade inställningarna
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Advanced Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Advanced Settings]**.
 
    ![Avancerade inställningar - Länk till PayPal-betalningsflöde](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-advanced-settings.png){width="600" zoomable="yes"}
 
 1. Ange **[!UICONTROL Payment Applicable From]** till något av följande:
 
    - `All Allowed Countries` - Kunder från alla [länder](../getting-started/store-details.md#country-options) som anges i din butikskonfiguration kan använda den här betalningsmetoden.
-   - `Specific Countries` - När du har valt det här alternativet visas _[!UICONTROL Payment from Specific Countries]_visas. Håll ned Ctrl-tangenten och markera varje land i listan där kunderna kan göra inköp från din butik.
+   - `Specific Countries` - När du har valt det här alternativet visas listan _[!UICONTROL Payment from Specific Countries]_. Håll ned Ctrl-tangenten och markera varje land i listan där kunderna kan göra inköp från din butik.
 
 1. Om du vill skriva kommunikation med betalningssystemet till loggfilen anger du **[!UICONTROL Debug Mode]** till `Yes`.
 
@@ -301,20 +301,20 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
    >
    >I enlighet med PCI-datasäkerhetsstandarder registreras inte kreditkortsinformation i loggfilen.
 
-1. Om du vill aktivera verifiering av värdautenticitet anger du **[!UICONTROL Enable SSL Verification]** till `Yes`.
+1. Ange **[!UICONTROL Enable SSL Verification]** till `Yes` om du vill aktivera verifiering av värdautenticitet.
 
-1. Om du vill att kunden ska kunna korrigera sin inmatning av den tresiffriga CVV-säkerhetskoden från kreditkortets baksida anger du **[!UICONTROL CVV Entry is Editable]** till `Yes`.
+1. Om du vill att kunden ska kunna korrigera sin inmatning av den tresiffriga CVV-säkerhetskoden från baksidan av ett kreditkort anger du **[!UICONTROL CVV Entry is Editable]** till `Yes`.
 
-1. Ange en CVV-kod om du vill att kunderna ska ange den **[!UICONTROL Require CVV Entry]** till `Yes`.
+1. Ange **[!UICONTROL Require CVV Entry]** till `Yes` om du vill att kunderna ska ange en CVV-kod.
 
-1. Om du vill skicka en bekräftelse på betalningen till kunden anger du **[!UICONTROL Send Email Confirmation]** till `Yes`.
+1. Om du vill skicka en bekräftelse av betalningen till kunden anger du **[!UICONTROL Send Email Confirmation]** till `Yes`.
 
 1. Om du vill ta reda på vilken metod som används för att utbyta information med PayPal-servern under en transaktion anger du **[!UICONTROL URL method for Cancel URL and Return URL]** till något av följande:
 
    - `GET` - Hämtar information som är resultatet av en process (standardmetod).
-   - `POST` - Tillhandahåller ett block med data, t.ex. data som matats in i ett formulär, till en datahanteringsprocess.
+   - `POST` - Tillhandahåller ett block med data, t.ex. data som har angetts i ett formulär, till en datahanteringsprocess.
 
-   The _Avbryt URL_ och _Returnera URL_ hänvisar till sidan där kunden returnerar efter att ha slutfört eller annullerat betalningsdelen av utcheckningsprocessen på PayPal-servern
+   _Avbryt URL_ och _Retur-URL_ refererar till den sida där kunden returnerar efter att ha slutfört eller annullerat betalningsdelen av utcheckningsprocessen på PayPal-servern
 
 1. Fyll i följande avsnitt efter behov:
 
@@ -323,11 +323,11 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
 
 #### Inställningar för kvittningsrapport
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Settlement Report Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Settlement Report Settings]**.
 
    ![Inställningar för kvittningsrapport - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
-1. För **[!UICONTROL SFTP Credentials]** gör du följande:
+1. Gör följande för **[!UICONTROL SFTP Credentials]**:
 
    - Om du har registrerat dig för PayPal Secure FTP-servern anger du följande inloggningsuppgifter för SFTP:
 
@@ -344,7 +344,7 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
 
      Som standard är värdet `/ppreports/outgoing`.
 
-1. Om du vill generera rapporter enligt ett schema fyller du i **[!UICONTROL Scheduled Fetching]** inställningar:
+1. Om du vill generera rapporter enligt ett schema, fyll i inställningarna för **[!UICONTROL Scheduled Fetching]**:
 
    - Ange **[!UICONTROL Enable Automatic Fetching]** till `Yes`.
 
@@ -360,17 +360,17 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
 
      PayPal bevarar varje rapport i 45 dagar.
 
-   - Ange **[!UICONTROL Time of Day]** till timme, minut och sekund när du vill att rapporterna ska genereras.
+   - Ange **[!UICONTROL Time of Day]** till timma, minut och sekund när du vill att rapporterna ska genereras.
 
 #### Frontend Experience Settings
 
-Använd _[!UICONTROL Frontend Experience Settings]_för att välja vilka PayPal-logotyper som ska visas på din webbplats och för att anpassa utseendet på PayPals handlarsidor.
+Använd _[!UICONTROL Frontend Experience Settings]_för att välja vilka PayPal-logotyper som ska visas på din webbplats och för att anpassa utseendet på PayPal-handlarsidorna.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Frontend Experience Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Frontend Experience Settings]**.
 
    ![Frontend Experience Settings - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
-1. Välj **[!UICONTROL PayPal Product Logo]** som du vill ska visas i PayPal-blocket i din butik.
+1. Markera **[!UICONTROL PayPal Product Logo]** som du vill ska visas i PayPal-blocket i din butik.
 
    PayPal-logotyperna finns i fyra format och två storlekar:
 
@@ -382,48 +382,48 @@ Använd _[!UICONTROL Frontend Experience Settings]_för att välja vilka PayPal-
 
 1. Så här anpassar du utseendet på PayPal-handlarsidorna:
 
-   - Ange namnet på **[!UICONTROL Page Style]** som du vill använda på dina PayPal-handlarsidor:
+   - Ange namnet på **[!UICONTROL Page Style]** som du vill tillämpa på dina PayPal-handlarsidor:
 
       - `paypal` - Använder sidformatet PayPal.
-      - `primary` - Använder det sidformat som du identifierade som _primär_ format i din kontoprofil.
+      - `primary` - Använder det sidformat som du identifierade som _primär_-format i din kontoprofil.
       - `your_custom_value` - Använder ett anpassat betalningssidformat som anges i din kontoprofil.
 
    - För **[!UICONTROL Header Image URL]** anger du URL-adressen till bilden som du vill ska visas i det övre vänstra hörnet på betalningssidan. Den maximala filstorleken är 750 pixlar bred och 90 pixlar hög.
 
      >[!NOTE]
      >
-     >PayPal rekommenderar att bilden finns på en säker server (https). I annat fall kan en webbläsare varna för att _sidan innehåller både säkra och osäkra objekt_.
+     >PayPal rekommenderar att bilden finns på en säker server (https). Annars kan en webbläsare varna för att _sidan innehåller både säkra och osäkra objekt_.
 
-   - Om du vill ange färg för sidorna anger du hexadecimalkoden med sex tecken, utan `#` -symbol, för var och en av följande:
+   - Om du vill ange färg för sidorna anger du hexadecimalkoden på sex tecken, utan symbolen `#`, för vart och ett av följande:
 
       - **[!UICONTROL Header Background Color]** - Bakgrundsfärg för sidhuvudet i kassan.
-      - **[!UICONTROL Header Border Color]** - Färg för kantlinje med två pixlar runt sidhuvudet.
+      - **[!UICONTROL Header Border Color]** - Färg för en kant på två pixlar runt huvudet.
       - **[!UICONTROL Page Background Color]** - Bakgrundsfärg för utcheckningssidan och runt rubriken och betalningsformuläret.
 
 ### Steg 6: Slutför de grundläggande inställningarna för PayPal Express Checkout
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Basic Settings - PayPal Express Checkout]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Basic Settings - PayPal Express Checkout]**.
 
    ![Grundinställningar](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
-1. För **[!UICONTROL Title]**, anger du en titel som identifierar betalningsmetoden under utcheckningen.
+1. För **[!UICONTROL Title]** anger du en titel som identifierar betalningsmetoden vid utcheckning.
 
-   Ange titeln till _PayPal_ rekommenderas för varje butiksvy.
+   Du bör ange titeln till _PayPal_ för varje butiksvy.
 
 1. Om du erbjuder flera betalningsmetoder anger du ett nummer för **[!UICONTROL Sort Order]** för att bestämma i vilken ordning som PayPal Express Checkout ska visas när den visas tillsammans med andra betalningsmetoder.
 
-   Det här talet är relativt till de andra betalningsmetoderna. (`0` = first, `1` = sekund, `2` = tredje och så vidare.)
+   Det här talet är relativt till de andra betalningsmetoderna. (`0` = först, `1` = sekund, `2` = tredje o.s.v.)
 
 1. Ange **[!UICONTROL Payment Action]** till något av följande:
 
-   - `Authorization` - Godkänner köpet och spärrar pengarna. Beloppet dras inte tillbaka förrän det _fångad_ av handlaren.
-   - `Sale` - Köpbeloppet godkänns och dras omedelbart tillbaka från kundens konto.
+   - `Authorization` - Godkänner köpet och spärrar pengarna. Beloppet dras inte tillbaka förrän det _har hämtats_ av handlaren.
+   - `Sale` - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto.
 
-1. Visa _[!UICONTROL Check out with PayPal]_på produktsidan, ange **[!UICONTROL Display on Product Details Page]**till `Yes`.
+1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_på produktsidan anger du **[!UICONTROL Display on Product Details Page]**till `Yes`.
 
 ### Steg 7: Slutför de avancerade inställningarna för PayPal Express Checkout
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Advanced Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Advanced Settings]**.
 
    ![Avancerade inställningar](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
@@ -432,7 +432,7 @@ Använd _[!UICONTROL Frontend Experience Settings]_för att välja vilka PayPal-
 1. Ange **[!UICONTROL Payment Applicable From]** till något av följande:
 
    - `All Allowed Countries` - Kunder från alla länder som anges i din butikskonfiguration kan använda den här betalningsmetoden.
-   - `Specific Countries` - När du har valt det här alternativet visas _[!UICONTROL Payment from Specific Countries]_visas. Om du vill markera flera länder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje objekt.
+   - `Specific Countries` - När du har valt det här alternativet visas listan _[!UICONTROL Payment from Specific Countries]_. Om du vill markera flera länder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje objekt.
 
 1. Om du vill skriva kommunikation med betalningssystemet till loggfilen anger du **[!UICONTROL Debug Mode]** till `Yes`.
 
@@ -440,13 +440,13 @@ Använd _[!UICONTROL Frontend Experience Settings]_för att välja vilka PayPal-
    >
    >I enlighet med PCI-datasäkerhetsstandarder registreras inte kreditkortsinformation i loggfilen.
 
-1. Om du vill aktivera verifiering av värdautenticitet anger du **[!UICONTROL Enable SSL Verification]** till `Yes`.
+1. Ange **[!UICONTROL Enable SSL Verification]** till `Yes` om du vill aktivera verifiering av värdautenticitet.
 
-1. Om du vill visa en fullständig sammanfattning av kundordern per radobjekt från PayPal-webbplatsen anger du **[!UICONTROL Transfer Cart Line Items]** till `Yes`.
+1. Om du vill visa en fullständig sammanfattning av kundorder per radobjekt från PayPal-webbplatsen anger du **[!UICONTROL Transfer Cart Line Items]** till `Yes`.
 
-1. Om du vill att kunden ska kunna slutföra transaktionen från PayPal-webbplatsen utan att behöva besöka din butik för ordergranskning anger du **[!UICONTROL Skip Order Review Step]** till `Yes`.
+1. Om du vill att kunden ska kunna slutföra transaktionen från PayPal-webbplatsen utan att gå tillbaka till din butik för ordergranskning anger du **[!UICONTROL Skip Order Review Step]** till `Yes`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://manager.paypal.com/

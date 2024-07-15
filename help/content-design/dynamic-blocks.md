@@ -4,7 +4,7 @@ description: Använd dynamiska block för att skapa interaktivt multimediemateri
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -13,35 +13,35 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Skapa avancerat interaktivt material som bygger på logik från [prisregler](../merchandising-promotions/introduction.md#price-rules) och [kundsegment](../customers/customer-segments.md). Befintlig [dynamiska block](../page-builder/dynamic-block.md) kan läggas till direkt i [!DNL Page Builder] [stage](../page-builder/workspace.md). Ett detaljerat steg-för-steg-exempel på hur du använder dynamiska block finns i [Självstudiekurs 2: Block](../page-builder/2-blocks.md).
+Skapa avancerat interaktivt innehåll som styrs av logik från [prisregler](../merchandising-promotions/introduction.md#price-rules) och [kundsegment](../customers/customer-segments.md). Befintliga [dynamiska block](../page-builder/dynamic-block.md) kan läggas till direkt på [!DNL Page Builder] [scenen](../page-builder/workspace.md). Ett detaljerat steg-för-steg-exempel på hur du använder dynamiska block finns i [Självstudiekurs 2: Block](../page-builder/2-blocks.md).
 
 >[!NOTE]
 >
->The _[!UICONTROL Banner]_i [[!UICONTROL Content] meny](content-menu.md) togs bort i 2.3.1 och togs bort i 2.4.0. Funktionen ersätts av Dynamic Blocks.
+>Alternativet _[!UICONTROL Banner]_i [[!UICONTROL Content] menu ](content-menu.md) togs bort i 2.3.1 och togs bort i 2.4.0. Funktionen ersätts av Dynamic Blocks.
 
-![[!DNL Page Builder] - dynamiskt block med prisregel och kundsegment](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] - dynamiskt block med prisregel och kundsegment ](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
 ## Steg 1: Skapa ett dynamiskt block
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**på sidofältet_ Admin _.
 
-   ![Dynamisk blocklista](../page-builder/assets/pb-tutorial2-block-dynamic-add.png){width="600" zoomable="yes"}
+   ![Lista med dynamiska block](../page-builder/assets/pb-tutorial2-block-dynamic-add.png){width="600" zoomable="yes"}
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add Dynamic Block]**.
+1. Klicka på **[!UICONTROL Add Dynamic Block]** i det övre högra hörnet.
 
    ![Nytt dynamiskt block](../page-builder/assets/pb-tutorial2-block-dynamic-new.png){width="600" zoomable="yes"}
 
-1. Ange om tillämpligt **[!UICONTROL Store View]** till en viss butiksvy där det dynamiska blocket ska visas.
+1. Om det är tillämpligt anger du **[!UICONTROL Store View]** till en specifik butiksvy där det dynamiska blocket ska visas.
 
-1. Aktivera det dynamiska blocket genom att ange **[!UICONTROL Enable Dynamic Block]** till `Yes`.
+1. Om du vill aktivera det dynamiska blocket anger du **[!UICONTROL Enable Dynamic Block]** till `Yes`.
 
-1. Ange en beskrivning för intern referens **[!UICONTROL Dynamic Block Name]**.
+1. Ange en beskrivande **[!UICONTROL Dynamic Block Name]** för intern referens.
 
 1. Ange **[!UICONTROL Dynamic Block Type]** till det område på sidan där du vill att det dynamiska blocket ska visas och klicka på **[!UICONTROL Done]**.
 
-   ![Ställa in den dynamiska blocktypen](../page-builder/assets/pb-dynamic-block-type.png){width="500" zoomable="yes"}
+   ![Anger den dynamiska blocktypen](../page-builder/assets/pb-dynamic-block-type.png){width="500" zoomable="yes"}
 
-1. I **[!UICONTROL Customer Segment]** markerar du kryssrutan för varje segment som du vill se det dynamiska blocket och klickar på **[!UICONTROL Done]** för att spara inställningen.
+1. Markera kryssrutan för varje segment som du vill se det dynamiska blocket i listan **[!UICONTROL Customer Segment]** och klicka på **[!UICONTROL Done]** för att spara inställningen.
 
    ![Välja ett kundsegment](../page-builder/assets/pb-dynamic-block-customer-segment.png){width="500" zoomable="yes"}
 
@@ -53,21 +53,21 @@ Skapa avancerat interaktivt material som bygger på logik från [prisregler](../
 
 ### Använda Real-Time CDP-målgrupper i dynamiska block
 
-Om du [installerat](../customers/audience-activation.md#install-the-extension) och [konfigurerad](../customers/audience-activation.md#configure-the-extension) den [!DNL Audience Activation] tillägg visas ett avsnitt som kallas **[!UICONTROL Audiences]**.
+Om du [installerade](../customers/audience-activation.md#install-the-extension) och [konfigurerade](../customers/audience-activation.md#configure-the-extension) tillägget [!DNL Audience Activation] visas ett avsnitt med namnet **[!UICONTROL Audiences]**.
 
 ![Välj en Real-Time CDP-publik](./assets/dynamic-block-rtcdp.png){width="600" zoomable="yes"}
 
-I **[!UICONTROL Real-Time CDP Audience]** markerar du kryssrutan för varje publik som du vill se det dynamiska blocket och klickar på **[!UICONTROL Done]** för att spara inställningen.
+I listan **[!UICONTROL Real-Time CDP Audience]** markerar du kryssrutan för varje publik som du vill se det dynamiska blocket och klickar på **[!UICONTROL Done]** för att spara inställningen.
 
 ## Steg 2: Slutför innehållet
 
-Använd [!DNL Page Builder] [arbetsyta](../page-builder/workspace.md) för att slutföra innehållet.
+Använd [!DNL Page Builder] [arbetsytan](../page-builder/workspace.md) för att slutföra innehållet.
 
-![[!DNL Page Builder] - arbetsytan för dynamiska block](../page-builder/assets/pb-dynamic-block-workspace.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] - arbetsytan för dynamiskt block](../page-builder/assets/pb-dynamic-block-workspace.png){width="600" zoomable="yes"}
 
 ## Steg 3: Välj en relaterad kampanj
 
-1. Rulla ned och expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Related Promotions]**.
+1. Bläddra nedåt och expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Related Promotions]**.
 
 1. Klicka på den typ av befordran som du vill associera med det dynamiska blocket:
 
@@ -81,13 +81,13 @@ Använd [!DNL Page Builder] [arbetsyta](../page-builder/workspace.md) för att s
 
 1. I listan med tillgängliga regler markerar du kryssrutan för varje regel som du vill använda och klickar på **[!UICONTROL Add Selected]**.
 
-1. När det dynamiska blocket är klart klickar du **[!UICONTROL Save]**.
+1. När det dynamiska blocket är klart klickar du på **[!UICONTROL Save]**.
 
 ## Steg 4: Lägg till det dynamiska blocket på en sida
 
 1. Öppna sidan där du vill att det dynamiska blocket ska visas.
 
-1. Använd [[!UICONTROL Add Dynamic Block]](../page-builder/dynamic-block.md) innehållstyp för att lägga till det dynamiska blocket på scenen.
+1. Använd innehållstypen [[!UICONTROL Add Dynamic Block]](../page-builder/dynamic-block.md) för att lägga till det dynamiska blocket på scenen.
 
 ## Fält- och verktygsbeskrivningar
 
@@ -96,9 +96,9 @@ Använd [!DNL Page Builder] [arbetsyta](../page-builder/workspace.md) för att s
 | [!UICONTROL Store View] | Anger de butiksvyer där det dynamiska blocket ska vara tillgängligt. |
 | [!UICONTROL Enable Dynamic Block] | Aktiverar eller inaktiverar det dynamiska blocket. Alternativ: Ja/Nej |
 | [!UICONTROL Dynamic Block Name] | Ett beskrivande namn som identifierar det dynamiska blocket i Admin. |
-| [!UICONTROL Dynamic Block Type] | Identifierar platsen i [standardsidlayout](layout-updates.md) där det dynamiska blocket placeras. Alternativ: <br/>**[!UICONTROL Content Area]**- Placerar det dynamiska blocket i huvudblocket [innehållsområde](layout-updates.md) på sidan.<br/>**[!UICONTROL Footer]** - Placerar det dynamiska blocket på sidan [sidfot](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Placerar det dynamiska blocket på sidan [header](page-setup.md#header).<br/>**[!UICONTROL Left Column]** - Placerar det dynamiska blocket i [vänster sidospalt](page-layout.md#standard-page-layouts) i en layout med två eller tre kolumner. <br/>**[!UICONTROL Right Column]**- Placerar det dynamiska blocket i [höger sidospalt](page-layout.md#standard-page-layouts) i en layout med två eller tre kolumner. |
+| [!UICONTROL Dynamic Block Type] | Identifierar platsen i [standardsidlayouten](layout-updates.md) där det dynamiska blocket placeras. Alternativ: <br/>**[!UICONTROL Content Area]**- Placerar det dynamiska blocket i sidans [innehållsområde](layout-updates.md).<br/>**[!UICONTROL Footer]** - Placerar det dynamiska blocket på sidan [footer](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Placerar det dynamiska blocket på sidan [header](page-setup.md#header).<br/>**[!UICONTROL Left Column]** - Placerar det dynamiska blocket i [vänster sidofält](page-layout.md#standard-page-layouts) i en layout med två eller tre kolumner. <br/>**[!UICONTROL Right Column]**- Placerar det dynamiska blocket i [höger sidofält](page-layout.md#standard-page-layouts) i en layout med två eller tre kolumner. |
 | Kundsegment | Associerar ett kundsegment med det dynamiska blocket för att avgöra vilka kunder som kan se det. |
-| Real-Time CDP Audience | Associerar en [Real-Time CDP](../customers/audience-activation.md) med det dynamiska blocket för att avgöra vilka kunder som kan se det. |
+| Real-Time CDP Audience | Associerar en [Real-Time CDP-målgrupp](../customers/audience-activation.md) med det dynamiska blocket för att avgöra vilka kunder som kan se det. |
 
 {style="table-layout:auto"}
 
@@ -117,7 +117,7 @@ Använd [!DNL Page Builder] [arbetsyta](../page-builder/workspace.md) för att s
 
 | Fält | Beskrivning |
 |--- |--- |
-| [!UICONTROL Related Cart Price Rule] | **[!UICONTROL Add Cart Price Rules]** - Associera en befintlig [kundprisregel](../merchandising-promotions/price-rules-cart.md) med det dynamiska blocket som en befordran. |
+| [!UICONTROL Related Cart Price Rule] | **[!UICONTROL Add Cart Price Rules]** - Associera en befintlig [kundvagnsprisregel](../merchandising-promotions/price-rules-cart.md) med det dynamiska blocket som en befordran. |
 | [!UICONTROL Related Catalog Price Rule] | **[!UICONTROL Add Catalog Price Rules]** - Associera en befintlig [katalogprisregel](../merchandising-promotions/price-rules-catalog.md) med det dynamiska blocket som en befordran. |
 
 {style="table-layout:auto"}

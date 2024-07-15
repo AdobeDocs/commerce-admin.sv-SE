@@ -21,7 +21,7 @@ ht-degree: 1%
 
 **HIPAA (Health Insurance Portability and Accounability Act)**
 
-HIPAA (Health Insurance Portability and Accounability Act) är den viktigaste federala hälso- och sjukvårdslagstiftningen i USA och regleras av USA:s Department of Health and Human Services (HHS). HIPAA gäller för _Berörda enheter_ (t.ex. vårdgivare, försäkringsbolag och clearingorganisationer) och _Business Associates_ (t.ex. enheter som tillhandahåller tjänster till enheter som omfattas). HIPAA-kraven anges i tre separata regler: sekretessregel, säkerhetsregel och regel för meddelanden om överträdelser. Adobe fungerar som Business Associate för vissa produkter, som Adobe klassificerar som&quot;HIPAA-Ready Services&quot;. Uppgifter som regleras enligt HIPAA kallas _Skyddad hälsoinformation_ eller PHI. PHI är en delmängd av hälsoinformation som (1) skapas eller tas emot av en vårdgivare, en hälsoplan eller en vårdcentral, (2) avser en individs tidigare, nuvarande eller framtida fysiska eller psykiska hälsa eller tillstånd, tillhandahållande av hälso- och sjukvård till en individ eller tidigare, nuvarande eller framtida betalning för tillhandahållande av hälso- och sjukvård till en individ, och (3) identifierar den individ eller med avseende på vilken det finns en rimlig grund att tro informationen kan användas för att identifiera den enskilda personen. HIPAA:s sekretess- och säkerhetsregler kräver att en enhet som omfattas erhåller skriftliga garantier från en Business Associate i form av ett Business Associate-avtal, eller BAA, som kräver att Business Associate ska skydda integriteten och säkerheten för de berörda enheternas PHI. Mer information finns i [HIPAA och Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) i Adobe Trust Center.
+HIPAA (Health Insurance Portability and Accounability Act) är den viktigaste federala hälso- och sjukvårdslagstiftningen i USA och regleras av USA:s Department of Health and Human Services (HHS). HIPAA gäller för _täckta entiteter_ (t.ex. vårdgivare, försäkringsgivare och clearinghus) och _Business Associates_ (t.ex. de entiteter som tillhandahåller tjänster till täckta entiteter). HIPAA-kraven anges i tre separata regler: sekretessregel, säkerhetsregel och regel för meddelanden om överträdelser. Adobe fungerar som Business Associate för vissa produkter, som Adobe klassificerar som&quot;HIPAA-Ready Services&quot;. Data som regleras under HIPAA kallas _Skyddad hälsoinformation_ eller PHI. PHI är en delmängd av hälsoinformation som (1) skapas eller tas emot av en vårdgivare, en hälsoplan eller en vårdcentral, (2) avser en individs tidigare, nuvarande eller framtida fysiska eller psykiska hälsa eller tillstånd, tillhandahållande av hälso- och sjukvård till en individ eller tidigare, nuvarande eller framtida betalning för tillhandahållande av hälso- och sjukvård till en individ, och (3) identifierar den individ eller med avseende på vilken det finns en rimlig grund att tro informationen kan användas för att identifiera den enskilda personen. HIPAA:s sekretess- och säkerhetsregler kräver att en enhet som omfattas erhåller skriftliga garantier från en Business Associate i form av ett Business Associate-avtal, eller BAA, som kräver att Business Associate ska skydda integriteten och säkerheten för de berörda enheternas PHI. Mer information finns i [HIPAA och Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) i Adobe Trust Center.
 
 >[!ENDSHADEBOX]
 
@@ -29,13 +29,13 @@ HIPAA (Health Insurance Portability and Accounability Act) är den viktigaste fe
 
 Utbyggnaden av Adobe Commerce HIPAA-Ready lägger till ytterligare funktioner och funktioner i Adobe Commerce-installationer som gör att handlarna kan uppfylla sina respektive HIPAA-skyldigheter.
 
-Adobe Commerce HIPAA-Ready-tillägg `magento/hipaa-ee` finns för Adobe Commerce i molninfrastruktur eller Adobe Managed Services-projekt. Installationsprocessen för Adobe Commerce HIPAA-Ready inaktiverar vissa inbyggda tjänster och funktioner som uppfyller kraven för HIPAA. Se [Handikappade tjänster och funktioner](#disabled-services-and-features).
+Adobe Commerce HIPAA-Ready-tillägget, `magento/hipaa-ee`, är tillgängligt för Adobe Commerce i molninfrastruktur eller Adobe Managed Services-projekt. Installationsprocessen för Adobe Commerce HIPAA-Ready inaktiverar vissa inbyggda tjänster och funktioner som uppfyller kraven för HIPAA. Se [Inaktiverade tjänster och funktioner](#disabled-services-and-features).
 
 >[!NOTE]
 >
 >Tillgång till HIPAA-funktioner är endast tillgänglig för handlare som har köpt tillägget för hälsovård för Adobe Commerce.
 
-*Dessa material är endast avsedda som information. Tillhandahållande av denna information berättigar inte mottagaren till några avtalsmässiga eller andra rättigheter. Även om det har gjorts ansträngningar för att säkerställa att informationen är korrekt från och med den dag då den har lämnats, finns det ingen representation om att informationen är korrekt och fullständig. Adobe förbinder sig inte att uppdatera denna information eftersom lagen eller Adobe ändras. Dokumentet får inte heller distribueras till någon annan part än den avsedda mottagaren utan skriftligt medgivande från Adobe.*
+*De här materialen är endast avsedda som information. Tillhandahållande av denna information berättigar inte mottagaren till några avtalsmässiga eller andra rättigheter. Även om det har gjorts ansträngningar för att säkerställa att informationen är korrekt från och med den dag då den har lämnats, finns det ingen representation om att informationen är korrekt och fullständig. Adobe förbinder sig inte att uppdatera denna information eftersom lagen eller Adobe ändras. Dokumentet ska inte distribueras till någon annan part än den avsedda mottagaren utan skriftligt medgivande från Adobe.*
 
 ## Systemkrav
 
@@ -48,17 +48,17 @@ Adobe Commerce måste distribueras på antingen Adobe Commerce i molninfrastrukt
 >[!BEGINSHADEBOX]
 
 - Adobe har etablerat ditt Adobe Commerce-konto för att komma åt tillägget HIPAA Ready.
-- Åtkomst till [repo.magento.com](https://repo.magento.com) för att installera tillägget. För nyckelgenerering och för att erhålla nödvändiga rättigheter, se [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Åtkomst till [repo.magento.com](https://repo.magento.com) för att installera tillägget. Om du vill ha nyckelgenerering och de nödvändiga rättigheterna kan du läsa [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
 
-Installera den senaste versionen av tillägget Adobe HIPAA-Ready Services (`magento/hipaa-ee`) på en instans som kör Adobe Commerce version 2.4.6-p3 eller senare. Tillägget levereras som ett dispositionsmetapaket från [repo.magento.com](https://repo.magento.com) databas. Metapaketet innehåller en samling moduler som aktiverar HIPAA-funktionerna för en Adobe Commerce-instans.
+Installera den senaste versionen av tillägget Adobe HIPAA-Ready Services (`magento/hipaa-ee`) på en instans som kör Adobe Commerce version 2.4.6-p3 eller senare. Tillägget levereras som ett kompositmetapaket från databasen [repo.magento.com](https://repo.magento.com). Metapaketet innehåller en samling moduler som aktiverar HIPAA-funktionerna för en Adobe Commerce-instans.
 
 1. På din lokala arbetsstation byter du till projektkatalogen för ditt Adobe Commerce i molninfrastrukturprojekt.
 
    >[!NOTE]
    >
-   >Mer information om hur du hanterar Commerce projektmiljöer lokalt finns i  [Hantera filialer med CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) i _Användarhandbok för infrastruktur i Adobe Commerce om molnet_.
+   >Mer information om att hantera Commerce projektmiljöer lokalt finns i [Hantera grenar med CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) i _Adobe Commerce on Cloud Infrastructure User Guide_.
 
 1. Kolla in miljögrenen för att uppdatera med Adobe Commerce Cloud CLI.
 
@@ -66,7 +66,7 @@ Installera den senaste versionen av tillägget Adobe HIPAA-Ready Services (`mage
    magento-cloud environment:checkout <environment-id>
    ```
 
-1. Lägg till metapaketet `magento/hipaa-ee` till dispositionskonfigurationen med Composer CLI.
+1. Lägg till metapaketet `magento/hipaa-ee` i dispositionskonfigurationen med hjälp av dispositionsgränssnittet.
 
    ```shell
    composer require "magento/hipaa-ee" --no-update
@@ -86,11 +86,11 @@ Installera den senaste versionen av tillägget Adobe HIPAA-Ready Services (`mage
    git push origin <branch-name>
    ```
 
-   När uppdateringarna skickas initieras [Commerce molndistributionsprocess](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) för att tillämpa ändringarna. Kontrollera distributionsstatusen på [distributionslogg](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   När uppdateringarna skickas initieras [Commerce molndistributionsprocess](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) för att ändringarna ska börja gälla. Kontrollera distributionsstatusen från [distributionsloggen](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Verifiera installation
 
-När uppdateringarna har distribuerats kontrollerar du att `Hipaa*` tillägg är installerat
+När uppdateringarna har distribuerats kontrollerar du att tillägget `Hipaa*` har installerats
 
 1. Använd SSH för att logga in i fjärrmolnmiljön.
 
@@ -121,37 +121,37 @@ När uppdateringarna har distribuerats kontrollerar du att `Hipaa*` tillägg är
    <truncated for brevity>
    ```
 
-   Alla moduler med prefix `Magento_Hipaa` måste finnas i avsnittet med aktiverade moduler.
+   Alla moduler som har prefixet `Magento_Hipaa` måste finnas i avsnittet med aktiverade moduler.
 
 ## Förbättrade funktioner för HIPAA-beredskap
 
-The `magento/hipaa-ee` I tillägget introduceras vissa ändringar och förbättringar av Commerce basprodukt. I följande avsnitt finns information om dessa ändringar och hur de ändrar basprodukten.
+Tillägget `magento/hipaa-ee` innehåller några ändringar och förbättringar av Commerce basprodukt. I följande avsnitt finns information om dessa ändringar och hur de ändrar basprodukten.
 
 ### Åtgärdsloggar
 
-Granskningsloggning är ett HIPAA-krav. I ADOBE COMMERCE [Åtgärdsloggar](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) funktionen registrerar alla ändringar som görs av en administratör som arbetar i din butik. För att uppfylla HIPAA-kraven för granskningsloggen har funktionen uppdaterats för att registrera alla åtgärder för administrationsanvändare och -kunder som utförts via administratörens gränssnitt och via API-anrop.
+Granskningsloggning är ett HIPAA-krav. I Adobe Commerce registrerar funktionen [Åtgärdsloggar](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) alla ändringar som gjorts av en Admin-användare som arbetar i din butik. För att uppfylla HIPAA-kraven för granskningsloggen har funktionen uppdaterats för att registrera alla åtgärder för administrationsanvändare och -kunder som utförts via administratörens gränssnitt och via API-anrop.
 
 #### Åtgärdsloggsrapport
 
-The _Åtgärdsloggar_ rapportstödraster (**[!UICONTROL System]** > Åtgärdsloggar > Rapport) har ändrats för att passa kundåtgärder som utförts via administratörens gränssnitt och API.
+Rapportrutnätet _Åtgärdsloggar_ (**[!UICONTROL System]** > Åtgärdsloggar > Rapport) har ändrats för att passa kundåtgärder som utförts via administratörens gränssnitt och API.
 
 1. Två kolumner har lagts till:
-   - ***Källa***: Visar var åtgärden utfördes.
+   - ***Source***: Visar var åtgärden utfördes.
 Värden: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
    - ***Klienttyp***: Visar klienttypen.
 Värden: Kund | Administratör | Integrering
 
-2. Bytt namn på ***Användarnamn*** kolonn till ***Klientidentifierare***
+2. Namnet på kolumnen ***Användarnamn*** har ändrats till ***Klientidentifierare***
    - ***Klientidentifierare***: Visar inloggnings-ID för användaren som utförde åtgärden.
 Värden:
       - ett e-postmeddelande om klienttypen är kund
       - ett användarnamn om klienttypen är Admin
       - ett namn om klienttypen är Integration
 
-3. Bytt namn på ***Fullständigt åtgärdsnamn*** kolumn till ***Mål***
-   - ***Mål***: Visar åtgärdens namn.
+3. Namnet på kolumnen ***Fullständigt åtgärdsnamn*** har ändrats till ***Mål***
+   - ***Mål***: Visar åtgärdsnamnet.
 Värden:
-      - en slutpunkt om källan är ett REST API eller SOAP API
+      - en slutpunkt om Source är en REST API eller SOAP API
       - en fråga eller ett mutationsnamn om ett GraphQL-API
       - ett åtgärdsnamn om ett administratörsgränssnitt eller kundgränssnitt används.
 
@@ -165,11 +165,11 @@ Förbättringarna av import- och exportfunktionerna är inriktade på att förb�
 
 >[!NOTE]
 >
->Dessa ***förbättringarna ändrar inte import- och exportens kärnlogik***, istället utökar de funktionaliteten för mer omfattande loggning och förbättrad dataattribuering. De grundläggande funktionerna för import och export ändras inte. Användarna kan fortsätta använda de befintliga funktionerna och arbetsflödena utan avbrott.
+>De här ***förbättringarna ändrar inte import- och exportlogiken***, utan utökar funktionerna för att erbjuda mer omfattande loggning och förbättrad dataattribuering. De grundläggande funktionerna för import och export ändras inte. Användarna kan fortsätta använda de befintliga funktionerna och arbetsflödena utan avbrott.
 
 #### Loggning av administrativa åtgärder
 
-En av de viktigaste förbättringarna i import- och exportfunktionerna är den förbättrade loggningen av administrativa åtgärder. Den här förbättringen ger möjlighet att fördjupa sig i aktiviteter som är kopplade till import och export av data, vilket bidrar till förbättrad spårning och granskning. Följande åtgärder är nu loggade och återspeglas i **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**rutnät:
+En av de viktigaste förbättringarna i import- och exportfunktionerna är den förbättrade loggningen av administrativa åtgärder. Den här förbättringen ger möjlighet att fördjupa sig i aktiviteter som är kopplade till import och export av data, vilket bidrar till förbättrad spårning och granskning. Följande åtgärder är nu loggade och återspeglas i stödrastret **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**:
 
 | Typ | Åtgärder |
 | ---- | ------- |
@@ -183,24 +183,24 @@ Tjänsten HIPAA-Ready ger administratörsanvändare tillgång till fler informat
 
 #### Importhistorik ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Import History])
 
-- Aktiverad filtrering för alla kolumner utom **[!UICONTROL Imported File]**, **[!UICONTROL Error File]**, **[!UICONTROL Execution Time]** och **[!UICONTROL Summary]**.
+- Aktiverad filtrering för alla kolumner förutom **[!UICONTROL Imported File]**, **[!UICONTROL Error File]**, **[!UICONTROL Execution Time]** och **[!UICONTROL Summary]**.
 
 #### Exportera ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Export])
 
-- Tillagda **[!UICONTROL ID]** kolumn.
-- Lagt till en **[!UICONTROL Requested At]** kolumn (_datum och tid när export begärdes_).
-- Lagt till en **[!UICONTROL User]** kolumn (_användarnamn för en administratör som gjorde begäran_).
-- Borttagen en **[!UICONTROL Action]** kolumn.
-- Flyttade **[!UICONTROL Download]** länk till en **[!UICONTROL File name]** kolumn (_som stödrastret Importera historik_).
-- Inaktiverade åtgärden som ansvarar för borttagningen av en exporterad fil (_för att förbättra spårning_).
+- En **[!UICONTROL ID]**-kolumn har lagts till.
+- En **[!UICONTROL Requested At]**-kolumn (_datum och tid när export begärdes_) har lagts till.
+- En **[!UICONTROL User]**-kolumn (_användarnamn för en administratör som gjorde begäran_) har lagts till.
+- En **[!UICONTROL Action]**-kolumn har tagits bort.
+- Länken **[!UICONTROL Download]** har flyttats till en **[!UICONTROL File name]**-kolumn (_som till exempel fältet för importhändelser_).
+- Inaktiverade åtgärden som ansvarar för borttagningen av en exporterad fil (_för att förbättra spårningen_).
 - Aktiverad sortering för alla kolumner utom **[!UICONTROL File name]**.
 - Aktiverad filtrering för alla kolumner.
 
-#### Planerad import och export ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export])
+#### Schemalagda importer och exporter ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export])
 
-- Tillagda **[!UICONTROL ID]** kolumn.
-- Lagt till en **[!UICONTROL Scheduled At]** kolumn (den _datum och tid när importen eller exporten schemalades_).
-- Lagt till en **[!UICONTROL User]** kolumn (den _användarnamn för en Admin-användare som har schemalagt importen eller exporten_).
+- En **[!UICONTROL ID]**-kolumn har lagts till.
+- En **[!UICONTROL Scheduled At]**-kolumn (datum och tid _när import eller export schemalagdes_) har lagts till.
+- En **[!UICONTROL User]**-kolumn har lagts till (användarnamnet _för en administratörsanvändare som har schemalagt importen eller exporten_).
 
 ## Handikappade tjänster och funktioner
 
@@ -208,21 +208,21 @@ För att uppfylla HIPAA-kraven är vissa tjänster och funktioner som stöds av 
 
 ### Tjänster
 
-- **Adobe Commerce-tjänster**- Ingen av Adobe Commerce tjänster eller utökningstjänster är tillgängliga under beredskapserbjudandet för HIPAA. Dessa tjänster omfattar, men är inte begränsade till:
+- **Adobe Commerce-tjänster** - Ingen av Adobe Commerce-tjänsterna eller utökningstjänsterna är tillgängliga under beredskapserbjudandet för HIPAA. Dessa tjänster omfattar, men är inte begränsade till:
 
    - Live Search
    - API-nät
    - App Builder
    - Katalogtjänst
 
-- **[Tjänsten SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**- Den här tjänsten är inaktiverad som standard eftersom programmet inte är HIPAA-kompatibelt.
+- **[SendGrid-tjänsten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** - Den här tjänsten är inaktiverad som standard eftersom programmet inte är HIPAA-kompatibelt.
 
 ### Funktioner som är inaktiverade som standard
 
 Följande funktioner är inaktiverade som standard i modulen HIPAA-beredskap. Handlare kan aktivera alla dessa funktioner på egen risk.
 
-- **[Kassa på gäst](../stores-purchase/checkout-guest.md)**- Den här funktionen utgör en potentiell risk för olika aspekter av HIPAA, bland annat loggning, åtkomstkontroll, PHI-hygien och -hållning.
+- **[Gästutcheckning](../stores-purchase/checkout-guest.md)** - Den här funktionen utgör en potentiell risk för olika aspekter av HIPAA, bland annat loggning, åtkomstkontroll, PHI-hygien och -hållning.
 
-- **[Nyhetsbrev](../merchandising-promotions/newsletters.md)**- Den här funktionen är inaktiverad för att förhindra att PHI används i ett marknadsföringssammanhang.
+- **[Nyhetsbrevsfunktion](../merchandising-promotions/newsletters.md)** - Den här funktionen är inaktiverad för att förhindra att PHI används i marknadsföringssammanhang.
 
-- **[Avancerade inställningar för rapporttjänst](../getting-started/business-intelligence.md)**— Den här konfigurationsinställningen är inaktiverad för att förhindra att PHI används för analys och rapportering.
+- **[Avancerad rapporttjänstinställning](../getting-started/business-intelligence.md)** - Den här konfigurationsinställningen är inaktiverad för att förhindra att PHI används för analys och rapportering.

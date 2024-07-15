@@ -16,16 +16,16 @@ ht-degree: 0%
 
 Kunder kan använda något av följande för att begära en RMA från butiken:
 
-- [Widget för beställningar och returer](../content-design/widget-orders-returns.md) i sidlisten
-- _Beställningar och returer_ länk i sidfot
+- [Beställningar och returwidget](../content-design/widget-orders-returns.md) i sidofältet
+- Länken _Beställningar och returnering_ i sidfoten
 
 Det bästa är att du tar med en beskrivning av dina RMA-krav och RMA-processer i kundtjänstens policy.
 
 >[!NOTE]
 >
->Om du vill samla in ytterligare information om returer kan du lägga till egen, anpassad information [returnerar attribut](attributes-returns.md).
+>Om du vill samla in ytterligare information om returer kan du lägga till egna [returer](attributes-returns.md)-attribut.
 
-All kundens RMA-information visas på **[!UICONTROL My Returns]** på kundkontots kontrollpanel.
+All kundens RMA-information visas på sidan **[!UICONTROL My Returns]** på kontrollpanelen för kundkonton.
 
 ![Mina returer](./assets/my-returns-page.png){width="700" zoomable="yes"}
 
@@ -33,7 +33,7 @@ All kundens RMA-information visas på **[!UICONTROL My Returns]** på kundkontot
 
 Kunden utför följande steg i butiken för att skicka in en RMA:
 
-1. Klicka i sidfoten **[!UICONTROL Orders and Returns]**.
+1. Klicka på **[!UICONTROL Orders and Returns]** i sidfoten.
 
 1. Anger orderinformationen:
 
@@ -41,41 +41,41 @@ Kunden utför följande steg i butiken för att skicka in en RMA:
    - Efternamn för fakturering
    - E-post
 
-1. Klickningar **[!UICONTROL Continue]**.
+1. Klicka på **[!UICONTROL Continue]**.
 
    ![Beställningar och returer](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
-1. Under orderdatumet klickar du **[!UICONTROL Return]**.
+1. Under orderdatumet klickar du på **[!UICONTROL Return]**.
 
    ![Beställningsinformation](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
 
-1. Väljer vilket objekt som ska returneras och anges **[!UICONTROL Quantity to Return]**.
+1. Väljer vilket objekt som ska returneras och anges i **[!UICONTROL Quantity to Return]**.
 
-1. Uppsättningar **[!UICONTROL Resolution]** till något av följande:
+1. Anger **[!UICONTROL Resolution]** till något av följande:
 
    - Exchange
    - [Återbetalning](../customers/refunds-customer-account.md)
    - [Butikskrediter](../customers/store-credit-using.md)
 
-1. Uppsättningar **[!UICONTROL Item Condition]** till något av följande:
+1. Anger **[!UICONTROL Item Condition]** till något av följande:
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Uppsättningar **[!UICONTROL Reason to Return]** till något av följande:
+1. Anger **[!UICONTROL Reason to Return]** till något av följande:
 
    - `Wrong Color`
    - `Wrong Size`
    - `Out of Service`
    - `Other`
 
-   ![Skapa ny retur](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
+   ![Skapa nytt returvärde](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
 
-1. Vid behov, uppsättningar **[!UICONTROL Contact Email Address]** och **[!UICONTROL Comments]**.
+1. Anger **[!UICONTROL Contact Email Address]** och **[!UICONTROL Comments]** om det behövs.
 
    >[!NOTE]
    >
-   >Om ordern innehåller flera artiklar och kunden vill returnera en annan artikel kan de klicka på **[!UICONTROL Add Item To Return]** markerar du objektet och anger sedan alla angivna alternativ.
+   >Om ordern innehåller flera artiklar och kunden vill returnera ett till objekt, kan de klicka på **[!UICONTROL Add Item To Return]**, markera objektet och sedan ange alla angivna alternativ.
 
-1. Klickningar **[!UICONTROL Submit]**.
+1. Klicka på **[!UICONTROL Submit]**.

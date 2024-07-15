@@ -5,7 +5,7 @@ exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,19 @@ Följ dessa anvisningar för att tillämpa en rabatt på vissa produkter när en
 
 ## Steg 1: Lägg till en regel
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rule]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rule]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add New Rule]**.
+1. Klicka på **[!UICONTROL Add New Rule]** i det övre högra hörnet.
 
-   The _[!UICONTROL Rule Information]_-avsnittet innehåller expanderbara avsnitt för **[!UICONTROL Conditions]**och **[!UICONTROL Actions]**.
+   Avsnittet _[!UICONTROL Rule Information]_innehåller utökningsbara avsnitt för **[!UICONTROL Conditions]**och **[!UICONTROL Actions]**.
 
    ![Katalogprisregel - information](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
-1. Slutför **[!UICONTROL Rule Name]** och **[!UICONTROL Description]** fält.
+1. Fyll i fälten **[!UICONTROL Rule Name]** och **[!UICONTROL Description]**.
 
    Dessa fält är endast till för intern referens.
 
-1. Ange **[!UICONTROL Status]** av prisregeln efter behov.
+1. Ange **[!UICONTROL Status]** för prisregeln efter behov.
 
    Som standard är statusen `Inactive`.
 
@@ -38,7 +38,7 @@ Följ dessa anvisningar för att tillämpa en rabatt på vissa produkter när en
 
 1. Välj **[!UICONTROL Websites]** där regeln ska vara tillgänglig.
 
-1. Välj **[!UICONTROL Customer Groups]** som denna regel gäller för.
+1. Markera **[!UICONTROL Customer Groups]** som den här regeln gäller för.
 
    Om du vill välja flera grupper håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
 
@@ -46,15 +46,15 @@ Följ dessa anvisningar för att tillämpa en rabatt på vissa produkter när en
    >
    >Alternativen i den här listan beror på vilka kundgrupper som har skapats och hanterats i _Kunder_ > _Kundgrupper_.
 
-1. ![Magento Open Source](../assets/open-source.svg) (Endast Magento Open Source) Ange **[!UICONTROL From]** och **[!UICONTROL To]** datum för att avgöra när prisregeln gäller.
+1. ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Ange datumen **[!UICONTROL From]** och **[!UICONTROL To]** för att avgöra när prisregeln gäller.
 
-   Du kan ange datum eller använda **[!UICONTROL Calendar]** (![Kalenderikon](../assets/icon-calendar.png)) för att välja datum. Om du lämnar datumen tomma aktiveras regeln när prisregeln sparas.
+   Du kan ange datum eller använda **[!UICONTROL Calendar]** (![kalenderikonen](../assets/icon-calendar.png)) för att välja datum. Om du lämnar datumen tomma aktiveras regeln när prisregeln sparas.
 
-1. Ange ett nummer för att fastställa **[!UICONTROL Priority]** av denna regel i förhållande till andra regler.
+1. Ange ett nummer för att etablera **[!UICONTROL Priority]** för den här regeln i förhållande till andra regler.
 
    >[!NOTE]
    >
-   >The _[!UICONTROL Priority]_inställning är viktig när samma katalogprodukt uppfyller villkoren som angetts för mer än en prisregel. Regeln med högsta prioritet (1 är högsta) blir aktiv för produkten.
+   >Inställningen _[!UICONTROL Priority]_är viktig när samma katalogprodukt uppfyller villkoren som angetts för mer än en prisregel. Regeln med högsta prioritet (1 är högsta) blir aktiv för produkten.
 
 ## Steg 2: Definiera villkoren
 
@@ -66,9 +66,9 @@ De flesta tillgängliga villkor baseras på befintliga attributvärden. Om du vi
 
 >[!NOTE]
 >
->Använda en `Category` produktattributvillkor till alla [paket](../catalog/product-create-bundle.md) eller [grupperad](../catalog/product-create-grouped.md) produkten måste alla underordnade produkter tilldelas till samma kategori för att regeln ska gälla korrekt. Annars kan du använda en [Kundprisregel](price-rules-cart-create.md) i stället.
+>Om du vill tillämpa ett `Category`-produktattributvillkor på en [bundle](../catalog/product-create-bundle.md)- eller [grouped](../catalog/product-create-grouped.md)-produkt måste alla underordnade produkter tilldelas till samma kategori för att regeln ska gälla korrekt. Annars kan du använda en [kundvagnsprisregel](price-rules-cart-create.md) istället.
 
-1. Rulla ned och expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Conditions]** -avsnitt.
+1. Bläddra nedåt och utöka ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Conditions]**.
 
    Det första villkoret visas som standard och lägen:
 
@@ -80,33 +80,33 @@ De flesta tillgängliga villkor baseras på befintliga attributvärden. Om du vi
 
 1. Ändra programsatsen på något av följande sätt:
 
-   - Klicka **[!UICONTROL ALL]** och markera `ALL` eller `ANY`.
-   - Klicka **[!UICONTROL TRUE]** och markera `TRUE` eller `FALSE`.
+   - Klicka på **[!UICONTROL ALL]** och välj `ALL` eller `ANY`.
+   - Klicka på **[!UICONTROL TRUE]** och välj `TRUE` eller `FALSE`.
    - Låt villkoret vara oförändrat om du vill tillämpa regeln på alla produkter.
 
    Du kan skapa olika villkor genom att ändra kombinationen av dessa värden. I det här exemplet används standardvillkoret.
 
-1. Klicka på _Lägg till_ (![Ikonen Lägg till](../assets/icon-add-green-circle.png)) i början av nästa rad och välj ett alternativ för villkoret, till exempel ett produktattribut eller en kombination.
+1. Klicka på ikonen _Lägg till_ (![Lägg till ikon](../assets/icon-add-green-circle.png)) i början av nästa rad och välj ett alternativ för villkoret, till exempel ett produktattribut eller en kombination.
 
 1. I listan under **[!UICONTROL Product Attribute]** väljer du det attribut som du vill använda som grund för villkoret.
 
-   I det här exemplet är villkoret `Attribute Set`.
+   I detta exempel är villkoret `Attribute Set`.
 
    ![Katalogprisregel - villkorsrad 2](./assets/catalog-condition2.png){width="400"}
 
    >[!NOTE]
    >
-   >För att ett attribut ska visas i listan måste det konfigureras för användning i kampanjregelvillkor. Mer information finns på [Produktattribut](../catalog/product-attributes.md).
+   >För att ett attribut ska visas i listan måste det konfigureras för användning i kampanjregelvillkor. Mer information finns i [Produktattribut](../catalog/product-attributes.md).
 
    >[!NOTE]
    >
-   >När du använder `is not one of` villkor med _SKU_ produktattribut och konfigurerbar produkt, både den överordnade och den underordnade produktens SKU måste väljas. Om du vill undvika att lista alla underordnade SKU:er i regeln kan du använda kommandot `does not contain` villkor med vanliga SKU-delar av en konfigurerbar produkt och dess underordnade produkter.
+   >När du använder villkoret `is not one of` med produktattributet _SKU_ och den konfigurerbara produkten måste både den överordnade och den underordnade produktens SKU:er väljas. För att undvika att lista alla underordnade SKU:er i regeln kan du använda villkoret `does not contain` med vanliga SKU-delar för en konfigurerbar produkt och dess underordnade produkter.
 
    Det markerade villkoret visas i programsatsen, följt av ytterligare två feta länkar. Alternativen varierar beroende på vilket villkorsattribut du väljer. Det står nu:
 
    `If **ALL** of these conditions are **TRUE**: <br/>Attribute Set **is** …`
 
-1. Klicka **[!UICONTROL is]** och välj den jämförelseoperator som beskriver villkoret som ska uppfyllas.
+1. Klicka på **[!UICONTROL is]** och välj den jämförelseoperator som beskriver villkoret som ska uppfyllas.
 
    Dessa alternativ kan innehålla ett alternativ för olika jämförelser. I det här exemplet är alternativen `is` och `is not`.
 
@@ -120,53 +120,53 @@ De flesta tillgängliga villkor baseras på befintliga attributvärden. Om du vi
 
    `If **ALL** of these conditions are **TRUE**: <br/> Attribute Set **is Default**`
 
-1. Klicka på knappen _Lägg till_ (![Ikonen Lägg till](../assets/icon-add-green-circle.png)) och väljer något av följande:
+1. Om du vill lägga till ytterligare en villkorslinje i satsen klickar du på ikonen _Lägg till_ (![Lägg till ikon](../assets/icon-add-green-circle.png)) och väljer något av följande:
 
    - `Conditions Combination`
    - `Product Attribute`
 
    Upprepa processen tills alla önskade villkor är klara.
 
-   Om du någon gång vill ta bort en del av villkorssatsen klickar du på knappen **[!UICONTROL Delete]** (![Ikonen Ta bort](../assets/icon-delete-red-circle.png) ikonen i slutet av raden.
+   Om du vill ta bort en del av villkorssatsen klickar du på ikonen **[!UICONTROL Delete]** (![Ta bort ](../assets/icon-delete-red-circle.png) i slutet av raden.
 
 ## Steg 3: Definiera åtgärderna
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png)den **[!UICONTROL Actions]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png)i avsnittet **[!UICONTROL Actions]** och gör följande:
 
    ![Katalogprisregel - åtgärder](./assets/price-rule-catalog-actions.png){width="600" zoomable="yes"}
 
-1. Under **[!UICONTROL Pricing Structure Rules]**, ange **[!UICONTROL Apply]** till något av följande:
+1. Under **[!UICONTROL Pricing Structure Rules]** anger du **[!UICONTROL Apply]** till något av följande:
 
    - `Apply as percentage of original` - Rabattartikel genom att subtrahera en procentandel av normalpriset. Exempel: Ange 10 i Rabattbelopp för ett slutgiltigt pris som markeras med 10 % nedåt från det normala priset.
-   - `Apply as fixed amount` - Rabattartikel genom att subtrahera ett fast belopp från det normala priset. Exempel: Ange 10 i Rabattbelopp för ett slutligt pris som är 10 USD mindre än det vanliga priset.
-   - `Adjust final price to this percentage` - Justerar slutpriset med en procentandel av det normala priset. Ange t.ex. 25 i Rabattbelopp för ett slutpris som markeras med 75 % nedåt från normalpriset.
+   - `Apply as fixed amount` - Rabattartikel genom att subtrahera ett fast belopp från normalpriset. Exempel: Ange 10 i Rabattbelopp för ett slutligt pris som är 10 USD mindre än det vanliga priset.
+   - `Adjust final price to this percentage` - Justerar det slutliga priset med en procentandel av det normala priset. Ange t.ex. 25 i Rabattbelopp för ett slutpris som markeras med 75 % nedåt från normalpriset.
    - `Adjust final price to discount value` - Anger slutpriset till ett fast, diskonterat belopp. Exempel: Ange 20 i Rabattbelopp för det slutliga priset 20,00 USD.
 
    >[!NOTE]
    >
-   >_Ordinarie pris_ avser basproduktpriset utan några avancerade priser (special/tier/group) eller kampanjrabatter. _Slutpris_ avser det rabatterade pris som visas i kundvagnen. <br/>The **_final_** produktpriset beräknas som **_minimum_** relevant pris, med följande formel: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
+   >_Ordinarie pris_ avser basproduktpriset utan några avancerade priser (special/tier/group) eller kampanjrabatter. _Slutligt pris_ refererar till det rabatterade priset som visas i kundvagnen. <br/>Det **_slutliga_** produktpriset beräknas som det **_lägsta_** relevanta priset, med följande formel: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
    >[!NOTE]
    >
-   >**_Fast pris_** de anpassningsbara alternativen är _not_ påverkas av reglerna för grupppris, pris, specialpris eller katalogpris.
+   >**_Fast pris_** anpassningsbara produktalternativ _påverkas_ inte av reglerna för grupppris, pris, specialpris eller katalogpris.
 
 1. Ange **[!UICONTROL Discount Amount]**.
 
-1. Om du vill avbryta bearbetningen av andra regler när den här regeln har tillämpats anger du **[!UICONTROL Discard Subsequent Rules]** till `Yes`.
+1. Om du vill sluta bearbeta andra regler efter att den här regeln har tillämpats anger du **[!UICONTROL Discard Subsequent Rules]** till `Yes`.
 
    >[!NOTE]
    >
-   >Anger det här till `Yes` är en säkerhetsåtgärd för att förhindra att systemet tillämpar flera rabatter (regler) på samma produkt.
+   >Om du anger det här till `Yes` är det en säkerhetsåtgärd som förhindrar att systemet tillämpar flera rabatter (regler) på samma produkt.
 
 ## Steg 4: Lägg till relaterade dynamiska block
 
 {{ee-feature}}
 
-[Dynamiska block](../content-design/dynamic-blocks.md) som är kopplade till en katalogprisregel visas i butiken när villkoren är uppfyllda. Detta är ett valfritt steg.
+[Dynamiska block](../content-design/dynamic-blocks.md) som är associerade med en katalogprisregel visas i butiken när villkoren uppfylls. Detta är ett valfritt steg.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png)den **[!UICONTROL Related Dynamic Blocks]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png)i avsnittet **[!UICONTROL Related Dynamic Blocks]**.
 
-1. Använd [sökfilter](../getting-started/admin-workspace.md) för att hitta de dynamiska block som du vill koppla till regeln.
+1. Använd [sökfiltren](../getting-started/admin-workspace.md) för att hitta de dynamiska block som du vill associera med regeln.
 
 1. Markera kryssrutan i den första kolumnen om du vill koppla det dynamiska blocket till regeln.
 
@@ -180,31 +180,31 @@ De flesta tillgängliga villkor baseras på befintliga attributvärden. Om du vi
 
 >[!NOTE]
 >
->Du måste lägga till en schemalagd uppdatering för att aktivera regeln. Mer information finns på [Schemalagda ändringar](price-rule-catalog-scheduled-changes.md).
+>Du måste lägga till en schemalagd uppdatering för att aktivera regeln. Mer information finns i [Schemalagda ändringar](price-rule-catalog-scheduled-changes.md).
 
-1. I _Schemalagda ändringar_ ruta, klicka **[!UICONTROL Schedule New Update]** överst i kartongen).
+1. Klicka **[!UICONTROL Schedule New Update]** högst upp i rutan _Schemalagda ändringar_).
 
-   Om regeln har en befintlig schemalagd uppdatering kan du klicka på **[!UICONTROL View/Edit]** till höger om den angivna ändringen.
+   Om regeln har en befintlig schemalagd uppdatering kan du klicka på **[!UICONTROL View/Edit]** till höger om den listade ändringen.
 
-   Du kan antingen redigera den befintliga uppdateringen eller tilldela katalogprisregeln till en annan kampanj. The **Redigera befintlig uppdatering** är markerat som standard.
+   Du kan antingen redigera den befintliga uppdateringen eller tilldela katalogprisregeln till en annan kampanj. Alternativet **Redigera befintlig uppdatering** är markerat som standard.
 
 1. Om du vill schemalägga regeln anger du **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** att prisregeln ska vara aktiv.
 
-   Du kan antingen ange datum eller välja datum från _Kalender_ (![Kalenderikon](../assets/icon-calendar.png)).
+   Du kan antingen ange datum eller välja datum från _kalendern_ (![kalenderikonen](../assets/icon-calendar.png)).
 
    ![Katalogprisregel - uppdateringsschema](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Save]**.
 
-1. I _Regelinformation_ -avsnittet, ange **[!UICONTROL Status]** till `active`.
+1. I avsnittet _Regelinformation_ anger du **[!UICONTROL Status]** till `active`.
 
 ## Steg 6: Spara och testa regeln
 
 1. När du är klar sparar du regeln.
 
-   - ![Magento Open Source](../assets/open-source.svg) (Endast Magento Open Source) Klicka på **[!UICONTROL Save and Apply]**.
+   - ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Klicka på **[!UICONTROL Save and Apply]**.
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Klicka på **[!UICONTROL Save]**.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Klicka på **[!UICONTROL Save]**.
 
      På sidan Regelinformation visas en uppdaterad tidslinje i Regelns schemalagda ändringar.
 
@@ -212,13 +212,13 @@ De flesta tillgängliga villkor baseras på befintliga attributvärden. Om du vi
 
 1. Uppdatera egenskaper för en regel:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Klicka på **[!UICONTROL Edit]** för att visa _[!UICONTROL Rule Information]_sida.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Klicka på **[!UICONTROL Edit]** för att visa sidan _[!UICONTROL Rule Information]_.
 
-   - ![Magento Open Source](../assets/open-source.svg) (Endast Magento Open Source) Klicka på linjen i listan för att visa _[!UICONTROL Rule Information]_sida.
+   - ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Klicka på regeln i listan för att visa sidan _[!UICONTROL Rule Information]_.
 
 1. Testa regeln för att kontrollera att den fungerar som den ska.
 
-   Prisreglerna bearbetas automatiskt med andra systemregler varje kväll. När du skapar en prisregel bör du ge den tillräckligt med tid för att komma in i systemet innan du testar regeln för att se till att den fungerar som den ska. I takt med att nya regler läggs till beräknar Commerce om priserna och prioriteringarna i enlighet därmed.
+   Prisreglerna bearbetas automatiskt med andra systemregler varje kväll. När du skapar en prisregel bör du ge den tillräckligt med tid för att komma in i systemet innan du testar regeln för att se till att den fungerar som den ska. I takt med att nya regler läggs till beräknar Commerce om priserna och prioriteterna utifrån detta.
 
 ## Film om katalogprisregel
 
@@ -237,9 +237,9 @@ I den här videon får du lära dig mer om hur du skapar katalogprisregler:
 | [!UICONTROL Websites] | (Obligatoriskt) Identifierar de webbplatser där regeln kan användas. |
 | [!UICONTROL Customer Groups] | (Obligatoriskt) Identifierar de kundgrupper som regeln gäller. |
 | [!UICONTROL Priority] | Ett tal som anger den här regelns prioritet i förhållande till andra. Högsta prioritet är nummer 1. |
-| [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (Endast Magento Open Source) Anger om regeln är aktiv i butiken. Alternativ: `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (Endast Magento Open Source) Anger den första dagen som prisregeln gäller. Om den lämnas tom träder prisregeln i kraft när den sparas. |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (Endast Magento Open Source) Anger den sista dagen som prisregeln gäller. Om inget anges fortsätter prisregeln oavbrutet. |
+| [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Anger om regeln är aktiv i butiken. Alternativ: `Yes` / `No` |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Anger den första dagen som prisregeln gäller. Om den lämnas tom träder prisregeln i kraft när den sparas. |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Anger den sista dagen som prisregeln gäller. Om inget anges fortsätter prisregeln oavbrutet. |
 
 {style="table-layout:auto"}
 
@@ -251,9 +251,9 @@ Anger villkoren som måste uppfyllas innan katalogprisregeln verkställs. Om ing
 
 | Fält | Beskrivning |
 |-----|-----------|
-| [!UICONTROL Apply] | Bestämmer vilken typ av beräkning som ska tillämpas på inköpet. Alternativ: <br/>**[!UICONTROL Apply as percentage of original]**- Rabattartikel genom att subtrahera en procentandel av normalpriset.<br/>**[!UICONTROL Apply as fixed amount]** - Rabattartikel genom att subtrahera ett fast belopp från det normala priset. <br/>**[!UICONTROL Adjust final price to this percentage]**- Justerar slutpriset med en procentandel av det normala priset.<br/>**[!UICONTROL Adjust final price to discount value]** - Anger slutpriset till ett fast, diskonterat belopp. <br/><br/>**_Obs!_**Ordinarie pris avser basproduktpriset utan några avancerade priser (special/tier/group) eller kampanjrabatter. Slutpris avser det rabatterade pris som visas i kundvagnen. <br/>The**_final _**produktpriset beräknas som**_minimum _**relevant pris, med följande formel: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Bestämmer vilken typ av beräkning som ska tillämpas på inköpet. Alternativ: <br/>**[!UICONTROL Apply as percentage of original]**- Rabattartikel genom att subtrahera en procentandel av normalpriset.<br/>**[!UICONTROL Apply as fixed amount]** - Rabattartikel genom att subtrahera ett fast belopp från normalpriset. <br/>**[!UICONTROL Adjust final price to this percentage]**- Justerar det slutliga priset med en procentandel av det normala priset.<br/>**[!UICONTROL Adjust final price to discount value]** - Anger slutpriset till ett fast, diskonterat belopp. <br/><br/>**_Obs!_**Ordinarie pris avser basproduktpriset utan några avancerade priser (special/tier/group) eller kampanjrabatter. Slutpris avser det rabatterade pris som visas i kundvagnen. <br/>Det**_slutliga _**produktpriset beräknas som det**_lägsta _**relevanta priset, med följande formel: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Obligatoriskt) Erbjudandet om rabatt. |
-| [!UICONTROL Discard Subsequent Rules] | Avgör om ytterligare regler kan tillämpas på det här köpet. Om du vill förhindra att flera rabatter tillämpas på samma inköp väljer du `Yes`. Alternativ: `Yes` / `No` |
+| [!UICONTROL Discard Subsequent Rules] | Avgör om ytterligare regler kan tillämpas på det här köpet. Välj `Yes` om du vill förhindra att flera rabatter tillämpas på samma inköp. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -261,4 +261,4 @@ Anger villkoren som måste uppfyllas innan katalogprisregeln verkställs. Om ing
 
 {{ee-feature}}
 
-Identifierar alla [dynamiska block](../content-design/dynamic-blocks.md) som är kopplade till regeln.
+Identifierar alla [dynamiska block](../content-design/dynamic-blocks.md) som är associerade med regeln.

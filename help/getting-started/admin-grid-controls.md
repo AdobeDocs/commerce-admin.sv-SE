@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Kontroller för administratörsstödraster
 
-Administratörssidor som hanterar data visar en samling med poster i ett rutnät. Kontrollerna högst upp i varje kolumn kan användas för att sortera data. Den aktuella sorteringsordningen anges med en stigande eller fallande pil i kolumnrubriken. Du kan ange vilka kolumner som ska visas i stödrastret och dra dem till olika positioner. Du kan också spara olika kolumnupplägg som vyer som kan användas senare. The **[!UICONTROL Action]** kolumn listar åtgärder som kan tillämpas på en enskild post. Dessutom kan datum från den aktuella vyn av de flesta stödraster exporteras till en [CSV](../systems/data-csv.md) eller XML-fil.
+Administratörssidor som hanterar data visar en samling med poster i ett rutnät. Kontrollerna högst upp i varje kolumn kan användas för att sortera data. Den aktuella sorteringsordningen anges med en stigande eller fallande pil i kolumnrubriken. Du kan ange vilka kolumner som ska visas i stödrastret och dra dem till olika positioner. Du kan också spara olika kolumnupplägg som vyer som kan användas senare. Kolumnen **[!UICONTROL Action]** visar åtgärder som kan tillämpas på en enskild post. Dessutom kan datum från den aktuella vyn med de flesta stödraster exporteras till en [CSV](../systems/data-csv.md) - eller XML-fil.
 
 ![Sidan Beställningar - stödrastervisning](./assets/admin-workspace-grid.png){width="700" zoomable="yes"}
 
@@ -27,9 +27,9 @@ Administratörssidor som hanterar data visar en samling med poster i ett rutnät
 
 ## Sidindela listan
 
-1. Ange **[!UICONTROL Pagination]** styr antalet poster som du vill visa per sida.
+1. Ställ in kontrollen **[!UICONTROL Pagination]** på det antal poster som du vill visa per sida.
 
-1. Klicka **[!UICONTROL Next]** och **[!UICONTROL Previous]** för att bläddra igenom listan eller ange en **[!UICONTROL Page Number]**.
+1. Klicka på **[!UICONTROL Next]** och **[!UICONTROL Previous]** om du vill bläddra igenom listan eller ange en specifik **[!UICONTROL Page Number]**.
 
 ## Filtrera listan
 
@@ -47,14 +47,14 @@ Administratörssidor som hanterar data visar en samling med poster i ett rutnät
 
    >[!NOTE]
    >
-   >Produktdata kan inte exporteras från rutnätet. Mer information finns på [Exportera](../systems/data-export.md).
+   >Produktdata kan inte exporteras från rutnätet. Mer information finns i [Exportera](../systems/data-export.md).
 
-1. På _Exportera_ (![Menyväljare](../assets/icon-export.png)) i det övre högra hörnet väljer du något av följande filformat:
+1. Välj något av följande filformat på menyn _Exportera_ (![Menyväljare](../assets/icon-export.png)) i det övre högra hörnet:
 
    - `CSV`
    - `Excel XML`
 
-   ![Orderlista - exportalternativ](./assets/customers-grid-export.png){width="700" zoomable="yes"}
+   ![Listan Beställningar - exportalternativ](./assets/customers-grid-export.png){width="700" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Export]**.
 
@@ -62,19 +62,19 @@ Administratörssidor som hanterar data visar en samling med poster i ett rutnät
 
 ## Stödrasterlayout
 
-Markeringen av kolumner och deras ordning i rutnätet kan ändras enligt dina önskemål och sparas som en _visa_. Du kan styra vilka attribut som visas i rutnätet under den enskilda attributkonfigurationen. Många attribut som visas i produktrutnätet kan påverka administratörens inläsningstid och prestanda.
+Markeringen av kolumner och deras ordning i rutnätet kan ändras enligt dina önskemål och sparas som en _vy_. Du kan styra vilka attribut som visas i rutnätet under den enskilda attributkonfigurationen. Många attribut som visas i produktrutnätet kan påverka administratörens inläsningstid och prestanda.
 
-![Ordna rutnätskolumner](./assets/admin-grid-columns.png){width="700" zoomable="yes"}
+![Ordna kolumner för stödraster](./assets/admin-grid-columns.png){width="700" zoomable="yes"}
 
 ### Ändra markeringen av kolumner
 
-1. Klicka i det övre högra hörnet på _Kolumner_ (![Kolumnkontroll](../assets/icon-columns.png)).
+1. Klicka på kontrollen _Kolumner_ (![Kolumner-kontroll](../assets/icon-columns.png)) i det övre högra hörnet.
 
 1. Ändra kolumnmarkeringar:
 
    - Markera kryssrutan för den kolumn som du vill lägga till i rutnätet.
    - Avmarkera kryssrutan för de kolumner som du vill ta bort från stödrastret.
-   - Om du vill återgå till standardstödrastervyn klickar du på **[!UICONTROL Reset]**.
+   - Om du vill returnera standardstödrastervyn klickar du på **[!UICONTROL Reset]**.
 
 Se till att rulla nedåt för att se alla tillgängliga kolumner.
 
@@ -86,22 +86,22 @@ Se till att rulla nedåt för att se alla tillgängliga kolumner.
 
 ### Spara en stödrastervy
 
-1. Klicka på _Visa_ (![Visningskontroll](../assets/icon-view-eye.png)).
+1. Klicka på kontrollen _Visa_ (![Visa kontroll](../assets/icon-view-eye.png)).
 
 1. Klicka på **[!UICONTROL Save Current View]**.
 
-1. Ange en **[!UICONTROL name]** för vyn.
+1. Ange **[!UICONTROL name]** som vy.
 
-1. Spara alla ändringar genom att klicka på _Pil_ (![Spara alla ändringar](../assets/icon-arrow-save.png)).
+1. Om du vill spara alla ändringar klickar du på _pilen_ (![Spara alla ändringar](../assets/icon-arrow-save.png)).
 
    Namnet på vyn visas nu som den aktuella vyn.
 
 ### Ändra stödrastervyn
 
-1. Klicka på _Visa_ (![Ikonen Visa](../assets/icon-view-eye.png)).
+1. Klicka på kontrollen _Visa_ (![Visa ikon](../assets/icon-view-eye.png)).
 
 1. Gör något av följande:
 
    - Om du vill använda en annan vy klickar du på vyns namn.
-   - Om du vill ändra namnet på en vy klickar du på _Redigera_ (![Ikonen Redigera](../assets/icon-edit-pencil.png)) och uppdatera namnet.
-   - Om du vill ta bort en vy klickar du på _Redigera_ (![Ikonen Redigera](../assets/icon-edit-pencil.png)) och klickar sedan på _Ta bort_ (![Ikonen Ta bort](../assets/icon-delete-trashcan-solid.png)).
+   - Om du vill ändra namnet på en vy klickar du på ikonen _Redigera_ (![Redigera ikon](../assets/icon-edit-pencil.png)) och uppdaterar namnet.
+   - Om du vill ta bort en vy klickar du på ikonen _Redigera_ (![Redigera ](../assets/icon-edit-pencil.png)) och sedan på ikonen _Ta bort_ (![Ta bort](../assets/icon-delete-trashcan-solid.png)).

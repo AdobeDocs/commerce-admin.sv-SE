@@ -1,7 +1,7 @@
 ---
 user-guide-title: "[!DNL Page Builder] Användarhandbok"
-user-guide-description: Lär dig använda [!DNL Page Builder] funktioner för att skapa innehållsrika sidor med anpassade layouter som förbättrar ert visuella berättande och ökar kundengagemanget och kundlojaliteten.
-breadcrumb-title: "[!DNL Page Builder]"
+user-guide-description: Lär dig hur du använder  [!DNL Page Builder] funktioner för att skapa innehållsrika sidor med anpassade layouter som förbättrar ditt visuella berättande och ökar kundengagemanget och kundlojaliteten.
+breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
@@ -13,22 +13,22 @@ ht-degree: 0%
 ---
 
 
-# [!DNL Page Builder] Användarhandbok {#page-builder}
+# Användarhandbok för [!DNL Page Builder] {#page-builder}
 
-- [[!DNL Page Builder] Användarhandbok](guide-overview.md)
-- [Introduktion till [!DNL Page Builder]](introduction.md)
+- [Användarhandbok för [!DNL Page Builder]](guide-overview.md)
+- [Introduktion till  [!DNL Page Builder]](introduction.md)
 - [Versionsinformation](release-notes.md)
 - [Konfiguration och konfiguration](setup.md)
 - Genomgång {#walkthrough}
    - [Del 1: enkel sida](1-simple-page.md)
    - [Del 2: block](2-blocks.md)
    - [Del 3: Kataloginnehåll](3-catalog-content.md)
-- [Arbetsyta](workspace.md)
+- [Workspace](workspace.md)
 - Layout {#layout}
    - [Rader](row.md)
    - [Kolumner](column.md)
    - [Tabbar](tabs.md)
-- Element {#elements}
+- Elements {#elements}
    - [Text](text.md)
    - [Rubrik](heading.md)
    - [Knappar](buttons.md)

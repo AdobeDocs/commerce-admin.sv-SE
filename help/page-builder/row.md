@@ -1,24 +1,24 @@
 ---
 title: Layout - rad
-description: Läs mer om innehållstypen Rad, som används för att lägga till en rad i [!DNL Page Builder] stage.
+description: Lär dig mer om innehållstypen Rad som används för att lägga till en rad på scenen  [!DNL Page Builder] .
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
 
 # Layout - rad
 
-Använd _Rad_ innehållstyp för att lägga till en rad i [[!DNL Page Builder] stage](workspace.md#stage).
+Använd innehållstypen _Rad_ för att lägga till en rad i [[!DNL Page Builder] scenen](workspace.md#stage).
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Verktygslådan Rad
 
-Verktygslådan för raden visas när du hovrar över radbehållaren. Verktygslådan innehåller alternativ för att flytta, dölja, duplicera, redigera eller ta bort raden. Valet av inställningar avgör radens utseende, bakgrund och layout. Ytterligare innehållselement kan dras till raden från [!DNL Page Builder] till vänster.
+Verktygslådan för raden visas när du hovrar över radbehållaren. Verktygslådan innehåller alternativ för att flytta, dölja, duplicera, redigera eller ta bort raden. Valet av inställningar avgör radens utseende, bakgrund och layout. Ytterligare innehållselement kan dras till raden från panelen [!DNL Page Builder] till vänster.
 
 ![Verktygslådan Rad](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
 
@@ -26,10 +26,10 @@ Verktygslådan för raden visas när du hovrar över radbehållaren. Verktygslå
 | --------- | ---------- | ----------- |
 | Flytta | ![Ikonen Flytta](./assets/pb-icon-move.png){width="25"} | Flyttar raden till en annan position i förhållande till andra rader på scenen. |
 | (etikett) | [!UICONTROL Row] | Identifierar den aktuella innehållsbehållaren som en rad. Håll pekaren över behållaren för att visa verktygslådan. |
-| Inställningar | ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera rad, där du kan ändra egenskaperna för behållaren. |
+| Inställningar | ![Ikon för inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera rad, där du kan ändra egenskaperna för behållaren. |
 | Dölj | ![Dölj ikon](./assets/pb-icon-hide.png){width="25"} | Döljer den aktuella raden. |
 | Visa | ![Visa ikon](./assets/pb-icon-show.png){width="25"} | Visar den dolda raden. |
-| Duplicera | ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av raden. |
+| Duplicera | ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av raden. |
 | Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="25"} | Tar bort radbehållaren och dess innehåll från scenen. |
 
 {style="table-layout:auto"}
@@ -38,27 +38,27 @@ Verktygslådan för raden visas när du hovrar över radbehållaren. Verktygslå
 
 ## Lägga till en rad
 
-1. I [!DNL Page Builder] panel under _[!UICONTROL Layout]_, dra en ny **[!UICONTROL Row]**till scenen, precis nedanför den första raden.
+1. Dra en ny **[!UICONTROL Row]** till scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_, precis nedanför den första raden.
 
-1. Om du vill formatera raden håller du pekaren över radbehållaren för att visa verktygslådan och väljer alternativet _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Om du vill formatera raden för du muspekaren över radbehållaren för att visa verktygslådan och väljer ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
    I följande avsnitt finns detaljerad information om hur du fyller i de tillgängliga inställningarna.
 
-   ![Lägga till en rad](./assets/pb-layout-row-add.png){width="600" zoomable="yes"}
+   ![Lägger till en rad](./assets/pb-layout-row-add.png){width="600" zoomable="yes"}
 
 ## Ändra radinställningar
 
-1. Håll pekaren över radbehållaren för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över radbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Verktygslådan Rad](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
 1. Använd följande avsnitt för detaljerad information om hur du uppdaterar de tillgängliga inställningarna.
 
-1. När du är klar klickar du på **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ## Utseende
 
-Använd _Utseende_ inställningar som bestämmer hur innehållet visas på raden.
+Använd inställningarna för _Utseende_ för att bestämma hur innehåll visas på raden.
 
 ![Utseendeinställningar](./assets/pb-row-layout.png){width="600" zoomable="yes"}
 
@@ -68,15 +68,15 @@ Använd _Utseende_ inställningar som bestämmer hur innehållet visas på raden
   | ------ | ----------- |
   | [!UICONTROL Contained] | Bakgrundsfärgen eller bilden är begränsad till den maximala sidbredd som definieras av temat. |
   | [!UICONTROL Full Width] | Begränsar innehållet till den maximala sidbredd som definieras av temat. Bakgrundsfärgen och/eller bilden är inte begränsad och utökar radens hela bredd. |
-  | [!UICONTROL Full Bleed] | Innehållet och bakgrundsbilden och/eller färgen är inte begränsade och radens fulla bredd utökas. Fullständigt utfall kan endast användas med [teman](../content-design/themes.md) som stöder layouten. |
+  | [!UICONTROL Full Bleed] | Innehållet och bakgrundsbilden och/eller färgen är inte begränsade och radens fulla bredd utökas. Fullt utfall kan bara användas med [teman](../content-design/themes.md) som stöder layouten. |
 
   {style="table-layout:auto"}
 
-- Ange **[!UICONTROL Minimum Height]** för raden. Det här värdet kan vara ett tal med valfri giltig CSS-enhet (t.ex. `100px`, `50%`, `50em`, `100vh`) eller en beräkning (som `100vh - 237px`).
+- Ange **[!UICONTROL Minimum Height]** för raden. Det här värdet kan vara ett tal med en giltig CSS-enhet (till exempel `100px`, `50%`, `50em`, `100vh`) eller en beräkning (till exempel `100vh - 237px`).
 
   Du kan till exempel ange den minsta radhöjden för att sträcka ut hela sidhöjden, vilket ger dig övertygande alternativ för helsidesbakgrundsbilder och -videor.
 
-- Välj en **[!UICONTROL Vertical Alignment]** om du vill justera alla innehållsbehållare som läggs till på raden (Överkant, Mitten eller Nederkant).
+- Välj en **[!UICONTROL Vertical Alignment]**-inställning om du vill justera alla innehållsbehållare som läggs till på raden (Överkant, Mitten eller Nederkant).
 
 ## Bakgrund
 
@@ -92,33 +92,33 @@ Du kan ange värdet på ett av tre sätt:
 
 - Ett fördefinierat färgnamn, till exempel `White`
 - Det hexadecimala färgvärdet för färgen, till exempel `#ffffff`
-- rgba-värdet för färgen, med opacitetsprocent, till exempel `rgba(255, 255, 255, 0.75)`
+- RGB-värdet för färgen, med opacitetsprocent, till exempel `rgba(255, 255, 255, 0.75)`
 
-Om du vill välja en färg klickar du på färgrutan till vänster om _Ingen färg_ box.
+Om du vill välja en färg klickar du på färgrutan till vänster om rutan _Ingen färg_ .
 
 ![Välja en färgruta](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 Om du klickar på färgrutan för att öppna färgväljaren igen visar rutan under reglaget de aktuella värdena för rött, grönt, blått och alfa (rgba). Det sista talet anger den aktuella opaciteten i procent som decimal. Du kan justera opaciteten med hjälp av skjutreglaget eller ange ett decimalvärde.
 
-![Ange opacitet](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+![Anger opacitet](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->[!DNL Page Builder] har även stöd för genomskinliga lager, eller _alfakanal_, i bakgrundsbilder som kan användas för att skapa bakgrunder med varierande grad av opacitet.
+>[!DNL Page Builder] har också stöd för ett genomskinlighetslager, eller _alfakanal_, i bakgrundsbilder som kan användas för att skapa bakgrunder med olika grad av opacitet.
 
 ### [!UICONTROL Background Type]
 
-En bakgrundstyp kan vara en bild eller en video. [!DNL Page Builder] standardvärdet är `Image` och visar olika bildinställningar. Om du väljer `Video`, [!DNL Page Builder] byter ut bildinställningarna mot videoinställningarna. Båda bakgrundstyperna beskrivs nedan.
+En bakgrundstyp kan vara en bild eller en video. [!DNL Page Builder] är som standard `Image` och visar olika bildinställningar. Om du väljer `Video` byter [!DNL Page Builder] bildinställningarna mot videoinställningarna. Båda bakgrundstyperna beskrivs nedan.
 
 ![Bakgrundstyp](./assets/pb-background-type.png){width="200"}
 
 ### Inställningar för bildtyp
 
-Om du anger _[!UICONTROL Background Type]_till `Image`använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
+Om du ställer in _[!UICONTROL Background Type]_på `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
 
 ![Bakgrundsbild](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
-- **[!UICONTROL Background Image]** - Använd vid behov de medföljande verktygen för att välja en bakgrundsbild som ska användas på raden:
+- **[!UICONTROL Background Image]** - Om det behövs använder du de angivna verktygen för att välja en bakgrundsbild som ska användas på raden:
 
   | Alternativ | Beskrivning |
   | ------ | ----------- |
@@ -130,7 +130,7 @@ Om du anger _[!UICONTROL Background Type]_till `Image`använder du följande ins
 
 - **[!UICONTROL Background Mobile Image]** - Använd vid behov samma verktyg för att välja en annan bakgrundsbild som ska användas för visning på mobila enheter.
 
-- **[!UICONTROL Background Size]** - Ange det här alternativet om du vill ange hur bakgrundsbilden ska skalförändras i förhållande till radens bredd:
+- **[!UICONTROL Background Size]** - Ange det här alternativet för att bestämma hur bakgrundsbilden ska skalas i relation till radens bredd:
 
   | Alternativ | Beskrivning |
   | ------ | ----------- |
@@ -142,7 +142,7 @@ Om du anger _[!UICONTROL Background Type]_till `Image`använder du följande ins
 
   ![Bakgrundsstorlek](./assets/pb-layout-row-settings-background-size-cover.png){width="250"}
 
-- **[!UICONTROL Background Position]** - Ange det här alternativet om du vill ange hur bakgrundsbilden ska förankras i förhållande till raden:
+- **[!UICONTROL Background Position]** - Ange det här alternativet för att bestämma hur bakgrundsbilden är förankrad i förhållande till raden:
 
   | Ankarpunkt | Position |
   | ------ | ----------- |
@@ -163,27 +163,27 @@ Om du anger _[!UICONTROL Background Type]_till `Image`använder du följande ins
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Repeat]** - Ange som `Yes` om du vill upprepa bakgrundsbilden för att fylla ut det tillgängliga utrymmet på raden.
+- **[!UICONTROL Background Repeat]** - Ange som `Yes` om du vill upprepa bakgrundsbilden för att fylla det tillgängliga utrymmet på raden.
 
 ### Inställningar för videotyp
 
-Om du anger _Bakgrundstyp_ till `Video`använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
+Om du anger _bakgrundstypen_ till `Video` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
 
 - **[!UICONTROL Video URL]** - Ange en giltig video-URL. Giltiga video-URL:er kan vara länkar till:
 
-   - YouTube videofilmer: `https://youtu.be/CoDhMRUUjeI`
-   - Vimeo-videor: `https://vimeo.com/190156113`
+   - YouTube-videofilmer: `https://youtu.be/CoDhMRUUjeI`
+   - Vimeo-videofilmer: `https://vimeo.com/190156113`
    - Giltiga videofiler (`.mp4` rekommenderas): `https://myvideos.com/spiral.mp4`
 
   ![URL för bakgrundsvideo](./assets/pb-video-url.png){width="300"}
 
-- **[!UICONTROL Overlay Color]** - Välj en färg som du vill använda en genomskinlig färgton på videon.
+- **[!UICONTROL Overlay Color]** - Välj en färg för att använda en genomskinlig färgton på videon.
 
-- **[!UICONTROL Infinite Loop]** - Ange som `No` för att få videon att spelas upp en gång och stoppa. När det här alternativet är inställt på `Yes` (standard) upprepas videon i en oändlig slinga.
+- **[!UICONTROL Infinite Loop]** - Ange till `No` om du vill att videon ska spelas upp en gång och stoppas. När det här alternativet är inställt på `Yes` (standard) upprepas videon i en oändlig slinga.
 
-- **[!UICONTROL Lazy Load]** - Ange som `No` för att göra så att videon läses in med sidan, även när den inte syns. När det här alternativet är inställt på `Yes` (standard) läses videon bara in från källan när den visas på skärmen.
+- **[!UICONTROL Lazy Load]** - Ange som `No` om du vill att videon ska läsas in med sidan, även när den inte är synlig. När det här alternativet är inställt på `Yes` (standard) läses videon in från källan endast när den är synlig på skärmen.
 
-- **[!UICONTROL Play Only When Visible]** - Ange som `No` för att få videon att börja spelas upp omedelbart efter att den har lästs in, oavsett om den är synlig eller inte. När det här alternativet är inställt på `Yes` (standard) spelas videon bara upp när den är synlig.
+- **[!UICONTROL Play Only When Visible]** - Ange till `No` om du vill att videon ska börja spelas upp omedelbart efter att den har lästs in, oavsett om den är synlig eller inte. När det här alternativet är inställt på `Yes` (standard) börjar videon spelas upp endast när den är synlig.
 
 - **[!UICONTROL Fallback Image]** - Om det behövs anger du en bild som ska visas på skärmen innan videon läses in och om videon inte läses in av någon anledning.
 
@@ -192,7 +192,7 @@ Om du anger _Bakgrundstyp_ till `Video`använder du följande inställningar fö
 Använd de här alternativen om du vill styra hastigheten för en rullad bakgrundsbild eller -video i förhållande till sidans rullning. Bakgrunden kan ställas in så att den rullas långsammare för att skapa en känsla av nedsänkning.
 
 - Ange **Aktivera parallaxbakgrund** till `Yes`.
-- Ange **Parallaxhastighet** som ett decimalvärde mellan `-1.0` och `2.0`.
+- Ange **Parallaxhastigheten** som ett decimalvärde mellan `-1.0` och `2.0`.
 
 ![Inställningar för parallaxbakgrund](./assets/pb-settings-parallax-background.png){width="600" zoomable="yes"}
 
@@ -209,7 +209,7 @@ Använd de här alternativen om du vill styra hastigheten för en rullad bakgrun
 
   {style="table-layout:auto"}
 
-- Ange **[!UICONTROL Border]** format som används på alla fyra sidor i radbehållaren:
+- Ange det **[!UICONTROL Border]**-format som ska användas på alla fyra sidor i radbehållaren:
 
   | Alternativ | Beskrivning |
   | ------ | ----------- |
@@ -226,7 +226,7 @@ Använd de här alternativen om du vill styra hastigheten för en rullad bakgrun
 
   {style="table-layout:auto"}
 
-- Om du anger ett annat kantlinjeformat än `None`slutför du visningsalternativen för kantlinjer:
+- Om du anger ett annat kantlinjeformat än `None` fyller du i visningsalternativen för kantlinjen:
 
   ![Kantfärg](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -246,7 +246,7 @@ Använd de här alternativen om du vill styra hastigheten för en rullad bakgrun
 
   Avgränsa flera klassnamn med blanksteg.
 
-- Ange värden i pixlar för **[!UICONTROL Margins and Padding]** om du vill ange de yttre marginalerna och den inre utfyllnaden för raden.
+- Ange värden (i pixlar) för **[!UICONTROL Margins and Padding]** för att ange radens yttre marginaler och inre utfyllnad.
 
   Ange varje motsvarande värde i radbehållardiagrammet.
 

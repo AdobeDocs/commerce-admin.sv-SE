@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # Temaresurser
 
-The _statiska filer_ är en samling resurser, t.ex. CSS, teckensnitt, bilder och JavaScript som används av ett tema. Platsen för statiska filer anges i [Bas-URL](../stores-purchase/store-urls.md) konfiguration. Du kan lägga till en digital signatur i URL:en för varje statisk fil så att webbläsarna kan identifiera när en nyare version är tillgänglig. Den nyare versionen av filen används om signaturen skiljer sig från den som lagras i webbläsarens cache.
+De _statiska filerna_ är en samling resurser, till exempel CSS, teckensnitt, bilder och JavaScript som används av ett tema. Platsen för statiska filer anges i konfigurationen [Bas-URL](../stores-purchase/store-urls.md) . Du kan lägga till en digital signatur i URL:en för varje statisk fil så att webbläsarna kan identifiera när en nyare version är tillgänglig. Den nyare versionen av filen används om signaturen skiljer sig från den som lagras i webbläsarens cache.
 
-För en standardinstallation ordnas resurserna som är kopplade till ett tema i `web` på följande plats nedanför [!DNL Commerce] rot.
+För en standardinstallation ordnas resurserna som är kopplade till ett tema i mappen `web` på följande plats nedanför roten [!DNL Commerce].
 
 `[commerce_root]/app/design/frontend/Magento/[theme_name]/web`
 
 ## Lägga till en digital signatur i statiska filadresser
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Advanced]** och välja **[!UICONTROL Developer]**.
+1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Static Files Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Static Files Settings]**.
 
    ![Inställningar för statiska filer](./assets/developer-static-files-settings.png){width="500" zoomable="yes"}
 
 1. Ange **[!UICONTROL Sign Static Files]** till `Yes`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 | Filtyp | Beskrivning |
 |--- |--- |
@@ -47,13 +47,13 @@ Som en del av ett försök att optimera webbplatsen och minska sidinläsningstid
 
 >[!NOTE]
 >
->CSS-filer kan sammanfogas från _Administratör_ panel endast när du arbetar i [utvecklarläge](../systems/developer-tools.md#operation-modes).
+>CSS-filer kan bara sammanfogas från panelen _Admin_ när du arbetar i [utvecklarläget](../systems/developer-tools.md#operation-modes).
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. I den vänstra panelen **[!UICONTROL Advanced]** och välja **[!UICONTROL Developer]**.
+1. I den vänstra panelen **[!UICONTROL Advanced]** och väljer **[!UICONTROL Developer]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL CSS Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL CSS Settings]**.
 
    ![CSS-inställningar](./assets/developer-css-settings.png){width="500" zoomable="yes"}
 
@@ -61,21 +61,21 @@ Som en del av ett försök att optimera webbplatsen och minska sidinläsningstid
 
 1. Ange **[!UICONTROL Merge CSS Files]** till `Yes`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
-## Sammanfoga JavaScript-filer
+## Slå samman JavaScript-filer
 
 Flera JavaScript-filer kan sammanfogas till en enda komprimerad fil för att minska sidinläsningstiden. Om du öppnar en sammanfogad JavaScript-fil ser du ett kontinuerligt textflöde med radbrytningar borttagna. Om du är klar med utvecklingsprocessen och koden inte innehåller några fel kan du sammanfoga filerna.
 
 >[!NOTE]
 >
->JavaScript-filer kan sammanfogas från _Administratör_ panel endast när du arbetar i [Utvecklarläge](../systems/developer-tools.md#operation-modes).
+>JavaScript-filer kan bara sammanfogas från panelen _Admin_ när du arbetar i [Utvecklarläge](../systems/developer-tools.md#operation-modes).
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. I den vänstra panelen **[!UICONTROL Advanced]** och välja **[!UICONTROL Developer]**.
+1. I den vänstra panelen **[!UICONTROL Advanced]** och väljer **[!UICONTROL Developer]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL JavaScript Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL JavaScript Settings]**.
 
    ![JavaScript-inställningar](./assets/developer-javascript-settings.png){width="600" zoomable="yes"}
 
@@ -83,4 +83,4 @@ Flera JavaScript-filer kan sammanfogas till en enda komprimerad fil för att min
 
 1. Ange **[!UICONTROL Merge JavaScript Files]** till `Yes`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

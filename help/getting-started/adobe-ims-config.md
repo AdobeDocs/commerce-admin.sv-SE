@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# Konfigurera Commerce Admin-integrering med Adobe ID
+# Konfigurera Commerce Admin Integration med Adobe ID
 
 {{ee-feature}}
 
-Integreringen stöder handlare med administratörsanvändare som har Adobe ID och som vill effektivisera inloggningen på Adobe Commerce och Adobe Business-produkter. Den är valfri och aktiveras per instans. Endast arbetsflöden för administratörer påverkas när de är aktiverade. 
+Integrationen stöder Commerce handlare med admin-användare som har en Adobe ID och som vill effektivisera inloggningen till Adobe Commerce och Adobe Business-produkter. Den är valfri och aktiveras per instans. Endast arbetsflöden för administratörer påverkas när de är aktiverade. 
 
 >[!IMPORTANT]
 >
->Administratörsanvändare bör spara sina inloggningsuppgifter för Commerce Admin (användarnamn och lösenord) och 2FA-autentiseringsuppgifter innan integreringen aktiveras. Dessa autentiseringsuppgifter krävs om IMS-integreringen är inaktiverad.
+>Administratörsanvändare bör spara sina inloggningsuppgifter för Commerce Admin (användarnamn och lösenord) och 2FA-inloggningsuppgifter innan de aktiverar integreringen. Dessa autentiseringsuppgifter krävs om IMS-integreringen är inaktiverad.
 
 ## Förutsättningar
 
@@ -27,38 +27,38 @@ Integreringen stöder handlare med administratörsanvändare som har Adobe ID oc
 
 Administratören som konfigurerar den här integreringen behöver följande autentiseringsuppgifter när modulen aktiveras:
 
-* Organisations-ID (hämtas från [Adobe Admin Console](https://adminconsole.adobe.com/)), som måste innehålla minst 24 tecken. Den autentiserade användaren måste tillhöra den här IMS-organisationen. Mer information om hur du hittar ditt organisations-ID finns i [Organisationer i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
-* 2FA ska tillämpas på organisationsnivå i Adobe Admin Console för att aktivera modulen. Kontrollera [Autentiseringsinställningar](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
+* Organisations-ID (hämtas från [Adobe Admin Console](https://adminconsole.adobe.com/)), som måste innehålla minst 24 tecken. Den autentiserade användaren måste tillhöra den här IMS-organisationen. Mer information om hur du hittar ditt företags-ID finns i [Organisationer i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+* 2FA ska tillämpas på organisationsnivå i Adobe Admin Console för att aktivera modulen. Kontrollera [autentiseringsinställningar](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Klient-ID
 * Klienthemlighet
-* Klient-ID och klienthemlighet är tillgängliga efter att API-nycklar har hämtats från [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/).
+* Klient-ID och klienthemlighet är tillgängliga efter hämtning av API-nycklar från [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/).
 
 Commerce Admin-användare måste skapa ett konto hos en Adobe ID för att kunna logga in.
 
 ## Allmänna steg
 
-* Hämta Adobe Org-ID från [Adobe Admin Console](https://adminconsole.adobe.com/)
+* Hämta Adobe-organisations-ID från [Adobe Admin Console](https://adminconsole.adobe.com/)
 * Generera ett nytt projekt, IMS API-nycklar och hemlighet från [Adobe Developer Console](https://developer.adobe.com/)
 * Konfigurera Adobe Commerce-användare i Adobe Admin Console
-* Aktivera `AdminAdobeIms` -modul.
+* Aktivera modulen `AdminAdobeIms`.
 
-För en lyckad integrering krävs att alla Adobe Commerce-användare har administratörskonton med samma namn och primära e-postadress. Om det inte finns något matchande administratörskonto måste en användare med nödvändig behörighet (vanligtvis tilldelad administratörsrollen) manuellt [skapa administratörens användarkonto](../systems/permissions-users-all.md#create-a-user) med samma namn och e-postadress.
+För en lyckad integrering krävs att alla Adobe Commerce-användare har administratörskonton med samma namn och primära e-postadress. Om det inte finns något matchande administratörskonto måste en användare med nödvändig behörighet (vanligtvis tilldelad administratörsrollen) manuellt [skapa administratörsanvändarkontot](../systems/permissions-users-all.md#create-a-user) med samma namn och e-postadress.
 
 ## Konfigurera integreringen
 
-När följande steg är slutförda av en administratör eller utvecklare med systemåtkomst kan _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_-knappen visas på inloggningssidan för Commerce Admin för alla Admin-användare.
+När följande steg har slutförts av en administratör eller utvecklare med systemåtkomst visas knappen _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_på inloggningssidan för Commerce Admin för alla Admin-användare.
 
 ### Steg 1: Hämta Adobe Org ID
 
-Det krävs medlemskap i minst en IMS-organisation för att den här funktionen ska kunna aktiveras. Om du har en Adobe ID-organisation tillhör du som standard minst en Adobe-organisation. Logga in på [Adobe Admin Console](https://adminconsole.adobe.com/) för att hämta ditt organisations-ID.
+Det krävs medlemskap i minst en IMS-organisation för att den här funktionen ska kunna aktiveras. Om du har en Adobe ID-organisation tillhör du som standard minst en Adobe-organisation. Logga in på [Adobe Admin Console](https://adminconsole.adobe.com/) för att hämta ditt företags-ID.
 
 ### Steg 2: Generera ett nytt projekt, IMS API-nycklar och hemlig
 
 Om du vill skapa projekt för en organisation måste Adobe Admin-kontot för organisationen ha systemadministratörs- eller utvecklarrollen. Se [Developer Console Guide](https://developer.adobe.com/developer-console/docs/guides/projects/).
 
 1. Logga in på [Adobe Developer Console](https://developer.adobe.com/).
-1. Gå till **[!UICONTROL Projects]** tab (adobe.io/projects) och click **[!UICONTROL Create a new project]**.
-1. Klicka **[!UICONTROL Add API]** på den nyligen skapade projektsidan.
+1. Gå till fliken **[!UICONTROL Projects]** (adobe.io/projects) och klicka på **[!UICONTROL Create a new project]**.
+1. Klicka på **[!UICONTROL Add API]** på den nyligen skapade projektsidan.
 1. Välj **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Välj **[!UICONTROL Oauth 2.0 Web]**.
 1. Ange **[!UICONTROL Redirect URI]**: `https://<hostname>/`
@@ -67,7 +67,7 @@ Om du vill skapa projekt för en organisation måste Adobe Admin-kontot för org
    Undvik alla punkter i värdnamnet genom att föregå punkterna med `\\`. Om du lägger till ett jokertecken i slutet av URL:en stöds hemlig nyckel för Adobe Commerce Admin.
 
 1. Klicka på **[!UICONTROL Save configured API]**.
-1. Kopiera [!UICONTROL Client ID] och [!UICONTROL Client Secret] nycklar från det skapade projektet.
+1. Kopiera nycklarna [!UICONTROL Client ID] och [!UICONTROL Client Secret] från det skapade projektet.
 
 ### Steg 3: Konfigurera Adobe Commerce-användare i Adobe Admin Console
 
@@ -77,7 +77,7 @@ Innan du aktiverar integreringen bör du kontrollera att alla Adobe Commerce Adm
 >
 >Du kan skapa flera användarkonton genom att överföra användarinformationen från en CSV-fil. Se [Hantera flera användare](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. I [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html), navigera till **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+1. Gå till **[!UICONTROL Users]** > **[!UICONTROL Users]** i [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 
 1. Klicka på **[!UICONTROL Add User]**.
 
@@ -89,13 +89,13 @@ Innan du aktiverar integreringen bör du kontrollera att alla Adobe Commerce Adm
 
 1. Klicka på **[!UICONTROL Save]**.
 
-Användaren läggs till och visas i [!UICONTROL Users] lista.
+Användaren läggs till och visas i listan [!UICONTROL Users].
 
 ### Steg 4: Aktivera AdminAdobeIms-modulen
 
-The `AdminAdobeIms` -modulen ansvarar för integreringen av Adobe Commerce/Adobe IMS. När du har konfigurerat det nya projektet och kopierat ditt företags-ID, klient-ID och klienthemlighet kan du aktivera `AdminAdobeIms` -modul.
+Modulen `AdminAdobeIms` ansvarar för integreringen av Adobe Commerce/Adobe IMS. När du har konfigurerat det nya projektet och kopierat ditt organisations-ID, klient-ID och klienthemlighet kan du aktivera modulen `AdminAdobeIms`.
 
-Retur `bin/magento admin:adobe-ims:enable`. Du uppmanas att ange följande parametrar. Använd de värden som genererades när projektet skapades.
+Ange `bin/magento admin:adobe-ims:enable`. Du uppmanas att ange följande parametrar. Använd de värden som genererades när projektet skapades.
 
 * Organisations-ID
 * Klient-ID

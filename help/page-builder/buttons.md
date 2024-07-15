@@ -1,18 +1,18 @@
 ---
 title: Element - knappar
-description: Lär dig mer om innehållstypen Knappar som används för att lägga till en enskild knapp eller en uppsättning knappar i [!DNL Page Builder] stage.
+description: Lär dig mer om innehållstypen Knappar som används för att lägga till en enskild knapp eller en uppsättning knappar på scenen [!DNL Page Builder] .
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
 
 # Element - knappar
 
-Använd _Knappar_ innehållstyp för att lägga till en enskild knapp eller en uppsättning knappar i [[!DNL Page Builder] stage](workspace.md#stage). Du kan ordna knappar vågrätt eller lodrätt och lägga till dem direkt i rader, kolumner, flikar och banners på scenen.
+Använd innehållstypen _Knappar_ om du vill lägga till en enskild knapp eller en uppsättning knappar i [[!DNL Page Builder] scenen](workspace.md#stage). Du kan ordna knappar vågrätt eller lodrätt och lägga till dem direkt i rader, kolumner, flikar och banners på scenen.
 
 ![Banderoll med en knapp på butiken](./assets/pb-storefont-banner-with-button.png){width="600" zoomable="yes"}
 
@@ -20,33 +20,33 @@ Använd _Knappar_ innehållstyp för att lägga till en enskild knapp eller en u
 
 ## Verktygslådor
 
-När du arbetar med innehållstypen Knappar lägger du till och redigerar enskilda knappar och knappbehållaren som innehåller en eller flera knappar. De har en egen verktygslåda som du använder för att utforma knappar på [!DNL Page Builder] stage.
+När du arbetar med innehållstypen Knappar lägger du till och redigerar enskilda knappar och knappbehållaren som innehåller en eller flera knappar. Var och en har en egen verktygslåda som du använder för att utforma knappar på scenen [!DNL Page Builder].
 
 ### Enskild knappverktygslåda
 
-![Knappverktygslåda](./assets/pb-elements-button-settings.png){width="500" zoomable="yes"}
+![Knappverktygslådan](./assets/pb-elements-button-settings.png){width="500" zoomable="yes"}
 
 | Verktyg | Ikon | Beskrivning |
 | --------- | -------- | -------------- |
-| Inställningar | ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera knapp där du kan ändra knappens egenskaper. |
-| Duplicera | ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av knappen. |
+| Inställningar | ![Ikon för inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera knapp där du kan ändra knappens egenskaper. |
+| Duplicera | ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av knappen. |
 | Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="25"} | Tar bort knappen från scenen. |
 
 {style="table-layout:auto"}
 
 ### Verktygslåda för knappbehållaren
 
-![Verktygslåda för knappbehållaren](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
+![Knappbehållarverktygslådan](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
 | Verktyg | Ikon | Beskrivning |
 | --------- | ----------------- | ----------- |
 | Flytta | ![Ikonen Flytta](./assets/pb-icon-move.png){width="25"} | Flyttar knappbehållaren till en annan giltig plats på sidan. |
-| Lägg till | ![Ikonen Lägg till](./assets/pb-icon-add-button.png){width="25"} | Lägger till en knapp i behållaren. |
+| Lägg till | ![Lägg till ikon](./assets/pb-icon-add-button.png){width="25"} | Lägger till en knapp i behållaren. |
 | (etikett) | Knapp | Anger den aktuella behållaren som ett knappelement. |
-| Inställningar | ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera knappar, där du kan ändra egenskaperna för behållaren. |
+| Inställningar | ![Ikon för inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera knappar, där du kan ändra egenskaperna för behållaren. |
 | Dölj | ![Dölj ikon](./assets/pb-icon-hide.png){width="25"} | Döljer knappbehållaren. |
 | Visa | ![Visa ikon](./assets/pb-icon-show.png){width="25"} | Visar den dolda knappbehållaren. |
-| Duplicera | ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av knappbehållaren. |
+| Duplicera | ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av knappbehållaren. |
 | Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="25"} | Tar bort knappbehållaren och dess innehåll från scenen. |
 
 {style="table-layout:auto"}
@@ -55,11 +55,11 @@ När du arbetar med innehållstypen Knappar lägger du till och redigerar enskil
 
 ## Lägga till en enskild knapp
 
-1. I [!DNL Page Builder] panel, expandera **[!UICONTROL Elements]** och dra en **[!UICONTROL Buttons]** platshållare för en rad, kolumn eller tabb som anges på scenen.
+1. Expandera **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Buttons]** platshållare till en rad, kolumn eller tabb på scenen.
 
    ![Dra en knapp till scenen](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
 
-1. Håll pekaren över knappen för att visa verktygslådan och välj _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png)).
+1. Håll pekaren över knappen för att visa verktygslådan och välj ikonen _Inställningar_ (![Inställningar-ikon](./assets/pb-icon-settings.png)).
 
 1. Ange **[!UICONTROL Button Text]** som ska visas på knappen.
 
@@ -89,27 +89,27 @@ När du arbetar med innehållstypen Knappar lägger du till och redigerar enskil
 
      Om länken går till en annan webbplats kan du hålla den aktuella sidan öppen för din butik genom att öppna länken på en ny flik i webbläsaren.
 
-     Om du vill hindra besökaren från att navigera utanför din butik väljer du **[!UICONTROL Open in new tab]** kryssrutan.
+     Markera kryssrutan **[!UICONTROL Open in new tab]** om du vill hindra besökaren från att navigera utanför din butik.
 
-   - **[!UICONTROL Product]** - Ange ett produktnamn (delvis eller fullständigt) eller SKU och välj sedan produktnamnet i listan.
+   - **[!UICONTROL Product]** - Ange ett produktnamn (delvis eller fullständigt) eller SKU, och välj sedan produktnamnet i listan.
 
      >[!NOTE]
      >
-     >Produkterna visas i listan enligt _Visa produkter som inte finns i lager_ inställningar. För flerkällshandel som använder [Inventory management](../inventory-management/introduction.md), begränsas produktlistan av den källa som är tilldelad standardwebbplatsen.
+     >Produkterna visas i listan enligt inställningarna för _Visa i lager_. För flera Source-handlare som använder [Inventory management](../inventory-management/introduction.md) begränsas produktlistan av den källa som är tilldelad standardwebbplatsen.
 
      ![Välja en produkt för knapplänken](./assets/pb-elements-button-settings-button-link-product-search.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Category]** - Ange ett kategorinamn (delvis eller helt) eller klicka i det tomma fältet för att visa kategoriträdet. Välj sedan kategorinamnet i trädet.
+   - **[!UICONTROL Category]** - Ange ett kategorinamn (delvis eller fullständigt) eller klicka i det tomma fältet för att visa kategoriträdet. Välj sedan kategorinamnet i trädet.
 
-     ![Välja en kategori för knapplänken](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
+     ![Välj en kategori för knapplänken](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Page]** - Ange namnet på en CMS-sida (delvis eller fullständig) eller klicka i det tomma fältet för att visa den fullständiga listan. Välj sedan namnet på sidan i sökresultatlistan.
 
-     ![Välj CMS-sida för knapplänk](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
+     ![Välj CMS-sida för knapplänken](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. Slutför [avancerade inställningar][advanced-settings] efter behov.
+1. Slutför de [avancerade inställningarna][advanced-settings] efter behov.
 
-1. När du är klar klickar du på **[!UICONTROL Save]** i det övre högra hörnet när du vill använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** i det övre högra hörnet för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ## Lägga till en uppsättning knappar
 
@@ -117,13 +117,13 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
 ### Steg 1: Skapa den andra knappen
 
-1. Håll pekaren över knappbehållaren för att visa verktygslådan och välj _Lägg till_ ( ![Ikonen Lägg till](./assets/pb-icon-add-button.png){width="20"} ).
+1. Håll pekaren över knappbehållaren för att visa verktygslådan och välj ikonen _Lägg till_ ( ![Lägg till ikon](./assets/pb-icon-add-button.png){width="20"} ).
 
-   ![Lägga till en till knapp](./assets/pb-elements-buttons-toolbox-add.png){width="500" zoomable="yes"}
+   ![Lägger till en annan knapp](./assets/pb-elements-buttons-toolbox-add.png){width="500" zoomable="yes"}
 
 1. Ange den text som du vill ska visas på den andra knappen.
 
-1. Klicka på den nya knappen för att visa dess verktygslåda och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Klicka på den nya knappen för att visa dess verktygslåda och välj ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Redigera knappen](./assets/pb-elements-button-set-edit-button2-toolbox.png){width="500" zoomable="yes"}
 
@@ -131,45 +131,45 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
 1. Konfigurera **[!UICONTROL Button Link]** efter behov.
 
-   I följande exempel är länken en relativ URL som går till [Kontakta oss](../getting-started/store-details.md#contact-us-form) sida.
+   I följande exempel är länken en relativ URL som går till sidan [Kontakta oss](../getting-started/store-details.md#contact-us-form).
 
    ![Knappinställningar för Kontakta oss](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Slutför [avancerade inställningar][advanced-settings] efter behov.
+1. Slutför de [avancerade inställningarna][advanced-settings] efter behov.
 
-1. När du är klar klickar du på **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ### Steg 2: Skapa den tredje knappen
 
-1. Klicka på den andra knappen igen på scenen och välj _Duplicera_ ( ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Klicka på den andra knappen igen på scenen och välj ikonen _Duplicera_ ( ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="20"} ).
 
    ![Duplicera en knapp](./assets/pb-elements-button-set-contact-us-toolbox-duplicate.png){width="500" zoomable="yes"}
 
 1. Ange den text som du vill ska visas på den tredje knappen.
 
-1. Klicka på den tredje knappen för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Klicka på den tredje knappen för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Verktygslåda för den tredje knappen](./assets/pb-elements-button-set-find-us-toolbox-settings.png){width="500" zoomable="yes"}
 
 1. Uppdatera **[!UICONTROL Button Link]** efter behov.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ### Steg 3: Uppdatera knappbehållaren
 
-1. Håll pekaren över knappbehållaren för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över knappbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Verktygslåda för knappbehållaren](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
+   ![Knappbehållarverktygslådan](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Under _[!UICONTROL Appearance]_, välja **[!UICONTROL Stacked]**.
+1. Välj **[!UICONTROL Stacked]** under _[!UICONTROL Appearance]_.
 
 1. Ange **[!UICONTROL All Buttons are same size]** till `Yes`.
 
-   ![Staplade knappar i samma storlek](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
+   ![Staplade knappar med samma storlek](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. Uppdatera de återstående inställningarna efter behov med hjälp av beskrivningarna från [Ändra inställningar för en knappbehållare][button-container].
+1. Uppdatera de återstående inställningarna efter behov med hjälp av beskrivningarna från [Ändra inställningarna för en knappbehållare][button-container].
 
-1. När du är klar klickar du på **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
    Den fullständiga staplade knappuppsättningen visas på scenen, med en primär knapp och två sekundära knappar.
 
@@ -179,19 +179,19 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
 1. Klicka på den knapp som du vill flytta.
 
-1. Markera och dra flytten ( ![Ikonen Flytta](./assets/pb-icon-move.png){width="20"} ), som visas precis före knapptexten, till en ny position för knappen i knappbehållaren.
+1. Markera och dra ikonen Flytta ( ![ikonen Flytta ](./assets/pb-icon-move.png){width="20"} ), som visas precis före knapptexten, till en ny plats för knappen i knappbehållaren.
 
    ![Flytta en knapp](./assets/pb-elements-button-set-move-button.png){width="500" zoomable="yes"}
 
 ## Ändra inställningar för en knapp
 
-1. Klicka på knappen på scenen för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Klicka på knappen på scenen för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Knappverktygslådor](./assets/pb-elements-button-toolboxes.png){width="500" zoomable="yes"}
 
 1. Uppdatera standardinställningarna efter behov.
 
-   - **[!UICONTROL Button Text]** - Ange den text som ska visas på knappen (kan också uppdateras direkt från scenen).
+   - **[!UICONTROL Button Text]** - Ange texten som ska visas på knappen (kan även uppdateras direkt från scenen).
 
    - **[!UICONTROL Button Type]** - Anger knappformatet.
 
@@ -214,15 +214,15 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
      {style="table-layout:auto"}
 
-1. Slutför [avancerade inställningar][advanced-settings] efter behov.
+1. Slutför de [avancerade inställningarna][advanced-settings] efter behov.
 
-1. Spara inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta, klicka **[!UICONTROL Save]** längst upp till höger.
+1. Om du vill spara inställningarna och återgå till arbetsytan [!DNL Page Builder] klickar du på **[!UICONTROL Save]** i det övre högra hörnet.
 
 ## Ändra inställningar för en knappbehållare
 
-1. Håll pekaren över knappbehållaren för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över knappbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Uppdatera **[!UICONTROL Appearance]** inställningar efter behov.
+1. Uppdatera inställningarna för **[!UICONTROL Appearance]** efter behov.
 
    - Använd ordningsalternativen för att visa knapparna antingen vågrätt eller lodrätt i behållaren:
 
@@ -233,17 +233,17 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
      {style="table-layout:auto"}
 
-   - Ange **[!UICONTROL All buttons are same size]** efter dina önskemål.
+   - Ange alternativet **[!UICONTROL All buttons are same size]** enligt dina önskemål.
 
-     När inställt på `Yes`har alla knappar i behållaren en enhetlig storlek baserat på längden på den längsta knapptexten.
+     När värdet är `Yes` har alla knappar i behållaren en konsekvent storlek baserat på längden på den längsta knapptexten.
 
-1. Slutför [Avancerade inställningar][advanced-settings] efter behov.
+1. Slutför de [avancerade inställningarna][advanced-settings] efter behov.
 
-1. När du är klar klickar du på **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ## Ändra avancerade inställningar
 
-Du kan ändra _[!UICONTROL Advanced]_inställningar för enskilda knappar och för knappbehållaren.
+Du kan ändra _[!UICONTROL Advanced]_-inställningarna för enskilda knappar och för knappbehållaren.
 
 1. Om du vill styra placeringen i den överordnade behållaren väljer du **[!UICONTROL Alignment]**:
 
@@ -256,7 +256,7 @@ Du kan ändra _[!UICONTROL Advanced]_inställningar för enskilda knappar och f�
 
    {style="table-layout:auto"}
 
-1. Ange **[!UICONTROL Border]** format som används på alla fyra sidor av knappbehållaren eller knappbehållaren:
+1. Ange det **[!UICONTROL Border]**-format som ska användas på alla fyra sidor av knappbehållaren eller knappbehållaren:
 
    | Alternativ | Beskrivning |
    | ------ | ----------- |
@@ -273,7 +273,7 @@ Du kan ändra _[!UICONTROL Advanced]_inställningar för enskilda knappar och f�
 
    {style="table-layout:auto"}
 
-1. Om du anger ett annat kantlinjeformat än `None`slutför du visningsalternativen för kantlinjer:
+1. Om du anger ett annat kantlinjeformat än `None` fyller du i visningsalternativen för kantlinjen:
 
    | Alternativ | Beskrivning |
    | ------ |------------ |
@@ -283,11 +283,11 @@ Du kan ändra _[!UICONTROL Advanced]_inställningar för enskilda knappar och f�
 
    {style="table-layout:auto"}
 
-1. (Valfritt) Ange namnen på **[!UICONTROL CSS classes]** från den aktuella formatmallen som ska användas för knappbehållaren.
+1. (Valfritt) Ange namnen på **[!UICONTROL CSS classes]** från den aktuella formatmallen som ska användas för knappbehållaren eller knappbehållaren.
 
    Avgränsa flera klassnamn med blanksteg.
 
-1. Ange värden i pixlar för **[!UICONTROL Margins and Padding]** för att bestämma de yttre marginalerna och den inre utfyllnaden för knappbehållaren eller knappbehållaren.
+1. Ange värden, i pixlar, för **[!UICONTROL Margins and Padding]** för att bestämma de yttre marginalerna och den inre utfyllnaden för knappbehållaren eller knappbehållaren.
 
    Ange motsvarande värden i diagrammet.
 

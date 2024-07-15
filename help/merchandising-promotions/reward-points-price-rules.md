@@ -14,22 +14,22 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Belöningspoäng kan tilldelas kunder enligt [kundprisregel](price-rules-cart.md). Poängtilldelningen kan vara den enda åtgärden i prisregeln eller användas med rabatt.
+Belöningspoäng kan tilldelas kunder enligt en [kundvagnsprisregel](price-rules-cart.md). Poängtilldelningen kan vara den enda åtgärden i prisregeln eller användas med rabatt.
 
 >[!NOTE]
 >
->[Belöningsbaserade växelkurser](reward-exchange-rates.md) konfiguration krävs för att kunder och administratörsanvändare ska kunna lösa in belöningspoäng vid utcheckning.
+>[Konfiguration av belöningsvalutakurser](reward-exchange-rates.md) krävs för inlösen av belöningspunkter av kunder och administratörsanvändare vid utcheckning.
 
 ## Lägga till belöningspunkter i en prisregel
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**på sidofältet_ Admin _.
 
-1. Klicka **[!UICONTROL Add New Rule]** om du vill skapa en kundvagnsprisregel eller klicka på en befintlig kundvagnsprisregel för att öppna den.
+1. Klicka på **[!UICONTROL Add New Rule]** för att skapa en kundvagnsprisregel eller klicka på en befintlig kundvagnsprisregel för att öppna den.
 
-1. Bläddra nedåt, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Actions]** anger du villkoren och anger antalet punkter i **[!UICONTROL Add Reward Points]** fält.
+1. Bläddra nedåt, expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Actions]**, ange villkoren och ange antalet punkter i fältet **[!UICONTROL Add Reward Points]**.
 
    ![Kundprisregel - belöningspoäng](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
 
-1. Följ standardinstruktionerna för att slutföra [kundprisregel](price-rules-cart-create.md).
+1. Följ standardinstruktionerna för att slutföra prisregeln [för kundvagnen](price-rules-cart-create.md).
 
    När prisregeln aktiveras visas ett meddelande i kundvagnen som informerar kunderna om hur många poäng de kan tjäna genom att lägga ordern. Detta gäller endast registrerade användare och kan variera när en användare är inloggad.

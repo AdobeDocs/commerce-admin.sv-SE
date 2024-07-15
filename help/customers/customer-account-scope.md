@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Omfattning av kundkonto
 
-Sidhuvudet på alla sidor i din butik ger kunderna en inbjudan att _Logga in eller registrera_ för ett konto hos din butik. Kunder som öppnar ett konto har en rad fördelar, bland annat:
+Sidhuvudet på alla sidor i din butik utökar en inbjudan till kunderna att _logga in eller registrera_ för ett konto hos din butik. Kunder som öppnar ett konto har en rad fördelar, bland annat:
 
-* **Skapa kundkonto** - Besökarna kan skapa ett kundkonto så att de kan använda butiken som registrerad kund.
+* **Skapa kundkonto** - Besökare kan skapa ett kundkonto så att de kan använda butiken som en registrerad kund.
 * **Skapa ett företagskonto** Beroende på konfigurationen kan en besökare i din butik välja att skapa ett företagskonto. Mer information finns i [Adobe Commerce B2B](../b2b/introduction.md).
-* **Snabbare utcheckning** — Registrerade kunder går igenom kassan snabbare eftersom mycket av informationen redan finns på deras konton.
-* **Självbetjäning** — Registrerade kunder kan uppdatera sin information, kontrollera orderstatus och till och med beställa från sina konton.
+* **Snabbare utcheckning** - Registrerade kunder går igenom utcheckningen snabbare eftersom mycket av informationen redan finns på deras konton.
+* **Självbetjäning** - Registrerade kunder kan uppdatera sin information, kontrollera status för beställningar och till och med ordna om från sina konton.
 
-Kunderna kan komma åt sitt konto genom att klicka på **[!UICONTROL My Account]** i butikens sidhuvud. Från sitt konto kan kunderna visa och ändra information, inklusive tidigare och aktuella adresser, inställningar för fakturering och frakt, prenumerationer på nyhetsbrev, önskelistor med mera.
+Kunder kan komma åt sitt konto genom att klicka på länken **[!UICONTROL My Account]** i butikens huvud. Från sitt konto kan kunderna visa och ändra information, inklusive tidigare och aktuella adresser, inställningar för fakturering och frakt, prenumerationer på nyhetsbrev, önskelistor med mera.
 
 ![Mitt konto](assets/account-dashboard-my-account.png){width="600" zoomable="yes"}
 
@@ -31,9 +31,9 @@ Omfånget för kundkonton kan begränsas till webbplatsen där kontot skapades e
 >
 >Om webbplatsen utesluts från kundgruppen får kunden inte logga in på webbplatsen när omfattningen av kundkontona är begränsad till webbplatsen eller delas med alla webbplatser. Se [Skapa en kundgrupp](customer-groups.md#create-a-customer-group) om du vill ha mer information om hur du utesluter webbplatser från grupper.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]** på sidofältet _Admin_.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Customers]** och välja **[!UICONTROL Customer Configuration]**.
+1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Customer Configuration]**.
 
 1. Expandera avsnittet **[!UICONTROL Account Sharing Options]**.
 
@@ -50,10 +50,10 @@ Omfånget för kundkonton kan begränsas till webbplatsen där kontot skapades e
 
    >[!INFO]
    >
-   > Rensa **[!UICONTROL User system value]** för att göra ändringen.
+   > Om det behövs avmarkerar du kryssrutan **[!UICONTROL User system value]** för att göra ändringen.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
    >[!NOTE]
    >
-   >När `Global` väljs kundinformationen i **Mitt konto** (adresser och kontoinformation som kontaktuppgifter) delas.
+   >När `Global` har valts delas kundinformationen i **Mitt konto** (adresser och kontoinformation som kontaktinformation).

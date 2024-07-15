@@ -18,7 +18,7 @@ Sidans arbetsyta innehåller verktyg som hjälper dig att snabbt hitta de sidor 
 
 ## Uppdatera sidegenskaper snabbt
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
 1. Klicka på en rad i rutnätet.
 
    ![Sidegenskaperna kan redigeras i sidstödrastret](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
@@ -32,9 +32,9 @@ Sidans arbetsyta innehåller verktyg som hjälper dig att snabbt hitta de sidor 
    - **[!UICONTROL Status]**
    - **[!UICONTROL Layout]**
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
-## Arbetsytekontroller
+## Workspace
 
 | Kontroll | Beskrivning |
 |--- |--- |
@@ -57,10 +57,10 @@ Sidans arbetsyta innehåller verktyg som hjälper dig att snabbt hitta de sidor 
 | [!UICONTROL URL Key] | URL-nyckeln liknar ett filnamn och identifierar sidan i URL:en. |
 | [!UICONTROL Layout] | Avgör om sidan visas med sidofält till höger eller vänster om huvudinnehållsområdet. Alternativ: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Store View] | Används för att associera sidan med en viss butiksvy. |
-| [!UICONTROL Status] | Anger om sidan är online eller offline. Alternativ: `Enabled` / `Disabled` |
+| [!UICONTROL Status] | Anger om sidan är online eller offline. Alternativ: `Enabled` / `Disabled` |
 | [!UICONTROL Created] | Det datum då sidan skapades. |
 | [!UICONTROL Modified] | Det datum då sidan senast ändrades. |
-| [!UICONTROL Action] | De åtgärder som kan tillämpas på en enskild post är bland annat:<br/>**[!UICONTROL Edit]**- Öppnar sidan i redigeringsläge.<br/>**[!UICONTROL Delete]** - Tar bort sidan.<br/>**[!UICONTROL View]**- Visar sidan i förhandsgranskningsläge. |
+| [!UICONTROL Action] | De åtgärder som kan tillämpas på en enskild post är:<br/>**[!UICONTROL Edit]**- Öppnar sidan i redigeringsläge.<br/>**[!UICONTROL Delete]** - Tar bort sidan.<br/>**[!UICONTROL View]**- Visar sidan i förhandsgranskningsläge. |
 
 {style="table-layout:auto"}
 
@@ -79,25 +79,25 @@ Sidans arbetsyta innehåller verktyg som hjälper dig att snabbt hitta de sidor 
 
 ## Sidsökning
 
-Sökrutan i det övre vänstra hörnet i _[!UICONTROL Pages]_stödraster kan användas för att hitta specifika sidor efter nyckelord. För mer avancerad sökning kan du [filter](../getting-started/admin-grid-controls.md) sökningen efter flera parametrar.
+Sökrutan i det övre vänstra hörnet av stödrastret _[!UICONTROL Pages]_kan användas för att hitta specifika sidor per nyckelord. Om du vill göra en mer avancerad sökning kan du [filtrera](../getting-started/admin-grid-controls.md) sökningen efter flera parametrar.
 
 ### Sök efter nyckelord
 
 1. Ange en sökterm i sökrutan.
 
-1. Om du vill visa resultatet klickar du på knappen Sök (![Ikon för förstoringsglas](../assets/icon-magnify-search.png)).
+1. Om du vill visa resultatet klickar du på ikonen Sök (![Förstoringsglas](../assets/icon-magnify-search.png)).
 
    Resultatet innehåller alla sidor som innehåller nyckelordet.
 
 ### Filtrera sökresultaten
 
-1. Klicka vid behov på **[!UICONTROL Clear All]** för att rensa de tidigare sökvillkoren.
+1. Om det behövs klickar du på **[!UICONTROL Clear All]** för att rensa de tidigare sökvillkoren.
 
-1. Om du vill visa urvalet av sökfilter klickar du på **[!UICONTROL Filters]** !([Tratt, ikon](../assets/icon-filter-search.png)).
+1. Om du vill visa urvalet av sökfilter klickar du på **[!UICONTROL Filters]** !Fliken ([Tratt icon](../assets/icon-filter-search.png)).
 
 1. Fyll i så många av filtren som behövs för att beskriva sidorna som du vill hitta.
 
-1. Klicka **[!UICONTROL Apply Filters]** för att visa resultaten.
+1. Klicka på **[!UICONTROL Apply Filters]** för att visa resultatet.
 
 ### Sökfilter
 
@@ -110,7 +110,7 @@ Sökrutan i det övre vänstra hörnet i _[!UICONTROL Pages]_stödraster kan anv
 | [!UICONTROL Modified] | Filtrera sökningen baserat på det datum då sidan senast ändrades. |
 | [!UICONTROL Store View] | Filtrera sökningen baserat på butiksvyn. Alternativ: `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filtrera sökningen baserat på sidlayout. Alternativ: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
-| [!UICONTROL Status] | Filtrera sökningen på sidstatus. Alternativ: `Disabled` / `Published` |
+| [!UICONTROL Status] | Filtrera sökningen på sidstatus. Alternativ: `Disabled` / `Published` |
 | [!UICONTROL Custom design from / to] | Filtrera sökningen efter start- och slutdatum när den valda designen används på sidan. ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source). |
 | [!UICONTROL Asset] | Filtrera sökningen efter sidrubrikresurser |
 | [!UICONTROL Custom Layout] | Filtrera sökningen baserat på en anpassad layout. Alternativ: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
@@ -139,17 +139,17 @@ Sidor kan redigeras, inaktiveras, aktiveras och tas bort. Om du vill utföra en 
 
 ### En åtgärd
 
-Använd _[!UICONTROL Action]_kolumn längst till höger om du vill använda någon av följande åtgärder på den enskilda sidan:
+Använd kolumnen _[!UICONTROL Action]_längst till höger om du vill använda någon av följande åtgärder på den enskilda sidan:
 
 - [!UICONTROL Edit] - öppnar sidan i redigeringsläge
 - [!UICONTROL Delete] - tar bort sidan (kräver bekräftelse)
 - [!UICONTROL View] - öppnar en sida direkt i butiken
 
-![Enkelsidiga åtgärder](./assets/page-grid-actions.png){width="600" zoomable="yes"}
+![Åtgärder för en sida](./assets/page-grid-actions.png){width="600" zoomable="yes"}
 
 ### Massåtgärder
 
-Använd någon av följande åtgärder på flera markerade sidor samtidigt med _[!UICONTROL Action]_väljaren i det övre vänstra hörnet:
+Använd någon av följande åtgärder på flera markerade sidor samtidigt med _[!UICONTROL Action]_-väljaren i det övre vänstra hörnet:
 
 - [!UICONTROL Delete] - tar bort sidorna (kräver bekräftelse)
 - [!UICONTROL Disable] - inaktiverar sidorna i butiken
@@ -162,7 +162,7 @@ Markeringen av kolumner och deras ordning i rutnätet kan ändras enligt dina ö
 
 ### Ändra markeringen av kolumner
 
-Klicka i det övre högra hörnet på _Kolumner_ (![Kolumnikon](../assets/icon-columns.png)) och gör följande:
+Klicka på kontrollen _Kolumner_ (![Kolumn-ikon](../assets/icon-columns.png)) i det övre högra hörnet och gör följande:
 
 - Markera kryssrutan för den kolumn som du vill lägga till i rutnätet.
 
@@ -176,21 +176,21 @@ Klicka i det övre högra hörnet på _Kolumner_ (![Kolumnikon](../assets/icon-c
 
 ### Spara en vy
 
-1. Klicka på _Visa_ (![Ögonikon](../assets/icon-view-eye.png)) och sedan klicka **[!UICONTROL Save View As]**.
+1. Klicka på kontrollen _Visa_ (![Ögon-ikon](../assets/icon-view-eye.png)) och klicka sedan på **[!UICONTROL Save View As]**.
 
 1. Ange ett namn för vyn.
 
-1. Spara vyn genom att klicka på _Pil_ (![Pilikon](../assets/icon-arrow-save.png)).
+1. Om du vill spara vyn klickar du på _pilen_ (![pilikonen](../assets/icon-arrow-save.png)).
 
    Namnet på vyn visas nu som den aktuella vyn.
 
 ### Ändra vyn
 
-Klicka på _Visa_ (![Ögonikon](../assets/icon-view-eye.png)) och gör något av följande:
+Klicka på kontrollen _Visa_ (![Ögon-ikon](../assets/icon-view-eye.png)) och gör något av följande:
 
 - Välj den vy som du vill använda.
 
-- Ändra namnet på en vy genom att klicka på Redigera (![Pennikon](../assets/icon-edit-pencil.png)) och uppdatera namnet.
+- Ändra namnet på en vy genom att klicka på ikonen Redigera (![Penna](../assets/icon-edit-pencil.png)) och uppdatera namnet.
 
   ![Den sparade vyn visas i vykontrollerna med en redigeringsikon](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
 
@@ -198,11 +198,11 @@ Klicka på _Visa_ (![Ögonikon](../assets/icon-view-eye.png)) och gör något av
 
 {{ee-feature}}
 
-Sidändringar kan tillämpas enligt schema och grupperas med andra innehållsändringar. Du kan skapa en kampanj baserat på schemalagda ändringar på en sida eller tillämpa ändringarna på en befintlig kampanj. Mer information finns i [Innehållsmellanlagring](content-staging.md).
+Sidändringar kan tillämpas enligt schema och grupperas med andra innehållsändringar. Du kan skapa en kampanj baserat på schemalagda ändringar på en sida eller tillämpa ändringarna på en befintlig kampanj. Mer information finns i [Förproduktion av innehåll](content-staging.md).
 
 >[!NOTE]
 >
->The [!UICONTROL Custom Design Update] har tagits bort från ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt på sidan. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
+>Fliken [!UICONTROL Custom Design Update] har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt på sidan. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
 
 >[!NOTE]
 >
@@ -212,6 +212,6 @@ Sidändringar kan tillämpas enligt schema och grupperas med andra innehållsän
 
 >[!NOTE]
 >
->Startdatum och slutdatum för kampanj måste definieras med **_standard_** Administratörens tidszon, som konverteras från den lokala tidszonen för varje webbplats. Tänk dig ett exempel där du har flera webbplatser i olika tidszoner, men du vill starta en kampanj som baseras på en tidszon i USA. I det här fallet måste du schemalägga en separat uppdatering för varje lokal tidszon och ange **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** i konverterad från varje lokal webbplatstidszon till standardtidszonen för administratörer.
+>Startdatum och slutdatum för kampanj måste definieras med hjälp av administratörstidszonen **_default_** som konverteras från den lokala tidszonen för varje webbplats. Tänk dig ett exempel där du har flera webbplatser i olika tidszoner, men du vill starta en kampanj som baseras på en tidszon i USA. I det här fallet måste du schemalägga en separat uppdatering för varje lokal tidszon och ange **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** som konverteras från varje lokal webbplats tidszon till standardtidszonen för administratörer.
 
 Du kan också schemalägga och förhandsgranska ändringar för produktuppdateringar. Mer information finns i [Schemalägga en uppdatering](content-staging-scheduled-update.md).

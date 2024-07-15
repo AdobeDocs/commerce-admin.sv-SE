@@ -19,13 +19,13 @@ När det är aktiverat i konfigurationen lägger företagsadministratören till 
 >
 >Om en person redan har ett personligt konto hos din butik och senare går till arbetet för ett företag, ska du inte tilldela personens konto till företaget. Skapa i stället ett företagsanvändarkonto för personen med en e-postadress för företaget.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** på sidofältet _Admin_.
 
-1. Hitta kunden i rutnätet och klicka **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Hitta kunden i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Välj **[!UICONTROL Account Information]**.
+1. Välj **[!UICONTROL Account Information]** på den vänstra panelen.
 
-1. Klicka **[!UICONTROL Associate to Company]** och skriv de första bokstäverna i företagsnamnet i inmatningsrutan.
+1. Klicka på **[!UICONTROL Associate to Company]** och skriv de första bokstäverna i företagsnamnet i indatarutan.
 
    Systemet genererar en lista över alla möjliga matchningar.
 
@@ -35,11 +35,11 @@ När det är aktiverat i konfigurationen lägger företagsadministratören till 
 
 1. Om kunden tidigare har tilldelats ett annat företag klickar du på **[!UICONTROL Confirm]**.
 
-   Kunden omfördelas till kundgruppen (eller [delad katalog](catalog-shared.md)) av företaget och lades till [företagsstruktur](account-company-structure.md).
+   Kunden tilldelas om till kundgruppen (eller [delad katalog](catalog-shared.md)) för företaget och läggs till i dess [företagsstruktur](account-company-structure.md).
 
-1. När du är klar klickar du på **[!UICONTROL Save Customer]**.
+1. Klicka på **[!UICONTROL Save Customer]** när du är klar.
 
-   Följande kolumner uppdateras i [Kunder](../customers/customers-all.md) rutnät:
+   Följande kolumner uppdateras i rutnätet [Kunder](../customers/customers-all.md):
 
-   - The _[!UICONTROL Group]_kolumn ändras till namnet på kundgruppen (eller den delade katalogen) som är tilldelad företaget.
-   - The _[!UICONTROL Company]_visas namnet på det företag som kundprofilen nu är associerad med.
+   - Kolumnen _[!UICONTROL Group]_ändras till namnet på kundgruppen (eller den delade katalogen) som har tilldelats företaget.
+   - Kolumnen _[!UICONTROL Company]_visar namnet på det företag som kundprofilen nu är associerad med.

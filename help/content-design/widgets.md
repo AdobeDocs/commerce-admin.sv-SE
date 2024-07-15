@@ -21,7 +21,7 @@ Ni kan använda widgetar för att skapa landningssidor för marknadsföringskamp
 
 ## Widgettyper
 
-När du [skapa en widget](widget-create.md)måste du ange typen. Den här typen avgör hur widgeten fungerar.
+När du [skapar en widget](widget-create.md) måste du ange typen. Den här typen avgör hur widgeten fungerar.
 
 | Typ | Beskrivning |
 |--- |--- |

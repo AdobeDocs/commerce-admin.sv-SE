@@ -16,28 +16,28 @@ Det finns flera sätt att skydda din butik och upprätthålla din datasäkerhet:
 
 - Konfigurera [tvåfaktorsautentisering](security-two-factor-authentication.md)
 - Implementera [CAPTCHA](security-captcha.md) eller [reCAPTCHA](security-google-recaptcha.md)
-- Konfigurera en [Säkerhetsgenomsökning](security-scan.md) för varje domän i Adobe Commerce- eller Magento Open Source-installationen.
+- Konfigurera en [säkerhetsgenomsökning](security-scan.md) för varje domän i Adobe Commerce- eller Magento Open Source-installationen.
 
 >[!NOTE]
 >
->Lager som har aktiverats [!DNL Adobe Identity Management Services] (IMS)-autentisering har inbyggda Adobe Commerce och Magento Open Source 2FA inaktiverat. Administratörsanvändare som är inloggade på sin Commerce-instans med sina inloggningsuppgifter för Adobe behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [[!DNL Adobe Identity Management Service] (IMS) Integreringsöversikt](../getting-started/adobe-ims-integration-overview.md).
+>Lager som har aktiverat [!DNL Adobe Identity Management Services] (IMS)-autentisering har inbyggda Adobe Commerce och Magento Open Source 2FA inaktiverade. Administratörsanvändare som är inloggade på sin Commerce-instans med sina inloggningsuppgifter för Adobe behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [[!DNL Adobe Identity Management Service] (IMS)-integreringsöversikt](../getting-started/adobe-ims-integration-overview.md).
 
-Besök [Security Center](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} om du vill få de senaste nyheterna om potentiella säkerhetsluckor, registrera dig för säkerhetsmeddelanden från Adobe och få tillgång till Adobe Trust Center.
+Besök [Säkerhetscenter](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} för att få de senaste nyheterna om potentiella sårbarheter, registrera dig för säkerhetsmeddelanden från Adobe och få tillgång till Adobe Trust Center.
 
-![Security Center](./assets/product-security-home.png){width="700" zoomable="yes"}
+![Säkerhetscenter](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-Mer information om bästa säkerhetsmetoder finns i [Skydda din Commerce Site och Infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) i _Implementera spelningsbok_.
+Information om bästa säkerhetsmetoder finns i [Skydda din Commerce-webbplats och infrastruktur](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) i _Implementeringspellistan_.
 
 ## Åtgärdsplan för säkerhet
 
 Om du misstänker att din Adobe Commerce- eller Magento Open Source-webbplats är komprometterad ska du följa den här åtgärdsplanen utan dröjsmål.
 
-1. **Diagnostisera**: Kör en sökning för att fastställa säkerhetsstatusen för din Commerce Store. Handel [Säkerhetsgenomsökning](security-scan.md) är en kostnadsfri tjänst från Adobe som gör att du kan övervaka dina Commerce-sajter med avseende på kända säkerhetsrisker och skadlig kod samt ta emot säkerhetsmeddelanden.
+1. **Diagnostisera**: Kör en sökning för att fastställa säkerhetsstatusen för din Commerce-butik. Commerce [Security Scan](security-scan.md) är en kostnadsfri tjänst från Adobe som gör att du kan övervaka Commerce webbplatser för att upptäcka kända säkerhetsrisker och skadlig kod samt ta emot säkerhetsmeddelanden.
 
-1. **Ren**: Anställ en [kvalificerad konsult](https://solutionpartners.adobe.com/s/directory/?partner_type=1) eller onlinetjänst för att rensa din webbplats från all skadlig kod. Vissa medlemmar i Commerce Community rekommenderar [[!DNL Sucuri Website Malware Removal]](https://sucuri.net/website-antivirus/malware-removal). Kontrollera `/media` mapp för överbliven körbar kod. Ta bort alla okända administratörsanvändare och återställ alla administratörslösenord.
+1. **Rensa**: Anställ en [kvalificerad konsult](https://solutionpartners.adobe.com/s/directory/?partner_type=1) eller onlinetjänst för att rensa din webbplats från all skadlig kod. Vissa Commerce-communitymedlemmar rekommenderar [[!DNL Sucuri Website Malware Removal]](https://sucuri.net/website-antivirus/malware-removal). Kontrollera om mappen `/media` innehåller körbar kod kvar. Ta bort alla okända administratörsanvändare och återställ alla administratörslösenord.
 
-1. **Protect**: Håll din Commerce-installation uppdaterad med den senaste versionen. Om du använder en äldre version bör du tillämpa alla säkerhetsuppdateringar när de blir tillgängliga. Granska och följ [Bästa praxis för affärssäkerhet](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf). Prenumerera på [Säkerhetsvarningar för Commerce](https://www.adobe.com/subscription/adbeSecurityNotifications.html).
+1. **Protect**: Håll din Commerce-installation uppdaterad med den senaste versionen. Om du använder en äldre version bör du tillämpa alla säkerhetsuppdateringar när de blir tillgängliga. Granska och följ [Commerce bästa säkerhetspraxis](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf). Prenumerera på [Commerce säkerhetsvarningar](https://www.adobe.com/subscription/adbeSecurityNotifications.html).
 
-1. **Rapport**: Om du tror att du har hittat en specifik säkerhetslucka i Commerce, [öppna ett problem med Adobe](https://hackerone.com/adobe?type=team) och innehåller teknisk information.
+1. **Rapport**: Om du tror att du har hittat en specifik säkerhetslucka i Commerce [öppnar du ett problem med Adobe](https://hackerone.com/adobe?type=team) och inkluderar teknisk information.
 
-1. **Uppgradera**: Om du vill känna dig extra trygg med support dygnet runt kan du planera din uppgradering till [Adobe Commerce på vår molnarkitektur](https://business.adobe.com/products/magento/cloud-delivery.html) nu.
+1. **Uppgradera**: Om du vill känna dig extra trygg som supporten dygnet runt kan du planera din uppgradering till [Adobe Commerce på vår molnarkitektur](https://business.adobe.com/products/magento/cloud-delivery.html) nu.

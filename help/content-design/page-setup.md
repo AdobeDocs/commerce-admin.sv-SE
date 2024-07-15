@@ -4,7 +4,7 @@ description: Lär dig hur du konfigurerar standardinställningarna för huvuddel
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,19 @@ Huvudavsnitten på sidan styrs delvis av en uppsättning HTML-standardtaggar. Vi
 - [Sidhuvud](#header)
 - [Sidfot](#footer)
 
-![HTML-sidavsnitt](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![HTML sidavsnitt](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
 ## HTML head
 
-Inställningarna under HTML Head motsvarar `<head>` -taggen för en HTML-sida och kan konfigureras för varje butiksvy. Förutom metadata för sidans titel, beskrivning och nyckelord innehåller avsnittet en länk till favoritikonen och olika skript. Instruktioner för sökrobotar och visning av demonstrationsmeddelanden för butiker konfigureras också i det här avsnittet.
+Inställningarna i avsnittet HTML Head motsvarar taggen `<head>` på en HTML-sida och kan konfigureras för varje butiksvy. Förutom metadata för sidans titel, beskrivning och nyckelord innehåller avsnittet en länk till favoritikonen och olika skript. Instruktioner för sökrobotar och visning av demonstrationsmeddelanden för butiker konfigureras också i det här avsnittet.
 
 ### Konfigurera HTML Head
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Leta reda på butiksvyn som du vill konfigurera och klicka på **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Under _Andra inställningar_, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL HTML Head]** -avsnitt.
+1. Under _Andra inställningar_ expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
 
    ![Konfigurationsinställningar för HTML Head](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
@@ -48,11 +48,11 @@ Inställningarna under HTML Head motsvarar `<head>` -taggen för en HTML-sida oc
    - **[!UICONTROL Default Meta Description]**
    - **[!UICONTROL Default Meta Keywords]**
 
-1. Ange **[!UICONTROL Scripts and Style Sheets]** efter behov.
+1. Ange eventuella **[!UICONTROL Scripts and Style Sheets]** efter behov.
 
-1. Aktivera eller inaktivera [demo store notice](../getting-started/storefront-branding.md#set-the-store-demo-notice) vid behov.
+1. Aktivera eller inaktivera [demonstrationsbutiksmeddelandet](../getting-started/storefront-branding.md#set-the-store-demo-notice) om det behövs.
 
-1. När du är klar klickar du på **[!UICONTROL Save Configuration]**.
+1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.
 
 ### Fältbeskrivningar för HTML
 
@@ -64,7 +64,7 @@ Inställningarna under HTML Head motsvarar `<head>` -taggen för en HTML-sida oc
 | [!UICONTROL Page Title Suffix] | Butiksvy | Du kan lägga till ett suffix efter titeln för att skapa en titel med två eller tre delar. Ett lodrätt streck eller kolon kan användas som avgränsare i slutet av prefixet för att skilja det från texten i huvudrubriken. |
 | [!UICONTROL Default Meta Description] | Butiksvy | Beskrivningen innehåller en sammanfattning av webbplatsen för sökmotorlistor och får inte innehålla fler än 160 tecken. |
 | [!UICONTROL Default Meta Keywords] | Butiksvy | En serie nyckelord som beskriver din butik, där vart och ett avgränsas med kommatecken. |
-| [!UICONTROL Scripts and Style Sheets] | Butiksvy | Innehåller skript som måste inkluderas i HTML före stängningen `<head>` -tagg. Till exempel JavaScript från tredje part som måste placeras före `<body>` -taggen kan anges här. |
+| [!UICONTROL Scripts and Style Sheets] | Butiksvy | Innehåller skript som måste inkluderas i HTML före den avslutande `<head>`-taggen. Alla tredjepartsprogram som måste placeras före taggen `<body>` kan till exempel anges här. |
 | [!UICONTROL Display Demo Store Notice] | Butiksvy | Styr visningen av demonstrationsmeddelanden högst upp på sidan. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -77,18 +77,18 @@ Huvudkonfigurationen identifierar sökvägen till din butikslogotyp och anger lo
 
 ### Konfigurera rubriken
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Leta reda på butiksvyn som du vill konfigurera och klicka på **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Under _Andra inställningar_, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Header]** -avsnitt.
+1. Under _Andra inställningar_ expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Header]**.
 
 1. Gör de ändringar som behövs för butiksvyn:
 
-   - [Logotyp](../getting-started/storefront-branding.md#upload-your-logo) inställningar
-   - [Välkomstmeddelande](../getting-started/storefront-branding.md#change-the-welcome-message) inställningar
+   - Inställningar för [logotyp](../getting-started/storefront-branding.md#upload-your-logo)
+   - [Inställningar för välkomstmeddelande](../getting-started/storefront-branding.md#change-the-welcome-message)
 
-1. När du är klar klickar du på **[!UICONTROL Save Configuration]**.
+1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.
 
 ### Beskrivningar av rubrikfält
 
@@ -99,34 +99,34 @@ Huvudkonfigurationen identifierar sökvägen till din butikslogotyp och anger lo
 | [!UICONTROL Logo Attribute Height] | Butiksvy | Logotypbildens höjd i pixlar. |
 | [!UICONTROL Welcome Text] | Butiksvy | Välkomstmeddelandet visas i sidhuvudet och innehåller namnet på de kunder som är inloggade. |
 | [!UICONTROL Logo Image Alt] | Butiksvy | Den Alt-text som är kopplad till logotypen. |
-| [!UICONTROL Translate Title] | Butiksvy | Anger om `Page Title` eller `Meta Title` ska översättas. |
+| [!UICONTROL Translate Title] | Butiksvy | Avgör om `Page Title` eller `Meta Title` ska översättas. |
 
 {style="table-layout:auto"}
 
 ## Sidfot
 
-I avsnittet Sidfotskonfiguration kan du uppdatera [copyrightmeddelande](../getting-started/storefront-branding.md#change-the-copyright-notice) som visas längst ned på sidan och anger olika skript som måste placeras före stängningen `<body>` -tagg.
+I konfigurationsavsnittet Sidfot kan du uppdatera det [copyrightmeddelande](../getting-started/storefront-branding.md#change-the-copyright-notice) som visas längst ned på sidan och ange olika skript som måste placeras före den avslutande `<body>` -taggen.
 
 ![Konfigurationsinställningar för sidfot](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### Konfigurera sidfoten
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Leta reda på butiksvyn som du vill konfigurera och klicka på **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Under _Andra inställningar_, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Footer]** -avsnitt.
+1. Under _Andra inställningar_ expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Footer]**.
 
-1. Gör nödvändiga ändringar i **[!UICONTROL Copyright]** och **[!UICONTROL Miscellaneous HTML]** inställningar.
+1. Gör de ändringar som krävs för inställningarna för **[!UICONTROL Copyright]** och **[!UICONTROL Miscellaneous HTML]**.
 
-1. När du är klar klickar du på **[!UICONTROL Save Configuration]**.
+1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.
 
 ## Beskrivningar av sidfotsfält
 
 | Fält | Omfång | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Miscellaneous HTML] | Butiksvy | En inmatningsruta där du kan överföra olika skript till servern som måste placeras precis före stängningen `<body>` -tagg. |
-| [!UICONTROL Copyright] | Butiksvy | Upphovsrättssatsen som visas längst ned på varje sida. Om du vill inkludera copyrightsymbolen använder du teckenentiteten HTML `\&copy;` som i följande: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Se till att ersätta copyrightmeddelandet med ditt eget. |
+| [!UICONTROL Miscellaneous HTML] | Butiksvy | En inmatningsruta där du kan överföra olika skript till servern som måste placeras precis före den avslutande `<body>`-taggen. |
+| [!UICONTROL Copyright] | Butiksvy | Upphovsrättssatsen som visas längst ned på varje sida. Om du vill ta med copyrightsymbolen använder du teckenentiteten `\&copy;` i HTML enligt följande: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Se till att ersätta copyrightmeddelandet med ditt eget. |
 | [!UICONTROL Display Report Bugs Link] | Butiksvy | Anger om felrapportlänken (som stöds för vissa teman) är aktiverad eller inaktiverad. |
 
 {style="table-layout:auto"}

@@ -1,13 +1,13 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Currency Setup]'
-description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL Currency Setup] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL Currency Setup] i Commerce Admin.
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 role: Admin
 feature: Currency, Configuration, Data Import/Export
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 1%
+source-wordcount: '351'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Se [Valutakonfiguration](../../stores-purchase/currency-configuration.md) för mer information om dessa konfigurationer.
+>Mer information om de här konfigurationerna finns i [Valutakonfiguration](../../stores-purchase/currency-configuration.md).
 
 ## [!UICONTROL Currency Options]
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Base Currency] | Webbplats | Den primära valutan som används för alla onlinebetalningstransaktioner. För olika butiksvyer måste prisets omfattning anges i [Katalog](../catalog/catalog.md) konfiguration. |
+| [!UICONTROL Base Currency] | Webbplats | Den primära valutan som används för alla onlinebetalningstransaktioner. För flera butiksvyer måste prisets omfång anges i konfigurationen [Katalog](../catalog/catalog.md). |
 | [!UICONTROL Default Display Currency] | Butiksvy | Den primära valuta som används för att visa priser. |
 | [!UICONTROL Allowed Currencies] | Butiksvy | Valutorna som är godkända av din butik för betalning. |
 
@@ -35,36 +35,36 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Från och med version 2.4.6 av [[!DNL Fixer.io]](https://fixer.io/) är ersatt med [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) service. Vi rekommenderar att du använder ett APILayer-konto i stället för ett inaktuellt [!DNL Fixer.io] konto.
+>Från och med version 2.4.6 är tjänsten [[!DNL Fixer.io]](https://fixer.io/) inaktuell och ersatt med tjänsten [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api). Vi rekommenderar att du använder ett APILayer-konto i stället för ett inaktuellt [!DNL Fixer.io]-konto.
 
 ![Valutainställningar > Fixer.io](./assets/currency-setup-fixer.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL API key] | Global | Nyckeln som används för att komma åt konverteringstjänsten via [!DNL fixer.io] konto. Mer information finns i [[!DNL fixer.io]](https://fixer.io/). |
+| [!UICONTROL API key] | Global | Nyckeln som används för att komma åt konverteringstjänsten via ditt [!DNL fixer.io]-konto. Mer information finns i [[!DNL fixer.io]](https://fixer.io/). |
 | [!UICONTROL Connection Timeout in Seconds] | Global | Avgör antalet sekunder av inaktivitet innan en Fixer.io-session tar slut. Standardvärde: `100` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
-![Valutainställningar > Fixer API (APILayer)](./assets/currency-setup-fixer-api.png)<!-- zoom -->
+![Valutainställning > Fast API (APILayer)](./assets/currency-setup-fixer-api.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL API key] | Global | Nyckeln som används för att komma åt konverteringstjänsten via [!DNL APILayer] konto. Mer information finns i [[!DNL APILayer]](https://apilayer.com/). |
-| [!UICONTROL Connection Timeout in Seconds] | Global | Anger antalet sekunder av inaktivitet före en [!DNL APILayer] timeout för session. Standardvärdet är `100`. |
+| [!UICONTROL API key] | Global | Nyckeln som används för att komma åt konverteringstjänsten via ditt [!DNL APILayer]-konto. Mer information finns i [[!DNL APILayer]](https://apilayer.com/). |
+| [!UICONTROL Connection Timeout in Seconds] | Global | Fastställer antalet sekunder av inaktivitet innan en [!DNL APILayer]-session-timeout inträffar. Standardvärdet är `100`. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Currency Converter API]
 
-![Valutainställningar > Valutakonverterings-API](./assets/currency-setup-converter.png)<!-- zoom -->
+![Valutainställning > Valutakonverterar-API](./assets/currency-setup-converter.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL API key] | Global | Nyckeln som används för att komma åt konverteringstjänsten. Mer information finns i [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/). |
-| [!UICONTROL Connection Timeout in Seconds] | Global | Anger antalet sekunder av inaktivitet före en [!DNL Currency Converter] timeout för session. Standardvärde:`100` |
+| [!UICONTROL Connection Timeout in Seconds] | Global | Fastställer antalet sekunder av inaktivitet innan en [!DNL Currency Converter]-session-timeout inträffar. Standardvärde:`100` |
 
 {style="table-layout:auto"}
 

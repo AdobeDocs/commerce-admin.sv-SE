@@ -1,21 +1,21 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL PayPal Payments Pro]'
-description: Granska konfigurationsinställningarna i [!UICONTROL PayPal Payments Pro] i [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] sidan för Commerce Admin.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL PayPal Payments Pro]'
+description: Granska konfigurationsinställningarna i avsnittet [!UICONTROL PayPal Payments Pro] på sidan [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] i Commerce Admin.
 exl-id: 08363002-e1e6-4d5e-9303-44f5ee53ee0a
 feature: Configuration, Payments
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Pro]
+# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Pro]
 
 >[!IMPORTANT]
 >
->**Krav för PSD2:** <br/>
->Från och med den 14 september 2019 kan europeiska banker avböja betalningar som inte uppfyller [PSD2](../../getting-started/compliance-payment-services-directive.md) krav. För att uppfylla PSD2 [!DNL PayPal Payments Pro] måste integreras med [!DNL Cardinal Commerce]. Mer information finns på [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+>**PSD2-krav:** <br/>
+>Från och med den 14 september 2019 kan europeiska banker avböja betalningar som inte uppfyller kraven för [PSD2](../../getting-started/compliance-payment-services-directive.md). [!DNL PayPal Payments Pro] måste integreras med [!DNL Cardinal Commerce] för att uppfylla PSD2. Mer information finns i [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
 
 {{config}}
 
@@ -39,16 +39,16 @@ ht-degree: 0%
 
 ## [!UICONTROL Advertise PayPal Credit]
 
-![Annonsera PayPal Credit](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
+![Annonsera PayPal-kredit](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Publisher ID] | Webbplats | Det utgivar-ID som är kopplat till ditt PayPal-kreditkonto. |
 | [!UICONTROL Get Publisher ID from PayPal] |  | Hämtar ditt utgivar-ID från PayPal. |
-| [!UICONTROL Home Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] banner på startsidan. Alternativ: <br/>**`Display`**- Bestämmer om en[!DNL PayPal Credit] bannern visas på butikens hemsida. Alternativ: `Yes` / `No`<br/>**`Position`** - Bestämmer positionen för [!DNL PayPal Credit] banner på startsidan. Alternativ: Sidhuvud (mitten) / Sidlist (höger) <br/>**`Size`**- Anger storleken på [!DNL PayPal Credit] banner på startsidan. Alternativ: `190 x 100` / `234 x 60` / `300 x 50` / `468 x 60` / `728 x 90` /` 800 x 66` |
-| [!UICONTROL Catalog Category Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] på kategorisidor. Alternativ: (samma som [!UICONTROL Home Page]) |
-| [!UICONTROL Catalog Product Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] banner på produktsidor. Alternativ: (samma som [!UICONTROL Home Page]) |
-| [!UICONTROL Checkout Cart Page] | Webbplats | Bestämmer positionen och storleken för [!DNL PayPal Credit] banner on cart page. Alternativ: (samma som [!UICONTROL Home Page]) |
+| [!UICONTROL Home Page] | Webbplats | Bestämmer placeringen och storleken på banderollen [!DNL PayPal Credit] på startsidan. Alternativ: <br/>**`Display`**- Avgör om en [!DNL PayPal Credit]-banderoll visas på butikens startsida. Alternativ: `Yes` / `No`<br/>**`Position`** - Bestämmer placeringen av banderollen [!DNL PayPal Credit] på startsidan. Alternativ: Sidhuvud (mitten)/Sidlist (höger) <br/>**`Size`**- Anger storleken på banderollen [!DNL PayPal Credit] på startsidan. Alternativ: `190 x 100` / `234 x 60` / `300 x 50` / `468 x 60` / `728 x 90` /` 800 x 66` |
+| [!UICONTROL Catalog Category Page] | Webbplats | Bestämmer placeringen och storleken på banderollen [!DNL PayPal Credit] på kategorisidor. Alternativ: (samma som för [!UICONTROL Home Page]) |
+| [!UICONTROL Catalog Product Page] | Webbplats | Bestämmer placeringen och storleken på banderollen [!DNL PayPal Credit] på produktsidor. Alternativ: (samma som för [!UICONTROL Home Page]) |
+| [!UICONTROL Checkout Cart Page] | Webbplats | Bestämmer placeringen och storleken på banderollen [!DNL PayPal Credit] på kundvagnssidan. Alternativ: (samma som för [!UICONTROL Home Page]) |
 
 {style="table-layout:auto"}
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Title] | Butiksvy | Ett namn som identifierar PayPal Payments Pro som en betalningsmetod vid utcheckning. |
 | [!UICONTROL Sort Order] | Butiksvy | Ett tal som bestämmer i vilken ordning PayPal Payments Pro visas när det visas med andra betalningsmetoder i kassan. |
-| [!UICONTROL Payment Action] | Webbplats | Bestämmer vilken åtgärd som PayPal ska vidta när en order skickas. Alternativ: <br/>**`Authorization`**- Godkänner köpet, men spärrar pengarna. Beloppet dras inte tillbaka förrän handlaren&quot;fångar&quot; det.<br/>**`Sale`** - Köpbeloppet godkänns och dras omedelbart tillbaka från kundens konto. |
+| [!UICONTROL Payment Action] | Webbplats | Bestämmer vilken åtgärd som PayPal ska vidta när en order skickas. Alternativ: <br/>**`Authorization`**- Godkänn köpet, men spärrar pengarna. Beloppet dras inte tillbaka förrän handlaren&quot;fångar&quot; det.<br/>**`Sale`** - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto. |
 | [!UICONTROL Credit Card Settings] |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | Webbplats | Bestämmer vilka kreditkort som är tillgängliga för kunder vid utcheckning. Välj varje kort som stöds. Alternativ: `American Express` (kräver ett extra avtal) / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
@@ -106,15 +106,15 @@ ht-degree: 0%
 
 ## [!UICONTROL Frontend Experience Settings]
 
-![Frontend Experience Settings](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png)<!-- zoom -->
+![Inställningar för Edge Experience](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL PayPal Product Logo] | Butiksvy | Bestämmer PayPal-logotypen som visas i din butik. Det finns fyra grundläggande format i två storlekar. Alternativ: `No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | **[!UICONTROL PayPal Merchant Pages Style]** |  |  |
 | [!UICONTROL Page Style] | Butiksvy | Bestämmer utseendet på din PayPal-handlarsida. Tillåtna värden: <br/>**`paypal`**- Använder sidformatet PayPal.<br/>**`primary`** - Använder det sidformat som du identifierade som &quot;primärt&quot; format i din kontoprofil. <br/>**`your_custom_value`**- Använder ett anpassat betalningssidformat som anges i din kontoprofil. |
-| [!UICONTROL Header Image URL] | Butiksvy | URL-adressen till bilden som visas i det övre vänstra hörnet på utcheckningssidan. Den maximala storleken är 750 x 90 pixlar. <br/><br/>**_Obs!_**PayPal rekommenderar att bilden lagras på en säker server (https). Annars kan kundens webbläsare varna för att&quot;sidan innehåller både säkra och osäkra objekt&quot;. |
-| [!UICONTROL Header Image Background Color] | Butiksvy | De sex tecknen [hexadecimal färg](https://en.wikipedia.org/wiki/Web_colors) kod för bakgrundsfärgen för sidhuvudet på utcheckningssidan. Du kan ange koden med antingen versaler eller gemener. |
+| [!UICONTROL Header Image URL] | Butiksvy | URL-adressen till bilden som visas i det övre vänstra hörnet på utcheckningssidan. Den maximala storleken är 750 x 90 pixlar. <br/><br/>**_Obs!_**PayPal rekommenderar att bilden lagras på en säker (https) server. Annars kan kundens webbläsare varna för att&quot;sidan innehåller både säkra och osäkra objekt&quot;. |
+| [!UICONTROL Header Image Background Color] | Butiksvy | Koden [hexadecimal färg](https://en.wikipedia.org/wiki/Web_colors) med sex tecken för bakgrundsfärgen för sidhuvudet på utcheckningssidan. Du kan ange koden med antingen versaler eller gemener. |
 | [!UICONTROL Header Image Border Color] | Butiksvy | Den hexadecimala färgkoden med sex tecken för kanten med två pixlar runt rubriken. |
 | [!UICONTROL Page Background Color] | Butiksvy | Den hexadecimala färgkoden på sex tecken för bakgrundsfärgen på den utcheckningssida som visas bakom rubriken och betalningsformuläret. |
 
@@ -122,20 +122,20 @@ ht-degree: 0%
 
 ## [!UICONTROL Basic Settings - PayPal Express Checkout]
 
-![Grundläggande inställningar för PayPal Express-utcheckning](./assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png)<!-- zoom -->
+![Grundinställningar för PayPal Express-utcheckning](./assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Title] | Butiksvy | Ett namn som identifierar betalningsmetoden PayPal Express Checkout under utcheckningen. |
 | [!UICONTROL Sort Order] | Butiksvy | Ett tal som bestämmer i vilken ordning som PayPal Express Checkout ska visas när det visas med andra betalningsmetoder vid utcheckning. Ange 0 överst i listan. |
-| [!UICONTROL Payment Action] | Webbplats | Bestämmer vilken åtgärd som PayPal ska utföra när den tar emot en order. Alternativ: <br/>**`Authorization`**- Godkänner köpet, men spärrar pengarna. Beloppet dras inte tillbaka förrän handlaren&quot;fångar&quot; det.<br/>**`Sale`** - Köpbeloppet godkänns och dras omedelbart tillbaka från kundens konto. <br/>**`Order`**- Representerar ett avtal med PayPal som tillåter handlaren att inom en angiven tidsperiod inhämta ett eller flera belopp upp till den beställda summan från kundens köparkonto. Det kan vara upp till 29 dagar. En eller flera fakturor måste genereras från Commerce Admin för att du ska kunna samla in pengarna. |
+| [!UICONTROL Payment Action] | Webbplats | Bestämmer vilken åtgärd som PayPal ska utföra när den tar emot en order. Alternativ: <br/>**`Authorization`**- Godkänn köpet, men spärrar pengarna. Beloppet dras inte tillbaka förrän handlaren&quot;fångar&quot; det.<br/>**`Sale`** - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto. <br/>**`Order`**- Representerar ett avtal med PayPal som tillåter att handlaren kan hämta ett eller flera belopp upp till den beställda summan från kundens köpkonto inom en angiven tidsperiod. Det kan vara upp till 29 dagar. En eller flera fakturor måste genereras från Commerce Admin för att pengarna ska kunna hämtas. |
 | [!UICONTROL URL Display on Product Details Page] | Butiksvy | Avgör om knappen&quot;Checka ut med PayPal&quot; visas på produktsidor. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL PayPal Express Checkout - Advanced Settings]
 
-![Avancerade inställningar för kassan för PayPal Express](./assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png)<!-- zoom -->
+![Avancerade inställningar för PayPal Express-utcheckning](./assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

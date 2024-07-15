@@ -14,17 +14,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-The [Widget](../content-design/widgets.md) kan du använda för att placera en sökruta i presentregistret var som helst i din butik. Du kan ange vilka sökalternativ som ska vara tillgängliga för kunder, till exempel namn, e-postadress och presentregister-ID. När kunden klickar på knappen Sök visas resultatet på söksidan i presentregistret. Om sökningen inte ger några resultat kan kunden försöka igen med andra parametrar.
+Verktyget [Widget](../content-design/widgets.md) kan användas för att placera en sökruta för presentregister i din butik. Du kan ange vilka sökalternativ som ska vara tillgängliga för kunder, till exempel namn, e-postadress och presentregister-ID. När kunden klickar på knappen Sök visas resultatet på söksidan i presentregistret. Om sökningen inte ger några resultat kan kunden försöka igen med andra parametrar.
 
-![Exempel på storefront - sökning i presentregistret](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
+![Exempelarkiv - sökning i presentregistret](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
 
 ## Konfigurera sökning i presentregistret
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add Widget]**.
+1. Klicka på **[!UICONTROL Add Widget]** i det övre högra hörnet.
 
-1. Välj **[!UICONTROL Settings]** och gör följande:
+1. Välj fliken **[!UICONTROL Settings]** och gör följande:
 
    - Ange **[!UICONTROL Type]** till `Gift Registry Search`.
 
@@ -34,29 +34,29 @@ The [Widget](../content-design/widgets.md) kan du använda för att placera en s
 
    ![Presentregister - sökinställningar](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. I _[!UICONTROL Storefront Properties]_gör du följande:
+1. Gör följande i avsnittet _[!UICONTROL Storefront Properties]_:
 
-   - Ange en **[!UICONTROL Widget Title]** för intern referens.
+   - Ange **[!UICONTROL Widget Title]** som intern referens.
 
    - Ange **[!UICONTROL Assign to Store Views]** till de butiksvyer där Gift Registry Search ska vara tillgängligt.
 
-   - Ange **[!UICONTROL Sort Order]** för att bestämma i vilken ordning som sökblocket i presentregistret ska visas när det finns andra block tilldelade till samma plats på sidan.
+   - Ange **[!UICONTROL Sort Order]** för att bestämma i vilken ordning sökblocket i presentregistret ska visas när det finns andra block tilldelade till samma plats på sidan.
 
    ![Presentregister - butiksegenskaper](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
 
-1. I **[!UICONTROL Layout Updates]** avsnitt, klicka **[!UICONTROL Add Layout Update]**.
+1. Klicka på **[!UICONTROL Add Layout Update]** i avsnittet **[!UICONTROL Layout Updates]**.
 
 1. Så här avgör du var presentregistersökningen ska visas i arkivet:
 
-   - Ange **[!UICONTROL Display On]** till de sidor i butiken där du vill att sökblocket i presentregistret ska visas.
+   - Ange **[!UICONTROL Display On]** på sidorna i din butik där du vill att sökblocket i presentregistret ska visas.
 
-   - Välj **[!UICONTROL Categories]** där du vill att den ska visas.
+   - Om det är tillämpligt väljer du **[!UICONTROL Categories]** där du vill att den ska visas.
 
-   - Ange **[!UICONTROL Container]** till den plats på sidan där sökblocket i presentregistret ska placeras.
+   - Ange **[!UICONTROL Container]** till platsen på sidan för att placera sökblocket i presentregistret.
 
    ![Presentregister - layoutuppdateringar](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
 
-1. Välj **[!UICONTROL Widget Options]**.
+1. Välj **[!UICONTROL Widget Options]** på den vänstra panelen.
 
 1. Om du vill se hur besökare på din webbplats kan söka efter presentregister väljer du så många av följande som gäller:
 
@@ -67,7 +67,7 @@ The [Widget](../content-design/widgets.md) kan du använda för att placera en s
 
    ![Presentregister - widgetalternativ](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 1. När du uppmanas att uppdatera sidcachen klickar du på länken i meddelandet längst upp på arbetsytan och följer instruktionerna.
 

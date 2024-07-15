@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Page Builder] Dolda element"
+title: "[!DNL Page Builder] dolda element"
 description: Återanvänd anteckning om dolda element
 source-git-commit: d8eddb226843fe72449f1001bf4bbc8d545f3a6d
 workflow-type: tm+mt
@@ -8,7 +8,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] Dolda element
+# [!DNL Page Builder] dolda element
 
 >[!NOTE]
 >

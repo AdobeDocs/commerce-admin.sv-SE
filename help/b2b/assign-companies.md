@@ -15,61 +15,61 @@ ht-degree: 0%
 
 # Hantera [!UICONTROL Company Hierarchy]
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för betaprogramdeltagare"}
+[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för Beta programdeltagare"}
 
-Administratörer kan skapa en [!UICONTROL Company Hierarchy] genom att tilldela närstående företag till ett utsett moderbolag, som är det företag som ligger överst i organisationen. Om [!UICONTROL Company Type] är `Company`, är företaget inte en del av en organisation och är berättigat att bli moderbolag, eller att tilldelas ett befintligt moderföretag.
+Administratörer kan skapa en [!UICONTROL Company Hierarchy] genom att tilldela relaterade företag till ett utsett överordnat företag, som är företaget överst i organisationen. Om [!UICONTROL Company Type] är `Company` är företaget inte en del av en organisation och är kvalificerat att bli ett överordnat företag, eller att tilldelas ett befintligt överordnat företag.
 
-I Admin hanterar du företagstilldelningar genom att redigera ett företag och sedan uppdatera [!UICONTROL Company Hierarchy] konfiguration för att tilldela eller ta bort tilldelning av företag.
+I Admin hanterar du företagstilldelningar genom att redigera ett företag och sedan uppdatera [!UICONTROL Company Hierarchy]-konfigurationen för att tilldela eller ta bort företagstilldelningar.
 
 ![Stödraster för företagshierarki](./assets/company-detail-hierarchy-current-flag.png){width="700"}
 
 >[!NOTE]
 >
->Mer information om [!UICONTROL Company Hierarchy] stödraster, se [Företagshierarki](account-company-create.md#company-hierarchy) fältbeskrivningar.
+>Mer information om stödrastret [!UICONTROL Company Hierarchy] finns i [Fältbeskrivningar för företagshierarki](account-company-create.md#company-hierarchy).
 
 ## Tilldela företag till en organisation
 
-1. Från _Administratör_ sidlist, navigera till **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Navigera till **[!UICONTROL Customers]** > **[!UICONTROL Companies]** från sidofältet _Admin_.
 
-   ![Företagsrutnät](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+   ![Företagsstödraster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. I [!UICONTROL Companies] öppnar du företagsinformationssidan för att skapa tilldelningarna.
+1. Öppna företagsinformationssidan i rutnätet [!UICONTROL Companies] för att skapa tilldelningarna.
 
-   - Om du vill tilldela ytterligare företag till ett befintligt överordnat företag väljer du **[!UICONTROL Edit]** åtgärd för huvudföretaget.
-   - Om du vill skapa ett överordnat företag väljer du **[!UICONTROL Edit]** åtgärd för det företag som ska utses till överordnad.
+   - Om du vill tilldela ytterligare företag till ett befintligt överordnat företag väljer du åtgärden **[!UICONTROL Edit]** för det överordnade företaget.
+   - Om du vill skapa ett överordnat företag väljer du åtgärden **[!UICONTROL Edit]** för det företag som ska anges som överordnat.
 
      Du kan inte skapa ett överordnat företag från ett befintligt överordnat eller underordnat företag.
 
-1. Utöka på sidan med företagsinformation **[!UICONTROL Company Hierarchy]**.
+1. Expandera **[!UICONTROL Company Hierarchy]** på företagsinformationssidan.
 
    ![Stödraster för företagshierarki](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-   I rutnätet visas befintliga företagstilldelningar, om sådana finns. Det överordnade företaget är alltid placerat högst upp i [!UICONTROL Company Hierarchy] rutnät. The `[!UICONTROL Current]` anger vilket företag som redigeras.
+   I rutnätet visas befintliga företagstilldelningar, om sådana finns. Det överordnade företaget placeras alltid överst i rutnätet [!UICONTROL Company Hierarchy]. Flaggan `[!UICONTROL Current]` anger vilket företag som redigeras.
 
 1. Lägg till företag i den överordnade organisationen.
 
    - Välj från en lista över tillgängliga företag genom att välja **[!UICONTROL Assign Companies]**.
 
-   - **Markera alla på den här sidan** eller välj en eller flera specifika företagsradartiklar.
+   - **Markera alla på den här sidan** eller välj ett eller flera specifika företagsposter.
 
    - Välj **[!UICONTROL Assign Selected Companies]**.
 
    - Slutför företagstilldelningen genom att välja **[!UICONTROL Assign]**.
 
-     ![Tilldela företag till organisation](./assets/assign-selected-companies-hierarchy.png){width="675" zoomable="yes"}
+     ![Tilldela företag till organisationen](./assets/assign-selected-companies-hierarchy.png){width="675" zoomable="yes"}
 
 ## Ta bort tilldelning från ett moderföretag
 
-1. På _Administratör_ sidlist, navigera till **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Navigera till **[!UICONTROL Customers]** > **[!UICONTROL Companies]** på sidofältet _Admin_.
 
-   ![Företagsrutnät](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+   ![Företagsstödraster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. I [!UICONTROL Companies] rutnät, öppna företagsinformationssidan för det överordnade företaget genom att välja **[!UICONTROL Edit]**.
+1. Öppna företagsinformationssidan för det överordnade företaget i rutnätet [!UICONTROL Companies] genom att välja **[!UICONTROL Edit]**.
 
 1. Visa listan över tilldelade företag genom att expandera **[!UICONTROL Company Hierarchy]**.
 
-1. Från [!UICONTROL Company Hierarchy] rutnät, ta bort tilldelning från ett företag med hjälp av **[!UICONTROL Select]** funktionsmakrokontroll att välja **[!UICONTROL Unassign from parent]**.
+1. I stödrastret [!UICONTROL Company Hierarchy] tar du bort tilldelningen av ett företag med hjälp av åtgärdskontrollen **[!UICONTROL Select]** och väljer **[!UICONTROL Unassign from parent]**.
 
    ![Ta bort tilldelning av företag från en överordnad organisation](./assets/company-hierarchy-grid-unassign.png){width="700" zoomable="yes"}
 
-1. Ta bort det tilldelade företaget från hierarkin genom att välja **[!UICONTROL Unassign]**.
+1. När du uppmanas till det tar du bort det tilldelade företaget från hierarkin genom att välja **[!UICONTROL Unassign]**.

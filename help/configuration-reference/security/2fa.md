@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Security] &gt; [!UICONTROL 2FA] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Security] &gt; [!UICONTROL 2FA] i Commerce Admin.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
 source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{config}}
 
-Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorautentisering (2FA)](../../systems/security-two-factor-authentication.md) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorautentisering (2FA)](../../systems/security-two-factor-authentication.md) i _Admin Systems Guide_.
 
 ## [!UICONTROL General]
 
@@ -27,7 +27,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorau
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Global | Anger de tvåfaktorautentiseringsmetoder som du behöver. Om du väljer mer än en leverantör måste varje användare konfigurera varje 2FA-metod nästa gång de loggar in. |
-| [!UICONTROL Configuration Email URL for Web API] | Global | För anpassade implementeringar, URL:en för en alternativ e-postkonfigurationslänk som skickas till _Administratör_ användare vid första inloggningen. Använd platshållaren i e-postmallen `:tfat` för att ange var token matas in. |
+| [!UICONTROL Configuration Email URL for Web API] | Global | För anpassade implementeringar, URL:en för en alternativ e-postkonfigurationslänk som skickas till _Admin_ -användare vid den första inloggningen. Använd platshållaren `:tfat` i e-postmallen för att ange var token matas in. |
 
 {style="table-layout:auto"}
 
@@ -47,20 +47,20 @@ Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorau
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Integration Key] | Global | Integreringsnyckeln från [!DNL Duo Security] konto. |
-| [!UICONTROL Secret Key] | Global | Den hemliga nyckeln från din [!DNL Duo Security] konto. |
-| [!UICONTROL API Hostname] | Global | API-värdnamnet från din [!DNL Duo Security] konto. |
+| [!UICONTROL Integration Key] | Global | Integreringsnyckeln från ditt [!DNL Duo Security]-konto. |
+| [!UICONTROL Secret Key] | Global | Den hemliga nyckeln från ditt [!DNL Duo Security]-konto. |
+| [!UICONTROL API Hostname] | Global | API-värdnamnet från ditt [!DNL Duo Security]-konto. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Authy]
 
-![Authy](./assets/2fa-authy.png)<!-- zoom -->
+![Autenticera](./assets/2fa-authy.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL API Key] | Global | API-nyckeln från [!DNL Authy] konto. |
-| [!UICONTROL OneTouch Message] | Global | Meddelandet som visas i [!DNL Authy] autentiseraren vid inloggning. Standard: `Login request to your Magento Admin` |
+| [!UICONTROL API Key] | Global | API-nyckeln från ditt [!DNL Authy]-konto. |
+| [!UICONTROL OneTouch Message] | Global | Meddelandet som visas i autentiseraren [!DNL Authy] vid inloggning. Standard: `Login request to your Magento Admin` |
 
 {style="table-layout:auto"}
 
@@ -70,6 +70,6 @@ Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorau
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL WebApi Challenge Domain] | Global | Domänen som används för att utfärda och bearbeta [!DNL WebAuthn] problem för anpassade WebAPI-implementeringar. |
+| [!UICONTROL WebApi Challenge Domain] | Global | Domänen som används för att utfärda och bearbeta [!DNL WebAuthn]-utmaningar för anpassade WebAPI-implementeringar. |
 
 {style="table-layout:auto"}

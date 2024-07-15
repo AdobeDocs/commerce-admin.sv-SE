@@ -5,7 +5,7 @@ exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Om du har ett kommersiellt konto hos en operatör som stöds kan du erbjuda dina
 
 Innan du kan erbjuda kunderna ett urval av fraktfirmor måste du utföra följande steg:
 
-- Konfigurera [leveransinställningar](shipping-settings.md) för att fastställa butikens ursprungsplats.
+- Konfigurera [leveransinställningarna](shipping-settings.md) för att upprätta butikens ursprungsplats.
 
 - Konfigurera inställningarna för varje transportörtjänst som du vill erbjuda.
 
-   - [**UPS**](ups.md)  - United Parcel Service (UPS) erbjuder inrikes och internationell sjöfart på land och flyg till över 220 länder.
+   - [**UPS**](ups.md) - United Parcel Service (UPS) erbjuder inrikes och internationell frakt per land och flyg till över 220 länder.
    - [**USPS**](usps.md) - United States Postal Service (USPS) är USA:s oberoende posttjänst. USPS erbjuder inrikes och internationell sjöfart på land och flyg.
-   - [**FedEx**](fedex.md) - FedEx erbjuder inrikes och internationell sjöfart på land och flyg till över 220 länder.
+   - [**FedEx**](fedex.md) - FedEx erbjuder inrikes och internationell frakt per land och flyg till över 220 länder.
    - [**DHL**](dhl.md) - DHL erbjuder integrerade internationella tjänster och skräddarsydda, kundfokuserade lösningar för hantering och transport av brev, varor och information.
 
 ## Dimensionell vikt

@@ -18,34 +18,34 @@ När inbjudningar är aktiverade kan kunderna skicka och visa inbjudningar från
 
 ## Mina inbjudningar
 
-The _[!UICONTROL My Invitations]_i kundkontot visas alla inbjudningar som kunden har skickat. Kunder kan skicka inbjudningar till vänner och familj för butiksevenemang, presentregister, önskelistor och så vidare.
+Avsnittet _[!UICONTROL My Invitations]_i kundkontot innehåller alla inbjudningar som har skickats av kunden. Kunder kan skicka inbjudningar till vänner och familj för butiksevenemang, presentregister, önskelistor och så vidare.
 
 ![Mina inbjudningar](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### Arbetsflöde för inbjudan
 
-1. **Kunden förbereder inbjudningar**: Från kontouppsättningen förbereder kunden listan över mottagare och slutför inbjudan. Ett anpassat meddelande kan inkluderas, beroende på konfigurationen.
-1. **Kunden skickar inbjudningar**: När det är klart klickar kunden på _[!UICONTROL Send Invitations]_-knappen.
-1. **Överföringen hanteras i systemet**: Systemet skickar inbjudningar i grupper enligt det nummer som angetts i konfigurationen.
-1. **Kundövervakarnas svar**: Kunden övervakar statusen för varje inbjudan från kontokontrollpanelen, som `Sent`, `Accepted`, eller `Canceled`.
+1. **Kunden förbereder inbjudningar**: Från kontokontrollpanelen förbereder kunden listan över mottagare och slutför inbjudan. Ett anpassat meddelande kan inkluderas, beroende på konfigurationen.
+1. **Kunden skickar inbjudningar**: När det är klart klickar kunden på knappen _[!UICONTROL Send Invitations]_.
+1. **System hanterar överföring**: Systemet skickar inbjudningar i grupper enligt det nummer som angetts i konfigurationen.
+1. **Kunden övervakar svaret**: Kunden övervakar statusen för varje inbjudan från kontomanelen, till exempel `Sent`, `Accepted` eller `Canceled`.
 
 ### Skicka en inbjudan
 
-1. I sidofältet på deras konto i butiken väljer kunden **[!UICONTROL My Invitations]**.
+1. I sidofältet för deras konto på butiken väljer kunden **[!UICONTROL My Invitations]**.
 
-1. På _Min inbjudan_ sida, klicka **[!UICONTROL Send Invitation]**.
+1. Klicka på **[!UICONTROL Send Invitation]** på sidan _Min inbjudan_.
 
 1. Definierar det nya inbjudningsobjektet:
 
    - Slutför e-postinformationen.
 
-   - (Valfritt) Skapar en inbjudan till flera adresser genom att klicka på **+** och lägga till en annan e-postadress.
+   - (Valfritt) Skapar en inbjudan med flera adresser genom att klicka på **+** och lägga till en annan e-postadress.
 
      En enskild inbjudan har en begränsning på fem e-postadresser.
 
    - (Valfritt) Skriver in ett medföljande meddelande.
 
-1. När det är klart klickar du **[!UICONTROL Send Invitation]**.
+1. Klicka på **[!UICONTROL Send Invitation]** när du är klar.
 
 Ett meddelande om inbjudan skickas till den inbjudna användarens e-postadress med instruktioner om hur du ställer in kontot.
 
@@ -57,17 +57,17 @@ Ett meddelande om inbjudan skickas till den inbjudna användarens e-postadress m
 
 Inbjudningskonfigurationen aktiverar inbjudningar till butiken och avgör hur de skickas.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Customers]** och välja **[!UICONTROL Invitations]**.
+1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Invitations]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL General]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL General]**.
 
-   ![Kundkonfiguration - allmänna alternativ för inbjudningar](../configuration-reference/customers/assets/invitations-general.png){width="600" zoomable="yes"}
+   ![Kundkonfiguration - bjuder in allmänna alternativ](../configuration-reference/customers/assets/invitations-general.png){width="600" zoomable="yes"}
 
 1. Ange **[!UICONTROL Enable Invitations Functionality]** till `Yes`.
 
-1. Ange att kunderna ska kunna hantera inbjudningar från butiken **Aktivera inbjudningar i Storefront** till `Yes`.
+1. Om du vill att kunderna ska kunna hantera inbjudningar från butiken anger du **Aktivera inbjudningar på Storefront** till `Yes`.
 
 1. Ange **[!UICONTROL Referred Customer Group]** till något av följande:
 
@@ -79,57 +79,57 @@ Inbjudningskonfigurationen aktiverar inbjudningar till butiken och avgör hur de
    - `By Invitation Only`
    - `Available to All`
 
-1. Till **[!UICONTROL Allow Customers to Add Custom Message to Invitation Email]**, markera `Yes`.
+1. Om du vill **[!UICONTROL Allow Customers to Add Custom Message to Invitation Email]** väljer du `Yes`.
 
-1. Om du vill begränsa antalet inbjudningar som kan skickas samtidigt anger du numret i dialogrutan **[!UICONTROL Max Invitations Allowed to be Sent at One Time]** fält.
+1. Om du vill begränsa antalet inbjudningar som kan skickas samtidigt anger du numret i fältet **[!UICONTROL Max Invitations Allowed to be Sent at One Time]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Email]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Email]** och gör följande:
 
-   ![Kundkonfiguration - alternativ för inbjudningar via e-post](../configuration-reference/customers/assets/invitations-email.png){width="600" zoomable="yes"}
+   ![Kundkonfiguration - inbjudningar till e-postalternativ](../configuration-reference/customers/assets/invitations-email.png){width="600" zoomable="yes"}
 
    - Välj den butiksidentitet som ska användas som **[!UICONTROL Customer Invitation Email Sender]**.
 
-   - Välj **[!UICONTROL Customer Invitation Email Template]** används för skickade inbjudningar.
+   - Välj **[!UICONTROL Customer Invitation Email Template]** som används för skickade inbjudningar.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Skicka och hantera inbjudningar i administratören
 
-I [Privata försäljningsrapporter](../getting-started/private-sales-reports.md) kan du se hur många inbjudningar som har skickats under en viss period eller till vilka kunder du har skickat inbjudningar.
+I avsnittet [Privata försäljningsrapporter](../getting-started/private-sales-reports.md) kan du se hur många inbjudningar som har skickats under en angiven period, eller till kunder som du har skickat inbjudningar till.
 
 ### Skapa en inbjudan i administratören
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add Invitations]**.
+1. Klicka på **[!UICONTROL Add Invitations]** i det övre högra hörnet.
 
 1. På nästa skärm anger du e-postadresser för att bjuda in nya kunder, lägger till ett anpassat meddelande, väljer en avsändare och väljer en inbjudningsgrupp.
 
-   Om du har flera butiksvyer använder du **[!UICONTROL Send From]** för att ange den butiksvy som inbjudan skickas från.
+   Om du har flera butiksvyer använder du alternativet **[!UICONTROL Send From]** för att ange från vilken butiksvy en inbjudan skickas.
 
    ![Information om inbjudningar](./assets/create-invitation-page.png){width="700" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ### Ignorera inbjudningar för en enskild enhet
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**på sidofältet_ Admin _.
 
 1. Sök efter önskad inbjudan med hjälp av filter och öppna den i redigeringsläge.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Discard Invitation]**.
+1. Klicka på **[!UICONTROL Discard Invitation]** i det övre högra hörnet.
 
-1. Bekräfta åtgärden genom att klicka **[!UICONTROL OK]**.
+1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
 
 ### Ignorera inbjudningar för flera entiteter
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**på sidofältet_ Admin _.
 
 1. Sök efter och välj de inbjudningar som ska ignoreras.
 
-1. Överst till vänster använder du **[!UICONTROL Actions]** meny att välja **[!UICONTROL Discard Selected]** och klicka **[!UICONTROL Submit]**.
+1. Använd menyn **[!UICONTROL Actions]** längst upp till vänster för att välja **[!UICONTROL Discard Selected]** och klicka på **[!UICONTROL Submit]**.
 
-1. Bekräfta åtgärden genom att klicka **[!UICONTROL OK]**.
+1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
 
 ### Fältbeskrivningar
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Variabelreferens
 
-Mest [e-postmallar](email-template-custom.md) har en del av [fördefinierade variabler](variables-predefined.md) som är specifika för mallen. Följande lista innehåller exempel på e-postmallar som används ofta och tillhörande variabler.
+De flesta [e-postmallar](email-template-custom.md) har ett avsnitt med [fördefinierade variabler](variables-predefined.md) som är specifika för mallen. Följande lista innehåller exempel på e-postmallar som används ofta och tillhörande variabler.
 
 ## Mallvariabler för e-post
 

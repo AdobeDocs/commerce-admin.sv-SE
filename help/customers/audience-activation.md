@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Audience Activation]"
+title: '[!DNL Audience Activation]'
 description: Lär dig hur du aktiverar Real-Time CDP-målgrupper i Adobe Commerce för att utveckla personaliseringen i din butik.
 exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 # [!DNL Audience Activation]
 
-The [!DNL Audience Activation] kan ni aktivera Real-Time CDP-målgrupper i Adobe Commerce för att skapa unika erbjudanden i kundvagnen. Dessa erbjudanden och incitament omfattar bland annat vanliga tekniker för e-handel, som _köp 2 få 1 utan kostnad_, hjältebanners riktade mot den kunden och ändrade produktpriser genom olika erbjudanden. De målgrupper som byggs inom Real-Time CDP bygger på data från olika affärssystem, t.ex. ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), försäljningsställen och marknadsföringssystem. Eftersom kundsegmentsinformationen uppdateras kontinuerligt kan kunderna associeras och kopplas bort från ett segment när de handlar i din butik.
+Med tillägget [!DNL Audience Activation] kan du aktivera Real-Time CDP-målgrupper i Adobe Commerce för att skapa unika erbjudanden i kundvagnen. Erbjudandena och incitamenten omfattar vanliga tekniker för e-handel, som _köp 2 få 1 kostnadsfritt_, hjältebanners som är inriktade på den kunden och ändrade produktpriser genom olika erbjudanden. De målgrupper som byggs inom Real-Time CDP bygger på data från olika affärssystem, t.ex. ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), försäljningsställen och marknadsföringssystem. Eftersom kundsegmentsinformationen uppdateras kontinuerligt kan kunderna associeras och kopplas bort från ett segment när de handlar i din butik.
 
-Du kan aktivera målgrupper i en Luma-butik eller [headless](#headless-support) storefront. I en Lumabutik lagras målgruppsinformation (segmentmedlemskap) i en cookie på Commerce-sidan. I ett headless-lager skickas målgruppsinformation i GraphQL API-huvudet som en parameter med namnet: `aep-segments-membership`.
+Du kan aktivera målgrupper i en Luma storefront eller [headless](#headless-support) store. I en Lumabutik lagras målgruppsinformation (segmentmedlemskap) i en cookie på Commerce-sidan. I ett headless-lager skickas målgruppsinformation i GraphQL API-huvudet som en parameter med namnet: `aep-segments-membership`.
 
 ## Versionsinformation
 
 Det här avsnittet innehåller information om uppdateringar av tillägget Audience Activation och innehåller:
 
 ![Nytt](../assets/new.svg) - Nya funktioner
-![Korrigera](../assets/fix.svg) - Korrigeringar och förbättringar
+![Korrigera ](../assets/fix.svg) - Korrigeringar och förbättringar
 ![Fel](../assets/bug.svg) - Kända fel
 
-Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) om du vill veta mer om releasescheman och support.
+Läs [Kommande releaser](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) om du vill veta mer om releasescheman och support.
 
-Läs utvecklardokumentationen för att [läs om produktkompatibilitet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
+Läs utvecklardokumentationen för att [lära dig mer om produktkompatibilitet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
 
 ## Uppdateringar av tjänster som stöds
 
@@ -38,15 +38,15 @@ I versionsinformationen beskrivs funktionsändringar och korrigeringar för till
 
 _15 augusti 2023_
 
-![Korrigera](../assets/fix.svg) - Uppdaterade [Real-Time CDP Auditions dashboard](#real-time-cdp-audiences-dashboard) för att förenkla filtreringen.
+![Korrigera](../assets/fix.svg) - Kontrollpanelen [Real-Time CDP Audiences](#real-time-cdp-audiences-dashboard) har uppdaterats för att förenkla filtreringen.
 
 _27 juni 2023_
 
-![Korrigera](../assets/fix.svg) - Stöd för PHP 8.2 har lagts till i `magento/module-data-services-graphql` paket.
+![Korrigera](../assets/fix.svg) - Stöd för PHP 8.2 har lagts till i paketet `magento/module-data-services-graphql`.
 
 _30 maj 2023_
 
-![Nytt](../assets/new.svg) - Uppdaterade [Real-Time CDP Auditions dashboard](#real-time-cdp-audiences-dashboard) så att du kan sortera, söka efter och filtrera de aktiva målgrupperna i din Adobe Commerce-instans.
+![Nytt](../assets/new.svg) - Kontrollpanelen [Real-Time CDP Audiences](#real-time-cdp-audiences-dashboard) har uppdaterats så att den kan sortera, söka efter och filtrera de aktiva målgrupperna i din Adobe Commerce-instans.
 
 +++
 
@@ -72,8 +72,8 @@ _4 april 2024_
 
 _16 februari 2024_
 
-![Nytt](../assets/new.svg) - Om du deltar i betatestningen bör du kontrollera att `composer.json` filen har följande på rotnivå: ` "minimum-stability": "beta"`.
-![Nytt](../assets/new.svg) - (**Beta**) Möjlighet att skapa [relaterade produktregler](../merchandising-promotions/product-related-rule-create.md) informerad av målgrupper.
+![Nytt](../assets/new.svg) - Om du deltar i betaversionen kontrollerar du att `composer.json`-filen har följande på rotnivån: ` "minimum-stability": "beta"`.
+![Nytt](../assets/new.svg) - (**Beta**) Lagt till möjlighet att skapa [relaterade produktregler](../merchandising-promotions/product-related-rule-create.md) som har informerats av målgrupper.
 
 ### 2.1.0
 
@@ -81,7 +81,7 @@ _16 februari 2024_
 
 _24 januari 2024_
 
-![Nytt](../assets/new.svg) - Uppdaterade [Real-Time CDP Auditions dashboard](#real-time-cdp-audiences-dashboard) för att inkludera de webbplatser som innehåller målgrupperna och ange vilka dynamiska block och kundprisregler som är konfigurerade att använda dessa målgrupper.
+![Nytt](../assets/new.svg) - Kontrollpanelen [Real-Time CDP Audiences](#real-time-cdp-audiences-dashboard) har uppdaterats för att inkludera de webbplatser som innehåller målgrupperna och ange vilka dynamiska block och kundprisregler som har konfigurerats för att använda dessa målgrupper.
 
 ### 2.0.1
 
@@ -97,7 +97,7 @@ _16 november 2023_
 
 _10 oktober 2023_
 
-![Nytt](../assets/new.svg) - Stöd för OAuth 2.0 har lagts till när du [konfigurera](#configure-the-extension) tillägget Audience Activation.
+![Nytt](../assets/new.svg) - Stöd för OAuth 2.0 har lagts till när du [konfigurerar](#configure-the-extension) tillägget Audience Activation.
 ![Korrigera](../assets/fix.svg) - Förbättrad stabilitet.
 
 ### 1.2.0
@@ -114,7 +114,7 @@ _30 maj 2023_
 
 [!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
 
-![Nytt](../assets/new.svg) - Stöd för [dynamiska block](#headless-support) i en headless storefront.
+![Nytt](../assets/new.svg) - Stöd för [dynamiska block](#headless-support) har lagts till i en headless-butik.
 
 ### 1.0.1
 
@@ -122,8 +122,8 @@ _11 maj 2023_
 
 [!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
 
-![Korrigera](../assets/fix.svg) - Korrigerade ett problem där en dynamisk spärr- eller kundvagnsprisregel inte tillämpades på butiken.
-![Korrigera](../assets/fix.svg) - Korrigerade ett problem där en okonfigurerad installation av tillägget Audience Activation orsakade ett fel när en handlare försökte skapa eller uppdatera ett dynamiskt block.
+![Korrigera](../assets/fix.svg) - Ett problem har korrigerats där en dynamisk spärr- eller kundvagnsprisregel inte tillämpades på butiken.
+![Korrigera](../assets/fix.svg) - Ett problem har korrigerats där en okonfigurerad installation av tillägget Audience Activation orsakade ett fel när en handlare försökte skapa eller uppdatera ett dynamiskt block.
 
 ### 1.0.0
 
@@ -131,7 +131,7 @@ _31 mars 2023_
 
 [!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
 
-![Nytt](../assets/new.svg) - Allmän tillgänglighetsrelease
+![Nytt](../assets/new.svg) - allmän tillgänglighetsrelease
 
 ## Implementering
 
@@ -139,12 +139,12 @@ Följande uppgifter gäller både Luma-implementeringar och implementeringar uta
 
 - Installera Adobe Commerce version 2.4.4 eller senare
 - [Aktivera](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce som mål i Real-Time CDP
-- [Installera](#install-the-extension) den [!DNL Audience Activation] i Admin
-- [Konfigurera](#configure-the-extension) den [!DNL Audience Activation] i Admin
+- [Installera](#install-the-extension) tillägget [!DNL Audience Activation] i Admin
+- [Konfigurera](#configure-the-extension) tillägget [!DNL Audience Activation] i Admin
 
 ### Installera tillägget
 
-Installera [!DNL Audience Activation] tillägg från [marknadsplats](https://commercemarketplace.adobe.com/magento-audiences.html)eller kör följande kommando:
+Installera tillägget [!DNL Audience Activation] från [Marketplace](https://commercemarketplace.adobe.com/magento-audiences.html) eller kör följande kommando:
 
 ```bash
 composer require magento/audiences
@@ -152,63 +152,63 @@ composer require magento/audiences
 
 ### Konfigurera tillägget
 
-När du har installerat [!DNL Audience Activation] måste du logga in på Commerce Admin och slutföra följande:
+När du har installerat tillägget [!DNL Audience Activation] måste du logga in i Commerce Admin och slutföra följande:
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**på sidofältet_ Admin _.
 
-1. [Logga in](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid) till ditt Adobe-konto och välj ditt företags-ID.
+1. [Logga in](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid) på ditt Adobe-konto och välj ditt företags-ID.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**på sidofältet_ Admin _.
 
-1. I **[!UICONTROL Datastream ID]** -fältet, klistra in ID:t för den datastream som du skapade när du [aktiverad](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce som destination i Real-Time CDP.
+1. I fältet **[!UICONTROL Datastream ID]** klistrar du in ID:t för den datastream som du skapade när du [aktiverade](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce som mål i Real-Time CDP.
 
-   Denna datastream skickar data från din Commerce webbplats till Real-Time CDP för att avgöra om en kund tillhör en viss målgrupp. Om du ännu inte har skapat en datastream, [skapa](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) en i Experience Platform, [lägg till](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) till Commerce-destinationen i Real-Time CDP och till [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) i Admin.
+   Denna datastream skickar data från din Commerce webbplats till Real-Time CDP för att avgöra om en kund tillhör en viss målgrupp. Om du ännu inte har skapat ett datastream [skapar](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) ett i Experience Platform, [lägger till](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) det i Commerce-målet i Real-Time CDP och i tillägget [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) i Admin.
 
    >[!NOTE]
    >
-   >När du anger ett datastream-ID [associera den med en specifik webbplats](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) i [!DNL Data Connection] tillägg. Om din Commerce Store har flera webbplatser, [skapa ett mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) för varje webbplats i Real-Time CDP och använd olika datastream-ID för varje.
+   >När du anger ett datastream-ID [kopplar du det till en specifik webbplats](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) i tillägget [!DNL Data Connection]. Om din Commerce-butik har flera webbplatser kan du [skapa ett mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) för varje webbplats i Real-Time CDP och använda olika data-ID för varje.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera **[!UICONTROL Services]** och markera **[!UICONTROL [!DNL Data Connection]]**.
+1. Expandera **[!UICONTROL Services]** och välj **[!UICONTROL [!DNL Data Connection]]**.
 
-1. [Lägg till](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) tjänstkonto och autentiseringsuppgifter.
+1. [Lägg till ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) tjänstkonto och autentiseringsuppgifter.
 
 ## Var kan man använda Real-Time CDP målgrupper i Commerce?
 
-Med [!DNL Audience Activation] om tillägget är aktiverat kan du:
+När tillägget [!DNL Audience Activation] är aktiverat kan du:
 
-- [Skapa en kundvagnsprisregel](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informerad av målgrupper
-- [Skapa ett dynamiskt block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informerad av målgrupper
-- [Skapa en relaterad produktregel](../merchandising-promotions/product-related-rule-create.md) informerad av målgrupper
+- [Skapa en kundprisregel](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) som har informerats av målgrupper
+- [Skapa ett dynamiskt block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) som stöds av målgrupper
+- [Skapa en relaterad produktregel](../merchandising-promotions/product-related-rule-create.md) som har informerats av målgrupper
 
 >[!TIP]
 >
->Ett komplett slutresultat om hur man exporterar [!DNL Commerce] data till Real-Time CDP, bygg en målgrupp och aktivera sedan målgruppen för [!DNL Commerce], se [Skapa en målgrupp i Real-Time CDP med [!DNL Commerce] händelsedata](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>Ett komplett slutanvändarexempel med information om hur du exporterar [!DNL Commerce]-data till Real-Time CDP finns i [Skapa en målgrupp och aktivera den målgruppen till  [!DNL Commerce] Real-Time CDP med ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).[!DNL Commerce]
 
 ## Real-Time CDP målgruppspanel
 
-Du kan visa alla [aktiv](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) målgrupper som kan personaliseras i Adobe Commerce-instansen med **Real-Time CDP-målgrupper** kontrollpanel.
+Du kan visa alla [aktiva](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) målgrupper som är tillgängliga för anpassning i din Adobe Commerce-instans med kontrollpanelen **Real-Time CDP-målgrupper**.
 
-Så här öppnar du **Real-Time CDP-målgrupper** kontrollpanelen, gå till _Administratör_ sidebar, sedan går du till **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+Gå till sidofältet _Admin_ och gå till **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]** för att komma åt kontrollpanelen **Real-Time CDP Audiences**.
 
-![Real-Time CDP Auditions Dashboard](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
+![Real-Time CDP Audiences Dashboard](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 Kontrollpanelen innehåller följande fält:
 
 | Kolumn | Beskrivning |
 |--- |--- |
-| `Hide filters` | Gör att du kan visa eller dölja alla filter som du kan använda på kontrollpanelen. Det enda filter du kan använda är `Last updated`. Med det här filtret kan du välja ett datumintervall för målgrupper baserat på när de senast uppdaterades. |
+| `Hide filters` | Gör att du kan visa eller dölja alla filter som du kan använda på kontrollpanelen. Det enda filter som du kan använda är `Last updated`. Med det här filtret kan du välja ett datumintervall för målgrupper baserat på när de senast uppdaterades. |
 | `Search` | Gör att du kan söka efter aktiva målgrupper i din Commerce-instans. |
 | `Name` | Namn som ges till målgruppen i Real-Time CDP. |
-| `Origin` | Anger varifrån målgruppen kommer, till exempel `Experience Platform`. |
+| `Origin` | Anger varifrån målgruppen kom, till exempel `Experience Platform`. |
 | `Websites` | Anger vilka webbplatser som är konfigurerade att använda målgrupperna. |
 | `Dynamic Blocks` | Anger vilka dynamiska block som är konfigurerade att använda målgrupperna. |
 | `Cart Price Rules` | Anger vilka kundprisregler som har konfigurerats för att använda målgrupperna. |
 | `Related Product Rules` | Anger vilka relaterade produktregler som har konfigurerats för att använda målgrupperna. |
 | `Last updated` | Anger när målgruppen ändrades i Real-Time CDP. |
 | `Sync now` | Hämtar nya eller uppdaterade målgrupper från Real-Time CDP. |
-| `Customize table` | Här kan du visa eller dölja `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`och `Last updated` kolumner. |
+| `Customize table` | Gör att du kan visa eller dölja kolumnerna `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules` och `Last updated`. |
 
 {style="table-layout:auto"}
 
@@ -218,15 +218,15 @@ Du kan aktivera målgrupper i en headless Adobe Commerce-instans, som AEM och PW
 
 ### Kundprisregler och relaterade produktregler
 
-För kundvagnsprisregler och tillhörande produktregler kommunicerar en headless Store till Experience Platform via [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Ramverket innehåller ett API på serversidan som implementeras med GraphQL. Målgruppsinformation, t.ex. en kunds segment, skickas till Commerce via en GraphQL-huvudparameter med namnet: `aep-segments-membership`.
+För kundvagnsprisregler och relaterade produktregler kommunicerar en headless Store till Experience Platform via [Commerce integrationa frameworken (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Ramverket innehåller ett API på serversidan som implementeras med GraphQL. Målgruppsinformation, till exempel en kunds segment, skickas till Commerce via en GraphQL-huvudparameter med namnet `aep-segments-membership`.
 
 Den övergripande arkitekturen är följande:
 
-![Skicka data från Headless Store till Backend](./assets/aem-commerce-architecture.png){width="700" zoomable="yes"}
+![Skicka data från Headless StoreFront till Backend](./assets/aem-commerce-architecture.png){width="700" zoomable="yes"}
 
-Efter dig [installera](#install-the-extension) och [konfigurera](#configure-the-extension) Experience Platform Web SDK innehåller även målgruppsinformation i form av medlemskap i segment.
+När du har [installerat](#install-the-extension) och [konfigurerat](#configure-the-extension) tillägget innehåller Experience Platform Web SDK målgruppsinformation i form av segmentmedlemskap.
 
-Om du vill hämta segmentmedlemskap från SDK läser du följande [kodfragment](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
+Information om hur du fångar dessa segmentmedlemskap från SDK finns i det här [kodfragmentet](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
 När segmenten har hämtats kan du skicka dem till Commerce i GraphQL sidhuvud. Exempel:
 
@@ -236,7 +236,7 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 
 ### Dynamiska block
 
-För dynamiska block, GraphQL `dynamicBlocks` frågor kan innehålla `audience_id` input-attribut. Om du anger ett eller flera `audience_id` värden i en `dynamicBlocks` returnerar den en lista med dynamiska block som tilldelats dessa målgrupper.
+För dynamiska block kan GraphQL `dynamicBlocks`-frågor innehålla indataattributet `audience_id`. Om du anger ett eller flera `audience_id`-värden i en `dynamicBlocks`-fråga returneras en lista med dynamiska block som tilldelats dessa målgrupper.
 
 #### Exempel på användning
 
@@ -312,7 +312,7 @@ Följande fråga returnerar alla dynamiska block som är associerade med flera m
 }
 ```
 
-Läs mer om `dynamicBlocks` GraphQL-fråga i [dokumentation för utvecklare](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
+Läs mer om GraphQL-frågan `dynamicBlocks` i [utvecklardokumentationen](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
 
 ## Hämta målgrupper med Adobe Experience Platform Mobile SDK
 
@@ -353,13 +353,13 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-När data har hämtats kan ni använda dem för att skapa målgruppsinformation [kundprisregler](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [dynamiska block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) och  [relaterade produktregler](../merchandising-promotions/product-related-rule-create.md) i appen Commerce.
+När data har hämtats kan du använda den för att skapa kundorienterade [kundprisregler](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [dynamiska block](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) och [relaterade produktregler](../merchandising-promotions/product-related-rule-create.md) i Commerce-appen.
 
 ## Målgrupper visas inte i Commerce
 
 Om Real-Time CDP-målgrupper inte visas i Commerce kan det bero på:
 
-- Felaktig autentiseringstyp har valts i **Dataanslutning** konfigurationssida
+- Felaktig autentiseringstyp har valts på konfigurationssidan **Dataanslutning**
 - Otillräckliga privilegier för genererad token
 
 I följande två avsnitt beskrivs hur du felsöker båda fallen.
@@ -367,9 +367,9 @@ I följande två avsnitt beskrivs hur du felsöker båda fallen.
 ### Felaktig autentiseringstyp har valts i konfigurationen
 
 1. Öppna din Commerce-instans.
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
-1. Expandera **[!UICONTROL Services]** och markera **[!UICONTROL [!DNL Data Connection]]**.
-1. Kontrollera auktoriseringsmetoden server-till-server som du angav i **[!UICONTROL Authentication Type]** fältet är korrekt. Adobe rekommenderar att du använder **OAuth**. JWT har tagits bort. [Läs mer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Expandera **[!UICONTROL Services]** och välj **[!UICONTROL [!DNL Data Connection]]**.
+1. Kontrollera att auktoriseringsmetoden server-till-server som du angav i fältet **[!UICONTROL Authentication Type]** är korrekt. Adobe rekommenderar att du använder **OAuth**. JWT har tagits bort. [Läs mer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
 ### Otillräckliga privilegier för genererad token
 
@@ -378,10 +378,10 @@ Problemet kan bero på otillräcklig API-behörighet för den genererade token. 
 1. Identifiera systemadministratören för Adobe Experience Platform i din organisation.
 1. Hitta projektet och autentiseringsuppgifterna som du kommer att använda.
 1. Identifiera e-postadressen till det tekniska kontot, till exempel: `fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com`.
-1. Be systemadministratören starta Adobe Experience Platform och gå till **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
+1. Låt systemadministratören starta Adobe Experience Platform och gå till **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. Använd det tekniska kontots e-postadress ovan för att söka efter de autentiseringsuppgifter som ska ändras.
-1. Öppna inloggningsuppgifterna och välj **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. Lägg till rollen som innehåller **[!UICONTROL Manage destinations]** behörighet.
+1. Öppna autentiseringsuppgifterna och välj sedan **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
+1. Lägg till rollen som innehåller behörigheten **[!UICONTROL Manage destinations]**.
 1. Klicka på **[!UICONTROL Save]**.
 1. [Återskapa](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) åtkomsttoken i konsolen.
-1. Verifiera att token ger ett giltigt svar med [API för målanslutningar](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
+1. Kontrollera att token ger ett giltigt svar med [Target Connections API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).

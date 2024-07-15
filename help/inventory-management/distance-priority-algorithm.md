@@ -5,28 +5,28 @@ exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
 source-git-commit: 023716935a6657b0dc2317876debe608e65bf010
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
 
 # Konfigurera algoritmen för avståndsprioritet
 
-Algoritmen Avståndsprioritet jämför platsen för leveransdestinationsadressen med källplatserna för att fastställa den närmaste källan för leverans av försändelser. Avståndet kan bestämmas genom fysisk sträcka eller tid som tillbringas med att resa från en plats till en annan, med hjälp av databasdata eller körning, gång eller cyklingsanvisningar. Använd den här [Algoritm för källval](selection-reservations.md) för att rekommendera närmaste källa till leveransdestinationsadresser.
+Algoritmen Avståndsprioritet jämför platsen för leveransdestinationsadressen med källplatserna för att fastställa den närmaste källan för leverans av försändelser. Avståndet kan bestämmas genom fysisk sträcka eller tid som tillbringas med att resa från en plats till en annan, med hjälp av databasdata eller körning, gång eller cyklingsanvisningar. Använd den här [Source-algoritmen](selection-reservations.md) för att rekommendera närmaste källa till leveransmåladresserna.
 
 >[!NOTE]
 >
->Om du använder algoritmen för prioritetsavstånd anger du den fullständiga gatuadressen och GPS-koordinaterna för din [källor](sources-add.md) rekommenderas.
+>Om du använder algoritmen för avståndsprioritet bör du ange den fullständiga gatuadressen och GPS-koordinaterna för dina [källor](sources-add.md).
 
 Du har två alternativ för att beräkna avståndet och tiden för att hitta den närmaste källan för leverans:
 
-- **GOOGLE MAP** - Användare [Google Maps Platform][1] tjänster för att beräkna avståndet och tiden mellan leveransdestinationsadressen och källplatserna. Det här alternativet använder källans latitud- och longitudkoordinater (GPS-koordinater) och kan använda gatuadressen beroende på beräkningsläget. En Google API-nyckel krävs med [API för geokodning][2] och [Avståndsmatris-API][3] aktiverat och du kan debiteras via Google.
+- **Google MAP** - Använder [Google Maps Platform][1]-tjänster för att beräkna avståndet och tiden mellan leveransdestinationsadressen och källplatserna. Det här alternativet använder källans latitud- och longitudkoordinater (GPS-koordinater) och kan använda gatuadressen beroende på beräkningsläget. En Google API-nyckel krävs med [API för geokodning][2] och [API:t för distansmatris][3] aktiverat, och du kan debiteras via Google.
 
-- **Offlineberäkning** - Beräknar avståndet med nedladdade och importerade geokoddata med hjälp av postnummer och GPS-koordinater för att fastställa den närmaste källan till leveransens måladress. Om du vill konfigurera det här alternativet kan du behöva utvecklarhjälp för att initialt hämta och importera geokoder med kommandoradsinstruktioner.
+- **Offlineberäkning** - Beräknar avståndet med nedladdade och importerade geokoddata med hjälp av postkoder och GPS-koordinater för att fastställa den närmaste källan till leveransens måladress. Om du vill konfigurera det här alternativet kan du behöva utvecklarhjälp för att initialt hämta och importera geokoder med kommandoradsinstruktioner.
 
 >[!NOTE]
 >
->För webbplatser med flera länder konfigurerar du [standardskattemål](../stores-purchase/tax-class.md#default-tax-destination){target="_blank"} för varje land.
+>Konfigurera [standardskattemålet](../stores-purchase/tax-class.md#default-tax-destination){target="_blank"} för varje land för en webbplats med flera länder.
 
 ## Använd Google Maps
 
@@ -35,11 +35,11 @@ Avståndsbaserad algoritm för Google MAP rekommenderas som mer avancerad och ex
 
 ### Steg 1: Skapa Google API-nyckeln
 
-Nyckeln finns i [Google Maps Platform][1] och borde ha [API för geokodning][2] och [Avståndsmatris-API][3] aktiverat. Mer information finns i [Konfigurerar algoritmen för avståndsprioritet](distance-priority-algorithm.md).
+Nyckeln är från [Google Maps Platform][1] och ska ha [API för geokodning][2] och [API för distansmatris][3] aktiverat. Mer information finns i [Konfigurera algoritmen för avståndsprioritet](distance-priority-algorithm.md).
 
-1. Besök [Google Maps Platform][1] och klicka **[!UICONTROL Get Started]**.
+1. Gå till [Google Maps Platform][1] och klicka på **[!UICONTROL Get Started]**.
 
-1. Aktivera plattformen genom att välja **[!UICONTROL Maps, Routes, and Places]** och klicka **[!UICONTROL Continue]**.
+1. Om du vill aktivera plattformen väljer du **[!UICONTROL Maps, Routes, and Places]** och klickar på **[!UICONTROL Continue]**.
 
    ![Google Maps Platform för din nyckel](assets/inventory-google-key1.png){width="350" zoomable="yes"}
 
@@ -57,64 +57,64 @@ Nyckeln finns i [Google Maps Platform][1] och borde ha [API för geokodning][2] 
 
    Det krävs ett faktureringskonto för att använda den här tjänsten.
 
-1. Om du vill öppna och konfigurera dina alternativ för Google Cloud-plattformen klickar du på **[!UICONTROL Console]**.
+1. Klicka på **[!UICONTROL Console]** om du vill öppna och konfigurera dina alternativ för Google Cloud-plattformen.
 
    - Öppna projektet.
 
-   - Expandera menyn och klicka **[!UICONTROL APIs & Services]** > **[!UICONTROL Library]**.
+   - Expandera menyn och klicka på **[!UICONTROL APIs & Services]** > **[!UICONTROL Library]**.
 
      ![Google API Services](assets/inventory-google-key2.png){width="350" zoomable="yes"}
 
-   - Sök efter [API för geokodning][2] och [Avståndsmatris-API][3]. Välj och aktivera varje tjänst.
+   - Sök efter [API för geokodning][2] och [API för avståndsmatris][3]. Välj och aktivera varje tjänst.
 
-1. Expandera menyn, klicka på **[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]** och kopiera API-nyckeln för Google.
+1. Expandera menyn, klicka på **[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]** och kopiera Google API-nyckeln.
 
    ![Google API Key Copy](assets/inventory-google-key3.png){width="350" zoomable="yes"}
 
 ### Steg 2: Konfigurera Google MAP Provider
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Catalog]** och välja **[!UICONTROL Inventory]**.
+1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Inventory]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Distance Provider for Distance Based SSA]_avsnitt och ange **[!UICONTROL Provider]**till `Google MAP`.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Distance Provider for Distance Based SSA]_och ange **[!UICONTROL Provider]**till `Google MAP`.
 
-   ![Tillhandahållare för distansbaserad SSA](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
+   ![Providers för distansbaserad SSA](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Google Distance Provider]_och konfigurera inställningarna:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Google Distance Provider]_och konfigurera inställningarna:
 
    - För **[!UICONTROL Google API Key]** anger du nyckeln som kopierats från ditt Google-konto.
 
-   - För **[!UICONTROL Computation mode]** väljer du en konfiguration.
+   - Välj en konfiguration för **[!UICONTROL Computation mode]**.
 
      >[!NOTE]
      >
-     >Om rutter och data inte returneras för det valda beräkningsläget (körning, cykling eller gång) för en leverans när den här algoritmen används för leverans, används som standard källprioritet. Ange [prioritet för källor per lager](stocks-prioritize-sources.md) rekommenderas.
+     >Om rutter och data inte returneras för det valda beräkningsläget (körning, cykling eller gång) för en leverans när den här algoritmen används för leverans, används som standard Source-prioritet. Du bör ange [prioritet för källor per lager](stocks-prioritize-sources.md).
 
      | Alternativ | Beskrivning |
      | ----- | ----- |
      | `Driving` | (Standard) Begär standardvägbeskrivningar för körning i vägnätet. |
      | `Walking` | Begär vägbeskrivningar där man kan gå med hjälp av fotgängarbanor och sidewalks (där sådana finns). |
-     | `Bicycling` | Begär cykelväggar med cykliska banor och önskade gator (om sådana finns). The [Avståndsmatristjänst][4] finns endast i USA och vissa kanadensiska städer. |
+     | `Bicycling` | Begär cykelväggar med cykliska banor och önskade gator (om sådana finns). [Distance Matrix Service][4] är bara tillgänglig i USA och vissa kanadensiska städer. |
 
-   - För **[!UICONTROL Value]** väljer du en värdetyp:
+   - Välj en värdetyp för **[!UICONTROL Value]**:
 
      | Alternativ | Beskrivning |
      | ----- | ----- |
      | `Distance` | (Standard) Returnerar avståndet mellan punkter i mätvärden (kilometer och meter) eller i imperium (engelska mil och fot). |
      | `Time to Destination` | Returnerar den tid som krävs för att resa från källplatserna till leveransadressen i timmar och minuter. |
 
-   ![Google distansleverantör](assets/config-catalog-inventory-distance-provider-settings.png){width="350" zoomable="yes"}
+   ![Google Distance Provider](assets/config-catalog-inventory-distance-provider-settings.png){width="350" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Använd offlineberäkning
 
-Vid offlineberäkningar används landskoder för att fastställa avståndet mellan leveransdestinationen och källadresserna. Det här alternativet kan kräva utvecklarhjälp för att konfigurera. Använd en [!DNL Inventory Management] CLI-kommando för att hämta och importera data från [geonames.org][5].
+Vid offlineberäkningar används landskoder för att fastställa avståndet mellan leveransdestinationen och källadresserna. Det här alternativet kan kräva utvecklarhjälp för att konfigurera. Använd ett [!DNL Inventory Management] CLI-kommando för att hämta och importera data från [geonames.org][5].
 
 >[!NOTE]
 >
->Importerade geokoder från [geonames.org][5] har begränsningar för vissa länder, som Kanada och Irland. Se [GeoNames-postkodfiler][6] för mer information.
+>Importerade geokoder från [geonames.org][5] har begränsningar för vissa länder, till exempel Kanada och Irland. Mer information finns i [GeoNames-postkodfiler][6].
 
 ### Steg 1: Hämta och importera geokoder
 
@@ -124,17 +124,17 @@ Slutför dessa kommandon när du vill lägga till fler geokoder.
 
 ### Steg 2: Ange beräkningen
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Catalog]** och välja **[!UICONTROL Inventory]**.
+1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Inventory]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Distance Provider for Distance Based SSA]_-avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Distance Provider for Distance Based SSA]_.
 
-1. Avmarkera **[!UICONTROL Use system value]** kryssruta och ange **[!UICONTROL Provider]** till `Offline Calculation`.
+1. Avmarkera kryssrutan **[!UICONTROL Use system value]** och ange **[!UICONTROL Provider]** till `Offline Calculation`.
 
-   ![Avståndsleverantörer för avståndsbaserad SSA](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
+   ![Avståndsproviders för avståndsbaserad SSA](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 [1]: https://cloud.google.com/maps-platform/
 [2]: https://developers.google.com/maps/documentation/geocoding/start

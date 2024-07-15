@@ -1,7 +1,7 @@
 ---
 user-guide-title: ”[!DNL Adobe Commerce B2B] Användarhandbok”
 user-guide-description: Lär dig använda de integrerade B2B-funktionerna för Adobe Commerce,
-breadcrumb-title: "[!DNL Adobe Commerce B2B]"
+breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
@@ -30,11 +30,11 @@ ht-degree: 1%
    + [Tilldela en kundgrupp till ett företag](account-company-customer-group.md)
    + [Lägga till kunder i ett företag](customer-assign-company.md)
    + [Hantera företagskrediter](credit-company.md)
-   + Företagsanvändare och -struktur {#users}
+   + Företagsanvändare och struktur {#users}
       + [Företagets användarkonton](account-company-users.md)
       + [Företagsroller och behörigheter](account-company-roles-permissions.md)
       + [Definiera företagsstruktur](account-company-structure.md)
-+ Företagsledning {#company-management}
++ Företagshantering {#company-management}
    + [Ökning](manage-companies.md)
    + [Hantera företagshierarki](assign-companies.md)
 + Delade kataloger {#shared-catalogs}
@@ -50,7 +50,7 @@ ht-degree: 1%
    + [Inköpsorder för företag](purchase-order-flow.md)
    + [Godkännanderegler](account-dashboard-approval-rules.md)
    + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
-+ Citat {#quotes}
++ Citattecken {#quotes}
    + [Ökning](quotes.md)
    + [Konfigurera offerter](configure-quotes.md)
    + [Anbudsförfrågan](quote-request.md)

@@ -5,7 +5,7 @@ exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Dessa rekommenderade inställningar kan användas för de flesta momskonfigurati
 
 >[!IMPORTANT]
 >
->Merchants in a GST/PST Province (Montreal) should create one tax rule and show a combined tax amount. Kontakta en behörig skattemyndighet om du har några frågor. Information om skattekrav för specifika provinser finns i följande: [Revenu Québec][1], [Saskatchewans regering][2]och [Manitoba Information for Vendors][3]
+>Merchants in a GST/PST Province (Montreal) should create one tax rule and show a combined tax amount. Kontakta en behörig skattemyndighet om du har några frågor. Mer information om skattekrav för specifika provinser finns i följande: [Revenu Québec][1], [Government of Saskatchewan][2] och [Manitoba Information for Vendors][3]
 
 | Momsalternativ | Rekommendation |
 |--- |--- |
@@ -160,11 +160,11 @@ I följande exempel visas hur du ställer in GST-skattesatser för Kanada och PS
 
 ### Steg 1: Fullständiga inställningar för momsberäkning
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. För en konfiguration med flera platser anger du **[!UICONTROL Store View]** till den webbplats och butik som är målet för konfigurationen.
+1. Om du vill ha en konfiguration med flera platser anger du **[!UICONTROL Store View]** till webbplatsen och lagret som är målet för konfigurationen.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Tax]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Tax]**.
 
 1. Klicka för att expandera varje avsnitt på sidan och slutföra följande inställningar:
 
@@ -186,7 +186,7 @@ I följande exempel visas hur du ställer in GST-skattesatser för Kanada och PS
 
 | Fält | Rekommenderad inställning |
 |--- |--- |
-| [!UICONTROL Tax Class for Shipping] | `Shipping` (frakten beskattas) |
+| [!UICONTROL Tax Class for Shipping] | `Shipping` (frakt beskattas) |
 
 {style="table-layout:auto"}
 
@@ -258,7 +258,7 @@ Ställ in en annan skattesats för den tillämpliga provinsen.
 
 ### Steg 4: Skapa en momsregel
 
-För att undvika att lägga till moms och för att korrekt visa den beräknade momsen som separata radartiklar för GST och PST, anger du olika prioriteter för varje regel och väljer **Beräkna endast av delsumma** kryssrutan. Varje moms visas som en separat radartikel, men momsbeloppen är inte sammansatta.
+Om du vill undvika att momsen blandas och visa den beräknade momsen som separata radobjekt för GST och PST, anger du olika prioriteter för varje regel och markerar kryssrutan **Beräkna endast för delsumma**. Varje moms visas som en separat radartikel, men momsbeloppen är inte sammansatta.
 
 #### Information om momsregel
 
@@ -276,7 +276,7 @@ För att undvika att lägga till moms och för att korrekt visa den beräknade m
 
 ### Steg 5: Skapa en PST-momsregel för Saskatchewan
 
-För den här momsregeln måste du ange prioriteten till 0 och välja **Beräkna endast av delsumma** kryssrutan. Varje moms visas som en separat radartikel, men momsbeloppen är inte sammansatta.
+För den här momsregeln måste du ange prioriteten till 0 och markera kryssrutan **Beräkna endast för delsumma**. Varje moms visas som en separat radartikel, men momsbeloppen är inte sammansatta.
 
 #### Information om momsregel
 
@@ -294,7 +294,7 @@ För den här momsregeln måste du ange prioriteten till 0 och välja **Beräkna
 
 ### Steg 6: Spara och testa resultaten
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 1. Gå tillbaka till butiken och skapa en exempelordning för att testa resultaten.
 
@@ -324,10 +324,10 @@ Skapa följande skattesatser:
 
 | Skattesatser | Inställningar |
 |--- |--- |
-| France-StandardVAT | Land: Frankrike <br/>Delstat/region: * <br/>Postnummer: * <br/>Hastighet: 20 % |
-| Frankrike-reduceradmoms | Land: Frankrike <br/>Delstat/region: * <br/>Postnummer: * <br/>Frekvens: 5 % |
-| Tyskland - StandardVAT | Land: Tyskland <br/>Delstat/region: * <br/>Postnummer: * Andel: 19 % |
-| Tyskland-reduceradMoms | Land: Tyskland <br/>Delstat/region: * <br/>Postnummer: * <br/>Frekvens: 7 % |
+| France-StandardVAT | Land: Frankrike <br/>Delstat/region: * <br/>Postnummer: * <br/>Andel: 20 % |
+| Frankrike-reduceradmoms | Land: Frankrike <br/>Delstat/region: * <br/>Postnummer: * <br/>Rate: 5 % |
+| Tyskland - StandardVAT | Land: Tyskland <br/>Delstat/region: * <br/>Postnummer: * Hastighet: 19 % |
+| Tyskland-reduceradMoms | Land: Tyskland <br/>Delstat/region: * <br/>Postnummer: * <br/>Kurs: 7 % |
 
 {style="table-layout:auto"}
 
@@ -337,32 +337,32 @@ Skapa följande momsregler:
 
 | Skatteregler | Inställningar |
 |--- |--- |
-| Retail-France-StandardVAT | Kundklass: Detaljhandelskund <br/>Momsklass: MOMS-Standard <br/>Momssats: France-StandardVAT <br/>Prioritet: 0 <br/>Sorteringsordning: 0 |
-| Retail-France-ReducedVAT | Kundklass: Detaljhandelskund <br/>Skatteklass: reducerad moms <br/>Momssats: Frankrike-reducerad moms <br/>Prioritet: 0 <br/>Sorteringsordning: 0 |
-| Retail-Germany-StandardVAT | Kundklass: Detaljhandelskund <br/>Momsklass: MOMS-Standard <br/>Momssats: Tyskland-StandardVAT <br/>Prioritet: 0 <br/>Sorteringsordning: 0 |
-| Retail-Germany-ReducedVAT | Kundklass: Detaljhandelskund <br/>Momsklass: Momsreducerad <br/>Momssats: tysk-reducerad moms <br/>Prioritet: 0 <br/>Sorteringsordning: 0 |
+| Retail-France-StandardVAT | Kundklass: Butikskund <br/>Skatteklass: moms-standard <br/>Momssats: Frankrike-StandardMoms <br/>Prioritet: 0 <br/>Sorteringsordning: 0 |
+| Retail-France-ReducedVAT | Kundklass: Butikskund <br/>Momsklass: Moms reducerad <br/>Momssats: Frankrike-reduceradMoms <br/>Prioritet: 0 <br/>Sorteringsordning: 0 |
+| Retail-Germany-StandardVAT | Kundklass: Butikskund <br/>Skatteklass: moms-standard <br/>Momssats: Tyskland-StandardMoms <br/>Prioritet: 0 <br/>Sorteringsordning: 0 |
+| Retail-Germany-ReducedVAT | Kundklass: Butikskund <br/>Skatteklass: Momsreducerad <br/>Momssats: tysk-reduceradMoms <br/>Prioritet: 0 <br/>Sorteringsordning: 0 |
 
 {style="table-layout:auto"}
 
 ### Steg 4: Konfigurera en butiksvy för Tyskland
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**på sidofältet_ Admin _.
 
-1. Skapa en butiksvy för **[!UICONTROL Germany]**.
+1. Skapa en butiksvy för **[!UICONTROL Germany]** under standardwebbplatsen.
 
 1. Gör sedan följande:
 
-   - På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
    - I det övre vänstra hörnet anger du **[!UICONTROL Default Config]** till den franska butiken.
 
-   - Utöka på sidan Allmänt ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Countries Options]** och ange standardlandet till `France`.
+   - Expandera ![Expanderingsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Countries Options]** på sidan Allmänt och ange standardlandet till `France`.
 
    - Slutför språkinställningarna efter behov.
 
-1. I det övre vänstra hörnet väljer du tyska **[!UICONTROL Store View]**.
+1. Välj tyska **[!UICONTROL Store View]** i det övre vänstra hörnet.
 
-1. På _Allmänt_ sida, expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** och ange standardlandet till `Germany`.
+1. På sidan _Allmänt_ expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** och anger standardlandet till `Germany`.
 
 1. Slutför språkinställningarna efter behov.
 
@@ -373,7 +373,7 @@ Ange följande allmänna skatteinställningar:
 | Fält | Rekommenderad inställning |
 |--- |--- |
 | [[!UICONTROL Tax Classes]](../configuration-reference/sales/tax.md#tax-classes) |  |
-| [!UICONTROL Tax Class for Shipping] | `Shipping` (frakten beskattas) |
+| [!UICONTROL Tax Class for Shipping] | `Shipping` (frakt beskattas) |
 | [[!UICONTROL Calculation Settings]](../configuration-reference/sales/tax.md#calculation-settings) |  |
 | [!UICONTROL Tax Calculation Method Based On] | `Total` |
 | [!UICONTROL Tax Calculation Based On] | `Shipping Address` |
@@ -397,27 +397,27 @@ Ange följande allmänna skatteinställningar:
 
 ### Steg 6: Konfigurera skatteinställningar för Tyskland
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. I det övre högra hörnet anger du **[!UICONTROL Store View]** till den tyska butiken och klicka **[!UICONTROL OK]** för att bekräfta.
+1. I det övre högra hörnet anger du **[!UICONTROL Store View]** till vyn till den tyska butiken och klickar på **[!UICONTROL OK]** för att bekräfta.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Tax]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Tax]**.
 
-1. I **[!UICONTROL Default Tax Destination Calculation]** gör du följande:
+1. Gör följande i avsnittet **[!UICONTROL Default Tax Destination Calculation]**:
 
-   - Rensa **[!UICONTROL Use Website]** kryssruta efter varje fält,
+   - Avmarkera kryssrutan **[!UICONTROL Use Website]** efter varje fält,
 
-   - För att matcha din webbplats leveransinställningar [ursprungspunkt](shipping-settings.md#point-of-origin)uppdaterar du följande värden:
+   - Uppdatera följande värden om du vill matcha webbplatsens leveransinställningar [punkt ](shipping-settings.md#point-of-origin):
 
       - Standardland
       - Standardläge
-      - Standardpostnummer
+      - Post-standardkod
 
      Den här inställningen ser till att momsen beräknas korrekt när produktpriserna inkluderar moms.
 
-     ![Beräkning av standardskattedestination](./assets/destination-calc-french.png){width="600" zoomable="yes"}
+     ![Beräkning av standardmomsmål](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 [1]: https://www.revenuquebec.ca/en/businesses/
 [2]: https://www.saskatchewan.ca/finance

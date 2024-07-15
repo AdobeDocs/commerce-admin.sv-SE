@@ -5,7 +5,7 @@ exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -22,33 +22,33 @@ Presentkortskonfigurationen fastställer standardinställningarna för alla pres
 
 ### Steg 1: Konfigurera e-postmeddelanden
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Gift Cards]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Gift Cards]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Gift Card Email Settings]_och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Gift Card Email Settings]_och gör följande:
 
    - Ange **[!UICONTROL Gift Card Notification Email Sender]** till den butiksidentitet som visas som avsändare av presentkortsmeddelanden.
 
    - Ange **[!UICONTROL Gift Card Notification Email Template]** till mallen som används för meddelandet.
 
-   ![E-postinställningar för presentkort](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
+   ![Inställningar för e-post med presentkort](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Email Sent from Gift Card Account Management]_och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Email Sent from Gift Card Account Management]_och gör följande:
 
    - Ange **[!UICONTROL Gift Card Email Sender]** till butiksidentiteten så att den visas som avsändare av presentkorten.
 
    - Ange **[!UICONTROL Gift Card Template]** till den mall som du vill använda för presentkortet.
 
-Se [E-postadresser för butik](../configuration-reference/general/store-email-addresses.md) för specifika konfigurationsfält och alternativ.
+Se [Lagra e-postadresser](../configuration-reference/general/store-email-addresses.md) för specifika konfigurationsfält och alternativ.
 
 ### Steg 2: Slutför de allmänna inställningarna
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Gift Card General Settings]_-avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Gift Card General Settings]_.
 
-1. Ställ in så att kunden kan lösa in värdet på kortet för kontanter **[!UICONTROL Redeemable]** till `Yes`.
+1. Om du vill tillåta kunden att lösa in värdet på kortet för kontanter anger du **[!UICONTROL Redeemable]** till `Yes`.
 
-1. För **[!UICONTROL Lifetime (days)]** anger du antalet dagar innan kortet går ut.
+1. För **[!UICONTROL Lifetime (days)]** anger du antalet dagar innan kortet förfaller.
 
    Om det inte finns något förfallodatum lämnar du fältet tomt.
 
@@ -56,18 +56,18 @@ Se [E-postadresser för butik](../configuration-reference/general/store-email-ad
    >
    >Beroende på var du befinner dig kan det vara olagligt att ett presentkort upphör att gälla. Kontrollera de lokala lagarna innan du anger en livstid för dina presentkort.
 
-1. Om du vill att kunderna ska kunna skriva ett meddelande som medföljer presentkortet anger du **[!UICONTROL Allow Gift Message]** till `Yes` och ange antalet tecken som är tillgängliga för meddelandet för **[!UICONTROL Gift Message Maximum Length]**.
+1. Om du vill att kunderna ska kunna ange ett meddelande som medföljer presentkortet anger du **[!UICONTROL Allow Gift Message]** till `Yes` och anger antalet tecken som är tillgängliga för meddelandet för **[!UICONTROL Gift Message Maximum Length]**.
 
 1. Ange **[!UICONTROL Generate Gift Card Account when Orders Item is]** till något av följande:
 
    - `Ordered` - Presentkortskontot skapas när ordern placeras.
-   - `Invoiced` - Presentkortskontot skapas när betalningen har tagits och ordern har fakturerats.
+   - `Invoiced` - Presentkortskontot skapas när betalningen har hämtats och ordern har fakturerats.
 
    ![Allmänna inställningar för presentkort](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png){width="600" zoomable="yes"}
 
 ### Steg 3: Upprätta poolen med presentkortskoder
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Gift Card Account General Settings]_och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Gift Card Account General Settings]_och gör följande:
 
    ![Allmänna inställningar för presentkortskonto](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
@@ -79,59 +79,59 @@ Se [E-postadresser för butik](../configuration-reference/general/store-email-ad
       - Kodsuffix
       - Streck var X tecken
 
-   - Ange antalet koder som ska genereras **[!UICONTROL New Pool Size]**.
+   - Ange **[!UICONTROL New Pool Size]** om du vill avgöra hur många koder som ska genereras.
 
-   - Om du vill ange när du får ett meddelande om att återställa kodpoolen anger du **[!UICONTROL Low Code Pool Threshold]**.
+   - Ange **[!UICONTROL Low Code Pool Threshold]** om du vill ange när du får ett meddelande om att återställa kodpoolen.
 
-1. Innan du genererar kodpoolen klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** innan du genererar kodpoolen.
 
 1. Klicka på **[!UICONTROL Generate]**.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Granska ett befintligt presentkortskonto
 
 1. Så här hittar du numret på presentkortskontot för en aktuell order:
 
-   - På _Administratör_ sidebar, gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+   - Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**på sidofältet_ Admin _.
 
-   - Hitta ordningen i listan och klicka på **[!UICONTROL View]** i _[!UICONTROL Action]_kolumn.
+   - Leta reda på ordningen i listan och klicka på **[!UICONTROL View]** i kolumnen _[!UICONTROL Action]_.
 
-   - Bläddra nedåt till _[!UICONTROL Items Ordered]_-avsnitt.
+   - Bläddra ned till avsnittet _[!UICONTROL Items Ordered]_.
 
-   Talet finns i _[!UICONTROL Product]_kolumn, under **[!UICONTROL Gift Card Accounts]**.
+   Talet finns i kolumnen _[!UICONTROL Product]_, under **[!UICONTROL Gift Card Accounts]**.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**på sidofältet_ Admin _.
 
 1. Hitta presentkortskontot i rutnätet och öppna det i redigeringsläge.
 
-   Presentkortskoden visas högst upp på _Information_ -avsnitt.
+   Presentkortskoden visas högst upp i avsnittet _Information_.
 
-   ![Kontoinformation för presentkort](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
+   ![Information om presentkortskonto](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
 
 ## Skapa ett presentkortskonto
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**på sidofältet_ Admin _.
 
-1. Klicka i det övre högra hörnet **[!UICONTROL Add Gift Card Account]**.
+1. Klicka på **[!UICONTROL Add Gift Card Account]** i det övre högra hörnet.
 
-1. I _[!UICONTROL Information]_avsnitt, ange **[!UICONTROL Active]**till `Yes` och gör följande:
+1. I avsnittet _[!UICONTROL Information]_anger du **[!UICONTROL Active]**till `Yes` och gör följande:
 
-   - Ställ in så att kortsaldot kan lösas in vid utcheckning eller överföras till kundens butikskrediter **[!UICONTROL Redeemable]** till `Yes`.
+   - Om du vill att kortsaldot ska kunna lösas in vid utcheckning eller överföras till kundens butikskrediter anger du **[!UICONTROL Redeemable]** till `Yes`.
 
-   - Välj **[!UICONTROL Website]** där presentkortet kan användas.
+   - Välj **[!UICONTROL Website]** där presentkortskontot kan användas.
 
-   - Ange den ursprungliga **[!UICONTROL Balance]** på presentkortet.
+   - Ange den första **[!UICONTROL Balance]** på presentkortet.
 
-   - _(Valfritt)_ Så här anger du **[!UICONTROL Expiration Date]** för presentkortet, välj datumet i kalendern ![Kalenderikon](../assets/icon-calendar.png).
+   - _(Valfritt)_ Om du vill ange ett **[!UICONTROL Expiration Date]** för presentkortet väljer du datumet i kalenderns ![kalenderikon](../assets/icon-calendar.png).
 
      Om inget anges går presentkortskontot inte ut.
 
      ![Nytt konto](./assets/gift-card-account-add-new.png){width="600" zoomable="yes"}
 
-1. Välj **[!UICONTROL Send Gift Card]** och gör följande:
+1. Välj **[!UICONTROL Send Gift Card]** i den vänstra panelen och gör följande:
 
-   - Ange **[!UICONTROL Recipient Email]** adress.
+   - Ange **[!UICONTROL Recipient Email]**-adressen.
 
    - Ange **[!UICONTROL Recipient Name]**.
 
@@ -141,7 +141,7 @@ Se [E-postadresser för butik](../configuration-reference/general/store-email-ad
 
 1. Spara det nya kontot genom att göra något av följande:
 
-   - Om du inte vill skicka presentkortet klickar du på **[!UICONTROL Save]**.
+   - Om du inte är redo att skicka presentkortet klickar du på **[!UICONTROL Save]**.
 
    - Om du vill spara ändringarna och skicka presentkortet via e-post till mottagaren klickar du på **Spara och skicka e-post**.
 
@@ -151,7 +151,7 @@ Se [E-postadresser för butik](../configuration-reference/general/store-email-ad
 
 1. Öppna presentkortet i redigeringsläge.
 
-1. The **[!UICONTROL History]** av presentkortet.
+1. **[!UICONTROL History]** av presentkortet visas.
 
    ![Presentkortshistorik](./assets/gift-card-history.png){width="600" zoomable="yes"}
 
@@ -168,13 +168,13 @@ Se [E-postadresser för butik](../configuration-reference/general/store-email-ad
 
 ## Ta bort ett presentkortskonto
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**på sidofältet_ Admin _.
 
 1. Markera presentkortskontot som ska tas bort och öppna det i redigeringsläge.
 
-1. Klicka på **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL Delete]** på menyraden.
 
-1. Bekräfta åtgärden genom att klicka **[!UICONTROL OK]**.
+1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
 
 ## Kolumnbeskrivningar
 

@@ -6,7 +6,7 @@ role: Admin
 feature: Configuration, Security
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -15,18 +15,18 @@ ht-degree: 0%
 
 Precis som de flesta webbplatser och tillämpningar på Internet kräver Adobe Commerce och Magento Open Source att besökarens webbläsare tillåter både cookies och JavaScript för att fungera fullt ut. Ibland är dock användarens webbläsare inställd på den högsta sekretessinställningen som förhindrar både cookies och JavaScript. Din butik kan konfigureras för att testa funktionerna i varje besökares webbläsare och visa ett meddelande om inställningarna behöver ändras.
 
-- Om webbläsarens sekretessinställningar inte tillåter cookies kan du konfigurera systemet så att de dirigeras om automatiskt till [Aktivera cookies](../content-design/pages.md#enable-cookies) som förklarar hur du gör de rekommenderade inställningarna i de flesta webbläsare.
+- Om webbläsarens sekretessinställningar inte tillåter cookies kan du konfigurera systemet så att de dirigeras om automatiskt till sidan [Aktivera cookies](../content-design/pages.md#enable-cookies) , som förklarar hur du gör de rekommenderade inställningarna i de flesta webbläsare.
 - Om webbläsarens sekretessinställningar inte tillåter JavaScript kan du konfigurera systemet så att följande meddelande visas ovanför sidhuvudet på varje sida.
 
-Teknisk information finns i [Webbläsare som stöds](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) i _Installationshandbok_.
+Mer teknisk information finns i [Webbläsare som stöds](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) i _installationshandboken_.
 
 ## Konfigurera identifiering av webbläsarfunktioner
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. På panelen till vänster under _[!UICONTROL General]_, välja **[!UICONTROL Web]**.
+1. Välj **[!UICONTROL Web]** på panelen till vänster under _[!UICONTROL General]_.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Browser Capabilities Detection]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Browser Capabilities Detection]** och gör följande:
 
    - Om du vill visa instruktioner som förklarar hur du konfigurerar webbläsaren så att cookies tillåts anger du **[!UICONTROL Redirect to CMS-page if Cookies are Disabled]** till `Yes`.
 
@@ -36,4 +36,4 @@ Teknisk information finns i [Webbläsare som stöds](https://experienceleague.ad
 
    ![Allmän konfiguration - identifiering av webbläsarfunktioner](../configuration-reference/general/assets/web-browser-capabilities-detection.png){width="600" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

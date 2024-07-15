@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Infoga en widget i redigeraren
 
-The [widget](widget-create.md) kan användas för att lägga till olika innehållselement på sidan, inklusive länkar till en Commerce-innehållssida eller -nod, produkt eller kategori. Länkarna kan placeras på sidan i ett blockformat, eller infogas direkt i innehållet. Du kan använda widgetverktyget för att skapa länkar till följande typer av innehåll:
+Verktyget [widget](widget-create.md) kan användas för att lägga till olika innehållselement på sidan, bland annat länkar till en Commerce-innehållssida eller -nod, produkt eller kategori. Länkarna kan placeras på sidan i ett blockformat, eller infogas direkt i innehållet. Du kan använda widgetverktyget för att skapa länkar till följande typer av innehåll:
 
 - [Innehållssidor](pages.md)
 - [Katalogkategorier](../catalog/categories.md)
@@ -23,19 +23,19 @@ Som standard ärver länkar sin stil från temats formatmall.
 
 1. Öppna en sida, ett block eller ett dynamiskt block i redigeringsläge.
 
-1. Gå till _[!UICONTROL Content]_och klicka på ett element som stöder redigeraren.
+1. Gå till avsnittet _[!UICONTROL Content]_och klicka på ett element som stöder redigeraren.
 
-1. Placera markören där du vill att widgeten ska visas och klicka på _Infoga widget_ -ikon.
+1. Placera markören där du vill att widgeten ska visas och klicka på ikonen _Infoga widget_ .
 
-   ![Verktygsfältet Redigerare - Infoga widget](./assets/editor-toolbar-widget-button.png){width="700" zoomable="yes"}
+   ![Verktygsfältet för redigeraren - Infoga widget](./assets/editor-toolbar-widget-button.png){width="700" zoomable="yes"}
 
-   Om Page Builder inte är aktiverat och du föredrar att arbeta med koden klickar du på **[!UICONTROL Show / Hide Editor]**. Placera insättningspunkten i texten där du vill att widgeten ska visas. Klicka sedan på **[!UICONTROL Insert Widget]**.
+   Om du inte har Page Builder aktiverat och föredrar att arbeta med koden klickar du på **[!UICONTROL Show / Hide Editor]**. Placera insättningspunkten i texten där du vill att widgeten ska visas. Klicka sedan på **[!UICONTROL Insert Widget]**.
 
 1. Välj **[!UICONTROL Widget Type]**.
 
    Mer information om de här alternativen finns i [Widgettyper](widgets.md#widget-types). I följande steg används ett exempel för att infoga en länk till en produkt.
 
-1. Om du vill använda produktnamnet lämnar du **[!UICONTROL Anchor Custom Text]** fältet är tomt.
+1. Om du vill använda produktnamnet lämnar du fältet **[!UICONTROL Anchor Custom Text]** tomt.
 
 1. Ange en **[!UICONTROL Anchor Custom Title]** för bästa SEO-praxis.
 
@@ -47,14 +47,14 @@ Som standard ärver länkar sin stil från temats formatmall.
 
    - Om du vill placera länken på en separat rad väljer du `Product Link Block Template`.
 
-1. Klicka **[!UICONTROL Select Product]** och gör följande:
+1. Klicka på **[!UICONTROL Select Product]** och gör följande:
 
    - Gå till önskad kategori i trädet.
 
    - Välj den länkade produkten i listan.
 
-1. Klicka **[!UICONTROL Insert Widget]** för att placera länken på sidan.
+1. Klicka på **[!UICONTROL Insert Widget]** för att placera länken på sidan.
 
-   Om du arbetar med HTML-kod visas en [markeringstagg](../systems/markup-tags.md) för länken visas högst upp på sidan, omslutna av dubbla klammerparenteser. Använd _Klipp ut och klistra in_ om du vill placera markeringstaggen i koden där du vill att länken ska visas.
+   Om du arbetar med HTML-kod visas en [märkordstagg](../systems/markup-tags.md) för länken överst på sidan, omsluten av dubbla klammerparenteser. Använd vid behov _Klipp ut och Klistra in_ för att placera taggen i koden där du vill att länken ska visas.
 
-1. När redigeringen är klar klickar du på **[!UICONTROL Save]**.
+1. När dina innehållsredigeringar är klara klickar du på **[!UICONTROL Save]**.

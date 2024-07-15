@@ -16,11 +16,11 @@ Adobe Commerce och Magento Open Source har stöd för olika prisalternativ som d
 
 Hantera priser för era produkter med avancerade priser för att erbjuda kunderna bättre priser som uppmuntrar kunderna att spendera mer, driva trafiken till er webbplats och rensa gamla bördor.
 
-The _[!UICONTROL Advanced Pricing]_-inställningarna definierar villkoren för specialpriser som är tillgängliga för en viss kundgrupp eller delad katalog. Avancerade priser kan tillämpas på enkla, virtuella, nedladdningsbara och paketbaserade produkter. Använd en [katalogprisregel](../merchandising-promotions/price-rules-catalog.md). Mer information finns i [Prisomfång](catalog-price-scope.md).
+_[!UICONTROL Advanced Pricing]_-inställningarna definierar villkoren som krävs för specialpriser som är tillgängliga för en viss kundgrupp eller delad katalog. Avancerade priser kan tillämpas på enkla, virtuella, nedladdningsbara och paketbaserade produkter. Använd en [katalogprisregel](../merchandising-promotions/price-rules-catalog.md) om du vill tillämpa rabatterade priser på andra produkttyper. Mer information finns i [Prisomfång](catalog-price-scope.md).
 
 Avancerade prisuppgifter synkroniseras med produktsidor. Om du till exempel uppdaterar en nivåpriskvantitet uppdateras värdet på produktsidan.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt med [Adobe Commerce B2B](./b2b/../introduction.md) endast) Om du använder delade kataloger synkroniseras avancerade prisdata med både produktsidor och delade kataloger. Om du till exempel uppdaterar en nivåpriskvantitet uppdateras värdet i den delade katalogen och på produktsidan. Alla anpassade priser som anges i den delade katalogen har prioritet framför kundgruppspriserna. Se även [Ange priser och struktur för delade kataloger](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) i _Adobe Commerce B2B-guide_.
+![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med [Adobe Commerce B2B](./b2b/../introduction.md)) Om du använder delade kataloger synkroniseras avancerade prisdata med både produktsidor och delade kataloger. Om du till exempel uppdaterar en nivåpriskvantitet uppdateras värdet i den delade katalogen och på produktsidan. Alla anpassade priser som anges i den delade katalogen har prioritet framför kundgruppspriserna. Se även [Ange priser och struktur för delade kataloger](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) i _Adobe Commerce B2B-guiden_.
 
 ![Avancerade priser](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 
@@ -28,7 +28,7 @@ Avancerade prisuppgifter synkroniseras med produktsidor. Om du till exempel uppd
 
 1. Öppna produkten i redigeringsläge.
 
-1. Under **[!UICONTROL Price]**, klicka **[!UICONTROL Advanced Pricing]**.
+1. Klicka på **[!UICONTROL Advanced Pricing]** under **[!UICONTROL Price]**.
 
 1. Följ instruktionerna för den typ av avancerad prissättning som behövs.
 
@@ -72,7 +72,7 @@ Ställ in kampanjpriser och nivåpriser för specifika kundgrupper.
 | [!UICONTROL Website] | Identifierar webbplatsen där gruppprisregeln gäller. Det här alternativet visas bara om installationen har flera webbplatser. |
 | [!UICONTROL Customer Group] | (Obligatoriskt) Identifierar kundgruppen som är berättigad att ta emot rabattpriset. När ett värde i ett grupp- eller katalogfält ändras tas motsvarande anpassade prisrad som matchar den tidigare inställningen bort från den delade katalogen. <br/>**[!UICONTROL ALL GROUPS]**- Tillämpar regeln på alla kundgrupper.<br/>**[!UICONTROL NOT LOGGED IN]** - Använder regelgäster och kunder som inte är inloggade på sina konton. |
 | [!UICONTROL Quantity] | Anger den kvantitet som krävs för att ta emot ett nivåpris. |
-| [!UICONTROL Price] | (Obligatoriskt) Anger ett fast eller rabatterat produktpris för medlemmar i kundgruppen inom den specifika webbplatsen. Alternativ: <br/>**[!UICONTROL Fixed]**- (Standard) Rabattpriset anges som ett fast decimalvärde. Skriv till exempel `9.99` som rabattpris.<br/>**[!UICONTROL Discount]** - Rabattpriset anges som en procentandel (%) av basproduktpriset. Skriv till exempel `10` till 10 % rabatt. |
+| [!UICONTROL Price] | (Obligatoriskt) Anger ett fast eller rabatterat produktpris för medlemmar i kundgruppen inom den specifika webbplatsen. Alternativ: <br/>**[!UICONTROL Fixed]**- (Standard) Rabattpriset anges som ett fast decimalvärde. Ange till exempel `9.99` som rabattpris.<br/>**[!UICONTROL Discount]** - Rabattpriset anges som en procentandel (%) av basproduktpriset. Ange till exempel `10` som 10 % rabatt. |
 | ![Papperskorgsikon](../assets/icon-delete-trashcan-solid.png) | Tar bort den aktuella regeln. |
 | **[!UICONTROL Add]** | Infogar en ny rad för en ny regel. |
 
@@ -88,10 +88,10 @@ Ställ in kampanjpriser och nivåpriser för specifika delade kataloger och kund
 
 | Objekt | Beskrivning |
 |----|-----------|
-| [!UICONTROL Website] | Identifierar webbplatsen där gruppprisregeln gäller. Det här alternativet visas bara om installationen har flera webbplatser. <br>**_Viktigt:_**ALso välj_Webbplats _i [Katalogprisomfång](catalog-price-scope.md) konfiguration, annars visas de angivna avancerade priserna för**alla **webbplatser. |
-| [!UICONTROL Group or Catalog] | (Obligatoriskt) Identifierar den kundgrupp eller delade katalog som berättigar till rabatt. När ett värde i ett grupp- eller katalogfält ändras tas motsvarande anpassade prisrad som matchar den tidigare inställningen bort från den delade katalogen. <br/>**[!UICONTROL ALL GROUPS]**- Tillämpar regeln på alla kundgrupper. Värdet används inte i den delade katalogen och ändringar i avancerade prisdata synkroniseras inte med den delade katalogen.<br/>**[!UICONTROL NOT LOGGED IN]** - Använder regelgäster och kunder som inte är inloggade på sina konton.<br/>**[!UICONTROL Shared Catalogs]**- Tillämpar regeln på en viss delad katalog. |
+| [!UICONTROL Website] | Identifierar webbplatsen där gruppprisregeln gäller. Det här alternativet visas bara om installationen har flera webbplatser. <br>**_Viktigt!_**ALso Välj_Webbplats _i konfigurationen [Katalogens prisomfång](catalog-price-scope.md), annars visas de angivna avancerade priserna för**alla **webbplatser. |
+| [!UICONTROL Group or Catalog] | (Obligatoriskt) Identifierar den kundgrupp eller delade katalog som berättigar till rabatt. När ett värde i ett grupp- eller katalogfält ändras tas motsvarande anpassade prisrad som matchar den tidigare inställningen bort från den delade katalogen. <br/>**[!UICONTROL ALL GROUPS]**- Tillämpar regeln på alla kundgrupper. Värdet används inte i den delade katalogen och ändringar i avancerade prisdata synkroniseras inte med den delade katalogen.<br/>**[!UICONTROL NOT LOGGED IN]** - Använder regelgäster och kunder som inte är inloggade på sina konton.<br/>**[!UICONTROL Shared Catalogs]**- Tillämpar regeln på en specifik delad katalog. |
 | Kvantitet | Anger den kvantitet som krävs för att ta emot ett nivåpris. |
-| [!UICONTROL Price] | (Obligatoriskt) Anger ett fast eller rabatterat produktpris för medlemmar i kundgruppen inom den specifika webbplatsen. Alternativ: <br/>**[!UICONTROL Fixed]**- (Standard) Rabattpriset anges som ett fast decimalvärde. Skriv till exempel `9.99` som rabattpris.<br/>**[!UICONTROL Discount]** - Rabattpriset anges som en procentandel (%) av basproduktpriset. Skriv till exempel `10` till 10 % rabatt. |
+| [!UICONTROL Price] | (Obligatoriskt) Anger ett fast eller rabatterat produktpris för medlemmar i kundgruppen inom den specifika webbplatsen. Alternativ: <br/>**[!UICONTROL Fixed]**- (Standard) Rabattpriset anges som ett fast decimalvärde. Ange till exempel `9.99` som rabattpris.<br/>**[!UICONTROL Discount]** - Rabattpriset anges som en procentandel (%) av basproduktpriset. Ange till exempel `10` som 10 % rabatt. |
 | ![Papperskorgsikon](../assets/icon-delete-trashcan-solid.png) | Tar bort den aktuella regeln. |
 | **[!UICONTROL Add]** | Infogar en ny rad för en ny regel. |
 
@@ -108,7 +108,7 @@ Avgör var det faktiska priset på produkten är synligt för kunden.
 | Objekt | Beskrivning |
 |----|-----------|
 | [!UICONTROL Use Config] | Använder den aktuella konfigurationsinställningen för prisvisningen. |
-| [!UICONTROL On Gesture] | Visar det faktiska produktpriset i ett popup-fönster som svar på _Klicka för pris_ eller _Vad är det här?_ länk. |
+| [!UICONTROL On Gesture] | Visar det faktiska produktpriset i ett popup-fönster som svar på _Klicka för pris_ eller _Vad är detta?_-länk. |
 | [!UICONTROL In Cart] | Visar det faktiska produktpriset i kundvagnen. |
 | [!UICONTROL Before Order Confirmation] | Visar det faktiska produktpriset i slutet av utcheckningsprocessen, precis innan ordern skickas. |
 

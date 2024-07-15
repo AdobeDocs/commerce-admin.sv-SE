@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Initiera en offert för en köpare
 
-Om citattecken är aktiverade i [Konfiguration av försäljningsfunktioner](configure-quotes.md)kan en säljare initiera förhandlingsprocessen med en företagsköpare genom att skapa en offert från administratören.
+Om offerter är aktiverade i [konfigurationen för försäljningsfunktioner](configure-quotes.md) kan en säljare initiera förhandlingsprocessen med en företagsköpare genom att skapa en offert från administratören.
 
 - Utkastcitattecken visas bara för säljaren.
 - Det går inte att skicka offerter förrän säljaren lägger till artiklar, relevanta rabatter och anteckningar för att skapa det ursprungliga erbjudandet för köparen.
@@ -27,27 +27,27 @@ En säljare kan skapa en offert från offerterna eller kundstödrastret.
 
 >[!NOTE]
 >
->En demonstrationsvideo om hur en säljare skapar en offert för en köpare finns på [Säljaren initierar offerten](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) in _Commerce Videos och Tutorials_.
+>En videodemo av en säljare som skapar en offert för en köpare finns i [Säljare initierar offerten](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) i _Commerce Videos och Tutorials_.
 
 ### Skapa en offert från offertstödrastret
 
-1. Säljaren loggar in på administratören med [Behörigheter för försäljningsåtgärder](../systems/permissions.md) för att hantera offerter.
+1. Säljaren loggar in på administratören som administratör med [försäljningsbehörighet](../systems/permissions.md) för att hantera offerter.
 
-1. Gå till Admin [!UICONTROL Quotes] stödraster genom att markera **[!UICONTROL Sales]** och sedan markera **[!UICONTROL Quotes]**.
+1. Gå till rutnätet [!UICONTROL Quotes] i Admin genom att markera **[!UICONTROL Sales]** och sedan välja **[!UICONTROL Quotes]**.
 
 1. Skapa en offert för en köpare.
 
-   - I rastret för citattecken väljer du **[!UICONTROL Create New Quote]**.
+   - Välj **[!UICONTROL Create New Quote]** i rastret för citattecken.
 
-     ![Säljare som initierar en köpoffert från administratören](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+     ![Säljaren initierar en köpoffert från administratören](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
-   - På [!UICONTROL Create New Quote] väljer du kunden (företagsköparen) för att skapa offerten.
+   - På sidan [!UICONTROL Create New Quote] väljer du kunden (företagsköparen) för att skapa offerten.
 
      ![Välj kund för ny offert](./assets/quote-draft-from-admin-select-buyer.png){width="700" zoomable="yes"}
 
-     En ny offert visas i `Draft` status.
+     En ny offert visas med statusen `Draft`.
 
-     ![Nytt offertutkast som skapats av säljaren](./assets/quote-create-by-seller.png){width="700" zoomable="yes"}
+     ![Nytt utkast till offert skapad av säljaren](./assets/quote-create-by-seller.png){width="700" zoomable="yes"}
 
    - Uppdatera offertnamnet och ändra utgångsdatumet efter behov.
 
@@ -59,25 +59,25 @@ När du har skapat offertutkastet lägger du till produktartiklar, lägger till 
 
 1. Lägg till objekt i offerten genom att välja **[!UICONTROL Add Product By SKU]**. Ange SKU-numret och kvantiteten och välj sedan **[!UICONTROL Add Product]**.
 
-   ![Säljaren lägger till artiklar i offertutkast för köparen](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
+   ![Säljaren lägger till objekt i offertutkast för köparen](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Använd radartikelrabatter på produkter efter behov.
 
-   - Från [!UICONTROL Select] funktionsmakromeny, välja **[!UICONTROL Discount Item]**.
+   - Välj **[!UICONTROL Discount Item]** på åtgärdsmenyn [!UICONTROL Select].
 
-   - På [!UICONTROL Discount Line item] formulär väljer du **[!UICONTROL Discount Type]**.
+   - Markera **[!UICONTROL Discount Type]** i formuläret [!UICONTROL Discount Line item].
 
      ![Använd radobjektrabatt på offert](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
-   - I [!UICONTROL Discount] anger du värdet för rabattypen. Om du till exempel har valt en rabatt i procent anger du 10 för att tillämpa en rabatt på 10 % på radobjektet.
+   - I fältet [!UICONTROL Discount] anger du värdet för rabattypen. Om du till exempel har valt en rabatt i procent anger du 10 för att tillämpa en rabatt på 10 % på radobjektet.
 
-   - [!BADGE Funktioner för 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för betaprogramdeltagare"}
+   - [!BADGE 1.5.0-beta-funktioner]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för Beta programdeltagare"}
 
      När ändringen har bekräftats uppdateras radobjektattributen i produktrutnätet så att rabattbeloppet visas. Om rabatten är låst visas en låsikon.
 
 1. Använd rabatt på offertnivå efter behov:
 
-   - I [!UICONTROL Quote Totals - Negotiated Price] väljer du rabattyp och anger sedan det värde som ska gälla.
+   - I avsnittet [!UICONTROL Quote Totals - Negotiated Price] väljer du rabattypen och anger sedan det värde som ska användas.
 
      ![Säljaren lägger till rabatt på offertnivå](./assets/quote-draft-total-discount.png){width="700" zoomable="yes"}
 
@@ -85,11 +85,11 @@ När du har skapat offertutkastet lägger du till produktartiklar, lägger till 
 
 1. Lägg till ytterligare information för köparen.
 
-   På **[!UICONTROL Negotiation - Comments]** lägger du till en anteckning och bifogar eventuella stödfiler som krävs för köparen.
+   Lägg till en anteckning på fliken **[!UICONTROL Negotiation - Comments]** och bifoga eventuella stödfiler som krävs för köparen.
 
-   ![Säljaren lägger till information för köparen](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
+   ![Försäljaren lägger till information för köparen](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
-   Som standard är [bifogad fil](configure-quotes.md) kan vara upp till 2 MB i något av följande filformat: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG eller JPEG, PNG.
+   Som standard kan en [bifogad fil](configure-quotes.md) vara upp till 2 MB i något av följande filformat: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG eller JPEG, PNG.
 
 1. Bearbeta offerten.
 
@@ -101,20 +101,20 @@ När du har skapat offertutkastet lägger du till produktartiklar, lägger till 
 
 ## Visa och skapa offerter från kundstödrastret
 
-1. Gå till Admin [!UICONTROL Customer] stödraster genom att markera **[!UICONTROL Customers]** och sedan markera **[!UICONTROL All Customers]**.
+1. Gå till rutnätet [!UICONTROL Customer] i Admin genom att markera **[!UICONTROL Customers]** och sedan välja **[!UICONTROL All Customers]**.
 
 1. Välj kund-ID för en företagsköpare.
 
    ![Bekräftelseutkast till offert har skickats till köparen](./assets/quote-view-customer-quotes.png){width="700" zoomable="yes"}
 
-1. Välj **[!UICONTROL Edit]** för att visa kundinformationen.
+1. Välj **[!UICONTROL Edit]** om du vill visa kundinformationen.
 
 1. Skapa en offert för kunden genom att välja **[!UICONTROL Create Quote]** och följa processen för att uppdatera offerten och skicka den till kunden.
 
-1. Se kundernas befintliga offerter genom att välja **[!UICONTROL Quotes]**.
+1. Visa kundernas befintliga offerter genom att välja **[!UICONTROL Quotes]**.
 
    ![Bekräftelseutkast till offert har skickats till köparen](./assets/quote-list-from-customer-information.png){width="700" zoomable="yes"}
 
 1. Öppna en offert genom att välja **[!UICONTROL View]**.
 
-Mer information om hur du hanterar offertförhandlingen finns i [Förhandla om en offert](quote-price-negotiation.md)
+Mer information om hur du hanterar offertförhandlingen finns i [Förhandla en offert](quote-price-negotiation.md)

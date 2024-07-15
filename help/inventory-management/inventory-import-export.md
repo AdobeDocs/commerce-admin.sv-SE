@@ -1,22 +1,22 @@
 ---
 title: Importera och exportera lager
-description: Använd den inbyggda import- och exportfunktionen med utökade [!DNL Inventory Management] alternativ för att uppdatera källor och kvantiteter per SKU.
+description: Använd de inbyggda import- och exportfunktionerna med de utökade  [!DNL Inventory Management] alternativen för att uppdatera källor och kvantiteter efter SKU.
 exl-id: cb2d2e0d-aef8-4b18-b013-9a7b0ab448bd
 feature: Inventory, Data Import/Export
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
 
 # Importera och exportera lager
 
-För kataloger med många produkter använder du de inbyggda import- och exportfunktionerna med utökade [!DNL Inventory Management] alternativ för att uppdatera källor och kvantiteter per SKU. Med dessa alternativ kan du lägga till nya källor och uppdatera lagerkvantiteter för alla eller en viss källa. Du kan till exempel exportera produkter för en källa i Tyskland utan att påverka produktinformation för källor i Frankrike, England eller USA.
+För kataloger med många produkter använder du de inbyggda import- och exportfunktionerna med de utökade [!DNL Inventory Management] alternativen för att uppdatera källor och kvantiteter efter SKU. Med dessa alternativ kan du lägga till nya källor och uppdatera lagerkvantiteter för alla eller en viss källa. Du kan till exempel exportera produkter för en källa i Tyskland utan att påverka produktinformation för källor i Frankrike, England eller USA.
 
-- [!DNL Commerce] tilldelar automatiskt standardkällan till dina produkter när du uppgraderar [!DNL Commerce] eller importera nya produkter. Om du importerar produkter med en anpassad källa tilldelad, läggs standardkällan fortfarande till med kvantiteten 0. Använd de här importinstruktionerna om du vill uppdatera källor och kvantiteter.
+- [!DNL Commerce] tilldelar automatiskt standardversionen av Source till dina produkter när du uppgraderar [!DNL Commerce] eller importerar nya produkter. Om du importerar produkter med en anpassad källa tilldelad, läggs standardvärdet för Source fortfarande till med kvantiteten 0. Använd de här importinstruktionerna om du vill uppdatera källor och kvantiteter.
 
-- Försäljare med en enda källa använder import för att endast uppdatera produktkvantiteter. Alla befintliga och tillagda produkter tilldelas standardkällan.
+- Försäljare med en enda källa använder import för att endast uppdatera produktkvantiteter. Alla befintliga och tillagda produkter tilldelas standardprodukten för Source.
 
 - Flera källhandlare använder import för att lägga till flera källor och kvantiteter per rad och SKU.
 
@@ -27,9 +27,9 @@ Om du vill importera uppdateringar måste du först exportera en CSV-fil för en
 Exportimportfilen innehåller följande information beroende på källa:
 
 - `source_code` - Koden för källor i [!DNL Commerce]. Det finns en rad för varje källa och SKU.
-- `sku` - SKU:n för produkten i [!DNL Commerce]. SKU:n måste matcha en produkt i din butik för att kunna uppdateras korrekt [!DNL Inventory Management] data.
+- `sku` - SKU för produkten i [!DNL Commerce]. SKU:n måste matcha en produkt i din butik för att [!DNL Inventory Management]-data ska kunna uppdateras korrekt.
 - `status` - 0 för Out of Stock. 1 i lager. Värdet måste vara 1 för att kunna köpa lager från den här källan.
-- `quantity` - Den totala lagermängden som är tillgänglig för denna SKU och denna källa.
+- `quantity` - Den totala lagermängden som är tillgänglig för denna SKU och källa.
 
 Använd en CSV-fil för att snabbt uppdatera flera produkter och tilldelade källor för att uppdatera och korrigera eventuella fel i lagerposterna i stället för en i taget via programgränssnittet. För en basfil exporterar du först och uppdaterar efter behov.
 
@@ -37,9 +37,9 @@ Använd en CSV-fil för att snabbt uppdatera flera produkter och tilldelade käl
 
 ## Exportera produktdata för alla källor
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**på sidofältet_ Admin _.
 
-1. För **[!UICONTROL Entity Type]**, välja `Stock Sources`.
+1. Välj `Stock Sources` för **[!UICONTROL Entity Type]**.
 
    Exporten extraherar endast data för produkter med en SKU.
 
@@ -47,33 +47,33 @@ Använd en CSV-fil för att snabbt uppdatera flera produkter och tilldelade käl
 
    Filen genereras och hämtas för att öppnas och redigeras.
 
-När du har uppdaterat lagerbelopp och produktdata importerar du filen tillbaka till [!DNL Commerce].
+Importera filen tillbaka till [!DNL Commerce] när du har uppdaterat lagerbelopp och produktdata.
 
-![Exportera lagerkällor för produktdata och källor](assets/inventory-export-stock-sources.png){width="350" zoomable="yes"}
+![Exportera Stock-källor för produktdata och källor](assets/inventory-export-stock-sources.png){width="350" zoomable="yes"}
 
 ## Exportera produktdata för en viss källa
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**på sidofältet_ Admin _.
 
-1. För **[!UICONTROL Entity Type]**, välja `Stock Sources`.
+1. Välj `Stock Sources` för **[!UICONTROL Entity Type]**.
 
    Exporten extraherar endast data för produkter med en SKU.
 
-1. Använd **[!UICONTROL Entity Attributes]** om du vill filtrera de exporterade produkterna efter en viss källa.
+1. Använd **[!UICONTROL Entity Attributes]** för att filtrera de exporterade produkterna efter en viss källa.
 
-   För `source_code`anger du källkoden i filterfältet.
+   För `source_code` anger du källkoden i filterfältet.
 
 1. Klicka på **[!UICONTROL Continue]**.
 
    Filen genereras och hämtas för att öppnas och redigeras.
 
-När du har uppdaterat lagerbelopp och produktdata importerar du filen tillbaka till [!DNL Commerce].
+Importera filen tillbaka till [!DNL Commerce] när du har uppdaterat lagerbelopp och produktdata.
 
 ## Importera produktdata
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**på sidofältet_ Admin _.
 
-1. För **[!UICONTROL Entity Type]**, välja `Stock Sources`.
+1. Välj `Stock Sources` för **[!UICONTROL Entity Type]**.
 
    Exporten extraherar endast data för produkter med en SKU.
 
@@ -81,6 +81,6 @@ När du har uppdaterat lagerbelopp och produktdata importerar du filen tillbaka 
 
 1. Markera CSV-filen som ska importeras.
 
-1. Klicka **[!UICONTROL Check Data]** och slutför importen.
+1. Klicka på **[!UICONTROL Check Data]** och slutför importen.
 
 ![Importera produktdata och källor](assets/inventory-import-sources.png){width="600" zoomable="yes"}

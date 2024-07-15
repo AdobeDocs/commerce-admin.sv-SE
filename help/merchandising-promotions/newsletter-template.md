@@ -18,25 +18,25 @@ Du kan skapa så många nyhetsbrevmallar du behöver för olika syften. Du kan s
 
 ## Skapa en mall för nyhetsbrev
 
-1. Gå till sidlisten Admin **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**på sidlisten Admin.
 
-1. Klicka på om du vill lägga till en mall **[!UICONTROL Add New Template]**.
+1. Klicka på **[!UICONTROL Add New Template]** om du vill lägga till en mall.
 
 1. Slutför mallinställningarna:
 
-   - För **[!UICONTROL Template Name]**, anger namnet på den interna referensen.
+   - Ange namnet för intern referens för **[!UICONTROL Template Name]**.
 
-   - För **[!UICONTROL Template Subject]**, beskriver syftet med nyhetsbrevet.
+   - Beskriv syftet med nyhetsbrevet för **[!UICONTROL Template Subject]**.
 
-   - För **[!UICONTROL Sender Name]** anger du namnet på den person som ska visas som avsändare av nyhetsbrevet.
+   - I **[!UICONTROL Sender Name]** anger du namnet på den person som ska visas som avsändare av nyhetsbrevet.
 
-   - För **[!UICONTROL Sender Email]** anger du e-postadressen till avsändaren av nyhetsbrevet.
+   - Ange e-postadressen till avsändaren av nyhetsbrevet för **[!UICONTROL Sender Email]**.
 
-   ![Information om nyhetsbrevmall](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
+   ![Mallinformation för nyhetsbrev](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
 
-   - För **[!UICONTROL Template Content]**, klicka **[!UICONTROL Show / Hide Editor]** för att visa WYSIWYG-redigeraren och uppdatera innehållet efter behov.
+   - För **[!UICONTROL Template Content]** klickar du på **[!UICONTROL Show / Hide Editor]** för att visa WYSIWYG-redigeraren och uppdatera innehållet efter behov.
 
-     Mer information finns på [Använda redigeraren](../content-design/editor.md).
+     Mer information finns i [Använda redigeraren](../content-design/editor.md).
 
      >[!NOTE]
      >
@@ -44,27 +44,27 @@ Du kan skapa så många nyhetsbrevmallar du behöver för olika syften. Du kan s
 
    - För **[!UICONTROL Template Styles]** anger du de CSS-deklarationer som behövs för att formatera innehållet.
 
-1. Klicka **[!UICONTROL Preview Template]** för att se hur den ser ut och göra de ändringar som behövs.
+1. Klicka på **[!UICONTROL Preview Template]** om du vill se hur den ser ut och göra nödvändiga ändringar.
 
-1. När du är klar klickar du på **[!UICONTROL Save Template]**.
+1. Klicka på **[!UICONTROL Save Template]** när du är klar.
 
-   När du har sparat en mall **[!UICONTROL Save As]** visas nästa gång du redigerar mallen. Den kan användas för att spara varianter av mallen utan att originalet skrivs över.
+   När du har sparat en mall visas **[!UICONTROL Save As]** nästa gång du redigerar mallen. Den kan användas för att spara varianter av mallen utan att originalet skrivs över.
 
 ## Konvertera mallen till vanlig text
 
-1. Klicka på längst upp på sidan **[!UICONTROL Convert to Plain Text]** och klicka **[!UICONTROL OK]** när du uppmanas till det.
+1. Klicka på **[!UICONTROL Convert to Plain Text]** högst upp på sidan och klicka på **[!UICONTROL OK]** när du uppmanas till det.
 
-1. Om du vill förhandsgranska mallens rena textversion klickar du på **[!UICONTROL Preview Template]**.
+1. Om du vill förhandsgranska mallens oformaterade textversion klickar du på **[!UICONTROL Preview Template]**.
 
    Förhandsgranskningen öppnas på en ny flik i webbläsaren.
 
-1. Spara den oformaterade textversionen genom att klicka **[!UICONTROL Save Template]**.
+1. Spara den oformaterade textversionen genom att klicka på **[!UICONTROL Save Template]**.
 
 ## Återställ HTML
 
-1. Klicka på längst upp på sidan **[!UICONTROL Return HTML Version]**.  
+1. Klicka på **[!UICONTROL Return HTML Version]** överst på sidan.  
 
-1. Om du vill förhandsgranska mallens HTML-version klickar du på **[!UICONTROL Preview Template]**.
+1. Klicka på **[!UICONTROL Preview Template]** om du vill förhandsgranska mallversionen i HTML.
 
    Förhandsgranskningen öppnas på en ny flik i webbläsaren.
 
@@ -72,13 +72,13 @@ Du kan skapa så många nyhetsbrevmallar du behöver för olika syften. Du kan s
 
 ## Ta bort en mall för nyhetsbrev
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**på sidofältet_ Admin _.
 
 1. Leta reda på nyhetsbrevmallen som ska tas bort och öppna den i redigeringsläge.
 
-1. Klicka på menyraden **[!UICONTROL Delete Template]** -knappen.
+1. Klicka på knappen **[!UICONTROL Delete Template]** på menyraden.
 
-1. Bekräfta åtgärden genom att klicka **[!UICONTROL OK]**.
+1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
 
 ## Stödrasterkolumner
 

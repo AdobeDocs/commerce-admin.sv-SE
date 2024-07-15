@@ -18,31 +18,31 @@ Innan du ändrar kvantiteter och inställningar måste du tilldela [källor](sou
 
 ## Tilldela källor till en produkt
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
-1. Öppna en produkt i _Redigera_ läge.
+1. Öppna en produkt i _redigeringsläget_.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Sources]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Sources]**.
 
    I det här avsnittet kan du ändra källan, uppdatera lagerkvantiteter och mycket mer.
 
    >[!NOTE]
    >
-   >För närvarande stöder endast enkla, konfigurerbara, virtuella, nedladdningsbara och grupperade produkter flera källor. Paketprodukter kan skapas och hanteras med enbart standardkällan och Stock.
+   >För närvarande stöder endast enkla, konfigurerbara, virtuella, nedladdningsbara och grupperade produkter flera källor. Paketprodukter kan skapas och hanteras med Source och Stock som standard.
 
    ![Avsnittet Produktkällor](assets/inventory-product-sources-before.png){width="600" zoomable="yes"}
 
-1. Om du vill lägga till en källa klickar du **[!UICONTROL Assign Sources]**.
+1. Klicka på **[!UICONTROL Assign Sources]** om du vill lägga till en källa.
 
-1. På _[!UICONTROL Assign Sources]_markerar du kryssrutan bredvid varje källa som du vill tilldela produkten.
+1. På sidan _[!UICONTROL Assign Sources]_markerar du kryssrutan bredvid varje källa som du vill tilldela produkten.
 
    ![Produkt - tilldela källor](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Done]** för att lägga till källorna.
+1. Klicka på **[!UICONTROL Done]** för att lägga till källorna.
 
 1. Spara genom att göra något av följande:
 
    - Klicka på **[!UICONTROL Save]**.
-   - På _[!UICONTROL Save]_ (![menypil](../assets/icon-menu-down-arrow-red.png)) väljer du **[!UICONTROL Save & Close]**.
+   - Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_(![menypil](../assets/icon-menu-down-arrow-red.png)).
 
-När du har tilldelat källor uppdaterar du [lagerkvantitet](quantities-assign-per-product.md) för varje produktkälla.
+När du har tilldelat källor uppdaterar du [lagerkvantiteten](quantities-assign-per-product.md) för varje produktkälla.

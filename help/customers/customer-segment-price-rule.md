@@ -20,22 +20,22 @@ Ett kundsegment kan användas för riktade kampanjer genom att associera det med
 
 _**Så här associerar du ett segment med en kundprisregel:**_
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _Erbjudanden_ > **[!UICONTROL Cart Price Rules]**.
+1. Gå till **[!UICONTROL Marketing]** > _Kampanjer_ > **[!UICONTROL Cart Price Rules]** på sidofältet _Admin_.
 
 1. Öppna en ny eller befintlig regel:
 
-   * Om du vill använda en ny regel klickar du på **[!UICONTROL Add New Rule]** längst upp till höger.
+   * Om du vill använda en ny regel klickar du på **[!UICONTROL Add New Rule]** i det övre högra hörnet.
    * Om du vill använda en befintlig regel klickar du på regeln i listan för att öppna den i redigeringsläge.
 
-1. Bläddra nedåt och expandera **[!UICONTROL Conditions]** -avsnitt.
+1. Bläddra nedåt och expandera avsnittet **[!UICONTROL Conditions]**.
 
 1. Lägg till villkoret.
 
-   * Klicka på _Lägg till_ (![Ikonen Lista](../assets/icon-add-green-circle.png)), som visar en lista med villkor. Välj sedan **[!UICONTROL Customer Segment]**.
+   * Klicka på ikonen _Lägg till_ (![listikon](../assets/icon-add-green-circle.png)) som visar listan med villkor. Välj sedan **[!UICONTROL Customer Segment]**.
 
    ![Kundprisregel - lägg till kundsegmentvillkor](assets/condition-customer-segment.png){width="600" zoomable="yes"}
 
-   Som standard är villkoret inställt på att söka efter ett matchande villkor. Klicka på **[!UICONTROL matches]** länka och ändra operatorn till något av följande:
+   Som standard är villkoret inställt på att söka efter ett matchande villkor. Om det behövs klickar du på länken **[!UICONTROL matches]** och ändrar operatorn till något av följande:
 
    * `does not match`
    * `is one of`
@@ -43,14 +43,14 @@ _**Så här associerar du ett segment med en kundprisregel:**_
 
    ![Villkorsoperator](assets/price-rule-condition-customer-segment-operator.png){width="600" zoomable="yes"}
 
-1. Om du vill ange ett visst segment som mål klickar du på knappen Mer **...** om du vill visa ytterligare alternativ. Klicka sedan på _Väljare_ (![Ikonen Lista](../assets/icon-list-chooser.png)) för att visa en lista med kundsegment.
+1. Om du vill ange ett visst segment som mål klickar du på länken Mer **...** för att visa ytterligare alternativ. Klicka sedan på ikonen _Väljare_ (![Lista-ikon](../assets/icon-list-chooser.png)) för att visa listan över kundsegment.
 
 1. I listan markerar du kryssrutan för varje segment som du vill använda som mål med villkoret.
 
-   ![Kundprisregel - villkorsväljarlista](assets/condition-segment-chooser-list.png){width="600" zoomable="yes"}
+   ![Kundprisregel - lista med villkorsväljare](assets/condition-segment-chooser-list.png){width="600" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Select]** för att placera de valda kundsegmenten i villkoret.
+1. Klicka på **[!UICONTROL Select]** för att placera de valda kundsegmenten i villkoret.
 
 1. Slutför resten av prisregeln efter behov.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.

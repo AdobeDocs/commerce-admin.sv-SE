@@ -1,72 +1,72 @@
 ---
 title: Teman
-description: Läs mer om [!DNL Commerce] teman, som innehåller layoutfiler, mallfiler, översättningsfiler och skal som definierar utseendet på din butik.
+description: Lär dig mer om  [!DNL Commerce] teman, som innehåller layoutfiler, mallfiler, översättningsfiler och skal som definierar utseendet på din butik.
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
 
 # Teman
 
-Ett tema är en samling filer som avgör den visuella presentationen av din butik. När du installerar [!DNL Commerce], baseras butikens designelement på _Standard_ tema. Förutom det inledande standardtemat som medföljer [!DNL Commerce] kan du använda många olika teman _as_ eller anpassa efter dina behov.
+Ett tema är en samling filer som avgör den visuella presentationen av din butik. När du installerar [!DNL Commerce] första gången baseras butikens designelement på _Default_ -temat. Förutom det ursprungliga standardtemat som medföljer din [!DNL Commerce]-installation finns det en mängd tillgängliga teman som du kan använda _som_ eller ändra efter behov.
 
-Ett responsivt tema justerar sidlayouten så att den passar enhetens visningsport. Exemplet _Luma_ -temat har en flexibel, responsiv layout som kan visas från skrivbordet, surfplattan eller mobilenheten.
+Ett responsivt tema justerar sidlayouten så att den passar enhetens visningsport. Exempeltemat _Luma_ har en flexibel, responsiv layout som kan visas från skrivbordet, surfplattan eller den mobila enheten.
 
-[!DNL Commerce] teman innehåller layoutfiler, mallfiler, översättningsfiler och skal. Ett skal är en samling CSS-, bild- och JavaScript-filer som tillsammans skapar den visuella presentation och de interaktioner som kunderna upplever när de besöker er butik. Teman och skal kan ändras och anpassas av utvecklare eller designproffs som förstår Commerce-temadedesign och har tillgång till servern. Mer information finns i [_Utvecklarhandbok för Edge_](https://developer.adobe.com/commerce/frontend-core/guide/themes/).
+[!DNL Commerce] teman innehåller layoutfiler, mallfiler, översättningsfiler och skal. Ett skal är en samling CSS-, bild- och JavaScript-filer som tillsammans utgör den visuella presentation och de interaktioner som kunderna upplever när de besöker er butik. Teman och skal kan ändras och anpassas av utvecklare eller designproffs som förstår Commerce temadedesign och har tillgång till din server. Mer information finns i [_Utvecklarhandbok för Adobe Premiere_](https://developer.adobe.com/commerce/frontend-core/guide/themes/).
 
 ![Lumatema](./assets/design-responsive.png){width="600" zoomable="yes"}
 
 ## Standardtemat
 
-The `Magento Blank` Med responsiva teman kan du visa din butik för olika enheter och använda de bästa metoderna för datorer, tabeller och mobila enheter. Vissa teman är utformade för att endast användas med vissa enheter. När [!DNL Commerce] identifierar ett specifikt webbläsar-ID, eller en användaragent, som använder det tema som är konfigurerat för den specifika webbläsaren. Söksträngen kan även innehålla Perl-Compatible Regular Expressions (PCRE).
+Det responsiva `Magento Blank`-temat återger visningen av ditt butiksområde för olika enheter och innehåller metodtips för datorer, tabeller och mobila enheter. Vissa teman är utformade för att endast användas med vissa enheter. När [!DNL Commerce] upptäcker ett specifikt webbläsar-ID, eller en användaragent, används det tema som är konfigurerat för den specifika webbläsaren. Söksträngen kan även innehålla Perl-Compatible Regular Expressions (PCRE).
 
 ![Teman](./assets/themes.png){width="700" zoomable="yes"}
 
 ### Filtrera temarutnätet
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Themes]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Themes]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Filters]**.
 
 1. Ange ett ID-intervall, temanamn (eller titel), mappsökväg eller överordnat tema.
 
-1. Klicka **[!UICONTROL Apply Filters]** för att uppdatera listan med teman.
+1. Klicka på **[!UICONTROL Apply Filters]** för att uppdatera listan med teman.
 
 ## Visa aktuella temainställningar
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Themes]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Themes]**på sidofältet_ Admin _.
 
 1. I listan med installerade teman letar du reda på det tema som du vill granska och klickar på raden för att visa inställningarna.
 
-1. Klicka på knappen **[!UICONTROL Theme Preview Image]**.
+1. Om du vill visa en exempelsida klickar du på **[!UICONTROL Theme Preview Image]**.
 
 ![Förhandsgranska tema](./assets/theme-settings.png){width="600" zoomable="yes"}
 
 ## Använd ett standardtema
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Leta reda på butiksvyn som du vill konfigurera och klicka på **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Under _[!UICONTROL Default Theme]_, ange **[!UICONTROL Applied Theme]**till den som du vill använda för den aktuella vyn.
+1. Under _[!UICONTROL Default Theme]_anger du **[!UICONTROL Applied Theme]**till den som du vill använda för den aktuella vyn.
 
-   ![Tillämpat tema](./assets/theme-default-apply.png){width="600" zoomable="yes"}
+   ![Använt tema](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Save Configuration]**.
+1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.
 
 ## Lägg till en användaragentregel
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Under _[!UICONTROL Design Rule]_, klicka **[!UICONTROL Add New User Agent Rule]**.
+1. Klicka på **[!UICONTROL Add New User Agent Rule]** under _[!UICONTROL Design Rule]_.
 
    ![Designregel](./assets/theme-design-rule.png){width="600" zoomable="yes"}
 
-1. För **[!UICONTROL Search String]** anger du webbläsar-ID för den specifika enheten.
+1. Ange webbläsar-ID för den specifika enheten för **[!UICONTROL Search String]**.
 
    Söksträngar matchas i den ordning de anges. För Firefox anger du till exempel:
 
@@ -74,4 +74,4 @@ The `Magento Blank` Med responsiva teman kan du visa din butik för olika enhete
 
 1. Om du vill ange ytterligare enheter upprepar du processen.
 
-1. När du är klar klickar du på **[!UICONTROL Save Configuration]**.
+1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.

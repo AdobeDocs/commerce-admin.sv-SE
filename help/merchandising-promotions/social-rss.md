@@ -16,92 +16,92 @@ Många handlare använder sociala medier och andra digitala verktyg för att ska
 
 ## Sociala nätverk
 
-Din butik kan anslutas till sociala nätverk genom att installera en [Marketplace-tillägg](../getting-started/commerce-marketplace.md). Dessutom kan du enkelt lägga till sociala plugin-program som _Gilla_ till CMS-block som kan läggas in på hela butiken.
+Din butik kan anslutas till sociala nätverk genom att installera ett [Marketplace-tillägg](../getting-started/commerce-marketplace.md). Dessutom kan du enkelt lägga till sociala plugin-program som knappen _Gilla_ i CMS-block som kan läggas in på sidor i hela din butik.
 
-Sociala nätverksplatser har ett antal plugin-program som enkelt kan läggas till i din butik. Dessutom finns det många tillägg på Commerce Marketplace som kan användas för att integrera din butik med sociala medier. I följande exempel visas hur du lägger till en Facebook _Gilla_ till din butik.
+Sociala nätverksplatser har ett antal plugin-program som enkelt kan läggas till i din butik. Dessutom finns det många tillägg på Commerce Marketplace som kan användas för att integrera din butik med sociala medier. I följande exempel visas hur du lägger till en _Gilla_-knapp från Facebook i din butik.
 
 >[!NOTE]
 >
->Adobe Commerce har tagit bort det inbyggda _Magento Social_ Facebook-integrering och stöder inte längre tillägget. Gå till [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target=&quot;_blank&quot;} för att hitta alternativa tillägg för Facebook-integrering.
+>Adobe Commerce har tagit bort den inbyggda Facebook-integreringen _Magento Social_ och stöder inte längre tillägget. Gå till [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target=&quot;_blank&quot;} om du vill hitta alternativa tillägg för Facebook-integrering.
 
 ### Steg 1. Hämta knappkoden
 
-1. På Meta Developers webbplats går du till [knappkonfiguration](https://developers.facebook.com/docs/plugins/like-button) sida.
+1. Gå till sidan [knappkonfiguration](https://developers.facebook.com/docs/plugins/like-button) på Meta-utvecklarwebbplatsen.
 
-1. För **[!UICONTROL URL to Like]** anger du URL-adressen till den sida i din butik som du vill att andra ska _Gilla_.
+1. För **[!UICONTROL URL to Like]** anger du URL-adressen till sidan i din butik som du vill att personer ska _Gilla_.
 
    Du kan till exempel ange URL-adressen till butikens hemsida.
 
 1. Välj **[!UICONTROL Layout]** för knappen.
 
-1. Ange **[!UICONTROL Width]** i pixlar som är tillgängliga på din webbplats för knappen och tillhörande textmeddelanden.
+1. Ange **[!UICONTROL Width]** i pixlar som är tillgängliga på din webbplats för knappen och eventuella associerade textmeddelanden.
 
 1. Ange **[!UICONTROL Action Type]** till något av följande:
 
    - `Like`
    - `Recommend`
 
-1. Klicka **[!UICONTROL Get Code]** om du vill kopiera den genererade koden till Urklipp.
+1. Klicka på **[!UICONTROL Get Code]** om du vill kopiera den genererade koden till Urklipp.
 
 ### Steg 2. Skapa ett innehållsblock
 
 1. Återvänd till din butiksadministratör.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add New Block]**.
+1. Klicka på **[!UICONTROL Add New Block]** i det övre högra hörnet.
 
-1. Ange en beskrivning **[!UICONTROL Block Title]** för intern referens.
+1. Ange en beskrivande **[!UICONTROL Block Title]** för intern referens.
 
    Till exempel: `Facebook Like Button`.
 
-1. Tilldela en unik **[!UICONTROL Identifier]** till blocket med alla gemener och understreck i stället för mellanslag.
+1. Tilldela ett unikt **[!UICONTROL Identifier]** till blocket med alla gemener och understreck i stället för mellanslag.
 
    Till exempel: `facebook_like_button`.
 
-1. Om din Commerce-instans har flera butiksvyer väljer du varje **[!UICONTROL Store View]** där blocket ska vara tillgängligt.
+1. Om din Commerce-instans har flera butiksvyer väljer du var **[!UICONTROL Store View]** där blocket ska vara tillgängligt.
 
 1. Lägg till kodfragmentet i blockinnehållet, beroende på vilket innehållsverktyg du använder:
 
-   - När du använder [!DNL Page Builder], lägga till [HTML Code](../page-builder/html-code.md) blockera till scenen och klistra in kodfragmentet som du kopierade från Facebook-platsen. Annars klistrar du in kodfragmentet i **[!UICONTROL Content]** box.
+   - När du använder [!DNL Page Builder] lägger du till ett [HTML-kodblock](../page-builder/html-code.md) på scenen och klistrar in kodfragmentet som du kopierade från Facebook-webbplatsen. Annars klistrar du in kodfragmentet i rutan **[!UICONTROL Content]**.
 
-   - Klistra in kodfragmentet som du kopierade från Facebook-webbplatsen i **[!UICONTROL Content]** box.
+   - Klistra in kodfragmentet som du kopierade från Facebook-webbplatsen i rutan **[!UICONTROL Content]** med redigeraren.
 
 1. Om blocket inte är klart att publiceras anger du **[!UICONTROL Enable Block]** till `No`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Block]**.
+1. Klicka på **[!UICONTROL Save Block]** när du är klar.
 
 ### Steg 3. Placera blocket
 
 1. Lägg till blocket, beroende på vilket innehållsverktyg du använder:
 
-   - När du använder [!UICONTROL Page Builder]följer du instruktionerna för att [lägg till blocket](../page-builder/block.md) till scenen.
+   - När du använder [!UICONTROL Page Builder] följer du instruktionerna för att [lägga till blocket](../page-builder/block.md) på scenen.
 
-   - På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+   - Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add Widget]** och gör följande:
+1. Klicka på **[!UICONTROL Add Widget]** i det övre högra hörnet och gör följande:
 
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Endast tillgängligt med Adobe Commerce B2B) I _Inställningar_ avsnitt, ange **[!UICONTROL Type]** till `CMS Static Block` och klicka **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med Adobe Commerce B2B) I avsnittet _Inställningar_ anger du **[!UICONTROL Type]** till `CMS Static Block` och klickar på **[!UICONTROL Continue]**.
 
-   - Verifiera att **[!UICONTROL Design Theme]** är inställt på det aktuella temat.
+   - Kontrollera att **[!UICONTROL Design Theme]** är inställt på det aktuella temat.
 
    - Klicka på **[!UICONTROL Continue]**.
 
-1. I **[!UICONTROL Storefront Properties]** gör du följande:
+1. Gör följande i avsnittet **[!UICONTROL Storefront Properties]**:
 
-   - För **[!UICONTROL Widget Title]**, anger du en rubrik för intern referens.
+   - Ange en rubrik för intern referens för **[!UICONTROL Widget Title]**.
 
-   - Ange **[!UICONTROL Assign to Store Views]** till `All Store Views`eller till den vy där du vill att appen ska vara tillgänglig. Om du vill markera flera vyer håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
+   - Ange **[!UICONTROL Assign to Store Views]** till `All Store Views` eller till den vy där du vill att appen ska vara tillgänglig. Om du vill markera flera vyer håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
 
-   - Ange ett tal i dialogrutan **[!UICONTROL Sort Order]** -fält för att bestämma blockets ordning om det tilldelas att visas på samma plats på sidan som andra innehållselement. Den översta positionen är noll.
+   - Ange ett nummer i fältet **[!UICONTROL Sort Order]** för att bestämma ordningen på blocket om det tilldelats att visas på samma plats på sidan som andra innehållselement. Den översta positionen är noll.
 
-1. I _[!UICONTROL Layout Updates]_avsnitt, klicka **[!UICONTROL Add Layout Update]**och ange **[!UICONTROL Display On]**till den kategori, produkt eller sida där du vill att blocket ska visas.
+1. I avsnittet _[!UICONTROL Layout Updates]_klickar du på&#x200B;**[!UICONTROL Add Layout Update]**och anger **[!UICONTROL Display On]**till den kategori, produkt eller sida där du vill att blocket ska visas.
 
-   Om du till exempel väljer `All Pages` och placera blocket i antingen sidhuvudet eller sidfoten, visas blocket på samma plats på alla sidor i butiken.
+   Om du till exempel väljer `All Pages` och placerar blocket i antingen sidhuvudet eller sidfoten, visas blocket på samma plats på alla sidor i butiken.
 
    Så här placerar du blocket på en viss sida:
 
-   - Ange **[!UICONTROL Display On]** till `Specified Page` och väljer **[!UICONTROL Page]** där du vill att blocket ska visas.
+   - Ange **[!UICONTROL Display On]** till `Specified Page` och markera **[!UICONTROL Page]** där du vill att blocket ska visas.
 
    - Välj **[!UICONTROL Block Reference]** för att identifiera den plats på sidan där blocket ska placeras.
 
@@ -109,15 +109,15 @@ Sociala nätverksplatser har ett antal plugin-program som enkelt kan läggas til
 
    - Klicka på **[!UICONTROL Save and Continue Edit]**.
 
-1. Välj **[!UICONTROL Widget Options]**.
+1. Välj **[!UICONTROL Widget Options]** i panelen till vänster.
 
-1. Klicka **[!UICONTROL Select Block…]** och välj det block som du vill montera.
+1. Klicka på **[!UICONTROL Select Block…]** och välj det block som du vill montera.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 1. Följ instruktionerna högst upp på arbetsytan för att uppdatera indexet och sidcachen när du uppmanas till detta.
 
-   Widgeten visas nu i _[!UICONTROL Widgets]_lista.
+   Widgeten visas nu i listan _[!UICONTROL Widgets]_.
 
 ### Steg 4. Verifiera platsen i butiken
 
@@ -129,11 +129,11 @@ RSS (Really Simple Syndication) är ett XML-baserat dataformat som används för
 
 När RSS-flöden är aktiverade skickas automatiskt alla tillägg till produkter, erbjudanden, kategorier och kuponger till prenumeranterna på varje flöde. En länk till alla RSS-flöden som du publicerar finns i sidfoten på din butik.
 
-![RSS-matningsikon](./assets/icon-rss.png){width="100"}<br/>
+![Ikon för RSS-feed](./assets/icon-rss.png){width="100"}<br/>
 
 Den programvara som krävs för att läsa ett RSS-flöde kallas flödesläsare och gör att man kan abonnera på rubriker, bloggar, poddsändningar och mycket annat. Google Reader är en av många flödesläsare som är tillgängliga online gratis.
 
-![Exempel på storefront - RSS-feed](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
+![Exempelarkiv - RSS-feed](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
 
 ### Fördelar med att konfigurera en RSS-feed
 
@@ -158,34 +158,34 @@ Den programvara som krävs för att läsa ett RSS-flöde kallas flödesläsare o
 
 ### Konfigurera RSS-flöden för din butik
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. I det övre högra hörnet anger du **[!UICONTROL Store View]** till de vyer där flödena ska vara tillgängliga.
 
    Om du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Catalog]** och välja **[!UICONTROL RSS Feeds]**.
+1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL RSS Feeds]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Rss Config]** avsnitt och ange **[!UICONTROL Enable RSS]** till `Enable`.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Rss Config]** och ange **[!UICONTROL Enable RSS]** till `Enable`.
 
    ![Katalogkonfiguration - RSS-flöden](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
 
-   Rensa **[!UICONTROL Use Default]** om du vill ändra standardvärdet.
+   Om det behövs avmarkerar du kryssrutan **[!UICONTROL Use Default]** för att ändra standardvärdet.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Wish List]** avsnitt och ange **[!UICONTROL Enable RSS]** till `Enable`.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Wish List]** och ange **[!UICONTROL Enable RSS]** till `Enable`.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Catalog]** och ange andra feeds till `Enable` efter behov.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Catalog]** och ange andra feeds till `Enable` efter behov.
 
    - **[!UICONTROL New Products]**
    - **[!UICONTROL Special Products]**
    - **[!UICONTROL Coupons/Discounts]**
    - **[!UICONTROL Top Level Category]**
 
-   ![Katalog - inställningar för RSS-flöden](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
+   ![Katalog - Inställningar för RSS-flöden](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Order]** avsnitt och ange **[!UICONTROL Customer Order Status Notification]** till `Enable`.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Order]** och ange **[!UICONTROL Customer Order Status Notification]** till `Enable`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 1. Se resultatet i butiken med `/rss` i slutet av sidans URL.
 

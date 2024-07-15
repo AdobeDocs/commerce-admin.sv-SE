@@ -1,6 +1,6 @@
 ---
 title: Produkttyper
-description: Lär dig mer [!DNL Inventory Management] har stöd för lager- och orderhantering för alla Adobe Commerce- och Magento Open Source-produkttyper.
+description: Läs om hur  [!DNL Inventory Management] har stöd för lager- och orderhantering för alla Adobe Commerce- och Magento Open Source-produkttyper.
 exl-id: c800168a-e8b2-4d72-bd3d-68f46ece8a5e
 feature: Inventory, Products
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Produkttyper
 
-[!DNL Inventory Management] har stöd för lager- och orderhantering för alla produkttyper i Adobe Commerce och Magento Open Source: enkla, konfigurerbara, virtuella, nedladdningsbara, paketerade och grupperade. Alternativen och kraven kan variera mellan olika produkttyper för källor, lager och leveranser.
+[!DNL Inventory Management] har stöd för lager- och orderhantering för alla produkttyper i Adobe Commerce och Magento Open Source: enkel, konfigurerbar, virtuell, hämtningsbar, paketerad och grupperad. Alternativen och kraven kan variera mellan olika produkttyper för källor, lager och leveranser.
 
-- [Försäljare med en enda källa](merchant-sourcing.md#single-source-merchants) skapa och uppdatera produktinställningar och kvantiteter utan att behöva göra ytterligare uppdateringar. Alla skapade och nyligen importerade produkter tilldelas automatiskt till standardkällan och standardlagret, omedelbart tillgängligt för kunder om det är aktiverat och In-Stock.
+- [Försäljare med en enda källa](merchant-sourcing.md#single-source-merchants) kan skapa och uppdatera produktinställningar och kvantiteter utan att behöva utföra ytterligare uppdateringar. Alla skapade och nyligen importerade produkter tilldelas automatiskt till standardversionen av Source och standardversionen av Stock, som är omedelbart tillgänglig för kunder om den är aktiverad och i lager.
 
-- [Handlare med flera källor](merchant-sourcing.md#multi-source-merchants) tilldela källor, kvantiteter per källa och inställningar under eller efter produktskapandet. [!DNL Commerce] tilldelar alla nyligen importerade produkter standardkällan, vilket kräver ytterligare redigeringar för att tilldela källor och kvantiteter.
+- [Återförsäljare med flera källor](merchant-sourcing.md#multi-source-merchants) tilldelar källor, kvantiteter per källa och inställningar under eller efter det att produkten skapats. [!DNL Commerce] tilldelar alla nyimporterade produkter till standardprodukten (Source), vilket kräver ytterligare redigeringar för att tilldela källor och kvantiteter.
 
-| Produkttyp | Algoritm för leverans och källval |
+| Produkttyp | Leveransalgoritm och Source Selection |
 |--|--|
 | [[!UICONTROL Simple]](../catalog/product-create-simple.md){target="_blank"} | Stöder SSA-rekommendationer och åsidosättningar vid leverans. |
 | [[!UICONTROL Configurable]](../catalog/product-create-configurable.md){target="_blank"} | Stöder SSA-rekommendationer och åsidosättningar vid leverans. |

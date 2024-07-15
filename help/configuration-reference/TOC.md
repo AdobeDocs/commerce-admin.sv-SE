@@ -1,6 +1,6 @@
 ---
 user-guide-title: Referenshandbok för konfiguration
-user-guide-description: Den här guiden innehåller referensinformation för alla butikskonfigurationsinställningar som du kommer åt från sidofältet _Admin_ på **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+user-guide-description: Den här guiden ger referensinformation för alla butikskonfigurationsinställningar som du kommer åt från sidofältet _Admin_ på **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 breadcrumb-title: Konfigurationsreferens
 hide: false
 role: Admin, Developer, User

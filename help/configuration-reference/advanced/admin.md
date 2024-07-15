@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL Admin]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Advanced] &gt; [!UICONTROL Admin] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Advanced] &gt; [!UICONTROL Admin] i Commerce Admin.
 exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 role: Admin
 feature: Configuration, Admin Workspace
@@ -24,7 +24,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Glömt löse
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |---------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Forgot Password Email Template] | Global | Identifierar e-postmallen som används för meddelandet som skickas när en Admin-användare glömmer sitt lösenord. Standardmall: `Forgot Admin Password` |
-| [!UICONTROL Forgot and Reset Email Sender] | Global | Identifierar butikskontakten som visas som avsändare av _Glömt lösenordet_ e-post. Standardavsändare: `General Contact`<br/>Andra avsändaralternativ: `Sales Representative`, `Customer Support`, `Custom Email` |
+| [!UICONTROL Forgot and Reset Email Sender] | Global | Identifierar den butikskontakt som visas som avsändare av e-postmeddelandet _Har du glömt lösenordet_. Standardavsändare: `General Contact`<br/>Andra avsändaralternativ: `Sales Representative`, `Customer Support`, `Custom Email` |
 | [!UICONTROL User Notification Template] | Global | Bestämmer e-postmallen som används som standard för administratörsmeddelanden. Standardmall: `User Notification` |
 
 {style="table-layout:auto"}
@@ -33,7 +33,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Glömt löse
 
 ![Startsida](./assets/admin-startup-page.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Ändra startsidan](../../getting-started/admin-dashboard.md#change-the-startup-page) i _Starthandbok_.
+Mer information om hur du ändrar de här inställningarna finns i [Ändra startsidan](../../getting-started/admin-dashboard.md#change-the-startup-page) i _Starthandboken_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |---------------------------|------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Ändra start
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Startup Page] alternativ
+### Alternativ för [!UICONTROL Startup Page]
 
 | Område |                                                                                                                                                                                                                                                                                                                                                                           | Alternativ |
 |---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Ändra start
 |                                                         | [`User Content`](../../catalog/settings-advanced-product-reviews.md) | [`All Reviews`](../../catalog/settings-advanced-product-reviews.md) <br/>[`Pending Reviews`](../../merchandising-promotions/product-reviews-moderate.md) <br/> |
 | `Content` | `Elements` | [`Pages`](../../content-design/pages.md)<br/>[`Hierarchy`](../../content-design/page-hierarchy.md) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`Blocks`](../../content-design/blocks.md)<br/>[`Dynamic Blocks`](../../content-design/dynamic-blocks.md) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`Widgets`](../../content-design/widgets.md)<br/>[`Media Gallery`](../../content-design/media-storage.md) |
 |                                                         | `Design` | [`Configuration`](../../content-design/configuration.md)<br/>[`Themes`](../../content-design/themes.md)<br/>[`Schedule`](../../content-design/schedule.md) |
-|                                                         | `Content Staging` ![Adobe Commerce](../../assets/adobe-logo.svg)<br /> | [Kontrollpanel](../../content-design/content-staging.md) |
+|                                                         | `Content Staging` ![Adobe Commerce](../../assets/adobe-logo.svg)<br /> | [Instrumentpanel](../../content-design/content-staging.md) |
 | `Reports` | [`Marketing`](../../getting-started/marketing-reports.md) | `Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports` |
 |                                                         | [`Reviews`](../../getting-started/review-reports.md) | `By Customer`<br/> `By Products`<br/> |
 |                                                         | [`Sales`](../../getting-started/sales-reports.md) | `Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement` |
@@ -104,12 +104,12 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![Admin - bas-URL](./assets/admin-admin-base-url.png)<!-- zoom -->
 
-Mer information om hur du anger dessa alternativ finns i [Konfigurera bas-URL:en](../../stores-purchase/store-urls.md#configure-the-base-url) i _Butiks and Purchase Experience Guide_.
+Mer information om hur du anger de här alternativen finns i [Konfigurera bas-URL:en](../../stores-purchase/store-urls.md#configure-the-base-url) i _Handboken för butiker och köp_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Use Custom Admin URL] | Global | Avgör om en anpassad URL används för att komma åt administratören. Alternativ: `Yes` / `No` |
-| [!UICONTROL Custom Admin URL] | Global | Anger en anpassad URL för att komma åt administratören. Som standard är Admin-URL samma som bas-URL:en.<br/>**Viktigt:** Admin-URL:en måste finnas i samma Commerce-installation och ha samma dokumentrot som butiken. |
+| [!UICONTROL Custom Admin URL] | Global | Anger en anpassad URL för att komma åt administratören. Som standard är Admin-URL samma som bas-URL:en.<br/>**Viktigt!** Admin-URL:en måste finnas i samma Commerce-installation och ha samma dokumentrot som storefront. |
 | [!UICONTROL Use Custom Admin Path] | Global | Avgör om en anpassad sökväg används för att komma åt administratören. Standardsökvägen är `admin`. Alternativ: `Yes` / `No` |
 | [!UICONTROL Custom Admin Path] | Global | Ändrar namnet på administratörens standardsökväg till något svårt att gissa sig till. Ange namnet på den anpassade sökvägen med gemener. Till exempel: `aardvark` |
 
@@ -119,7 +119,7 @@ Mer information om hur du anger dessa alternativ finns i [Konfigurera bas-URL:en
 
 ![Säkerhet](./assets/admin-security.png)<!-- zoom -->
 
-Mer information om hur du anger dessa alternativ finns i [Konfigurera administratörssäkerhet](../../systems/security-admin.md) i _Handbok för adminsystem_.
+Mer information om hur du anger de här alternativen finns i [Konfigurera administratörssäkerhet](../../systems/security-admin.md) i _handboken för administratörssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -140,9 +140,9 @@ Mer information om hur du anger dessa alternativ finns i [Konfigurera administra
 
 ## [!UICONTROL Dashboard]
 
-![Kontrollpanel](./assets/admin-dashboard.png)<!-- zoom -->
+![Instrumentpanel](./assets/admin-dashboard.png)<!-- zoom -->
 
-Mer information om hur du anger dessa alternativ finns i [Kontrollpanel för administratörer](../../getting-started/admin-dashboard.md) i _Starthandbok_.
+Mer information om hur du anger de här alternativen finns i [Admin Dashboard](../../getting-started/admin-dashboard.md) i _Starthandboken_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |----------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ Mer information om hur du anger dessa alternativ finns i [Kontrollpanel för adm
 
 ![Administratörsstödraster](./assets/admin-admin-grids.png)<!-- zoom -->
 
-Mer information om hur du anger dessa alternativ finns i [Begränsa produktvisning](../../catalog/products-list.md#limit-product-display) i _Kataloghanteringsguide_.
+Mer information om hur du anger de här alternativen finns i [Begränsa produktvisning](../../catalog/products-list.md#limit-product-display) i _kataloghanteringsguiden_.
 
 >[!NOTE]
 >
@@ -162,24 +162,24 @@ Mer information om hur du anger dessa alternativ finns i [Begränsa produktvisni
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Limit Number of Products in Grid] | Global | Anger om antalet produkter som visas i rutnätet är begränsat till _[!UICONTROL Records Limit]_värde. Alternativ: `Yes` / `No` |
+| [!UICONTROL Limit Number of Products in Grid] | Global | Avgör om antalet produkter som visas i rutnätet är begränsat till värdet _[!UICONTROL Records Limit]_. Alternativ: `Yes` / `No` |
 | [!UICONTROL Records Limit] | Global | Anger antalet produkter i produktrutnätet. Standardminimivärdet är `20000`. |
 
 ## [!UICONTROL CAPTCHA]
 
 ![CAPTCHA](./assets/admin-captcha.png)<!-- zoom -->
 
-Mer information om hur du anger dessa alternativ finns i [CAPTCHA](../../systems/security-captcha.md) i _Handbok för adminsystem_.
+Mer information om hur du anger de här alternativen finns i [CAPTCHA](../../systems/security-captcha.md) i _handboken för administratörssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |-------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable CAPTCHA in Admin] | Global | Aktiverar CAPTCHA för administratörsinloggning. Alternativ: `Yes` / `No` |
-| [!UICONTROL Font] | Global | Anger vilket teckensnitt som används för att visa CAPTCHA. Om du vill lägga till ett eget teckensnitt placerar du teckensnittsfilen i samma katalog som din Commerce-instans och lägger till deklarationen i filen config.xml på `app/code/Magento/Captcha/etc` Standardteckensnitt:` LinLibertine` |
+| [!UICONTROL Font] | Global | Anger vilket teckensnitt som används för att visa CAPTCHA. Om du vill lägga till ett eget teckensnitt placerar du teckensnittsfilen i samma katalog som din Commerce-instans och lägger till deklarationen i filen config.xml i `app/code/Magento/Captcha/etc` Standardteckensnitt:` LinLibertine` |
 | [!UICONTROL Forms] | Global | Bestämmer vilka formulär som CAPTCHA används i. Alternativ: `Admin Login` / `Admin Forgot Password` |
-| [!UICONTROL Displaying Mode] | Global | Avgör när CAPTCHA visas. Alternativ: <br/>**`Always`**- CAPTCHA krävs alltid för att logga in.<br/>**`After number of attempts to login`** - Visar [!UICONTROL Number of Unsuccessful Attempts to Login] fält. Ange antalet tillåtna inloggningsförsök. Värdet 0 (noll) liknar inställningen för visningsläge till Alltid. Det här alternativet täcker inte formulären Glömt lösenord och Skapa användare. Om CAPTCHA är aktiverat och inställt på att visas, inkluderas det alltid i formuläret.<br />**Anteckning**: För att spåra antalet misslyckade inloggningsförsök räknas varje försök att logga in under en e-postadress och från en IP-adress. Det maximala antalet inloggningsförsök från samma IP-adress är 1 000. Den här begränsningen gäller bara när CAPTCHA är aktiverat. |
+| [!UICONTROL Displaying Mode] | Global | Avgör när CAPTCHA visas. Alternativ: <br/>**`Always`**- CAPTCHA krävs alltid för inloggning.<br/>**`After number of attempts to login`** - Visar fältet [!UICONTROL Number of Unsuccessful Attempts to Login]. Ange antalet tillåtna inloggningsförsök. Värdet 0 (noll) liknar inställningen för visningsläge till Alltid. Det här alternativet täcker inte formulären Glömt lösenord och Skapa användare. Om CAPTCHA är aktiverat och inställt på att visas, inkluderas det alltid i formuläret.<br />**Obs!** För att spåra antalet misslyckade inloggningsförsök räknas varje försök att logga in under en e-postadress och från en IP-adress. Det maximala antalet inloggningsförsök från samma IP-adress är 1 000. Den här begränsningen gäller bara när CAPTCHA är aktiverat. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Global | Anger hur många gånger en person kan försöka logga in innan kontot är låst. För att spåra antalet misslyckade inloggningsförsök spåras försöken från en e-postadress från en enda IP-adress. Det maximala antalet försök från samma IP-adress är 1 000. Den här begränsningen gäller bara om CAPTCHA är aktiverat. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Global | Anger livslängden för aktuell CAPTCHA. När CAPTCHA förfaller måste användaren läsa in sidan igen. |
-| [!UICONTROL Number of Symbols] | Global | Anger antalet symboler som används i CAPTCHA. Högsta tillåtna värde är `8`. Du kan också ange ett intervall, till exempel `5-8`. |
+| [!UICONTROL Number of Symbols] | Global | Anger antalet symboler som används i CAPTCHA. Det högsta tillåtna värdet är `8`. Du kan också ange ett intervall, till exempel `5-8`. |
 | [!UICONTROL Symbols Used in CAPTCHA] | Global | Avgör vilka symboler som används i CAPTCHA. Endast bokstäver (a-z och A-Z) och siffror (0-9) tillåts. Standarduppsättningen symboler som föreslås i fältet utesluter symboler som liknar varandra, som i, l eller 1. Om du visar dessa symboler i CAPTCHA minskar risken för att en användare känner igen CAPTCHA korrekt. |
 | [!UICONTROL Case Sensitive] | Global | Avgör om tecknen som används i CAPTCHA är skiftlägeskänsliga. Alternativ: `Yes` / `No` |
 
@@ -191,11 +191,11 @@ Mer information om hur du anger dessa alternativ finns i [CAPTCHA](../../systems
 
 ![Loggning av administratörsåtgärder](./assets/admin-actions-logging.png)<!-- zoom -->
 
-Mer information om hur du anger dessa alternativ finns i [Åtgärdsloggarkiv](../../systems/action-log-archive.md) i _Handbok för adminsystem_.
+Mer information om hur du anger de här alternativen finns i [Åtgärdsloggarkiv](../../systems/action-log-archive.md) i _handboken för administrationssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |-----------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Actions] | Global | Aktiverar åtgärdsloggning för var och en av de valda åtgärderna: <br/>`Admin My Account` <br/>`Admin Permission Roles` <br/>`Admin Permission Users` <br/>`Admin Sign In` <br/>`CMS Blocks` <br/>`CMS Hierarchy` <br/>`CMS Pages` <br/>`Cache Management` <br/>`Cart Price Rules` <br/>`Catalog Attributes` <br/>`Catalog Categories` <br/>`Catalog Events` <br/>`Catalog Price Rules` <br/>`Catalog Product Tax Classes` <br/>`Catalog Product Templates` <br/>`Catalog Products` <br/>`Catalog Ratings` <br/>`Catalog Reviews` <br/>`Catalog Search` <br/>`Checkout Terms and Conditions` <br/>`Companies` <br/>`Company Credit` <br/>`Custom Variables` <br/>`Customer Groups` <br/>`Customer Invitations` <br/>`Customer Tax Classes` <br/>`Customers` <br/>`Design Configuration` <br/>`Gift Card Accounts` <br/>`Gift Registry Entity` <br/>`Gift Registry Type` <br/>`Index Management` <br/>`Login as a Customer` <br/>`Manage Currency Rates` <br/>`Manage Customer Address Attributes` <br/>`Manage Customer Attributes` <br/>`Manage Design` <br/>`Manage Dynamic Blocks` <br/>`Manage Segments` <br/>`Manage Store Views` <br/>`Manage Stores` <br/>`Manage Websites` <br/>`Negotiable Quotes` <br/>`Newsletter Queue` <br/>`Newsletter Subscribers` <br/>`Newsletter Templates` <br/>`PayPal Settlement Reports` <br/>`Reports` <br/> `Reward Points Rates` <br/>`Rule-Based Product Relations` <br/>`Sales Archive` <br/>`Sales Credit Memos` <br/>`Sales Invoices` <br/>`Sales Order Status` <br/>`Sales Orders` <br/>`Sales Shipments` <br/>`Shared Catalog` <br/>`Shopping Cart Management` <br/>`Store Credit` <br/>`System Backups` <br/>`System Configuration` <br/>`Tax Rates` <br/>`Tax Rules` <br/>`Transactional Emails` <br/>`URL Rewrites` <br/>`Widget` <br/>`XML Sitemap` |
+| [!UICONTROL Enable Actions] | Global | Aktiverar loggning av åtgärder för var och en av de valda åtgärderna: <br/>`Admin My Account` <br/>`Admin Permission Roles` <br/>`Admin Permission Users` <br/>`Admin Sign In` <br/>`CMS Blocks` <br/>`CMS Hierarchy` <br/>`CMS Pages` <br/>`Cache Management` <br/>`Cart Price Rules` <br/>`Catalog Attributes` <br/>`Catalog Categories` <br/>`Catalog Events` <br/>`Catalog Price Rules` <br/>`Catalog Product Tax Classes` <br/>`Catalog Product Templates` <br/>`Catalog Products` <br/>`Catalog Ratings` <br/>`Catalog Reviews` <br/>`Catalog Search` <br/>`Checkout Terms and Conditions` <br/>`Companies` <br/>`Company Credit` <br/>`Manage Websites` <br/>`Newsletter Subscribers` <br/>`Custom Variables`    <br/>`Customer Groups` <br/>`Customer Invitations` <br/>`Customer Tax Classes` <br/>`Customers` <br/>`Design Configuration` <br/>`Gift Card Accounts` <br/>`Gift Registry Entity` <br/>`Gift Registry Type` <br/>`Index Management` <br/>`Login as a Customer` <br/>`Manage Currency Rates` <br/>`Manage Customer Address Attributes` <br/>`Manage Customer Attributes` <br/>`Manage Design` <br/>`Manage Dynamic Blocks` <br/>`Manage Segments` <br/>`Manage Store Views` <br/>`Manage Stores` {41 <br/>`Negotiable Quotes` <br/>`Newsletter Queue`  <br/>`Newsletter Templates` <br/>`PayPal Settlement Reports` <br/>`Reports` <br/> `Reward Points Rates` <br/>`Rule-Based Product Relations` <br/>`Sales Archive` <br/>`Sales Credit Memos` <br/>`Sales Invoices` <br/>`Sales Order Status` <br/>`Sales Orders` <br/>`Sales Shipments` <br/>`Shared Catalog` <br/>`Shopping Cart Management` <br/>`Store Credit` <br/>`System Backups` <br/>`System Configuration` <br/>`Tax Rates` <br/>`Tax Rules` <br/>`Transactional Emails` <br/>`URL Rewrites` <br/>`Widget` <br/>`XML Sitemap` |
 
 {style="table-layout:auto"}
 
@@ -203,10 +203,10 @@ Mer information om hur du anger dessa alternativ finns i [Åtgärdsloggarkiv](..
 
 ![Administratörsanvändning](./assets/admin-usage.png)<!-- zoom -->
 
-Mer information om hur du anger dessa alternativ finns i [Insamling av användningsdata](../../getting-started/admin.md#usage-data-collection) i _Starthandbok_.
+Mer information om hur du anger de här alternativen finns i [Insamling av användningsdata](../../getting-started/admin.md#usage-data-collection) i _Starthandboken_.
 
 | Fält | Omfång | Beskrivning |
 |------------------------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Admin Usage Tracking] | Global | Ger Adobe tillstånd att samla in administratörsinformation för att förbättra upplevelsen av att använda _Administratör_ och tillhörande produkter och tjänster. Genom att datainsamlingen tillåts kan du även _Produktvägledning_ som är utformat för att ge interaktivt innehåll som hjälp, funktionsbeskrivningar, guider, introduktionsinformation, funktionsmeddelanden med mera till _Administratör_. Enskilda administratörer identifieras inte i användningsdata. Alternativ:<br />**`Yes`**- Tillåter datainsamling och aktiverar _Produktvägledning_.<br />**`No`** - Tillåter inte datainsamling och aktiverar inte _Produktvägledning_. |
+| [!UICONTROL Enable Admin Usage Tracking] | Global | Ger Adobe tillstånd att samla in administratörsanvändningsdata för att förbättra upplevelsen av att använda _Admin_ och relaterade produkter och tjänster. Genom att tillåta datainsamling aktiveras även _Produktvägledning_ som är avsedd att ge interaktivt innehåll som hjälp, verktygstips, genomgångshandböcker, introduktionsinformation, funktionsmeddelanden med mera till _administratören_. Enskilda administratörer identifieras inte i användningsdata. Alternativ:<br />**`Yes`**- Tillåter datainsamling och aktiverar _Produktvägledning_.<br />**`No`** - Tillåter inte datainsamling och aktiverar inte _Produktvägledning_. |
 
 {style="table-layout:auto"}

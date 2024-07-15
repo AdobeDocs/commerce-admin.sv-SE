@@ -1,12 +1,12 @@
 ---
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL Developer]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Advanced] &gt; [!UICONTROL Developer] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Advanced] &gt; [!UICONTROL Developer] i Commerce Admin.
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -17,29 +17,29 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dessa konfigurationsinställningar är tillgängliga i [utvecklarläge](../../systems/developer-tools.md#operation-modes) endast.
+>De här konfigurationsinställningarna är endast tillgängliga i [utvecklarläget](../../systems/developer-tools.md#operation-modes).
 
 ## [!UICONTROL Frontend Development Workflow]
 
-![Frontend Development Workflow](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
+![Arbetsflöde för frontend-utveckling](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Utvecklingsarbetsflöde](../../systems/developer-tools.md#frontend-development-workflow) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Arbetsflöde för frontend-utveckling](../../systems/developer-tools.md#frontend-development-workflow) i _handboken för Admin Systems_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Workflow Type] | Global | Avgör om mindre kompilering sker på klient- eller serversidan under utvecklingen. Alternativ: <br/>**`Client side less compilation`**- Kompileringen görs i webbläsaren med hjälp av det inbyggda biblioteket less.js.<br/>**`Server side less compilation`** - Kompilering görs på servern med hjälp av Less PHP-biblioteket. Det här är standardläget för produktion. |
+| [!UICONTROL Workflow Type] | Global | Avgör om mindre kompilering sker på klient- eller serversidan under utvecklingen. Alternativ: <br/>**`Client side less compilation`**- Kompileringen görs i webbläsaren med hjälp av det systemspecifika less.js-biblioteket.<br/>**`Server side less compilation`** - Kompilering utförs på servern med hjälp av Less PHP-biblioteket. Det här är standardläget för produktion. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Developer Client Restrictions]
 
-![Begränsningar för utvecklarklienter](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
+![Begränsningar för utvecklarklient](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
 
-Mer information om hur du ändrar den här inställningen finns i [Klientbegränsningar](../../systems/developer-tools.md#client-restrictions) i _Handbok för adminsystem_.
+Mer information om hur du ändrar den här inställningen finns i [Klientbegränsningar](../../systems/developer-tools.md#client-restrictions) i _handboken för administratörssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Allow IPs (comma separated)] | Butiksvy | Skapar en tillåtelselista IP-adresser som kan använda utvecklarverktyg på en aktiv webbplats, utan att störa kunderna i butiken. Ändringar av webbplatsen när du använder ett utvecklarverktyg som _Textbunden översättning_, visas bara från IP-adresserna till tillåtelselista. |
+| [!UICONTROL Allow IPs (comma separated)] | Butiksvy | Skapar en tillåtelselista IP-adresser som kan använda utvecklarverktyg på en aktiv webbplats, utan att störa kunderna i butiken. Ändringar av webbplatsen när du använder ett utvecklarverktyg som _Textbunden översättning_ visas bara från IP-adresserna till tillåtelselista. |
 
 {style="table-layout:auto"}
 
@@ -47,11 +47,11 @@ Mer information om hur du ändrar den här inställningen finns i [Klientbegrän
 
 ![Mallinställningar](./assets/developer-template-settings.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Optimera resursfiler](../../systems/developer-tools.md#optimizing-resource-files) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Optimera resursfiler](../../systems/developer-tools.md#optimizing-resource-files) i _handboken för administratörssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Allow Symlinks] | Butiksvy | Aktivering [symboliska länkar](https://en.wikipedia.org/wiki/Symbolic_link) kan utsätta sajten för säkerhetsrisker och rekommenderas inte för ett produktionslager. |
+| [!UICONTROL Allow Symlinks] | Butiksvy | Om du aktiverar [symboliska länkar](https://en.wikipedia.org/wiki/Symbolic_link) kan platsen utsättas för säkerhetsrisker och rekommenderas inte för ett produktionsarkiv. |
 | [!UICONTROL Minify Html] | Butiksvy | Anger om HTML för butiksmallar är minimerad. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -60,7 +60,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Optimera res
 
 ![Felsök](./assets/developer-debug.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Tips för mallsökväg](../../systems/developer-tools.md#template-path-hints) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Tips för mallsökväg](../../systems/developer-tools.md#template-path-hints) i _handboken för administratörssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -74,7 +74,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Tips för ma
 
 ![Översätt textbundet](./assets/developer-translate-inline.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Översätt textbundet](../../systems/developer-tools.md#translate-inline) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Översätt textbundet](../../systems/developer-tools.md#translate-inline) i _handboken för administrationssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Översätt t
 
 ![JavaScript-inställningar](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Optimera resursfiler](../../systems/developer-tools.md#optimizing-resource-files) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Optimera resursfiler](../../systems/developer-tools.md#optimizing-resource-files) i _handboken för administratörssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -95,7 +95,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Optimera res
 | [!UICONTROL Enable JavaScript Bundling] | Butiksvy | Avgör om flera JavaScript-filer kan paketeras i en fil. Alternativ: `Yes` / `No` |
 | [!UICONTROL Minify JavaScript Files] | Butiksvy | Onödiga tecken, blanksteg och indrag tas bort för att minska storleken på koden. |
 | [!UICONTROL Move JS code to the bottom of the page] | Global | Om det här alternativet är aktiverat flyttas JS-koden längst ned på sidan. Alternativ: `Yes` / `No` |
-| [!UICONTROL Translation Strategy] | Global | Bestämmer översättningsmetoden som används av systemet. Alternativ: <br/>**`Dictionary`**- Translation on storefront side.<br/>**`Embedded`** - Översättning på adminsidan. |
+| [!UICONTROL Translation Strategy] | Global | Bestämmer översättningsmetoden som används av systemet. Alternativ: <br/>**`Dictionary`**- Översättning på lagerframsidan.<br/>**`Embedded`** - Översättning på adminsidan. |
 | [!UICONTROL Log JS Errors to Session Storage] | Global | Om det här alternativet är aktiverat kan användas i funktionstester för rapportering. Alternativ: `Yes` / `No` |
 | [!UICONTROL Log JS Errors to Session Storage Key] | Global | Identifierar nyckeln som används för att hämta insamlade js-fel. |
 
@@ -105,13 +105,13 @@ Mer information om hur du ändrar de här inställningarna finns i [Optimera res
 
 ![CSS-inställningar](./assets/developer-css-settings.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Optimera resursfiler](../../systems/developer-tools.md#optimizing-resource-files) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Optimera resursfiler](../../systems/developer-tools.md#optimizing-resource-files) i _handboken för administratörssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Merge CSS Files] | Butiksvy | Sammanfogar flera CSS-filer till en enda fil för att förbättra sidinläsningstiden. Alternativ: `Yes` / `No` |
 | [!UICONTROL Minify CSS Files] | Butiksvy | Onödiga tecken, blanksteg och indrag tas bort för att minska storleken på koden. Alternativ: `Yes` / `No` |
-| [!UICONTROL Use CSS critical path] | Global | The _CSS-kritisk sökväg_ levererar minierad kritisk CSS inline i `<head>` och definierar alla icke-kritiska format som läses in asynkront. Alternativ: `Yes` / `No` |
+| [!UICONTROL Use CSS critical path] | Global | Den _viktiga CSS-sökvägen_ levererar minifierad viktig CSS infogad i `<head>` och definierar alla icke-kritiska format som läses in asynkront. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -127,7 +127,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Optimera res
 
 ## [!UICONTROL Caching Settings]
 
-![Inställningar för cachelagring](./assets/developer-cache-settings.png)<!-- zoom -->
+![Cachelagringsinställningar](./assets/developer-cache-settings.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -151,6 +151,6 @@ Mer information om hur du ändrar de här inställningarna finns i [Optimera res
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Asynchronous Indexing|Global] | Avgör när enheter i orderhanteringssystemet, t.ex. order, fakturor, leveranser och kreditnotor, läggs till i rutnätet och indexeras om. Asynkron indexering kan användas för att undvika lås på data under sparåtgärder och för att minska bearbetningstiden. Alternativ: <br/>**`Disable`**- (Standard) Orderrelaterade enheter läggs till i rutnätet vid olika tillfällen. när de sparas.<br/>**`Enable`** - Orderrelaterade entiteter läggs bara till i rutnätet under ett schemalagt cron-jobb. Cron ska konfigureras att köras en gång i minuten. |
+| [!UICONTROL Asynchronous Indexing|Global] | Avgör när enheter i orderhanteringssystemet, t.ex. order, fakturor, leveranser och kreditnotor, läggs till i rutnätet och indexeras om. Asynkron indexering kan användas för att undvika lås på data under sparåtgärder och för att minska bearbetningstiden. Alternativ: <br/>**`Disable`**- (standard) Ordningsrelaterade entiteter läggs till i rutnätet vid olika tillfällen. när de sparas.<br/>**`Enable`** - Orderrelaterade entiteter läggs endast till i rutnätet under ett schemalagt cron-jobb. Cron ska konfigureras att köras en gång i minuten. |
 
 {style="table-layout:auto"}

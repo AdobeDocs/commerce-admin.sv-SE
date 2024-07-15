@@ -5,7 +5,7 @@ exl-id: 6f97c474-ef6e-4ca6-899d-812c58b993ca
 feature: Checkout, Invoices, Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Om produktpriset innehåller moms visas momsen bara om det finns en momsregel so
 
 >[!IMPORTANT]
 >
->Priser som inkluderar och utesluter moms kan vara förvirrande för kunden. Information om hur du undviker att utlösa ett varningsmeddelande finns i [riktlinjer](international-tax-guidelines.md) för ditt land och [rekommenderade inställningar](taxes.md#warning-messages) för att undvika varningsmeddelanden.
+>Priser som inkluderar och utesluter moms kan vara förvirrande för kunden. Information om hur du undviker att utlösa ett varningsmeddelande finns i [riktlinjerna](international-tax-guidelines.md) för ditt land och [rekommenderade inställningar](taxes.md#warning-messages) för att undvika varningsmeddelanden.
 
 ![Prisvisningsinställningar](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
-En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Prisvisningsinställningar](../configuration-reference/sales/tax.md#price-display-settings) i _Referenshandbok för konfiguration_.
+En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Prisvisningsinställningar](../configuration-reference/sales/tax.md#price-display-settings) i _referenshandboken för konfiguration_.
 
 ## Konfigurera inställningar för prisvisning
 
@@ -32,13 +32,13 @@ Det är en god praxis att visa priser med tillhörande skatter (antingen inklusi
 
 ### Steg 1: Konfigurera visningsinställningar för katalogpriser
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Tax]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Tax]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Price Display Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Price Display Settings]**.
 
-1. För **[!UICONTROL Display Product Prices in Catalog]** väljer du något av följande:
+1. Välj något av följande för **[!UICONTROL Display Product Prices in Catalog]**:
 
    - `Excluding Tax`
    - `Including Tax`
@@ -46,9 +46,9 @@ Det är en god praxis att visa priser med tillhörande skatter (antingen inklusi
 
    >[!NOTE]
    >
-   >Om du ställer in det här alternativet på `Including Tax`visas momsen bara om det finns en momsregel som matchar skatteursprunget eller om det finns en kundadress som matchar momsregeln. Händelser som kan utlösa en matchning är bland annat att skapa ett kundkonto, logga in eller använda skattnings- och leveransberäkningsverktyget i kundvagnen.
+   >Om du anger det här alternativet till `Including Tax` visas momsen bara om det finns en momsregel som matchar skatteursprunget eller om det finns en kundadress som matchar momsregeln. Händelser som kan utlösa en matchning är bland annat att skapa ett kundkonto, logga in eller använda skattnings- och leveransberäkningsverktyget i kundvagnen.
 
-1. För **[!UICONTROL Display Shipping Prices]** väljer du något av följande:
+1. Välj något av följande för **[!UICONTROL Display Shipping Prices]**:
 
    - `Excluding Tax`
    - `Including Tax`
@@ -60,35 +60,35 @@ Om du väljer att visa båda priserna (med och utan moms) ser storefront ut unge
 
 ### Steg 2: Konfigurera visningsinställningar för kundvagn
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Shopping Cart Display Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Shopping Cart Display Settings]**.
 
-   ![Inställningar för kundvagnsvisning](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
+   ![Visningsinställningar för kundvagn](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
 
-1. För **[!UICONTROL Display Prices]** väljer du något av följande:
-
-   - `Excluding Tax`
-   - `Including Tax`
-   - `Including and Excluding Tax`
-
-1. För **[!UICONTROL Display Subtotal]** väljer du något av följande:
+1. Välj något av följande för **[!UICONTROL Display Prices]**:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. För **[!UICONTROL Display Shipping Amount]** väljer du något av följande:
+1. Välj något av följande för **[!UICONTROL Display Subtotal]**:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) För **[!UICONTROL Display Gift Wrapping Prices]** väljer du något av följande:
+1. Välj något av följande för **[!UICONTROL Display Shipping Amount]**:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) För **[!UICONTROL Display Printed Card Prices]** väljer du något av följande:
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) För **[!UICONTROL Display Gift Wrapping Prices]** väljer du något av följande:
+
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
+
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) För **[!UICONTROL Display Printed Card Prices]** väljer du något av följande:
 
    - `Excluding Tax`
    - `Including Tax`
@@ -102,35 +102,35 @@ Om du väljer att visa båda priserna (med och utan moms) ser storefront ut unge
 
 ### Steg 3: Konfigurera visningsinställningar för order, fakturor och kreditnotor
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]**.
 
-   ![Visningsinställningar för order, fakturor, kreditnotor](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
+   ![Visningsinställningar för beställningar, fakturor och kreditnotor](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
-1. För **[!UICONTROL Display Prices]** väljer du något av följande:
-
-   - `Excluding Tax`
-   - `Including Tax`
-   - `Including and Excluding Tax`
-
-1. För **[!UICONTROL Display Subtotal]** väljer du något av följande:
+1. Välj något av följande för **[!UICONTROL Display Prices]**:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. För **[!UICONTROL Display Shipping Amount]** väljer du något av följande:
+1. Välj något av följande för **[!UICONTROL Display Subtotal]**:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) För **[!UICONTROL Display Gift Wrapping Prices]** väljer du något av följande:
+1. Välj något av följande för **[!UICONTROL Display Shipping Amount]**:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) För **[!UICONTROL Display Printed Card Prices]** väljer du något av följande:
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) För **[!UICONTROL Display Gift Wrapping Prices]** väljer du något av följande:
+
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
+
+1. ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) För **[!UICONTROL Display Printed Card Prices]** väljer du något av följande:
 
    - `Excluding Tax`
    - `Including Tax`
@@ -142,4 +142,4 @@ Om du väljer att visa båda priserna (med och utan moms) ser storefront ut unge
    - **[!UICONTROL Display Full Tax Summary]**
    - **[!UICONTROL Display Zero Tax Subtotal]**
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

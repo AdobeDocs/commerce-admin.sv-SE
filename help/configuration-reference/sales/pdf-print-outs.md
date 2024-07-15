@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] i Commerce Admin.
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Shipment]
 
-![Leverans](./assets/pdf-print-shipment.png)<!-- zoom -->
+![Utleverans](./assets/pdf-print-shipment.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

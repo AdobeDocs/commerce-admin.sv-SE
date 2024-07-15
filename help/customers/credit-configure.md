@@ -16,9 +16,9 @@ ht-degree: 2%
 
 Butikskreditkonfigurationen styr automatiska återbetalningar, visning av tillgängliga krediter på kundkonton och e-postmallen som används för meddelanden som skickas till kunder.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Customers]** och välja **[!UICONTROL Customer Configuration]**.
+1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Customer Configuration]**.
 
 1. Expandera avsnittet **[!UICONTROL Store Credit Options]**.
 
@@ -31,8 +31,8 @@ Butikskreditkonfigurationen styr automatiska återbetalningar, visning av tillg�
    * **[!UICONTROL Show Store Credit History to Customers]**
    * **[!UICONTROL Refund Store Credit Automatically]**
 
-1. Ange **[!UICONTROL Store Credit Update Email Sender]** till butiksidentiteten som visas som avsändare av e-postmeddelanden som skickas till kunder.
+1. Ange **[!UICONTROL Store Credit Update Email Sender]** till den butiksidentitet som visas som avsändare av e-postmeddelanden som skickas till kunder.
 
 1. Ange **[!UICONTROL Store Credit Update Email Template]** till mallen som används för e-postmeddelanden som skickas till kunder.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

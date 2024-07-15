@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL System]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Advanced] &gt; [!UICONTROL System] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Advanced] &gt; [!UICONTROL System] i Commerce Admin.
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 ![Avancerad konfiguration - Kron (schemalagda aktiviteter)](./assets/system-cron.png)<!-- zoom -->
 
-Mer information om hur du ändrar dessa konfigurationsinställningar finns i [Cron (schemalagda aktiviteter)](../../systems/cron.md).
+Mer information om hur du ändrar de här konfigurationsinställningarna finns i [Kron (schemalagda aktiviteter)](../../systems/cron.md).
 
 ### [!UICONTROL index]
 
-![Avancerad konfiguration - cron Group: Index](./assets/system-cron-group-index.png)<!-- zoom -->
+![Avancerad konfiguration - Krongrupp: Index](./assets/system-cron-group-index.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -39,7 +39,7 @@ Mer information om hur du ändrar dessa konfigurationsinställningar finns i [Cr
 
 ### [!UICONTROL default]
 
-![Kronsgrupp: Standard](./assets/system-cron-group-default.png)<!-- zoom -->
+![Krongrupp: Standard](./assets/system-cron-group-default.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -72,11 +72,11 @@ Mer information om hur du ändrar dessa konfigurationsinställningar finns i [Cr
 
 ![Avancerad konfiguration - Inställningar för e-postsändning](./assets/system-mail-sending-settings.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Konfigurera e-postkommunikation](../../systems/email-communications.md) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Konfigurera e-postkommunikation](../../systems/email-communications.md) i _handboken för administratörssystem_.
 
 >[!IMPORTANT]
 >
->**Säkerhetsmeddelande** Vi rekommenderar att alla handlare omedelbart ställer in sin konfiguration för att skicka e-post för att skydda mot en nyligen identifierad potentiell fjärrexekvering av kod. Du bör undvika att använda [!DNL Sendmail] för e-postkommunikation. I [!UICONTROL Mail Sending Settings]måste du se till att [!UICONTROL Set Return Path] är inställd på `No`.
+>**Säkerhetsmeddelande** Vi rekommenderar att alla handlare omedelbart ställer in sin sändningskonfiguration för e-post för att skydda mot en nyligen identifierad potentiell fjärrexekvering av kod. Vi rekommenderar att du undviker att använda [!DNL Sendmail] för e-postkommunikation tills problemet är löst. Kontrollera att [!UICONTROL Set Return Path] är inställt på `No` i [!UICONTROL Mail Sending Settings].
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -107,19 +107,19 @@ När du väljer SMTP vid transporttypen finns det ytterligare alternativ för at
 
 ![Avancerad konfiguration - Valuta](./assets/system-currency.png)<!-- zoom -->
 
-Mer information om hur du ändrar den här inställningen finns i [Valutakonfiguration](../../stores-purchase/currency-configuration.md) i _Butiks and Purchase Experience Guide_.
+Mer information om hur du ändrar den här inställningen finns i [Valutakonfiguration](../../stores-purchase/currency-configuration.md) i _Butiker och inköpsupplevelseguiden_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Installed Currencies] | Global | Anger de valutor som för närvarande är tillgängliga för Commerce-installationen. Alternativen omfattar alla tillgängliga valutor, med installerade valutor valda. |
+| [!UICONTROL Installed Currencies] | Global | Anger vilka valutor som är tillgängliga för Commerce-installationen. Alternativen omfattar alla tillgängliga valutor, med installerade valutor valda. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Security]
 
-![Avancerad konfiguration - säkerhet](./assets/system-security.png)<!-- zoom -->
+![Avancerad konfiguration - Säkerhet](./assets/system-security.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Sessionshantering](../../systems/security-session-management.md) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Sessionshantering](../../systems/security-session-management.md) i _handboken för administrationssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Sessionshant
 
 ![Avancerad konfiguration - meddelanden](./assets/system-notifications.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Systemmeddelanden](../../systems/notifications.md) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Systemmeddelanden](../../systems/notifications.md) i _handboken för administrationssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -148,12 +148,12 @@ Mer information om hur du ändrar de här inställningarna finns i [Systemmeddel
 
 {{$include /help/_includes/backups-note.md}}
 
-Mer information om hur du ändrar de här inställningarna finns i [Säkerhetskopiering av system](../../systems/backups.md) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Säkerhetskopiering av system](../../systems/backups.md) i _handboken för administratörssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Anger om Commerce-instansen tillåter säkerhetskopiering. Alternativ: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Visas när _[!UICONTROL Enable Backup]_är inställd på `Yes`.) Avgör om Commerce-instansen automatiskt säkerhetskopieras enligt ett regelbundet schema. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Visas när _[!UICONTROL Enable Backup]_är inställd på `Yes`.) Anger om Commerce-instansen automatiskt säkerhetskopieras enligt ett regelbundet schema. Alternativ: `Yes` / `No` |
 | [!UICONTROL Scheduled Backup Type] | Global | (Visas när _[!UICONTROL Enable Scheduled Backup]_är inställd på `Yes`.) Anger vilka element i Commerce-instansen som ingår i säkerhetskopian. Alternativ: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Global | (Visas när [!UICONTROL Enable Scheduled Backup] är inställd på `Yes`.) Anger timmen, minuten och sekunden då den schemalagda säkerhetskopieringen börjar. |
 | [!UICONTROL Frequency] | Global | (Visas när [!UICONTROL Enable Scheduled Backup] är inställd på `Yes`.) Avgör hur ofta den schemalagda säkerhetskopieringen sker. Alternativ: `Daily` / `Weekly` / `Monthly` |
@@ -165,9 +165,9 @@ Mer information om hur du ändrar de här inställningarna finns i [Säkerhetsko
 
 {{ee-feature}}
 
-![Avancerad konfiguration - Loggarkivering för administratörsåtgärder](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
+![Avancerad konfiguration - Loggarkivering för administrationsåtgärder](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Åtgärdsloggarkiv](../../systems/action-log-archive.md) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Åtgärdsloggarkiv](../../systems/action-log-archive.md) i _handboken för administrationssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -180,7 +180,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Åtgärdslog
 
 ![Avancerad konfiguration - helsidescache](./assets/system-full-page-cache.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Cachelagring](../../systems/cache-management.md#full-page-caching) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Helsidescachning](../../systems/cache-management.md#full-page-caching) i _handboken för administratörssystem_.
 
 ![Avancerad konfiguration - Slutgiltig konfiguration](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
 
@@ -188,16 +188,16 @@ Mer information om hur du ändrar de här inställningarna finns i [Cachelagring
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Bestämmer vilket program som används för att hantera helsidescachen. Alternativ: <br/>**`Built-in Application`**- Rekommenderas inte för produktionsmiljön.<br/>**`Varnish Caching`** - Rekommenderas för produktionsmiljön. |
 | [!UICONTROL TTL for public content] | Global | Anger livslängden för cacheminnet för offentligt innehåll i sekunder. Standardvärde: `120` |
-| [!UICONTROL Handles param size] | global | Anger maximalt antal [layouthandtag](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) för att bearbeta [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP-slutpunkt. Genom att begränsa storleken kan du förbättra säkerheten och prestandan. Standardvärde: `100` |
+| [!UICONTROL Handles param size] | global | Anger det maximala antalet [layoutreferenser](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) som kan bearbetas på HTTP-slutpunkten [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). Genom att begränsa storleken kan du förbättra säkerheten och prestandan. Standardvärde: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Anger de IP-adresser som kan tömma konfigurationen för lack för att generera en konfigurationsfil. Avgränsa flera poster med komma. Standardvärde: `localhost` |
 | [!UICONTROL Backend host] | Global | Anger den serverdelsvärd som genererar konfigurationsfiler. Standardvärde: `localhost` |
 | [!UICONTROL Backend port] | Global | Anger den serverdelsport som används för att generera konfigurationsfiler. Standardvärde: `8080` |
 | [!UICONTROL Grace period] | Global | Avgör hur länge varnish visar inaktuellt innehåll om serverdelen inte är responsiv. Standardvärde: `300` |
 | **[!UICONTROL Export Configuration]** |  |  |
-| [!UICONTROL Export VCL for Varnish 4] | Global | Exporterar `varnish.vcl` för version 4. |
-| [!UICONTROL Export VCL for Varnish 5] | Global | Exporterar `varnish.vcl` för version 5. |
-| [!UICONTROL Export VCL for Varnish 6] | Global | Exporterar `varnish.vcl` för version 6. |
+| [!UICONTROL Export VCL for Varnish 4] | Global | Exporterar filen `varnish.vcl` för version 4. |
+| [!UICONTROL Export VCL for Varnish 5] | Global | Exporterar filen `varnish.vcl` för version 5. |
+| [!UICONTROL Export VCL for Varnish 6] | Global | Exporterar filen `varnish.vcl` för version 6. |
 
 {style="table-layout:auto"}
 
@@ -205,7 +205,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Cachelagring
 
 ![Avancerad konfiguration - lagringskonfiguration för media - filsystem](./assets/system-storage-config-media.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Använda en mediedatabas](../../content-design/media-storage-database.md) i _Content and Design Guide_.
+Mer information om hur du ändrar de här inställningarna finns i [Använd en mediedatabas](../../content-design/media-storage-database.md) i _Innehåll- och designguiden_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -235,11 +235,11 @@ Mer information om hur du ändrar de här inställningarna finns i [Använda en 
 
 ![Avancerad konfiguration - Massåtgärder](./assets/system-bulk-actions.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Massåtgärder](../../systems/action-log-bulk-actions.md) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Massåtgärder](../../systems/action-log-bulk-actions.md) i _handboken för administratörssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Days Saved in Log] | Global | Anger antalet dagar som massåtgärder sparas i _Logg för gruppåtgärd_ arkiv. Standard: `60` |
+| [!UICONTROL Days Saved in Log] | Global | Anger antalet dagar som massåtgärder sparas i arkivet _Massåtgärdslogg_. Standard: `60` |
 
 {style="table-layout:auto"}
 
@@ -249,7 +249,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Massåtgärd
 
 ![Avancerad konfiguration - rensning av schemalagd import/export av filhistorik](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Schemalagd import och export](../../systems/data-scheduled-import-export.md) i _Handbok för adminsystem_.
+Mer information om hur du ändrar de här inställningarna finns i [Schemalagd import och export](../../systems/data-scheduled-import-export.md) i _handboken för administrationssystem_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -272,8 +272,8 @@ Mer information om hur du ändrar de här inställningarna finns i [Schemalagd i
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Quality] | Global | Anger JPG-kvaliteten för den storleksändrade bilden. Lägre kvalitet minskar filstorleken. Använd 80-90 % för att minska filstorleken med hög kvalitet. Standard: `80` |
-| [!UICONTROL Enable Frontend Resize] | Global | Aktivera den här inställningen för att tillåta Commerce att ändra storlek på stora, stora bilder som du kan överföra för _Produktinformation_ sida. I Commerce ändras bildfilernas storlek med JavaScript innan filen överförs. När bildens storlek ändras behålls de exakta proportionerna och den största storleken för Maximal bredd och Maximal höjd får inte överskridas. Standard: `Yes` |
+| [!UICONTROL Quality] | Global | Anger JPG för den storleksändrade bilden. Lägre kvalitet minskar filstorleken. Använd 80-90 % för att minska filstorleken med hög kvalitet. Standard: `80` |
+| [!UICONTROL Enable Frontend Resize] | Global | Aktivera den här inställningen för att tillåta att Commerce ändrar storlek på stora, stora bilder som du kan överföra för sidan _Produktinformation_. Commerce ändrar storlek på bildfilerna med JavaScript innan filen överförs. När bildens storlek ändras behålls de exakta proportionerna och den största storleken för Maximal bredd och Maximal höjd får inte överskridas. Standard: `Yes` |
 | [!UICONTROL Maximum Width] | Global | Anger bildens maximala pixelbredd. När bildens storlek ändras överskrider den inte denna bredd. Standard: `1920` |
 | [!UICONTROL Maximum Height] | Global | Anger bildens maximala pixelhöjd. När bildens storlek ändras överskrider den inte den här höjden. Standard: `1200` |
 
@@ -303,7 +303,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Schemalagd i
 
 ## [!UICONTROL Adobe Stock Integration]
 
-![Avancerad konfiguration - integrering med Adobe Stock](./assets/system-adobe-stock-integration.png)<!-- zoom -->
+![Avancerad konfiguration - Adobe Stock-integrering](./assets/system-adobe-stock-integration.png)<!-- zoom -->
 
 Mer information om hur du konfigurerar de här inställningarna finns i [Adobe Stock Integration](../../content-design/adobe-stock.md) i _Content and Design Guide_.
 

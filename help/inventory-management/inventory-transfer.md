@@ -16,7 +16,7 @@ Beroende på verksamhetens behov och status för lokalisering överför handlare
 
 Med det här alternativet kan du välja en eller flera produkter, ursprungskällan som ska överföras till lagret och destinationskällan som ska ta emot kvantiteter:
 
-- Lagerkvantiteter, status för källartikel (In Stock/Out of Stock) och Meddela kvantitet för den valda källan flyttas per produkt.
+- Lagerkvantiteter, status för Source-artikel (i lager/utlager) och Meddela kvantitet för den valda källan flyttas per produkt.
 
 - Om en produkt inte har den källan hoppas den över.
 
@@ -32,19 +32,19 @@ Du kan också ta bort tilldelningen av källan när du överför lagerkvantitete
 
 ![Överför lager till en annan källa](assets/inventory-bulk-transfer-source.gif)
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
 1. Välj de produkter som du vill ändra källor för.
 
    Bläddra eller sök efter produkter och markera kryssrutor för överföring.
 
-1. Klicka på **[!UICONTROL Actions]** överst och välj **[!UICONTROL Transfer Inventory to Source]**.
+1. Klicka på menyn **[!UICONTROL Actions]** överst och välj **[!UICONTROL Transfer Inventory to Source]**.
 
-1. Klicka **[!UICONTROL OK]** i bekräftelsedialogrutan.
+1. Klicka på **[!UICONTROL OK]** i bekräftelsedialogrutan.
 
-1. Om du vill överföra produkter till en ny destination väljer du ursprung (_[!UICONTROL from]_).
+1. Om du vill överföra produkter till en ny destination väljer du ursprungskällan (_[!UICONTROL from]_).
 
-1. om du vill överföra produkter till en ny destination väljer du destinationen (_[!UICONTROL to]_).
+1. Om du vill överföra produkter till ett nytt mål väljer du målkällan (_[!UICONTROL to]_).
 
 1. Om du vill ta bort källan från produkterna markerar du den valfria kryssrutan **[!UICONTROL Unassign from origin source after transfer]**.
 

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL OAuth]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Services] &gt; [!UICONTROL OAuth] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Services] &gt; [!UICONTROL OAuth] i Commerce Admin.
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Access Token Expiration]
 
-![Åtkomsttokenets förfallodatum](./assets/oauth-token-expire.png)<!-- zoom -->
+![Åtkomsttoken förfaller](./assets/oauth-token-expire.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Livstid och krypteringsalgoritmer för Bearer-kund och Admin API-token styrs av [JWT-autentisering](magento-web-api.md#jwt-authentication) konfigurationsinställningar.
+>Livstid och krypteringsalgoritmer för Bearer-token för kund och administratör-API styrs av konfigurationsinställningarna för [JWT-autentisering](magento-web-api.md#jwt-authentication) .
 
 ## [!UICONTROL Cleanup Settings]
 

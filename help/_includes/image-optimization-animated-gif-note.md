@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Optimering av animerade GIF-bilder stöds inte. Sådana bilder kan förlora sin animering efter bildoptimeringsprocessen. Du kan undvika detta genom att kontrollera att bildstorleken för den animerade GIF ligger under den maximala bredd och höjd som definieras av [[!UICONTROL Media Gallery Image Optimization] konfigurationsinställningar](../content-design/media-gallery-image-optimization.md).
+>Optimering av animerade GIF-bilder stöds inte. Sådana bilder kan förlora sin animering efter bildoptimeringsprocessen. För att undvika detta bör du kontrollera att bildstorleken för animerade GIF ligger under den maximala bredd och höjd som definieras av konfigurationsinställningarna [[!UICONTROL Media Gallery Image Optimization] ](../content-design/media-gallery-image-optimization.md).

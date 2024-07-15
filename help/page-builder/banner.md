@@ -1,24 +1,24 @@
 ---
 title: Media - banderoll
-description: Lär dig mer om Banner-innehållstypen som används för att lägga till en illustrerad, interaktiv komponent i [!DNL Page Builder] stage.
+description: Lär dig mer om Banner-innehållstypen som används för att lägga till en illustrerad, interaktiv komponent på  [!DNL Page Builder] scenen.
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2302'
 ht-degree: 0%
 
 ---
 
 # Media - banderoll
 
-Använd _Banderoll_ innehållstyp för att lägga till en illustrerad, interaktiv komponent som engagerar användarna med en uppmaning till åtgärd och knapp i [[!DNL Page Builder] stage](workspace.md#stage).
+Använd innehållstypen _Banner_ för att lägga till en illustrerad, interaktiv komponent som engagerar användarna med ett anrop till åtgärd och knapp på [[!DNL Page Builder] scenen](workspace.md#stage).
 
 >[!NOTE]
 >
->Vad som tidigare var _Banderoll_ på menyn Innehåll, är nu [Dynamiskt block](../content-design/dynamic-blocks.md).
+>Det som tidigare var alternativet _Banner_ på menyn Innehåll är nu [Dynamiskt block](../content-design/dynamic-blocks.md).
 
-![Banderoll på startsidan för butiken](./assets/pb-banner-homepage.png){width="700" zoomable="yes"}
+![Banderoll på en startsida för butiken](./assets/pb-banner-homepage.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -26,16 +26,16 @@ Använd _Banderoll_ innehållstyp för att lägga till en illustrerad, interakti
 
 Banderollverktygslådan visas när du hovrar över banderollbehållaren.
 
-![Banderollverktygslåda](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
+![Banderollverktygslådan](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
 
 | Verktyg | Ikon | Beskrivning |
 |--- |--- |--- |
 | Flytta | ![Ikonen Flytta](./assets/pb-icon-move.png){width="25"} | Flyttar banderollen till en annan plats på scenen. |
 | (etikett) | Banderoll | Identifierar den aktuella innehållsbehållaren som en banner. Håll pekaren över behållaren för att visa verktygslådan. |
-| Inställningar | ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera banderoll där du kan ändra egenskaperna för banderollen och behållaren. |
+| Inställningar | ![Ikon för inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera banderoll där du kan ändra egenskaperna för banderollen och behållaren. |
 | Dölj | ![Dölj ikon](./assets/pb-icon-hide.png){width="25"} | Döljer den aktuella bannern. |
 | Visa | ![Visa ikon](./assets/pb-icon-show.png){width="25"} | Visar den dolda banderollen. |
-| Duplicera | ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av banderollen. |
+| Duplicera | ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av banderollen. |
 | Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="25"} | Tar bort bannern från scenen. |
 | [!UICONTROL Upload New Image] |  | Överför en bild från det lokala filsystemet till galleriet för banderollbakgrunden. |
 | [!UICONTROL Select from Gallery] |  | Använder en befintlig bild från galleriet som bannerbakgrund. |
@@ -46,19 +46,19 @@ Banderollverktygslådan visas när du hovrar över banderollbehållaren.
 
 ## Lägg till en banderoll
 
-1. I [!DNL Page Builder] panel, expandera **[!UICONTROL Media]** och dra en **[!UICONTROL Banner]** platshållare till scenen.
+1. Expandera **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Banner]** platshållare till scenen.
 
    ![Dra en bannerinnehållstyp till scenen](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   The _[!UICONTROL Upload Image]_och_[!UICONTROL Select from Gallery]_ -knappar inkluderas så att du snabbt kan ändra banderollinnehållet direkt från scenen. Du kan också ändra innehållet på _[!UICONTROL Edit Banner]_sida.
+   Knapparna _[!UICONTROL Upload Image]_och_[!UICONTROL Select from Gallery]_ inkluderas så att du snabbt kan ändra banderollinnehållet direkt från scenen. Du kan också ändra innehållet på sidan _[!UICONTROL Edit Banner]_.
 
-1. Klicka på banderollplatshållaren för att visa [textredigerare](../content-design/editor.md) och ange innehåll för banderollen.
+1. Klicka på banderollplatshållaren för att visa [textredigeraren](../content-design/editor.md) och ange innehåll för banderollen.
 
-   Du kan även inkludera mer komplext banderollinnehåll med [Innehåll](#content) inställningar.
+   Du kan även inkludera mer komplext banderollinnehåll med inställningarna för [Innehåll](#content) .
 
 ## Ändra bannerinställningar
 
-1. Håll pekaren över banderollbehållaren för att visa verktygslådan och välj _Inställningar_ (![Ikonen Inställningar](./assets/pb-icon-settings.png)).
+1. Håll pekaren över banderollbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ (![Inställningar-ikon](./assets/pb-icon-settings.png)).
 
 1. Använd följande avsnitt för detaljerad information om hur du uppdaterar de tillgängliga inställningarna:
 
@@ -67,9 +67,9 @@ Banderollverktygslådan visas när du hovrar över banderollbehållaren.
    - [[!UICONTROL Background]](#background)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. När du är klar klickar du på **[!UICONTROL Save]** i det övre högra hörnet för att stänga _[!UICONTROL Edit Banner]_sida.
+1. När du är klar klickar du på **[!UICONTROL Save]** i det övre högra hörnet för att stänga sidan _[!UICONTROL Edit Banner]_.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
 ## [!UICONTROL Appearance]
 
@@ -90,7 +90,7 @@ Banderoller är enkla att installera och underhålla eftersom de är baserade p�
 
 - (Valfritt) Ange **[!UICONTROL Minimum Height]** för raden.
 
-  Den minsta höjden kan vara ett tal med valfri giltig CSS-enhet (till exempel `100px`, `50%`, `50em`, `100vh`) eller en beräkning (som `100vh - 237px`).
+  Den minsta höjden kan vara ett tal med en giltig CSS-enhet (till exempel `100px`, `50%`, `50em`, `100vh`) eller en beräkning (till exempel `100vh - 237px`).
 
   Du kan till exempel ange den minsta höjden för en banderoll så att hela sidhöjden sträcks ut, vilket ger dig tilltalande alternativ för helsidesbakgrundsbilder och -videor.
 
@@ -108,33 +108,33 @@ Du kan ange värdet på ett av tre sätt:
 
 - Ett fördefinierat färgnamn, till exempel `White`
 - Det hexadecimala färgvärdet för färgen, till exempel `#ffffff`
-- rgba-värdet för färgen, med opacitetsprocent, till exempel `rgba(255, 255, 255, 0.75)`
+- RGB-värdet för färgen, med opacitetsprocent, till exempel `rgba(255, 255, 255, 0.75)`
 
-Om du vill välja en färg klickar du på färgrutan till vänster om _Ingen färg_ box.
+Om du vill välja en färg klickar du på färgrutan till vänster om rutan _Ingen färg_ .
 
 ![Välja en färgruta](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 Om du klickar på färgrutan för att öppna färgväljaren igen visar rutan under reglaget de aktuella värdena för rött, grönt, blått och alfa (rgba). Det sista talet anger den aktuella opaciteten i procent som decimal. Du kan justera opaciteten med hjälp av skjutreglaget eller ange ett decimalvärde.
 
-![Ange opacitet](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+![Anger opacitet](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->[!DNL Page Builder] har även stöd för genomskinliga lager, eller _alfakanal_, i bakgrundsbilder som kan användas för att skapa bakgrunder med varierande grad av opacitet.
+>[!DNL Page Builder] har också stöd för ett genomskinlighetslager, eller _alfakanal_, i bakgrundsbilder som kan användas för att skapa bakgrunder med olika grad av opacitet.
 
 ### [!UICONTROL Background Type]
 
-En bakgrundstyp kan vara en bild eller en video. [!DNL Page Builder] standardvärdet är `Image` och visar olika bildinställningar. Om du väljer `Video`, [!DNL Page Builder] byter ut bildinställningarna mot videoinställningarna. Båda bakgrundstypsinställningarna beskrivs i följande avsnitt.
+En bakgrundstyp kan vara en bild eller en video. [!DNL Page Builder] är som standard `Image` och visar olika bildinställningar. Om du väljer `Video` byter [!DNL Page Builder] bildinställningarna mot videoinställningarna. Båda bakgrundstypsinställningarna beskrivs i följande avsnitt.
 
 ![Bakgrundstyp](./assets/pb-background-type.png){width="200"}
 
 ### Inställningar för bildtyp
 
-Om du anger _Bakgrundstyp_ till `Image`använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
+Om du anger _bakgrundstypen_ till `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
 
-![Banderoll med bakgrundsbild](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
+![Banner med bakgrundsbild](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
-- **[!UICONTROL Background Image]** - Använd vid behov de medföljande verktygen för att välja en bakgrundsbild som ska användas på banderollen:
+- **[!UICONTROL Background Image]** - Om det behövs kan du använda de angivna verktygen för att välja en bakgrundsbild som ska användas på banderollen:
 
   | Verktyg | Beskrivning |
   | ---- | ----------- |
@@ -146,7 +146,7 @@ Om du anger _Bakgrundstyp_ till `Image`använder du följande inställningar fö
 
 - **[!UICONTROL Background Mobile Image]** - Använd vid behov samma verktyg för att välja en annan bakgrundsbild som ska användas för visning på mobila enheter.
 
-- **[!UICONTROL Background Size]** - Ange det här alternativet för att bestämma hur bakgrundsbilden ska skalförändras i förhållande till banderollens bredd:
+- **[!UICONTROL Background Size]** - Ange det här alternativet för att bestämma hur bakgrundsbilden ska skalas i relation till banderollens bredd:
 
   | Alternativ | Beskrivning |
   | ------ | ----------- |
@@ -156,7 +156,7 @@ Om du anger _Bakgrundstyp_ till `Image`använder du följande inställningar fö
 
   {style="table-layout:auto"}
 
-  ![Bakgrundsstorlek](./assets/pb-layout-row-settings-background-size-cover.png){width="200"}
+  ![Background size](./assets/pb-layout-row-settings-background-size-cover.png){width="200"}
 
 - **[!UICONTROL Background Position]** - Ange det här alternativet för att bestämma hur bakgrundsbilden är förankrad i förhållande till banderollen:
 
@@ -183,29 +183,29 @@ Om du anger _Bakgrundstyp_ till `Image`använder du följande inställningar fö
 
 ### Inställningar för videotyp
 
-Om du anger _[!UICONTROL Background Type]_till `Video`använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
+Om du ställer in _[!UICONTROL Background Type]_på `Video` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
 
 - **[!UICONTROL Video URL]** - Ange en giltig video-URL. Giltiga video-URL:er kan vara länkar till:
 
-   - YouTube videofilmer: `https://youtu.be/CoDhMRUUjeI`
-   - Vimeo-videor: `https://vimeo.com/190156113`
+   - YouTube-videofilmer: `https://youtu.be/CoDhMRUUjeI`
+   - Vimeo-videofilmer: `https://vimeo.com/190156113`
    - Giltiga videofiler (`.mp4` rekommenderas): `https://myvideos.com/spiral.mp4`
 
   ![URL för bakgrundsvideo](./assets/pb-video-url.png){width="200"}
 
-- **[!UICONTROL Overlay Color]** - Välj en färg som du vill använda en genomskinlig färgton på videon.
+- **[!UICONTROL Overlay Color]** - Välj en färg för att använda en genomskinlig färgton på videon.
 
-- **[!UICONTROL Infinite Loop]** - Ange som `No` för att få videon att spelas upp en gång och stoppa. När den är inställd på `Yes` (standard) upprepas videon i en oändlig slinga.
+- **[!UICONTROL Infinite Loop]** - Ange till `No` om du vill att videon ska spelas upp en gång och stoppas. När värdet är `Yes` (standard) upprepas videon i en oändlig slinga.
 
-- **[!UICONTROL Lazy Load]** - Ange som `No` för att göra så att videon läses in med sidan, även när den inte syns. När den är inställd på `Yes` (standard) läses videon bara in från källan när den visas på skärmen.
+- **[!UICONTROL Lazy Load]** - Ange som `No` om du vill att videon ska läsas in med sidan, även när den inte är synlig. När värdet är `Yes` (standard) läses videon in från källan endast när den visas på skärmen.
 
-- **[!UICONTROL Play Only When Visible]** - Ange som `No` för att få videon att börja spelas upp omedelbart efter att den har lästs in, oavsett om den är synlig eller inte. När den är inställd på `Yes` (standard) spelas videon bara upp när den är synlig.
+- **[!UICONTROL Play Only When Visible]** - Ange till `No` om du vill att videon ska börja spelas upp omedelbart efter att den har lästs in, oavsett om den är synlig eller inte. När värdet är `Yes` (standard) börjar videon spelas upp endast när den är synlig.
 
 - **[!UICONTROL Fallback Image]** - Om det behövs anger du en bild som ska visas på skärmen innan videon läses in och om videon inte läses in av någon anledning.
 
 ## [!UICONTROL Content]
 
-Du kan ändra banderollinnehållet direkt på scenen eller när du ändrar inställningarna. Inställningarna innehåller mer komplexa innehållsfunktioner, som bannerlänkar, knappar och övertäckningar. Innehållets position återspeglar [Utseende](#appearance) placeringsinställning.
+Du kan ändra banderollinnehållet direkt på scenen eller när du ändrar inställningarna. Inställningarna innehåller mer komplexa innehållsfunktioner, som bannerlänkar, knappar och övertäckningar. Innehållets position återspeglar placeringsinställningen [Utseende](#appearance).
 
 ### Enkelt innehåll på scenen
 
@@ -221,28 +221,28 @@ Du kan ändra banderollinnehållet direkt på scenen eller när du ändrar inst�
 
 ### Komplext innehåll i inställningarna
 
-1. Håll pekaren över banderollbehållaren för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} ).
+1. Håll pekaren över banderollbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="25"} ).
 
-1. Bläddra nedåt till _[!UICONTROL Content]_-avsnittet och använd **[!UICONTROL Message Text]**för att ange och formatera bannertext.
+1. Bläddra ned till avsnittet _[!UICONTROL Content]_och använd **[!UICONTROL Message Text]**-redigeraren för att ange och formatera banderolltext.
 
    Du kan också infoga element, till exempel textlänkar, bilder och widgetar.
 
-   ![Meddelandetextredigerare](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
+   ![Redigerare för meddelandetext](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
-1. Ange vid behov en **[!UICONTROL Link]** för bannern.
+1. Ange vid behov en **[!UICONTROL Link]** för banderollen.
 
    Länken är den målsida som visas när kunden klickar på banderollknappen eller området. Du kan använda en av tre länktyper:
 
-   - **[!UICONTROL URL]** - Länkar till en relativ eller fullständig URL-adress.
+   - **[!UICONTROL URL]** - Länkar till en relativ eller fullständig URL.
    - **[!UICONTROL Product]** - Identifierar målsidan baserat på produktnamnet eller SKU:n. Sök efter produkten efter namn baserat på antingen ett partiellt eller fullständigt namn. Välj produkten i sökresultatlistan.
    - **[!UICONTROL Category]** - Identifierar målsidan som en specifik kategori eller underkategori i kategoriträdet. Sök efter kategorin utifrån antingen ett helt eller delvis namn. Välj kategori i det utökade avsnittet i det visade trädet.
    - **[!UICONTROL Page]** - Identifierar målsidan som en specifik innehållssida. Sök efter sidan baserat på ett helt eller delvis namn. Välj sidan i sökresultatlistan.
 
    >[!NOTE]
    >
-   >Från och med version 2.4.1, [!DNL Page Builder] stöder inte längre länkning av banderollen och länkar i den kapslade texten på grund av problem med visningen i butiken. Om du använder en länk i _[!UICONTROL Message Text]_kan du inte konfigurera_[!UICONTROL Link]_ alternativ. Om du föredrar att använda en enda länk för hela banderollen kan du ta bort alla länkar från texten.<br/>
+   >Från och med version 2.4.1 stöder [!DNL Page Builder] inte längre länkning av banderollen och länkar i den kapslade texten på grund av problem med visningen på butiken. Om du använder en länk i _[!UICONTROL Message Text]_kan du inte konfigurera alternativet_[!UICONTROL Link]_. Om du föredrar att använda en enda länk för hela banderollen kan du ta bort alla länkar från texten.<br/>
    >
-   >![Länkkonfigurationen har blockerats](./assets/pb-nested-link-blocked.png){width="200"}
+   >![Länkkonfigurationen är blockerad](./assets/pb-nested-link-blocked.png){width="200"}
 
 
 1. Om det behövs lägger du till en knapp som uppmanar kunderna att följa länken.
@@ -253,7 +253,7 @@ Du kan ändra banderollinnehållet direkt på scenen eller när du ändrar inst�
 
    >[!NOTE]
    >
-   >Du kan också använda flera knappar eller länkar genom att lägga till en [block](block.md) till bannern. För att undvika konflikter ska du behålla alla länkar eller knappar i det separata blocket och inte lägga till en länk eller knapp direkt i banderollen.
+   >Du kan också använda flera knappar eller länkar genom att lägga till ett [block](block.md) i banderollen. För att undvika konflikter ska du behålla alla länkar eller knappar i det separata blocket och inte lägga till en länk eller knapp direkt i banderollen.
 
    - Ange **[!UICONTROL Show Button]** till något av följande:
 
@@ -265,7 +265,7 @@ Du kan ändra banderollinnehållet direkt på scenen eller när du ändrar inst�
 
      {style="table-layout:auto"}
 
-   - Ange **[!UICONTROL Button Text]** för att visas på knappen.
+   - Ange **[!UICONTROL Button Text]** som ska visas på knappen.
 
    - Ange **[!UICONTROL Button Type]** till något av följande:
 
@@ -289,31 +289,31 @@ Du kan ändra banderollinnehållet direkt på scenen eller när du ändrar inst�
 
    {style="table-layout:auto"}
 
-   Du kan använda en övertäckning för att använda en bakgrundsfärg på det aktiva innehållsområdet som definieras av [!UICONTROL Appearance] inställning. Banderollens bakgrundsbild är fortfarande synlig för banderollens hela bredd.
+   Du kan använda en övertäckning om du vill använda en bakgrundsfärg för det aktiva innehållsområdet som definieras av inställningen [!UICONTROL Appearance]. Banderollens bakgrundsbild är fortfarande synlig för banderollens hela bredd.
 
    Om du väljer att visa en övertäckning anger du **[!UICONTROL Overlay Color]**:
 
-   - Klicka på **Ingen färg** och välj en färgruta.
-   - I **Ingen färg** anger du ett giltigt färgnamn eller ett hexadecimalt värde.
+   - Klicka på färgrutan **Ingen färg** och välj en färgruta.
+   - Ange ett giltigt färgnamn eller ett hexadecimalt värde i fältet **Ingen färg**.
 
    ![Övertäckningsfärg](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
-   ![Banderoll med textmeddelande och knapp](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
+   ![Banner med textmeddelande och knapp](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
 
 
 ## [!UICONTROL Search Engine Optimization] {#seo}
 
 Texten för de här inställningarna visas för sökmotorer och förbättrar indexeringen av sidan.
 
-- För **[!UICONTROL Alternative Text]**, ange en _alt_ textbeskrivning för de digitala tillgänglighetsverktygen som ska visas.
+- För **[!UICONTROL Alternative Text]** anger du en _alt_-textbeskrivning för de digitala tillgänglighetsverktygen som ska visas.
 
-  Alternativtext är en god hjälpmedelspraxis och krävs enligt lag i vissa språkområden. I HTML `alt` är en delmängd av `image` tagg: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Alternativtext är en god hjälpmedelspraxis och krävs enligt lag i vissa språkområden. I HTML är attributet `alt` en delmängd av taggen `image`: `<image title="tooltip" alt="description" src="image.jpg">`.
 
-- För **[!UICONTROL Title Attribute]** anger du den text som ska visas som ett verktygstips när du för musen över.
+- För **[!UICONTROL Title Attribute]** anger du den text som ska visas som ett verktygstips vid muspekaren.
 
-  Det bästa sättet är att välja en beskrivande, nyckelordsrik titel som förbättrar hur bilden indexeras av sökmotorer. I HTML `title` är en delmängd av `image` tagg: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Det bästa sättet är att välja en beskrivande, nyckelordsrik titel som förbättrar hur bilden indexeras av sökmotorer. I HTML är attributet `title` en delmängd av taggen `image`: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
@@ -328,7 +328,7 @@ Texten för de här inställningarna visas för sökmotorer och förbättrar ind
 
    {style="table-layout:auto"}
 
-1. Ange **[!UICONTROL Border]** format som används på alla fyra sidorna av banderollbehållaren:
+1. Ange det **[!UICONTROL Border]**-format som ska användas på alla fyra sidor i banderollbehållaren:
 
    | Alternativ | Beskrivning |
    | ------ | ----------- |
@@ -345,7 +345,7 @@ Texten för de här inställningarna visas för sökmotorer och förbättrar ind
 
    {style="table-layout:auto"}
 
-1. Om du anger ett annat kantlinjeformat än `None`slutför du visningsalternativen för kantlinjer:
+1. Om du anger ett annat kantlinjeformat än `None` fyller du i visningsalternativen för kantlinjen:
 
    - **[!UICONTROL Border Color]** - Ange färgen genom att välja en färgruta, klicka på färgväljaren eller genom att ange ett giltigt färgnamn eller motsvarande hexadecimalt värde.
 
@@ -353,13 +353,13 @@ Texten för de här inställningarna visas för sökmotorer och förbättrar ind
 
    - **[!UICONTROL Border Width]** - Ange antalet pixlar för kantlinjens bredd.
 
-   - **[!UICONTROL Border Radius]** - Ange antalet pixlar för att definiera radiens storlek som används för att runda varje hörn av kanten.
+   - **[!UICONTROL Border Radius]** - Ange antalet pixlar för att definiera storleken på radien som används för att runda varje hörn av kanten.
 
 1. (Valfritt) Ange namnen på **[!UICONTROL CSS classes]** från den aktuella formatmallen som ska användas för banderollbehållaren.
 
    Avgränsa flera klassnamn med blanksteg.
 
-1. Ange värden i pixlar för **[!UICONTROL Margins and Padding]** om du vill ange banderollens yttre marginaler och inre utfyllnad.
+1. Ange värden (i pixlar) för **[!UICONTROL Margins and Padding]** för att ange banderollens yttre marginaler och inre utfyllnad.
 
    Ange varje motsvarande värde i bannerbehållardiagrammet.
 

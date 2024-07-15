@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] i Commerce Admin.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Nyhetsbrevet är en del av marknadsföringsinstrument som gör det möjligt att skicka nyheter, rabatter och andra marknadsföringsmejl till kunderna. Registrerade kunder kan hantera sin prenumeration från sina [instrumentpanel för konto](../../customers/account-dashboard-my-account.md).
+>Nyhetsbrevet är en del av marknadsföringsinstrument som gör det möjligt att skicka nyheter, rabatter och andra marknadsföringsmejl till kunderna. Registrerade kunder kan hantera sin prenumeration från sin [kontokontrollpanel](../../customers/account-dashboard-my-account.md).
 
 ## [!UICONTROL General Options]
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Subscription Options]
 
-![Prenumeration](./assets/newsletter-subscription-options.png)<!-- zoom -->
+![Prenumerationsalternativ](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
 <!-- [Subscription Options](https://docs.magento.com/user-guide/marketing/newsletter-configuration.html) -->
 

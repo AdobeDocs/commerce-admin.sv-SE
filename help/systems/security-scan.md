@@ -22,22 +22,22 @@ Med den förbättrade säkerhetssökningen kan du övervaka var och en av dina A
 - Få tillgång till historiska säkerhetsrapporter som spårar och övervakar webbplatsernas förlopp.
 - Få åtkomst till den inskannade rapporten som visar lyckade och misslyckade kontroller, med rekommenderade åtgärder.
 
-Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen i [Commerce/Magento](../getting-started/commerce-account-create.md). Teknisk information finns på [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) i _Infrastrukturhandbok för Commerce on Cloud_.
+Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen för ditt [Commerce/Magento ](../getting-started/commerce-account-create.md)-konto. Mer teknisk information finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) i _infrastrukturhandboken för Commerce om molnet_.
 
-![Verktyget för säkerhetsgenomsökning](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+![Säkerhetsgenomsökningsverktyget](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Kör en säkerhetssökning
 
-1. Logga in på din Commerce hemsida [Commerce/Magento](../getting-started/commerce-account-create.md).
+1. Logga in på ditt [Commerce/Magento-konto](../getting-started/commerce-account-create.md) från Commerce hemsida.
 
 1. Granska och godkänn villkoren för användning av verktyget för säkerhetsgenomsökning.
 
-   - Välj **[!UICONTROL Security Scan]**.
+   - Välj **[!UICONTROL Security Scan]** på den vänstra panelen.
    - Klicka på **[!UICONTROL Go to Security Scan]**.
    - Läs **[!UICONTROL Terms and Conditions]**.
-   - Klicka **[!UICONTROL Agree]** för att fortsätta.
+   - Klicka på **[!UICONTROL Agree]** för att fortsätta.
 
-1. På _[!UICONTROL Monitored Websites]_sida, klicka **[!UICONTROL +Add Site]**.
+1. Klicka på **[!UICONTROL +Add Site]** på sidan _[!UICONTROL Monitored Websites]_.
 
    Om du har flera platser med olika domäner, konfigurerar du en separat sökning för varje domän.
 
@@ -49,37 +49,37 @@ Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från inst
 
    - Ange **[!UICONTROL Site URL]** och **[!UICONTROL Site Name]**.
    - Klicka på **[!UICONTROL Generate Confirmation Code]**.
-   - Klicka **Kopiera** om du vill kopiera bekräftelsekoden till Urklipp.
+   - Klicka på **Kopiera** om du vill kopiera bekräftelsekoden till Urklipp.
 
      ![Generera bekräftelsekod](./assets/scan-site1.png){width="400" zoomable="yes"}
 
    - Logga in på administratören för din butik som användare med fullständig administratörsbehörighet och gör följande:
 
-      - I _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
-      - Hitta platsen i listan och klicka på **[!UICONTROL Edit]**.
-      - Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL HTML Head]** -avsnitt.
-      - Bläddra nedåt till **[!UICONTROL Scripts and Style Sheets]** och klicka i textrutan i slutet av en befintlig kod och klistra in bekräftelsekoden i textrutan.
+      - Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+      - Hitta din webbplats i listan och klicka på **[!UICONTROL Edit]**.
+      - Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
+      - Bläddra ned till **[!UICONTROL Scripts and Style Sheets]** och klicka i textrutan i slutet av en befintlig kod och klistra in bekräftelsekoden i textrutan.
 
         ![Skript och formatmallar](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-      - När du är klar klickar du på **[!UICONTROL Save Configuration]**.
+      - Klicka på **[!UICONTROL Save Configuration]** när du är klar.
 
    **PWA storefront**:
 
    - Ange **[!UICONTROL Site URL]** och **[!UICONTROL Site Name]**.
 
-   - För **[!UICONTROL Confirmation Code]** väljer du `META Tag` och klicka sedan på **[!UICONTROL Generate Code]**.
+   - För **[!UICONTROL Confirmation Code]** väljer du alternativet `META Tag` och klickar sedan på **[!UICONTROL Generate Code]**.
 
-   - Klicka **[!UICONTROL Copy]** om du vill kopiera den genererade bekräftelsekod-META-taggen till Urklipp.
+   - Klicka på **[!UICONTROL Copy]** för att kopiera den genererade META-taggen för bekräftelsekoden till Urklipp.
 
      ![Generera bekräftelsekod](./assets/scan-site2.png){width="400" zoomable="yes"}
 
    - Gå till projektkatalogen för PWA Studio storefront och gör följande:
 
-      - Gå till projektkatalogen PWA Studio `packages > venia-concept > template.html`.
+      - Gå till `packages > venia-concept > template.html` under projektkatalogen för PWA Studio.
       - Lägg till den kopierade bekräftelsekoden (den genererade META-taggen) i huvudet på HTML och spara ändringarna.
 
-        ![Bekräftelsekod för kopia](./assets/code-pwa.png){width="600" zoomable="yes"}
+        ![Kopiera bekräftelsekod](./assets/code-pwa.png){width="600" zoomable="yes"}
 
       - Gå tillbaka till CLI för PWA Studio och använd garn för att installera projektberoenden och köra projektbyggkommandot.
 
@@ -88,7 +88,7 @@ Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från inst
         yarn build
         ```
 
-      - *I ditt Cloud-projekt*, skapa `pwa` och kopiera innehållet i ditt storefront-projekts `dist` mapp.
+      - *I ditt molnprojekt* skapar du en `pwa`-mapp och kopierar innehållet i ditt storefront-projekts `dist`-mapp.
 
         ```sh
         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
@@ -104,20 +104,20 @@ Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från inst
 
         När byggprocessen är klar kommer ändringarna att distribueras till din PWA-butik.
 
-1. Återgå till _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka **[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap till domänen.
+1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap för domänen.
 
-1. När bekräftelsen är klar konfigurerar du **[!UICONTROL Set Automatic Security Scan]** alternativ för någon av följande typer:
+1. Konfigurera alternativen för **[!UICONTROL Set Automatic Security Scan]** för någon av följande typer efter att du har bekräftat att åtgärden lyckades:
 
-   **Skanna varje vecka (rekommenderas)**:
+   **Sök igenom varje vecka (rekommenderas)**:
 
-   - Välj **[!UICONTROL Week Day]**, **[!UICONTROL Time]** och **[!UICONTROL Time Zone]** att sökningen ska göras varje vecka.
+   - Välj **[!UICONTROL Week Day]**, **[!UICONTROL Time]** och **[!UICONTROL Time Zone]** som genomsökningen ska utföras varje vecka.
    - Som standard är genomsökningen schemalagd att börja varje vecka vid midnatt lördag, UTC och fortsätta till början av söndagen.
 
-     ![Skanna varje vecka](./assets/scan-weekly.png){width="500" zoomable="yes"}
+     ![Sök igenom varje vecka](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **Sök dagligen**:
 
-   - Välj **[!UICONTROL Time]** och **[!UICONTROL Time Zone]** att sökningen ska göras varje dag.
+   - Välj **[!UICONTROL Time]** och **[!UICONTROL Time Zone]** som genomsökningen ska utföras varje dag.
    - Som standard är genomsökningen schemalagd att börja varje dag vid midnatt, UTC.
 
      ![Sök dagligen](./assets/scan-daily.png){width="500" zoomable="yes"}
@@ -126,7 +126,7 @@ Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från inst
 
    ![E-postadress](./assets/scan-notification-email.png){width="400" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Submit]**.
+1. Klicka på **[!UICONTROL Submit]** när du är klar.
 
    När ägarskapet för domänen har verifierats visas webbplatsen i listan Övervakade webbplatser i ditt Commerce-konto.
 

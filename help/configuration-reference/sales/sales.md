@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Sales] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Sales] i Commerce Admin.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
 source-git-commit: 9827b08e5b0123f84c87cbac672ce9bbec86f511
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
-![Sorteringsordning för checksummor](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
+![Summor för utcheckning sorteringsordning](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
 <!-- [Checkout Totals Sort Order](https://docs.magento.com/user-guide/sales/checkout-totals-sort-order.html) -->
 
@@ -65,14 +65,14 @@ ht-degree: 0%
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
-![Design av faktura och följesedel](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
+![Designa faktura och följesedel](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
 <!-- [Invoice and Packing Slip Design](https://docs.magento.com/user-guide/marketing/sales-document-pdf-logo.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Logo for PDF Print-outs] | Butiksvy | Identifierar logotypfilen som visas i huvudet på PDF-fakturor och följesedlar. Tillåtna filtyper: <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
-| [!UICONTROL Logo for HTML Print View] | Butiksvy | Identifierar logotypfilen som visas i sidhuvudet i HTML i utskriftsvyn på fakturor och följesedlar. Tillåtna filtyper: <br/>JPG /JPEG <br/>GIF <br/>PNG |
+| [!UICONTROL Logo for HTML Print View] | Butiksvy | Identifierar logotypfilen som visas i sidhuvudet i HTML i utskriftsvyn på fakturor och följesedlar. Tillåtna filtyper: <br/>JPG/JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | Butiksvy | Butiksadressen som du vill att den ska visas på fakturor och följesedlar. |
 
 {style="table-layout:auto"}
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Dashboard]
 
-![Kontrollpanel](./assets/sales-dashboard.png)<!-- zoom -->
+![Instrumentpanel](./assets/sales-dashboard.png)<!-- zoom -->
 
 <!-- [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Orders Cron Settings]
 
-![Kroniinställningar för order](./assets/sales-orders-cron-settings.png)<!-- zoom -->
+![Beställningar av kroniinställningar](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
 <!-- [Orders Cron Settings](https://docs.magento.com/user-guide/system/cron.html) -->
 
@@ -131,11 +131,11 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Allow Gift Messages on Order Level] | Webbplats | Ange om ett presentmeddelande kan läggas till för hela ordern. |
 | [!UICONTROL Allow Gift Messages on Order Items] | Webbplats | Ange om ett presentmeddelande kan läggas till för en enskild orderartikel. |
-| [!UICONTROL Allow Gift Wrapping on Order Level] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Ange om en presentförpackning kan läggas till för hela ordern. |
-| [!UICONTROL Allow Gift Wrapping for Order Items] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Ange om det går att lägga till en presentförpackning för den enskilda orderartikeln. |
-| [!UICONTROL Allow Gift Receipt] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Ange om ett presentkvitto kan läggas till för ordern. |
-| [!UICONTROL Allow Printed Card] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Ange om ett utskrivet kort kan läggas till för ordern. |
-| [!UICONTROL Default Price for Printed Card] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Ange standardpriset för det utskrivna kortet. |
+| [!UICONTROL Allow Gift Wrapping on Order Level] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Ange om det går att lägga till en present för hela ordern. |
+| [!UICONTROL Allow Gift Wrapping for Order Items] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Ange om det går att lägga till en presentförpackning för den enskilda orderartikeln. |
+| [!UICONTROL Allow Gift Receipt] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Ange om ett presentkvitto kan läggas till för ordern. |
+| [!UICONTROL Allow Printed Card] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Ange om ett utskrivet kort kan läggas till för ordern. |
+| [!UICONTROL Default Price for Printed Card] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Ange standardpriset för det utskrivna kortet. |
 
 {style="table-layout:auto"}
 
@@ -159,11 +159,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![Inställningar för flera](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+![Multicoupon-inställningar](./assets/sales-multicoupon-settings.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Maximum number of coupons per order] | Webbplats | Anger det maximala antalet kuponger som tillåts per order. Den här funktionen är endast tillgänglig i Admin, GraphQL och REST API. Och det är **_inte tillgängligt_** i Storefront. |
+| [!UICONTROL Maximum number of coupons per order] | Webbplats | Anger det maximala antalet kuponger som tillåts per order. Den här funktionen är endast tillgänglig i Admin, GraphQL och REST API. Det är **_inte tillgängligt_** i Storefront. |
 
 {style="table-layout:auto"}
 
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![Inställningar för beställning efter SKU](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+![Beställa efter SKU-inställningar](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
 <!-- [Order by SKU Settings](https://docs.magento.com/user-guide/customers/account-dashboard-order-by-sku.html) -->
 
@@ -179,14 +179,14 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Enable Order by SKU on My Account in Storefront] | Webbplats | Avgör om Order by SKU är tillgängligt på kundkontots kontrollpanel. Alternativ: <br/>**`Yes, for Everyone`**- Fliken Order by SKU (Beställa efter SKU) visas på kontouppsättningen för alla kunder.<br/>**`Yes, for Specified Customer Groups`** - Fliken Ordna efter SKU visas på kontomanelen för medlemmar i angivna grupper eller en delad katalog. <br/>**`No`**- Fliken Order by SKU är inte tillgänglig på kundkontot. |
+| [!UICONTROL Enable Order by SKU on My Account in Storefront] | Webbplats | Avgör om Order by SKU är tillgängligt på kundkontots kontrollpanel. Alternativ: <br/>**`Yes, for Everyone`**- Fliken Ordna efter SKU visas på kontouppsättningen för alla kunder.<br/>**`Yes, for Specified Customer Groups`** - Fliken Ordna efter SKU visas på kontomanelen för medlemmar i angivna grupper eller en delad katalog. <br/>**`No`**- Fliken Order by SKU är inte tillgänglig i kundkontot. |
 | [!UICONTROL Customer Groups] | Webbplats | Bestämmer kundgrupperna. Alternativ: `General` / `Retailer` / `Wholesale` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Instant Purchase]
 
-![Omedelbart köp](./assets/sales-instant-purchase.png)<!-- zoom -->
+![Direktköp](./assets/sales-instant-purchase.png)<!-- zoom -->
 
 <!-- [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) -->
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable rate limiting for placing orders] | Butiksvy | Avgör om hastighetsbegränsning används för att placera order från butiksvyn (standard är `No`). Alternativ: `Yes` / `No`. |
+| [!UICONTROL Enable rate limiting for placing orders] | Butiksvy | Avgör om hastighetsbegränsning används för att placera order från butiksvyn (standardvärdet är `No`). Alternativ: `Yes` / `No`. |
 | [!UICONTROL Requests limit per authenticated customer] | Butiksvy | Antalet inköpsbegäranden som en autentiserad kund kan göra under perioden. Standardgränsen är `10`. |
 | [!UICONTROL Requests limit per guest] | Butiksvy | Antalet inköpsbegäranden som en oautentiserad kund kan göra under den angivna perioden. Standardvärdet är `50`. |
 | [!UICONTROL Counter resets in a ...] | Butiksvy | Den tidsperiod under vilken en autentiserad/oautentiserad kund kan göra ett visst antal inköpsbegäranden (standard är `Minute`). Alternativ: `Minute` / `Hour` /`Day` |
@@ -216,13 +216,13 @@ ht-degree: 0%
 
 ![Arkivering av order, fakturor, utleveranser, kreditnotor](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Konfigurera orderarkivet](../../stores-purchase/order-archive.md#configure-the-order-archive) i _Butiks and Purchase Experience Guide_.
+Mer information om hur du ändrar de här inställningarna finns i [Konfigurera orderarkivet](../../stores-purchase/order-archive.md#configure-the-order-archive) i _butiker och inköpsupplevelseguiden_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable Archiving] | Global | Avgör om arkivering är aktiverat. Alternativ: `Yes` / `No` |
 | [!UICONTROL Archive Orders Purchased] | Global | Anger antalet dagar som går innan en slutförd order arkiveras. Standardvärde: `30` |
-| [!UICONTROL Order  Statuses to be Archived] | Global | Bestämmer [status](../../stores-purchase/order-status.md) beställningar som ska arkiveras. Som standard arkiveras order med statusen Slutfört eller Stängt. Alternativ: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
+| [!UICONTROL Order  Statuses to be Archived] | Global | Bestämmer [status](../../stores-purchase/order-status.md) för order som ska arkiveras. Som standard arkiveras order med statusen Slutfört eller Stängt. Alternativ: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
 {style="table-layout:auto"}
 
@@ -232,12 +232,12 @@ Mer information om hur du ändrar de här inställningarna finns i [Konfigurera 
 
 ![RMA-inställningar](./assets/sales-rma-settings.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Konfigurera returer](../../stores-purchase/rma-configure.md) i _Butiks and Purchase Experience Guide_.
+Mer information om hur du ändrar de här inställningarna finns i [Konfigurera returer](../../stores-purchase/rma-configure.md) i _Handboken för butiker och köp_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable RMA on Storefront] | Webbplats | Avgör om kunderna kan skapa och visa RMA-begäranden från butiken. RMA kan tillämpas både på nya och befintliga order. Som standard är RMA inte aktiverat för butiken. Alternativ: `Yes` / `No` |
 | [!UICONTROL Enable RMA on Product Level] | Webbplats | Anger standardvärdet för fältet Aktivera RMA i produktinformationen. |
-| [!UICONTROL Use Store Address] | Webbplats | Bestämmer det kontaktnamn och den adress som används för försändelser av returnerade varor. Alternativ: <br/>**`Yes`**- Använder [Ursprungspunkt](../../stores-purchase/shipping-settings.md#point-of-origin) adress från Leveransinställningar.<br/>**`No`** - Öppnar adressformuläret så att du kan ange en alternativ adress. |
+| [!UICONTROL Use Store Address] | Webbplats | Bestämmer det kontaktnamn och den adress som används för försändelser av returnerade varor. Alternativ: <br/>**`Yes`**- Använder adressen [Point of Origin](../../stores-purchase/shipping-settings.md#point-of-origin) från Leveransinställningar.<br/>**`No`** - Öppnar adressformuläret så att du kan ange en alternativ adress. |
 
 {style="table-layout:auto"}

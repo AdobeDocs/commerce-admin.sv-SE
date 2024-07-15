@@ -5,16 +5,16 @@ exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 feature: Shipping/Delivery, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Leveransetiketter
 
-Handeln omfattar en hög nivå av integration med större fraktfirmor, vilket ger er tillgång till fraktfirmor för att spåra beställningar, skapa etiketter för frakt med mera. Leveransetiketter kan skapas för vanliga leveranser och produkter med returtillstånd. Förutom de uppgifter som fraktföretaget lämnat innehåller etiketten även handelsordernummer, paketnummer och totalt antal paket för leveransen.
+Commerce är mycket välintegrerat med alla större fraktfirmor, vilket ger er tillgång till fraktfirmor för att spåra beställningar, skapa etiketter med mera. Leveransetiketter kan skapas för vanliga leveranser och produkter med returtillstånd. Förutom de uppgifter som fraktföretaget lämnat innehåller etiketten även Commerce ordernummer, paketnummer och den totala kvantiteten paket för leveransen.
 
-![Leveransetikett för prioritetsordning för USPS](./assets/shipping-usps-priority-label.png){width="300"}
+![Leveransetikett för prioritet för USPS](./assets/shipping-usps-priority-label.png){width="300"}
 
 - [Konfigurera etiketter för leverans](shipping-label-configure.md)
 - [Skapa etiketter och paket](shipping-label-create.md)
@@ -29,7 +29,7 @@ Handläggaren fyller i den information som krävs för att generera etiketter oc
 
 ### Steg 2: Begäran har skickats till transportföretaget
 
-Commerce kontaktar transportföretaget och skapar en order i transportföretagets system. En separat order skapas för varje paket som skickas.
+Commerce kontaktar fraktfirman och skapar en order i transportföretagets system. En separat order skapas för varje paket som skickas.
 
 ### Steg 3: Transportföretaget skickar etikett- och spårningsnummer
 

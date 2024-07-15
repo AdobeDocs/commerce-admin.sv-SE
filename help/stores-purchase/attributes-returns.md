@@ -20,19 +20,19 @@ Returattributen används för att lagra information som behövs under produktret
 
 ## Skapa ett returattribut
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add New Attribute]**.
+1. Klicka på **[!UICONTROL Add New Attribute]** i det övre högra hörnet.
 
    ![Ny Retur - attributegenskaper](./assets/attribute-returns-new-properties.png){width="600" zoomable="yes"}
 
 ### Definiera egenskaperna
 
-1. Om du vill identifiera attributet under datainmatning anger du **[!UICONTROL Default Label]**.
+1. Ange **[!UICONTROL Default Label]** om du vill identifiera attributet under datainmatning.
 
 1. För **[!UICONTROL Attribute Code]** anger du en kod som identifierar attributet i systemet.
 
-1. Ange vilken typ av indatakontroll som ska användas för datainmatning **[!UICONTROL Input Type]** till något av följande:
+1. Ange **[!UICONTROL Input Type]** till något av följande för att avgöra vilken typ av indatakontroll som används för datainmatning:
 
    - `Text Field`
    - `Text Area`
@@ -41,11 +41,11 @@ Returattributen används för att lagra information som behövs under produktret
    - `File`
    - `Image File`
 
-1. Gör fältet till ett obligatoriskt objekt genom att ange **[!UICONTROL Values Required]** till `Yes`.
+1. Om du vill göra fältet till ett obligatoriskt objekt anger du **[!UICONTROL Values Required]** till `Yes`.
 
-1. Om du vill tilldela ett initialt värde till fältet anger du ett **[!UICONTROL Default Value]**.
+1. Om du vill tilldela ett initialt värde till fältet anger du **[!UICONTROL Default Value]**.
 
-1. Om du vill validera de data som anges i fältet innan posten sparas anger du **[!UICONTROL Input Validation]** till något av följande:
+1. Om du vill validera data som anges i fältet innan posten sparas anger du **[!UICONTROL Input Validation]** till något av följande:
 
    - `None`
    - `Alphanumeric`
@@ -55,7 +55,7 @@ Returattributen används för att lagra information som behövs under produktret
    - `URL`
    - `Email`
 
-1. För `Text Field` och `Text Area` indatatyper, ange **[!UICONTROL Minimum Text Length]** och **[!UICONTROL Maximum Text Length]**.
+1. Ange **[!UICONTROL Minimum Text Length]** och **[!UICONTROL Maximum Text Length]** för indatatyperna `Text Field` och `Text Area`.
 
 1. Om du vill använda ett förbearbetningsfilter anger du **[!UICONTROL Input/Output Filter]** till något av följande:
 
@@ -63,22 +63,22 @@ Returattributen används för att lagra information som behövs under produktret
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. Ange attributet så att det blir synligt för kunderna **[!UICONTROL Show on Storefront]** till `Yes` i _[!UICONTROL Storefront Properties]_-avsnitt.
+1. Om du vill göra attributet synligt för kunderna anger du **[!UICONTROL Show on Storefront]** till `Yes` i avsnittet _[!UICONTROL Storefront Properties]_.
 
-1. (valfritt) för **[!UICONTROL Sort Order]** anger du ett tal som anger var attributet ska visas i förhållande till de andra på samma del av sidan. (`0` = first, `1` = sekund, `2` = tredje och så vidare.)
+1. (Valfritt) För **[!UICONTROL Sort Order]** anger du ett nummer som avgör var det här attributet visas i förhållande till de andra på samma del av sidan. (`0` = först, `1` = sekund, `2` = tredje o.s.v.)
 
 ### Hantera etiketter/alternativ
 
-1. Välj **[!UICONTROL Manage Labels/Options]**.
+1. Välj **[!UICONTROL Manage Labels/Options]** på den vänstra panelen.
 
-1. I **[!UICONTROL Manage Titles (Size, Color, etc.)]** anger du etiketten för varje butiksvy.
+1. I avsnittet **[!UICONTROL Manage Titles (Size, Color, etc.)]** anger du etiketten för varje butiksvy.
 
    ![Hantera etiketter](./assets/return-attributes.png){width="600" zoomable="yes"}
 
-1. Om **[!UICONTROL Input Type]** för attributet är `Dropdown`, hanterar alternativen i **[!UICONTROL Manage Options (Values of Your Attribute)]** -avsnitt.
+1. Om **[!UICONTROL Input Type]** för attributet är `Dropdown` hanterar du alternativen i avsnittet **[!UICONTROL Manage Options (Values of Your Attribute)]**.
 
-   - Om du vill lägga till ett alternativ klickar du **[!UICONTROL Add Option]** och ange etiketten för Admin och varje butiksvy.
-   - Om du vill göra ett alternativ till det valda standardalternativet väljer du **[!UICONTROL Is Default]**.
-   - Om du vill ta bort ett alternativ klickar du **[!UICONTROL Delete]**.
+   - Om du vill lägga till ett alternativ klickar du på **[!UICONTROL Add Option]** och anger etiketten för Admin och varje butiksvy.
+   - Välj **[!UICONTROL Is Default]** om du vill göra ett alternativ till det valda standardalternativet.
+   - Klicka på **[!UICONTROL Delete]** om du vill ta bort ett alternativ.
 
-1. Om du vill spara ändringarna klickar du **[!UICONTROL Save Attribute]**.
+1. Klicka på **[!UICONTROL Save Attribute]** om du vill spara ändringarna.

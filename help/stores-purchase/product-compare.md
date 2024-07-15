@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Jämför produkter
 
-Jämför produkter genererar en detaljerad jämförelse sida vid sida av två eller flera produkter. Beroende på temat kan länken Lägg till i jämförelse representeras av en ikon eller text. The _Jämför produkter_ -blocket visas vanligtvis antingen till vänster eller till höger på en katalogsida.
+Jämför produkter genererar en detaljerad jämförelse sida vid sida av två eller flera produkter. Beroende på temat kan länken Lägg till i jämförelse representeras av en ikon eller text. Blocket _Jämför produkter_ visas vanligtvis i vänster eller höger sidofält på en katalogsida.
 
-![Exempel på storefront - jämförelselista](./assets/storefront-comparison-list.png){width="700" zoomable="yes"}
+![Exempelarkiv - jämförelselista](./assets/storefront-comparison-list.png){width="700" zoomable="yes"}
 
-Till skillnad från [Nyligen visade/jämförda produkter](products-viewed-compared.md) -blocket innehåller inte Admin några ytterligare konfigurationsinställningar för Jämför produkter.
+Till skillnad från blocket [Senast visade/Jämför produkter](products-viewed-compared.md) innehåller inte administratören ytterligare konfigurationsinställningar för Jämför produkter.
 
 ## Jämför produkterna i butiken
 
@@ -24,35 +24,35 @@ Det finns några sätt att använda jämförelselistan i butiken.
 
 ### Från katalogsidor
 
-1. Kunden hittar produkterna som han/hon vill jämföra och klickar på **[!UICONTROL Add to Compare]** länk för varje.
+1. Kunden hittar produkterna som han/hon vill jämföra och klickar på länken **[!UICONTROL Add to Compare]** för varje produkt.
 
 1. Navigerar till en tillhörande kategorisida.
 
-   Beroende på temat och sidlayouten kan det finnas en _Jämför produkter_ -block i sidlisten. I så fall visas de artiklar i kategorin som är markerade för jämförelse.
+   Beroende på tema och sidlayout kan det finnas ett _Jämför produkter_ -block i sidlisten. I så fall visas de artiklar i kategorin som är markerade för jämförelse.
 
-   Kunden kan klicka _Ta bort_ ( ![Ikonen Ta bort](../assets/icon-delete-x.png) ) för alla produkter som du vill ta bort från jämförelserapporten, eller klicka på **[!UICONTROL Clear All]** om du vill ta bort alla objekt och börja om från början med jämförelsevalen.
+   Kunden kan klicka på _Ta bort_ ( ![Ta bort ikon](../assets/icon-delete-x.png) ) för vilken produkt som helst för att ta bort den från jämförelserapporten, eller klicka på **[!UICONTROL Clear All]** för att ta bort alla objekt och börja om från början med jämförelsevalen.
 
-1. Klickningar **[!UICONTROL Compare]**.
+1. Klicka på **[!UICONTROL Compare]**.
 
-1. Om du vill skriva ut jämförelseinformationen klickar du **[!UICONTROL Print This Page]**.
+1. Om du vill skriva ut jämförelseinformationen klickar du på **[!UICONTROL Print This Page]**.
 
-1. Om du vill ta bort en enskild produkt från jämförelsesidan klickar du på _Ta bort_ ( ![Ikonen Ta bort](../assets/icon-delete-x.png) ).
+1. Om du vill ta bort en enskild produkt från jämförelsesidan klickar du på _Ta bort_ ( ![Ta bort ikon](../assets/icon-delete-x.png) ).
 
 ### Från ett meddelande
 
 1. När en kund har lagt till en produkt i en jämförelselista visas ett meddelande på sidan.
 
-1. Klicka på knappen _jämförelselista_ länk.
+1. Klicka på länken _Jämförelselista_ i det meddelande som visas i det översta meddelandet.
 
    ![Meddelande om jämförelseprodukter](./assets/notification-comparison-list.png){width="700" zoomable="yes"}
 
 Den här åtgärden dirigerar om kunden till jämförelselistan där de kan komma åt ytterligare åtgärder.
 
-### Från _Jämför produkter_ block
+### Från blocket _Jämför produkter_
 
-1. Kunden hittar produkterna som han/hon vill jämföra och klickar på **[!UICONTROL Add to Compare]** länk för varje.
+1. Kunden hittar produkterna som han/hon vill jämföra och klickar på länken **[!UICONTROL Add to Compare]** för varje produkt.
 
-1. I rubriken nära sökfältet klickar du på _Jämför produkter_ länk.
+1. Klicka på länken _Jämför produkter_ i sidhuvudet nära sökfältet.
 
    ![Jämför produkthuvud](./assets/compare-products-header.png){width="700" zoomable="yes"}
 
@@ -62,7 +62,7 @@ Den här åtgärden dirigerar om kunden till jämförelselistan där de kan komm
 
 1. Navigerar till **[!UICONTROL My Account]**.
 
-1. I _Jämför produkter_ block, klicka **[!UICONTROL Compare]**.
+1. Klicka på **[!UICONTROL Compare]** i blocket _Jämför produkter_.
 
    ![Blocket Jämför produkter på kundkontouppsättningen](./assets/my-account-compare-block.png){width="700" zoomable="yes"}
 
@@ -70,9 +70,9 @@ Den här åtgärden dirigerar om kunden till jämförelselistan där de kan komm
 
 | [!UICONTROL Action] | Beskrivning |
 |------|-----------|
-| ![Ikonen Ta bort](../assets/icon-delete-x.png) | Tar bort ett enskilt objekt från jämförelselistan. |
-| **[!UICONTROL Add to Cart]** | Lägger till produkten i kundvagnen. Om produkten har några konfigurationer dirigeras kunden om till produktsidan där de väljer de konfigurerbara alternativen och klickar sedan på **[!UICONTROL Add to Cart]**. |
-| _Ikon för önskelista_ | Lägger till produkten i önskelistan (kräver att önskelistefunktioner är aktiverade i butikskonfigurationen). |
+| ![Ta bort ikon](../assets/icon-delete-x.png) | Tar bort ett enskilt objekt från jämförelselistan. |
+| **[!UICONTROL Add to Cart]** | Lägger till produkten i kundvagnen. Om produkten har några konfigurationer dirigeras kunden om till produktsidan där de väljer konfigurerbara alternativ och sedan klickar på **[!UICONTROL Add to Cart]**. |
+| _Önsklisteikon_ | Lägger till produkten i önskelistan (kräver att önskelistefunktioner är aktiverade i butikskonfigurationen). |
 | _Skriv ut den här sidan_ | Sidan med utskriftsjämförelselista. |
 
 {style="table-layout:auto"}

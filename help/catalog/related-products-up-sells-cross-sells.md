@@ -1,18 +1,18 @@
 ---
 title: Produktinställningar - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
-description: För en produkt är [!UICONTROL Related Products, Up-Sells, and Cross-Sells] -inställningarna definierar enkla marknadsföringsblock på produktsidan som markerar ett urval av ytterligare produkter.
+description: För en produkt definierar inställningarna för [!UICONTROL Related Products, Up-Sells, and Cross-Sells] enkla marknadsföringsblock på produktsidan som markerar ett urval av ytterligare produkter.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
 source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
 # Produktinställningar - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Använd _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_för att skapa enkla reklamblock som innehåller ett urval av ytterligare produkter som kan vara av intresse för kunden. Mer information finns i [Produktrelationer](../merchandising-promotions/product-relationships.md).
+Använd avsnittet _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_för att skapa enkla marknadsföringsblock som visar ett urval av ytterligare produkter som kan vara av intresse för kunden. Mer information finns i [Produktrelationer](../merchandising-promotions/product-relationships.md).
 
 ![Samhörande produkter, merförsäljning och korsförsäljning](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -33,35 +33,35 @@ Varje block består av en lista över produkter som tillhör ett visst alternati
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) **Product Recommendations powered by Adobe Sensei** förenklar processen att definiera produktrelationer genom att använda artificiell intelligens och maskininlärningsalgoritmer för att göra en djupgående analys av samlade besökardata. Dessa data kombineras med er Adobe Commerce-katalog och ger en engagerande, relevant och personaliserad upplevelse för kunderna.
+>![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) **Produkt-Recommendations från Adobe Sensei** förenklar processen att definiera produktrelationer genom att använda artificiell intelligens och maskininlärningsalgoritmer för att göra en djupanalys av samlade besöksdata. Dessa data kombineras med er Adobe Commerce-katalog och ger en engagerande, relevant och personaliserad upplevelse för kunderna.
 ><br/>
->Mer information om hur du använder det här tillägget som utvecklats av Adobe som ett alternativ till manuellt konfigurerade produktrekommendationer och merförsäljning finns i _[Product Recommendations Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_.
+>Mer information om hur du använder det här Adobe-utvecklade tillägget som ett alternativ till manuellt konfigurerade produktrekommendationer och merförsäljning finns i _[Recommendations-produktguiden](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_.
 
 ## Samhörande produkter
 
-Relaterade produkter ska köpas utöver den artikel som kunden visar. Kunden kan placera artikeln i kundvagnen genom att klicka i kryssrutan. Placeringen av _Samhörande produkter_ -block varierar beroende på definierat tema och sidlayout. I exemplet nedan är _Samhörande produkter_ -blocket visas längst ned i _Produktvy_ sida. Med en layout med två kolumner _Samhörande produkter_ visas ofta i den högra sidlisten.
+Relaterade produkter ska köpas utöver den artikel som kunden visar. Kunden kan placera artikeln i kundvagnen genom att klicka i kryssrutan. Placeringen av blocket _Relaterade produkter_ varierar beroende på definierat tema och sidlayout. I exemplet nedan visas blocket _Relaterade produkter_ längst ned på sidan _Produktvy_. Med en layout med två kolumner visas ofta blocket _Relaterade produkter_ i det högra sidofältet.
 
-![Samhörande produkter](./assets/storefront-product-related-products.png){width="600" zoomable="yes"}
+![Relaterade produkter](./assets/storefront-product-related-products.png){width="600" zoomable="yes"}
 
 Så här ställer du in relaterade produkter:
 
 1. Öppna produkten i redigeringsläge.
 
-1. Rulla ned och expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** -avsnitt.
+1. Bläddra nedåt och utöka ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**.
 
 1. Klicka på **[!UICONTROL Add Related Products]**.
 
-1. Använd [filterkontroller](../getting-started/admin-grid-controls.md) för att hitta de produkter du vill ha.
+1. Använd [filterkontrollerna](../getting-started/admin-grid-controls.md) för att hitta de produkter du vill ha.
 
 1. I listan markerar du kryssrutan för alla produkter som du vill använda som en relaterad produkt.
 
-   ![Samhörande produkter](./assets/products-related-add.png){width="600" zoomable="yes"}
+   ![Relaterade produkter](./assets/products-related-add.png){width="600" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Add Selected Products]**.
+1. Klicka på **[!UICONTROL Add Selected Products]** när du är klar.
 
 ## Merförsäljning
 
-Merförsäljningsprodukter är artiklar som kunden kanske föredrar istället för den produkt som är aktuell. En artikel som erbjuds som merförsäljning kan vara av högre kvalitet, mer populär eller ha bättre vinstmarginal. Merförsäljning visas på produktsidan under en rubrik som _Du kan också vara intresserad av följande produkter_.
+Merförsäljningsprodukter är artiklar som kunden kanske föredrar istället för den produkt som är aktuell. En artikel som erbjuds som merförsäljning kan vara av högre kvalitet, mer populär eller ha bättre vinstmarginal. Merförsäljningsprodukter visas på produktsidan under en rubrik som _Du kan också vara intresserad av följande produkter_.
 
 ![Merförsäljning](./assets/storefront-product-upsell.png){width="600" zoomable="yes"}
 
@@ -69,17 +69,17 @@ Så här väljer du merförsäljningsprodukter:
 
 1. Öppna produkten i redigeringsläge.
 
-1. Rulla ned och expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** -avsnitt.
+1. Bläddra nedåt och utöka ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**.
 
 1. Klicka på **[!UICONTROL Add Up-Sell Products]**.
 
-1. Använd [filterkontroller](../getting-started/admin-grid-controls.md) för att hitta de produkter du vill ha.
+1. Använd [filterkontrollerna](../getting-started/admin-grid-controls.md) för att hitta de produkter du vill ha.
 
 1. I listan markerar du kryssrutan för den produkt du vill använda som merförsäljningsprodukt.
 
    ![Merförsäljning](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Add Selected Products]**.
+1. Klicka på **[!UICONTROL Add Selected Products]** när du är klar.
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ Korsförsäljningsartiklar liknar impulsköp som placerats bredvid kassaregistre
 
 >[!NOTE]
 >
->Om du vill visa eller dölja korsförsäljningsartiklar per butiksvy läser du [Kassa > Kundvagn](../configuration-reference/sales/checkout.md) option called _[!UICONTROL Show Cross-sell Items]_i kundvagnen. Du kanske vill dölja korsförsäljning under en viss försäljning eller för A/B-testning i en butiksvy.
+>Om du vill visa eller dölja korsförsäljningsobjekt per butiksvy läser du alternativet [Kassa > Kundvagn](../configuration-reference/sales/checkout.md) med namnet _[!UICONTROL Show Cross-sell Items]_i kundvagnen. Du kanske vill dölja korsförsäljning under en viss försäljning eller för A/B-testning i en butiksvy.
 
 ![Korsförsäljning i kundvagn](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
@@ -99,14 +99,14 @@ Korsförsäljningsartiklar liknar impulsköp som placerats bredvid kassaregistre
 
 1. Öppna produkten i redigeringsläge.
 
-1. Rulla ned och expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** -avsnitt.
+1. Bläddra nedåt och utöka ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**.
 
 1. Klicka på **[!UICONTROL Add Cross-Sell Products]**.
 
-1. Använd [filterkontroller](../getting-started/admin-grid-controls.md) för att hitta de produkter du vill ha.
+1. Använd [filterkontrollerna](../getting-started/admin-grid-controls.md) för att hitta de produkter du vill ha.
 
 1. I listan markerar du kryssrutan för den produkt du vill använda som korsförsäljningsprodukt.
 
-   ![Korsförsäljning](./assets/product-cross-sell-add.png){width="600" zoomable="yes"}
+   ![Cross-sell Products](./assets/product-cross-sell-add.png){width="600" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Add Selected Products]**.
+1. Klicka på **[!UICONTROL Add Selected Products]** när du är klar.

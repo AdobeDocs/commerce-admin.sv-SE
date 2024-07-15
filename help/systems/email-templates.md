@@ -14,7 +14,7 @@ ht-degree: 0%
 
 E-postmallar definierar layout, innehåll och formatering för automatiserade meddelanden som skickas från din butik. De kallas transaktionsbaserade e-postmeddelanden eftersom var och en är kopplad till en viss typ av transaktion eller händelse.
 
-Commerce innehåller en uppsättning responsiva e-postmallar som aktiveras av olika händelser som inträffar när din butik används. Varje mall är optimerad för alla skärmstorlekar och kan visas både från skrivbordet och på surfplattor och mobila enheter. Det finns olika förberedda e-postmallar för kundaktiviteter, försäljning, produktvarningar, administratörsåtgärder och systemmeddelanden som du kan [anpassa](email-template-custom.md) för att återspegla ert varumärke.
+Commerce innehåller en uppsättning responsiva e-postmallar som aktiveras av olika händelser som inträffar när din butik används. Varje mall är optimerad för alla skärmstorlekar och kan visas både från skrivbordet och på surfplattor och mobila enheter. Det finns olika förberedda e-postmallar för kundaktiviteter, försäljning, produktvarningar, administratörsåtgärder och systemmeddelanden som du kan [anpassa](email-template-custom.md) efter ditt varumärke.
 
 Commerce e-postmeddelanden kan återges av HTML och e-postklienter med oformaterad text. Det kan finnas vissa skillnader mellan klienterna när det gäller hur e-postmeddelanden återges.
 
@@ -43,37 +43,37 @@ Som regel kan du göra en bild mindre än originalet, men inte större utan att 
 
 ## Konfigurera e-postmallar
 
-Konfigurationen avgör vilken logotyp som visas i standardsidhuvudsmallen och eventuella egna [header](email-template-custom.md#header-template) och [sidfot](email-template-custom.md#footer-template) mallar som du vill använda för transaktionsmeddelanden som skickas från dina butiker.
+Konfigurationen avgör vilken logotyp som visas i standardsidhuvudsmallen och eventuella anpassade [sidhuvud](email-template-custom.md#header-template) - och [sidfot](email-template-custom.md#footer-template) -mallar som du vill använda för transaktionsmeddelanden som skickas från dina butiker.
 
-![Transaktionsdesign för e-post](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
+![Transaktionell e-postdesign](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
-En detaljerad lista över konfigurationsinställningarna finns i [_Transaktionsmejl_](../content-design/configuration.md) i _Content and Design Guide_.
+En detaljerad lista över konfigurationsinställningarna finns i [_Transaktionsmeddelanden_](../content-design/configuration.md) i _Content and Design Guide_.
 
 ## Steg 1. Ladda upp din logotyp
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Leta reda på butiksvyn som du vill konfigurera och klicka på **[!UICONTROL Edit]** i _[!UICONTROL Action]_kolumn.
+1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Under _[!UICONTROL Other Settings]_, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Transactional Emails]**-avsnitt.
+1. Under _[!UICONTROL Other Settings]_expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Transactional Emails]**.
 
-1. Så här överför du dina förberedda **[!UICONTROL Logo Image]**, klicka **[!UICONTROL Upload]** och välj filen i systemet.
+1. Om du vill överföra den förberedda **[!UICONTROL Logo Image]** klickar du på **[!UICONTROL Upload]** och väljer filen från datorn.
 
-1. För **[!UICONTROL Logo Image Alt]**, anger du alternativ text för att identifiera bilden.
+1. För **[!UICONTROL Logo Image Alt]** anger du alternativ text för att identifiera bilden.
 
 1. Ange **[!UICONTROL Logo Width]** och **[!UICONTROL Logo Height]** i pixlar.
 
-   Ange varje värde som ett tal utan `px` förkortning. Dessa värden avser visningsdimensionerna för logotypen i sidhuvudet och inte bildens verkliga storlek.
+   Ange varje värde som ett tal, utan förkortningen `px`. Dessa värden avser visningsdimensionerna för logotypen i sidhuvudet och inte bildens verkliga storlek.
 
 ## Steg 2. Välj sidhuvud- och sidfotsmallar
 
-Om du har anpassade sidhuvud- och sidfotsmallar för din butik, eller för olika butiker, kan du ange vilka mallar som ska användas för varje, enligt [omfång](../getting-started/websites-stores-views.md#scope-settings) av konfigurationen. I annat fall används standardmallarna. Mer information finns på [Anpassa e-postmallar](email-template-custom.md).
+Om du har anpassade sidhuvuds- och sidfotsmallar för din butik, eller för olika butiker, kan du ange vilka mallar som ska användas för varje, enligt [omfånget](../getting-started/websites-stores-views.md#scope-settings) för konfigurationen. I annat fall används standardmallarna. Mer information finns i [Anpassa e-postmallar](email-template-custom.md).
 
-1. Välj **[!UICONTROL Header Template]** som ska användas för alla transaktionsbaserade e-postmeddelanden.
+1. Välj **[!UICONTROL Header Template]** som ska användas för alla transaktionsmeddelanden.
 
-1. Välj **[!UICONTROL Footer Template]** som ska användas för alla transaktionsbaserade e-postmeddelanden.
+1. Välj **[!UICONTROL Footer Template]** som ska användas för alla transaktionsmeddelanden.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## E-postmallslista
 
@@ -98,7 +98,7 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 ### [!DNL Magento_Company]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Endast för Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med Adobe Commerce B2B)
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
@@ -121,7 +121,7 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 ### [!DNL Magento_CompanyCredit]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Endast för Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med Adobe Commerce B2B)
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
@@ -147,7 +147,7 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 |--- |--- |
 | `Change Email` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Avsnitt:** [!UICONTROL Account Information Options]<br/>**Fält:** [!UICONTROL Change Email Template] |
 | Ändra e-post och lösenord | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Avsnitt:** [!UICONTROL Account Information Options]<br/>**Fält:** [!UICONTROL Change Email and Password Template] |
-| `Forgot Password` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Avsnitt:** [!UICONTROL Password Options]<br/>**Fält:** Glömt e-postmall |
+| `Forgot Password` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Avsnitt:** [!UICONTROL Password Options]<br/>**Fält:** Mall för glömd e-post |
 | `New Account` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Avsnitt:** [!UICONTROL Create New Account Options]<br/>**Fält:** Standardvälkomstmeddelande |
 | `New Account (Magento/luma)` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Avsnitt:** [!UICONTROL Create New Account Options]<br/>**Fält:** Standardvälkomstmeddelande |
 | `New Account Confirmation Key` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Avsnitt:** [!UICONTROL Create New Account Options]<br/>**Fält:** Bekräftelselänkens e-postadress |
@@ -233,7 +233,7 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 ### [!DNL Magento_NegotiableQuote]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Endast för Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med Adobe Commerce B2B)
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
@@ -374,7 +374,7 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
-| `Send Product Link to Friend` | **Sida:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**Avsnitt:** [!UICONTROL Email Templates]<br/>**Fält:** [!UICONTROL Select Email Template] |
+| `Send Product Link to Friend` | **Sida:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**Avsnitt:** [!UICONTROL Email Templates]<br/>**Fält:** [!UICONTROL Select Email Template] |
 
 {style="table-layout:auto"}
 

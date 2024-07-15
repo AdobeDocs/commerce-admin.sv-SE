@@ -12,38 +12,38 @@ ht-degree: 0%
 
 # Inköpsorder
 
-A _inköpsorder_ (PO) tillåter företagskunder att betala för auktoriserade inköp genom att hänvisa till inköpsordernumret. Inköpsordern auktoriseras och utfärdas i förväg av det företag som gör köpet. Vid utcheckning väljer kunden Inköpsorder som betalningsmetod. När vi tagit emot din faktura behandlar företaget betalningen i leverantörsreskontratsystemet och betalar för köpet.
+En _inköpsorder_ (PO) tillåter företagskunder att betala för auktoriserade inköp genom att referera till inköpsordernumret. Inköpsordern auktoriseras och utfärdas i förväg av det företag som gör köpet. Vid utcheckning väljer kunden Inköpsorder som betalningsmetod. När vi tagit emot din faktura behandlar företaget betalningen i leverantörsreskontratsystemet och betalar för köpet.
 
 Innan du godkänner betalning med inköpsorder måste du alltid fastställa den kommersiella kundens kreditvärdighet.
 
 **_Så här konfigurerar du betalning med inköpsorder:_**
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Payment Methods]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
-1. Under _[!UICONTROL Other Payment Methods]_, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Purchase Order]**-avsnitt.
+1. Under _[!UICONTROL Other Payment Methods]_expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Purchase Order]**.
 
    ![Inköpsorder](../configuration-reference/sales/assets/payment-methods-purchase-order.png){width="600" zoomable="yes"}
 
-   En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Inköpsorder](../configuration-reference/sales/payment-methods.md#purchase-order) i _Referenshandbok för konfiguration_.
+   En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Inköpsorder](../configuration-reference/sales/payment-methods.md#purchase-order) i _referenshandboken för konfiguration_.
 
    >[!NOTE]
    >
-   >Rensa vid behov först **[!UICONTROL Use system value]** om du vill ändra inställningarna.
+   >Om det behövs avmarkerar du kryssrutan **[!UICONTROL Use system value]** för att ändra de här inställningarna.
 
 1. Om du vill aktivera betalningsmetoden anger du **[!UICONTROL Enabled]** till `Yes`.
 
-1. För **[!UICONTROL Title]**, anger du en titel som identifierar betalningsmetoden under utcheckningen.
+1. För **[!UICONTROL Title]** anger du en titel som identifierar betalningsmetoden vid utcheckning.
 
-1. Ange **[!UICONTROL New Order Status]** till `Pending` tills betalningen är godkänd.
+1. Ange **[!UICONTROL New Order Status]** till `Pending` tills betalningen har auktoriserats.
 
 1. Ange **[!UICONTROL Payment from Applicable Countries]** till något av följande:
 
    - `All Allowed Countries` - Kunder från alla [länder](../getting-started/store-details.md#country-options) som anges i din butikskonfiguration kan använda den här betalningsmetoden.
-   - `Specific Countries` - När du har valt det här alternativet visas _[!UICONTROL Payment from Specific Countries]_visas. Om du vill markera flera länder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
+   - `Specific Countries` - När du har valt det här alternativet visas listan _[!UICONTROL Payment from Specific Countries]_. Om du vill markera flera länder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
 
-1. Ange **[!UICONTROL Minimum Order Total]** och **[!UICONTROL Maximum Order Total]** till de belopp som krävs för att kvalificera sig för denna betalningsmetod.
+1. Ange **[!UICONTROL Minimum Order Total]** och **[!UICONTROL Maximum Order Total]** till de belopp som krävs för att kvalificera dig för den här betalningsmetoden.
 
    >[!NOTE]
    >
@@ -51,6 +51,6 @@ Innan du godkänner betalning med inköpsorder måste du alltid fastställa den 
 
 1. För **[!UICONTROL Sort Order]** anger du ett tal som bestämmer positionen för det här objektet i listan över betalningsmetoder som visas vid utcheckning.
 
-   Det här talet är relativt till de andra betalningsmetoderna. (`0` = first, `1` = sekund, `2` = tredje och så vidare.)
+   Det här talet är relativt till de andra betalningsmetoderna. (`0` = först, `1` = sekund, `2` = tredje o.s.v.)
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

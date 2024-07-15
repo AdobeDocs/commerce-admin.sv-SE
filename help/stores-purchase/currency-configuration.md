@@ -12,43 +12,43 @@ ht-degree: 0%
 
 # Valutakonfiguration
 
-Innan du ställer in individuella valutakurser måste du först ange omfattningen för [basvaluta](../configuration-reference/general/currency-setup.md). Den är som standard global, vilket innebär att basvalutainställningen används för hela [butikshierarki](../getting-started/websites-stores-views.md). Om du har en Adobe Commerce- eller Magento Open Source-installation för flera webbplatser kan du hantera flera basvalutor genom att ange omfånget till webbplatsnivån.
+Innan du ställer in enskilda valutakurser måste du först ställa in omfånget för [basvalutan](../configuration-reference/general/currency-setup.md). Den är inställd på global som standard, vilket tillämpar basvalutainställningen på hela [butikshierarkin](../getting-started/websites-stores-views.md). Om du har en Adobe Commerce- eller Magento Open Source-installation för flera webbplatser kan du hantera flera basvalutor genom att ange omfånget till webbplatsnivån.
 
-Du kan också ange vilka valutor du godkänner och vilken valuta du vill använda för att visa [priser](../catalog/catalog-price-scope.md) i din butik. I följande diagram anges basvalutans omfång på webbplatsnivå så att varje webbplats kan ha olika basvaluta.
+Du anger också vilka valutor du godkänner och vilken valuta du vill använda för att visa [priser](../catalog/catalog-price-scope.md) i din butik. I följande diagram anges basvalutans omfång på webbplatsnivå så att varje webbplats kan ha olika basvaluta.
 
-![Diagram över valutaomfång](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
+![Valutaomfångsdiagram](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
 
 ## Steg 1: Välj godkända valutor
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. I det övre vänstra hörnet anger du **[!UICONTROL Scope]** till butiksvyn där konfigurationen gäller.
+1. I det övre vänstra hörnet anger du **[!UICONTROL Scope]** till den butiksvy där konfigurationen gäller.
 
-1. I den vänstra panelen under _Allmänt_, välja **[!UICONTROL Currency Setup]**.
+1. Välj **[!UICONTROL Currency Setup]** på den vänstra panelen under _Allmänt_.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Currency Options]** och ange följande alternativ:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Currency Options]** och ange följande alternativ:
 
-   - **[!UICONTROL Base Currency]** — Ange den primära valutan som du använder för onlinetransaktioner.
+   - **[!UICONTROL Base Currency]** - Ange den primära valutan som du använder för onlinetransaktioner.
 
    - **[!UICONTROL Default Display Currency]** - Ange den valuta som du använder för att visa priser i butiksvyn.
 
-   - **[!UICONTROL Allowed Currencies]** — Välj alla valutor som du godkänner som betalning i butiksvyn. Se även till att välja din primära valuta.
+   - **[!UICONTROL Allowed Currencies]** - Välj alla valutor som du godkänner som betalning i butiksvyn. Se även till att välja din primära valuta.
 
      Om du har flera valutor håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på respektive alternativ.
 
    ![Allmän konfiguration - valutaalternativ](../configuration-reference/general/assets/currency-setup-currency-options.png){width="600" zoomable="yes"}
 
-   En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Valutaalternativ](../configuration-reference/general/currency-setup.md) i _Referenshandbok för konfiguration_.
+   En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Valutaalternativ](../configuration-reference/general/currency-setup.md) i _referenshandboken för konfiguration_.
 
-1. När du uppmanas att uppdatera cachen klickar du på _Stäng_ ( ![Stäng ruta](../assets/icon-close-x.png) ) i det övre högra hörnet av systemmeddelandet.
+1. När du uppmanas att uppdatera cachen klickar du på _Close_ ( ![Close box](../assets/icon-close-x.png) ) i det övre högra hörnet av systemmeddelandet.
 
    Du kan [uppdatera cachen](../systems/cache-management.md) senare.
 
 1. Definiera omfattningen för basvalutan:
 
-   - Expandera på den vänstra panelen **[!UICONTROL Catalog]** och välja **[!UICONTROL Catalog]** under.
+   - Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
-   - Rulla ned och expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Price]** -avsnitt. (Det här avsnittet visas bara om omfånget är inställt som **[!UICONTROL Store View:]** _Standardkonfiguration_.)
+   - Bläddra nedåt och utöka ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Price]**. (Det här avsnittet visas bara om omfånget är inställt på **[!UICONTROL Store View:]** _Standardkonfiguration_.)
 
    - Ange **[!UICONTROL Catalog Price Scope]** till antingen `Global` eller `Website`.
 
@@ -58,83 +58,83 @@ Du kan också ange vilka valutor du godkänner och vilken valuta du vill använd
 
 1. Bläddra överst på sidan.
 
-1. Expandera på den vänstra panelen **[!UICONTROL General]** och välja **[!UICONTROL Currency Setup]**.
+1. Expandera **[!UICONTROL General]** i den vänstra panelen och välj **[!UICONTROL Currency Setup]**.
 
 1. Konfigurera anslutningen för valutatjänsten:
 
-   Det finns tre servicealternativ: _[!UICONTROL Fixer.io (legacy)]_,_[!UICONTROL Fixer Api (APILayer)]_ och _[!UICONTROL Currency Converter API]_
+   Det finns tre tjänstalternativ: _[!UICONTROL Fixer.io (legacy)]_,_[!UICONTROL Fixer Api (APILayer)]_ och _[!UICONTROL Currency Converter API]_
 
    >[!IMPORTANT]
    >
-   >Från och med version 2.4.6 av [[!DNL Fixer.io]](https://fixer.io/) är ersatt med [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) service. Vi rekommenderar att du använder ett APILayer-konto i stället för ett inaktuellt [!DNL Fixer.io] konto.
+   >Från och med version 2.4.6 är tjänsten [[!DNL Fixer.io]](https://fixer.io/) inaktuell och ersatt med tjänsten [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api). Vi rekommenderar att du använder ett APILayer-konto i stället för ett inaktuellt [!DNL Fixer.io]-konto.
 
-   - _Ansluta till [fixer.io-tjänst](https://fixer.io/):_
+   - _Ansluta till tjänsten [fixer.io](https://fixer.io/):_
 
-      - Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Fixer.io]** -avsnitt.
+      - Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Fixer.io]**.
 
-      - Ange fixeraren.io **[!UICONTROL API key]**.
+      - Ange din fixer.io **[!UICONTROL API key]**.
 
-      - För **[!UICONTROL Connection Timeout in Seconds]** anger du antalet sekunder av inaktivitet som ska tillåtas innan anslutningen avbryts.
+      - För **[!UICONTROL Connection Timeout in Seconds]** anger du antalet sekunder av inaktivitet som ska tillåtas innan anslutningens timeout inträffar.
 
-     ![Allmän konfiguration - valutainställning - alternativ för Fixer.io](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
+     ![Allmän konfiguration - valutainställning - Fixer.io-alternativ](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
-   - _Ansluta till [[!DNL Fixer Api (APILayer)] service](https://apilayer.com/):_
+   - _Ansluta till [[!DNL Fixer Api (APILayer)] tjänsten](https://apilayer.com/):_
 
-      - Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Fixer Api (APILayer)]** -avsnitt.
+      - Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Fixer Api (APILayer)]**.
 
-      - Ange [!DNL APILayer] **[!UICONTROL API key]**.
+      - Ange din [!DNL APILayer] **[!UICONTROL API key]**.
 
-      - För **[!UICONTROL Connection Timeout in Seconds]** anger du antalet sekunder av inaktivitet som ska tillåtas innan anslutningen avbryts.
+      - För **[!UICONTROL Connection Timeout in Seconds]** anger du antalet sekunder av inaktivitet som ska tillåtas innan anslutningens timeout inträffar.
 
-     ![Allmän konfiguration - valutainställning - alternativ för fast API (APILayer)](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
+     ![Allmän konfiguration - valutainställning - alternativ för Fast API (APILayer)](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
-   - _Ansluta till [[!DNL Currency Convertor API] service](https://free.currencyconverterapi.com/):_
+   - _Ansluta till [[!DNL Currency Convertor API] tjänsten](https://free.currencyconverterapi.com/):_
 
-      - Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Currency Convertor API]** -avsnitt.
+      - Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Currency Convertor API]**.
 
-      - Ange din valutakonverterare **[!UICONTROL API key]**.
+      - Ange valutakonverteraren **[!UICONTROL API key]**.
 
-      - För **[!UICONTROL Connection Timeout in Seconds]** anger du antalet sekunder av inaktivitet som ska tillåtas innan anslutningen avbryts.
+      - För **[!UICONTROL Connection Timeout in Seconds]** anger du antalet sekunder av inaktivitet som ska tillåtas innan anslutningens timeout inträffar.
 
-     ![Allmän konfiguration - valutainställning - Alternativ för valutakonverterarens API](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
+     ![Allmän konfiguration - valutainställning - API-alternativ för valutakonverterare](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
 ## Steg 3: Konfigurera inställningar för schemalagd import
 
-1. Utöka ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Scheduled Import Settings]** -avsnitt.
+1. Utöka ![Expanderingsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Scheduled Import Settings]** när du fortsätter med valutainställningarna.
 
-   ![Allmän konfiguration - Inställningar för schemalagd valutaimport](../configuration-reference/general/assets/currency-setup-scheduled-import-settings.png){width="600" zoomable="yes"}
+   ![Allmän konfiguration - schemalagda importinställningar för valuta](../configuration-reference/general/assets/currency-setup-scheduled-import-settings.png){width="600" zoomable="yes"}
 
 1. Om du vill uppdatera valutakurser automatiskt anger du **[!UICONTROL Enabled]** till `Yes`.
 
 1. Ange uppdateringsalternativ:
 
-   - **[!UICONTROL Service]** — Ange till tariffprovidern. Standardvärdet är `Fixer.io (legacy)`.
+   - **[!UICONTROL Service]** - Ange till tariffprovidern. Standardvärdet är `Fixer.io (legacy)`.
 
    - **[!UICONTROL Start Time]** - Ange timma, minut och sekund att hastigheterna uppdateras enligt schemat.
 
-   - **[!UICONTROL Frequency]** — För att avgöra hur ofta tarifferna uppdateras ska du ange något av följande:
+   - **[!UICONTROL Frequency]** - Ange något av följande för att avgöra hur ofta tarifferna uppdateras:
 
       - `Daily`
       - `Weekly`
       - `Monthly`
 
-   - **[!UICONTROL Error Email Recipient]** — Ange e-postadressen till den person som ska få e-postmeddelanden om ett fel inträffar under importen.
+   - **[!UICONTROL Error Email Recipient]** - Ange e-postadressen till den person som ska få e-postmeddelanden om ett fel inträffar under importen.
 
      Om du vill ange flera e-postadresser avgränsar du dem med kommatecken.
 
-   - **[!UICONTROL Error Email Sender]** — Ange [butikskontakt](../getting-started/store-details.md#store-email-addresses) som visas som avsändaren av felmeddelandet.
+   - **[!UICONTROL Error Email Sender]** - Ange som [butikskontakt](../getting-started/store-details.md#store-email-addresses) som visas som avsändare av felmeddelandet.
 
-   - **[!UICONTROL Error Email Template]** — Ange till den e-postmall som används för felmeddelandet.
+   - **[!UICONTROL Error Email Template]** - Ange till den e-postmall som används för felmeddelandet.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
-1. När du uppmanas att uppdatera cachen klickar du på **[!UICONTROL Cache Management]** länka och uppdatera den ogiltiga cachen.
+1. När du uppmanas att uppdatera cachen klickar du på länken **[!UICONTROL Cache Management]** och uppdaterar det ogiltiga cacheminnet.
 
    ![Systemmeddelande - uppdatera den ogiltiga cachen](./assets/msg-cache-management.png){width="600" zoomable="yes"}
 
 ## Steg 4: Uppdatera valutakurserna
 
-Valutakurserna måste uppdateras med aktuella värden innan de träder i kraft. [Uppdatera tarifferna](currency-update.md) manuellt eller för att importera tarifferna automatiskt.
+Valutakurserna måste uppdateras med aktuella värden innan de träder i kraft. [Uppdatera frekvenserna](currency-update.md) manuellt eller importera dem automatiskt.
 
 ## Steg 5: Anpassa valutasymboler (valfritt)
 
@@ -142,20 +142,20 @@ Med Hantering av valutasymboler kan du anpassa symbolen som är kopplad till var
 
 ![Valutasymboler](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**på sidofältet_ Admin _.
 
-   Varje valuta som är aktiverad för din butik visas i _[!UICONTROL Currency]_lista.
+   Varje valuta som är aktiverad för din butik visas i listan _[!UICONTROL Currency]_.
 
 1. Ändra inställningarna i listan efter behov:
 
-   - Ange en anpassad symbol för varje valuta som du vill använda, eller välj **[!UICONTROL Use Standard]** för varje valuta.
+   - Ange en anpassad symbol för varje valuta som du vill använda, eller markera kryssrutan **[!UICONTROL Use Standard]** för varje valuta.
 
-   - Om du vill åsidosätta standardsymbolen avmarkerar du _[!UICONTROL Use Standard]_och ange den symbol som du vill använda.
+   - Om du vill åsidosätta standardsymbolen avmarkerar du kryssrutan _[!UICONTROL Use Standard]_och anger den symbol som du vill använda.
 
    >[!NOTE]
    >
    >Det går inte att ändra justeringen av valutasymbolen från vänster till höger.
 
-1. När du är klar klickar du på **[!UICONTROL Save Currency Symbols]**.
+1. Klicka på **[!UICONTROL Save Currency Symbols]** när du är klar.
 
-1. När du uppmanas att uppdatera cachen klickar du på **[!UICONTROL Cache Management]** länka och uppdatera eventuell ogiltig cache.
+1. När du uppmanas att uppdatera cachen klickar du på länken **[!UICONTROL Cache Management]** och uppdaterar eventuell ogiltig cache.

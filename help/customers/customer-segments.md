@@ -4,7 +4,7 @@ description: Med kundsegment kan ni dynamiskt visa innehåll och kampanjer för 
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Med kundsegment kan ni dynamiskt visa innehåll och kampanjer för specifika kunder utifrån olika egenskaper. Några exempel är kundadress, orderhistorik och kundvagnsinnehåll. Ni kan optimera marknadsföringssatsningar baserat på riktade segment med kundvagnsprisregler. Ni kan också generera rapporter och exportera listan över målkunder. Eftersom kundsegmentsinformationen uppdateras kontinuerligt kan kunderna associeras och kopplas bort från ett segment när de handlar i din butik.
 
-För att bättre förstå skillnaden mellan [kundgrupper](../customers/customer-groups.md) och kundsegment, notera var de används:
+För att bättre förstå skillnaden mellan [kundgrupper](../customers/customer-groups.md) och kundsegment bör du notera var de används:
 
 |  | Kundsegment | Kundgrupp |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ För att bättre förstå skillnaden mellan [kundgrupper](../customers/customer-
 
 ## Kundsegmentattribut
 
-Kundsegmentens attribut definieras på ett sätt som liknar reglerna för kundvagn och katalogpris. För ett attribut som ska användas i ett kundsegment, _[!UICONTROL Use in Customer Segment]_[property](attribute-properties.md#) måste anges till `Yes`. Villkoren för kundsegment kan innehålla följande typer av attribut:
+Kundsegmentens attribut definieras på ett sätt som liknar reglerna för kundvagn och katalogpris. För att ett attribut ska kunna användas i ett kundsegment måste _[!UICONTROL Use in Customer Segment]_[property](attribute-properties.md#) anges till `Yes`. Villkoren för kundsegment kan innehålla följande typer av attribut:
 
 | Attribut | Beskrivning |
 |---|---|
@@ -42,9 +42,9 @@ Kundsegmentens attribut definieras på ett sätt som liknar reglerna för kundva
 
 {style="table-layout:auto"}
 
-Se [Skapa och ta bort kundsegment](../customers/customer-segment-create.md) för mer information om hur du definierar kundsegment.
+Mer information om hur du definierar kundsegment finns i [Skapa och ta bort kundsegment](../customers/customer-segment-create.md).
 
 ## eBooks
 
-- **Kundsegmentering** - Få [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) för att lära sig hur man kan öka vinsten och få nöjda kunder.
-- **Segmenteringsstrategi** - Få [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) för att förbättra målgruppsanpassningen för era meddelanden och kampanjer för att skapa meningsfulla konversationer med era kunder.
+- **Kundsegmentering** - Hämta [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) och lär dig hur du kan öka vinsten och få nöjda kunder.
+- **Segmenteringsstrategi** - Hämta [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) för att förbättra målsättningen för dina meddelanden och kampanjer och skapa meningsfulla konversationer med dina kunder.

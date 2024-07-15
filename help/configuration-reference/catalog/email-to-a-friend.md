@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] i Commerce Admin.
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -23,10 +23,10 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Butiksvy | Aktiverar processen som ger kunderna möjlighet att skicka e-post till vänner om produkter i din butik. Alternativ: `Yes` / `No` |
-| [!UICONTROL Select Email Template] | Butiksvy | Identifierar e-postmallen som används för meddelanden som genereras av _Skicka e-post till en vän_ funktion. Standardmall: `Send Product to Friend` |
+| [!UICONTROL Select Email Template] | Butiksvy | Identifierar e-postmallen som används för meddelanden som genereras av funktionen _Skicka e-post till en vän_. Standardmall: `Send Product to Friend` |
 | [!UICONTROL Allow for Guests] | Butiksvy | Avgör om avsändaren måste vara en registrerad kund för att kunna skicka e-post om en produkt till vänner. Alternativ: `Yes` / `No` |
 | [!UICONTROL Max Recipients] | Butiksvy | Begränsar antalet personer som kan vara med i distributionslistan för ett enda e-postmeddelande. |
 | [!UICONTROL Max Products Sent in 1  Hour] | Butiksvy | Begränsar antalet produkter som kan delas av en enskild användare under en tidsperiod på en timme. |
-| [!UICONTROL Limit Sending By] | Butiksvy | Bestämmer vilken metod som används för att identifiera avsändaren. Alternativen är: <br/>**`IP Address`**- (Rekommenderas) Identifierar avsändaren med IP-adressen för den dator som används för att skicka produktmeddelanden.<br/>**`Cookie (unsafe)`** - Identifierar avsändaren med en webbläsarcookie. Den här metoden är inte säker eftersom användaren kan ta bort cookien för att undvika begränsningen. |
+| [!UICONTROL Limit Sending By] | Butiksvy | Bestämmer vilken metod som används för att identifiera avsändaren. Alternativen är: <br/>**`IP Address`**- (rekommenderas) Identifierar avsändaren med IP-adressen för den dator som används för att skicka produktmeddelanden.<br/>**`Cookie (unsafe)`** - Identifierar avsändaren med en webbläsarcookie. Den här metoden är inte säker eftersom användaren kan ta bort cookien för att undvika begränsningen. |
 
 {style="table-layout:auto"}

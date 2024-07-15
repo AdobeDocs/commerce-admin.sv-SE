@@ -1,7 +1,7 @@
 ---
 user-guide-title: "[!DNL Inventory Management] Användarhandbok"
-user-guide-description: Lär dig använda [!DNL Inventory Management] funktioner för att behålla kvantiteter för försäljning och hantera leveranser som ska slutföras [!DNL Commerce] beställningar.
-breadcrumb-title: "[!DNL Inventory Management]"
+user-guide-description: Lär dig hur du använder  [!DNL Inventory Management] funktioner för att behålla kvantiteter för försäljning och hantera leveranser för att slutföra  [!DNL Commerce] beställningar.
+breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
 source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
@@ -12,14 +12,14 @@ ht-degree: 1%
 ---
 
 
-# [!DNL Inventory Management] Användarhandbok {#inventory}
+# Användarhandbok för [!DNL Inventory Management] {#inventory}
 
 - [Inventory management Guide](guide-overview.md)
-- [Introduktion till [!DNL Inventory Management]](introduction.md)
+- [Introduktion till  [!DNL Inventory Management]](introduction.md)
 - [Versionsinformation](release-notes.md)
 - Grundläggande om lager {#basics}
    - [Källor och lager](sources-stocks.md)
-   - [Val av källa och reservationer](selection-reservations.md)
+   - [Urval och bokningar av Source](selection-reservations.md)
    - [Beställnings- och reservationsstatus](order-status.md)
    - [Produkttyper](product-types.md)
 - Kom igång {#get-started}
@@ -29,13 +29,13 @@ ht-degree: 1%
    - [Expandera och strukturera om lager](expand-restructure.md)
 - Konfiguration {#configuration}
    - [Ökning](configuration.md)
-   - [Aktivera [!DNL Inventory Management]](enable.md)
+   - [Aktivera  [!DNL Inventory Management]](enable.md)
    - [Konfigurera globala alternativ](global-options.md)
    - [Konfigurera produktalternativ](product-options.md)
    - [Konfigurera backorders](backorders.md)
    - [Konfigurera källprioritet](source-priority-algorithm.md)
    - [Konfigurera avståndsprioritet](distance-priority-algorithm.md)
-   - Produktvarningar {#product-alerts}
+   - Produktaviseringar {#product-alerts}
       - [Ställ in produktvarningar](alert-setup.md)
       - [Scenarier för Stock-meddelanden](stock-messages.md)
 - Hantera källor {#sources}

@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Säkerhetskopiering av system
 
-Med Adobe Commerce och Magento Open Source kan du säkerhetskopiera olika delar av systemet - t.ex. filsystemet, databasen och mediefiler - och återställa automatiskt. En post för varje säkerhetskopia visas i rutnätet på _Säkerhetskopior_ sida. Om du tar bort en post från listan tas även den arkiverade filen bort. Säkerhetskopieringsfiler för databaser komprimeras med GZ-format. TGZ-formatet används för systemsäkerhetskopieringar och databas- och mediesäkerhetskopieringar. Som en god vana bör du begränsa åtkomsten till säkerhetskopieringsverktygen och säkerhetskopiera innan du installerar tillägg och uppdateringar.
+Med Adobe Commerce och Magento Open Source kan du säkerhetskopiera olika delar av systemet - t.ex. filsystemet, databasen och mediefiler - och återställa automatiskt. En post för varje säkerhetskopiering visas i rutnätet på sidan _Säkerhetskopior_. Om du tar bort en post från listan tas även den arkiverade filen bort. Säkerhetskopieringsfiler för databaser komprimeras med GZ-format. TGZ-formatet används för systemsäkerhetskopieringar och databas- och mediesäkerhetskopieringar. Som en god vana bör du begränsa åtkomsten till säkerhetskopieringsverktygen och säkerhetskopiera innan du installerar tillägg och uppdateringar.
 
-- **Begränsa åtkomsten till verktygen för säkerhetskopiering.** Åtkomsten till verktygen för säkerhetskopiering och återställning kan begränsas genom att konfigurera [användarroller](permissions-user-roles.md) för säkerhetskopiering och återställning. Om du vill begränsa åtkomsten låter du motsvarande kryssruta vara avmarkerad. Om du vill ha åtkomst till resurser för återställning måste du även ge åtkomst till resurser för säkerhetskopiering.
+- **Begränsa åtkomsten till verktyg för säkerhetskopiering.** Åtkomsten till verktygen för säkerhetskopiering och återställning kan begränsas genom att [användarroller](permissions-user-roles.md) konfigureras för resurser för säkerhetskopiering och återställning. Om du vill begränsa åtkomsten låter du motsvarande kryssruta vara avmarkerad. Om du vill ha åtkomst till resurser för återställning måste du även ge åtkomst till resurser för säkerhetskopiering.
 
-- **Säkerhetskopiera innan du installerar tillägg och uppdateringar.** Säkerhetskopiera alltid innan du installerar ett tillägg eller en uppdatering.
+- **Säkerhetskopiera innan du installerar tillägg och uppdateringar.** Utför alltid en säkerhetskopiering innan du installerar ett tillägg eller en uppdatering.
 
 {{$include /help/_includes/backups-note.md}}
 
 ## Aktivera och schemalägg säkerhetskopiering
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Advanced]** och välja **[!UICONTROL System]**.
+1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Backup Settings]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) och **[!UICONTROL Backup Settings]**.
 
 1. Ange **[!UICONTROL Enabled Schedule Backup]** till `Yes`.
 
@@ -34,33 +34,33 @@ Med Adobe Commerce och Magento Open Source kan du säkerhetskopiera olika delar 
 
    - Ange **[!UICONTROL Enabled Schedule Backup]** till `Yes`.
    - Ange **[!UICONTROL Scheduled Backup Type]** till den typ av säkerhetskopiering som ska köras vid det schemalagda intervallet.
-   - Ange **[!UICONTROL Start Time]** till den tidpunkt på dagen då säkerhetskopieringen ska utföras.
-   - Ange **[!UICONTROL Frequency]** till `Daily`, `Weekly`, eller `Monthly`.
+   - Ange **[!UICONTROL Start Time]** till den tidpunkt på dagen då säkerhetskopieringen ska köras.
+   - Ange **[!UICONTROL Frequency]** till `Daily`, `Weekly` eller `Monthly`.
    - Ange **[!UICONTROL Maintenance Mode]** till `Yes`.
 
-   ![Avancerad konfiguration - säkerhetskopiering](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
+   ![Avancerad konfiguration - säkerhetskopior](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Skapa en säkerhetskopia
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**på sidofältet_ Admin _.
 
 1. Klicka i det övre högra hörnet på den typ av säkerhetskopia som du vill skapa:
 
-   - **[!UICONTROL System Backup]** - Skapar en fullständig säkerhetskopiering av databasen och filsystemet. Under processen kan du välja att ta med mediemappen i säkerhetskopian.
+   - **[!UICONTROL System Backup]** - Skapar en fullständig säkerhetskopia av databasen och filsystemet. Under processen kan du välja att ta med mediemappen i säkerhetskopian.
 
    - **[!UICONTROL Database and Media Backup]** - Skapar en säkerhetskopia av databasen och mediamappen.
 
    - **[!UICONTROL Database Backup]** - Skapar en säkerhetskopia av databasen.
 
-   ![Systemverktyg - säkerhetskopiering](./assets/tools-backups.png){width="600" zoomable="yes"}
+   ![Systemverktyg - säkerhetskopior](./assets/tools-backups.png){width="600" zoomable="yes"}
 
 1. Markera kryssrutan om du vill försätta arkivet i underhållsläge under säkerhetskopieringen.
 
    När säkerhetskopieringen är klar stängs underhållsläget av automatiskt.
 
-1. För en systemsäkerhetskopiering väljer du **[!UICONTROL Include Media folder to System Backup]** om du vill inkludera mediamappen.
+1. För en systemsäkerhetskopiering markerar du kryssrutan **[!UICONTROL Include Media folder to System Backup]** för att inkludera mediamappen.
 
 1. Bekräfta åtgärden när du uppmanas att göra det.
 

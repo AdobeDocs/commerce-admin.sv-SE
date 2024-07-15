@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] i Commerce Admin.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Asynchronous sending] | Global | Avgör om e-postmeddelanden om försäljning skickas asynkront. Du bör aktivera asynkron sändning. Alternativ: <br/>**`Disable`**- (Standard) E-post om försäljning skickas när den utlöses av en händelse.<br/>**`Enable`** - (Rekommenderas) E-postmeddelanden skickas med förbestämda, regelbundna intervall. |
+| [!UICONTROL Asynchronous sending] | Global | Avgör om e-postmeddelanden om försäljning skickas asynkront. Du bör aktivera asynkron sändning. Alternativ: <br/>**`Disable`**- (standard) E-post om försäljning skickas när den aktiveras av en händelse.<br/>**`Enable`** - (Rekommenderas) E-post om försäljning skickas med förbestämda, regelbundna intervall. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
-![Beställning](./assets/sales-emails-order.png)<!-- zoom -->
+![Beställ](./assets/sales-emails-order.png)<!-- zoom -->
 
 <!-- [Order](https://docs.magento.com/user-guide/sales/orders.html) -->
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL New Order Confirmation Template] | Butiksvy | Identifierar mallen som skickas för att bekräfta nya beställningar som gjorts av kunder. Standardmall: `New Order` |
 | [!UICONTROL New Order Confirmation Template for Guest] | Butiksvy | Identifierar mallen som skickas för att bekräfta nya beställningar som gjorts av gäster. Standardmall: `New Order for Guest` |
 | [!UICONTROL Send Order Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postbeställningsmeddelande. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send Order Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send Order Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 | [!UICONTROL Order Comment Email Template] | Butiksvy | Identifierar mallen som skickas när en kommentar läggs till i en kundorder. Standardmall: `Order Update` |
 | [!UICONTROL New Order Confirmation Template for Guest] | Butiksvy | Identifierar mallen som skickas när en kommentar läggs till i en gästorder. Standardmall: `Order Update for Guest` |
 | [!UICONTROL Send Order Email Copy To|Store View] | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande med en orderkommentar. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send Order Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send Order Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 | [!UICONTROL Invoice Email Template] | Butiksvy | Identifierar mallen som skickas när en faktura genereras för en kund. Standardmall: `New Invoice` |
 | [!UICONTROL Invoice Email Template for Guest] | Butiksvy | Identifierar mallen som skickas när en faktura genereras för en gäst. Standardmall: `New Invoice for Guest` |
 | [!UICONTROL Send Invoice Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett fakturameddelande. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send Invoice Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send Invoice Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
@@ -90,13 +90,13 @@ ht-degree: 0%
 | [!UICONTROL Invoice Comment Email Template] | Butiksvy | Identifierar mallen som skickas när en kommentar läggs till i en kundfaktura. Standardmall: `Invoice Update` |
 | [!UICONTROL Invoice Comment Email Template for Guest] | Butiksvy | Identifierar mallen som skickas när en kommentar läggs till i en gästfaktura. Standardmall: `Invoice Update for Guest` |
 | [!UICONTROL Send Invoice Comment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande med en fakturakommentar. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send Invoice Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send Invoice Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
-![Leverans](./assets/sales-emails-shipment.png)<!-- zoom -->
+![Utleverans](./assets/sales-emails-shipment.png)<!-- zoom -->
 
 <!-- [Shipment](https://docs.magento.com/user-guide/sales/shipments.html) -->
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 | [!UICONTROL Shipment Email Template] | Butiksvy | Identifierar mallen som skickas när en leverans genereras för en kund. Standardmall: `New Shipment` |
 | [!UICONTROL Shipment Email Template for Guest] | Butiksvy | Identifierar mallen som skickas när en leverans genereras för en gäst. Standardmall: `New Shipment for Guest` |
 | [!UICONTROL Send Shipment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send Shipment Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send Shipment Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 | [!UICONTROL Shipment Comment Email Template] | Butiksvy | Identifierar mallen som skickas när en kommentar läggs till i en kundleverans. Standardmall: `Shipment Update` |
 | [!UICONTROL Shipment Comment Email Template for Guest] | Butiksvy | Identifierar mallen som skickas när en kommentar läggs till i en gästleverans. Standardmall: `Shipment Update for Guest` |
 | [!UICONTROL Send Shipment Comment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande med en försändelsekommentar. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send Shipment Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send Shipment Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 | [!UICONTROL Credit Memo Email Template] | Butiksvy | Identifierar mallen som skickas när en kreditnota skapas för en kund. Standardmall: `New Credit Memo` |
 | [!UICONTROL Credit Memo Email Template for Guest] | Butiksvy | Identifierar mallen som skickas när en kreditnota skapas för en gäst. Standardmall: `New Credit Memo for Guest` |
 | [!UICONTROL Send Credit Memo Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande med kreditnota. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send Credit Memo Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send Credit Memo Email Copy Method] | Butiksvy | Anger den metod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
@@ -158,13 +158,13 @@ ht-degree: 0%
 | [!UICONTROL Credit Memo Comment Email Template] | Butiksvy | Identifierar mallen som skickas när en kommentar läggs till i en kundkreditnota. Standardmall: `Credit Memo Update` |
 | [!UICONTROL Credit Memo Comment Email Template for Guest] | Butiksvy | Identifierar mallen som skickas när en kommentar läggs till i en gästkreditnota. Standardmall: `Credit Memo Update for Guest` |
 | [!UICONTROL Send Credit Memo Comment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett e-postmeddelande med en kreditnotskommentar. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send Credit Memo Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send Credit Memo Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
-![Beställ klart för hämtning i Store](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
+![Beställningen är klar för hämtning i Store](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
 <!-- [Order Ready For Pickup in Store](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html) -->
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 | [!UICONTROL Order Ready For Pickup Email Sender] | Butiksvy | Identifierar den butikskontakt som visas som meddelandeavsändare. Standardavsändare: `General Contact` |
 | [!UICONTROL Order Ready For Pickup Email Template] | Butiksvy | Identifierar mallen som används för transaktionens e-postadress för varje order som är klar för hämtning i butik för en registrerad kund. Standardmall: `Order is Ready for Pickup` |
 | [!UICONTROL Order Ready For Pickup Email Template for Guest] | Butiksvy | Identifierar den mall som används för transaktionens e-postadress för varje order som är klar att hämtas i butik för en gäst. Standardmall: `Order is Ready for Pickup for Guest` |
-| Skicka beställningen klar för hämtning av e-postkopia till | Butiksvy | Anger e-postadressen till alla som ska få en kopia av en _Beställ klart för hämtning_ e-post. Avgränsa flera adresser med komma. |
+| Skicka beställningen klar för hämtning av e-postkopia till | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett _e-postmeddelande om beställning klar för hämtning_. Avgränsa flera adresser med komma. |
 | [!UICONTROL Send Order Ready For Pickup Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativ: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
@@ -217,7 +217,7 @@ ht-degree: 0%
 | [!UICONTROL Quote Expiration (in 24 hrs)] | Butiksvy | Anger den e-postmall som används för förfallomeddelandet som skickas 24 timmar innan offerten förfaller. Standardmall: `Expiration Warning 1` |
 | [!UICONTROL Expiration Date Reset] | Butiksvy | Anger den e-postmall som används för meddelandet som skickas när förfallodatumet ändras. Standardmall: `Expiration Date Reset` |
 | [!UICONTROL Send Quote Email Copy To] | Butiksvy | Anger e-postadressen till varje person som ska få en kopia av offertmeddelandet. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send Quote Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send Quote Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
@@ -232,11 +232,11 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Butiksvy | Aktiverar e-postmeddelanden för varje RMA som genereras. Alternativ: `Yes` / `No` |
-| [!UICONTROL RMA Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av meddelandet. Standardvärde: `Sales Representative` |
-| [!UICONTROL RMA Email Template] | Butiksvy | Bestämmer [e-postmall](../../systems/email-templates.md) som används för meddelandet som skickas när en RMA genereras för en kund. Standardmall: `New RMA` |
+| [!UICONTROL RMA Email Sender] | Butiksvy | Identifierar den [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som meddelandets avsändare. Standardvärde: `Sales Representative` |
+| [!UICONTROL RMA Email Template] | Butiksvy | Avgör den [e-postmall](../../systems/email-templates.md) som används för meddelanden som skickas när en RMA genereras för en kund. Standardmall: `New RMA` |
 | [!UICONTROL RMA Email Template for Guest] | Butiksvy | Bestämmer mallen som skickas när en RMA genereras för en gäst. Standardmall: `New RMA for Guest` |
 | [!UICONTROL Send RMA Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett RMA-e-postmeddelande. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send RMA  Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send RMA  Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
@@ -251,11 +251,11 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Butiksvy | När det här alternativet är aktiverat skickas ett e-postmeddelande för varje RMA-auktorisering. Alternativ: `Yes` / `No` |
-| [!UICONTROL RMA Authorization Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som meddelandeavsändare. Standardvärde: `Sales Representative` |
-| [!UICONTROL RMA Authorization Email Template] | Butiksvy | Bestämmer [e-postmall](../../systems/email-templates.md) som används när ett meddelande om RMA-auktorisering skickas. Standardmall: `RMA Authorization` |
+| [!UICONTROL RMA Authorization Email Sender] | Butiksvy | Identifierar den [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som meddelandeavsändare. Standardvärde: `Sales Representative` |
+| [!UICONTROL RMA Authorization Email Template] | Butiksvy | Avgör den [e-postmall](../../systems/email-templates.md) som används när ett RMA-auktoriseringsmeddelande skickas. Standardmall: `RMA Authorization` |
 | [!UICONTROL RMA Authorization Email Template for Guest] | Butiksvy | Bestämmer mallen som används när ett RMA-auktoriseringsmeddelande skickas till en gäst. Standardmall: `RMA Authorization for Guest` |
 | [!UICONTROL Send RMA Authorization Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av ett RMA-auktoriseringsmeddelande. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send RMA Authorization Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send RMA Authorization Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
@@ -268,11 +268,11 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Butiksvy | När det här alternativet är aktiverat skickas ett e-postmeddelande för varje RMA-administratörskommentar. Alternativ: `Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som meddelandeavsändare. Standardvärde: `Sales Representative` |
-| [!UICONTROL RMA Comment Email Template] | Butiksvy | Bestämmer [e-postmall](../../systems/email-templates.md) som används när en administratör lägger till en kommentar i en RMA för en kund. Standardmall: `RMA Admin Comments` |
+| [!UICONTROL RMA Comment Email Sender] | Butiksvy | Identifierar den [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som meddelandeavsändare. Standardvärde: `Sales Representative` |
+| [!UICONTROL RMA Comment Email Template] | Butiksvy | Avgör den [e-postmall](../../systems/email-templates.md) som används när en administratör lägger till en kommentar i en RMA för en kund. Standardmall: `RMA Admin Comments` |
 | [!UICONTROL RMA Comment Email Template for Guest] | Butiksvy | Bestämmer vilken mall som ska användas när en administratör lägger till en kommentar i en RMA för en gäst. Standardmall: `RMA Admin Comments for Guest` |
 | [!UICONTROL Send RMA Comment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av meddelandet. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send RMA Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send RMA Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}
 
@@ -287,10 +287,10 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Butiksvy | När det här alternativet är aktiverat skickas ett e-postmeddelande för varje RMA-kundkommentar. Alternativ: `Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som meddelandeavsändare. Standardvärde: `Customer Support` |
+| [!UICONTROL RMA Comment Email Sender] | Butiksvy | Identifierar den [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som meddelandeavsändare. Standardvärde: `Customer Support` |
 | [!UICONTROL RMA Comment Email Recipient] | Butiksvy | Identifierar den butikskontakt som är mottagare av e-postmeddelandet med kundkommentarer. Standardvärde: `Sales Representative` |
-| [!UICONTROL RMA Comment Email Template] | Butiksvy | Bestämmer [e-postmall](../../systems/email-templates.md) som används när en kund lägger till en kommentar till en RMA. Standardmall: `RMA Admin Comments` |
+| [!UICONTROL RMA Comment Email Template] | Butiksvy | Avgör den [e-postmall](../../systems/email-templates.md) som används när en kund lägger till en kommentar i en RMA-fil. Standardmall: `RMA Admin Comments` |
 | [!UICONTROL Send RMA Comment Email Copy To] | Butiksvy | Anger e-postadressen till alla som ska få en kopia av meddelandet. Avgränsa flera adresser med komma. |
-| [!UICONTROL Send RMA Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en hemlig kopia genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
+| [!UICONTROL Send RMA Comments Email Copy Method] | Butiksvy | Anger den e-postmetod som används för att skicka kopian. Alternativen är: <br/>**`Bcc`**- Skickar en kopia med blindhet genom att inkludera mottagaren i rubriken för samma e-postmeddelande som skickas till kunden. Mottagaren av hemlig kopia är inte synlig för kunden.<br/>**`Separate Email`** - Skickar kopian som ett separat e-postmeddelande. |
 
 {style="table-layout:auto"}

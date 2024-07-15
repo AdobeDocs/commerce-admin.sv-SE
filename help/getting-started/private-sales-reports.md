@@ -14,28 +14,28 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De privata försäljningsrapporterna innehåller information om [event och privat försäljning](../merchandising-promotions/events-private-sales.md).
+De privata försäljningsrapporterna innehåller information om [händelser och privat försäljning](../merchandising-promotions/events-private-sales.md).
 
 ## [!UICONTROL Invitations Report]
 
-The [!UICONTROL Invitations Report] visar antalet [inbjudningar](../merchandising-promotions/invitations.md) skickas under den angivna tidsperioden och numret accepteras och tas bort.
+[!UICONTROL Invitations Report] visar antalet [inbjudningar](../merchandising-promotions/invitations.md) som skickats under den angivna tidsperioden samt antalet accepterade och ignorerade.
 
-På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**på sidofältet_ Admin _.
 
 ![Inbjudningsrapport](./assets/private-sales-invitations.png){width="600"}
 
 ## [!UICONTROL Invited Customers Report]
 
-The [!UICONTROL Invited Customers Report] visar alla kunder som har fått inbjudningar till en privat försäljning eller händelse. Den innehåller namn och e-postadress, kundgrupp, antal inbjudningar som skickats och antal som godkänts.
+[!UICONTROL Invited Customers Report] visar alla kunder som har fått inbjudningar till en privat försäljning eller händelse. Den innehåller namn och e-postadress, kundgrupp, antal inbjudningar som skickats och antal som godkänts.
 
-På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**på sidofältet_ Admin _.
 
-![Inbjudna kunder - rapport](./assets/private-sales-invited-customers.png){width="600"}
+![Rapport om inbjudna kunder](./assets/private-sales-invited-customers.png){width="600"}
 
 ## [!UICONTROL Conversion Rate Report]
 
-The [!UICONTROL Conversion Rate Report] visar antalet inbjudningar som skickats och godkänts, antalet inbjudningar som lett till ett köp och konverteringsgraden som en procentandel.
+[!UICONTROL Conversion Rate Report] visar antalet inbjudningar som skickats och accepterats, antalet inbjudningar som ledde till ett köp och konverteringsgraden i procent.
 
-På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**på sidofältet_ Admin _.
 
-![Konverteringsrapport](./assets/private-sales-conversions.png){width="600"}
+![Rapport om konverteringsgrad](./assets/private-sales-conversions.png){width="600"}

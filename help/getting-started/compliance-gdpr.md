@@ -5,7 +5,7 @@ exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -30,26 +30,26 @@ Alla organisationer som behandlar personuppgifter måste lämna ut följande upp
 
 ## GDPR och CCPA
 
-Om ditt företag måste uppfylla både GDPR och [California Consumer Privacy Act (CCPA)](../getting-started/compliance-ccpa.md)kan du använda en del av arbetet från ditt GDPR-kompatibilitetsprogram för CCPA. Även om reglerna har vissa likheter är det några skillnader:
+Om ditt företag måste följa både GDPR och [California Consumer Privacy Act (CCPA)](../getting-started/compliance-ccpa.md) kan du använda en del av arbetet från ditt GDPR-kompatibilitetsprogram för CCPA. Även om reglerna har vissa likheter är det några skillnader:
 
 - Definitionen av personuppgifter skiljer sig åt för de olika förordningarna.
 - Den allmänna dataskyddsförordningen kräver att konsumenterna väljer att inte få använda sina personuppgifter för vissa ändamål. CCPA ger konsumenterna rätt att avanmäla sig.
 - CCPA har ytterligare krav på datalager och datamappning.
 - Reglerna har olika krav på integritetspolicy.
 
-Företag som följer GDPR kan ha ytterligare skyldigheter enligt CCPA. Mer information finns i [CCPA-faktablad][3]{:target=&quot;_blank&quot;}.
+Företag som följer GDPR kan ha ytterligare skyldigheter enligt CCPA. Mer information finns i [faktablad för CCPA][3]{:target=&quot;_blank&quot;}.
 
 ## God praxis
 
-- Undersök aktuell [integritetspolicy](../getting-started/privacy-policy.md) för alla era butiker för att säkerställa att de uppfyller tillämpliga rättsliga krav (inklusive, men inte begränsat till, GDPR och CCPA).
+- Granska de aktuella [sekretesspolicyerna](../getting-started/privacy-policy.md) för alla dina butiker för att se till att de överensstämmer med tillämpliga juridiska krav (inklusive, men inte begränsat till, GDPR och CCPA).
 
-- Uppdatera dina [Google-inställningar](../merchandising-promotions/google-tools.md#google-privacy-settings) och se till att de överensstämmer med era lagstadgade skyldigheter när det gäller användningen av personuppgifter.
+- Uppdatera dina [Google-inställningar](../merchandising-promotions/google-tools.md#google-privacy-settings) och se till att de är i linje med dina juridiska skyldigheter när det gäller användning av personuppgifter.
 
 - Bevara genomskinlighet och ha grundlig dokumentation.
 
-- Läs mer om hur Adobe kan hjälpa handlare att uppfylla gällande juridiska skyldigheter på [webbplats][1]{:target=&quot;_blank&quot;}.
+- Om du vill veta hur Adobe kan hjälpa handlare att uppfylla gällande juridiska skyldigheter kan du besöka [webbplatsen][1]{:target=&quot;_blank&quot;}.
 
-- Information om dataflödesdiagram och mappning av databasentiteter finns i [Referens för personlig information][2]{: target=&quot;_blank&quot;}.
+- Information om dataflödesdiagram och mappning av databasentiteter finns i [Personlig informationsreferens][2]{: target=&quot;_blank&quot;}.
 
 [1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
 [2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html

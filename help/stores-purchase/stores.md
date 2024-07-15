@@ -5,7 +5,7 @@ exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Här är några exempel på hur URL:er kan konfigureras för flera butiker:
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Varje butik har en egen sökväg, men delar en domän. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Varje butik har en egen underdomän till den primära domänen. |
 
-Installationer av Adobe Commerce i flera butiker måste konfigureras från Admin och från serverns kommandorad. Adobe Commerce [Konfigurationshandbok](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) innehåller detaljerade anvisningar för hur du konfigurerar servermiljön.
+Installationer av Adobe Commerce i flera butiker måste konfigureras från Admin och från serverns kommandorad. Adobe Commerce [Konfigurationshandbok](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) innehåller detaljerade anvisningar om hur du konfigurerar servermiljön.
 
 ### Steg 1: Välj butiksdomän
 
@@ -45,17 +45,17 @@ Det första steget är att välja hur du vill placera butiken. Ska butikerna del
 
 ### Steg 2: Skapa butiken
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**på sidofältet_ Admin _.
 
-1. Klicka **[!UICONTROL Create Store]** och ange alternativ för den nya butiken:
+1. Klicka på **[!UICONTROL Create Store]** och ange alternativ för den nya butiken:
 
-   - **[!UICONTROL Web Site]** — Välj en webbplats som ska vara överordnad den nya butiken. Om installationen bara har en webbplats accepterar du standardinställningen (`Main Website`).
+   - **[!UICONTROL Web Site]** - Välj en webbplats som ska vara överordnad den nya butiken. Om installationen bara har en webbplats accepterar du standardinställningen (`Main Website`).
 
-   - **[!UICONTROL Name]** — Ange ett namn för den nya butiken. Namnet är bara till för intern referens.
+   - **[!UICONTROL Name]** - Ange ett namn för den nya butiken. Namnet är bara till för intern referens.
 
-   - **[!UICONTROL Code]** — Ange en kod med gemener för att identifiera butiken. Exempel: `mainstore`.
+   - **[!UICONTROL Code]** - Ange en kod med gemener för att identifiera arkivet. Till exempel: `mainstore`.
 
-   - **[!UICONTROL Root Category]** — Ange [rotkategori](../catalog/category-root.md) som definierar kategoristrukturen för den nya butikens huvudmeny. Om du redan har skapat en viss rotkategori för arkivet markerar du den. Annars väljer du `Default Category`. Du kan komma tillbaka senare och uppdatera inställningen.
+   - **[!UICONTROL Root Category]** - Ange som [rotkategori](../catalog/category-root.md) som definierar kategoristrukturen för den nya butikens huvudmeny. Om du redan har skapat en viss rotkategori för arkivet markerar du den. Annars väljer du `Default Category`. Du kan komma tillbaka senare och uppdatera inställningen.
 
    ![Skapa butik - butiksalternativ](./assets/stores-all-store-information.png){width="600" zoomable="yes"}
 
@@ -63,17 +63,17 @@ Det första steget är att välja hur du vill placera butiken. Ska butikerna del
 
 ### Steg 3: Skapa en standardbutiksvy
 
-1. Klicka **[!UICONTROL Create Store View]** och ange alternativ för butiksvyn:
+1. Klicka på **[!UICONTROL Create Store View]** och ange alternativ för butiksvyn:
 
-   - **[!UICONTROL Store]** — Ange till den nya butiken du skapade.
+   - **[!UICONTROL Store]** - Ange till den nya butiken som du skapade.
 
-   - **[!UICONTROL Name]** — Ange ett namn för vyn. Exempel, `English`.
+   - **[!UICONTROL Name]** - Ange ett namn för vyn. Exempel: `English`.
 
-   - **[!UICONTROL Code]** — Ange en kod för vyn med gemener.
+   - **[!UICONTROL Code]** - Ange en kod för vyn med gemener.
 
-   - **[!UICONTROL Status]** — Ställ in på `Enabled`.
+   - **[!UICONTROL Status]** - Ange som `Enabled`.
 
-   - **[!UICONTROL Sort Order]** — Ange ett nummer som avgör butikens position när den anges med andra butiker.
+   - **[!UICONTROL Sort Order]** - Ange ett nummer som avgör butikens position när den anges med andra butiker.
 
 1. Klicka på **[!UICONTROL Save Store View]**.
 
@@ -83,80 +83,80 @@ Det första steget är att välja hur du vill placera butiken. Ska butikerna del
 
 ### Steg 4: Konfigurera butikens URL
 
-1. På _Administratör_ sidlist, klicka **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Klicka på **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Under _[!UICONTROL General]_i den vänstra panelen till vänster väljer **[!UICONTROL Web]**.
+1. Välj **[!UICONTROL Web]** under _[!UICONTROL General]_i den vänstra panelen till vänster.
 
 1. I det övre vänstra hörnet anger du **[!UICONTROL Store View]** till den vy som du skapade för den nya butiken.
 
-1. När du uppmanas att bekräfta [omfång](../getting-started/websites-stores-views.md#scope-settings) växla, klicka **[!UICONTROL OK]**.
+1. När du uppmanas att bekräfta [scope](../getting-started/websites-stores-views.md#scope-settings)-växling klickar du på **[!UICONTROL OK]**.
 
-   ![Välj butiksvyn](./assets/create-store-config-view.png){width="600" zoomable="yes"}
+   ![Välj butiksvy](./assets/create-store-config-view.png){width="600" zoomable="yes"}
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Base URLs]** och ange butikens bas-URL.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Base URLs]** och ange bas-URL:en för butiken.
 
-   Rensa **[!UICONTROL Use system value]** om du vill ändra inställningen.
+   Om det behövs avmarkerar du kryssrutan **[!UICONTROL Use system value]** för att ändra inställningen.
 
-   ![Allmän konfiguration - webbbasens URL:er](./assets/config-general-web-base-urls-clear-checkbox.png){width="600" zoomable="yes"}
+   ![Allmän konfiguration - webbbas-URL:er](./assets/config-general-web-base-urls-clear-checkbox.png){width="600" zoomable="yes"}
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Secure Base URLs]** och upprepa föregående steg om du vill konfigurera butiken [säker URL](store-urls.md).
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Secure Base URLs]** och upprepa föregående steg om du vill konfigurera den [säkra URL:en](store-urls.md) för arkivet.
 
 1. Klicka på **[!UICONTROL Save Config]**.
 
 ### Steg 5: Konfigurera servern
 
-Information om hur du konfigurerar servern för stöd av flera webbplatser finns i [Flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) i _Konfigurationshandbok_.
+Mer information om hur du konfigurerar servern så att den stöder flera webbplatser finns i [Flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) i _Konfigurationshandboken_.
 
 Hjälp om hur du konfigurerar webbservern finns i följande resurser:
 
 - [Konfigurera flera webbplatser med NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
 - [Konfigurera flera webbplatser med Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
 
-Information om Adobe Commerce molninfrastruktur finns på [Konfigurera flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+Information om Adobe Commerce i molninfrastruktur finns i [Konfigurera flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
 
 ## Lägg till webbplatser
 
 Flera webbplatser kan konfigureras från en enda Adobe Commerce- eller Magento Open Source-installation med samma domän eller olika domäner. Som standard har butiker under samma webbplats samma IP-adress och domän, samma säkerhetscertifikat och samma utcheckningsprocess. Om du vill att varje butik ska ha en dedikerad utcheckningsprocess i sin egen domän, måste varje butik ha en distinkt IP-adress och ett separat säkerhetscertifikat.
 
-Installationer av flera webbplatser för Adobe Commerce eller Magento Open Source måste konfigureras från Admin och från serverns kommandorad. Handeln [Konfigurationshandbok](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) innehåller detaljerade anvisningar för hur du konfigurerar servermiljön.
+Installationer av flera webbplatser för Adobe Commerce eller Magento Open Source måste konfigureras från Admin och från serverns kommandorad. Commerce [Konfigurationshandbok](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) innehåller detaljerade anvisningar om hur du konfigurerar servermiljön.
 
 ![Omfång - webbplatser](./assets/scope-multisite.svg){width="550"}
 
 ### Steg 1: Skapa en webbplats
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Create Website]**.
+1. Klicka på **[!UICONTROL Create Website]** i det övre högra hörnet.
 
-1. Ange **[!UICONTROL Web Site Information]** alternativ:
+1. Ange alternativ för **[!UICONTROL Web Site Information]**:
 
    ![Skapa webbplats - alternativ](./assets/create-website-info.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Name]** — Ange domänen för den nya webbplatsen. Exempel, `domain.com`.
+   - **[!UICONTROL Name]** - Ange domänen för den nya webbplatsen. Exempel: `domain.com`.
 
-   - **[!UICONTROL Code]** — Ange en kod som används på servern för att peka mot domänen.
+   - **[!UICONTROL Code]** - Ange en kod som används på servern för att peka på domänen.
 
      Koden måste börja med en gemen bokstav (a-z) och kan innehålla en valfri kombination av bokstäver (a-z), siffror (0-9) och understreck (_).
 
-   - **[!UICONTROL Sort Order]** — _(Valfritt)_ Ange ett nummer för att bestämma i vilken ordning den här platsen ska listas med andra platser. Ange en nolla (`0`).
+   - **[!UICONTROL Sort Order]** — _(Valfritt)_ Ange ett nummer för att avgöra i vilken ordning den här webbplatsen listas med andra platser. Ange noll (`0`) om du vill att den här webbplatsen ska visas högst upp i listan.
 
 1. Klicka på **[!UICONTROL Save Web Site]**.
 
-1. Konfigurera varje [store](#add-stores) och [butiksvy](store-views.md) som behövs för den nya webbplatsen.
+1. Konfigurera varje [butiksvy](#add-stores) och [butiksvy](store-views.md) som behövs för den nya webbplatsen.
 
    Du kan sedan öppna webbplatsen i redigeringsläge och ange standardbutiken.
 
 ### Steg 2: Konfigurera butikens URL
 
-Konfigurera [lagra URL:er](store-urls.md)följer du instruktionerna.
+Följ instruktionerna för att konfigurera [butikens URL:er](store-urls.md).
 
 ### Steg 3: Konfigurera servern
 
-Information om hur du konfigurerar servern för stöd av flera webbplatser finns i [Flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) i _Konfigurationshandbok_.
+Mer information om hur du konfigurerar servern så att den stöder flera webbplatser finns i [Flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) i _Konfigurationshandboken_.
 
 Hjälp om hur du konfigurerar webbservern finns i följande självstudiekurser:
 
 - [Konfigurera flera webbplatser med NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
 - [Konfigurera flera webbplatser med Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
 
-Information om Adobe Commerce molninfrastruktur finns på [Konfigurera flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+Information om Adobe Commerce i molninfrastruktur finns i [Konfigurera flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).

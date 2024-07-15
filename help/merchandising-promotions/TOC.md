@@ -17,7 +17,7 @@ ht-degree: 0%
 - [Översikt över användarhandbok](guide-overview.md)
 - [Introduktion till marknadsföring och reklam](introduction.md)
 - [Marknadsföring](marketing-menu.md)
-- Merchandising {#merchandising}
+- Marknadsföring {#merchandising}
    - Visual Merchandiser {#visual-merch}
       - [Visual Merchandiser - översikt](visual-merchandiser.md)
       - [Kategoriregler för försäljning](category-product-rules.md)
@@ -36,13 +36,13 @@ ht-degree: 0%
    - Produktrecensioner {#product-reviews}
       - [Kundproduktrecensioner](product-reviews.md)
       - [Moderera granskningar](product-reviews-moderate.md)
-- Erbjudanden {#promotions}
-   - Privat försäljning och evenemang {#events}
+- Kampanjer {#promotions}
+   - Privat försäljning och händelser {#events}
       - [Översikt över händelser](events-private-sales.md)
       - [Konfigurera händelser](event-configure.md)
       - [Skapa händelser](event-create.md)
       - [Händelseinbjudningar](invitations.md)
-   - Katalogprisregler {#catalog-rules}
+   - Katalogens prisregler {#catalog-rules}
       - [Översikt över regler för katalogpris](price-rules-catalog.md)
       - [Skapa en katalogprisregel](price-rules-catalog-create.md)
       - [Schemalagda ändringar av katalogens prisregler](price-rule-catalog-scheduled-changes.md)
@@ -60,21 +60,21 @@ ht-degree: 0%
       - [Ökning](product-relationships.md)
       - [Regler och konfiguration för relaterade produkter](product-related-rules.md)
       - [Skapa en relaterad produktregel](product-related-rule-create.md)
-- Marknadsföring {#communications}
+- Marknadsföringskommunikation {#communications}
    - Nyhetsbrev {#newsletters}
       - [Aktivera nyhetsbrev](newsletters.md)
       - [Mallar för nyhetsbrev](newsletter-template.md)
       - [Skicka nyhetsbrev](newsletter-queue.md)
       - [Hantera prenumeranter](newsletter-subscribers.md)
    - [Sociala medier och RSS-flöden](social-rss.md)
-   - Påminnelser via e-post {#email-reminders}
+   - E-postpåminnelser {#email-reminders}
       - [Aktivera e-postpåminnelser](email-reminder-rules.md)
       - [Skapa e-postpåminnelser](email-reminder-rules-create.md)
 - Sökmotoroptimering {#seo}
    - [Översikt över SEO och bästa praxis](seo-overview.md)
    - [Metadata](meta-data.md)
    - [Webbplatskartor](sitemap-xml.md)
-   - URL-omskrivningar {#url-rewrites}
+   - URL skriver om {#url-rewrites}
       - [Översikt och konfiguration](url-rewrite.md)
       - [Kategoriåterskrivningar](url-rewrite-category.md)
       - [Återskrivningar av produkter](url-rewrite-product.md)

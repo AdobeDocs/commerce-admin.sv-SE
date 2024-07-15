@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
-description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL Reports] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL Reports] i Commerce Admin.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Dashboard]
 
-![Kontrollpanel](./assets/reports-dashboard.png)<!-- zoom -->
+![Instrumentpanel](./assets/reports-dashboard.png)<!-- zoom -->
 
 <!-- [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
 

@@ -16,15 +16,15 @@ Leveranskonfigurationen fastställer referenspunkten för alla leveranser, din l
 
 ## Ursprungsplats
 
-Ursprungspunkten används för att beräkna avgiften för försändelser som görs från din butik eller lagerställe, och fastställer även skattesatsen för sålda produkter. Vid beräkning [EU-skatt](international-tax-guidelines.md#eu-tax-configuration)måste du se till att [Beräkning av standardskattedestination](../configuration-reference/sales/tax.md) för varje butiksvy motsvarar ursprungspunkten för leveransinställningarna.
+Ursprungspunkten används för att beräkna avgiften för försändelser som görs från din butik eller lagerställe, och fastställer även skattesatsen för sålda produkter. När du beräknar [EU-skatt](international-tax-guidelines.md#eu-tax-configuration) måste du se till att [Standardberäkning för skattemål](../configuration-reference/sales/tax.md) för varje butiksvy motsvarar ursprungspunkten för leveransinställningar.
 
 ![Ursprung](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Shipping Settings]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Origin]** och fylla i följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Origin]** och fyll i följande:
 
    - [!UICONTROL Country]
    - [!UICONTROL Region / State]
@@ -38,15 +38,15 @@ Ursprungspunkten används för att beräkna avgiften för försändelser som gö
 
 En fraktpolicy bör förklara företagets affärsregler och riktlinjer för leveranser. Om du till exempel har prisregler som utlöser fri frakt kan du förklara villkoren i din fraktpolicy.
 
-![Leveranspolicy vid utcheckning](./assets/storefront-checkout-shipping-policy.png){width="700" zoomable="yes"}
+![Leveransprincip vid utcheckning](./assets/storefront-checkout-shipping-policy.png){width="700" zoomable="yes"}
 
-Om du vill visa din leveranspolicy under utcheckning fyller du i parametrarna för leveranspolicy i konfigurationen. Texten visas när kunderna klickar _Se vår fraktpolicy_ vid utcheckning.
+Om du vill visa din leveranspolicy under utcheckning fyller du i parametrarna för leveranspolicy i konfigurationen. Texten visas när kunderna klickar på _Se vår leveranspolicy_ under utcheckningen.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Shipping Settings]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Shipping Policy Parameters]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Shipping Policy Parameters]**.
 
 1. Ange **[!UICONTROL Apply Custom Shipping Policy]** till `Yes`.
 
@@ -56,7 +56,7 @@ Om du vill visa din leveranspolicy under utcheckning fyller du i parametrarna f�
    >
    >Om du använder en ordbehandlare för att komponera texten måste du spara dokumentet som en TXT-fil för att ta bort alla kontrolltecken från texten. Kopiera och klistra sedan in texten i textrutan Leveransregler.
 
-   ![Parametrar för leveranspolicy](../configuration-reference/sales/assets/shipping-settings-shipping-policy-parameters.png){width="600" zoomable="yes"}
+   ![Parametrar för leveransprincip](../configuration-reference/sales/assets/shipping-settings-shipping-policy-parameters.png){width="600" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Save Config]**.
 
@@ -64,11 +64,11 @@ Om du vill visa din leveranspolicy under utcheckning fyller du i parametrarna f�
 
 Med alternativen för leverans av flera adresser kan kunderna skicka en order till flera adresser under utcheckningen och bestämma det högsta antalet adresser som en order kan skickas till.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Multishipping Settings]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Multishipping Settings]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Options]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Options]**.
 
    ![Leveransalternativ för flera adresser](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
 
@@ -80,4 +80,4 @@ Med alternativen för leverans av flera adresser kan kunderna skicka en order ti
 
 >[!NOTE]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) För beställningar med flera leveransadresser gäller följande: [Betalning à conto](../b2b/enable-basic-features.md#configure-payment-on-account) betalningsmetoden är inte tillgänglig under utcheckningen, även om den är aktiverad.
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Betalningsmetoden [Betalning på konto](../b2b/enable-basic-features.md#configure-payment-on-account) är inte tillgänglig under utcheckningen för order med flera leveransadresser, även om den är aktiverad.

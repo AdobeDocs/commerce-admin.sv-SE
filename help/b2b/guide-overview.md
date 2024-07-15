@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Adobe Commerce B2B] Guide'
-description: Omfattande information för [!DNL Adobe Commerce B2B] administratörer, inklusive installation och konfiguration.
+title: Guiden [!DNL Adobe Commerce B2B]
+description: Omfattande information för  [!DNL Adobe Commerce B2B] administratörer, inklusive installation och konfiguration.
 breadcrumb-title: Översikt över användarhandbok
 seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Adobe Commerce B2B-guide
 
-Den här handboken är avsedd för administratörer av Adobe Commerce. Den innehåller detaljerad information om hur du installerar och aktiverar den här modulen, inklusive konfiguration och hantering av dess funktioner. Det förutsätter en grundläggande förståelse av kärnan [!DNL Commerce] konfiguration och funktionalitet.
+Den här handboken är avsedd för administratörer av Adobe Commerce. Den innehåller detaljerad information om hur du installerar och aktiverar den här modulen, inklusive konfiguration och hantering av dess funktioner. Det förutsätter en grundläggande förståelse av kärnkonfigurationen och funktionen för [!DNL Commerce].
 
 Det finns två områden för butiksadministratörer:
 
@@ -27,15 +27,15 @@ Den här guiden täcker:
 | Ämne | Beskrivning |
 | ------- | ----------- |
 | [Introduktion](introduction.md) | Vilka funktioner är tillgängliga med [!DNL Adobe Commerce B2B]? |
-| [Versionsinformation](release-notes.md) | Granska uppdateringarna i varje [!DNL Adobe Commerce B2B] release. |
-| [Installera](install.md) | Installera [!DNL Adobe Commerce B2B] tillägg. |
-| [Aktivera grundläggande B2B-funktioner](enable-basic-features.md) | Efter installationen [!DNL Adobe Commerce B2B]måste du aktivera de funktioner som du vill aktivera för din butik. |
+| [Versionsinformation](release-notes.md) | Granska uppdateringarna i varje [!DNL Adobe Commerce B2B]-version. |
+| [Installera](install.md) | Installera tillägget [!DNL Adobe Commerce B2B]. |
+| [Aktivera grundläggande B2B-funktioner](enable-basic-features.md) | När du har installerat [!DNL Adobe Commerce B2B] måste du aktivera de funktioner som du vill aktivera för din butik. |
 | [Företagskonton](account-companies.md) | Lär dig mer om företagskonton och hur de utgör den främsta byggstenen för B2B-köpare i din butik. |
 | [Företagshantering](manage-companies.md) | Se hur B2B Commerce webbadministratörer kan bygga upp företagshierarkier för att effektivisera hanteringen av flera företag som tillhör samma företag. |
 | [Delade kataloger](catalog-shared.md) | Lär dig hur du använder delade kataloger för att underhålla kataloger med anpassade priser för olika företag. |
 | [Snabborder](quick-order.md) | Läs mer om funktioner för snabb beställning och hur ni gör det möjligt för era kunder. |
 | [Inköpsorder](purchase-order-flow.md) | Lär dig mer om arbetsflöden för inköpsorder som gör att företag kan spåra och kontrollera sina utgifter. |
-| [Citat](quotes.md) | Lär dig mer om arbetsflöden för offerter och hur du kan tillhandahålla den här tjänsten till dina företagskonton. |
+| [Citattecken](quotes.md) | Lär dig mer om arbetsflöden för offerter och hur du kan tillhandahålla den här tjänsten till dina företagskonton. |
 | [Rekvisitionslistor](requisition-lists.md) | Lär dig mer om rekvisitionslistor och hur de används för att enkelt lägga till produkter som beställts ofta i kundvagnen. |
 
 {style="table-layout:auto"}
@@ -46,11 +46,11 @@ Den här guiden täcker:
 
 ## Utvecklarinformation
 
-Information om ändringar i modulreleaser finns i [Versionsinformation](release-notes.md). The [B2B-integrering](https://developer.adobe.com/commerce/webapi/rest/b2b/) i _Referenshandbok för Adobe Commerce REST API_  innehåller information om modularkitektur, API:er och algoritmanpassning.
+Mer information om ändringar i modulreleaser finns i [Versionsinformation](release-notes.md). Dokumentationen för [B2B-integreringar](https://developer.adobe.com/commerce/webapi/rest/b2b/) i _Adobe Commerce REST API Reference Guide_ innehåller information om modularkitektur, API:er och algoritmanpassning.
 
 ## Felsökning och support
 
 Om du behöver information eller har frågor som inte ingår i den här handboken använder du följande resurser:
 
 - [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
-- [Supportärenden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)—Skicka in en biljett för att få ytterligare hjälp.
+- [Supportärenden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - Skicka in en biljett för att få ytterligare hjälp.

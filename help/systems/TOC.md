@@ -17,13 +17,13 @@ ht-degree: 0%
 
 - [Handbok för adminsystem](guide-overview.md)
 - [Introduktion till administratörssystem](introduction.md)
-- [[!UICONTROL System] meny](system-menu.md)
+- [[!UICONTROL System]-menyn](system-menu.md)
 - Administratörsanvändarkonton {#user-accounts}
    - [Administratörsbehörigheter](permissions.md)
    - [Hantera användarkonton](permissions-users-all.md)
    - [Användarroller](permissions-user-roles.md)
 - [Systemmeddelanden](notifications.md)
-- Variabel {#variables}
+- Variabler {#variables}
    - [Fördefinierade variabler](variables-predefined.md)
    - [Egna variabler](variables-custom.md)
    - [Variabelreferens](variables-reference.md)

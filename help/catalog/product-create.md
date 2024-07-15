@@ -12,29 +12,29 @@ ht-degree: 0%
 
 # Skapa en produkt
 
-Att välja en produkttyp är en av de första sakerna du måste göra för att skapa en produkt. Om du just har börjat skapa en produktkatalog kan du skapa några exempelprodukter och experimentera med varje produkttyp. Förutom de grundläggande produkttyperna gäller termen _komplex produkt_ används ibland för att hänvisa till produkter med flera alternativ, t.ex. en konfigurerbar produkt som är tillgänglig i olika färger och storlekar.
+Att välja en produkttyp är en av de första sakerna du måste göra för att skapa en produkt. Om du just har börjat skapa en produktkatalog kan du skapa några exempelprodukter och experimentera med varje produkttyp. Förutom de grundläggande produkttyperna används ibland termen _komplex produkt_ för att hänvisa till produkter med flera alternativ, till exempel en konfigurerbar produkt som är tillgänglig i olika färger och storlekar.
 
 >[!NOTE]
 >
->Mer information finns i katalogen [navigering](navigation.md), konfigurera [kategorier](categories.md) och [attributes](product-attributes.md)och katalogen [URL-alternativ](catalog-urls.md) som finns tillgängliga. När du har förstått dessa koncept är det mest effektiva sättet att lägga till många produkter i katalogen att [import](../systems/data-import.md) de från en CSV-fil.
+>Mer information finns i katalogen [navigation](navigation.md), hur du ställer in [kategorier](categories.md) och [attribut](product-attributes.md) samt de [URL-alternativ](catalog-urls.md) för katalogen som är tillgängliga. När du har förstått dessa begrepp är det mest effektiva sättet att lägga till många produkter i katalogen att [importera](../systems/data-import.md) dem från en CSV-fil.
 
-![Produktsida i butiken](./assets/storefront-product-page.png){width="700" zoomable="yes"}
+![Produktsida på butiken](./assets/storefront-product-page.png){width="700" zoomable="yes"}
 
 ## Produkttyper
 
 **[Enkel produkt](product-create-simple.md)** - En enkel produkt är en fysisk artikel med en enda SKU. Enkla produkter har olika prissättning och olika indatakontroller, vilket gör det möjligt att sälja varianter av produkten. Enkla produkter kan användas tillsammans med grupperade, paketerade och konfigurerbara produkter.
 
-**[Konfigurerbar produkt](product-create-configurable.md)** - En konfigurerbar produkt ser ut att vara en enda produkt med listor över alternativ för varje ändring. Varje alternativ representerar dock en separat, enkel produkt med en distinkt SKU, som gör det möjligt att spåra lager för varje variation.
+**[Konfigurerbar produkt](product-create-configurable.md)** - En konfigurerbar produkt verkar vara en enda produkt med listor över alternativ för varje variation. Varje alternativ representerar dock en separat, enkel produkt med en distinkt SKU, som gör det möjligt att spåra lager för varje variation.
 
-**[Grupperad produkt](product-create-grouped.md)** - En grupperad produkt består av flera fristående produkter i grupp. Du kan erbjuda varianter av en enstaka produkt eller gruppera dem för en kampanj. Produkterna kan köpas separat eller i grupp.
+**[Grupperad produkt](product-create-grouped.md)** - En grupperad produkt visar flera fristående produkter som en grupp. Du kan erbjuda varianter av en enstaka produkt eller gruppera dem för en kampanj. Produkterna kan köpas separat eller i grupp.
 
 **[Virtuella produkter](product-create-virtual.md)** - En virtuell produkt är inte en påtaglig produkt och används vanligtvis för produkter som tjänster, medlemskap, garantier och prenumerationer. Virtuella produkter kan användas tillsammans med grupperade produkter och paketprodukter.
 
-**[Paketprodukt](product-create-bundle.md)**  - Med en paketprodukt kan kunderna&quot;bygga sina egna&quot; utifrån en mängd olika alternativ. Paketet kan vara en presentkorg, en dator eller något annat som kan anpassas. Varje artikel i paketet är en separat, fristående produkt.
+**[Paketprodukt](product-create-bundle.md)** - Med en paketprodukt kan kunderna&quot;bygga egna&quot; utifrån ett antal olika alternativ. Paketet kan vara en presentkorg, en dator eller något annat som kan anpassas. Varje artikel i paketet är en separat, fristående produkt.
 
-**[Nedladdningsbar produkt](product-create-downloadable.md)** - En digitalt nedladdningsbar produkt består av en eller flera filer som har laddats ned. Filerna kan finnas på servern eller tillhandahållas som URL-adresser till andra servrar.
+**[Hämtningsbar produkt](product-create-downloadable.md)** - En digitalt nedladdningsbar produkt består av en eller flera filer som har laddats ned. Filerna kan finnas på servern eller tillhandahållas som URL-adresser till andra servrar.
 
-**[Presentkort](product-gift-card-create.md)** - ([Adobe Commerce](../landing/home.md#product-editions) (endast) Det finns tre typer av presentkort. _Virtuell_ presentkort skickas med e-post. _Fysisk_ presentkort skickas till mottagaren. _Kombinerad_ presentkort som är en kombination av virtuella och fysiska. Varje kod har en unik kod som löses in vid utcheckning. Presentkort kan också ingå i en grupperad produkt.
+**[Presentkort](product-gift-card-create.md)** - ([Endast Adobe Commerce](../landing/home.md#product-editions)) Det finns tre typer av presentkort. _Virtuella_ presentkort skickas via e-post. _Fysiska_ presentkort skickas till mottagaren. _Kombinerade_ presentkort som är en kombination av virtuella och fysiska. Varje kod har en unik kod som löses in vid utcheckning. Presentkort kan också ingå i en grupperad produkt.
 
 ## Produktinställningar
 
@@ -54,11 +54,11 @@ De vanligaste produktinställningarna och attributen visas överst på sidan, f�
 | [[!UICONTROL Product in Websites]](settings-basic-websites.md) | Identifierar varje webbplats där produkten är tillgänglig, enligt butikshierarkin. |
 | [[!UICONTROL Design]](settings-advanced-design.md) | Används för att tillämpa ett annat tema på produktsidan, ändra kolumnlayouten, bestämma var produktalternativen ska visas och ange anpassad XML-kod. |
 | [[!UICONTROL Gift options]](product-gift-options.md) | Används för att aktivera eller inaktivera ett presentalternativ vid utcheckning på produktnivå. |
-| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce B2B](../assets/b2b.svg) (Tillgängligt med [Adobe Commerce B2B](../b2b/introduction.md) endast) Möjliggör underhåll av delade kataloger med anpassade priser för olika företag. |
+| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med [Adobe Commerce B2B](../b2b/introduction.md)) Gör det möjligt att underhålla delade kataloger med anpassade priser för olika företag. |
 | [[!UICONTROL Downloadable Information]](product-create-downloadable.md#step-5-complete-the-downloadable-information) | Används för att definiera parametrar för produkthämtning. |
 
 {style="table-layout:auto"}
 
 ## Avancerade priser och lager
 
-Klicka på länken nedan för att få tillgång till de avancerade prissättnings- och lagerinställningarna **[!UICONTROL Price]** och **[!UICONTROL Quantity]**. Mer information finns i [Hantera priser](pricing-advanced.md) och [Inventory management](../inventory-management/introduction.md).
+Om du vill komma åt de avancerade prissättnings- och lagerinställningarna klickar du på länken under **[!UICONTROL Price]** och **[!UICONTROL Quantity]**. Mer information finns i [Hantera priser](pricing-advanced.md) och [Inventory management](../inventory-management/introduction.md).

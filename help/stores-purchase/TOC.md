@@ -17,7 +17,7 @@ ht-degree: 0%
 
 + [Butiks and Purchase Experience Guide](guide-overview.md)
 + [Introduktion till butiker och inköpsupplevelser](introduction.md)
-+ Hantering av webbplatser och butiker {#site-store}
++ Hantering av plats och butik {#site-store}
    + [Menyn Lager](stores-menu.md)
    + [Lagring och webbplatsstruktur](stores.md)
    + [Butiksvyer](store-views.md)

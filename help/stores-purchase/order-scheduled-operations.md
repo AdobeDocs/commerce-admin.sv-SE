@@ -5,28 +5,28 @@ exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
 source-git-commit: db859c40cd6f052a8f1153e245c23d9f1ea97d33
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
 # Schemalagda orderåtgärder
 
-Använd [Cron](../systems/cron.md) jobb för att schemalägga följande sorteringsåtgärder:
+Använd [Cron](../systems/cron.md)-jobb för att schemalägga följande orderbearbetningsåtgärder:
 
 ![Ordningsrutnät](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ## Ange livslängd för väntande betalningsorder
 
-Löptiden för order med väntande betalningar bestäms av _Kroniinställningar för order_ konfiguration. Standardvärdet är 480 minuter, vilket är åtta timmar.
+Livslängden för order med väntande betalningar bestäms av konfigurationen för _Kroniinställningar_ för beställningar. Standardvärdet är 480 minuter, vilket är åtta timmar.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera **[!UICONTROL Sales]** och välja **[!UICONTROL Sales]** under.
+1. Expandera avsnittet **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Orders Cron Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Orders Cron Settings]**.
 
-   ![Kroniinställningar för order](../configuration-reference/sales/assets/sales-orders-cron-settings.png){width="600" zoomable="yes"}
+   ![Beställningar av kroniinställningar](../configuration-reference/sales/assets/sales-orders-cron-settings.png){width="600" zoomable="yes"}
 
 1. För **[!UICONTROL Pending Payment Order Lifetime (minutes)]** anger du antalet minuter innan en väntande betalning förfaller.
 
@@ -34,7 +34,7 @@ Löptiden för order med väntande betalningar bestäms av _Kroniinställningar 
 
 ## Aktivera schemalagda stödrasteruppdateringar och omindexering
 
-Konfigurationen av stödrasterinställningar schemalägger uppdateringar av följande orderhanteringsrutnät och indexerar om data enligt schemat av [Cron](../systems/cron.md):
+Konfigurationen av stödrasterinställningar schemalägger uppdateringar av följande rutnät för orderhantering och indexerar om data enligt schemat av [Cron](../systems/cron.md):
 
 - [Beställningar](orders.md#orders-workspace)
 - [Fakturor](invoices.md)
@@ -45,17 +45,17 @@ Genom att schemalägga dessa uppgifter kan du undvika de lås som uppstår när 
 
 **_Så här aktiverar du uppdateringar och omindexering:_**
 
-När [Produktionsläge](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (standardläget som används i Adobe Commerce i molninfrastruktur) är aktiverat, kör följande kommando:
+När [produktionsläget ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (standardläget som används i Adobe Commerce i molninfrastrukturen) är aktiverat kör du följande kommando:
 
 ``bin/magento config:set dev/grid/async_indexing 1``
 
 När [Standardläge](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) är aktiverat utför du följande steg:
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera **[!UICONTROL Advanced]** och välja **[!UICONTROL Developer]**.
+1. Expandera avsnittet **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Grid Settings]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Grid Settings]**.
 
 1. Ange **[!UICONTROL Asynchronous Indexing]** till `Enable`.
 

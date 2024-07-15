@@ -1,25 +1,25 @@
 ---
 title: Hantera kundkonton
-description: Använd [!UICONTROL Customers] för att hitta ett kundkonto och få tillgång till information för enskilda kundkonton.
+description: Använd stödrastret [!UICONTROL Customers] för att hitta ett kundkonto och få tillgång till information för enskilda kundkonton.
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
 source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # Hantera kundkonton
 
-Använd _[!UICONTROL Customers]_för att hitta ett kundkonto. Du kan använda standarden [arbetsplatskontroller](../getting-started/admin-workspace.md) om du vill filtrera listan ändrar du [kolumnlayout](../getting-started/admin-grid-controls.md), spara vyer och exportera data. The [Åtgärdskontroll](../getting-started/admin-actions-control.md) ovan kan du använda rutnätet för att tillämpa en åtgärd på flera kundposter.
+Använd stödrastret _[!UICONTROL Customers]_för att hitta ett kundkonto. Du kan använda standardkontrollerna för [arbetsplats](../getting-started/admin-workspace.md) för att filtrera listan, ändra [kolumnlayouten](../getting-started/admin-grid-controls.md), spara vyer och exportera data. [Åtgärdskontrollen](../getting-started/admin-actions-control.md) ovanför rutnätet kan användas för att tillämpa en åtgärd på flera kundposter.
 
 ![Alla kunder](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
-Se [Uppdatera kundprofil](update-account.md) för information om hur du gör manuella uppdateringar av ett kundkonto.
+Mer information om hur du gör manuella uppdateringar av ett kundkonto finns i [Uppdatera kundprofil](update-account.md).
 
 ## Kundkontoåtgärder
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** på sidofältet _Admin_.
 
 1. Markera kryssrutan för varje post som du vill uppdatera i den första kolumnen i rutnätet.
 
@@ -29,27 +29,27 @@ Se [Uppdatera kundprofil](update-account.md) för information om hur du gör man
    >
    >Följande åtgärder kan tillämpas på en eller flera poster.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ### Prenumerera på nyhetsbrevet
 
-I flerbutiks- och flerplatskonfigurationer med en global [kundkontoomfång](../customers/customer-account-scope.md)kan ett kundkonto prenumerera på nyhetsbrev på flera webbplatser eller butiker. Om du använder _Prenumerera_ åtgärd för ett kundkonto aktiveras nyhetsbrevprenumerationen endast för standardvyn för webbplatsen/butiken.
+I flerbutiks- och flerplatsinställningar med ett globalt [kundkontoomfång](../customers/customer-account-scope.md) kan ett kundkonto prenumerera på nyhetsbrev på flera webbplatser eller butiker. Om du tillämpar åtgärden _Prenumerera_ på ett kundkonto aktiveras nyhetsbrevprenumerationen endast för standardvyn för plats/butik.
 
-* Ange **[!UICONTROL Actions]** styra till `Subscribe to newsletter`.
+* Ställ in kontrollen **[!UICONTROL Actions]** på `Subscribe to newsletter`.
 
-Se [Hantera prenumeranter](../merchandising-promotions/newsletter-subscribers.md) för mer information om hur man hanterar prenumerationer på nyhetsbrev för en kund.
+Mer information om hur du hanterar prenumerationer på nyhetsbrev för en kund finns i [Hantera prenumeranter](../merchandising-promotions/newsletter-subscribers.md).
 
 ### Avbeställ nyhetsbrev
 
-I flerbutiks- och flerplatskonfigurationer med en global [kundkontoomfång](customer-account-scope.md)kan ett kundkonto prenumerera på nyhetsbrev för flera webbplatser/butiker. Om du använder _Avbeställ_ till ett kundkonto, alla aktiva prenumerationer avbryts.
+I flerbutiks- och flerplatsinställningar med ett globalt [kundkontoomfång](customer-account-scope.md) kan ett kundkonto prenumereras på nyhetsbrev för flera platser/butiker. Om du tillämpar åtgärden _Avbeställ_ på ett kundkonto kommer alla aktiva prenumerationer att avbrytas.
 
-1. Ange **[!UICONTROL Actions]** styra till `Unsubscribe to newsletter`.
+1. Ställ in kontrollen **[!UICONTROL Actions]** på `Unsubscribe to newsletter`.
 
 1. När du uppmanas att bekräfta klickar du på **OK**.
 
 ### Tilldela en kundgrupp
 
-1. Ange **[!UICONTROL Actions]** styra till `Assign a customer group`.
+1. Ställ in kontrollen **[!UICONTROL Actions]** på `Assign a customer group`.
 
 1. Välj den kundgrupp som alla valda kundposter ska tilldelas till.
 
@@ -59,15 +59,15 @@ I flerbutiks- och flerplatskonfigurationer med en global [kundkontoomfång](cust
 
 Borttagna kundkonton kan inte återställas. Information om kundaktivitet och transaktioner sparas i systemet.
 
-1. Ange **[!UICONTROL Actions]** styra till `Delete`.
+1. Ställ in kontrollen **[!UICONTROL Actions]** på `Delete`.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
 ## Exportera kundkonton
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** på sidofältet _Admin_.
 
-1. Klicka på tabellrubrikmenyn **[!UICONTROL Export]** och välj önskat format:
+1. Klicka på **[!UICONTROL Export]** på tabellrubrikmenyn och välj önskat format:
 
    * CSV
    * Excel XML
@@ -108,7 +108,7 @@ Instruktionen ovan exporterar alla kundkonton. Om du vill exportera en begränsa
 | **[!UICONTROL Confirmed Email]** | Anger om ett bekräftelsemeddelande krävs. |
 | **[!UICONTROL Account Created In]** | Anger butiksvyn som kundkontot skapades från. |
 | **[!UICONTROL Date of Birth]** | Kundens födelsedatum. I enlighet med gällande säkerhets- och integritetspraxis bör du vara medveten om eventuella juridiska risker och säkerhetsrisker som är förknippade med lagring av kundernas fullständiga födelsedatum (månad, dag, år) med andra personliga identifierare. Vi rekommenderar att du begränsar lagringen av kundernas födelsedatum och föreslår att du använder kundens födelseår som ett alternativ. |
-| **[!UICONTROL Tax / VAT Number]** | Om tillämpligt, skattenumret eller [moms](../stores-purchase/vat.md) nummer som tilldelats kunden. <br/><br/> Det här fältet är inte detsamma som momsregistreringsnumret. |
+| **[!UICONTROL Tax / VAT Number]** | Om tillämpligt, momsregistreringsnumret eller [momsregistreringsnumret ](../stores-purchase/vat.md) som tilldelats kunden. <br/><br/> Det här fältet är inte detsamma som momsregistreringsnumret. |
 | **[!UICONTROL Gender]** | Kundens kön. |
 | **[!UICONTROL Action]** | Redigera - Öppnar företagskontot i redigeringsläge. |
 
@@ -116,7 +116,7 @@ Instruktionen ovan exporterar alla kundkonton. Om du vill exportera en begränsa
 
 ### Ytterligare kolumner
 
-De här kolumnerna är tillgängliga genom att ändra [kolumnlayout](../getting-started/admin-grid-controls.md) i rutnätet.
+De här kolumnerna är tillgängliga genom att ändra [kolumnlayouten](../getting-started/admin-grid-controls.md) för stödrastret.
 
 | Kolumn | Beskrivning |
 |--- |--- |
@@ -128,8 +128,8 @@ De här kolumnerna är tillgängliga genom att ändra [kolumnlayout](../getting-
 | **[!UICONTROL Billing Lastname]** | Efternamnet i kundens faktureringsadress. |
 | **[!UICONTROL Billing Address]** | Den adress dit faktureringsinformation ska skickas. |
 | **[!UICONTROL Shipping Address]** | Den adress dit beställningar ska skickas. |
-| **[!UICONTROL VAT Number]** | Momsnumret som är associerat med kundadressen. För [digitala varor](../stores-purchase/taxes.md) moms som säljs i EU baseras på kundens faktureringsadress. <br/><br/> Det här fältet är inte detsamma som moms-/momsregistreringsnumret. |
-| **[!UICONTROL Account Lock]** | Anger kontots status. Som en säkerhetsåtgärd kan kundkonton [låst](../customers/password-options.md) efter för många inloggningsförsök. Värden: `Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | Momsnumret som är associerat med kundadressen. För [digitala varor](../stores-purchase/taxes.md) som säljs i EU baseras momsen på kundens faktureringsadress. <br/><br/> Det här fältet är inte detsamma som moms-/momsregistreringsnumret. |
+| **[!UICONTROL Account Lock]** | Anger kontots status. Som en säkerhetsåtgärd kan kundkonton vara [låsta](../customers/password-options.md) efter för många inloggningsförsök. Värden: `Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | Aktuell användarstatus. Alternativ: `Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | Kundklassificering. Alternativ: `Individual user` / `Company admin` / `Company user` |
 | **[!UICONTROL Sales Representative]** | Den säljare som är tilldelad som kontaktpunkt för ett företagskonto och får alla automatiska e-postmeddelanden som rör företaget. |

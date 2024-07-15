@@ -16,16 +16,16 @@ Butiken innehåller många fördefinierade [variabler](../systems/variables-pred
 
 1. Öppna en sida, ett block eller ett dynamiskt block i redigeringsläge.
 
-1. Gå till _[!UICONTROL Content]_och klicka på ett element som stöder redigeraren.
+1. Gå till avsnittet _[!UICONTROL Content]_och klicka på ett element som stöder redigeraren.
 
-1. Placera markören där du vill att variabeln ska visas och klicka på _Infoga variabel_ -ikon.
+1. Placera markören där du vill att variabeln ska visas och klicka på ikonen _Infoga variabel_ .
 
-   ![Verktygsfältet Redigerare - Infoga variabel](./assets/editor-toolbar-variable-button.png){width="700" zoomable="yes"}
+   ![Redigerarens verktygsfält - Infoga variabel](./assets/editor-toolbar-variable-button.png){width="700" zoomable="yes"}
 
-   Om du inte har [!UICONTROL Page Builder] aktiverat och föredrar att arbeta med HTML-koden, klicka på **[!UICONTROL Show / Hide Editor]**. Placera insättningspunkten i texten där du vill att variabeln ska visas. Klicka sedan på **[!UICONTROL Insert Variable]**.
+   Om du inte har [!UICONTROL Page Builder] aktiverat och föredrar att arbeta med HTML-koden klickar du på **[!UICONTROL Show / Hide Editor]**. Placera insättningspunkten i texten där du vill att variabeln ska visas. Klicka sedan på **[!UICONTROL Insert Variable]**.
 
 1. I listan med tillgängliga variabler väljer du den du vill ha och klickar på **[!UICONTROL Insert Variable]**.
 
    ![Infoga variabelsida](./assets/content-insert-variable.png){width="600" zoomable="yes"}
 
-1. När redigeringen är klar klickar du på **[!UICONTROL Save]**.
+1. När dina innehållsredigeringar är klara klickar du på **[!UICONTROL Save]**.

@@ -1,11 +1,11 @@
 ---
 title: Försäljningsdokument
-description: Lär dig hur du konfigurerar säljdokument för att stödja kundorder och leveranser för din Commerce Store.
+description: Lär dig hur du konfigurerar säljdokument så att de kan hantera kundbeställningar och leveranser för din Commerce-butik.
 exl-id: 869d79ca-688a-4032-a95c-c66ebf7f2775
 feature: Invoices
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -24,29 +24,29 @@ Ett sätt att ändra storlek på logotypen så att den passar den önskade storl
 
 **_Så här uppdaterar du logotypen:_**
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Sales]** under.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Invoice and Packing Slip Design]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Invoice and Packing Slip Design]** och gör följande:
 
    ![Försäljningskonfiguration - design av försäljningsfaktura och följesedel](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
 
-   - Ladda upp **[!UICONTROL Logo for PDF Print-outs]**, klicka **[!UICONTROL Choose File]**, hitta logotypen som du har förberett och klicka på **[!UICONTROL Open]**.
+   - Om du vill överföra **[!UICONTROL Logo for PDF Print-outs]** klickar du på **[!UICONTROL Choose File]**, letar upp logotypen som du har förberett och klickar på **[!UICONTROL Open]**.
 
-   - Ladda upp **[!UICONTROL Logo for HTML Print View]**, klicka **[!UICONTROL Choose File]**, hitta logotypen som du har förberett och klicka på **[!UICONTROL Open]**.
+   - Om du vill överföra **[!UICONTROL Logo for HTML Print View]** klickar du på **[!UICONTROL Choose File]**, letar upp logotypen som du har förberett och klickar på **[!UICONTROL Open]**.
 
    - Ange din adress som du vill att den ska visas på fakturor och följesedlar.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
    Som referens visas en miniatyrbild av den överförda bilden före varje fält. Oroa dig inte om miniatyrbilden ser förvrängd ut. Logotypens andel är korrekt på fakturan.
 
 ### Ersätta en bild
 
-1. Klicka **[!UICONTROL Choose File]** och väljer en annan logotypfil.
+1. Klicka på **[!UICONTROL Choose File]** och välj en annan logotypfil.
 
-1. Välj **[!UICONTROL Delete Image]** kryssrutan för den bild som du vill ersätta.
+1. Markera kryssrutan **[!UICONTROL Delete Image]** för bilden som du vill ersätta.
 
 1. Klicka på **[!UICONTROL Save Config]**.
 
@@ -73,28 +73,28 @@ Orderns ID och kundens IP-adress kan inkluderas i rubriken för försäljningsdo
 
 **_Så här ändrar du inställningen för order-ID:_**
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL PDF Print-outs]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL PDF Print-outs]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **Faktura** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **Faktura**.
 
 1. Ange **[!UICONTROL Display Order ID in Header]** enligt dina önskemål.
 
-1. Upprepa för **[!UICONTROL Shipment]** och **[!UICONTROL Credit Memo]** -avsnitt.
+1. Upprepa för avsnitten **[!UICONTROL Shipment]** och **[!UICONTROL Credit Memo]**.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 **_Så här ändrar du inställningen för kundens IP-adress:_**
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Sales]** under.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL General]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL General]**.
 
    ![Försäljningskonfiguration - allmänna försäljningsinställningar](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
 
-1. Ange **[!UICONTROL Hide Customer IP]** efter dina önskemål.
+1. Ange **[!UICONTROL Hide Customer IP]** som din inställning.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

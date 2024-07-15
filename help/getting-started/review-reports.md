@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # Granska rapporter
 
-Om du använder den inbyggda [!DNL Commerce] Recensioner, granskningsrapporter ger information om produktrecensioner per kund och produkt.
+Om du använder de inbyggda [!DNL Commerce]-granskningarna innehåller granskningsrapporterna information om produktrecensioner per kund och produkt.
 
 ## [!UICONTROL Customer Reviews Report]
 
-The [!UICONTROL Customer Reviews Report] innehåller en lista med alla kunder som har lämnat in produktrecensioner. Rapporten innehåller antalet recensioner som varje kund lämnat in och en länk till listan över recensioner.
+[!UICONTROL Customer Reviews Report] innehåller en lista med alla kunder som har skickat in produktrecensioner. Rapporten innehåller antalet recensioner som varje kund lämnat in och en länk till listan över recensioner.
 
-På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**på sidofältet_ Admin _.
 
 ![Granskningsrapport från kunder](./assets/customer-reviews.png){width="600"}
 
 ## [!UICONTROL Product Reviews Report]
 
-The [!UICONTROL Product Reviews Report] listar alla produkter som har granskats av kunder. Rapporten innehåller antalet recensioner och genomsnittsklassificeringar, produkten granskades senast och en länk till en lista över recensioner för varje produkt.
+I [!UICONTROL Product Reviews Report] visas alla produkter som har granskats av kunder. Rapporten innehåller antalet recensioner och genomsnittsklassificeringar, produkten granskades senast och en länk till en lista över recensioner för varje produkt.
 
-På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**på sidofältet_ Admin _.
 
 ![Granskningsrapport per produkt](./assets/product-reviews.png){width="600"}

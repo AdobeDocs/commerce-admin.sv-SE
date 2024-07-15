@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] i Commerce Admin.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -23,7 +23,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Butiksvy | Anger hur ofta platskartekategorier uppdateras. Alternativ: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som bestämmer prioriteten för uppdateringar av kategoriplatskartan i förhållande till annat innehåll. Noll (`0.0`) har lägst prioritet. |
+| [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som bestämmer prioriteten för uppdateringar av kategoriplatskartan i förhållande till annat innehåll. Noll (`0.0`) har den lägsta prioriteten. |
 
 {style="table-layout:auto"}
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Butiksvy | Anger hur ofta platskartprodukter uppdateras. Alternativ: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som bestämmer prioriteten för uppdateringar av produktplatskartan i förhållande till annat innehåll. Noll (`0.0`) har lägst prioritet. |
+| [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som bestämmer prioriteten för uppdateringar av produktplatskartan i förhållande till annat innehåll. Noll (`0.0`) har den lägsta prioriteten. |
 | [!UICONTROL Add Images into Sitemap] | Butiksvy | Anger i vilken utsträckning bilder ska tas med i platskartan. Alternativ: `None` / `Base Only` / `All` |
 
 {style="table-layout:auto"}
@@ -50,7 +50,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Butiksvy | Anger hur ofta CMS-sidor för platskartor uppdateras. Alternativ: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som bestämmer prioriteten för uppdateringarna av CMS-sidans platskarta i förhållande till annat innehåll. Noll (`0.0`) har lägst prioritet. |
+| [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som avgör prioriteten för CMS-sidans platskarta i relation till annat innehåll. Noll (`0.0`) har den lägsta prioriteten. |
 
 {style="table-layout:auto"}
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Butiksvy | Anger hur ofta URL-adresser ska uppdateras. Alternativ: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som bestämmer prioriteten för uppdatering av butiks-URL i relation till annat innehåll. Noll (`0.0`) har lägst prioritet. |
+| [!UICONTROL Priority] | Butiksvy | Ett värde mellan `0.0` och `1.0` som bestämmer prioriteten för uppdatering av butiks-URL i förhållande till annat innehåll. Noll (`0.0`) har den lägsta prioriteten. |
 
 {style="table-layout:auto"}
 

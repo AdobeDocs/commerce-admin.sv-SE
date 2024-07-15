@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Skapa leveranser med flera källor
 
-Med [!DNL Inventory Management], skicka en eller flera leveranser när du har lager. Om du vill generera ytterligare leveranser efter behov upprepar du dessa instruktioner med rekommenderade eller manuellt angivna kvantiteter och källor. Instruktionerna beskriver hur flerkällvaruförsäljare skickar leveranser. Handlare med en enda källa skickar leveranser utan dessa ytterligare steg (se [Skapa en leverans](../stores-purchase/shipments.md#create-a-shipment){target="_blank"} i användarhandboken).
+Med [!DNL Inventory Management] skickar du en eller flera leveranser samtidigt som du har lager. Om du vill generera ytterligare leveranser efter behov upprepar du dessa instruktioner med rekommenderade eller manuellt angivna kvantiteter och källor. Instruktionerna beskriver hur flerkällvaruförsäljare skickar leveranser. Handlare med en enda källa skickar leveranser utan dessa ytterligare steg (se [Skapa en leverans](../stores-purchase/shipments.md#create-a-shipment){target="_blank"} i huvudanvändarhandboken).
 
-När du skapar leveranser använder du algoritmen för källval för beräknade rekommendationer. Följ och använd dessa rekommendationer eller ange beloppen per källa och generera anpassade leveranser. Du kontrollerar ditt utgående lager för varje order och anger vilka belopp som ska dras av, skickar en eller flera leveranser och levererar i lager och restorder när lagret är tillgängligt. Ange ett belopp som ska dras av från källkvantiteten för varje radartikel i ordern.
+När du skapar leveranser använder du algoritmen Source Selection för beräknade rekommendationer. Följ och använd dessa rekommendationer eller ange beloppen per källa och generera anpassade leveranser. Du kontrollerar ditt utgående lager för varje order och anger vilka belopp som ska dras av, skickar en eller flera leveranser och levererar i lager och restorder när lagret är tillgängligt. Ange ett belopp som ska dras av från källkvantiteten för varje radartikel i ordern.
 
 Du kanske vill skicka delförsändelser till:
 
@@ -26,38 +26,38 @@ När du anger leveranser dras de inmatade beloppen av lagerbehållningen av. Res
 
 ## Skapa en leverans
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Gå till **[!UICONTROL Sales]** > **[!UICONTROL Orders]** på sidofältet _Admin_.
 
 1. Leta reda på ordningen och öppna i visningsläge.
 
-1. Om ordern är betald och fakturerad och är klar att skickas klickar du på **[!UICONTROL Ship]**.
+1. Om ordern har betalats och fakturerats och är klar att skickas klickar du på **[!UICONTROL Ship]**.
 
-1. Slutför källvalet för att skicka produkter per källa:
+1. Slutför Source Selection för att skicka produkter per källa:
 
-   - Om du vill visa leveransrekommendationer klickar du **[!UICONTROL Source Selection Algorithm]** och välja en algoritm.
+   - Om du vill visa leveransrekommendationer klickar du på **[!UICONTROL Source Selection Algorithm]** och väljer en algoritm.
 
      | Algoritm | Beskrivning |
      |--|--|
-     | [Källprioritet](source-priority-algorithm.md) | Rekommenderar leveranser från källor enligt beställningarna för källor som tilldelats till lagret. |
+     | [Source-prioritet](source-priority-algorithm.md) | Rekommenderar leveranser från källor enligt beställningarna för källor som tilldelats till lagret. |
      | [Avståndsprioritet](distance-priority-algorithm.md) | Rekommenderar försändelser från källor närmast leveransadressen baserat på fysiskt avstånd eller kortast leveranstid. |
 
      >[!IMPORTANT]
      >
-     >När algoritmen Distance Priority (Avståndsprioritet) används för leverans och vägar och data inte returneras för den valda [Beräkningsläge](distance-priority-algorithm.md) (körning, cykling eller gång) för en transport är standardvärdet för SSA källprioritet. Vi rekommenderar att du även ställer in [prioritet för källor per lager](stocks-prioritize-sources.md).
+     >När du använder algoritmen Distance Priority för leverans och vägar och data inte returneras för det valda [Computation Mode ](distance-priority-algorithm.md) (som kör, cyklar eller går) för en leverans, används som standard Source Priority för SSA. Vi rekommenderar att du även anger [prioritet för källor per lager](stocks-prioritize-sources.md).
 
 
-   - För  **[!UICONTROL Select a Source to Ship from]** väljer du en källa att skicka en leverans från.
+   - För **[!UICONTROL Select a Source to Ship from]** väljer du en källa att skicka en leverans från.
 
-   - För varje radobjekt ska du behålla det rekommenderade beloppet eller ange ett specifikt belopp i **[!UICONTROL Qty to Deduct]**. Det här värdet anger det belopp som dras av från lagret för den valda källan.
+   - Behåll det rekommenderade beloppet för varje radobjekt eller ange ett specifikt belopp i **[!UICONTROL Qty to Deduct]**. Det här värdet anger det belopp som dras av från lagret för den valda källan.
 
    - Klicka på **[!UICONTROL Proceed to Shipment]**.
 
-     ![Välj en källa och ange en kvantitet](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
+     ![Välj en Source och ange en kvantitet](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Granska _[!UICONTROL New Shipment]_och ange eventuella ytterligare ändringar.
+1. Granska sidan _[!UICONTROL New Shipment]_och ange eventuella ytterligare ändringar efter behov.
 
-   The _[!UICONTROL Inventory]_I visas källa, produktleverans, total beställd kvantitet och kvantitet att leverera.
+   Avsnittet _[!UICONTROL Inventory]_visar källa, produktleverans, total beställd kvantitet och kvantitet som ska levereras.
 
-   ![Lagerinformation för leveransen, exempel partiell leverans](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
+   ![Lagerinformation för leveransen, till exempel partiell leverans](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Submit Shipment]** för att slutföra.
+1. Klicka på **[!UICONTROL Submit Shipment]** för att slutföra.

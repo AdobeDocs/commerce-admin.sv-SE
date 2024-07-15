@@ -18,11 +18,11 @@ Innan du kan skapa en händelse måste du slutföra den grundläggande konfigura
 
 ## Aktivera och konfigurera händelser
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Catalog]** och välja **[!UICONTROL Catalog]** under.
+1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Catalog Events]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Catalog Events]** och gör följande:
 
    ![Katalogkonfiguration - kataloghändelser](../configuration-reference/catalog/assets/catalog-events.png){width="600" zoomable="yes"}
 
@@ -32,9 +32,9 @@ Innan du kan skapa en händelse måste du slutföra den grundläggande konfigura
 
    - Ange **[!UICONTROL Number of Events to be Displayed in the Event Slider Sidebar Widget]**. Som standard är det här värdet inställt på `5`. Om du bara vill visa en händelse i skjutreglaget åt gången anger du `1`.
 
-   - Ange antalet **[!UICONTROL Events to Scroll per Click in Event Slider Sidebar Widget]**. Som standard är det här värdet inställt på `2`. Om du vill att reglaget ska visa nästa händelse i sekvensen när du klickar på den, anger du `1`.
+   - Ange antalet **[!UICONTROL Events to Scroll per Click in Event Slider Sidebar Widget]**. Som standard är det här värdet inställt på `2`. Om du vill att reglaget ska visa nästa händelse i sekvensen när du klickar på den anger du `1`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Åtkomstbegränsningar
 
@@ -48,11 +48,11 @@ Innan du kan skapa en händelse måste du slutföra den grundläggande konfigura
 
 ![Allmän konfiguration - webbplatsbegränsningar](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL General]** och välja **[!UICONTROL General]** under.
+1. Expandera **[!UICONTROL General]** i den vänstra panelen och välj **[!UICONTROL General]** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Website Restrictions]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Website Restrictions]**.
 
 1. Ange **[!UICONTROL Access Restriction]** till `Yes`.
 
@@ -64,15 +64,15 @@ Innan du kan skapa en händelse måste du slutföra den grundläggande konfigura
 
 1. Ange **[!UICONTROL Startup Page]** till något av följande:
 
-   - `To login form (302 Found)` - Användarna dirigeras om till inloggningsformuläret innan de får åtkomst till webbplatsen.
+   - `To login form (302 Found)` - Användare omdirigeras till inloggningsformuläret innan de får åtkomst till webbplatsen.
 
-   - `To landing page (302 Found)` - Användare dirigeras om till den angivna landningssidan tills de loggar in.
+   - `To landing page (302 Found)` - Användare omdirigeras till den angivna landningssidan tills de loggar in.
 
      >[!IMPORTANT]
      >
      >Se till att du inkluderar en länk till inloggningssidan från landningssidan så att kunderna kan logga in för att komma åt webbplatsen.
 
-1. Välj **[!UICONTROL Landing Page]** som visas innan kunderna loggar in på den privata försäljningswebbplatsen.
+1. Välj den **[!UICONTROL Landing Page]** som visas innan kunderna loggar in på den privata försäljningswebbplatsen.
 
 1. Om du vill att sökmotorstart och spindlar ska veta att landningssidan är korrekt och att det inte finns några andra sidor att indexera på webbplatsen anger du **[!UICONTROL HTTP Response]** till `200 OK`.
 
@@ -82,12 +82,12 @@ Innan du kan skapa en händelse måste du slutföra den grundläggande konfigura
    >
    >Gäller endast om begränsningsläget är inställt på _Webbplatsen stängd_. Landningssidan återges som rå HTML.
 
-1. Om du vill att fälten i kundinloggningen och i formulären för glömt lösenord ska fyllas i automatiskt från tidigare poster anger du **[!UICONTROL Enable Autocomplete on login/forgot password forms]** till `Yes`.
+1. Om du vill att fälten i kundinloggningen och formulären för glömt lösenord ska fyllas i automatiskt från tidigare poster anger du **[!UICONTROL Enable Autocomplete on login/forgot password forms]** till `Yes`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ### Begränsa försäljningen
 
-Som standard är produkter som visas i kommande eller stängda evenemang inte tillgängliga för allmän försäljning och _[!UICONTROL Add to Cart]_visas inte på produktlistan eller produktsidan.
+Som standard är produkter som visas i kommande eller stängda händelser inte tillgängliga för allmän försäljning och knappen _[!UICONTROL Add to Cart]_visas inte i produktlistan eller produktsidan.
 
-Återställ _[!UICONTROL Add to Cart]_för en stängd händelse måste händelsen tas bort (se [Uppdatera händelser](event-create.md#update-events)). Om en produkt är kopplad till en annan kategori som inte har några försäljningsbegränsningar är knappen tillgänglig på produktsidan. På samma sätt visas inte börskursblocket på produktsidan om produkten är kopplad till en annan kategori som inte har några försäljningsbegränsningar.
+Om du vill återställa knappen _[!UICONTROL Add to Cart]_för en stängd händelse måste händelsen tas bort (se [Uppdatera händelser](event-create.md#update-events)). Om en produkt är kopplad till en annan kategori som inte har några försäljningsbegränsningar är knappen tillgänglig på produktsidan. På samma sätt visas inte börskursblocket på produktsidan om produkten är kopplad till en annan kategori som inte har några försäljningsbegränsningar.

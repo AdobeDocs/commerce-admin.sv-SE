@@ -6,7 +6,7 @@ feature: Site Management, System
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -18,35 +18,35 @@ Butiksvyer används vanligtvis för att göra butiken tillgänglig på olika spr
 
 ## Lägga till en butiksvy
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**på sidofältet_ Admin _.
 
    ![Alla butiker](./assets/stores-all.png){width="700" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Create Store View]**.
+1. Klicka på **[!UICONTROL Create Store View]**.
 
    ![Skapa butiksvy](./assets/create-store-view.png){width="600" zoomable="yes"}
 
 1. Ange **[!UICONTROL Store]** till det överordnade arkivet för den här vyn.
 
-1. Ange en **[!UICONTROL Name]** för butiksvyn.
+1. Ange **[!UICONTROL Name]** som butiksvy.
 
-   Namnet visas i språkväljaren i butikshuvudet. Exempel: `Spanish`.
+   Namnet visas i språkväljaren i butikshuvudet. Till exempel: `Spanish`.
 
 1. För **[!UICONTROL Code]** anger du koden som identifierar vyn (med gemener).
 
-   Exempel: `spanish`.
+   Till exempel: `spanish`.
 
 1. Aktivera vyn genom att ange **[!UICONTROL Status]** till `Enabled`.
 
-1. (Valfritt) Ange en **[!UICONTROL Sort Order]** för att avgöra i vilken ordning den här vyn visas tillsammans med andra vyer.
+1. (Valfritt) Ange ett **[!UICONTROL Sort Order]**-nummer för att avgöra i vilken ordning den här vyn visas tillsammans med andra vyer.
 
 1. Klicka på **[!UICONTROL Save Store View]**.
 
 ## Redigera en butiksvy
 
-Eftersom visningsnamnet visas i språkväljaren kanske du vill ändra namnet på standardvyn till något mer beskrivande. The _Namn_ fältet är bara en etikett och kan enkelt ändras.
+Eftersom visningsnamnet visas i språkväljaren kanske du vill ändra namnet på standardvyn till något mer beskrivande. Fältet _Namn_ är bara en etikett och kan enkelt ändras.
 
-Om din Adobe Commerce- eller Magento Open Source-installation har en konfiguration för flera platser eller flera butiker ska du inte ändra fältet Butikskod utan att verifiera att värdet inte refereras i `index.php` -fil. Om du inte har åtkomst till servern för att undersöka filen ber du en utvecklare om hjälp.
+Om din Adobe Commerce- eller Magento Open Source-installation har en konfiguration för flera platser eller flera lagringsplatser ska du inte ändra fältet för lagringskod utan att verifiera att värdet inte refereras i `index.php`-filen. Om du inte har åtkomst till servern för att undersöka filen ber du en utvecklare om hjälp.
 
 | Fält | Ursprungligt värde | Uppdaterat värde |
 | ----- | -------------- | ------------- |
@@ -55,11 +55,11 @@ Om din Adobe Commerce- eller Magento Open Source-installation har en konfigurati
 
 {style="table-layout:auto"}
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** >  _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**på sidofältet_ Admin _.
 
-1. I _[!UICONTROL Store View]_i rutnätets kolumn klickar du på namnet på den vy som du vill redigera.
+1. Klicka i kolumnen _[!UICONTROL Store View]_i rutnätet på namnet på den vy som du vill redigera.
 
-   När du redigerar standardvyn visas _[!UICONTROL Store]_och_[!UICONTROL Status]_ fält är inte tillgängliga.
+   När du redigerar standardvyn är fälten _[!UICONTROL Store]_och_[!UICONTROL Status]_ inte tillgängliga.
 
    ![Butiksvy - redigera standardvy](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 
@@ -67,7 +67,7 @@ Om din Adobe Commerce- eller Magento Open Source-installation har en konfigurati
 
    - **[!UICONTROL Store]** (endast icke-standardvyer)
    - **[!UICONTROL Name]**
-   - **[!UICONTROL Code]** (endast om de inte används i `index.php`)
+   - **[!UICONTROL Code]** (endast om det inte används i `index.php`)
    - **[!UICONTROL Status]** (endast icke-standardvyer)
    - **[!UICONTROL Sort Order]**
 

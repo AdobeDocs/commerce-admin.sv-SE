@@ -5,7 +5,7 @@ exl-id: 48193621-731d-4640-8ea8-5b201915cdf1
 feature: Gift, Storefront, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -24,47 +24,47 @@ Adobe Commerce har fördefinierade mallar för vart och ett av dessa e-postmedde
 
 ## Steg 1. Aktivera presentregister
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Customers]** och välja **[!UICONTROL Gift Registry]**
+1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Gift Registry]**
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL General Options]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL General Options]** och gör följande:
 
    ![Kundkonfiguration - presentregister allmänt](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
 
-   - Presentregistret är aktiverat som standard. Ange vid behov **[!UICONTROL Enable Gift Registry]** till `Yes`.
+   - Presentregistret är aktiverat som standard. Ange **[!UICONTROL Enable Gift Registry]** till `Yes` om det behövs.
 
    - För **[!UICONTROL Maximum Registrants]** anger du det maximala antalet personer som kan bjudas in att delta i en presentregisterhändelse.
 
 ## Steg 2. Konfigurera e-postmeddelanden
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Owner Notification]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Owner Notification]** och gör följande:
 
    ![Kundkonfiguration - meddelande om ägare av presentregister](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
 
-   - Välj **[!UICONTROL Email Template]** som meddelar ägare av presentregister när deras register skapas.
+   - Välj den **[!UICONTROL Email Template]** som meddelar presentregisterägare när deras register skapas.
 
-   - Välj [butikskontakt](../getting-started/store-details.md#store-email-addresses) som visas som **[!UICONTROL Email Sender]** av meddelandet.
+   - Välj den [butikskontakt](../getting-started/store-details.md#store-email-addresses) som visas som **[!UICONTROL Email Sender]** i meddelandet.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Gift Registry Sharing]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Gift Registry Sharing]** och gör följande:
 
    ![Kundkonfiguration - delning av presentregister](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
 
-   - Välj **[!UICONTROL Email Template]** som meddelar mottagarna i presentregistret när ett register delas med dem.
+   - Välj den **[!UICONTROL Email Template]** som meddelar mottagarna i presentregistret när ett register delas med dem.
 
-   - Välj den butiksidentifiering som visas som **[!UICONTROL Email Sender]** av meddelandet.
+   - Välj den butiksidentifiering som visas som **[!UICONTROL Email Sender]** för meddelandet.
 
    - För **[!UICONTROL Maximum Sent Emails Threshold]** anger du det maximala antalet e-postmeddelanden som kan skickas samtidigt.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Gift Registry Update]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Gift Registry Update]** och gör följande:
 
-   ![Kundkonfiguration - uppdatering av presentregister](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
+   ![Kundkonfiguration - uppdatering av presentregistret](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
 
-   - Välj **[!UICONTROL Email Template]** som informerar presentatörens ägare om ändringar i registret.
+   - Välj den **[!UICONTROL Email Template]** som meddelar presentregisterägare om ändringar i registret.
 
-   - Välj den butiksidentifiering som visas som **[!UICONTROL Email Sender]** av meddelandet.
+   - Välj den butiksidentifiering som visas som **[!UICONTROL Email Sender]** för meddelandet.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 1. Uppdatera cacheminnet när du uppmanas att göra det.
 

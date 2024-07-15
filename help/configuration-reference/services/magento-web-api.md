@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL Magento Web API]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] i Commerce Admin.
 exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
 feature: Configuration, Integration
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL SOAP Settings]
 
-![SOAP-inställningar](./assets/web-api-soap-settings.png)<!-- zoom -->
+![SOAP inställningar](./assets/web-api-soap-settings.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Allow Anonymous Guest Access] | Global | Fastställer att gäster kan få anonym åtkomst till CMS, katalog och lagra resurser från både SOAP- och REST-API:er. Som standard tillåts inte anonym gäståtkomst. Alternativ: `Yes` / `No` |
+| [!UICONTROL Allow Anonymous Guest Access] | Global | Fastställer att gäster kan få anonym åtkomst till CMS, katalog och lagra resurser från både SOAP och REST API:er. Som standard tillåts inte anonym gäståtkomst. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

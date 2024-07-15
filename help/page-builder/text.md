@@ -1,6 +1,6 @@
 ---
 title: Element - text
-description: Läs mer om innehållstypen Text som används för att lägga till en textbehållare i [!DNL Page Builder] stage.
+description: Lär dig mer om innehållstypen Text som används för att lägga till en textbehållare på scenen  [!DNL Page Builder] .
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Element - text
 
-Använd _Text_ innehållstyp för att lägga till en textbehållare med en WYSIWYG-redigerare (&quot;What You See Is What You Get&quot;) i [[!DNL Page Builder] stage](workspace.md#stage). Dessutom kan du lägga till länkar, bilder, [variabler](../systems/variables-predefined.md)och widgetar till texten från redigeringsverktygsfältet.
+Använd innehållstypen _Text_ för att lägga till en textbehållare med en WYSIWYG-redigerare (&quot;What You See Is What You Get&quot;) i [[!DNL Page Builder] scenen](workspace.md#stage). Du kan dessutom lägga till länkar, bilder, [variabler](../systems/variables-predefined.md) och widgetar i texten från redigeringsverktygsfältet.
 
-![Formaterad text på en banderoll](./assets/pb-storefont-banner-with-button.png){width="700"}
+![Formaterad text på en banner](./assets/pb-storefont-banner-with-button.png){width="700"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -22,20 +22,20 @@ Använd _Text_ innehållstyp för att lägga till en textbehållare med en WYSIW
 
 Du kommer åt textredigeraren direkt från scenen eller från en inställningssida. Ändringar som görs direkt på scenen sparas automatiskt. Mer information finns i [Använda redigeraren](../content-design/editor.md).
 
-![TinyMCE](./assets/pb-elements-text-editor-tools.png){width="600"}
+![Textredigeringsverktyget - TinyMCE](./assets/pb-elements-text-editor-tools.png){width="600"}
 
 ## Verktygslåda för textbehållare
 
-![Verktygslåda för textbehållare](./assets/pb-elements-text-toolbox.png){width="600"}
+![Verktygslådan Textbehållare](./assets/pb-elements-text-toolbox.png){width="600"}
 
 | Verktyg | Ikon | Beskrivning |
 | --------- | --------------------- | -------------- |
 | Flytta | ![Ikonen Flytta](./assets/pb-icon-move.png){width="25"} | Flyttar textbehållaren till en annan giltig plats på sidan. |
 | (etikett) | TEXT | Identifierar den aktuella behållaren som ett textelement. |
-| Inställningar | ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar egenskaperna för textbehållaren i redigeringsläge. |
+| Inställningar | ![Ikon för inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar egenskaperna för textbehållaren i redigeringsläge. |
 | Dölj | ![Dölj ikon](./assets/pb-icon-hide.png){width="25"} | Döljer textbehållaren. |
 | Visa | ![Visa ikon](./assets/pb-icon-show.png){width="25"} | Visar den dolda textbehållaren. |
-| Duplicera | ![Duplicera, ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av textbehållaren. |
+| Duplicera | ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av textbehållaren. |
 | Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="25"} | Tar bort textbehållaren och dess innehåll från scenen. |
 
 {style="table-layout:auto"}
@@ -44,7 +44,7 @@ Du kommer åt textredigeraren direkt från scenen eller från en inställningssi
 
 ## Lägg till text
 
-1. I [!DNL Page Builder] panel, expandera **[!UICONTROL Elements]** och dra en **[!UICONTROL Text]** platshållare för en rad, kolumn eller tabb som anges på scenen.
+1. Expandera **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Text]** platshållare till en rad, kolumn eller tabb på scenen.
 
    ![Dra en textplatshållare till scenen](./assets/pb-elements-text-drag.png){width="600" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Du kommer åt textredigeraren direkt från scenen eller från en inställningssi
 
 Med knappen Infoga länk i redigeraren är det enkelt att lägga till en hyperlänk till en bild i galleriet. Men den kan också användas för att skapa en textbunden länk om du har URL-adressen i förväg. Till skillnad från widgetknappen är länkknappen Infoga/redigera inte integrerad med sidor, produkter eller kategorier i butiken.
 
-Information om hur du skapar en länk för ett telefonnummer eller e-postmeddelande finns i [Lägga till anpassade variabler](../systems/variables-custom.md).
+Mer information om hur du skapar en länk för ett telefonnummer eller ett e-postmeddelande finns i [Lägga till anpassade variabler](../systems/variables-custom.md).
 
 1. I butiken navigerar du till sidan som ska vara länkens målmål och kopierar länkinformationen.
 
@@ -68,45 +68,45 @@ Information om hur du skapar en länk för ett telefonnummer eller e-postmeddela
 
    Relativ URL - `../women/tops-women/tees-women.html`
 
-1. Markera texten i redigeringsutrymmet och klicka på _Infoga/redigera länk_ ( ![Infoga/redigera länkknapp](./assets/pb-icon-add-link.png){width="20"} ) i redigeringsverktygsfältet.
+1. Markera texten i redigerarområdet och klicka på _Infoga/redigera länk_ ( ![Infoga/redigera länkknapp](./assets/pb-icon-add-link.png){width="20"} ) i redigerarens verktygsfält.
 
-   ![Lägga till en länk till formaterad text](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="500" zoomable="yes"}
+   ![Lägger till en länk till formaterad text](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="500" zoomable="yes"}
 
-1. För **[!UICONTROL URL]** anger du den relativa länken som du har förberett.
+1. Ange den relativa länken som du förberedde för **[!UICONTROL URL]**.
 
 1. Ange **[!UICONTROL Target]** till `None`.
 
    Med den här inställningen öppnas sidan i samma webbläsarfönster, i stället för en ny flik.
 
-1. För **[!UICONTROL Title]**, ange `Shop Tees`.
+1. Ange `Shop Tees` för **[!UICONTROL Title]**.
 
-   The `Title` länkattribut används av vissa webbläsare som verktygstips.
+   Länkattributet `Title` används av vissa webbläsare som verktygstips.
 
-1. Spara länken och gå tillbaka till [!DNL Page Builder] arbetsyta, klicka **[!UICONTROL OK]**.
+1. Klicka på **[!UICONTROL OK]** om du vill spara länken och återgå till arbetsytan [!DNL Page Builder].
 
-   ![Länkinformation](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="500" zoomable="yes"}
+   ![Länkdetalj](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="500" zoomable="yes"}
 
 ## Infoga en bild
 
 1. Placera markören i texten där du vill infoga bilden.
 
-1. Klicka _Infoga/redigera bild_ ( ![Infoga/redigera bildknapp](./assets/icon-pb-add-image.png){width="20"} ) i redigeringsverktygsfältet.
+1. Klicka på _Infoga/redigera bild_ ( ![knappen Infoga/redigera bild](./assets/icon-pb-add-image.png){width="20"} ) i redigerarens verktygsfält.
 
 1. För **[!UICONTROL Source]** klickar du på sökikonen för att använda medielagringen för att hitta och välja en bild.
 
-1. För **[!UICONTROL Image Description]** anger du beskrivande text för bilden.
+1. Ange beskrivande text för bilden för **[!UICONTROL Image Description]**.
 
-   Texten fyller i `alt` länkattribut för bilden och används av vissa webbläsare för tillgänglighet.
+   Den här texten fyller i länkattributet `alt` för bilden och används av vissa webbläsare för tillgänglighet.
 
-1. Ange bredd och höjd **[!UICONTROL Dimensions]**, i pixlar, för återgivning av bilden på sidan.
+1. Ange bredden och höjden **[!UICONTROL Dimensions]** i pixlar för återgivning av bilden på sidan.
 
-   Behåll **[!UICONTROL Constrain proportions]** markerad kryssruta för att automatiskt behålla bildens proportioner.
+   Behåll kryssrutan **[!UICONTROL Constrain proportions]** markerad för att automatiskt behålla bildens proportioner.
 
-1. Infoga bilden och gå sedan tillbaka till [!DNL Page Builder] arbetsyta, klicka **[!UICONTROL OK]**.
+1. Om du vill infoga bilden och sedan gå tillbaka till arbetsytan [!DNL Page Builder] klickar du på **[!UICONTROL OK]**.
 
 ## Ändra textinställningar
 
-1. Håll pekaren över textbehållaren för att visa verktygslådan och välj _Inställningar_ ( ![Ikonen Inställningar](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över textbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
    >[!NOTE]
    >
@@ -114,7 +114,7 @@ Information om hur du skapar en länk för ett telefonnummer eller e-postmeddela
 
 1. Uppdatera innehållet efter behov.
 
-1. Uppdatera _[!UICONTROL Advanced]_inställningar efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
 
    - Om du vill styra placeringen av texten i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
 
@@ -127,7 +127,7 @@ Information om hur du skapar en länk för ett telefonnummer eller e-postmeddela
 
      {style="table-layout:auto"}
 
-   - Ange **[!UICONTROL Border]** format som används på alla fyra sidorna i textbehållaren:
+   - Ange det **[!UICONTROL Border]**-format som ska användas på alla fyra sidor i textbehållaren:
 
      | Alternativ | Beskrivning |
      | ------ |------------ |
@@ -144,7 +144,7 @@ Information om hur du skapar en länk för ett telefonnummer eller e-postmeddela
 
      {style="table-layout:auto"}
 
-   - Om du anger ett annat kantlinjeformat än `None`slutför du visningsalternativen för kantlinjer:
+   - Om du anger ett annat kantlinjeformat än `None` fyller du i visningsalternativen för kantlinjen:
 
      | Alternativ | Beskrivning |
      | ------ |------------ |
@@ -158,7 +158,7 @@ Information om hur du skapar en länk för ett telefonnummer eller e-postmeddela
 
      Avgränsa flera klassnamn med blanksteg.
 
-   - Ange värden i pixlar för **[!UICONTROL Margins and Padding]** för att bestämma de yttre marginalerna och den inre utfyllnaden för textbehållaren.
+   - Ange värden (i pixlar) för **[!UICONTROL Margins and Padding]** för att fastställa textbehållarens yttre marginaler och inre utfyllnad.
 
      Ange motsvarande värden i diagrammet.
 
@@ -169,4 +169,4 @@ Information om hur du skapar en länk för ett telefonnummer eller e-postmeddela
 
      {style="table-layout:auto"}
 
-1. När du är klar klickar du på **[!UICONTROL Save]** för att använda inställningarna och gå tillbaka till [!DNL Page Builder] arbetsyta.
+1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].

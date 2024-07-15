@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Typer av leverantörsförsäljning
 
-[!DNL Commerce] supports [!DNL Inventory Management] för företag av alla storlekar, inklusive en enda butik med en webbplats till ett internationellt nätverk av webbplatser, butiker, lagerställen och avsändare. Alla handlare som använder Adobe Commerce eller Magento Open Source kan indelas i två typer beroende på antalet platser, eller källor, i din verksamhet.
+[!DNL Commerce] stöder [!DNL Inventory Management] för företag av alla storlekar, inklusive en enda butik med en webbplats till ett internationellt nätverk av webbplatser, butiker, lagerställen och avsändare. Alla handlare som använder Adobe Commerce eller Magento Open Source kan indelas i två typer beroende på antalet platser, eller källor, i din verksamhet.
 
 - Försäljare med en enda källa levererar produkter från ett och samma ställe. Du betraktas som en återförsäljare/ett enda källäge tills du börjar lägga till anpassade källor och stockar i installationen.
 
@@ -26,15 +26,15 @@ Du har till exempel en webbplats eller en implementering på flera platser med p
 
 Så här kommer du igång:
 
-- Konfigurera [globala inställningar och produktinställningar](configuration.md) efter behov.
+- Konfigurera [globala inställningar och produktinställningar](configuration.md) för butikens lager efter behov.
 
-- Uppdatera [Standardkälla](sources-manage.md) med information om din enda lagerplats. Du behöver inte skapa ytterligare källor.
+- Uppdatera [Source](sources-manage.md) som standard med information om din lagerplats. Du behöver inte skapa ytterligare källor.
 
-- Uppdatera [Standardlager](stocks-manage.md). Se till att alla dina webbplatser har valts som försäljningskanaler. När du lägger till nya webbplatser [!DNL Commerce] lägger automatiskt till dem i standardlagret. Du behöver inte skapa ytterligare lager.
+- Uppdatera [standardlagret](stocks-manage.md). Se till att alla dina webbplatser har valts som försäljningskanaler. När du lägger till nya webbplatser lägger [!DNL Commerce] automatiskt till dem i standardlagret. Du behöver inte skapa ytterligare lager.
 
 >[!NOTE]
 >
->När verksamheten växer lägger du till ytterligare källor och resurser och uppdaterar [!DNL Inventory Management] för att bli handlare med flera källor. Se [Expandera och strukturera om lager](expand-restructure.md) för all information.
+>När ditt företag utökas lägger du till ytterligare källor och resurser och uppdaterar din [!DNL Inventory Management]-konfiguration så att den blir en flerkällvaruförsäljare. Mer information finns i [Expandera och omstrukturera lager](expand-restructure.md).
 
 ## Handlare med flera källor
 
@@ -46,9 +46,9 @@ Så här kommer du igång:
 
 - Konfigurera globala inställningar för butikens lager efter behov.
 
-- Lägg till [anpassade källor](sources-add.md) för lagerplatser: lagerställen, butiker, distributionscentraler och avsändare.
+- Lägg till [anpassade källor](sources-add.md) för dina lagerplatser: lagerställen, butiker, distributionscentraler och avsändare.
 
-- Lägg till [anpassade stockar](stocks-add.md) för varje region för att kartlägga dina webbplatser med flera källor. Sortera om källorna i varje lager i prioritetsordning, vilket är praktiskt när du utför dina beställningar.
+- Lägg till [anpassade resurser](stocks-add.md) för varje region för att mappa dina webbplatser med flera källor. Sortera om källorna i varje lager i prioritetsordning, vilket är praktiskt när du utför dina beställningar.
 
 - Tilldela källor till produkter och lägg till kvantiteter per plats.
 

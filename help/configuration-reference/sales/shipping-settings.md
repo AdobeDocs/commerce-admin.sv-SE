@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] i Commerce Admin.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{config}}
 
-Mer information om hur du ändrar de här inställningarna finns i [Leveransinställningar](../../stores-purchase/shipping-settings.md) i _Butiks and Purchase Experience Guide_.
+Mer information om hur du ändrar de här inställningarna finns i [Leveransinställningar](../../stores-purchase/shipping-settings.md) i _butiker och inköpsupplevelseguiden_.
 
 ## [!UICONTROL Origin]
 
@@ -33,7 +33,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Leveransinst
 
 ## [!UICONTROL Shipping Policy Parameters]
 
-![Parametrar för leveranspolicy](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
+![Parametrar för leveransprincip](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

@@ -14,31 +14,31 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Administratören [funktionsmakron](action-log.md) arkiv listar de CSV-loggfiler som lagras på servern. I konfigurationen kan du ange hur länge loggposterna ska lagras och hur ofta de ska arkiveras. Som standard innehåller filnamnet aktuellt datum i ISO-format:  `yyyyMMddHH`
+Administratörens [åtgärder](action-log.md)-arkiv visar CSV-loggfiler som lagras på servern. I konfigurationen kan du ange hur länge loggposterna ska lagras och hur ofta de ska arkiveras. Som standard innehåller filnamnet aktuellt datum i ISO-format:  `yyyyMMddHH`
 
 >[!NOTE]
 >
->Loggarkivering kräver en [cron](cron.md) som ska konfigureras.
+>Loggarkivering kräver att ett [cron-jobb](cron.md) har konfigurerats.
 
 ## Konfigurera loggarkivet
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Advanced]** och välja **[!UICONTROL System]**.
+1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Admin Actions Log Archiving]** och ange följande alternativ:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Admin Actions Log Archiving]** och ange följande alternativ:
 
-   - **[!UICONTROL Log Entry Lifetime, Days]** — Ange det antal dagar som du vill behålla loggposterna i databasen innan de tas bort.
-   - **[!UICONTROL Log Archiving Frequency]** — Ställ in på `Daily`, `Weekly`, eller `Monthly`.
+   - **[!UICONTROL Log Entry Lifetime, Days]** - Ange det antal dagar som du vill behålla loggposterna i databasen innan de tas bort.
+   - **[!UICONTROL Log Archiving Frequency]** - Ange som `Daily`, `Weekly` eller `Monthly`.
 
    ![Avancerad konfiguration - arkivering av administratörsåtgärdslogg](../configuration-reference/advanced/assets/system-admin-actions-log-archiving.png){width="600" zoomable="yes"}
 
-   En detaljerad lista över konfigurationsinställningarna finns i [Loggarkivering för administratörsåtgärder](../configuration-reference/advanced/system.md) i _Konfigurationsreferens_.
+   En detaljerad lista över konfigurationsinställningarna finns i [Arkivering av administratörsåtgärdslogg](../configuration-reference/advanced/system.md) i _Konfigurationsreferens_.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Visa arkivet
 
-På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Archive]**.
+Gå till **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Archive]**på sidofältet_ Admin _.
 
 ![Åtgärdsloggarkiv](./assets/action-log-archive.png){width="600" zoomable="yes"}

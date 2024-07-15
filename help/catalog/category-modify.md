@@ -16,7 +16,7 @@ När en kategori har skapats kan den redigeras, flyttas till en annan position i
 
 ## Flytta en kategori
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** på sidofältet _Admin_.
 
 1. Om du vill flytta en kategori drar och släpper du kategorin till en ny plats i trädet.
 
@@ -32,4 +32,4 @@ När en kategori har skapats kan den redigeras, flyttas till en annan position i
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
-Du kan också [uppdatera händelserna](../merchandising-promotions/event-create.md#create-and-update-events) som är associerad med en kategori från antingen **[!UICONTROL Events]** sidan eller **[!UICONTROL Category]** sida.
+Du kan även [uppdatera händelserna](../merchandising-promotions/event-create.md#create-and-update-events) som är kopplade till en kategori på sidan **[!UICONTROL Events]** eller på sidan **[!UICONTROL Category]**.

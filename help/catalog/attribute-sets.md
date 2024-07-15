@@ -14,23 +14,23 @@ ht-degree: 0%
 
 Ett av de första stegen när du skapar en produkt är att välja den attributuppsättning som används som mall för produktposten. Attributuppsättningen avgör vilka fält som är tillgängliga under datainmatningen och vilka värden som visas för kunden.
 
-Attributen är ordnade i grupper som bestämmer var de visas i produktposten. Butiken levereras med en inledande attributuppsättning (som kallas _standard_) som innehåller en uppsättning vanliga attribut. Om du bara vill lägga till ett fåtal attribut kan du lägga till dem i den här standardattributuppsättningen. Om du säljer produkter som kräver viss typ av information kan det vara bättre att skapa en dedikerad attributuppsättning som innehåller de specifika attribut som krävs för produkten.
+Attributen är ordnade i grupper som bestämmer var de visas i produktposten. Butiken innehåller en inledande attributuppsättning (som kallas _standard_) som innehåller en uppsättning vanliga attribut. Om du bara vill lägga till ett fåtal attribut kan du lägga till dem i den här standardattributuppsättningen. Om du säljer produkter som kräver viss typ av information kan det vara bättre att skapa en dedikerad attributuppsättning som innehåller de specifika attribut som krävs för produkten.
 
 ![Attributuppsättningar](./assets/attribute-sets.png){width="700" zoomable="yes"}
 
 ## Skapa en attributuppsättning
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Set]**.
 
    ![Attributuppsättning - redigera namn](./assets/attribute-set-new.png){width="600" zoomable="yes"}
 
-1. Ange en **[!UICONTROL Name]** för attributuppsättningen.
+1. Ange **[!UICONTROL Name]** som attributuppsättning.
 
-1. Ange **[!UICONTROL Based On]** till en befintlig attributuppsättning som ska användas som mall.
+1. Ange **[!UICONTROL Based On]** som en befintlig attributuppsättning som ska användas som mall.
 
-1. klicka **[!UICONTROL Save]**.
+1. klicka på **[!UICONTROL Save]**.
 
    På nästa sida visas följande:
 
@@ -38,19 +38,19 @@ Attributen är ordnade i grupper som bestämmer var de visas i produktposten. Bu
    - Mitten av sidan visar det aktuella urvalet av attributgrupper.
    - I den högra kolumnen visas de attribut som för närvarande inte är tilldelade till attributuppsättningen.
 
-1. Om du vill lägga till ett attribut i uppsättningen drar du attributet från **[!UICONTROL Unassigned Attributes]** till lämplig mapp i **[!UICONTROL Groups]** kolumn.
+1. Om du vill lägga till ett attribut i uppsättningen drar du attributet från listan **[!UICONTROL Unassigned Attributes]** till rätt mapp i kolumnen **[!UICONTROL Groups]**.
 
    >[!NOTE]
    >
-   >Systemattribut är markerade med en punkt och kan inte tas bort från _[!UICONTROL Groups]_lista. De kan dock dras till en annan grupp i attributuppsättningen.
+   >Systemattribut är markerade med en punkt och kan inte tas bort från listan _[!UICONTROL Groups]_. De kan dock dras till en annan grupp i attributuppsättningen.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ![Attributuppsättning - redigera](./assets/attribute-set-edit.png){width="600" zoomable="yes"}
 
 ## Skapa en attributgrupp
 
-1. I _[!UICONTROL Groups]_kolumn i attributuppsättningen, klicka på&#x200B;**[!UICONTROL Add New]**.
+1. Klicka på **[!UICONTROL Add New]** i kolumnen _[!UICONTROL Groups]_för attributuppsättningen.
 
 1. Ange en **[!UICONTROL Name]** för den nya gruppen och klicka på **[!UICONTROL OK]**.
 
@@ -63,7 +63,7 @@ Attributen är ordnade i grupper som bestämmer var de visas i produktposten. Bu
 
 ## Ta bort en attributuppsättning
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**på sidofältet_ Admin _.
 
 1. Markera attributuppsättningen i listan och öppna i redigeringsläge.
 

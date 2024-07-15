@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Gift Registry]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Gift Registry] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Customers] &gt; [!UICONTROL Gift Registry] i Commerce Admin.
 exl-id: c5153c4e-897a-41d2-bde1-8483855d1a37
 feature: Configuration, Gift
 source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 {{config}}
 
-Mer information om hur du använder dessa inställningar för att aktivera presentregister för dina butikskunder finns i [Konfigurera presentregister](../../merchandising-promotions/gift-registry-configure.md). Mer information om hur du tar med presentregistersökningar i butiken finns i [Lägg till sökning i presentregistret](../../merchandising-promotions/gift-registry-search.md).
+Mer information om hur du använder dessa inställningar för att aktivera presentregister för dina butikskunder finns i [Konfigurera presentregister](../../merchandising-promotions/gift-registry-configure.md). Mer information om hur du inkluderar sökning i presentregistret i butiken finns i [Lägg till sökning i presentregistret](../../merchandising-promotions/gift-registry-search.md).
 
 ## [!UICONTROL General Options]
 
@@ -27,7 +27,7 @@ Mer information om hur du använder dessa inställningar för att aktivera prese
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable Gift Registry] | Butiksvy | Avgör om presentregister är tillgängliga. Alternativ: <br/>**`Yes`**- Aktiverar presentregister för den valda butiksvyn. Fliken Presentregister visas på kontouppsättningen med registrerade kunder.<br/>**`No`** - Presentregister är inte tillgängliga för butiksvyn. |
-| [!UICONTROL Maximum Registrants] | Butiksvy | Anger antalet personer som en kund kan lägga till i ett presentregister. Kunden delar presentregistret med varje registrant. I butiken finns _Lägg till registrant_ knappen är tillgänglig för kunderna tills det maximala antalet nås. |
+| [!UICONTROL Maximum Registrants] | Butiksvy | Anger antalet personer som en kund kan lägga till i ett presentregister. Kunden delar presentregistret med varje registrant. I butiken är knappen _Lägg till registrant_ tillgänglig för kunder tills maximalt antal nås. |
 
 {style="table-layout:auto"}
 
@@ -40,7 +40,7 @@ Mer information om hur du använder dessa inställningar för att aktivera prese
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Email Template] | Butiksvy | Bestämmer vilken mall som används för e-postadressen för ägarmeddelanden som skickas när ett presentregister skapas. Standardmall: Meddelande om ägare av presentregister |
-| [!UICONTROL Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av e-postmeddelandet om ägare av presentregistret. Standardvärde: `General Contact` |
+| [!UICONTROL Email Sender] | Butiksvy | Identifierar [butikskontakten](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av presentatörens meddelandemeddelande. Standardvärde: `General Contact` |
 
 {style="table-layout:auto"}
 
@@ -52,21 +52,21 @@ Mer information om hur du använder dessa inställningar för att aktivera prese
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Email Template] | Butiksvy | Bestämmer vilken mall som används för e-postmeddelandet om gift-registerdelning som skickas när ett presentregister skapas. När ägaren klickar _Dela presentregister_, skickas e-postmeddelandet till varje mottagare. Standardmall: `Gift Registry Sharing` |
-| [!UICONTROL Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av e-postmeddelandet om gift-registerdelning. Standardvärde: `General Contact` |
+| [!UICONTROL Email Template] | Butiksvy | Bestämmer vilken mall som används för e-postmeddelandet om gift-registerdelning som skickas när ett presentregister skapas. När ägaren klickar på _Dela presentregister_ skickas e-postmeddelandet till varje mottagare. Standardmall: `Gift Registry Sharing` |
+| [!UICONTROL Email Sender] | Butiksvy | Identifierar den [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av e-postmeddelandet om gift-registerdelning. Standardvärde: `General Contact` |
 | [!UICONTROL Maximum Sent Emails Threshold] | Butiksvy | Maximalt antal e-postmeddelanden om gift-registerdelning som kan skickas samtidigt. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Gift Registry Update]
 
-![Uppdatering av presentregister](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
+![Presentregisteruppdatering](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
 
 <!-- [Gift Registry Update](https://docs.magento.com/user-guide/marketing/gift-registry-configure.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Email Template] | Butiksvy | Bestämmer vilken mall som används för e-postmeddelandet om uppdatering av presentregistret som skickas till presentregisterägaren när ett köp görs från presentregistret. Uppdateringen innehåller information om artikeln och kvantiteten som köpts, men inte namnet på den person som beställt. Standardmall: `Gift Registry Update` |
-| [!UICONTROL Email Sender] | Butiksvy | Anger [butikskontakt](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av e-postmeddelandet om uppdatering av presentregistret. Standardvärde: `General Contact` |
+| [!UICONTROL Email Sender] | Butiksvy | Identifierar [butikskontakten](../../getting-started/store-details.md#store-email-addresses) som visas som avsändare av presentatörens registeruppdatering. Standardvärde: `General Contact` |
 
 {style="table-layout:auto"}

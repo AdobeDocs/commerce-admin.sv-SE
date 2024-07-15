@@ -16,14 +16,14 @@ Det finns många sätt att använda dolda kategorier. Du kanske vill skapa ytter
 
 ## Skapa dolda kategorier
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** på sidofältet _Admin_.
 
 1. Välj den kategori som du vill dölja i kategoriträdet och gör följande:
 
    - Ange **[!UICONTROL Is Active]** till `Yes`.
    - Ange **[!UICONTROL Include in Menu]** till `No`.
 
-1. I **[!UICONTROL Display Settings]** avsnitt, ange **[!UICONTROL Anchor]** till `No`.
+1. I avsnittet **[!UICONTROL Display Settings]** anger du **[!UICONTROL Anchor]** till `No`.
 
    ![Dold kategori](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
@@ -36,8 +36,8 @@ Det finns många sätt att använda dolda kategorier. Du kanske vill skapa ytter
    >Även om kategorin är dold kan du skapa underkategorier under den och aktivera dem.
 
    - Ange **[!UICONTROL Enable Category]** till `Yes`.
-   - I **[!UICONTROL Display Settings]** avsnitt, ange **[!UICONTROL Anchor]** till `Yes`.
+   - I avsnittet **[!UICONTROL Display Settings]** anger du **[!UICONTROL Anchor]** till `Yes`.
 
    Som aktiva kategorier kan du nu länka till dem från andra platser i din butik, men de visas inte på menyn.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
-description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL B2B Features] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL B2B Features] i Commerce Admin.
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Med installation och aktivering av Adobe Commerce B2B kan köpupplevelsen personaliseras med företagsspecifika funktioner. Adobe Commerce B2B är en integrerad lösning som stöder både B2B- och B2C-modeller. Mer information om B2B-funktionerna finns i [_Användarhandbok för Adobe Commerce B2B_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Med installation och aktivering av Adobe Commerce B2B kan köpupplevelsen personaliseras med företagsspecifika funktioner. Adobe Commerce B2B är en integrerad lösning som stöder både B2B- och B2C-modeller. Mer information om B2B-funktionerna finns i [_Adobe Commerce B2B-användarhandboken_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## [!UICONTROL B2B Features]
 
@@ -39,7 +39,7 @@ När funktionen Företag är aktiverad är ytterligare fält tillgängliga för 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Webbplats | När det här alternativet är aktiverat kan du skapa välstrukturerade kataloger med anpassade priser som är tillgängliga globalt eller begränsade till specifika företag. Alternativ: `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | Webbplats | När _[!UICONTROL Enable Shared Catalog]_fältet är inställt på `Yes`, är det här alternativet tillgängligt. När det här alternativet är aktiverat lagras endast produkter som är tilldelade till en delad katalog i prisindexet. Produkter som inte är tilldelade den delade katalogen visas inte i butiken. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | Webbplats | När fältet _[!UICONTROL Enable Shared Catalog]_är inställt på `Yes` är det här alternativet tillgängligt. När det här alternativet är aktiverat lagras endast produkter som är tilldelade till en delad katalog i prisindexet. Produkter som inte är tilldelade den delade katalogen visas inte i butiken. Alternativ: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Webbplats | När det här alternativet är aktiverat kan företagsköpare skicka en anbudsförfrågan från kundvagnen. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -62,7 +62,7 @@ När funktionen Företag är aktiverad är ytterligare fält tillgängliga för 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Shipping Methods] | Global | Bestämmer valet av leveransmetoder som är tillgängliga som standard för B2B-köpare. Alternativ: `All Shipping Methods` / `Specific Shipping Methods` |
-| [!UICONTROL Shipping Methods] | Global | Anger varje leveransmetod som är tillgänglig som standard för B2B-köpare. <br/>**_Obs!_**Du kan också begränsa leveransmetoderna för en viss [företagskonto](../../b2b/account-companies.md). |
+| [!UICONTROL Shipping Methods] | Global | Anger varje leveransmetod som är tillgänglig som standard för B2B-köpare. <br/>**_Obs!_**Du kan också begränsa leveransmetoderna för ett specifikt [företagskonto](../../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 

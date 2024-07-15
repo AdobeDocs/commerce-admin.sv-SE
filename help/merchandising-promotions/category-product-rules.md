@@ -18,43 +18,43 @@ Kategorireglerna ändrar dynamiskt produkturvalet enligt en uppsättning villkor
 
 >[!TIP]
 >
->Vid inställning av kategoriregel är produkterna _sorterad_, _matchad_, _tilldelad_ och _ej tilldelad_ enligt den regeln **_endast_** när den här kategorin sparas. Om du till exempel lägger till en produkt i katalogen och vill tilldela den enligt regeln, **måste spara om varje kategori** som är inställt på att matcha produkter enligt regel. Om någon produktlagerstatus ändras till `In Stock` eller `Out of Stock` och produkterna i kategorin bör _sorterad_ enligt **[!UICONTROL Automatic Sorting]** regel måste du klicka **[!UICONTROL Save Category]**.
+>Under konfigurationen av kategoriregler sorteras produkterna __, _matchas_, _tilldelas_ och _inte tilldelade_ enligt den regeln **_endast_** när den här kategorin sparas. Om du till exempel lägger till en produkt i katalogen och vill tilldela den enligt regeln, måste du **spara om varje kategori** som är inställd på att matcha produkter enligt regel. Om någon produktStock-status ändras till `In Stock` eller `Out of Stock` och produkterna i kategorin ska vara _sorterade_ enligt regeln **[!UICONTROL Automatic Sorting]** måste du klicka på **[!UICONTROL Save Category]**.
 
-Varje villkor består av en attribut-, value- och logisk operator. Endast attribut med _[[!UICONTROL Use in Product Listing]](../catalog/attribute-product-create.md)_egenskap inställd på `Yes` kan användas i kategoriregler. Du måste ange den här egenskapen för attributet om du vill använda ett attribut som inte finns med i produktlistor. Även om datumattribut inte stöds kan du använda attributen Skapad den eller Ändrad den för att definiera ett datum eller datumintervall. Om du till exempel bara vill ta med produkter som har skapats under den senaste veckan ställer du in &quot;Skapad den&quot; till värdet `<7`.
+Varje villkor består av en attribut-, value- och logisk operator. Endast attribut med egenskapen _[[!UICONTROL Use in Product Listing]](../catalog/attribute-product-create.md)_inställd på `Yes` kan användas i kategoriregler. Du måste ange den här egenskapen för attributet om du vill använda ett attribut som inte finns med i produktlistor. Även om datumattribut inte stöds kan du använda attributen Skapad den eller Ändrad den för att definiera ett datum eller datumintervall. Om du till exempel bara vill inkludera produkter som har skapats under den senaste veckan anger du värdet `<7` för Skapad den.
 
 >[!NOTE]
 >
->Se till att konfigurera varje attribut som används i regeln som en [_smart_ attribute](smart-attributes-configure.md).
+>Se till att konfigurera varje attribut som används i regeln som ett [_smart_-attribut](smart-attributes-configure.md).
 
 ![Kategoriproduktregel](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
 
-Regler för kategoriprodukter kan snabba upp processen att tilldela specifika produkter till kategorier, baserat på villkor som bestämmer vilka produkter som visas i kategorin. De&quot;smarta&quot; attribut som kan användas med kategoriproduktregler anges i [Visual Merchandiser](visual-merchandiser.md) konfiguration.
+Regler för kategoriprodukter kan snabba upp processen att tilldela specifika produkter till kategorier, baserat på villkor som bestämmer vilka produkter som visas i kategorin. De&quot;smarta&quot; attribut som kan användas med kategoriproduktregler anges i [Visual Merchandiser](visual-merchandiser.md) -konfigurationen.
 
 >[!NOTE]
 >
 >Var försiktig när du tillämpar en kategoriproduktregel eftersom produkter som inte uppfyller villkoret tas bort från kategorin. Om du t.ex. skapar en regel som endast innehåller lila tanktoppar tas alla andra tanktoppar bort från kategorin.
 
-## Steg 1: Konfigurera _smart_ attributes
+## Steg 1: Konfigurera attributen _smart_
 
-1. För varje attribut som ska användas i regeln måste du se till att [[!UICONTROL Use in Product Listing]](../catalog/product-attributes.md) egenskapen storefront är inställd på `Yes`.
+1. Kontrollera att egenskapen [[!UICONTROL Use in Product Listing]](../catalog/product-attributes.md) storefront är inställd på `Yes` för varje attribut som ska användas i regeln.
 
    >[!NOTE]
    >
-   >Se till att attributet som du väljer INTE är en multimarkering _[!UICONTROL Input Type]_.
+   >Se till att attributet som du väljer INTE är en multiselect _[!UICONTROL Input Type]_.
 
-1. Slutför [konfiguration](smart-attributes-configure.md) för att identifiera _smart_ som ska användas med Visual Merchandiser.
+1. Slutför [konfigurationen](smart-attributes-configure.md) för att identifiera varje _smart_-attribut som ska användas med Visual Merchandiser.
 
 ## Steg 2: Skapa kategoriregeln
 
 1. Öppna kategorin som ska redigeras i kategoriträdet.
 
-1. I **[!UICONTROL Products in Category]** avsnitt, ange **[!UICONTROL Match products by rule]** till `Yes`.
+1. I avsnittet **[!UICONTROL Products in Category]** anger du **[!UICONTROL Match products by rule]** till `Yes`.
 
    Alternativen för automatisk sortering och villkor visas.
 
 1. Klicka på **[!UICONTROL Add Condition]**.
 
-1. Välj **[!UICONTROL Attribute]** detta är grunden för villkoret.
+1. Välj den **[!UICONTROL Attribute]** som utgör grunden för villkoret.
 
 1. Ange **[!UICONTROL Operator]** till något av följande:
 
@@ -80,7 +80,7 @@ Regler för kategoriprodukter kan snabba upp processen att tilldela specifika pr
 
      >[!NOTE]
      >
-     >När du väljer `AND`gäller regeln för produkter där alla villkor är uppfyllda. När du väljer `OR`gäller den för produkter där minst ett villkor är uppfyllt.
+     >När du väljer `AND` gäller regeln produkter där alla villkor är uppfyllda. När du väljer `OR` gäller det för produkter där minst ett villkor är uppfyllt.
 
    - Ange **[!UICONTROL Date Modified]** till `Greater than 7`.
 
@@ -93,7 +93,7 @@ Regler för kategoriprodukter kan snabba upp processen att tilldela specifika pr
    | Sorteringsalternativ | Beskrivning |
    |-----------| -----------|
    | [!UICONTROL Stock quantity] | Sortera baserat på lager, uppifrån eller ned: `Move low stock to top` eller `Move out of stock to bottom` |
-   | [!UICONTROL Special price] | Sortera baserat på pris, uppifrån och ned: `Special price to top` eller `Special price to bottom` |
+   | [!UICONTROL Special price] | Sortera baserat på pris, uppifrån eller ned: `Special price to top` eller `Special price to bottom` |
    | [!UICONTROL New Products] | Visa de senaste produkterna: `Newest products first` |
    | [!UICONTROL Color] | Sortera i bokstavsordning efter färg: `Sort by color` |
    | [!UICONTROL Product Names] | Sortera efter namn i stigande eller fallande ordning: `Name A - Z` eller `Name Z -A` |
@@ -102,7 +102,7 @@ Regler för kategoriprodukter kan snabba upp processen att tilldela specifika pr
 
    {style="table-layout:auto"}
 
-1. När du är klar klickar du på **[!UICONTROL Save Category]**.
+1. Klicka på **[!UICONTROL Save Category]** när du är klar.
 
 >[!NOTE]
 >
@@ -110,17 +110,17 @@ Regler för kategoriprodukter kan snabba upp processen att tilldela specifika pr
 
 ### Menyalternativ
 
-- **[!UICONTROL Match products by rule]** - Anger om listan med produkter i kategorin genereras dynamiskt av en kategoriregel. Alternativ: `Yes` / `No`
+- **[!UICONTROL Match products by rule]** - Anger om listan med produkter i kategorin dynamiskt genereras av en kategoriregel. Alternativ: `Yes` / `No`
 
-- **[!UICONTROL Automatic Sorting]** - Använder automatiskt en sorteringsordning i listan över kategoriprodukter. Alternativ: `None`, `Move low stock to top`, `Move low stock to bottom`, `Special price to top`, `Special price to bottom`, `Newest products first`, `Sort by color`, `Name: A - Z`, `Name: Z - A`, `SKU: Ascending`, `SKU: Descending`, `Price: High to Low`och `Price: Low to High`
+- **[!UICONTROL Automatic Sorting]** - Använder automatiskt en sorteringsordning i listan med kategoriprodukter. Alternativ: `None`, `Move low stock to top`, `Move low stock to bottom`, `Special price to top`, `Special price to bottom`, `Newest products first`, `Sort by color`, `Name: A - Z`, `Name: Z - A`, `SKU: Ascending`, `SKU: Descending`, `Price: High to Low` och `Price: Low to High`
 
   >[!NOTE]
   >
-  >Om du har en konfigurerbar produkt med underordnade produkter, beräknas den överordnade produkten baserat på den kombinerade summan av underordnade produktlager. Tänk dig ett exempel där du har en konfigurerbar produkt _Proteus Fitness Shirt_ med orange, rött och gula underordnade produkter med olika lagerkvantiteter. Det överordnade produktlagret beräknas baserat på den sammanlagda summan av lager av orangea, röda och gula underordnade produkter. Med `Move low stock to top` kan man beräkna beståndet av överordnade produkter genom att kombinera alla sina säljbara underordnade produkter och sortera dem därefter.
+  >Om du har en konfigurerbar produkt med underordnade produkter, beräknas den överordnade produkten baserat på den kombinerade summan av underordnade produktlager. Tänk dig ett exempel där du har konfigurerbar produkt _Proteus Fitness Shirt_ med orange, röd och gul underordnade produkter med olika lagerkvantiteter. Det överordnade produktlagret beräknas baserat på den sammanlagda summan av lager av orangea, röda och gula underordnade produkter. Med alternativet `Move low stock to top` beräknas beståndet av överordnade produkter genom att alla dess säljbara underordnade produkter kombineras och sorteras därefter.
 
-- **[!UICONTROL Add Condition]** - Lägger till ett annat villkor till regeln.
+- **[!UICONTROL Add Condition]** - Lägger till ett annat villkor i regeln.
 
-- **[!UICONTROL Attribute]** - Bestämmer vilket attribut som används som bas för villkoret. Alternativ:
+- **[!UICONTROL Attribute]** - Bestämmer vilket attribut som används som grund för villkoret. Alternativ:
 
   | Alternativ | Beskrivning |
   | ------ | ----------- |
@@ -137,9 +137,9 @@ Regler för kategoriprodukter kan snabba upp processen att tilldela specifika pr
 
   >[!NOTE]
   >
-  >Kvantiteten för en konfigurerbar produkt med underordnade alternativ beräknas genom att kombinera alla säljbara underordnade produktkvantiteter. Tänk dig ett exempel där du har en konfigurerbar produkt _Grundläggande träningsbehållare_ med färgalternativen lila, rött och gult och olika mängder av varje färg. I det här fallet är kvantiteten för den överordnade produkten (Basic Fitness Tank) den sammanlagda säljbara kvantiteten för de lila, röda och gula underordnade färgprodukterna.
+  >Kvantiteten för en konfigurerbar produkt med underordnade alternativ beräknas genom att kombinera alla säljbara underordnade produktkvantiteter. Tänk dig ett exempel där du har en konfigurerbar produkt, _Grundläggande träningstank_, med färgalternativen lila, rött och gult och olika mängder av varje. I det här fallet är kvantiteten för den överordnade produkten (Basic Fitness Tank) den sammanlagda säljbara kvantiteten för de lila, röda och gula underordnade färgprodukterna.
 
-- **[!UICONTROL Operator]** - Anger den operator som används i attributvärdet för att uppfylla villkoret. Om inte en operator anges, `Equal` används som standard. Alternativ: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to`och `Contains`
+- **[!UICONTROL Operator]** - Anger den operator som används i attributvärdet för att uppfylla villkoret. Om ingen operator anges används `Equal` som standard. Alternativ: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to` och `Contains`
 
 - **[!UICONTROL Value]** - Anger det värde som attributet måste ha för att uppfylla villkoret.
 

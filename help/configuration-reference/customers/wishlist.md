@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Wish List] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Customers] &gt; [!UICONTROL Wish List] i Commerce Admin.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Butiksvy | Aktiverar önskelistemodulen för din butik. Alternativ: `Yes` / `No` |
 | [!UICONTROL Show in Sidebar] | Butiksvy | Anger synlighet för önskelistorna i sidofältet. <br/>Alternativ: `Yes` / `No` |
-| [!UICONTROL Enable Multiple Wish Lists] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) När inställt på `Yes`, gör det möjligt för kunderna att skapa och underhålla flera önskelistor. Alternativ: `Yes` / `No` |
-| [!UICONTROL Number of Multiple Wish Lists] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Om flera önskelistor är aktiverade, bestämmer du det maximala antalet önskelistor som kunder kan ha associerat med sitt konto. |
+| [!UICONTROL Enable Multiple Wish Lists] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Med inställningen `Yes` kan kunder skapa och underhålla flera önskelistor. Alternativ: `Yes` / `No` |
+| [!UICONTROL Number of Multiple Wish Lists] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Om flera önskelistor är aktiverade, avgör det maximala antalet önskelistor som kunder kan ha associerat med sitt konto. |
 
 {style="table-layout:auto"}
 

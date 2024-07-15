@@ -27,9 +27,9 @@ Följande inställningar måste göras på produktnivå och i konfigurationen f�
 
 ## Steg 1: Verifiera tillverkningslandet
 
-Tillverkningslandet krävs för alla produkter som levereras internationellt av USPS och FedEx. Om du har många produkter som ska uppdateras kan du antingen [import](../systems/data-import.md) uppdateringarna eller använd lagerrutnätet för att uppdatera flera poster.
+Tillverkningslandet krävs för alla produkter som levereras internationellt av USPS och FedEx. Om du har många produkter som ska uppdateras kan du antingen [importera](../systems/data-import.md) uppdateringarna eller använda lagerrutnätet för att uppdatera flera poster.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
 1. Uppdatera etikettposten för frakt på något av följande sätt.
 
@@ -37,7 +37,7 @@ Tillverkningslandet krävs för alla produkter som levereras internationellt av 
 
 1. Leta reda på produkten som ska uppdateras i rutnätet och öppna den i redigeringsläge.
 
-1. Uppdatera **Tillverkningsland** efter behov.
+1. Uppdatera **tillverkningslandet** efter behov.
 
    ![Tillverkningsland](./assets/product-country-of-manufacture.png){width="700" zoomable="yes"}
 
@@ -49,9 +49,9 @@ Tillverkningslandet krävs för alla produkter som levereras internationellt av 
 
    Till exempel alla produkter som tillverkas i Kina.
 
-1. Ange **[!UICONTROL Actions]** styra till `Update Attributes` och klicka **[!UICONTROL Submit]**.
+1. Ställ in kontrollen **[!UICONTROL Actions]** på `Update Attributes` och klicka på **[!UICONTROL Submit]**.
 
-1. I _Uppdatera attribut_ formulär, hitta **Tillverkningsland** och välj **Ändra** kryssrutan.
+1. I formuläret _Uppdatera attribut_ letar du reda på fältet **Tillverkningsland** och markerar kryssrutan **Ändra**.
 
 1. Välj land.
 
@@ -59,26 +59,26 @@ Tillverkningslandet krävs för alla produkter som levereras internationellt av 
 
 ## Steg 2 Verifiera butiksinformationen
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Shipping Settings]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Origin]** och verifiera att följande fält är fullständiga:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Origin]** och kontrollera att följande fält är fullständiga:
 
-   - **[!UICONTROL Street Address]** - Gatuadressen till den plats varifrån försändelsen skickas. Till exempel var ditt företag eller lagerställe finns. Det här fältet är obligatoriskt för fraktsetiketter.
-   - **[!UICONTROL Street Address Line 2]** - All ytterligare adressinformation, t.ex. golvet eller ingången. Vi rekommenderar att du använder det här fältet.
+   - **[!UICONTROL Street Address]** - Gatuadressen till den plats varifrån försändelser skickas. Till exempel var ditt företag eller lagerställe finns. Det här fältet är obligatoriskt för fraktsetiketter.
+   - **[!UICONTROL Street Address Line 2]** - All ytterligare adressinformation, till exempel golvet eller ingången. Vi rekommenderar att du använder det här fältet.
 
    ![Ursprung](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
-1. I _Försäljning_ väljer du **[!UICONTROL Delivery Methods]**.
+1. Välj **[!UICONTROL Delivery Methods]** i avsnittet _Försäljning_ i den vänstra panelen.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL USPS]** och verifiera att följande fält är fullständiga:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL USPS]** och kontrollera att följande fält är fullständiga:
 
-   - **[!UICONTROL Secure Gateway URL]** - Systemet matar automatiskt in gateway-URL:en.
+   - **[!UICONTROL Secure Gateway URL]** - Systemet anger automatiskt gateway-URL:en.
    - **[!UICONTROL Password]** - Lösenordet tillhandahålls av USPS och ger dig åtkomst till deras system via webbtjänster.
-   - **Längd, bredd, höjd, Girth** - Paketets standarddimensioner. Ange att fälten ska visas **[!UICONTROL Size]** till `Large`.
+   - **Längd, Bredd, Höjd, Tjocklek** - Paketets standardmått. Om du vill att de här fälten ska visas anger du **[!UICONTROL Size]** till `Large`.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **FedEx** och verifiera att följande fält är fullständiga:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **FedEx** och kontrollera att följande fält är fullständiga:
 
    - Mätarnummer
    - Nyckel
@@ -86,20 +86,20 @@ Tillverkningslandet krävs för alla produkter som levereras internationellt av 
 
    Den här informationen tillhandahålls av leverantören och krävs för att få åtkomst till systemet via webbtjänster.
 
-1. Expandera på den vänstra panelen **[!UICONTROL General]** och välja **[!UICONTROL General]** under.
+1. Expandera **[!UICONTROL General]** i den vänstra panelen och välj **[!UICONTROL General]** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Store Information]** och verifiera att följande fält är fullständiga:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Store Information]** och kontrollera att följande fält är fullständiga:
 
    - **[!UICONTROL Store Name]** - Namnet på butiken eller butiksvyn.
    - **[!UICONTROL Store Contact Telephone]** - Telefonnumret till den primära kontakten för butiks- eller butiksvyn.
-   - **[!UICONTROL Country]** - Det land där din butik finns.
-   - **[!UICONTROL VAT Number]** - I tillämpliga fall, butikens momsregistreringsnummer. (Krävs inte för butiker i USA.)
-   - **[!UICONTROL Store Contact Address]** - Gatuadressen till den primära kontakten för butiken eller butiksvyn.
+   - **[!UICONTROL Country]** - Det land där din butik är baserad.
+   - **[!UICONTROL VAT Number]** - Om tillämpligt, momsregistreringsnumret för moms för din butik. (Krävs inte för butiker i USA.)
+   - **[!UICONTROL Store Contact Address]** - Gatuadressen till den primära kontakten för butiks- eller butiksvyn.
 
-1. Om du har flera butiker och kontaktinformationen skiljer sig från standardinställningen anger du **[!UICONTROL Store View]** för varje och kontrollera att informationen är fullständig.
+1. Om du har flera arkiv och kontaktinformationen skiljer sig från standardinställningen anger du **[!UICONTROL Store View]** för varje och kontrollerar att informationen är fullständig.
 
    Om informationen saknas visas ett fel när du försöker skriva ut etiketterna.
 
-   ![Butiksinformation](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![Lagra information](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Save Config]**.

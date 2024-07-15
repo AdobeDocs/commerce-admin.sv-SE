@@ -1,32 +1,32 @@
 ---
 title: Kategoriprodukttilldelningar
-description: Läs mer om hur du använder [!UICONTROL Products in Category] inställningar som styr vilka produkter som för närvarande är tilldelade kategorin.
+description: Läs om hur du använder inställningarna för [!UICONTROL Products in Category] för att kontrollera vilka produkter som för närvarande är tilldelade till kategorin.
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
 
 # Kategoriprodukttilldelningar
 
-Använd _[!UICONTROL Products in Category]_för att granska de produkter som för närvarande är tilldelade kategorin. Sökfiltren högst upp i varje kolumn används för att lägga till och ta bort produkter från kategorin. Du kan också använda [kategoriregler](../merchandising-promotions/category-product-rules.md) ( ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce) för att dynamiskt ändra produktvalet när en uppsättning villkor uppfylls. Mer information finns på [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
+För en kategori använder du avsnittet _[!UICONTROL Products in Category]_för att granska de produkter som för närvarande är tilldelade till kategorin. Sökfiltren högst upp i varje kolumn används för att lägga till och ta bort produkter från kategorin. Du kan också använda [kategoriregler](../merchandising-promotions/category-product-rules.md) ( ![endast Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce) för att dynamiskt ändra produktvalet när en uppsättning villkor uppfylls. Mer information finns i [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
->Vid inställning av kategoriregel är produkterna _sorterad_, _matchad_, _tilldelad_ och _ej tilldelad_ enligt den regeln **_endast_** när den här kategorin sparas. Om du vill vara säker på att en ny produkt tilldelas enligt regeln när du lägger till den i katalogen **måste spara om varje kategori** som är inställt på att matcha produkter enligt regel. Om någon produktlagerstatus ändras till `In Stock` eller `Out of Stock` och produkterna i kategorin är _sorterad_ enligt **Automatisk sortering** regel måste du klicka **[!UICONTROL Save Category]**.
+>Under konfigurationen av kategoriregler sorteras produkterna __, _matchas_, _tilldelas_ och _inte tilldelade_ enligt den regeln **_endast_** när den här kategorin sparas. För att säkerställa att en ny produkt tilldelas enligt regeln när du lägger till den i katalogen måste du **spara om varje kategori** som är inställd på att matcha produkter enligt regel. Om någon produktStock-status ändras till `In Stock` eller `Out of Stock` och produkterna i kategorin _sorteras_ enligt regeln **Automatisk sortering** måste du klicka på **[!UICONTROL Save Category]**.
 
 ![Kategoriprodukter](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->På kategorisidorna `Out of stock` produkter alltid visas **_efter_** `In Stock` produkter i produktlistan med alla sorteringstyper.
+>På kategorisidorna visas `Out of stock` produkter alltid **_efter_** `In Stock` produkter i produktlistan med alla sorteringstyper.
 
 >[!NOTE]
 >
->The _Stock_ kolumn visar säljbar produktkvantitet för _**valt kategoriomfång**_ endast. När flera lager hanteras för produkter bör du växla mellan motsvarande omfång för att visa andra _Stock_ kolumnvärden i _Kategoriprodukter_ rutnät.
+>I kolumnen _Stock_ visas endast säljbar produktkvantitet för _**valt kategoriomfång**_. När flera lager hanteras för produkter bör du växla mellan motsvarande omfång för att visa andra _Stock_-kolumnvärden i rutnätet _Kategoriprodukter_.
 
 ## Använd en kategoriregel
 
@@ -38,22 +38,22 @@ Använd _[!UICONTROL Products in Category]_för att granska de produkter som fö
 
    ![Matcha produkter efter regel](./assets/category-match-products-by-rule.png){width="600" zoomable="yes"}
 
-1. Ange **[!UICONTROL Automatic Sorting]** beställa.
+1. Ange ordningen **[!UICONTROL Automatic Sorting]**.
 
    Den här automatiska sorteringen baseras på aktuella förhållanden.
 
    - `Stock level` - Flytta uppåt eller nedåt.
    - `Special price` - Flytta uppåt eller nedåt.
-   - `New Products` - Visa de nyaste produkterna först.
+   - `New Products` - Visa de senaste produkterna först.
    - `Color` - Sortera i bokstavsordning efter färg.
    - `Name` - Sortera i stigande eller fallande ordning efter namn.
    - `SKU` - Sortera i stigande eller fallande ordning efter SKU
    - `Price` - Sortera i stigande eller fallande ordning efter pris.
 
-1. Klicka **[!UICONTROL Add Condition]** och gör följande:
+1. Klicka på **[!UICONTROL Add Condition]** och gör följande:
 
-   - Välj **[!UICONTROL Attribute]** detta är grunden för villkoret.
-   - Välj **[!UICONTROL Operator]** krävs för att bilda uttrycket.
+   - Välj den **[!UICONTROL Attribute]** som utgör grunden för villkoret.
+   - Välj **[!UICONTROL Operator]** som krävs för att bilda uttrycket.
    - Ange **[!UICONTROL Value]** som ska matchas.
 
    ![Lägg till villkor i kategoriregel](./assets/category-rule-create.png){width="600" zoomable="yes"}
@@ -64,7 +64,7 @@ Använd _[!UICONTROL Products in Category]_för att granska de produkter som fö
    - Ange **[!UICONTROL Logic]** till `AND`.
    - Ange **[!UICONTROL Date Modified]** till `Greater than 7`.
 
-1. När du är klar klickar du på **[!UICONTROL Save Category]**.
+1. Klicka på **[!UICONTROL Save Category]** när du är klar.
 
 ### Sidalternativ
 
@@ -80,8 +80,8 @@ Använd _[!UICONTROL Products in Category]_för att granska de produkter som fö
 
 | Alternativ | Beskrivning |
 |--- |--- |
-| [!UICONTROL Attribute] | Anger det attribut som används som bas för villkoret. Alternativ: <br/>**[!UICONTROL Clone Category ID(s)]**- Klonar dynamiskt produkter, utan sortering och ordning, från flera kategorier baserade på kategori-ID.<br/>**[!UICONTROL Color]** - Innehåller produkter baserade på färg. <br/>**[!UICONTROL Date Created (days ago)]**- Inkluderar produkter baserat på antalet dagar sedan produkterna lades till i katalogen.<br/>**[!UICONTROL Date Modified (days ago)]** - Inkluderar produkter baserat på antalet dagar sedan produkterna senast ändrades. <br/>**[!UICONTROL Name]**- Inkluderar produkter baserat på produktnamnet.<br/>**[!UICONTROL Price]** - Inkluderar produkter baserade på pris. <br/>**[!UICONTROL Quantity]**- Inkluderar produkter baserat på lagerkvantiteten.<br/>** SKU **- Innehåller produkter baserade på SKU. |
-| [!UICONTROL Operator] | Anger den operator som används i attributvärdet för att uppfylla villkoret. Om inte en operator anges, `Equal` används som standard. Alternativ: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
+| [!UICONTROL Attribute] | Anger det attribut som används som bas för villkoret. Alternativ: <br/>**[!UICONTROL Clone Category ID(s)]**- Klonar produkter dynamiskt, utan sortering och ordning, från flera kategorier baserat på kategori-ID.<br/>**[!UICONTROL Color]** - Inkluderar produkter baserade på färg. <br/>**[!UICONTROL Date Created (days ago)]**- Inkluderar produkter baserat på antalet dagar sedan produkterna lades till i katalogen.<br/>**[!UICONTROL Date Modified (days ago)]** - Inkluderar produkter baserat på antalet dagar sedan produkterna senast ändrades. <br/>**[!UICONTROL Name]**- Inkluderar produkter baserat på produktnamnet.<br/>**[!UICONTROL Price]** - Inkluderar produkter baserat på pris. <br/>**[!UICONTROL Quantity]**- Inkluderar produkter baserat på lagerkvantiteten.<br/>** SKU **- Innehåller produkter baserade på SKU. |
+| [!UICONTROL Operator] | Anger den operator som används i attributvärdet för att uppfylla villkoret. Om ingen operator anges används `Equal` som standard. Alternativ: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | Anger det värde som attributet måste ha för att uppfylla villkoret. |
 | [!UICONTROL Logic] | Används för att definiera flera villkor och visas bara när ett annat villkor läggs till. Alternativ: `OR` / `AND` |
 
@@ -89,7 +89,7 @@ Använd _[!UICONTROL Products in Category]_för att granska de produkter som fö
 
 >[!NOTE]
 >
->Kvantiteten för en konfigurerbar produkt med underordnade alternativ beräknas genom att kombinera alla säljbara underordnade produktkvantiteter. Ta ett exempel på en konfigurerbar produkt _Tank för uthållighetsträning_ med färgalternativen lila, rött och gult och olika mängder av varje färg. I det här scenariot är den överordnade produktkvantiteten den sammanlagda försäljningsbara kvantiteten för de lila, röda och gula underordnade produkterna.
+>Kvantiteten för en konfigurerbar produkt med underordnade alternativ beräknas genom att kombinera alla säljbara underordnade produktkvantiteter. Ta ett exempel på en konfigurerbar produkt _Endurance Fitness Tank_ med färgalternativen lila, röd och gul och olika mängder av varje. I det här scenariot är den överordnade produktkvantiteten den sammanlagda försäljningsbara kvantiteten för de lila, röda och gula underordnade produkterna.
 
 ## Kontroller
 
@@ -104,8 +104,8 @@ Använd _[!UICONTROL Products in Category]_för att granska de produkter som fö
 | ![Visa som rutor](../assets/icon-view-tiles.png) | Visa som rutor |
 | ![Växla inte](../assets/toggle-no.png) | Matcha enligt regel - Nej |
 | ![Växla ja](../assets/toggle-yes.png) | Matcha enligt regel - Ja |
-| ![Flytta kontrollenhet](../assets/icon-move.png) | Med dra-och-släpp-kontrollen kan du ta tag i en produkt och flytta den till en annan plats på stödrastrets aktuella sida. Mer information finns på [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md). |
-| ![Positionskontroll](../assets/control-position.png) | Bestämmer produktens position i listan. |
+| ![Flytta kontrollenhet](../assets/icon-move.png) | Med dra-och-släpp-kontrollen kan du ta tag i en produkt och flytta den till en annan plats på stödrastrets aktuella sida. Mer information finns i [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md). |
+| ![Positionskontrollen](../assets/control-position.png) | Bestämmer produktens position i listan. |
 
 {style="table-layout:auto"}
 

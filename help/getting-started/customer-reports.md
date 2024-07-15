@@ -16,13 +16,13 @@ Kundrapporter ger insikt i kundaktivitet under en viss tidsperiod eller ett viss
 
 ## [!UICONTROL Order Total Report]
 
-The [!UICONTROL Order Total Report] visar kundorder för ett angivet tidsintervall eller datumintervall. Rapporten innehåller antalet order per kund, genomsnittligt orderbelopp och totalt belopp.
+[!UICONTROL Order Total Report] visar kundorder för ett angivet tidsintervall eller datumintervall. Rapporten innehåller antalet order per kund, genomsnittligt orderbelopp och totalt belopp.
 
-På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**på sidofältet_ Admin _.
 
-![Summarapport för order](./assets/customers-order-total.png){width="600"}
+![Ordersummeringsrapport](./assets/customers-order-total.png){width="600"}
 
-### Arbetsytekontroller
+### Workspace
 
 | Kontroll | Beskrivning |
 |--- |--- |
@@ -38,23 +38,23 @@ På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL C
 
 | Kolumn | Beskrivning |
 |--- |--- |
-| [!UICONTROL Interval] | Totalt orderintervall, efter `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | Totalt orderintervall, av `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Namnet på den kund som lade beställningarna. |
 | [!UICONTROL Orders] | Antalet order för det angivna intervallet. |
-| [!UICONTROL Average] | Genomsnittligt orderbelopp. Detta belopp beräknas alltid för produktpriser **exklusive moms** även om katalogproduktpriserna, orderdelsumman och ordersumman omfattar moms. Det innebär att det belopp som visas i rapporten skiljer sig från det belopp som visas i orderinformationen om ordersummorna inkluderar moms. |
-| [!UICONTROL Total] | Summan av alla order för perioden. Detta belopp beräknas alltid för produktpriser **exklusive moms** även om katalogproduktpriserna, orderdelsumman och ordersumman omfattar moms. Resultatet blir att summan som visas i rapporten skiljer sig från det belopp som visas i orderdetaljerna om ordersummorna inkluderar moms. |
+| [!UICONTROL Average] | Genomsnittligt orderbelopp. Detta belopp beräknas alltid för produktpriser **exklusive moms**, även om katalogproduktpriser, orderdelsumma och ordersumma inkluderar moms. Det innebär att det belopp som visas i rapporten skiljer sig från det belopp som visas i orderinformationen om ordersummorna inkluderar moms. |
+| [!UICONTROL Total] | Summan av alla order för perioden. Detta belopp beräknas alltid för produktpriser **exklusive moms**, även om katalogproduktpriser, orderdelsumma och ordersumma inkluderar moms. Resultatet blir att summan som visas i rapporten skiljer sig från det belopp som visas i orderdetaljerna om ordersummorna inkluderar moms. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Count Report]
 
-The [!UICONTROL Order Count Report] visar antalet order per kund för ett angivet tidsintervall eller datumintervall. Rapporten innehåller antalet order per kund, genomsnittligt orderbelopp och totalt belopp.
+[!UICONTROL Order Count Report] visar antalet order per kund för ett angivet tidsintervall eller datumintervall. Rapporten innehåller antalet order per kund, genomsnittligt orderbelopp och totalt belopp.
 
-På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**på sidofältet_ Admin _.
 
 ![Orderräkningsrapport](./assets/customer-order-count.png){width="600"}
 
-### Arbetsytekontroller
+### Workspace
 
 | Kontroll | Beskrivning |
 |--- |--- |
@@ -70,23 +70,23 @@ På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL C
 
 | Kolumn | Beskrivning |
 |--- |--- |
-| [!UICONTROL Interval] | Antalet order, efter `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | Intervall för orderantal, av `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Kunden som gjorde beställningen. |
 | [!UICONTROL Orders] | Antalet order för det angivna intervallet. |
-| [!UICONTROL Average] | Genomsnittligt orderbelopp. Detta belopp beräknas alltid för produktpriser **exklusive moms** även om katalogproduktpriserna, orderdelsumman och ordersumman omfattar moms. Det innebär att det belopp som visas i rapporten skiljer sig från det belopp som visas i orderinformationen om ordersummorna inkluderar moms. |
-| [!UICONTROL Total] | Summan av alla order för perioden. Detta belopp beräknas alltid för produktpriser **exklusive moms** även om katalogproduktpriserna, orderdelsumman och ordersumman omfattar moms. Resultatet blir att det belopp som visas i rapporten skiljer sig från det belopp som visas i orderdetaljerna om ordersummorna inkluderar uppgifter. |
+| [!UICONTROL Average] | Genomsnittligt orderbelopp. Detta belopp beräknas alltid för produktpriser **exklusive moms**, även om katalogproduktpriser, orderdelsumma och ordersumma inkluderar moms. Det innebär att det belopp som visas i rapporten skiljer sig från det belopp som visas i orderinformationen om ordersummorna inkluderar moms. |
+| [!UICONTROL Total] | Summan av alla order för perioden. Detta belopp beräknas alltid för produktpriser **exklusive moms**, även om katalogproduktpriser, orderdelsumma och ordersumma inkluderar moms. Resultatet blir att det belopp som visas i rapporten skiljer sig från det belopp som visas i orderdetaljerna om ordersummorna inkluderar uppgifter. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL New Accounts Report]
 
-The [!UICONTROL New Accounts Report] visar antalet nya kundkonton som öppnats under ett angivet tidsintervall eller datumintervall.
+[!UICONTROL New Accounts Report] visar antalet nya kundkonton som öppnats under ett angivet tidsintervall eller datumintervall.
 
-På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**på sidofältet_ Admin _.
 
 ![Rapport om nya konton](./assets/customers-new-accounts.png){width="600"}
 
-### Arbetsytekontroller
+### Workspace
 
 | Kontroll | Beskrivning |
 |--- |--- |
@@ -111,13 +111,13 @@ På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL C
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce)
 
-The [!UICONTROL Customer Wish List Report] innehåller information om kundernas önskelistor.
+[!UICONTROL Customer Wish List Report] innehåller information om kundernas önskelistor.
 
-På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**på sidofältet_ Admin _.
 
 ![Önsklisterapport](./assets/customer-wish-list.png){width="600"}
 
-### Arbetsytekontroller
+### Workspace
 
 | Kontroll | Beskrivning |
 |--- |--- |
@@ -151,13 +151,13 @@ På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL C
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce)
 
-The [!UICONTROL Customer Segment Report] ger information om antalet kunder i varje segment.
+[!UICONTROL Customer Segment Report] ger information om antalet kunder i varje segment.
 
-På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**på sidofältet_ Admin _.
 
 ![Segmentrapport](./assets/customers-segments.png){width="600"}
 
-### Arbetsytekontroller
+### Workspace
 
 | Kontroll | Beskrivning |
 |--- |--- |

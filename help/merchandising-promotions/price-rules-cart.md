@@ -18,23 +18,23 @@ Kundprisreglerna tillämpar rabatter på artiklar i kundvagnen, baserat på en u
 >
 >Om kupongregeln innehåller villkor som anger utcheckningsalternativ, t.ex. vissa leverans- eller betalningsmetoder, uppfylls villkoren endast i utcheckning när de specifika leverans-/betalningsmetoderna har valts. I så fall kan kupongen användas vid utcheckning i det sista steget.
 
-![Exempel på butik - kundvagn anv. kupong](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
+![Exempel på butiksskylt - kundvagnskupong](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
 
 ## Få tillgång till kundvagnsprisregler
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**på sidofältet_ Admin _.
 
    ![Kundprisregel](./assets/price-rule-cart.png){width="700" zoomable="yes"}
 
 1. Om du har många regler använder du filteralternativen längst upp i varje kolumn för att effektivisera listan och klickar på **[!UICONTROL Search]** för att tillämpa filtren.
 
-1. Om du vill ta bort alla filteralternativ och visa hela listan klickar du på **[!UICONTROL Reset Filter]**.
+1. Om du vill rensa alla filteralternativ och visa hela listan klickar du på **[!UICONTROL Reset Filter]**.
 
 1. Uppdatera egenskaper för en regel:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Klicka på **[!UICONTROL Edit]** för att visa sidan Regelinformation.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Klicka på **[!UICONTROL Edit]** för att visa sidan Regelinformation.
 
-   - ![Magento Open Source](../assets/open-source.svg) (Endast Magento Open Source) Klicka på regeln i listan för att visa sidan Regelinformation.
+   - ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Klicka på regeln i listan för att visa sidan Regelinformation.
 
    Där kan du ändra inställningarna för linjen (ungefär som när du skapar en regel).
 
@@ -48,12 +48,12 @@ Kundprisreglerna tillämpar rabatter på artiklar i kundvagnen, baserat på en u
 | [!UICONTROL Priority] | Fritextfält som filtrerar listan baserat på den prioritet som har definierats för en regel. |
 | [!UICONTROL Status] | Använd det här alternativet om du vill filtrera listan baserat på regelstatus (`Active` eller `Inactive`). |
 | [!UICONTROL Web Site] | Använd det här alternativet om du vill filtrera listan baserat på webbplatser som definierats för en regel. |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (Endast Adobe Commerce) Klicka på **[!UICONTROL Edit]** för att visa _[!UICONTROL Rule Information]_och uppdatera regelinställningarna (ungefär som att skapa en regel). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (Endast Magento Open Source) Använd fält i den dynamiska kalendern (_[!UICONTROL To:]_och_[!UICONTROL From:]_) om du vill filtrera listan baserat på regelns startdatum som det definierades när regeln skapades. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (Endast Magento Open Source) Använd fält i den dynamiska kalendern (_[!UICONTROL To:]_och_[!UICONTROL From:]_) om du vill filtrera listan baserat på slutdatumet för regeln enligt definitionen när regeln skapades. |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Klicka på **[!UICONTROL Edit]** för att visa sidan _[!UICONTROL Rule Information]_och uppdatera regelinställningarna (ungefär som att skapa en regel). |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Använd de dynamiska kalenderfälten (_[!UICONTROL To:]_och_[!UICONTROL From:]_) för att filtrera listan baserat på regelns startdatum så som det definierades när regeln skapades. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Använd de dynamiska kalenderfälten (_[!UICONTROL To:]_och_[!UICONTROL From:]_) för att filtrera listan baserat på slutdatumet för regeln som definierades när regeln skapades. |
 
 {style="table-layout:auto"}
 
 ## Använd Real-Time CDP målgrupper för att informera om kundvagnsregler
 
-Lär dig hur [activate](../customers/audience-activation.md) Real-Time CDP målgrupper i er Adobe Commerce-instans för att informera om kundprisregler.
+Lär dig hur du [aktiverar](../customers/audience-activation.md) Real-Time CDP-målgrupper i din Adobe Commerce-instans för att informera om kundprisregler.

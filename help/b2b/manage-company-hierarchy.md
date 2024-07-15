@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 source-git-commit: 6ec075d9cbce41ebc056e631b1ae7b4f2749c161
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -19,20 +19,20 @@ Funktionen för företagshantering effektiviserar affärsverksamheten för före
 
 Bygg en företagshierarki från sidan Företagsinformation.
 
-![Företagsrutnät](./assets/company-detail-view.png){width="700" zoomable="yes"}
+![Företagsstödraster](./assets/company-detail-view.png){width="700" zoomable="yes"}
 
 ## Öppna sidan med företagsinformation
 
-1. Från _Administratör_ sidebar, gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]** från sidofältet _Admin_.
 
-1. Öppna företagsinformationssidan i företagsrutnätet för det överordnade företaget genom att välja **[!UICONTROL Edit]** åtgärd.
+1. Öppna företagsinformationssidan i företagsrutnätet för det överordnade företaget genom att välja åtgärden **[!UICONTROL Edit]**.
 
-Se [Hantera företagskonton](account-company-manage.md) om du vill ha mer information om företagsrutnätet.
+Mer information om företagsrutnätet finns i [Hantera företagskonton](account-company-manage.md).
 
 ## [!UICONTROL Company Hierarchy]
 
-När man började skapa ett företag [!UICONTROL Company Hierarchy] stödrastret är tomt när du expanderar det. När ett företag har skapats kan administratörsanvändare med lämplig behörighet använda [!UICONTROL Company Hierarchy] att bygga upp en överordnad företagsorganisation genom att redigera det utsedda överordnade företaget och tilldela närstående företag.
+När du skapar det första företaget är stödrastret [!UICONTROL Company Hierarchy] tomt när du expanderar det. När ett företag har skapats kan administratörsanvändare med lämplig behörighet använda [!UICONTROL Company Hierarchy] för att skapa en överordnad företagsorganisation genom att redigera det utsedda överordnade företaget och tilldela relaterade företag.
 
-![Stödraster för företagshierarki](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+![Företagshierarkistödraster](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-Se [tilldela och ta bort tilldelning av företag](assign-companies.md) för mer information om tillgängliga åtgärder i [!UICONTROL Company Hierarchy] rutnät.
+Mer information om tillgängliga åtgärder i stödrastret [!UICONTROL Company Hierarchy] finns i [Tilldela och ta bort företagstilldelning](assign-companies.md).

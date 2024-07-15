@@ -1,16 +1,16 @@
 ---
-title: "Konfigurera [!DNL Inventory Management] bakgrunder"
+title: "Konfigurera [!DNL Inventory Management] bakordrar"
 description: Lär dig hur du konfigurerar efterbeställningar för att stödja försäljning av färdiga produkter.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
 
-# Konfigurera [!DNL Inventory Management] bakgrunder
+# Konfigurera [!DNL Inventory Management] bakordrar
 
 Med restorder kan din butik fortsätta sälja produkter när kvantiteten är noll eller ligger utanför lagret. När en kundorder är en restorder godkänns och hämtas medlen omedelbart, orderns bearbetningsstatus ändras inte och leveransen är spärrad tills lagret är tillgängligt.
 
@@ -39,15 +39,15 @@ Följande är ett exempel:
 
 Försäljningsmängden för den här produkten är `75 (25 - (-50))`.
 
-![Exempel på säljbart antal innan restorder har aktiverats](assets/inventory-backorders-before.png){width="600" zoomable="yes"}
+![Exempel på säljbar kvantitet före restorder aktiverat](assets/inventory-backorders-before.png){width="600" zoomable="yes"}
 
-![Exempel på säljbart antal efter att restorder har aktiverats](assets/inventory-backorders-after.png){width="600" zoomable="yes"}
+![Exempel på säljbar kvantitet efter att restorder har aktiverats](assets/inventory-backorders-after.png){width="600" zoomable="yes"}
 
-När kunderna köper de tillgängliga 25 produkterna läggs nya order in som restorder. Eftersom produktens säljbara kvantitet minskar till 5 (70 artiklar har sålts), är _Produkt_ sidan visar ett meddelande `Only 5 left` på butiken. När den säljbara kvantiteten når `0`visas produkten som `Out of Stock` i butiken.
+När kunderna köper de tillgängliga 25 produkterna läggs nya order in som restorder. När produktens säljbara kvantitet minskar till 5 (70 artiklar har sålts) visar sidan _Produkt_ ett meddelande `Only 5 left` i butiken. När den säljbara kvantiteten når `0` visas produkten som `Out of Stock` i butiken.
 
 >[!NOTE]
 >
->När en kund gör en beställning med _[!UICONTROL backorder qty]_, [!DNL Inventory Management] automatiskt subtraherar kvantiteten från den säljbara kvantiteten. Om en order inte har levererats och annullerats returneras kvantiteten till den aggregerade virtuella försäljningsbara kvantiteten. The **_annullerad orderkvantitet har inte tilldelats någon av källorna_**, men returneras till det totala antalet produkter som är tillgängliga för försäljning (_[!UICONTROL Salable Quantity]_ -kolumnen i produktrutnätet).
+>När en kund gör en beställning med hjälp av _[!UICONTROL backorder qty]_subtraherar [!DNL Inventory Management] automatiskt kvantiteten från den försäljningsbara kvantiteten. Om en order inte har levererats och annullerats returneras kvantiteten till den aggregerade virtuella försäljningsbara kvantiteten. Den **_annullerade orderkvantiteten har inte tilldelats någon av källorna_**, utan returneras till det totala antalet produkter som är tillgängliga för försäljning (_[!UICONTROL Salable Quantity]_ kolumn i produktrutnätet).
 
 <!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
@@ -55,21 +55,21 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 ### Lagerstatus
 
-Produkterna måste anges till `In Stock` status när du aktiverar restorder. Du kan ange det här värdet från _Produkt_ sida. För handlare med flera källor måste du ha minst en källa markerad som `In Stock`. Få åtkomst till och ange status via _Produkt_ sida och tilldelad _Källor_ rutnät.
+Produkterna måste anges till `In Stock`-status när backorder aktiveras. Du kan ange det här värdet från sidan _Produkt_. För handlare med flera källor måste du ha minst en källa markerad som `In Stock`. Få åtkomst till och ange status via sidan _Produkt_ och rutnätet _Källor_ .
 
 ## Konfigurera restorder globalt
 
 Dessa steg möjliggör restorder för alla produkter på webbplatsnivå.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Ange **[!UICONTROL Store View]** till `Default Config`.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Catalog]** och välja **[!UICONTROL Inventory]**.
+1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Inventory]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Product Stock Options]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Product Stock Options]**.
 
-1. För **[!UICONTROL Backorders]** avmarkera **[!UICONTROL Use system value]** och välj ett alternativ:
+1. För **[!UICONTROL Backorders]** avmarkerar du kryssrutan **[!UICONTROL Use system value]** och väljer ett alternativ:
 
    | Alternativ | Beskrivning |
    | -- | -- |
@@ -77,13 +77,13 @@ Dessa steg möjliggör restorder för alla produkter på webbplatsnivå.
    | `Allow Qty Below 0` | Att acceptera restorder när kvantiteten är under noll. |
    | `Allow Qty Below 0 and Notify Customer` | Om du vill acceptera restorder när kvantiteten är under noll och meddela kunden att ordern fortfarande kan läggas. |
 
-1. För **[!UICONTROL Out-of-Stock Threshold]** avmarkera **[!UICONTROL Use system value]** och ange ett annat belopp.
+1. För **[!UICONTROL Out-of-Stock Threshold]** avmarkerar du kryssrutan **[!UICONTROL Use system value]** och anger ett annat värde.
 
    | Värde | Beskrivning |
    | -- | -- |
    | Positivt belopp | Om du har inaktiverat Restorder anger du ett positivt värde. |
-   | Noll | Med Restorder aktiverat, går `0` ger oändliga efterbeställningar. |
-   | Negativt belopp | Om du aktiverar Restorder bör du ange ett negativt värde. Beloppet läggs till i den säljbara kvantiteten. Skriv till exempel `-50` för att tillåta order upp till detta belopp. |
+   | Noll | Om du aktiverar Restorder kan du ange `0` för oändliga backorder. |
+   | Negativt belopp | Om du aktiverar Restorder bör du ange ett negativt värde. Beloppet läggs till i den säljbara kvantiteten. Ange till exempel `-50` om du vill tillåta order upp till detta belopp. |
 
 1. Klicka på **[!UICONTROL Save Config]**.
 
@@ -91,17 +91,17 @@ Dessa steg möjliggör restorder för alla produkter på webbplatsnivå.
 
 Produktnivåkonfigurationer åsidosätter globala konfigurationer. Du kanske vill konfigurera restorder på produktnivå för att åsidosätta inställningarna på den globala butiken eller källnivån. Butiken kan till exempel ha global support för restorder. Med produktinställningar kan du inaktivera efterbeställningar eller ändra värdet för Ej lagrad utan att påverka andra produkter och källor.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
-1. Öppna en produkt i **[!UICONTROL Edit]** läge och rulla nedåt på sidan till _[!UICONTROL Sources]_område.
+1. Öppna en produkt i **[!UICONTROL Edit]**-läge och rulla nedåt på sidan till _[!UICONTROL Sources]_-området.
 
-   För produkter som konfigurerats utan [!DNL Inventory Management]visas inte fliken. The `Advanced Inventory` visas under _[!UICONTROL Quantity]_fält.
+   Fliken visas inte för produkter som konfigurerats utan [!DNL Inventory Management]. Knappen `Advanced Inventory` visas under fältet _[!UICONTROL Quantity]_.
 
 1. Klicka på **[!UICONTROL Advanced Inventory]**.
 
-   Den här åtgärden visar en sida med produktspecifika konfigurationer. Alla inställningar visas som `global` visar den aktuella globala inställningen för butiken.
+   Den här åtgärden visar en sida med produktspecifika konfigurationer. Alla inställningar som anges som `global` visar den aktuella globala inställningen för butiken.
 
-1. För **[!UICONTROL Backorders]** avmarkera **[!UICONTROL Use Config Setting]** och välj ett alternativ:
+1. För **[!UICONTROL Backorders]** avmarkerar du kryssrutan **[!UICONTROL Use Config Setting]** och väljer ett alternativ:
 
    | Alternativ | Beskrivning |
    | -- | -- |
@@ -109,14 +109,14 @@ Produktnivåkonfigurationer åsidosätter globala konfigurationer. Du kanske vil
    | `Allow Qty Below 0` | Att acceptera restorder när kvantiteten är under noll. |
    | `Allow Qty Below 0 and Notify Customer` | Om du vill acceptera restorder när kvantiteten är under noll och meddela kunden att ordern fortfarande kan läggas. |
 
-1. För **[!UICONTROL Out-of-Stock Threshold]** avmarkera **[!UICONTROL Use Config Setting]** och ange ett belopp:
+1. För **[!UICONTROL Out-of-Stock Threshold]** avmarkerar du kryssrutan **[!UICONTROL Use Config Setting]** och anger ett belopp:
 
    | Värde | Beskrivning |
    | -- | -- |
    | Positivt belopp | Om du har inaktiverat Restorder anger du ett positivt värde. |
-   | Noll | Med Restorder aktiverat, går `0` ger oändliga efterbeställningar. |
-   | Negativt belopp | Om du aktiverar Restorder bör du ange ett negativt värde. Beloppet läggs till i den säljbara kvantiteten. Skriv till exempel `-50` för att tillåta order upp till detta belopp. |
+   | Noll | Om du aktiverar Restorder kan du ange `0` för oändliga backorder. |
+   | Negativt belopp | Om du aktiverar Restorder bör du ange ett negativt värde. Beloppet läggs till i den säljbara kvantiteten. Ange till exempel `-50` om du vill tillåta order upp till det beloppet. |
 
    ![Avancerat lager konfigurerat för restorder](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Done]** och sedan **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Done]** och sedan på **[!UICONTROL Save]**.

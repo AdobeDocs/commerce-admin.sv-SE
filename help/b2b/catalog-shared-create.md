@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Skapa en delad katalog
 
-När en [delad katalog](catalog-shared.md) skapas skapas skapas en [kundgrupp](account-company-customer-group.md) med samma namn. Om du till exempel skapar en delad katalog som kallas _ABC-katalog_ skapar systemet också en motsvarande _ABC-katalog_ kundgrupp. Att tilldela ett företag till den delade anpassade katalogen är i stort sett detsamma som att tilldela dem till en kundgrupp.
+När en [delad katalog](catalog-shared.md) skapas skapas automatiskt en [kundgrupp](account-company-customer-group.md) med samma namn. Om du till exempel skapar en delad katalog med namnet _ABC-katalog_ skapas även en motsvarande _ABC-kataloggrupp_. Att tilldela ett företag till den delade anpassade katalogen är i stort sett detsamma som att tilldela dem till en kundgrupp.
 
 En ny delad katalog innehåller inte produkter, specialpriser eller företagsassociationer. En offentlig katalog, som är standardkatalogen som skapas när delade kataloger är aktiverade, tilldelas automatiskt till gäster och kunder som inte är associerade med ett företag.
 
@@ -28,17 +28,17 @@ Följande aspekter av en delad katalog måste konfigureras innan den kan använd
 
 ## Prisområde
 
-Om du har en multisiteinstallation måste du konfigurera prisomfattningen innan du skapar dina delade kataloger. The [prisomfång](../catalog/catalog-price-scope.md) kan anges till `Global` eller `Website`. Den kan dock bara ställas in i början av installationsprocessen. Webbplatsväljaren visas under steg 2 i [inställningar för delad katalog](catalog-shared-pricing-structure.md).
+Om du har en multisiteinstallation måste du konfigurera prisomfattningen innan du skapar dina delade kataloger. Prisomfattningen [för ](../catalog/catalog-price-scope.md) kan anges till `Global` eller `Website`. Den kan dock bara ställas in i början av installationsprocessen. Webbplatsväljaren visas under steg 2 i [konfigurationen för delad katalog](catalog-shared-pricing-structure.md).
 
-![Webbplatsväljare](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
+![Webbplatsväljaren](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **Katalog** och välja **Katalog** under.
+1. Expandera **Katalog** i den vänstra panelen och välj **Katalog** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **Pris** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **Pris**.
 
-1. Ange **Katalogprisomfång** till `Website`.
+1. Ange **katalogprisomfånget** till `Website`.
 
    ![Katalogprisomfång](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
@@ -50,11 +50,11 @@ Det finns två sätt att skapa en delad katalog. Du kan skapa en delad katalog a
 
 ### Metod 1: Lägg till en ny delad katalog
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]** på sidofältet _Admin_.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add Shared Catalog]** och gör följande:
+1. Klicka på **[!UICONTROL Add Shared Catalog]** i det övre högra hörnet och gör följande:
 
-   - Ange en **[!UICONTROL Name]** för den delade katalogen.
+   - Ange **[!UICONTROL Name]** för den delade katalogen.
 
      Det namn du tilldelar används i hela Admin- och kundkontrollpanelen, om tillämpligt, för att referera till den delade katalogen. Det blir också namnet på motsvarande kundgrupp.
 
@@ -62,29 +62,29 @@ Det finns två sätt att skapa en delad katalog. Du kan skapa en delad katalog a
 
    - Välj lämplig **[!UICONTROL Customer Tax Class]** som gäller för köp som görs från den delade katalogen.
 
-     Mer information om inställningar och definitioner för momsklasser finns i [Skatteklasser](../stores-purchase/tax-class.md).
+     Mer information om inställning och definition av momsklass finns i [Skatteklasser](../stores-purchase/tax-class.md).
 
      I följande exempel visas en ny anpassad katalog för en viss grossistkund.
 
      ![Ny delad katalog](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
 
-   - Retur **[!UICONTROL Description]**
+   - Ange **[!UICONTROL Description]**
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
-   Den nya katalogen visas i _[!UICONTROL Shared Catalogs]_rutnät.
+   Den nya katalogen visas i rutnätet _[!UICONTROL Shared Catalogs]_.
 
 ### Metod 2: Duplicera en befintlig delad katalog
 
-En dubblett av en anpassad katalog behåller prismodellen och strukturen för den ursprungliga katalogen, men inte företagsorganisationerna. En motsvarande kundgrupp skapas också med samma namn som den duplicerade katalogen. Som standard har en duplicerad katalog samma namn _Duplicera_ den ursprungliga katalogen.
+En dubblett av en anpassad katalog behåller prismodellen och strukturen för den ursprungliga katalogen, men inte företagsorganisationerna. En motsvarande kundgrupp skapas också med samma namn som den duplicerade katalogen. Som standard får den ursprungliga katalogen namnet _Duplicera_ för en dubblettkatalog.
 
 Om en offentlig delad katalog dupliceras, ändras typen för den duplicerade katalogen till `custom`.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]** på sidofältet _Admin_.
 
-1. För den delade katalogen i rutnätet som du vill duplicera går du till **[!UICONTROL Action]** kolumn och markera **[!UICONTROL General Settings]**.
+1. För den delade katalogen i rutnätet som du vill duplicera går du till kolumnen **[!UICONTROL Action]** och väljer **[!UICONTROL General Settings]**.
 
-1. Klicka på i alternativen längst upp på sidan **[!UICONTROL Duplicate]**.
+1. Klicka på **[!UICONTROL Duplicate]** i alternativen längst upp på sidan.
 
    ![Duplicera delad katalog](./assets/shared-catalog-duplicate.png){width="600" zoomable="yes"}
 
@@ -95,17 +95,17 @@ Om en offentlig delad katalog dupliceras, ändras typen för den duplicerade kat
    - **[!UICONTROL Customer Tax Class]**
    - **[!UICONTROL Description]**
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
-   Dupliceringen visas i _[!UICONTROL Shared Catalogs]_rutnät, med ett unikt ID.
+   Dupliceringen visas i rutnätet _[!UICONTROL Shared Catalogs]_med ett unikt ID.
 
 ## Steg 2: Slutför installationen
 
-När du har skapat en ny delad katalog måste den konfigureras med rätt produktval, [företagstilldelningar](catalog-shared-assign-companies.md)och [kategoribehörigheter](../catalog/category-permissions.md). Om du vill fortsätta går du till [Ange priser och struktur](catalog-shared-pricing-structure.md).
+När du har skapat en ny delad katalog måste den konfigureras med rätt produktval, [företagstilldelningar](catalog-shared-assign-companies.md) och [kategoribehörigheter](../catalog/category-permissions.md). Mer information finns i [Ange priser och struktur](catalog-shared-pricing-structure.md).
 
 >[!NOTE]
 >
->**[B2B version 1.3.0](release-notes.md#b2b-v130) och senare** - När du skapar en delad katalog [kategoribehörighet](../catalog/category-permissions.md) för katalogen är inställd på _[!UICONTROL Allow for the Display Product Prices]_och_[!UICONTROL Add to Cart]_ för kundgrupper som har tilldelats den här åtkomsten i katalogens behörighetsinställningar. Tidigare var dessa inställningar automatiskt inställda på `Deny` även när katalogbehörigheter har angetts till `Allow`.
+>**[B2B version 1.3.0](release-notes.md#b2b-v130) och senare** - När du skapar en delad katalog anges varje [kategoribehörighet](../catalog/category-permissions.md) för katalogen till _[!UICONTROL Allow for the Display Product Prices]_och_[!UICONTROL Add to Cart]_ för kundgrupper som tilldelas den här åtkomsten i katalogens behörighetsinställningar. Tidigare var de här inställningarna automatiskt inställda på `Deny` även när katalogbehörigheter var inställda på `Allow`.
 
 ## Demo av delad katalog
 
@@ -131,7 +131,7 @@ Titta på den här videon om du vill se en demonstration av hantering av delade 
 | Fält | Beskrivning |
 |--- |--- |
 | [!UICONTROL Name] | Identifierar den delade katalogen i hela administratören och i kundkontona där den är tillgänglig. Katalognamnet ska vara beskrivande och högst 32 tecken långt. Du kan inte ha två delade kataloger med samma namn. Maximalt antal tecken: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifierar en katalog med anpassade priser som bara är tillgänglig för de specifika företag som den är tilldelad till.<br/>**[!UICONTROL Public]**- Identifierar den delade katalogen som är tillgänglig för alla gästbesökare och inloggade kunder som inte är associerade med ett företag. En offentlig standardkatalog skapas när [!DNL Adobe Commerce B2B] är installerat, men måste konfigureras av en butiksadministratör. Det får bara finnas en offentlig delad katalog åt gången. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifierar en katalog med anpassade priser som bara är tillgänglig för de specifika företag som den är tilldelad till.<br/>**[!UICONTROL Public]**- Identifierar den delade katalogen som är tillgänglig för alla gästbesökare och inloggade kunder som inte är associerade med ett företag. En offentlig standardkatalog skapas när [!DNL Adobe Commerce B2B] installeras, men måste konfigureras av en butiksadministratör. Det får bara finnas en offentlig delad katalog åt gången. |
 | [!UICONTROL Customer Tax Class] | Bestämmer den momsklass som används för inköp som görs från katalogen. Alternativen omfattar alla tillgängliga momsklasser. |
 | [!UICONTROL Description] | En kort förklaring av hur katalogen ska användas. |
 
@@ -143,7 +143,7 @@ Titta på den här videon om du vill se en demonstration av hantering av delade 
 |--- |--- |
 | [!UICONTROL ID] | En unik numerisk identifierare som tilldelas den delade katalogentiteten. |
 | [!UICONTROL Name] | Namnet på den delade katalogen. |
-| [!UICONTROL Type] | Anger typen av delad katalog. Kan `Public` eller `Custom`. |
+| [!UICONTROL Type] | Anger typen av delad katalog. Kan vara `Public` eller `Custom`. |
 | [!UICONTROL Created At] | Det datum då den delade katalogen skapades i systemet. |
 | [!UICONTROL Created By] | Namnet på den administratörsanvändare som skapade en delad katalog. |
 | [!UICONTROL Action] | Listan med åtgärder. Alternativ: `Set Pricing and Structure`, `Assign Companies`, `General Settings`, `Delete`. |

@@ -21,17 +21,17 @@ När attribut visas från administratören är de fält som du fyller i när du 
 | [!UICONTROL Text Field] | Ett enradigt inmatningsfält för text. |
 | [!UICONTROL Text Area] | Ett inmatningsfält med flera rader för att skriva textstycken, som en produktbeskrivning. Du kan använda WYSIWYG-redigeraren för att formatera texten med HTML-taggar, eller ange taggarna direkt i texten. |
 | [!UICONTROL Text Editor] | En fullt fungerande textredigerare på attributplatsen. |
-| [!UICONTROL Date] | Visar ett datumvärde i [format](#date-and-time-options) och [tidszon](../getting-started/store-details.md#locale-options). Datumvärden kan väljas från en lista eller en kalender ( ![Kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**Beroende på systemkonfigurationen,_Administratör _-användare kan ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om hur du anger datum- och tidsvärden finns i [Alternativ för datum och tid](#date-and-time-options). |
-| [!UICONTROL Date and Time] | Visar ett datum- och tidsvärde i dialogrutan [format](#date-and-time-options) och [tidszon](../getting-started/store-details.md#locale-options). Datum och tid kan anges manuellt eller väljas från en kalender. Exempelformat: MM/DD/ÅÅÅÅ HH:MM |
+| [!UICONTROL Date] | Visar ett datumvärde i det [önskade formatet](#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**Beroende på systemkonfigurationen kan_Admin _-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](#date-and-time-options). |
+| [!UICONTROL Date and Time] | Visar ett datum- och tidsvärde i det [önskade formatet](#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datum och tid kan anges manuellt eller väljas från en kalender. Exempelformat: MM/DD/ÅÅÅÅ HH:MM |
 | [!UICONTROL Yes/No] | Visar en nedrullningsbar lista med fördefinierade alternativ för `Yes` och `No`. |
-| Listruta | Visar en nedrullningsbar lista med värden som endast accepterar ett val. Indatatypen för listrutan är en nyckelkomponent i [konfigurerbara produkter](../catalog/product-create-configurable.md). |
+| Listruta | Visar en nedrullningsbar lista med värden som endast accepterar ett val. Indatatypen för listrutan är en nyckelkomponent för [konfigurerbara produkter](../catalog/product-create-configurable.md). |
 | [!UICONTROL Multiple Select] | Visar en nedrullningsbar lista med värden som accepterar flera val. |
-| [!UICONTROL Price] | Den här indatatypen används för att skapa prisfält utöver de fördefinierade attributen: `Price`, `Special Price`, `Tier Price`och `Cost`. Valutan som används avgörs av systemkonfigurationen. |
-| [!UICONTROL Media Image] | Kopplar en extra bild till en produkt, t.ex. en produktlogotyp, anvisningar för omvårdnad eller ingredienser från en livsmedelsetikett. När du lägger till ett mediabildsattribut i en produkts attributuppsättning blir det en extra bildtyp tillsammans med Base, Small och Thumbnail. Mediebildattributet kan uteslutas från [storefront media browser](catalog-images-video.md#storefront-media-browser). |
-| [!UICONTROL Fixed Product Tax] | Här kan du definiera [FPT-räntor](../stores-purchase/fixed-product-tax.md) baserat på kraven för ditt språkområde. |
-| [!UICONTROL Visual Swatch] | Visar en färgruta som visar färg, struktur eller mönster för en konfigurerbar produkt. A [visuell färgruta](swatches.md) kan fyllas med ett hexadecimalt färgvärde eller visas en överförd bild som representerar färg, material, struktur eller mönster för alternativet. |
+| [!UICONTROL Price] | Den här indatatypen används för att skapa prisfält utöver de fördefinierade attributen: `Price`, `Special Price`, `Tier Price` och `Cost`. Valutan som används avgörs av systemkonfigurationen. |
+| [!UICONTROL Media Image] | Kopplar en extra bild till en produkt, t.ex. en produktlogotyp, anvisningar för omvårdnad eller ingredienser från en livsmedelsetikett. När du lägger till ett mediabildsattribut i en produkts attributuppsättning blir det en extra bildtyp tillsammans med Base, Small och Thumbnail. Mediebildattributet kan uteslutas från medieläsaren [storefront](catalog-images-video.md#storefront-media-browser). |
+| [!UICONTROL Fixed Product Tax] | Gör att du kan definiera [FPT-frekvenser](../stores-purchase/fixed-product-tax.md) baserat på kraven för din språkinställning. |
+| [!UICONTROL Visual Swatch] | Visar en färgruta som visar färg, struktur eller mönster för en konfigurerbar produkt. En [visuell färgruta](swatches.md) kan fyllas med ett hexadecimalt färgvärde, eller så kan en överförd bild som representerar färg, material, struktur eller mönster för alternativet visas. |
 | [!UICONTROL Text Swatch] | En textbaserad representation av ett konfigurerbart produktalternativ som ofta används för storlek. [Textfärgrutor](swatches.md) kan även innehålla hexadecimala färgvärden. |
-| [!UICONTROL Page Builder] | A [[!DNL Page Builder]](../page-builder/workspace.md) på den plats där attributet är placerat, vilket gör det enkelt att lägga till engagerande innehåll på produktsidan. |
+| [!UICONTROL Page Builder] | En [[!DNL Page Builder]](../page-builder/workspace.md)-arbetsyta på attributplatsen som gör det enkelt att lägga till engagerande innehåll på produktsidan. |
 
 {style="table-layout:auto"}
 
@@ -43,31 +43,31 @@ Du kan anpassa formatet för datum- och tidsfält och välja den indatakontroll 
 
 **_Så här formaterar du datum/tid-fält:_**
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Utöka på panelen till vänster **[!UICONTROL Catalog]** och klicka på **[!UICONTROL Catalog]** underobjekt.
+1. Expandera **[!UICONTROL Catalog]** i panelen till vänster och klicka på underobjektet **[!UICONTROL Catalog]**.
 
 1. Expandera avsnittet **[!UICONTROL Date & Time Custom Options]**.
 
-   ![Katalogkonfiguration - datum- och tidsalternativ](../configuration-reference/catalog/assets/catalog-date-time-custom-options.png){width="600" zoomable="yes"}
+   ![Katalogkonfiguration - alternativ för datum och tid](../configuration-reference/catalog/assets/catalog-date-time-custom-options.png){width="600" zoomable="yes"}
 
-   En detaljerad lista över dessa alternativ finns på [_Anpassade alternativ för datum och tid_](../configuration-reference/catalog/catalog.md) i _Konfigurationsreferens_.
+   En detaljerad lista över dessa alternativ finns i [_Anpassade alternativ för datum och tid_](../configuration-reference/catalog/catalog.md) i _Konfigurationsreferens_.
 
-1. Ange en popup-kalender som indatakontroll för datumfält **[!UICONTROL Use JavaScript Calendar]** till `Yes`.
+1. Om du vill använda en popup-kalender som indatakontroll för datumfält anger du **[!UICONTROL Use JavaScript Calendar]** till `Yes`.
 
-1. För att fastställa **[!UICONTROL Date Fields Order]**, ställ in ordningen för varje del av datumfältet efter behov:
+1. Om du vill upprätta **[!UICONTROL Date Fields Order]** anger du ordningen för varje del av datumfältet efter behov:
 
    - Månad
    - Dag
    - År
 
-1. Ange önskat tidsformat **Tidsformat** till något av följande:
+1. Ställ in **Tidsformat** på något av följande om du vill ange önskat tidsformat:
 
    - `12h AM/PM`
    - `24h`
 
-1. För att fastställa **[!UICONTROL Year Range]** för värdena i listrutan anger du år (ÅÅÅÅ) för att ange **[!UICONTROL from]** och **[!UICONTROL to]** datum.
+1. Ange år (YYY) för att ställa in **[!UICONTROL from]**- och **[!UICONTROL to]**-datumen om du vill fastställa **[!UICONTROL Year Range]** för de nedrullningsbara värdena.
 
    Om fältet är tomt används det aktuella året som standard.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

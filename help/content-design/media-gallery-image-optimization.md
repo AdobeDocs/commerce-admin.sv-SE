@@ -1,6 +1,6 @@
 ---
 title: Optimera bilder i Mediegalleriet
-description: Lär dig använda bildoptimering för [!DNL Commerce] medieresurser.
+description: Lär dig hur du använder bildoptimering för dina  [!DNL Commerce] medieresurser.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
 source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # Optimera bilder i Mediegalleriet
 
-Den nya [Mediegalleri](media-gallery.md) ger en _bildoptimering_ som förbättrar prestanda och minskar storleken på mediefiler i butiken. Den här optimeringen är aktiverad som standard och kan ändras i lagringskonfigurationsinställningarna.
+Den nya funktionen [Mediegalleriet](media-gallery.md) har en _bildoptimeringsfunktion_ som förbättrar prestanda och minskar storleken på mediefiler i butiken. Den här optimeringen är aktiverad som standard och kan ändras i lagringskonfigurationsinställningarna.
 
 ## Konfigurera bildoptimering
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Advanced]** och välja **[!UICONTROL System]**.
+1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Media Gallery Image Optimization]** och gör följande:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Media Gallery Image Optimization]** och gör följande:
 
    - Ange **[!UICONTROL Enable Image Optimization]** till `Yes`.
-   - Ange **[!UICONTROL Maximum Width]** och **[!UICONTROL Maximum Height]** värden (i pixlar) efter behov.
+   - Ange värdena **[!UICONTROL Maximum Width]** och **[!UICONTROL Maximum Height]** (i pixlar) efter dina behov.
 
 ## Beteende
 
-När funktionen för bildoptimering i Mediegalleriet är aktiverad infogas en optimerad kopia av en bild automatiskt i innehållet från [Mediegalleri](media-gallery.md) i stället för den ursprungliga filen.
+När funktionen för bildoptimering i Mediegalleriet är aktiverad infogas en optimerad kopia av en bild automatiskt i innehållet från [Mediegalleriet](media-gallery.md) i stället för i originalfilen.
 
-När _Maximal bredd_ och _Maximal höjd_ om du ändrar värden i konfigurationen uppdateras alla befintliga optimerade bilder som infogats tidigare.
+När värdena _Maximal bredd_ och _Maximal höjd_ ändras i konfigurationen uppdateras alla befintliga optimerade bilder som infogats tidigare.
 
-Bildoptimering i Mediegalleriet kräver att `media.gallery.renditions.update` köanvändare körs för att återskapa optimerade bilder när konfigurationen ändras. Se [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandbok_ för mer information.
+Mediegalleriets bildoptimering kräver att `media.gallery.renditions.update`-kökonsumenterna kör för att återskapa optimerade bilder när konfigurationen ändras. Mer information finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandboken_.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

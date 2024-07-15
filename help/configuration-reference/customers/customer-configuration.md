@@ -1,6 +1,6 @@
 ---
-title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] sidan för Commerce Admin.
+title: '[!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration]'
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] i Commerce Admin.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
 source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Customers]  > [!UICONTROL Customer Configuration]
+# [!UICONTROL Customers] > [!UICONTROL Customer Configuration]
 
 {{config}}
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Share Customer Accounts] | Global | Bestämmer omfattningen för kundkonton i butikshierarkin. Alternativ: <br/>**`Global`**- Kundkontoinformationen delas med alla webbplatser och butiker i Commerce-installationen.<br/>**`Per Website`** - Kundkontoinformationen är begränsad till den webbplats där kontot skapades. |
+| [!UICONTROL Share Customer Accounts] | Global | Bestämmer omfattningen för kundkonton i butikshierarkin. Alternativ: <br/>**`Global`**- Kundkontoinformation delas med alla webbplatser och butiker i Commerce-installationen.<br/>**`Per Website`** - Kundkontoinformationen är begränsad till webbplatsen där kontot skapades. |
 
 {style="table-layout:auto"}
 
@@ -49,15 +49,15 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Enable Automatic Assignment to Customer Group] | Butiksvy | Avgör om kunder automatiskt tilldelas standardkundgruppen. Om du vill visa momsregistreringsnumret i butiken anger du Visa momsregistreringsnummer i butiken och väljer `Yes`. Alternativ: <br/>**`Yes`**- Systemet validerar inte kundens moms-ID automatiskt och ändrar inte heller kundgrupper.<br/>**`No`** - Systembeteendet är som vanligt och standardkundgruppen kan ställas in i fältet Standardgrupp. |
+| [!UICONTROL Enable Automatic Assignment to Customer Group] | Butiksvy | Avgör om kunder automatiskt tilldelas standardkundgruppen. Om du vill visa momsregistreringsnumret i butiken anger du Visa momsregistreringsnummer i butiken och väljer `Yes`. Alternativ: <br/>**`Yes`**- Systemet validerar inte kundens moms-ID automatiskt och ändrar inte heller kundgrupper.<br/>**`No`** - Systembeteendet är som vanligt och standardkundgruppen kan anges i fältet Standardgrupp. |
 | [!UICONTROL Default Group] | Butiksvy | Identifierar den första kundgruppen som tilldelas när ett konto skapas. |
-| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | Global | (Endast tillgängligt om aktuellt konfigurationsomfång är inställt på `Default Group`.) Välj om den automatiska ändringen av kundgrupp baserat på moms-ID är aktiverad eller inaktiverad som standard. Inställningen kan åsidosättas på produktnivå. Inställningen påverkar systembeteendet i följande situationer: <br/> - Moms-ID för kundens standardadress eller hela standardadressen ändras. <br/> - Ändringen av kundgruppen emulerades under utcheckningen för en registrerad kund som inte hade någon tidigare sparad adress eller för en kund som registrerade sig under utcheckningen. <br/>Om den automatiska gruppändringen är aktiverad ändras kundgruppen automatiskt i det första fallet, och i det andra fallet tilldelas den tillfälligt emulerade kundgruppen. Om den automatiska gruppändringen är inaktiverad ändras aldrig kundgruppen som tilldelas, såvida inte administratören ändrar den manuellt. |
+| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | Global | (Endast tillgängligt om det aktuella konfigurationsomfånget är inställt på `Default Group`.) Välj om den automatiska ändringen av kundgrupp baserat på moms-ID är aktiverad eller inaktiverad som standard. Inställningen kan åsidosättas på produktnivå. Inställningen påverkar systembeteendet i följande situationer: <br/> - moms-ID för kundens standardadress eller hela standardadressen ändras. <br/> - Ändringen av kundgruppen emulerades under utcheckningen för en registrerad kund som inte hade någon tidigare sparad adress eller för en kund som registrerade sig under utcheckningen. <br/>Om den automatiska gruppändringen är aktiverad ändras kundgruppen automatiskt i det första fallet och i det andra fallet tilldelas den tillfälligt emulerade kundgruppen till kunden. Om den automatiska gruppändringen är inaktiverad ändras aldrig kundgruppen som tilldelas, såvida inte administratören ändrar den manuellt. |
 | [!UICONTROL Show VAT Number on Storefront] | Webbplats | Avgör om momsregistreringsnumret är synligt för kunderna i butiken. Alternativ: `Yes` / `No` <br/> Påverkar endast vanliga icke-B2B-kundkonton. Företagskonton har sina egna separata fält för momsregistreringsnummer. |
 | [!UICONTROL Default Email Domain] | Butiksvy | Identifierar butikens standarddomän för e-post. Till exempel: `mystore.com` |
-| [!UICONTROL Default Welcome Email] | Butiksvy | Identifierar e-postmallen som används som standard _Välkommen_ e-post. |
+| [!UICONTROL Default Welcome Email] | Butiksvy | Identifierar e-postmallen som används för standardmeddelandet _Välkommen_. |
 | [!UICONTROL Default Welcome Email Without Password] | Butiksvy | En alternativ mall för välkomstmeddelanden som används för nya kundkonton som skapas av administratören och som ännu inte har tilldelats något lösenord. |
 | [!UICONTROL Email Sender] | Butiksvy | Identifierar den butikskontakt som visas som avsändare av välkomstmeddelandet. |
-| [!UICONTROL Require Emails Confirmation] | Webbplats | Avgör om en begäran om att skapa ett konto kräver en bekräftelse från kunden. Alternativ: `Yes` / `No`. <br/><br/> _**Obs!**_ Från och med version 2.4.7 måste kunderna ange sin e-postadress och sitt lösenord på nytt för att logga in på sina konton efter e-postbekräftelse, oavsett webbläsare. |
+| [!UICONTROL Require Emails Confirmation] | Webbplats | Avgör om en begäran om att skapa ett konto kräver en bekräftelse från kunden. Alternativ: `Yes` / `No`. <br/><br/> _**Obs!**_ Från och med version 2.4.7 måste kunderna ange sina e-postadresser och lösenord igen för att logga in på sina konton efter att e-postbekräftelsen har skickats, oavsett webbläsare. |
 | [!UICONTROL Confirmation Link Email] | Butiksvy | Identifierar e-postmallen som används för bekräftelsemeddelandet. Standardmall: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | Butiksvy | Identifierar e-postmallen som används för välkomstmeddelandet som skickas när kontot har bekräftats. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Global | Anger om fältet som används för att ange och lagra momsregistreringsnumret är synligt från butiken. Alternativ: `Yes` / `No` |
@@ -66,13 +66,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Password Options]
 
-![Alternativ för lösenord](./assets/customer-configuration-password-options.png)<!-- zoom -->
+![Lösenordsalternativ](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
 <!-- [Password Options](https://docs.magento.com/user-guide/customers/password-options.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Password Reset Protection Type] | Butiksvy | Bestämmer vilken metod som används för att återställa ett lösenord för ett kundkonto. Alternativ: <br/>**`By IP and Email`**- Lösenordet kan återställas online när ett svar har tagits emot från ett återställningsmeddelande som skickas till den e-postadress som är kopplad till administratörskontot.<br/>**`By IP`** - Lösenordet kan återställas online. <br/>**`By Email`**- Lösenordet kan återställas genom att svara på ett e-postmeddelande som skickas till den e-postadress som är kopplad till administratörskontot.<br/>**`None`** - Lösenordet kan bara återställas av butiksadministratören. |
+| [!UICONTROL Password Reset Protection Type] | Butiksvy | Bestämmer vilken metod som används för att återställa ett lösenord för ett kundkonto. Alternativ: <br/>**`By IP and Email`**- Lösenordet kan återställas online efter att ett svar har tagits emot från ett återställningsmeddelande som skickas till den e-postadress som är kopplad till administratörskontot.<br/>**`By IP`** - Lösenordet kan återställas online. <br/>**`By Email`**- Lösenordet kan återställas genom att svara på ett e-postmeddelande som skickas till den e-postadress som är kopplad till administratörskontot.<br/>**`None`** - Lösenordet kan bara återställas av butiksadministratören. |
 | [!UICONTROL Max Number of Password Reset Requests] | Butiksvy | Begränsar antalet begäranden om återställning av lösenord per timme. För obegränsade begäranden anger du noll (0). |
 | [!UICONTROL Min Time Between Password Reset Requests] | Butiksvy | Anger antalet minuter mellan begäranden om återställning av lösenord. Ange noll (0) om det inte ska dröja något mellan begäranden. |
 | [!UICONTROL Forgot Email Template] | Butiksvy | Identifierar den e-postmall som används när kunderna glömmer sina lösenord. Standardmall: `Forgot Password` |
@@ -105,20 +105,20 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-![Alternativ för namn och adress - öppen källa](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
+![Alternativ för namn och adress - öppna Source](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
 <!-- [Name and Address Options - Open Source](https://docs.magento.com/user-guide/customers/name-address-options.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Number of Lines in a Street Address] | Webbplats | Anger antalet rader i gatuadressen. Gatuadressen består av `1` till `4` rader. Om fältet är tomt är standardgatuadressen tre (`3`) rader används. |
-| [!UICONTROL Show Prefix] | Webbplats | Avgör om kundnamnet innehåller ett prefix i början, t.ex. Mr. och Ms. Options: `No` / `Optional` / `Required` |
+| [!UICONTROL Number of Lines in a Street Address] | Webbplats | Anger antalet rader i gatuadressen. Gatuadressen består av `1` till `4` rader. Om fältet är tomt används standardgatuadressen för tre (`3`) rader. |
+| [!UICONTROL Show Prefix] | Webbplats | Avgör om kundnamnet innehåller ett prefix i början, till exempel Mr. och MS. Options: `No` / `Optional` / `Required` |
 | [!UICONTROL Prefix Dropdown Options] | Webbplats | Definierar listan med prefixalternativ. Avgränsa värden med semikolon. Placera ett semikolon före det första värdet om du vill visa ett tomt värde högst upp i listan. |
 | [!UICONTROL Show Middle Name (initial)] | Webbplats | Avgör om den mittersta initialen inkluderas som en del av kundnamnet. Om det används är den mittersta initialen ett valfritt fält. Alternativ: `Yes` / `No` |
 | [!UICONTROL Show Suffix] | Webbplats | Avgör om kundnamnet innehåller ett suffix i slutet, till exempel Jr., Sr. och III. Alternativ: `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | Webbplats | Definierar listan med suffixalternativ. Avgränsa värden med semikolon. Placera ett semikolon före det första värdet om du vill visa ett tomt värde högst upp i listan. |
-| [!UICONTROL Show Date of Birth] | Webbplats | Avgör om kundens födelsedatum är inkluderat i namn- och adressformuläret. Alternativ: `No` / `Optional` / `Required`  <br><br>**_Viktigt:_**I enlighet med gällande säkerhets- och integritetspraxis bör du vara medveten om eventuella juridiska risker och säkerhetsrisker som är förknippade med lagring av kundernas fullständiga födelsedatum (månad, dag, år) med andra personliga identifierare. Vi rekommenderar att du begränsar lagringen av kundernas födelsedatum och föreslår att du använder kundens födelseår som ett alternativ. |
-| [!UICONTROL Show Tax/VAT Number] | Webbplats | Bestämmer om momsen eller [Momsnummer](../../stores-purchase/vat.md) finns i namn- och adressformuläret. Alternativ: `No` / `Optional` / `Required` |
+| [!UICONTROL Show Date of Birth] | Webbplats | Avgör om kundens födelsedatum är inkluderat i namn- och adressformuläret. Alternativ: `No` / `Optional` / `Required` <br><br>**_Viktigt:_**I enlighet med gällande säkerhets- och sekretesspraxis bör du vara medveten om eventuella juridiska risker och säkerhetsrisker som är förknippade med lagring av kunders fullständiga födelsedatum (månad, dag, år) med andra personliga identifierare. Vi rekommenderar att du begränsar lagringen av kundernas födelsedatum och föreslår att du använder kundens födelseår som ett alternativ. |
+| [!UICONTROL Show Tax/VAT Number] | Webbplats | Avgör om moms eller [momsregistreringsnummer](../../stores-purchase/vat.md) ingår i namn- och adressformuläret. Alternativ: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | Webbplats | Avgör om kön ingår i namn- och adressformuläret. Alternativ: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | Webbplats | Avgör om kundens telefonnummer är inkluderat i namn- och adressformuläret. Alternativ: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Company] | Webbplats | Avgör om kundens företag ingår i namn- och adressformuläret. Alternativ: `No` / `Optional` / `Required` |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![Alternativ för namn och adress - Handel](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
+![Alternativ för namn och adress - Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
 <!-- [Name and Address Options - Commerce](https://docs.magento.com/user-guide/customers/name-address-options.html) -->
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | Webbplats | Avgör vad som händer efter det att kunderna har loggat in på sina konton. Om du vill dirigera om kunder till deras kontouppläggningar väljer du `Yes`. Alternativ: <br/>**`Yes`**- Kontrollpanelen för kontot visas när kunderna loggar in på sina konton.<br/>**`No`** - Kunderna kan fortsätta handla efter att ha loggat in på sina konton. |
+| [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | Webbplats | Avgör vad som händer efter det att kunderna har loggat in på sina konton. Välj `Yes` om du vill dirigera om kunder till deras kontokontrollpanel. Alternativ: <br/>**`Yes`**- Kontokontrollpanelen visas när kunderna loggar in på sina konton.<br/>**`No`** - Kunder kan fortsätta att handla efter att ha loggat in på sina konton. |
 
 {style="table-layout:auto"}
 
@@ -184,7 +184,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Text] | Butiksvy | Mallen används för alla adresser som skrivs ut. |
 | [!UICONTROL Text One Line] | Butiksvy | Den här mallen definierar ordningen på adressenheter i kundens lista över kundvagnsadresser. Förlopp under utcheckning. |
-| [!UICONTROL HTML] | Butiksvy | Den här mallen definierar ordningen för adressfält som finns under _Kundadresser_ i administrationspanelen ([!UICONTROL Customers] > [!UICONTROL Manage Customers]). Detta påverkar även dem som _Lägg till ny adress_ sida när en kund skapar en faktura- eller leveransadress på sin kontosida. |
+| [!UICONTROL HTML] | Butiksvy | Den här mallen definierar ordningen för adressfält som finns under området _Kundadresser_ på panelen Admin ([!UICONTROL Customers] > [!UICONTROL Manage Customers]). Detta påverkar även dem som finns på sidan _Lägg till ny adress_ när en kund skapar en fakturerings- eller leveransadress på sin kontosida. |
 | [!UICONTROL PDF] | Butiksvy | Mallen definierar hur fakturerings- och leveransadresserna visas på utskrivna fakturor, försändelser och kreditnotor. |
 
 {style="table-layout:auto"}
@@ -212,14 +212,14 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Enable CAPTCHA on Storefront] | Webbplats | Aktiverar CAPTCHA i butikerna som är kopplade till Commerce-webbplatsen. Alternativ: `Yes` / `No` |
-| [!UICONTROL Font] | Webbplats | Anger vilket teckensnitt som används för att visa CAPTCHA. Om du vill lägga till ett eget teckensnitt placerar du teckensnittsfilen i samma katalog som din Commerce-installation och lägger till deklarationen i `config.xml` fil på `app/code/Magento/Captcha/etc`. |
-| [!UICONTROL Forms] | Webbplats | Bestämmer vilka formulär som CAPTCHA används i. Alternativ: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (se [säkerhetsuppdatering](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg)  <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg)  <br /><br />_**Obs!**_ Formulären Skapa användare, Glömt lösenord och Payflow Pro aktiveras alltid när de markeras. |
-| [!UICONTROL Displaying Mode] | Webbplats | Avgör när CAPTCHA visas. Alternativ: <br/>**`Always`**- CAPTCHA krävs alltid för att logga in.<br/>**`After number of attempts to login`** - Det här alternativet gäller endast för inloggningsformuläret för administratörer. När du väljer det här alternativet visas _[!UICONTROL Number of Unsuccessful Attempts to Login]_visas. Ange antalet inloggningsförsök som du vill tillåta. Värdet för `0` (noll) liknar inställningen [!UICONTROL Displaying Mode] till `Always`.<br/>_**Obs!**_För att spåra antalet misslyckade inloggningsförsök räknas varje försök att logga in under en e-postadress och från en IP-adress. Det maximala antalet inloggningsförsök från samma IP-adress är 1 000. Den här begränsningen gäller bara när CAPTCHA är aktiverat. |
+| [!UICONTROL Enable CAPTCHA on Storefront] | Webbplats | Aktiverar CAPTCHA i butikerna som är kopplade till Commerce webbplats. Alternativ: `Yes` / `No` |
+| [!UICONTROL Font] | Webbplats | Anger vilket teckensnitt som används för att visa CAPTCHA. Om du vill lägga till ett eget teckensnitt placerar du teckensnittsfilen i samma katalog som din Commerce-installation och lägger till deklarationen i filen `config.xml` på `app/code/Magento/Captcha/etc`. |
+| [!UICONTROL Forms] | Webbplats | Bestämmer vilka formulär som CAPTCHA används i. Alternativ: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (se [säkerhetskorrigering](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**Obs!**_ Formulären Skapa användare, Glömt lösenord och Payflow Pro är alltid aktiverat när det är markerat. |
+| [!UICONTROL Displaying Mode] | Webbplats | Avgör när CAPTCHA visas. Alternativ: <br/>**`Always`**- CAPTCHA krävs alltid för inloggning.<br/>**`After number of attempts to login`** - Det här alternativet gäller bara för formuläret Administratörsinloggning. När du väljer det här alternativet visas fältet _[!UICONTROL Number of Unsuccessful Attempts to Login]_. Ange antalet inloggningsförsök som du vill tillåta. Värdet `0` (noll) liknar inställningen [!UICONTROL Displaying Mode] till `Always`.<br/>_**Obs!**_För att spåra antalet misslyckade inloggningsförsök räknas varje försök att logga in under en e-postadress och från en IP-adress. Det maximala antalet inloggningsförsök från samma IP-adress är 1 000. Den här begränsningen gäller bara när CAPTCHA är aktiverat. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Webbplats | Anger hur många gånger en kund kan försöka logga in innan kontot är låst. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Webbplats | Anger livslängden för aktuell CAPTCHA. När CAPTCHA förfaller måste användaren läsa in sidan igen. |
 | [!UICONTROL Number of Symbols] | Webbplats | Anger antalet symboler som visas i CAPTCHA, med maximalt 8. Du kan också ange ett intervall, till exempel 5-8. |
-| [!UICONTROL Symbols Used in CAPTCHA] | Webbplats | Avgör vilka bokstäver (a-z och A-Z) och siffror (0-9) som visas i CAPTCHA. Symboler som är svåra att skilja från andra symboler, till exempel `i`, `l`, eller `1`, ingår inte i standarduppsättningen med CAPTCHA-symboler. |
+| [!UICONTROL Symbols Used in CAPTCHA] | Webbplats | Avgör vilka bokstäver (a-z och A-Z) och siffror (0-9) som visas i CAPTCHA. Symboler som är svåra att skilja från andra symboler, som `i`, `l` eller `1`, ingår inte i standarduppsättningen med CAPTCHA-symboler. |
 | [!UICONTROL Case Sensitive] | Webbplats | Avgör om CAPTCHA-tecken är skiftlägeskänsliga. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}

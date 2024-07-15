@@ -15,20 +15,20 @@ När du tar bort stocken tilldelas alla tilldelade webbplatser standardlagret. D
 
 >[!IMPORTANT]
 >
->Ta bort en [stock](stocks-manage.md) kan påverka försäljningsbara kvantiteter och obearbetade order för en försäljningskanal. Om du fortsätter använda en försäljningskanal lägger du till försäljningskanalen i en annan befintlig eller ny aktie.
+>Om du tar bort en [aktie](stocks-manage.md) kan försäljningsbara kvantiteter och obearbetade order för en försäljningskanal påverkas. Om du fortsätter använda en försäljningskanal lägger du till försäljningskanalen i en annan befintlig eller ny aktie.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**på sidofältet_ Admin _.
 
 1. Välj en eller flera aktier som ska tas bort.
 
    Bläddra eller sök efter och markera kryssrutor för de lager som du vill ta bort.
 
-1. Från **[!UICONTROL Actions]** meny, välja **[!UICONTROL Delete]**.
+1. Välj **[!UICONTROL Delete]** på menyn **[!UICONTROL Actions]**.
 
    ![Välj Ta bort på Åtgärder-menyn](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL OK]**.
+1. Klicka på **[!UICONTROL OK]** i bekräftelsedialogrutan.
 
    Lagret tas bort och alla tilldelade försäljningskanaler mappas inte.
 
-   ![Verifieringsmeddelande för borttagning av lager](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}
+   ![Verifieringsmeddelande för borttagning av Stock](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}

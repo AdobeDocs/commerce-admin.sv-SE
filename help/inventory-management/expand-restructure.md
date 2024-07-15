@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Expandera och strukturera om lager
 
-När verksamheten växer och förändras [!DNL Inventory Management] har stöd för dina behov. Ni kan enkelt utöka er till en flerkanalshandlare eller minska er till en enda återförsäljare.
+När ditt företag växer och förändras stöder [!DNL Inventory Management] dina behov. Ni kan enkelt utöka er till en flerkanalshandlare eller minska er till en enda återförsäljare.
 
 ## Expandera till flera källor
 
@@ -20,15 +20,15 @@ Försäljare med en enda källa kan lägga till nya butiker, lagerställen, avs�
 
 1. Lägg till [anpassade källor](sources-add.md) för varje ny plats.
 
-   Du använder bara standardkällan för paketprodukter.
+   Du använder bara Source som standard för paketprodukter.
 
-1. Lägg till [anpassade stockar](stocks-add.md) efter behov för era nya källor.
+1. Lägg till [anpassade resurser](stocks-add.md) efter behov för dina nya källor.
 
    Du kan till exempel skapa aktier per webbplats, land, språkområde eller andra metoder. Du kan tilldela källor till dina anpassade lager. Du använder bara standardpaketet Stock för programpaket.
 
 1. Uppdatera [källtilldelningar och kvantiteter](quantities-manage.md) för dina produkter.
 
-   Du kan också använda [Verktyget Massåtgärder](bulk-assignment.md) och [Import-export](inventory-import-export.md) för att snabbt lägga till källor och produktdata.
+   Du kan också använda [massåtgärdsverktyget](bulk-assignment.md) och funktionen [Importera-exportera](inventory-import-export.md) för att snabbt lägga till källor och produktdata.
 
 ## Strukturera om till en enda källa
 
@@ -36,8 +36,8 @@ För handlare med flera källor som vill minska onlineförsäljningen till en en
 
 1. Inaktivera [anpassade källor](sources-disable.md).
 
-1. Överför produktlager till standardkällan.
+1. Överför produktlager till din förvalda Source.
 
-   Vi rekommenderar att du använder massåtgärder. Se [Överför lager till källa](inventory-transfer.md).
+   Vi rekommenderar att du använder massåtgärder. Se [Överför lager till Source](inventory-transfer.md).
 
-1. Tilldela alla webbplatser till [Standardlager](stocks-manage.md).
+1. Tilldela alla webbplatser till [standardbutiken](stocks-manage.md).

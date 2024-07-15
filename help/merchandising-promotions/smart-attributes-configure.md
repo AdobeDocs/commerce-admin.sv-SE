@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Konfigurationen av Visual Merchandiser avgör vilka attribut som kan användas i försäljningsfönstret och miniminivån för aktieströskeln. Konfigurationen identifierar också det attribut som används för färg och ordningen för färgvärden.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Catalog]** och välja **[!UICONTROL Visual Merchandiser]** under.
+1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Visual Merchandiser]** under.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL General Options]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL General Options]**.
 
    ![Katalogkonfiguration - visuell handlare](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
 
-1. I **[!UICONTROL Attributes for Category Rules]** markerar du de attribut du vill göra tillgängliga för visuell marknadsföring.
+1. I listan **[!UICONTROL Attributes for Category Rules]** väljer du varje attribut som du vill göra tillgängligt för visuell marknadsföring.
 
    Om du vill markera flera attribut håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje objekt.
 
@@ -36,4 +36,4 @@ Konfigurationen av Visual Merchandiser avgör vilka attribut som kan användas i
 
 1. För **[!UICONTROL Color Order]** anger du varje färgvärde på en separat rad och i sekvens för att bestämma prioriteten för varje färg.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

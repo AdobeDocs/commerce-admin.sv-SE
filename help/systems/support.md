@@ -23,29 +23,29 @@ Datainsamlaren samlar in den information om ditt system som vårt supportteam be
 
 ### Kör datainsamlaren
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL New Backup]**.
+1. Klicka på **[!UICONTROL New Backup]** i det övre högra hörnet.
 
-   Det tar några minuter att generera säkerhetskopian. Du kan övervaka resultatet av bearbetningen genom att klicka **[!UICONTROL Refresh Status]**. När du är klar visas säkerhetskopian i _[!UICONTROL Data Collector]_rutnät.
+   Det tar några minuter att generera säkerhetskopian. Du kan övervaka resultatet av bearbetningen genom att klicka på **[!UICONTROL Refresh Status]**. När du är klar visas säkerhetskopian i rutnätet _[!UICONTROL Data Collector]_.
 
 1. Så här visar du en logg med säkerhetskopieringsinformation:
 
-   - I _[!UICONTROL Action]_kolumn, markera **[!UICONTROL Show Log]**.
+   - Välj **[!UICONTROL Show Log]** i kolumnen _[!UICONTROL Action]_.
 
-   - Klicka **[!UICONTROL Back]** för att gå tillbaka till rutnätet.
+   - Klicka på **[!UICONTROL Back]** för att gå tillbaka till rutnätet.
 
-   ![datainsamlingslogg](./assets/data-collector-log.png){width="600" zoomable="yes"}
+   ![datainsamlarlogg](./assets/data-collector-log.png){width="600" zoomable="yes"}
 
 ### Exportera säkerhetskopieringsdata
 
 1. I den första kolumnen markerar du kryssrutan för den säkerhetskopia som ska exporteras.
 
-1. Använd **[!UICONTROL Export]** för att välja exportdatas format.
+1. Använd menyn **[!UICONTROL Export]** för att välja exportdatans format.
 
    ![Exportformat](./assets/data-collector-export.png){width="600" zoomable="yes"}
 
-1. Få åtkomst till filen via webbläsarens nedladdningsplats och **[!UICONTROL Save]** den.
+1. Få åtkomst till filen från webbläsarens hämtningsplats och **[!UICONTROL Save]** den.
 
 ### Hämta säkerhetskopieringsdata
 
@@ -53,21 +53,21 @@ När säkerhetskopieringen har skapats kan du hämta en kopia av kod- och databa
 
 1. Hitta den säkerhetskopieringsenhet som behövs i rutnätet.
 
-1. Se till att den har en `Complete` status.
+1. Kontrollera att den har statusen `Complete`.
 
-1. Klicka på enhetsnamnet i _[!UICONTROL Code Dump]_eller_[!UICONTROL DB Dump]_ kolumner.
+1. Klicka på enhetsnamnet i _[!UICONTROL Code Dump]_- eller_[!UICONTROL DB Dump]_-kolumner.
 
 Hämtningsprocessen bör starta automatiskt.
 
 ## Ta bort säkerhetskopieringsdata
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**på sidofältet_ Admin _.
 
 1. Sök efter och markera de säkerhetskopierade data som ska tas bort.
 
-1. I _[!UICONTROL Action]_kolumn, klicka **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL Delete]** i kolumnen _[!UICONTROL Action]_.
 
-1. Bekräfta åtgärden genom att klicka **[!UICONTROL OK]**.
+1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
 
 ## Systemrapporter
 
@@ -77,19 +77,19 @@ I stödrastret Systemrapporter kan du visa och hämta befintliga rapporter, ta b
 
 ### Åtkomst till systemrapporter
 
-På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
+Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**på sidofältet_ Admin _.
 
-![Administratör - systemrapporter](./assets/reports.png){width="600" zoomable="yes"}
+![Admin - systemrapporter](./assets/reports.png){width="600" zoomable="yes"}
 
 ### Generera en rapport
 
 1. Klicka på **[!UICONTROL New Report]**.
 
-1. I **[!UICONTROL Groups]** väljer du varje uppsättning med information som du vill ta med i rapporten. Som standard är alla grupper markerade.
+1. I listan **[!UICONTROL Groups]** väljer du varje uppsättning med information som du vill ta med i rapporten. Som standard är alla grupper markerade.
 
    ![Systemrapport - välj grupper](./assets/report-create.png){width="600" zoomable="yes"}
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Create]**.
+1. Klicka på **[!UICONTROL Create]** i det övre högra hörnet.
 
    Det kan ta några minuter innan rapporten genereras, beroende på hur många rapporttyper som har valts. När rapporten är klar visas den högst upp i rutnätet med genererat datum och genererad tid.
 
@@ -99,26 +99,26 @@ Du hittar användbar information om installerade moduler.
 
 **_Så här visar du rapportinformation för varje installerad modul:_**
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**på sidofältet_ Admin _.
 1. Klicka på **[!UICONTROL New Report]**.
-1. Välj `Modules` från **[!UICONTROL Groups]** lista.
+1. Välj `Modules` i listan **[!UICONTROL Groups]**.
 1. Klicka på **[!UICONTROL Create]**.
-1. När rapporten har skapats klickar du på **[!UICONTROL Select]** och sedan **[!UICONTROL View]** om du vill se alla modulversioner.
-1. Klicka **[!UICONTROL Download]** för att ladda ned rapporten.
+1. När rapporten har genererats klickar du på **[!UICONTROL Select]** och sedan på **[!UICONTROL View]** för att se alla modulversioner.
+1. Klicka på **[!UICONTROL Download]** om du vill hämta rapporten.
 
 ### Hantera systemrapporter
 
-I **[!UICONTROL Action]** markerar du något av följande i rutnätskolumnen:
+Välj något av följande i kolumnen **[!UICONTROL Action]** i rutnätet:
 
 - `View` - Använd den här funktionen om du vill visa information om rapporten.
-- `Delete` - Använd den här funktionen om du vill ta bort den genererade rapporten från listan.
-- `Download` - Med den här funktionen sparar du rapporten som en HTML-fil.
+- `Delete` - Använd den här funktionen för att ta bort den genererade rapporten från listan.
+- `Download` - Använd den här funktionen om du vill spara rapporten som en HTML-fil.
 
 ### Visa systemrapportinformation
 
-1. För rapporten du behöver väljer du **[!UICONTROL View]** i _[!UICONTROL Actions]_kolumn.
+1. För den rapport du behöver väljer du **[!UICONTROL View]** i kolumnen _[!UICONTROL Actions]_.
 
-1. Expandera på den vänstra panelen ![Expansionsväljare](../assets/icon-display-expand.png) varje avsnitt i rapporten för att visa detaljerna.
+1. Expandera ![Expanderingsväljaren](../assets/icon-display-expand.png) i den vänstra panelen för att visa detaljerna.
 
    ![Allmän systemrapportinformation](./assets/report-information.png){width="600" zoomable="yes"}
 
@@ -126,17 +126,17 @@ I **[!UICONTROL Action]** markerar du något av följande i rutnätskolumnen:
 
 | Rapportgrupp | Information ingår |
 | ------------ | -------------------- |
-| [!UICONTROL General] | Adobe Commerce Version<br>Antal data<br>Cachestatus<br>Indexstatus |
+| [!UICONTROL General] | Adobe Commerce-version<br>Dataantal<br>Cachestatus<br>Indexstatus |
 | [!UICONTROL Environment] | Miljöinformation<br>MySQL-status |
-| [!UICONTROL Data] | Duplicera kategorier efter URL-nyckel<br>Duplicera produkter efter URL-nyckel<br>Duplicera produkter efter SKU<br>Duplicera order med öknings-ID<br>Duplicera användare via e-post<br>Skadade kategoridata |
-| [!UICONTROL Modules] | Lista med anpassade moduler<br>Lista över inaktiverade moduler<br>Alla modullistor |
-| [!UICONTROL Configuration] | Konfiguration<br>Data från `app/etc/env.php`<br>Leveransmetoder<br>Betalningsmetoder<br>Betalningsfunktionalitetsmatris |
-| [!UICONTROL Logs] | Loggfiler<br>Viktiga systemmeddelanden<br>Dagens populäraste systemmeddelanden<br>Vanliga felsökningsmeddelanden<br>Dagens populäraste felsökningsmeddelanden<br>De vanligaste undantagsmeddelandena<br>Dagens viktigaste undantagsmeddelanden |
-| [!UICONTROL Attributes] | Användardefinierade EAV-attribut<br>Nya EAV-attribut<br>Enhetstyper<br>Alla EAV-attribut<br>EAV-attribut för kategori<br>EAV-attribut för produkt<br>EAV-attribut för kund<br>EAV-attribut för kundadress<br>EAV-attribut för RMA-objekt |
-| [!UICONTROL Events] | Anpassade globala händelser<br>Anpassade administrationshändelser<br>Anpassade frontend-händelser<br>Anpassade dokumenthändelser<br>Anpassade Crontab-händelser<br>Anpassade REST-händelser<br>Anpassade SOAP-händelser<br>Globala händelser<br>Core Admin Events<br>Core FrontEnd-händelser<br>Core Doc Events<br>Core Crontab Events<br>Core REST Events<br>Core SOAP Events<br>Alla globala händelser<br>Alla administrationshändelser<br>Alla frontend-händelser<br>Alla dokumenthändelser<br>Alla REST-händelser<br>Alla SOAP-händelser<br>Alla Crontab-händelser |
-| [!UICONTROL Cron] | Cron Schedules efter statuskod<br>Cron Schedules per jobbkod<br>Fel i Cron Schedules-kö<br>Cron Schedules List<br>Anpassade globala kundprojekt<br>Anpassade konfigurerbara kron-jobb<br>Core Global Cron Jobs<br>Core Configurable Cron Jobs<br>Alla globala kreditjobb<br>Alla konfigurerbara kronijobb |
-| [!UICONTROL Design] | Lista med administrationsteman<br>Lista med färdiga teman |
-| [!UICONTROL Stores] | Webbplatsträd<br>Webbplatslista<br>Lagringslista<br>Lista över butiksvyer |
-| OMS-anslutning <br>_(synlig med OMS-integrering)_ | Kopplingsversion<br>Anslutningsövervakning<br>Resultat av meddelandebearbetning |
+| [!UICONTROL Data] | Duplicera kategorier efter URL-nyckel<br>Duplicera produkter efter URL-nyckel<br>Duplicera produkter efter SKU<br>Duplicera beställningar med hjälp av ID<br>Duplicera användare via e-post<br>Skadade kategoridata |
+| [!UICONTROL Modules] | Lista över anpassade moduler<br>Lista över inaktiverade moduler<br>Lista över alla moduler |
+| [!UICONTROL Configuration] | Konfiguration<br>Data från `app/etc/env.php`<br>leveransmetoder<br>Betalningsmetoder<br>Betalningsfunktionalitetsmatris |
+| [!UICONTROL Logs] | Loggfiler<br>De vanligaste systemmeddelandena<br>De vanligaste systemmeddelandena<br>De vanligaste felsökningsmeddelandena<br>Dagens populäraste felsökningsmeddelanden<br>De vanligaste undantagen<br>Dagens vanligaste undantagsmeddelanden |
+| [!UICONTROL Attributes] | Användardefinierade EAV-attribut<br>Nya EAV-attribut<br>Entitetstyper<br>Alla EAV-attribut<br>Kategori EAV-attribut<br>EAV-attribut för produkt<br>EAV-attribut för kund<br>EAV-attribut för kundadress<br>EAV-attribut för RMA-objekt |
+| [!UICONTROL Events] | Anpassade globala händelser<br>Anpassade administrationshändelser<br>Anpassade fronthändelser<br>Anpassade dokumenthändelser<br>Anpassade Crontab-händelser<br>Anpassade REST-händelser<br>Anpassade SOAP-händelser<br>Centrala globala händelser<br>Viktiga administratörshändelser<br>Kärnincidenter<br>Kärnincidenter<br>Kärnincidenter<br>Core REST-händelser<br>Centrala SOAP-händelser<br>Alla globala händelser<br>Alla administrationshändelser<br>Alla frontend-händelser<br>Alla dokumenthändelser<br>Alla REST-händelser<br>Alla SOAP-händelser<br>Alla Crontab-händelser |
+| [!UICONTROL Cron] | Kronscheman efter statuskod<br>Kronscheman efter jobbkod<br>Fel i kön för kronischeman<br>Lista över kronischeman<br>anpassade globala kronijobb<br>Anpassade konfigurerbara kronijobb<br>Core Global cron Jobs<br>Core Configurable Cron Jobs<br>Alla globala kron-jobb<br>Alla konfigurerbara kronijobb s |
+| [!UICONTROL Design] | Lista med Administrativa teman<br>Skapa lista med befintliga teman |
+| [!UICONTROL Stores] | Webbplatsträd<br>Lista över webbplatser<br>Lagrar lista<br>Lista över butiksvyer |
+| OMS-anslutning <br>_(synlig med OMS-integrering)_ | Anslutningsversion<br>Anslutningsövervakning<br>Resultat av meddelandebearbetning |
 
 {style="table-layout:auto"}

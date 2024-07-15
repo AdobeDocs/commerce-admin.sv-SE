@@ -1,6 +1,6 @@
 ---
 title: Produktinställningar - [!UICONTROL Product in Websites]
-description: För en produkt är [!UICONTROL Product in Websites] inställningarna används för att identifiera de webbplatser där produkten finns tillgänglig.
+description: För en produkt identifierar inställningarna för [!UICONTROL Product in Websites] varje webbplats där produkten är tillgänglig.
 exl-id: dd4751db-5d68-426c-bfb0-43fc82df05f5
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktinställningar - [!UICONTROL Product in Websites]
 
-The _[!UICONTROL Product in Websites]_identifierar varje webbplats där produkten finns tillgänglig, enligt [butikshierarki](../stores-purchase/stores.md).
+Avsnittet _[!UICONTROL Product in Websites]_identifierar varje webbplats där produkten är tillgänglig, enligt [butikshierarkin](../stores-purchase/stores.md).
 
 ![Omfattningsdiagram för produktwebbplats](./assets/scope-product-website.svg){width="550"}
 
@@ -20,7 +20,7 @@ The _[!UICONTROL Product in Websites]_identifierar varje webbplats där produkte
 
 1. Öppna produkten i redigeringsläge.
 
-1. Rulla ned och expandera ![Expansionsväljare](../assets/icon-display-expand.png) den _[!UICONTROL Product in Websites]_-avsnitt.
+1. Bläddra nedåt och utöka ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Product in Websites]_.
 
    ![Produkt på webbplatser](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
 
@@ -28,14 +28,14 @@ The _[!UICONTROL Product in Websites]_identifierar varje webbplats där produkte
 
    För en webbplatsinstallation är kryssrutan för webbplatsen markerad som standard.
 
-1. Välj **[!UICONTROL Store View]** där du vill göra en kopia av den befintliga produkten.
+1. Välj den **[!UICONTROL Store View]** där du vill skapa en kopia av den befintliga produkten.
 
-1. Klicka **[!UICONTROL Save]** och gör följande:
+1. Klicka på **[!UICONTROL Save]** och gör följande:
 
-   - När du kommer tillbaka till produktposten anger du **[!UICONTROL Store View]** Välj till butiksvyn som produkten kopierades till. När du uppmanas att bekräfta omfångsväxling klickar du på **[!UICONTROL OK]**.
+   - När du återgår till produktposten anger du väljaren **[!UICONTROL Store View]** till butiksvyn som produkten kopierades till. När du uppmanas att bekräfta omfångsväxling klickar du på **[!UICONTROL OK]**.
 
-   - Ange **[!UICONTROL Price]** av produkten för butiksvyn.
+   - Ange **[!UICONTROL Price]** för produkten för den här butiksvyn.
 
-   Eftersom omfånget för basvalutan är inställt på `website`går det att sälja produkten till olika pris på respektive webbplats.
+   Eftersom basvalutaomfånget är inställt på `website` går det att sälja produkten till olika pris på varje webbplats.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.

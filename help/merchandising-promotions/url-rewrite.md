@@ -1,11 +1,11 @@
 ---
 title: URL-omskrivningar
-description: Lär dig mer om att skriva om URL-adresser och att använda Commerce URL-omskrivningsverktyget för att ändra URL:er som är kopplade till en produkt, kategori eller CMS-sida.
+description: Lär dig mer om att skriva om URL-adresser och använda Commerce URL-omskrivningsverktyg för att ändra URL-adresser som är kopplade till en produkt, kategori eller CMS-sida.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ Med verktyget för URL-omskrivning kan du ändra alla URL:er som är kopplade ti
 
 >[!NOTE]
 >
->Information om hur du uppdaterar URL-omskrivningar för flera eller alla produkter samtidigt finns i [Flera URL-omskrivningar](url-rewrite-product.md#multiple-url-rewrites).
+>Om du vill uppdatera URL-omskrivningar för flera eller alla produkter samtidigt läser du [Flera URL-omskrivningar](url-rewrite-product.md#multiple-url-rewrites).
 
-Villkoren _rewrite_ och _omdirigera_ används ofta på samma sätt, men avser något olika processer. En URL-omskrivning ändrar det sätt som en URL visas i webbläsaren. En URL-omdirigering uppdaterar URL:en som lagras på servern. En URL-omdirigering kan vara tillfällig eller permanent. Butiken använder URL-omskrivningar och omdirigeringar för att göra det enkelt för dig att ändra URL-nyckeln för en produkt, kategori eller sida och bevara befintliga länkar.
+Termerna _rewrite_ och _redirect_ används ofta på samma sätt, men refererar till något annorlunda processer. En URL-omskrivning ändrar det sätt som en URL visas i webbläsaren. En URL-omdirigering uppdaterar URL:en som lagras på servern. En URL-omdirigering kan vara tillfällig eller permanent. Butiken använder URL-omskrivningar och omdirigeringar för att göra det enkelt för dig att ändra URL-nyckeln för en produkt, kategori eller sida och bevara befintliga länkar.
 
-Som standard [automatiska URL-omdirigeringar](url-redirect-product-automatic.md) har aktiverats för din butik och **Skapa permanent omdirigering för gammal URL** kryssrutan är markerad under URL-nyckelfältet för varje produkt.
+Som standard är [automatiska URL-omdirigeringar](url-redirect-product-automatic.md) aktiverade för din butik och kryssrutan **Skapa permanent omdirigering för gammal URL** markeras under URL-nyckelfältet för varje produkt.
 
 {{url-rewrite-skip}}
 
@@ -44,11 +44,11 @@ Beroende på hur du konfigurerar webbplatsen kan det finnas flera versioner av d
     https://example.com
     https://www.example.com/index.html
 
-Information om hur du anger en kanonisk sida finns i [Google Search Central - dokumentation](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+Mer information om hur du anger en kanonisk sida finns i [Google Search Central-dokumentationen](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
 
 ## Konfigurera URL-omskrivningar
 
-Att aktivera återskrivningar av webbserverns Apache ingår i den initiala Commerce-konfigurationen. I Commerce används ofta URL-omskrivningar för att ta bort filnamnet `index.php` som normalt visas i URL:en precis efter rotmappen. När Omskrivning av webbserver är aktiverat skrivs alla URL:er om för att utelämnas `index.php`. Omskrivningen tar bort ord som inte förmedlar något till sökmotorer eller kunder och som inte påverkar prestanda eller webbplatsens rangordning.
+Möjligheten att aktivera återskrivningar av webbserverns Apache ingår i den första Commerce-installationen. Commerce använder ofta URL-omskrivningar för att ta bort filnamnet `index.php` som normalt visas i URL:en precis efter rotmappen. När Rewrites för webbserver är aktiverat skriver systemet om alla URL:er för att utelämna `index.php`. Omskrivningen tar bort ord som inte förmedlar något till sökmotorer eller kunder och som inte påverkar prestanda eller webbplatsens rangordning.
 
 URL utan omskrivning av webbserver
 
@@ -58,17 +58,17 @@ URL med omskrivning av webbserver
 
     http://www.yourdomain.com/magento/storeview/url-identifier
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. På den vänstra panelen där **[!UICONTROL General]** är expanderad, välj **[!UICONTROL Web]**.
+1. Välj **[!UICONTROL Web]** i den vänstra panelen där **[!UICONTROL General]** är expanderat.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Search Engine Optimization]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Search Engine Optimization]**.
 
    ![Allmän konfiguration - optimering av webbsökmotor](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. Ange **[!UICONTROL Use Web Server Rewrites]** efter dina önskemål.
+1. Ange **[!UICONTROL Use Web Server Rewrites]** som din inställning.
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Skapa URL-omskrivningar
 
@@ -93,7 +93,7 @@ Ytterligare kategori-URL
     http://www.example.com/all-on-sale.html
     http://www.example.com/save-now/spring-sale
 
-![URL skriver om rutnät](./assets/url-rewrites.png){width="700" zoomable="yes"}
+![URL skriver om stödraster](./assets/url-rewrites.png){width="700" zoomable="yes"}
 
 Commerce erbjuder följande typer av URL-omskrivning:
 

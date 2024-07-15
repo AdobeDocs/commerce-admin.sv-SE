@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Hantera integreringen med Experience Cloud
 
-Efter den första aktiveringen kan du hantera statusen för integreringen av Experience Cloud genom att aktivera eller inaktivera tillägget för enhetlig körning i Commerce Admin.
+Efter den första aktiveringen kan du hantera statusen för integreringen av Experience Cloud genom att aktivera eller inaktivera tillägget Commerce Admin Unified Experience.
 
-- Om tillägget Enhetlig upplevelse i Commerce Admin är aktiverat och administratörskonton är [tillhandahålls korrekt](#manage-admin-user-accounts)kan Commerce-administratörer visa och komma åt tillgängliga Commerce-projekt från Adobe Experience Cloud. Administratörer kan fortfarande komma åt enskilda projekt via Admin URL för Commerce-projektmiljön.
+- Om Commerce Admin Unified Experience-tillägget är aktiverat och administratörskonton [har etablerats korrekt](#manage-admin-user-accounts) kan Commerce-administratörer visa och komma åt tillgängliga Commerce-projekt från Adobe Experience Cloud. Administratörer kan fortfarande komma åt enskilda projekt via Admin URL för Commerce projektmiljö.
 
-- Om tillägget för Commerce Admin Unified Experience är inaktiverat inaktiveras åtkomsten via Experience Cloud. Administratörer måste logga in på enskilda projekt med Admin URL för Commerce-projektmiljön.
+- Om Commerce Admin Unified Experience-tillägget är inaktiverat inaktiveras åtkomsten via Experience Cloud. Administratörer måste logga in på enskilda projekt med Admin URL för Commerce projektmiljö.
 
 >[!WARNING]
 >
@@ -26,15 +26,15 @@ Efter den första aktiveringen kan du hantera statusen för integreringen av Exp
 
 ## Hantera integreringen från administratören
 
-1. Öppna menyn Konfiguration av butik i Commerce Admin genom att välja **[!UICONTROL Stores]** från den vänstra navigeringsmenyn och välj **[!UICONTROL Configuration]**.
+1. Öppna menyn Konfiguration av butik i Commerce Admin genom att välja **[!UICONTROL Stores]** i den vänstra navigeringsmenyn och sedan välja **[!UICONTROL Configuration]**.
 
-1. Välj på menyn Konfiguration **[!UICONTROL Advanced > Admin]** och sedan expandera **[!UICONTROL Unified Experience option]**.
+1. Välj **[!UICONTROL Advanced > Admin]** på menyn Konfiguration och expandera sedan **[!UICONTROL Unified Experience option]**.
 
-   ![Konfiguration av Admin Store för integrering med Experience Cloud](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
+   ![Konfiguration av administratörsarkiv för integrering med Experience Cloud](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
 
-1. Aktivera eller inaktivera integreringen genom att välja **[!UICONTROL Enable]** värde.
+1. Aktivera eller inaktivera integreringen genom att välja värdet **[!UICONTROL Enable]**.
 
-1. Ändra projektnamnet som visas på arbetsytan för Commerce Projects genom att lägga till eller uppdatera **[!UICONTROL Project Name]** värde.
+1. Ändra projektnamnet som visas på arbetsytan i Commerce Projects genom att lägga till eller uppdatera värdet **[!UICONTROL Project Name]**.
 
 1. Spara konfigurationen.
 
@@ -42,7 +42,7 @@ Efter den första aktiveringen kan du hantera statusen för integreringen av Exp
 
 ## Hantera integreringen med Adobe Commerce CLI
 
-Administratörer i Commerce-system med administratörsåtkomst till Commerce-molnprojektet kan använda Adobe Commerce CLI-kommandon för att hantera integreringen med Experience Cloud.
+Commerce systemadministratörer med administratörsåtkomst till Commerce molnprojekt kan använda Adobe Commerce CLI-kommandon för att hantera integreringen av Experience Cloud.
 
 1. Logga in i molnprojektet från din lokala utvecklingsmiljö.
 
@@ -70,16 +70,16 @@ Administratörer i Commerce-system med administratörsåtkomst till Commerce-mol
 
 ## Hantera administratörsanvändarkonton
 
-Alla Commerce Admin-användare måste ha både ett administratörskonto i Commerce-instansen och ett Adobe-användarkonto (Adobe ID) för att få tillgång till produkter och tjänster i Adobe. Båda kontona måste vara kopplade till samma e-postadress.
+Alla Commerce Admin-användare måste ha både ett Admin-konto på Commerce-instansen och ett Adobe-användarkonto (Adobe ID) för att få tillgång till Adobe produkter och tjänster. Båda kontona måste vara kopplade till samma e-postadress.
 
-- **Commerce Admin-konto**—[Hantera användare i Commerce Admin](../systems/permissions-users-all.md) från Admin för Commerce-instansen. Användarkonton för Commerce-administratörer måste tilldelas rollen Admin.
+- **Commerce Admin-konto**—[Hantera Commerce Admin-användare](../systems/permissions-users-all.md) från Admin för Commerce-instansen. Användarkonton för Commerce-administratörer måste tilldelas rollen Admin.
 
-  Systemadministratörer i Commerce-projektet kan använda [SSH för att ansluta till fjärrmiljön](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment)och använda Commerce CLI `admin:user:create` och `admin:user:unlock` kommandon för att lägga till eller låsa upp administratörsanvändarkonton.
+  Systemadministratörer i Commerce-projektet kan använda [SSH för att ansluta till fjärrmiljön](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment) och använda kommandona Commerce CLI `admin:user:create` och `admin:user:unlock` för att lägga till eller låsa upp administratörskonton.
 
-- **Adobe användarkonto**—Administratörer för den Adobe-organisation som är associerad med Commerce-instansen måste logga in på Adobe Admin Console och lägga till Adobe ID för varje Commerce-administratör i organisationen. Sedan måste de tilldela produkträttigheter och behörigheter för att få tillgång till Commerce-programmet. Se [Konfigurera Adobe Commerce-användare i Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
+- **Adobe-användarkonto** - En administratör för den Adobe-organisation som är associerad med Commerce-instansen måste logga in på Adobe Admin Console och lägga till Adobe ID för varje Commerce-administratör i organisationen. Sedan måste de tilldela produktbehörigheter och behörigheter för att få tillgång till Commerce-programmet. Se [Konfigurera Adobe Commerce-användare i Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
 
 Administratörer som hanterar konfigurationen för integreringen av Experience Cloud från Adobe Developer Console måste ha ett Adobe-användarkonto med åtkomst för systemadministratör eller utvecklare.
 
 >[!NOTE]
 >
->Ett Adobe ID är ett konto som skapats via Adobe som krävs för att få tillgång till produkter och tjänster via Experience Cloud. Handläggare som inte har någon Adobe ID kan [skapa ett kostnadsfritt konto](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) med samma e-postadress som de använder för att logga in på Commerce Admin.
+>Ett Adobe ID är ett konto som skapats via Adobe som krävs för att få tillgång till produkter och tjänster via Experience Cloud. Commerce-administratörer som inte har någon Adobe ID kan [skapa ett kostnadsfritt konto](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) med samma e-postadress som de använder för att logga in på Commerce Admin.

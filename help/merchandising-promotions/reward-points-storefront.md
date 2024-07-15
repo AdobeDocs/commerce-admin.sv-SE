@@ -14,21 +14,21 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-The [Belöningspunkter](rewards-loyalty.md) av kundkontot visar att den aktuella saldot av belöningspoäng som kunden tjänat in och en historik över deras belöningspoängsaldo.
+Avsnittet [Belöningspoäng](rewards-loyalty.md) i kundkontot visar att den aktuella saldot för belöningspoäng som kunden tjänat in och en historik över deras belöningspoängsaldo.
 
 ![Belöningspunkter](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## Lös in belöningspoängen under utcheckningen
 
-If [Belöningsränta](reward-exchange-rates.md) med `Points to Currency` är konfigurerad kan kunderna använda belöningspunkter under utcheckningen.
+Om [Belöningsväxelkursen](reward-exchange-rates.md) med riktningen `Points to Currency` är konfigurerad kan kunderna använda belöningspunkter under utcheckningen.
 
 1. När kunden har lagt till alla nödvändiga produkter i kundvagnen går han/hon till kassan.
 
-1. Fyller i all leveransinformation och navigerar till _Granska och betala_ steg.
+1. Anger all leveransinformation som krävs och navigerar till steget _Granska och betala_.
 
-1. I _[!UICONTROL Reward points]_kontrollerar antalet tillgängliga poäng och deras valutavärde.
+1. I avsnittet _[!UICONTROL Reward points]_kontrollerar antalet tillgängliga poäng och deras valutavärde.
 
-1. Klickningar **[!UICONTROL Use reward points]**.
+1. Klicka på **[!UICONTROL Use reward points]**.
 
 ![Belöningspunkter vid utcheckning](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
 

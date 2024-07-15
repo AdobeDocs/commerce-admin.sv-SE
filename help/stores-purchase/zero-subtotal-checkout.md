@@ -12,55 +12,55 @@ ht-degree: 0%
 
 # Ingen deltotal utcheckning
 
-_Ingen deltotal utcheckning_ kan användas för order med delsumman noll som beskattas efter att en rabatt har tillämpats. Exempelvis kan noll delsummeutcheckning användas i följande situationer:
+_Ingen delsummeutcheckning_ kan användas för order med delsumman noll som beskattas efter en rabatt. Exempelvis kan noll delsummeutcheckning användas i följande situationer:
 
 - Rabatten täcker hela inköpspriset utan extra fraktkostnad.
 
-- Kunden lägger till en [nedladdningsbar](../catalog/product-create-downloadable.md) eller [virtuell](../catalog/product-create-virtual.md) produkten i kundvagnen och priset är lika med noll.
+- Kunden lägger till en [nedladdningsbar](../catalog/product-create-downloadable.md)- eller [virtuell](../catalog/product-create-virtual.md)-produkt i kundvagnen och priset är lika med noll.
 
-- Priset för en [enkel](../catalog/product-create-simple.md) produkten är noll, och [fri frakt](shipping-free.md) är en tillgänglig metod.
+- Priset för en [enkel](../catalog/product-create-simple.md)-produkt är noll och metoden [fri frakt](shipping-free.md) är tillgänglig.
 
-- A [kupong](../merchandising-promotions/price-rules-cart-coupon.md) täcker produktens fullpris och frakt.
+- En [kupongkod](../merchandising-promotions/price-rules-cart-coupon.md) täcker produktens fulla pris och frakt.
 
 För att spara tid kan noll deltotalorder anges till automatisk fakturering.
 
 **_Så här konfigurerar du utcheckning av delsumma noll:_**
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Payment Methods]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
-1. Under _[!UICONTROL Other Payment Methods]_, expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Zero Subtotal Checkout]**-avsnitt.
+1. Under _[!UICONTROL Other Payment Methods]_expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Zero Subtotal Checkout]**.
 
-   ![Noll delsumma, utcheckning](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
-
-   >[!NOTE]
-   >
-   >Rensa vid behov först **[!UICONTROL Use system value]** om du vill ändra inställningarna.
-
-1. Aktivera utcheckning av delsumma noll genom att ange **[!UICONTROL Enabled]** till `Yes`.
-
-1. För **[!UICONTROL Title]**, anger du en titel som identifierar metoden Delsumma noll vid utcheckning.
-
-1. Om beställningarna vanligtvis väntar på godkännande, acceptera standardinställningen **[!UICONTROL New Order Status]** as `Pending"` tills ordern är godkänd.
-
-   Om du vill kan du använda `Processing` eller `Suspected Fraud` status för nya order med denna betalningsmetod.
-
-1. Ange **[!UICONTROL Automatically Invoice All Items]** till `Yes` om du automatiskt vill fakturera alla artiklar som har nollsaldo.
-
-   Det här alternativet är bara tillgängligt om **[!UICONTROL New Order Status]** option is set to `Processing`.
+   ![Ingen deltotal utcheckning](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >If _[!UICONTROL New Order Status]_är inställd på `Processing` och_[!UICONTROL Automatically Invoice All Items]_ är inställd på `No`måste du också tilldela **[!UICONTROL Order Status]** = `Processing` för **[!UICONTROL Order State]** = `Pending` och **[!UICONTROL Default Status]** = `No` mappning på [Orderstatus](order-status.md#custom-order-status) sida.
+   >Om det behövs avmarkerar du kryssrutan **[!UICONTROL Use system value]** för att ändra de här inställningarna.
+
+1. Om du vill aktivera utcheckning av noll delsummor anger du **[!UICONTROL Enabled]** till `Yes`.
+
+1. För **[!UICONTROL Title]** anger du en titel som identifierar metoden noll delsumma vid utcheckning.
+
+1. Om order vanligtvis väntar på godkännande ska du godkänna standardinställningen **[!UICONTROL New Order Status]** som `Pending"` tills ordern har godkänts.
+
+   Om du vill kan du använda statusen `Processing` eller `Suspected Fraud` för nya order med den här betalningsmetoden.
+
+1. Ange **[!UICONTROL Automatically Invoice All Items]** till `Yes` om du vill fakturera alla artiklar som har nollsaldo automatiskt.
+
+   Det här alternativet är bara tillgängligt om alternativet **[!UICONTROL New Order Status]** är inställt på `Processing`.
+
+   >[!NOTE]
+   >
+   >Om _[!UICONTROL New Order Status]_är inställt på `Processing` och_[!UICONTROL Automatically Invoice All Items]_ är inställt på `No` måste du även tilldela **[!UICONTROL Order Status]** = `Processing` för mappningen **[!UICONTROL Order State]** = `Pending` och **[!UICONTROL Default Status]** = `No` på sidan [Beställningsstatus](order-status.md#custom-order-status).
 
 1. Ange **[!UICONTROL Payment from Applicable Countries]** till något av följande:
 
    - `All Allowed Countries` - Kunder från alla [länder](../getting-started/store-details.md#country-options) som anges i din butikskonfiguration kan använda den här betalningsmetoden.
-   - `Specific Countries` - När du har valt det här alternativet visas _[!UICONTROL Payment from Specific Countries]_visas. Om du vill markera flera länder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
+   - `Specific Countries` - När du har valt det här alternativet visas listan _[!UICONTROL Payment from Specific Countries]_. Om du vill markera flera länder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
 
 1. För **[!UICONTROL Sort Order]** anger du ett tal som bestämmer positionen för det här objektet i listan över betalningsmetoder som visas vid utcheckning.
 
-   Det här talet är relativt till de andra betalningsmetoderna. (`0` = first, `1` = sekund, `2` = tredje och så vidare.)
+   Det här talet är relativt till de andra betalningsmetoderna. (`0` = först, `1` = sekund, `2` = tredje o.s.v.)
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.

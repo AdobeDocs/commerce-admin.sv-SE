@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Infoga många direktiv, särskilt widgetar som _Nyligen visade_ / _Jämförda produkter_ kan ge en negativ effekt på den första inläsningen av sidan när den inte cachas. Använd dem därför med försiktighet. Vanligtvis skapar det inte något problem. Men du bör diskutera det här potentiella problemet med ditt utvecklingsteam.
+>Om du infogar många direktiv, särskilt widgetar som typen _Senast visade_ / _Jämförda produkter_ , kan det få en negativ effekt på den första inläsningen av sidan när den inte cachas. Använd dem därför med försiktighet. Vanligtvis skapar det inte något problem. Men du bör diskutera det här potentiella problemet med ditt utvecklingsteam.

@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Customers] &gt; [!UICONTROL Promotions] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Customers] &gt; [!UICONTROL Promotions] i Commerce Admin.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![Automatiska regler för e-postpåminnelse](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
+![Automatiska påminnelseregler för e-post](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
 <!-- [Automated Email Reminder Rules](https://docs.magento.com/user-guide/marketing/email-reminder-rules-configure.html) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable Reminder Emails] | Global | Aktiverar automatiska e-postpåminnelser. Om inställningen är Nej ignoreras de återstående inställningarna. Alternativ: `Yes` / `No` |
-| [!UICONTROL Frequency] | Global | Anger hur ofta Commerce ska söka efter nya kunder som är kvalificerade för de automatiska e-postpåminnelserna. Alternativ: <br/>**`Minute Intervals`**- Skickar e-postmeddelandet enligt det valda intervallet. (5 minuter, 10 minuter, 15 minuter, 20 minuter eller 30 minuter)<br/>**`Hourly`** - Skickar e-post varje timme, vid en minut efter den angivna timmen. Ange ett värde mellan 0 och 59. <br/>**`Daily`**- Skickar e-post dagligen från starttiden. |
+| [!UICONTROL Frequency] | Global | Anger hur ofta Commerce ska söka efter nya kunder som är berättigade till automatiska e-postpåminnelser. Alternativ: <br/>**`Minute Intervals`**- Skickar e-postmeddelandet enligt det valda intervallet. (5 minuter, 10 minuter, 15 minuter, 20 minuter eller 30 minuter)<br/>**`Hourly`** - Skickar e-post varje timme, vid en minut efter den angivna timmen. Ange ett värde mellan 0 och 59. <br/>**`Daily`**- Skickar e-post dagligen från starttiden. |
 | [!UICONTROL Interval] | Global | Intervallet måste vara lika med eller större än din cron.php-startperiod. Alternativ: `5 minutes` / `10 minutes` / `15 minutes` / `20 minutes` / `30 minutes` |
 | [!UICONTROL Start Time] | Global | Anger den dag, minut och sekund som e-postmeddelandet skickas. Anges i 24-timmarsformat, baserat på systemtiden på servern. |
 | [!UICONTROL Maximum Emails per One Run] | Global | Begränsar antalet e-postmeddelanden som skickas i ett schemalagt block. |
@@ -43,7 +43,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Code Length] | Global | Definierar längden på kupongkoden, exklusive prefix, suffix och avgränsare. |
-| [!UICONTROL Code Format] | Global | Definierar kupongkodformatet. Alternativen är: <br/>**`Alphanumeric`**- En kombination av bokstäver och siffror.<br/>**`Alphabetical`** - Endast bokstäver. <br/>**`Numeric`**- Endast siffror. |
+| [!UICONTROL Code Format] | Global | Definierar kupongkodformatet. Alternativen är: <br/>**`Alphanumeric`**- Valfri kombination av bokstäver och siffror.<br/>**`Alphabetical`** - Endast bokstäver. <br/>**`Numeric`**- Endast siffror. |
 | [!UICONTROL Code Prefix] | Global | Ett värde som läggs till i början av alla kupongkoder. Om du inte vill använda ett prefix lämnar du fältet tomt. |
 | [!UICONTROL Code Suffix] | Global | Ett värde som läggs till i slutet av alla koder. Om du inte vill använda ett suffix lämnar du fältet tomt. |
 | [!UICONTROL Dash Every X Characters] | Global | Intervallet för att infoga ett bindestreck (-) i alla kupongkoder. Om du inte vill använda ett streck lämnar du fältet tomt. <br/>_**Obs!**_ Kupongkoder som bara skiljer sig åt med bindestreck anses vara olika koder. |

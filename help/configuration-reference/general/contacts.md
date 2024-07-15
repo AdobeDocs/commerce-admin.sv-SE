@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Contacts]'
-description: Granska konfigurationsinställningarna på [!UICONTROL General] &gt; [!UICONTROL Contacts] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL Contacts] i Commerce Admin.
 exl-id: 1acd6683-772d-431f-8b74-230163ded1be
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Enable Contact Us] | Butiksvy | Aktiverar [_Kontakta oss_](../../getting-started/store-details.md#contact-us-form) och placerar en länk i sidfoten. |
+| [!UICONTROL Enable Contact Us] | Butiksvy | Aktiverar sidan [_Kontakta oss_](../../getting-started/store-details.md#contact-us-form) och placerar en länk i sidfoten. |
 
 {style="table-layout:auto"}
 
@@ -34,8 +34,8 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Send Emails To] | Butiksvy | Identifierar den e-postadress som tar emot alla svar från _Kontakta oss_ page |
-| [!UICONTROL Email Sender] | Butiksvy | Identifierar den butikskontakt som används för alla svar på e-postfrågor från _Kontakta oss_ sida. Standardavsändare: `Custom Email 2` |
-| [!UICONTROL Email Template] | Butiksvy | Anger mallen som ska användas som bas för alla svar på e-postfrågor från _Kontakta oss_ sida. Standardmall: `Contact Form` |
+| [!UICONTROL Send Emails To] | Butiksvy | Identifierar den e-postadress som tar emot alla svar från sidan _Kontakta oss_ |
+| [!UICONTROL Email Sender] | Butiksvy | Identifierar den butikskontakt som används för alla svar på e-postfrågor från sidan _Kontakta oss_. Standardavsändare: `Custom Email 2` |
+| [!UICONTROL Email Template] | Butiksvy | Anger mallen som ska användas som bas för alla svar på e-postfrågor från sidan _Kontakta oss_. Standardmall: `Contact Form` |
 
 {style="table-layout:auto"}

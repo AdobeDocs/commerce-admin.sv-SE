@@ -1,34 +1,34 @@
 ---
-title: '''[!DNL Commerce Intelligence] verktyg'
-description: Läs om hur Adobe Commerce och Magento Open Source kan använda Commerce Intelligence-verktyg för att få den kunskap som behövs för att fatta sunda affärsbeslut.
+title: '[!DNL Commerce Intelligence] verktyg'
+description: Läs om hur Adobe Commerce och Magento Open Source kan använda Commerce Intelligence verktyg för att få den kunskap som behövs för att fatta sunda affärsbeslut.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
 source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
-# [!DNL Commerce Intelligence] verktyg
+# [!DNL Commerce Intelligence]-verktyg
 
-Använd Commerce Intelligence-verktygen för att få den kunskap som behövs för att fatta sunda affärsbeslut.
+Använd Commerce Intelligence verktyg för att få den kunskap som behövs för att fatta sunda affärsbeslut.
 
-## [!DNL Commerce Intelligence] konto
+## [!DNL Commerce Intelligence]-konto
 
-När du aktiverar [!DNL Commerce Intelligence] via Adobe får du tillgång till fem instrumentpaneler med ungefär 70 rapporter. Dessa rapporter är utformade för att ge insikter om era data och svara på frågor som&quot;Hur växer mina order månadsvis?&quot;,&quot;Vilka är mina mest lojala kunder?&quot; och&quot;Fungerar min kupongstrategi?&quot; Mer information om den här verktygsuppsättningen finns i [Användarhandbok för Commerce Intelligence][1].
+När du aktiverar ett [!DNL Commerce Intelligence]-konto via Adobe får du tillgång till fem instrumentpaneler med ungefär 70 rapporter. Dessa rapporter är utformade för att ge insikter om era data och svara på frågor som&quot;Hur växer mina order månadsvis?&quot;,&quot;Vilka är mina mest lojala kunder?&quot; och&quot;Fungerar min kupongstrategi?&quot; Mer information om den här verktygsuppsättningen finns i [Commerce Intelligence användarhandbok][1].
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] ingår i Adobe Commerce och Magento Open Source. Den här funktionen ger er tillgång till en uppsättning dynamiska rapporter som baseras på era produkt-, order- och kunddata, med en anpassad kontrollpanel som är anpassad efter era affärsbehov. while [!DNL Advanced Reporting] använder [!DNL Commerce Intelligence] för analyser behöver du inte ha något Commerce Intelligence-konto för att kunna använda [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] ingår i Adobe Commerce och Magento Open Source. Den här funktionen ger er tillgång till en uppsättning dynamiska rapporter som baseras på era produkt-, order- och kunddata, med en anpassad kontrollpanel som är anpassad efter era affärsbehov. [!DNL Advanced Reporting] använder [!DNL Commerce Intelligence] för analys, men du behöver inte ha något Commerce Intelligence-konto för att använda [!DNL Advanced Reporting].
 
-Teknisk information finns i [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&quot;} i utvecklardokumentationen.
+Mer teknisk information finns i avsnittet [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&quot;} i utvecklardokumentationen.
 
 >[!NOTE]
 >
->På grund av kompatibilitetsproblem med [!DNL Adobe Commerce Intelligence], kan Commerce för tillfället inte stödja avancerad rapportering med AWS S3 Bucket som medium för källdatafilen i [!DNL Commerce Intelligence].
+>På grund av kompatibilitetsproblem med [!DNL Adobe Commerce Intelligence] kan Commerce för tillfället inte stödja avancerad rapportering med AWS S3 Bucket som medium för källdatafilen i [!DNL Commerce Intelligence].
 
-![Kontrollpanel för avancerad rapportering](./assets/reporting-advanced.png){width="700"}
+![Avancerad rapportinstrumentpanel](./assets/reporting-advanced.png){width="700"}
 
 ### Krav
 
@@ -38,36 +38,36 @@ Teknisk information finns i [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&
 
 * [!DNL Commerce] måste ha installerats eller uppgraderats utan fel.
 
-* I [!DNL Commerce] konfiguration för [lagra URL:er](../stores-purchase/store-urls.md), **[!UICONTROL Base URL (Secure)]** inställningen för butiksvyn måste peka på den säkra URL:en. Exempel: `https://yourdomain.com`.
+* I [!DNL Commerce]-konfigurationen för [butiks-URL:er](../stores-purchase/store-urls.md) måste inställningen **[!UICONTROL Base URL (Secure)]** för butiksvyn peka på den säkra URL:en. Till exempel: `https://yourdomain.com`.
 
-* I [!DNL Commerce] konfiguration för butiks-URL, **[!UICONTROL Use Secure URLs on Storefront]** och **[!UICONTROL Use Secure URLs in Admin]** måste anges till `Yes`.
+* **[!UICONTROL Use Secure URLs on Storefront]** och **[!UICONTROL Use Secure URLs in Admin]** måste anges till `Yes` i konfigurationen [!DNL Commerce] för arkiv-URL:er.
 
 * [[!DNL Commerce] crontab][3] skapas och cron-jobb körs på den installerade servern.
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting] kan endast användas med [!DNL Commerce] installationer som kontinuerligt har använt en enda [basvaluta](../stores-purchase/currency-configuration.md).
+>[!DNL Advanced Reporting] kan bara användas med [!DNL Commerce] installationer som kontinuerligt har använt en enda [basvaluta](../stores-purchase/currency-configuration.md).
 
 
 ### Steg 1: Aktivera [!DNL Advanced Reporting]
 
-I [!DNL Commerce] konfiguration, [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) är aktiverat som standard och startar automatiskt om cron är aktiverad [konfigurerad](../configuration-reference/advanced/system.md) och springa. Ett försök att upprätta prenumerationen påbörjas i början av varje timme under de kommande 24 timmarna tills det är klart. Prenumerationsstatusen är &quot;väntande&quot; tills prenumerationen har upprättats.
+I [!DNL Commerce]-konfigurationen är [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) aktiverad som standard och startar automatiskt om cron är [konfigurerad](../configuration-reference/advanced/system.md) och körs. Ett försök att upprätta prenumerationen påbörjas i början av varje timme under de kommande 24 timmarna tills det är klart. Prenumerationsstatusen är &quot;väntande&quot; tills prenumerationen har upprättats.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. I den vänstra navigeringspanelen där **[!UICONTROL General]** är expanderad, välj **[!UICONTROL Advanced Reporting]** och gör följande:
+1. Välj **[!UICONTROL Advanced Reporting]** i den vänstra navigeringspanelen där **[!UICONTROL General]** är expanderat och gör följande:
 
-   * Verifiera att **[!UICONTROL Advanced Reporting Service]** är inställd på `Enable` (standardinställningen).
+   * Kontrollera att **[!UICONTROL Advanced Reporting Service]** är inställt på `Enable` (standardinställningen).
 
    * Ange **[!UICONTROL Time of day to send data]** till timmen, minuten och sekunden, enligt en 24-timmarsklocka, som du vill att tjänsten ska ta emot uppdaterade data från din butik. Som standard skickas data kl. 2:00.
 
-   * Under **[!UICONTROL Industry Data]** väljer du **[!UICONTROL Industry]** som bäst beskriver er verksamhet.
+   * Under **[!UICONTROL Industry Data]** väljer du den **[!UICONTROL Industry]** som bäst beskriver ditt företag.
 
-   ![Konfiguration av avancerad rapportering](./assets/advanced-reporting-config.png){width="400"}
+   ![Avancerad rapportkonfiguration](./assets/advanced-reporting-config.png){width="400"}
 
-1. När du är klar klickar du på **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
-1. Klicka på **[[!UICONTROL Cache Management]](../systems/cache-management.md)** i meddelandet längst upp på sidan och uppdatera ogiltiga cacheminnen.
+1. När du uppmanas till det klickar du på **[[!UICONTROL Cache Management]](../systems/cache-management.md)** i meddelandet längst upp på sidan och uppdaterar alla ogiltiga cacheminnen.
 
 1. Vänta över en natt, eller tills efter tidpunkten för nästa schemalagda uppdatering. Kontrollera sedan prenumerationens status. Om statusen fortfarande är _väntande_ kontrollerar du att din installation uppfyller alla krav.
 
@@ -75,23 +75,23 @@ I [!DNL Commerce] konfiguration, [[!DNL Advanced Reporting]](../configuration-re
 
 1. Gör något av följande:
 
-   * På _Administratör_ sidlist, välj **[!UICONTROL Dashboard]**. Klicka sedan på **[!UICONTROL Go to Advanced Reporting]**.
-   * På _Administratör_ sidebar, gå till **[!UICONTROL Reports]** > _[!UICONTROL Business Intelligence]_>**[!UICONTROL Advanced Reporting]**.
+   * Välj **[!UICONTROL Dashboard]** på sidofältet _Admin_. Klicka sedan på **[!UICONTROL Go to Advanced Reporting]**.
+   * Gå till **[!UICONTROL Reports]** > _[!UICONTROL Business Intelligence]_>**[!UICONTROL Advanced Reporting]**på sidofältet_ Admin _.
 
-   The [!DNL Advanced Reporting] På kontrollpanelen finns en snabb sammanfattning av dina beställningar, kunder och produkter. Se till att bläddra nedåt för att se hela instrumentpanelen.
+   Kontrollpanelen [!DNL Advanced Reporting] innehåller en snabb sammanfattning av dina beställningar, kunder och produkter. Se till att bläddra nedåt för att se hela instrumentpanelen.
 
-1. Om du vill få en bättre bild av data anger du **[!UICONTROL Filters]** i det övre högra hörnet av tidsperioden och butiksvyn som du vill ta med i rapporten. Gör sedan följande:
+1. Om du vill få en bättre vy över data anger du **[!UICONTROL Filters]** i det övre högra hörnet till den tidsperiod och lagringsvy som du vill ta med i rapporten. Gör sedan följande:
 
    * Håll pekaren över en datapunkt för mer information.
    * Klicka på varje flik för att visa alla kontrollpanelsrapporter.
 
    ![Datapunkt](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
 
-## Åtkomst [!DNL Advanced Reporting] dataresurser
+## Åtkomst till [!DNL Advanced Reporting]-dataresurser
 
-Klicka på i det övre högra hörnet av instrumentpanelen för avancerad rapportering. **[!UICONTROL Additional Resources]**.
+Klicka på **[!UICONTROL Additional Resources]** i det övre högra hörnet av instrumentpanelen för avancerad rapportering.
 
-![Avancerade rapporteringsdataresurser](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
+![Avancerade rapportdataresurser](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
 
 ## Felsökning
 
@@ -99,15 +99,15 @@ Om du får ett 404-meddelande om att sidan inte hittades kontrollerar du att din
 
 ### Kontrollera att integreringen är aktiv
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integration]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integration]**på sidofältet_ Admin _.
 
-1. Verifiera att **[!UICONTROL Magento Analytics user]** visas i listan och **[!UICONTROL Status]** är `Active`.
+1. Kontrollera att integreringen av **[!UICONTROL Magento Analytics user]** visas i listan och att **[!UICONTROL Status]** är `Active`.
 
-1. Om du vill återskapa användaren klickar du på **[!UICONTROL Reauthorize]** och gör följande:
+1. Om du vill återupprätta användaren klickar du på **[!UICONTROL Reauthorize]** och gör följande:
 
    ![Återauktorisera](./assets/advanced-reporting-integration-reauthorize.png){width="600"}
 
-   * Klicka på **[!UICONTROL Reauthorize]** för att godkänna åtkomst till API-resurserna.
+   * När du uppmanas till det klickar du på **[!UICONTROL Reauthorize]** för att godkänna åtkomst till API-resurserna.
 
      ![Återauktorisera åtkomst till API-resurser](./assets/advanced-reporting-integration-api.png){width="600"}
 
@@ -115,15 +115,15 @@ Om du får ett 404-meddelande om att sidan inte hittades kontrollerar du att din
 
      ![Integreringstoken](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
 
-1. Leta efter meddelandet som anger integreringen `Magento Analytics user` har fått ny behörighet.
+1. Leta efter meddelandet som anger att integreringen `Magento Analytics user` har auktoriserats på nytt.
 
 1. Vänta över en natt eller tills efter tidpunkten för nästa schemalagda uppdatering.
 
 ### Verifiera gemensam basvaluta
 
-[!DNL Advanced Reporting] kan endast användas med [!DNL Commerce] installationer som bara har använt en enda [basvaluta](../stores-purchase/currency-configuration.md) sedan installationen. Resultatet är att i historiken används samma basvaluta för alla order. [!DNL Advanced Reporting] fungerar inte om du någon gång har ändrat din basvaluta och har order i din historik som har bearbetats med olika basvalutor.
+[!DNL Advanced Reporting] kan bara användas med [!DNL Commerce] installationer som bara har använt en enda [basvaluta](../stores-purchase/currency-configuration.md) sedan installationen. Resultatet är att i historiken används samma basvaluta för alla order. [!DNL Advanced Reporting] fungerar inte om du någon gång har ändrat din basvaluta och har order i din historik som har bearbetats med olika basvalutor.
 
-Om du vill avgöra om din butik har flera basvalutor kan du fråga din [!DNL Commerce] databas från kommandoraden med hjälp av följande MySQL-exempel. Du kan behöva ändra tabellnamnen så att de matchar datastrukturen:
+Om du vill avgöra om din butik har flera basvalutor kan du fråga din [!DNL Commerce]-databas från kommandoraden med hjälp av följande MySQL-exempel. Du kan behöva ändra tabellnamnen så att de matchar datastrukturen:
 
 ```sql
 select distinct base_currency_code from sales_order;
@@ -131,7 +131,7 @@ select distinct base_currency_code from sales_order;
 
 ### Datamatchningsavvikelse
 
-Om du märker att `Data last updated...` bildtexten visar gårdagens datum och inte dagens. Det kan finnas en fördröjning på upp till en dag i uppdateringarna för avancerad rapportering. Fördröjningen beror på att kön är större än förväntat.
+Om du märker att bildtexten `Data last updated...` visar gårdagens datum och inte dagens datum kan det uppstå en fördröjning på upp till en dag i uppdateringarna för avancerad rapportering. Fördröjningen beror på att kön är större än förväntat.
 
 ## Kontrollpanelrapporter
 

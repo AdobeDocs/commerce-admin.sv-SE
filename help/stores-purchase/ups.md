@@ -18,7 +18,7 @@ United Parcel Service (UPS) erbjuder inrikes och internationell sjöfart på lan
 
 >[!NOTE]
 >
->UPS kan använda [dimensionell vikt](carriers.md#dimensional-weight) för att fastställa vissa fraktpriser. Adobe Commerce stöder dock endast viktbaserad beräkning av fraktkostnaden.
+>UPS kan använda [dimensionell vikt](carriers.md#dimensional-weight) för att fastställa vissa fraktsatser. Adobe Commerce stöder dock endast viktbaserad beräkning av fraktkostnaden.
 
 ## Steg 1: Öppna ett UPS-leveranskonto
 
@@ -26,11 +26,11 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
 
 ## Steg 2: Aktivera UPS för din butik
 
-1. På _Administratörssidlist_, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. På panelen till vänster, under **[!UICONTROL Sales]**, välja **[!UICONTROL Delivery Methods]**.
+1. Välj **[!UICONTROL Delivery Methods]** under **[!UICONTROL Sales]** på panelen till vänster.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL UPS]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL UPS]**.
 
 1. Ange **[!UICONTROL Enabled for Checkout]** till `Yes`.
 
@@ -38,15 +38,15 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
 
    - Ange dina UPS-autentiseringsuppgifter: UPS ClientID som **[!UICONTROL User ID]**, UPS-klienthemlighet som **[!UICONTROL Password]**
 
-   - Ange **[!UICONTROL Mode]** till `Live` för att skicka data till UPS-leveranssystemet via en säker anslutning. (I utvecklingsläget skickas inga data via en säker anslutning.)
+   - Ange **[!UICONTROL Mode]** till `Live` om du vill skicka data till UPS-leveranssystemet via en säker anslutning. (I utvecklingsläget skickas inga data via en säker anslutning.)
 
    - Verifiera **[!UICONTROL Gateway URL]** som krävs för att skicka begäranden. Använd en sandbox-URL för testläge och en produktions-URL för live-begäranden.
 
    - Verifiera **[!UICONTROL Tracking URL]** som krävs för att hämta spårningsinformation. Använd en sandbox-URL för testläge och en produktions-URL för live-begäranden.
 
-   - Ange **[!UICONTROL Origin of the Shipment]** till den region där försändelsen kommer.
+   - Ange **[!UICONTROL Origin of the Shipment]** till den region där leveransen kommer.
 
-   - Om du har specialpriser för UPS anger du **[!UICONTROL Enable Negotiated Rates]** till `Yes` och ange det sexsiffriga **[!UICONTROL Shipper Number]** som tilldelats dig av UPS.
+   - Om du har specialpriser med UPS anger du **[!UICONTROL Enable Negotiated Rates]** till `Yes` och anger den sexsiffriga **[!UICONTROL Shipper Number]** som tilldelats dig av UPS.
 
    - Ange **[!UICONTROL Live Account]** till något av följande:
 
@@ -55,16 +55,16 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
 
    >[!NOTE]
    >
-   >Standardtypen för United Parcel Service är schemalagd för borttagning. Använd standardinställningen för nya konfigurationer `United Parcel Service REST` typ. REST-typen krävs också för att generera [fraktsedlar](shipping-labels.md).<br/>
-   >För version 2.4.7 **[!UICONTROL UPS Type]**  tas bort eftersom `UPS` och `UPS XML` typer är schemalagda för borttagning och `UPS REST` är standard. De UPS-API:er (United Parcel Service) som används av den inbyggda Adobe Commerce-integreringen är tillfälligt föråldrade eftersom de för närvarande inte stöder säkerhetsmodellen OAuth 2.0.
+   >Standardtypen för United Parcel Service är schemalagd för borttagning. Använd standardtypen `United Parcel Service REST` för nya konfigurationer. REST-typen krävs också för att generera [leveransetiketter](shipping-labels.md).<br/>
+   >För version 2.4.7 tas **[!UICONTROL UPS Type]** bort eftersom typerna `UPS` och `UPS XML` är schemalagda för borttagning och `UPS REST` är standardtypen. De UPS-API:er (United Parcel Service) som används av den inbyggda Adobe Commerce-integreringen är tillfälligt föråldrade eftersom de för närvarande inte stöder säkerhetsmodellen OAuth 2.0.
 
    >[!IMPORTANT]
    >
-   >UPS upphör med stödet för HTTP, som används i det aktuella standardvärdet (systemvärde). Rensa **[!UICONTROL Use system value]** och ändra URL:en för att använda HTTPS. Exempel: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
+   >UPS upphör med stödet för HTTP, som används i det aktuella standardvärdet (systemvärde). Avmarkera kryssrutan **[!UICONTROL Use system value]** och ändra URL:en så att HTTPS används. Exempel: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
-1. För **[!UICONTROL Title]** anger du namnet på leveransalternativet så som du vill att det ska visas vid utcheckningen.
+1. För **[!UICONTROL Title]** anger du namnet på det här leveransalternativet så som du vill att det ska visas vid utcheckningen.
 
-   Som standard är det här fältet inställt på `United Parcel Service`.
+   Som standard är fältet inställt på `United Parcel Service`.
 
    ![Aktivera UPS](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"}
 
@@ -75,7 +75,7 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
    - `Use origin weight (few requests)`
    - `Divide to equal weight (one request)`
 
-1. För **[!UICONTROL Container]**, ange den typiska paketeringstyp som används för leveransen:
+1. För **[!UICONTROL Container]** anger du den typiska paketeringstypen som används för leverans:
 
    - `Customer Packaging`
    - `UPS Letter Envelope`
@@ -90,7 +90,7 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
    - `Medium Express Box`
    - `Large Express Box`
 
-1. Ange **[!UICONTROL Weight Unit]** till det system du använder för att mäta produktvikt.
+1. Ange **[!UICONTROL Weight Unit]** till det system som du använder för att mäta produktvikt.
 
    Det viktsystem som stöds av UPS varierar beroende på land. Om du är osäker, fråga UPS vilket viktsystem du ska använda. Alternativen är:
 
@@ -102,7 +102,7 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
    - `Residential` - De flesta av dina leveranser är från företag till kund (B2C).
    - `Commercial` - De flesta av dina leveranser är business to business (B2B).
 
-1. Ange **[!UICONTROL Maximum Package Weight]** tillåts av transportföretaget.
+1. Ange **[!UICONTROL Maximum Package Weight]** som tillåts av transportören.
 
 1. Ange **[!UICONTROL Pickup Method]** till något av följande:
 
@@ -112,7 +112,7 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
    - `Letter Center`
    - `Customer Counter`
 
-1. Ange **[!UICONTROL Minimum Package Weight]** tillåts av transportföretaget.
+1. Ange **[!UICONTROL Minimum Package Weight]** som tillåts av transportören.
 
    ![Behållarbeskrivning](./assets/ups2.png){width="600" zoomable="yes"}
 
@@ -120,35 +120,35 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
 
 Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i UPS-leveranskostnaden. Om du vill ta med en hanteringskostnad gör du följande:
 
-1. Ange **[!UICONTROL Calculate Handling Fee]** till någon av följande metoder:
+1. Ange **[!UICONTROL Calculate Handling Fee]** till en av följande metoder:
 
    - `Fixed`
    - `Percent`
 
-1. Ange hur hanteringsavgiften ska tillämpas **[!UICONTROL Handling Applied]** till något av följande:
+1. Ange **[!UICONTROL Handling Applied]** till något av följande för att avgöra hur hanteringsavgiften tillämpas:
 
    - `Per Order`
    - `Per Package`
 
-1. Ange beloppet för **[!UICONTROL Handling Fee]** att debiteras.
+1. Ange beloppet för **[!UICONTROL Handling Fee]** som ska debiteras.
 
-   Om du vill ange ett procenttal använder du decimalformatet. Skriv till exempel `0.25` för 25 %.
+   Om du vill ange ett procenttal använder du decimalformatet. Ange till exempel `0.25` som 25 %.
 
    ![Hanteringsavgift](./assets/ups3.png){width="600" zoomable="yes"}
 
 ## Steg 5: Ange tillåtna metoder och tillämpliga länder
 
-1. För **[!UICONTROL Allowed Methods]** väljer du varje UPS-leveransmetod som ska vara tillgänglig för dina kunder.
+1. För **[!UICONTROL Allowed Methods]** väljer du varje UPS-leveransmetod som är tillgänglig för dina kunder.
 
    Metoderna visas under UPS vid utcheckning. Om du vill välja flera metoder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
 
-1. Om du vill ange en [Fri frakt](shipping-free.md) via UPS, ange alternativ för fri frakt:
+1. Om du vill ange alternativet [Fri frakt](shipping-free.md) via UPS anger du alternativ för fri frakt:
 
-   - Ange **[!UICONTROL Free Method]** till den metod du vill använda för fri frakt. Om du inte vill erbjuda fri frakt via UPS väljer du `None`.
+   - Ange **[!UICONTROL Free Method]** till den metod som du vill använda för fri frakt. Om du inte vill erbjuda fri frakt via UPS väljer du `None`.
 
-   - Ange ett minimiorderbelopp som berättigar till en beställning för fri frakt med UPS **[!UICONTROL Enable Free Shipping Threshold]** till `Enable`. Ange sedan det lägsta värdet i **[!UICONTROL Free Shipping Amount Threshold]**.
+   - Om du vill kräva ett minimiorderbelopp som berättigar till en order för fri frakt med UPS anger du **[!UICONTROL Enable Free Shipping Threshold]** till `Enable`. Ange sedan det lägsta värdet i **[!UICONTROL Free Shipping Amount Threshold]**.
 
-1. Ändra **[!UICONTROL Displayed Error Message]**.
+1. Ändra **[!UICONTROL Displayed Error Message]** om det behövs.
 
    Den här textrutan är förinställd med ett standardmeddelande, men du kan ange ett annat meddelande som du vill ska visas om UPS inte är tillgängligt.
 
@@ -157,7 +157,7 @@ Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i UP
 1. Ange **[!UICONTROL Ship to Applicable Countries]** till något av följande:
 
    - `All Allowed Countries` - Kunder från alla [länder](../getting-started/store-details.md#country-options) som anges i din butikskonfiguration kan använda den här leveransmetoden.
-   - `Specific Countries` - När du väljer det här alternativet visas _Leverera till specifika länder_ visas. Välj varje land i listan där leveransmetoden kan användas.
+   - `Specific Countries` - När du väljer det här alternativet visas listan _Leverera till specifika länder_. Välj varje land i listan där leveransmetoden kan användas.
 
 1. Ange **[!UICONTROL Show Method if Not Applicable]** till något av följande:
 
@@ -168,21 +168,21 @@ Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i UP
 
 1. Om du vill skapa en loggfil med information om UPS-leveranser som gjorts från din butik anger du **[!UICONTROL Debug]** till `Yes`.
 
-1. För **[!UICONTROL Sort Order]** anger du ett nummer för att bestämma i vilken ordning UPS ska visas när de visas tillsammans med andra leveransmetoder vid utcheckning.
+1. För **[!UICONTROL Sort Order]** anger du ett nummer som avgör i vilken ordning UPS visas när det visas med andra leveransmetoder vid utcheckning.
 
-   `0` = first, `1` = sekund, `2` = tredje och så vidare.
+   `0` = först, `1` = sekund, `2` = tredje och så vidare.
 
 1. Klicka på **[!UICONTROL Save Config]**.
 
 ## Steg 6: Ange leveransadress
 
-1. Se till att [Butiksinformation](../getting-started/store-details.md#store-information) är klar.
+1. Kontrollera att din [Store-information](../getting-started/store-details.md#store-information) är fullständig.
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och markera **[!UICONTROL Shipping Settings]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) **[!UICONTROL Origin]** på sidan och konfigurera leveransadressen.
+1. Utöka ![expanderingsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Origin]** på sidan och konfigurera leveransens ursprungliga adress.
 
    ![Försäljningskonfiguration - alternativ för leveransadress](./assets/shipping-origin.png){width="600" zoomable="yes"}
 
@@ -190,4 +190,4 @@ Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i UP
 
 >[!NOTE]
 >
->Handeln deklarerar inte det fullständiga orderpriset till UPS vid beräkning av fraktkostnader. Det här beteendet kan inte ändras.
+>Commerce deklarerar inte det fullständiga orderpriset till UPS vid beräkning av fraktkostnader. Det här beteendet kan inte ändras.

@@ -20,40 +20,40 @@ Dina kunder kan ha många sparade adresser och information i adressboken, särsk
 >
 >Adresssökning är inte aktiverat som standard. Du kan konfigurera den här funktionen så att den inkluderar funktionerna på din webbplats.
 
-När den här funktionen är aktiverad och kundens antal sparade adresser uppfyller eller överskrider den konfigurerade gränsen, är _Leverans_ och _Granska och betala_ visas endast en adress (standard). Kunden kan ändra den valda adressen genom att klicka på **Ändra adress** och söker sedan efter rätt adress efter ort, stat, gata eller postnummer. Den här funktionen stöder även adressval för utcheckning av presentregister.
+När den här funktionen är aktiverad och kundens antal sparade adresser uppfyller eller överskrider den konfigurerade gränsen visas endast en adress i stegen _Leverans_ och _Granska och betalningar_ (standard). Kunden kan ändra den valda adressen genom att klicka på **Ändra adress** och sedan söka efter rätt adress efter ort, stat, gata eller postnummer. Den här funktionen stöder även adressval för utcheckning av presentregister.
 
 ![Utcheckning med sparade leveransadresser visas](./assets/storefront-checkout-address-search.png){width="700" zoomable="yes"}
 
-Om kunden inte har någon standardleveransadress _Leverans_ sidvisning _Ingen adress har valts_. I så fall måste kunden klicka **Ändra adress** för att välja en sparad adress eller klicka på **Ny adress** för att lägga till och markera en adress innan du fortsätter med utcheckningen. Om kunden inte har någon standardfaktureringsadress visas _Granska och betala_ visas den adress som valts för leverans tillsammans med _Ändra adress_ alternativ.
+Om kunden inte har någon standardleveransadress visas sidan _Leverans_ _Ingen adress vald_. I så fall måste kunden klicka på **Ändra adress** för att välja en sparad adress eller klicka på **Ny adress** för att lägga till och välja en adress innan utcheckningen fortsätter. Om kunden inte har någon standardfaktureringsadress visar sidan _Granska och betala_ den adress som valts för leverans tillsammans med alternativet _Ändra adress_.
 
-![Utcheckning utan vald adress](./assets/storefront-checkout-address-search-no-default.png){width="600" zoomable="yes"}
+![Utcheckning utan vald adress, meddelande](./assets/storefront-checkout-address-search-no-default.png){width="600" zoomable="yes"}
 
 ## Låst adresssökning efter citattecken
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Endast för Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med Adobe Commerce B2B)
 
 Om du aktiverar adresssökning påverkas även utcheckningen av order som skapas från offerter där kundens antal sparade adresser uppfyller eller överskrider den konfigurerade gränsen. När offerten är klar och kunden går vidare till kassan visas endast den valda leveransadressen. På sidan visas också ett meddelande om att leveransadressen är låst och endast kan ändras i offerten.
 
-![Leveransadress låst för en offert](./assets/quote-checkout-shipping-address-locked.png){width="600" zoomable="yes"}
+![Leveransadressen är låst för en offert](./assets/quote-checkout-shipping-address-locked.png){width="600" zoomable="yes"}
 
 ## Aktivera adresssökning
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera på den vänstra panelen **[!UICONTROL Sales]** och välja **[!UICONTROL Checkout]**.
+1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]**.
 
-1. Expandera ![Expansionsväljare](../assets/icon-display-expand.png) den **[!UICONTROL Checkout Options]** -avsnitt.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Checkout Options]**.
 
-   ![Konfiguration - Utcheckningsalternativ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![Konfiguration - utcheckningsalternativ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-   En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Utcheckningsalternativ](../configuration-reference/sales/checkout.md#checkout-options) i _Referenshandbok för konfiguration_.
+   En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Utcheckningsalternativ](../configuration-reference/sales/checkout.md#checkout-options) i _referenshandboken för konfiguration_.
 
 1. Ange **[!UICONTROL Enable Address Search]** till `Yes`.
 
-1. Om du vill ange tröskelvärdet för att ta med adresssökningsfunktionen anger du **[!UICONTROL Number of Customer Addresses Limit]** alternativ.
+1. Ange alternativet **[!UICONTROL Number of Customer Addresses Limit]** om du vill ange tröskelvärdet för att inkludera adresssökningsfunktionen.
 
-   Rensa **[!UICONTROL Use system value]** om du vill göra den här ändringen.
+   Om det behövs avmarkerar du kryssrutan **[!UICONTROL Use system value]** för att göra den här ändringen.
 
-   När kundens antal sparade adresser uppfyller eller överskrider denna gräns visas antingen standardadressen (om kunden har en) eller _Ingen adress har valts_ med _Ändra adress_ alternativ. Standardgränsen är `10`.
+   När kundens antal sparade adresser uppfyller eller överskrider denna gräns visas antingen standardadressen (om kunden har en) eller _Ingen adress vald_ med alternativet _Ändra adress_. Standardgränsen är `10`.
 
 1. Klicka på **[!UICONTROL Save Config]**.

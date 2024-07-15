@@ -15,17 +15,17 @@ ht-degree: 0%
 
 # Konfigurera integreringen av Experience Cloud med Commerce Admin
 
-Kom igång med integreringen av Experience Cloud med Commerce Admin genom att konfigurera Commerce-programmet så att det använder tilläggen för Enhetlig upplevelse och handelshändelser i Commerce Admin.
+Kom igång med integreringen av Experience Cloud med Commerce Admin genom att konfigurera Commerce-programmet så att det använder tilläggen Commerce Admin Unified Experience och Commerce Events.
 
 
 ## Förutsättningar
 
 - Adobe Commerce måste vara konfigurerat att använda [Adobe IMS-autentisering](../getting-started/adobe-ims-config.md)
-- Kontoetablering och behörigheter - Administratörer måste ha en [Adobe affärsprofil](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address) med tillgång till följande resurser för att konfigurera integreringen av Experience Cloud:
-   - [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html)—Lägg till och hantera användare- och utvecklarkonton för Adobe för organisationen
-   - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/)—Åtkomst för utvecklare eller systemadministratör för att skapa App Builder-projekt och generera anslutningsinformationen och projektkonfigurationen för att använda tjänsten Adobe I/O Events
-   - [Commerce on cloud Infrastructure project](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html#get-started-with-the-project-web-interface)—Installera nödvändiga moduler och konfigurera Commerce-programservern med Adobe Commerce CLI
-   - [Commerce Admin](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)—Uppdatera butikskonfiguration och hantera Commerce-användarkonton
+- Kontoetablering och behörigheter - Administratörer måste ha en [Adobe-affärsprofil](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address) med tillgång till följande resurser för att konfigurera Experience Cloud-integreringen:
+   - [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html) - Lägg till och hantera användare- och utvecklarkonton för Adobe för organisationen
+   - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/) - Åtkomst för utvecklare eller systemadministratör för att skapa App Builder-projekt och generera anslutningsautentiseringsuppgifter och projektkonfiguration för att använda tjänsten Adobe I/O Events
+   - [Commerce i molninfrastrukturprojekt](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html#get-started-with-the-project-web-interface) - Installera nödvändiga moduler och konfigurera Commerce-programservern med Adobe Commerce CLI
+   - [Commerce Admin](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html) - Uppdatera butikskonfigurationen och hantera Commerce-användarkonton
 
 ## Konfigurationsöversikt
 
@@ -33,23 +33,23 @@ Aktivera integreringen genom att utföra följande uppgifter:
 
 1. [Kontrollera Commerce-miljön och programkonfigurationen](#check-the-commerce-environment-and-application-configuration).
 
-1. [Aktivera tillägget Enhetlig upplevelse för Commerce Admin](#enable-the-commerce-admin-unified-experience-extension).
+1. [Aktivera Commerce Admin Unified Experience-tillägget](#enable-the-commerce-admin-unified-experience-extension).
 
-1. [Ställ in Adobe I/O-händelser för handel](#set-up-adobe-io-events).
+1. [Konfigurera Adobe I/O-händelser för Commerce](#set-up-adobe-io-events).
 
 1. [Testa integreringen](#test-the-integration).
 
 ## Kontrollera Commerce-miljön och programkonfigurationen
 
-Innan du konfigurerar integreringen med Experience Cloud bör du kontrollera att ditt projekt och ditt Commerce-program uppfyller kraven.
+Innan du konfigurerar integreringen med Experience Cloud bör du kontrollera att ditt projekt och Commerce-programmet uppfyller kraven.
 
-1. Byt till projektkatalogen för ditt Commerce-projekt på din lokala arbetsstation.
+1. Gå till projektkatalogen för ditt Commerce-projekt på din dator.
 
 1. Kolla in miljögrenen där instansen kan integreras med Experience Cloud.
 
 1. Kontrollera att Adobe IMS är aktiverat.
 
-   - Använd [URL för SSH-åtkomst](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) för miljön att ansluta till Commerce-programservern.
+   - Använd [SSH Access URL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) för miljön för att ansluta till Commerce-programservern.
 
    - Använd Adobe Commerce CLI på kommandoraden för att kontrollera IMS-modulens status.
 
@@ -57,9 +57,9 @@ Innan du konfigurerar integreringen med Experience Cloud bör du kontrollera att
      bin/magento admin:adobe-ims:status
      ```
 
-   Om modulen inte är aktiverad [aktivera det med hjälp av organisationen och inloggningsuppgifterna för IMS-integrationsprojektet](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module).
+   Om modulen inte är aktiverad [aktiverar du den med hjälp av organisationen och autentiseringsuppgifterna för IMS-integrationsprojektet](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module).
 
-1. Kontrollera att administratörsanvändaren kan logga in i Commerce Admin med sin Adobe ID.
+1. Kontrollera att administratörsanvändaren kan logga in på Commerce Admin med sin Adobe ID.
 
    - Gå till Commerce Admin URL.
 
@@ -88,21 +88,21 @@ Innan du konfigurerar integreringen med Experience Cloud bör du kontrollera att
    composer update
    ```
 
-## Aktivera Enhetlig upplevelse för Commerce Admin
+## Aktivera Commerce Admin Unified Experience
 
 Aktivera tillägget Commerce Admin Unified Experience och logga sedan in via Experience Cloud.
 
 >[!NOTE]
 >
->Dessa instruktioner visar hur en Commerce Cloud-projektadministratör kan aktivera tillägget med Adobe Commerce CLI. Commerce Admin-användare kan även aktivera tillägget genom att uppdatera [Konfigurationsinställningar för Commerce Store](admin-unified-experience-integration-manage.md#from-the-commerce-admin).
+>Dessa instruktioner visar hur en Commerce Cloud-projektadministratör kan aktivera tillägget med Adobe Commerce CLI. Commerce Admin-användare kan även aktivera tillägget genom att uppdatera konfigurationsinställningarna för [Commerce Store](admin-unified-experience-integration-manage.md#from-the-commerce-admin).
 
-1. Använd rotkatalogen i din molnprojektmiljö på din lokala arbetsstation [magento-cloud CLI tool](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html) för att logga in på Commerce-programservern.
+1. I rotkatalogen för din molnprojektmiljö på din lokala arbetsstation använder du [magento-cloud CLI-verktyget](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html) för att logga in på Commerce programserver.
 
    ```bash
    magento-cloud ssh
    ```
 
-1. Aktivera `magento/module-unified-experience` tillägg med Adobe Commerce CLI:
+1. Aktivera tillägget `magento/module-unified-experience` med Adobe Commerce CLI:
 
    ```bash
    bin/magento config:set admin/unified_experience/enabled 1
@@ -115,19 +115,19 @@ Aktivera tillägget Commerce Admin Unified Experience och logga sedan in via Exp
    bin/magento cache:clean
    ```
 
-## Ställ in Adobe I/O-händelser för handel
+## Konfigurera Adobe I/O-händelser för Commerce
 
-När integreringen av Experience Cloud är aktiverad skickar händelsetjänsten Adobe I/O-händelser Commerce-data till Experience Cloud för att hantera administratörsåtkomst till Commerce-projekt. Tjänstkonfigurationen kräver att Adobe I/O Events för Commerce-tillägget aktiveras (`magento/commerce-eventing`) och konfigurera Adobe I/O Events-tjänsten i Admin.
+När integreringen av Experience Cloud är aktiverad skickar händelsetjänsten Adobe I/O händelsedata från Commerce till Experience Cloud för att hantera administratörsåtkomst till Commerce-projekt. Tjänstkonfigurationen kräver att du aktiverar tillägget Adobe I/O Events för Commerce (`magento/commerce-eventing`) och konfigurerar tjänsten Adobe I/O Events i Admin.
 
 ### Aktivera Commerce Events
 
-Aktivera tillägget Commerce Events (`magento/commerce-eventing`) för att skicka anpassade händelsedata från Commerce-programmet till Adobe I/O Events-tjänsten.
+Aktivera tillägget Commerce Events (`magento/commerce-eventing`) för att skicka anpassade händelsedata från Commerce-programmet till tjänsten Adobe I/O Events.
 
 >[!NOTE]
 >
->I Commerce 2.4.6 och senare installeras tillägget Commerce Events som standard. För handelsprojekt med Commerce 2.4.5 använder du först Composer för att [installera tillägget](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce)och sedan aktivera den.
+>För Commerce 2.4.6 och senare installeras tillägget Commerce Events som standard. För Commerce-projekt med Commerce 2.4.5 använder du först Composer för att [installera tillägget](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce) och sedan aktivera det.
 
-1. Lägg till följande konfiguration i den lokala utvecklingsmiljön för Commerce `.magento.env.yaml` -fil.
+1. Lägg till följande konfiguration i filen `.magento.env.yaml` från den lokala Commerce-projektutvecklingsmiljön.
 
    ```yaml
    stage:
@@ -140,15 +140,15 @@ Aktivera tillägget Commerce Events (`magento/commerce-eventing`) för att skick
          consumers: []
    ```
 
-1. Lägg till, implementera och distribuera den uppdaterade `.magento.env.yaml file` till molnmiljön.
+1. Lägg till, bekräfta och distribuera den uppdaterade `.magento.env.yaml file` till molnmiljön.
 
 >[!TIP]
 >
->Mer information om hur du konfigurerar och hanterar miljövariabler med `.magento.env.yaml` -fil, se [Konfigurera miljövariabler för distribution](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html).
+>Mer information om hur du konfigurerar och hanterar miljövariabler med filen `.magento.env.yaml` finns i [Konfigurera miljövariabler för distribution](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html).
 
-### Konfigurera integrering av Commerce Events
+### Konfigurera integreringen med Commerce Events
 
-Konfigurera integreringen av Commerce Events genom att utföra följande uppgifter. Detaljerade anvisningar finns i [Adobe I/O Events for Commerce](https://developer.adobe.com/commerce/extensibility/events/project-setup/) dokumentation för utvecklare.
+Konfigurera integreringen av Commerce Events genom att utföra följande uppgifter. Mer information finns i [Adobe I/O-händelser för Commerce](https://developer.adobe.com/commerce/extensibility/events/project-setup/)-utvecklardokumentation.
 
 1. [Skapa ett App Builder-projekt](https://developer.adobe.com/commerce/extensibility/events/project-setup/) för att ta emot händelsedata från Commerce-instansen.
 
@@ -156,19 +156,19 @@ Konfigurera integreringen av Commerce Events genom att utföra följande uppgift
 
 1. Konfigurera Adobe Commerce att använda Adobe I/O Events.
 
-   - [Uppdatera inställningarna för butikskonfiguration för tjänsten Adobe I/O Events](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#begin-configuring-events-on-commerce).
+   - [Uppdatera Store-konfigurationsinställningarna för tjänsten Adobe I/O Events](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#begin-configuring-events-on-commerce).
 
-   - [Konfigurera en händelseleverantör för att skicka Commerce-händelser](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#create-an-event-provider-and-complete-the-commerce-configuration).
+   - [Konfigurera en händelseprovider för att skicka Commerce-händelser](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#create-an-event-provider-and-complete-the-commerce-configuration).
 
 1. [Uppdatera App Builder-projektet för att ta emot händelsedata från Commerce-instansen](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#subscribe-and-register-events).
 
    Registrera eller prenumerera inte på händelser från Commerce-instansen. Händelseregistreringen skickas till App Builder-projektet när du konfigurerar händelseprovidern för Commerce-programmet.
 
-   När du har anslutit händelseprovidern till App Builder-projektet kan du prenumerera på `observer.uex_commerce_instance_update` och spara ändringarna.
+   När du har anslutit händelseprovidern till App Builder-projektet kan du prenumerera på `observer.uex_commerce_instance_update`-händelsen och spara ändringarna.
 
 1. Om du vill upprätta anslutningen skickar du en händelse via händelseprovidern till konsumenten.
 
-   - Från kommandoraden i den lokala molnprojektkatalogen [använd SSH för att ansluta till Commerce-programservern](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment).
+   - Från kommandoraden i den lokala molnprojektkatalogen [använder du SSH för att ansluta till Commerce programserver](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment).
 
      ```bash
      magento-cloud ssh
@@ -182,22 +182,22 @@ Konfigurera integreringen av Commerce Events genom att utföra följande uppgift
 
 ### Testa integreringen
 
-Verifiera att en Commerce Administrator kan logga in på Experience Cloud för att visa tillgängliga Commerce-projekt och komma åt Admin och Storefront för varje projekt.
+Kontrollera att en Commerce-administratör kan logga in på Experience Cloud för att visa tillgängliga Commerce-projekt och få åtkomst till Admin och Storefront för varje projekt.
 
 1. [Logga in på Experience Cloud](https://experiencecloud.adobe.com/library) med den Adobe ID och organisation som är associerad med Commerce-instansen.
 
    ![Få åtkomst till Commerce-projekt från Experience Cloud hemsida](./assets/admin-uex-home-page.png){width="600" zoomable="yes"}
 
-1. Visa tillgängliga Commerce Projects genom att välja **[!UICONTROL Commerce]**.
+1. Visa tillgängliga Commerce-projekt genom att välja **[!UICONTROL Commerce]**.
 
-   ![Arbetsytan för Commerce Projects för Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="600" zoomable="yes"}
+   ![Commerce Projects-arbetsyta för Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="600" zoomable="yes"}
 
 1. Öppna administratören för en instans genom att välja **[!UICONTROL Open]**.
 
-   ![Commerce Admin-vyn med integrering med Experience Cloud aktiverad](./assets/admin-dashboard.png){width="600" zoomable="yes"}
+   ![Commerce Admin-vy med Experience Cloud-integrering aktiverad](./assets/admin-dashboard.png){width="600" zoomable="yes"}
 
 1. Verifiera att du kan utföra administratörsåtgärder som förväntat.
 
-   Samma process bör användas för arbetsflöden i Commerce Admin. Om du får arbetsflödesändringar eller fel när du har aktiverat integreringen med Experience Cloud kontaktar du din Commerce-systemadministratör eller [skicka en Adobe Support-biljett](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+   Samma process bör användas för arbetsflöden i Commerce Admin. Om arbetsflödesändringar eller fel inträffar när integreringen med Experience Cloud har aktiverats kontaktar du Commerce systemadministratör eller [skickar en Adobe Support-biljett](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 När du har konfigurerat integreringen med Experience Cloud kontrollerar du att administratörskonton har etablerats korrekt för att få åtkomst till Commerce-projekt via Experience Cloud. Se [Hantera administratörsanvändare](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts).

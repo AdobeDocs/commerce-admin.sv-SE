@@ -14,35 +14,35 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Varje presentkort har en unik kod som bara en kund kan få tillbaka vid utcheckningen. A [kodpool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) måste vara upprättat innan presentkort kan säljas. Se [Arbetsflöde för presentkort](../stores-purchase/product-gift-card-workflow.md) om du vill ha information om hur presentkort löses in i kundvagnen.
+Varje presentkort har en unik kod som bara en kund kan få tillbaka vid utcheckningen. En [kodpool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) måste upprättas innan presentkort kan säljas. Mer information om hur presentkort löses in i kundvagnen finns i [Presentkortsarbetsflöde](../stores-purchase/product-gift-card-workflow.md).
 
 ![Produktsida för presentkort](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
 Det finns tre typer av presentkortsprodukter:
 
-- **Virtuell** - Ett virtuellt presentkort skickas till mottagarens e-postadress, som krävs vid köpet av presentkortet. Ingen leveransadress behövs.
+- **Virtuellt** - Ett virtuellt presentkort skickas till mottagarens e-postadress, som krävs när du köper presentkortet. Ingen leveransadress behövs.
 
-- **Fysisk** - Ett fysiskt presentkort skickas till mottagarens adress, vilket krävs vid köpet av presentkortet.
+- **Fysiskt** - Ett fysiskt presentkort skickas till mottagarens adress, vilket krävs vid köpet av presentkortet.
 
 - **Kombinerad** - Ett kombinerat presentkort skickas och skickas med e-post till mottagaren. Mottagarens e-postadress och leveransadress krävs vid köpet av presentkortet.
 
 ## Skapa en presentkortsprodukt
 
-Följande instruktioner visar hur du skapar ett presentkort med en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. Varje obligatoriskt fält markeras med en röd asterisk (`*`). När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
+I följande instruktioner visas hur du skapar ett presentkort med hjälp av en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. Alla obligatoriska fält är markerade med en röd asterisk (`*`). När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
 
 ### Steg 1: Välj produkttyp
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
-1. I det övre högra hörnet på _[!UICONTROL Add Product]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"}  ) väljer du **[!UICONTROL Gift Card]**.
+1. I det övre högra hörnet på _[!UICONTROL Add Product]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"}  ) väljer du **[!UICONTROL Gift Card]**.
 
    ![Lägg till presentkort](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
 ### Steg 2: Välj attributuppsättning
 
-Du kan använda standardinställningen `Gift Card` eller välj en annan. Gör något av följande om du vill välja den attributuppsättning som används som mall för produkten:
+Du kan använda standardattributuppsättningen `Gift Card` eller välja en annan. Gör något av följande om du vill välja den attributuppsättning som används som mall för produkten:
 
-- Klicka på **[!UICONTROL Attribute Set]** och ange hela eller delar av attributuppsättningens namn.
+- Klicka i fältet **[!UICONTROL Attribute Set]** och ange hela eller en del av attributuppsättningens namn.
 
 - Välj den attributuppsättning som du vill använda i listan som visas.
 
@@ -50,9 +50,9 @@ Du kan använda standardinställningen `Gift Card` eller välj en annan. Gör n�
 
 ### Steg 3: Slutför de obligatoriska inställningarna
 
-1. Ange en **[!UICONTROL Product Name]** för presentkortet.
+1. Ange **[!UICONTROL Product Name]** som presentkort.
 
-   Du kan också ange typ av presentkort i namnet. Till exempel: _Virtuellt presentkort för Luma_.
+   Du kan också ange typ av presentkort i namnet. Exempel: _Virtuellt presentkort för luma_.
 
 1. Ange en **[!UICONTROL SKU]** för produkten.
 
@@ -62,11 +62,11 @@ Du kan använda standardinställningen `Gift Card` eller välj en annan. Gör n�
 
    - `Virtual` - Virtuella presentkort levereras via e-post till mottagaren.
    - `Physical` - Fysiska presentkort kan vara masstillverkade i förväg och präglade med unika koder.
-   - `Combined` - Ett kombinerat presentkort har samma egenskaper som ett virtuellt och fysiskt presentkort.
+   - `Combined` - Ett kombinerat presentkort har samma egenskaper som både ett virtuellt och ett fysiskt presentkort.
 
    ![Presentkortstyp](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
 
-1. Om du vill erbjuda kunden ett val av fasta belopp klickar du **[!UICONTROL Add Amount]** och ange kortets första fasta värde som ett decimaltal.
+1. Om du vill erbjuda kunden ett val av fasta belopp klickar du på **[!UICONTROL Add Amount]** och anger kortets första fasta värde som ett decimaltal.
 
    Om du vill ange ett val av fasta belopp upprepar du det här steget för varje.
 
@@ -74,7 +74,7 @@ Du kan använda standardinställningen `Gift Card` eller välj en annan. Gör n�
 
    - Ange **[!UICONTROL Open Amount]** till `Yes`.
 
-   - Om du vill definiera intervallet för minsta och högsta godtagbara värden anger du **[!UICONTROL Open Amount From]** och **[!UICONTROL To]** värden.
+   - Ange värdena **[!UICONTROL Open Amount From]** och **[!UICONTROL To]** för att definiera intervallet för minsta och högsta tillåtna värden.
 
    Du kan skapa presentkort med fast pris, öppet belopp eller både och.
 
@@ -86,19 +86,19 @@ Du kan använda standardinställningen `Gift Card` eller välj en annan. Gör n�
 
 ### Steg 4: Slutför de grundläggande inställningarna
 
-1. För ett fysiskt eller kombinerat presentkort anger du **[!UICONTROL Quantity]** i lager.
+1. Ange **[!UICONTROL Quantity]** i lager för ett fysiskt eller kombinerat presentkort.
 
-1. Om presentkortet som ska skickas ska du ange **[!UICONTROL Weight]** i paketet.
+1. Om presentkortet som ska skickas anger du **[!UICONTROL Weight]** för paketet.
 
-1. I **[!UICONTROL Categories]** fält, välj `Gift Card`.
+1. Välj `Gift Card` i fältet **[!UICONTROL Categories]**.
 
 Det kan finnas ytterligare enskilda attribut som beskriver produkten. Markeringen varierar attributuppsättningen och du kan slutföra dem senare.
 
 ### Steg 5: Fyll i presentkortsinformationen
 
-The _[!UICONTROL Gift Card Information]_-avsnittet i produktinställningarna kan användas för att åsidosätta [presentkortskonfiguration](../configuration-reference/sales/gift-cards.md) inställningar som bestämmer hur kortet hanteras.
+Avsnittet _[!UICONTROL Gift Card Information]_i produktinställningarna kan användas för att åsidosätta [presentkortskonfigurationen](../configuration-reference/sales/gift-cards.md) som avgör hur kortet hanteras.
 
-1. Bläddra nedåt till _[!UICONTROL Gift Card Information]_-avsnitt.
+1. Bläddra ned till avsnittet _[!UICONTROL Gift Card Information]_.
 
    Standardinställningarna i det här avsnittet bestäms av systemkonfigurationen.
 
@@ -110,7 +110,7 @@ The _[!UICONTROL Gift Card Information]_-avsnittet i produktinställningarna kan
 
    - **[!UICONTROL Lifetime (days)]** - Anger antalet dagar efter köpet tills presentkortet går ut. Om du inte vill ange en gräns för kortets livslängd lämnar du det här fältet tomt.
 
-   - **[!UICONTROL Allow Message]** - Anger om köparen av presentkortet kan skriva ett meddelande till mottagaren. Ett presentmeddelande kan inkluderas för både virtuella (e-postade) och fysiska (levererade) presentkort.
+   - **[!UICONTROL Allow Message]** - Avgör om köparen av presentkortet kan ange ett meddelande till mottagaren. Ett presentmeddelande kan inkluderas för både virtuella (e-postade) och fysiska (levererade) presentkort.
 
    - **[!UICONTROL Email Template]** - Bestämmer e-postmallen som används för meddelandet som skickas till mottagaren av ett presentkort.
 
@@ -127,31 +127,31 @@ Fyll i informationen i följande avsnitt efter behov:
 - [Design](settings-advanced-design.md)
 - [Presentalternativ](product-gift-options.md)
 
-### Steg 7: Publicera produkten
+### Steg 7: Publish produkten
 
-1. Om du vill publicera produkten i katalogen anger du **Aktivera produkt** växla till `Yes`.
+1. Om du är redo att publicera produkten i katalogen anger du **Aktivera produkt** till `Yes`.
 
 1. Gör något av följande:
 
    **Metod 1:** Spara och förhandsgranska
 
-   - Klicka på i det övre högra hörnet **[!UICONTROL Save]**.
+   - Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-   - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på _Administratör_ ( ![Menypil](../assets/icon-menu-down-arrow-black.png) ),
+   - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil](../assets/icon-menu-down-arrow-black.png) ),
 
    ![Kundvy](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    **Metod 2:** Spara och stäng
 
-   På _[!UICONTROL Save]_( ![Menypil](../assets/icon-menu-down-arrow-red.png){width="25"} ) väljer du **[!UICONTROL Save & Close]**.
+   Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## Saker att komma ihåg
 
-- A _kodpool_ unika nummer måste genereras innan ett presentkort kan köpas.
+- En _kodpool_ med unika nummer måste genereras innan ett presentkort kan erbjudas för försäljning.
 
-- Presentkort kan ställas in på `Redeemable` eller `Non-Redeemable`.
+- Presentkort kan anges till `Redeemable` eller `Non-Redeemable`.
 
-- Skatter är **_används inte_** till presentkort vid köpet av presentkortet. Skatter tillämpas endast på produkter när ett köpt presentkort används för att köpa produkter.
+- Skatter tillämpas **_inte_** på presentkort under presentkortsköpet. Skatter tillämpas endast på produkter när ett köpt presentkort används för att köpa produkter.
 
 - Presentkortets livslängd kan vara obegränsad eller inställd på ett visst antal dagar.
 

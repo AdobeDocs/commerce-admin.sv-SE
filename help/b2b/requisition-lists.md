@@ -16,7 +16,7 @@ Genom att använda en rekvisitionslista sparar du tid när du köper produkter s
 
 >[!NOTE]
 >
->Information om hur du aktiverar rekvisitionslistor för din butik finns i [Aktivera B2B-funktioner](enable-basic-features.md). Det kan tillåta att upp till 999 rekvisitionslistor underhålls för varje kundkonto, beroende på [konfiguration](configure-requisition-lists.md).
+>Information om hur du aktiverar rekvisitionslistor för din butik finns i [Aktivera B2B-funktioner](enable-basic-features.md). Det kan tillåta att upp till 999 rekvisitionslistor upprätthålls för varje kundkonto, beroende på [konfigurationen](configure-requisition-lists.md).
 
 Funktionen för rekvisitionslista liknar önskelistor, med följande skillnader:
 
@@ -29,27 +29,27 @@ Funktionen för rekvisitionslista liknar önskelistor, med följande skillnader:
 
 En inloggad kund som är associerad med ett företagskonto kan skapa en rekvisitionslista från sin kontokontrollpanel.
 
-1. I sidofältet på deras konto väljer **[!UICONTROL My Requisition Lists]**.
+1. I sidofältet för deras konto väljer **[!UICONTROL My Requisition Lists]**.
 
-1. På _[!UICONTROL Requisition Lists]_sida, klicka **[!UICONTROL Create New Requisition List]**.
+1. Klicka på **[!UICONTROL Create New Requisition List]** på sidan _[!UICONTROL Requisition Lists]_.
 
 1. Anger **[!UICONTROL Requisition List Name]** och **[!UICONTROL Description]**.
 
    ![Skapa rekvisitionslista](./assets/requisition-list-create.png){width="300"}
 
-1. När det är klart klickar du **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ## Skapa en rekvisitionslista från en produktsida
 
 En inloggad kund som är kopplad till ett företagskonto kan skapa en rekvisitionslista från en produktsida. Med den här metoden kan du enkelt skapa en lista och lägga till produkten.
 
-1. På produktinformationssidan klickar kunden **[!UICONTROL Add to Requisition List]**.
+1. Från produktinformationssidan klickar kunden på **[!UICONTROL Add to Requisition List]**.
 
-1. Klickningar **[!UICONTROL Create New Requisition List]**.
+1. Klicka på **[!UICONTROL Create New Requisition List]**.
 
 1. Anger **[!UICONTROL Requisition List Name]** och **[!UICONTROL Description]**.
 
-1. När det är klart klickar du **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ## Lägg till produkter i en rekvisitionslista
 
@@ -64,12 +64,12 @@ Kunder kan lägga till produkter i en rekvisitionslista från:
 
 1. Från butiken går kunden till detaljsidan för den produkt som ska läggas till i rekvisitionslistan.
 
-1. Klickningar **[!UICONTROL Add to Requisition List]** och gör något av följande:
+1. Klicka på **[!UICONTROL Add to Requisition List]** och gör något av följande:
 
    - Väljer en befintlig rekvisitionslista.
    - Skapar en rekvisitionslista.
 
-   ![Lägg till i rekvisitionslista](./assets/requisition-list-product-detail.png){width="700" zoomable="yes"}
+   ![Lägg till i rekvisitionslistan](./assets/requisition-list-product-detail.png){width="700" zoomable="yes"}
 
 ### Från en katalogsida
 
@@ -77,27 +77,27 @@ Kunder kan lägga till produkter i en rekvisitionslista från:
 
 1. Hovrar över produkten.
 
-1. Klickningar **[!UICONTROL Add to Requisition List]** och gör något av följande:
+1. Klicka på **[!UICONTROL Add to Requisition List]** och gör något av följande:
 
    - Väljer en befintlig rekvisitionslista.
    - Skapar en rekvisitionslista.
 
-   ![Lägg till i rekvisitionslista](./assets/requisition-list-add-product.png){width="700" zoomable="yes"}
+   ![Lägg till i rekvisitionslistan](./assets/requisition-list-add-product.png){width="700" zoomable="yes"}
 
 ### Från en befintlig order
 
-1. I sidofältet på kontouppsättningen väljer kunden **[!UICONTROL My Orders]**.
+1. Kunden väljer **[!UICONTROL My Orders]** i sidofältet på sin kontokontrollpanel.
 
-1. Klicka längst upp i ordningen **[!UICONTROL Add to Requisition List]** och gör något av följande:
+1. Klicka på **[!UICONTROL Add to Requisition List]** överst i ordningen och gör något av följande:
 
    - Väljer en befintlig rekvisitionslista.
    - Skapar en rekvisitionslista.
 
-   ![Lägg till i rekvisitionslista](./assets/requisition-list-add-from-order.png){width="700" zoomable="yes"}
+   ![Lägg till i rekvisitionslistan](./assets/requisition-list-add-from-order.png){width="700" zoomable="yes"}
 
 ### Från kundvagnen
 
-1. Under artikeln klickar kunden på **[!UICONTROL Add to Requisition List]** och gör något av följande:
+1. Under objektet klickar kunden på menyn **[!UICONTROL Add to Requisition List]** och gör något av följande:
 
    - Väljer en befintlig rekvisitionslista.
    - Skapar en rekvisitionslista.
@@ -112,12 +112,12 @@ När kunden är inloggad på sitt konto kan han eller hon använda någon av fö
 
 ### Från kontokontrollpanelen
 
-1. I sidofältet på kontokontrollpanelen väljer **[!UICONTROL My Requisition Lists]**.
+1. Välj **[!UICONTROL My Requisition Lists]** i sidofältet på deras kontokontrollpanel.
 
-1. Klicka på i listan över rekvisitionslistor **[!UICONTROL View]** i _Åtgärder_ kolumn.
+1. Klicka på **[!UICONTROL View]** i kolumnen _Åtgärder_ i listan över rekvisitionslistor.
 
 ### Från alla butikssidor
 
 1. Klicka på användarnamnet i fältet för snabblänkar högst upp på sidan.
 
-1. På menyn väljer **[!UICONTROL My Requisition Lists]**.
+1. Välj **[!UICONTROL My Requisition Lists]** på menyn.

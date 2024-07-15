@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Orderstatus och reservationer
 
-[!DNL Inventory Management] stöder delvis och fullständig fakturering, betalningar, frakt och annullering per order. När du hanterar en beställning via bearbetning, fakturering, leverans och eventuell återbetalning [!DNL Commerce] anger eller ändrar automatiskt reservationer för att uppdatera den försäljningsbara kvantiteten för ett lager (eller en försäljningskanal) och lagerbehållningskvantiteten per källa. Du behöver inte aktivt komma åt eller ange reservationer. När du slutför åtgärder för att slutföra, avbryta eller återbetala en beställning utförs den åt dig.
+[!DNL Inventory Management] har stöd för partiell och fullständig fakturering, betalningar, frakt och annulleringar per order. När du hanterar en order via bearbetning, fakturering, leverans och möjliga återbetalningar, anger eller ändrar [!DNL Commerce] automatiskt reservationer för att uppdatera den försäljningsbara kvantiteten för ett lager (eller en försäljningskanal) och lagerbehållningskvantiteten per källa. Du behöver inte aktivt komma åt eller ange reservationer. När du slutför åtgärder för att slutföra, avbryta eller återbetala en beställning utförs den åt dig.
 
 Dessa reservationer justerar alltid den försäljningsbara kvantiteten, med positiva eller negativa belopp för att öka eller minska kvantiteter. Resultatet är en uppdatering av era lagerbehållningar och säljbara kvantiteter för aktuell produkttillgänglighet.
 
-Mer information om order och leveranser finns i [Hantera beställningar och leveranser](shipments.md).
+Mer information om beställningar och leveranser finns i [Hantera beställningar och leveranser](shipments.md).
 
 ## Alternativ för orderhantering
 
@@ -32,30 +32,30 @@ Om en kund annullerar sin beställning före leverans (helt eller delvis), regis
 
 ### Återförda order
 
-Om en kund begär en återbetalning ska kreditnotan skickas för de delar eller hela produktbeloppen. När du tar emot de returnerade produkterna anger du en kreditnota för att ange medel och uppdatera produktbelopp. När du väljer alternativet Återgå till Stock [!DNL Commerce] lägger till kvantiteter tillbaka till de produkter och källor som levererade beställningarna och reservationskompensationerna för att uppdatera säljbara kvantiteter för det associerade lagret.
+Om en kund begär en återbetalning ska kreditnotan skickas för de delar eller hela produktbeloppen. När du tar emot de returnerade produkterna anger du en kreditnota för att ange medel och uppdatera produktbelopp. När du väljer alternativet Återgå till lager lägger [!DNL Commerce] till kvantiteter tillbaka till de produkter och källor som levererade beställningarna och reservationskompensationerna för att uppdatera försäljningsbara kvantiteter för det associerade lagret.
 
 ## Ordertyper
 
-Enkla beställningar börjar med en kundvagn, fortsätter att betala och avslutas med en tillfredsställande leverans. I dessa order [!DNL Inventory Management] bearbetar enkelt reservationer mot tillgängligheten (eller försäljningsbara kvantiteter) i vagnen och kassan, och drar av från lagerbehållningen vid leveransen.
+Enkla beställningar börjar med en kundvagn, fortsätter att betala och avslutas med en tillfredsställande leverans. I de här beställningarna bearbetar [!DNL Inventory Management] enkelt reservationer mot tillgängligheten (eller säljbara kvantitet) i kundvagnen och kassan, och drar av från lagerbehållningen vid leveransen.
 
-![Process för enkel beställning](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
+![Process för en enkel order](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
 
 En mer komplicerad order kan innehålla partiella annulleringar, partiella leveranser och återbetalningar. I sådana fall påverkar reservationer det tillgängliga lagret för att lägga till kvantiteter för annulleringar och återbetalningar och minska kvantiteter när de beställs och levereras.
 
-![Process för en komplicerad order](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
+![Bearbeta för en komplicerad order](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
 
 Tillgänglighetsreservationer och lagerändringar görs baserat på orderstatus.
 
 ## Status och reservationer
 
-I följande register visas orderstatus och kreditnotsstatus med reservationsändringar som anges av [!DNL Commerce] för att hantera ert lager.
+I följande register visas orderstatus och kreditnotsstatus med reservationsändringar som har angetts av [!DNL Commerce] för att hantera ditt lager.
 
 | Orderstatus | Beskrivning | Reservation för säljbar kvantitet |
 |--|--|--|
 | [!UICONTROL Open] | Nytt och nyligen skickat, ingen bearbetning | Reservationen sparas när beställningen skickas för lagret. |
 | [!UICONTROL Canceled] | Avbruten helt eller delvis före betalning | Reservationskompensation anges för att returnera en del av eller hela kvantitet till lagersaldokvantiteten. |
 | [!UICONTROL On Hold] | Betalning och leverans har inte bearbetats eller fakturerats | Reservationen är kvar. |
-| [!UICONTROL Suspected Fraud] | Har inte bearbetats på grund av bedrägeri | Om det godkänns eller ses över, stannar reservationen kvar på plats.<br/>Om det inte godkänns stannar reservationen kvar tills handlaren beslutar att godkänna eller avbryta.<br/>Om den annulleras anges reservationskompensationen för att returnera fullständig kvantitet till lagerförsäljningskvantiteten. |
+| [!UICONTROL Suspected Fraud] | Har inte bearbetats på grund av bedrägeri | Om det godkänns eller ses över, stannar reservationen kvar på plats.<br/>Om det inte godkänns stannar reservationen kvar tills handlaren beslutar att godkänna eller avbryta.<br/>Om den avbryts anges reservationskompensationen för att returnera hela kvantiteten till lagerförsäljningskvantiteten. |
 | [!UICONTROL Pending] | Väntar på betalning | Reservationen stannar kvar på plats. |
 | [!UICONTROL Processing] | Betalningshantering, ej mottagen | Reservationen stannar kvar på plats. |
 | [!UICONTROL Pending Payment] | Betalningen har inte tagits emot | Reservationen stannar kvar på plats. |
@@ -76,14 +76,14 @@ De köper två stora parkcyklar till sina små barn, en BMX-cykel till sin tonå
 
 ![Komplex beställning](assets/diagram-order-complex.png){width="600" zoomable="yes"}
 
-De visar sin familj vad de hittade, men gör några ändringar. Innan betalningen har slutförts avbryts två av de 33-BikeFun-SKU:erna (som inte var underordnade). Detta är en partiell annullering på grund av väntande betalningar, så ingen kreditnota behövs. För att uppdatera [!DNL Commerce] lägger tillbaka till det säljbara lagret för Kanada. Ordern betalas och alla produkter skickas och anländer i tid till semester. [!DNL Commerce] uppdaterar den försäljningsbara kvantiteten och källkvantiteten för leveranslagerstället för de levererade produkterna.
+De visar sin familj vad de hittade, men gör några ändringar. Innan betalningen har slutförts avbryts två av de 33-BikeFun-SKU:erna (som inte var underordnade). Detta är en partiell annullering på grund av väntande betalningar, så ingen kreditnota behövs. [!DNL Commerce] lägger tillbaka till det säljbara lagret för Kanada för att uppdatera. Ordern betalas och alla produkter skickas och anländer i tid till semester. [!DNL Commerce] uppdaterar säljbar kvantitet och källkvantiteter för leveranspapperren för de levererade produkterna.
 
 Men skjortan passade inte riktigt sin make. Blake ber om pengarna och skickar tillbaka skjortan. När kreditnotan skapas läggs en 54-BikeLife-skjorta tillbaka till Kanadas lager och fraktlager.
 
-- **Levererade produkter** - Med produkter som köpts och levererats [!DNL Commerce] uppdaterar lagret. Reservationskompensationer konverteras till lagerbehållningskvantitetsavdrag från den levererade källan. De tillgängliga uppdateringarna av försäljningsbar kvantitet för lagret.
+- **Levererade produkter** - Med produkter som köpts och levererats uppdaterar [!DNL Commerce] lagret. Reservationskompensationer konverteras till lagerbehållningskvantitetsavdrag från den levererade källan. De tillgängliga uppdateringarna av försäljningsbar kvantitet för lagret.
 
-- **Annullerade produkter** - genom att annullera lager, [!DNL Commerce] tar bort reservationen för den produkten. Reservationskompensation anges på lagernivån för att lägga tillbaka säljbara kvantiteter för partiell annullering av två skjortor. Detta påverkar inte lagerkvantiteten på källnivå.
+- **Avbrutna produkter** - Genom att annullera lager tar [!DNL Commerce] bort reservationen för den produkten. Reservationskompensation anges på lagernivån för att lägga tillbaka säljbara kvantiteter för partiell annullering av två skjortor. Detta påverkar inte lagerkvantiteten på källnivå.
 
-- **Kreditnota/återförd produkt** - Genom att återlämna lagret måste det läggas till i kvantiteterna. När du utfärdar kreditnotan kan du välja att returnera till aktien. [!DNL Commerce] lägger till lagerkvantitet i den levererade källan för produkten. Reservationskompensationer anges för att rensa återstående reservationer. Den försäljningsbara kvantiteten beräknas om mot den uppdaterade kvantiteten.
+- **Kreditnota/återförd produkt** - Genom att returnera lager måste den läggas till i kvantiteterna igen. När du utfärdar kreditnotan kan du välja att returnera till aktien. [!DNL Commerce] lägger till tillbaka lagerkvantitet i den levererade källan för produkten. Reservationskompensationer anges för att rensa återstående reservationer. Den försäljningsbara kvantiteten beräknas om mot den uppdaterade kvantiteten.
 
-![Uppdateringar av orderåterbetalningsantal](assets/diagram-order-refund.png){width="600" zoomable="yes"}
+![Kvantitetsuppdateringar för orderåterbetalning](assets/diagram-order-refund.png){width="600" zoomable="yes"}

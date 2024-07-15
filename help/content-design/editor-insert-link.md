@@ -11,25 +11,25 @@ ht-degree: 0%
 
 # Infoga en länk i redigeraren
 
-Ett enkelt sätt att infoga en länk är att använda _Länk_ knappen i [redigerare](editor.md) verktygsfält. Det kräver ingen kunskap om HTML och resultatet är detsamma.
+Ett enkelt sätt att infoga en länk är att använda knappen _Länk_ i verktygsfältet [editor](editor.md). Det kräver ingen kunskap om HTML och resultatet är detsamma.
 
 1. Markera den text där du vill skapa länken.
 
-1. Klicka på _Infoga/redigera länk_ -ikonen i redigeringsverktygsfältet.
+1. Klicka på ikonen _Infoga/redigera länk_ i redigeringsverktygsfältet.
 
-   ![Verktygsfältet Redigeraren - Infoga länk](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
+   ![Redigerarens verktygsfält - Infoga länk](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   Åtgärden öppnar _[!UICONTROL Insert link]_-dialogrutan.
+   Den här åtgärden öppnar dialogrutan _[!UICONTROL Insert link]_.
 
    ![Redigeraren - dialogrutan Infoga länk](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 
-1. För **[!UICONTROL Url]** anger du något av följande:
+1. Ange något av följande för **[!UICONTROL Url]**:
 
    - URL-nyckeln för en sida i din butik.
 
    - Den fullständiga URL:en för en extern sida som ska länkas.
 
-1. Ändra **[!UICONTROL Text to display]**.
+1. Ändra **[!UICONTROL Text to display]** om det behövs.
 
    Standardvärdet är den text som du har valt för länken. Du kan ändra den i textrutan.
 
@@ -41,4 +41,4 @@ Ett enkelt sätt att infoga en länk är att använda _Länk_ knappen i [rediger
 
    - `Open in a new window`
 
-1. Skapa länken genom att klicka **[!UICONTROL OK]**.
+1. Klicka på **[!UICONTROL OK]** om du vill skapa länken.

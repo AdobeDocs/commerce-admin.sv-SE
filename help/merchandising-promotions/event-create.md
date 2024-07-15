@@ -5,7 +5,7 @@ exl-id: 6c9f6a33-6785-4c3a-add6-dc2a6b16ed88
 feature: Marketing Tools, Promotions/Events
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Varje händelse är associerad med en kategori i din katalog och endast en händelse kan associeras med en viss kategori i taget. Om du vill visa en lista över kommande evenemang i din butik måste du också konfigurera en [Catalog Events Carousel](../content-design/widget-event-carousel.md) widget.
+Varje händelse är associerad med en kategori i din katalog och endast en händelse kan associeras med en viss kategori i taget. Om du vill visa en lista över kommande händelser i din butik måste du också konfigurera en [Catalog Events Carousel](../content-design/widget-event-carousel.md) -widget.
 
 ![Händelselista](./assets/category-events.png){width="700" zoomable="yes"}
 
 ## Skapa en händelse
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**på sidofältet_ Admin _.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add Catalog Event]**.
+1. Klicka på **[!UICONTROL Add Catalog Event]** i det övre högra hörnet.
 
 1. Välj den kategori som du vill associera med händelsen i kategoriträdet.
 
@@ -34,17 +34,17 @@ Varje händelse är associerad med en kategori i din katalog och endast en händ
 
    ![Kataloghändelseinformation](./assets/catalog-event-information.png){width="700" zoomable="yes"}
 
-   - För **[!UICONTROL Start Date]** använder du kalendern (![Kalenderikon](../assets/icon-calendar.png)) för att välja datumet. Använd **[!UICONTROL Hour]** och **[!UICONTROL Minute]** skjutreglage som anger när händelsen börjar.
+   - Använd kalendern (![kalenderikon](../assets/icon-calendar.png)) för att välja datumet för händelsen **[!UICONTROL Start Date]**. Använd skjutreglagen **[!UICONTROL Hour]** och **[!UICONTROL Minute]** för att ange den tid som händelsen börjar.
 
-   - För **[!UICONTROL End Date]** använder du kalendern (![Kalenderikon](../assets/icon-calendar.png)) för att välja datumet. Använd **[!UICONTROL Hour]** och **[!UICONTROL Minute]** skjutreglage för att ange den tid som händelsen slutar.
+   - Använd kalendern (![kalenderikon](../assets/icon-calendar.png)) för att välja datumet för händelsen **[!UICONTROL End Date]**. Använd skjutreglagen **[!UICONTROL Hour]** och **[!UICONTROL Minute]** för att ange den tid som händelsen slutar.
 
-   - Så här överför du en **[!UICONTROL Image]** för händelsewidgeten klickar du på **[!UICONTROL Choose File]** och välj bildfilen i katalogen.
+   - Om du vill överföra en **[!UICONTROL Image]** för händelsewidgeten klickar du på **[!UICONTROL Choose File]** och väljer bildfilen i din katalog.
 
-   - I **[!UICONTROL Sort Order]** anger du en siffra som anger i vilken ordning händelsen visas när den listas med andra händelser.
+   - I fältet **[!UICONTROL Sort Order]** anger du ett nummer som anger i vilken ordning den här händelsen visas i listan med andra händelser.
 
    - Markera kryssrutan för varje sidtyp där du vill att nedräkningsfilmen ska visas.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ## Uppdatera händelser
 
@@ -52,47 +52,47 @@ Händelser kan redigeras antingen från sidan Händelser eller från den kategor
 
 ### Metod 1: Redigera en händelse från sidan Händelser
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**på sidofältet_ Admin _.
 
 1. Leta reda på händelsen i listan och öppna den i redigeringsläge.
 
 1. Gör nödvändiga ändringar i händelsen.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ### Metod 2: Redigera en händelse från en kategori
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** på sidofältet _Admin_.
 
 1. Välj den kategori som är associerad med händelsen i kategoriträdet till vänster.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Edit Even]t**.
+1. Klicka på **[!UICONTROL Edit Even]t** i det övre högra hörnet.
 
 1. Gör nödvändiga ändringar i händelsen.
 
-1. När du är klar klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
 ## Ta bort en händelse
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**på sidofältet_ Admin _.
 
 1. Leta reda på händelsen i listan och öppna den i redigeringsläge.
 
-1. Klicka på i det övre högra hörnet **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL Delete]** i det övre högra hörnet.
 
-1. Bekräfta åtgärden genom att klicka **[!UICONTROL OK]**.
+1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
 
 ## Fältbeskrivningar
 
 | Fält | [Omfång](../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Category] | Global | När du skapar en händelse länkas det här fältet tillbaka till kategoriträdet. När du redigerar en händelse länkas den till kategorisidan för händelsen. |
-| [!UICONTROL Start Date] | Global | Startdatum och starttid för händelsen i `MMDDYYYY HH;MM` format. Klicka på kalenderikonen för att välja datumet. |
-| [!DNL End Date] | Global | Slutdatum och sluttid för händelsen i `MMDDYYYY HH;MM` format. Klicka på kalenderikonen för att välja datumet. |
-| [!UICONTROL Image] | Butiksvy | Överför en bild som visas i [Carousel-widgeten Kataloghändelser](../content-design/widget-event-carousel.md). |
+| [!UICONTROL Start Date] | Global | Startdatum och starttid för händelsen i formatet `MMDDYYYY HH;MM`. Klicka på kalenderikonen för att välja datumet. |
+| [!DNL End Date] | Global | Slutdatum och sluttid för händelsen i formatet `MMDDYYYY HH;MM`. Klicka på kalenderikonen för att välja datumet. |
+| [!UICONTROL Image] | Butiksvy | Överför en bild som visas i [Carousel-widgeten för kataloghändelser](../content-design/widget-event-carousel.md). |
 | [!UICONTROL Sort Order] | Global | Anger i vilken ordning den här händelsen ska visas när den listas med andra händelser. |
 | [!UICONTROL Display Countdown Ticker On] | Global | Visar nedräkningsfilmen i sidhuvudet på varje angiven sida. Alternativ: `Category Page` / `Product Page` |
-| [!UICONTROL Status] | Global | Anger händelsens status baserat på intervallet för startdatum och slutdatum. Status är ett skrivskyddat värde. Värden: `Open` / `Closed` / `Upcoming` |
+| [!UICONTROL Status] | Global | Anger händelsens status baserat på intervallet för startdatum och slutdatum. Status är ett skrivskyddat värde. Värden: `Open` / `Closed` / `Upcoming` |
 
 {style="table-layout:auto"}
 

@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Mediegalleriets resurshantering
 
-Den nya [Mediegalleri](media-gallery.md) innehåller verktyg för att hantera överförda mediefiler och resurser som du hämtar via en [Integrering med Adobe Stock](adobe-stock.md). Om du har sparat en Adobe Stock [förhandsgranskning av bild](adobe-stock-save-preview.md)kan du också [licens](adobe-stock-license-image.md) bilden i det nya mediegalleriet.
+Det nya [Mediegalleriet](media-gallery.md) innehåller verktyg för att hantera överförda mediefiler och resurser som du hämtar via en [Adobe Stock-integrering](adobe-stock.md). Om du har sparat en [bildförhandsvisning](adobe-stock-save-preview.md) från Adobe Stock kan du även [licensiera](adobe-stock-license-image.md) bilden i det nya mediegalleriet.
 
 ## Överföra en resurs
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Upload Image]**.
 
@@ -26,9 +26,9 @@ Den nya [Mediegalleri](media-gallery.md) innehåller verktyg för att hantera ö
 
 ## Visa tillgångsinformation
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
 
-1. Klicka på de tre punkterna under resursen (![Ikonen Detaljer](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och sedan klicka på **[!UICONTROL View Details]**.
+1. Klicka på de tre punkterna under resursen (![Ikonen Detaljer](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och klicka sedan på **[!UICONTROL View Details]**.
 
    ![Resursåtgärder](./assets/media-gallery-asset-actions.png){width="600" zoomable="yes"}
 
@@ -39,19 +39,19 @@ Den nya [Mediegalleri](media-gallery.md) innehåller verktyg för att hantera ö
    - **[!UICONTROL Pages]**
    - **[!UICONTROL Blocks]**
 
-   ![Tillgångsinformation](./assets/media-gallery-asset-details.png){width="600" zoomable="yes"}
+   ![Resursinformation](./assets/media-gallery-asset-details.png){width="600" zoomable="yes"}
 
-   Om du vill se informationen klickar du på **[!UICONTROL Used In]** länkar . Rutnätet i följande exempel visar alla kategorier där en viss resurs används.
+   Klicka på länkarna **[!UICONTROL Used In]** om du vill visa information. Rutnätet i följande exempel visar alla kategorier där en viss resurs används.
 
    ![Kategorirutnät](./assets/media-gallery-asset-categories.png){width="600" zoomable="yes"}
 
-   Det går också att ta bort resursen från _Visa detaljer_ -avsnitt.
+   Det går också att ta bort resursen från avsnittet _Visa detaljer_.
 
 ## Redigera en resurs
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
 
-1. Klicka på de tre punkterna under resursen (![Ikon på menyn Resurser](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och sedan klicka på **[!UICONTROL Edit]**.
+1. Klicka på de tre punkterna under resursen (![Ikonen Resurs-menyn](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och klicka sedan på **[!UICONTROL Edit]**.
 
    ![Redigera resurs](./assets/media-gallery-edit-asset.png){width="600" zoomable="yes"}
 
@@ -67,7 +67,7 @@ Den nya [Mediegalleri](media-gallery.md) innehåller verktyg för att hantera ö
 
 ## Använda en resurs
 
-Resurser kan användas i stor utsträckning i hela administratören, till exempel [lägga till eller redigera en sida](page-add.md), [skapa eller redigera en kategori](../catalog/category-create.md), eller [infoga bilder från Innehållsredigeraren](editor-insert-image.md).
+Assets kan användas i stor utsträckning i hela administratören, till exempel [lägg till eller redigera en sida](page-add.md), [skapa eller redigera en kategori](../catalog/category-create.md) eller [infoga bilder från Innehållsredigeraren](editor-insert-image.md).
 
 1. Gå till det nya mediegalleriet från ett område där du kan använda medieresurser.
 
@@ -77,37 +77,37 @@ Resurser kan användas i stor utsträckning i hela administratören, till exempe
 
 ## Ta bort resurser
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
 
-1. Klicka **[!UICONTROL Delete Images...]** och markera kryssrutan för varje resurs som du vill ta bort.
+1. Klicka på **[!UICONTROL Delete Images...]** och markera kryssrutan för varje resurs som du vill ta bort.
 
-1. Klicka på **[!UICONTROL Delete Image]**.
+1. Klicka på **[!UICONTROL Delete Image]** i bekräftelsedialogrutan.
 
    ![Bekräfta borttagning](./assets/media-gallery-bulk-delete-confirm.png){width="500" zoomable="yes"}
 
 ## Sök efter resurser
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
 
-1. Använd **[!UICONTROL Search by keywords]** indata för bildsökning med nyckelord/taggar.
+1. Använd indata från **[!UICONTROL Search by keywords]** för att utföra bildsökning med nyckelord/taggar.
 
-   Sökningen i följande exempel söker efter resurser som innehåller en viss tagg (`mountain`).
+   Sökningen i följande exempel söker efter resurser som innehåller en specifik tagg (`mountain`).
 
    ![Resurssökning](./assets/media-gallery-asset-search.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Mer information om hur du kan uppdatera bildtaggar finns i _[Redigera en resurs](#edit-an-asset)_ -avsnitt.
+>Mer information om hur du kan uppdatera bildtaggar finns i avsnittet _[Redigera en resurs](#edit-an-asset)_.
 
 ## Filtrera resurser
 
 >[!NOTE]
 >
->The _Används i_ kräver [!UICONTROL Media Gallery Image Optimization] är aktiverat i [konfigurationsinställningar](media-gallery-image-optimization.md).
+>Funktionen _Används i_ kräver att [!UICONTROL Media Gallery Image Optimization] är aktiverad i [konfigurationsinställningarna](media-gallery-image-optimization.md).
 
-1. På _Administratör_ sidebar, gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
 
-1. Klicka på **[!UICONTROL Filters]** -fliken.
+1. Klicka på fliken **[!UICONTROL Filters]**.
 
    ![Filter](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
 
@@ -122,14 +122,14 @@ Resurser kan användas i stor utsträckning i hela administratören, till exempe
 
    Du kan också filtrera resurserna efter **[!UICONTROL Store View]**, **[!UICONTROL License Status]** och **[!UICONTROL Content Status]**. Ange ett datumintervall för **[!UICONTROL Uploaded Date]** och/eller **[!UICONTROL Modification Date]** för att filtrera resurser efter fildatum.
 
-1. Klicka **[!UICONTROL Apply Filters]** för att se resultaten.
+1. Klicka på **[!UICONTROL Apply Filters]** för att se resultatet.
 
-   Filtreringen i följande exempel hittar resurser som används i en viss kategori (`cars`) och är aktiverade.
+   Filtreringen i följande exempel hittar resurser som används i en viss kategori (`cars`) och som är aktiverade.
 
-   ![Filter för aktiverade resurser efter kategori](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
+   ![Filter för aktiverad Assets efter kategori](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
 
 ## Söka efter bilddubbletter
 
-1. Klicka på **[!UICONTROL Filters]** och väljer **[!UICONTROL Show duplicates]** kryssrutan.
+1. Klicka på fliken **[!UICONTROL Filters]** och markera kryssrutan **[!UICONTROL Show duplicates]**.
 
-1. Klicka på **[!UICONTROL Apply Filters]**.
+1. Klicka på **[!UICONTROL Apply Filters]** om du vill se resultatet.

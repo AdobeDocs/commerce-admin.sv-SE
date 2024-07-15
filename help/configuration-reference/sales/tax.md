@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
-description: Granska konfigurationsinställningarna på [!UICONTROL Sales] &gt; [!UICONTROL Tax] sidan för Commerce Admin.
+description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Tax] i Commerce Admin.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
 source-git-commit: f95e6d22f83b518c64b254f0d98147e3c6ebaf42
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce och Magento Open Source, version 2.4.0 till 2.4.3, innehåller tillägget Vertex som utvecklats av leverantören och som används för att integrera med [!UICONTROL Vertex Cloud]. Från och med version 2.4.4 är det här tillägget inte längre paketerat med kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
+>Adobe Commerce och Magento Open Source, version 2.4.0 till 2.4.3, innehöll tillägget Vertex som utvecklades av leverantören och som användes för att integrera med [!UICONTROL Vertex Cloud]. Från och med version 2.4.4 är det här tillägget inte längre paketerat med kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
 ><br><br>
->Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Se [Uppgraderingsmoduler och tillägg](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _Uppgraderingshandbok_ för mer information.
+>Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Mer information finns i [Uppgraderingsmoduler och tillägg](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _Uppgraderingshandboken_.
 
 {{config}}
 
@@ -24,12 +24,12 @@ ht-degree: 0%
 
 ![Skatteklasser](./assets/tax-tax-classes.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Skatteklasser](../../stores-purchase/tax-class.md) i _Butiks and Purchase Experience Guide_.
+Mer information om hur du ändrar de här inställningarna finns i [Skatteklasser](../../stores-purchase/tax-class.md) i _Handboken för butiker och köp_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Tax Class for Shipping] | Webbplats | Identifierar den momsklass som används för leverans. Alternativen omfattar alla tillgängliga produktskatteklasser: `None` / `Taxable Goods` / `Shipping` / `Tax Exempt` |
-| [!UICONTROL Tax Class for Gift Options] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Identifierar den standardskatteklass som används för presentalternativ. |
+| [!UICONTROL Tax Class for Shipping] | Webbplats | Identifierar den momsklass som används för leverans. Alternativen inkluderar alla tillgängliga produktskatteklasser: `None` / `Taxable Goods` / `Shipping` / `Tax Exempt` |
+| [!UICONTROL Tax Class for Gift Options] | Webbplats | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Identifierar den standardskatteklass som används för presentalternativ. |
 | [!UICONTROL Default Tax Class for Product] | Global | Identifierar den standardskatteklass som används för produkter. |
 | [!UICONTROL Default Tax Class for Customer] | Global | Identifierar den standardskatteklass som används för kunder. |
 
@@ -41,20 +41,20 @@ Mer information om hur du ändrar de här inställningarna finns i [Skatteklasse
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | Webbplats | Bestämmer metoden som används för att beräkna momsen för en order. Alternativ:<br/>**`Unit Price`**- Skatteberäkningarna baseras på enhetspriset för varje produkt.<br/>**`Row Total`** - Skatteberäkningar baseras på radartikelsumman. <br/>**`Total`**- Skatteberäkningarna baseras på ordersumman.<br/><br/>_** Obs!**_Om ett tillägg för momsberäkning installeras från Marketplace, till exempel _Vertex Cloud_, visas tilläggstjänsten som ett alternativ. |
+| [!UICONTROL Tax Calculation Method Based On] | Webbplats | Bestämmer metoden som används för att beräkna momsen för en order. Alternativ:<br/>**`Unit Price`**- Skatteberäkningar baseras på enhetspriset för varje produkt.<br/>**`Row Total`** - Skatteberäkningar baseras på radartikelsumman. <br/>**`Total`**- Skatteberäkningar baseras på ordersumman.<br/><br/>_** Obs!**_Om ett tillägg för momsberäkning installeras från Marketplace, till exempel _Vertex Cloud_ , visas tilläggstjänsten som ett alternativ. |
 | [!UICONTROL Tax Calculation Based On] | Webbplats | Avgör om momsberäkningen baseras på leveransadress, faktureringsadress eller leveransens ursprung. Alternativ: `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | Webbplats | Avgör om katalogpriser innehåller eller exkluderar moms. Alternativ: `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | Webbplats | Anger fraktpriser inklusive eller exklusive moms. Alternativ: `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Customer Tax] | Webbplats | Avgör om moms tillämpas före eller efter en rabatt. Alternativ: `Before Discount` / `After Discount` |
 | [!UICONTROL Apply Discount on Prices] | Webbplats | Avgör om rabattpriser inkluderar eller exkluderar moms. Alternativ: `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Tax On] | Webbplats | Avgör om momsen gäller för det ursprungliga priset eller för ett anpassat pris, om tillgängligt. Alternativ: `Custom price if available` / `Original price only` |
-| [!UICONTROL Enable Cross Border Trade] | Webbplats | När det här alternativet är aktiverat tillämpas konsekventa priser över gränserna för regioner med olika skattesatser. Alternativ: `Yes` / `No` <br/><br/>**_Obs!_**Vid användning av gränsöverskridande handel justeras vinstmarginalen efter skattesats. |
+| [!UICONTROL Enable Cross Border Trade] | Webbplats | När det här alternativet är aktiverat tillämpas konsekventa priser över gränserna för regioner med olika skattesatser. Alternativ: `Yes` / `No` <br/><br/>**_Obs!_**Om du använder gränsöverskridande handel justeras vinstmarginalen efter skattesats. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Default Tax Destination Calculation]
 
-![Beräkning av standardskattedestination](./assets/tax-default-tax-destination-calculation.png)<!-- zoom -->
+![Beräkning av standardmomsmål](./assets/tax-default-tax-destination-calculation.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -68,20 +68,20 @@ Mer information om hur du ändrar de här inställningarna finns i [Skatteklasse
 
 ![Prisvisningsinställningar](./assets/tax-price-display-settings.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Konfigurera inställningar för prisvisning](../../stores-purchase/display-settings.md#configure-price-display-settings) i _Butiks and Purchase Experience Guide_.
+Mer information om hur du ändrar de här inställningarna finns i [Konfigurera visningsinställningar för pris](../../stores-purchase/display-settings.md#configure-price-display-settings) i _butiker och inköpsupplevelseguiden_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Display Product Prices in Catalog] | Butiksvy | Avgör om produktpriser som publiceras i katalogen inkluderar eller exkluderar moms, eller visar två versioner av priset, en med och den andra utan moms. Alternativ: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Obs!_**Om du anger att fältet Visa produktpriser ska vara `Including Tax`visas momsen bara om det finns en momsregel som matchar skatteursprunget eller om det finns en kundadress som matchar momsregeln. Händelser som kan utlösa en matchning är bland annat att skapa ett kundkonto, logga in eller använda skattnings- och leveransberäkningsverktyget i kundvagnen. |
+| [!UICONTROL Display Product Prices in Catalog] | Butiksvy | Avgör om produktpriser som publiceras i katalogen inkluderar eller exkluderar moms, eller visar två versioner av priset, en med och den andra utan moms. Alternativ: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Obs!_**Om du anger att fältet Visa produktpriser ska vara `Including Tax` visas momsen bara om det finns en momsregel som matchar skatteursprunget eller om det finns en kundadress som matchar momsregeln. Händelser som kan utlösa en matchning är bland annat att skapa ett kundkonto, logga in eller använda skattnings- och leveransberäkningsverktyget i kundvagnen. |
 | [!UICONTROL Display Shipping Prices] | Butiksvy | Avgör om leveranspriserna inkluderar eller exkluderar moms, eller visar två versioner av leveranspriset; den ena med och den andra utan moms. Alternativ: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
-![Inställningar för kundvagnsvisning](./assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
+![Visningsinställningar för kundvagn](./assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Konfigurera visningsinställningar för kundvagn](../../stores-purchase/display-settings.md#step-2-configure-shopping-cart-display-settings) i _Butiks and Purchase Experience Guide_.
+Mer information om hur du ändrar de här inställningarna finns i [Konfigurera visningsinställningar för kundvagn](../../stores-purchase/display-settings.md#step-2-configure-shopping-cart-display-settings) i _Handboken för butiker och köp_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -96,9 +96,9 @@ Mer information om hur du ändrar de här inställningarna finns i [Konfigurera 
 
 ## [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
-![Visningsinställningar för order, fakturor, kreditnotor](./assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
+![Visningsinställningar för beställningar, fakturor och kreditnotor](./assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Konfigurera visningsinställningar för order, fakturor och kreditnotor](../../stores-purchase/display-settings.md#step-3-configure-order-invoice-and-credit-memo-display-settings) i _Butiks and Purchase Experience Guide_.
+Mer information om hur du ändrar de här inställningarna finns i [Konfigurera visningsinställningar för order, fakturor och kreditnotor](../../stores-purchase/display-settings.md#step-3-configure-order-invoice-and-credit-memo-display-settings) i _Handboken för butiker och köp_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -108,8 +108,8 @@ Mer information om hur du ändrar de här inställningarna finns i [Konfigurera 
 | [!UICONTROL Additionally Show Order Total Without Tax] | Butiksvy | Avgör om en extra rad med totalbeloppet utan moms visas på försäljningsdokument. Alternativ: `Yes` / `No` |
 | [!UICONTROL Display Full Tax Summary] | Butiksvy | Avgör om den fullständiga momssammanfattningen visas på försäljningsdokument. Alternativ: `Yes` / `No` |
 | [!UICONTROL Display Zero Tax Subtotal] | Butiksvy | Avgör delsummeavsnittet i försäljningsdokument när ingen moms debiteras. Alternativ: `Yes` / `No` |
-| [!UICONTROL Display Gift Wrapping Prices] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Anger om priserna för presentationer ska inkluderas i delsumman. Alternativ: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
-| [!UICONTROL Display Printed Card Prices] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (Endast Adobe Commerce) Anger om priset på utskrivna kort ska ingå i delsumman. Alternativ: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Gift Wrapping Prices] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Avgör om presentförpackningspriserna ingår i delsumman. Alternativ: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Printed Card Prices] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Avgör om utskrivna kortpriser ingår i delsumman. Alternativ: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}
 
@@ -117,16 +117,16 @@ Mer information om hur du ändrar de här inställningarna finns i [Konfigurera 
 
 ![Fast produktskatt](./assets/tax-fixed-product-taxes.png)<!-- zoom -->
 
-Mer information om hur du ändrar de här inställningarna finns i [Fast produktskatt](../../stores-purchase/fixed-product-tax.md) i _Butiks and Purchase Experience Guide_.
+Mer information om hur du ändrar de här inställningarna finns i [Fast produktskatt (FPT)](../../stores-purchase/fixed-product-tax.md) i _Handboken för butiker och köp_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable FPT] | Webbplats | Avgör om FPT är tillgängligt. Alternativ: `Yes` / `No` |
-| [!UICONTROL Display Prices in Product Lists] | Webbplats | Styr visningen av FPT i produktlistor. Alternativ:<br/> **`Including FPT Only`** - Priserna är fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna är fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT. Including FPT description and final price`** - De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`**- De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
-| [!UICONTROL Display Prices On Product View Page] | Webbplats | Styr visningen av FPT på produktsidan. Alternativ:<br/> **`Including FPT Only`** - Priserna är fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna är fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT. Including FPT description and final price`** - De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`**- De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
-| [!UICONTROL Display Prices in Sales Modules] | Webbplats | Styr visningen av FPT i kundvagnen och under utcheckningen. Alternativ:<br/> **`Including FPT Only`** - Priserna är fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna är fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT. Including FPT description and final price`** - De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`**- De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
-| [!UICONTROL Display Prices in Emails] | Webbplats | Styr visningen av FPT i e-post. Alternativ:<br/> **`Including FPT Only`** - Priserna är fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna är fasta produktskatter. FPT-beloppet visas separat.<br/>** Utom FPT. Inklusive FPT-beskrivning och slutpris **- De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`** - De priser som visas inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
+| [!UICONTROL Display Prices in Product Lists] | Webbplats | Styr visningen av FPT i produktlistor. Alternativ:<br/> **`Including FPT Only`** - Priserna visas inklusive fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna visas inklusive fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT. Including FPT description and final price`** - De visade priserna inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`**- De visade priserna inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
+| [!UICONTROL Display Prices On Product View Page] | Webbplats | Styr visningen av FPT på produktsidan. Alternativ:<br/> **`Including FPT Only`** - Priserna visas inklusive fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna visas inklusive fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT. Including FPT description and final price`** - De visade priserna inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`**- De visade priserna inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
+| [!UICONTROL Display Prices in Sales Modules] | Webbplats | Styr visningen av FPT i kundvagnen och under utcheckningen. Alternativ:<br/> **`Including FPT Only`** - Priserna visas inklusive fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna visas inklusive fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT. Including FPT description and final price`** - De visade priserna inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`**- De visade priserna inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
+| [!UICONTROL Display Prices in Emails] | Webbplats | Styr visningen av FPT i e-post. Alternativ:<br/> **`Including FPT Only`** - Priserna visas inklusive fasta produktskatter. FPT-beloppet visas inte separat.<br/>**`Including FPT and FPT description`**- Priserna visas inklusive fasta produktskatter. FPT-beloppet visas separat.<br/>** exklusive FPT. FPT-beskrivning och slutpris **ingår inte - de visade priserna inkluderar inte fasta produktskatter. FPT-beloppet visas separat.<br/>**`Excluding FPT`** - De visade priserna inkluderar inte fasta produktskatter. FPT-beloppet visas inte separat. |
 | [!UICONTROL Apply Tax to FPT] | Webbplats | Avgör om moms tillämpas på FPT-beloppet. Alternativ: `Yes` / `No` |
-| [!UICONTROL Include FPT in Subtotal] | Webbplats | Avgör om FPT ingår i kundvagnens delsumma. Alternativ: <br/>**`Yes`**- Inkluderar FPT i kundvagnens delsumma.<br/>**`No`** - FPT ingår inte i delsumman och läggs efter delsumman i kundvagnen. |
+| [!UICONTROL Include FPT in Subtotal] | Webbplats | Avgör om FPT ingår i kundvagnens delsumma. Alternativ: <br/>**`Yes`**- Inkluderar FPT i kundvagnens delsumma.<br/>**`No`** - FPT ingår inte i delsumman och placeras efter delsumman i kundvagnen. |
 
 {style="table-layout:auto"}
