@@ -2,9 +2,9 @@
 title: Konfigurera Experience Manager Assets
 description: Lägg till de metadata som krävs för att aktivera AEM Assets Integration för Commerce för att synkronisera resurser mellan Adobe Commerce- och Experience Manager Assets-projekt.
 feature: CMS, Media, Integration
-source-git-commit: f04648a41fc16154d5f10278f810114d707b670c
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -114,4 +114,4 @@ Metadata mappas när en Commerce-resurs publiceras för första gången.  från 
 Innan du kan börja mappa resurser ska du utföra följande uppgifter:
 
 - [Installera och konfigurera AEM Assets Integration för Commerce](aem-assets-configure-commerce.md)
-- [Konfigurera synkroniseringstjänster för överföring av resurser mellan Adobe Commerce projektmiljö och AEM Assets projektmiljö](aem-assets-setup-synchronization.md)
+- [Aktivera resurssynkronisering för att överföra resurser mellan Adobe Commerce projektmiljö och AEM Assets projektmiljö](aem-assets-setup-synchronization.md)

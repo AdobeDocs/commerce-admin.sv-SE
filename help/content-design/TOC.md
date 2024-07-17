@@ -3,9 +3,9 @@ user-guide-title: Content and Design Guide
 user-guide-description: Omfattande information om innehåll och designfunktioner för Adobe Commerce- och Magento Open Source-administratörer och e-handelskunder.
 breadcrumb-title: Innehåll och design
 feature: CMS, Page Content
-source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
       - Onboarding {#onboarding}
          - [Konfigurera AEM Assets](aem-assets-configure-aem.md)
          - [Konfigurera Adobe Commerce](aem-assets-configure-commerce.md)
-         - [Konfigurera synkroniseringstjänster](aem-assets-setup-synchronization.md)
+         - [Aktivera resurssynkronisering](aem-assets-setup-synchronization.md)
       - [Använd AEM Assets](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Integrering med Adobe Stock](adobe-stock.md)

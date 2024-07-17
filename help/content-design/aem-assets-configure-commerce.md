@@ -2,9 +2,9 @@
 title: Installera och konfigurera Experience Manager Assets-integrering
 description: "Lär dig hur du installerar och konfigurerar  [!DNL AEM Assets Integration for Adobe Commerce]"
 feature: CMS, Media
-source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
+source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,12 @@ Installera och konfigurera AEM Assets-integrationen för Commerce genom att läg
 - PHP 8.1, 8.2, 8.3
 - Disposition: 2.x
 
-## Förutsättningar
+**Konfigurationskrav**
 
 - Adobe Commerce måste vara konfigurerat att använda [Adobe IMS-autentisering](/help/getting-started/adobe-ims-config.md).
-- Kontoetablering och behörigheter - Administratörer måste ha tillgång till följande resurser för att konfigurera Experience Manager Assets-integreringen:
-   - Commerce-programadministratör - Installera nödvändiga tillägg och konfigurera Commerce-programservern från administratören eller kommandoraden
+- Kontoetablering och behörigheter
+   - [Commerce molnprojektadministratör](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installera nödvändiga tillägg och konfigurera Commerce-programservern från Admin eller kommandoraden
    - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - Uppdatera butikskonfigurationen och hantera Commerce-användarkonton
-   - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction) - Adobe IMS-programadministratör eller användarkonto. Kontot måste ha behörighet att skapa och hantera mappar och skapa offentliga samlingar, överföra resurser, konfigurera behörigheter och konfigurera metadata.
 
 ## Konfigurationsöversikt
 
