@@ -3,7 +3,7 @@ title: Lagra URL:er
 description: Lär dig mer om butiks-URL:er och hur du konfigurerar bas-URL:en och lagringskoderna.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
+source-git-commit: c7839f0a86be4459ba7f555fd2d2e748d81c4ebb
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 0%
@@ -222,7 +222,7 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
    - Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
    - Kör följande på servern:
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 
@@ -234,7 +234,7 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
 Du kan använda kommandot CLI `setup:config:set` för att ändra administratörssökvägen. I följande exempel används alternativet `--backend-frontname` för att ändra sökvägen från Commerce-roten till en ny administratörssökväg:
 
-```terminal
+```bash
 bin/magento setup:config:set --backend-frontname="backend_front_name"
 ```
 
@@ -246,13 +246,13 @@ Om du har angett en ogiltig Admin URL eller en Admin Path och inte längre komme
 
 1. Om du vill återgå till den förvalda admin-URL:en kör du det här kommandot:
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom 0
    ```
 
 1. Om du vill återgå till den förvalda administratörssökvägen (anges i `app/etc/env.php` enligt beskrivningen i metod 2) kör du det här kommandot:
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom_path 0
    ```
 
@@ -261,7 +261,7 @@ Om du har angett en ogiltig Admin URL eller en Admin Path och inte längre komme
    - Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
    - Kör följande på servern:
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 

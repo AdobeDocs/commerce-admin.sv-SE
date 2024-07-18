@@ -3,7 +3,7 @@ title: Import av produktbilder
 description: Lär dig hur du importerar produktbilder med sökvägen och filnamnet för varje bild.
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Innan du försöker importera många bilder ska du granska stegen i den importme
 
 1. På Commerce-servern överför du bildfilerna till mappen `var/import/images` eller en undermapp, till exempel `var/import/images/product_images`. Det här är standardrotmappen för import av produktbilder.
 
-   ```terminal
+   ```
    <Magento root folder>/var/import/images
    ```
 
@@ -50,7 +50,7 @@ Innan du försöker importera många bilder ska du granska stegen i den importme
 
 1. När du har valt filen som ska importeras anger du den relativa sökvägen efter **[!UICONTROL Images File Directory]**.
 
-   ```terminal
+   ```
    var/import/images
    ```
 
@@ -68,7 +68,7 @@ Innan du försöker importera många bilder ska du granska stegen i den importme
 
 1. I CSV-data anger du den fullständiga URL:en för varje bildfil i rätt kolumn efter bildtyp (`base_image`, `small_image`, `thumbnail_image` eller `additional_images`).
 
-   ```terminal
+   ```
    https://example.com/images/image.jpg
    ```
 
@@ -78,7 +78,7 @@ Innan du försöker importera många bilder ska du granska stegen i den importme
 
 1. Överför bildfilerna till mappen `var/import/images` eller en undermapp, till exempel `var/import/images/product_images`, i modulen Fjärrlagring. Det här är standardrotmappen för import av produktbilder.
 
-   ```terminal
+   ```bash
    <remote-storage-root-folder>/var/import/images
    ```
 
@@ -100,7 +100,7 @@ Innan du försöker importera många bilder ska du granska stegen i den importme
 
 1. När du har valt filen som ska importeras anger du den relativa sökvägen efter **[!UICONTROL Images File Directory]**.
 
-   ```terminal
+   ```
    var/import/images/product_images
    ```
 

@@ -4,7 +4,7 @@ description: Lär dig hur du installerar  [!DNL Adobe Commerce B2B] metapaketet.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: be36742aa1214e7e8e7f343051336cd3635099f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Adobe rekommenderar att du arbetar i en utvecklingsgren när du lägger till B2B
 
    Exempelsvar:
 
-   ```terminal
+   ```
    Magento_B2b : Module is enabled
    ```
 
@@ -119,7 +119,7 @@ Adobe rekommenderar att du arbetar i en utvecklingsgren när du lägger till B2B
 
    Om ett fel inträffar, till exempel:
 
-   ```terminal
+   ```
    [InvalidArgumentException] Could not find a matching version of package magento/extension-b2b.
    ```
 
@@ -221,7 +221,7 @@ Mer information finns i [Hantera meddelandeköer](https://experienceleague.adobe
 
 Du kan automatisera körningsschemat för `SharedCatalogUpdateCategoryPermissions`- och `SharedCatalogUpdatePrice`-meddelandekonsument genom att lägga till schemat i cron-konfigurationsfilen [/app/code/Magento/MessageQueue/etc/crontab.xml](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#process-management).
 
-```terminal
+```
 * * * * * ps ax | grep [s]haredCatalogUpdateCategoryPermissions >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdateCategoryPermissions &
 * * * * * ps ax | grep [s]haredCatalogUpdatePrice >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdatePrice &
 ```
