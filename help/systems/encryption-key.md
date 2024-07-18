@@ -4,9 +4,9 @@ description: Lär dig hur du automatiskt genererar eller lägger till en egen kr
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 21be3c7a56cb72d685b2b3605bc27266e8e55f37
+source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,33 @@ Under den första installationen uppmanas du att antingen låta Commerce generer
 
 Mer teknisk information finns i [Avancerad lokal installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) i _installationshandboken_.
 
-## Steg 1: Gör filen skrivbar
+>[!IMPORTANT]
+>
+>Kontrollera att följande fil är skrivbar innan du följer instruktionerna för att ändra krypteringsnyckeln: `[your store]/app/etc/env.php`
 
-Om du vill ändra krypteringsnyckeln kontrollerar du att följande fil är skrivbar: `[your store]/app/etc/env.php`
+**Så här ändrar du en krypteringsnyckel:**
 
-## Steg 2: Ändra krypteringsnyckeln
+Följande instruktioner kräver åtkomst till en terminal.
+
+1. Aktivera [underhållsläge](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+
+   ```bash
+   bin/magento maintenance:enable
+   ```
+
+1. Inaktivera cron-jobb.
+
+   _Cloud-infrastrukturprojekt:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:disable
+   ```
+
+   _Lokala projekt_
+
+   ```bash
+   crontab -e
+   ```
 
 1. Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**på sidofältet_ Admin _.
 
@@ -36,6 +58,40 @@ Om du vill ändra krypteringsnyckeln kontrollerar du att följande fil är skriv
 
 1. Klicka på **[!UICONTROL Change Encryption Key]**.
 
-1. Registrera den nya nyckeln på en säker plats.
+   >[!NOTE]
+   >
+   >Registrera den nya nyckeln på en säker plats. Du måste dekryptera data om det uppstår problem med filerna.
 
-   Du måste dekryptera data om det uppstår problem med filerna.
+1. Töm cacheminnet.
+
+   _Cloud-infrastrukturprojekt:_
+
+   ```bash
+   magento-cloud cc
+   ```
+
+   _Lokala projekt:_
+
+   ```bash
+   bin/magento cache:flush
+   ```
+
+1. Aktivera cron-jobb.
+
+   _Cloud-infrastrukturprojekt:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:enable
+   ```
+
+   _Lokala projekt:_
+
+   ```bash
+   crontab -e
+   ```
+
+1. Inaktivera underhållsläge.
+
+   ```bash
+   bin/magento maintenance:disable
+   ```
