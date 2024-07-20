@@ -3,9 +3,9 @@ title: Fraktkostnad
 description: Lär dig hur du ställer in ett alternativ för leverans till tabellpris för din butik.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -117,6 +117,7 @@ Det första steget är att slutföra standardinställningarna för tabellfrekven
    - Använd en asterisk (*) som jokertecken som representerar alla möjliga värden i alla kategorier.
    - Kolumnen _[!UICONTROL Country]_måste innehålla en [giltig kod med tre tecken ][1] för varje rad.
    - Sortera data efter _[!UICONTROL Region/State]_så att de specifika platserna finns högst upp i listan och jokerteckens platser längst ned. Med den här metoden bearbetas reglerna med de absoluta värdena först och jokertecknen senare.
+   - Postnummerintervall stöds inte. Använd en asterisk (*) om du vill tillåta alla koder i regionen/staten, eller ange en enda kod för en viss plats i kolumnen _[!UICONTROL Zip/Postal Code]_.
    - Värden i kolumnen _[!UICONTROL Weight (and above)]_kan ha högst fyra decimaler (till exempel `2.5075`). Om fler decimaler används i data misslyckas importen.
 
    ![Vikt jämfört med mål (Australien)](./assets/table-rates-weight-destination-csv.png){width="500"}
