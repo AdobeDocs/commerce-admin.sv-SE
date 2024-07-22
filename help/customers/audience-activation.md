@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
+source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -359,10 +359,34 @@ När data har hämtats kan du använda den för att skapa kundorienterade [kundp
 
 Om Real-Time CDP-målgrupper inte visas i Commerce kan det bero på:
 
+- Ogiltig anslutning
 - Felaktig autentiseringstyp har valts på konfigurationssidan **Dataanslutning**
 - Otillräckliga privilegier för genererad token
 
-I följande två avsnitt beskrivs hur du felsöker båda fallen.
+I följande avsnitt beskrivs hur du felsöker dessa problem.
+
+### Validera anslutningen
+
+Kör följande kommando för att validera inloggningsuppgifterna och svaret från Adobe Experience Platform:
+
+```bash
+bin/magento audiences:config:status
+```
+
+Det här kommandot returnerar anslutningsstatusen. Lägg till flaggan `-v` om du vill ha mer utförlig information:
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+Exempel:
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### Felaktig autentiseringstyp har valts i konfigurationen
 
