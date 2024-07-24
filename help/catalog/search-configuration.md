@@ -3,16 +3,20 @@ title: Konfigurera katalogsökning
 description: Lär dig konfigurera katalogsökning för din butik.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 279f54d41264a081166cfda7d2216172ac22cd26
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
 
 # Konfigurera katalogsökning
 
-Det finns två varianter av katalogsökningskonfigurationen. Den första metoden beskriver de tillgängliga inställningarna när [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) installeras. Den andra metoden beskriver konfigurationsinställningarna för Adobe Commerce med [Elasticsearch][1]{:target=&quot;_blank&quot;}.
+Det finns två varianter av katalogsökningskonfigurationen. Den första metoden beskriver de tillgängliga inställningarna när [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) installeras. Den andra metoden beskriver konfigurationsinställningarna för Adobe Commerce med [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target=&quot;_blank&quot;}.
+
+>[!NOTE]
+>
+>Mer information om projekt för molninfrastruktur finns i ytterligare instruktioner i [_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
 
 ## Metod 1: Adobe Commerce med [!DNL Live Search]
 
@@ -36,17 +40,18 @@ Det finns två varianter av katalogsökningskonfigurationen. Den första metoden
 
    Genom att begränsa antalet rader förbättras sökningens prestanda och storleken på den returnerade listan minskas. Standardvärdet är `8` rader.
 
-## Metod 2: Commerce med Elasticsearch
+## Metod 2: Commerce med OpenSearch
 
 >[!IMPORTANT]
 >
->På grund av meddelandet [!DNL Elasticsearch 7] om att supporten upphör i augusti 2023 rekommenderar vi att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under produktuppgraderingen finns i [Migrera till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) i _uppgraderingshandboken_.
+>- På grund av meddelandet [!DNL Elasticsearch 7] om att supporten upphör i augusti 2023 rekommenderar vi att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under produktuppgraderingen finns i [Migrera till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) i _uppgraderingshandboken_.
+>- I version 2.4.4 och 2.4.3-p2 gäller alla fält med etiketten Elasticsearch även OpenSearch. När stöd för Elasticsearch 8.x introducerades i version 2.4.6 skapades nya etiketter för att skilja mellan Elasticsearch och OpenSearch-konfigurationer. Konfigurationsalternativen för båda är dock desamma.
 
 ### Steg 1: Konfigurera allmänna sökalternativ
 
 >[!NOTE]
 >
->Med Elasticsearch finns det inget körklart stöd för sökning med suffixet. Sökning med SKU kanske inte returnerar det förväntade resultatet om nyckelordet bara innehåller slutdelen av SKU:n.
+>Med OpenSearch och Elasticsearch finns det inget körklart stöd för sökning med suffixet. Sökning med SKU kanske inte returnerar det förväntade resultatet om nyckelordet bara innehåller slutdelen av SKU:n.
 
 1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
@@ -54,15 +59,15 @@ Det finns två varianter av katalogsökningskonfigurationen. Den första metoden
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Catalog Search]**.
 
-   ![Inställningar för Elasticsearch](../configuration-reference/catalog/assets/catalog-search-elasticsearch.png){width="600" zoomable="yes"}
+   ![Inställningar för sökmotor](../configuration-reference/catalog/assets/catalog-search-opensearch.png){zoomable="yes"}
 
-   Mer information om de här alternativen finns i [Adobe Commerce med Elasticsearch](../configuration-reference/catalog/catalog.md#adobe-commerce-with-elasticsearch) i _Konfigurationsreferens_.
+   Mer information om de här alternativen finns i [Adobe Commerce med inbyggd sökning](../configuration-reference/catalog/catalog.md#adobe-commerce-with-native-search) i _Konfigurationsreferens_.
 
 1. Om du vill begränsa längden och antalet ord för söktexten anger du ett värde för **[!UICONTROL Minimal Query Length]** och **[!UICONTROL Maximum Query Length]**.
 
    >[!IMPORTANT]
    >
-   >Det värde som anges för detta lägsta och högsta intervall måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationen för Elasticsearch. Om du till exempel anger de här värdena som `2` och `300` i Commerce, uppdaterar du motsvarande värden i sökmotorn.
+   >Det värde som anges för detta lägsta och högsta intervall måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationen. Om du till exempel anger de här värdena som `2` och `300` i Commerce, uppdaterar du motsvarande värden i sökmotorn.
 
 1. Om du vill begränsa mängden populära sökresultat till cache för snabbare svar anger du ett värde för **[!UICONTROL Number of top search results to cache]**.
 
@@ -76,31 +81,27 @@ Det finns två varianter av katalogsökningskonfigurationen. Den första metoden
 
    Om du begränsar den här mängden ökar sökningens prestanda och storleken på den visade listan minskar. Standardvärdet är `8`.
 
-### Steg 2: Konfigurera anslutningen till Elasticsearch
+### Steg 2: Konfigurera OpenSearch-anslutningen
 
 >[!IMPORTANT]
 >
->Fälten **[!UICONTROL Search Engine]**, **[!UICONTROL Elasticsearch Server Hostname]**, **[!UICONTROL Elasticsearch Server Port]**, **[!UICONTROL Elasticsearch Index Prefix]**, **[!UICONTROL Enable Elasticsearch HTTP Auth]** och **[!UICONTROL Elasticsearch Server Timeout]** konfigurerades när Commerce installerades eller uppgraderades. Dessa värden bör endast ändras när du uppgraderar eller ändrar Elasticsearch.
+>Fälten **[!UICONTROL Search Engine]**, **[!UICONTROL OpenSearch Server Hostname]**, **[!UICONTROL OpenSearch Server Port]**, **[!UICONTROL OpenSearch Index Prefix]**, **[!UICONTROL Enable OpenSearch HTTP Auth]** och **[!UICONTROL OpenSearch Server Timeout]** konfigurerades när Commerce installerades eller uppgraderades. Dessa värden bör endast ändras när du uppgraderar eller ändrar OpenSearch.
 
-1. Acceptera standardvärdet `Elasticsearch 7` för **[!UICONTROL Search Engine]**.
+1. För **[!UICONTROL Search Engine]** väljer du `OpenSearch`.
 
-   Elasticsearch 7.6.x krävs för alla installationer av Commerce.
+1. Acceptera standardvärdet som konfigurerades när Commerce installerades för **[!UICONTROL OpenSearch Server Hostname]**.
 
-1. Acceptera standardvärdet som konfigurerades när Commerce installerades för **[!UICONTROL Elasticsearch Server Hostname]**.
-
-   I detta exempel är standardvärdet `elasticsearch.internal`.
-
-1. Acceptera standardvärdet som konfigurerades när Commerce installerades för **[!UICONTROL Elasticsearch Server Port]**.
+1. Acceptera standardvärdet som konfigurerades när Commerce installerades för **[!UICONTROL OpenSearch Server Port]**.
 
    I detta exempel är standardvärdet `9200`.
 
-1. För **[!UICONTROL Elasticsearch Index Prefix]** anger du ett prefix som identifierar indexvärdet för Elasticsearch.
+1. För **[!UICONTROL OpenSearch Index Prefix]** anger du ett prefix som identifierar indexvärdet för Elasticsearch.
 
    Standardvärdet är `magento2`.
 
-1. Om du vill använda HTTP-autentisering för att fråga efter användarnamn och lösenord för att få åtkomst till Elasticsearch Server anger du **[!UICONTROL Enable Elasticsearch HTTP Auth]** till `Yes`.
+1. Om du vill använda HTTP-autentisering för att fråga efter användarnamn och lösenord för att få åtkomst till OpenSearch-servern anger du **[!UICONTROL Enable OpenSearch HTTP Auth]** till `Yes`.
 
-1. För **[!UICONTROL Elasticsearch Server Timeout]** anger du antalet sekunder innan systemtimeout inträffar.
+1. För **[!UICONTROL OpenSearch Server Timeout]** anger du antalet sekunder innan systemtimeout inträffar.
 
    Standardvärdet är `15`.
 
@@ -126,9 +127,6 @@ Det finns två varianter av katalogsökningskonfigurationen. Den första metoden
 
 ### Steg 4: Konfigurera minimivillkor för att matcha
 
-Ange ett värde för **[!UICONTROL Minimum Terms to Match]** om du vill kontrollera det minsta antal termer från din fråga som sökresultaten ska matcha för retur. Om du anger det här värdet blir resultatet optimalt relevant för kunderna. En lista över godkända värden finns i [minimum_should_match-parametern](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) i dokumentationen för Elasticsearch.
+Ange ett värde för **[!UICONTROL Minimum Terms to Match]** om du vill kontrollera det minsta antal termer från din fråga som sökresultaten ska matcha för retur. Om du anger det här värdet blir resultatet optimalt relevant för kunderna. En lista över godkända värden finns i [minimum_should_match-parametern](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) i OpenSearch-dokumentationen.
 
 Klicka på **[!UICONTROL Save Config]** när du är klar.
-
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/search/overview-search.html

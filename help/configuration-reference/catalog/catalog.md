@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] i Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 24dd1850bd14d8a8bba5d5b2adfc69ffce942837
 workflow-type: tm+mt
-source-wordcount: '3146'
+source-wordcount: '3233'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-Det finns två varianter av katalogsökningskonfigurationen: De inställningar som är tillgängliga när [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) installeras och de som är tillgängliga för Adobe Commerce. Följ instruktionerna för installationen.
+Du kan konfigurera katalogsökning med [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) eller tredjepartstjänster som stöds av Adobe Commerce. Följ instruktionerna för installationen.
 
 ### Adobe Commerce med [!DNL Live Search]
 
@@ -254,43 +254,40 @@ När Live Search är installerat innehåller katalogsökningen följande konfigu
 
 {style="table-layout:auto"}
 
-### Adobe Commerce med Elasticsearch
+### Sökmotorer från tredje part
 
-Inbyggda Adobe Commerce med Elasticsearch innehåller följande konfigurationsinställningar:
-
-![Katalogsökning - Elasticsearch](./assets/catalog-search-elasticsearch.png)<!-- zoom -->
-
-<!-- [Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) -->
+Adobe Commerce har stöd för OpenSearch och Elasticsearch. Adobe Commerce version 2.3.7-p3, 2.4.3-p2 och 2.4.4 och senare stöder OpenSearch-tjänsten. Elasticsearch 7.11 och senare stöds inte i Adobe Commerce för molninfrastrukturprojekt. Elasticsearch stöds fortfarande för lokala anläggningar.
 
 >[!IMPORTANT]
 >
->På grund av att supporten för Elasticsearch 7 upphör i augusti 2023 rekommenderas att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under produktuppgraderingen finns i [Migrera till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) i _uppgraderingshandboken_.
+>- På grund av att supporten för Elasticsearch 7 upphör i augusti 2023 rekommenderar Adobe att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under en uppgradering finns i [Migrera till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) i _uppgraderingshandboken_.
+>- I version 2.4.4 och 2.4.3-p2 gäller alla fält med etiketten Elasticsearch även OpenSearch. När stöd för Elasticsearch 8.x introducerades i version 2.4.6 skapades nya etiketter för att skilja mellan Elasticsearch och OpenSearch-konfigurationer. Konfigurationsalternativen för båda är dock desamma.
+
+![Konfigurationsalternativ för katalogsökning](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | Butiksvy | Det minsta antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationerna för Elasticsearch. Om du till exempel anger värdet `2` i Adobe Commerce, uppdaterar du värdet i sökmotorn. |
-| [!UICONTROL Maximum Query Length] | Butiksvy | Det maximala antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationerna för Elasticsearch. Om du till exempel anger värdet 300 i Adobe Commerce, uppdaterar du värdet i sökmotorn. |
+| [!UICONTROL Minimal Query Length] | Butiksvy | Det minsta antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i OpenSearch- eller Elasticsearch-konfigurationen. Om du till exempel anger värdet `2` i Adobe Commerce måste du även uppdatera värdet i sökmotorkonfigurationen. Standardvärde: `3` |
+| [!UICONTROL Maximum Query Length] | Butiksvy | Det maximala antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som angetts i OpenSearch- eller Elasticsearch-konfigurationen. Om du till exempel anger värdet `300` i Adobe Commerce måste du uppdatera värdet i sökmotorkonfigurationen. Standardvärde: `128` |
 | [!UICONTROL Number of top search results to cache] | Butiksvy | Antalet populära söktermer och sökresultat som ska cachelagras för snabbare svar. Om du anger värdet `0` cachelagras alla söktermer och sökresultat när de anges en andra gång. Standardvärde: `100` |
-| [!UICONTROL Enable EAV Indexer] | Global | Avgör om du vill aktivera eller inaktivera indexeraren för produkt-EAV. Den här funktionen förbättrar indexeringshastigheten och begränsar indexeraren från att användas av tillägg från tredje part. Det här alternativet visas endast för sökmotorer med Elasticsearch eller Elasticsearch 5.0+. Standardalternativ: `Yes` för aktiverad |
+| [!UICONTROL Enable EAV Indexer] | Global | Avgör om produktindexeraren ska aktiveras eller inaktiveras. Den här funktionen förbättrar indexeringshastigheten och begränsar indexeraren från att användas av tillägg från tredje part. Standardalternativ: `Yes` för aktiverad |
 | [!UICONTROL Autocomplete Limit] | Butiksvy | Det maximala antalet sökfrågor som ska visas under sökfältet för automatisk ifyllning av sökning. Om du begränsar den här mängden ökar sökningens prestanda och storleken på den visade listan minskar. Standardvärde: `8` |
-| Sökmotor | Global | Identifierar den sökmotor som krävs för att bearbeta begäranden om katalogdata. Elasticsearch 7.6.x krävs för alla installationer av Adobe Commerce. Alternativ: `Elasticsearch 7` |
-| [!UICONTROL Elasticsearch Server Hostname] | Global | Anger Elasticsearch-serverns namn. Standardvärde: `elasticsearch.internal` |
-| [!UICONTROL Elasticsearch Server Port] | Global | Anger antalet serverportar som används av Elasticsearch. Standardvärde: `9200` |
-| [!UICONTROL Elasticsearch Index Prefix] | Global | Tilldelar ett prefix som identifierar indexvärdet för Elasticsearch. Standardvärde: `magento2` |
-| [!UICONTROL Enable Elasticsearch HTTP Auth] | Global | Om det här alternativet är aktiverat används HTTP-autentisering för att fråga efter användarnamn och lösenord innan Elasticsearch Server används. Alternativ: `Yes` / `No` |
-| [!UICONTROL Elasticsearch HTTP Username] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är inställd på `Yes` anges användarnamnet för Elasticsearch HTTP-autentisering. |
-| [!UICONTROL Elasticsearch HTTP Password] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är inställd på `Yes` anges lösenordet för Elasticsearch HTTP-autentisering. |
-| [!UICONTROL Elasticsearch Server Timeout] | Global | Anger antalet sekunder innan serverns timeout inträffar. Standardvärde: `15` |
-| [!UICONTROL Test Connection] |  | Validerar Elasticsearch-anslutningen. |
+| Sökmotor | Global | Identifierar den sökmotor som krävs för att bearbeta begäranden om katalogdata. Konfigurationsalternativen för sökmotorn är desamma för både OpenSearch och Elasticsearch. Alternativ: `OpenSearch` eller `Elasticsearch` |
+| [!UICONTROL OpenSearch Server Hostname] | Global | Anger namnet på OpenSearch- eller Elasticsearch-värdservern. |
+| [!UICONTROL OpenSearch Server Port] | Global | Anger antalet serverportar som används av OpenSearch eller Elasticsearch. Standardvärde: `9200` |
+| [!UICONTROL OpenSearch Index Prefix] | Global | Tilldelar ett prefix som identifierar OpenSearch- eller Elasticsearch-indexet. Standardvärde: `magento2` |
+| [!UICONTROL Enable OpenSearch HTTP Auth] | Global | Om det här alternativet är aktiverat används HTTP-autentisering för att fråga efter användarnamn och lösenord innan OpenSearch- eller Elasticsearch-servern används. Alternativ: `Yes` / `No` |
+| [!UICONTROL OpenSearch HTTP Username] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är inställd på `Yes` anger användarnamnet för OpenSearch eller Elasticsearch HTTP-autentisering. |
+| [!UICONTROL OpenSearch HTTP Password] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är inställd på `Yes` anger lösenordet för OpenSearch eller Elasticsearch HTTP-autentisering. |
+| [!UICONTROL OpenSearch Server Timeout] | Global | Anger antalet sekunder innan en begäran till OpenSearch- eller Elasticsearch-servern tar slut. Standardvärde: `15` |
+| [!UICONTROL Test Connection] |  | Validerar OpenSearch- eller Elasticsearch-anslutningen. |
 | [!UICONTROL Enable Search Recommendations] | Butiksvy | Avgör om sökrekommendationer erbjuds när en sökning inte ger några resultat och visas under avsnittet `Related search terms` på sökresultatsidan. Alternativ: `Yes` / `No` <br/> Om värdet är Ja visas ytterligare alternativ för _[!UICONTROL Search Recommendations Count]_och_[!UICONTROL Shows Results Count for Each Recommendation]_. |
 | [!UICONTROL Search Recommendations Count] | Butiksvy | Anger antalet söktermer som erbjuds som rekommendationer. Som standard visas inte fler än fem. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Butiksvy | När värdet är `Yes` visas antalet produkter som hittats för den föreslagna sökrekommendationen inom hakparenteser. Alternativ: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | Butiksvy | Avgör om sökförslag visas för vanliga felstavningar. När det här alternativet är aktiverat visas sökförslag för alla förfrågningar som inte ger några resultat och som visas under avsnittet `Did you mean` på sidan **Sökresultat**. Sökförslag kan påverka sökresultatet. Om värdet är `Yes` visas ytterligare alternativ för Aktivera sökning i Recommendations och associerade fält. Alternativ: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | Butiksvy | Anger antalet sökförslag som erbjuds. Till exempel: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | Butiksvy | Anger om antalet sökresultat visas för varje förslag. Beroende på temat visas numret oftast inom hakparenteser efter förslaget. Alternativ: `Yes` / `No` |
-| [!UICONTROL Minimum Terms to Match] | Butiksvy | Anger ett värde som motsvarar antalet termer i frågan som sökresultaten ska matcha för att returneras. Detta ger optimala resultat och relevans för kunderna. Procentvärden motsvarar ett tal och vid behov avrundas nedåt och används som minsta antal termer som ska matchas i frågan. Värdet kan vara ett negativt eller positivt heltal, ett negativt eller ett positivt tal, en kombination av de två eller flera kombinationerna. Mer information finns i [minimum_should_match-parametern](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) i Elasticsearch-dokumentationen. |
-
-{style="table-layout:auto"}
+| [!UICONTROL Minimum Terms to Match] | Butiksvy | Anger ett värde som motsvarar antalet termer i frågan som sökresultaten ska matcha för att returneras. Detta ger optimala resultat och relevans för kunderna. Procentvärden motsvarar ett tal och vid behov avrundas nedåt och används som minsta antal termer som ska matchas i frågan. Värdet kan vara ett negativt eller positivt heltal, ett negativt eller ett positivt tal, en kombination av de två eller flera kombinationerna. Mer information finns i [minimum_should_match-parametern](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) i OpenSearch-dokumentationen. |
 
 ## [!UICONTROL Downloadable Product Options]
 
