@@ -3,16 +3,16 @@ title: Kartbeständighet
 description: Lär dig hur en beständig kundvagn spårar oköpta varukorgsartiklar och sparar informationen för kundens nästa besök.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: ea3aae3fce7f5e18155138b2bb9e7df0b3831fdd
+source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 # Kartbeständighet
 
-En beständig kundvagn håller reda på oköpta artiklar i kundvagnen och sparar informationen. Denna process ser till att innehållet i kundvagnen förblir tillgängligt när den inloggade sessionen går ut.
+En beständig kundvagn sparar en referens till kundens konto på den aktuella enheten och ser till att kundvagnens innehåll förblir tillgängligt när den inloggade sessionen går ut.
 
 Om en kund är _ihågkommen_ är innehållet i kundvagnen tillgängligt på den aktuella enheten när den inloggade sessionen går ut. När sessionen är slut öppnas kundens kundvagn via den beständiga kundvagnssessionen. Om samma kund loggar in på en annan enhet eller webbläsare och lägger till något i kundvagnen, och sedan återgår till enheten med en aktiv beständig session, uppdateras kundvagnen med de tillagda artiklarna.
 
