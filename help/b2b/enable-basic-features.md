@@ -4,9 +4,9 @@ description: Läs om hur du aktiverar B2B-funktioner för din Adobe Commerce-but
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Konfigurationsinställningarna för de här funktionerna visas bara när [!DNL E
 Funktionerna B2B [!DNL Quick Order] och [!DNL Requisition List] kan aktiveras och inaktiveras oberoende av varandra.
 
 ## Konfigurera B2B-funktioner
+
+Alternativen för att konfigurera Adobe Commerce B2B-funktioner är bara tillgängliga i Commerce-projekt som har [Adobe Commerce B2B-tillägget installerat](install.md).
 
 1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
