@@ -3,10 +3,10 @@ user-guide-title: Dokumentation för Adobe Commerce Merchant
 user-guide-description: Dokumentation och resurser för handlare i Adobe Commerce och Magento Open Source som arbetar i Admin.
 title: Dokumentation för Adobe Commerce Merchant
 feature: Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: b014b624cc02b35f3d2273cb9acf602a1b74eaa5
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,4 +24,4 @@ ht-degree: 38%
 - [Lagrar och köp](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
 - [Administratörssystem](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
 - [Konfigurationsreferenshandbok](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
-- [Tjänster för Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)
+- [Tjänster för Commerce](services.md)
