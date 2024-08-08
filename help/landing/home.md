@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: Handläggardokumentation
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: c9dfc5385a008619a5ab1eceeec93df2c00df059
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,3 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 | **Nytt ämne** - [Överför ett Commerce-konto](../getting-started/commerce-account-transfer.md) till _Starthandboken_. | Nytt | 02/27/23 |
 
 {style="table-layout:auto"}
-
-## 2.3.x-dokumentation
-
-[Adobe Commerce 2.3-användarhandboken](https://docs.magento.com/user-guide/v2.3/) är fortfarande tillgänglig på domänen `docs.magento.com` för Adobe Commerce 2.3-kunder som har ett utökat supportavtal.
