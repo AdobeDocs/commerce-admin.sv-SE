@@ -3,9 +3,9 @@ title: Paketprodukt
 description: Lär dig hur du skapar en paketprodukt där kunderna kan skapa en anpassad produkt i din butik.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -274,6 +274,8 @@ Status för produktlager ändras **_inte automatiskt till Utanför lager_** när
 ## Saker att komma ihåg
 
 ![Kryssruta](../assets/checkbox.png) Kunder kan _skapa egna_ paketprodukter.
+
+![Kryssruta](../assets/checkbox.png) Alla underordnade produkter tilldelas och frånkopplas från paketprodukten **_globalt_** för alla webbplatser, butiker och butiksvyer samtidigt.
 
 ![Kryssruta](../assets/checkbox.png) Paketobjekt kan vara enkla eller virtuella produkter utan anpassade alternativ.
 

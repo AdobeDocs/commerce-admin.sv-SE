@@ -3,9 +3,9 @@ title: Konfigurerbar produkt
 description: Lär dig hur du skapar en konfigurerbar produkt som ger kunderna olika valmöjligheter.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -377,6 +377,8 @@ _Stock-status_ för den konfigurerbara produkten styrs delvis av Stock-statusen 
 - [Stock-status](../inventory-management/sources-stocks.md) för en konfigurerbar produkt är en halvmanuell inställning. Den skiljer sig från den enkla produktens lagerstatus, där den utgör en direkt representation av produktens tillgänglighet. För en konfigurerbar produkt är lagerstatusen en del av en lagerstatusberäkning med flera kriterier.
 
 - Konfigurerbara underordnade produkter kan vara enkla eller virtuella produkter **utan anpassade alternativ**. Om du vill göra anpassade underordnade produkter virtuella måste du välja `Тhis item has no weight` för inställningen **[!UICONTROL Weight]** för var och en av dem.
+
+- Alla underordnade produkter tilldelas och frånkopplas från den konfigurerbara produkten **_globalt_** för alla webbplatser, butiker och butiksvyer samtidigt.
 
 - En konfigurerbar produkt har inte ett eget pris i katalogen. Det konfigurerbara produktpriset härleds från dess [!UICONTROL In Stock] underordnade produkter.
 

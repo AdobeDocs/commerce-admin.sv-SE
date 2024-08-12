@@ -3,9 +3,9 @@ title: Grupperad produkt
 description: Lär dig skapa en grupperad produkt som består av enkla fristående produkter som presenteras som en grupp.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,8 @@ Om du har en annan bild för varje produkt i gruppen kan du ställa in konfigura
 ## Saker att komma ihåg
 
 - En grupperad produkt är en samling enkla tillhörande produkter.
+
+- Alla underordnade produkter tilldelas och tas bort från den grupperade produkten **_globalt_** för alla webbplatser, butiker och butiksvyer samtidigt.
 
 - Grupperade underordnade produkter kan vara enkla, nedladdningsbara eller virtuella produkter **[!UICONTROL without custom options]**.
 
