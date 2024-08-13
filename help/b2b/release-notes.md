@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] versionsinformation'
 description: Granska versionsinformationen för information om ändringar i  [!DNL Adobe Commerce B2B] releaser.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 5e9aaa4ff59b34a1ff76083eeae82f87e457f23b
+source-git-commit: d717a16f3ca20e51b002c6de19c696e090553052
 workflow-type: tm+mt
-source-wordcount: '6967'
+source-wordcount: '7033'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,20 @@ Betaversionen av B2B v1.5.0 innehåller nya funktioner, kvalitetsförbättringar
 ![Åtgärdat problem](../assets/fix.svg) <!--ACP2E-1825-->Inköpsorder kan inte längre placeras av en användare som är associerad med företaget efter att företaget har blockerats. Tidigare kunde en användare som är associerad med företaget göra inköpsorder när företaget blockerades.
 
 ![Ett problem har korrigerats](../assets/fix.svg)<!--ACP2E-1933-->Företagsadministratörer kan nu lägga till företagsanvändare från butiken. Tidigare loggade Commerce ett fel när en Admin-användare försökte lägga till en ny användare: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+## B2B v1.4.2-p2
+
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+
+![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p2+ och 2.4.6-p7+ har lagts till. B2B 1.4.2-p2-versionen har inte
+har stöd för [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att den använder PHP-version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen.
+
+
+https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Page#HowtoCreateandUpdateaNewHelpXPage-LinkstoupdateHelpXdocumentation:
 
 ## B2B v1.4.2-p1
 
