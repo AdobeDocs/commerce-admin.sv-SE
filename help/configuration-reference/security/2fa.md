@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Security] &gt; [!UICONTROL 2FA] i Commerce Admin.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorau
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Global | Anger de tvåfaktorautentiseringsmetoder som du behöver. Om du väljer mer än en leverantör måste varje användare konfigurera varje 2FA-metod nästa gång de loggar in. |
 | [!UICONTROL Configuration Email URL for Web API] | Global | För anpassade implementeringar, URL:en för en alternativ e-postkonfigurationslänk som skickas till _Admin_ -användare vid den första inloggningen. Använd platshållaren `:tfat` i e-postmallen för att ange var token matas in. |
+| [!UICONTROL Retry attempt limit for Two-Factor Authentication] | Global | Avgör hur många gånger en administratör kan ange en [!DNL one-time password (OTP)] innan deras konto tillfälligt inaktiveras. Standard: `10` |
+| [!UICONTROL Two-Factor Authentication lockout time (seconds)] | Global | Avgör hur länge (i sekunder) som en administratör kan vänta med att ange [!DNL one-time password (OTP)] innan deras konto inaktiveras tillfälligt. Standard: `300` |
 
 {style="table-layout:auto"}
 
@@ -37,7 +39,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Tvåfaktorau
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | Global | Anger hur länge (i sekunder) som systemet godkänner en administratörs engångslösenord efter att det har gått ut. Kan inte vara längre än en engångslösenord (vanligtvis 30 sekunder). Standard: `29` |
+| [!UICONTROL OTP Window] | Global | Avgör hur länge (i sekunder) som systemet accepterar en administratörs [!DNL one-time-password (OTP)] efter att det har gått ut. Kan inte vara längre än en engångslösenord (vanligtvis 30 sekunder). Standard: `29` |
 
 {style="table-layout:auto"}
 

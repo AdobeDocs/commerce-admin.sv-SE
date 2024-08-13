@@ -4,7 +4,7 @@ description: Lär dig mer om stöd för tvåfaktorsautentisering för att säker
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Du kan titta på den här [videodemonstrationen](https://video.tv.adobe.com/v/33
 
    Om du vill välja flera metoder håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje objekt.
 
-1. Slutför inställningarna för varje 2FA-metod som krävs.
+1. Slutför [inställningarna](../configuration-reference/security/2fa.md) för varje nödvändig 2FA-metod.
 
    ![Säkerhetskonfiguration - 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
