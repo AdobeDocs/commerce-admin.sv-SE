@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: Lär dig hur du använder  [!DNL Google Tag Manager] för att hantera många taggar (kodfragment) som är relaterade till marknadsföringskampanjerna på dina Adobe Commerce-webbplatser.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-[!DNL Google Tag Manager] hjälper dig att hantera många taggar (kodavsnitt) som är relaterade till marknadsföringskampanjerna. [!DNL Google Tag Manager] ger dig möjlighet att lägga till spårningstaggar på din webbplats för att mäta målgruppen eller för att anpassa, återannonsera eller genomföra marknadsföringsinitiativ för sökmotorer.
+[!DNL Google Tag Manager] är ett kraftfullt verktyg som hjälper dig att hantera och distribuera olika taggar (kodfragment) som är kopplade till marknadsföringskampanjerna. [!DNL Google Tag Manager] ger dig möjlighet att lägga till spårningstaggar på din webbplats för att mäta målgruppen eller för att anpassa, återannonsera eller genomföra marknadsföringsinitiativ för sökmotorer.
 
 [!DNL Google Tag Manager] överför data och händelser direkt till [!DNL Google Analytics], Enhanced Ecommerce och andra analyslösningar från tredje part för att få en tydlig bild av hur bra din webbplats, produkter och kampanjer fungerar.
 
@@ -137,24 +137,6 @@ Följande instruktioner visar hur du konfigurerar en ny behållare med de grundl
 >[!NOTE]
 >
 >Varje behållare är kopplad till en webbplats och du behöver bara en behållare per konto. Om du har en Commerce-instans med flera platser behöver du separata behållare.
-
-## Steg 4. Lägg till GTM-koden i din Adobe Commerce Store
-
-1. Om du vill kopiera GTM-koden går du till **[!UICONTROL Admin]** > **[!UICONTROL Install Google Tag Manager]**.
-
-   Det finns två GTM-kodfragment att lägga till på din Commerce-webbplats: det första för taggen `<head>` och det andra för taggen `<body>`.
-
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**i Commerce Admin och öppna butiksvyn i redigeringsläge.
-
-1. Under _[!UICONTROL Other Settings]_expanderar du **[!UICONTROL HTML Head]**och klistrar in koden som du kopierade från GTM för taggen `<head>` i fältet **[!UICONTROL Scripts and Style Sheets]**.
-
-   ![Infogar kod i HTML Head](./assets/head-tag.png){width="600" zoomable="yes"}
-
-1. Expandera **[!UICONTROL Footer]** och klistra in GTM-koden för `<body>` i fältet **[!UICONTROL Miscellaneous HTML]**.
-
-   ![Infogar kod i sidfoten](./assets/footer-tag-section.png){width="600" zoomable="yes"}
-
-1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.
 
 ## Fältbeskrivningar
 

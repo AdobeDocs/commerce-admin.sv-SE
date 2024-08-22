@@ -2,9 +2,9 @@
 title: Utskriftsformat
 description: Lär dig hur du konfigurerar standardinställningarna för huvuddelarna av en butikssida.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ Inställningarna i avsnittet HTML Head motsvarar taggen `<head>` på en HTML-sid
    - **[!UICONTROL Default Meta Keywords]**
 
 1. Ange eventuella **[!UICONTROL Scripts and Style Sheets]** efter behov.
+
+   >[!NOTE]
+   >
+   >Alla JavaScript som anges i fältet [!UICONTROL Scripts and Style Sheets] måste vitlistas i inställningarna för Content Security Policy (CSP), annars körs den inte på utcheckningssidorna. Mer information finns i [Säkerhetspolicy för innehåll](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
 
 1. Aktivera eller inaktivera [demonstrationsbutiksmeddelandet](../getting-started/storefront-branding.md#set-the-store-demo-notice) om det behövs.
 
@@ -118,6 +123,10 @@ I konfigurationsavsnittet Sidfot kan du uppdatera det [copyrightmeddelande](../g
 1. Under _Andra inställningar_ expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Footer]**.
 
 1. Gör de ändringar som krävs för inställningarna för **[!UICONTROL Copyright]** och **[!UICONTROL Miscellaneous HTML]**.
+
+   >[!NOTE]
+   >
+   >Alla JavaScript som anges i fältet [!UICONTROL Miscellaneous HTML] måste vitlistas i inställningarna för Content Security Policy (CSP), annars körs den inte på utcheckningssidorna. Mer information finns i [Säkerhetspolicy för innehåll](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.
 
