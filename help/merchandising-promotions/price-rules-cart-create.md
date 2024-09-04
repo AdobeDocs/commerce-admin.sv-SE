@@ -3,9 +3,9 @@ title: Skapa en kundvagnsprisregel
 description: Lär dig hur du skapar en kundvagnsprisregel baserat på kundvagn- eller produktattribut.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7058e08de0de72999b3baf7762126be4e9040dba
+source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Utför följande steg för att lägga till en regel, beskriva villkoren och defi
 
    >[!NOTE]
    >
-   >Kundprisregler som har samma prioritet ger ingen kombinerad rabatt. Varje regel tillämpas på matchande produkter separat, en i taget.
+   >Kundprisregler som har samma prioritet ger ingen kombinerad rabatt. Varje regel (kupong) tillämpas på matchande produkter separat, en i taget, enligt kundprisregelns ID i databasen. Adobe rekommenderar att du anger olika prioriteter för varje tillagd kundprisregel för att styra i vilken ordning rabatterna tillämpas.
 
 1. Om du vill tillämpa regeln på publicerade [RSS-flöden](social-rss.md#rss-feeds) anger du **Offentlig i RSS-feed** till `Yes`.
 
