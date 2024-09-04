@@ -3,9 +3,9 @@ title: Schemalagda ändringar av katalogens prisregler
 description: Lär dig hur du tillämpar katalogprisregler i schemat som en del av en kampanj och grupperar dem med andra innehållsändringar.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ Om det finns flera prisregler som körs i samma kampanj avgör inställningen Pr
 1. Klicka på **[!UICONTROL View/Edit]** i rutan **[!UICONTROL Scheduled Changes]** överst på sidan.
 
 1. Gör de ändringar som behövs för den schemalagda uppdateringen.
+
+   >[!NOTE]
+   >
+   >Om en kampanj är länkad till mer än en katalogprisregel kan kampanjen bara redigeras från [instrumentpanelen för innehållsmellanlagring](../content-design/content-staging-dashboard.md).
 
 1. Klicka på **[!UICONTROL Save]**.
 

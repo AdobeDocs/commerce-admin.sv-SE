@@ -3,9 +3,9 @@ title: Schemalagda ändringar för kategorier
 description: Lär dig schemalägga kategoriändringar för att stödja marknadsföringskampanjer och butikskampanjer.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,7 @@ Kategoriuppdateringar kan tillämpas enligt schema och grupperas med andra inneh
 1. Gör de ändringar som krävs i den schemalagda uppdateringen.
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.
+
+   >[!NOTE]
+   >
+   >Om en kampanj är länkad till mer än en kategori kan kampanjen bara redigeras från [instrumentpanelen för innehållsindelning](../content-design/content-staging-dashboard.md).

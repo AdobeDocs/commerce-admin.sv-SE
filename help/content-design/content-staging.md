@@ -3,9 +3,9 @@ title: Mellanlagring av innehåll
 description: Med Content Staging kan ert affärsteam enkelt skapa, förhandsgranska och schemalägga en mängd olika innehållsuppdateringar för er butik direkt från administratören.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Termen _kampanj_ refererar till posten för en schemalagd ändring, eller en sam
 
 När du schemalägger en innehållsändring för en viss tidsperiod återgår innehållet till den tidigare versionen när den schemalagda ändringen upphör att gälla. Du kan skapa flera versioner av samma baslinjeinnehåll som ska användas för framtida uppdateringar. Du kan också stega dig tillbaka genom tidslinjen för att visa tidigare versioner av innehållet. Om du vill spara ett utkast anger du bara ett datum på tidslinjen som är så långt in i framtiden att det aldrig går till produktion.
 
->[!NOTE]
->
->Fält som är relaterade till startdatum och slutdatum har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt på kundvagnsprisregeln, katalogprisregeln, produkten, kategorin och CMS-sidan. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
-
 ## Mellanlagringsobjekt och kampanjer för innehåll
+
+Fält som är relaterade till startdatum och slutdatum har tagits bort från Adobe Commerce och kan inte ändras direkt på kundvagnsprisregeln, katalogprisregeln, produkten, kategorin och CMS-sidan. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
+
+Alla schemalagda uppdateringar tillämpas i följd, vilket innebär att alla enheter bara kan ha en schemalagd uppdatering åt gången. Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha en annan schemalagd uppdatering för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
 
 När en ny schemalagd uppdatering skapas för något av följande objekt skapas en motsvarande kampanj som platshållare och rutan _[!UICONTROL Scheduled Changes]_visas längst upp på sidan. Platshållarkampanjen har ett startdatum, men inte ett slutdatum. Du kan schemalägga uppdateringar av innehållet som en del av en kampanj och sedan förhandsgranska och dela ändringarna per datum, tid eller butiksvy. När en ny kampanj har skapats för ett objekt kan du tilldela den som en schemalagd uppdatering för andra objekt.
 
@@ -32,8 +32,8 @@ När en ny schemalagd uppdatering skapas för något av följande objekt skapas 
 - [Kategorier](../catalog/category-scheduled-changes.md)
 - [Katalogprisregler](../merchandising-promotions/price-rule-catalog-scheduled-changes.md)
 - [Kundprisregler](../merchandising-promotions/price-rule-cart-scheduled-changes.md)
-- [CMS-sidor](pages-workspace.md#scheduled-changes)
-- [CMS-block](blocks.md)
+- [CMS Pages](pages-workspace.md#scheduled-changes)
+- [CMS Blocks](blocks.md)
 
 ## Arbetsflöde för innehållstagning
 
@@ -45,17 +45,17 @@ När en ny schemalagd uppdatering skapas för något av följande objekt skapas 
 
    Skapa din första kampanj med start- och slutdatum efter behov. Lämna slutdatumet tomt om du vill att kampanjen ska vara öppen. När den första kampanjen avslutas återställs det ursprungliga baslinjeinnehållet.
 
-   >[!NOTE]
-   >
-   >Startdatum och slutdatum för kampanj måste definieras med hjälp av administratörstidszonen **_default_** som konverteras från den lokala tidszonen för varje webbplats. Tänk dig ett exempel där du har flera webbplatser i olika tidszoner, men du vill starta en kampanj som baseras på en tidszon i USA. I det här fallet måste du schemalägga en separat uppdatering för varje lokal tidszon och ange **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** som konverteras från varje lokal webbplats tidszon till standardtidszonen för administratörer.
+   Startdatum och slutdatum för kampanj måste definieras med hjälp av administratörstidszonen **_default_** som konverteras från den lokala tidszonen för varje webbplats. Tänk dig ett exempel där du har flera webbplatser i olika tidszoner, men du vill starta en kampanj som baseras på en tidszon i USA. I det här fallet måste du schemalägga en separat uppdatering för varje lokal tidszon och ange **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** som konverteras från varje lokal webbplats tidszon till standardtidszonen för administratörer.
 
 1. **Lägg till en andra kampanj**
 
    Skapa den andra kampanjen med start- och slutdatum efter behov. Den andra kampanjen kan tilldelas en helt annan tidsperiod. När du skapar flera kampanjer för samma resurs kan kampanjerna inte överlappa varandra. Ni kan skapa så många kampanjer som behövs.
 
+   Flera resurser kan tilldelas till en befintlig kampanj som inte har startats ännu. Två olika produktpriser kan till exempel uppdateras inom samma kampanj med ett framtida startdatum.
+
    >[!NOTE]
    >
-   >Alla schemalagda uppdateringar tillämpas i följd, vilket innebär att alla enheter bara kan ha en schemalagd uppdatering åt gången. Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha en annan schemalagd uppdatering för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
+   >Om en kampanj är länkad till mer än en entitet kan kampanjen bara redigeras från [kontrollpanelen för innehållsmellanlagring](content-staging-dashboard.md).
 
 1. **Återställ baslinjeinnehållet**
 

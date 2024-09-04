@@ -3,9 +3,9 @@ title: Kontroller för arbetsytan Sida
 description: Lär dig mer om verktygen för arbetsytan som används för att hitta och uppdatera innehållssidor.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,10 @@ Klicka på kontrollen _Visa_ (![Ögon-ikon](../assets/icon-view-eye.png)) och g�
 {{ee-feature}}
 
 Sidändringar kan tillämpas enligt schema och grupperas med andra innehållsändringar. Du kan skapa en kampanj baserat på schemalagda ändringar på en sida eller tillämpa ändringarna på en befintlig kampanj. Mer information finns i [Förproduktion av innehåll](content-staging.md).
+
+>[!NOTE]
+>
+>Om en kampanj är länkad till mer än en sida kan kampanjen bara redigeras från [kontrollpanelen för innehållsindelning](content-staging-dashboard.md).
 
 >[!NOTE]
 >

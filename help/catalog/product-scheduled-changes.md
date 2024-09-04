@@ -3,9 +3,9 @@ title: Schemalagda produktuppdateringar
 description: Lär dig schemalägga ändringar i produktlistor för supportkampanjer och kampanjprogram.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ Den schemalagda ändringen visas högst upp på produktsidan med kampanjens star
 1. Klicka på **[!UICONTROL View/Edit]** i rutan _[!UICONTROL Scheduled Changes]_överst på sidan.
 
 1. Gör de ändringar som behövs för den schemalagda uppdateringen.
+
+>[!NOTE]
+>
+>Om en kampanj är länkad till mer än en produkt kan kampanjen bara redigeras från [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
 
 1. Klicka på **[!UICONTROL Save]**.
 
