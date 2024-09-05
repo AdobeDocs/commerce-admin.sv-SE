@@ -3,9 +3,9 @@ title: Inköpsorder för företag
 description: Lär dig mer om arbetsflöden för inköpsorder som gör det möjligt för företag att spåra och kontrollera utgifter.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
+source-git-commit: c1d8bdcd2d09567846ef6819660c57468062ab01
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Arbetsflödet för inköpsorder för ett företag kan variera på några sätt:
   >Som standard visas ett `Purchase order has been submitted for approval`-meddelande alltid för företagsanvändare, även när inga godkännanderegler har angetts. När ingen godkännandeprocess krävs får företagsanvändare automatiskt ett e-postmeddelande som informerar dem om att ordern har skapats och godkänts.
 
 - Om godkännandereglerna definieras av företagsadministratören, går användarna igenom godkännandeprocessen.
+- Om flera godkännanderegler gäller för en inköpsorder måste alla unika godkännare godkänna den.
 - Information om offlinebetalning anges när inköpsordern skapas.
 - Betalningsinformation online anges efter att inköpsordern har godkänts.
 
@@ -57,7 +58,7 @@ Godkännanderegler används för att kontrollera utgifter baserat på företaget
 - Alla order på över 1 000 USD måste godkännas av din chef och företagsadministratören.
 - Alla order med fler än 30 unika SKU:er måste godkännas av företagsadministratören.
 
-Med de här reglerna på plats för ett företag kan en företagsanvändare slutföra beställningen direkt när beställningen är mindre än 100 USD. Mer information om definition av godkännanderegel finns i [Godkännanderegler](account-dashboard-approval-rules.md)
+Med de här reglerna på plats för ett företag kan en företagsanvändare slutföra beställningen direkt när beställningen är mindre än 100 USD. Mer information om definition av godkännanderegel finns i [Godkännanderegler](account-dashboard-approval-rules.md).
 
 ### Typer av butiksanvändare
 
