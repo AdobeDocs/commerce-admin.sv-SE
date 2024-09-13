@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Lär dig hur du konfigurerar UPS som fraktfirma för din butik.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
 
    - Ange **[!UICONTROL Mode]** till `Live` om du vill skicka data till UPS-leveranssystemet via en säker anslutning. (I utvecklingsläget skickas inga data via en säker anslutning.)
 
-   - Verifiera **[!UICONTROL Gateway URL]** som krävs för att skicka begäranden. Använd en sandbox-URL för testläge och en produktions-URL för live-begäranden.
+   - Verifiera **[!UICONTROL Gateway URL]** som krävs för att skicka begäranden. Använd en sandbox-URL (`https://wwwcie.ups.com/`) för testläge och en produktions-URL för live-begäranden (`https://onlinetools.ups.com`). Se till att använda respektive slutpunkter för varje begäran med den angivna värden.
 
-   - Verifiera **[!UICONTROL Tracking URL]** som krävs för att hämta spårningsinformation. Använd en sandbox-URL för testläge och en produktions-URL för live-begäranden.
+   - Verifiera **[!UICONTROL Tracking URL]** som krävs för att hämta spårningsinformation. Använd en sandbox-URL (`https://wwwcie.ups.com/`) för testläge och en produktions-URL för live-begäranden (`https://onlinetools.ups.com`). Se till att använda respektive slutpunkter för varje begäran med den angivna värden.
 
    - Ange **[!UICONTROL Origin of the Shipment]** till den region där leveransen kommer.
 
@@ -50,8 +50,8 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
 
    - Ange **[!UICONTROL Live Account]** till något av följande:
 
-      - `Yes` - Kör UPS i produktionsläge och erbjuder UPS som en leveransmetod för dina kunder.
-      - `No` - Kör UPS i testläge.
+      - `Yes` - Kör UPS i produktionsläge och erbjuder UPS som en leveransmetod för dina kunder. Se till att du använder rätt slutpunkter under URL för gateway och spårning.
+      - `No` - Kör UPS i testläge. Se till att du använder rätt slutpunkter under URL för gateway och spårning.
 
    >[!NOTE]
    >

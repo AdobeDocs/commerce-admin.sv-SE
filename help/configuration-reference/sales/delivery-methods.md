@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] i Commerce Admin.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 8e80e6f33ede2f49f320394905b9d1a964cf8331
 workflow-type: tm+mt
-source-wordcount: '3773'
+source-wordcount: '3792'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Live Account] | Butiksvy | Anger att United Parcel Service-kontot är direktsänt. Alternativ: `Yes` / `No` |
 | [!UICONTROL Title] | Butiksvy | Namnet som används för den här leveransmetoden vid utcheckning. |
 | _[!UICONTROL UPS REST Account Settings]_ |  |  |
-| [!UICONTROL Gateway URL] | Webbplats | För UPS REST-tjänsten visas följande URL:er som krävs för att överföra JSON-data: Gateway-URL, Spårnings-URL, Leverans-URL |
+| [!UICONTROL Gateway URL] | Webbplats | För UPS REST-tjänsten visas följande URL:er som krävs för att överföra JSON-data: Gateway-URL, Spårnings-URL, Leverans-URL. Använd antingen sandlåda eller Produktionsslutpunkter enligt inställningen för Live-konto. |
 | [!UICONTROL Mode] | Webbplats | Anger vilket överföringssätt som används för data som skickas till UPS-systemet. Alternativ: <br/>**`Development`**- UPS verifierar inte att data som tas emot från Commerce-servern skickas via SSL.<br/>**`Live`** - UPS verifierar att data som tas emot från Commerce-servern skickas via ett säkert socketlager (SSL). |
 | Användar-ID | Webbplats | Klient-ID för ditt UPS-avdelarkonto. |
 | [!UICONTROL Origin of the Shipment] | Webbplats | (Endast UPS REST) Det land eller den region där produktleveransen kommer. |
@@ -140,7 +140,7 @@ ht-degree: 0%
 | [!UICONTROL Shipper Number] | Webbplats | (Endast UPS REST) Det sexsiffriga UPS-leveransnumret krävs för referens till användning av förhandlade hastigheter. |
 | [!UICONTROL Container] | Webbplats | Anger behållartypen som används för att paketera leveranser. Alternativ: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | Webbplats | Anger standardmåttenheten för produktvikt i butiken. Mer information finns i [Dimensionell vikt](../../stores-purchase/carriers.md#dimensional-weight). |
-| [!UICONTROL Tracking URL] | Webbplats | (Endast UPS REST) Den UPS-URL som används för att spåra paket. |
+| [!UICONTROL Tracking URL] | Webbplats | (Endast UPS REST) Den UPS-URL som används för att spåra paket. Använd `https://onlinetools.ups.com/api/track` för produktion ELLER `https://wwwcie.ups.com/api/track` för konfiguration av sandlåda. |
 | [!UICONTROL Destination Type] | Webbplats | Anger standarddestinationstypen för leverans. Alternativ: `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | Webbplats | Anger den maximala vikt ett paket kan ha enligt UPS-inställningarna. Om de beställda produkterna överstiger den högsta paketvikten är detta fraktalternativ inte tillgängligt. Enligt [UPS.com](https://www.ups.com/us/en/global.page) får paketen inte överskrida 70 kg. Kontrollera med din fraktfirma om du vill verifiera den maximala vikten. |
 | [!UICONTROL Pickup Method] | Webbplats | Anger UPS-hämtningsmetoden. Alternativ: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
