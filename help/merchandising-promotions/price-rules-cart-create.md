@@ -3,9 +3,9 @@ title: Skapa en kundvagnsprisregel
 description: Lär dig hur du skapar en kundvagnsprisregel baserat på kundvagn- eller produktattribut.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
+source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3386'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Utför följande steg för att lägga till en regel, beskriva villkoren och defi
 
    >[!NOTE]
    >
-   >Inställningen Prioritet är viktig när två kundvagnsregler/kupongkoder gäller för samma produkt samtidigt. Regeln med den högsta prioritetsinställningen (`1` är den högsta) styr kundvagnsåtgärden. Se _Ignorera efterföljande prisregler_ i steget _Definiera åtgärder_.
+   >Inställningen _[!UICONTROL Priority]_är viktig när två kundvagnsregler eller kupongkoder är giltiga för samma produkt samtidigt. Regeln med den högsta [!UICONTROL Priority]-inställningen som styr kundvagnsåtgärden.  Prioriteter från högsta till lägsta är `0,1,2,3...`. Se_ Ignorera efterföljande prisregler _i steget_[ Definiera åtgärder ](#step-3-define-the-actions)_.
 
    >[!NOTE]
    >
@@ -350,7 +350,7 @@ I den här videon får du lära dig att skapa kundvagnsprisregler:
 | [!UICONTROL Coupon] | (Obligatoriskt) Anger om en kupong är associerad med regeln. Alternativ: <br/>**[!UICONTROL No Coupon]**- Ingen kupong är associerad med regeln.<br/>**[!UICONTROL Specific Coupon]** - En specifik kupong är associerad med regeln. <br/>**[!UICONTROL Coupon Code]**- Ange den kupongkod som kunden måste ange för att kunna utnyttja erbjudandet.<br/>**[!UICONTROL Use Auto Generation]** - Markera kryssrutan för att automatiskt generera flera kupongkoder som kan användas med kampanjen. <br/>**[!UICONTROL Auto]**- Visar avsnittet _[!UICONTROL Manage Coupon Codes]_för att definiera formatet på kupongkoderna som ska genereras. |
 | [!UICONTROL Uses per Coupon] | Avgör hur många gånger kupongkoden kan användas. Om det inte finns någon gräns lämnar du fältet tomt. |
 | [!UICONTROL Uses per Customer] | Avgör hur många gånger kundprisregeln kan användas av samma registrerade kund som tillhör en vald kundgrupp. Gäller inte gästkunder som är medlemmar i kundgruppen NOT LOGGED IN, eller kunder som handlar utan att logga in på sina konton. Utan begränsning lämnas tomt. |
-| [!UICONTROL Priority] | Ett tal som anger den här regelns prioritet i förhållande till andra. Högsta prioritet är nummer `1`. |
+| [!UICONTROL Priority] | Ett tal som anger den här regelns prioritet i förhållande till andra. Prioriteringarna från högsta till lägsta är `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Avgör om kampanjen ingår i butikens offentliga RSS-feed. Alternativ:  `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Det första datum som kupongen kan användas. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Senaste datum som kupongen kan användas. |

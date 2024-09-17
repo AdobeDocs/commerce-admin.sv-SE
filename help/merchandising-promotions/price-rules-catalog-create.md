@@ -3,9 +3,9 @@ title: Skapa en katalogprisregel
 description: Lär dig hur du skapar en katalogprisregel som tillämpar en rabatt på vissa produkter när en uppsättning villkor uppfylls.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Följ dessa anvisningar för att tillämpa en rabatt på vissa produkter när en
 
    >[!NOTE]
    >
-   >Inställningen _[!UICONTROL Priority]_är viktig när samma katalogprodukt uppfyller villkoren som angetts för mer än en prisregel. Regeln med högsta prioritet (1 är högsta) blir aktiv för produkten.
+   >Inställningen _[!UICONTROL Priority]_är viktig när samma katalogprodukt uppfyller villkoren som angetts för mer än en prisregel. Regeln med högsta prioritet (prioriteter från högst upp till lägst är 0,1,2,3...) blir aktiv för produkten.
 
 ## Steg 2: Definiera villkoren
 
@@ -236,7 +236,7 @@ I den här videon får du lära dig mer om hur du skapar katalogprisregler:
 | [!UICONTROL Description] | En beskrivning av regeln ska innehålla regelns syfte och förklara hur den används. |
 | [!UICONTROL Websites] | (Obligatoriskt) Identifierar de webbplatser där regeln kan användas. |
 | [!UICONTROL Customer Groups] | (Obligatoriskt) Identifierar de kundgrupper som regeln gäller. |
-| [!UICONTROL Priority] | Ett tal som anger den här regelns prioritet i förhållande till andra. Högsta prioritet är nummer 1. |
+| [!UICONTROL Priority] | Ett tal som anger den här regelns prioritet i förhållande till andra. Prioriteringarna från högsta till lägsta är `0,1,2,3...` |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Anger om regeln är aktiv i butiken. Alternativ: `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Anger den första dagen som prisregeln gäller. Om den lämnas tom träder prisregeln i kraft när den sparas. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Anger den sista dagen som prisregeln gäller. Om inget anges fortsätter prisregeln oavbrutet. |
