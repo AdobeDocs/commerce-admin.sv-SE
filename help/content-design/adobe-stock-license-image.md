@@ -3,9 +3,9 @@ title: Licensiera en Adobe Stock-bild
 description: För att säkerställa att du har laglig åtkomst och för att ta bort Adobe Stock-vattenstämpeln licensierar du dina Adobe Stock-bilder.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: ee619d6a46948a714789dfbc275735df8669cdcb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ Adobe Stock-mediefiler som du vill använda för din produktion i Adobe Commerce
 
 Den nya [[!DNL Media Gallery]](media-gallery.md) har en direkt integrering med Adobe Stock, vilket gör det enkelt att licensiera dina bilder direkt från gallerisidan.
 
-## Förutsättningar
+>[!BEGINSHADEBOX]
 
-Den här funktionen kräver modulen och konfigurationen för [Adobe Stock Integration][adobe-stock-integration]. Licensiering av [Adobe Stock][adobe-stock]-bilder kräver en betald Adobe Stock-plan och ett [Adobe-konto][adobe-signin].
+**Krav**
+
+Licensfunktionen för Adobe Stock är bara tillgänglig om [Adobe Stock Integration][adobe-stock-integration] är installerad och konfigurerad. Licensiering av [Adobe Stock][adobe-stock]-bilder kräver en betald Adobe Stock-plan och ett [Adobe-konto][adobe-signin].
+
+>[!ENDSHADEBOX]
 
 ## Licensiera en bild från nya [!DNL Media Gallery]
 
