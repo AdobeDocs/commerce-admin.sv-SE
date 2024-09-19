@@ -3,9 +3,9 @@ title: HIPAA-beredskap på Adobe Commerce
 description: Läs om hur du kan lägga till tillägget Adobe Commerce HIPAA-Ready och få ytterligare funktioner som gör att du kan uppfylla dina skyldigheter enligt HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: bce0e581e89139875e09b671038a21976eccebca
+source-git-commit: dd97177836f5795f64e04665acdf8c1baa777465
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1599'
 ht-degree: 1%
 
 ---
@@ -214,7 +214,7 @@ För att uppfylla HIPAA-kraven är vissa tjänster och funktioner som stöds av 
    - API-nät
    - App Builder
 
-- **[SendGrid-tjänsten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** - Den här tjänsten är inaktiverad som standard eftersom programmet inte är HIPAA-kompatibelt.
+- **Transactional email**—[SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html) är inaktiverat som standard eftersom tjänsten inte är HIPAA-ready. Adobe Commerce har ett integreringsalternativ som du kan använda med ditt eget [AWS Simple Email Service](https://docs.aws.amazon.com/ses/)-konto. Kontakta kundens tekniska kontohanterare eller Adobe Commerce Support för mer information om konfigurationen.
 
 ### Funktioner som är inaktiverade som standard
 
