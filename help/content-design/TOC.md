@@ -3,9 +3,9 @@ user-guide-title: Content and Design Guide
 user-guide-description: Omfattande information om innehåll och designfunktioner för Adobe Commerce- och Magento Open Source-administratörer och e-handelskunder.
 breadcrumb-title: Innehåll och design
 feature: CMS, Page Content
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+source-git-commit: ea1532d326d3e787ba36cb98ced708f2bc2776e4
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -51,25 +51,17 @@ ht-degree: 0%
       - [Ny widget för produktlista](widget-new-products-list.md)
       - [Widgeten Beställningar och returer](widget-orders-returns.md)
       - [Karusellwidget för kataloghändelser](widget-event-carousel.md)
-- WYSIWYG-redigerare {#wysiwyg}
+- WYSIWYG Editor {#wysiwyg}
    - [Ökning](editor.md)
    - [Infoga en länk](editor-insert-link.md)
    - [Infoga en bild](editor-insert-image.md)
    - [Infoga en widget](editor-widget.md)
    - [Infoga en variabel](editor-insert-variable.md)
-- Media {#media}
    - Medielagring {#storage}
       - [Ökning](media-storage.md)
       - [Använda en mediedatabas](media-storage-database.md)
       - [Använd ett leveransnätverk](media-storage-content-delivery-network.md)
       - [URL för dynamiska media](catalog-urls-dynamic-media.md)
-   - Experience Manager Assets {#aem-assets}
-      - [Integrering med Assets](aem-assets.md)
-      - Onboarding {#onboarding}
-         - [Konfigurera AEM Assets](aem-assets-configure-aem.md)
-         - [Konfigurera Adobe Commerce](aem-assets-configure-commerce.md)
-         - [Aktivera resurssynkronisering](aem-assets-setup-synchronization.md)
-      - [Använd AEM Assets](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Integrering med Adobe Stock](adobe-stock.md)
       - [Använda Adobe Stock-bilder](adobe-stock-manage.md)
@@ -80,6 +72,15 @@ ht-degree: 0%
       - [Resurshantering](media-gallery-asset-management.md)
       - [Mapphantering](media-gallery-folder-management.md)
       - [Bildoptimering](media-gallery-image-optimization.md)
+- Avancerad resurshantering {#aem-assets}
+   - [AEM Assets Integration för Commerce](aem-assets.md)
+   - Konfigurera integreringen {#onboarding}
+      - [Ökning](aem-assets-setup.md)
+      - [Konfigurera AEM Assets](aem-assets-configure-aem.md)
+      - [Konfigurera Adobe Commerce](aem-assets-configure-commerce.md)
+      - [Aktivera resurssynkronisering](aem-assets-setup-synchronization.md)
+   - [Använd AEM Assets](aem-assets-manage.md)
+- Media {#media}
 - Mellanlagring av innehåll {#staging}
    - [Ökning](content-staging.md)
    - [Schemalägg en uppdatering](content-staging-scheduled-update.md)
@@ -87,4 +88,3 @@ ht-degree: 0%
    - [Lägg till ett kampanjobjekt](content-staging-add-item.md)
    - [Förhandsgranska en kampanj](content-staging-preview.md)
 - [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-

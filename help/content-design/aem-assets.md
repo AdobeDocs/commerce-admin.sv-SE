@@ -2,18 +2,19 @@
 title: Experience Manager Assets Integration för Commerce
 description: Lär dig hur du integrerar Experience Manager Assets med din [!DNL Commerce] -instans för att få tillgång till ett oändligt antal mediefiler som kan användas i din butik.
 feature: CMS, Media, Configuration, Integration
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
+source-git-commit: 98181692df99ab4beaa232f1662a29b16a053210
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# Experience Manager Assets Integration för Commerce
+# Avancerad resurshantering för Commerce
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Integrationen mellan Commerce och Adobe Experience Manager (AEM) Assets kombinerar AEM robusta funktioner som ett DAM-system (Digital Asset Management) med Adobe Commerce för att förbättra e-handelsupplevelsen. Denna integrering utnyttjar AEM kraftfulla funktioner för resurshantering för att ge ett smidigt, skalbart och effektivt sätt att hantera och leverera resurser i butiker.
+Advanced Asset Management för Commerce kombinerar de robusta funktionerna i AEM som ett DAM-system (Digital Asset Management) med Adobe Commerce för att förbättra e-handelsupplevelserna. Dessa funktioner levereras genom att man kopplar ihop Commerce-projekt med AEM kraftfull resurshanteringsmiljö, vilket ger ett smidigt, skalbart och effektivt sätt att hantera och leverera material i butiker.
 
 **Viktiga funktioner**
 
@@ -28,26 +29,7 @@ Integrationen mellan Commerce och Adobe Experience Manager (AEM) Assets kombiner
 - **Automatiserad resursmatchning**-Integreringen innehåller en regelmotortjänst som automatiskt matchar resurser i AEM med produkter i Adobe Commerce baserat på SKU eller andra nyckelattribut. Tjänsten ser till att de senaste produktresurserna och variationerna alltid är tillgängliga i e-butiker. Det minskar också den manuella arbetsinsatsen som krävs för att hantera resurser och frigör tid för mer strategiska aktiviteter.
 
 - **Effektivare processer**
+
    - **Aktivera och konfigurera integreringen från Commerce Admin**-Administratörer och utvecklare kan installera och konfigurera integreringen från Adobe Commerce med välbekanta verktyg och processer.
    - **Dynamiska uppdateringar**-Håll produktbilderna aktuella med de senaste ändringarna i resurshanteringssystemet. Dessa automatiska uppdateringar säkerställer att butikerna alltid har den senaste produktinformationen.
    - **Effektiv kataloghantering**-Förenklar underhåll av produktkatalogen genom att automatisera rensning och uppdatering av resurser.
-
-## Integrera Commerce och Experience Manager Assets
-
->[!BEGINSHADEBOX]
-
-**Förutsättningar**
-
-- Adobe Commerce måste konfigureras med [Commerce Admin-integreringen med Adobe ID](/help/getting-started/adobe-ims-config.md) med ett tilldelat organisations-ID.
-- Experience Manager Assets måste tilldelas som en produkt till samma organisations-ID.
-- Användaren som konfigurerar integreringen måste ha ett konto i samma organisation med administratörsbehörighet för åtkomst till Adobe Commerce och Experience Manager Assets.
-
->[!ENDSHADEBOX]
-
-Aktivera Commerce-integrationen med Experience Manager Assets genom att utföra följande uppgifter:
-
-1. [Konfigurera ditt Experience Manager Assets-projekt för att hantera Commerce-resurser](aem-assets-configure-aem.md)
-
-1. [Installera Experience Manager Assets Integration-tillägget och konfigurera Adobe Commerce](aem-assets-configure-commerce.md)
-
-1. [Aktivera resurssynkronisering](aem-assets-setup-synchronization.md)
