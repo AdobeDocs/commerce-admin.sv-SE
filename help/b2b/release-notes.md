@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] versionsinformation'
 description: Granska versionsinformationen för information om ändringar i  [!DNL Adobe Commerce B2B] releaser.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: d717a16f3ca20e51b002c6de19c696e090553052
+source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
 workflow-type: tm+mt
-source-wordcount: '7033'
+source-wordcount: '7198'
 ht-degree: 0%
 
 ---
@@ -64,21 +64,35 @@ Betaversionen av B2B v1.5.0 innehåller nya funktioner, kvalitetsförbättringar
 
 ![Ett problem har korrigerats](../assets/fix.svg)<!--ACP2E-1933-->Företagsadministratörer kan nu lägga till företagsanvändare från butiken. Tidigare loggade Commerce ett fel när en Admin-användare försökte lägga till en ny användare: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
+## B2B v1.4.2-p3
+
+*8 oktober 2024*
+
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+
+![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p3+ och 2.4.6-p8+ har lagts till.
+
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att instansen använder PHP version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen. Dessutom stöder inte B2B 1.4.2+-versionen [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
 ## B2B v1.4.2-p2
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
-![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p2+ och 2.4.6-p7+ har lagts till. B2B 1.4.2-p2-versionen har inte
-har stöd för [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p2+ och 2.4.6-p7+ har lagts till.
+
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i Säkerhetsbulletin xxxx.
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att den använder PHP-version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen.
-
-
-https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Page#HowtoCreateandUpdateaNewHelpXPage-LinkstoupdateHelpXdocumentation:
+>Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att den använder PHP-version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen. Dessutom stöder inte B2B 1.4.2+-versionen [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.2-p1
+
+*9 augusti 2024*
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
@@ -87,7 +101,6 @@ https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Pag
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att den använder PHP-version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen. Dessutom stöder inte B2B 1.4.2+ för närvarande [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
-
 
 ## B2B v1.4.2
 
@@ -165,6 +178,24 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 Du kan åtgärda det här problemet genom att lägga till manuella beroenden för B2B-säkerhetspaketet genom att lägga till manuella beroenden för B2B-säkerhetspaketet med en [stabilitetstagg](https://getcomposer.org/doc/04-schema.md#package-links). Instruktioner finns i [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
+## B2B v1.3.5-p8
+
+*8 oktober 2024*
+
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+
+![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.6-p8 har lagts till.
+
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
+
+## B2B v1.3.5-p7
+
+*9 augusti 2024*
+
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+
+![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.6-p7 har lagts till.
+
 ## B2B v1.3.5
 
 *14 mars 2023*
@@ -200,6 +231,16 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 ![Åtgärdat problem](../assets/fix.svg) <!--- ACP2E-2456--> Kategorifrågor returnerar nu produktpriser enligt butikens konfigurationsinställningar när det inte finns någon kategoribehörighet uttryckligen angiven för kategorin som frågas.
 
 ![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-6829--> Knappen **[!UICONTROL Place Order]** fungerar nu som väntat när du slutför ett köp med en godkänd offertförfrågan. Problem med den överlåtbara offerten `negotiableQuoteCheckoutSessionPlugin` har lösts.
+
+## B2B v1.3.4-p10
+
+*9 oktober 2024*
+
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+
+![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.5-p10 har lagts till.
+
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ## B2B v1.3.4
 
