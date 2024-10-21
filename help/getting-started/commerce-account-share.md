@@ -3,9 +3,9 @@ title: Dela ett [!DNL Commerce] konto
 description: Lär dig hur du ger begränsad åtkomst till ditt [!DNL Commerce] konto för andra [!DNL Commerce] kontoinnehavare.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
+source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,11 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
    Den vänstra navigeringspanelen för ditt konto har en ny _[!UICONTROL Shared with me]_-flik. Kontrollen_[!UICONTROL Switch Accounts]_ i det övre högra hörnet har alternativ för `My Account` och namnet på det delade kontot.
 
    ![Delad med mig](./assets/shared-with-me.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >   Om du inte ser kontrollen _[!UICONTROL Switch Accounts]_kontaktar du den primära kontoinnehavaren och bekräftar att de har angett rätt [kontoinformation](#set-up-a-shared-account).
+
 
 1. Om du vill få åtkomst till det delade kontot anger du **[!UICONTROL Switch Accounts]** till namnet på det delade kontot.
 
