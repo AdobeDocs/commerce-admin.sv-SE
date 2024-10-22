@@ -3,7 +3,7 @@ title: Överföra ett Commerce-konto
 description: Lär dig hur du överför ditt Commerce-konto till en annan ägare eller e-postadress.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 03a16730eebe3979157bc9eb847ac2b232d938bf
+source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 1%
@@ -69,6 +69,8 @@ Den här överföringstypen kräver att du först skapar en associerad Adobe ID 
 1. Ange bekräftelsekoden som skickas till den nya e-postadressen.
 
 1. Klicka på **[!UICONTROL Verify]**.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## E-poständring
 
