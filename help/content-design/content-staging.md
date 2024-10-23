@@ -3,9 +3,9 @@ title: Mellanlagring av innehåll
 description: Med Content Staging kan ert affärsteam enkelt skapa, förhandsgranska och schemalägga en mängd olika innehållsuppdateringar för er butik direkt från administratören.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,10 @@ När en ny schemalagd uppdatering skapas för något av följande objekt skapas 
 1. **Återställ baslinjeinnehållet**
 
    Om alla kampanjer har slutdatum återställs baslinjeinnehållet när alla aktiva kampanjer avslutas.
+
+   >[!NOTE]
+   >
+   >Om en aktiv kampanj initialt skapas utan ett slutdatum kan kampanjen inte redigeras senare så att den innehåller ett slutdatum. I så fall är det nödvändigt att skapa en dubblettkampanj och ange det slutdatum som behövs.
 
 >[!NOTE]
 >

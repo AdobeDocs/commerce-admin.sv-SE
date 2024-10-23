@@ -3,9 +3,9 @@ title: Schemalagda produktuppdateringar
 description: Lär dig schemalägga ändringar i produktlistor för supportkampanjer och kampanjprogram.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 2cdf3452f1648dc1ed607d6dfb5ade4be5ed5ce9
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,20 @@ ht-degree: 0%
 
 Produktuppdateringar kan tillämpas enligt schema och grupperas med andra innehållsändringar. Du kan använda [innehållstaging](../content-design/content-staging.md) för att skapa en kampanj baserat på schemalagda ändringar av produkten eller tillämpa ändringarna på en befintlig kampanj.
 
+Tänk på följande när du konfigurerar scheman för produktuppdateringar och redigeringskampanjer:
+
+- Alla schemalagda uppdateringar tillämpas i följd, vilket innebär att alla enheter bara kan ha en schemalagd uppdatering åt gången. Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha olika schemalagda uppdateringar för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
+
+- En mellanlagringsförhandsvisning för en schemalagd uppdatering startar alltid från butiksvyn **default** som emulerar kundens upplevelse av att navigera genom mellanlagringsuppdateringskampanjen.
+
+- Om en kampanj är länkad till mer än en produkt kan kampanjen bara redigeras från [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
+
+- Om en aktiv kampanj initialt skapas utan ett slutdatum kan kampanjen inte redigeras senare så att den innehåller ett slutdatum. I så fall är det nödvändigt att skapa en dubblettkampanj och ange det slutdatum som behövs.
+
+
 >[!NOTE]
 >
 >Fälten [!UICONTROL Set Product as New From], [!UICONTROL To] och fliken [!UICONTROL Schedule Design Update] har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt i produkten. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
-
->[!NOTE]
->
->Alla schemalagda uppdateringar tillämpas i följd, vilket innebär att alla enheter bara kan ha en schemalagd uppdatering åt gången. Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha olika schemalagda uppdateringar för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
-
->[!NOTE]
->
->En mellanlagringsförhandsvisning för en schemalagd uppdatering startar alltid från butiksvyn **default** som emulerar kundens upplevelse av att navigera genom mellanlagringsuppdateringskampanjen.
 
 ## Skapa en schemalagd uppdatering
 
@@ -86,10 +89,6 @@ Den schemalagda ändringen visas högst upp på produktsidan med kampanjens star
 
 1. Gör de ändringar som behövs för den schemalagda uppdateringen.
 
->[!NOTE]
->
->Om en kampanj är länkad till mer än en produkt kan kampanjen bara redigeras från [Content Staging Dashboard](../content-design/content-staging-dashboard.md).
-
 1. Klicka på **[!UICONTROL Save]**.
 
 ## Ta bort den schemalagda ändringen
@@ -102,9 +101,7 @@ Den schemalagda ändringen visas högst upp på produktsidan med kampanjens star
 
 1. I dialogrutan väljer du **[!UICONTROL Delete the Update]** och klickar på **[!UICONTROL Done]**.
 
-   >[!NOTE]
-   >
-   >Produkten tas bort från uppdateringen och alla schemalagda ändringar går förlorade.
+   Produkten tas bort från uppdateringen och alla schemalagda ändringar går förlorade.
 
 ## Schemalägg en designuppdatering
 

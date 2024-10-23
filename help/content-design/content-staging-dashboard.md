@@ -3,9 +3,9 @@ title: Instrumentpanel för innehållstagning
 description: Använd kontrollpanelen för innehållstagning för att få en översikt över alla aktiva och kommande kampanjer.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Befintliga kampanjobjekt kan redigeras från kontrollpanelen för mellanlagring,
 
 >[!NOTE]
 >
->Om en kampanj som innehåller en prisregel ursprungligen skapas utan ett slutdatum, kan kampanjen inte redigeras senare för att inkludera ett slutdatum. I så fall är det nödvändigt att skapa en dubblettkampanj och ange det slutdatum som behövs.
+>Om en aktiv kampanj initialt skapas utan ett slutdatum kan kampanjen inte redigeras senare så att den innehåller ett slutdatum. I så fall är det nödvändigt att skapa en dubblettkampanj och ange det slutdatum som behövs.
 
 ![Kampanjinformation](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 

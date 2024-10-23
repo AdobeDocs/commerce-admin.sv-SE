@@ -3,9 +3,9 @@ title: Schemalagda ändringar för kundvagnsprisregler
 description: Lär dig hur du tillämpar kundprisregler i schemat som en del av en kampanj och grupperar dem med andra innehållsändringar.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ Kundprisregler kan tillämpas enligt schema som en del av en kampanj och grupper
 >Alla schemalagda uppdateringar tillämpas i följd. Det innebär att en enhet bara kan ha en schemalagd uppdatering vid ett tillfälle. Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha olika schemalagda uppdateringar för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
 
 Om flera prisregler körs i samma kampanj avgör prisregelns _[!UICONTROL Priority]_-inställning vilken regel som har företräde. Mer information finns i [Innehållsfördelning](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>Om en aktiv kampanj initialt skapas utan ett slutdatum kan kampanjen inte redigeras senare så att den innehåller ett slutdatum. I så fall är det nödvändigt att skapa en dubblettkampanj och ange det slutdatum som behövs.
 
 >[!NOTE]
 >

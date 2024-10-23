@@ -3,9 +3,9 @@ title: Schemalagda ändringar för kategorier
 description: Lär dig schemalägga kategoriändringar för att stödja marknadsföringskampanjer och butikskampanjer.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 714904d6d81bde6374a5ce644262de252c70a391
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 
 Kategoriuppdateringar kan tillämpas enligt schema och grupperas med andra innehållsändringar. Du kan skapa en kampanj baserat på schemalagda ändringar av kategorin eller tillämpa ändringarna på en befintlig kampanj. Mer information finns i [Innehållsfördelning](../content-design/content-staging.md).
 
->[!NOTE]
->
->Fliken [!UICONTROL Schedule Design Update] har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt i kategorin. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
+Tänk på följande när du schemalägger ändringar för kategorier:
+
+- Alla schemalagda uppdateringar tillämpas i följd, vilket innebär att alla enheter bara kan ha en schemalagd uppdatering åt gången. Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha flera schemalagda uppdateringar för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
+
+- Om en kampanj är länkad till mer än en kategori kan kampanjen bara redigeras från [instrumentpanelen för innehållsindelning](../content-design/content-staging-dashboard.md).
+
+- Om en kampanj är länkad till mer än en kategori kan kampanjen bara redigeras från [instrumentpanelen för innehållsindelning](../content-design/content-staging-dashboard.md).
 
 >[!NOTE]
 >
->Alla schemalagda uppdateringar tillämpas i följd, vilket innebär att alla enheter bara kan ha en schemalagd uppdatering åt gången. Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha flera schemalagda uppdateringar för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
+>Fliken [!UICONTROL Schedule Design Update] har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt i kategorin. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
 
 ## Schemalägg en uppdatering av en kategori
 
@@ -69,7 +73,3 @@ Kategoriuppdateringar kan tillämpas enligt schema och grupperas med andra inneh
 1. Gör de ändringar som krävs i den schemalagda uppdateringen.
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.
-
-   >[!NOTE]
-   >
-   >Om en kampanj är länkad till mer än en kategori kan kampanjen bara redigeras från [instrumentpanelen för innehållsindelning](../content-design/content-staging-dashboard.md).

@@ -3,9 +3,9 @@ title: Schemalagda ändringar av katalogens prisregler
 description: Lär dig hur du tillämpar katalogprisregler i schemat som en del av en kampanj och grupperar dem med andra innehållsändringar.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Om det finns flera prisregler som körs i samma kampanj avgör inställningen Pr
 
 >[!IMPORTANT]
 >
->Om en kampanj som innehåller en prisregel ursprungligen skapas utan ett slutdatum, kan kampanjen inte redigeras senare för att inkludera ett slutdatum. Vi rekommenderar att du antingen lägger till ett slutdatum när du skapar kampanjen, eller skapar en dubblettversion av den befintliga kampanjen och lägger till slutdatumet i dubbletten efter behov.
+>Om en aktiv kampanj initialt skapas utan ett slutdatum kan kampanjen inte redigeras senare så att den innehåller ett slutdatum. I så fall är det nödvändigt att skapa en dubblettkampanj och ange det slutdatum som behövs.
 
 ![Katalogprisregel - schemalagda ändringar](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 

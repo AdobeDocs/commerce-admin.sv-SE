@@ -3,9 +3,9 @@ title: Kontroller för arbetsytan Sida
 description: Lär dig mer om verktygen för arbetsytan som används för att hitta och uppdatera innehållssidor.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -200,22 +200,21 @@ Klicka på kontrollen _Visa_ (![Ögon-ikon](../assets/icon-view-eye.png)) och g�
 
 Sidändringar kan tillämpas enligt schema och grupperas med andra innehållsändringar. Du kan skapa en kampanj baserat på schemalagda ändringar på en sida eller tillämpa ändringarna på en befintlig kampanj. Mer information finns i [Förproduktion av innehåll](content-staging.md).
 
->[!NOTE]
->
->Om en kampanj är länkad till mer än en sida kan kampanjen bara redigeras från [kontrollpanelen för innehållsindelning](content-staging-dashboard.md).
+Tänk på följande när du konfigurerar scheman för sidändringar och redigeringskampanjer:
+
+- Alla schemalagda uppdateringar tillämpas i följd, vilket innebär att alla enheter bara kan ha en schemalagd uppdatering i ett steg. Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha en annan schemalagd uppdatering för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
+
+- Om en kampanj är länkad till mer än en sida kan kampanjen bara redigeras från [kontrollpanelen för innehållsindelning](content-staging-dashboard.md).
+
+- Om en aktiv kampanj initialt skapas utan ett slutdatum kan kampanjen inte redigeras senare så att den innehåller ett slutdatum. I så fall är det nödvändigt att skapa en dubblettkampanj och ange det slutdatum som behövs.
+
+- Startdatum och slutdatum för kampanj måste definieras med hjälp av administratörstidszonen **_default_** som konverteras från den lokala tidszonen för varje webbplats. Tänk dig ett exempel där du har flera webbplatser i olika tidszoner, men du vill starta en kampanj som baseras på en tidszon i USA. I det här fallet måste du schemalägga en separat uppdatering för varje lokal tidszon och ange **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** som konverteras från varje lokal webbplats tidszon till standardtidszonen för administratörer.
+
+- Du kan schemalägga och förhandsgranska ändringar för produktuppdateringar. Mer information finns i [Schemalägga en uppdatering](content-staging-scheduled-update.md).
 
 >[!NOTE]
 >
 >Fliken [!UICONTROL Custom Design Update] har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt på sidan. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
 
->[!NOTE]
->
->Alla schemalagda uppdateringar tillämpas i följd, vilket innebär att alla enheter bara kan ha en schemalagd uppdatering i ett steg. Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha en annan schemalagd uppdatering för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
-
 ![På startsidan visas schemalagda ändringar högst upp](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
->[!NOTE]
->
->Startdatum och slutdatum för kampanj måste definieras med hjälp av administratörstidszonen **_default_** som konverteras från den lokala tidszonen för varje webbplats. Tänk dig ett exempel där du har flera webbplatser i olika tidszoner, men du vill starta en kampanj som baseras på en tidszon i USA. I det här fallet måste du schemalägga en separat uppdatering för varje lokal tidszon och ange **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** som konverteras från varje lokal webbplats tidszon till standardtidszonen för administratörer.
-
-Du kan också schemalägga och förhandsgranska ändringar för produktuppdateringar. Mer information finns i [Schemalägga en uppdatering](content-staging-scheduled-update.md).
