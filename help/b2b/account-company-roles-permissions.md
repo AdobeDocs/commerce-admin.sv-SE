@@ -4,9 +4,9 @@ description: Lär dig mer om roller och behörigheter som en företagsadministra
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 feature: B2B, Companies, Roles/Permissions
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: bad59798a1a6d97826dc421fe8614ef511e067bd
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -89,40 +89,9 @@ Systemet har en fördefinierad standardanvändarroll, som du kan använda _som_ 
 
 ## Rollbehörigheter
 
-- Alla
-   - Försäljning
-      - Tillåt utcheckning (placera order)
-         - Använd metoden Betala på konto
-      - Visa order
-         - Visa order för underordnade användare
-- Citat
-   - Visa
-      - Begär, redigera, ta bort
-      - Checka ut med citat
-      - Visa offerter för underordnade användare
-- Beställningsgodkännanden
-   - Visa mina inköpsorder
-      - Visa för underordnade
-      - Visa för alla företag
-   - Godkänn automatiskt inköpsordrar som skapats i den här rollen
-   - Godkänn inköpsorder utan andra godkännanden
-   - Visa godkännanderegler
-      - Skapa, redigera och ta bort
-- Företagsprofil
-   - Kontoinformation (visa)
-      - Redigera
-   - Adress
-      - Redigera
-   - Kontakter (visa)
-   - Betalningsinformation (vy)
-   - Leveransinformation (vy)
-- Företagets användarhantering
-   - Visa roller och behörigheter
-      - Hantera roller och behörigheter
-   - Visa användare och team
-      - Hantera användare och team
-- Företagskrediter
-   - Visa
+Företagsadministratörer kan uppdatera behörighetskonfigurationen för en roll genom att markera [!UICONTROL Edit action] och sedan välja eller ta bort behörigheter i listan **Rollbehörigheter**.
+
+![Roller och behörighetslista](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 ## Tilldela en roll till en företagsanvändare
 

@@ -3,7 +3,7 @@ title: Företagskonton
 description: Se hur företagskonton som hanteras i din Adobe Commerce-butik gör det möjligt att gå med flera köpare som tillhör samma företag i ett enda företagskonto.
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -12,7 +12,11 @@ ht-degree: 0%
 
 # Företagskonton
 
-När du lägger in B2B-företagskonton i din butik kan du förenkla företagets shoppingupplevelse genom att göra det möjligt för företag att skapa flera underkonton med flexibel behörighet baserat på användarroller i organisationen. Beroende på vilket företag det är kan en butiksadministratör anpassa kampanjer och priser efter deras behov och skapa skräddarsydda erbjudanden som tillgodoser kundernas krav och ökar beställningarna. Om du lägger till en företagskontoassociation till en standard [enskild](../customers/account-create.md) kan kunden använda de specifika inköpsarbetsflöden som definierats för företaget.
+När du lägger in B2B-företagskonton i din butik kan du förenkla företagets shoppingupplevelse genom att göra det möjligt för företag att skapa flera underkonton med flexibel behörighet baserat på användarroller i organisationen.
+
+Beroende på vilket företag det är kan en butiksadministratör anpassa kampanjer och priser efter deras behov och skapa skräddarsydda erbjudanden som tillgodoser kundernas krav och ökar beställningarna.
+
+Om du lägger till en företagskontoassociation till en standard [enskild](../customers/account-create.md) kan kunden använda de specifika inköpsarbetsflöden som definierats för företaget.
 
 Fördelar med ett företagskonto:
 
@@ -22,7 +26,7 @@ Fördelar med ett företagskonto:
 
 - Tillhandahåller en mekanism för handlare att öka intäkterna genom att erbjuda [företagskrediten](credit-company.md) som betalningsmetod.
 
-- Stöder [hantering](account-company-manage.md) av alla företagskonton i Admin.
+- Stöder [hantering](account-company-manage.md) av alla företagskonton från administratören.
 
 ## Visa företagskonton
 
@@ -34,15 +38,15 @@ Gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]** i sidofältet _
 
 ![Företagsstödraster](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-Rutnätet [!UICONTROL Companies] visar alla företag oavsett status. Det exempel som visas visar konton för två företag:&quot;ACME&quot;-företaget och&quot;Vandelay&quot;-företaget.
+Rutnätet [!UICONTROL Companies] visar alla företag oavsett status. Företagslistan anger om ett företag är associerat med en [företagshierarki](manage-company-hierarchy.md) och ger [detaljerad information](/help/b2b/account-company-manage.md#company-options-and-columns) om företaget, företagsadministratören och annan information. Anpassa vyn genom att använda [Admin-kontrollerna för stödraster](../getting-started/admin-grid-controls.md) för att ange filter, alternativ för kolumnvisning med mera.
 
 ## Företagsadministratör
 
-I följande exempel visas rutnätet _Kunder_ med de ursprungliga företagsadministratörskontona.
+I följande exempel visas rutnätet _Kunder_ med inledande företagskonton.
 
 ![Kundrutnät med företagsadministratörskonto](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Det är möjligt att den person som fungerar som företagsadministratör har flera roller inom företaget. Om en separat e-postadress anges för företagsadministratören, innehåller den inledande företagsstrukturen företagsadministratören plus ett individuellt användarkonto i företagsadministratörens namn. I så fall kan företagsadministratören logga in på kontot som företag eller som en enskild användare.
+Varje företag har en enda företagsadministratör som identifieras av kontots e-postadress och administratörens för- och efternamn. Administratören kan tilldelas andra företag som användare, men kan bara vara administratör för ett företag.
 
 När du har skapat kontot definierar företagsadministratören företagsstrukturen för [team](account-company-structure.md), konfigurerar [företagsanvändarna](account-company-users.md) och fastställer [roller och behörigheter](account-company-roles-permissions.md) för varje.
 
@@ -58,7 +62,7 @@ När du har skapat kontot definierar företagsadministratören företagsstruktur
 
 1. Följ instruktionerna och klicka på [!UICONTROL **link**] för att ange lösenordet.
 
-1. Ange ett [!UICONTROL **nytt lösenord**] för kontot och bekräfta igen.
+1. Anger ett [!UICONTROL **nytt lösenord**] och en lösenordsbekräftelse för deras konto.
 
    Lösenordet måste innehålla minst tre av följande teckentyper:
 

@@ -4,9 +4,9 @@ description: Lär dig hur en säljare kan skapa en offert för en viss köpare f
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
+source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,15 @@ När du har skapat offertutkastet lägger du till produktartiklar, lägger till 
 
    - I fältet [!UICONTROL Discount] anger du värdet för rabattypen. Om du till exempel har valt en rabatt i procent anger du 10 för att tillämpa en rabatt på 10 % på radobjektet.
 
-   - [!BADGE 1.5.0-beta-funktioner]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för Beta programdeltagare"}
+   - Du kan även låsa radartikelns rabattvärde så att produktpriset inte sänks ytterligare med eventuella rabatter som tillämpas på offertnivån.
 
      När ändringen har bekräftats uppdateras radobjektattributen i produktrutnätet så att rabattbeloppet visas. Om rabatten är låst visas en låsikon.
+
+   En säljare kan begära en rabatt från en viss radobjekt i en offert.
+
+   >[!NOTE]
+   >
+   >En demonstrationsvideo om hur rabatterna på radobjektet fungerar finns i [Säljare tillämpar rabatt på ett offertradobjekt](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) i _Commerce Videos och Tutorials_.
 
 1. Använd rabatt på offertnivå efter behov:
 
@@ -90,6 +96,14 @@ När du har skapat offertutkastet lägger du till produktartiklar, lägger till 
    ![Försäljaren lägger till information för köparen](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
    Som standard kan en [bifogad fil](configure-quotes.md) vara upp till 2 MB i något av följande filformat: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG eller JPEG, PNG.
+
+1. Lägg till leveransadress under förhandlingar.
+
+   En säljare kan göra ett leverans- och leveransval när köparen har lagt till en leveransadress i offerten.
+
+   Leveransalternativen är låsta vid utcheckning.
+
+   Mer information finns i [Mina citattecken](account-dashboard-my-quotes.md#adding-a-shipping-address).
 
 1. Bearbeta offerten.
 

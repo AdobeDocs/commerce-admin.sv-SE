@@ -3,9 +3,9 @@ title: '[!UICONTROL My Quotes]'
 description: Lär dig mer om kundupplevelsen för offerter, som finns på deras kontouppsättning.
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 6cf53c7caf37c24be473afecfba829595c14cb8c
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,44 @@ Om offerter är aktiverade visas alla offerter som skickats av kunden i avsnitte
 
 Köparen påbörjar processen genom att [skicka en anbudsförfrågan](quote-request.md) från kundvagnen. E-post utbyts mellan köparen och säljaren under [förhandlingsprocessen](quote-price-negotiation.md). För köparen är sidan [!UICONTROL My Quotes] fokuspunkt för all kommunikation mellan köpare och säljare under förhandlingsprocessen. En köpare som accepterar det förhandlade pris som säljaren erbjuder kan gå direkt till utcheckningssidan från offerten. Det går inte att lägga till ytterligare rabatter i det förhandlade offerten.
 
-En köpare kan slutföra följande åtgärder när han eller hon förhandlar om en offert:
+När en köpare förhandlar om en offert finns det flera alternativ för att antingen hantera offerten eller uppdatera offertinformationen.
 
-* Granska artikelpriser och uppdateringar
-* Spåra förhandlingsprocessen från [!UICONTROL Comments] och [!UICONTROL History] avsnitt
-* Ändra offerten för att ta bort objekt
-* Kommunicera och förhandla med säljaren genom att lägga till anteckningar på radobjektsnivå och offertnivå
-* Skicka offert till säljare för granskning
-* Konvertera offerten till en order om villkoren är godtagbara
-* Stäng citattecknet
-* Ta bort offerten
-* [!BADGE 1.5.0-beta-funktioner]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för Beta programdeltagare"}
+* Åtgärder som rör hantering av offerten:
+
+   * Skapa en kopia av offerten
+   * Stäng citattecknet
+   * Ta bort offerten
+   * Byt namn på citattecknet
+   * Skriv ut offerten
+   * Skapa en mall
+
+* Åtgärder för att uppdatera offertinformation:
+
+   * Granska artikelpriser och uppdateringar
+   * Spåra förhandlingsprocessen från [!UICONTROL Comments] och [!UICONTROL History] avsnitt
+   * Ändra offerten för att ta bort objekt
+   * Kommunicera och förhandla med säljaren genom att lägga till anteckningar på radobjektsnivå och offertnivå
+   * Lägg till en leveransadress
+   * Flytta radartiklar till en rekvisitionslista
+   * Konvertera offerten till en order om villkoren är godtagbara
+
+* Allmänna åtgärder under förhandling:
+
+   * Skicka offert till säljare för granskning
+   * Gå till kassan
 
 I följande exempel visas en offert som har uppdaterats av köparen och skickats tillbaka till säljaren för granskning.
 
 
-![Köparvy för offert](./assets/account-dashboard-my-quote-detail.png){width="700" zoomable="yes"}
+![Köparvy för offert](./assets/account-dashboard-my-quote-detailed.png){width="700" zoomable="yes"}
 
 Kurser med statusen `Updated` är låsta tills säljaren returnerar offerten.
 
 ## Visa citattecken
 
-Med de [behörigheter som krävs för rollen](account-company-roles-permissions.md) kan kunder som är kopplade till ett företagskonto se offerter som begärts av [underordnade användare](account-company-structure.md). Företagsadministratörer kan se alla offerter för företagskontot.
+Med de nödvändiga [behörigheterna för rollen](account-company-roles-permissions.md) kan köpare som är kopplade till ett företagskonto se offerter som har begärts av [underordnade användare](account-company-structure.md). Företagsadministratörer kan se alla offerter för företagskontot.
 
-1. Kunden loggar in på sitt konto i butiken.
+1. Köparen loggar in på sitt konto i butiken.
 
 1. Klicka på **[!UICONTROL My Quotes]** i den vänstra navigeringen.
 
@@ -52,15 +66,89 @@ Med de [behörigheter som krävs för rollen](account-company-roles-permissions.
 
 ## Visa en offert
 
-1. Kunden loggar in på sitt konto.
+1. Köparen loggar in på sitt konto.
 
 1. Välj **[!UICONTROL My Quotes]** i den vänstra panelen.
 
 1. Söker efter citattecknet i listan och klickar på **[!UICONTROL View]** i kolumnen _[!UICONTROL Action]_.
 
+## Kopiera en offert
+
+1. Köparen loggar in på sitt företagskonto i butiken.
+
+1. Välj **[!UICONTROL My Quotes]** i den vänstra panelen.
+
+1. Hitta och få tillgång till den önskade offerten i listan och klicka på **[!UICONTROL Create Copy]** i den ursprungliga offerten.
+
+## Skapa mall
+
+1. Köparen loggar in på sitt konto.
+
+1. Välj **[!UICONTROL My Quote Templates]** i den vänstra panelen.
+
+1. Söker efter citattecknet i listan **[!UICONTROL My Quotes]** och klickar på **[!UICONTROL Create Quote Template]** i kolumnen _[!UICONTROL Action]_.
+
+## Flytta radobjekt från en offert till en rekvisitionslista
+
+1. Köparen loggar in på sitt konto.
+
+1. Välj **[!UICONTROL My Quotes]** i den vänstra panelen.
+
+1. Hitta och öppna den önskade citattecknen i listan.
+
+1. Markera radobjekten.
+
+1. Klicka på **[!UICONTROL Move to Requisition list]** i listrutan _[!UICONTROL Actions]_.
+
+1. Välj en befintlig rekvisitionslista om du vill flytta de markerade objekten.
+
+1. Klicka på **[!UICONTROL Move item]**.
+
+Mer information om den här processen finns i [Lägg till produkter i en rekvisitionslista](requisition-lists.md).
+
+>[!NOTE]
+>
+> Du kan inte skapa en ny rekvisitionslista när du flyttar artiklar. Det går bara att flytta artiklar till en befintlig rekvisitionslista.
+
+## Flytta radobjekt till en ny offert
+
+1. Köparen loggar in på sitt konto.
+
+1. Välj **[!UICONTROL My Quotes]** i den vänstra panelen.
+
+1. Hitta och öppna den önskade citattecknen i listan.
+
+1. Markera radobjekten.
+
+1. Klicka på **[!UICONTROL Move item to new quote]** i listrutan _[!UICONTROL Actions]_.
+
+1. Ge den nya offerten ett namn i modal.
+
+1. Välj **[!UICONTROL Move to quote]** om du vill flytta det markerade objektet till den nya offerten.
+
+>[!NOTE]
+>
+> När du markerar flera objekt visas spärrning som **[!UICONTROL Move selected items to new quote]**.
+
+## Lägga till en leveransadress
+
+1. Köparen loggar in på sitt konto.
+
+1. Välj **[!UICONTROL My Quotes]** i den vänstra panelen.
+
+1. Markerar det önskade citattecknet.
+
+1. Klicka på **[!UICONTROL Add New Address]** i avsnittet **[!UICONTROL Shipping Information]**.
+
+1. Fyller i detaljer för den nya adressen.
+
+1. Klicka på **[!UICONTROL Save Address]**.
+
+När köparen lägger till adressen tillhandahåller säljaren alternativ för frakt och leverans. Dessa uppdateringar kan påverka det förhandlade offertpriset. Leveransalternativen är låsta vid utcheckning.
+
 ## Skriva ut en offert
 
-1. I den öppna offerten till höger om avsnittet _[!UICONTROL Items Quoted]_klickar kunden på&#x200B;**[!UICONTROL Print]**.
+1. I den öppna citattecknet till höger om avsnittet _[!UICONTROL Items Quoted]_klickar köparen på&#x200B;**[!UICONTROL Print]**.
 
 1. Verifierar **[!UICONTROL Destination]** som skrivare eller PDF.
 
@@ -82,9 +170,10 @@ Med de [behörigheter som krävs för rollen](account-company-roles-permissions.
 
 | Åtgärd | Beskrivning |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Byt namn | [!BADGE 1.5.0-beta-funktioner]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Endast tillgängligt för Beta-programdeltagare&quot;} Ändra offertens namn |
-| Skapa en kopia | [!BADGE 1.5.0-beta-funktioner]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Endast tillgängligt för Beta-programdeltagare&quot;} En köpare kan skapa en ny offert från den aktuella offerten genom att kopiera och byta namn på den. |
+| Byt namn | Ändra namnet på citattecknet |
+| Skapa kopia | En köpare kan skapa en offert från den aktuella offerten genom att kopiera och byta namn på den. |
 | Stäng citat | När en köpare stänger en offert kan den inte öppnas igen. Vid behov kan köparen återskapa den genom att använda åtgärden [!UICONTROL Create Copy]. Det här alternativet är inte tillgängligt om offertstatusen är `Draft`. |
+| Skapa mall | Skapa en offertmall baserad på aktuell offert. Offertmallar effektiviserar offertförhandlingen genom att låta köpare och säljare komma överens om kontrakt och prisvillkor som kan tillämpas på flera offerter.  Vid avtal kan köparen generera en i förväg godkänd, länkad offert från mallen för efterföljande order i stället för att starta om anbudsförfrågningsprocessen. |
 | Ta bort citat | När en köpare tar bort en offert tas den bort från systemet och är inte längre tillgänglig. |
 | Skriv ut | Öppnar ett utskriftsformulär där du kan spara offerten som PDF, fil eller skriva ut den på en konfigurerad skrivare. |
 

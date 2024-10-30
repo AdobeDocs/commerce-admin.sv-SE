@@ -4,9 +4,9 @@ description: Lär dig mer om företagsstrukturer och hur en företagsadministrat
 exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 feature: B2B, Companies
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -17,25 +17,23 @@ Ett företagskonto kan skapas för att återspegla affärsstrukturen. Till att b
 
 ![Företagsstruktur med divisioner](./assets/company-structure-diagram.svg){width="500"}
 
-I företagsadministratörens kontouppsättningspanel representeras företagsstrukturen som ett träd och består inledningsvis av endast företagsadministratören.
+I företagsadministratörens kontokontrollpanel i butiken representeras företagsstrukturen som ett träd och består inledningsvis av endast företagsadministratören.
 
-![Företagsstruktur med företagsadministratör](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![Företagsstruktur med företagsadministratör](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
-När kontot skapas och godkänns kan företagsadministratören använda företagets e-postadress eller tilldelas en annan e-postadress.
-
-Det är möjligt att den person som fungerar som företagsadministratör har flera roller inom företaget. Om en separat e-postadress anges för företagsadministratören, innehåller den inledande företagsstrukturen företagsadministratören plus ett individuellt användarkonto i företagsadministratörens namn. I så fall kan företagsadministratören logga in på kontot som företag eller som en enskild användare.
-
-![Företagsstruktur med administratör och användarkonto](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
-
-För handlare återspeglas den fullständiga företagsstrukturen i rutnäten _Företag_ och _Kunder_ i Admin. I företagsrutnätet visas alla företag oavsett status. I följande exempel visas konton för två företag: företaget _ACME_ och företaget _Vendelay_.
+För handlare återspeglas den fullständiga företagsstrukturen i rutnäten _Företag_ och _Kunder_ i Admin. I företagsrutnätet visas alla företag oavsett status.
 
 ![Företagsstödraster](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-I följande exempel visas rutnätet [!UICONTROL Customers] med de inledande företagskontona för dessa företag.
+I följande exempel visas rutnätet [!UICONTROL Customers] med de inledande företagskontona för varje företag.
 
-![Kundrutnät med företagsadministratörskonto](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![Kundrutnät med företagsadministratörskonton](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-När du har skapat kontot måste företagsadministratören definiera företagsstrukturen för [team](account-company-structure.md), konfigurera [företagsanvändarna](account-company-users.md) och upprätta [roller och behörigheter](account-company-roles-permissions.md) för varje.
+När du har skapat kontot kan företagsadministratören definiera en företagsstruktur med [team](account-company-structure.md), konfigurera [företagsanvändarna](account-company-users.md) och upprätta [roller och behörigheter](account-company-roles-permissions.md) för varje.
+
+>[!NOTE]
+>
+>När en företagsanvändare läggs till läggs företagsanvändaren till i rotföretagsstrukturen, som är underordnad företagsadministratören. Om företagsadministratören utför flera roller inom företaget skapar du separata företagsanvändarkonton med olika e-postadresser för varje roll.
 
 ## Företagsstrukturikoner
 
@@ -74,9 +72,7 @@ Om butiken är [konfigurerad](enable-basic-features.md) för att tillåta föret
 
    - Skapar så många team som behövs.
 
-     ![Företagsstruktur med team](./assets/company-structure-teams.png){width="600" zoomable="yes"}
-
-1. Så här skapar du en hierarki av team:
+1. Om du vill skapa en hierarki av team gör administratören följande:
 
    - Väljer det överordnade teamet och klickar på **[!UICONTROL Add Team]**.
 
@@ -129,7 +125,7 @@ När team och användare först läggs till i [företagsstrukturen](account-comp
 | [!UICONTROL Collapse All / Expand All] | Komprimerar eller utökar affärsstrukturträdet |
 | [!UICONTROL Add User] | Skapar en användare under det aktuella teamet |
 | [!UICONTROL Add Team] | Skapar ett team |
-| [!UICONTROL Edit Selected / Delete Selected] | Redigera eller ta bort användare från affärsträdet |
+| [!UICONTROL Edit Selected / Remove from Structure] | Redigerar användarinformation eller tar bort användare från affärsträdet. Mer information finns i [Hantera företagsanvändarkonton](account-company-users.md). |
 
 {style="table-layout:auto"}
 

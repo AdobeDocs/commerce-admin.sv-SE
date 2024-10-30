@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] versionsinformation'
 description: Granska versionsinformationen för information om ändringar i  [!DNL Adobe Commerce B2B] releaser.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
+source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
 workflow-type: tm+mt
-source-wordcount: '7198'
+source-wordcount: '7776'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,84 @@ Versionsinformationen för B2B-tillägget innehåller tillägg och korrigeringar
 >
 >Mer information om vilka versioner av B2B Commerce-tillägget som stöds för tillgängliga Adobe Commerce-versioner finns i [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
 
-## B2B 1.5.0 beta
 
-{{$include /help/_includes/b2b-beta-note.md}}
+## B2B 1.5.0
 
-*13 november 2023*
+*30 oktober 2024*
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"}
+Kompatibel med Adobe Commerce version 2.4.8-beta1, 2.4.7 till 2.4.7-p2, 2.4.6 till 2.4.6-p7
 
-Betaversionen av B2B v1.5.0 innehåller nya funktioner, kvalitetsförbättringar och felkorrigeringar.
+B2B v1.5.0 innehåller nya funktioner, kvalitetsförbättringar och felkorrigeringar.
 
-![Nytt](../assets/new.svg) Förbättringar av offertfunktioner hjälper köpare och säljare att hantera offerter och offertförhandling mer effektivt.
+### Företagshantering
 
-- **Spara offert som utkast**<!--B2B-2566--> - När en [offertförfrågan](quote-request.md) skapas från kundvagnen kan köpare nu spara offerten som ett utkast genom att välja **[!UICONTROL Save as Draft]** i formuläret [!UICONTROL Request a Quote].
+![Nytt](../assets/new.svg) **Företagshantering**<!--B2B-2901--> - Nu kan affärsfolk visa och hantera Adobe Commerce-företag som hierarkiska organisationer genom att tilldela företag till utsedda överordnade företag. När ett företag har tilldelats en överordnad kan administratören för det överordnade företaget hantera företagskontot. Endast behöriga administratörsanvändare kan lägga till och hantera företagstilldelningar. Mer information finns i [Hantera företagshierarki](manage-company-hierarchy.md).
 
-  Utkastofferten har inget förfallodatum. Köpare kan granska och uppdatera offertutkast från avsnittet [!UICONTROL My Quotes] på sin kontokontrollpanel.
+- Lägg till och hantera företagstilldelningar från det nya *[!UICONTROL Company Hierarchy]*-avsnittet på sidan *[!UICONTROL Company Account]* i Admin.
+
+- Sortera och filtrera företag efter den nya *[!UICONTROL Company Type]*-inställningen. I företagsrutnätet anger kolumnen *[!UICONTROL Company Type]* om ett företag är ett enskilt företag eller en del av organisationshierarkin (överordnat eller underordnat).
+
+![Nytt](../assets/new.svg) **Hantera företagskonfiguration i skala**<!--B2B-2849--> - Ändra företagskonfigurationsinställningar snabbt för utvalda företag med hjälp av gruppåtgärden *[!UICONTROL Change company setting]* som nu är tillgänglig när du hanterar företag från rutnätet *[!UICONTROL Companies]* eller *[!UICONTROL Company Hierarchy]*. Om du till exempel skapar en ny delad katalog för en grupp företag kan du ändra den delade katalogkonfigurationen i en enda åtgärd i stället för att redigera varje företag individuellt.
+
+![Nya](../assets/new.svg) API-utvecklare kan använda den nya REST API-slutpunkten `/V1/company/{parentId}/relations` för företagsrelationer för att skapa, visa och ta bort företagstilldelningar. Se [Hantera företagsobjekt](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) i *Utvecklarhandbok för webb-API*.
+
+### Företagskonton
+
+![Nytt](../assets/new.svg)<!--B2B-2828--> **Flerföretagstilldelning** - Förenkla åtkomst till företagskonton för företagsanvändare genom att tilldela en användare till flera företag. Om du till exempel har en köpare som beställer från flera företagswebbplatser, skapar du ett enda konto och tilldelar alla företag som köparen arbetar med till det kontot. Sedan kan köparen logga in en gång och växla mellan olika företagskonton genom att välja företaget från butiken.
+
+>[!NOTE]
+>
+>En företagsanvändare kan tilldelas till flera företag, men kan bara vara företagsadministratör för ett företag.
+
+![Nytt](../assets/new.svg) <!--B2B-2747--> **Företagsomfångsväljare** - Ger möjlighet för företagsanvändare som har tilldelats flera företag att ändra företag i butiken. När omfånget ändras uppdateras data för att visa information baserat på det nya företagssammanhanget. Om det nya företaget till exempel använder en annan delad katalog, ser företagsanvändaren produkter, priser och annan information baserat på den nya delade katalogen. Innehåll som rör order, offerter och offertmallar uppdateras också baserat på det valda företagets sammanhang.
+
+>[!NOTE]
+>
+>Om företagsanvändaren byter företag med artiklar i kundvagnen, ska kundvagnen uppdateras för att återspegla produktsortiment, priser och kampanjrabatter baserat på det nya företagssammanhanget.
+
+![Korrigerat problem](../assets/fix.svg)<!--ACP2E-1933--> Företagsadministratörer kan nu lägga till företagsanvändare från butiken. Tidigare loggade Commerce ett fel när en Admin-användare försökte lägga till en ny användare: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+### Offerter och offertmallar
+
+Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerter och offertförhandlingar mer effektivt.
+
+![Nya](../assets/new.svg) **Offertmallar**—<!--B2B-3367-->Köpare och säljare kan nu effektivisera offertprocessen genom att skapa återanvändbara och anpassningsbara offertmallar. Med offertmallar kan offertförhandlingen slutföras en gång, och köpare kan generera på förhand godkända länkade offerter för återkommande order i stället för att gå igenom offertförhandlingen för varje order. Offertmallar utökar den befintliga offertfunktionen genom att lägga till följande avancerade funktioner:
+
+- **Tröskelvärden för beställningar** gör att säljarna kan ange lägsta och högsta beställningskrav, vilket säkerställer att köparen håller sig till överenskomna inköpsvolymer.
+- **Genom att ställa in minsta och högsta antal artikelorderkvantiteter** får köparen möjlighet att justera orderkvantiteter på den länkade offerten utan att kräva en ny mall eller ytterligare förhandlingar.
+- **Spåra antalet länkade offerter som genererats och slutförts utan fel** för att få insikter om hur de förhandlade avtalen uppfylls.
+- **Länkade offerter** är förgodkända offerter som köparen genererar från en aktiv offertmall för att skicka återkommande order baserat på de villkor som förhandlats i offertmallen.
+
+![Nytt](../assets/new.svg) **Förbättringar av befintliga offertfunktioner**
+
+- **Uppdaterade ACL-regler (Commerce Access Control List)** gör det möjligt för B2B-hanterare och ansvariga att hantera offerter och offertmallar för underordnade användare. Separata regler har stöd för detaljerad konfiguration för att visa, redigera och ta bort åtkomst.
+
+- **Spara offert som utkast**<!--B2B-2566--> - När en [offertförfrågan](quote-request.md) skapas från kundvagnen kan köpare nu spara offerten som ett utkast så att de kan granska och uppdatera den innan offertförhandlingen inleds med säljaren. Utkastofferten har inget förfallodatum. Köpare kan granska och uppdatera offertutkast från avsnittet [!UICONTROL My Quotes] på sin kontokontrollpanel.
 
 - **Byt namn på offert**<!--B2B-2596--> - Nu kan köpare ändra ett offertnamn från sidan [Offertdetaljer](account-dashboard-my-quotes.md#quote-actions) genom att välja alternativet **[!UICONTROL Rename]**. Det här alternativet är tillgängligt för auktoriserade köpare när de redigerar offerten. Namnändringshändelser registreras i offerthändelseloggen.
 
 - **Duplicera offert**<!--B2B-2701--> - Nu kan köpare och säljare skapa en ny offert genom att kopiera en befintlig offert. En kopia skapas från offertdetaljvyn genom att välja **[!UICONTROL Create Copy]** i [offertdetaljvyn](quote-price-negotiation.md#button-bar) i Admin eller [Storefront](account-dashboard-my-quotes.md#quote-actions).
 
-- **Låsning av rabattrader**<!--B2B-2597--> - Under offertförhandling kan säljarna använda låsning av radrabjekt för större flexibilitet när de tillämpar rabatter. En säljare kan till exempel tillämpa en särskild artikelrabatt på en artikel och låsa artikeln för att förhindra ytterligare rabatter. När en artikel är låst kan artikelpriset inte uppdateras när en rabatt på offertnivå används. Se [Initiera offert för en köpare](sales-rep-initiates-quote.md).
+- **Flytta offertobjekt till rekvisitionslista**<!--B2B-2755--> - Nu kan köpare ta bort produkter från en offert och spara dem i en rekvisitionslista om de bestämmer sig för att inte ta med dem i offertförhandlingen.
 
-![Nytt ](../assets/new.svg)**Företagshantering**<!--B2B-2901--> - Nu kan affärsfolk visa och hantera Adobe Commerce-företag som hierarkiska organisationer genom att tilldela företag till utsedda överordnade företag. När ett företag har tilldelats en överordnad kan administratören för det överordnade företaget hantera företagskontot. Endast behöriga administratörsanvändare kan lägga till och hantera företagstilldelningar. Mer information finns i [Hantera företagshierarki](assign-companies.md).
+- **Ta bort flera produkter från en offert**<!--B2B-2881--> - På offerter med ett stort antal produkter kan köpare nu ta bort flera produkter från offerten genom att markera dem och använda alternativet *[!UICONTROL Remove]* från kontrollen *[!UICONTROL Actions]* på offertdetaljsidan. I tidigare versioner var en köpare tvungen att ta bort produkter en gång.
 
-- På sidan Företag identifierar ett nytt **[!UICONTROL Company Type]**-fält överordnade och underordnade företag. Handlare kan filtrera företagsvyn efter företagstyp och hantera företag med hjälp av radartikel eller gruppåtgärder.
+- **Låsning av rabattrader**<!--B2B-2597--> - Under offertförhandling kan säljarna använda låsning av radrabjekt för större flexibilitet när de tillämpar rabatter under offertförhandlingen. En säljare kan till exempel tillämpa en särskild artikelrabatt på en artikel och låsa artikeln för att förhindra ytterligare rabatter. När en artikel är låst kan artikelpriset inte uppdateras när en rabatt på offertnivå används. Se [Initiera offert för en köpare](sales-rep-initiates-quote.md).
 
-- Merchants kan lägga till och hantera företagstilldelningar från det nya **[!UICONTROL Company Hierarchy]**-avsnittet på sidan [!UICONTROL Company Account].
+![Ett problem har korrigerats](../assets/fix.svg) **Korrigeringar för befintliga offertfunktioner**
 
-- API-utvecklare kan använda den nya REST API-slutpunkten `/V1/company/{parentId}/relations` för företagsrelationer för att skapa, visa och ta bort företagstilldelningar. Se [Hantera företagsobjekt](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) i *Utvecklarhandbok för webb-API*.
+- Handlare som klickar på knappen *[!UICONTROL Print]* i offertdetaljvyn i Admin uppmanas nu att spara offerten som PDF. Tidigare omdirigerades handlarna till en sida med offertinformation. <!--ACP2E-1984-->
 
-![Ett problem har korrigerats](../assets/fix.svg)<!--ACP2E-1984-->Affärsmän som klickar på knappen **[!UICONTROL Print]** i offertdetaljvyn i Admin uppmanas nu att spara offerten som PDF. Tidigare omdirigerades handlarna till en sida med offertinformation.
+- Tidigare när en kundoffert med `0` procent och varierande kvantitet skickades genereras ett undantag, men kvantiteten sparades. När den här korrigeringen har tillämpats genereras ett fel för `0 percentage` med ett meddelande. <!--ACP2E-1742-->
 
-![Ett problem har korrigerats](../assets/fix.svg) <!--ACP2E-1742-->Tidigare när en kundoffert med 0 procent skickades och kvantiteten ändrades, utlöste administratören ett undantag men sparade kvantiteten. När den här korrigeringen har tillämpats genereras ett fel för `0 percentage` med ett meddelande.
+- Under offertförhandlingen kan en säljare nu ange en `0%`-rabatt i fältet Förförhandlad offertrabatt och skicka offerten tillbaka till köparen. Om säljaren tidigare angav en rabatt på 0 % och skickade offerten tillbaka till köparen returnerade administratören ett `Exception occurred during quote sending`-felmeddelande. <!--ACP2E-1742-->
 
-![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1742-->Under offertförhandling kan en säljare nu ange en `0%` rabatt i fältet Förförhandlad offertrabatt och skicka offerten tillbaka till köparen. Om säljaren tidigare angav en rabatt på 0 % och skickade offerten tillbaka till köparen returnerade administratören ett `Exception occurred during quote sending`-felmeddelande.
+- ReCaptcha-validering fungerar nu korrekt under utcheckningsprocessen för ett B2B-citat när ReCaptcha V3 har konfigurerats för utcheckning i butiken. Tidigare misslyckades valideringen med ett `recaptcha validation failed, please try again`-felmeddelande.  <!--ACP2E-2097-->
 
-![Korrigerat problem](../assets/fix.svg) <!--ACP2E-2097-->ReCaptcha-validering fungerar nu korrekt under utcheckningsprocessen för ett B2B-citat när ReCaptcha V3 har konfigurerats för utcheckning i butiken. Tidigare misslyckades valideringen med ett `recaptcha validation failed, please try again`-felmeddelande.
+### Inköpsorder
 
 ![Åtgärdat problem](../assets/fix.svg) <!--ACP2E-1825-->Inköpsorder kan inte längre placeras av en användare som är associerad med företaget efter att företaget har blockerats. Tidigare kunde en användare som är associerad med företaget göra inköpsorder när företaget blockerades.
-
-![Ett problem har korrigerats](../assets/fix.svg)<!--ACP2E-1933-->Företagsadministratörer kan nu lägga till företagsanvändare från butiken. Tidigare loggade Commerce ett fel när en Admin-användare försökte lägga till en ny användare: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.2-p3
 
@@ -120,11 +157,11 @@ B2B v1.4.2-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
 *7 augusti 2023*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}[Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Kompatibel med Adobe Commerce 2.4.7-beta1.
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}[Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Kompatibelt med Adobe Commerce 2.4.7-beta1.
 
 B2B v1.4.1-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
-![Åtgärdat problem](../assets/fix.svg) <!--ACP2E-1825-->Inköpsorder kan inte längre placeras av en användare som är associerad med företaget efter att företaget har blockerats. Tidigare kunde en användare som är associerad med företaget göra inköpsorder när företaget blockerades.
+![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1825-->Inköpsorder kan inte längre läggas av en användare som är associerad med företaget efter att företaget har blockerats. Tidigare kunde en användare som är associerad med företaget göra inköpsorder när företaget blockerades.
 
 ![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1943-->Status för restorder av produkt visas nu korrekt i butiken. Tidigare identifierades produkter som var tillgängliga för leverans felaktigt som beställda.
 
@@ -220,13 +257,13 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-1236--> Det går nu korrekt att inaktivera funktionen för delad katalog i ett specifikt omfång. Tidigare angav Adobe Commerce ett ogiltigt omfång när en handlare sparade en delad katalogkonfiguration.
 
-![Ett problem har korrigerats](../assets/fix.svg) <!--- ACP2E-1203--> Administratörsanvändare kan nu spara anpassade attributvärden för kunder för företagsanvändare. Tidigare gick det inte att spara anpassade kundattribut för företagsanvändare.
+![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-1203--> Administratörsanvändare kan nu spara anpassade kundattributvärden för företagsanvändare. Tidigare gick det inte att spara anpassade kundattribut för företagsanvändare.
 
-![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-1221--> Prestandaproblem har lösts med valideringen av företagsbehörigheter som tillhandahålls via GraphQL när många företagsbehörigheter redan har tilldelats.
+![Åtgärdat problem](../assets/fix.svg) <!--- ACP2E-1221--> Prestandaproblem åtgärdas med valideringen av företagsbehörigheter som tillhandahålls via GraphQL när många företagsbehörigheter redan har tilldelats.
 
-![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-1242--> Adobe Commerce genererar inte längre ett fel på kundvagnssidan när Snabborder används för att lägga till en produkt i en kvantitet som överskrider det tillgängliga lagret.
+![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-1242--> Adobe Commerce visar inte längre något fel på kundvagnssidan när Snabbbeställning används för att lägga till en produkt i ett antal som överskrider det tillgängliga lagret.
 
-![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-1090--> Prestandan för `SELECT` företagsbehörighetsåtgärder har förbättrats.
+![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-1090--> Prestandan för `SELECT` åtgärder för företagsbehörigheter har förbättrats.
 
 ![Åtgärdat problem](../assets/fix.svg) <!--- ACP2E-2456--> Kategorifrågor returnerar nu produktpriser enligt butikens konfigurationsinställningar när det inte finns någon kategoribehörighet uttryckligen angiven för kategorin som frågas.
 
@@ -312,9 +349,9 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Korrigerat problem](../assets/fix.svg) <!--- MC-42214--> Sidan _Kategori_ visar nu konsekventa produktdata medan behörigheter genereras under partiell indexering. En ny partiell indexerare för katalogbehörigheter har lagts till i den här processen. Tidigare var de data som visades när indexeraren kördes felaktiga.
 
-![Korrigerat problem](../assets/fix.svg) <!--- MC-42567--> Frågan `categoryList` returnerar nu korrekt antal produkter när katalogbehörigheter används och produkter tilldelas till en delad katalog.
+![Korrigerat problem](../assets/fix.svg) <!--- MC-42567--> Frågan `categoryList` returnerar nu rätt antal produkter när katalogbehörigheter används och produkter tilldelas till en delad katalog.
 
-![Korrigerat problem](../assets/fix.svg) <!--- MC-42528--> Frågan `categoryList` respekterar nu kategoribehörigheter och returnerar endast tillåtna kategorier. Tidigare returnerades alla tilldelade och ej tilldelade kategorier.
+![Åtgärdat problem](../assets/fix.svg) <!--- MC-42528--> Frågan `categoryList` respekterar nu kategoribehörigheter och returnerar bara tillåtna kategorier. Tidigare returnerades alla tilldelade och ej tilldelade kategorier.
 
 ![Korrigerat problem](../assets/fix.svg) <!--- MC-42399--> `rest/V1/company/{id}`-begäran returnerar nu `is_purchase_order_enabled` attributvärden som förväntat.
 
@@ -384,9 +421,9 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Korrigerat problem](../assets/fix.svg) <!--- MC-39317--> Ombeställning fungerar nu som väntat för order som innehåller en produkt med alternativet för datumanpassning för ett kundkonto som skapades vid utcheckning. Tidigare bearbetades inte ändringsordningen av Adobe Commerce och följande fel visades: `The product has required options. Enter the options and try again`.
 
-![Korrigerat problem](../assets/fix.svg) <!--- MC-39063--> Leveransadressen för en överlåtbar offert kan inte längre redigeras under utcheckning när inköpsordermodulen är inaktiverad. Det här beteendet är ett resultat av en tidigare korrigering där `isQuoteAddressLocked` togs bort från den utcheckningsbara offertrenderaren.
+![Korrigerat problem](../assets/fix.svg) <!--- MC-39063--> Leveransadressen för en överlåtbar offert kan inte längre redigeras under utcheckning när inköpsordermodulen är inaktiverad. Det här beteendet är ett resultat av en tidigare korrigering där `isQuoteAddressLocked` togs bort från utcheckningsrenderaren för överlåtbara offerter.
 
-![Korrigerat problem](../assets/fix.svg) <!--- MC-38967--> Merchants kan nu lägga till produkter i en överlåtbar offert från administratören.
+![Korrigerat problem](../assets/fix.svg) <!--- MC-38967--> Handlare kan nu lägga till produkter till en överlåtbar offert från administratören.
 
 ### Inköpsorder
 
@@ -406,23 +443,23 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Korrigerat problem](../assets/fix.svg) <!--- MC-39580--> Adobe Commerce genererar inte längre ett allvarligt fel när du redigerar en paketprodukt från en rekvisitionslista.
 
-![Korrigerat problem](../assets/fix.svg) <!--- MC-40454--> Adobe Commerce visar nu rätt produktpris när du lägger till en produkt med ett anpassningsbart alternativ `(File)` i en önskelista från en rekvisitionslista. Länken till den överförda filen visas också som förväntat. Tidigare visade Adobe Commerce felaktiga produktpriser och inte länken till filen.
+![Korrigerat problem](../assets/fix.svg) <!--- MC-40454--> Adobe Commerce visar nu rätt produktpris när du lägger till en produkt med det anpassningsbara alternativet `(File)` i en önskelista från en rekvisitionslista. Länken till den överförda filen är också synlig som förväntat. Tidigare visade Adobe Commerce felaktiga produktpriser och visade inte länken till filen.
 
-![Korrigerat problem](../assets/fix.svg) <!--- MC-36383--> Produkter med ett anpassningsbart alternativ `(File)` kan nu läggas till i en kundvagn från en rekvisitionslista.
+![Korrigerat problem](../assets/fix.svg) <!--- MC-36383--> Produkter med det anpassningsbara alternativet `(File)` kan nu läggas till i en kundvagn från en rekvisitionslista.
 
 ### Delad katalog
 
-![Korrigerat problem](../assets/fix.svg) <!--- MC-40497--> En administratör med en roll som är begränsad till en viss webbplats kan nu skapa, visa och redigera en delad katalog. Tidigare uppstod ett allvarligt fel i Adobe Commerce när en administratör med en begränsad roll försökte skapa en delad katalog.
+![Åtgärdat problem](../assets/fix.svg) <!--- MC-40497--> En administratör med en roll som är begränsad till en viss webbplats kan nu skapa, visa och redigera en delad katalog. Tidigare uppstod ett allvarligt fel i Adobe Commerce när en administratör med en begränsad roll försökte skapa en delad katalog.
 
 ![Åtgärdat problem](../assets/fix.svg) <!--- MC-41337--> Navigeringsresultaten i lager innehåller nu ett korrekt antal produkter med filtrerade attribut, och kunderna kan nu använda flera filter. Tidigare kunde bara ett filter användas och Adobe Commerce visade ett felaktigt produktantal vid navigering i lager.
 
-![Korrigerat problem](../assets/fix.svg) <!--- MC-40779--> Adobe Commerce visar nu produktantal korrekt i navigeringsfilter i lager i sökresultat. Tidigare använde inte ett plugin-program för sökresultatsidan Elasticsearch utan skickade en ny fråga till databasen.
+![Korrigerat problem](../assets/fix.svg) <!--- MC-40779--> Adobe Commerce visar nu produktantal korrekt i navigeringsfilter i lager i sökresultat. Tidigare använde ett plugin-program för sökresultatsidan inte Elasticsearch, men en ny fråga skickades till databasen.
 
-![Åtgärdat problem](../assets/fix.svg) <!--- MC-39978--> Adobe Commerce tar inte längre bort nivåpriser när en handlare tar bort alla produkter från en delad standardkatalog.
+![Korrigerat problem](../assets/fix.svg) <!--- MC-39978--> Adobe Commerce tar inte längre bort nivåpriser när en handlare tar bort alla produkter från en standardkatalog som delas.
 
-![Åtgärdat problem](../assets/fix.svg) <!--- MC-39802--> Filter filtreras nu efter den aktuella kategorin och visas korrekt på alla sidor när delade kataloger är aktiverade. Tidigare beräknades filter felaktigt enbart för den aktuella sidan och filtrerades inte av den aktuella kategorin.
+![Åtgärdat problem](../assets/fix.svg) <!--- MC-39802--> Filter filtreras nu av den aktuella kategorin och visas korrekt på alla sidor när delade kataloger är aktiverade. Tidigare beräknades filter felaktigt bara för den aktuella sidan och filtrerades inte av den aktuella kategorin.
 
-![Korrigerat problem](../assets/fix.svg) <!--- MC-39522--> GraphQL `products`-frågan returnerar inte längre en produkts prisintervall och kategori för produkter som inte har tilldelats till en delad katalog när delad katalog är aktiverad. Tidigare returnerade frågan produktens aggregeringar, även om själva produkten inte returnerades i `items`-arrayen.
+![Korrigerat problem](../assets/fix.svg) <!--- MC-39522--> GraphQL `products`-frågan returnerar inte längre en produkts prisintervall och produktkategori för produkter som inte tilldelas en delad katalog när den delade katalogen har aktiverats. Tidigare returnerade frågan produktens aggregeringar, även om själva produkten inte returnerades i matrisen `items`.
 
 ## B2B v1.3.1
 
@@ -478,7 +515,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Åtgärdat problem](../assets/fix.svg) Frågan `credit_history` returnerar nu det angivna företagets kredithistorik för både det ursprungligen allokerade beloppet och det köpta beloppet. Tidigare returnerade frågan ett fel.
 
-![Åtgärdat problem](../assets/fix.svg) Fälten **[!UICONTROL Company]** och **[!UICONTROL Job Title]** på sidan Redigera kontoinformation kan inte längre redigeras.
+![Korrigerat problem](../assets/fix.svg) Fälten **[!UICONTROL Company]** och **[!UICONTROL Job Title]** på sidan Redigera kontoinformation kan inte längre redigeras.
 
 ### Kända fel
 
@@ -506,15 +543,15 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Nya](../assets/new.svg) B2B-handlare kan nu styra leveransmetoder som erbjuds varje företag.<!--- BUNDLE-160 161 162 -->
 
-![Ny](../assets/new.svg)-handlare kan nu tillåta användare att rensa innehållet i kundvagnen i en enda åtgärd och konfigurera funktionen separat på varje webbplats <!--- BUNDLE-108 -->
+![Nya](../assets/new.svg) handlare kan nu tillåta att användarna rensar innehållet i sin kundvagn med en enda åtgärd och kan konfigurera funktionen oberoende på varje webbplats <!--- BUNDLE-108 -->
 
 ![Nya](../assets/new.svg) B2B-köpare kan nu lägga till enskilda artiklar eller hela innehållet i kundvagnen direkt i en rekvisitionslista. <!--- BUNDLE-145 144-->
 
-![Nya](../assets/new.svg) B2B-handlare kan skapa beställningar från administratören å kundernas vägnar med Betalning på konto som betalningsmetod. <!--- BUNDLE-166 178-->
+![Nya](../assets/new.svg) B2B-handlare kan skapa beställningar från Admin på uppdrag av kunder med Betalning på konto som betalningsmetod. <!--- BUNDLE-166 178-->
 
-![Nytt](../assets/new.svg)-handlare kan nu direkt visa alla offerter som är kopplade till en användare från kundens detaljsida. <!--- BUNDLE-139 -->
+![Nya](../assets/new.svg) handlare kan nu direkt visa alla offerter som är kopplade till en användare från kundens informationssida. <!--- BUNDLE-139 -->
 
-![Nyheter](../assets/new.svg)-handlare kan nu filtrera rutnätet för kunder nu online efter företag. <!--- BUNDLE-137 -->
+![Nya](../assets/new.svg) handlare kan nu filtrera rutnätet Kunder är online efter företag. <!--- BUNDLE-137 -->
 
 ![Nya](../assets/new.svg) administratörer kan nu filtrera kunder i Admin efter säljare. <!--- BUNDLE-110 -->
 
@@ -596,21 +633,21 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Åtgärdat problem](../assets/fix.svg) Om du klickar på knappen **[!UICONTROL Clear All]** expanderas nu alla filter i stället för att de komprimeras.
 
-![Åtgärdat problem](../assets/fix.svg) Produkt-SKU/namn ingår nu i sökfiltersammanfattningen för orderhistorik.
+![Korrigerat problem](../assets/fix.svg) Produktens SKU/namn ingår nu i sökfiltersammanfattningen för orderhistorik.
 
-![Åtgärdat problem](../assets/fix.svg) Sorteringsindikatorn visas nu korrekt i stödrastret Mina inköpsorder.
+![Korrigerat problem](../assets/fix.svg) Sorteringsindikatorn visas nu korrekt i rutnätet Mina inköpsorder.
 
 ![Korrigerat problem](../assets/fix.svg) Nu kan du bara klicka på knapparna Godkänn, Avbryt, Avvisa och Inköpsorder en gång. Tidigare kunde du klicka på knappen flera gånger.
 
 ![Korrigerat problem](../assets/fix.svg) Knapparna Godkänn, Avvisa, Avbryt och Validera återges nu korrekt på mobila enheter.
 
-![Ett problem har korrigerats](../assets/fix.svg) Tidigare där en inköpsorder med en rabatt som har gått ut godkände orderns fulla belopp och inte inköpsordersumman uppdaterades. Nu uppdateras inköpsordersumman så att rätt summa visas.
+![Korrigerat problem](../assets/fix.svg) Om du godkänner en inköpsorder med en rabatt som har upphört att gälla tidigare, placerades ordern på hela beloppet och inköpsordersumman uppdaterades inte. Nu uppdateras summan för inköpsordern så att rätt summa visas.
 
-![Korrigerat problem](../assets/fix.svg) Ett problem uppstod i 2.3.4 där anpassade tilläggsattribut inte skulle kopieras från kundadressen till offertadressen. Problemet har åtgärdats.
+![Korrigerat problem](../assets/fix.svg) Ett problem introducerades i 2.3.4 där anpassade tilläggsattribut inte kopierades från kundadressen till offertadressen. Problemet har åtgärdats.
 
-![Ett problem har korrigerats](../assets/fix.svg) När B2B är installerat visas ett SQL-fel när kategorier tilldelas till delade kataloger. Problemet har åtgärdats.
+![Korrigerat problem](../assets/fix.svg) Med B2B installerat visas ett SQL-fel när kategorier tilldelas till delade kataloger. Problemet har åtgärdats.
 
-![Korrigerat problem](../assets/fix.svg) På grund av ett felaktigt variabeltypvärde kunde administratörer inte lägga till konfigurerbara produkter i en order. Alternativlistrutorna fyller inte i. Den här funktionen fungerar nu korrekt.
+![Korrigerat problem](../assets/fix.svg) Administratörer kunde inte lägga till konfigurerbara produkter i en order på grund av ett felaktigt värde för variabeltyp. Alternativlistrutorna fyller inte i. Den här funktionen fungerar nu korrekt.
 
 ![Ett problem har korrigerats](../assets/fix.svg) Tidigare uppstod ett fel när kategoribehörigheter för gruppen Ej inloggad redigerades när ändringarna sparades. Problemet har åtgärdats.
 

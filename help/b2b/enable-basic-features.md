@@ -4,9 +4,9 @@ description: Läs om hur du aktiverar B2B-funktioner för din Adobe Commerce-but
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Som standard är alla B2B-funktioner inaktiverade från början. En butiksadmini
 
 När du aktiverar stöd för kundföretag aktiveras ytterligare B2B-funktioner automatiskt:
 
-- [!DNL Shared Catalog]
+- [[!DNL Shared Catalog]](catalog-shared.md)
 
   Stöder anpassad priskonfiguration för olika företag och aktiverar även kategoribehörigheter för alla butiker.
 
@@ -25,7 +25,7 @@ När du aktiverar stöd för kundföretag aktiveras ytterligare B2B-funktioner a
 
   Förbättrar webbplatsens prestanda genom att endast produkter som har tilldelats en delad katalog lagras i prisindexet. Att aktivera den här funktionen är en bra metod för Merchants som har många delade kataloger att hantera anpassade priser för olika företag.
 
-- [!DNL B2B Quotes]
+- [[!DNL B2B Quotes]](quotes.md)
 
   Ger säljare och företagsköpare möjlighet att förhandla om priser.
 
@@ -35,7 +35,7 @@ När du aktiverar stöd för kundföretag aktiveras ytterligare B2B-funktioner a
 
 Konfigurationsinställningarna för de här funktionerna visas bara när [!DNL Enable Company] är inställt på `Yes`.
 
-Funktionerna B2B [!DNL Quick Order] och [!DNL Requisition List] kan aktiveras och inaktiveras oberoende av varandra.
+Funktionerna B2B [[!DNL Quick Order]](quick-order.md) och [[!DNL Requisition List]](requisition-lists.md) kan aktiveras och inaktiveras oberoende av varandra.
 
 ## Konfigurera B2B-funktioner
 
@@ -52,6 +52,8 @@ Alternativen för att konfigurera Adobe Commerce B2B-funktioner är bara tillgä
    - Tillåt kunder att hantera sina egna företagskonton och aktivera stöd för ytterligare B2B-funktioner genom att ange **[!UICONTROL Enable Company]** till `Yes`.
 
      När du aktiverar företagsstöd aktiveras automatiskt metoderna för delad katalog, B2B-offert, B2B-betalning och B2B-leverans.
+
+     ![B2B-konfiguration - företagsfunktioner](assets/b2b-additional-features.png){width="600"}
 
    - Om du vill att kunder och gäster snabbt ska kunna göra beställningar baserat på SKU eller produktnamn anger du **[!UICONTROL Enable Quick Order]** till `Yes`.
 

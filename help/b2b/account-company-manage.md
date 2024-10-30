@@ -3,22 +3,26 @@ title: Hantera företagskonton
 description: Lär dig hur du hanterar företagskonton för din Adobe Commerce-butik med hjälp av företagssidan och verktygen i rutnätet.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2706'
 ht-degree: 0%
 
 ---
 
 # Hantera företagskonton
 
-På sidan _[!UICONTROL Companies]_visas alla aktuella företagskonton, oavsett status. Eventuella väntande begäranden om godkännande visas högst upp i listan. Standardkontrollerna [på arbetsytan](../getting-started/admin-workspace.md) kan användas för att filtrera listan, ändra [kolumnlayouten](../getting-started/admin-grid-controls.md), spara vyer eller exportera data.
-
-Kontrollen _[!UICONTROL Actions]_ovanför rutnätet kan användas för att tillämpa en åtgärd på flera företagsposter. I stället för att godkänna varje enskild företagsbegäran kan du till exempel välja flera begäranden och aktivera kontona i en enda åtgärd. Vilka åtgärder som är tillgängliga beror på [behörigheterna](../systems/permissions.md) för rollen som tilldelas ditt administratörskonto.
-
-Använd funktionen _[!UICONTROL Search]_för att hitta företag i stödrastret **Företag**efter nyckelord. Sökningen indexerar nyckelord från kolumnerna **Företag**och **Överordnad**. Du kan filtrera efter **företagstyp**om du bara vill visa enskilda företag, endast överordnade företag eller endast underordnade företag.
+På sidan _[!UICONTROL Companies]_visas alla aktuella företagskonton, oavsett status. Eventuella väntande begäranden om godkännande visas högst upp i listan.
 
 ![Företagsstödraster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+
+Använd kontrollen *[!UICONTROL Columns]* för att anpassa de kolumner som visas i rutnätet. Anpassa de företag som visas i vyn med hjälp av sök- och filterfunktionerna.
+
+- Hitta företag i rutnätet **Företag** med hjälp av _[!UICONTROL Search]_. Sökningen indexerar kolumnerna **Företagsnamn**och **Överordnad**.
+
+- Anpassa vyn så att den innehåller poster som uppfyller specifika villkor med [!UICONTROL Filter]. Om till exempel B2B-webbplatsen är konfigurerad att hantera både enskilda företagskonton och [företagshierarkier](manage-companies.md) kan du filtrera efter `[!UICONTROL Company Type - Company]` om du bara vill visa enskilda företag, eller efter `[!UICONTROL Company Type - Parent]` om du bara vill visa det överordnade företaget för varje hierarki.
+
+Använd en åtgärd på flera företagsposter med kontrollen _[!UICONTROL Actions]_ovanför rutnätet. I stället för att godkänna varje enskild företagsbegäran kan du till exempel välja flera begäranden för att aktivera kontona i en enda åtgärd. Vilka åtgärder som är tillgängliga beror på [behörigheterna](../systems/permissions.md) för rollen som tilldelas ditt administratörskonto.
 
 ## Resurser för företagsroll
 
@@ -29,15 +33,23 @@ Inställningarna för [rollresurser](../systems/permissions-user-roles.md#role-r
 - Använda en saldoåterbetalning
 - Visa företag
 
-Dessa rollresurser måste anges för [användarrollen](../systems/permissions-user-roles.md) som har tilldelats administratörskontot.
+De här rollresurserna måste anges för [användarrollen](../systems/permissions-user-roles.md) som har tilldelats administratörskontot.
 
-## Använda en åtgärd
+## Hantera företagskonton från företagsrutnätet
 
-Följande åtgärder kan tillämpas på en eller flera poster.
+Visa och hantera användarkonton för företag på Admin-menyn genom att välja **[!UICONTROL Customers]** > **[!UICONTROL Companies]** för att öppna sidan *[!UICONTROL Companies]*.
 
-1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]** på sidofältet _Admin_.
+Du kan hantera konton individuellt eller i grupper.
 
-1. I stödrastrets första kolumn markerar du kryssrutan för varje post som du vill uppdatera och följer instruktionerna för den åtgärd som du vill använda:
+- Visa eller ändra konfigurationsinställningar för ett enskilt företagskonto genom att välja **[!UICONTROL Edit]** i kolumnen **[!UICONTROL Action]** för företagskontoposten.
+
+  ![Välj åtgärd som ska tillämpas på valda företag](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
+
+- Visa eller ändra en grupp av valda företagskonton genom att använda de alternativ som är tillgängliga i kontrollen [!UICONTROL Actions]** ovanför rutnätet.
+
+  ![Välj åtgärd som ska tillämpas på valda företag](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
+
+I följande avsnitt finns instruktioner om hur du använder varje åtgärd.
 
 ### Aktivera företagskonton
 
@@ -90,6 +102,30 @@ Borttagna företagskonton kan inte återställas. Statusen för användarkonton 
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
+### Ändra företagsinställningar
+
+Uppdatera konfigurationen för [Avancerade inställningar](account-company-create.md#advanced-settings) om du vill använda samma inställningar för flera företag som har valts i stödrastret *Företag*.
+
+>[!NOTE]
+>
+>Hantera den avancerade inställningskonfigurationen för en företagsorganisation med en överordnad och associerade underordnade företag från vyn [Företagshierarki](manage-company-hierarchy.md#change-company-settings).
+
+1. Välj **[!UICONTROL Change company settings]** i kontrollen **[!UICONTROL Actions]**.
+
+   I formuläret *[!UICONTROL Change company settings]* är de initiala konfigurationsinställningarna inställda på standardvärden.
+
+1. För varje konfigurationsinställning som ska ändras markerar du kryssrutan **[!UICONTROL Change]** för att aktivera inställningen. Uppdatera sedan inställningen efter behov.
+
+   ![Ändra företagsinställningar för flera företag](assets/companies-change-advanced-settings-action.png){width="675" zoomable="yes"}
+
+1. När du har uppdaterat konfigurationsinställningarna väljer du **[!UICONTROL Apply Changes]**.
+
+1. Välj **[!UICONTROL Change settings]** när du uppmanas att uppdatera konfigurationen för de valda företagen.
+
+>[!TIP]
+>
+>Du kan ändra konfigurationen för avancerade inställningar för ett enskilt företag genom att välja **[!UICONTROL Edit]** i kolumnen **[!UICONTROL Action]** för företagskontoposten.
+
 ### Konvertera kreditvalutan
 
 Krediten i konton för valda företag konverteras till den aktuella kursen för den valda valutan.
@@ -114,7 +150,7 @@ Metod 1: **Snabbredigering**
 
    Varje värde som kan uppdateras visas i en textruta.
 
-   ![Snabbredigering för ett företagskonto](./assets/companies-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![Snabbredigering för ett företagskonto](./assets/companies-grid-quick-edit.png){width="675" zoomable="yes"}
 
 1. Uppdatera något av följande värden efter behov:
 
@@ -134,7 +170,7 @@ Metod 2: **Fullständig redigering**
 
 1. Gör nödvändiga ändringar i företagsinformationen.
 
-Fältbeskrivningar finns i [Skapa ett företagskonto](account-company-create.md).
+   Fältbeskrivningar finns i [Skapa ett företagskonto](account-company-create.md).
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.
 
@@ -176,13 +212,11 @@ I den här videon får du lära dig mer om hur du hanterar företagskonton:
 
 ## Företagsledning
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för Beta programdeltagare"}
-
 När ett företag har skapats kan administratörsanvändare med lämplig behörighet använda avsnittet [!UICONTROL Company Hierarchy] för att skapa en överordnad företagsorganisation genom att redigera det utsedda överordnade företaget och tilldela relaterade företag.
 
 Om ett företag har lagts till i en hierarki visar rutnätet [!UICONTROL Company Hierarchy] det överordnade företaget och alla tilldelade företag i rutnätet.
 
-Mer information finns i [Hantera företagshierarki](assign-companies.md).
+Mer information finns i [Hantera företagshierarki](manage-company-hierarchy.md).
 
 ## Företagsalternativ och kolumner
 
@@ -191,11 +225,12 @@ I följande avsnitt finns en referens för de tillgängliga åtgärderna, altern
 ### Alternativ för åtgärdskontroll
 
 | Alternativ | Beskrivning |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Anger status för alla valda företagsposter till `Active`. Företagsadministratörer får instruktioner om hur de anger sina lösenord så att de kan komma åt sina konton och hantera sina företag direkt i butiken. |
 | [!UICONTROL Block] | Begränsar företagskonton som inte är i gott skick samtidigt som kontot bevaras. Företagsmedlemmar kan logga in och komma åt katalogen, men de kan inte göra beställningar för företagets räkning. |
 | [!UICONTROL Delete] | Tar bort valda företagskonton. Statusen för användarkonton som är associerade med ett borttaget företag är inställd på `Inactive` och företags-ID tas bort från profilerna för användarkonton. Information om företagsaktivitet och transaktioner sparas i systemet. |
 | [!UICONTROL Edit] | Tillåter att vissa värden för den valda företagsposten redigeras från rutnätet. Som standard är värdena Företagsnamn, Företagets e-postadress och Telefonnummer tillgängliga för en snabb redigering. |
+| [!UICONTROL Change company settings] | Öppnar formuläret *Ändra företagsinställningar* för att uppdatera konfigurationen för [Avancerade inställningar](account-company-create.md#advanced-settings) och tillämpa ändringarna på de valda företagen. |
 | [!UICONTROL Convert Credit] | Konverterar krediten à conto för de valda företagen enligt kurserna i den angivna valutan. |
 
 {style="table-layout:auto"}
@@ -250,7 +285,6 @@ Följande kolumner är tillgängliga genom att ändra [kolumnlayouten](../gettin
 | Knapp | Beskrivning |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | Återgår till sidan Företag utan att spara ändringar. |
-| [!UICONTROL Login as Customer] | Tillåter en Admin-användare att [logga in på butiken som kund](../customers/login-as-customer.md) och hjälpa till med deras beställningar. |
 | [!DNL Delete Company] | Tar bort företagskontot. Statusen för användarkonton som är associerade med företaget är inställd på `Inactive` och företags-ID tas bort från profilerna för användarkonton. Information om företagsaktivitet och transaktioner sparas i systemet. |
 | [!DNL Reset] | Återställer originalvärdena till fält som inte har sparats. |
 | [!DNL Reimburse Balance] | Låter administratören återbetala saldot från butikskrediten, som PO-numret refererar till. |
@@ -278,19 +312,10 @@ Följande kolumner är tillgängliga genom att ändra [kolumnlayouten](../gettin
 | [!UICONTROL VAT / TAX ID] | Moms- eller [momsregistreringsnummer ](../stores-purchase/vat.md) som tilldelas företaget för momsrapportering. |
 | [!UICONTROL Reseller ID] | Återförsäljningsnumret som har tilldelats företaget för momsrapportering. |
 | [!UICONTROL Comment] | Anteckningarna om företagskontot är till för referens och visas endast från administratören. |
-| **[!UICONTROL Legal Address]** |                                                                                                                            |
-| [!UICONTROL Street Address] | Den gatuadress där företaget är registrerat för att bedriva verksamhet. |
-| [!UICONTROL City] | Ort där företaget är registrerat för att bedriva verksamhet. |
-| [!UICONTROL Country] | Det land där företaget är registrerat för att bedriva verksamhet. |
-| [!UICONTROL State/Province] | Den delstat eller provins där företaget är registrerat för att bedriva verksamhet. |
-| [!UICONTROL ZIP/Postal Code] | Postnummer där företaget är registrerat för att bedriva verksamhet. |
-| [!UICONTROL Phone Number] | Företagets primära telefonnummer. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Hierarchy]
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för Beta programdeltagare"}
 
 | Kolumner | Beskrivning |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -306,10 +331,24 @@ Följande kolumner är tillgängliga genom att ändra [kolumnlayouten](../gettin
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Legal Address]
+
+| Kolumner | Beskrivning |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Street Address] | Den gatuadress där företaget är registrerat för att bedriva verksamhet. |
+| [!UICONTROL City] | Ort där företaget är registrerat för att bedriva verksamhet. |
+| [!UICONTROL Country] | Det land där företaget är registrerat för att bedriva verksamhet. |
+| [!UICONTROL State/Province] | Den delstat eller provins där företaget är registrerat för att bedriva verksamhet. |
+| [!UICONTROL ZIP/Postal Code] | Postnummer där företaget är registrerat för att bedriva verksamhet. |
+| [!UICONTROL Phone Number] | Företagets primära telefonnummer. |
+
+{style="table-layout:auto"}
+
 #### [!UICONTROL Company Admin]
 
 | Fält | Beskrivning |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Website] | Ange webbplatsomfånget [för ](../getting-started/websites-stores-views.md) för företagskontot. Standardvärdet är *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | Namnet på den företagsadministratör som hanterar företagskontot. |
 | [!UICONTROL Email] | Företagsadministratörens e-postadress kan vara samma som företagets e-postadress. Om en annan e-postadress anges skapas ett separat individuellt konto för företagsadministratören utöver företagskontot. |
 | [!UICONTROL Prefix] | Om det är tillämpligt, det prefix som är associerat med namnet på företagsadministratören (till exempel `Mr.`, `Ms.`, `Mrs.` eller `Dr.`). Beroende på konfigurationen kan inmatningsfältet vara ett textfält eller en lista. |
@@ -318,6 +357,7 @@ Följande kolumner är tillgängliga genom att ändra [kolumnlayouten](../gettin
 | [!UICONTROL Last Name] | Företagsadministratörens efternamn. |
 | [!UICONTROL Suffix] | Det suffix som är associerat med namnet på företagsadministratören (till exempel `Jr.`, `Sr.` eller `III`), om tillämpligt. Beroende på konfigurationen kan inmatningsfältet vara ett textfält eller en lista. |
 | [!UICONTROL Gender] | Företagsadministratörens kön. Alternativ: `Male` / `Female` / `Not Specified` |
+| [!UICONTROL Send Welcome Email From] | Ange att butiksgranskningen ska användas när välkomstmeddelandet skickas till den nya företagsadministratören om du inte vill använda *[!UICONTROL Default Store View]*. |
 
 {style="table-layout:auto"}
 

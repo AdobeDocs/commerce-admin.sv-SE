@@ -5,9 +5,9 @@ breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: c88e5be54ac4af04302abbb25cc3f7db7b6b2606
+source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '161'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
       + [Definiera företagsstruktur](account-company-structure.md)
 + Företagshantering {#company-management}
    + [Ökning](manage-companies.md)
-   + [Hantera företagshierarki](assign-companies.md)
+   + [Hantera företagshierarki](manage-company-hierarchy.md)
 + Delade kataloger {#shared-catalogs}
    + [Ökning](catalog-shared.md)
    + Definiera delade kataloger {#define}
@@ -56,7 +56,11 @@ ht-degree: 1%
    + [Anbudsförfrågan](quote-request.md)
    + [Initiera offert för en köpare](sales-rep-initiates-quote.md)
    + [Förhandla om en offert](quote-price-negotiation.md)
+   + [Skapa en offertmall](quote-templates.md)
    + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
++ Offertmallar {#templates}
+   + [Använd ärende och arbetsflöde](quote-templates-overview.md)
+   + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + Rekvisitionslistor {#requisition-lists}
    + [Ökning](requisition-lists.md)
    + [Konfigurera listans maxvärde](configure-requisition-lists.md)

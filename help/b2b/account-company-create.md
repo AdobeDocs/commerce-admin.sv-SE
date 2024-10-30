@@ -4,9 +4,9 @@ description: Läs om hur du skapar företagskonton i Adobe Commerce Admin och i 
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Den person som skapar ett företagskonto från butiken tilldelas en roll som [f�
 
 >[!IMPORTANT]
 >
->Om du vill ha stöd för den här metoden (som tillåter kunder att registrera sitt företag från butiken) måste du se till att [B2B-funktionerna](enable-basic-features.md) är konfigurerade så att **[!UICONTROL Allow Company Registration from the Storefront]** är inställd på `Yes`.
+>Kontrollera att [B2B-funktionerna](enable-basic-features.md) är aktiverade om du vill ha stöd för den här metoden (så att kunderna kan registrera sitt företag från butiken).
 
 1. I det övre högra hörnet av butikshuvudet klickar kunden på **[!UICONTROL Create an Account]** och väljer **[!UICONTROL Create New Company Account]**.
 
@@ -29,7 +29,7 @@ Den person som skapar ett företagskonto från butiken tilldelas en roll som [f�
 
    >[!NOTE]
    >
-   >Om en besökare är inloggad på ett registrerat användarkonto kan de skapa ett företagskonto genom att gå till _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**. När företagskontot skapas blir kundens konto den primära kontakten. Annars skapar systemet en kund som får ett e-postmeddelande för att ange ett lösenord.
+   >Om en besökare är inloggad på ett registrerat användarkonto kan de skapa ett företagskonto genom att gå till _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**.
 
 1. I avsnittet _[!UICONTROL Company Information]_gör kunden följande:
 

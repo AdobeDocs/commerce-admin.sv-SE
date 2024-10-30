@@ -3,9 +3,9 @@ title: Introduktion till  [!DNL Adobe Commerce B2B]
 description: Förstå hur du kan använda de integrerade B2B-funktionerna för att tillgodose dina behov för företagskunder.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: 8e4e070f41f7d3bf872e81c9805e7c24779b812d
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -29,8 +29,6 @@ Mer information finns i [Företagskonton](account-companies.md).
 >När det här alternativet är aktiverat kan din butik ge företag möjlighet att _Betala på konto_, vilket innebär att göra inköp på en företagskreditrad. Som handlare kan du allokera kredit för ett företagskonto och hantera kreditinställningar för ett företag samt återbetala kredit.
 
 ## Företagsledning
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för Beta programdeltagare"}
 
 Med företagsledning kan handlaradministratörer effektivisera administration och hantering av B2B-organisationer med komplexa operativa modeller.
 

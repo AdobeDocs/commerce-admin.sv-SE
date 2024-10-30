@@ -3,9 +3,9 @@ title: Förhandlingsbara offerter
 description: Lär dig mer om arbetsflöden för offerter och hur du kan tillhandahålla den här tjänsten till dina företagskonton.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 Köpare och säljare använder offerter för att hantera förhandlingsprocessen för att lägga till beställningar, uppdatera kvantiteter, begära och tillämpa rabatter och så vidare - tills de når en överenskommelse. Offertförhandlingen kan initieras av en auktoriserad företagsköpare eller av en företagssäljare.
 
-Offerter kan initieras av en auktoriserad företagsköpare eller en säljare. När offerten har skapats börjar förhandlingsprocessen när köparen eller säljaren skickar offerten för granskning. Rutnätet _Offerter_ som listar varje mottagen offert och underhåller en historik över kommunikationen mellan köpare och säljare. Använd standardkontrollerna för [arbetsplats](../getting-started/admin-workspace.md) för att filtrera listan, ändra kolumnlayouten, spara vyer och exportera data.
+![Listvy för citattecken i Admin](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}
+
+När offerten har skapats börjar förhandlingsprocessen när köparen eller säljaren skickar offerten för granskning. Rutnätet _Offerter_ som listar varje mottagen offert och underhåller en historik över kommunikationen mellan köpare och säljare. Använd standardkontrollerna för [arbetsplats](../getting-started/admin-workspace.md) för att filtrera listan, ändra kolumnlayouten, spara vyer och exportera data.
 
 - I butiken skickar köparna offerten som en [förfrågan om att förhandla](quote-price-negotiation.md) om priset från kundvagnen. När en köpare skapar en offertförfrågan kan han eller hon spara offerten som ett utkast eller skicka den direkt till säljaren.
 
@@ -35,33 +37,71 @@ Förhandlingsbara offerter är bara tillgängliga om Adobe Commerce har följand
 
 Offerter kan initieras av köparen eller säljaren.
 
-**Steg 1: Skapa offert**
+I det här diagrammet visas offertstatus för en köpare och säljare (Admin) i de olika stegen när du initierar en offert.
+
+![Offerter, statusarbetsflöde](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
+
+**Steg 1: Skapa offert (ny)**
 
 - **Köparen begär offert** - Köparen [begär en offert](quote-request.md) från kundvagnen. Begäran visas i listan _Mina offerter_ på kontouppsättningen för köparen och e-postmeddelanden skickas till säljaren som är tilldelad företagskontot. I Admin visas begäran i rutnätet _Quotes_ med statusen `New`. Köparen kan ändra en anbudsförfrågan tills den öppnas av säljaren.
 
   ![Citattecken](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
 
-
 - **Försäljningsrepresentant** - En säljare kan [skapa en offert](sales-rep-initiates-quote.md) från administratören för en specifik företagsköpare. Säljaren måste uppdatera offerten för att kunna lägga till produkter och annan information som rabatter och anteckningar till köparen. Försäljningsrepresentationen kan spara offerten som `draft` eller skicka den till köparen för att påbörja förhandlingen. I utkastläge är offerten bara synlig för säljaren. När offerten har skickats är statusen `Submitted`. Den kan inte ändras av säljaren förrän köparen skickar tillbaka den.
 
   ![Säljare som initierar en inköpsoffert från rastret Offerter i administratören](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
+**Steg 2: Offertgranskning och förhandling (granskning)**
 
-**Steg 2: Offertgranskning och förhandling**
+Granskning eller förhandling av en offert kan omfatta ändrade kvantiteter, borttagning av artiklar, tillägg av radartikelkommentarer, användning av radobjekt- eller offertrabatter (säljare) och tillägg av en leveransadress (köpare).
 
-**Säljaren visar förfrågan och skickar svar** - I administratören ser säljaren anbudsförfrågan. Statusen för offerten ändras till `Pending` och köparen kan inte göra några ändringar. [säljaren svarar](quote-price-negotiation.md) genom att erbjuda rabatterade priser för produkterna i offerten, anger en kommentar och skickar offerten tillbaka till köparen. Köparen och säljaren meddelas via e-post att säljaren har svarat.
+- **Säljaren visar förfrågan och skickar svar** - I administratören ser säljaren anbudsförfrågan. I butiken ändras offertens status till `Pending` och köparen kan inte göra några ändringar. [säljaren svarar](quote-price-negotiation.md) genom att erbjuda prisrabatter och justera kvantiteter och artiklar efter behov, anger en kommentar och skickar offerten tillbaka till köparen. Köparen och säljaren meddelas via e-post att säljaren har svarat.
 
-**Köparen visar offert från säljaren och skickar svar** - Köparen klickar på länken i e-postmeddelandet för att öppna offerten eller öppnar offerten från sidan _Mina offerter_ på kontonamanelen. Köparen kan lämna noteringar till säljaren på radobjekt- eller offertnivå och ta bort artiklar.
+- **Köparen visar offert från säljaren och skickar svar** - Köparen klickar på länken i e-postmeddelandet för att öppna offerten eller öppnar offerten från sidan _Mina offerter_ på kontonamanelen. Köparen kan lämna noteringar till säljaren på rad- eller offertnivå, ändra kvantiteter och ta bort artiklar.
 
 Köparen och säljaren kan fortsätta förhandlingsprocessen tills ett avtal nås eller säljaren avvisar offerten. Om köparen gör ändringar i offerten - lägger till eller tar bort produkter eller ändrar produktkvantiteter - måste offerten skickas tillbaka till säljaren för granskning.
 
-**Steg 4: Köparen accepterar offert** - Köparen accepterar det föreslagna priset och fortsätter att checka ut. Det går inte att lägga till ytterligare rabatter i det förhandlade offerten.
+- **Köparen lägger till en leveransadress** - Köparen kan lägga till en leveransadress i offerten. När köparen har lagt till adressen kan säljaren tillhandahålla alternativ för frakt och leverans. Vilka leveransmetoder som visas beror på konfigurationen för Storefront.
+
+Om köparen lägger till en leveransadress, måste förhandlingsavtalet granskas och säljaren kan fortsätta förhandlingsprocessen tills ett avtal nås eller säljaren avvisar offerten.
+
+**Steg 3: Köparen accepterar offert (utcheckning)**
+
+Köparen godtar det föreslagna priset och fortsätter till kassan. Det går inte att lägga till ytterligare rabatter i det förhandlade offerten.
+
+Leveransalternativen är låsta vid utcheckning.
+
+## Offertstatus
+
+Offertstatus ger information om det aktuella läget för offerten i offertarbetsflödet. Statusen för en offert ändras bara när en köpare eller säljare utför en åtgärd på offerten. Statusen ändras till exempel till en beställning om en köpare väljer [!UICONTROL Proceed to Checkout] för en aktiv offert.
+
+- *[!UICONTROL New]** - Köparen skickade en anbudsförfrågan, men den har inte visats av säljaren. Förfrågan kan uppdateras av köparen tills den öppnas av säljaren.
+
+- **[!UICONTROL Draft]** - Säljaren skapar ett utkast till offert för en köpare. Offerten visas inte för köparen förrän säljaren lägger till erbjudandeinformationen (artiklar, kvantitet, rabatt och så vidare) och skickar offerten till köparen.
+
+- **[!UICONTROL Open]** - Säljaren öppnade förfrågan och håller på att granska den och förbereda ett svar
+
+- **[!UICONTROL Submitted]** - Säljaren skickade ett svar till köparen. Det går inte att redigera offertposten under förhandlingsprocessen.
+
+- **[!UICONTROL Client Reviewed]** - Köparen visade säljarens svar och håller på att förbereda ett svar.
+
+- **[!UICONTROL Updated]** - Köparen skickade ett svar, men den har inte visats av säljaren.
+
+- **[!UICONTROL Ordered]** - Köparen skickade ordern baserat på det förhandlade offerten.
+
+- **[!UICONTROL Closed]** - Köparen avbröt offertförfrågan.
+
+- **[!UICONTROL Declined]** - Säljaren avvisade anbudsförfrågan. Alla anpassade priser tas bort från offerten och posten låses för ytterligare redigeringar.
+
+- **[!UICONTROL Expired]** - Köparen svarade inte på säljarens svar inom den angivna tidsperioden och offerten är inte längre giltig.
 
 ## B2B-rollresurser för butiksofferter
 
 Konfigurationsalternativen för offerter styrs med [rollresurserna](../systems/permissions-user-roles.md#role-resources). Dessa rollresurser måste anges för den administratörsanvändarroll som tilldelas butiksadministratören.
 
 Om du vill ge åtkomst till offertfunktioner i Admin går du till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**, markerar rollen och navigerar till [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] i trädet_ Rollresurser _.
+
+![Offertar roller och behörigheter](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
 
 ## Använda en åtgärd
 
@@ -107,48 +147,3 @@ Endast offertförfrågningar med statusen `Open` kan avvisas.
 1. Ange anledningen till att offerten avvisades när du uppmanas till detta och klicka på **[!UICONTROL Confirm]**.
 
    ![Avböj offert?](./assets/quote-decline-confirm.png){width="400"}
-
-
-## Kolumnbeskrivningar
-
-| Kolumn | Beskrivning |
-|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Select] | Markera kryssrutan eller använd markeringskontrollen i kolumnrubriken för att välja de citattecken som ska bli en åtgärd. Alternativ: Markera allt/Avmarkera allt |
-| [!UICONTROL ID] | En unik numerisk identifierare som tilldelas när en anbudsförfrågan skickas från en köpares kundvagn. När du visar offertinformationen visas ID:t högst upp på sidan i stället för offertnamnet. |
-| [!UICONTROL Name] | Namnet som tilldelats en offertförfrågan av köparen. |
-| [!UICONTROL Created Date] | Datum och tid då köparen först skickade anbudsförfrågan. |
-| [!UICONTROL Company] | Namnet på det företag för vilket en köpare lämnar en anbudsförfrågan. |
-| [!UICONTROL Submitted By] | Förnamn och efternamn på den företagsköpare som skickar en anbudsförfrågan. |
-| [!UICONTROL Last Updated] | Datum och tid för den senaste kommunikationen mellan köpare och säljare om offerten. |
-| [!UICONTROL Sales Rep] | Förnamn och efternamn på säljaren som hanterar köparens konto. |
-| [!UICONTROL Quote Total (Base)] | Det totala priset på produkter som ska köpas baserat på den ursprungliga offerten. Det totala beloppet visas i webbplatsens basvaluta och i butikens valuta. |
-| [!UICONTROL Quote Total (Negotiated)] | Det totala priset på produkter som ska köpas baserat på den förhandlade offerten. Summan beräknas automatiskt av systemet och inkluderar alla radobjekt- eller offertnivårabatter som säljaren tillämpar. Det totala beloppet visas i webbplatsens basvaluta och i butikens valuta. |
-| [!UICONTROL Status] | Anger det aktuella tillståndet för en offertförfrågan. Status för en offert kan bara ändras genom åtgärder från antingen köparen eller säljaren. Se även statusinställningarna från [köparens konto](account-dashboard-my-quotes.md).<ul><li>**[!UICONTROL New]** - Köparen skickade en anbudsförfrågan, men den har inte visats av säljaren. Förfrågan kan uppdateras av köparen tills den öppnas av säljaren.</li><li>**[!UICONTROL Draft]** - Säljaren skapar ett utkast till offert för en köpare. Offerten visas inte för köparen förrän säljaren lägger till erbjudandeinformationen (artiklar, kvantitet, rabatt och så vidare) och skickar offerten till köparen.</li> <li>**[!UICONTROL Open]** - Säljaren öppnade förfrågan och håller på att granska den och förbereda ett svar. </li><li>**[!UICONTROL Submitted]** - Säljaren skickade ett svar till köparen. Det går inte att redigera offertposten under förhandlingsprocessen.</li><li>**[!UICONTROL Client Reviewed]** - Köparen visade säljarens svar och håller på att förbereda ett svar.</li><li>**[!UICONTROL Updated]** - Köparen skickade ett svar, men den har inte visats av säljaren.</li><li>**[!UICONTROL Ordered]** - Köparen skickade ordern baserat på det förhandlade offerten.</li><li>**[!UICONTROL Closed]** - Köparen avbröt offertförfrågan.</li><li>**[!UICONTROL Declined]** - Säljaren avvisade anbudsförfrågan. Alla anpassade priser tas bort från offerten och posten låses för ytterligare redigeringar.</li><li>**[!UICONTROL Expired]** - Köparen svarade inte på säljarens svar inom den angivna tidsperioden och offerten är inte längre giltig.</li></ul> |
-| [!UICONTROL Actions] | **[!UICONTROL View]** - Öppnar anbudsförfrågan och sparar en post för förhandlingen mellan köpare och säljare. |
-
-{style="table-layout:auto"}
-
-## Knappfält
-
-| Knapp | Beskrivning |
-|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Send] | Skickar den uppdaterade offerten som ett svar på köparens fråga. Den här knappen är inaktiverad om säljaren väntar på ett svar från köparen. |
-| [!UICONTROL Back] | Återgår till sidan _Citattecken_ utan att spara ändringarna. |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0-beta-funktioner]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Endast tillgängligt för Beta-programdeltagare&quot;} Skapa en ny offert från den aktuella offerten genom att kopiera och byta namn på den. När den nya offerten öppnas är standardnamnet `<original quote name> (copy)`. Ändra namnet genom att redigera värdet i fältet [!UICONTROL Name] och spara citattecknet som ett utkast. |
-| [!UICONTROL Print] | Skickar offerten till en skrivare eller sparar den som en PDF-fil. |
-| [!UICONTROL Create a copy] | Skapar en kopia av offerten med namnet `<original quote name> (copy)` och öppnar den. Byt namn på och uppdatera den nya offerten efter behov innan du sparar den som ett utkast eller skickar den till köparen. |
-| [!UICONTROL Save as Draft] | Sparar ändringar som gjorts i offerten, men skickar den inte tillbaka till köparen. |
-| [!UICONTROL Decline] | Avböjer begäran om att förhandla om priser, antingen på den inledande undersökningen eller under pågående förhandlingar. När en offert avvisas bör säljaren lägga till en kommentar som förklarar beslutet. När en offert avvisas återställs alla förhandlade priser till ursprungsvärdena. Den här knappen är inaktiverad medan säljaren väntar på ett svar från köparen. |
-
-{style="table-layout:auto"}
-
-## Exempel på citat
-
-I följande bild visas ett exempel på offertdetaljvyn i Admin med vissa inställningar konfigurerade.
-
-![Exempelcitat](./assets/quote-full.png){width="700" zoomable="yes"}
-
-
->[!NOTE]
->
->[!BADGE 1.5.0-beta-funktioner]{type=Informative url="/help/b2b/release-notes.md" tooltip="Endast tillgängligt för Beta programdeltagare"}
