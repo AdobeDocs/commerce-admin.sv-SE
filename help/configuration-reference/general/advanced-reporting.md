@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Advanced Reporting]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL Advanced Reporting] i Commerce Admin.
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_är en molnbaserad tjänst som drivs av [Adobe Commerce Intelligence][1]{:target=&quot;_blank&quot;}. Mer information finns i [Avancerad rapportering][2]{:target=&quot;_blank&quot;} i_ Starthandboken _.
+_[!DNL Advanced Reporting]_är en molnbaserad tjänst som drivs av [Adobe Commerce Intelligence][1]{:target="_blank"}. Mer information finns i [Avancerad rapportering][2]{:target="_blank"} i_ Starthandboken _.
 
 ![Avancerad rapportering](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://docs.magento.com/user-guide/reports/advanced-reporting.html) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

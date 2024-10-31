@@ -4,7 +4,7 @@ description: Granska konfigurationsinställningarna på sidan [!UICONTROL Advanc
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -268,7 +268,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Schemalagd i
 
 ![Avancerad konfiguration - konfiguration för bildöverföring](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://docs.magento.com/user-guide/system/action-log-bulk-actions.html) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

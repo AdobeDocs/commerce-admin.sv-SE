@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL Web] i Commerce Admin.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Webb > Allmänna alternativ](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Fält | Omfång | Beskrivning |
 |  ---  |  ---  |  ---  |
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![Webb > Sökmotoroptimering](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://docs.magento.com/user-guide/marketing/url-rewrite.html) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![Webb > Bas-URL:er](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![Webb > Bas-URL:er (säker)](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -79,12 +79,12 @@ ht-degree: 0%
 
 ![Webb > Standardsidor](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://docs.magento.com/user-guide/cms/pages-default.html) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Default Web URL] | Butiksvy | Anger landningssidan som är associerad med bas-URL:en. Standardinställningen är &quot;cms&quot; för att ange en sida från Commerce CMS (Content Management System). Du kan också använda en annan typ av landningssida, till exempel en blogg. Om till exempel en blogg är installerad på servern på `magento/blog` kan du ange namnet på bloggmappen som en relativ sökväg till urvalet av sidor. |
-| [!UICONTROL CMS Home Page] | Butiksvy | Om du vill välja butikens hemsida väljer du bara CMS-sidan i listan. Som standard visas hela urvalet av CMS-sidor som är tillgängliga för din butik på CMS-startsidan. |
+| [!UICONTROL Default Web URL] | Butiksvy | Anger landningssidan som är associerad med bas-URL:en. Standardinställningen är &quot;cms&quot; för att ange en sida från Commerce Content Management System (CMS). Du kan också använda en annan typ av landningssida, till exempel en blogg. Om till exempel en blogg är installerad på servern på `magento/blog` kan du ange namnet på bloggmappen som en relativ sökväg till urvalet av sidor. |
+| [!UICONTROL CMS Home Page] | Butiksvy | Om du vill välja butikens hemsida väljer du CMS-sidan i listan. Som standard visas hela urvalet av CMS-sidor som är tillgängliga för din butik på CMS hemsida. |
 | [!UICONTROL Default No-route URL] | Butiksvy | Innehåller URL-adressen till den standardsida som du vill ska visas när ett `404 Page not Found`-fel inträffar. Standardvärdet är `cms/noroute/index`. |
 | [!UICONTROL CMS No Route Page] | Butiksvy | Identifierar en specifik CMS-sida som du vill ska visas när ett fel av typen 404 Sidan hittades inte inträffar. Standardsidan är 404 Hittades inte. |
 | [!UICONTROL CMS No Cookies Page] | Butiksvy | Identifierar en specifik CMS-sida som visas när cookies inte är aktiverade för webbläsaren. På sidan förklaras varför cookies används och hur du aktiverar dem för varje webbläsare. Standardsidan är Aktivera cookies. |
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ![Standardlayouter](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://docs.magento.com/user-guide/design/page-layout.html) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Default Product Layout] | Global | Bestämmer [layouten](../../content-design/page-layout.md) som används som standard för produktsidor. Alternativ: <br/>**`No layout updates`**- Som standard är layoutuppdateringar inte tillgängliga för produktsidor.<br/>**`Empty`** - Som standard används en tom layout för produktsidor. <br/>**`1 column`**- I används som standard en enda kolumnlayout för produktsidor.<br/>**`2 columns with left bar`** - I används som standard en layout med två kolumner och sidofältet till vänster för produktsidor. <br/>**`2 columns with right bar`**- I används som standard en layout med två kolumner och sidofältet till höger för produktsidor.<br/>**`3 columns`** - Som standard används en layout med tre kolumner och sidofält till vänster och höger för produktsidor.<br/>**`Page -- Full Width`**- (Kräver [!DNL Page Builder]) Layouten Sida - Full bredd används som standard för produktsidor.<br/>**`Category - Full Width`** - (Kräver [!DNL Page Builder]) I används som standard layouten Kategori - full bredd för produktsidor. <br/>**`Product - Full Width`**- (Kräver [!DNL Page Builder]) I används som standard layouten Produkt - Full bredd för produktsidor. |
 | [!UICONTROL Default Category Layout] | Global | Bestämmer [layouten](../../content-design/page-layout.md) som används som standard för kategorisidor. Alternativ: <br/>**`No layout updates`**- Som standard är layoutuppdateringar inte tillgängliga för kategorisidor.<br/>**`Empty`** - Som standard används en tom layout för kategorisidor. <br/>**`1 column`**- Som standard används en enda kolumnlayout för kategorisidor.<br/>**`2 columns with left bar`** - Som standard används en layout med två kolumner och sidofältet till vänster för kategorisidor. <br/>**`2 columns with right bar`**- Som standard används en layout med två kolumner och sidofältet till höger för kategorisidor.<br/>**`3 columns`** - I används som standard en layout med tre kolumner och sidofält till vänster och höger för kategorisidor.<br/>**`Page - Full Width`**- (Kräver [!DNL Page Builder]) Layouten Sida - Full bredd används som standard för kategorisidor.<br/>**`Category - Full Width`** - (Kräver [!DNL Page Builder]) Som standard används layouten Kategori - full bredd för kategorisidor. <br/>**`Product - Full Width`**- (Kräver [!DNL Page Builder]) Som standard används layouten Produkt - Full bredd för kategorisidor. |
-| Standardsidlayout | Global | Bestämmer [layouten](../../content-design/page-layout.md) som används som standard för CMS-sidor. Alternativ: <br/>**`No layout updates`**- Som standard är layoutuppdateringar inte tillgängliga för CMS-sidor.<br/>**`Empty`** - Som standard används en tom layout för CMS-sidor. <br/>**`1 column`**- I används som standard en enda kolumnlayout för CMS-sidor.<br/>**`2 columns with left bar`** - I används som standard en layout med två kolumner och sidofältet till vänster för CMS-sidor.<br/>**`2 columns with right bar`**- I används som standard en layout med två kolumner och sidofältet till höger för CMS-sidor.<br/>**`3 columns`** - I används som standard en layout med tre kolumner och sidofält till vänster och höger för CMS-sidor.<br/>**`Page - Full Width`**- (Kräver [!UICONTROL Page Builder]) Layouten Sida - Full bredd används som standard för CMS-sidor.<br/>**`Category - Full Width`** - (Kräver [!UICONTROL Page Builder]) I används som standard layouten Kategori - full bredd för CMS-sidor. <br/>**`Product - Full Width`**- (Kräver [!DNL Page Builder]) I används som standard layouten Produkt - Full bredd för CMS-sidor. |
+| Standardsidlayout | Global | Bestämmer [layouten](../../content-design/page-layout.md) som används som standard för CMS-sidor. Alternativ: <br/>**`No layout updates`**- Som standard är layoutuppdateringar inte tillgängliga för CMS-sidor.<br/>**`Empty`** - Som standard används en tom layout för CMS-sidor. <br/>**`1 column`**- Som standard används en enda kolumnlayout för CMS-sidor.<br/>**`2 columns with left bar`** - I används som standard en layout med två kolumner och sidofältet till vänster för CMS-sidor.<br/>**`2 columns with right bar`**- I används som standard en layout med två kolumner och sidofältet till höger för CMS-sidor.<br/>**`3 columns`** - Som standard används en layout med tre kolumner och sidofält till vänster och höger för CMS-sidor.<br/>**`Page - Full Width`**- (Kräver [!UICONTROL Page Builder]) Layouten Sida - Full bredd används som standard för CMS-sidor.<br/>**`Category - Full Width`** - (Kräver [!UICONTROL Page Builder]) Som standard används layouten Kategori - full bredd för CMS-sidor. <br/>**`Product - Full Width`**- (Kräver [!DNL Page Builder]) I används som standard layouten Produkt - Full bredd för CMS-sidor. |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Webb > Standardinställningar för cookie](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://docs.magento.com/user-guide/stores/compliance-cookie-law.html) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![Webb > Sessionsvalidering](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://docs.magento.com/user-guide/stores/security-session-validation.html) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -141,11 +141,11 @@ ht-degree: 0%
 
 ![Webb > Identifiering av webbläsarfunktioner](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://docs.magento.com/user-guide/stores/security-browser-capabilities-detection.html) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Redirect to CMS-page if Cookies are Disabled] | Butiksvy | Om cookies är inaktiverade i webbläsaren dirigeras de automatiskt om till CMS-sidan Inga cookies. Alternativ: `Yes` / `No` |
+| [!UICONTROL Redirect to CMS-page if Cookies are Disabled] | Butiksvy | Om cookies är inaktiverade i webbläsaren dirigeras de automatiskt om till CMS No Cookies Page. Alternativ: `Yes` / `No` |
 | [!UICONTROL Show Notice if JavaScript is Disabled] | Butiksvy | Om JavaScript är inaktiverat i webbläsaren visas ett meddelande som uppmanar användaren att aktivera JavaScript-alternativ: `Yes` / `No` (inaktiveras) |
 | [!UICONTROL Show Notice if Local Storage is Disabled] | Butiksvy | Visar ett meddelande om den lokala cachen är inaktiverad. Alternativ: `Yes` / `No` |
 

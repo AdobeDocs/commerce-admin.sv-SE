@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Customers] &gt; [!UICONTROL Invitations] i Commerce Admin.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![Allmänt](./assets/invitations-general.png)<!-- zoom -->
 
-<!-- [General](https://docs.magento.com/user-guide/marketing/invitations-configure.html) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ![E-post](./assets/invitations-email.png)<!-- zoom -->
 
-<!-- [Email](https://docs.magento.com/user-guide/marketing/invitations-configure.html) -->
+<!-- [Email](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Google API] i Commerce Admin.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 | ----- | ------------------------------------------ | ----------- |
@@ -54,7 +54,7 @@ När **[!UICONTROL Account Type]** är inställt på `Google Tag Manager` visas 
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://docs.magento.com/user-guide/marketing/google-adwords.html) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 | ----- | ------------------------------------------ | ----------- |
@@ -78,7 +78,7 @@ När **[!UICONTROL Account Type]** är inställt på `Google Tag Manager` visas 
 
 ![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 | ----- | ------------------------------------------ | ----------- |
@@ -114,7 +114,7 @@ När **[!UICONTROL Account Type]** är inställt på `Google Tag Manager` visas 
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://docs.magento.com/user-guide/marketing/google-adwords.html) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 | ----- | ------------------------------------------ | ----------- |

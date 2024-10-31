@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] i Commerce Admin.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![Belöningspunkter](./assets/reward-points-reward-points.png)<!-- zoom -->
 
-<!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Reward Points](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Calculation] | Webbplats | Bestämmer vilken metod som används för att bestämma när belöningspunkter förfaller. Alternativ: <br/>**`Static`**- Fastställer den återstående livstiden för belöningspunkter baserat på antalet dagar som angetts i konfigurationen. Om utgångsgränsen i konfigurationen ändras ändras inte utgångsdatumet för befintliga punkter.<br/>**`Dynamic`** - Beräknar antalet dagar som återstår när belöningspunktssaldot ökar. Om utgångsgränsen i konfigurationen ändras uppdateras förfalloberäkningarna för alla befintliga punkter. |
 | [!UICONTROL Refund Reward Points Automatically] | Global | Avgör om tillgängliga belöningspoäng återbetalas automatiskt. Alternativ: `Yes` / `No` |
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Detta avgör om belöningspoäng som intjänats genom inköp annulleras helt eller delvis vid orderåterbetalning, när den här funktionen är aktiverad. Endast belöningspoäng från den order som de har fått påverkas när den ordern återbetalas. Alternativ: `Yes` / `No`. |
-| [!UICONTROL Landing Page] | Butiksvy | Anger CMS-sidan som förklarar belöningspoängprogrammet. En länk till standardsidan för belöningar visas på de platser i din butik där poäng kan erhållas. |
+| [!UICONTROL Landing Page] | Butiksvy | Anger den CMS-sida som förklarar belöningspoängprogrammet. En länk till standardsidan för belöningar visas på de platser i din butik där poäng kan erhållas. |
 
 {style="table-layout:auto"}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![Åtgärder för att hämta belöningspoäng av kunder](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
-<!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ![Inställningar för e-postavisering](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
-<!-- [Email Notification Settings](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Email Notification Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

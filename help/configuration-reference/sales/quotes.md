@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Quotes] i Commerce Admin.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 {{config}}
 
-<!-- [Quotes](https://docs.magento.com/user-guide/sales/quotes.html) -->
+<!-- [Quotes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/quotes) -->
 
 ## [!UICONTROL General]
 

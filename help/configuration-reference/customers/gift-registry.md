@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Gift Registry]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Customers] &gt; [!UICONTROL Gift Registry] i Commerce Admin.
 exl-id: c5153c4e-897a-41d2-bde1-8483855d1a37
 feature: Configuration, Gift
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Mer information om hur du använder dessa inställningar för att aktivera prese
 
 ![Allmänna alternativ](./assets/gift-registry-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://docs.magento.com/user-guide/marketing/gift-registry-configure.html) -->
+<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -35,7 +35,7 @@ Mer information om hur du använder dessa inställningar för att aktivera prese
 
 ![Ägarmeddelande](./assets/gift-registry-owner-notification.png)<!-- zoom -->
 
-<!-- [Owner Notification](https://docs.magento.com/user-guide/marketing/gift-registry-configure.html) -->
+<!-- [Owner Notification](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -48,7 +48,7 @@ Mer information om hur du använder dessa inställningar för att aktivera prese
 
 ![Presentregisterdelning](./assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
 
-<!-- Gift Registry Sharing](https://docs.magento.com/user-guide/marketing/gift-registry-configure.html) -->
+<!-- Gift Registry Sharing](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -62,7 +62,7 @@ Mer information om hur du använder dessa inställningar för att aktivera prese
 
 ![Presentregisteruppdatering](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
 
-<!-- [Gift Registry Update](https://docs.magento.com/user-guide/marketing/gift-registry-configure.html) -->
+<!-- [Gift Registry Update](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

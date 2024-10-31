@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] i Commerce Admin.
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ![Allmänt](./assets/requisition-lists-general.png)<!-- zoom -->
 
-<!-- General](https://docs.magento.com/user-guide/stores/b2b-configure-requisition-lists.html) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

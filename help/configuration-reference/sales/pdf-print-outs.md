@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] i Commerce Admin.
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{config}}
 
-<!-- [Invoice](https://docs.magento.com/user-guide/marketing/sales-documents-ref-id.html) -->
+<!-- [Invoice](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 ## [!UICONTROL Invoice]
 

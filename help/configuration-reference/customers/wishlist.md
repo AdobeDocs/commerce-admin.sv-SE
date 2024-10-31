@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Customers] &gt; [!UICONTROL Wish List] i Commerce Admin.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Allmänna alternativ](./assets/wishlist-general-options.png)<!-- zoom -->
 
-<!--[General Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
+<!--[General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ![Delningsalternativ](./assets/wishlist-share-options.png)<!-- zoom -->
 
-<!-- [Share Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
+<!-- [Share Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ![Länk till Min önskelista](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
-<!--[My Wish List Link](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
+<!--[My Wish List Link](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

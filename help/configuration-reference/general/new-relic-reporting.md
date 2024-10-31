@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL New Relic Reporting]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL New Relic Reporting] i Commerce Admin.
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
 feature: Configuration, System, Reporting
-source-git-commit: 1aec5c618d1f3f7f083523956d2aee62b777faca
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![Allmänt](./assets/new-relic-reporting-general.png)<!-- zoom -->
 
-<!-- [General](https://docs.magento.com/user-guide/reports/new-relic-reporting.html) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![Kron](./assets/new-relic-reporting-cron.png)<!-- zoom -->
 
-<!-- Cron](https://docs.magento.com/user-guide/system/cron.html) -->
+<!-- Cron](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

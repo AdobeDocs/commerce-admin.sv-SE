@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] i Commerce Admin.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Affärsplats](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://docs.magento.com/user-guide/payment/merchant-location.html) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ Följande betalningslösningar rekommenderas som ett enkelt sätt för handlare 
 
 >[!NOTE]
 >
->Vissa betalningsintegreringar och paketerade tillägg har tagits bort i version 2.4.x och flyttats till Commerce Marketplace. Du hittar de senaste officiella tilläggen för betalningsintegrering i [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
+>Vissa betalningsintegreringar och paketerade tillägg har tagits bort i version 2.4.x och flyttats till Commerce Marketplace. Du hittar de senaste officiella tilläggen för betalningsintegrering i [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
 ><br/>
 >**Amazon Pay** och **Klarna**: Adobe Commerce och Magento Open Source version 2.4.0 till 2.4.3 innehåller dessa tillägg som utvecklats av återförsäljare. Från och med version 2.4.4 ingår inte längre dessa tillägg i kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
 ><br/>
 >Om du har aktiverat och konfigurerat något av de här paketerade tilläggen måste du uppdatera din `composer.json`-fil som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _uppgraderingshandboken_.<br/>
 ><br/>
->**Worldplay**, **Eway**, **CyberSource** och **Authorize.Net**: Mer information om hur du gör en säker övergång från dessa betalningsintegreringar finns i [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}.
+>**Worldplay**, **Eway**, **CyberSource** och **Authorize.Net**: Mer information om hur du gör en säker övergång från dessa betalningsintegreringar finns i [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Andra PayPal-metoder
 
@@ -71,7 +71,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 
 ![Kontrollera/Pengar beställ](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://docs.magento.com/user-guide/payment/check-money-order.html) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -92,7 +92,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 
 ![Banköverföringsbetalning](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 
 ![Betalning på konto](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
