@@ -3,9 +3,9 @@ title: Lagringsplats
 description: Lär dig hur du lokaliserar en butik eller butiksvy.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Den mesta texten som verkar vara hårdkodad på sidor i butiken kan omedelbart ändras till ett annat språk genom att vyns språkområde ändras. När du ändrar språkområdet översätts inte ordet för ord, utan bara en annan översättningstabell som innehåller gränssnittstexten som används i hela butiken. Den text som kan ändras är navigeringsrubriker, etiketter, knappar och länkar som _Min kundvagn_ och _Mitt konto_. Du kan också använda verktyget [Textbunden översättning](../configuration-reference/advanced/developer.md) för att redigera text i gränssnittet.
 
-Språkpaket finns under [Översättningar och lokalisering][1]{:target=&quot;_blank&quot;} på Commerce Marketplace. Nya tillägg läggs kontinuerligt till på Marketplace, så kom tillbaka ofta.
+Språkpaket finns under [Översättningar och lokalisering][1]{:target="_blank"} på Commerce Marketplace. Nya tillägg läggs kontinuerligt till på Marketplace, så kom tillbaka ofta.
 
 ## Steg 1: Installera ett språkpaket
 
@@ -46,11 +46,9 @@ Följ standardinstruktionerna för att installera språkpakettillägget. Mer inf
 
 1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. I det övre vänstra hörnet anger du **[!UICONTROL Store View]** till den specifika vyn där konfigurationen ska användas.
+1. I listrutan **[!UICONTROL Scope]** väljer du den butiksvy som ska konfigureras och klickar på **[!UICONTROL OK]** när du uppmanas till detta.
 
-1. När du uppmanas att bekräfta omfångsväxling klickar du på **[!UICONTROL OK]**.
-
-1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Locale Options]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Locale Options]** på konfigurationssidan *[!UICONTROL General]*.
 
 1. Avmarkera kryssrutan **[!UICONTROL Use Website]** och ställ in **[!UICONTROL Locale]** på det språk som du vill tilldela vyn.
 
