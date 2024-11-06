@@ -4,9 +4,9 @@ description: Läs om hur du skapar företagskonton i Adobe Commerce Admin och i 
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
+source-git-commit: 5312aa3f483399ecc4e9491b39f8300d8616e9e5
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,7 @@ Den person som skapar ett företagskonto från butiken tilldelas en roll som [f�
    - Fyller i följande fält om du vill:
 
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
 
    ![Företagsadministratör](./assets/company-administrator-account-storefront.png)
@@ -142,6 +143,7 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 
       - **[!UICONTROL Website]**
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
       - **[!UICONTROL Send Welcome Email From]**
 
@@ -265,6 +267,7 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Anger webbplatsen som företagsadministratören tillhör. |
 | [!UICONTROL Job Title] | Namnet på den företagsadministratör som hanterar företagskontot. |
+| [!UICONTROL Work Phone Number] | Telefonnumret till den företagsadministratör som hanterar företagskontot. |
 | [!UICONTROL Email] | Företagsadministratörens e-postadress kan vara samma som företagets e-postadress. Om en annan e-postadress anges skapas ett separat individuellt konto för företagsadministratören, utöver företagskontot. |
 | [!UICONTROL Prefix] | Om det är tillämpligt, det prefix som är associerat med namnet på företagsadministratören (till exempel `Mr.`, `Ms.`, `Mrs.` eller `Dr.`). Beroende på konfigurationen kan inmatningsfältet vara ett textfält eller en lista. |
 | [!UICONTROL First Name] | Företagsadministratörens förnamn. |

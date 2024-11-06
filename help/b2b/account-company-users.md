@@ -4,9 +4,9 @@ description: Lär dig mer om företagsanvändarkonton och hur de fungerar i det 
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
-source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
+source-git-commit: 9c16d7a3909598328cc42bbcbf39fc14ae6a9eb9
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Företagsanvändare kan bara läggas till, redigeras, inaktiveras eller tas bort
    - Lägger till användarinformationen i de återstående fälten:
       - **[!UICONTROL First Name]** och **[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
-      - **[!UICONTROL Phone Number]**
+      - **[!UICONTROL Work Phone Number]**
 
    Som standard är **[!UICONTROL Status]** för kontot `Active`.
 
@@ -103,7 +103,7 @@ Företagsadministratörer kan uppdatera information om användarkontoprofilen oc
 
 >[!NOTE]
 >
->Om du redigerar ett företagsanvändarkonto och märker att profilen saknar nödvändig kontoinformation, t.ex. jobbtitel och telefonnummer, anger det att kontot har lagts till av en Commerce webbplatsadministratör. Dessa konton kan inte redigeras från butiken. Kontakta webbplatsadministratören om du vill uppdatera information eller ändra kontots status.
+>Om du redigerar ett företagsanvändarkonto och märker att profilen saknar nödvändig kontoinformation, t.ex. jobbtitel och telefonnummer till arbetet, anger det att kontot har lagts till av en Commerce webbplatsadministratör. Dessa konton kan inte redigeras från butiken. Kontakta webbplatsadministratören om du vill uppdatera information eller ändra kontots status.
 
 ### Inaktivera eller ta bort ett aktivt konto
 
@@ -120,13 +120,13 @@ Företagsadministratörer kan uppdatera information om användarkontoprofilen oc
 ## Beskrivningar av profilfält för företagsanvändarkonto
 
 | Fält | Beskrivning |
-|--------------|---------------|
+|--------------------------------|---------------|
 | [!UICONTROL Job Title] | Företagsanvändarens jobbtitel. |
 | [!UICONTROL User Role] | Den [roll](account-company-roles-permissions.md) som tilldelats företagsanvändaren. Alternativ: `Default User` / (andra roller) |
 | [!UICONTROL First Name] | Företagsanvändarens förnamn. |
 | [!UICONTROL Last Name] | Företagsanvändarens efternamn. |
 | [!UICONTROL Email] | Företagsanvändarens e-postadress. |
-| [!UICONTROL Phone Number] | Företagsanvändarens telefonnummer. |
+| [!UICONTROL Work Phone Number] | Företagsanvändarens telefonnummer till arbetet. |
 | [!UICONTROL Status] | Status för företagsanvändarkontot. Alternativ: `Active` / `Inactive` |
 
 {style="table-layout:auto"}
