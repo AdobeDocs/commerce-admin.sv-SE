@@ -3,9 +3,9 @@ title: Hantera företagskonton
 description: Lär dig hur du hanterar företagskonton för din Adobe Commerce-butik med hjälp av företagssidan och verktygen i rutnätet.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
+source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
 workflow-type: tm+mt
-source-wordcount: '2706'
+source-wordcount: '2726'
 ht-degree: 0%
 
 ---
@@ -256,6 +256,7 @@ I följande avsnitt finns en referens för de tillgängliga åtgärderna, altern
 | [!UICONTROL Outstanding Balance] | Det utestående saldot på företagskontot. kolumnen är tom om företaget inte har någon kredithistorik och dess kreditgräns är noll. |
 | [!UICONTROL Company Admin] | Företagsadministratörens för för- och efternamn. |
 | [!UICONTROL Job Title] | Företagsadministratörens jobbtitel. |
+| [!UICONTROL Work Phone Number] | Företagsadministratörens arbetstelefonnummer. |
 | [!UICONTROL Email] | Företagsadministratörens e-postadress. |
 | [!UICONTROL Action] | **[!UICONTROL Edit]** - Öppnar företagskontot i redigeringsläge. |
 
@@ -347,9 +348,10 @@ Följande kolumner är tillgängliga genom att ändra [kolumnlayouten](../gettin
 #### [!UICONTROL Company Admin]
 
 | Fält | Beskrivning |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Ange webbplatsomfånget [för ](../getting-started/websites-stores-views.md) för företagskontot. Standardvärdet är *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | Namnet på den företagsadministratör som hanterar företagskontot. |
+| [!UICONTROL Work Phone Number] | Telefonnumret till den företagsadministratör som hanterar företagskontot. |
 | [!UICONTROL Email] | Företagsadministratörens e-postadress kan vara samma som företagets e-postadress. Om en annan e-postadress anges skapas ett separat individuellt konto för företagsadministratören utöver företagskontot. |
 | [!UICONTROL Prefix] | Om det är tillämpligt, det prefix som är associerat med namnet på företagsadministratören (till exempel `Mr.`, `Ms.`, `Mrs.` eller `Dr.`). Beroende på konfigurationen kan inmatningsfältet vara ett textfält eller en lista. |
 | [!UICONTROL First Name] | Företagsadministratörens förnamn. |
