@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 0690430d3c6ac6a58a2ef98045148de8ad6a4bad
+source-git-commit: 39d49ac4efd4d00f0f8d22bf469126b748c08173
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 maj 2023_
 ![Nytt](../assets/new.svg) - Kontrollpanelen [Real-Time CDP Audiences](#real-time-cdp-audiences-dashboard) har uppdaterats så att den kan sortera, söka efter och filtrera de aktiva målgrupperna i din Adobe Commerce-instans.
 
 +++
+
+### 2.3.1
+
+[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+
+_12 november 2024_
+
+![Korrigera](../assets/fix.svg) - Ett fel har korrigerats vid filtrering av tillgängliga Real-Time CDP-målgrupper att välja bland.
 
 ### 2.3.0
 
