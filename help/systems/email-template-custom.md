@@ -3,16 +3,16 @@ title: Anpassa e-postmallar
 description: Lär dig hur du anpassar e-postmallar för varje webbplats-, butik- eller butiksvy.
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # Anpassa e-postmallar
 
-Commerce innehåller en standardmall för e-post för brödavsnittet i varje meddelande som skickas av systemet. Mallen för brödtextinnehållet kombineras med sidhuvud- och sidfotsmallarna för att skapa det fullständiga meddelandet. Innehållet formateras med HTML och CSS, och kan enkelt redigeras och anpassas genom att [variabler](variables-predefined.md) och [widgetar](../content-design/widgets.md) läggs till. E-postmallar kan anpassas för varje webbplats, butik eller butiksvy. Om du använder anpassade mallar måste du uppdatera [systemkonfigurationen](email-templates.md#configure-email-templates) för att se till att rätt mall används.
+Commerce innehåller en standardmall för e-post för brödavsnittet i varje meddelande som skickas av systemet. Mallen för brödtextinnehållet kombineras med sidhuvud- och sidfotsmallarna för att skapa det fullständiga meddelandet. Innehållet formateras med HTML och CSS, och kan enkelt redigeras och anpassas genom att [variabler](variables-predefined.md) läggs till. E-postmallar kan anpassas för varje webbplats, butik eller butiksvy. Om du använder anpassade mallar måste du uppdatera [systemkonfigurationen](email-templates.md#configure-email-templates) för att se till att rätt mall används. Mer information om hur du kan använda villkorssatser när du anpassar e-postmallen finns i [utvecklardokumentationen](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1).
 
 ![Exempel - välkomstförhandsgranskning av e-post](./assets/email-template-preview.png){width="500" zoomable="yes"}
 

@@ -3,9 +3,9 @@ title: PayPal Payflow Pro
 description: Lär dig hur du konfigurerar PayPal Payflow Pro som en onlinebetalningslösning i din butik.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
@@ -136,8 +136,8 @@ Den här installationsmetoden förutsätter att du har ett befintligt PayPal-kon
 1. Ange en av följande autentiseringsuppgifter som du använder för att logga in på ditt PayPal-handelskonto:
 
    - **[!UICONTROL Partner]** - Ditt PayPal Partner-ID.
-   - **[!UICONTROL User]** - ID:t för en annan användare som är konfigurerad för ditt PayPal-konto.
-   - **[!UICONTROL Vendor]** - Ditt PayPal-användarnamn.
+   - **[!UICONTROL User]** - Om du konfigurerar en eller flera ytterligare användare för kontot är det här värdet ID:t för den användare som har behörighet att bearbeta transaktioner. Om du inte har konfigurerat ytterligare användare har **[!UICONTROL USER]** samma värde som **[!UICONTROL Vendor]**.
+   - **[!UICONTROL Vendor]** - Ditt inloggnings-ID för handlare skapades när du registrerade dig för kontot.
 
 1. Ange **[!UICONTROL Password]** som är associerad med ditt PayPal-konto.
 
