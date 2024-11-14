@@ -3,7 +3,7 @@ title: Egenskaper för kundattribut
 description: Lär dig konfigurera egenskaper för kundattribut.
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Kundattribut tillhandahåller den information som krävs för att stödja bestä
      | Typ | Beskrivning |
      |----|-----------|
      | `Text Field` | Ett textfält med en rad. |
-     | `Text Area` | Ett inmatningsfält med flera rader för att skriva textstycken, som en produktbeskrivning. Du kan använda WYSIWYG-redigeraren för att formatera texten med HTML-taggar, eller ange taggarna direkt i texten. |
+     | `Text Area` | Ett inmatningsfält med flera rader för att skriva textstycken, som en produktbeskrivning. Du kan använda WYSIWYG Editor för att formatera texten med HTML-taggar eller ange taggarna direkt i texten. |
      | `Multiple Line` | Skapar flera textrader för attributet, ungefär som en gatuadress med flera rader. Antalet separata datainmatningsrader kan vara mellan två och 20. Använd `Default Value` för att ange fältets startvärde. |
      | `Date` | Visar ett datumvärde i det önskade datumformatet och tidszonen. Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**Beroende på systemkonfigurationen kan_Admin _-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Visar en nedrullningsbar lista med fördefinierade alternativ för `Yes` och `No`. |
@@ -171,4 +171,4 @@ Kundattribut tillhandahåller den information som krävs för att stödja bestä
 
 Titta på den här videon om du vill se en demonstration av hur du skapar kundattribut:
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)

@@ -2,7 +2,7 @@
 title: Introduktion till butiker och inköpsupplevelser
 description: Lär dig mer om de funktioner som används för att skapa och hantera onlinebutiker och hur kunderna upplever sina inköp.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Kunderna behöver ibland hjälp med att slutföra ett köp. Vissa kunder gillar 
 
 Läs mer om säljarassisterad butik i den här videon:
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## Beställningshantering och -åtgärder
 

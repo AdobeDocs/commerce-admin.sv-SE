@@ -3,7 +3,7 @@ title: Skapa och ta bort kundsegment
 description: Kunderna kan se den återbetalningsinformation som är kopplad till ordern på sin kundkontokontrollpanel.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-source-git-commit: 8d5cd6fa586feb5e44819755245814bff7678d34
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%
@@ -196,4 +196,4 @@ _**[!UICONTROL Matched Customers]rutnät **_
 
 I den här videon visas hur du skapar kundsegment:
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

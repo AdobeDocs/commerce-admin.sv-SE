@@ -3,7 +3,7 @@ title: Beställningsarbetsflöde och -bearbetning
 description: Lär dig mer om orderarbetsflöde, vilken status som gäller i varje steg och hur du flyttar beställningar genom den här processen.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -230,4 +230,4 @@ Gör följande i avsnittet **[!UICONTROL Order Total]**:
 
 Titta på den här videon och läs mer om orderhantering och status:
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

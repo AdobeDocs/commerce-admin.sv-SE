@@ -4,7 +4,7 @@ description: Läs mer om regler för godkännande av inköpsorder och hur föret
 exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
 feature: B2B, Companies, Configuration
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -150,4 +150,4 @@ Om du vill ta bort en befintlig regel för godkännande kan kunden utföra följ
 
 I den här videon får du lära dig mer om godkännanden av inköpsorder:
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)

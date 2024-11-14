@@ -4,7 +4,7 @@ description: Lär dig mer om företagskreditrader, ställa in parametrar och han
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
@@ -119,4 +119,4 @@ Om handlaren annullerar en order som debiterats företagskrediter returneras ord
 
 Läs mer om hur du hanterar företagskrediter i den här filmen:
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)

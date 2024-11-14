@@ -3,7 +3,7 @@ title: Hantera företagskonton
 description: Lär dig hur du hanterar företagskonton för din Adobe Commerce-butik med hjälp av företagssidan och verktygen i rutnätet.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '2726'
 ht-degree: 0%
@@ -208,7 +208,7 @@ Företagsprofilen kan underhållas från butiken av företagsadministratören oc
 
 I den här videon får du lära dig mer om hur du hanterar företagskonton:
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Företagsledning
 

@@ -3,7 +3,7 @@ title: ' [!DNL Media Gallery]'
 description: Använd Mediegalleriet för att ordna och hantera dina mediefiler på servern.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Så här kommer du åt det nya mediegalleriet när du lägger till eller rediger
 
 Titta på den här videon om du vill veta mer om [!DNL Media Gallery]:
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 

@@ -3,7 +3,7 @@ title: Kundgrupper
 description: Använd kundgrupper för att avgöra vilka rabatter som är tillgängliga för kunder som är tilldelade till en grupp och den skatteklass som är associerad med gruppen.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: c2fd228311a4b990be9c1409d2cdd2b5677fe2af
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -110,4 +110,4 @@ Kundgrupper avgör vilka rabatter som är tillgängliga och vilken skatteklass s
 
 Läs om hur du skapar kundgrupper i den här demon:
 
->[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)

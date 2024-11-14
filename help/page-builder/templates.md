@@ -3,7 +3,7 @@ title: '[!DNL Page Builder] mallar'
 description: Lär dig hur du sparar ditt befintliga [!DNL Page Builder] -innehåll som en mall och sedan använder du mallen i ett annat område.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
-source-git-commit: 06c8864e35dc37997bc26720ee9a95aff97f7987
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -91,4 +91,4 @@ Rutnätet _Använd mall_ och sidstödrastret _Mallar_ erbjuder två sätt att fi
 
 I den här videon får du lära dig mer om innehållsmallar i Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)

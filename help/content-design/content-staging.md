@@ -3,7 +3,7 @@ title: Mellanlagring av innehåll
 description: Med Content Staging kan ert affärsteam enkelt skapa, förhandsgranska och schemalägga en mängd olika innehållsuppdateringar för er butik direkt från administratören.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -79,7 +79,7 @@ När en ny schemalagd uppdatering skapas för något av följande objekt skapas 
 
 Titta på den här videon om du vill veta mer om innehållstagning:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## Felsökningsresurser
 

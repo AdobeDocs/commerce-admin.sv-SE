@@ -2,7 +2,7 @@
 title: Innehållsblock
 description: Ett -block kan användas för att visa fast information som text, bilder, inbäddad video och dynamisk information.
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -21,6 +21,6 @@ Du kan skapa anpassade innehållsblock utan att skriva kod och tilldela dem så 
 
 Lär dig mer om statiska och [dynamiska block](dynamic-blocks.md) genom att titta på den här videon:
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

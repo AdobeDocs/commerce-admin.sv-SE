@@ -3,7 +3,7 @@ title: Layout - kolumn
 description: Lär dig mer om innehållstypen Kolumn, som används för att dela upp en sida i flera kolumner på scenen [!DNL Page Builder] .
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Du kan ändra layouten för behållaren [!DNL Columns] genom att dra en kolumn o
 
 I den här videon visas hur behållaren [!DNL Columns] kan användas för att förfina sidlayouterna:
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
 
 ## Kolumnverktygslåda
 

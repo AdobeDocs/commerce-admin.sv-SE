@@ -2,7 +2,7 @@
 title: Lager och källor
 description: Lär dig mer om förhållandet mellan produkter, källor och lager.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -65,4 +65,4 @@ Följande är viktiga alternativ att förstå för [!DNL Inventory Management]:
 
 I den här videon får du lära dig mer om Inventory management källor och resurser:
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

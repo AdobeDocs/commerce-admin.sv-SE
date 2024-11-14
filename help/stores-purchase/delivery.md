@@ -3,9 +3,9 @@ title: Leverans
 description: Läs mer om stöd för olika leveransmetoder och fraktföretag som ni kan erbjuda era kunder.
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Studier visar att butiker som erbjuder kunder ett urval av flera leveransmetoder
 
 >[!NOTE]
 >
->Stödet för [!DNL Magento Shipping] har tagits bort i 2.4.0 på grund av att Temando stängts av. Detaljerad statusinformation och rekommendationer för nya leveransimplementeringar i Commerce finns på sidan [produktinformation](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;}.
+>Stödet för [!DNL Magento Shipping] har tagits bort i 2.4.0 på grund av att Temando stängts av. Detaljerad statusinformation och rekommendationer för nya leveransimplementeringar i Commerce finns på sidan [produktinformation](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} .
 
 ## Grundläggande leveransmetoder
 
@@ -40,4 +40,4 @@ Om du har ett kommersiellt konto med ett eller flera [operatörer](carriers.md) 
 
 I den här videon får du lära dig mer om leveranssätt:
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)
