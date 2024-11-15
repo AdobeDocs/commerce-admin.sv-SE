@@ -3,9 +3,9 @@ title: Cookie-lagefterlevnad
 description: För att hålla jämna steg med lagstiftningen i många länder om användningen av cookies erbjuder Adobe Commerce och Magento Open Source handlare ett urval av metoder för att få kundens samtycke.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: ae43d97bb3031a06ce6a0211ee304aae53e4eb08
+source-git-commit: 04e8fe7cf303f434bab748df447eef8ac1097196
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,6 @@ Cookies är små filer som sparas på datorn för varje besökare på platsen oc
 >[!NOTE]
 >
 >Om du ändrar standardsekretessinställningarna för [Google](../merchandising-promotions/google-tools.md#google-privacy-settings) så att de överensstämmer med [allmänna dataskyddsförordningen](compliance-gdpr.md) behöver du inte få användarens samtycke för användning av Google Analytics-cookies.
-
-## Metod 1: Underförstått samtycke
-
-Underförstådda samtycke innebär att besökare i din butik har en tydlig förståelse för att cookies är en nödvändig del av verksamheten, och genom att använda din webbplats har de indirekt beviljat tillstånd att använda dem. Nyckeln till att få underförstått samtycke är att tillhandahålla tillräckligt med information för att en besökare ska kunna fatta ett välgrundat beslut. I många butiker visas ett meddelande högst upp på alla standardsidor med en kort översikt över hur cookies används, med en länk till butikens integritetspolicy. Integritetspolicyn bör beskriva vilken typ av information som lagras och hur den används.
-
-## Metod 2: Uttryckligt samtycke
-
-Om du använder din butik i _läget för begränsning av cookies_ måste besökarna ge sitt samtycke innan cookies kan sparas på sina datorer. Om du inte ger ditt medgivande finns många funktioner i din butik inte tillgängliga. Om Google Analytics till exempel är tillgängligt för din butik kan det bara anropas efter att besökaren har gett behörighet att använda cookies.
 
 ## Begränsningsläge för cookie
 
@@ -62,7 +54,7 @@ Din [sekretesspolicy](privacy-policy.md)) ska innehålla namnet på din butik oc
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
-1. När du uppmanas att uppdatera cachen klickar du på länken **[!UICONTROL Cache Management]** i systemmeddelandet. Uppdatera sedan varje ogiltig cache.
+1. När du uppmanas att uppdatera cachen klickar du på länken **[!UICONTROL Cache Management]** i systemmeddelandet och uppdaterar varje ogiltig cache.
 
 ### Steg 2: Uppdatera din sekretesspolicy
 
@@ -72,264 +64,157 @@ Uppdatera din [sekretesspolicy](privacy-policy.md) så att den speglar den infor
 
 Standardcookies i Adobe Commerce och Magento Open Source klassificeras som Undanta/Ej undantagna för att hjälpa handlare att uppfylla kraven i sekretessbestämmelser som [GDPR](compliance-gdpr.md). Handläggarna bör använda denna information som vägledning och rådfråga juridiska rådgivare för att uppdatera deras integritets- och cookie-policy som en del av en övergripande strategi för efterlevnad av integritetsregler.
 
-Följande cookies används av [!DNL Commerce] &quot;out of the box&quot; för lokala installationer och molninstallationer. Dessa cookies kan krävas av funktioner som uttryckligen begärs av kunden. Om du vill veta mer om hur länge sessionscookies är giltiga kan du läsa [Sessionens livstid](../customers/customer-online-options.md).
+Följande cookies används av [!DNL Commerce] &quot;out of the box&quot; för lokala installationer och molninstallationer. Dessa cookies kan krävas av funktioner som uttryckligen begärs av kunden. Mer information om hur länge sessionscookies är giltiga finns i [Sessionens livstid](../customers/customer-online-options.md).
 
 Vissa av dessa cookies kan innehålla konfigurationsalternativ, inklusive aktivera/inaktivera, efter behov.
 
 ### Begärda funktionskakor (undantagna)
 
-
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Används av Google Tag Manager. Hämtar SKU, namn, pris och kvantitet för produkten som tagits bort från kundvagnen och gör informationen tillgänglig för framtida integrering med skript från tredje part.
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Hämtar produkt-SKU, namn, pris och kvantitet som tagits bort från kundvagnen. Google Analytics kan veta när en produkt har lagts till i en kundvagn.
 
 #### `guest-view`
 
-Lagrar det beställnings-ID som gästkunder använder för att hämta sin orderstatus. Vyn Gästorder. Används i _[!DNL Orders and Returns]_widgetar.
-
-- Är säker? Nej
-- Endast HTTP: Ja
-- Förfalloprincip: session
-- Modul: `Magento_Sales`
+Länkar en gästorder till en gäst (eftersom det inte finns något konto för gästen).
 
 #### `login_redirect`
 
-Bevarar målsidan som lästes in innan kunden omdirigerades till inloggning. En omdirigering av inloggning används med minivagnen för inloggade kunder om konfigurationsalternativet [Display Mini Cart](../stores-purchase/cart-configuration.md#mini-cart) är inställt på `Yes`.
-
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: session
-- Modul: `Magento_Customer`
+Sparar omdirigerings-URL för att dirigera användare om inloggning och användarregistrering lyckades. Sparar sidan som en användare var på innan han/hon loggade in (för att fastställa platsen dit han/hon kommer att gå tillbaka efter att han/hon loggat in).
 
 #### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Lagrar banderollinnehåll lokalt för att förbättra prestandan.
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Lagrar banderollinnehåll lokalt för att förbättra prestandan. Banderollinnehåll är allt innehåll som en handlare kan visa på sin webbplats.
 
 #### `mage-messages`
 
-Spårar felmeddelanden och andra meddelanden som visas för användaren, t.ex. meddelandet om godkännande av cookie och olika felmeddelanden. Meddelandet tas bort från cookien när det har visats för shopparen.
-
-Det finns inget alternativ för att inaktivera denna cookie.
-
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: Varaktighet 1 år. Rensas vid frontend när meddelandet visas för användaren.
-- Modul: `Magento_Theme`
-
-#### `mage-translation-storage` (lokal lagring)
-
-Lagrar översatt innehåll när kunden begär det. Används när [Översättningsstrategi](../configuration-reference/advanced/developer.md) har konfigurerats som &quot;Lexikon (översättning på Storefront-sidan)&quot;.
-
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: Per lokal lagringsregel
-- Modul: `Magento_Translation`
-
-#### `mage-translation-file-version` (lokal lagring)
-
-Spårar versionen av översättningar i lokal lagring. Används när [Översättningsstrategi](../configuration-reference/advanced/developer.md) har konfigurerats som `Dictionary (Translation on Storefront side)`.
-
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: Per lokal lagringsregel
-- Modul: `Magento_Translation`
+Spårar felmeddelanden och andra meddelanden som visas för användaren, t.ex. meddelandet om godkännande av cookie och olika felmeddelanden. Meddelandet tas bort från cookien när det har visats för shopparen. Det finns inget alternativ för att inaktivera denna cookie. Så här kommunicerar användaren med engångsinformation, t.ex. felmeddelanden.
 
 #### `product_data_storage` (lokal lagring)
 
-Lagrar konfiguration för produktdata som är relaterade till nyligen visade/jämförda produkter.
-
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: Per lokal lagringsregel
-- Modul: `Magento_Catalog`
+Lagrar konfiguration för produktdata som används för att använda funktionerna&quot;Senast visade&quot; och&quot;Jämför produkter&quot;. Lagrar en användares specifika inställningar (t.ex. om de nyligen har visat en produkt eller jämfört produkter).
 
 #### `recently_compared_product` (lokal lagring)
 
 Lagrar produkt-ID för nyligen jämförda produkter.
 
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: Per lokal lagringsregel
-- Modul: `Magento_Catalog`
-
 #### `recently_compared_product_previous` (lokal lagring)
 
 Lagrar produkt-ID:n för tidigare jämförda produkter för enkel navigering.
-
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: Per lokal lagringsregel
-- Modul: `Magento_Catalog`
 
 #### `recently_viewed_product` (lokal lagring)
 
 Lagrar produkt-ID:n för nyligen visade produkter för enkel navigering.
 
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: Per lokal lagringsregel
-- Modul: `Magento_Catalog`
-
 #### `recently_viewed_product_previous` (lokal lagring)
 
 Lagrar produkt-ID:n för nyligen visade produkter för enkel navigering.
 
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: Per lokal lagringsregel
-- Modul: `Magento_Catalog`
-
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Används av [Google Tag Manager](../merchandising-promotions/google-tag-manager.md). Hämtar SKU, namn, pris och kvantitet för produkten som läggs till i kundvagnen och gör informationen tillgänglig för framtida integrering av skript från tredje part.
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Google Analytics kan veta när en produkt har tagits bort från en kundvagn.
 
 #### `stf`
 
-Registrerar de tidsmeddelanden som skickas av modulen SendFriend ([Skicka e-post till en vän](../stores-purchase/email-a-friend.md)).
-
-- Är säker? Ja
-- Endast HTTP: Ja
-- Förfalloprincip: session
-- Modul: `Magento_SendFriend`
+Registrerar de tidsmeddelanden som skickas av modulen SendFriend ([Skicka e-post till en vän](../stores-purchase/email-a-friend.md)). När en kund skickar en länk till en produkt registreras en tidsstämpel i den här cookien och en räkning upprätthålls.
 
 #### `X-Magento-Vary`
 
-Konfigurationsinställning som förbättrar prestanda när statisk innehållscachning i engelska används.
-
-- Är säker? Ja
-- Endast HTTP: Ja
-- Förfalloprincip: Baserad på PHP-inställningssession.cookie_life
-- Modul: `Magento_PageCache`
+Anger när en ny version av en sida måste hanteras från cachen. Stöd för webbplatsprestanda.
 
 #### `form_key`
 
-En säkerhetsåtgärd som lägger till en slumpmässig sträng i alla formuläröverföringar för att skydda data från CSRF (Cross-Site Request Forgery).
-
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip:
-   - PHP: Baserat på PHP-inställningssession.cookie_life
-   - JS: Session
-- Modul: Sidcache
+En säkerhetsmekanism som innehåller ett slumpmässigt genererat värde för att förhindra CSRF-attacker (Cross Site Request Forgery) genom att hjälpa till att avgöra om en begäran kommer från en äkta källa eller en dålig skådespelare. Det här är en branschstandard för att förhindra CSRF-attacker.
 
 #### `mage-cache-sessid`
 
-Värdet för denna cookie utlöser rensning av lokal cachelagring. När cookien tas bort av serverdelsprogrammet rensar administratören upp det lokala lagringsutrymmet och anger värdet för cookie till `true`.
-
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: session
-- Modul: `Magento_Customer`
+Detta är användbart när du ska avgöra när lokal lagring ska rensas i webbläsaren när sessionen har upphört. Detta används för att fastställa om lokal lagring måste rengöras. Frånvaro av denna cookie utlöser lokal lagringsrensning.
 
 #### `mage-cache-storage`
 
-Lokal lagring av besökarspecifikt innehåll som möjliggör e-handelsfunktioner.
+Lokal lagring av besökarspecifikt innehåll som möjliggör e-handelsfunktioner. Används inte som standard, men när den används används den för att snabba upp utcheckningen så att grundläggande användarinformation är tillgänglig när någon lämnar och returnerar.
 
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: session
-- Modul: `Magento_Customer`, `Magento_Persistent`
+#### `mage-cache-storage-section-invalidation`
 
-#### `mage-cache-storage` (lokal lagring)
-
-Lokal lagring av besökarspecifikt innehåll som möjliggör e-handelsfunktioner.
-
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: session
-- Modul: `Magento_Customer`, `Magento_Persistent`, `Magento_NegotiableQuote`
-
-#### `mage-cache-storage-section-invalidation` (lokal lagring)
-
-Tvingar lokal lagring av specifika innehållsavsnitt som ska ogiltigförklaras.
-
-- Är säker? Nej
-- Endast HTTP: Nej
-- Förfalloprincip: Per lokal lagring
-- Modul: `Magento_Customer`
+Lagrar information om vilka avsnitt på sidan som behöver göras ogiltiga och tas bort.
 
 #### `persistent_shopping_cart`
 
-Lagrar nyckeln (ID) för en beständig kundvagn så att du kan återställa kundvagnen för en anonym kund.
-
-- Är säker? Ja
-- Endast HTTP: Ja
-- Förfalloprincip: Baserat på konfigurationen [Beständig kundvagn](../stores-purchase/cart-persistent.md) - Livstid för beständighet (sekunder)
-- Modul: `Magento_Persistent`
+Lagrar nyckel-ID:t för en beständig kundvagn så att det går att återställa kundvagnen för en anonym kund.
 
 #### `private_content_version`
 
-Lägger till ett slumpmässigt unikt nummer och en unik tid på sidor med kundinnehåll för att förhindra att de cachas på servern.
-
-Den finns på flera ställen: i PHP, i JavaScript som en cookie och i JavaScript som lokal lagring.
-
-För HTTP Only=`Yes` (baserat på begäran) betyder det att cookien är säker om den anges under HTTPS-begäran och osäker om den anges under HTTP-begäran.
-
-- Är säker? `Yes` (baserat på begäran), `No`
-- Endast HTTP: `No`
-- Förfalloprincip: Baserat på konfigurationen [Beständig kundvagn](../stores-purchase/cart-persistent.md) - Livstid för beständighet (sekunder)
-   - PHP: `1` år / `315360000s` (tio år)
-   - JS: `1` dag
-   - Lokal lagringsplats för JS: Lagringsregler per lokal lagringsplats (för alltid)
-- Modul: `Magento_PageCache`, `Magento_Customer`
+Lägger till ett slumpmässigt unikt nummer och en unik tid på sidor med kundinnehåll för att förhindra att de cachas på servern. Den finns på flera ställen: i PHP, i JavaScript som en cookie och i JavaScript som lokal lagring.
 
 #### `section_data_ids`
 
 Lagrar kundspecifik information om kundinitierade åtgärder, som visning av önskelistor och utcheckningsinformation.
 
-- Är säker? `No`
-- Endast HTTP: `No`
-- Förfalloprincip: `Session`
-- Modul: `Magento_Customer`
-
 #### `store`
 
-Spårar butiksvyn/språkområdet som valts av kunden.
+Spårar den specifika butiksvy/det språk som valts av kunden.
 
-- Är säker? `No`
-- Endast HTTP: `Yes`
-- Förfalloprincip: `1` år
-- Modul: `Magento_Store`
+#### `mage-banners-cache-storage`
 
-#### `mage-banners-cache-storage` - lokal lagring
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Lokal lagring för banderollfunktioner. Med banderoll avses allmänna webbplatsresurser som visas för en kund.
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Lokal lagring för banderollfunktioner.
+#### `PHPSESSID`
 
-- Är säker? `No`
-- Endast HTTP: `No`
-- Förfalloprincip: Per lokal lagringsregel
-- Modul: `Magento_Banner`
+Spåra användarsessioner i butiken. Det här är de kunder som använder slutprodukterna.
 
-## Google Analytics cookies
+#### `admin`
 
-Följande cookies används när [Google Analytics](../merchandising-promotions/google-analytics.md) eller Google Universal Analytics är helt aktiverat för din installation. Information om hur du inaktiverar dessa cookies för sekretesskontroll finns i [Google sekretessinställningar](../merchandising-promotions/google-tools.md#google-privacy-settings). Mer information finns i [Användning av cookies i Google Analytics på webbplatser][1].
+Spåra användarsessioner på adminsidan.
 
-### Google Universal Analytics-cookies - icke-undantagna
+#### `loggedOutReasonCode`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) JavaScript Libraries: `gtag.js` och `analytics.js`
+Ange när en Admin-användare låses efter ett visst antal misslyckade lösenordsförsök.
 
-- `_ga`: Skiljer besökare till din webbplats.
-- `_gid`: Skiljer besökare till din webbplats.
-- `gat`: Används för att begränsa begärandehastigheten.
-- `dc_gtm_<property-id>`: Begränsar begärandenivån när Google Analytics distribueras med [Google Tag Manager](../merchandising-promotions/google-tag-manager.md).
-- `AMP_TOKEN`: Innehåller en token som kan användas för att hämta ett klient-ID från tjänsten för AMP-klient-ID. Andra möjliga värden är avanmälan, informationsbegäran eller ett fel vid hämtning av ett klient-ID från tjänsten AMP Client ID.
-- `_gac_<property-id>`: Innehåller kampanjrelaterad information för användaren. Konverteringstaggar för Google AdWords läser denna cookie om Google Analytics är länkad till ditt [AdWords][2] -konto.
+#### `section_data_clean`
 
-### Google Analytics cookies - icke-undantagna
+Ange när en användare växlar butiksvy. Den här cookie-filen aktiverar JavaScript för att läsa in vissa avsnitt på sidan på nytt för att återspegla rätt butiksvy.
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) JavaScript Library: `ga.js`
+#### `lang`
 
-- `__utma`: Skiljer shoppare och sessioner. Den här cookien skapas när JavaScript-biblioteket körs och det inte finns någon befintlig `__utma`-cookie. Cookien uppdateras varje gång data skickas till Google Analytics.
-- `__utmt`: Används för att begränsa begärandehastigheten.
-- `__utmb`: Anger nya sessioner/besök. Den här cookien skapas när JavaScript-biblioteket körs och det inte finns någon befintlig `__utmb`-cookie. Cookien uppdateras varje gång data skickas till Google Analytics.
-- `_utmz`: Sparar trafikkällan eller kampanjen som förklarar hur kunden nådde din webbplats. Cookien skapas när JavaScript-biblioteket körs och uppdateras varje gång data skickas till Google Analytics.
-- `__utmv`: Lagrar anpassade variabeldata på besökarnivå. Denna cookie skapas när en utvecklare använder metoden `_setCustomVar` med en anpassad variabel på besökarnivå. Denna cookie uppdateras varje gång data skickas till Google Analytics.
+Ange indirekt av Admin Analytics-modulen. Används endast i en butiks administrativa område. Gäller inte för kunder.
+
+#### `s_fid`
+
+Ange indirekt av Admin Analytics-modulen. Reservstämpel för unikt besökar-ID för tid/datum. Den används för att identifiera en unik besökare om standardcookien `s_vi` inte är tillgänglig på grund av cookie-begränsningar från tredje part. Används endast i en butiks administrativa område. Gäller inte för kunder.
+
+#### `s_cc`
+
+Ange indirekt av Admin Analytics-modulen. Den ställs in och läses av JavaScript-koden för att avgöra om cookies är aktiverade. Används endast i en butiks administrativa område. Gäller inte för kunder.
+
+#### `apt.sid`
+
+Anges av Gainsight PX-biblioteket som används indirekt av Admin Analytics-modulen. Syftet med den här cookien är att tillåta beständig spårning av sessions-ID i produktens toppnivådomän och används som referens-ID till den aktiva sessionen. Används endast i en butiks administrativa område. Gäller inte för kunder.
+
+#### `apt.uid`
+
+Anges av Gainsight PX-biblioteket som används indirekt av Admin Analytics-modulen. Syftet med denna cookie är att tillåta beständig ID-spårning under produktens toppnivådomän och används som referens-ID till användarentiteten. Används endast i en butiks administrativa område. Gäller inte för kunder.
+
+#### `s_sq`
+
+Ange indirekt av Admin Analytics-modulen. Används av funktionen ClickMap som samlar in data om var besökarna klickar och vad de klickar på. Lagrar information från varje klick. Används endast i en butiks administrativa område. Gäller inte för kunder.
+
+#### `pagebuilder_modal_dismissed`
+
+Anges av Page Builder-modulen. Innehåller en flagga som förhindrar efterföljande uppmaningar att be en administratör bekräfta en viss åtgärd från att öppnas om administratören uttryckligen har stängt dem tidigare. Används endast i en butiks administrativa område. Gäller inte för kunder.
+
+#### `pagebuilder_template_apply_confirm`
+
+Anges av Page Builder-modulen. Innehåller en flagga som förhindrar efterföljande uppmaningar att be en administratör bekräfta en viss åtgärd från att öppnas om administratören uttryckligen har stängt dem tidigare. Används endast i en butiks administrativa område. Gäller inte för kunder.
+
+#### `accordion-{VARIABLE}-{VARIABLE}`
+
+Används som en del av flikfunktionsimplementeringen endast i ett administrativt område i en butik. Gäller inte för kunder.
 
 ## Recommendations cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies används av kunder som använder Product Recommendations för Adobe Commerce. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies används av kunder som använder Product Recommendations för Adobe Commerce. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: Gör att du kan [begränsa Adobe Commerce datainsamling](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) om du har anpassad kod för att hantera cookie-samtycke på din webbplats.
+- `mg_dnt`: Gör att du kan [begränsa Adobe Commerce datainsamling](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie) om du har anpassad kod för att hantera cookie-samtycke på din webbplats.
 - `user_allowed_save_cookie`: Används för [begränsningsläge för cookies](#cookie-restriction-mode).
 - `authentication_flag`: Anger om en kund har loggat in eller ut. Den här cookien uppdateras samtidigt som cookien `dataservices_customer_id`.
 - `dataservices_customer_id`: Anger om en kund har loggat in eller ut. Denna cookie innehåller kundens unika ID i systemet.
@@ -339,9 +224,9 @@ Följande cookies används när [Google Analytics](../merchandising-promotions/g
 
 ## Ytterligare cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies har angetts för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies har angetts för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
 
-- `mg`: Anges av Snowplow JavaScript-spåraren. Mer information finns i [Snowplow-dokumentationen](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options).
+- `mg`: Anges av Snowplow JavaScript-spåraren. Mer information finns i [Snowplow-dokumentationen](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options).
 - `com.adobe.alloy.getTld`: Med tanke på den aktuella webbsidans värdnamn är detta den översta domänen som inte är ett &quot;offentligt suffix&quot; enligt https://publicsuffix.org. Detta är i princip den översta domänen som kan ta emot cookies. Den här cookien ingår i [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
