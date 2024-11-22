@@ -2,21 +2,24 @@
 title: Skapa en offertmall
 description: Skapa en offertmall från en befintlig offert för att effektivisera offertförhandling för återkommande order.=
 feature: B2B, Quotes
-source-git-commit: 0276a8269d74b7656611f7d2c215e3513b91a7d6
+exl-id: e0b7c2b6-3ad1-416e-954b-80fe571cb7d6
+source-git-commit: 6c08ca93fcca9e9db7ebc987fbba3e34626a1314
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
 # Skapa en offertmall
 
+<!--This topic is linked to from the Commerce Admin quote templates page. If the URL to this topic changes, make sure to add a redirect to prevent the Admin link from returning a 404 error.-->
+
 Förhandla volymrabatter för återkommande order genom att skapa en offertmall från en befintlig offert.
 
 ![Skapa offertmall från administratören](./assets/quote-template-create-from-admin.png){width="700" zoomable="yes"}
 
-När mallen har skapats kan säljaren konfigurera mallalternativ för att ange order- och kvantitetströsklar, justera radobjekt- och offertnivårabatter innan de skickas till köparen för att påbörja förhandlingsprocessen.
+När du har skapat mallen kan säljaren konfigurera mallalternativ för att ange order- och kvantitetströsklar, justera radobjekt- och offertnivårabatter innan han eller hon skickar dem till köparen för att påbörja förhandlingen.
 
-När köparen och säljaren har nått ett avtal accepterar köparen offertmallen. Köparen kan sedan [generera i förväg godkända, länkade offerter](account-dashboard-my-quote-templates.md) baserat på villkoren för offertmallen när de är redo att beställa. Om ett företag till exempel har MRO-order (underhåll, reparationer och åtgärder) för att upprätthålla sin affärsverksamhet kan antingen köparen eller säljaren använda en offertmall för att lägga till de nödvändiga objekten, förhandla om priset och ange villkoren för återkommande månadsorder. Sedan kan köparen skicka order utan att kräva ytterligare förhandlingar.
+När köparen och säljaren har kommit fram till avtalet godkänner köparen offertmallen. Sedan kan köparen [generera förgodkända, länkade offerter](account-dashboard-my-quote-templates.md) baserat på offertmallens villkor. Om ett företag t.ex. har beställningar via MRO (underhåll, reparationer och operationer) för att upprätthålla sin affärsverksamhet, kan antingen köparen eller säljaren använda en offertmall för att lägga till de nödvändiga artiklarna, förhandla om prissättningen och ange villkoren för återkommande månadsbeställningar. Köparen kan sedan generera länkade offerter och skicka order utan att behöva förhandla vidare.
 
 Mer information finns i [Översikt över offertmallar](quote-templates-overview.md).

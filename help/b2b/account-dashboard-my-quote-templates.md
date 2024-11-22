@@ -2,13 +2,13 @@
 title: '[!UICONTROL My Quote Templates]'
 description: Lär dig mer om kundupplevelsen av offertmallar, som finns på kontrollpanelen för butikskonton.
 feature: B2B, Companies, Quotes
-source-git-commit: c2cb4db24effa764996b0fb77fbda67727392efe
+exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
+source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL My Quote Templates]
 
@@ -114,7 +114,3 @@ Köpare kan utföra följande åtgärder från en länkad offert:
 Klicka på **[!UICONTROL Cancel Quote Template]** på mallsidan för offerter.
 
 Offertmallen avbryts och offertstatusen ändras till `Closed`. Det stängda citattecknet finns kvar i listan med *[!UICONTROL Inactive]* citattecken och finns kvar i listan i rutnätet _[!UICONTROL Quote Templates]_i Admin.
-
-
-
-
