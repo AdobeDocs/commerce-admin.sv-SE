@@ -3,9 +3,9 @@ title: Katalogbilder och video
 description: Lär dig mer om hur du använder digitala medier för att förbättra katalogproduktsidorna och ge dina kunder visuell information.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ Det finns många ljusrutor och reglage från tredje part som du kan använda fö
 Hjälp med felsökning av bild- och videoproblem finns i följande artiklar i Commerce Support Knowledge Base:
 
 - [Efter installationen läses inte bilder och formatmallar in. Endast textvisning, inga bilder](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [Problem med att hantera produktbilder via REST API](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.html)
-- [Importera produkter (CSV-bilder är duplicerade)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
+mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
 - [Produktbilder visas inte trots produktredigeringsbildsroller](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
 - [Lagra bilder som inte visas efter distributionen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)

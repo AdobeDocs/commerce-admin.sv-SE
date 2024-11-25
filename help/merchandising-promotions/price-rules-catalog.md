@@ -3,9 +3,9 @@ title: Katalogprisregler
 description: Lär dig mer om katalogprisregler som kan användas för att erbjuda produkter till köpare till ett rabatterat pris baserat på en uppsättning definierade villkor.
 exl-id: 8da95076-d724-41f6-b3ca-e61ff1906b72
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,3 @@ Du kan till exempel definiera och ange villkoren för en prisregel som när den 
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Använd det här alternativet om du vill filtrera listan baserat på regelstatus (`Active` eller `Inactive`). |
 
 {style="table-layout:auto"}
-
-## Felsökningsresurser
-
-Hjälp om hur du felsöker problem med katalogprisregler finns i följande artiklar i Commerce Support Knowledge Base:
-
-- [404 Fel i butiksskylt när uppdatering av katalogprisregelscheman har utförts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/404-error-on-store-front-once-catalog-price-rule-schedules-update-is-performed.html)
-- [Förbättrade prestanda för produktsidan med relaterade produkter och målregler](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31791-magento-patch-improvement-for-product-page-with-related-products-and-target-rules.html)
-- [Katalogprisreglerna fungerar inte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.html)
-- [GraphQL prisberäkningar](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33975-magento-patch-graphql-price-calculations.html)

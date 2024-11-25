@@ -3,9 +3,9 @@ title: FedEx
 description: Lär dig hur du konfigurerar FedEx som fraktfirma för din butik.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ FedEx är ett av världens största rederier som tillhandahåller luft-, frakt- 
 
 ## Steg 1: Registrera dig för FedEx Web Services-produktion
 
-Ett [FedEx-handlarkonto][1] och registrering för FedEx Web Services Production Access krävs. När du har skapat ett FedEx-konto kan du läsa igenom informationssidan för produktionskontot och sedan klicka på länken _Hämta produktionsnyckel_ längst ned på sidan för att registrera och få en nyckel.
+FedEx-handlarkonto och registrering för FedEx Web Services Production Access krävs. När du har skapat ett FedEx-konto kan du läsa igenom informationssidan för produktionskontot och sedan klicka på länken _Hämta produktionsnyckel_ längst ned på sidan för att registrera och få en nyckel.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Ett [FedEx-handlarkonto][1] och registrering för FedEx Web Services Production 
    - Hushållsalternativ - Express Saver, Ground, First, Overnight, Home Delivery, Standard Overnight
    - Internationella alternativ - internationell ekonomi, internationell ekonomi, internationell frakt, internationell först, internationell mark, internationell prioritet
    - Prioritetsalternativ - frakt, prioritet över natten
-   - Smart Post-If-erbjudande för Smart Post-metoden (ange **nav-ID**)
+   - Smart post-If-erbjudande med metoden Smart Post (ange **nav-ID**)
    - Alternativ för frakt - frakt, nationell frakt
 
 1. Om du vill ange alternativet [Fri frakt](shipping-free.md) via FedEx anger du alternativ för fri frakt.
@@ -159,5 +159,3 @@ Ett [FedEx-handlarkonto][1] och registrering för FedEx Web Services Production 
 >[!NOTE]
 >
 >Commerce deklarerar alltid det fullständiga orderpriset till FedEx vid beräkning av fraktkostnader. Det här beteendet kan inte ändras.
-
-[1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

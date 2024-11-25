@@ -3,7 +3,7 @@ title: Dela ett [!DNL Commerce] konto
 description: Lär dig hur du ger begränsad åtkomst till ditt [!DNL Commerce] konto för andra [!DNL Commerce] kontoinnehavare.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -91,11 +91,11 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
 
    ![Support](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Du kan använda [Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) från det delade kontot för att söka efter artiklar och felsökningsinformation, hitta korrigeringsfiler för kända problem och skapa supportärenden.
+   Du kan använda [Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) från det delade kontot för att söka efter artiklar och felsökningsinformation, hitta korrigeringsfiler för kända problem och skapa supportärenden.
 
    >[!NOTE]
    >
-   >När användaren har fått delad åtkomst måste han/hon logga in på sitt [[!DNL Commerce] konto](https://account.magento.com/customer/account/login), navigera till _Delad åtkomst_ och klicka på fliken **[!UICONTROL Support]**. Den här åtgärden krävs första gången bara för att säkerställa att [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) har konfigurerats korrekt via `SSO`-anropet.
+   >När användaren har fått delad åtkomst måste han/hon logga in på sitt [[!DNL Commerce] konto](https://account.magento.com/customer/account/login), navigera till _Delad åtkomst_ och klicka på fliken **[!UICONTROL Support]**. Den här åtgärden krävs första gången bara för att säkerställa att [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) har konfigurerats korrekt via `SSO`-anropet.
 
 1. Om du vill återgå till ditt eget konto klickar du på **Bakåt** i webbläsarkontrollerna och anger **[!UICONTROL Switch Accounts]** till `My Account`.
 
@@ -113,11 +113,11 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
    > 
    > Be i så fall kontoägaren att ändra kontot för delad åtkomst för att rensa kontobehörigheterna. Efter den uppdateringen kan användaren inte komma åt några kontoresurser.
    >
-   > Se dessutom till att användarna tas bort från projektet så att de inte längre får e-postmeddelanden: [Tidigare teammedlemmar får Adobe Commerce molnmeddelanden](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > Se dessutom till att användarna tas bort från projektet så att de inte längre får e-postmeddelanden: [Tidigare teammedlemmar får Adobe Commerce molnmeddelanden](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Delete User]**.
 
 >[!NOTE]
 >
->Du kan inte ta bort användare med resursnamnet _Cloud Shared Access från MAG[XYZ]_ i det här gränssnittet. Se [Så här tar du bort användare som har beviljats delad åtkomst via ett molnprojekt?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).
+>Du kan inte ta bort användare med resursnamnet _Cloud Shared Access från MAG[XYZ]_ i det här gränssnittet. Se [Så här tar du bort användare som har beviljats delad åtkomst via ett molnprojekt?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting).

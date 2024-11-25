@@ -3,9 +3,9 @@ title: Fakturor
 description: Lär dig hur du skapar och skriver ut fakturor som stöder orderbehandling och kundserviceåtgärder.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -148,15 +148,5 @@ Fakturor kan skrivas ut individuellt eller som en batch. Innan en faktura kan sk
    ![Skriv ut flera fakturor](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 Fakturorna sparas i en enda PDF-fil som kan skickas till en skrivare eller sparas.
-
-## Felsökningsresurser
-
-Hjälp om felsökning av fakturaproblem finns i följande _Commerce Support Knowledge Base_-artiklar:
-
-- [Det går inte att fakturera paketprodukter som virtuella och enkla](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
-- [Fakturera utan butikskreditinformation](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
-- [Moms visas på faktura med 100 % rabatt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
-- [Beställningsfakturor skickas inte automatiskt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
-
 
 [1]: https://www.adobe.com/acrobat/pdf-reader.html "Skaffa Adobe Reader"

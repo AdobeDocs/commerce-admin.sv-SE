@@ -3,7 +3,8 @@ title: Commerce SaaS-tjänster
 description: Läs om Commerce SaaS-tjänster som ger fler möjligheter för Commerce StoreFront
 seo-title: Commerce Services
 seo-description: Get an overview of available services that help Adobe Commerce merchants extend storefront capabilities to support key components of their business.
-source-git-commit: ab886855f087186bb1598ab4a780f49c15757c16
+exl-id: 2e673eb2-a90b-491a-b320-e9bd089d19f2
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Adobe tillhandahåller en samling Commerce tjänster, integreringstjänster och 
 
 ![Sök](../landing/assets/icon-magnify.svg){width="40"}**[Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**- Implementera ett AI-drivet sökverktyg som ger smartare, snabbare och mer relevanta resultat för B2C-kunder.
 
-![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview)**- Lägg till AI-anpassade rekommendationer baserat på kundbeteende, populära trender, produktlikhet med mera.
+![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)**- Lägg till AI-anpassade rekommendationer baserat på kundbeteende, populära trender, produktlikhet med mera.
 
 ![Katalogdata för anslutna tjänster](../landing/assets/icon-data-book.svg){width="40"}**[Katalogtjänst](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**- Ge dina kunder en optimerad produktupplevelse samtidigt som du förbättrar prestanda, skalbarhet och ökar antalet konverteringar.
 

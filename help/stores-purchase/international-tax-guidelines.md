@@ -3,9 +3,9 @@ title: Skatteriktlinjer per land
 description: Granska rekommenderade skatteinställningar utifrån land.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Dessa rekommenderade inställningar kan användas för de flesta momskonfigurati
 
 >[!IMPORTANT]
 >
->Merchants in a GST/PST Province (Montreal) should create one tax rule and show a combined tax amount. Kontakta en behörig skattemyndighet om du har några frågor. Mer information om skattekrav för specifika provinser finns i följande: [Revenu Québec][1], [Government of Saskatchewan][2] och [Manitoba Information for Vendors][3]
+>Merchants in a GST/PST Province (Montreal) should create one tax rule and show a combined tax amount. Kontakta en behörig skattemyndighet om du har några frågor.
 
 | Momsalternativ | Rekommendation |
 |--- |--- |
@@ -411,14 +411,10 @@ Ange följande allmänna skatteinställningar:
 
       - Standardland
       - Standardläge
-      - Post-standardkod
+      - Standardpostnummer
 
      Den här inställningen ser till att momsen beräknas korrekt när produktpriserna inkluderar moms.
 
      ![Beräkning av standardmomsmål](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
-
-[1]: https://www.revenuquebec.ca/en/businesses/
-[2]: https://www.saskatchewan.ca/finance
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf
