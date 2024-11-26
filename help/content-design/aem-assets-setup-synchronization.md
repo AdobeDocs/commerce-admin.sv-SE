@@ -3,39 +3,33 @@ title: Aktivera resurssynkronisering
 description: Lär dig hur du kopplar ihop dina Adobe Commerce- och Experience Manager Assets-projekt för att möjliggöra resurssynkronisering mellan dessa två system.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 508e9e1d23a4b6e70ada22e2a22c0dcd401393a9
+source-git-commit: e069f0a99ed9289b22cafe06fe2f787912cbba23
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
 # Aktivera resurssynkronisering
 
->[!BEGINSHADEBOX]
+Under aktiveringsprocessen registrerar du innehavar-ID:t för projektet med program- och miljö-ID:t för din AEM redigeringsmiljö. Dessa ID:n identifierar det AEM Assets-projekt som du ansluter till och anger autentiseringsuppgifter för att möjliggöra kommunikation mellan Commerce- och AEM Assets-miljöerna.
 
-**Förutsättningar**
+När du har identifierat AEM resurser väljer du matchningsregel för att synkronisera resurser mellan Adobe Commerce och AEM Assets.
+
+- **[!UICONTROL Match by product SKU]** - Standardregel som matchar SKU:n i resursmetadata med [Commerce-produktens SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#sku) för att se till att resurserna är kopplade till rätt produkter.
+
+- **[!UICONTROL Custom match]** - Matchningsregel för mer komplexa scenarier eller specifika affärskrav som kräver anpassad matchningslogik. Implementering av anpassad matchning kräver utveckling av anpassad kod i Adobe Developer App Builder för att definiera hur resurser matchas med produkter. Mer information kommer snart...
+
+Använd standardregeln *Matcha efter produktsku* för inledande introduktion.
+
+## Förutsättningar
 
 - [Konfigurera AEM Experience Manager Assets för att hantera Commerce-resurser](#aem-assets-configure-aem)
 - [Installera och konfigurera AEM Assets-integreringen för Commerce](#aem-assets-configure-commerce.md) för att lägga till tillägget och generera nödvändiga autentiseringsuppgifter och anslutningar för att använda tillägget.
 
->[!ENDSHADEBOX]
+## Konfigurera anslutningen
 
-Under den här aktiveringsprocessen registrerar du ditt klient-ID genom att ange program- och miljö-ID för din AEM utvecklingsmiljö. Dessa ID:n identifierar det AEM Assets-projekt som du ansluter till och tillhandahåller autentiseringsuppgifter för kommunikation och arbetsflöden mellan Commerce och AEM Assets.
-
-När du har identifierat AEM resurser väljer du den matchande regel som ska användas för att synkronisera resurser mellan Adobe Commerce och AEM Assets.
-
-AEM Assets Integration för Commerce har stöd för två matchande regler för att synkronisera resurser mellan Adobe Commerce och AEM Assets.
-
-- **Matcha efter produkt-SKU** - Det här är standardmatchningsregeln som matchar resurser baserat på lagerinställningarna (SKU) för produkten. SKU:n är en unik identifierare för varje produkt. Den här regeln matchar SKU:n i resursmetadata med Commerce-produktens SKU för att säkerställa att resurserna är kopplade till rätt produkter.
-
-- **Anpassad matchning** - Den här matchningsregeln gäller för mer komplexa scenarier eller specifika affärskrav som kräver anpassad matchningslogik. Om du vill använda den här regeln måste du ha implementerad anpassad kod i Adobe Developer App Builder som definierar hur resurser matchas med produkter. Mer information kommer snart...
-
-Använd standardregeln `Match by product sku` för inledande introduktion. Om det behövs kan du ändra matchningsregeln senare.
-
-## Aktivera integreringen
-
-1. Hämta projekt- och miljö-ID:t för din [AEM Assets-redigeringsmiljö](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start).
+1. Hämta projekt- och miljö-ID:t för [AEM Assets Authoring Environment](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start).
 
    1. Öppna AEM Sites-konsolen och välj **[!UICONTROL Assets]**.
 
@@ -43,19 +37,21 @@ Använd standardregeln `Match by product sku` för inledande introduktion. Om de
 
 1. Öppna AEM Assets Integration-konfigurationen i Commerce Admin.
 
-   1. Välj **[!UICONTROL Store]** > Konfiguration > **[!UICONTROL CATALOG]** > **[!UICONTROL Catalog]**.
-
-   1. Expandera **[!UICONTROL Experience Manager Assets integration]**.
+   1. Gå till **[!UICONTROL Store]** > Konfiguration > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
 
       ![AEM Assets-integrering aktiverar integreringen](assets/aem-assets-integration-enable-config.png){width="600" zoomable="yes"}
 
-1. Identifiera det Experience Manager Assets-projekt som du vill ansluta till genom att ange **[!UICONTROL Program ID]** och **[!UICONTROL Environment ID]**.
+1. Ange AEM Assets-miljön **[!UICONTROL Program ID]** och **[!UICONTROL Environment ID]**.
 
-1. Lägg till OAUTH-autentiseringsuppgifterna för att autentisera API-begäranden mellan Adobe Commerce och ARES-tjänsten genom att välja **[[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)**, till exempel `Assets integration`.
+1. Ange **[!UICONTROL Asset Selector IMS Client ID].
 
-1. Tillåt att Commerce accepterar inkommande uppdateringar från AEM Assets genom att ange **[!UICONTROL Enable integration]** till `Yes`.
+   Med [IMS-ID](../getting-started/adobe-ims-config.md) kan du integrera AEM Assets med Page Builder.
 
-   När du har aktiverat integreringen kan du konfigurera resursmatchningsregeln.
+1. Välj [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)** för att autentisera begäranden mellan Commerce och tjänsten för tillgångsmatchning.
+
+1. Tillåt att Commerce accepterar inkommande uppdateringar från AEM Assets genom att ange **[!UICONTROL Integration enabled]** till `Yes`.
+
+   När du har aktiverat integreringen konfigurerar du resursmatchningsregeln.
 
    ![AEM Assets Integration - välj resursmatchningsregel](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
 
@@ -65,4 +61,6 @@ Använd standardregeln `Match by product sku` för inledande introduktion. Om de
 
    1. Lägg till [AEM Assets-metadatafältnamnet ](aem-assets-configure-aem.md#configure-metadata) som definierats för Commerce produkt-SKU:er i fältet **[!UICONTROL Match by product SKU attribute name]**, till exempel `commerce:skus`.
 
-1. Använd konfigurationen och initiera synkroniseringsprocessen genom att välja **[!UICONTROL Save Config]**.
+   ![AEM Assets Integration - välj resursmatchningsregel](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
+
+1. Välj **[!UICONTROL Save Config]** om du vill använda uppdateringar och initiera resurssynkronisering
