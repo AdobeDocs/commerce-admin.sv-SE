@@ -1,20 +1,20 @@
 ---
-title: Exempel på kundprisregel - rabatt med minimiköp
-description: Se ett exempel på hur du kan använda en kundprisregel för att erbjuda en rabatt med ett minimiköp.
+title: Exempel på kundprisregel - rabatt med lägsta produktpris
+description: Se ett exempel på hur du kan använda en kundprisregel för att erbjuda en rabatt med ett lägsta produktpris.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # Exempel på kundprisregel - rabatt med minimiköp
 
-Kundprisregler kan användas för att erbjuda en procentuell rabatt baserad på ett minimiköp. I följande exempel tillämpas en rabatt på 25 % på alla köp över 200,00 USD i en viss kategori. Rabattformatet är följande:
+Kundprisregler kan användas för att erbjuda en procentuell rabatt som baseras på ett minimiproduktpris i kundvagnen. I följande exempel tillämpas en rabatt på 10 % på alla produkter i hela varukorgen när minst en produkt med ett pris över 30,00 USD från en angiven kategori läggs till i kundvagnen. Rabattformatet är följande:
 
-X % rabatt på alla Y-dollar (kategori) över $Z-dollar
+X % rabatt på hela kundvagnen när minst en produkt kommer från Y-kategorin och priset är över SEK.
 
 ## Steg 1. Skapa en kundvagnsregel
 
