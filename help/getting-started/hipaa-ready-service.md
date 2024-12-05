@@ -3,9 +3,9 @@ title: HIPAA-beredskap på Adobe Commerce
 description: Läs om hur du kan lägga till tillägget Adobe Commerce HIPAA-Ready och få ytterligare funktioner som gör att du kan uppfylla dina skyldigheter enligt HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: dd97177836f5795f64e04665acdf8c1baa777465
+source-git-commit: c74d05e4a26f46f1aca5d82936a4bb61f8764084
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1598'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Adobe Commerce HIPAA-Ready-tillägget, `magento/hipaa-ee`, är tillgängligt fö
 
 ## Systemkrav
 
-Adobe Commerce måste distribueras på antingen Adobe Commerce i molninfrastruktur eller Adobe Commerce Managed Services med version 2.4.6-p3 eller senare (inga betaversioner).
+Adobe Commerce måste distribueras på antingen Adobe Commerce i molninfrastruktur eller Adobe Commerce Managed Services med version 2.4.6-p3 - 2.4.6-p8 (inga betaversioner).
 
 ## Installation
 
