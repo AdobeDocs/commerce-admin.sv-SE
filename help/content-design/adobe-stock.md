@@ -3,7 +3,7 @@ title: Adobe Stock Integration
 description: Integrera Adobe Stock med  [!DNL Commerce] -instansen för att få tillgång till ett oändligt antal mediefiler som kan användas i din butik.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 6666073a48741cb494f408a61401f46fc20cedc4
+source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Integrera [Adobe Stock][adobe-stock] med [!UICONTROL Commerce] om du vill få ti
 
 ![Adobe Stock sökresultat](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-Adobe Stock ger företag tillgång till miljontals utvalda och royaltyfria foton, vektorer, illustrationer, videor, mallar och 3D-resurser av hög kvalitet för alla kreativa projekt. [!DNL Commerce] användare kan snabbt hitta, förhandsgranska och licensiera Adobe Stock-resurser. Användarna kan också spara dem i [medielagringsplatsen][media-storage], utan att lämna arbetsytan Admin.
+Adobe Stock ger företag tillgång till miljontals utvalda och royaltyfria foton, vektorer, illustrationer, videor, mallar och 3D-resurser av hög kvalitet för alla kreativa projekt. [!DNL Commerce] användare kan snabbt hitta, förhandsgranska och licensiera Adobe Stock-resurser. Användarna kan också spara dem i [medielagringsplatsen](./media-storage.md), utan att lämna arbetsytan Admin.
 
 ## Förutsättningar
 
@@ -97,6 +97,5 @@ Om du vill ange systemkonfigurationen i din [!DNL Commerce]-administratör anvä
 
 [adobe-stock]: https://stock.adobe.com
 [adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
-[media-storage]: media-storage.md
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

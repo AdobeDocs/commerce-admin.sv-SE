@@ -3,9 +3,9 @@ title: Katalogbilder och video
 description: Lär dig mer om hur du använder digitala medier för att förbättra katalogproduktsidorna och ge dina kunder visuell information.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,5 @@ Det finns många ljusrutor och reglage från tredje part som du kan använda fö
 Hjälp med felsökning av bild- och videoproblem finns i följande artiklar i Commerce Support Knowledge Base:
 
 - [Efter installationen läses inte bilder och formatmallar in. Endast textvisning, inga bilder](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
 - [Produktbilder visas inte trots produktredigeringsbildsroller](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
 - [Lagra bilder som inte visas efter distributionen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
