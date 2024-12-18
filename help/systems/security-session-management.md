@@ -4,9 +4,9 @@ description: Lär dig hur du konfigurerar sessionshantering för att skydda admi
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -104,25 +104,7 @@ Som en säkerhetsåtgärd är _Admin_ inställd på timeout efter 900 sekunders 
 
 1. Klicka på **[!UICONTROL Admin]**.
 
-1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Security]_.
-
-1. För **[!UICONTROL Admin Session Lifetime (seconds)]** anger du antalet sekunder som en session förblir aktiv innan den timeout-inträffar.
-
-   ![Avancerad konfiguration - Säkerhetsinställningar för administratör](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
-
-1. Klicka på **[!UICONTROL Save Config]** när du är klar.## Administratörssessionslivstid
-
-Som en säkerhetsåtgärd är _Admin_ inställd på timeout efter 900 sekunders (15 minuter) tangentbordsinaktivitet. Du kan justera sessionens livstid så att den passar din arbetsstil.
-
-**_Så här justerar du administratörssessionens livstid:_**
-
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
-
-1. Bläddra nedåt och expandera **[!UICONTROL Advanced]** på den vänstra panelen.
-
-1. Klicka på **[!UICONTROL Admin]**.
-
-1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _Säkerhet_.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Security]**.
 
 1. För **[!UICONTROL Admin Session Lifetime (seconds)]** anger du antalet sekunder som en session förblir aktiv innan den timeout-inträffar.
 
