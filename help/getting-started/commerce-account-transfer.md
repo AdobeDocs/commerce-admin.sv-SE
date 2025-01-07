@@ -3,9 +3,9 @@ title: Överföra ett Commerce-konto
 description: Lär dig hur du överför ditt Commerce-konto till en annan ägare eller e-postadress.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
+source-git-commit: e436bbe8f4c2ed913489df22fdc3915d37d9185a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,8 @@ Hur du slutför den här överföringen beror på vilket av följande scenarier 
 | Överföringstyp | Aktuell ägare | Ny ägare |
 | ------------- | ------------- | --------- |
 | [Ny ändring av Adobe ID och e-post](#new-adobe-id-and-email-change) | Har ett MAGEID som **_inte är anslutet_** med ett Adobe-inloggningskonto. | Har inget MAGEID och är inte anslutet till ett Adobe-inloggningskonto. |
-| [E-poständring](#email-change) | Har ett MAGEID som är **_anslutet_** med ett Adobe-inloggningskonto utan andra associerade Adobe-produkter/tjänster. | Har inget MAGEID och är inte anslutet till ett Adobe-inloggningskonto. |
-| [Adobe ID-växel](#adobe-id-account-switch) | Har ett MAGEID som är **_anslutet_** med ett Adobe-inloggningskonto utan andra associerade Adobe-produkter/tjänster. | Har ett MAGEID och är anslutet till ett Adobe-inloggningskonto utan andra associerade Adobe-produkter/tjänster. |
+| [E-poständring](#email-change) | Har ett MAGEID som är **_anslutet_** med ett Adobe-inloggningskonto. | Har inget MAGEID och är inte anslutet till ett Adobe-inloggningskonto. |
+| [Adobe ID-växel](#adobe-id-account-switch) | Har ett MAGEID som är **_anslutet_** med ett Adobe-inloggningskonto. | Har ett MAGEID och är anslutet till ett Adobe-inloggningskonto utan andra associerade Adobe-produkter/tjänster. |
 
 {style="table-layout:auto"}
 
