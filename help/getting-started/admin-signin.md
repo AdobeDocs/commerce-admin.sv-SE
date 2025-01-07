@@ -3,9 +3,9 @@ title: Ditt administratörsanvändarkonto
 description: Lär dig mer om ditt Admin-konto och hur du använder tvåfaktorsautentisering för att logga in på Admin.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -157,3 +157,21 @@ Administratören ger åtkomst till funktionerna för att hantera order, kunder, 
 1. Klicka på **[!UICONTROL Save Config]**.
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+
+## Upprätthåll säker åtkomst till administratören
+
+För att försäkra dig om att din administratör är säker bör du regelbundet kontrollera användare och roller med administratörsåtkomst.
+
+Överväg också att [uppdatera Admin Base URL-konfigurationen](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) om du vill ändra standardslutpunkten `/admin` till en anpassad sökväg. Att konfigurera en anpassad sökväg ger följande säkerhetsfördelar:
+
+**Förbättrat skydd**: Standardsökvägen för admin är allmänt känd och är ofta riktad till illasinnade aktörer som försöker attackera med styrkan. Genom att ändra det till ett unikt, anpassat värde minskar du avsevärt risken för obehöriga åtkomstförsök.
+
+**Reducerad sårbarhet**: Automatiserade botar söker ofta efter vanliga sökvägar som &quot;admin&quot; för att utnyttja sårbarheter. En anpassad sökväg gör det svårare för dessa robotar att hitta din administratörsinloggningssida, vilket minskar risken för attacker.
+
+**Förbättrad sekretess**: En anpassad administratörssökväg lägger till ett extra lager av osäkerhet, vilket gör det svårare för potentiella angripare att identifiera och rikta in sig på din administratörsinloggningssida.
+
+**Efterlevnad av bästa praxis**: Följande bästa säkerhetspraxis, till exempel att anpassa din administratörssökväg, visar en proaktiv metod för att skydda din e-handelsplats och dina kunddata.
+
+>[!NOTE]
+>
+>Om det finns misstanke om en överträdelse ska du ta bort alla okända administratörsanvändare och återställa alla administratörslösenord. Mer information finns i [säkerhetsplanen](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security).
