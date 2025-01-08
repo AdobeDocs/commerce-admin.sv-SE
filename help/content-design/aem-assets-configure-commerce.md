@@ -3,9 +3,9 @@ title: Installera och konfigurera Experience Manager Assets-integrering
 description: Lär dig hur du installerar och konfigurerar  [!DNL AEM Assets Integration for Adobe Commerce]  på en Adobe Commerce-instans.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 5e3de8e9b99c864e5650c59998e518861ca106f5
+source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,13 @@ AEM Assets Integration för Commerce har följande system- och konfigurationskra
 
 **Konfigurationskrav**
 
-- Adobe Commerce måste vara konfigurerat att använda [Adobe IMS-autentisering](/help/getting-started/adobe-ims-config.md).
 - Kontoetablering och behörigheter
    - [Commerce molnprojektadministratör](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installera nödvändiga tillägg och konfigurera Commerce-programservern från Admin eller kommandoraden
    - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - Uppdatera butikskonfigurationen och hantera Commerce-användarkonton
+
+>[!TIP]
+>
+> Adobe Commerce kan konfigureras att använda [Adobe IMS-autentisering](/help/getting-started/adobe-ims-config.md).
 
 ## Konfigurationsöversikt
 
@@ -186,6 +189,44 @@ Aktivera händelseramverket från Commerce Admin.
    ![Adobe I/O Events Commerce Admin-konfiguration - aktivera Commerce-händelser](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
 1. Ange handlarens företagsnamn i fälten **[!UICONTROL Merchant ID]** och miljönamnet i **[!UICONTROL Environment ID]**. Använd endast alfanumeriska tecken och understreck när du anger dessa värden.
+
+>[!BEGINSHADEBOX]
+
+**Konfigurera anpassad VCL för blockeringsbegäranden**
+
+Om du använder ett anpassat VCL-fragment för att blockera okända inkommande begäranden, kan du behöva inkludera HTTP-huvudet `X-Ims-Org-Idheader` för att tillåta inkommande anslutningar från tjänsten AEM Assets Integration for Commerce.
+
+>[!TIP]
+>
+> Du kan använda modulen Snabbt CDN för att skapa en Edge ACL med en lista över IP-adresser som du vill blockera.
+
+I följande anpassade VCL-kodfragment (JSON-format) visas ett exempel med ett `X-Ims-Org-Id`-begärandehuvud.
+
+```json
+{
+  "name": "blockbyuseragent",
+  "dynamic": "0",
+  "type": "recv",
+  "priority": "5",
+  "content": "if ( req.http.X-ims-org ~ \"<YOUR-IMS-ORG>\" ) {error 405 \"Not allowed\";}"
+}
+```
+
+Innan du skapar ett fragment baserat på det här exemplet ska du granska värdena för att avgöra om du behöver göra några ändringar:
+
+- `name`: VCL-fragmentets namn. I det här exemplet använde vi namnet `blockbyuseragent`.
+
+- `dynamic`: Anger fragmentversionen. I det här exemplet använde vi `0`. Mer information om datamodellen finns i [Snabbt VCL-kodfragment](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/).
+
+- `type`: Anger typen av VCL-fragment, som bestämmer fragmentets plats i den genererade VCL-koden. I det här exemplet har vi använt `recv`. Se [Snabb VCL-fragmentreferens](https://docs.fastly.com/api/config#api-section-snippet) för en lista över fragmenttyper.
+
+- `priority`: Avgör när VCL-fragmentet körs. I det här exemplet används prioriteten `5` för att omedelbart köra och kontrollera om en administratörsbegäran kommer från en tillåten IP-adress.
+
+- `content`: Det VCL-kodfragment som ska köras, som kontrollerar klientens IP-adress. Om IP-adressen finns i Edge ACL blockeras den från åtkomst med ett `405 Not allowed`-fel för hela webbplatsen. Alla andra IP-adresser för klienter har åtkomst.
+
+Mer information om hur du använder VCL-fragment för att blockera inkommande begäranden finns i [Anpassad VCL för blockeringsbegäranden](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) i _Commerce on Cloud Infrastructure Guide_.
+
+>[!ENDSHADEBOX]
 
 ## Hämta autentiseringsuppgifter för API-åtkomst
 
