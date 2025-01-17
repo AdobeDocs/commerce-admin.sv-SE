@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL General] i Commerce Admin.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
+source-git-commit: 54f6c7abf38e4368a843b7cf042ccd9af19239b2
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -108,5 +108,15 @@ Mer information om hur du ändrar de här inställningarna finns i [Enkelt lagri
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | Global | När det är aktiverat för single store-installationer döljs konfigurationsomfångsrutan och relaterade fältetiketter Alternativ: `Yes` / `No` <br/>**_Obs!_**Enstaka lagringsläge ignoreras för butiker med mer än en vy.<br/> Om du aktiverar läget för en lagringsplats kopieras alla katalog- och produktarkivspecifika data från standardbutiksvyn till alla lagringsvyomfång. Den kopierar bara katalog- och produktdata om butiken bara har en granskning. Om arkivet har en inaktiverad butiksgranskning och en aktiverad butik kopieras inte katalog- och produktdata.<br/> Om du aktiverar läget för en enskild lagring ignoreras de butiksspecifika konfigurationsinställningarna för innehållsspecifika data. I stället används konfigurationsinställningar som definierats på den globala nivån för att säkerställa konsekvens mellan administratörsgränssnittet och butiken. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Data Services]
+
+![Allmänt > Datatjänster](./assets/general-data-services.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Commerce Events Enabled] | Global | Den här konfigurationen är inaktiverad som standard om du är vårdkund och har installerat tillägget [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation). Detta innebär att händelsedata för storefront som används av Live Search och Product Recommendations inte längre hämtas. Detta beror på att händelsedata för storefront genereras på klientsidan. Om du vill fortsätta att hämta och skicka händelsedata för butiker som ska användas av [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)- och [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview)-tjänsterna anger du **Commerce Events Enabled** till `Yes`. |
 
 {style="table-layout:auto"}

@@ -5,9 +5,9 @@ breadcrumb-title: Komma igång
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 0%
    + [Dela ditt konto](commerce-account-share.md)
    + [Överför ett konto](commerce-account-transfer.md)
 + Webbplatskompatibilitet {#compliance}
-   + [HIPAA-beredskap på Adobe Commerce](hipaa-ready-service.md)
+   + HIPAA-beredskap på Adobe Commerce{#hipaa-ready-service}
+      + [Ökning](hipaa/overview.md)
+      + [Verksamhetsvägledning](hipaa/operations.md)
    + Sekretess {#privacy}
       + [Lagra sekretesspolicy](privacy-policy.md)
       + [CCPA-kompatibilitet](compliance-ccpa.md)
