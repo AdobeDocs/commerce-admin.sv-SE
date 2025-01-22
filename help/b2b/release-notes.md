@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Adobe Commerce B2B] versionsinformation'
+title: Versionsinformation för [!DNL Adobe Commerce B2B]
 description: Granska versionsinformationen för information om ändringar i  [!DNL Adobe Commerce B2B] releaser.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: ad2acb61acc3e7ace3421f51987939394f5d8cbe
+source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
 workflow-type: tm+mt
-source-wordcount: '7801'
+source-wordcount: '7820'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ Versionsinformationen för B2B-tillägget innehåller tillägg och korrigeringar
 *30 oktober 2024*
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"}
-Kompatibel med Adobe Commerce version 2.4.8-beta1, 2.4.7 till 2.4.7-p2, 2.4.6 till 2.4.6-p7
+Kompatibel med Adobe Commerce version 2.4.8-beta1, 2.4.7 till 2.4.7-p2, 2.4.6 till 2.4.6-p7.
+
+Adobe Commerce B2B version 1.5.0 är även kompatibel med PHP 8.3 och stöder [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 B2B v1.5.0 innehåller nya funktioner, kvalitetsförbättringar och felkorrigeringar.
 
