@@ -3,9 +3,9 @@ title: Aktivera resurssynkronisering
 description: Lär dig hur du kopplar ihop dina Adobe Commerce- och Experience Manager Assets-projekt för att möjliggöra resurssynkronisering mellan dessa två system.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: e069f0a99ed9289b22cafe06fe2f787912cbba23
+source-git-commit: e9b3ede8945de0a6ed0cdb02e5675d736764d3e4
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,14 @@ Använd standardregeln *Matcha efter produktsku* för inledande introduktion.
 ## Förutsättningar
 
 - [Konfigurera AEM Experience Manager Assets för att hantera Commerce-resurser](#aem-assets-configure-aem)
+
 - [Installera och konfigurera AEM Assets-integreringen för Commerce](#aem-assets-configure-commerce.md) för att lägga till tillägget och generera nödvändiga autentiseringsuppgifter och anslutningar för att använda tillägget.
+
+- Skapa en supportanmälan för att begära aktivering av AEM Assets Integration. Du måste ange **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** och **[!UICONTROL IMS Org ID]**.
+
+  >[!TIP]
+  >
+  > (Valfritt) Ange **[!UICONTROL Asset Selector IMS Client ID]** om det är tillgängligt.
 
 ## Konfigurera anslutningen
 
@@ -43,11 +50,11 @@ Använd standardregeln *Matcha efter produktsku* för inledande introduktion.
 
 1. Ange AEM Assets-miljön **[!UICONTROL Program ID]** och **[!UICONTROL Environment ID]**.
 
-1. Ange **[!UICONTROL Asset Selector IMS Client ID].
+1. Ange **[!UICONTROL Asset Selector IMS Client ID]** om tillgängligt.
 
-   Med [IMS-ID](../getting-started/adobe-ims-config.md) kan du integrera AEM Assets med Page Builder.
+   [IMS-ID](../getting-started/adobe-ims-config.md) krävs av [[!UICONTROL Assets Selector]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector) som väljer bilder för kategorier och/eller [!DNL Page Builder].
 
-1. Välj [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)** för att autentisera begäranden mellan Commerce och tjänsten för tillgångsmatchning.
+1. Välj [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) för autentisering av begäranden mellan Commerce och tjänsten för tillgångsmatchning.
 
 1. Tillåt att Commerce accepterar inkommande uppdateringar från AEM Assets genom att ange **[!UICONTROL Integration enabled]** till `Yes`.
 

@@ -3,7 +3,7 @@ title: Installera och konfigurera Experience Manager Assets-integrering
 description: Lär dig hur du installerar och konfigurerar  [!DNL AEM Assets Integration for Adobe Commerce]  på en Adobe Commerce-instans.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
+source-git-commit: a2b9fc6584b9d8a57f24d87a9b5ebcdc2f29cbae
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -28,8 +28,10 @@ AEM Assets Integration för Commerce har följande system- och konfigurationskra
 
 **Konfigurationskrav**
 
-- Kontoetablering och behörigheter
+- Kontoetablering och behörigheter:
+
    - [Commerce molnprojektadministratör](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installera nödvändiga tillägg och konfigurera Commerce-programservern från Admin eller kommandoraden
+
    - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - Uppdatera butikskonfigurationen och hantera Commerce-användarkonton
 
 >[!TIP]
