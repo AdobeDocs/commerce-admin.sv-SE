@@ -3,9 +3,9 @@ title: Versionsinformation för [!DNL Adobe Commerce B2B]
 description: Granska versionsinformationen för information om ändringar i  [!DNL Adobe Commerce B2B] releaser.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
+source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7879'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,7 @@ B2B v1.5.0 innehåller nya funktioner, kvalitetsförbättringar och felkorrigeri
 ![Nytt](../assets/new.svg) <!--B2B-2747--> **Företagsomfångsväljare** - Ger möjlighet för företagsanvändare som har tilldelats flera företag att ändra företag i butiken. När omfånget ändras uppdateras data för att visa information baserat på det nya företagssammanhanget. Om det nya företaget till exempel använder en annan delad katalog, ser företagsanvändaren produkter, priser och annan information baserat på den nya delade katalogen. Innehåll som rör order, offerter och offertmallar uppdateras också baserat på det valda företagets sammanhang.
 
 >[!NOTE]
->
->Om företagsanvändaren byter företag med artiklar i kundvagnen, ska kundvagnen uppdateras för att återspegla produktsortiment, priser och kampanjrabatter baserat på det nya företagssammanhanget.
+>Innehållet i kundvagnen återspeglar artiklar som valts av den aktuella kunden. Om kunden har en aktiv kundvagn och väljer ett annat företag uppmanas de att uppdatera kundvagnen för att återspegla produktsortiment, priser och kampanjrabatter baserat på det nya företagssammanhanget. Produkter som inte är tillgängliga i den katalog som är kopplad till det nya företaget tas bort från kundvagnen. Om produkten har ett annat pris eller en annan tillgänglighet uppdateras kundvagnen så att den återspeglar tillgängliga data i det valda företagets kontext.<!--B2B-4222-->
 
 ![Korrigerat problem](../assets/fix.svg)<!--ACP2E-1933--> Företagsadministratörer kan nu lägga till företagsanvändare från butiken. Tidigare loggade Commerce ett fel när en Admin-användare försökte lägga till en ny användare: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
