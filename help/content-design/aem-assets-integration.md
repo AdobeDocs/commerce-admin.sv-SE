@@ -3,7 +3,7 @@ title: Experience Manager Assets Integration för Commerce
 description: Lär dig hur du integrerar Experience Manager Assets med din [!DNL Commerce] -instans för att få tillgång till ett oändligt antal mediefiler som kan användas i din butik.
 feature: CMS, Media, Configuration, Integration
 exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
-source-git-commit: 102f39faada1b303ce5736c9f31bcc673e9e7720
+source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Experience Manager Assets Integration för Commerce
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 Experience Manager Assets Integration för Commerce kombinerar de robusta funktionerna i AEM som ett DAM-system (Digital Asset Management) med Adobe Commerce för att förbättra e-handelsupplevelserna. Dessa funktioner levereras genom att man kopplar ihop Commerce-projekt med AEM kraftfull resurshanteringsmiljö, vilket ger ett smidigt, skalbart och effektivt sätt att hantera och leverera material i butiker.
 
