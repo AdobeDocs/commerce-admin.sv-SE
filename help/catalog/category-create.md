@@ -3,9 +3,9 @@ title: Skapa kategorier
 description: Du kan skapa så många ytterligare underkategorier som behövs, enligt det maximala menydjup som har angetts i konfigurationen.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,11 @@ Definiera även eventuella associerade nyckelord och attribut, till exempel:
 
    - Om du vill använda bilder från medielagringen klickar du på **[!UICONTROL Select from Gallery]** och väljer den bild som du vill visa kategorin.
 
+   I mediegalleriet kan du även använda [Adobe Stock Integration](../content-design/adobe-stock.md) för att hitta rätt bild genom att klicka på **[!UICONTROL Search Adobe Stock]**.
+
    >[!NOTE]
    >
-   >I mediegalleriet kan du även använda [Adobe Stock Integration](../content-design/adobe-stock.md) för att hitta rätt bild genom att klicka på **[!UICONTROL Search Adobe Stock]**.
+   > Om du har aktiverat AEM Assets kan du läsa [Hantera kategorier](../content-design/aem-assets-manage.md) för mer information.
 
 1. För **[!UICONTROL Description]** anger du texten eller annat innehåll som du vill ska visas på kategorilandningssidan.
 
@@ -96,7 +98,7 @@ Definiera även eventuella associerade nyckelord och attribut, till exempel:
 
 1. Om du vill inkludera ett innehållsblock på kategoristartsidan väljer du **[!UICONTROL CMS Block]** som du vill ska visas.
 
-1. klicka på **[!UICONTROL Save]** och fortsätt.
+1. Klicka på **[!UICONTROL Save]** och fortsätt.
 
 ## Steg 4: Slutför visningsinställningarna
 
