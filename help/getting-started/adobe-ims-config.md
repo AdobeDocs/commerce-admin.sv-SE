@@ -3,7 +3,7 @@ title: Konfigurera Commerce Admin-integrering med ID
 description: Följ den här valfria proceduren för att integrera inloggningar för användarkonton i Adobe Commerce Admin med Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 9a9106cde5184823755fb1f44fe7eae300442abc
+source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -61,8 +61,8 @@ Om du vill skapa projekt för en organisation måste Adobe Admin-kontot för org
 1. Klicka på **[!UICONTROL Add API]** på den nyligen skapade projektsidan.
 1. Välj **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Välj **[!UICONTROL Oauth 2.0 Web]**.
-1. Ange **[!UICONTROL Redirect URI]**: `https://<hostname>/`
-1. Ange **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/.*`
+1. Ange **[!UICONTROL Redirect URI]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. Ange **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
 
    Undvik alla punkter i värdnamnet genom att föregå punkterna med `\\`. Om du lägger till ett jokertecken i slutet av URL:en stöds hemlig nyckel för Adobe Commerce Admin.
 
