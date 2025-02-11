@@ -3,9 +3,9 @@ title: Versionsinformation för [!DNL Adobe Commerce B2B]
 description: Granska versionsinformationen för information om ändringar i  [!DNL Adobe Commerce B2B] releaser.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
+source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
 workflow-type: tm+mt
-source-wordcount: '7879'
+source-wordcount: '8177'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,34 @@ Versionsinformationen för B2B-tillägget innehåller tillägg och korrigeringar
 >
 >Mer information om vilka versioner av B2B Commerce-tillägget som stöds för tillgängliga Adobe Commerce-versioner finns i [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
 
+## B2B 1.5.1
+
+*11 februari 2025*
+
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+Kompatibel med Adobe Commerce version 2.4.8-beta1 till 2.4.8-beta2, 2.4.7 till 2.4.7-p3, 2.4.6 till 2.4.9-p8
+
+B2B v1.5.1-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
+
+### Företag
+
+![Korrigerat problem](../assets/fix.svg)<!-- B2B-4422 --> Om en kund försöker byta företag på sidan Offertinformation dirigerar systemet nu om kunden till en *Åtkomst nekad* -sida för att säkerställa att en offert som skapats för ett företag inte kan användas för att göra en beställning med ett annat företags priser. Tidigare kunde en användare skapa en offert med priset för ett företag och sedan byta till ett annat företag för att lägga en order med olika priser.
+
+### Rabatter för radartiklar
+
+![Korrigerat problem](../assets/fix.svg)<!-- B2B-2938 --> Förbättrad systemeffektivitet genom att åtgärda en prestandaförsämring som observerats i offertberäkningsscenariot. Tidigare lades två nya enheter till i varje vagnsradsobjekt, vilket ledde till en märkbar ökning av databasförfrågningar, vilket ledde till lägre prestanda.
+
+### Förhandlingsbar offert
+
+![Ett problem har korrigerats](../assets/fix.svg)<!-- B2B-3820 --> Systemet behåller nu positionen för gränssnittselement när JavaScript-validering tillämpas på fälten *[!UICONTROL min/max qty]* på mallsidan för Luma Storefront-offert. Tidigare förändrades andra gränssnittselement på sidan om du tillämpade JavaScript-validering på dessa fält.
+
+### Kundvagn
+
+![Korrigerat problem](../assets/fix.svg)<!-- B2B-4222 --> Introducerade ett nytt kundvagnshanteringssystem som utformats för att effektivisera shoppingupplevelsen för användare som hanterar flera företagskonton. Det nya systemet kopplar kundvagnar till enskilda företag i stället för till kundkontot för att effektivisera shoppingupplevelsen och förbättra arbetsflödet genom att stödja följande funktioner.
+
+- **Företagsspecifika varukorgar:** - Kundvagnarna är nu kopplade till enskilda företag för att stödja företagsspecifika priser och produktalternativ.
+- **Sömlös växling** - Användare kan enkelt växla mellan olika företagskonton utan att innehållet i respektive företags kundvagn påverkas.
+- **Sammanhangsbaserad integritet** - All kundvagnsinformation finns kvar i respektive företags kontext, vilket ger en konsekvent och tillförlitlig shoppingupplevelse.
 
 ## B2B 1.5.0
 
@@ -94,7 +122,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 ![Ett problem har korrigerats](../assets/fix.svg) **Korrigeringar för befintliga offertfunktioner**
 
-- Handlare som klickar på knappen *[!UICONTROL Print]* i offertdetaljvyn i Admin uppmanas nu att spara offerten som PDF. Tidigare omdirigerades handlarna till en sida med offertinformation. <!--ACP2E-1984-->
+- Handlare som klickar på knappen *[!UICONTROL Print]* i offertdetaljvyn i Admin uppmanas nu att spara offerten som en PDF. Tidigare omdirigerades handlarna till en sida med offertinformation. <!--ACP2E-1984-->
 
 - Tidigare när en kundoffert med `0` procent och varierande kvantitet skickades genereras ett undantag, men kvantiteten sparades. När den här korrigeringen har tillämpats genereras ett fel för `0 percentage` med ett meddelande. <!--ACP2E-1742-->
 
@@ -296,7 +324,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-406-->Adobe Commerce beräknar nu korrekt totalsumman för en överlåtbar offert när skatteberäkningsinställningen **[!UICONTROL Enable Cross Border Trade]** är aktiverad.
 
-![Ett problem har korrigerats](../assets/fix.svg) <!--- ACP2E-322-->Konfigurerbara produkter har flyttats till den sista positionen i produktlistan när Stock har uppdaterats när inställningen **[!UICONTROL Move out of stock to the bottom]** är aktiverad. En ny anpassad databasfråga implementeras för att säkerställa att sorteringsordningen för index i Elasticsearch nu följer den administratörsaktiverade sorteringsordningen. Tidigare flyttades inte konfigurerbara produkter och deras underordnade produkter längst ned i listan när den här inställningen var aktiverad.
+![Ett problem har korrigerats](../assets/fix.svg) <!--- ACP2E-322-->Konfigurerbara produkter har flyttats till den sista positionen i produktlistan när Stock har uppdaterats när inställningen **[!UICONTROL Move out of stock to the bottom]** är aktiverad. En ny anpassad databasfråga har implementerats för att säkerställa att sorteringsordningen i Elasticsearch index nu följer den administratörsaktiverade sorteringsordningen. Tidigare flyttades inte konfigurerbara produkter och deras underordnade produkter längst ned i listan när den här inställningen var aktiverad.
 
 ![Ett problem som har korrigerats](../assets/fix.svg) <!--- ACP2E-308-->E-postmeddelandet om inköpsorder följer nu inställningen för e-postsändning för varje webbplats i en multisitedistribution. En kontroll för inställningen **[!UICONTROL Disable Email Communications]** har lagts till i den anpassade logiken för e-postköer. Tidigare respekterade inte Adobe Commerce inställningen för e-postsändning för den sekundära webbplatsen.
 
@@ -438,7 +466,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ### Rekvisitionslistor
 
-![Korrigerat problem](../assets/fix.svg) <!--- MC-40426--> Merchants kan nu använda POSTENS `rest/all/V1/requisition_lists`-slutpunkt för att skapa en rekvisitionslista för en kund. Tidigare inträffade detta 400-fel i Adobe Commerce när du försökte skapa en rekvisitionslista: `Could not save Requisition List`.
+![Korrigerat problem](../assets/fix.svg) <!--- MC-40426--> Merchants kan nu använda POST `rest/all/V1/requisition_lists`-slutpunkten för att skapa en rekvisitionslista för en kund. Tidigare inträffade detta 400-fel i Adobe Commerce när du försökte skapa en rekvisitionslista: `Could not save Requisition List`.
 
 ![Ett problem har korrigerats](../assets/fix.svg) <!--- MC-41123--> Knappen **[!UICONTROL Add to Requisition List]** visas nu för en kundvagns produkter i lager när vagnen även innehåller produkter som inte finns i lager. Tidigare visades inte knappen _[!UICONTROL Add to Requisition List]_för någon av produkterna om en varukorg innehöll två produkter, varav en inte fanns i lager.
 
@@ -574,7 +602,7 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Korrigerat problem](../assets/fix.svg) Adobe Commerce skickar nu ett e-postmeddelande som bekräftar att en kund har behörighet att överskrida den angivna kreditgränsen när en handlare aktiverar inställningen **[!UICONTROL Allow To Exceed Credit Limit]**. Tidigare angav det e-postmeddelande som Adobe Commerce skickade att kunden inte hade behörighet att överskrida gränsen. <!--- MC-34584-->
 
-![Ett problem har korrigerats](../assets/fix.svg) Behållaren HTML som omger produktpriset i rekvisitionslistor återges nu korrekt för underordnade produkter i paketerade produkter. <!--- MC-36331-->
+![Korrigerat problem](../assets/fix.svg) HTML-behållaren som omger produktpriset i rekvisitionslistor återges nu korrekt för underordnade produkter i paketerade produkter. <!--- MC-36331-->
 
 ![Korrigerat problem](../assets/fix.svg) Marknadsförare kan nu ange vilket språk som företagets användar-e-post ska skickas på när ett företag skapas i flerspråkiga distributioner. Tidigare visades inte den nedrullningsbara menyn som gör det möjligt för handlarna att välja rätt butiksvy och språk.  <!--- MC-35777-->
 
@@ -582,7 +610,7 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Korrigerat problem](../assets/fix.svg) Konfigurationsfliken för B2B-funktioner öppnas nu korrekt. <!--- MC-35458-->Gäster kan nu använda QuickOrder för att lägga till produkter i kundvagnen och sedan ta bort artiklar. Tidigare togs produkten inte bort när en kund använde QuickOrder för att lägga till flera produkter i kundvagnen och sedan tog bort en produkt. <!--- MC-35327-->
 
-![Korrigerat problem](../assets/fix.svg) Ett företag kan nu uppdateras med REST API PUT `/V1/company/:companyId` -begäran utan att ange `region_id` när läget är konfigurerat som **inte krävs**. Tidigare inträffade ett fel i Adobe Commerce om `region_id` inte hade angetts, trots att  inte krävdes. <!--- MC-35304-->
+![Korrigerat problem](../assets/fix.svg) Ett företag kan nu uppdateras med REST API PUT `/V1/company/:companyId` -begäran utan att ange `region_id` när tillståndet är konfigurerat som **inte obligatoriskt**. Tidigare inträffade ett fel i Adobe Commerce om `region_id` inte hade angetts, trots att  inte krävdes. <!--- MC-35304-->
 
 ![Korrigerat problem](../assets/fix.svg) När du skapar eller uppdaterar ett B2B-företag med REST API (`http://magento.local/rest/V1/company/2`, där `2` representerar företags-ID), innehåller svaret nu inställningarna för `applicable_payment_method` eller `available_payment_methods` som förväntat. <!--- MC-35248-->
 
@@ -632,7 +660,7 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Ny](../assets/new.svg) inloggning som kund ingår nu som standard i Adobe Commerce. Med den här funktionen kan webbplatspersonalen hjälpa kunderna genom att logga in som kunden för att se vad de ser.
 
-![Åtgärdat problem](../assets/fix.svg) Attributaggregering fungerar nu korrekt för navigering i lager med Elasticsearch
+![Åtgärdat problem](../assets/fix.svg) Attributaggregering fungerar nu korrekt för lagernavigering med Elasticsearch
 
 ![Ett problem har korrigerats](../assets/fix.svg) Sökordningarna efter specialtecken fungerar nu korrekt.
 
