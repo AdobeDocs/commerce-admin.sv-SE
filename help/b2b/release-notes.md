@@ -3,9 +3,9 @@ title: Versionsinformation för [!DNL Adobe Commerce B2B]
 description: Granska versionsinformationen för information om ändringar i  [!DNL Adobe Commerce B2B] releaser.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
+source-git-commit: f91d3b669fcb6112510b9845535c4373a05ce8fe
 workflow-type: tm+mt
-source-wordcount: '8177'
+source-wordcount: '8313'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,21 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 ![Åtgärdat problem](../assets/fix.svg) <!--ACP2E-1825-->Inköpsorder kan inte längre placeras av en användare som är associerad med företaget efter att företaget har blockerats. Tidigare kunde en användare som är associerad med företaget göra inköpsorder när företaget blockerades.
 
+## B2B v1.4.2-p4
+
+*11 februari 2025*
+
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+
+![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p4+ och 2.4.6-p9+ har lagts till.
+
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att instansen använder PHP version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen. Dessutom stöder inte B2B 1.4.2+-versionen [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+
 ## B2B v1.4.2-p3
 
 *8 oktober 2024*
@@ -248,6 +263,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 Du kan åtgärda det här problemet genom att lägga till manuella beroenden för B2B-säkerhetspaketet genom att lägga till manuella beroenden för B2B-säkerhetspaketet med en [stabilitetstagg](https://getcomposer.org/doc/04-schema.md#package-links). Instruktioner finns i [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
+## B2B v1.3.5-p9
+
+*11 februari 2025*
+
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+
+![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.6-p9 har lagts till.
+
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+
 ## B2B v1.3.5-p8
 
 *8 oktober 2024*
@@ -301,6 +326,16 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 ![Åtgärdat problem](../assets/fix.svg) <!--- ACP2E-2456--> Kategorifrågor returnerar nu produktpriser enligt butikens konfigurationsinställningar när det inte finns någon kategoribehörighet uttryckligen angiven för kategorin som frågas.
 
 ![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-6829--> Knappen **[!UICONTROL Place Order]** fungerar nu som väntat när du slutför ett köp med en godkänd offertförfrågan. Problem med den överlåtbara offerten `negotiableQuoteCheckoutSessionPlugin` har lösts.
+
+## B2B v1.3.4-p11
+
+*11 februari 2025*
+
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+
+![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.5-p11 har lagts till.
+
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 ## B2B v1.3.4-p10
 
