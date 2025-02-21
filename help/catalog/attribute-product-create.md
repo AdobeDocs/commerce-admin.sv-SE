@@ -3,9 +3,9 @@ title: Skapa och ta bort produktattribut
 description: Lär dig hur du skapar och tar bort produktattribut, som används för att beskriva specifika egenskaper för produkterna i din katalog.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONT
    | Egenskap | Beskrivning |
    |--- |--- |
    | `Text Field` | Ett enradigt inmatningsfält för text. |
-   | `Text Area` | Ett inmatningsfält med flera rader för att skriva textstycken, som en produktbeskrivning. Du kan använda WYSIWYG-redigeraren för att formatera texten med HTML-taggar, eller ange taggarna direkt i texten. |
+   | `Text Area` | Ett inmatningsfält med flera rader för att skriva textstycken, som en produktbeskrivning. Du kan använda WYSIWYG Editor för att formatera texten med HTML-taggar eller ange taggarna direkt i texten. |
    | `Text Editor` | En fullt fungerande textredigerare på attributplatsen. |
    | Datum | Visar ett datumvärde i det [önskade formatet](attributes-input-types.md#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**Beroende på systemkonfigurationen kan_Admin _-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Visar en nedrullningsbar lista med fördefinierade alternativ för `Yes` och `No`. |
@@ -63,6 +63,10 @@ Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONT
 ## Steg 2: Beskriv de avancerade egenskaperna (om det behövs)
 
 1. Ange en unik **[!UICONTROL Attribute Code]** i gemener och utan mellanslag.
+
+   >[!NOTE]
+   >
+   >Du bör inte använda värdet `type` i fältet [!UICONTROL Attribute Code]. Detta kan orsaka fel eftersom värdet `type` är reserverat för systemanvändning.
 
    ![Produktattribut - avancerade egenskaper](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
