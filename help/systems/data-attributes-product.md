@@ -3,7 +3,7 @@ title: Referens för produktdataattribut
 description: Använd den här referensen för produktdataattribut när du arbetar med import och export av produktdata.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
 workflow-type: tm+mt
 source-wordcount: '2473'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Den installation som används för att exportera dessa data har exempeldata inst
 | `store_view_code` | Identifierar de specifika butiksvyer där produkten är tillgänglig. Om den är tom är produkten tillgänglig i standardbutiksvyn. Till exempel: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Tilldelar produkten till en specifik attributuppsättning eller produktmall, beroende på produkttyp. När produkten har skapats kan attributuppsättningen inte ändras. Till exempel: `default` |
 | `product_type` | Anger typen av produkt. Värden:<br/>`simple` - Materiella artiklar som vanligen säljs som enstaka enheter eller i fasta kvantiteter.<br/>`grouped` - En grupp separata produkter som säljs som en uppsättning.<br/>`configurable` - En produkt med flera alternativ som kunden måste välja innan han/hon kan göra ett köp. Inventering kan hanteras för varje uppsättning variationer eftersom de representerar en separat produkt med en distinkt SKU. En kombination av färg och storlek för en konfigurerbar produkt kopplas till exempel till en specifik SKU i katalogen.<br/>`virtual` - En icke-materiell produkt som inte kräver frakt och som inte finns i lager. Exempel är tjänster, medlemskap och prenumerationer.<br/>`bundle` - En anpassningsbar produktuppsättning med enkla produkter som säljs tillsammans. |
-| `categories` | Anger varje kategori som har tilldelats produkten. Separata kategorier och underkategorier med ett snedstreck. Om du vill ange flera kategorisökvägar avgränsar du varje bana med ett rör | symbol. Till exempel: `Default Category/Gear&#124;Default Category/Gear/Bags` |
+| `categories` | Anger varje kategori som har tilldelats produkten. Separata kategorier och underkategorier med ett snedstreck. Om du vill ange flera kategorisökvägar avgränsar du varje bana med ett rör \| symbol. Till exempel: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | Webbplatskoden för varje webbplats där produkten finns tillgänglig. En enskild produkt kan tilldelas flera webbplatser, eller begränsas till en. Om du anger flera webbplatser avgränsar du dem med kommatecken och utan mellanslag. Till exempel: `base` eller `base,website2` |
 | `name` | Produktnamnet visas i alla produktlistor och är det namn som kunderna använder för att identifiera produkten. |
 | `description` | Produktbeskrivningen innehåller detaljerad information om produkten och kan innehålla enkla HTML-taggar. |
