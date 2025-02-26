@@ -4,9 +4,9 @@ description: Lär dig hur du skapar administratörskonton och tilldelar roller f
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 När din butik installeras första gången skapas ett administratörskonto med inloggningsuppgifter som ger dig fullständig administrativ åtkomst. Det är en god vana att skapa ett annat användarkonto med fullständig administratörsåtkomst. På så sätt kan du använda ett konto för dina dagliga administrativa aktiviteter och reservera det andra som ett superadministratörskonto. Detta kan vara praktiskt om du glömmer dina vanliga inloggningsuppgifter eller om de på något sätt blir oanvändbara.
 
-Om det finns andra i teamet eller tjänsteleverantörerna som behöver åtkomst, kan du skapa ett separat användarkonto för varje och tilldela begränsad åtkomst baserat på vad de behöver veta. Om du vill begränsa vilka webbplatser eller arkiv som användare kan få åtkomst till i Admin måste du först [skapa en roll](permissions-user-roles.md) med begränsad omfattning och endast de resurser som krävs är valda. Sedan kan du tilldela rollen till ett specifikt användarkonto. Administratörsanvändare som har tilldelats en begränsad roll kan endast visa och ändra data för webbplatser eller butiker som är associerade med rollen, men kan inte ändra några globala inställningar eller data.
+Om andra teammedlemmar eller tjänsteleverantörer behöver åtkomst kan du skapa enskilda användarkonton för dem och tilldela begränsad åtkomst baserat på deras specifika affärsbehov. Om du vill begränsa vilka webbplatser eller arkiv som användare kan få åtkomst till i Admin måste du först [skapa en roll](permissions-user-roles.md) med begränsad omfattning och endast de resurser som krävs är valda. Sedan kan du tilldela rollen till ett specifikt användarkonto. Administratörsanvändare som har tilldelats en begränsad roll kan endast visa och ändra data för webbplatser eller butiker som är associerade med rollen, men kan inte ändra några globala inställningar eller data.
 
 >[!NOTE]
 >
->Adobe Commerce-handlare som har en Adobe ID och vill ha en smidig inloggning på Adobe Commerce och Adobe Business-produkter kan integrera Commerce-autentisering med Adobe IMS-autentiseringsarbetsflödet. När den här integreringen har aktiverats för din Commerce Store måste varje Admin-användare använda sina inloggningsuppgifter för Adobe, inte sina Commerce-uppgifter, för att kunna logga in. Se [Integreringsöversikt för Adobe Identity Management-tjänsten (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Adobe Commerce-handlare som har en Adobe ID och vill ha en smidig inloggning på Adobe Commerce- och Adobe Business-produkter kan integrera Commerce-autentisering med Adobe IMS-autentiseringsarbetsflödet. När integreringen har aktiverats för din Commerce Store måste varje Admin-användare använda sina Adobe-inloggningsuppgifter - inte Commerce-inloggningsuppgifter - för att logga in. Se [Integreringsöversikt för Adobe Identity Management-tjänst (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 För användare och roller som är tillfälliga kan du även ange ett förfallodatum för användarkontot.
 
