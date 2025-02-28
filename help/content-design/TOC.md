@@ -1,11 +1,11 @@
 ---
 user-guide-title: Content and Design Guide
-user-guide-description: Omfattande information om innehåll och designfunktioner för Adobe Commerce- och Magento Open Source-administratörer och e-handelskunder.
+user-guide-description: Omfattande information om innehåll och designfunktioner för Adobe Commerce- och Magento Open Source-administratörer och e-handelns marknadsförare.
 breadcrumb-title: Innehåll och design
 feature: CMS, Page Content
-source-git-commit: 102f39faada1b303ce5736c9f31bcc673e9e7720
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,16 @@ ht-degree: 0%
       - [Resurshantering](media-gallery-asset-management.md)
       - [Mapphantering](media-gallery-folder-management.md)
       - [Bildoptimering](media-gallery-image-optimization.md)
-- Resurshantering med AEM Assets {#aem-asset-management}
-   - [AEM Assets Integration för Commerce](aem-assets-integration.md)
-   - Konfigurera integreringen {#onboarding}
-      - [Ökning](aem-assets-setup.md)
+- AEM Assets-integrering för Commerce {#aem-asset-management}
+   - [Integrationsöversikt](aem-assets-integration.md)
+   - [Versionsinformation](aem-assets-release-notes.md)
+   - Komma igång {#onboarding}
+      - [Konfigurera AEM Assets](aem-assets-onboard.md)
       - [Konfigurera AEM Assets](aem-assets-configure-aem.md)
       - [Konfigurera Adobe Commerce](aem-assets-configure-commerce.md)
       - [Aktivera resurssynkronisering](aem-assets-setup-synchronization.md)
-   - [Hantera resurser](aem-assets-manage.md)
+   - Hantera resurser {#manage}
+      - [Använd AEM Assets med Commerce](aem-assets-manage.md)
 - Media {#media}
 - Mellanlagring av innehåll {#staging}
    - [Ökning](content-staging.md)

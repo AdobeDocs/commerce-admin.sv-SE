@@ -3,9 +3,9 @@ title: Använd AEM Assets
 description: Hantera ert mediematerial i butiken med AEM Assets.
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
-source-git-commit: 304669de832224bc6a0c97fc9ab1f72e29cad4cd
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Mer information finns i följande AEM Assets-dokumentation.
 
 - [Godkänn en resurs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
-## Hantera kategorier
+## Lägga till resurser i kategoriinnehåll
 
 Du kan lägga till resurser i katalogkategoriinnehåll när du har aktiverat och konfigurerat AEM Assets-integreringen:
 
