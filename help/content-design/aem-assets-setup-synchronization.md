@@ -3,9 +3,9 @@ title: Aktivera resurssynkronisering
 description: Lär dig hur du kopplar ihop dina Adobe Commerce- och Experience Manager Assets-projekt för att möjliggöra resurssynkronisering mellan dessa två system.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
+source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ När du har identifierat AEM-resursprojektet väljer du matchningsregeln för at
 
 - **[!UICONTROL Custom match]** - Matchningsregel för mer komplexa scenarier eller specifika affärskrav som kräver anpassad matchningslogik. Implementering av anpassad matchning kräver utveckling av anpassad kod i Adobe Developer App Builder för att definiera hur resurser matchas med produkter. Mer information kommer snart...
 
-Använd standardregeln *Matcha efter produktsku* för inledande introduktion.
+Använd standardregeln *Matcha efter produktsku* för den första konfigurationen.
 
 ## Förutsättningar
 
