@@ -3,7 +3,7 @@ title: HIPAA-beredskap på Adobe Commerce
 description: Läs om hur du kan lägga till tillägget Adobe Commerce HIPAA-Ready och få ytterligare funktioner som gör att du kan uppfylla dina skyldigheter enligt HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: b380977e74c7f49c4d179e633242e3d7e6b1e1e7
+source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**Juridisk ansvarsfriskrivning**<br/>
->Den här informationen är avsedd att hjälpa Adobe-kunder att besvara sina frågor om Adobe HIPAA-Ready Services. Den utgör inte juridisk rådgivning. Handlarna bör samråda med sitt eget juridiska ombud för att förstå sina skyldigheter enligt HIPAA och hur Adobe produkter används och konfigureras på lämpligt sätt.
+>Den här informationen är avsedd att hjälpa Adobe-kunder att besvara sina frågor om Adobe HIPAA-Ready Services. Den utgör inte juridisk rådgivning. Handlarna bör samråda med sitt eget juridiska ombud för att förstå sina skyldigheter enligt HIPAA och att Adobe produkter används och konfigureras på lämpligt sätt.
 
 >[!BEGINSHADEBOX]
 
 **HIPAA (Health Insurance Portability and Accounability Act)**
 
-HIPAA (Health Insurance Portability and Accounability Act) är den viktigaste federala hälso- och sjukvårdslagstiftningen i USA och regleras av USA:s Department of Health and Human Services (HHS). HIPAA gäller för _täckta entiteter_ (t.ex. vårdgivare, försäkringsgivare och clearinghus) och _Business Associates_ (t.ex. de entiteter som tillhandahåller tjänster till täckta entiteter). HIPAA-kraven anges i tre separata regler: sekretessregel, säkerhetsregel och regel för meddelanden om överträdelser. Adobe fungerar som Business Associate för vissa produkter, som Adobe klassificerar som&quot;HIPAA-Ready Services&quot;. Data som regleras under HIPAA kallas _Skyddad hälsoinformation_ eller PHI. PHI är en delmängd av hälsoinformation som (1) skapas eller tas emot av en vårdgivare, en hälsoplan eller en vårdcentral, (2) avser en individs tidigare, nuvarande eller framtida fysiska eller psykiska hälsa eller tillstånd, tillhandahållande av hälso- och sjukvård till en individ eller tidigare, nuvarande eller framtida betalning för tillhandahållande av hälso- och sjukvård till en individ, och (3) identifierar den individ eller med avseende på vilken det finns en rimlig grund att tro informationen kan användas för att identifiera den enskilda personen. HIPAA:s sekretess- och säkerhetsregler kräver att en enhet som omfattas erhåller skriftliga garantier från en Business Associate i form av ett Business Associate-avtal, eller BAA, som kräver att Business Associate ska skydda integriteten och säkerheten för de berörda enheternas PHI. Mer information finns i [HIPAA och Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) i Adobe Trust Center.
+HIPAA (Health Insurance Portability and Accounability Act) är den viktigaste federala hälso- och sjukvårdslagstiftningen i USA och regleras av USA:s Department of Health and Human Services (HHS). HIPAA gäller för _täckta entiteter_ (t.ex. vårdgivare, försäkringsgivare och clearinghus) och _Business Associates_ (t.ex. de entiteter som tillhandahåller tjänster till täckta entiteter). HIPAA-kraven anges i tre separata regler: sekretessregel, säkerhetsregel och regel för meddelanden om överträdelser. Adobe fungerar som Business Associate för vissa produkter som Adobe klassificerar som&quot;HIPAA-Ready Services&quot;. Data som regleras under HIPAA kallas _Skyddad hälsoinformation_ eller PHI. PHI är en delmängd av hälsoinformation som (1) skapas eller tas emot av en vårdgivare, en hälsoplan eller en vårdcentral, (2) avser en individs tidigare, nuvarande eller framtida fysiska eller psykiska hälsa eller tillstånd, tillhandahållande av hälso- och sjukvård till en individ eller tidigare, nuvarande eller framtida betalning för tillhandahållande av hälso- och sjukvård till en individ, och (3) identifierar den individ eller med avseende på vilken det finns en rimlig grund att tro informationen kan användas för att identifiera den enskilda personen. HIPAA:s sekretess- och säkerhetsregler kräver att en enhet som omfattas erhåller skriftliga garantier från en Business Associate i form av ett Business Associate-avtal, eller BAA, som kräver att Business Associate ska skydda integriteten och säkerheten för de berörda enheternas PHI. Mer information finns i [HIPAA och Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) i Adobe Trust Center.
 
 >[!ENDSHADEBOX]
 
@@ -29,13 +29,13 @@ HIPAA (Health Insurance Portability and Accounability Act) är den viktigaste fe
 
 Utbyggnaden av Adobe Commerce HIPAA-Ready lägger till ytterligare funktioner och funktioner i Adobe Commerce-installationer som gör att handlarna kan uppfylla sina respektive HIPAA-skyldigheter.
 
-Adobe Commerce HIPAA-Ready-tillägget, `magento/hipaa-ee`, är tillgängligt för Adobe Commerce i molninfrastruktur eller Adobe Managed Services-projekt. Installationsprocessen för Adobe Commerce HIPAA-Ready inaktiverar vissa inbyggda tjänster och funktioner som uppfyller kraven för HIPAA. Se [Inaktiverade tjänster och funktioner](#disabled-services-and-features).
+Adobe Commerce HIPAA-Ready-tillägget `magento/hipaa-ee` är tillgängligt för Adobe Commerce i molninfrastruktur eller Adobe Managed Services-projekt. Installationsprocessen för Adobe Commerce HIPAA-Ready inaktiverar vissa inbyggda tjänster och funktioner som uppfyller kraven för HIPAA. Se [Inaktiverade tjänster och funktioner](#disabled-services-and-features).
 
 >[!NOTE]
 >
 >Tillgång till HIPAA-funktioner är endast tillgänglig för handlare som har köpt tillägget för hälsovård för Adobe Commerce.
 
-*De här materialen är endast avsedda som information. Tillhandahållande av denna information berättigar inte mottagaren till några avtalsmässiga eller andra rättigheter. Även om det har gjorts ansträngningar för att säkerställa att informationen är korrekt från och med den dag då den har lämnats, finns det ingen representation om att informationen är korrekt och fullständig. Adobe förbinder sig inte att uppdatera denna information eftersom lagen eller Adobe ändras. Dokumentet ska inte distribueras till någon annan part än den avsedda mottagaren utan skriftligt medgivande från Adobe.*
+*De här materialen är endast avsedda som information. Tillhandahållande av denna information berättigar inte mottagaren till några avtalsmässiga eller andra rättigheter. Även om det har gjorts ansträngningar för att säkerställa att informationen är korrekt från och med den dag då den har lämnats, finns det ingen representation om att informationen är korrekt och fullständig. Adobe har ingen skyldighet att uppdatera denna information när lagen eller Adobe produkter ändras. Dokumentet får inte distribueras till någon annan part än den avsedda mottagaren utan skriftligt medgivande från Adobe.*
 
 ## Systemkrav
 
@@ -52,11 +52,11 @@ Adobe Commerce måste distribueras på antingen Adobe Commerce i molninfrastrukt
 
 >[!ENDSHADEBOX]
 
-Installera den senaste versionen av tillägget Adobe HIPAA-Ready Services (`magento/hipaa-ee`) på en instans som kör Adobe Commerce version 2.4.6-p3 - 2.4.6-p8. Tillägget levereras som ett kompositmetapaket från databasen [repo.magento.com](https://repo.magento.com). Metapaketet innehåller en samling moduler som aktiverar HIPAA-funktionerna för en Adobe Commerce-instans.
+Installera den senaste versionen av Adobe HIPAA-Ready Services-tillägg (`magento/hipaa-ee`) på en instans som kör Adobe Commerce version 2.4.6-p3 - 2.4.6-p8. Tillägget levereras som ett kompositmetapaket från databasen [repo.magento.com](https://repo.magento.com). Metapaketet innehåller en samling moduler som aktiverar HIPAA-funktionerna för en Adobe Commerce-instans.
 
 >[!NOTE]
 >
->Information om hur du ser till att data för backoffice-händelser som skickas till Experience Platform är HIPAA-klara finns i [tilläggsguiden för dataanslutning](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Information om hur du ser till att data som skickas till Experience Platform är HIPAA-klara finns i [tilläggsguiden för dataanslutning](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. På din lokala arbetsstation byter du till projektkatalogen för ditt Adobe Commerce i molninfrastrukturprojekt.
 
@@ -64,7 +64,7 @@ Installera den senaste versionen av tillägget Adobe HIPAA-Ready Services (`mage
    >
    >Mer information om att hantera Commerce projektmiljöer lokalt finns i [Hantera grenar med CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) i _Adobe Commerce on Cloud Infrastructure User Guide_.
 
-1. Kolla in miljögrenen för att uppdatera med Adobe Commerce Cloud CLI.
+1. Checka ut miljögrenen för att uppdatera med Adobe Commerce Cloud CLI.
 
    ```shell
    magento-cloud environment:checkout <environment-id>
@@ -159,7 +159,7 @@ Värden:
 3. Namnet på kolumnen ***Fullständigt åtgärdsnamn*** har ändrats till ***Mål***
    - ***Mål***: Visar åtgärdsnamnet.
 Värden:
-      - en slutpunkt om Source är en REST API eller SOAP API
+      - en slutpunkt om Source är ett REST API eller SOAP API
       - en fråga eller ett mutationsnamn om ett GraphQL-API
       - ett åtgärdsnamn om ett administratörsgränssnitt eller kundgränssnitt används.
 
@@ -265,8 +265,8 @@ Följande tabell visar vilka Adobe Commerce-tjänster som är tillgängliga för
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | Ja | Ja |
 | [API-nät för Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
 | [SaaS-dataexport](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) | Ja | Ja |
-| [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overviewhttps://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | Nej | Nej |
-| [Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | Nej | Nej |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | Nej | Nej |
+| [Produktrekommendationer](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | Nej | Nej |
 | [Betalningstjänster](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) | Nej | Nej |
 | [Återkommande Office-händelser för dataanslutning](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
 | [Händelser för dataanslutningsarkiv](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events) | Nej | Nej |

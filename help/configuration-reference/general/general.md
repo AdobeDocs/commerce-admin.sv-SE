@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL General] i Commerce Admin.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 54f6c7abf38e4368a843b7cf042ccd9af19239b2
+source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -117,6 +117,6 @@ Mer information om hur du ändrar de här inställningarna finns i [Enkelt lagri
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | Global | Den här konfigurationen är inaktiverad som standard om du är vårdkund och har installerat tillägget [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation). Detta innebär att händelsedata för storefront som används av Live Search och Product Recommendations inte längre hämtas. Detta beror på att händelsedata för storefront genereras på klientsidan. Om du vill fortsätta att hämta och skicka händelsedata för butiker som ska användas av [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)- och [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview)-tjänsterna anger du **Commerce Events Enabled** till `Yes`. |
+| [!UICONTROL Commerce Events Enabled] | Global | Den här konfigurationen är inaktiverad som standard om du är vårdkund och har installerat tillägget [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness). Detta innebär att händelsedata för storefront som används av Live Search och produktrekommendationer inte längre registreras. Detta beror på att händelsedata för storefront genereras på klientsidan. Om du vill fortsätta att hämta och skicka händelsedata för butiker som ska användas av tjänsterna [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) och [Produktrekommendationer](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) anger du **Commerce Events Enabled** till `Yes`. |
 
 {style="table-layout:auto"}
