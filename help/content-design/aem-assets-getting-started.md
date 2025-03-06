@@ -3,9 +3,9 @@ title: Konfigurera AEM Assets Integration för Commerce
 description: Lär dig hur du konfigurerar och konfigurerar din Experience Manager Assets-miljö för att hantera Commerce-resurser för din butik.
 feature: CMS, Media, Configuration
 exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
-source-git-commit: 934473c5124002b3b0b1bee2da47afff468406dc
+source-git-commit: 98c40c779e1fe705cf1bd47331537bc7b7235921
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,8 @@ För att utnyttja integreringen måste företagen uppfylla följande krav:
 
 Att möjliggöra Commerce-integrering med Experience Manager Assets är en trestegsprocess:
 
-1. [Konfigurera ditt Adobe Experience Manager-resursprojekt för att hantera Adobe Commerce-resurser](aem-assets-configure-aem.md).
+1. [Installera AEM Assets-paketet](aem-assets-configure-aem.md).
 
-1. [Installera Adobe Experience Manager Assets-integreringen för tillägget Commerce och konfigurera Adobe Commerce](aem-assets-configure-aem.md).
+1. [Installera Adobe Commerce-paket](aem-assets-configure-aem.md).
 
-1. [Aktivera resurssynkronisering](aem-assets-setup-synchronization.md).
+1. [Konfigurera integrationsresursen](aem-assets-setup-synchronization.md).

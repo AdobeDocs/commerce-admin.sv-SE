@@ -1,22 +1,24 @@
 ---
-title: Installera och konfigurera Experience Manager Assets-integrering
-description: Lär dig hur du installerar och konfigurerar  [!DNL AEM Assets Integration for Adobe Commerce]  på en Adobe Commerce-instans.
+title: Installera Adobe Commerce-paket
+description: Lär dig hur du installerar tillägget  [!DNL AEM Assets Integration for Adobe Commerce] och på en Adobe Commerce-instans.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: bdfff57ed5bbf2ae460c382d9cfbaef0ebcaa2e8
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
 
-# Installera och konfigurera AEM Assets Integration för Commerce
+# Installera Adobe Commerce-paket
 
-Förbered Commerce-miljön för att använda AEM Assets Integration för Commerce genom att installera PHP-tillägget `aem-assets-integration`. Uppdatera sedan administratörskonfigurationen för att aktivera kommunikation och arbetsflöden mellan Adobe Commerce och AEM Assets.
+AEM Assets Integration för Commerce-tillägget (`aem-assets-integration`) aktiverar synkronisering av resurser mellan Adobe Commerce och Adobe Experience Manager Assets. Tillägget innehåller en uppsättning verktyg och tjänster för att hantera resurser, inklusive produktbilder, videor och andra medieresurser, på båda plattformarna.
+
+Lägg till det här tillägget i Commerce-miljön genom att installera PHP-tillägget `aem-assets-integration`. Du måste också aktivera Adobe I/O Events för Commerce och generera de inloggningsuppgifter som krävs för kommunikation och arbetsflöden mellan Adobe Commerce och Adobe Experience Manager Assets.
 
 ## Systemkrav
 
-AEM Assets Integration för Commerce har följande system- och konfigurationskrav.
+Tillägget AEM Assets Integration för Commerce har följande system- och konfigurationskrav.
 
 **Programvarukrav**
 
@@ -24,38 +26,32 @@ AEM Assets Integration för Commerce har följande system- och konfigurationskra
 - PHP 8.1, 8.2, 8.3
 - Disposition: 2.x
 
-**Konfigurationskrav**
+**Åtkomstkrav**
 
-- Kontoetablering och behörigheter:
+Du behöver följande roller och behörigheter för att konfigurera integreringen.
 
-   - [Commerce molnprojektadministratör](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installera nödvändiga tillägg och konfigurera Commerce-programservern från Admin eller kommandoraden
+- [Commerce molnprojektadministratör](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installera nödvändiga tillägg och konfigurera Commerce-programservern från Admin eller kommandoraden.
 
-   - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - Uppdatera butikskonfigurationen och hantera Commerce-användarkonton
+   - Åtkomst till [repo.magento.com](https://repo.magento.com/admin/dashboard) för att installera tillägget.
+
+     Om du vill ha nyckelgenerering och de nödvändiga rättigheterna kan du läsa [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Information om molninstallationer finns i [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+
+- [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - Uppdatera butikskonfigurationen och hantera Commerce-användarkonton.
 
 >[!TIP]
 >
 > Adobe Commerce kan konfigureras att använda [Adobe IMS-autentisering](/help/getting-started/adobe-ims-config.md).
 
-## Arbetsflöde för konfiguration
+## Arbetsflöde för installation och konfiguration
 
-Aktivera integreringen genom att utföra följande uppgifter:
+Installera Adobe Commerce-paketet och förbered Commerce-miljön genom att utföra följande uppgifter:
 
-1. [Installera AEM Assets Integration-tillägget (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
+1. [Installera AEM Assets Integration för Commerce-tillägget (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
 1. [Konfigurera Commerce Services Connector](#configure-the-commerce-services-connector) för att ansluta din Adobe Commerce-instans och med de tjänster som gör att data kan överföras mellan Adobe Commerce och AEM Assets.
 1. [Konfigurera Adobe I/O Events för Commerce](#configure-adobe-io-events-for-commerce)
 1. [Hämta autentiseringsuppgifter för API-åtkomst](#get-authentication-credentials-for-api-access)
 
 ## Installera tillägget `aem-assets-integration`
-
-Följande behörigheter krävs för att installera tillägget:
-
-- Åtkomst till [repo.magento.com](https://repo.magento.com/admin/dashboard) för att installera tillägget.
-
-  Om du vill ha nyckelgenerering och de nödvändiga rättigheterna kan du läsa [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Information om molninstallationer finns i [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
-
-- Åtkomst till kommandoraden på Adobe Commerce-programservern.
-
-### Lägg till tillägget i din Commerce-miljö
 
 Installera den senaste versionen av AEM Assets Integration-tillägget (`aem-assets-integration`) på en Adobe Commerce-instans med version Adobe Commerce 2.4.5+. AEM Asset Integration levereras som ett kompositmetapaket från databasen [repo.magento.com](https://repo.magento.com/admin/dashboard).
 
@@ -159,7 +155,7 @@ När du sparar konfigurationen genererar systemet SaaS-projekt- och databas-ID:n
 
 AEM Assets Integration använder Adobe I/O Events-tjänsten för att skicka anpassade händelsedata mellan Commerce-instansen och Experience Cloud. Händelsedata används för att koordinera arbetsflöden för AEM Assets-integrering.
 
-Innan du konfigurerar Adobe I/O-händelser ska du kontrollera konfigurationen av RabbitMQ och cron-jobbet för ditt Commerce-projekt:
+Innan du konfigurerar Adobe I/O Events bör du kontrollera konfigurationen av RabbitMQ och cron-jobbet för ditt Commerce-projekt:
 
 - Kontrollera att RabbitMQ är aktiverat och lyssnar efter händelser.
    - [Installationsprogram för RabbitMQ för Adobe Commerce lokalt](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
@@ -175,6 +171,10 @@ Innan du konfigurerar Adobe I/O-händelser ska du kontrollera konfigurationen av
 
 Aktivera händelseramverket från Commerce Admin.
 
+>[!NOTE]
+>
+>App Builder-konfiguration krävs bara om du tänker använda en anpassad matchningsstrategi för att synkronisera resurser mellan Commerce och AEM Assets.
+
 1. Gå till **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events** i Admin.
 
 1. Expandera **[!UICONTROL Commerce events]**.
@@ -183,7 +183,7 @@ Aktivera händelseramverket från Commerce Admin.
 
    ![Konfiguration av Adobe I/O Events Commerce Admin - aktivera Commerce-händelser](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
-1. Ange handlarens företagsnamn i fälten **[!UICONTROL Merchant ID]** och miljönamnet i **[!UICONTROL Environment ID]**. Använd endast alfanumeriska tecken och understreck när du anger dessa värden.
+1. Ange handlarens företagsnamn i **[!UICONTROL Merchant ID]** och miljönamnet i fälten **[!UICONTROL Environment ID]**. Använd endast alfanumeriska tecken och understreck när du anger dessa värden.
 
 >[!BEGINSHADEBOX]
 
@@ -209,13 +209,13 @@ I följande anpassade VCL-kodfragment (JSON-format) visas ett exempel med ett `X
 
 Innan du skapar ett fragment baserat på det här exemplet ska du granska värdena för att avgöra om du behöver göra några ändringar:
 
-- `name`: VCL-fragmentets namn. I det här exemplet använde vi namnet `blockbyuseragent`.
+- `name`: VCL-fragmentets namn. I det här exemplet används namnet `blockbyuseragent`.
 
-- `dynamic`: Anger fragmentversionen. I det här exemplet använde vi `0`. Mer information om datamodellen finns i [Snabbt VCL-kodfragment](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/).
+- `dynamic`: Anger fragmentversionen. I det här exemplet används `0`. Mer information om datamodellen finns i [Snabbt VCL-kodfragment](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/).
 
-- `type`: Anger typen av VCL-fragment, som bestämmer fragmentets plats i den genererade VCL-koden. I det här exemplet har vi använt `recv`. Se [Snabb VCL-fragmentreferens](https://docs.fastly.com/api/config#api-section-snippet) för en lista över fragmenttyper.
+- `type`: Anger typen av VCL-fragment, som bestämmer fragmentets plats i den genererade VCL-koden. I det här exemplet används `recv`. I [Snabbt VCL-fragmentreferens](https://www.fastly.com/documentation/reference/api/#api-section-snippet) finns en lista med fragmenttyper.
 
-- `priority`: Avgör när VCL-fragmentet körs. I det här exemplet används prioriteten `5` för att omedelbart köra och kontrollera om en administratörsbegäran kommer från en tillåten IP-adress.
+- `priority`: Avgör när VCL-fragmentet körs. I det här exemplet används prioriteten `5` för att köras omedelbart och kontrollera om en administratörsbegäran kommer från en tillåten IP-adress.
 
 - `content`: Det VCL-kodfragment som ska köras, som kontrollerar klientens IP-adress. Om IP-adressen finns i Edge ACL blockeras den från åtkomst med ett `405 Not allowed`-fel för hela webbplatsen. Alla andra IP-adresser för klienter har åtkomst.
 
@@ -253,7 +253,7 @@ Du genererar autentiseringsuppgifterna genom att lägga till integreringen i Com
 
 1. Klicka på **[!UICONTROL Save]**.
 
-### Generera autentiseringsuppgifter
+### Generera OAuth-autentiseringsuppgifter
 
 Generera autentiseringsuppgifterna för OAuth på integreringssidan genom att klicka på **Aktivera** för Assets-integreringen. Du behöver dessa autentiseringsuppgifter för att registrera Commerce-projektet med tjänsten Assets Rule Engine och för att skicka API-begäranden för att hantera resurser mellan Adobe Commerce och AEM Assets.
 
@@ -273,4 +273,4 @@ Generera autentiseringsuppgifterna för OAuth på integreringssidan genom att kl
 
 ## Nästa steg
 
-[Aktivera resurssynkronisering för att överföra resurser mellan Adobe Commerce projektmiljö och AEM Assets projektmiljö](aem-assets-setup-synchronization.md)
+[Koppla samman Adobe Commerce- och AEM Assets-projektmiljöerna och välj matchningsstrategi för att synkronisera resurser](aem-assets-setup-synchronization.md)

@@ -1,20 +1,20 @@
 ---
-title: Aktivera resurssynkronisering
+title: Konfigurera integreringen
 description: Lär dig hur du kopplar ihop dina Adobe Commerce- och Experience Manager Assets-projekt för att möjliggöra resurssynkronisering mellan dessa två system.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
-# Aktivera resurssynkronisering
+# Konfigurera integreringen
 
-Aktivera resurssynkronisering genom att uppdatera Commerce-miljökonfigurationen för att ansluta Commerce till AEM Assets-instansen. Integreringen möjliggör synkronisering av resurser mellan Commerce och AEM Assets, vilket säkerställer att produktbilder och andra resurser alltid är uppdaterade.
+Konfigurera integreringen genom att ansluta Commerce till AEM Assets-instansen och välja matchningsstrategi för resurssynkronisering.
 
-När du har identifierat AEM-resursprojektet väljer du matchningsregeln för att synkronisera resurser mellan Adobe Commerce och AEM Assets.
+När du har identifierat AEM Assets-projektet väljer du matchningsregel för att synkronisera resurser mellan Adobe Commerce och AEM Assets.
 
 - **[!UICONTROL Match by product SKU]** - Standardregel som matchar SKU:n i resursmetadata med [Commerce-produktens SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku) för att se till att resurserna är kopplade till rätt produkter.
 
@@ -24,11 +24,11 @@ Använd standardregeln *Matcha efter produktsku* för den första konfiguratione
 
 ## Förutsättningar
 
-- [Konfigurera AEM Assets för hantering av Commerce-resurser](aem-assets-configure-aem.md)
+- [Installera AEM Assets-paket](aem-assets-configure-aem.md)
 
-- [Installera och konfigurera AEM Assets-integreringen för Commerce](aem-assets-configure-commerce.md) för att lägga till tillägget och generera nödvändiga autentiseringsuppgifter och anslutningar för att använda tillägget.
+- [Installera Adobe Commerce-paket](aem-assets-configure-commerce.md) om du vill lägga till tillägget och generera de autentiseringsuppgifter och anslutningar som krävs för att använda tillägget.
 
-- Skapa en supportanmälan för att begära aktivering av AEM Assets Integration. Du måste ange **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** och **[!UICONTROL IMS Org ID]** för den AEM Assets-redigeringsmiljö som du vill ansluta till Commerce.
+- Skapa en supportanmälan för att begära aktivering av AEM Assets för Commerce Integration. Inkludera **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** och **[!UICONTROL IMS Org ID]** för den AEM Assets-redigeringsmiljö som du vill ansluta till Commerce i biljetten.
 
   >[!TIP]
   >
@@ -69,7 +69,7 @@ Använd standardregeln *Matcha efter produktsku* för den första konfiguratione
 
 1. Välj **[!UICONTROL Save Config]** om du vill använda uppdateringar och initiera resurssynkronisering.
 
-   Konfigurationsuppdateringen utlöser den inledande synkroniseringsprocessen, vilket gör att Commerce kan acceptera inkommande uppdateringar från AEM Assets. Den tid som krävs för synkronisering beror på mängden resurser och specifika konfigurationer. Integreringen utnyttjar automatiserade processer för att minimera den tid som krävs för synkronisering.
+   Konfigurationsuppdateringen utlöser den inledande synkroniseringsprocessen så att Commerce kan acceptera inkommande uppdateringar från AEM Assets. Den tid som krävs för synkronisering beror på mängden resurser och specifika konfigurationer. Integreringen utnyttjar automatiserade processer för att minimera den tid som krävs för synkronisering.
 
 ## Nästa steg
 
