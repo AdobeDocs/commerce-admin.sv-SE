@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Lär dig hur du konfigurerar UPS som fraktfirma för din butik.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
+source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,15 @@ United Parcel Service (UPS) erbjuder inrikes och internationell sjöfart på lan
 
 ## Steg 1: Öppna ett UPS-leveranskonto
 
-Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna ett konto med UPS.
+Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna ett UPS-konto och slutföra programmet för att få ett Shipper-kontonummer. Se [Öppna ett kostnadsfritt UPS-konto](https://www.ups.com/us/en/business-solutions/open-an-account).
 
-## Steg 2: Aktivera UPS för din butik
+## Steg 2: Hämta UPS OAUTH-autentiseringsuppgifter
+
+Följ stegen i guiden [Komma igång med UPS API:er](https://developer.ups.com/get-started) för att hämta API-autentiseringsuppgifter (klient-ID och klienthemlighet) för att aktivera UPS-integreringen. Du måste skapa ett UPS-program för att få inloggningsuppgifterna.
+
+När du konfigurerar UPS-inställningarna i Admin använder du autentiseringsuppgifter för `username` och `password`.
+
+## Steg 3: Aktivera UPS för din butik
 
 1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
@@ -36,7 +42,7 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
 
 1. Gör följande för ett UPS REST-konto (standard):
 
-   - Ange dina UPS-autentiseringsuppgifter: UPS ClientID som **[!UICONTROL User ID]**, UPS-klienthemlighet som **[!UICONTROL Password]**
+   - Ange dina UPS-autentiseringsuppgifter: UPS ClientID som **[!UICONTROL User ID]**, UPS-klienthemlighet som **[!UICONTROL Password]**.
 
    - Ange **[!UICONTROL Mode]** till `Live` om du vill skicka data till UPS-leveranssystemet via en säker anslutning. (I utvecklingsläget skickas inga data via en säker anslutning.)
 
@@ -116,7 +122,7 @@ Om du vill erbjuda dina kunder den här leveransmetoden måste du först öppna 
 
    ![Behållarbeskrivning](./assets/ups2.png){width="600" zoomable="yes"}
 
-## Steg 4: Ställ in hanteringsavgifter
+## Steg 5: Ställ in hanteringsavgifter
 
 Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i UPS-leveranskostnaden. Om du vill ta med en hanteringskostnad gör du följande:
 
@@ -136,7 +142,7 @@ Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i UP
 
    ![Hanteringsavgift](./assets/ups3.png){width="600" zoomable="yes"}
 
-## Steg 5: Ange tillåtna metoder och tillämpliga länder
+## Steg 6: Ange tillåtna metoder och tillämpliga länder
 
 1. För **[!UICONTROL Allowed Methods]** väljer du varje UPS-leveransmetod som är tillgänglig för dina kunder.
 
@@ -174,7 +180,7 @@ Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i UP
 
 1. Klicka på **[!UICONTROL Save Config]**.
 
-## Steg 6: Ange leveransadress
+## Steg 7: Ange leveransadress
 
 1. Kontrollera att din [Store-information](../getting-started/store-details.md#store-information) är fullständig.
 

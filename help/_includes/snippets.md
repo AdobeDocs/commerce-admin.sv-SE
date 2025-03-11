@@ -1,9 +1,9 @@
 ---
 title: Fragment
 description: Återanvända anteckningar och visuella element för att anteckna en funktion eller sida som gäller en viss utgåva
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce-handlare som har en Adobe ID och vill ha en smidig inloggning på Adobe Commerce och Adobe Business kan integrera Commerce Admin-autentisering med Adobe IMS-autentiseringsarbetsflödet. När integreringen har aktiverats för din Commerce Store måste varje Admin-användare använda sina inloggningsuppgifter för Adobe, inte sina inloggningsuppgifter för Commerce-kontot, för att kunna logga in. Se [Integrera Adobe Commerce med Adobe IMS - översikt](/help/getting-started/adobe-ims-integration-overview.md).
+>Adobe Commerce-handlare som har en Adobe ID och vill ha en smidig inloggning på Adobe Commerce- och Adobe Business-produkter kan integrera Commerce Admin-autentisering med Adobe IMS-autentiseringsarbetsflödet. När integreringen har aktiverats för din Commerce Store måste varje Admin-användare använda sina Adobe-inloggningsuppgifter - inte sina Commerce-kontouppgifter - för att kunna logga in. Se [Integrera Adobe Commerce med Adobe IMS - översikt](/help/getting-started/adobe-ims-integration-overview.md).
 
 ## Information om GTag API:er {#gtag-api-note}
 
 >[!NOTE]
 >
->Från och med version 2.4.5 uppdateras integreringen av Google-tjänster så att den stöder användningen av GTag-API:erna. GTag är en enhetlig mekanism för integrering med Google-funktioner för webbsidor och har stöd för de senaste funktionerna och möjligheterna att spåra och hantera innehåll via Google Services. Mer information finns i [Google Analytics utvecklardokumentationen](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>Från och med version 2.4.5 uppdateras integreringen av Google-tjänster så att den stöder användningen av GTag-API:erna. GTag är en enhetlig mekanism för integrering med Google-funktioner för webbsidor och har stöd för de senaste funktionerna och möjligheterna att spåra och hantera innehåll via Google Services. Mer information finns i [dokumentationen för Google Analytics-utvecklare](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
 ## Skriv om automatisk överhoppningsanteckning för URL {#url-rewrite-skip}
 
@@ -66,9 +66,9 @@ Om du vill komma åt lagringskonfigurationsinställningarna väljer du **[!UICON
 
 >[!IMPORTANT]
 >
->Från och med juni 2024 kan Adobe Commerce handlare inte längre interagera med den nuvarande UPS-integreringen. Detta beror på att de UPS-API:er (United Parcel Service) som används av den inbyggda Adobe Commerce-integreringen för närvarande inte stöder den OAuth 2.0-säkerhetsmodell som krävs. Mer information om den här ändringen finns i [_Migreringsguide för nyckel för utvecklarportal_](https://developer.ups.com/oauth-developer-guide). <br/>
+>Från och med juni 2024 kan Adobe Commerce handlare inte längre interagera med den nuvarande UPS-integreringen. Detta beror på att de UPS-API:er (United Parcel Service) som används av den inbyggda Adobe Commerce-integreringen för närvarande inte stöder den OAuth 2.0-säkerhetsmodell som krävs. Om du vill aktivera integreringen [skapar du ett program på UPS-utvecklingsplattformen](https://developer.ups.com/get-started) för att hämta de autentiseringsuppgifter som krävs för OAuth 2.0. Använd de nya inloggningsuppgifterna som `username` och `password` i Commerce UPS-leveranskonfiguration. Mer information om ändringen av säkerhetsmodellen finns i [Migreringsguide för nyckel för utvecklarportal_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
->Merchants ska [tillämpa en kvalitetsuppdatering](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) i sina butiker för att migrera från SOAP-API:t till RESTful-API:t, som stöder OAuth 2.0-autentiseringsprotokoll.
+>Merchants ska [tillämpa en kvalitetsuppdatering](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) i sina butiker för att migrera från SOAP API till RESTful API, som har stöd för OAuth 2.0-autentiseringsprotokoll.
 
 
 ## Tillgänglig dokumentation {#docs-links}
