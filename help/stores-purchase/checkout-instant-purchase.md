@@ -3,7 +3,7 @@ title: Omedelbart köp
 description: Läs om Direktköp och hur det kan ge en snabb utcheckning av registrerade kundkonton.
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -54,10 +54,10 @@ Med _Direktköp_ kan kunderna gå igenom kassan snabbare med hjälp av informati
 
 Du kan använda Direktköp med Braintree eller Betalningstjänster för Adobe Commerce och Magento Open Source. Vaulting måste vara aktiverat innan en kund kan använda funktionen Direktköp.
 
-Lär dig hur du konfigurerar betalningsmetoden och aktiverar säkringar för Braintree eller betaltjänster:
+Lär dig hur du konfigurerar betalningsmetoden och aktiverar validering för Braintree eller Betalningstjänster:
 
 - [Braintree](braintree.md)
-- [Betalningstjänster - dokumentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [Betalningstjänster - dokumentation](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 
 ### Steg 3: Aktivera direktköp
 

@@ -3,7 +3,7 @@ title: Produktinställningar - [!UICONTROL Related Products, Up-Sells, and Cross
 description: För en produkt definierar inställningarna för [!UICONTROL Related Products, Up-Sells, and Cross-Sells] enkla marknadsföringsblock på produktsidan som markerar ett urval av ytterligare produkter.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -33,9 +33,9 @@ Varje block består av en lista över produkter som tillhör ett visst alternati
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) **Produkt-Recommendations från Adobe Sensei** förenklar processen att definiera produktrelationer genom att använda artificiell intelligens och maskininlärningsalgoritmer för att göra en djupanalys av samlade besöksdata. Dessa data kombineras med er Adobe Commerce-katalog och ger en engagerande, relevant och personaliserad upplevelse för kunderna.
+>![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) **Produktrekommendationer från Adobe Sensei** förenklar processen att definiera produktrelationer genom att använda artificiell intelligens och maskininlärningsalgoritmer för att göra en djupanalys av samlade besöksdata. Dessa data kombineras med er Adobe Commerce-katalog och ger en engagerande, relevant och personaliserad upplevelse för kunderna.
 ><br/>
->Mer information om hur du använder det här Adobe-utvecklade tillägget som ett alternativ till manuellt konfigurerade produktrekommendationer och merförsäljning finns i _[Recommendations-produktguiden](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_.
+>Mer information om hur du använder det här Adobe-utvecklade tillägget som ett alternativ till manuellt konfigurerade produktrekommendationer och merförsäljning finns i _[produktrekommendationsguiden](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
 
 ## Samhörande produkter
 

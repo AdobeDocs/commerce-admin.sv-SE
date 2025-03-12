@@ -1,13 +1,13 @@
 ---
-user-guide-title: "[!DNL Page Builder] Användarhandbok"
+user-guide-title: Användarhandbok för [!DNL Page Builder]
 user-guide-description: Lär dig hur du använder  [!DNL Page Builder] funktioner för att skapa innehållsrika sidor med anpassade layouter som förbättrar ditt visuella berättande och ökar kundengagemanget och kundlojaliteten.
 breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
    - [Blockera](block.md)
    - [Dynamiskt block](dynamic-block.md)
    - [Produkter](products.md)
-   - [Recommendations](recommendations.md)
+   - [Produktrekommendationer](recommendations.md)
 - [Mallar](templates.md)
-- [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

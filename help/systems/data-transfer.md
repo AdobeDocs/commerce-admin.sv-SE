@@ -3,7 +3,7 @@ title: Dataöverföring
 description: Läs mer om stöd för dataöverföring, inklusive datavalidering.
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: b89d6b08d0559dc769a8c51570696f033f23c7f3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Du kan till exempel lägga till nya produkter i lagret, uppdatera produktdata oc
 
 >[!NOTE]
 >
->Adobe Commerce stöder också SaaS-dataexport för överföring av produktdata från Commerce-servern till SaaS-tjänster. SaaS-dataexport är integrerad med Commerce SaaS-tjänster, inklusive [Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) och [katalogtjänsten](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Mer information finns i [Exportguiden för SaaS-data](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerce stöder också SaaS-dataexport för överföring av produktdata från Commerce-servern till SaaS-tjänster. SaaS-dataexport är integrerad med Commerce SaaS-tjänster, inklusive [produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) och [katalogtjänst](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview). Mer information finns i [Exportguiden för SaaS-data](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
 
 ## Dataverifiering
 

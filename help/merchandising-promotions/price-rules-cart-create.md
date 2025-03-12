@@ -3,7 +3,7 @@ title: Skapa en kundvagnsprisregel
 description: Lär dig hur du skapar en kundvagnsprisregel baserat på kundvagn- eller produktattribut.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Utför följande steg för att lägga till en regel, beskriva villkoren och defi
 
      ![Kundprisregel - kuponginställningar](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
-   - ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Använd _kalendern_ (![kalenderikonen](../assets/icon-calendar.png)) för att välja datumintervallet **[!UICONTROL From]** och **[!UICONTROL To]** för kampanjen.
+   - ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Använd _kalendern_ (![kalenderikonen](../assets/icon-calendar.png)) för att välja datumintervallet **[!UICONTROL From]** och **[!UICONTROL To]** för erbjudandet.
 
 1. Ange ett tal för att definiera **[!UICONTROL Priority]** för den här prisregeln i relation till åtgärdsinställningarna för andra prisregler som är aktiva samtidigt.
 
@@ -65,13 +65,13 @@ Utför följande steg för att lägga till en regel, beskriva villkoren och defi
 
    >[!NOTE]
    >
-   >Kundprisregler som har samma prioritet ger ingen kombinerad rabatt. Varje regel (kupong) tillämpas på matchande produkter separat, en i taget, enligt kundprisregelns ID i databasen. Adobe rekommenderar att du anger olika prioriteter för varje tillagd kundprisregel för att styra i vilken ordning rabatterna tillämpas.
+   >Kundprisregler som har samma prioritet ger ingen kombinerad rabatt. Varje regel (kupong) tillämpas på matchande produkter separat, en i taget, enligt kundprisregelns ID i databasen. Adobe rekommenderar att du anger olika prioriteter för varje tillagd kundprisregel för att styra i vilken ordning rabatterna ska tillämpas.
 
 1. Om du vill tillämpa regeln på publicerade [RSS-flöden](social-rss.md#rss-feeds) anger du **Offentlig i RSS-feed** till `Yes`.
 
 1. Klicka på **[!UICONTROL Save and Continue Edit]**.
 
-   - ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) När regeln har sparats visas namnet på kundvagnsprisregeln högst upp på sidan.
+   - ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) När regeln har sparats visas namnet på kundvagnsprisregeln överst på sidan.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) När regeln har sparats visas namnet på kundvagnsprisregeln och rutan [Schemalagda ändringar](price-rule-cart-scheduled-changes.md) överst på sidan.
 
@@ -219,7 +219,7 @@ Du kan ange ett villkor för en kundprisregel baserat på en Real-Time CDP [mål
    | `Name` | Målgruppens namn, till exempel `Orders over $50` |
    | `Description` | Beskrivning av målgruppen, till exempel `People who placed an order over $50 in the last month.`. |
    | `Source` | Anger varifrån målgruppen kom, till exempel `Experience Platform`. |
-   | `Website` | Anger vilken webbplats du har länkat till datastream som innehåller målgrupperna. Du skapar den här länken när du ansluter din Commerce-instans till Experience Platform via tillägget [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html). |
+   | `Website` | Anger vilken webbplats du har länkat till datastream som innehåller målgrupperna. Du skapar den här länken när du ansluter din Commerce-instans till Experience Platform via tillägget [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
 
    {style="table-layout:auto"}
 
@@ -352,7 +352,7 @@ I den här videon får du lära dig att skapa kundvagnsprisregler:
 | [!UICONTROL Uses per Customer] | Avgör hur många gånger kundprisregeln kan användas av samma registrerade kund som tillhör en vald kundgrupp. Gäller inte gästkunder som är medlemmar i kundgruppen NOT LOGGED IN, eller kunder som handlar utan att logga in på sina konton. Utan begränsning lämnas tomt. |
 | [!UICONTROL Priority] | Ett tal som anger den här regelns prioritet i förhållande till andra. Prioriteringarna från högsta till lägsta är `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Avgör om kampanjen ingår i butikens offentliga RSS-feed. Alternativ:  `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Det första datum som kupongen kan användas. |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Första datum som kupongen kan användas. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Senaste datum som kupongen kan användas. |
 
 {style="table-layout:auto"}

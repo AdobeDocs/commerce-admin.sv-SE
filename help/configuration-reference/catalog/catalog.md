@@ -3,7 +3,7 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] i Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3233'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | Butiksvy | Anger hur många produkter som visas per sida som standard i stödrastervyn. |
 | [!UICONTROL Products per Page on List Allowed Values] | Butiksvy | Bestämmer antalet produkter som visas i listvyn. Ange flera värden avgränsade med kommatecken om du vill välja alternativ. |
 | [!UICONTROL Products per Page on List Default Value] | Butiksvy | Anger antalet produkter som visas per sida som standard i listvyn. |
-| Produktlista sortera efter | Butiksvy | Bestämmer sorteringsordningen i sökresultatlistan. Valet av alternativ avgörs av kategorins visningsinställningar och de tillgängliga attribut som är inställda på `Used for Sorting in Product Listing`. Standardvärdet är `Use All Available Attributes` och innehåller vanligtvis Bästa värde, Namn, Pris. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidgeten Produktlista](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
+| Produktlista sortera efter | Butiksvy | Bestämmer sorteringsordningen i sökresultatlistan. Valet av alternativ avgörs av kategorins visningsinställningar och de tillgängliga attribut som är inställda på `Used for Sorting in Product Listing`. Standardvärdet är `Use All Available Attributes` och innehåller vanligtvis Bästa värde, Namn, Pris. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidgeten Produktlista](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Butiksvy | Om värdet är `Yes` inkluderas alternativet `ALL` i kontrollen &quot;Visa per sida&quot;. |
 | [!UICONTROL Remember Category Pagination] | Global | Om värdet är `Yes` sparas de aktuella kategorisidbrytningsvärdena när kunderna bläddrar från en kategori till en annan i [produktlistor](../../catalog/navigation-product-listings.md). När du sparar värdet används mer lagringsutrymme och det kan påverka hur sidor indexeras av sökmotorer. Alternativ: `Yes` / `No` (standard) |
 | [!UICONTROL Use Flat Catalog Category] | Global | Aktiverar den [platta kategoristrukturen](../../catalog/catalog-flat.md) (rekommenderas inte). Alternativ: `Yes` / `No` |
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Standardsökkonfigurationen som beskrivs i det här avsnittet skiljer sig åt för [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>Standardsökkonfigurationen som beskrivs i det här avsnittet skiljer sig åt för [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | Butiksvy | Avgör om _Populära sökvillkor_ har implementerats i arkivet. Den här inställningen gäller inte för butiker som använder [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Alternativ: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | Butiksvy | Avgör om _Populära sökvillkor_ har implementerats i arkivet. Den här inställningen gäller inte för butiker som använder [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Alternativ: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Butiksvy | Avgör om ett suffix, till exempel html eller htm, används på produkt-URL:er. Om det används ska du inte ange någon punkt före suffixet, eftersom det tillämpas automatiskt. |
 | [!UICONTROL Category URL Suffix] | Butiksvy | Avgör om ett suffix, till exempel html eller htm, används på kategorins URL:er. Om det används ska du inte ange någon punkt före suffixet, eftersom det tillämpas automatiskt. |
 | [!UICONTROL Use Categories Path for Product URLs] | Butiksvy | Anger om kategorisökvägar ingår i produkt-URL:er. Om du gör det kan flera URL-adresser peka på samma sida, vilket kan påverka sökordningen. Mer information finns i [Kanonisk meta-tagg](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-Du kan konfigurera katalogsökning med [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) eller tredjepartstjänster som stöds av Adobe Commerce. Följ instruktionerna för installationen.
+Du kan konfigurera katalogsökning med [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) eller tredjepartstjänster som stöds av Adobe Commerce. Följ instruktionerna för installationen.
 
 ### Adobe Commerce med [!DNL Live Search]
 
@@ -247,8 +247,8 @@ När Live Search är installerat innehåller katalogsökningen följande konfigu
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | Butiksvy | Det minsta antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationerna för Elasticsearch. Om du till exempel anger värdet `2` i Adobe Commerce, uppdaterar du värdet i sökmotorn. |
-| [!UICONTROL Maximum Query Length] | Butiksvy | Det maximala antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i sökmotorkonfigurationerna för Elasticsearch. Om du till exempel anger värdet 300 i Adobe Commerce, uppdaterar du värdet i sökmotorn. |
+| [!UICONTROL Minimal Query Length] | Butiksvy | Det minsta antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i dina Elasticsearch sökmotorkonfigurationer. Om du till exempel anger värdet `2` i Adobe Commerce, uppdaterar du värdet i sökmotorn. |
+| [!UICONTROL Maximum Query Length] | Butiksvy | Det maximala antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i dina Elasticsearch sökmotorkonfigurationer. Om du till exempel anger värdet 300 i Adobe Commerce, uppdaterar du värdet i sökmotorn. |
 | [!UICONTROL Number of top search results to cache] | Butiksvy | Antalet populära söktermer och sökresultat som ska cachelagras för snabbare svar. Om du anger värdet `0` cachelagras alla söktermer och sökresultat när de anges en andra gång. Standardvärde: `100` |
 | [!UICONTROL Autocomplete Limit] | Butiksvy | Avgör det maximala antalet rader som är tillgängliga på sidan [storefront pover]. Standardvärdet kan ändras när Live Search installeras och uppdateras senare genom att den här konfigurationsinställningen ändras. Standardvärde: `8` |
 
@@ -256,19 +256,19 @@ När Live Search är installerat innehåller katalogsökningen följande konfigu
 
 ### Sökmotorer från tredje part
 
-Adobe Commerce har stöd för OpenSearch och Elasticsearch. Adobe Commerce version 2.3.7-p3, 2.4.3-p2 och 2.4.4 och senare stöder OpenSearch-tjänsten. Elasticsearch 7.11 och senare stöds inte i Adobe Commerce för molninfrastrukturprojekt. Elasticsearch stöds fortfarande för lokala anläggningar.
+Adobe Commerce stöder OpenSearch och Elasticsearch. Adobe Commerce version 2.3.7-p3, 2.4.3-p2 och 2.4.4 och senare stöder OpenSearch-tjänsten. Elasticsearch 7.11 och senare stöds inte i Adobe Commerce för molninfrastrukturprojekt. Elasticsearch stöds fortfarande för lokala installationer.
 
 >[!IMPORTANT]
 >
 >- På grund av att supporten för Elasticsearch 7 upphör i augusti 2023 rekommenderar Adobe att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under en uppgradering finns i [Migrera till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) i _uppgraderingshandboken_.
->- I version 2.4.4 och 2.4.3-p2 gäller alla fält med etiketten Elasticsearch även OpenSearch. När stöd för Elasticsearch 8.x introducerades i version 2.4.6 skapades nya etiketter för att skilja mellan Elasticsearch och OpenSearch-konfigurationer. Konfigurationsalternativen för båda är dock desamma.
+>- I version 2.4.4 och 2.4.3-p2 gäller alla fält med etiketten Elasticsearch även OpenSearch. När stöd för Elasticsearch 8.x introducerades i version 2.4.6 skapades nya etiketter för att skilja mellan Elasticsearch- och OpenSearch-konfigurationer. Konfigurationsalternativen för båda är dock desamma.
 
 ![Konfigurationsalternativ för katalogsökning](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Minimal Query Length] | Butiksvy | Det minsta antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i OpenSearch- eller Elasticsearch-konfigurationen. Om du till exempel anger värdet `2` i Adobe Commerce måste du även uppdatera värdet i sökmotorkonfigurationen. Standardvärde: `3` |
-| [!UICONTROL Maximum Query Length] | Butiksvy | Det maximala antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som angetts i OpenSearch- eller Elasticsearch-konfigurationen. Om du till exempel anger värdet `300` i Adobe Commerce måste du uppdatera värdet i sökmotorkonfigurationen. Standardvärde: `128` |
+| [!UICONTROL Maximum Query Length] | Butiksvy | Det maximala antalet tecken som tillåts i en katalogsökning. Värdet som anges för det här alternativet måste vara kompatibelt med motsvarande intervall som anges i OpenSearch- eller Elasticsearch-konfigurationen. Om du till exempel anger värdet `300` i Adobe Commerce måste du uppdatera värdet i sökmotorkonfigurationen. Standardvärde: `128` |
 | [!UICONTROL Number of top search results to cache] | Butiksvy | Antalet populära söktermer och sökresultat som ska cachelagras för snabbare svar. Om du anger värdet `0` cachelagras alla söktermer och sökresultat när de anges en andra gång. Standardvärde: `100` |
 | [!UICONTROL Enable EAV Indexer] | Global | Avgör om produktindexeraren ska aktiveras eller inaktiveras. Den här funktionen förbättrar indexeringshastigheten och begränsar indexeraren från att användas av tillägg från tredje part. Standardalternativ: `Yes` för aktiverad |
 | [!UICONTROL Autocomplete Limit] | Butiksvy | Det maximala antalet sökfrågor som ska visas under sökfältet för automatisk ifyllning av sökning. Om du begränsar den här mängden ökar sökningens prestanda och storleken på den visade listan minskar. Standardvärde: `8` |
@@ -277,14 +277,14 @@ Adobe Commerce har stöd för OpenSearch och Elasticsearch. Adobe Commerce versi
 | [!UICONTROL OpenSearch Server Port] | Global | Anger antalet serverportar som används av OpenSearch eller Elasticsearch. Standardvärde: `9200` |
 | [!UICONTROL OpenSearch Index Prefix] | Global | Tilldelar ett prefix som identifierar OpenSearch- eller Elasticsearch-indexet. Standardvärde: `magento2` |
 | [!UICONTROL Enable OpenSearch HTTP Auth] | Global | Om det här alternativet är aktiverat används HTTP-autentisering för att fråga efter användarnamn och lösenord innan OpenSearch- eller Elasticsearch-servern används. Alternativ: `Yes` / `No` |
-| [!UICONTROL OpenSearch HTTP Username] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är inställd på `Yes` anger användarnamnet för OpenSearch eller Elasticsearch HTTP-autentisering. |
-| [!UICONTROL OpenSearch HTTP Password] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är inställd på `Yes` anger lösenordet för OpenSearch eller Elasticsearch HTTP-autentisering. |
+| [!UICONTROL OpenSearch HTTP Username] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är `Yes` anges användarnamnet för OpenSearch eller Elasticsearch HTTP-autentisering. |
+| [!UICONTROL OpenSearch HTTP Password] | Global | När _Aktivera Elasticsearch HTTP-autentisering_ är inställt på `Yes` anger lösenordet för OpenSearch eller Elasticsearch HTTP-autentisering. |
 | [!UICONTROL OpenSearch Server Timeout] | Global | Anger antalet sekunder innan en begäran till OpenSearch- eller Elasticsearch-servern tar slut. Standardvärde: `15` |
 | [!UICONTROL Test Connection] |  | Validerar OpenSearch- eller Elasticsearch-anslutningen. |
 | [!UICONTROL Enable Search Recommendations] | Butiksvy | Avgör om sökrekommendationer erbjuds när en sökning inte ger några resultat och visas under avsnittet `Related search terms` på sökresultatsidan. Alternativ: `Yes` / `No` <br/> Om värdet är Ja visas ytterligare alternativ för _[!UICONTROL Search Recommendations Count]_och_[!UICONTROL Shows Results Count for Each Recommendation]_. |
 | [!UICONTROL Search Recommendations Count] | Butiksvy | Anger antalet söktermer som erbjuds som rekommendationer. Som standard visas inte fler än fem. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Butiksvy | När värdet är `Yes` visas antalet produkter som hittats för den föreslagna sökrekommendationen inom hakparenteser. Alternativ: `Yes` / `No` |
-| [!UICONTROL Enable Search Suggestions] | Butiksvy | Avgör om sökförslag visas för vanliga felstavningar. När det här alternativet är aktiverat visas sökförslag för alla förfrågningar som inte ger några resultat och som visas under avsnittet `Did you mean` på sidan **Sökresultat**. Sökförslag kan påverka sökresultatet. Om värdet är `Yes` visas ytterligare alternativ för Aktivera sökning i Recommendations och associerade fält. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Search Suggestions] | Butiksvy | Avgör om sökförslag visas för vanliga felstavningar. När det här alternativet är aktiverat visas sökförslag för alla förfrågningar som inte ger några resultat och som visas under avsnittet `Did you mean` på sidan **Sökresultat**. Sökförslag kan påverka sökresultatet. Om värdet är `Yes` visas ytterligare alternativ för Aktivera sökrekommendationer och associerade fält. Alternativ: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | Butiksvy | Anger antalet sökförslag som erbjuds. Till exempel: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | Butiksvy | Anger om antalet sökresultat visas för varje förslag. Beroende på temat visas numret oftast inom hakparenteser efter förslaget. Alternativ: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | Butiksvy | Anger ett värde som motsvarar antalet termer i frågan som sökresultaten ska matcha för att returneras. Detta ger optimala resultat och relevans för kunderna. Procentvärden motsvarar ett tal och vid behov avrundas nedåt och används som minsta antal termer som ska matchas i frågan. Värdet kan vara ett negativt eller positivt heltal, ett negativt eller ett positivt tal, en kombination av de två eller flera kombinationerna. Mer information finns i [minimum_should_match-parametern](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) i OpenSearch-dokumentationen. |

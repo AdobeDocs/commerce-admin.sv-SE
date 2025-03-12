@@ -1,22 +1,21 @@
 ---
-user-guide-title: Starthandbok för Adobe Commerce
-user-guide-description: Om du inte har använt Adobe Commerce eller Magento Open Source tidigare bör du identifiera resurser i ekosystemet  [!DNL Commerce] , följa kundresan för att utforska din butik och lära dig mer om viktiga funktioner.
+user-guide-title: Starthandbok för Adobe Commerce Admin
+user-guide-description: Om du inte har använt Adobe Commerce eller Magento Open Source Admin tidigare bör du ta del av resurserna i ekosystemet  [!DNL Commerce] , följa kundresan för att utforska din butik och lära dig mer om de viktigaste administratörsfunktionerna.
 breadcrumb-title: Komma igång
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
 
 
-# Starthandbok för Adobe Commerce {#start}
+# Starthandbok för Adobe Commerce Admin {#start}
 
-+ [Starthandbok för Adobe Commerce](guide-overview.md)
-+ [Vad är Adobe Commerce?](about.md)
++ [Starthandbok för Adobe Commerce Admin](guide-overview.md)
 + [Inloggningsuppgifter och URL:er](login-urls.md)
 + Commerce-konton {#commerce-account}
    + [Skapa och få åtkomst till ditt konto](commerce-account-create.md)
@@ -39,7 +38,7 @@ ht-degree: 0%
 + Administratören {#admin}
    + [Vad är administratören?](admin.md)
    + [Ditt administratörsanvändarkonto](admin-signin.md)
-   + IMS-integrering (Adobe Identity Management Service) {#ims}
+   + Adobe Identity Management-tjänstintegrering (IMS) {#ims}
       + [Översikt över IMS-integrering](adobe-ims-integration-overview.md)
       + [Konfigurera administratörsintegrering med IMS](adobe-ims-config.md)
       + [Inaktivera administratörsintegrering med IMS](adobe-ims-disable.md)
@@ -77,5 +76,5 @@ ht-degree: 0%
    + [Ekosystem](resources.md)
    + [Tillägg](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

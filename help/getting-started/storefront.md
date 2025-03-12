@@ -3,18 +3,63 @@ title: Vad är butiken?
 description: Lär dig mer om de sidor och funktionselement som din butik kan tillhandahålla som stöd för shoppingupplevelsen för dina kunder.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
+source-git-commit: 8145531bf9aa2764bd52a6e121112beca2e25158
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
 
 # Vad är butiken?
 
-Inom implementeringen av Adobe Commerce eller Magento Open Source är butiken den externa, offentliga delen av din butik. Det innehåller innehåll och funktionskomponenter som kunderna använder för att handla och köpa.
+I er Adobe Commerce- eller Magento Open Source-implementering är butiken den externa, offentliga delen av er butik. Det innehåller innehåll och funktionskomponenter som kunderna använder för att handla och köpa.
 
 Den väg kunderna går till en försäljning kallas ibland för _köpväg_, och din butik innehåller komponenter som kunderna kan använda för att slutföra den här vägen. I följande avsnitt finns en översikt över de grundläggande sidtyperna som ger ett strategiskt värde - de platser kunderna vanligtvis besöker när de handlar i din butik. När du tittar på dem bör du överväga olika butiksfunktioner som kan användas i varje skede av kundresan.
+
+## Commerce Storefront
+
+I och med introduktionen av [!DNL **Commerce Storefront från Edge Delivery Services**] erbjuder Adobe en högpresterande, skalbar och tillförlitlig butiksupplevelse som utnyttjar den senaste tekniken för att leverera överlägsen hastighet och användarupplevelse.
+
+- **Förbättrade prestanda**: Lagringsplatser på Edge Delivery Services ger snabbare inläsningstider och bättre prestanda, vilket kan leda till högre konverteringsgrader och bättre SEO-rankning.
+
+- **Skalbarhet**: Arkitekturen stöder sömlös skalning för att hantera ökad trafik och större produktkataloger utan att kompromissa med prestanda.
+
+- **Flexibilitet**: Affärsplatsen är mycket anpassningsbar, vilket gör att företag kan skräddarsy shoppingupplevelsen efter sina unika behov.
+
+- **Förbättrad användarupplevelse**: Funktioner som avancerad cachning, uppdateringar i realtid och skräddarsydd innehållsleverans bidrar till en smidigare och mer engagerande shoppingupplevelse.
+
+### Viktiga funktioner
+
+Commerce Storefront från Edge Delivery Services har flera funktioner som är till nytta både för handlare och utvecklare. Med dessa funktioner kan företag skapa engagerande shoppingupplevelser och samtidigt behålla flexibiliteten att anpassa och skala sina butiker efter sina behov.
+
+Mer detaljerad information och vägledning om hur du konfigurerar och optimerar Commerce Storefront finns i [Adobe Commerce Storefront Documentation](https://experienceleague.adobe.com/en/docs/commerce).
+
+>[!BEGINTABS]
+
+>[!TAB Handlare]
+
+Commerce Storefront från Edge Delivery Services är en intuitiv dokumentbaserad redigeringsfunktion som gör det enkelt för handlare att skapa och hantera innehåll. Med välbekanta verktyg som Microsoft Word och Google Docs kan handlare skapa avancerat material samtidigt som versionskontrollen bibehålls och teammedlemmarna samarbetar.
+
+- **Förenklad innehållsproduktion**: Skapa och redigera innehåll med välbekanta dokumentbaserade redigeringsverktyg som Microsoft Word och Google Docs.
+- **Förhandsgranskning i realtid**: Se ändringarna direkt med förhandsgranskning i realtid innan publicering.
+- **Versionskontroll**: Spåra innehållsändringar och backa enkelt till tidigare versioner.
+- **Samarbetsflöde**: Flera teammedlemmar kan arbeta med innehåll samtidigt med inbyggda granskningsprocesser.
+- **Återanvändning av innehåll**: Skapa innehållsblock som kan återanvändas på flera sidor för att bevara konsekvensen.
+
+>[!TAB Utvecklare]
+
+Med Headless-implementering kan utvecklare frikoppla lagret för frontend-presentationer från bakomliggande handelsfunktioner, vilket möjliggör flexibla, anpassade butiker som byggts med modern teknik och samtidigt utnyttja Commerce robusta backend-tjänster.
+
+- **API-första arkitektur**: Bygg anpassade klientupplevelser med moderna ramverk och utnyttja Commerce backend-tjänster.
+- **Sammansättningsbara komponenter**: Skapa och distribuera modulära, återanvändbara komponenter som kan monteras i olika sidlayouter.
+- **Utbyggbar plattform**: Lägg till anpassade funktioner via API:er och webhooks utan att ändra kärnkoden.
+- **Moderna utvecklingsverktyg**: Använd utvecklingsverktyg och arbetsflöden som är branschstandard för snabbare implementering och distribution.
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>Commerce Storefront har många fördelar, men Adobe har fortfarande stöd för den ursprungliga Luma-baserade butiken. Företag som för närvarande använder Luma kan fortsätta sin verksamhet utan avbrott och ha möjlighet att gå över till den nya butiken i sin egen takt. De återstående avsnitten på den här sidan baseras på Luma-exempel.
 
 ## Startsida
 
@@ -36,7 +81,7 @@ Visste du att det är nästan dubbelt så troligt att personer som använder sö
 
 ### [!DNL Live Search]
 
-Med [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) för Adobe Commerce kan din butik erbjuda en snabb, superrelevant och intuitiv sökupplevelse och är tillgänglig för Adobe Commerce utan extra kostnad.
+Med [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) för Adobe Commerce kan din butik erbjuda en snabb, superrelevant och intuitiv sökupplevelse och är tillgänglig för Adobe Commerce utan extra kostnad.
 
 ![Exempel på Live-sökning - sök medan du skriver](./assets/storefront-search-as-you-type.png){width="700"}
 
@@ -54,7 +99,7 @@ Det är mycket som pågår på produktsidan! Det första som fångar ögat på p
 
 ## Kundvagn
 
-Kundvagnen är den plats där ordersumman kan bestämmas, plus rabattkuponger och uppskattad frakt och moms, och en bra plats där du kan visa dina kreditmärken och sigill. Det är också en idealisk möjlighet att erbjuda en sista artikel. Som korsförsäljning kan du välja vilka artiklar som ska erbjudas som ett impulsköp när en viss artikel visas i kundvagnen.
+I kundvagnen visas ordersumman, inklusive eventuella rabattkuponger, beräknad frakt och moms. De här funktionerna gör det bra att visa märken och förseglingar för pålitlighet. Du kan även använda kundvagnssidan som en möjlighet till ett slutligt erbjudande. Du kan till exempel ställa in korsförsäljningsartiklar som visas som alternativ för impulsköp när specifika produkter finns i kundvagnen.
 
 ![Exempel på kundvagnssida i butiken](./assets/storefront-cart-full.png){width="700"}
 

@@ -1,21 +1,21 @@
 ---
-title: Guiden [!DNL Adobe Commerce B2B]
+title: '[!DNL Adobe Commerce B2B] Användarhandbok'
 description: Omfattande information för  [!DNL Adobe Commerce B2B] administratörer, inklusive installation och konfiguration.
 breadcrumb-title: Översikt över användarhandbok
 seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: b30790b252bcab38c4d0372d5d5bd0d5b6f41a07
+source-git-commit: 19594a9dd1a8eb0b18bb372d049428e68c1328a6
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce B2B-guide
 
-Den här handboken är avsedd för administratörer av Adobe Commerce. Den innehåller detaljerad information om hur du installerar och aktiverar den här modulen, inklusive konfiguration och hantering av dess funktioner. Det förutsätter en grundläggande förståelse av kärnkonfigurationen och funktionen för [!DNL Commerce].
+Den här handboken är avsedd för administratörer som arbetar i Adobe Commerce Admin. Den innehåller detaljerad information om hur du installerar och aktiverar den här modulen, inklusive konfiguration och hantering av dess funktioner. Det förutsätter en grundläggande förståelse av kärnkonfigurationen och funktionen för [!DNL Commerce].
 
 Det finns två områden för butiksadministratörer:
 

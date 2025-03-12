@@ -1,13 +1,13 @@
 ---
 user-guide-title: Butiks and Purchase Experience Guide
-user-guide-description: Omfattande information för webbplatsadministratörer, kundtjänstpersonal och säljchefer som arbetar i Adobe Commerce och Magento Open Source.
+user-guide-description: Omfattande information för webbadministratörer, kundtjänstpersonal och säljchefer som arbetar i Adobe Commerce och Magento Open Source.
 breadcrumb-title: Butiks- och inköpsupplevelser
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -131,5 +131,5 @@ ht-degree: 0%
       + [Översikt över leveransetikett](shipping-labels.md)
       + [Konfigurera etiketter för leverans](shipping-label-configure.md)
       + [Skapa leveransetiketter](shipping-label-create.md)
-+ [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

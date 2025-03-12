@@ -3,7 +3,7 @@ title: HIPAA-beredskap på Adobe Commerce
 description: Läs om hur du kan lägga till tillägget Adobe Commerce HIPAA-Ready och få ytterligare funktioner som gör att du kan uppfylla dina skyldigheter enligt HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Installera den senaste versionen av Adobe HIPAA-Ready Services-tillägg (`magent
 
 >[!NOTE]
 >
->Information om hur du ser till att data som skickas till Experience Platform är HIPAA-klara finns i [tilläggsguiden för dataanslutning](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Information om hur du ser till att data som skickas till Experience Platform är HIPAA-klara finns i [tilläggsguiden för dataanslutning](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. På din lokala arbetsstation byter du till projektkatalogen för ditt Adobe Commerce i molninfrastrukturprojekt.
 
@@ -264,12 +264,12 @@ Följande tabell visar vilka Adobe Commerce-tjänster som är tillgängliga för
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | Ja | Ja |
 | [API-nät för Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
-| [SaaS-dataexport](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) | Ja | Ja |
-| [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | Nej | Nej |
-| [Produktrekommendationer](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | Nej | Nej |
-| [Betalningstjänster](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) | Nej | Nej |
-| [Återkommande Office-händelser för dataanslutning](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
-| [Händelser för dataanslutningsarkiv](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events) | Nej | Nej |
+| [SaaS-dataexport](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Ja | Ja |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Nej | Nej |
+| [Produktrekommendationer](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Nej | Nej |
+| [Betalningstjänster](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Nej | Nej |
+| [Återkommande Office-händelser för dataanslutning](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
+| [Händelser för dataanslutningsarkiv](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nej | Nej |
 | [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Nej | Nej |
 
 ### verktyg

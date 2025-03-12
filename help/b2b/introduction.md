@@ -3,7 +3,7 @@ title: Introduktion till  [!DNL Adobe Commerce B2B]
 description: Förstå hur du kan använda de integrerade B2B-funktionerna för att tillgodose dina behov för företagskunder.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -38,11 +38,11 @@ Mer information finns i [Företagshantering](manage-companies.md).
 
 ## Tjänster för Adobe Commerce
 
-Tjänster för Adobe Commerce är värdtjänster som ger utökade möjligheter för Adobe Commerce och Magento Open Source. Tjänster som stöder B2B-arbetsflöden är:
+Tjänster för Adobe Commerce är värdtjänster som ger utökade funktioner till Adobe Commerce och Magento Open Source. Tjänster som stöder B2B-arbetsflöden är:
 
-* [Katalogtjänst](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
-* [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
-* [Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
+* [Katalogtjänst](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+* [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
+* [Produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
 
 ## Delade kataloger
 

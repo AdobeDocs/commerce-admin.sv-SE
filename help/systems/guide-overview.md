@@ -2,16 +2,16 @@
 title: Handbok för adminsystem
 description: Lär dig de bästa säkerhetsrutinerna för att skydda din Commerce-butik och hantera behörigheter, och hur du importerar och exporterar data, hanterar integreringar och tillägg samt hanterar rutinunderhåll.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 13f8858768b412d1ca2eb92e628331d9a45a347d
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce Admin Systems Guide
 
-Den här handboken är avsedd för systemadministratörer och integratörer som arbetar i Adobe Commerce och Magento Open Source. Det innehåller detaljerad information om administratörssäkerhet, underhållsåtgärder och systemomfattande resurser som stöder aktiviteter i flera organisationsfunktioner för ert e-handelsföretag. Det förutsätter en grundläggande förståelse för Commerce grundläggande konfiguration och funktioner.
+Den här handboken är avsedd för systemadministratörer och integratörer som arbetar i Adobe Commerce och Magento Open Source Admin. Det innehåller detaljerad information om administratörssäkerhet, underhållsåtgärder och systemomfattande resurser som stöder aktiviteter i flera organisationsfunktioner för ert e-handelsföretag. Det förutsätter en grundläggande förståelse för Commerce grundläggande konfiguration och funktioner.
 
 Den här guiden täcker:
 

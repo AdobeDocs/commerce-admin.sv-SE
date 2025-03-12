@@ -3,9 +3,9 @@ title: Indexhantering
 description: Lär dig mer om indexhantering, inklusive åtgärder som utlöser omindexering och bästa praxis.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ Omindexering av data snabbar upp bearbetningen och minskar kundens väntetid. Om
 Indexerarna kan ställas in på att antingen uppdateras när de sparas eller enligt schema. Alla index kan använda båda alternativen, förutom kundstödraster som bara stöds när de sparas. När du indexerar när du sparar, startar Commerce om indexeringen när du sparar åtgärder. Indexhanteringssidan slutför uppdateringen och tömmer cacheminnet, och meddelandet om omindexering visas inom en minut eller två. Vid omindexering av ett schema körs ett omindexvärde enligt ett schema som ett cron-jobb. Ett systemmeddelande visas om ett [cron-jobb](cron.md) inte är tillgängligt för att uppdatera indexerare som blir ogiltiga. Butiken är fortfarande tillgänglig under omindexeringsprocesserna.
 
 >[!NOTE]
-> Adobe Commerce handlare som använder Live Search, Catalog Service eller Product Recommendations kan använda en [SaaS-baserad prisindexerare](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html).
+> Adobe Commerce handlare som använder Live Search, Catalog Service eller Product Recommendations har möjlighet att använda en [SaaS-baserad prisindexerare](https://experienceleague.adobe.com/docs/commerce/price-indexer/index.html).
 
 När du behöver indexera om visas ett meddelande högst upp på sidan. Indexet och meddelandet rensas baserat på omindexeringsläget och möjliga åtgärder som du vidtar. Mer information om indexering finns i [Hur programmet implementerar indexering](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) i _PHP-utvecklarhandboken_.
 
 ![Indexhantering - åtgärder](./assets/index-management.png){width="700" zoomable="yes"}
 
 - Indexhantering har en något annorlunda presentation för platta produktkataloger.
-- För att undvika problem när flera administratörsanvändare uppdaterar objekt som utlöser automatisk omindexering rekommenderar vi att du anger att alla indexerare ska köras enligt schemat som [cron-jobb](cron.md). Annars kan objekt med inbördes beroenden orsaka dödläge varje gång ett objekt sparas. Symtomen på ett dödläge är bland annat hög processoranvändning och MySQL-fel. Det är en god idé att använda schemalagd indexering.
+- För att undvika problem när flera administratörsanvändare uppdaterar objekt som utlöser automatisk omindexering rekommenderar vi att du anger att alla indexerare ska köras enligt schemat som [cron-jobb](cron.md). Annars kan objekt med inbördes beroenden orsaka dödläge varje gång ett objekt sparas. Symtomen på ett dödläge är bland annat hög användning av CPU och MySQL-fel. Det är en god idé att använda schemalagd indexering.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Som standard loggas administratörsåtgärder, som omindexering, av systemet och kan visas i [Åtgärdsloggrapporten](action-log-report.md). Åtgärdsloggning kan konfigureras i [Loggning för administrationsåtgärder](action-log.md) i butikens avancerade administratörsinställningar.
 
 ## Metodtips för omindexering
@@ -43,7 +43,7 @@ Omindexering och cachelagring har olika syften i Commerce. Indexen spårar datab
 
 >[!IMPORTANT]
 >
->För butiker som använder [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) och har angett Elasticsearch som fulltextindexerare (`catalogsearch_fulltext`): fulltextindexet måste köras igen efter att gruppbehörigheter har ändrats eller när permissions-indexeraren är i läget Schemalagd.
+>För butiker som använder [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) och har angett Elasticsearch som fulltextindexerare (`catalogsearch_fulltext`): fulltextindexet måste köras igen efter att gruppbehörigheter har ändrats eller när behörighetsindexeraren är i läget Schemalagd.
 
 1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**på sidofältet_ Admin _.
 
@@ -76,7 +76,7 @@ Omindexering och cachelagring har olika syften i Commerce. Indexen spårar datab
 
 ## Indexera om med kommandoraden
 
-I Commerce finns fler alternativ för indexering via kommandoraden. Fullständig information och kommandoalternativ finns i [Indexera om](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target=&quot;blank&quot;} i _Konfigurationshandboken_.
+I Commerce finns fler alternativ för indexering via kommandoraden. Fullständig information och kommandoalternativ finns i [Indexera om](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} i _Konfigurationshandboken_.
 
 ## Utlösarhändelser för index
 

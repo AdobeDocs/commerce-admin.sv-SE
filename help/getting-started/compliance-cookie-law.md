@@ -1,9 +1,9 @@
 ---
 title: Cookie-lagefterlevnad
-description: För att hålla jämna steg med lagstiftningen i många länder om användningen av cookies erbjuder Adobe Commerce och Magento Open Source handlare ett urval av metoder för att få kundens samtycke.
+description: För att hålla jämna steg med lagstiftningen i många länder om användningen av cookies erbjuder Adobe Commerce och Magento Open Source säljare ett urval av metoder för att få kundens samtycke.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 04e8fe7cf303f434bab748df447eef8ac1097196
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Cookie-lagefterlevnad
 
-Cookies är små filer som sparas på datorn för varje besökare på platsen och används som tillfälliga förvaringsplatser för information. Information som sparas i cookies används för att anpassa shoppingupplevelsen, länka besökare till deras kundvagnar, mäta trafikmönster och förbättra kampanjernas effektivitet. För att hålla jämna steg med lagstiftningen i många länder om användningen av cookies erbjuder Adobe Commerce och Magento Open Source handlare ett urval av metoder för att få kundens samtycke. [Cookie Reference](#default-cookies) innehåller en lista med standardcookies i Adobe Commerce och Magento Open Source.
+Cookies är små filer som sparas på datorn för varje besökare på platsen och används som tillfälliga förvaringsplatser för information. Information som sparas i cookies används för att anpassa shoppingupplevelsen, länka besökare till deras kundvagnar, mäta trafikmönster och förbättra kampanjernas effektivitet. För att hålla jämna steg med lagstiftningen i många länder om användningen av cookies erbjuder Adobe Commerce och Magento Open Source säljare ett urval av metoder för att få kundens samtycke. [Cookie Reference](#default-cookies) innehåller en lista med standardcookies i Adobe Commerce och Magento Open Source.
 
 >[!NOTE]
 >
->Om du ändrar standardsekretessinställningarna för [Google](../merchandising-promotions/google-tools.md#google-privacy-settings) så att de överensstämmer med [allmänna dataskyddsförordningen](compliance-gdpr.md) behöver du inte få användarens samtycke för användning av Google Analytics-cookies.
+>Om du ändrar standardsekretessinställningarna för [Google](../merchandising-promotions/google-tools.md#google-privacy-settings) så att de överensstämmer med [allmänna dataskyddsförordningen](compliance-gdpr.md) behöver du inte få användarens samtycke för användning av Google Analytics cookies.
 
 ## Begränsningsläge för cookie
 
@@ -72,7 +72,7 @@ Vissa av dessa cookies kan innehålla konfigurationsalternativ, inklusive aktive
 
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Hämtar produkt-SKU, namn, pris och kvantitet som tagits bort från kundvagnen. Google Analytics kan veta när en produkt har lagts till i en kundvagn.
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Hämtar produkt-SKU, namn, pris och kvantitet som tagits bort från kundvagnen. Låter Google Analytics veta när en produkt har lagts till i en kundvagn.
 
 #### `guest-view`
 
@@ -112,7 +112,7 @@ Lagrar produkt-ID:n för nyligen visade produkter för enkel navigering.
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Google Analytics kan veta när en produkt har tagits bort från en kundvagn.
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Gör att Google Analytics vet när en produkt har tagits bort från en kundvagn.
 
 #### `stf`
 
@@ -196,7 +196,7 @@ Anges av Gainsight PX-biblioteket som används indirekt av Admin Analytics-modul
 
 #### `s_sq`
 
-Ange indirekt av Admin Analytics-modulen. Används av funktionen ClickMap som samlar in data om var besökarna klickar och vad de klickar på. Lagrar information från varje klick. Används endast i en butiks administrativa område. Gäller inte för kunder.
+Ange indirekt av Admin Analytics-modulen. Används av ClickMap-funktionen som samlar in data om var besökarna klickar och vad de klickar på. Lagrar information från varje klick. Används endast i en butiks administrativa område. Gäller inte för kunder.
 
 #### `pagebuilder_modal_dismissed`
 
@@ -210,11 +210,11 @@ Anges av Page Builder-modulen. Innehåller en flagga som förhindrar efterfölja
 
 Används som en del av flikfunktionsimplementeringen endast i ett administrativt område i en butik. Gäller inte för kunder.
 
-## Recommendations cookies
+## Produktrekommendationer - cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies används av kunder som använder Product Recommendations för Adobe Commerce. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies används av produktrekommendationer för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: Gör att du kan [begränsa Adobe Commerce datainsamling](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie) om du har anpassad kod för att hantera cookie-samtycke på din webbplats.
+- `mg_dnt`: Gör att du kan [begränsa Adobe Commerce datainsamling](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) om du har anpassad kod för att hantera cookie-samtycke på din webbplats.
 - `user_allowed_save_cookie`: Används för [begränsningsläge för cookies](#cookie-restriction-mode).
 - `authentication_flag`: Anger om en kund har loggat in eller ut. Den här cookien uppdateras samtidigt som cookien `dataservices_customer_id`.
 - `dataservices_customer_id`: Anger om en kund har loggat in eller ut. Denna cookie innehåller kundens unika ID i systemet.
@@ -224,10 +224,10 @@ Används som en del av flikfunktionsimplementeringen endast i ett administrativt
 
 ## Ytterligare cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies har angetts för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies har angetts för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: Anges av Snowplow JavaScript-spåraren. Mer information finns i [Snowplow-dokumentationen](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options).
-- `com.adobe.alloy.getTld`: Med tanke på den aktuella webbsidans värdnamn är detta den översta domänen som inte är ett &quot;offentligt suffix&quot; enligt https://publicsuffix.org. Detta är i princip den översta domänen som kan ta emot cookies. Den här cookien ingår i [Alloy Web SDK](https://github.com/adobe/alloy).
+- `com.adobe.alloy.getTld`: Med tanke på den aktuella webbsidans värdnamn är detta den översta domänen som inte är ett &quot;offentligt suffix&quot; enligt https://publicsuffix.org. Detta är i princip den översta domänen som kan ta emot cookies. Den här cookien är en del av [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

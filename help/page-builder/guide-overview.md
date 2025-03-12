@@ -4,16 +4,16 @@ description: Omfattande information om  [!DNL Page Builder]  för Adobe Commerce
 seo-title: Adobe Commerce [!DNL Page Builder] User Guide
 seo-description: Describes how to use the [!DNL Page Builder] module in Adobe Commerce or Magento Open Source.
 exl-id: 983ef3a8-b803-40ff-a9f5-07eb895df31c
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
 
 # Användarhandbok för [!DNL Page Builder]
 
-Den här handboken är avsedd för administratörer av Adobe Commerce och Magento Open Source. Den innehåller detaljerad information om [!DNL Page Builder] funktioner, inklusive en genomgång i tre delar för att skapa grundläggande innehållskomponenter. Det förutsätter en grundläggande förståelse av kärnkonfigurationen och funktionen för [!DNL Commerce].
+Den här handboken är avsedd för administratörer som arbetar i Adobe Commerce och Magento Open Source Admin. Den innehåller detaljerad information om [!DNL Page Builder] funktioner, inklusive en genomgång i tre delar för att skapa grundläggande innehållskomponenter. Det förutsätter en grundläggande förståelse av kärnkonfigurationen och funktionen för [!DNL Commerce].
 
 [!DNL Page Builder] har två områden för butiksadministratörer:
 
@@ -24,7 +24,7 @@ Den här guiden täcker:
 
 | Ämne | Beskrivning |
 | ------- | ----------- |
-| [Introduktion](introduction.md) | Vad är [!DNL Page Builder]? Och hur blir det enklare att skapa innehåll för Adobe Commerce och Magento Open Source? |
+| [Introduktion](introduction.md) | Vad är [!DNL Page Builder]? Och hur blir det enklare att skapa innehåll för Adobe Commerce och Magento Open Source webbplatser? |
 | [Versionsinformation](release-notes.md) | Granska uppdateringarna i varje [!DNL Page Builder]-modulversion. |
 | [Konfigurera](setup.md) | Om du vill uppdatera standardinställningarna kan du ändra standardsidlayouten och aktivera fler avancerade [!DNL Page Builder]-funktioner. Du kan även integrera [!DNL Google Maps] för att inkludera platsinnehåll på dina sidor. |
 | [Workspace](workspace.md) | Granska komponenterna på arbetsytan [!DNL Page Builder] och hur de gör det möjligt för dig att skapa engagerande innehåll för dina butiker. |
@@ -33,12 +33,12 @@ Den här guiden täcker:
 | Layout | Utforska avsnittet _Layout_ på panelen [!DNL Page Builder] och hur du använder dessa verktyg för att lägga till layoutkomponenter på [!DNL Page Builder] scenen: <br>[rows](row.md)<br>[columns](column.md)<br>[tabs](tabs.md) |
 | Element | Utforska avsnittet _Elements_ på panelen [!DNL Page Builder] och hur du använder de här verktygen för att lägga till grundläggande element i layoutbehållare på [!DNL Page Builder] scenen: <br>[text](text.md)<br>[rubriker](heading.md)<br>[buttons](buttons.md)<br>[avdelare](divider.md)<br>[HTML code](html-code.md) |
 | Media | Utforska avsnittet _Media_ på panelen [!DNL Page Builder] och hur du använder dessa verktyg för att lägga till medieobjekt i en layoutbehållare på [!DNL Page Builder] scenen: <br>[images](image.md)<br>[video](video.md)<br>[banners](banner.md)<br>[sliders](slider.md)<br>[[!DNL Google Maps]](map.md) |
-| Lägg till innehåll | Utforska avsnittet _Lägg till innehåll_ på panelen [!DNL Page Builder] och hur du lägger till innehållskomponenter på scenen [!DNL Page Builder]: <br>[Block](block.md)<br>[Dynamiskt block](dynamic-block.md)<br>[Produkter](products.md)<br>[Produkt-Recommendations](recommendations.md) (endast Adobe Commerce) |
+| Lägg till innehåll | Utforska avsnittet _Lägg till innehåll_ på panelen [!DNL Page Builder] och hur du lägger till innehållskomponenter på scenen [!DNL Page Builder]: <br>[Blockera](block.md)<br>[dynamiska block](dynamic-block.md)<br>[Produkter](products.md)<br>[Produktrekommendationer](recommendations.md) (endast Adobe Commerce) |
 | [Mallar](templates.md) | Spara ditt befintliga [!DNL Page Builder]-innehåll som en mall och använd sedan mallen i ett annat område för att snabbt och konsekvent skapa innehåll. |
 
 {style="table-layout:auto"}
 
-Det omfattar inte kärnfunktionerna i Adobe Commerce och Magento Open Source.
+Det täcker inte kärnfunktionerna i Adobe Commerce och Magento Open Source.
 
 ## Ytterligare dokumentation
 

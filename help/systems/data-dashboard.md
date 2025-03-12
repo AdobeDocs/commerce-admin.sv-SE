@@ -3,7 +3,7 @@ title: Instrumentpanel för datahantering
 description: Lär dig hur du får tillgång till insikter om dataströmmar för  [!DNL Catalog Service], [!DNL Live Search] och [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 4495a27b57c04c6f9c37b2c5237b5f2233cc8532
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Kontrollpanelen för datahantering ger en översikt över synkroniseringsstatuse
 
 ## Målgrupp
 
-Kontrollpanelen för datahantering är tillgänglig utan extra kostnad för alla Commerce-handlare som använder [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) eller [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) med en aktiv licens.
+Kontrollpanelen för datahantering är tillgänglig utan extra kostnad för alla Commerce-handlare som använder [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview) eller [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) med en aktiv licens.
 
 Kontrollpanelen för datahantering finns på *System* > Dataöverföring > *Kontrollpanelen för datahantering*.
 
@@ -47,7 +47,7 @@ När antalet bearbetade produkter matchar antalet uppdaterade produkter anger de
 
 >[!NOTE]
 >
->Adobe tillhandahåller också ett kommandoradsgränssnitt och systemloggar som utvecklare och systemintegratörer kan använda för att hantera och spåra synkroniseringsåtgärder och felsöka fel för Commerce SaaS-tjänster. Mer information finns i [Exportguiden för SaaS-data](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe tillhandahåller också ett kommandoradsgränssnitt och systemloggar som utvecklare och systemintegratörer kan använda för att hantera och spåra synkroniseringsåtgärder och felsöka fel för Commerce SaaS-tjänster. Mer information finns i [Exportguiden för SaaS-data](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
 
 ### Lista över synkroniserade produkter
 

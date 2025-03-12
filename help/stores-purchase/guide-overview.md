@@ -3,16 +3,16 @@ title: Butiks and Purchase Experience Guide
 description: Omfattande information om butiksdefinition och säljfunktioner för kundtjänstpersonal och säljchefer som arbetar i Adobe Commerce och Magento Open Source Admin.
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 recommendations: noCatalog
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce Stores and Purchase Experience Guide
 
-Handboken är avsedd för kundtjänstpersonal och säljchefer som arbetar i Adobe Commerce och Magento Open Source. Här finns detaljerad information om orderhantering och inköpsfunktioner, inklusive hur kundvagnen kan konfigureras för att hjälpa kunder och främja försäljningen. Det förutsätter en grundläggande förståelse av kärnkonfigurationen och funktionen för [!DNL Commerce].
+Den här handboken är avsedd för kundtjänstagenter och säljchefer som arbetar i Adobe Commerce och Magento Open Source Admin. Här finns detaljerad information om orderhantering och inköpsfunktioner, inklusive hur kundvagnen kan konfigureras för att hjälpa kunder och främja försäljningen. Det förutsätter en grundläggande förståelse av kärnkonfigurationen och funktionen för [!DNL Commerce].
 
 Den här guiden täcker:
 

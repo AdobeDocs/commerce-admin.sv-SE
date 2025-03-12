@@ -2,16 +2,16 @@
 title: Handbok för marknadsföring och reklam
 description: Utforska detaljerad information om marknadsförings- och marknadsföringsfunktioner i Adobe Commerce, inklusive riktade rabatter och evenemang.
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: 06c3676d4446dedd44b1be2cff021fabe0ad6fe3
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce Merchandising and Promotion Guide
 
-Handboken är avsedd för handlare och marknadsförare som arbetar i Adobe Commerce och Magento Open Source. Här finns detaljerad information om marknadsföring och kampanjfunktioner, inklusive riktade rabatter och evenemang. Det förutsätter en grundläggande förståelse av kärnkonfigurationen och funktionen för [!DNL Commerce].
+Handboken är avsedd för handlare och marknadsföringspersonal som arbetar i Adobe Commerce och Magento Open Source Admin. Här finns detaljerad information om marknadsföring och kampanjfunktioner, inklusive riktade rabatter och evenemang. Det förutsätter en grundläggande förståelse av kärnkonfigurationen och funktionen för [!DNL Commerce].
 
 Den här guiden täcker:
 
@@ -26,7 +26,7 @@ Den här guiden täcker:
 | [Katalogprisregler](price-rules-catalog.md) | Erbjud produkter till köpare till rabatterat pris baserat på ett antal definierade villkor. |
 | [Kundprisregler](price-rules-cart.md) | Använd rabatter på artiklar i kundvagnen baserat på en uppsättning villkor eller när kunden anger en giltig kupongkod. |
 | [Produktrelationer](product-relationships.md) | Marknadsför produkter i din katalog på andra sidor genom att definiera förhållandet mellan produkterna. |
-| [Nyhetsbrev och prenumerationer](newsletters.md) | Publish och distribuera nyhetsbrev till prenumerantkunder för att öka trafiken till er butik. |
+| [Nyhetsbrev och prenumerationer](newsletters.md) | Publicera och distribuera nyhetsbrev till prenumerantkunder för att öka trafiken till er butik. |
 | [E-postpåminnelser](email-reminder-rules.md) | Skicka automatiskt påminnelser till kunderna för att utnyttja en kampanj och göra ett inköp. |
 | [Sökmotoroptimering](seo-overview.md) | Implementera Commerce funktioner för att finjustera webbplatsens innehåll och presentation och förbättra det sätt på vilket sidorna indexeras av sökmotorer. |
 | [Google webbplatsverktyg](google-tools.md) | Konfigurera integreringar med Google verktyg för att optimera ert innehåll, analysera trafiken och koppla katalogen till shoppingaggregatorer och marknadsplatser. |

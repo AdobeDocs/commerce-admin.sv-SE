@@ -3,7 +3,7 @@ title: Skapa kategorier
 description: Du kan skapa så många ytterligare underkategorier som behövs, enligt det maximala menydjup som har angetts i konfigurationen.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 0%
@@ -116,7 +116,7 @@ Definiera även eventuella associerade nyckelord och attribut, till exempel:
 
 1. Om du vill att kategorisidan ska innehålla avsnittet _`Filter by Attribute`_för lagerstyrd navigering anger du **[!UICONTROL Anchor]**till `Yes`.
 
-1. För alternativen för **[!UICONTROL Available Product Listing Sort By]** väljer du ett eller flera av de tillgängliga värdena som ska vara tillgängliga för kunder för att sortera listan. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidgeten Produktlista](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. För alternativen för **[!UICONTROL Available Product Listing Sort By]** väljer du ett eller flera av de tillgängliga värdena som ska vara tillgängliga för kunder för att sortera listan. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidgeten Produktlista](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Som standard inkluderas alla tillgängliga värden. Avmarkera kryssrutan **[!UICONTROL Use All]** om du vill ändra valen. Värdena kan till exempel vara:
 
@@ -124,7 +124,7 @@ Definiera även eventuella associerade nyckelord och attribut, till exempel:
    - `Product Name`
    - `Price`
 
-1. Om du vill ange standardsorteringsordningen för kategorin väljer du värdet **[!UICONTROL Default Product Listing Sort By]**. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidgeten Produktlista](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Om du vill ange standardsorteringsordningen för kategorin väljer du värdet **[!UICONTROL Default Product Listing Sort By]**. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidgeten Produktlista](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Så här ändrar du standardinställningen för [prissteg](navigation-layered.md#configure-price-navigation) för navigering i flera lager:
 
@@ -206,7 +206,7 @@ Definiera även eventuella associerade nyckelord och attribut, till exempel:
 
    ![Designinställningar](./assets/category-design.png){width="600" zoomable="yes"}
 
-1. ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Så här schemalägger du en designuppdatering för en viss tidsperiod:
+1. ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Så här schemalägger du designuppdateringen för en viss tidsperiod:
 
    - Expandera avsnittet _[!UICONTROL Schedule Design Update]_.
 

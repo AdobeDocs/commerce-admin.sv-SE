@@ -1,12 +1,12 @@
 ---
-user-guide-title: "[!DNL Inventory Management] Användarhandbok"
+user-guide-title: Användarhandbok för [!DNL Inventory Management]
 user-guide-description: Lär dig hur du använder  [!DNL Inventory Management] funktioner för att behålla kvantiteter för försäljning och hantera leveranser för att slutföra  [!DNL Commerce] beställningar.
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 1%
 
 ---
@@ -58,5 +58,5 @@ ht-degree: 1%
    - [Ökning](shipments.md)
    - [Skapa försändelser](shipments-create.md)
 - [CLI-referens](cli.md)
-- [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

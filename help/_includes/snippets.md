@@ -1,9 +1,9 @@
 ---
 title: Fragment
 description: Återanvända anteckningar och visuella element för att anteckna en funktion eller sida som gäller en viss utgåva
-source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
+source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -75,10 +75,10 @@ Om du vill komma åt lagringskonfigurationsinställningarna väljer du **[!UICON
 
 | Dokumentationsresurs | Beskrivning |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 Merchant Documentation](../landing/home.md) | Handlingar för Adobe Commerce |
-| [Tjänster för Adobe Commerce-dokumentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Dokumentation till stöd för en samling tjänster som hjälper handlare att integrera viktiga komponenter i sin verksamhet med sin butik. |
-| [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Stegvisa procedurer för att distribuera Adobe Commerce på en hanterad, automatiserad värdmolnplattform. |
-| [Handböcker för Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systemdokumentation om koncept, processer, verktyg och bästa metoder för att utveckla, driftsätta och underhålla Adobe Commerce-projekt. |
-| [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/docs) | Dokumentation som riktar sig till utvecklare och som används för att anpassa Adobe Commerce och integrera med tredjepartssystem |
+| [Användarhandböcker för administratörer i Adobe Commerce 2.4](../landing/home.md) | Dokumentation och resurser för handlare som arbetar i administratören. |
+| [Tjänster för Adobe Commerce-dokumentation](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | Dokumentation till stöd för en samling marknadsföringstjänster som hjälper handlare att integrera viktiga komponenter i sin verksamhet med sin butik. |
+| [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Stegvisa procedurer för att driftsätta Adobe Commerce på en hanterad, automatiserad värdmolnplattform. |
+| [Handböcker för Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systemdokumentation om koncept, processer, verktyg och bästa metoder för att utveckla, driftsätta och underhålla Adobe Commerce i molnprojekt och lokala projekt. |
+| [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/docs) | Dokumentation för utvecklare som används för att anpassa Adobe Commerce och integrera med tredjepartssystem. |
 
 {style="table-layout:auto"}

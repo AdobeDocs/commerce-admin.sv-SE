@@ -3,7 +3,7 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] i Commerce Admin.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Mer information om hur du ansluter din butik till Adobe Commerce tjänster finns i [Commerce Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+Mer information om hur du ansluter din butik till Adobe Commerce tjänster finns i [Commerce Services](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).
 
 {{config}}
 
@@ -45,7 +45,7 @@ Mer information om hur du ansluter din butik till Adobe Commerce tjänster finns
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Project] | Global | Namnet på det SaaS-projekt som grupperar alla dina SaaS-datamallar. En _Skapa projekt_-knapp visas om det inte finns några SaaS-projekt. |
-| [!UICONTROL Data Space] | Global | Visar en lista över SaaS-datautrymmen i det angivna SaaS-projektet. Antalet SaaS-datamallar beror på din [Commerce-licens](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce - ett produktionsdatautrymme; två testdatamallar;<br />Magento Open Source - ett produktionsdatautrymme; inga testdatamallar |
+| [!UICONTROL Data Space] | Global | Visar en lista över SaaS-datautrymmen i det angivna SaaS-projektet. Antalet SaaS-datamallar beror på din [Commerce-licens](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html):<br />Adobe Commerce - ett produktionsdatautrymme; två testdatamallar;<br />Magento Open Source - ett produktionsdatautrymme; inga testdatamallar |
 
 {style="table-layout:auto"}
 
@@ -55,6 +55,6 @@ Mer information om hur du ansluter din butik till Adobe Commerce tjänster finns
 
 | Fält | Beskrivning |
 |--- |--- |
-| [!UICONTROL Sign in using Adobe ID] | Adobe ID är vanligtvis den e-postadress du använde när du startade ditt medlemskap eller köpte ett program eller en tjänst från Adobe. Din Adobe ID är nyckeln som du behöver för att komma åt ditt Adobe-konto. |
+| [!UICONTROL Sign in using Adobe ID] | Din Adobe ID är vanligtvis den e-postadress du använde när du startade ditt medlemskap eller köpte ett program eller en tjänst från Adobe. Din Adobe ID är nyckeln du behöver för att komma åt ditt Adobe-konto. |
 
 {style="table-layout:auto"}

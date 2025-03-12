@@ -4,9 +4,9 @@ description: Omfattande information om kundkonton och segment för Adobe Commerc
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Commerce Customer Management Guide
 
-Handboken är avsedd för kundtjänstpersonal som arbetar i Adobe Commerce och Magento Open Source. Här finns detaljerad information om funktioner för kundhantering i Commerce Admin och kundupplevelsen i butiken. Det förutsätter en grundläggande förståelse för Commerce grundläggande konfiguration och funktioner.
+Handboken är avsedd för kundtjänstpersonal som arbetar i Adobe Commerce och Magento Open Source Admin. Här finns detaljerad information om funktioner för kundhantering i Commerce Admin och kundupplevelsen i butiken. Det förutsätter en grundläggande förståelse för Commerce grundläggande konfiguration och funktioner.
 
 | Ämne | Beskrivning |
 | ------- | ----------- |

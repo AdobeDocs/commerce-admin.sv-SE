@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Pa
 description: Granska konfigurationsinställningarna i avsnittet [!UICONTROL Payment Services] på sidan [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] i Commerce Admin.
 exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 feature: Configuration, Payments
-source-git-commit: bf166c1debd7f10a4d988d231a1a47f32c4cea9e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 
 
-Betalningstjänster erbjuder en nyckelfärdig självbetjäningslösning, inklusive sandlådetestning och en enkel konfiguration, för att tillhandahålla robust och säker betalningshantering. Mer information finns i [_Användarhandboken för betaltjänster_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+Betalningstjänster erbjuder en nyckelfärdig självbetjäningslösning, inklusive sandlådetestning och en enkel konfiguration, för att tillhandahålla robust och säker betalningshantering. Mer information finns i [_Användarhandboken för betaltjänster_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 Om du vill komma åt konfigurationsinställningarna för Betalningstjänster går du till **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** på sidofältet _Admin_ och klickar på **[!UICONTROL Settings]**.
 
@@ -22,7 +22,7 @@ Om du vill komma åt konfigurationsinställningarna för Betalningstjänster gå
 
 >[!NOTE]
 >
->Information om hur du använder den äldre konfigurationen i stället för [Inställningar](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/settings.html) finns i [Äldre konfiguration](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html).
+>Information om hur du använder den äldre konfigurationen i stället för [Inställningar](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html) finns i [Äldre konfiguration](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html).
 
 ## [!UICONTROL General]
 
@@ -46,10 +46,10 @@ Om du vill komma åt konfigurationsinställningarna för Betalningstjänster gå
 |---|---|---|
 | [!UICONTROL Title] | butiksvy | Lägg till texten som ska visas som rubrik för det här betalningsalternativet i vyn Betalningsmetod vid utcheckning. |
 | [!UICONTROL Payment Action] | webbplats | [betalningsåtgärden](payment-methods.md#payment-actions) för den angivna betalningsmetoden. Alternativ: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | webbplats | Aktivera eller inaktivera [3DS-säker autentisering](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security-compliance/security.html#3ds). Alternativ: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | webbplats | Aktivera eller inaktivera [3DS-säker autentisering](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html#3ds). Alternativ: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | webbplats | Aktivera eller inaktivera kreditkortsfält som ska visas på utcheckningssidan. Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | butiksvy | Aktivera eller inaktivera [kreditkortssäkringen](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | butiksvy | Aktivera eller inaktivera möjligheten att slutföra beställningar för kunder i administratören [med en betalningsmetod som är skyddad](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | butiksvy | Aktivera eller inaktivera [kreditkortssäkringen](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | butiksvy | Aktivera eller inaktivera möjligheten att slutföra beställningar för kunder i administratören [med en betalningsmetod som är skyddad](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | webbplats | Aktivera eller inaktivera felsökningsläget. Alternativ: [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}

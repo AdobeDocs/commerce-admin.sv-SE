@@ -3,7 +3,7 @@ title: Hantera söktermer
 description: Lär dig hur du hanterar sökvillkoren för din butik för att dirigera om kunder med felstavade eller alternativa termer.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -124,7 +124,7 @@ Ett sätt att förbättra effekten av [katalogsökning](search-configuration.md)
 
 Adobe Commerce har stöd för två olika synonymhanteringslösningar:
 
-- Funktionen [Synonymer](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) för Live-sökning är tillgänglig för Adobe Commerce-installationer med Live Search installerat.
+- Funktionen [Synonymer](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) för Live-sökning är tillgänglig för Adobe Commerce-installationer med Live Search installerat.
 - Standardfunktionen för söksynonymer (som beskrivs på den här sidan) är tillgänglig direkt för alla Adobe Commerce-installationer.
 
 >[!NOTE]

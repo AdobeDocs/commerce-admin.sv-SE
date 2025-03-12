@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce och Magento Open Source innehåller mång
 breadcrumb-title: Marknadsföring och reklam
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
       - [Översikt och konfiguration](url-rewrite.md)
       - [Kategoriåterskrivningar](url-rewrite-category.md)
       - [Återskrivningar av produkter](url-rewrite-product.md)
-      - [CMS-sidomskrivning](url-rewrite-cms-page.md)
+      - [CMS page rewrites](url-rewrite-cms-page.md)
       - [Anpassade omskrivningar](url-rewrite-custom.md)
       - [Automatiska omdirigeringar](url-redirect-product-automatic.md)
 - Google webbplatsverktyg {#google-tools}
@@ -87,5 +87,5 @@ ht-degree: 0%
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Google Content Experiments](google-content-experiments.md)
-- [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

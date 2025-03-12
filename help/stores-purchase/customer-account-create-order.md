@@ -3,7 +3,7 @@ title: Skapa en order
 description: Lär dig hur du skapar en beställning för en kund i Commerce Admin.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%
@@ -98,7 +98,7 @@ Du kan överföra artiklar till kundvagnen från kundens önskelista eller från
 
 >[!NOTE]
 >
->Mer information om betalningsmetoder som stöder den här funktionen finns i [Betalningstjänster](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) när tillägget Betalningstjänster installeras och konfigureras.
+>Mer information om betalningsmetoder som stöder den här funktionen finns i [Betalningstjänster](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) när tillägget Betalningstjänster installeras och konfigureras.
 
 ## Steg 3: Skicka beställningen
 

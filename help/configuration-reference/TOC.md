@@ -5,9 +5,9 @@ breadcrumb-title: Konfigurationsreferens
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
    - [Försäljning](./sales/sales.md)
    - [Försäljningsmejl](./sales/sales-emails.md)
    - [Citat](./sales/quotes.md)
-   - [PDF-utskrifter](./sales/pdf-print-outs.md)
+   - [PDF Print-outs](./sales/pdf-print-outs.md)
    - [Moms](./sales/tax.md)
    - [Utcheckning](./sales/checkout.md)
    - [Leveransinställningar](./sales/shipping-settings.md)
@@ -75,7 +75,7 @@ ht-degree: 0%
       - [PayPal Payments Standard](./sales/paypal-payments-standard.md)
       - [PayPal Payflow Pro](./sales/paypal-payflow-pro.md)
       - [Länk till PayPal-betalningsflöde](./sales/paypal-payflow-link.md)
-- [Sales Channeler](./sales-channels.md)
+- [Försäljningskanaler](./sales-channels.md)
 - Tjänster {#services}
    - [Webb-API](./services/magento-web-api.md)
    - [Commerce Services](./services/saas.md)
@@ -84,5 +84,5 @@ ht-degree: 0%
    - [Administratör](./advanced/admin.md)
    - [System](./advanced/system.md)
    - [Utvecklare](./advanced/developer.md)
-- [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

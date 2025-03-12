@@ -1,22 +1,22 @@
 ---
-title: Handlingar till Adobe Commerce
+title: Användarhandböcker för Adobe Commerce Admin
 description: Bläddra i produktdokumentation om Adobe Commerce
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
-breadcrumb-title: Handläggardokumentation
+breadcrumb-title: Användarhandböcker för administratörer
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: c9dfc5385a008619a5ab1eceeec93df2c00df059
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![Handlingar för marknadsföring](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![Administratörsdokumentation](./assets/banner-user-home.png) {#documentation}
 
 Välkommen till nästa generation av världens ledande digitala handelsplattform. Adobe Commerce ger onlinehandlare oöverträffad flexibilitet och kontroll över utseendet, innehållet och funktionaliteten i sina onlinebutiker. Admin har kraftfulla verktyg för marknadsföring, sökmotoroptimering och produkthantering som ger dig möjlighet att skapa webbplatser som är anpassade efter just era affärsbehov.
 
-Informationen i handlardokumentationen är utformad för att passa företagsanvändare som arbetar i Adobe Commerce eller kodbasen Magento Open Source. Det finns anteckningar för funktioner som är exklusiva för Adobe Commerce eller för en utökad funktionsuppsättning.
+Informationen i administratörens användarhandbok är utformad för att passa företagsanvändare som arbetar i Adobe Commerce Admin eller Magento Open Source kodbas. Det finns anteckningar för funktioner som är exklusiva för Adobe Commerce eller för en utökad funktionsuppsättning.
 
 ## Adobe Commerce {#product-editions}
 
@@ -24,11 +24,11 @@ Adobe Commerce är en flexibel B2B- och B2C-handelsplattform som gör det möjli
 
 En lista med de avancerade funktionerna som ingår i Adobe Commerce finns i [Commerce-funktioner](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) i _versionsinformationen_.
 
-## Magento Open Source-kodbas
+## Magento Open Source kodbas
 
-Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till att övergången till Adobe Commerce blir kompatibel. Kodbasen är en del av Adobe initiativ för att ge enskilda utvecklare möjlighet att utveckla småföretag som vill växa snabbt.
+Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till att övergången till Adobe Commerce är kompatibel. Kodbasen är en del av Adobe initiativ för att ge enskilda utvecklare möjlighet att utveckla småföretag som vill växa snabbt.
 
-## Handledningar
+## Användarhandböcker för administratörer
 
 <table>
 <tr>
@@ -37,7 +37,7 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
    <td valign="top">
    <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html"><strong>Komma igång</strong></a>
     <div>
-    <em>Frågan om varför, var och hur de flesta handlare har när de först lär sig använda Adobe Commerce eller Magento Open Source, samt resurser och referensinformation. Den här guiden är en språngbräda till mer avancerade ämnen.</em>
+    <em>Frågorna"varför, var och hur" som de flesta handlare har när de först lär sig Admin, samt resurser och referensinformation. Den här guiden är en språngbräda till mer avancerade ämnen.</em>
     <br> </div>
   </td>
   </tr>
@@ -115,11 +115,11 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 </tr>
 </table>
 
-## Nyheter i handlarguiderna
+## Nyheter i administratörens användarhandböcker
 
 >[!TIP]
 >
->Du kan också granska [nyheter i Commerce Services-dokumentationen](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) och [nyheter i användarhandböckerna](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
+>Du kan också granska [nyheter i Commerce Services-dokumentationen](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html#what%E2%80%99s-new) och [nyheter i användarhandböckerna](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
 
 | Beskrivning | Typ | Datum |
 | ----------- | ---- | ---- |
@@ -127,7 +127,7 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 | **1.4.0 B2B-version** - Ämnet [Initiera offert för en köpare](../b2b/sales-rep-initiates-quote.md) finns nu med i _Adobe Commerce B2B-guiden_. Här beskrivs hur en säljare kan skapa en offert för en viss köpare för att påbörja förhandlingsprocessen. | Nytt | 06/13/23 |
 | **1.4.0 B2B-version** - Ämnen för [Förhandla ett citat](../b2b/quote-price-negotiation.md), [Förhandlingsbara citattecken](../b2b/quotes.md) och [Aktivera B2B-funktioner](../b2b/enable-basic-features.md) uppdateras för att återspegla ändringar för säljarinitierade citattecken och standardfunktioner. | Uppdatera | 06/13/23 |
 | **2.2.0 Adobe IMS-integreringsrelease** - Avsnittet [Inaktivera Commerce Admin Integration med Adobe ID](../getting-started/adobe-ims-disable.md) finns nu i _Komma igång-guiden_. Här beskrivs en valfri procedur för att inaktivera integreringen av Adobe Commerce Admin med Adobe IMS. | Nytt | 06/13/23 |
-| **2.2.0 Adobe IMS-integreringsrelease** - Ändringar i [integreringsöversikten för Adobe Identity Management-tjänsten (IMS)](../getting-started/adobe-ims-integration-overview.md) och [Konfigurera Commerce Admin Integration med Adobe ID](../getting-started/adobe-ims-config.md) för att återspegla den uppdaterade funktionen. | Uppdatera | 06/13/23 |
+| **2.2.0 Adobe IMS-integreringsrelease** - Ändringar i [integreringsöversikten för Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-integration-overview.md) och [Konfigurera Commerce Admin Integration med Adobe ID](../getting-started/adobe-ims-config.md) för att återspegla den uppdaterade funktionen. | Uppdatera | 06/13/23 |
 | **[!DNL Audience Activation]** - Ny, uppdaterad och förbättrad information finns i avsnittet [[!DNL Audience Activation]](../customers/audience-activation.md) för att återspegla användargränssnittet för konfigurationen i [!DNL Experience Platform Connector] och hur du använder den headless Commerce-instansen med kundprisregler och dynamiska block. | Uppdatera | 06/13/23 |
 | **Borttagning av UPS API** - Uppdaterat avsnittet [United Parcel Service (UPS)](../stores-purchase/ups.md) och konfigurationsreferenssidan [Leveransmetoder](../configuration-reference/sales/delivery-methods.md#ups) för att återspegla en tillfällig borttagning av UPS API:er för generering av nya API-nycklar. | Uppdatera | 06/08/23 |
 | **2.4.6 version** - Uppdaterade avsnitten [Produktlista](../catalog/products-list.md) och [Administratörskonfigurationsreferens](../configuration-reference/advanced/admin.md) för att inkludera information om produktvisningsbegränsningar som kan användas för att förbättra prestanda för stora kataloger. | Uppdatera | 03/14/23 |

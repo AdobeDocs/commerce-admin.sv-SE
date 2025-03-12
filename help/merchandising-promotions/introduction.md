@@ -2,7 +2,7 @@
 title: Introduktion till Commerce marknadsföring och reklam
 description: Förstå mer om Commerce-verktyg för att skapa riktade kampanjer och möjligheter för kundengagemang.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 1%
@@ -27,7 +27,7 @@ _Merchandising_ är en term som används i detaljhandeln för att beskriva konst
 
 >[!TIP]
 >
->Om du vill veta mer om Product Recommendations och hur de kan ge dig de insikter och den kontroll du behöver för att skapa den bästa upplevelsen för dina köpare kan du läsa [Recommendations användarhandbok för produkten](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+>Om du vill veta mer om produktrekommendationer och hur de kan ge dig de insikter och den kontroll du behöver för att skapa den bästa upplevelsen för dina köpare kan du läsa [användarhandboken för produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Erbjudanden
 
@@ -66,7 +66,7 @@ En av uppgifterna du bör utföra innan du lanserar din butik är att granska e-
 
 >[!NOTE]
 >
->Adobe Commerce och Magento Open Source, version 2.4.0 till 2.4.3, innehåller det programtillägg som utvecklats av digitalförsäljare och som används för integrering med Adobe Digital Engagement Cloud. Från och med version 2.4.4 är det här tillägget inte längre paketerat med kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
+>Adobe Commerce och Magento Open Source version 2.4.0 till 2.4.3 innehåller det programtillägg som utvecklats av en digital leverantör och som används för integrering med Adobe Digital Engagement Cloud. Från och med version 2.4.4 är det här tillägget inte längre bundet till kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
 ><br><br>
 >Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _Uppgraderingshandboken_.
 
@@ -82,7 +82,7 @@ Din butikskonfiguration är integrerad med följande Google-verktyg för att opt
 
 >[!NOTE]
 >
->Från och med version 2.4.5 uppdateras integreringen av Google-tjänster så att den stöder användningen av GTag-API:erna. GTag är en enhetlig mekanism för integrering med Google-funktioner för webbsidor och har stöd för de senaste funktionerna och möjligheterna att spåra och hantera innehåll via Google Services. Mer information finns i [Google Analytics utvecklardokumentationen](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>Från och med version 2.4.5 uppdateras integreringen av Google-tjänster så att den stöder användningen av GTag-API:erna. GTag är en enhetlig mekanism för integrering med Google-funktioner för webbsidor och har stöd för de senaste funktionerna och möjligheterna att spåra och hantera innehåll via Google Services. Mer information finns i [dokumentationen för Google Analytics-utvecklare](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
 - [Google Analytics](google-analytics.md) - Använd Google Universal Analytics för att definiera ytterligare anpassade dimensioner och mätvärden för spårning, med stöd för interaktion offline och i mobilappar samt tillgång till pågående uppdateringar.
 

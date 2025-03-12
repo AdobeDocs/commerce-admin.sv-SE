@@ -1,12 +1,12 @@
 ---
 user-guide-title: Kataloghanteringsguide
-user-guide-description: Omfattande information om kataloghanteringsfunktioner för Adobe Commerce- och Magento Open Source-administratörer och e-handelskunder.
+user-guide-description: Omfattande information om kataloghanteringsfunktioner för Adobe Commerce- och Magento Open Source-administratörer och e-handelsmarknadsförare.
 breadcrumb-title: Kataloghantering
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -99,5 +99,5 @@ ht-degree: 0%
       + [Skapa och ta bort attribut](attribute-product-create.md)
       + [Massuppdateringar](bulk-product-attribute-update.md)
       + [Attributuppsättningar](attribute-sets.md)
-+ [Återgå till reklamguider](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

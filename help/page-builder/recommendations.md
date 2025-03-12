@@ -1,26 +1,26 @@
 ---
-title: Lägg till innehåll - Recommendations
-description: Läs mer om Product Recommendations-innehållstypen som används för att lägga till en lista med rekommendationer på  [!DNL Page Builder] scenen.
+title: Lägg till innehåll - produktrekommendationer
+description: Läs mer om innehållstypen Produktrekommendationer som används för att lägga till en lista med rekommendationer på  [!DNL Page Builder] scenen.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
-# Lägg till innehåll - Recommendations
+# Lägg till innehåll - produktrekommendationer
 
-Använd innehållstypen _Product Recommendations_ för att lägga till en befintlig, aktiv [rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) på [[!DNL Page Builder] stage](workspace.md#stage) för en CMS-sida, ett CMS-block eller ett dynamiskt block.
+Använd innehållstypen _Produktrekommendationer_ för att lägga till en befintlig, aktiv [rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) på [[!DNL Page Builder] scenen](workspace.md#stage) för en CMS-sida, ett-block eller ett dynamiskt block.
 
 >[!NOTE]
 >
->Innehållstypen [!DNL Page Builder] _Product Recommendations_ stöds i Adobe Commerce 2.4.4 och senare och finns i [Product Recommendations-metapaket version 3.0.x eller senare](https://commercemarketplace.adobe.com/magento-product-recommendations.html). [Se installationsinformationen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) om du vill lägga till [!DNL Page Builder]-stöd för Product Recommendations. **Den här innehållstypen är inte tillgänglig för Magento Open Source.**
+>Innehållstypen [!DNL Page Builder] _Produktrekommendationer_ stöds i Adobe Commerce 2.4.4 och senare och finns i [produktrekommendationspaketet version 3.0.x eller senare](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om du vill lägga till [!DNL Page Builder]-stöd för produktrekommendationer [läser du installationsinformationen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Den här innehållstypen är inte tillgänglig för Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
-## Recommendations verktygslåda
+## Verktygslåda för produktrekommendationer
 
 | Verktyg | Ikon | Beskrivning |
 | --- | --| --- |
@@ -37,7 +37,7 @@ Använd innehållstypen _Product Recommendations_ för att lägga till en befint
 
 ## Lägg till en befintlig rekommendationsenhet
 
-1. Kontrollera att du redan [har skapat en rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) för sidtypen [!DNL Page Builder].
+1. Kontrollera att du redan [har skapat en rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) för sidtypen [!DNL Page Builder].
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ Använd innehållstypen _Product Recommendations_ för att lägga till en befint
 
 ## Avancerade inställningar
 
-1. Om du vill styra placeringen av Product Recommendations-enheten i den överordnade behållaren väljer du **[!UICONTROL Alignment]**:
+1. Om du vill styra placeringen av produktrekommendationsenheten i den överordnade behållaren väljer du **[!UICONTROL Alignment]**:
 
    | Alternativ | Beskrivning |
    | ------ | ----------- |
@@ -123,7 +123,7 @@ Använd innehållstypen _Product Recommendations_ för att lägga till en befint
 
    {style="table-layout:auto"}
 
-1. Ange den **[!UICONTROL Border]**-stil som ska användas på alla fyra sidor i Product Recommendations-enheten:
+1. Ange den **[!UICONTROL Border]**-stil som ska användas på alla fyra sidorna av enheten för produktrekommendationer:
 
    | Alternativ | Beskrivning |
    | ------ | ----------- |
