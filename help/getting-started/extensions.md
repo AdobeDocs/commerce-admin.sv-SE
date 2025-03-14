@@ -3,20 +3,38 @@ title: Tillägg från Adobe
 description: Granska information om tillägg för Adobe Commerce och Magento Open Source som släpps av Adobe.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: e37ca150c72bb46066690524a35de52d6db6d56a
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
 
 # Tillägg från Adobe
 
-Det här avsnittet innehåller information om tillägg för Adobe Commerce och Magento Open Source som släpps av Adobe. Tillägg lägger till funktioner, funktioner, tjänster och integreringar i Admin och storeFront. Vissa av dessa utökningar har utvecklats genom bidrag från Magento Open Source Community. Vissa tillägg kräver en separat installation och andra installeras som standard.
+Det här avsnittet innehåller information om PHP-tillägg för Adobe Commerce och Magento Open Source som släpps av Adobe.
 
-## Installerade tillägg
+Tillägg lägger till funktioner, funktioner, tjänster och integreringar i Admin och storeFront. Vissa av dessa utökningar har utvecklats genom bidrag från Magento Open Source Community. Vissa tillägg installeras som standard och andra kräver separat installation.
 
-Det finns tillägg som installeras automatiskt med Adobe Commerce eller Magento Open Source.
++++Läs mer om hur du utökar Adobe Commerce
+
+Adobe erbjuder två huvudstrategier för att utöka eller anpassa dina Adobe Commerce-projekt:
+
+- Pågående utökningsmöjligheter: Använder anpassad kod och tillägg som körs i Adobe Commerce-programprocessen, till exempel PHP-tillägg. Detta traditionella tillvägagångssätt tillåter djup integrering men kräver noggrann hantering vid uppgraderingar.
+
+- Utbyggbar utanför processen: Använder anpassad kod och program som fungerar oberoende av huvudprogramvaran. Detta moderna tillvägagångssätt hjälper till att minska den totala ägandekostnaden genom att:
+
+   - Förenkla uppgraderingar eftersom tilläggen inte hänger ihop med kärnan
+   - Ge utvecklarna bättre kontroll över implementeringstidpunkter och -metoder
+   - Aktivera oberoende skalning och underhåll av tilläggskomponenter
+
+Adobe Commerce erbjuder strategier och verktyg som stöder båda typerna av utbyggbarhet. Mer information finns i [Utbyggbarhet för Adobe Commerce](https://developer.adobe.com/commerce/extensibility/).
+
++++
+
+## Adobe-tillägg som installeras som standard
+
+Följande Adobe-tillägg ingår i Adobe Commerce och installeras automatiskt med Adobe Commerce-programmet. Vissa tillägg kräver ytterligare konfiguration eller aktivering i Admin, vilket beskrivs i tilläggsbeskrivningen.
 
 ### [!DNL Inventory Management]
 
@@ -55,42 +73,74 @@ De här funktionerna är aktiverade som standard. Varje Admin-användare måste 
 >
 >Adobe Commerce-butiker som har aktiverat Adobe Identity Management Services (IMS)-autentisering för administratören har inaktiverat Commerce 2FA. Användare som är inloggade på Admin med sina Adobe-inloggningsuppgifter behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [Integreringsöversikt för Adobe Identity Management-tjänst (IMS)](./adobe-ims-integration-overview.md).
 
-## Tillägg att lägga till
+## Adobe-tillägg som kräver installation
 
-[[!DNL Commerce Marketplace]](https://marketplace.magento.com/) är den globala e-handelsresursen för program och tjänster som utökar [!DNL Commerce]-lösningar med kraftfulla nya funktioner. Adobe släpper flera tillägg via [!DNL Marketplace] som kan installeras och konfigureras i din Adobe Commerce- eller Magento Open Source-butik för att tillhandahålla förbättrade integreringar och funktioner.
+Adobe erbjuder ytterligare tillägg som måste installeras separat med Composer. Dessa tillägg är tillgängliga via olika kanaler:
+
+- Databasåtkomst (repo.magento.com)
+
+  Följande tillägg kräver kontoetablering och autentiseringsuppgifter för att kunna installeras. Kontakta din Adobe-kontorepresentant om du behöver hjälp.
+
+   - [Adobe Commerce B2B](#adobe-commerce-b2b)
+   - [AEM Assets Integration för Commerce](#assets-integration-for-commerce)
+
+- Adobe Commerce Marketplace
+
+  Följande Adobe-tillägg är tillgängliga för allmänheten på [marketplace.magento.com](https://marketplace.magento.com). Dessa tillägg är tillgängliga utan extra kostnad.
+
+   - [Live Search](#live-search)
+   - [Produktrekommendationer](#product-recommendations)
+   - [Katalogtjänst](#catalog-service)
+   - [Betalningstjänster](#payment-services)
+
+### [!DNL Adobe Commerce B2B]
+
+![Endast Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce, kräver en separat licens.
+
+[!DNL Adobe Commerce B2B] är ett integrerat tillägg som omvandlar vanliga Commerce-butiker till heltäckande affärs-till-företag-plattformar. Det gör det möjligt för företag att hantera komplexa organisationsstrukturer med flera köpare, anpassade roller och inköpsbehörigheter under enhetliga företagskonton. Viktiga funktioner är bland annat företagsspecifika kataloger och priser, överlåtbara offerter, hantering av inköpsorder, rekvisitionslistor och funktioner för snabb beställning. Lösningen har stöd för både B2B- och B2C-modeller i ett och samma fall, vilket gör den flexibel för olika affärsbehov. Tillägget kräver en separat licens och är sömlöst integrerat med Adobe Commerce kärnfunktioner för att ge en komplett e-handelslösning för B2B.
+
+Kontakta din Adobe-kontorepresentant för att få hjälp med etableringen. Implementeringsinformation och konfigurationssteg finns i [[!DNL B2B for Adobe Commerce] användarhandboken](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+
+### [!DNL AEM Assets Integration for Commerce]
+
+![Endast Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce, kräver även licenser för Adobe Experience Manager (AEM) Assets och AEM Dynamic Media.
+
+[!DNL AEM Assets Integration for Commerce] ansluter Adobe Commerce till Adobe Experience Manager Digital Asset Management-system (DAM) för att ge centraliserad kontroll över alla digitala resurser. Integreringen möjliggör automatisk resurssynkronisering, uppdateringar i realtid och effektiv återanvändning av innehåll i alla e-handelslager. Genom att kombinera AEM robusta resurshanteringsfunktioner med Commerce kan företag dra nytta av effektiva arbetsflöden, enhetliga varumärkesupplevelser och optimerad mediedistribution via molnbaserad infrastruktur.
+
+Kontakta din Adobe-kontorepresentant för att få hjälp med etableringen. Implementeringsinformation och konfigurationssteg finns i [[!DNL Assets Integration] användarhandboken](../content-design/aem-assets-integration.md).
 
 ### [!DNL Live Search]
 
 ![Endast Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce
 
-Tillägget [!DNL Live Search] kopplar din butik till Live Search-tjänsten, en kostnadsfri sökplattform från Adobe Commerce som sömlöst ger säljarna möjlighet att ge kunderna en AI-förbättrad sökupplevelse. Med Adobe artificiella intelligens, Adobe Sensei, Intelligent Faceting, kan handlare göra mer med mindre genom att ta bort det manuella arbetet kring faceting/filtrering.
+Live Search är en Adobe Commerce-exklusiv funktion som ger en AI-baserad söklösning med sökfunktioner i realtid. Det ger snabba, relevanta resultat med produktminiatyrer samtidigt som kunderna skriver, tillsammans med intelligent ansikteshantering som automatiskt justerar filter baserat på köpbeteende. Lösningen innehåller säljfunktioner för produktförstärkning och -nedladdning, synonymhantering och sökanalys. [!DNL Live Search] ingår utan extra kostnad i Adobe Commerce och ersätter standardsökfunktionen med en mer avancerad SaaS-baserad sökfunktion. Den kräver minimal konfiguration för att komma igång.
 
-Mer information finns i [Live Search-användarhandboken](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html).
+Implementeringsinformation och tekniska krav finns i [Live Search-användarhandboken](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 ### [!DNL Product Recommendations]
 
 ![Endast Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce
 
-Tillägget [!DNL Product Recommendations] kopplar din butik till tjänsten Produktrekommendationer, ett kraftfullt marknadsföringsverktyg som du kan använda för att öka konverteringar, intäkter och engagemang. [!DNL Product Recommendations] har byggts av Adobe Commerce och drivs av den artificiella intelligensen som har testats i striden, Adobe Sensei, så att du tryggt kan skapa engagemang och konverteringar. Den här funktionen tar bort det manuella arbete som krävs för att göra relevanta produktrekommendationer till alla kunder.
+[!DNL Product Recommendations] är en Adobe Commerce-exklusiv funktion som drivs av Adobe Sensei AI-teknik som ger skräddarsydda produktförslag under kundens hela kundresa. Lösningen analyserar kundernas beteende och produktrelationer i realtid för att automatiskt generera relevanta rekommendationer, vilket kräver att det inte finns några manuella försäljningsregler. Detta AI-drivna tillvägagångssätt hjälper till att öka konverteringsgraden och intäktspotentialen samtidigt som man skapar mer engagerande produktupptäckt för kunderna.
 
-Mer information finns i [[!DNL Product Recommendations] användarhandboken](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=en).
+Implementeringsinformation och bästa praxis finns i [[!DNL Product Recommendations] användarhandboken](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html).
 
 ### [!DNL Catalog Service]
 
-Med [!DNL Catalog Service] kan du ge kunderna en optimerad produktupplevelse samtidigt som du ökar prestanda, förbättrar skalbarheten och ökar konverteringsgraden. Mer information finns i [[!DNL Catalog Service] användarhandboken](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html).
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+
+[!DNL Catalog Service] är en högpresterande lösning för Adobe Commerce och Magento Open Source som ger optimerad åtkomst till katalogdata via GraphQL slutpunkter. Den har en separat synkroniserad databas med produktinformation och relaterad information, och slipper direkt kommunikation för att ge snabbare sidinläsning. Tjänsten är särskilt värdefull för produktinformationssidor, kategorilistor och sökresultatsidor, vilket gör den idealisk för både traditionella och headless-handelsimplementationer.
+
+Instruktioner och teknisk information finns i [[!DNL Catalog Service] användarhandboken](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html).
+
+>[!NOTE]
+>
+>Katalogtjänster installeras automatiskt när Live Search eller Produktrekommendationer är aktiverade. Manuell installation krävs inte.
 
 ### [!DNL Payment Services]
 
-[!DNL Payment services] för Adobe Commerce och Magento Open Source är en helintegrerad betalningslösning som förenklar processen att hantera betalningar och ger dina kunder möjlighet att betala på sitt sätt. Samla alla betalnings- och transaktionsdata säkert inom Adobe Commerce Admin - så att ni kan hantera order och betalningar på ett och samma ställe och få en smidig utcheckning. Mer information finns i [[!DNL Payment Services] användarhandboken](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
-### [!DNL Store Fulfillment]
+[!DNL Payment Services] är en nyckelfärdig betalningslösning för Adobe Commerce- och Magento Open Source-butiker som erbjuder omfattande funktioner för betalningshantering. Tjänsten integrerar en säker betalningstjänstfunktion med inbyggt skydd mot bedrägeri, samtidigt som den erbjuder flera betalningsalternativ, inklusive kredit-/betalkort, PayPal-, Venmo- (US) och PayLater-planer. Den har enhetlig transaktionsrapportering och orderhantering via Commerce Admin-gränssnittet, vilket gör det enkelt för handlarna att spåra betalningar, hantera kassaflöden och stämma av ekonomiska data på ett och samma ställe.
 
-Store Fulfillment for Adobe Commerce and Magento Open Source möjliggör ett överlägset köp online, köp i butik (BOPIS) och maximerar produktiviteten genom att tillhandahålla ett omfattande arbetsflöde för fullgörande via en mobil enhet. Mer information finns i [[!DNL Store Fulfillment] användarhandboken](https://experienceleague.adobe.com/docs/commerce/store-fulfillment/guide-overview.html).
-
-### [!DNL Amazon Sales Channel]
-
-Med [!DNL Amazon Sales Channel] för Adobe Commerce kan du integrera listdatabasen för Amazon Seller Central med din [!DNL Commerce]-produktkatalog och hantera Amazon listor och försäljning i Commerce Admin. Mer information finns i [[!DNL Amazon Sales] användarhandboken för handboken](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html).
-
-### [!DNL Channel Manager]
-
-Med [!DNL Channel Manager] kan du öka försäljningen, nå nya kunder, effektivisera verksamheten och spara tid genom att integrera en Adobe Commerce- eller Magento Open Source-produktkatalog med Walmart Marketplace. När du har installerat och konfigurerat tillägget kan din personal hantera Walmart Marketplace-listor, lager, order, returer och återbetalningar sömlöst från [!DNL Commerce Admin]. Mer information finns i [[!DNL Channel Manager] användarhandboken](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html).
+Detaljerade konfigurationssteg och betalningsalternativ finns i [[!DNL Payment Services] användarhandboken](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview).
