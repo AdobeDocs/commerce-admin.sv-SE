@@ -3,7 +3,7 @@ title: Konfigurera Commerce Admin-integrering med ID
 description: Följ den här valfria proceduren för att integrera inloggningar för användarkonton i Adobe Commerce Admin med Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
+source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Integrationen stöder Commerce handlare med admin-användare som har en Adobe ID och som vill effektivisera inloggningen till Adobe Commerce och Adobe Business-produkter. Den är valfri och aktiveras per instans. Endast arbetsflöden för administratörer påverkas när de är aktiverade. 
+Integrationen stöder Commerce handlare med admin-användare som har en Adobe ID och som vill effektivisera inloggningen på Adobe Commerce- och Adobe Business-produkter. Den är valfri och aktiveras per instans. Endast arbetsflöden för administratörer påverkas när de är aktiverade. 
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Commerce Admin-användare måste skapa ett konto hos en Adobe ID för att kunna 
 
 ## Allmänna steg
 
-* Hämta Adobe-organisations-ID från [Adobe Admin Console](https://adminconsole.adobe.com/)
+* Hämta Adobe Org ID från [Adobe Admin Console](https://adminconsole.adobe.com/)
 * Generera ett nytt projekt, IMS API-nycklar och hemlighet från [Adobe Developer Console](https://developer.adobe.com/)
 * Konfigurera Adobe Commerce-användare i Adobe Admin Console
 * Aktivera modulen `AdminAdobeIms`.
@@ -50,19 +50,19 @@ När följande steg har slutförts av en administratör eller utvecklare med sys
 
 ### Steg 1: Hämta Adobe Org ID
 
-Det krävs medlemskap i minst en IMS-organisation för att den här funktionen ska kunna aktiveras. Om du har en Adobe ID-organisation tillhör du som standard minst en Adobe-organisation. Logga in på [Adobe Admin Console](https://adminconsole.adobe.com/) för att hämta ditt företags-ID.
+Det krävs medlemskap i minst en IMS-organisation för att den här funktionen ska kunna aktiveras. Om du har en Adobe ID tillhör du som standard minst en Adobe-organisation. Logga in på [Adobe Admin Console](https://adminconsole.adobe.com/) för att hämta ditt företags-ID.
 
 ### Steg 2: Generera ett nytt projekt, IMS API-nycklar och hemlig
 
-Om du vill skapa projekt för en organisation måste Adobe Admin-kontot för organisationen ha systemadministratörs- eller utvecklarrollen. Se [Developer Console Guide](https://developer.adobe.com/developer-console/docs/guides/projects/).
+Om du vill skapa projekt för en organisation måste organisationens Adobe Admin-konto ha rollen systemadministratör eller utvecklare. Se [Developer Console Guide](https://developer.adobe.com/developer-console/docs/guides/projects/).
 
 1. Logga in på [Adobe Developer Console](https://developer.adobe.com/).
 1. Gå till fliken **[!UICONTROL Projects]** (adobe.io/projects) och klicka på **[!UICONTROL Create a new project]**.
 1. Klicka på **[!UICONTROL Add API]** på den nyligen skapade projektsidan.
 1. Välj **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Välj **[!UICONTROL Oauth 2.0 Web]**.
-1. Ange **[!UICONTROL Redirect URI]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
-1. Ange **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. Ange **[!UICONTROL Redirect URI]**: `https://<commerce_base_url>/`
+1. Ange **[!UICONTROL Redirect URI pattern]**: `https://<commerce_base_url>/.*`
 
    Undvik alla punkter i värdnamnet genom att föregå punkterna med `\\`. Om du lägger till ett jokertecken i slutet av URL:en stöds hemlig nyckel för Adobe Commerce Admin.
 
