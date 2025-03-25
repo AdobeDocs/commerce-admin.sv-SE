@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Lär dig mer om  [!DNL Commerce Marketplace], som erbjuder handlare ett välstrukturerat urval av lösningar, och ger kvalificerade utvecklare verktyg, plattform och primär plats för att skapa ett livskraftigt företag.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
+source-git-commit: 7b5c331625e4c4dab0e41156722c4a8deb4aa4c0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [Adobe Commerce Marketplace][1] är en programbutik som erbjuder handlare ett välstrukturerat urval av lösningar och ger kvalificerade utvecklare de verktyg, den plattform och den plats där de ska skapa ett livskraftigt företag. [!DNL Commerce Marketplace] erbjuder ett urval tillägg som är tillgängliga utan kostnad och andra som är till salu. Inköp kan betalas med kreditkort eller [PayPal][2].
 
-Alla tillägg som är tillgängliga på [!DNL Commerce Marketplace] har genomgått en omfattande granskning. [EQP (Extension Quality Program][3]) kombinerar [!DNL Commerce] expertis, riktlinjer för utveckling och verifieringsverktyg för att säkerställa att alla tillägg på Commerce Marketplace uppfyller kodningsstandarder och bästa praxis. Granskningsprocessen innefattar både en automatiserad kontroll och en manuell QA-granskning. Under processen undersöks och testas strukturen och koden för varje förlängning för tecken på virus-/virusinfektion och eventuella tecken på plagiarism. Granskningen innehåller en djupgående teknisk undersökning och en säkerhetskontroll utförd av en [!DNL Commerce]-tekniker, med fokus på dokumentation, kodningsstruktur, prestanda, skalbarhet, säkerhet och kompatibilitet med [!DNL Commerce]-kärnan.
+Alla tillägg som är tillgängliga på [!DNL Commerce Marketplace] har genomgått en omfattande granskning. [EQP (Extension Quality Program][3]) kombinerar [!DNL Commerce] expertis, riktlinjer för utveckling och verifieringsverktyg för att säkerställa att alla tillägg i Commerce Marketplace uppfyller kodningsstandarder och bästa praxis. Granskningsprocessen innefattar både en automatiserad kontroll och en manuell QA-granskning. Under processen undersöks och testas strukturen och koden för varje förlängning för tecken på virus-/virusinfektion och eventuella tecken på plagiarism. Granskningen innehåller en djupgående teknisk undersökning och en säkerhetskontroll utförd av en [!DNL Commerce]-tekniker, med fokus på dokumentation, kodningsstruktur, prestanda, skalbarhet, säkerhet och kompatibilitet med [!DNL Commerce]-kärnan.
 
 Även om du kan köpa tillägg från andra källor verifieras endast de tillägg som är tillgängliga på [!DNL Commerce Marketplace] via omfattande teknisk granskning och marknadsföringsgranskning i Extension Quality Program.
 
@@ -28,7 +28,7 @@ Följande resurser är en startpunkt för nya användare som vill bekanta sig me
 
 - [Konfigurera I/O-händelser för Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 - [Konfigurera händelser för Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
-- [Konfigurerar SDK för administratörsgränssnitt](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+- [Konfigurera administratörsgränssnittet för SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Konverterar ett tillägg till ett program](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder-resurser
@@ -85,7 +85,11 @@ Installationsprocessen för [!DNL Marketplace]-köp skiljer sig åt för _lokala
 
 ## Support
 
-Om du behöver hjälp med att installera eller använda ett tillägg ska du först titta i dokumentationen som medföljer tillägget. Om du inte hittar svaret på din fråga kan du kontakta utvecklaren direkt med kontaktinformationen i tilläggslistan. Om det du köper på Marketplace inte uppfyller dina behov kan du [begära en återbetalning](#refund-requests) inom 25 dagar från inköpsdatumet. Adobe granskar alla ansökningar om återbetalning och (om det godkänns) utfärdar rätt återbetalning. Kontakta [supporten](mailto:commercemarketplacesupport@adobe.com) om du har problem med Commerce Marketplace.
+Om du behöver hjälp med att installera eller använda ett tillägg ska du först titta i dokumentationen som medföljer tillägget. Om du inte hittar svaret på din fråga kan du kontakta utvecklaren direkt med kontaktinformationen i tilläggslistan. Om det du köper på Marketplace inte uppfyller dina behov kan du [begära en återbetalning](#refund-requests) inom 25 dagar från inköpsdatumet. Adobe granskar alla återbetalningsansökningar och (om det godkänns) utfärdar rätt återbetalningsvillkor. För problem relaterade till Commerce Marketplace:
+
+Metod 1: Gå till [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), navigera längst ned på sidan och klicka på [!UICONTROL Contact Us] som öppnar ett formulär för att skicka en biljett.
+
+Metod 2: [E-postsupport](mailto:commercemarketplacesupport@adobe.com).
 
 ### Utcheckningsproblem
 
@@ -105,7 +109,7 @@ Inloggningsproblem är vanligtvis relaterade till en felmatchning mellan ditt MA
 
 ### Frågor om öppen källkod
 
-Marketplace Support-teamet löser problem som bara gäller webbplatserna [commercialMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) och [commercialDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) . Skicka frågor om Magento Open Source till [Community-forumet](https://community.magento.com/) eller [kontakta en partner](https://business.adobe.com/products/magento/partners.html) som kan hjälpa till med Magento Open Source.
+Marketplace Support-teamet löser problem som bara gäller webbplatserna [commercialMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) och [commercialDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) . Du kan ställa frågor om Magento Open Source till [Community-forumet](https://community.magento.com/) eller [kontakta en partner](https://business.adobe.com/products/magento/partners.html) som kan hjälpa till med Magento Open Source.
 
 ### Återbetalningsbegäranden
 
