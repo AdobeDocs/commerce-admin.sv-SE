@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] i Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 20f97d6ab391b7f5675d6790ab2ec5d24e9dda21
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,9 @@ ht-degree: 0%
 | [!UICONTROL Popular Search Terms] | Butiksvy | Avgör om _Populära sökvillkor_ har implementerats i arkivet. Den här inställningen gäller inte för butiker som använder [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Alternativ: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Butiksvy | Avgör om ett suffix, till exempel html eller htm, används på produkt-URL:er. Om det används ska du inte ange någon punkt före suffixet, eftersom det tillämpas automatiskt. |
 | [!UICONTROL Category URL Suffix] | Butiksvy | Avgör om ett suffix, till exempel html eller htm, används på kategorins URL:er. Om det används ska du inte ange någon punkt före suffixet, eftersom det tillämpas automatiskt. |
-| [!UICONTROL Use Categories Path for Product URLs] | Butiksvy | Anger om kategorisökvägar ingår i produkt-URL:er. Om du gör det kan flera URL-adresser peka på samma sida, vilket kan påverka sökordningen. Mer information finns i [Kanonisk meta-tagg](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
+| [!UICONTROL Use Categories Path for Product URLs] | Butiksvy | Avgör om kategorisökvägar inkluderas i produkt-URL:er på butiken. Om du gör det kan flera URL-adresser peka på samma sida, vilket kan påverka sökordningen. Mer information finns i [Kanonisk meta-tagg](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | Butiksvy | Avgör om en permanent omdirigering skapas automatiskt när en URL-nyckel ändras. När det är implementerat är kryssrutan Skapa anpassad omdirigering för gammal URL under fältet för produkt-URL-nyckel markerad som standard. Alternativ: `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | Global | Avgör om Adobe Commerce genererar data och sparar dem i omskrivningstabeller när en användare sparar en kategori som innehåller många tilldelade produkter. Alternativ: `Yes` / `No` <br/><br/>**_Viktigt!_**Om du sparar genererade data i en URL-omskrivningstabell kan prestandan försämras. Mer information finns i [Automatiska produktomdirigeringar](../../merchandising-promotions/url-redirect-product-automatic.md). |
+| [!UICONTROL Generate "category/product" URL Rewrites] | Global | Avgör om Adobe Commerce genererar data och sparar dem i omskrivningstabeller när en användare sparar en kategori som innehåller många tilldelade produkter.  <br/><br/>Om du ändrar det här alternativet påverkas inte hur produkt-URL:er hanteras i Adobe Commerce, eftersom systemet automatiskt löser produkt-URL:er oavsett den här inställningen. <br/><br/>Alternativ: `Yes` / `No` <br/><br/>**_Viktigt!_**Om du sparar genererade data i en URL-omskrivningstabell kan prestandan försämras. Mer information finns i [Automatiska produktomdirigeringar](../../merchandising-promotions/url-redirect-product-automatic.md). |
 | [!UICONTROL Apply transliteration for product URL] | Butiksvy | Avgör om translitterering används när produkt-URL:er skapas eller uppdateras. Alternativ: `Yes` / `No`. Standardvärdet är `Yes`. <br/><br/>I vissa fall bör du inaktivera transkribering. Om du till exempel har en webbutik på kinesiska rekommenderar SEO att URL:er för produkten matchar produktnamnet. Om du anger alternativet till `No` kan kinesiska tecken användas i produkt-URL:er i stället för ASCII-motsvarigheter. |
 | [!UICONTROL Page Title Separator] | Butiksvy | Identifierar tecknet som skiljer kategorinamnet och underkategorin åt i webbläsarens namnlist. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Butiksvy | Om det finns flera URL:er som pekar på samma kategorisida använder det här alternativet en kanonisk meta-tagg för att identifiera den kategori-URL som sökmotorer ska indexera. URL:en innehåller ett fullständigt namn till kategorin med meta-taggen. Detta minskar dubblettinnehållet och förbättrar SEO. Alternativ: `Yes` / `No` |

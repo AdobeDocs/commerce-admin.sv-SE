@@ -3,9 +3,9 @@ title: Katalog- och produkt-URL:er
 description: Lär dig mer om URL-formattyperna för dina katalogprodukter och hur du konfigurerar dem.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
+source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,13 @@ URL-nyckeln ska bestå av gemener med bindestreck som inte är avslutande mellan
 >
 >Mer information om hur du utökar URL-anpassningar, till exempel lokaliserade URL-adresser, finns i [URL-omskrivningar](../merchandising-promotions/url-rewrite.md).
 
-### HTML suffix
+### HTML-suffix
 
 Katalogen kan konfigureras så att suffixet antingen inkluderas eller exkluderas som en del av kategori- och produkt-URL:er. Det finns olika anledningar till att folk kan välja att använda eller utelämna suffixet. Vissa anser att suffixet inte längre har något användbart syfte och att sidor utan suffix indexeras mer effektivt av sökmotorer. Företaget kan dock ha ett standardiserat format för URL:er som kräver ett suffix.
 
 Eftersom suffixet styrs av systemkonfigurationen bör du aldrig skriva det direkt i URL-nyckeln för en kategori eller produkt. (Om du gör det får du ett dubbelt suffix i slutet av URL:en.) Oavsett om du bestämmer dig för att använda suffixet eller inte bör du vara konsekvent och använda samma inställning för alla produkt- och kategorisidor. Här är exempel på URL:er med - och utan - ett suffix.
 
-#### URL med suffix för HTML
+#### URL med HTML-suffix
 
 - `http://mystore.com/helena-hooded-fleece.html`
 - `http://mystore.com/helena-hooded-fleece.htm`
@@ -62,13 +62,13 @@ Eftersom suffixet styrs av systemkonfigurationen bör du aldrig skriva det direk
 
 ### Kategorisökväg
 
-Du kan konfigurera URL:en så att den antingen inkluderar eller exkluderar kategorins sökväg. Som standard inkluderas kategorisökvägen i alla kategorier och produktsidor. I följande exempel visas samma produkt-URL med, och utan, kategorisökväg.
+Du kan konfigurera produkt-URL:er så att de inkluderar eller exkluderar kategorisökvägen baserat på dina inställningar. Som standard inkluderas inte kategorisökvägen i produkt-URL:er. I kapslade kategorier visas dock alltid den fullständiga kategorisökvägen i URL:erna i butiken, vilket ger tydlighet och enhetlighet i kategorinavigeringen. I följande exempel visas samma produkt-URL med, och utan, kategorisökväg.
 
-#### URL med kategorisökväg
+#### Produkt-URL med kategorisökväg
 
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
-#### URL utan kategorisökväg
+#### Produkt-URL utan kategorisökväg
 
 - `http://mystore.com/helena-hooded-fleece.html`
 
