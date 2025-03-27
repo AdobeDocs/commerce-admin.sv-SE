@@ -3,9 +3,9 @@ title: Konfigurera integreringen
 description: Lär dig hur du kopplar ihop dina Adobe Commerce- och Experience Manager Assets-projekt för att möjliggöra resurssynkronisering mellan dessa två system.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,18 @@ Använd standardregeln *Matcha efter produktsku* för den första konfiguratione
 1. Välj **[!UICONTROL Save Config]** om du vill använda uppdateringar och initiera resurssynkronisering.
 
    Konfigurationsuppdateringen utlöser den inledande synkroniseringsprocessen så att Commerce kan acceptera inkommande uppdateringar från AEM Assets. Den tid som krävs för synkronisering beror på mängden resurser och specifika konfigurationer. Integreringen utnyttjar automatiserade processer för att minimera den tid som krävs för synkronisering.
+
+### Konfigurera URL för anpassad domän
+
+Om en handlare anger ett [anpassat domännamn](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank} på sin AEM-kontrollpanel måste du lägga till den här **anpassade domän-URL:en** i Commerce, så att AEM Assets-integreringen kan använda den.
+
+1. Navigera till **[!UICONTROL Store]** > Konfiguration > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
+
+   ![AEM Assets-integrering aktiverar integreringen](assets/aem-assets-view.png){width="600" zoomable="yes"}
+
+1. Lägg till **URL:en för den anpassade domänen** i fältet **[!UICONTROL Asset Custom Domain]**.
+
+1. Klicka på **[!UICONTROL Save Config]** för att tillämpa uppdateringar och initiera resurssynkronisering.
 
 ## Nästa steg
 
