@@ -3,9 +3,9 @@ user-guide-title: Content and Design Guide
 user-guide-description: Omfattande information om innehåll och designfunktioner för Adobe Commerce- och Magento Open Source-administratörer och e-handelns marknadsförare.
 breadcrumb-title: Innehåll och design
 feature: CMS, Page Content
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 0%
       - [Hantera temaresurser](theme-assets.md)
       - [Schemalägg designuppdateringar](schedule.md)
    - [Inställningar för sidavsnitt](page-setup.md)
-   - Sidlayout {#layout}
+   - Layout {#layout}
       - [Ökning](page-layout.md)
       - [Layoutexempel för Storefront](page-layout-examples.md)
       - [Layoutuppdateringar](layout-updates.md)
 - Innehållselement {#elements}
-   - Sidorna {#pages}
+   - Sidor {#pages}
       - [Ökning](pages.md)
       - [Kontroller för arbetsytan Sida](pages-workspace.md)
       - [Lägga till och ta bort sidor](page-add.md)
@@ -72,7 +72,7 @@ ht-degree: 0%
       - [Resurshantering](media-gallery-asset-management.md)
       - [Mapphantering](media-gallery-folder-management.md)
       - [Bildoptimering](media-gallery-image-optimization.md)
-- AEM Assets-integrering för Commerce {#aem-asset-management}
+- AEM Assets Integration för Commerce {#aem-asset-management}
    - [Integrationsöversikt](aem-assets-integration.md)
    - [Versionsinformation](aem-assets-release-notes.md)
    - Komma igång {#getting-started}
@@ -81,6 +81,7 @@ ht-degree: 0%
       - [Installera Adobe Commerce-paket](aem-assets-configure-commerce.md)
       - [Konfigurera integreringen](aem-assets-setup-synchronization.md)
       - [Visa och hantera loggar](aem-assets-log-files.md)
+   - [Migrera mediefiler till AEM Assets](aem-assets-migrate-data.md)
    - Hantera resurser {#manage}
       - [Använd AEM Assets med Commerce](aem-assets-manage.md)
 - Media {#media}

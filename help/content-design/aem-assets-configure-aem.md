@@ -3,9 +3,9 @@ title: Installera AEM Assets Package för Commerce
 description: Lägg till de metadata som krävs för att aktivera AEM Assets Integration för Commerce för att synkronisera resurser mellan Adobe Commerce- och Experience Manager Assets-projekt.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,9 @@ Du behöver följande resurser och behörigheter för att kunna använda det hä
 
 ## Konfigurera en metadataprofil
 
-I AEM Assets-redigeringsmiljö anger du standardvärden för Commerce-objektmetadata genom att skapa en metadataprofil. Använd sedan den nya profilen i AEM Resursmappar för att använda dessa standardvärden automatiskt. Den här konfigurationen effektiviserar tillgångsbearbetning genom att minska antalet manuella steg.
+I AEM Assets redigeringsmiljö anger du standardvärden för Commerce-objektmetadata genom att skapa en metadataprofil. Använd sedan den nya profilen i AEM Resursmappar för att automatiskt använda dessa standardvärden. Den här konfigurationen effektiviserar tillgångsbearbetning genom att minska antalet manuella steg.
+
+1. Logga in i Adobe Experience Manager redigeringsmiljö.
 
 1. Gå till arbetsytan för innehållsadministration för AEM Assets på Adobe Experience Manager-arbetsytan genom att klicka på ikonen Adobe Experience Manager.
 
