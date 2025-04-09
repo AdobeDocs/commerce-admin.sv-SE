@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Br
 description: Granska konfigurationsinställningarna för avsnittet [!UICONTROL Braintree] på sidan [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] i Commerce Admin.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: d22d44b8c93649a60b16569cc502d2e291ce6b22
+source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2822'
 ht-degree: 0%
 
 ---
@@ -34,17 +34,17 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Title] | Butiksvy | Standardvärde: `Credit Card` (Braintree) |
-| [!UICONTROL Environment] | Butiksvy | Alternativ: `Sandbox` / `Production` |
+| [!UICONTROL Environment] | Butiksvy | Tillval: `Sandbox` / `Production` |
 | [!UICONTROL Payment Action] | Butiksvy | Anger vilken åtgärd Braintree ska vidta när en betalning bearbetas. Alternativ: <br/>**`Authorize`**- Medel på kundens kreditkort är auktoriserade, men överförs inte från kontot. En beställning skapas i din butiksadministratör. Du kan hämta försäljningen senare och skapa en faktura.<br/>**`Intent Sale`** (tidigare `Authorize and Capture` i tidigare versioner) - Medel på kundens kreditkort har godkänts och hämtats av Braintree, och en order och en faktura skapas i din butiksadministratör. |
-| [!UICONTROL Sandbox Merchant ID] | Butiksvy | Detta är den unika identifieraren för hela sandlådegatewaykontot. Ditt handlar-ID är också känt som _publikt ID_ eller _produktions-ID_ och skiljer sig åt för din produktions- och sandlådegateway. Det här fältet visas när fältet _[!UICONTROL Environment]_har värdet `Sandbox`. |
+| [!UICONTROL Sandbox Merchant ID] | Butiksvy | Detta är den unika identifieraren för hela sandlådegatewaykontot. Ditt säljar-id, som även kallas offentligt _id_ eller _produktions-id_, skiljer sig åt för dina produktions- och sandbox-gateways. Det här fältet visas när fältet är inställt på _[!UICONTROL Environment]_`Sandbox`. |
 | [!UICONTROL Sandbox Public Key] | Butiksvy | Detta är din användarspecifika, offentliga identifierare som begränsar åtkomsten till krypterade data. Varje användare som är kopplad till din sandbox Braintree-gateway har sin egen offentliga sandlådenyckel. Det här fältet visas när fältet _[!UICONTROL Environment]_har värdet `Sandbox`. |
-| [!UICONTROL Sandbox Private Key] | Butiksvy | Detta är din användarspecifika, privata identifierare som begränsar åtkomsten till krypterade data. Varje användare som är associerad med din Braintree-gateway i Sandbox har sin egen privata nyckel för sandlådan. Det här fältet visas när fältet _[!UICONTROL Environment]_har värdet `Sandbox`. |
-| [!UICONTROL Merchant ID] | Butiksvy | Detta är den unika identifieraren för hela gateway-kontot, inklusive de flera handlarkonton som kan finnas i din gateway. Ditt handlar-ID är också känt som _publikt ID_ eller _produktions-ID_ och skiljer sig åt för din produktions- och sandlådegateway. Det här fältet visas när fältet _[!UICONTROL Environment]_har värdet `Production`. |
+| [!UICONTROL Sandbox Private Key] | Butiksvy | Detta är din användarspecifika, privata identifierare som begränsar åtkomsten till krypterade data. Varje användare som är associerad med din Braintree-gateway i Sandbox har sin egen privata nyckel för sandlådan. Det här fältet visas när fältet är inställt på _[!UICONTROL Environment]_`Sandbox`. |
+| [!UICONTROL Merchant ID] | Butiksvy | Detta är den unika identifieraren för hela ditt gateway-konto, inklusive de flera handelskonton som kan finnas i din gateway. Ditt handlar-ID är också känt som _publikt ID_ eller _produktions-ID_ och skiljer sig åt för din produktions- och sandlådegateway. Det här fältet visas när fältet är inställt på _[!UICONTROL Environment]_`Production`. |
 | [!UICONTROL Public Key] | Butiksvy | Detta är din användarspecifika, offentliga identifierare som begränsar åtkomsten till krypterade data. Varje användare som är kopplad till din Braintree-gateway har en egen offentlig nyckel. Det här fältet visas när fältet _[!UICONTROL Environment]_har värdet `Production`. |
 | [!UICONTROL Private Key] | Butiksvy | Detta är din användarspecifika, privata identifierare som begränsar åtkomsten till krypterade data. Varje användare som är kopplad till din Braintree-gateway har sin egen privata nyckel. Det här fältet visas när fältet _[!UICONTROL Environment]_har värdet `Production`. |
 | [!UICONTROL Enable Card Payments] | Webbplats | Avgör om betalningsmetoden för Braintree-kreditkort är tillgänglig för dina kunder som betalningsmetod. Alternativ: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | Webbplats | När det här alternativet är aktiverat tillhandahålls säker lagring för kundbetalningsinformation så att kunderna inte behöver ange sin kreditkortsinformation på nytt för varje köp. Alternativ: `Yes` / `No` |
-| [!UICONTROL Enable Vault CVV Reverification] | Webbplats | När det här alternativet är aktiverat valideras CVV-reglerna i ditt Braintree-konto. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Vault CVV Re-verification] | Webbplats | När det här alternativet är aktiverat valideras CVV-reglerna i ditt Braintree-konto. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -63,16 +63,16 @@ ht-degree: 0%
 | [!UICONTROL CVV Verification] | Webbplats | Avgör om kunderna måste ange den tresiffriga säkerhetskoden från baksidan av ett kreditkort. Alternativ: `Yes` / `No` |
 | [!UICONTROL Send Card Line Items] | Webbplats | Skicka vagnsradobjekten för alla betalningsmetoder. Alternativ: `Yes` / `No` |
 | [!UICONTROL Credit Card Types] | Webbplats | Anger varje kreditkort som du godkänner som betalning via Braintree. Tryck och håll ned `Ctrl` (eller `Command` på Mac) om du vill välja en kombination av kort. Alternativ: `American Express` / `Visa` / `MasterCard` / `Discover` / `JCB` / `Diners` / `Maestro International` |
-| [!UICONTROL Sort Order] | Webbplats | Anger den order som Braintree visas med andra betalningsmetoder vid utcheckning. |
+| [!UICONTROL Sort Order] | Webbplats | Bestämmer i vilken ordning Braintree listas med andra betalningsmetoder i kassan. |
 
 ## [!UICONTROL Braintree Webhooks Settings]
 
-![Braintree Webhooks-inställningar](./assets/payment-methods-braintree-webhooks-config.png)<!-- zoom -->
+![Inställningar för Braintree Webhooks](./assets/payment-methods-braintree-webhooks-config.png)<!-- zoom -->
 
-| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+| Fält | [Omfattning](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable Webhook] | Webbplats | För att möjliggöra webbokrosfunktionen för bedrägeriskydd, ACH-betalningar, lokala betalningsmetoder och tvister. Alternativ: `Yes` / `No` |
-| [!UICONTROL Fraud Protection URL] | Webbplats | Lägg till den här URL:en i ditt Braintree-konto som [!UICONTROL Webhook Destination URL]. **Den här URL:en måste vara säker och tillgänglig för alla.** |
+| [!UICONTROL Fraud Protection URL] | Webbplats | Lägg till den här URL:en i ditt Braintree-konto som [!UICONTROL Webhook Destination URL]. **Den här URL:en måste vara säker och offentligt tillgänglig.** |
 | [!UICONTROL Fraud Protection Approve Order Status] | Webbplats | När bedrägeriskyddet har godkänts av Braintree tilldelas den valda orderstatusen till Commerce-ordern. Den här statusen används för att uppdatera status för den order där ACH-betalningsmetoden används och när den flyttas till `SETTLED` i Braintree. |
 | [!UICONTROL Fraud Protection Reject Order Status] | Webbplats | När bedrägeriskyddet inte godkänns av Braintree tilldelas den valda orderstatusen till Commerce-ordern. Den här statusen används för att uppdatera status för den order där ATTE-betalningsmetoden används och när `SETTLEMENT` är `DECLINED` i Braintree. |
 
@@ -120,13 +120,13 @@ ht-degree: 0%
 
 ![Lokala betalningsmetoder](./assets/payment-methods-braintree-local-payment-config.png)<!-- zoom -->
 
-| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+| Fält | [Omfattning](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Enabled Local Payment Methods] | Webbplats | Avgör om lokal betalningsmetod ingår som betalningsmetod via Braintree. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enabled Local Payment Methods] | Webbplats | Avgör om lokal betalningsmetod ingår som betalningsmetod via Braintree. Tillval: `Yes` / `No` |
 | [!UICONTROL Title] | Webbplats | Etikett som visas i avsnittet betalningssätt för utcheckning. Standardvärde: `Local Payments` |
 | [!UICONTROL Fallback Button Text] | Webbplats | Ange den text som ska användas för knappen som visas på Braintree grundsida som tar kunderna tillbaka till webbplatsen. Standardvärde: `Complete Checkout` |
 | [!UICONTROL Redirect on Fail] | Webbplats | Anger den URL där kunderna ska omdirigeras när lokala betalningsmetoder avbryts, misslyckas eller stöter på fel. Det ska vara betalningssidan för utcheckning (till exempel `https://www.domain.com/checkout#payment`). |
-| [!UICONTROL Allowed Payment Method] | Webbplats | Välj den lokala betalningsmetod som ska aktiveras. Alternativ: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (stöds inte ännu) |
+| [!UICONTROL Allowed Payment Method] | Webbplats | Välj den lokala betalningsmetod som ska aktiveras. Alternativ: `Bancontact` / `EPS` / `iDeal` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` |
 | [!UICONTROL Sort Order] | Webbplats | Bestämmer den ordning som den lokala betalningsmetoden listas med andra betalningsmetoder vid utcheckning. |
 
 {style="table-layout:auto"}
@@ -166,7 +166,8 @@ ht-degree: 0%
 
 ## [!UICONTROL PayPal through Braintree]
 
-![PayPal via Braintree](./assets/payment-methods-braintree-paypal-config.png){width="550" zoomable="yes"}
+![PayPal via Braintree Config 1](./assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
+![PayPal via Braintree Config 2](./assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -182,8 +183,11 @@ ht-degree: 0%
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Avgör om du godkänner betalningar som bearbetas av PayPal via Braintree från alla länder, eller bara vissa länder. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Om tillämpligt, identifierar de specifika länder från vilka du godkänner betalningar som bearbetats av Braintree. |
 | [!UICONTROL Require Customer's Billing Address] | Webbplats | Avgör om kundens faktureringsadress krävs för att skicka en order. Alternativ: `Yes` / `No` |
+| [!UICONTROL Skip Order Review Step] | Webbplats | Avgör om kunder ska omdirigeras till granskningssidan innan betalningen är slutförd. Alternativ: `Yes` / `No` |
 | [!UICONTROL Debug] | Webbplats | Avgör om kommunikation mellan PayPal via Braintree-systemet och din butik registreras i en loggfil. Alternativ: `Yes` / `No` |
 | [!UICONTROL Display on Shopping Cart] | Webbplats | Avgör om PayPal-knappen visas i [mini cart](../../stores-purchase/cart-configuration.md#mini-cart) och på sidan [kundvagn](../../stores-purchase/cart.md). Alternativ: `Yes` / `No` |
+| [!UICONTROL Send Package Tracking] | Webbplats | Paketspårningsinformation skickas endast till PayPal för PayPal-transaktioner/order. Du måste aktivera konfigurationsfältet [!UICONTROL Send Cart Line Items for PayPal] för att funktionen [!UICONTROL Package Tracking] ska fungera korrekt. Alternativ: `Yes` / `No` |
+| [!UICONTROL Use PayPal's "Notify Payer" functionality] | Webbplats | När inställningen är Ja meddelas Buyer eller Payer av PayPal om uppdateringar för paketspårning. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -227,18 +231,6 @@ Alternativen och inställningarna i det här avsnittet varierar beroende på vil
 >
 >Konfigurationsfältet **[!DNL Size(Deprecated)]** är föråldrat och används inte för att formatera PayPal-knapparna.
 
-**[!UICONTROL PayLater Messaging]**
-
-| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
-|--- |--- |--- |
-| [!UICONTROL Show PayLater Messaging] | Webbplats | Aktiverar PayLater-meddelanden på den valda platsen. Alternativ: `Yes` / `No`. När alternativet är aktiverat visas PaySenare-meddelanden för tillgängliga erbjudanden ([begränsningar gäller](https://developer.paypal.com/docs/checkout/pay-later/us/)). |
-| [!UICONTROL Message Layout] | Webbplats | Bestämmer layouten för PayLater-meddelandet. Alternativ: `Text` / `Flex` |
-| [!UICONTROL Logo] | Webbplats | Anger vilken logotyp som används för PayPal-knappen. Alternativ: `Inline` / `Primary` / `Alternative` / `None` |
-| [!UICONTROL Logo Position] | Webbplats | Anger logotyppositionen för PayPal-knappen. Alternativ: `Left` / `Right` / `Top` |
-| [!UICONTROL Text Color] | Webbplats | Bestämmer textfärgen för PayPal-knappen. Alternativ: `Black` / `White` / `Monochrome` / `Grayscale` |
-
-{style="table-layout:auto"}
-
 När de här alternativen är angivna kan du se förhandsvisningen av PayPal-knapparna och PayLater-meddelandena. Det finns kontroller som du kan använda för att tillämpa inställningarna eller återställa värdena:
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
@@ -246,6 +238,48 @@ När de här alternativen är angivna kan du se förhandsvisningen av PayPal-kna
 | [!UICONTROL Apply] | Webbplats | Lagrar de valda formatinställningarna för knappar och PayLater-meddelanden och använder dem på den aktuella platsen och den aktuella knapptypen. |
 | [!UICONTROL Apply to All Buttons] | Webbplats | Lagrar de valda formatinställningarna för knappar och PayLater-meddelandevärden och använder dem för alla knapptyper och platser. |
 | [!UICONTROL Reset to Recommended Defaults] | Webbplats | Returnerar formateringsinställningarna till de rekommenderade standardvärdena för knappar och PayLater-meddelanden och använder dem för alla knapptyper och platser. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Pay Later Messaging]
+
+**[!UICONTROL Product Page]**
+
+![Betala senare meddelanden - produktsida](./assets/payment-methods-braintree-paylater-messaging-product.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Webbplats | Aktiverar PayLater-meddelanden på den valda platsen. Alternativ: `Yes` / `No`. Visar meddelanden om att betala senare för tillgängliga erbjudanden. Begränsningar gäller. [Klicka här om du vill veta mer.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | Webbplats | Bestämmer layouten för PayLater-meddelandet. Alternativ: `Text` / `Flex` |
+| [!UICONTROL Logo] | Webbplats | Anger vilken logotyp som används för meddelandet Betala senare. Alternativ: `Inline` / `Primary` / `Alternative` / `None` |
+| [!UICONTROL Logo Position] | Webbplats | Anger logotyppositionen för meddelandet Betala senare. Alternativ: `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | Webbplats | Anger textfärgen för meddelandet Betala senare. Alternativ: `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Cart]**
+
+![Betala senare meddelanden - kundvagn](./assets/payment-methods-braintree-paylater-messaging-cart.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Webbplats | Aktiverar PayLater-meddelanden på den valda platsen. Alternativ: `Yes` / `No`. Visar meddelanden om att betala senare för tillgängliga erbjudanden. Begränsningar gäller. [Klicka här om du vill veta mer.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | Webbplats | Bestämmer layouten för PayLater-meddelandet. Alternativ: `Text` / `Flex` |
+| [!UICONTROL Logo] | Webbplats | Anger vilken logotyp som används för meddelandet Betala senare. Alternativ: `Inline` / `Primary` / `Alternative` / `None` |
+| [!UICONTROL Logo Position] | Webbplats | Anger logotyppositionen för meddelandet Betala senare. Alternativ: `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | Webbplats | Anger textfärgen för meddelandet Betala senare. Alternativ: `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Checkout]**
+
+![Betala senare meddelanden - utcheckning](./assets/payment-methods-braintree-paylater-messaging-checkout.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--------------------------------------|--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Webbplats | Aktiverar PayLater-meddelanden på den valda platsen. Alternativ: `Yes` / `No`. Visar meddelanden om att betala senare för tillgängliga erbjudanden. Begränsningar gäller. [Klicka här om du vill veta mer.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Text Align] | Webbplats | Bestämmer layouten för PayLater-meddelandet. Alternativ: `Left` / `Center` / `Right` |
+| [!UICONTROL Text Color] | Webbplats | Anger textfärgen för meddelandet Betala senare. Alternativ: `Black` / `White` |
 
 {style="table-layout:auto"}
 

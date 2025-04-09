@@ -3,9 +3,9 @@ title: Automatiska omdirigeringar
 description: Lär dig hur du konfigurerar automatiska omdirigeringar som ska genereras när URL-nyckeln för en produkt eller kategori ändras i din Commerce-butik.
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: d088d5833b9c61e7b1c90a0839fdf38527929ce5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,11 @@ Din butik kan konfigureras så att den automatiskt genererar en permanent omdiri
 1. Ange **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** till `Yes`.
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
+
+
+>[!NOTE]
+>
+> URL-omskrivningar kan genereras för butiksvyn eller webbplatsomfånget. Ange omskrivningsscopet för URL från administratören på **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Välj omfånget i fältet_[!UICONTROL Product URL Rewrite Scope]_.
 
 ## Omdirigera produkt-URL:er automatiskt
 

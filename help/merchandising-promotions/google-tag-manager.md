@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: Lär dig hur du använder  [!DNL Google Tag Manager] för att hantera många taggar (kodfragment) som är relaterade till marknadsföringskampanjerna på dina Adobe Commerce-webbplatser.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
+source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -149,7 +149,7 @@ Följande instruktioner visar hur du konfigurerar en ny behållare med de grundl
 | [!UICONTROL Container Id] | Butiksvy | Om [!DNL Google Tag Manager] redan är installerat och konfigurerat för din butik visas behållar-ID:t automatiskt i det här fältet. |
 | [!UICONTROL List property for the catalog page] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med katalogsidan. Standardvärde: `Catalog Page` |
 | [!UICONTROL List property for the cross-sell block] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med korsförsäljningsblocket. Standardvärde: `Cross-sell` |
-| [!UICONTROL List property for the up-sell block] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med merförsäljningsblocket. Standardvärde: `Up-sell` |
+| [!UICONTROL List property for the up-sell block] | Butiksvy | Identifierar den taggstyrning-egenskap som är kopplad till merförsäljningsblocket. Standardvärde: `Up-sell` |
 | [!UICONTROL List property for the related products block] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med det relaterade produktblocket. Standardvärde: `Related Products` |
 | [!UICONTROL List property for the search results page] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med sökresultatsidan. Standardvärde: `Search Results` |
 | [!UICONTROL "Internal Promotions" for promotions field "Label"] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med etiketterna för interna kampanjer. Standardvärde: `Label` |
@@ -210,3 +210,55 @@ Om du fortsätter från kontrollpanelen [!DNL Google Tag Manager] är nästa ste
 ### Steg 3. Förhandsgranska och publicera
 
 Nästa steg i processen är att förhandsgranska taggen. Varje gång taggen förhandsgranskas sparas en ögonblicksbild av versionen. När du är nöjd med resultaten går du till den version som du vill använda och klickar på **[!UICONTROL Publish]**.
+
+## Anpassad HTML-tagg med JavaScript
+
+I det här avsnittet beskrivs hur du lägger till en CSP-notation i JavaScript för anpassade HTML-taggar för körning på utcheckningssidan, och ser till att kraven i Content Security Policy (CSP) uppfylls. Det här tillägget förbättrar webbplatsens säkerhet genom att förhindra att obehöriga skript körs. Mer information finns i dokumentationen till [Content Security Policy](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
+>[!NOTE]
+>
+>Import av den globala variabeln `cspNonce` till Google Tag Manager stöds endast i Adobe Commerce version 2.4.8 och senare.
+
+>[!WARNING]
+>
+>Om du lägger till okända skript i din butik kan det innebära en risk för att data äventyras. Skript som är auktoriserade på utcheckningssidan kan stjäla känslig kundinformation, inklusive betalningsinformation. Du måste vidta försiktighetsåtgärder för att skydda ditt Google Tag Manager-konto. Lägg bara till betrodda skript, granska och granska taggar regelbundet och implementera kraftfulla säkerhetsåtgärder som tvåfaktorsautentisering (2FA) och åtkomstkontroller.
+
+### Steg 1. Skapa en CSP Nonce-variabel
+
+Du kan skapa en CSP Nonce-variabel som kan användas i din Google Tag Manager genom att importera variabelkonfigurationen eller konfigurera den manuellt.
+
+#### Importera variabelkonfigurationen
+
+CSP Nonce-variabeln ingår i exempelbehållaren [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt). Du kan skapa variabeln genom att importera koden till arbetsytan.
+
+#### Skapa variabeln manuellt
+
+Om du inte kan importera variabelkonfigurationen följer du stegen nedan för att skapa den.
+
+1. Gå till avsnittet **Variabler** i sidlisten på arbetsytan.
+1. Klicka på knappen **Ny** längst ned på sidan i avsnittet **Användardefinierade variabler**.
+1. Ge variabeln `gtmNonce` ett namn.
+1. Klicka på pennikonen för att redigera variabeln.
+1. Välj **JavaScript-variabel** i avsnittet **Sidvariabel**.
+1. Ange `window.cspNonce` i fältet **Global variabelnamn**.
+1. Spara variabeln.
+
+Mer information om [Google Tag Manager-variabler](https://support.google.com/tagmanager/answer/7683056?hl=en) finns i [Användardefinierade variabeltyper för webben](https://support.google.com/tagmanager/answer/7683362?hl=en) i Google-dokumentationen. Den här dokumentationen ger detaljerad vägledning om hur du skapar och hanterar anpassade variabler för att skräddarsy tagghanteringen för specifika marknadsförings- och analysbehov.
+
+### Steg 2. Skapa en anpassad HTML-tagg
+
+1. Gå till avsnittet **Taggar** i sidlisten på arbetsytan.
+1. Klicka på knappen **Ny**.
+1. I avsnittet **Taggkonfiguration** väljer du **Egen HTML-tagg**.
+1. Ange din obligatoriska JavaScript i textområdet och lägg till ett nonce-attribut till den inledande `<script>`-taggen som pekar på variabeln som du skapade i föregående steg. Exempel:
+
+   ```html
+   <script nonce="{{gtmNonce}}">
+       // Your JavaScript code here
+   </script>
+   ```
+
+1. Välj **Supportdokument.write**.
+1. Välj önskad utlösare i avsnittet **Utlösare**. Till exempel **Samtyckesinitiering - alla sidor**.
+
+Mer information om [taggar](https://support.google.com/tagmanager/answer/3281060) i Google Tag Manager finns i [Anpassade taggar](https://support.google.com/tagmanager/answer/6107167) i Google-dokumentationen.

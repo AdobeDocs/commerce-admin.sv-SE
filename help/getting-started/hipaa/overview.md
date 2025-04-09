@@ -3,9 +3,9 @@ title: HIPAA-beredskap på Adobe Commerce
 description: Läs om hur du kan lägga till tillägget Adobe Commerce HIPAA-Ready och få ytterligare funktioner som gör att du kan uppfylla dina skyldigheter enligt HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 2807c36fdb4ca169c31a5e92b4dab278a45c474c
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2375'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,21 @@ Adobe Commerce HIPAA-Ready-tillägget `magento/hipaa-ee` är tillgängligt för 
 
 ## Systemkrav
 
-Adobe Commerce måste distribueras på antingen Adobe Commerce i molninfrastruktur eller Adobe Commerce Managed Services med version 2.4.6-p3 - 2.4.6-p8 (inga betaversioner).
+I följande tabell visas kompatibiliteten mellan olika versioner av Adobe Commerce och det HIPAA-klara tillägget:
+
+| Adobe Commerce | Stöds | Anteckningar |
+|----------------|-----------|-------|
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4-stöd kräver en [snabbkorrigering](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
+| 2.4.6-p8 | 1.1.0 | Stöd för [datatjänster](#adobe-commerce-services) infördes i 1.1.0 |
+| 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
+
+>[!IMPORTANT]
+>
+>- Det HIPAA-klara tillägget är bara tillgängligt för Adobe Commerce i Creative Cloud- eller Adobe Commerce Managed Services-projekt.
+>- Tillägget är tillgängligt som ett Composer-metapaket från `repo.magento.com`.
+>- Tillgång till HIPAA-förberedda funktioner och funktioner kräver hälsotillägg för Adobe Commerce.
+>- Adobe Commerce betaversioner stöds inte.
 
 ## Installation
 
@@ -52,7 +66,7 @@ Adobe Commerce måste distribueras på antingen Adobe Commerce i molninfrastrukt
 
 >[!ENDSHADEBOX]
 
-Installera den senaste versionen av Adobe HIPAA-Ready Services-tillägg (`magento/hipaa-ee`) på en instans som kör Adobe Commerce version 2.4.6-p3 - 2.4.6-p8. Tillägget levereras som ett kompositmetapaket från databasen [repo.magento.com](https://repo.magento.com). Metapaketet innehåller en samling moduler som aktiverar HIPAA-funktionerna för en Adobe Commerce-instans.
+Installera den senaste versionen av Adobe HIPAA-Ready Services-tillägg (`magento/hipaa-ee`) på en instans som kör Adobe Commerce version 2.4.7-p5 eller 2.4.6-p3 till 2.4.6-p8. Tillägget levereras som ett kompositmetapaket från databasen [repo.magento.com](https://repo.magento.com). Metapaketet innehåller en samling moduler som aktiverar HIPAA-funktionerna för en Adobe Commerce-instans.
 
 >[!NOTE]
 >

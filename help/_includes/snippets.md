@@ -1,9 +1,9 @@
 ---
 title: Fragment
 description: Återanvända anteckningar och visuella element för att anteckna en funktion eller sida som gäller en viss utgåva
-source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
+source-git-commit: e82b979ee2c5f51caba6a2aa416c5f20dbce110a
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -82,3 +82,9 @@ Om du vill komma åt lagringskonfigurationsinställningarna väljer du **[!UICON
 | [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/docs) | Dokumentation för utvecklare som används för att anpassa Adobe Commerce och integrera med tredjepartssystem. |
 
 {style="table-layout:auto"}
+
+## B2B-kompatibilitet {#b2b-compatibility}
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att instansen använder PHP version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen. Dessutom stöder inte B2B 1.4.2+-versionen [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).

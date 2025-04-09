@@ -2,12 +2,13 @@
 title: Vad är administratören?
 description: Lär dig mer om  [!DNL Commerce] Admin, den plats där handlare ställer in produkter och kampanjer, hanterar beställningar och utför andra administrativa uppgifter.
 exl-id: 065cf14f-80e7-4695-8922-c761a2191d72
-source-git-commit: b657db7e486fec591d5a6239d554376f00707e8c
+source-git-commit: a6b293dca673808bbc7f37cb468c6e316fddb735
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
+
 
 # Vad är administratören?
 
@@ -25,7 +26,7 @@ Förutom det förvalda administratörskontot kan ditt företag skapa så många 
 
 ## Insamling av användningsdata
 
-Första gången du loggar in på _Admin_ blir du ombedd att ge Adobe behörighet att samla in användningsdata för alla Admin-användare. Genom att tillåta datainsamling med administratörsinformation kan du hjälpa Adobe att förbättra upplevelsen av att använda Adobe Commerce Admin, och relaterade produkter och tjänster.
+Första gången du loggar in på _Admin_ ombeds du att ge Adobe behörighet att samla in användningsdata för alla Admin-användare. Genom att tillåta datainsamling med administratörsinformation kan du hjälpa Adobe att förbättra upplevelsen av att använda Adobe Commerce Admin, och relaterade produkter och tjänster.
 
 ![Tillåt datainsamling för administratörsanvändning](./assets/admin-usage-data.png){width="600"}
 

@@ -4,9 +4,9 @@ description: Lär dig mer om stöd för tvåfaktorsautentisering för att säker
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 4997c4c01f11d6e0355eb8e02f8f099db685b400
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Första gången en användare loggar in på _Admin_ måste de ställa in varje [
 
 >[!NOTE]
 >
->Lager som har aktiverat autentisering med Adobe Identity Management Services (IMS) har inbyggt Adobe Commerce och Magento Open Source 2FA inaktiverat. Administratörsanvändare som är inloggade på sin Commerce-instans med sina inloggningsuppgifter för Adobe behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [Integreringsöversikt för Adobe Identity Management-tjänsten (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Lager som har aktiverat autentisering med Adobe Identity Management Services (IMS) har inbyggt Adobe Commerce och Magento Open Source 2FA inaktiverat. Administratörsanvändare som är inloggade på sin Commerce-instans med sina Adobe-inloggningsuppgifter behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [Integreringsöversikt för Adobe Identity Management-tjänst (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Du kan titta på den här [videodemonstrationen](https://video.tv.adobe.com/v/339104?quality=12&learn=on) om du vill se en översikt över tvåfaktorsautentisering i Admin.
 
@@ -76,6 +76,8 @@ Om du vill ändra hur länge engångslösenordet är tillgängligt under inloggn
 
 Ange följande autentiseringsuppgifter från ditt Duo-säkerhetskonto:
 
+- Klient-ID
+- Klienthemlighet
 - Integrationsnyckel
 - Hemlig nyckel
 - API-värdnamn

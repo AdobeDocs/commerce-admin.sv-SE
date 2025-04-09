@@ -3,9 +3,9 @@ title: Kartbeständighet
 description: Lär dig hur en beständig kundvagn spårar oköpta varukorgsartiklar och sparar informationen för kundens nästa besök.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
+source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Om samma kund besöker din butik via flera webbläsare medan han/hon är inlogga
 
 ### Beteende för kryssrutan &quot;Kom ihåg mig&quot;
 
-Kunderna kan markera kryssrutan _[!UICONTROL Remember Me]_på inloggningssidan eller när de skapar ett nytt konto för att se till att innehållet i kundvagnen är tillgängligt på den aktuella enheten när den inloggade sessionen går ut.
+Kunderna kan markera kryssrutan _[!UICONTROL Remember Me]_på inloggningssidan, autentiserings-popup, utcheckning av inloggningar eller när de skapar ett nytt konto för att hålla innehållet i kundvagnen tillgängligt på den aktuella enheten när den inloggade sessionen förfaller.
 
 | Kommer du ihåg mig? | Resultat |
 | ------------ |  ------ |
@@ -56,6 +56,10 @@ Kunderna kan markera kryssrutan _[!UICONTROL Remember Me]_på inloggningssidan e
 | Inte markerad | Skapar inte en beständig cookie och innehållet i kundvagnen är inte tillgängligt på den aktuella enheten när inloggningssessionen går ut. Observera att kundvagnens innehåll fortfarande sparas på kundens konto och läses in igen nästa gång kunden loggar in. |
 
 {style="table-layout:auto"}
+
+![Kom ihåg min kundinloggning](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![Kom ihåg min autentisering-popup](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![Kom ihåg mig när jag checkar ut inloggningar](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### beteendet Rensa persistens vid utloggning
 

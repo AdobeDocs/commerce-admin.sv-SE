@@ -3,9 +3,9 @@ title: Användningsexempel och arbetsflöden för offertmallar
 description: Skapa en offertmall från en befintlig offert för att effektivisera offertförhandling för återkommande order.
 feature: B2B, Quotes
 exl-id: 7d1e7a3d-6c50-416a-b490-0a083e1c06b4
-source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
+source-git-commit: 6fe8a356ab517fc5dd169c4a6f7ef52937f705c4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Tack vare funktionen för offertmallar kan köpare och säljare effektivisera of
 - **Förfallodatum** - Mallar kan ha giltighetsperioder (*[!UICONTROL Valid Until]*), vilket säkerställer att villkoren bara är tillämpliga inom en angiven tidsram. Mallen stängs och alla kopplade offerter stängs.
 - **Rabatter och priser**- Säljarna kan använda samma radobjekt, offertnivå och fraktprisrabatt som finns tillgängliga med offerter för att ange rabatter för återkommande order, vilket förenklar förhandlingsprocessen.
 - **Spårning och rapportering** - Systemet spårar antalet länkade offerter som genererats från mallen och slutfört order för att ge insikter om hur avtalade orderkvoter uppfylls.
+- **Referera till dokumentlänkar** - Både köpare och säljare kan lägga till, redigera och hantera externa dokumentlänkar (som DocuSign, Adobe Sign eller andra onlinetjänster) i offertmallen. Detta gör det enkelt att komma åt relaterade kontrakt och avtal under offertmallsprocessen.
 
 ## Användningsfall
 
@@ -28,6 +29,8 @@ En företagsköpare kan använda en offertmall för att beställa en viss uppsä
 
 - Kvantitetströsklar (minimi-/maximikvantiteter) I mallen anges ett tröskelvärde för kvantitet för att fastställa den minsta och högsta kvantitet som kan köpas för varje order, vilket säkerställer att säljaren kan hantera lagernivåerna effektivt samtidigt som köparen har möjlighet att justera kvantiteterna efter behov.
 
+- Länkar till referensdokument för att upprätthålla anslutningar till externa kontrakt och avtal, vilket gör det enklare att komma åt relaterad dokumentation under offertprocessen.
+
 ## Arbetsflöde för offertmall
 
 Offertmallar kan initieras av köparen eller säljaren.
@@ -36,7 +39,7 @@ Offertmallar kan initieras av köparen eller säljaren.
 
 - **Köparen skapar offertmallen**
 
-  När en befintlig offert granskas bestämmer köparen att företaget måste skicka in flera order under det kommande året och vill begära ytterligare rabatter baserat på upprepad verksamhet. De skapar en offertmall genom att använda åtgärden *[!UICONTROL Create quote template]* för offerten. Sedan initierar de förhandlingen genom att skicka offertmallen till säljaren för granskning.
+  När en befintlig offert granskas bestämmer köparen att företaget måste skicka in flera order under det kommande året och vill begära ytterligare rabatter baserat på upprepad verksamhet. De skapar en offertmall genom att använda åtgärden *[!UICONTROL Create quote template]* för offerten. Köparen kan lägga till referensdokumentlänkar till externa kontrakt eller avtal med kontrollen *[!UICONTROL Add]* i avsnittet med referensdokument. Sedan initierar de förhandlingen genom att skicka offertmallen till säljaren för granskning.
 
   Köpare kan också beställa en offertmall genom att lägga produkter de vill köpa regelbundet i kundvagnen. Begär sedan en offert och ange i kommentarerna hur ofta de vill upprepa köpet.
 
@@ -50,13 +53,13 @@ Offertmallar kan initieras av köparen eller säljaren.
 
 **Steg 2: Offertgranskning och förhandling (granskning)**
 
-Granskning eller förhandling av en offertmall kan omfatta ändrade kvantiteter, borttagning av artiklar, tillägg av radartikelkommentarer, användning av radobjekt- eller offertrabatter (säljare) och tillägg av en leveransadress (köpare).
+Att granska eller förhandla om en offertmall kan inkludera ändrade kvantiteter, borttagna artiklar, lägga till radartikelkommentarer, tillämpa radobjekt- eller offertrabatter (säljare), lägga till en leveransadress (köpare) och hantera länkar till referensdokument.
 
-- **Säljaren visar förfrågan och skickar svar** - I administratören visar säljaren offertmallen från rutnätet *[!UICONTROL Quote Templates]** eller öppnar den från länken i e-postmeddelandet. I butiken ändras offertens status till `Pending` och köparen kan inte göra några ändringar. Efter samma process för [offertförhandling](quote-price-negotiation.md) svarar säljaren genom att erbjuda prisrabatter och justera kvantiteter och artiklar efter behov, anger en kommentar och skickar offertmallen tillbaka till köparen. Köparen och säljaren meddelas via e-post att säljaren har svarat.
+- **Säljaren visar förfrågan och skickar svar** - I administratören visar säljaren offertmallen från rutnätet *[!UICONTROL Quote Templates]** eller öppnar den från länken i e-postmeddelandet. I butiken ändras offertens status till `Pending` och köparen kan inte göra några ändringar. Efter samma process för [offertförhandling](quote-price-negotiation.md) svarar säljaren genom att erbjuda prisrabatter och justera kvantiteter och artiklar efter behov, anger en kommentar och skickar offertmallen tillbaka till köparen. Säljaren kan också lägga till, redigera eller ta bort referensdokumentlänkar under den här processen. Köparen och säljaren meddelas via e-post att säljaren har svarat.
 
-- **Köparen visar offertmallen från säljaren och skickar svar** - Köparen klickar på länken i e-postmeddelandet för att öppna offertmallen eller öppnar den från sidan _Mina offertmallar_ på kontonamallen. Köparen kan lämna noteringar till säljaren på rad- eller offertnivå, ändra kvantiteter och ta bort artiklar.
+- **Köparen visar offertmallen från säljaren och skickar svar** - Köparen klickar på länken i e-postmeddelandet för att öppna offertmallen eller öppnar den från sidan _Mina offertmallar_ på kontonamallen. Köparen kan lämna noteringar till säljaren på radobjekt- eller offertnivå, ändra kvantiteter, ta bort artiklar och hantera referensdokumentlänkar.
 
-Köparen och säljaren fortsätter att förhandla tills ett avtal nås eller säljaren avvisar offertmallen. Om köparen gör ändringar i offertmallen - lägger till eller tar bort produkter eller ändrar produktkvantiteter - måste den returneras till säljaren för granskning.
+Köparen och säljaren fortsätter att förhandla tills ett avtal nås eller säljaren avvisar offertmallen. Om köparen gör ändringar i offertmallen - lägger till eller tar bort produkter, ändrar produktkvantiteter eller ändrar referensdokumentlänkar - måste den returneras till säljaren för granskning.
 
 - **Köparen lägger till en leveransadress** - Köparen måste lägga till en leveransadress i offertmallen om den inte har någon. När köparen har lagt till adressen kan säljaren tillhandahålla alternativ för frakt och leverans. Vilka leveransmetoder som visas beror på konfigurationen för Storefront.
 

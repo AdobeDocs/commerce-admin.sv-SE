@@ -1,12 +1,12 @@
 ---
 title: Krypteringsnyckel
-description: Lär dig hur du automatiskt genererar eller lägger till en egen krypteringsnyckel, som bör ändras regelbundet för att förbättra säkerheten.
+description: Lär dig hur du ändrar din egen krypteringsnyckel, vilket bör göras regelbundet för att förbättra säkerheten.
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 48f3431faa5db50f896b7a8e3db59421c639185b
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,12 @@ Adobe Commerce och Magento Open Source använder en krypteringsnyckel för att s
 
 Under den första installationen uppmanas du att antingen låta Commerce generera en krypteringsnyckel eller ange en egen. Med krypteringsnyckelverktyget kan du ändra nyckeln efter behov. Krypteringsnyckeln bör ändras regelbundet för att förbättra säkerheten, och när som helst kan originalnyckeln bli komprometterad.
 
-Mer teknisk information finns i [Avancerad lokal installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) i _installationshandboken_.
+Mer teknisk information finns i [Avancerad lokal installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) i _installationshandboken_ och [Datakryptering](https://developer.adobe.com/commerce/php/development/security/data-encryption/) i _PHP-utvecklarhandboken_.
 
 >[!IMPORTANT]
 >
->Kontrollera att följande fil är skrivbar innan du följer instruktionerna för att ändra krypteringsnyckeln: `[your store]/app/etc/env.php`
+>- Kontrollera att följande fil är skrivbar innan du följer instruktionerna för att ändra krypteringsnyckeln: `[your store]/app/etc/env.php`
+>- Funktionen för ändring av krypteringsnyckel i administratörsinställningarna är föråldrad och togs bort i 2.4.8. Du måste använda CLI-kommandot som beskrivs på den här sidan för att ändra krypteringsnyckeln efter uppgradering till 2.4.8.
 
 **Så här ändrar du en krypteringsnyckel:**
 
@@ -51,20 +52,40 @@ Följande instruktioner kräver åtkomst till en terminal.
    crontab -e
    ```
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**på sidofältet_ Admin _.
+1. Ändra krypteringsnyckeln på något av följande sätt.
 
-   ![Systemkrypteringsnyckel](./assets/encryption-key.png){width="700" zoomable="yes"}
+   +++CLI, kommando
 
-1. Gör något av följande:
+   Kör följande CLI-kommando och se till att det slutförs utan fel. Om du behöver kryptera om vissa systemkonfigurationsvärden eller betalningsfält läser du den detaljerade [guiden om omkryptering](https://developer.adobe.com/commerce/php/development/security/data-encryption/) i _Utvecklingshandbok för PHP_.
 
-   - Om du vill generera en ny nyckel anger du **[!UICONTROL Auto-generate Key]** till `Yes`.
-   - Om du vill använda en annan nyckel anger du **[!UICONTROL Auto-generate Key]** till `No`. I fältet **[!UICONTROL New Key]** anger eller klistrar du sedan in den nyckel som du vill använda.
+   ```bash
+   bin/magento encryption:key:change
+   ```
 
-1. Klicka på **[!UICONTROL Change Encryption Key]**.
++++
 
-   >[!NOTE]
+   +++Administratörsinställningar
+
+   >[!IMPORTANT]
    >
-   >Registrera den nya nyckeln på en säker plats. Du måste dekryptera data om det uppstår problem med filerna.
+   >Den här funktionen har tagits bort och tagits bort i 2.4.8. Adobe rekommenderar att du ändrar krypteringsnycklar med CLI.
+
+   1. Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**på sidofältet_ Admin _.
+
+      ![Systemkrypteringsnyckel](./assets/encryption-key.png){width="700" zoomable="yes"}
+
+   1. Gör något av följande:
+
+      - Om du vill generera en ny nyckel anger du **[!UICONTROL Auto-generate Key]** till `Yes`.
+      - Om du vill använda en annan nyckel anger du **[!UICONTROL Auto-generate Key]** till `No`. I fältet **[!UICONTROL New Key]** anger eller klistrar du sedan in den nyckel som du vill använda.
+
+   1. Klicka på **[!UICONTROL Change Encryption Key]**.
+
+      >[!NOTE]
+      >
+      >Registrera den nya nyckeln på en säker plats. Du måste dekryptera data om det uppstår problem med filerna.
+
++++
 
 1. Töm cacheminnet.
 

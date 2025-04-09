@@ -3,7 +3,7 @@ title: Beställningsarbetsflöde och -bearbetning
 description: Lär dig mer om orderarbetsflöde, vilken status som gäller i varje steg och hur du flyttar beställningar genom den här processen.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -205,7 +205,7 @@ Gör följande i avsnittet **[!UICONTROL Order Total]**:
 | Fält | Beskrivning |
 |--- |--- |
 | [!UICONTROL Status] | Visar försäljningsorderns status. |
-| [!UICONTROL Comment] | En textruta som används för att ange en kommentar till kunden som medföljer ordern. <br/>**[!UICONTROL Notify Customer by Email]**- Markera kryssrutan om du vill skicka kommentaren till kunden som ett separat e-postmeddelande.<br/>**[!UICONTROL Visible on Storefront]** - Markera kryssrutan om du vill att kommentaren ska vara synlig från kundens konto. <br/>**[!UICONTROL Submit Comment]**- Skickar kommentaren och skickar den via e-post, om tillämpligt. |
+| [!UICONTROL Comment] | En textruta som används för att ange en kommentar till kunden som medföljer ordern. <br/>**[!UICONTROL Notify Customer by Email]**- Markera kryssrutan om du vill skicka kommentaren till kunden som ett separat e-postmeddelande.<br/>**[!UICONTROL Visible on Storefront]** - Markera kryssrutan om du vill att kommentaren ska vara synlig från kundens konto. <br/>**[!UICONTROL Update]**- Lägger till kommentaren och skickar ett e-postmeddelande, om tillämpligt. |
 
 {style="table-layout:auto"}
 

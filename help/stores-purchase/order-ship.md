@@ -3,7 +3,7 @@ title: Leverera en beställning
 description: Lär dig hur du fyller i leveransinformationen för en bearbetningsorder och visar leveransinformation och spårningsinformation.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -68,7 +68,7 @@ En beställning som har betalats, men väntar på leverans, har statusen `Proces
 
    - Om du vill publicera kommentaren på kundens konto markerar du kryssrutan **[!UICONTROL Visible on Frontend]**.
 
-1. Klicka på **[!UICONTROL Submit Comment]**.
+1. Klicka på **[!UICONTROL Update]**.
 
 ## Spåra leveransen
 

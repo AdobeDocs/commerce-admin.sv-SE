@@ -3,9 +3,9 @@ title: '[!UICONTROL My Quote Templates]'
 description: Lär dig mer om kundupplevelsen av offertmallar, som finns på kontrollpanelen för butikskonton.
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
-source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
+source-git-commit: 15f85631741859280450ae1b477e2f3859c42773
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ En köpare som accepterar de förhandlade villkor som säljaren erbjuder kan acc
    - Acceptera offertmallen
    - Ändra offertmallens förfallodatum
    - Lägg till en leveransadress
+   - Hantera länkar till referensdokument
 
 - Åtgärder för att uppdatera offertmallsinformation under förhandlingsprocessen:
 
@@ -43,6 +44,7 @@ En köpare som accepterar de förhandlade villkor som säljaren erbjuder kan acc
    - Spåra förhandlingsprocessen från [!UICONTROL Comments] och [!UICONTROL History] avsnitt.
    - För mallar som fortfarande granskas kan köparen ändra offertmallen genom att ta bort artiklar.
    - Kommunicera och förhandla med säljaren genom att lägga till anteckningar på radobjekt- och offertnivå.
+   - Lägg till, redigera eller ta bort referensdokumentlänkar till externa kontrakt och avtal.
 
   När köparen har gjort ändringar returnerar han mallen till säljaren för granskning.
 
@@ -114,3 +116,57 @@ Köpare kan utföra följande åtgärder från en länkad offert:
 Klicka på **[!UICONTROL Cancel Quote Template]** på mallsidan för offerter.
 
 Offertmallen avbryts och offertstatusen ändras till `Closed`. Det stängda citattecknet finns kvar i listan med *[!UICONTROL Inactive]* citattecken och finns kvar i listan i rutnätet _[!UICONTROL Quote Templates]_i Admin.
+
+## Hantera länkar till referensdokument
+
+Med funktionen för länkar till referensdokument kan köpare och säljare lägga till, redigera och hantera länkar till externa dokument (som kontrakt, avtal eller specifikationer) under offertmallsprocessen.
+
+### Lägga till en länk för referensdokument
+
+1. Öppna offertmallen.
+
+1. Klicka på **[!UICONTROL Add]** i avsnittet **[!UICONTROL Reference Documents]**.
+
+1. I dialogrutan Dokumentinformation:
+   - Ange **[!UICONTROL Document Name]** (obligatoriskt)
+   - Ange **[!UICONTROL Document Identifier]** (valfritt)
+   - Ange **[!UICONTROL Reference Document URL]** (obligatoriskt)
+
+1. Klicka på **[!UICONTROL Add to Quote Template]**.
+
+   Referensdokumentlänken läggs till i offertmallen med följande format:
+   `Document Name, Document Identifier https://document-url`
+
+### Redigera en länk för referensdokument
+
+1. Öppna offertmallen.
+
+1. Klicka **[!UICONTROL Edit]** bredvid dokumentlänken som du vill ändra i avsnittet **[!UICONTROL Reference Documents]**.
+
+1. Uppdatera dokumentinformationen i dialogrutan:
+   - Dokumentnamn
+   - Dokument-ID
+   - URL för referensdokument
+
+1. Klicka på **[!UICONTROL Add to Quote Template]**.
+
+### Ta bort en referenslänk
+
+1. Öppna offertmallen.
+
+1. Klicka **[!UICONTROL Remove]** bredvid dokumentlänken som du vill ta bort i avsnittet **[!UICONTROL Reference Documents]**.
+
+### Visa ett referensdokument
+
+1. Öppna offertmallen.
+
+1. Klicka på dokumentnamnslänken i avsnittet **[!UICONTROL Reference Documents]**.
+
+   Dokumentet öppnas i ett nytt webbläsarfönster.
+
+### Länkbegränsningar för referensdokument
+
+- Det går bara att lägga till, redigera eller ta bort länkar i referensdokument när offertmallen är i ett redigerbart läge.
+- När offertmallen har skickats för granskning eller godkänts blir referensdokumentets länkar skrivskyddade.
+- Fältet Dokumentnamn är obligatoriskt när du lägger till eller redigerar en referensdokumentlänk.
+- Länkarna i referensdokumentet förblir tillgängliga även när offertmallen har godkänts eller slutförts.

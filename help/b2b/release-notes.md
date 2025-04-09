@@ -3,9 +3,9 @@ title: Versionsinformation för [!DNL Adobe Commerce B2B]
 description: Granska versionsinformationen för information om ändringar i  [!DNL Adobe Commerce B2B] releaser.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: f91d3b669fcb6112510b9845535c4373a05ce8fe
+source-git-commit: de145205e5fcdcb49ca7626b2666e82af102344f
 workflow-type: tm+mt
-source-wordcount: '8313'
+source-wordcount: '8702'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,51 @@ Versionsinformationen för B2B-tillägget innehåller tillägg och korrigeringar
 >
 >Mer information om vilka versioner av B2B Commerce-tillägget som stöds för tillgängliga Adobe Commerce-versioner finns i [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
 
+## B2B 1.5.2
+
+*8 april 2025*
+
+[!BADGE Säkerhetsuppdateringar som stöds]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.8, 2.4.7-p5 och 2.4.6-p10.
+Kompatibel med Adobe Commerce version 2.4.7 till 2.4.7-p4, 2.4.6 till 2.4.6-p9
+
+B2B v1.5.2-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
+
+### Företagsledning
+
+![Nytt](../assets/new.svg)<!-- B2B-4123 -->Administratörer kan nu hantera flera företag från ett enda konto med hjälp av butiksföretagsväljaren. Några viktiga fördelar:
+
+- **Förenklad hantering för flera företag** - Nu kan administratörer övervaka flera företag från ett användarkonto, vilket eliminerar behovet av att skapa och hantera separata inloggningar för varje företag.
+- **Effektiv företagsväxling** - Med ett intuitivt gränssnitt kan administratörer snabbt växla mellan företag och göra uppdateringar, vilket förbättrar produktiviteten vid hantering av flera enheter.
+- **Effektivare åtgärder** - Regionala chefer och företagsledare kan hantera alla sina företag centralt, vilket ger snabbare beslutsfattande och smidigare affärsåtgärder.
+
+Den här förbättringen bygger på B2B 1.5.0:s funktioner för medlemskap för flera företag, som gör att användare kan tillhöra flera företag, men som inte har stöd för administratörsåtkomst mellan olika företag. Företagets väljare eliminerar behovet av separata administratörskonton samtidigt som rätt åtkomstkontroll och företagsspecifika vyer bibehålls.
+
+### Företag
+
+![Korrigerat problem](../assets/fix.svg)<!-- B2B-4480 --> Ett problem där gästkunder skulle få ett `No such entity with cartId = ?`-felmeddelande när de loggade in som företagsanvändare med produkter i kundvagnen har åtgärdats.
+
+### Förhandlingsbar offert
+
+![Ett problem har korrigerats](../assets/fix.svg) I B2B v1.5.2-versionen finns följande korrigeringar för överlåtbara offerter:
+
+- <!-- B2B-3252 -->Fältet [!UICONTROL Line Item Discount Amount] validerar indata för att förhindra att negativa rabattvärden anges.
+- <!-- B2B-3224 -->Korrigerade ett användarupplevelseproblem där anteckningar för långradsobjekt trunkerades och var svåra att läsa för B2B-kunder.
+- <!-- B2B-2865 -->B2B-kunder kan nu ange produktkvantiteter med hjälp av decimalvärden (till exempel 1.5 eller 2.75) när de skapar offerter.
+
+### Offertmall
+
+![Ny](../assets/new.svg)<!-- B2B-4104 --> funktion för B2B-köpare och säljare att bifoga externa dokumentlänkar till offertmallar. Med den här funktionen kan du länka till dokument som lagras i tjänster som DocuSign och Adobe Sign direkt från citattecken, vilket kompletterar den befintliga funktionen för bifogade filer. Några viktiga fördelar:
+
+- Effektivt samarbete genom direkt åtkomst till viktiga avtal och kontrakt
+- Förbättrad genomskinlighet med omedelbar tillgång till den senaste dokumentationen
+- Snabbare offertförhandlingar eftersom man slipper ladda ned och ladda upp filer
+- Flexibel dokumenthantering med externa dokumentvärdtjänster
+
 ## B2B 1.5.1
 
 *11 februari 2025*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Säkerhetsuppdateringar som stöds]{type=Informative tooltip="Stöds"} av Adobe Commerce version 2.4.7-p4+ och 2.4.6-p9+.
 Kompatibel med Adobe Commerce version 2.4.8-beta1 till 2.4.8-beta2, 2.4.7 till 2.4.7-p3, 2.4.6 till 2.4.9-p8
 
 B2B v1.5.1-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
@@ -55,7 +95,7 @@ B2B v1.5.1-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
 *30 oktober 2024*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Säkerhetsuppdateringar som stöds i ]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.7-p3+ och 2.4.6-p8+.
 Kompatibel med Adobe Commerce version 2.4.8-beta1, 2.4.7 till 2.4.7-p2, 2.4.6 till 2.4.6-p7.
 
 Adobe Commerce B2B version 1.5.0 är även kompatibel med PHP 8.3 och stöder [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
@@ -124,7 +164,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 - Handlare som klickar på knappen *[!UICONTROL Print]* i offertdetaljvyn i Admin uppmanas nu att spara offerten som en PDF. Tidigare omdirigerades handlarna till en sida med offertinformation. <!--ACP2E-1984-->
 
-- Tidigare när en kundoffert med `0` procent och varierande kvantitet skickades genereras ett undantag, men kvantiteten sparades. När den här korrigeringen har tillämpats genereras ett fel för `0 percentage` med ett meddelande. <!--ACP2E-1742-->
+- Tidigare när en kundoffert med `0` procent och varierande kvantitet skickades genereras ett undantag, men kvantiteten sparades. After this fix applies, for the `0 percentage` proper exception with a message will be thrown. <!--ACP2E-1742-->
 
 - Under offertförhandlingen kan en säljare nu ange en `0%`-rabatt i fältet Förförhandlad offertrabatt och skicka offerten tillbaka till köparen. Om säljaren tidigare angav en rabatt på 0 % och skickade offerten tillbaka till köparen returnerade administratören ett `Exception occurred during quote sending`-felmeddelande. <!--ACP2E-1742-->
 
@@ -134,64 +174,67 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 ![Åtgärdat problem](../assets/fix.svg) <!--ACP2E-1825-->Inköpsorder kan inte längre placeras av en användare som är associerad med företaget efter att företaget har blockerats. Tidigare kunde en användare som är associerad med företaget göra inköpsorder när företaget blockerades.
 
+## B2B v1.4.2-p5
+
+*8 april 2025*
+
+[!BADGE Säkerhetsuppdateringar som stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p5+ och 2.4.6-p10+.
+
+![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p5+ och 2.4.6-p10+ har lagts till.
+
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
+
+{{b2b-compatibility}}
+
 ## B2B v1.4.2-p4
 
 *11 februari 2025*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p4+ och 2.4.6-p9+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p4+ och 2.4.6-p9+ har lagts till.
 
 ![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att instansen använder PHP version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen. Dessutom stöder inte B2B 1.4.2+-versionen [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
-
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p3
 
 *8 oktober 2024*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p3+ och 2.4.6-p8+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p3+ och 2.4.6-p8+ har lagts till.
 
 ![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att instansen använder PHP version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen. Dessutom stöder inte B2B 1.4.2+-versionen [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p2
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p2+ och 2.4.6-p7+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p2+ och 2.4.6-p7+ har lagts till.
 
 ![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i Säkerhetsbulletin xxxx.
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att den använder PHP-version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen. Dessutom stöder inte B2B 1.4.2+-versionen [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p1
 
 *9 augusti 2024*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p1+ och 2.4.6-p6+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p1+ och 2.4.6-p6+ har lagts till.
 
->[!IMPORTANT]
->
->Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att den använder PHP-version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen. Dessutom stöder inte B2B 1.4.2+ för närvarande [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+{{b2b-compatibility}}
 
 ## B2B v1.4.2
 
 *10 oktober 2023*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.7 och version från 2.4.6 till 2.4.6-p5.
 
 B2B v1.4.2-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
@@ -205,7 +248,7 @@ B2B v1.4.2-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
 *7 augusti 2023*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}[Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Kompatibel med Adobe Commerce 2.4.7-beta1.
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Kompatibel med Adobe Commerce 2.4.7-beta1.
 
 B2B v1.4.1-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
@@ -223,7 +266,7 @@ B2B v1.4.1-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
 *13 juni 2023*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}[Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Kompatibel med Adobe Commerce 2.4.7-beta1
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Kompatibel med Adobe Commerce 2.4.7-beta1
 
 Den här versionen innehåller nya funktioner och förbättringar för B2B-överlåtbara offerter och flera felkorrigeringar.
 
@@ -235,7 +278,7 @@ Den här versionen innehåller nya funktioner och förbättringar för B2B-över
 
 ![Korrigerat problem](../assets/fix.svg) Adobe Commerce visar nu korrekt information under betalningen när alternativet Inköpsorder är aktiverat och en virtuell offert som skapades med betalningsalternativet PayPal har valts. Tidigare visades summorna som noll under dessa villkor.
 
-![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1504--> Valideringsfel uppstår inte längre när du försöker spara ett företag med en kreditgräns som överstiger 999. Tidigare infogades en kommaavgränsare för företagskreditgränser som var större än 999, vilket orsakade ett valideringsfel som hindrade uppdateringar från att sparas.
+![Fixed issue](../assets/fix.svg) <!--ACP2E-1504--> Validation errors no longer occur when you try to save a company with a credit limit that exceeds 999. Previously, for company credit limits greater than 999, Adobe commerce inserted a comma separator, which caused a validation error that prevented updates from being saved.
 
 ![Korrigerat problem](../assets/fix.svg) <!--ACP2E-1474--> Den valda leveransadressen ändras inte när du gör en beställning med en överlåtbar offert. Tidigare ändrades den valda leveransadressen till standardleveransadressen när du gjorde en beställning.
 
@@ -263,11 +306,21 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 Du kan åtgärda det här problemet genom att lägga till manuella beroenden för B2B-säkerhetspaketet genom att lägga till manuella beroenden för B2B-säkerhetspaketet med en [stabilitetstagg](https://getcomposer.org/doc/04-schema.md#package-links). Instruktioner finns i [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
+## B2B v1.3.5-p10
+
+*8 april 2025*
+
+[!BADGE Säkerhetsuppdateringar för Adobe Commerce 2.4.6-p10+ stöds]{type=Informative tooltip="Stöds"}.
+
+![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.6-p10 har lagts till.
+
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
+
 ## B2B v1.3.5-p9
 
 *11 februari 2025*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Säkerhetsuppdateringar för Adobe Commerce 2.4.6-p9+ stöds]{type=Informative tooltip="Stöds"}.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.6-p9 har lagts till.
 
@@ -277,7 +330,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 *8 oktober 2024*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Säkerhetsuppdateringar för Adobe Commerce 2.4.6-p8+ stöds]{type=Informative tooltip="Stöds"}.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.6-p8 har lagts till.
 
@@ -287,7 +340,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 *9 augusti 2024*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Säkerhetsuppdateringar för Adobe Commerce 2.4.6-p7+ stöds]{type=Informative tooltip="Stöds"}.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.6-p7 har lagts till.
 
@@ -295,7 +348,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 *14 mars 2023*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 - 2.4.6 och senare versioner
 
 ![Nytt](../assets/new.svg) B2B-version 1.3.5-p2 har släppts för kompatibilitet med Adobe Commerce 2.4.6-p2.
 
@@ -327,11 +380,21 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-6829--> Knappen **[!UICONTROL Place Order]** fungerar nu som väntat när du slutför ett köp med en godkänd offertförfrågan. Problem med den överlåtbara offerten `negotiableQuoteCheckoutSessionPlugin` har lösts.
 
+## B2B v1.3.4-p12
+
+*8 april 2025*
+
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
+
+![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.5-p12 har lagts till.
+
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
+
 ## B2B v1.3.4-p11
 
 *11 februari 2025*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.5-p11 har lagts till.
 
@@ -341,7 +404,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 *9 oktober 2024*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.5-p10 har lagts till.
 
@@ -351,7 +414,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 *9 augusti 2022*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.5 har lagts till.
 
@@ -385,7 +448,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 *9 augusti 2022*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.4 har lagts till.
 
@@ -431,13 +494,13 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Åtgärdat problem](../assets/fix.svg) <!--- ACP2E-194--> Åtgärden för att spara delade kataloger har optimerats för att kunna köras snabbare. Tidigare kunde det ta flera minuter att spara en delad katalog med många kundgrupper.
 
-![Korrigerat problem](../assets/fix.svg) <!--- MC-42240--> Adobe Commerce tar nu bort alla underkategoribehörigheter från tabellen `sharedcatalog_category_permissions` när den överordnade kategorin tas bort. Tidigare togs endast överordnade kategoridata bort.
+![Fixed issue](../assets/fix.svg) <!--- MC-42240--> Adobe Commerce now deletes all subcategory permissions from the `sharedcatalog_category_permissions` table when the parent category is deleted. Previously, only the parent category data was removed.
 
 ## B2B v1.3.2
 
 *29 augusti 2022*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.3 har lagts till.
 
@@ -523,9 +586,9 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Korrigerat problem](../assets/fix.svg) <!--- MC-40779--> Adobe Commerce visar nu produktantal korrekt i navigeringsfilter i lager i sökresultat. Tidigare använde inte ett plugin-program för sökresultatsidan Elasticsearch utan skickade en ny fråga till databasen.
 
-![Åtgärdat problem](../assets/fix.svg) <!--- MC-39978--> Adobe Commerce tar inte längre bort nivåpriser när en handlare tar bort alla produkter från en delad standardkatalog.
+![Fixed issue](../assets/fix.svg) <!--- MC-39978--> Adobe Commerce no longer deletes tier prices when a merchant deletes all products from a default shared catalog.
 
-![Åtgärdat problem](../assets/fix.svg) <!--- MC-39802--> Filter filtreras nu efter den aktuella kategorin och visas korrekt på alla sidor när delade kataloger är aktiverade. Tidigare beräknades filter felaktigt enbart för den aktuella sidan och filtrerades inte av den aktuella kategorin.
+![Fixed issue](../assets/fix.svg) <!--- MC-39802--> Filters are now filtered by the current category and displayed correctly on all pages when shared catalogs are enabled. Previously, filters were wrongly calculated for the current page only and were not filtered by the current category.
 
 ![Korrigerat problem](../assets/fix.svg) <!--- MC-39522--> GraphQL `products`-frågan returnerar inte längre en produkts prisintervall och kategori för produkter som inte har tilldelats till en delad katalog när delad katalog är aktiverad. Tidigare returnerade frågan produktens aggregeringar, även om själva produkten inte returnerades i `items`-arrayen.
 
@@ -533,7 +596,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 *9 februari 2021*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.2 har lagts till.
 
@@ -601,7 +664,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 *15 oktober 2020*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
 Den här versionen innehåller förbättringar av ordergodkännanden, leveransmetoder, kundvagn och loggning av administratörsåtgärder.
 
@@ -683,7 +746,7 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 *28 juli 2020*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.0 har lagts till.
 

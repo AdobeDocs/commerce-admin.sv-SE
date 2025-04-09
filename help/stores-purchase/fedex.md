@@ -3,9 +3,9 @@ title: FedEx
 description: Lär dig hur du konfigurerar FedEx som fraktfirma för din butik.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: ad5da1d77b63bf6bcc0227a5c467e369b7bb8d89
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,15 @@ FedEx-handlarkonto och registrering för FedEx Web Services Production Access kr
    - **[!UICONTROL Account ID]**
    - **[!UICONTROL Api Key]**
    - **[!UICONTROL Secret Key]**
+
+1. Aktivera följande konfiguration om du har olika autentiseringsuppgifter för spårnings-API:
+
+   - **[!UICONTROL Enable Tracking API credentials]**
+
+1. Ange följande information från ditt FedEx-konto:
+
+   - **[!UICONTROL Tracking API Key]**
+   - **[!UICONTROL Tracking API Secret Key]**
 
 1. Om du har konfigurerat en FedEx-sandlåda och vill arbeta i testmiljön anger du **[!UICONTROL Sandbox Mode]** till `Yes`.
 
