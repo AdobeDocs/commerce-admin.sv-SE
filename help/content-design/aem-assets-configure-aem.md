@@ -3,9 +3,9 @@ title: Installera AEM Assets Package för Commerce
 description: Lägg till de metadata som krävs för att aktivera AEM Assets Integration för Commerce för att synkronisera resurser mellan Adobe Commerce- och Experience Manager Assets-projekt.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: d7125774dbf6fb2796ccabc6df8e574455e1e968
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Mallen lägger till följande resurser i AEM Assets redigeringsmiljö.
 
   ![Användargränssnittskontroll för anpassade produktdata](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- Ett metadatamatchemaformulär med en Commerce-flik som innehåller fälten `Does it exist in Adobe Commerce?` och `Product Data` för taggning av Commerce-resurser. Formuläret innehåller även alternativ för att visa eller dölja fälten `roles` och `order` (position) från AEM Assets-gränssnittet.
+- Ett metadatamatchemaformulär med en Commerce-flik som innehåller fälten `Eligible for Commerce?` och `Product Data` för taggning av Commerce-resurser. Formuläret innehåller även alternativ för att visa eller dölja fälten `roles` och `order` (position) från AEM Assets-gränssnittet.
 
   ![Commerce-flik för AEM Assets metadatamatchformulär](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
@@ -59,6 +59,15 @@ Du behöver följande resurser och behörigheter för att kunna använda det hä
 
 I AEM Assets redigeringsmiljö anger du standardvärden för Commerce-objektmetadata genom att skapa en metadataprofil. Använd sedan den nya profilen i AEM Resursmappar för att automatiskt använda dessa standardvärden. Den här konfigurationen effektiviserar tillgångsbearbetning genom att minska antalet manuella steg.
 
+När du konfigurerar metadataprofilen behöver du bara konfigurera följande komponenter:
+
+- Lägg till en Commerce-flik. På den här fliken aktiveras Commerce-specifika konfigurationsinställningar som läggs till av mallen
+- Lägg till fältet `Eligible for Commerce` på fliken Commerce.
+
+Gränssnittskomponenten för produktdata läggs till automatiskt baserat på mallen.
+
+### Konfigurera metadataprofilen
+
 1. Logga in i Adobe Experience Manager redigeringsmiljö.
 
 1. Gå till arbetsytan för innehållsadministration för AEM Assets på Adobe Experience Manager-arbetsytan genom att klicka på ikonen Adobe Experience Manager.
@@ -81,27 +90,41 @@ I AEM Assets redigeringsmiljö anger du standardvärden för Commerce-objektmeta
 
    1. Klicka på **[!UICONTROL +]** i flikavsnittet och ange sedan **[!UICONTROL Tab Name]**, `Commerce`.
 
-1. Lägg till fältet `Does it exist in Commerce?` i formuläret och ställ in standardvärdet på `yes`.
+1. Lägg till fältet `Eligible for Commerce` i formuläret.
 
    ![AEM Author Admin lägger till metadatafält i profilen](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
+   - Klicka på **[!UICONTROL Build form]**.
+
+   - Dra fältet `Single Line text` till formuläret.
+
+   - Lägg till texten `Eligible for Commerce` för etiketten genom att klicka på **[!UICONTROL Field Label]**.
+
+   - Lägg till etikettexten i **Fältetikett** på fliken Inställningar.
+
+   - Ange platshållartexten till `yes`.
+
+   - Kopiera och klistra in följande värde i fältet **[!UICONTROL Map to Property]**
+
+     ```terminal
+     ./jcr:content/metadata/commerce:isCommerce
+     ```
+
+1. Valfritt. Om du automatiskt vill synkronisera godkända Commerce-resurser när de överförs till AEM Assets-miljön anger du standardvärdet för fältet _[!UICONTROL Review Status]_på fliken `Basic` till `approved`.
+
 1. Spara uppdateringen.
 
-1. Använd metadataprofilen `Commerce integration` i den mapp där Commerce-resurser lagras.
+#### Använda metadataprofilen i Commerce resurskällmapp
 
-   1. På sidan [!UICONTROL  Metadata Profiles] väljer du Commerce integreringsprofil.
+1. På sidan [!UICONTROL  Metadata Profiles] väljer du Commerce integreringsprofil.
 
-   1. Välj **[!UICONTROL Apply Metadata Profiles to Folders]** på åtgärdsmenyn.
+1. Välj **[!UICONTROL Apply Metadata Profiles to Folders]** på åtgärdsmenyn.
 
-   1. Markera den mapp som innehåller Commerce-resurser.
+1. Markera den mapp som innehåller Commerce-resurser.
 
-      Skapa en Commerce-mapp om den inte finns.
+   Skapa en Commerce-mapp om den inte finns.
 
-   1. Klicka på **[!UICONTROL Apply]**.
-
->[!TIP]
->
->Du kan synkronisera Commerce-resurser automatiskt när de överförs till AEM Assets-miljön genom att uppdatera metadataprofilen och ange standardvärdet `Approved` för fältet _[!UICONTROL Review Status]_. Egenskapstypen för fältet `Review Status` är `./jcr:content/metadata/dam:status`.
+1. Klicka på **[!UICONTROL Apply]**.
 
 ## Nästa steg
 
