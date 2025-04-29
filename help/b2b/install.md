@@ -4,9 +4,10 @@ description: Lär dig hur du installerar  [!DNL Adobe Commerce B2B] metapaketet.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -185,7 +186,7 @@ Adobe Commerce B2B-tillägget använder MySQL för meddelandeköhantering. I fö
 
 Förebygg eventuella bearbetningsproblem eller fördröjningar genom att lägga till följande parametrar när du [startar meddelandekonsument](#start-message-consumers) för B2B-funktioner.
 
-- `--max-messages <value>` - Anger det maximala antalet meddelanden som varje konsument måste bearbeta innan de avbryts (standard = 10000). Även om Adobe inte rekommenderar det kan du använda 0 för att hindra konsumenten från att säga upp sig. Det bästa sättet för ett PHP-program är att starta om långvariga processer för att förhindra eventuella minnesläckor.
+- `--max-messages <value>` - Anger det maximala antalet meddelanden som varje konsument måste bearbeta innan de avbryts (standard = 10000). Även om Adobe inte rekommenderar det kan du använda 0 för att förhindra att konsumenten säger upp det. Det bästa sättet för ett PHP-program är att starta om långvariga processer för att förhindra eventuella minnesläckor.
 
 - `--batch-size <value>` - Gör att du kan begränsa systemresurserna som förbrukas av konsumenterna (CPU, minne). Om du använder mindre grupper minskar resursanvändningen och det leder därmed till långsammare bearbetning.  Om det anges används meddelanden i en kö i grupper om `<value>`. Det här alternativet gäller endast för batchkonsumenten. Om `--batch-size` inte har definierats får batchkonsumenten alla tillgängliga meddelanden i en kö.
 
