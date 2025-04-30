@@ -6,9 +6,9 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: a893a33a14d33106bb9291ceeff96dc155bb017a
+source-git-commit: 09e1ef6be9eed9bcf1d562f0490dfb7d28b18171
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Den här guiden täcker:
 | [Aktivera grundläggande B2B-funktioner](enable-basic-features.md) | När du har installerat [!DNL Adobe Commerce B2B] måste du aktivera de funktioner som du vill aktivera för din butik. |
 | [Företagskonton](account-companies.md) | Lär dig mer om företagskonton och hur de utgör den främsta byggstenen för B2B-köpare i din butik. |
 | [Företagshantering](manage-companies.md) | Se hur B2B Commerce webbadministratörer kan bygga upp företagshierarkier för att effektivisera hanteringen av flera företag som tillhör samma företag. |
-| [Delade kataloger](catalog-shared.md) | Lär dig hur du använder delade kataloger för att underhålla kataloger med anpassade priser för olika företag. [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} |
+| [Delade kataloger](catalog-shared.md) | Lär dig hur du använder delade kataloger för att underhålla kataloger med anpassade priser för olika företag. |
 | [Snabborder](quick-order.md) | Läs mer om funktioner för snabb beställning och hur ni gör det möjligt för era kunder. |
 | [Inköpsorder](purchase-order-flow.md) | Lär dig mer om arbetsflöden för inköpsorder som gör att företag kan spåra och kontrollera sina utgifter. |
 | [Citattecken](quotes.md) | Lär dig mer om arbetsflöden för offerter och hur du kan tillhandahålla den här tjänsten till dina företagskonton. |
