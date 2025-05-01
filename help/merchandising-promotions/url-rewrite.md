@@ -1,18 +1,19 @@
 ---
 title: URL-omskrivningar
-description: Lär dig mer om att skriva om URL-adresser och använda Commerce URL-omskrivningsverktyg för att ändra URL-adresser som är kopplade till en produkt, kategori eller CMS-sida.
+description: Lär dig mer om att skriva om URL-adresser och att använda Commerce URL-omskrivningsverktyg för att ändra URL-adresser som är kopplade till en produkt, kategori eller CMS-sida.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # URL-omskrivningar
 
-Med verktyget för URL-omskrivning kan du ändra alla URL:er som är kopplade till en produkt, kategori eller CMS-sida. När omskrivningen börjar gälla omdirigeras alla länkar som pekar på den tidigare URL:en till den nya adressen.
+Med URL-omskrivningsverktyget kan du ändra alla URL-adresser som är kopplade till en produkt, kategori eller CMS-sida. När omskrivningen börjar gälla omdirigeras alla länkar som pekar på den tidigare URL:en till den nya adressen.
 
 >[!NOTE]
 >
@@ -74,7 +75,7 @@ URL med omskrivning av webbserver
 
 Du kan använda URL-omskrivningsverktyget för att skapa produkt- och kategoriomskrivningar och anpassade omskrivningar för alla sidor i din butik. När omskrivningen börjar gälla omdirigeras alla befintliga länkar som pekar på den tidigare URL:en till den nya adressen.
 
-URL-omskrivningar kan användas för att lägga till nyckelord med högt värde för att förbättra det sätt på vilket produkten indexeras av sökmotorer. Du kan också använda omskrivningar för att skapa ytterligare URL:er för en tillfällig säsongsändring eller permanent ändring. Återskrivningar kan skapas för alla giltiga sökvägar, inklusive CMS-innehållssidor. Internt refererar systemet alltid produkter och kategorier efter deras ID. Oavsett hur ofta URL:en ändras, ändras inte ID:t. Här är några sätt som du kan använda en URL-omskrivning:
+URL-omskrivningar kan användas för att lägga till nyckelord med högt värde för att förbättra det sätt på vilket produkten indexeras av sökmotorer. Du kan också använda omskrivningar för att skapa ytterligare URL:er för en tillfällig säsongsändring eller permanent ändring. Återskrivningar kan skapas för alla giltiga sökvägar, inklusive CMS innehållssidor. Internt refererar systemet alltid produkter och kategorier efter deras ID. Oavsett hur ofta URL:en ändras, ändras inte ID:t. Här är några sätt som du kan använda en URL-omskrivning:
 
 System-URL
 
@@ -99,7 +100,7 @@ Commerce erbjuder följande typer av URL-omskrivning:
 
 * [Återskrivningar av produkter](url-rewrite-product.md)
 * [Kategoriåterskrivningar](url-rewrite-category.md)
-* [CMS-sidomskrivning](url-rewrite-cms-page.md)
+* [CMS Page Rewrites](url-rewrite-cms-page.md)
 * [Anpassade omskrivningar](url-rewrite-custom.md)
 
 ## Demo om återskrivningar av URL

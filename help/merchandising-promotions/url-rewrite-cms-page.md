@@ -3,9 +3,10 @@ title: URL för innehållssida skrivs om
 description: Lär dig hur du använder URL:er för innehållssidor för att omdirigera länkar till URL:en för en annan innehållssida i din Commerce-butik.
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Innan du börjar ser du till att du förstår exakt vad omdirigeringen ska åstadkomma. Tänk i termer av _target_ / _source_ eller _omdirigera till_ / _omdirigera från_. Även om användare fortfarande kan navigera till den förra sidan från sökmotorer eller inaktuella länkar, leder omdirigeringen till att din butik växlar till det nya målet.
 
-![URL-omskrivningar - CMS-sida](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+![URL-omskrivning - CMS-sida](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## Steg 1. Planera omskrivningen
 

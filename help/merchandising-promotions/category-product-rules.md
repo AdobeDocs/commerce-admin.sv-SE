@@ -3,9 +3,10 @@ title: Kategoriregler för försäljning
 description: Lär dig hur du skapar en regel som dynamiskt ändrar produktval enligt en uppsättning villkor.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---

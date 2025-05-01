@@ -2,9 +2,9 @@
 title: Introduktion till Commerce marknadsföring och reklam
 description: Förstå mer om Commerce-verktyg för att skapa riktade kampanjer och möjligheter för kundengagemang.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Målinrikta kampanjer och skapa möjligheter för kundengagemang och omvandla ku
 
 _Merchandising_ är en term som används i detaljhandeln för att beskriva konsten och vetenskapen inom planutveckling och presentation av produkter. Du kanske tänker på den [kategoribaserade navigeringen](../catalog/navigation-top.md) som butikens golvplan och den dynamiska presentationen av produkter som villkor som du kan tillämpa på produktlistan i butiken. Ni kan också implementera program som ökar försäljningen:
 
-- [Visual Merchandiser](visual-merchandiser.md) - En uppsättning avancerade verktyg som gör att du kan placera produkter och använda villkor som bestämmer vilka produkter som visas i kategorilistan.
+- [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [Visual Merchandiser](visual-merchandiser.md) - En uppsättning avancerade verktyg som gör att du kan placera produkter och använda villkor som avgör vilka produkter som visas i kategorilistan.
 
 - [Presentregister](gift-registries.md) - Ge dina kunder möjlighet att skapa presentregister för särskilda tillfällen och bjuda in vänner och familj att köpa presenter från presentregistret.
 
