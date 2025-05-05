@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Inventory Management] versionsinformation'
+title: Versionsinformation för [!DNL Inventory Management]
 description: Läs versionsinformationen om du vill ha information om alla  [!DNL Inventory Management] releaser.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '3445'
+source-wordcount: '3462'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ I versionsinformationen beskrivs releaser av [!DNL Inventory Management] och hä
 
 [!DNL Inventory Management] är ett specialprojekt för Magento Open Source Community Engineering som är öppet för medverkande. Om du vill delta och bidra läser du [GitHub-projektet](https://github.com/magento/inventory) och [wiki](https://github.com/magento/inventory/wiki) för att komma igång. Om du vill diskutera projektet går du med i [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)-kanalen ([självregistrering](https://opensource.magento.com/slack)).
 
-[Frigör schema](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=sv-SE){target="_blank"} för kompatibla versioner som stöds.
+[Frigör schema](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} för kompatibla och stöds.
 
 ## v1.2.7
 
-Versionsinformation för [!DNL Inventory Management] 1.2.7 finns i versionsinformationen för [core 2.4.7 ](https://experienceleague.adobe.com/sv/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+Versionsinformation för [!DNL Inventory Management] 1.2.7 finns i versionsinformationen för [core 2.4.7 ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
-[!DNL Inventory Management] 1.2.6 (modulversion: `magento/inventory-metapackage = 1.2.6`) stöds med version 2.4.6 och är kompatibel med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.2.6 (modulversion: `magento/inventory-metapackage = 1.2.6`) stöds med version 2.4.6 och är kompatibel med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
 ![Korrigerat problem](../assets/fix.svg) I butiken visas nu sammansatta produkter (konfigurerbara, paketerade och grupperade) som i lager när underordnade produkter som har sålts ut returneras till lager. Tidigare angav storefront att den sammansatta produkten inte fanns i lager under dessa förhållanden. <!-- ACP2E-1106-->
 
@@ -64,13 +64,13 @@ Versionsinformation för [!DNL Inventory Management] 1.2.7 finns i versionsinfor
 
 ![Åtgärdade problem](../assets/fix.svg) Lager filtreras nu baserat på både ett och flera lagrings-ID. Produktattributkoden `event` har lagts till i listan över reserverade attributkoder. Tidigare utlöstes ett undantag i rapporten LågStock när modulen Lager installerades. <!-- ACP2E-1017-->
 
-![Ett problem har korrigerats](../assets/fix.svg) Navigeringsfilter i lager fungerar nu som väntat, och färdiga produkter läggs nu till i produktlistan för butikskategori. Det nya sorteringsattributet `is_out_of_stock` använder den dynamiska fältmapparen Elasticsearch för butiksproduktsamlingen. <!-- ACP2E-748-->
+![Ett problem har korrigerats](../assets/fix.svg) Navigeringsfilter i lager fungerar nu som väntat, och färdiga produkter läggs nu till i produktlistan för butikskategori. Det nya sorteringsattributet `is_out_of_stock` använder Elasticsearch Dynamic Field Mapper för butiksproduktsamlingen. <!-- ACP2E-748-->
 
 ![Åtgärdat problem](../assets/fix.svg) Den sammansatta produktens (bundle, grouped och configurable) Stock-status uppdateras som förväntat när den underordnade produktens Stock-status ändras av ett REST `POST /rest/V1/inventory/source-items` -anrop. <!-- ACP2E-1209-->
 
 ## v1.2.5
 
-[!DNL Inventory Management] 1.2.5 (modulversion: `magento/inventory-metapackage = 1.2.5`) stöds med version 2.4.5 och är kompatibel med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.2.5 (modulversion: `magento/inventory-metapackage = 1.2.5`) stöds med version 2.4.5 och är kompatibel med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
 ![Åtgärdat problem](../assets/fix.svg) Standardlagerstatusen för paket och grupperade produkter uppdateras nu som förväntat när en handlare skapar en leverans från administratören. Tidigare förblev dessa produkters status oförändrad efter det att en leverans skapades. <!--- ACP2E-418-->
 
@@ -106,17 +106,18 @@ Versionsinformation för [!DNL Inventory Management] 1.2.7 finns i versionsinfor
 
 ![Korrigerat problem](../assets/fix.svg) <!--- ACP2E-274--> Antalet produkter i kategorilistan är nu korrekt när du använder läget för en källa för lager med inställningen **[!UICONTROL Display Out-Of-Stock Products]** aktiverad. Ett nytt plugin-program använder nu `AreProductsSalableInterface` och `StockConfigurationInterface` för att fastställa det totala antalet produkter. Tidigare returnerade kategoriproduktlistan fel produktkvantitet.
 
-![Ett problem har korrigerats](../assets/fix.svg) <!--- ACP2E-322--> Konfigurerbara produkter har flyttats till den sista positionen i produktlistan när Stock har uppdaterats när inställningen **[!UICONTROL Move out of stock to the bottom]** är aktiverad. En ny anpassad databasfråga implementeras för att negera sorteringsordningen i Elasticsearch-index, vilket inte tar hänsyn till den administratörsaktiverade sorteringsordningen. Tidigare flyttades inte konfigurerbara produkter och deras underordnade produkter längst ned i listan när den här inställningen var aktiverad.
+![Ett problem har korrigerats](../assets/fix.svg) <!--- ACP2E-322--> Konfigurerbara produkter har flyttats till den sista positionen i produktlistan när Stock har uppdaterats när inställningen **[!UICONTROL Move out of stock to the bottom]** är aktiverad. En ny anpassad databasfråga implementeras för att negera sorteringsordningen i Elasticsearch index, vilket ignorerar den sorteringsordning som är aktiverad av Admin. Tidigare flyttades inte konfigurerbara produkter och deras underordnade produkter längst ned i listan när den här inställningen var aktiverad.
 
 ## v1.2.4
 
-Inventory management 1.2.4 (modulversion: `magento/inventory-metapackage = 1.2.4`) stöds med version 2.4.4 och är kompatibelt med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source.
+Inventory management 1.2.4 (modulversion: `magento/inventory-metapackage = 1.2.4`) stöds med version 2.4.4 och är kompatibelt med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
 ![Korrigerat problem](../assets/fix.svg) Commerce visar nu ett korrekt värde för försäljningsbar kvantitet för alla produkter i produktlistvyn för Admin. Tidigare visades ett tomt värde för säljbar kvantitet lagerförda produkter med SKU:er som innehöll specialtecken. <!--- MC-41936-->
 
 ![Korrigerat problem](../assets/fix.svg) Prestandan har förbättrats för kundvagn och utcheckning, t.ex. när produkter läggs till i varukorgen i distributioner med många (ungefär 10 000) lagerkällor. <!--- MC-42570-->
 
-![Korrigerat problem](../assets/fix.svg) Kommandot `bin/magento inventory:reservation:list-inconsistencies` hanterar nu order med partiella leveranser korrekt även om reservationerna missas från databasen och cachen har rensats. Tidigare visades följande fel när det här kommandot kördes med en förrensad cache: `Area code is not set`. <!--- MC-42142-->
+![Korrigerat problem](../assets/fix.svg) [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Kommandot `bin/magento inventory:reservation:list-inconsistencies` hanterar nu order med partiella leveranser korrekt, även om reservationerna missas från databasen och cachen har rensats. Tidigare visades följande fel när det här kommandot kördes med en förrensad cache: `Area code is not set`. <!--- MC-42142-->
+
 
 ![Korrigerat problem](../assets/fix.svg) Inkrementell indexering av underordnade produkter i grupperade produkter medför inte längre att andra grupperade produkter indexeras felaktigt när underordnade produkter delas. <!--- MC-41963-->
 
@@ -126,11 +127,11 @@ Inventory management 1.2.4 (modulversion: `magento/inventory-metapackage = 1.2.4
 
 ![Ett problem har korrigerats](../assets/fix.svg). Hanteringen av lager som överskrider 10 000 artiklar har förbättrats. Tidigare hindrade prestationsproblem ibland handlarna från att redigera material i administratören innan de lanserade sin webbplats. <!--- MC-42643-->
 
-![Ett problem har korrigerats](../assets/fix.svg) Sidan **[!UICONTROL User Roles]** i Admin har uppdaterats för att ge administratörer begränsad behörighet till konfigurationen av leveransmetoder. Avsnittet _Leveransmetoder_ har bytt namn till _[!UICONTROL Delivery methods]_&#x200B;och&#x200B;_[!UICONTROL In-Store Pickup]_ flyttas under avsnittet _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![Ett problem har korrigerats](../assets/fix.svg) Sidan **[!UICONTROL User Roles]** i Admin har uppdaterats för att ge administratörer begränsad behörighet till konfigurationen av leveransmetoder. Avsnittet _Leveransmetoder_ har bytt namn till _[!UICONTROL Delivery methods]_och_[!UICONTROL In-Store Pickup]_ flyttas under avsnittet _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![Korrigerat problem](../assets/fix.svg) Adobe Commerce skapar inte längre en dubblettproduktreservation efter att en kreditnota har uppdaterats av API. <!--- MC-41757-->
 
-![Korrigerat problem](../assets/fix.svg) Om du växlar från fliken _[!UICONTROL Pick up in Store]_&#x200B;till fliken&#x200B;_[!UICONTROL Shipping]_ i arbetsflödet för utcheckning utlöses inte längre ett JavaScript-fel när endast hämtningsleverans i butiken är tillgänglig. <!--- MC-42808-->
+![Korrigerat problem](../assets/fix.svg) Om du växlar från fliken _[!UICONTROL Pick up in Store]_till fliken_[!UICONTROL Shipping]_ i arbetsflödet för utcheckning utlöses inte längre ett JavaScript-fel när endast hämtningsleverans i butiken är tillgänglig. <!--- MC-42808-->
 
 ![Korrigerat problem](../assets/fix.svg) Försäljningsbar produktkvantitet och produktkvantitet i lager synkroniseras nu korrekt. Tidigare återskapades inte kompensation för lagerreservation för annullerade order. <!--- MC-42485-->
 
@@ -138,7 +139,7 @@ Inventory management 1.2.4 (modulversion: `magento/inventory-metapackage = 1.2.4
 
 ## 1.2.3
 
-[!DNL Inventory Management] 1.2.3 (modulversion: `magento/inventory-metapackage = 1.2.3`) stöds med version 2.4.3 och är kompatibel med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.2.3 (modulversion: `magento/inventory-metapackage = 1.2.3`) stöds med version 2.4.3 och är kompatibel med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
 ![Korrigerat problem](../assets/fix.svg) Korrigerade flera problem relaterade till synligheten för den sammansatta produkten på klientsidan.
 
@@ -154,7 +155,7 @@ Inventory management 1.2.4 (modulversion: `magento/inventory-metapackage = 1.2.4
 
 ## 1.2.2
 
-[!DNL Inventory Management] 1.2.2 (modulversion: `magento/inventory-metapackage = 1.2.2`) stöds med version 2.4.2 och är kompatibel med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.2.2 (modulversion: `magento/inventory-metapackage = 1.2.2`) stöds med version 2.4.2 och är kompatibel med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
 ![Korrigerat problem](../assets/fix.svg) Korrigerade flera problem relaterade till synligheten för den sammansatta produkten på klientsidan.
 
@@ -166,7 +167,7 @@ Inventory management 1.2.4 (modulversion: `magento/inventory-metapackage = 1.2.4
 
 ## 1.2.1
 
-[!DNL Inventory Management] 1.2.1 (modulversion: `magento/inventory-metapackage = 1.2.1`) stöds med version 2.4.1 och är kompatibel med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.2.1 (modulversion: `magento/inventory-metapackage = 1.2.1`) stöds med version 2.4.1 och är kompatibel med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
 ![Korrigerat problem](../assets/fix.svg) Ett känt problem som rör seriejobbet `inventory_cleanup_reservations` har korrigerats och ett problem som rör funktionen för hämtning i butiken för paketprodukter har åtgärdats. Uppdateringen innehåller även allmänna förbättringar av lagerberäkning, produktsupport och backorder-funktioner.
 
@@ -174,7 +175,7 @@ Inventory management 1.2.4 (modulversion: `magento/inventory-metapackage = 1.2.4
 
 ## 1.2.0
 
-[!DNL Inventory Management] 1.2.0 (modulversion: `magento/inventory-metapackage = 1.2.0`) stöds med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.2.0 (modulversion: `magento/inventory-metapackage = 1.2.0`) stöds med version 2.4.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
 ![Ett problem har korrigerats](../assets/fix.svg) Ett flertal åtgärder för att lösa problem med källtilldelning, stöd för skalbara miljöfunktioner och kompatibilitet med PHP 7.4, MySQL 8 och PHPUNIT 9 har åtgärdats.
 
@@ -199,7 +200,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.6
 
-[!DNL Inventory Management] 1.1.6 (modulversion: `inventory-composer-metapackage = 1.1.6`) stöds med version 2.3.6 och är kompatibel med version 2.3.5, 2.3.4, 2.3.3, 2.3.2, 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastruktur och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.1.6 (modulversion: `inventory-composer-metapackage = 1.1.6`) stöds med version 2.3.6 och är kompatibel med version 2.3.5, 2.3.4, 2.3.3, 2.3.2, 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
 ![Korrigerat problem](../assets/fix.svg) Åtgärdat problem som rör restorder, kreditnotor, rutnät för låg stockrapport, korrigeringar kopplade till CLI-verktyget för att lösa inkonsekvenser och allmänna förbättringar.
 
@@ -207,7 +208,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.5
 
-[!DNL Inventory Management] 1.1.5 (modulversion: `inventory-composer-metapackage = 1.1.5`) stöds med version 2.3.5 och är kompatibelt med version 2.3.4, 2.3.3, 2.3.2, 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastruktur och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.1.5 (modulversion: `inventory-composer-metapackage = 1.1.5`) stöds med version 2.3.5 och är kompatibelt med version 2.3.4, 2.3.3, 2.3.2, 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastruktur samt Magento Open Source kodbas.
 
 ![Nytt](../assets/new.svg) **Uppdatera lagret när produkt-SKU ändras.** Introducerade en ny konfigurationsinställning för att växla till det nya beteendet: Synkronisera med katalog.
 
@@ -217,7 +218,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.4
 
-[!DNL Inventory Management] 1.1.4 (modulversion: `inventory-composer-metapackage = 1.1.4`) stöds med version 2.3.4 och är kompatibel med version 2.3.3, 2.3.2, 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.1.4 (modulversion: `inventory-composer-metapackage = 1.1.4`) stöds med version 2.3.4 och är kompatibel med version 2.3.3, 2.3.2, 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastruktur samt Magento Open Source kodbas.
 
 ![Korrigerat problem ](../assets/fix.svg)**Förbättrade prestanda.** Introducerade buntlogik för CLI-kommandot för lagerreservationer för att minska minnesanvändningen och undvika fall när processen fastnar utan något svar.
 
@@ -227,7 +228,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.3
 
-[!DNL Inventory Management] 1.1.3 (modulversion: `inventory-composer-metapackage = 1.1.3`) stöds med version 2.3.3 och är kompatibel med version 2.3.2, 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastruktur och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.1.3 (modulversion: `inventory-composer-metapackage = 1.1.3`) stöds med version 2.3.3 och är kompatibel med version 2.3.2, 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
 ![Korrigerat problem ](../assets/fix.svg)**Bättre integrering med Adobe Commerce- och B2B-funktioner.** [!DNL Inventory Management] fungerar nu korrekt med följande funktioner för webbplatser som använder lagerkällor och lager som inte är standard:
 
@@ -241,9 +242,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.2
 
-[!DNL Inventory Management] 1.1.2 (modulversion: `inventory-composer-metapackage = 1.1.2`) stöds med version 2.3.2 och är kompatibel med version 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.1.2 (modulversion: `inventory-composer-metapackage = 1.1.2`) stöds med version 2.3.2 och är kompatibel med version 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastruktur samt Magento Open Source kodbas.
 
-![Korrigerat problem](../assets/fix.svg) lades till `source_code` i svaret för REST-slutpunkten för GET `/V1/shipments`. <!-- https://github.com/magento/inventory/pull/2142 -->
+![Korrigerat problem](../assets/fix.svg) lades till `source_code` i svaret för GET `/V1/shipments` REST-slutpunkten. <!-- https://github.com/magento/inventory/pull/2142 -->
 
 ![Korrigerat problem](../assets/fix.svg) Korrigerat problem med att rensa reservationer och uppdatera produktkvantiteter efter att ha utfärdat en kreditnota för en ej levererad order. När du väljer alternativet för <!-- https://github.com/magento/inventory/pull/2179 -->
 
@@ -266,17 +267,17 @@ Nya moduler för [!DNL Inventory Management] 1.1.2 Beta omfattar:
 
 ![Nytt](../assets/new.svg) **Prestandaförbättringar för källor och SSA-alternativ** - Sortering och val av källor vid leverans orsakade prestandaförsämringar för lager med ett stort antal källor. Den här versionen innehåller viktiga prestandaförbättringar för att lista och sortera tillgängliga källor när du granskar och väljer SSA-alternativ i leveranser. <!-- https://github.com/magento/inventory/pull/2056 https://github.com/magento/inventory/pull/2090 -->
 
-![Nytt](../assets/new.svg) **GraphQL-stöd för Inventory management har lagts till** - Den här versionen installerar en ny `magento/module-inventory-graph-ql`-modul. GraphQL [ProductInterface-attributen](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes/){target="_blank"} innehåller nu attributen `only_x_left_in_stock` och `stock_status` som [!DNL Inventory Management] har stöd för. <!-- https://github.com/magento/inventory/pull/2124 -->
+![Nytt](../assets/new.svg) **GraphQL-stöd för Inventory management har lagts till** - Den här versionen installerar en ny `magento/module-inventory-graph-ql`-modul. GraphQL [ProductInterface-attributen](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes/){target="_blank"} innehåller nu attributen `only_x_left_in_stock` och `stock_status` för [!DNL Inventory Management] som stöds. <!-- https://github.com/magento/inventory/pull/2124 -->
 
 ![Nytt](../assets/new.svg) **Förenklat gränssnitt för tilldelade källor** - Tabellen Tilldelade källor på produktsidor har förenklat innehåll för enklare uppdateringar och högre prestanda när många källor visas. Alla källor visas efter källnamn (hovra över för `source_code`).
 
-![Ny](../assets/new.svg) **Exportera aggregerad Stock-tjänst** - Den här versionen innehåller en ny exportaggregerad Stock-tjänst (med reservationer i systemet) som stöder externa Sales Channeler som Amazon, eBay och Google Shopping-annonser.  <!-- https://github.com/magento/inventory/pull/2067 -->
+![Ny](../assets/new.svg) **Exportera aggregerad lagertjänst** - Den här versionen innehåller en ny exportaggregerad lagertjänst (med reservationer i systemet) som stöder externa försäljningskanaler, som Amazon, eBay och Google Shopping-annonser.  <!-- https://github.com/magento/inventory/pull/2067 -->
 
 ## 1.1.0
 
-[!DNL Inventory Management] 1.1.0 (modulversion: `inventory-composer-metapackage = 1.1.0`) stöds och är kompatibelt med version 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source. [!DNL Inventory Management] 1.1.1 släpps endast som en paketnamnsuppdatering som stöds för version 2.3.1 och är kompatibel med version 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och kodbasen Magento Open Source.
+[!DNL Inventory Management] 1.1.0 (modulversion: `inventory-composer-metapackage = 1.1.0`) stöds och är kompatibelt med version 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas. [!DNL Inventory Management] 1.1.1 släpps endast som en paketnamnsuppdatering som stöds för version 2.3.1 och är kompatibel med version 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
-![Ett problem har korrigerats](../assets/fix.svg) **Stöd har lagts till för Elasticsearch i lägena single och multi-source** - du kan nu konfigurera och använda Elasticsearch med anpassade lager. Se [Konfigurera tjänsten Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=sv-SE){target="_blank"} för installationsinformation. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![Ett problem har korrigerats](../assets/fix.svg) **Stöd för Elasticsearch för single- och multi-source-lägen har lagts till** - du kan nu konfigurera och använda Elasticsearch med anpassade lager. Se [Konfigurera Elasticsearch-tjänsten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"} för installationsinformation. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![Korrigerat problem](../assets/fix.svg) Åtgärdade prestandaproblem med standardlagret för att drastiskt öka prestanda med flera åtgärder. Förbättringar ökar prestandan för single-source-läge, Överför lager till Source, Storefront Category-sidor och beräkningar för försäljningsantal.
 

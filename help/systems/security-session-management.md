@@ -4,9 +4,9 @@ description: Lär dig hur du konfigurerar sessionshantering för att skydda admi
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Använd följande konfigurationsinställningar för att begränsa den maximala s
 
 **_Så här konfigurerar du maximal sessionsstorlek:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
@@ -48,6 +48,8 @@ Använd följande konfigurationsinställningar för att begränsa den maximala s
 
 ### Administratörssessioner
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 Om du överskrider den maximala sessionsstorleken visas ett felmeddelande och systemet loggar begränsningar för sessionsstorlek till katalogen `var/log`.
 
 Om du förlorar åtkomsten till administratören efter att du har angett sessionsstorleken för låg kan du återställa konfigurationen med CLI:
@@ -58,13 +60,15 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Sessioner i butiker
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 Om du överskrider den maximala sessionsstorleken visas inget fel, men systemet loggar begränsningar för sessionsstorlek till katalogen `var/log`.
 
 ## Sessionsvalidering
 
 Med Adobe Commerce och Magento Open Source kan du validera sessionsvariabler som en skyddsåtgärd mot eventuella sessionsfixeringsattacker eller försök att förgifta eller kapa användarsessioner. Inställningarna för sessionsvalidering avgör hur sessionsvariabler valideras under varje butiksbesök och om sessions-ID inkluderas i butikens URL.
 
-Mer teknisk information finns i [Använd Redis för sessionslagring](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=sv-SE) i _Konfigurationshandboken_.
+Mer teknisk information finns i [Använd Redis för sessionslagring](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) i _Konfigurationshandboken_.
 
 ![Allmän konfiguration - Webbsessionsvalidering](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
@@ -74,9 +78,9 @@ Om du aktiverar alla valideringsvariabler kan du förhindra attacker, men det ka
 
 **_Så här konfigurerar du sessionsvalideringen:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
-1. Expandera _[!UICONTROL General]_&#x200B;i den vänstra panelen och välj **[!UICONTROL Web]**.
+1. Expandera _[!UICONTROL General]_i den vänstra panelen och välj **[!UICONTROL Web]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Session Validation Settings]**.
 
@@ -98,7 +102,7 @@ Som en säkerhetsåtgärd är _Admin_ inställd på timeout efter 900 sekunders 
 
 **_Så här justerar du administratörssessionens livstid:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Bläddra nedåt och expandera **[!UICONTROL Advanced]** på den vänstra panelen.
 

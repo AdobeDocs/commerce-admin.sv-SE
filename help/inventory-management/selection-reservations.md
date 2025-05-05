@@ -3,9 +3,9 @@ title: Source algoritmer och reservationer
 description: Läs mer om Source Selection Algorithm and Reservations systems som körs i bakgrunden för att hålla dina säljbara kvantiteter uppdaterade.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2196'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ I stället för att omedelbart dra av eller lägga till produktlagerkvantiteter 
 
 >[!NOTE]
 >
->Reservationsfunktionen kräver att meddelandekökonsumenten `inventory.reservations.updateSalabilityStatus` körs kontinuerligt. Använd kommandot `bin/magento queue:consumers:list` om du vill kontrollera om det körs. Om meddelandekökonsumenten inte finns med i listan startar du den: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Reservationsfunktionen kräver att meddelandekökonsumenten `inventory.reservations.updateSalabilityStatus` körs kontinuerligt. Använd kommandot `bin/magento queue:consumers:list` om du vill kontrollera om det körs. Om meddelandekökonsumenten inte finns med i listan startar du den: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Beställningsreservationer
 
@@ -188,7 +188,7 @@ De tre `quantity`-värdena är summerade till 0 (-25 + 5 + 20). Systemet ändrar
 
 Kronjobbet `inventory_cleanup_reservations` kör SQL-frågor för att rensa reservationsdatabastabellen. Som standard körs den varje dag vid midnatt, men du kan konfigurera tider och frekvens. Kronjobbet kör ett skript som frågar databasen efter fullständiga reservationssekvenser där summan av kvantitetsvärdena är 0. När alla reservationer för en viss produkt som har sitt ursprung samma dag (eller annan konfigurerad tid) har kompenserats, tar kronijobbet bort alla reservationer samtidigt.
 
-Kronijobbet `inventory_reservations_cleanup` är inte detsamma som meddelandekökonsumenten `inventory.reservations.cleanup`. Konsumenten tar asynkront bort reservationer per produkt-SKU efter att en produkt har tagits bort, medan kronijobbet rensar hela reservationstabellen. Konsumenten krävs när du aktiverar alternativet [**Synkronisera med katalog**](../configuration-reference/catalog/inventory.md) i butikskonfigurationen. Se [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=sv-SE) i _Konfigurationshandboken_.
+Kronijobbet `inventory_reservations_cleanup` är inte detsamma som meddelandekökonsumenten `inventory.reservations.cleanup`. Konsumenten tar asynkront bort reservationer per produkt-SKU efter att en produkt har tagits bort, medan kronijobbet rensar hela reservationstabellen. Konsumenten krävs när du aktiverar alternativet [**Synkronisera med katalog**](../configuration-reference/catalog/inventory.md) i butikskonfigurationen. Se [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandboken_.
 
 Ofta går det inte att kompensera alla ursprungliga reservationer som gjorts under en och samma dag. Detta kan inträffa när en kund gör en beställning precis innan kronijobbet påbörjas eller gör ett köp med en offlinebetalningsmetod, som en banköverföring. De kompenserade reservationssekvenserna finns kvar i databasen tills de alla kompenseras. Denna praxis påverkar inte reservationsberäkningar, eftersom summan för varje reservation är 0.
 

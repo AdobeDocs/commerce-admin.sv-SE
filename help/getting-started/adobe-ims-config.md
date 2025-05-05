@@ -3,9 +3,10 @@ title: Konfigurera Commerce Admin-integrering med ID
 description: Följ den här valfria proceduren för att integrera inloggningar för användarkonton i Adobe Commerce Admin med Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -27,8 +28,8 @@ Integrationen stöder Commerce handlare med admin-användare som har en Adobe ID
 
 Administratören som konfigurerar den här integreringen behöver följande autentiseringsuppgifter när modulen aktiveras:
 
-* Organisations-ID (hämtas från [Adobe Admin Console](https://adminconsole.adobe.com/)), som måste innehålla minst 24 tecken. Den autentiserade användaren måste tillhöra den här IMS-organisationen. Mer information om hur du hittar ditt företags-ID finns i [Organisationer i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv-SE).
-* 2FA ska tillämpas på organisationsnivå i Adobe Admin Console för att aktivera modulen. Kontrollera [autentiseringsinställningar](https://helpx.adobe.com/se/enterprise/using/authentication-settings.html#two-step-verification).
+* Organisations-ID (hämtas från [Adobe Admin Console](https://adminconsole.adobe.com/)), som måste innehålla minst 24 tecken. Den autentiserade användaren måste tillhöra den här IMS-organisationen. Mer information om hur du hittar ditt företags-ID finns i [Organisationer i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+* 2FA ska tillämpas på organisationsnivå i Adobe Admin Console för att aktivera modulen. Kontrollera [autentiseringsinställningar](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Klient-ID
 * Klienthemlighet
 * Klient-ID och klienthemlighet är tillgängliga efter hämtning av API-nycklar från [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/).
@@ -46,7 +47,7 @@ För en lyckad integrering krävs att alla Adobe Commerce-användare har adminis
 
 ## Konfigurera integreringen
 
-När följande steg har slutförts av en administratör eller utvecklare med systemåtkomst visas knappen _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;på inloggningssidan för Commerce Admin för alla Admin-användare.
+När följande steg har slutförts av en administratör eller utvecklare med systemåtkomst visas knappen _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_på inloggningssidan för Commerce Admin för alla Admin-användare.
 
 ### Steg 1: Hämta Adobe Org ID
 
@@ -75,7 +76,7 @@ Innan du aktiverar integreringen bör du kontrollera att alla Adobe Commerce Adm
 
 >[!TIP]
 >
->Du kan skapa flera användarkonton genom att överföra användarinformationen från en CSV-fil. Se [Hantera flera användare](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html).
+>Du kan skapa flera användarkonton genom att överföra användarinformationen från en CSV-fil. Se [Hantera flera användare](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
 1. Gå till **[!UICONTROL Users]** > **[!UICONTROL Users]** i [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 

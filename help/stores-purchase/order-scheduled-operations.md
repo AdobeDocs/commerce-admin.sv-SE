@@ -3,9 +3,9 @@ title: Schemalagda orderåtgärder
 description: Lär dig mer om schemalagda beställningsåtgärder och beställningar av cron-inställningar som stöder den här funktionen.
 exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
-source-git-commit: db859c40cd6f052a8f1153e245c23d9f1ea97d33
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Använd [Cron](../systems/cron.md)-jobb för att schemalägga följande orderbea
 
 Livslängden för order med väntande betalningar bestäms av konfigurationen för _Kroniinställningar_ för beställningar. Standardvärdet är 480 minuter, vilket är åtta timmar.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera avsnittet **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 
@@ -45,13 +45,13 @@ Genom att schemalägga dessa uppgifter kan du undvika de lås som uppstår när 
 
 **_Så här aktiverar du uppdateringar och omindexering:_**
 
-När [produktionsläget ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=sv-SE#production-mode) (standardläget som används i Adobe Commerce i molninfrastrukturen) är aktiverat kör du följande kommando:
+[!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} När [produktionsläget ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (standardläget i Adobe Commerce i molninfrastrukturen) är aktiverat kör du följande kommando:
 
-``bin/magento config:set dev/grid/async_indexing 1``
+`bin/magento config:set dev/grid/async_indexing 1`
 
-När [Standardläge](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=sv-SE#default-mode) är aktiverat utför du följande steg:
+När [Standardläge](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) är aktiverat utför du följande steg:
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera avsnittet **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 

@@ -6,7 +6,7 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 09e1ef6be9eed9bcf1d562f0490dfb7d28b18171
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Den här handboken är avsedd för administratörer som arbetar i Adobe Commerce
 Det finns två områden för butiksadministratörer:
 
 - Admin: Använd det här området för att komma åt konfigurationsgränssnittet och rapporter.
-- Kommandoradsgränssnittet: Använd det här verktyget för att utföra installations- och serverdelskonfigurationsuppgifter. [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+- [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Kommandoradsgränssnittet: Använd det här verktyget för att köra installations- och backend-konfigurationsuppgifter.
 
 Den här guiden täcker:
 
@@ -28,7 +28,7 @@ Den här guiden täcker:
 | ------- | ----------- |
 | [Introduktion](introduction.md) | Vilka funktioner är tillgängliga med [!DNL Adobe Commerce B2B]? |
 | [Versionsinformation](release-notes.md) | Granska uppdateringarna i varje [!DNL Adobe Commerce B2B]-version. |
-| [Installera](install.md) | Installera tillägget [!DNL Adobe Commerce B2B]. [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} |
+| [Installera](install.md) | [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Installera tillägget [!DNL Adobe Commerce B2B]. |
 | [Aktivera grundläggande B2B-funktioner](enable-basic-features.md) | När du har installerat [!DNL Adobe Commerce B2B] måste du aktivera de funktioner som du vill aktivera för din butik. |
 | [Företagskonton](account-companies.md) | Lär dig mer om företagskonton och hur de utgör den främsta byggstenen för B2B-köpare i din butik. |
 | [Företagshantering](manage-companies.md) | Se hur B2B Commerce webbadministratörer kan bygga upp företagshierarkier för att effektivisera hanteringen av flera företag som tillhör samma företag. |
@@ -52,5 +52,5 @@ Mer information om ändringar i modulreleaser finns i [Versionsinformation](rele
 
 Om du behöver information eller har frågor som inte ingår i den här handboken använder du följande resurser:
 
-- [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=sv-SE)
-- [Supportärenden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=sv-SE#submit-ticket) - Skicka in en biljett för att få ytterligare hjälp.
+- [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
+- [Supportärenden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - Skicka in en biljett för att få ytterligare hjälp.

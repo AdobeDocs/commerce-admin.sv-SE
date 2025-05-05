@@ -4,9 +4,10 @@ description: Lär dig hur du ändrar din egen krypteringsnyckel, vilket bör gö
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 48f3431faa5db50f896b7a8e3db59421c639185b
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -15,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om du har försökt slutföra de här stegen och har problem kan du läsa artikeln [Troubleshooting Encryption Key Rotation (Felsökning av krypteringsnyckelrotation): CVE-2024-34102](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) i kunskapsbasen.
+>Om du har försökt slutföra de här stegen och har problem kan du läsa artikeln [Troubleshooting Encryption Key Rotation (Felsökning av krypteringsnyckelrotation): CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) i kunskapsbasen.
 
 Adobe Commerce och Magento Open Source använder en krypteringsnyckel för att skydda lösenord och andra känsliga data. En [!DNL ChaCha20-Poly1305]-algoritm som är branschstandard används med en 256-bitars nyckel för att kryptera alla data som kräver kryptering. Detta inkluderar kreditkortsdata och integreringslösenord (betalnings- och leveransmodul). Dessutom används en stark Secure Hash-algoritm (SHA-256) för att hash-koda alla data som inte kräver dekryptering.
 
 Under den första installationen uppmanas du att antingen låta Commerce generera en krypteringsnyckel eller ange en egen. Med krypteringsnyckelverktyget kan du ändra nyckeln efter behov. Krypteringsnyckeln bör ändras regelbundet för att förbättra säkerheten, och när som helst kan originalnyckeln bli komprometterad.
 
-Mer teknisk information finns i [Avancerad lokal installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=sv-SE) i _installationshandboken_ och [Datakryptering](https://developer.adobe.com/commerce/php/development/security/data-encryption/) i _PHP-utvecklarhandboken_.
+Mer teknisk information finns i [Avancerad lokal installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) i _installationshandboken_ och [Datakryptering](https://developer.adobe.com/commerce/php/development/security/data-encryption/) i _PHP-utvecklarhandboken_.
 
 >[!IMPORTANT]
 >
@@ -32,7 +33,7 @@ Mer teknisk information finns i [Avancerad lokal installation](https://experienc
 
 Följande instruktioner kräver åtkomst till en terminal.
 
-1. Aktivera [underhållsläge](https://experienceleague.adobe.com/sv/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+1. Aktivera [underhållsläge](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
 
    ```bash
    bin/magento maintenance:enable
@@ -62,7 +63,7 @@ Följande instruktioner kräver åtkomst till en terminal.
    bin/magento encryption:key:change
    ```
 
-   +++
++++
 
    +++Administratörsinställningar
 
@@ -70,7 +71,7 @@ Följande instruktioner kräver åtkomst till en terminal.
    >
    >Den här funktionen har tagits bort och tagits bort i 2.4.8. Adobe rekommenderar att du ändrar krypteringsnycklar med CLI.
 
-   1. Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**&#x200B;på sidofältet_ Admin _.
+   1. Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**på sidofältet_ Admin _.
 
       ![Systemkrypteringsnyckel](./assets/encryption-key.png){width="700" zoomable="yes"}
 
@@ -85,7 +86,7 @@ Följande instruktioner kräver åtkomst till en terminal.
       >
       >Registrera den nya nyckeln på en säker plats. Du måste dekryptera data om det uppstår problem med filerna.
 
-   +++
++++
 
 1. Töm cacheminnet.
 

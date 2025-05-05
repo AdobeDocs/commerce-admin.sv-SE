@@ -3,9 +3,9 @@ title: Kupongkoder
 description: Lär dig hur du använder kupongkoder med kundprisregler för att tillämpa en rabatt när en uppsättning villkor uppfylls.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Från och med Commerce 2.4.7 kan man få flera kuponger i en kundvagn. Handlarna
 
 >[!NOTE]
 >
->Kundprisregler som har samma prioritet ger ingen kombinerad rabatt. Varje regel (kupong) tillämpas på matchande produkter separat, en i taget, enligt kundprisregelns ID i databasen. Adobe rekommenderar att du anger olika prioriteter för varje tillagd kundprisregel för att styra i vilken ordning rabatterna tillämpas.
+>Kundprisregler som har samma prioritet ger ingen kombinerad rabatt. Varje regel (kupong) tillämpas på matchande produkter separat, en i taget, enligt kundprisregelns ID i databasen. Adobe rekommenderar att du anger olika prioriteter för varje tillagd kundprisregel för att styra i vilken ordning rabatterna ska tillämpas.
 
 ## Konfigurera kupongkoder
 
 Längden på och formatet för automatiskt genererade kupongkoder styrs av konfigurationen. Tecknen kan anges till alla siffror, alla bokstäver eller en kombination. Du kan infoga ett bindestreck med angivna intervall för att göra det enkelt att läsa, och lägga till ett prefix och suffix för att associera koden med en viss kampanj eller ett visst initiativ.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Promotions]**.
 
@@ -62,7 +62,7 @@ Längden på och formatet för automatiskt genererade kupongkoder styrs av konfi
 
 >[!NOTE]
 >
->Innan du skapar kuponger använder du kommandot `bin/magento cron:run` för att verifiera att kron körs. Mer information finns i [Kör cron från kommandoraden](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=sv-SE#run-cron-from-the-command-line) i _konfigurationshandboken_.
+>[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Använd kommandot `bin/magento cron:run` för att verifiera att kron körs innan du skapar kuponger. Mer information finns i [Kör cron från kommandoraden](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) i _konfigurationshandboken_.
 
 ### Metod 1: Skapa en specifik kupong
 
@@ -89,7 +89,7 @@ Längden på och formatet för automatiskt genererade kupongkoder styrs av konfi
 
 1. Så här gör du för att kupongen ska vara giltig under en tidsperiod:
 
-   - ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Slutför datumen **Från** och **Till**. Klicka på ikonen **Kalender** (![Kalender-ikon](../assets/icon-calendar.png)) bredvid varje fält för att välja datum. Om du låter datumintervallet vara tomt upphör regeln inte att gälla.
+   - ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Fyll i datumen **Från** och **Till**. Klicka på ikonen **Kalender** (![Kalender-ikon](../assets/icon-calendar.png)) bredvid varje fält för att välja datum. Om du låter datumintervallet vara tomt upphör regeln inte att gälla.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Gör något av följande:
 
@@ -184,7 +184,7 @@ I följande exempel användes kupongkoden&quot;H20&quot; av två kunder. En av b
 
 ### Kör rapporten
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Coupons]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Coupons]**på sidofältet_ Admin _.
 
 1. Om du har flera butiksvyer anger du **[!DNL Store View]** i det övre vänstra hörnet för att fastställa rapportens omfång.
 

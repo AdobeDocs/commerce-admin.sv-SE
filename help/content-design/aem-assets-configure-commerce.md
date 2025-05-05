@@ -3,9 +3,10 @@ title: Installera Adobe Commerce-paket
 description: Lär dig hur du installerar tillägget  [!DNL AEM Assets Integration for Adobe Commerce] och på en Adobe Commerce-instans.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 8b86a0dfef91b9922189e3258a3db33d228eff9d
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -30,13 +31,13 @@ Tillägget AEM Assets Integration för Commerce har följande system- och konfig
 
 Du behöver följande roller och behörigheter för att konfigurera integreringen.
 
-- [Commerce molnprojektadministratör](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/project/user-access) - Installera nödvändiga tillägg och konfigurera Commerce-programservern från Admin eller kommandoraden.
+- [Commerce molnprojektadministratör](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installera nödvändiga tillägg och konfigurera Commerce-programservern från Admin eller kommandoraden.
 
    - Åtkomst till [repo.magento.com](https://repo.magento.com/admin/dashboard) för att installera tillägget.
 
-     Om du vill ha nyckelgenerering och de nödvändiga rättigheterna kan du läsa [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/sv/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Information om molninstallationer finns i [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+     Om du vill ha nyckelgenerering och de nödvändiga rättigheterna kan du läsa [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Information om molninstallationer finns i [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
-- [Commerce Admin](https://experienceleague.adobe.com/sv/docs/commerce-admin/start/guide-overview) - Uppdatera butikskonfigurationen och hantera Commerce-användarkonton.
+- [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - Uppdatera butikskonfigurationen och hantera Commerce-användarkonton.
 
 >[!TIP]
 >
@@ -65,7 +66,7 @@ Använd den här metoden för att installera tillägget [!DNL AEM Assets Integra
 
    >[!NOTE]
    >
-   >Mer information om att hantera Commerce projektmiljöer lokalt finns i [Hantera grenar med CLI](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/develop/cli-branches) i _Adobe Commerce on Cloud Infrastructure User Guide_.
+   >Mer information om att hantera Commerce projektmiljöer lokalt finns i [Hantera grenar med CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) i _Adobe Commerce on Cloud Infrastructure User Guide_.
 
 1. Kolla in miljögrenen för att uppdatera med hjälp av Adobe Commerce Cloud CLI.
 
@@ -95,7 +96,7 @@ Använd den här metoden för att installera tillägget [!DNL AEM Assets Integra
    git push origin <branch-name>
    ```
 
-   När uppdateringarna skickas initieras [Commerce molndistributionsprocess](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/develop/deploy/process) för att ändringarna ska börja gälla. Kontrollera distributionsstatusen från [distributionsloggen](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   När uppdateringarna skickas initieras [Commerce molndistributionsprocess](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) för att ändringarna ska börja gälla. Kontrollera distributionsstatusen från [distributionsloggen](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 >[!TAB Lokal]
 
@@ -135,7 +136,7 @@ Använd den här metoden för att installera tillägget [!DNL AEM Assets Integra
 
 >[!NOTE]
 >
->Installationen av Commerce Services Connector är en engångsprocess som krävs för att använda [Adobe Commerce SaaS-tjänster](https://experienceleague.adobe.com/sv/docs/commerce/user-guides/integration-services/saas#availableservices). Om du redan har konfigurerat anslutningen för en annan tjänst kan du visa den befintliga konfigurationen från Commerce Admin genom att välja **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**.
+>Installationen av Commerce Services Connector är en engångsprocess som krävs för att använda [Adobe Commerce SaaS-tjänster](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices). Om du redan har konfigurerat anslutningen för en annan tjänst kan du visa den befintliga konfigurationen från Commerce Admin genom att välja **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**.
 
 Konfigurera Commerce Services Connector från administratören (**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**) om du vill överföra data mellan din Adobe Commerce-instans och de tjänster som aktiverar AEM Assets-integreringen.
 
@@ -147,7 +148,7 @@ Ange följande värden i konfigurationen
 - Namn på dataområde (SaaS-identifierare) för säker molnlagring
 - ID för IMS-organisation där dina Commerce- och AEM Assets-miljöer etableras
 
-Mer information finns i [konfigurationsvideon för Commerce Services Connector](https://experienceleague.adobe.com/sv/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) i dokumentationen för [Commerce Services Connector](https://experienceleague.adobe.com/sv/docs/commerce/user-guides/integration-services/saas#organizationid).
+Mer information finns i [konfigurationsvideon för Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) i dokumentationen för [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid).
 
 När du sparar konfigurationen genererar systemet SaaS-projekt- och databas-ID:n för din miljö. Dessa värden krävs för att aktivera resurssynkronisering mellan Adobe Commerce och AEM Assets.
 
@@ -158,8 +159,8 @@ AEM Assets Integration använder Adobe I/O Events-tjänsten för att skicka anpa
 Innan du konfigurerar Adobe I/O Events bör du kontrollera konfigurationen av RabbitMQ och cron-jobbet för ditt Commerce-projekt:
 
 - Kontrollera att RabbitMQ är aktiverat och lyssnar efter händelser.
-   - [Installationsprogram för RabbitMQ för Adobe Commerce lokalt](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - [RabbitMQ-inställningar för Adobe Commerce i molninfrastruktur](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [Installationsprogram för RabbitMQ för Adobe Commerce lokalt](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [RabbitMQ-inställningar för Adobe Commerce i molninfrastruktur](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - Kontrollera att [cron-jobb är aktiverade](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Kronjobb krävs för kommunikation och arbetsflöden för AEM Assets-integrering.
 
 >[!NOTE]
@@ -219,7 +220,7 @@ Innan du skapar ett fragment baserat på det här exemplet ska du granska värde
 
 - `content`: Det VCL-kodfragment som ska köras, som kontrollerar klientens IP-adress. Om IP-adressen finns i Edge ACL blockeras den från åtkomst med ett `405 Not allowed`-fel för hela webbplatsen. Alla andra IP-adresser för klienter har åtkomst.
 
-Mer information om hur du använder VCL-fragment för att blockera inkommande begäranden finns i [Anpassad VCL för blockeringsbegäranden](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) i _Commerce on Cloud Infrastructure Guide_.
+Mer information om hur du använder VCL-fragment för att blockera inkommande begäranden finns i [Anpassad VCL för blockeringsbegäranden](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) i _Commerce on Cloud Infrastructure Guide_.
 
 >[!ENDSHADEBOX]
 

@@ -1,12 +1,13 @@
 ---
-title: "Installera, uppdatera och ta bort  [!DNL Inventory Management]"
+title: Installera, uppdatera och ta bort [!DNL Inventory Management]
 description: Lär dig hur du hanterar  [!DNL Inventory Management] metapaketet.
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-source-git-commit: d6c81da4b4e0674d6699e9781921ccb2160b9983
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management]-moduler innehåller alla lagerfunktioner och alternativ för handlare med en och flera källor för att hantera produktkvantiteter och lager för försäljningskanaler. Dessa funktioner finns i version 2.4.x av Adobe Commerce och Magento Open Source.
 
-Dessa funktioner och tillägg utvecklades som en del av [lagerprojektet](https://github.com/magento/inventory) via Magento Open Source Community Engineering-programmet.
+De här funktionerna och tilläggen utvecklades som en del av [lagerprojektet](https://github.com/magento/inventory) via Magento Open Source Community Engineering Program.
 
 [!DNL Inventory Management] installeras i version 2.3.x och 2.4.x av Adobe Commerce och Magento Open Source, med alla funktioner aktiverade som standard. Inga ytterligare steg krävs för att aktivera dessa lagerfunktioner. Uppgraderingar från v2.1.x eller 2.2.x kan kräva ytterligare steg. Se [Uppgradera Inventory management](#upgrade-inventory-management).
 
-Installation enligt [Snabbstart av lokal installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=sv-SE){target="_blank"} rekommenderas. Installera med ett metapaket om du vill ta emot alla [!DNL Inventory Management] moduler.
+Installation enligt [Snabbstart av lokal installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"} rekommenderas. Installera med ett metapaket om du vill ta emot alla [!DNL Inventory Management] moduler.
 
 Följande rad i `composer.json`-metapaketet installerar [!DNL Inventory Management]:
 
@@ -83,7 +84,7 @@ Installationsprocessen [!DNL Inventory Management] lägger till alla moduler i f
 
 ## Aktivera [!DNL Inventory Management]-funktioner
 
-Vid installation, uppgradering eller uppdatering är alternativet _[!UICONTROL Manage Stock]_&#x200B;i Admin aktiverat som standard. Det här alternativet aktiverar lagerspårning och lagerhantering, men påverkar inte modulens status. Mer information om hur du inaktiverar moduler finns i nästa avsnitt.
+Vid installation, uppgradering eller uppdatering är alternativet _[!UICONTROL Manage Stock]_i Admin aktiverat som standard. Det här alternativet aktiverar lagerspårning och lagerhantering, men påverkar inte modulens status. Mer information om hur du inaktiverar moduler finns i nästa avsnitt.
 
 Mer information om konfigurationer finns i [Konfigurera Inventory management](configuration.md).
 
@@ -98,7 +99,7 @@ Du kan inaktivera [!DNL Inventory Management] moduler till:
 * Snabba upp uppgraderingsprocessen för handlare som migrerar från 2.0.x, 2.1.x, 2.2.x eller 2.3.x till 2.4.x.
 * Använd anpassade eller externa lagerhanterings- och orderhanteringssystemmoduler.
 
-Gå till sidan [Aktivera eller inaktivera moduler](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=sv-SE) i _installationshandboken_ för mer information om hur du inaktiverar de tillämpliga modulerna.
+Gå till sidan [Aktivera eller inaktivera moduler](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) i _installationshandboken_ för mer information om hur du inaktiverar de tillämpliga modulerna.
 
 När det är klart visas en lista med moduler och värden i `<Magento_installation_directory>/app/etc/config.php`, med början:
 
@@ -240,5 +241,5 @@ Den senaste versionen av ditt metapaket:
 
 Mer information om Commerce uppgraderingar finns i följande handböcker:
 
-* [Commerce Update Guide](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=sv-SE){target="_blank"}
-* [Aktivera eller inaktivera moduler](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=sv-SE){target="_blank"}
+* [Commerce Update Guide](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
+* [Aktivera eller inaktivera moduler](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

@@ -3,9 +3,9 @@ title: Schemalagd import och export
 description: Lär dig hur du hanterar schemalagda dataimport- och exportåtgärder.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Tidsplanerade importer och exporter kan köras dagligen, varje vecka eller varje
 
 ## Schemalagd import/export
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Imports/Exports]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Imports/Exports]**på sidofältet_ Admin _.
 
    ![Schemalagd import/export av data](./assets/data-scheduled-import-export.png){width="700" zoomable="yes"}
 
@@ -33,7 +33,7 @@ Tidsplanerade importer och exporter kan köras dagligen, varje vecka eller varje
    >
    >När du skapar eller uppdaterar en schemalagd import/export ändras systemkonfigurationen. När du har sparat måste du åtgärda det cacheminnet som visas högst upp på Admin-sidan och tömma cacheminnet för att tillämpa det nya eller uppdaterade schemat.
 
-1. Efter varje schemalagt jobb placeras en kopia av filen i katalogen `var/log/import_export` på den lokala Adobe Commerce-servern.
+1. [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Efter varje schemalagt jobb placeras en kopia av filen i katalogen `var/log/import_export` på den lokala Adobe Commerce-servern.
 
    Information om varje åtgärd skrivs inte till loggen. Om ett fel inträffar skickas ett meddelande om det misslyckade import-/exportjobbet med en beskrivning av felet.
 
@@ -48,13 +48,13 @@ Fördelen med schemalagd import är att du automatiskt kan importera en datafil 
 
 Information om varje importåtgärd skrivs inte till en logg, men om ett fel uppstår får du ett e-postmeddelande om att det gick att importera _misslyckades_ med en beskrivning av felet. Resultatet av det senaste schemalagda importjobbet visas i kolumnen Senaste resultat på sidan Schemalagd import/export.
 
-Efter varje importåtgärd placeras en kopia av importfilen i katalogen `var/log/import_export` på den server där Adobe Commerce eller Magento Open Source distribueras. Tidsstämpeln, markören för den importerade enheten (produkter eller kunder) och typen av åtgärd (i det här fallet import) läggs till i importfilens namn.
+[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Efter varje importåtgärd placeras en kopia av importfilen i katalogen `var/log/import_export` på den server där Adobe Commerce eller Magento Open Source distribueras. Tidsstämpeln, markören för den importerade enheten (produkter eller kunder) och typen av åtgärd (i det här fallet import) läggs till i importfilens namn.
 
 Efter varje schemalagt importjobb utförs en indexeringsåtgärd automatiskt. I den vänstra delen återspeglas ändringar i beskrivningarna och annan textinformation efter att de uppdaterade uppgifterna har skickats till databasen, och prisändringarna återspeglas först efter omindexeringsåtgärden.
 
 ### Steg 1: Slutför importinställningarna
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Import/Export]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Import/Export]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Scheduled Import]** i det övre högra hörnet.
 
@@ -83,7 +83,7 @@ Efter varje schemalagt importjobb utförs en indexeringsåtgärd automatiskt. I 
 
      >[!NOTE]
      >
-     >För entitetstyperna _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;och&#x200B;_[!UICONTROL Stock Sources]_ visas följande importbeteenden: `Add/Update`, `Replace` och `Delete`. För entitetstyperna _Kundekonomi_, _Kundens huvudfil_ och _Kunder och adresser_ visas följande importbeteenden: `Add/Update Complex Data`, `Delete Entities` och `Custom Action`.
+     >För entitetstyperna _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_och_[!UICONTROL Stock Sources]_ visas följande importbeteenden: `Add/Update`, `Replace` och `Delete`. För entitetstyperna _Kundekonomi_, _Kundens huvudfil_ och _Kunder och adresser_ visas följande importbeteenden: `Add/Update Complex Data`, `Delete Entities` och `Custom Action`.
 
    - **[!UICONTROL Start Time]** - Ange timma, minut och sekund när importen är schemalagd att börja.
 
@@ -173,8 +173,8 @@ Efter varje schemalagt importjobb utförs en indexeringsåtgärd automatiskt. I 
 
 | Fält | Beskrivning |
 | ----- | ----------- | 
-| [!UICONTROL Server Type] | Du kan importera från en fil på den server där Commerce är distribuerat (välj `Local Server`) eller från fjärr-FTP-servern (välj `Remote FTP`). Om du väljer _[!UICONTROL Remote FTP]_&#x200B;visas ytterligare alternativ för autentiseringsuppgifter och filöverföringsinställningar. Om fjärrlagringsmodulen är aktiverad växlas typen `Local Server` automatiskt till `Remote Storage`. |
-| [!UICONTROL File Directory] | Ange den katalog där importfilen finns. Om servertypen är inställd på _[!UICONTROL Local Server]_&#x200B;anger du sökvägen i förhållande till Commerce installationskatalog. Till exempel: `var/import` eller `import_export/import` för fjärrlagring. |
+| [!UICONTROL Server Type] | Du kan importera från en fil på den server där Commerce är distribuerat (välj `Local Server`) eller från fjärr-FTP-servern (välj `Remote FTP`). Om du väljer _[!UICONTROL Remote FTP]_visas ytterligare alternativ för autentiseringsuppgifter och filöverföringsinställningar. Om fjärrlagringsmodulen är aktiverad växlas typen `Local Server` automatiskt till `Remote Storage`. |
+| [!UICONTROL File Directory] | Ange den katalog där importfilen finns. Om servertypen är inställd på _[!UICONTROL Local Server]_anger du sökvägen i förhållande till Commerce installationskatalog. Till exempel: `var/import` eller `import_export/import` för fjärrlagring. |
 | [!UICONTROL File Name] | Ange namnet på importfilen. |
 | [!UICONTROL Images File Directory] | Ange sökvägen till den katalog där produktbilderna lagras. Ange en relativ sökväg för en lokal server. Till exempel: `var/import` eller `import_export/import` för fjärrlagring. |
 
@@ -203,11 +203,11 @@ Fördelen med att använda schemalagd export är att du kan exportera data flera
 
 Detaljerad information om varje export skrivs inte till en logg, men om ett fel uppstår får du ett e-postmeddelande om att exporten misslyckades, som innehåller felbeskrivningen. Resultatet av det senaste exportjobbet visas i kolumnen Senaste resultat på sidan Schemalagd import/export.
 
-Efter varje export placeras exportfilen på den användardefinierade platsen och en kopia i katalogen `var/log/import_export` på den server där Adobe Commerce eller Magento Open Source distribueras. Tidsstämpeln och markören för den exporterade enheten (produkter eller kunder) och typen av åtgärd (i det här fallet export) läggs till i exportfilens namn.
+[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Efter varje export placeras exportfilen på den användardefinierade platsen och en kopia i katalogen `var/log/import_export` på den server där Adobe Commerce eller Magento Open Source distribueras. Tidsstämpeln och markören för den exporterade enheten (produkter eller kunder) och typen av åtgärd (i det här fallet export) läggs till i exportfilens namn.
 
 ### Steg 1: Slutför exportinställningarna
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Import/Export]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Import/Export]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Scheduled Export]** i det övre högra hörnet och gör följande:
 
@@ -224,7 +224,7 @@ Efter varje export placeras exportfilen på den användardefinierade platsen och
       - `Customer Addresses`
       - `Stock Sources`
 
-     Avsnittet _[!UICONTROL Entity Attributes]_&#x200B;längst ned på sidan uppdateras för att återspegla den valda entitetstypen.
+     Avsnittet _[!UICONTROL Entity Attributes]_längst ned på sidan uppdateras för att återspegla den valda entitetstypen.
 
    - Ange **[!UICONTROL Start Time]** till timmen, minuten och sekunden när exporten är schemalagd att börja.
 
@@ -258,7 +258,7 @@ Efter varje export placeras exportfilen på den användardefinierade platsen och
    - För **[!UICONTROL Local Server]** anger du en relativ sökväg i Commerce-installationen, till exempel `var/export`. Om fjärrlagringsmodulen är konfigurerad använder du `import_export/export`.
    - För **[!UICONTROL Remote FTP server]** anger du den fullständiga URL:en och sökvägen till målmappen på målservern.
 
-1. Om servern _[!UICONTROL Remote FTP]_&#x200B;är markerad anger du autentiseringsuppgifter för anslutningen till servern och väljer ytterligare inställningar:
+1. Om servern _[!UICONTROL Remote FTP]_är markerad anger du autentiseringsuppgifter för anslutningen till servern och väljer ytterligare inställningar:
 
    - Ange fjärr-FTP-värdadress för **[!UICONTROL FTP Host[:Port]]**.
    - För **[!UICONTROL User Name]** anger du det användarnamn som används för att komma åt fjärrservern.
@@ -285,7 +285,7 @@ Efter varje export placeras exportfilen på den användardefinierade platsen och
 
 ### Steg 4: Välj entitetsattribut
 
-1. I avsnittet _[!UICONTROL Entity Attributes]_&#x200B;väljer du de attribut du vill ta med i exportdata.
+1. I avsnittet _[!UICONTROL Entity Attributes]_väljer du de attribut du vill ta med i exportdata.
 
    - Om du vill filtrera exportdata efter attributvärde anger du attributvärdet i kolumnen _[!UICONTROL Filter]_.
    - Om du vill exkludera produkter eller kunder med vissa attributvärden anger du värdena för de attribut som du vill exkludera och markerar kryssrutan i kolumnen Hoppa över.
@@ -319,7 +319,7 @@ Efter varje export placeras exportfilen på den användardefinierade platsen och
 | Fält | Beskrivning |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | Anger exportfilens plats. Alternativ:<br>**Lokal server** - Placerar exportfilen på samma server som Commerce distribueras till. Om fjärrlagringsmodulen är aktiverad växlas `Local Server` till `Remote Storage`.<br>**Fjärr-FTP** - Placerar exportfilen på en fjärrserver. Ytterligare alternativ för autentiseringsuppgifter och filöverföringsinställningar visas. |
-| [!UICONTROL File Directory] | Ange den katalog där exportfilen placeras. Om _[!UICONTROL Server Type]_&#x200B;är inställt på `Local Server` anger du sökvägen i förhållande till installationssökvägen för Commerce. Till exempel `var/export` eller `import_export/export` för fjärrlagring. |
+| [!UICONTROL File Directory] | Ange den katalog där exportfilen placeras. Om _[!UICONTROL Server Type]_är inställt på `Local Server` anger du sökvägen i förhållande till installationssökvägen för Commerce. Till exempel `var/export` eller `import_export/export` för fjärrlagring. |
 
 {style="table-layout:auto"}
 
