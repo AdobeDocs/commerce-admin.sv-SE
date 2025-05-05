@@ -42,4 +42,4 @@ Se till att du konfigurerar ett [kundkonto](../customers/account-dashboard.md) n
 
 ## Exempeldata
 
-Adobe tillhandahåller en exempeldatauppsättning som innehåller en exempelbutik med mer än 250 produkter (cirka 200 av dem är konfigurerbara produkter), kategorier, kampanjprisregler, CMS-sidor, banners osv. Exempeldata använder _Luma_-temat på butiken. [Det är valfritt att installera exempeldata](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html), men det kan vara användbart för att testa och utveckla anpassningar för din e-handelsverksamhet.
+Adobe tillhandahåller en exempeldatauppsättning som innehåller en exempelbutik med mer än 250 produkter (cirka 200 av dem är konfigurerbara produkter), kategorier, kampanjprisregler, CMS-sidor, banners osv. Exempeldata använder _Luma_-temat på butiken. [Det är valfritt att installera exempeldata](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=sv-SE), men det kan vara användbart för att testa och utveckla anpassningar för din e-handelsverksamhet.

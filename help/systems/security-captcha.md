@@ -97,7 +97,7 @@ Kunder kan behöva ange en CAPTCHA varje gång de loggar in på sina konton, ell
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` (se artikeln [säkerhetspatch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _Knowledge Base_)
+      - `Payflow Pro` (se artikeln [säkerhetspatch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=sv-SE) _Knowledge Base_)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce)
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med Adobe Commerce B2B)

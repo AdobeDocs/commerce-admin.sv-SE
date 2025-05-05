@@ -96,6 +96,6 @@ Om du vill ange systemkonfigurationen i din [!DNL Commerce]-administratör anvä
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/se/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

@@ -35,7 +35,7 @@ Varje block består av en lista över produkter som tillhör ett visst alternati
 >
 >![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) **Produktrekommendationer från Adobe Sensei** förenklar processen att definiera produktrelationer genom att använda artificiell intelligens och maskininlärningsalgoritmer för att göra en djupanalys av samlade besöksdata. Dessa data kombineras med er Adobe Commerce-katalog och ger en engagerande, relevant och personaliserad upplevelse för kunderna.
 ><br/>
->Mer information om hur du använder det här Adobe-utvecklade tillägget som ett alternativ till manuellt konfigurerade produktrekommendationer och merförsäljning finns i _[produktrekommendationsguiden](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
+>Mer information om hur du använder det här Adobe-utvecklade tillägget som ett alternativ till manuellt konfigurerade produktrekommendationer och merförsäljning finns i _[produktrekommendationsguiden](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=sv-SE)_.
 
 ## Samhörande produkter
 

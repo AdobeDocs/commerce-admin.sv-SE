@@ -49,5 +49,5 @@ Mer information om modularkitektur, API:er och algoritmanpassning finns i [[!DNL
 
 Om du behöver information eller har frågor som inte ingår i den här handboken använder du följande resurser:
 
-- [Stock-status är felaktig efter lagerinstallation](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
-- [Supportärenden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - Skicka in en biljett för att få ytterligare hjälp.
+- [Stock-status är felaktig efter lagerinstallation](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=sv-SE)
+- [Supportärenden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=sv-SE#submit-ticket) - Skicka in en biljett för att få ytterligare hjälp.

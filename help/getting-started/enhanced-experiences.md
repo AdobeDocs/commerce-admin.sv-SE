@@ -16,7 +16,7 @@ Förutom de standardelement som gör det möjligt för kunderna att handla i er 
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=sv-SE)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -84,7 +84,7 @@ Adobe Commerce och Magento Open Source har en rad verktyg som hjälper er att sk
 
 ## Optimera affärsprocesser och lönsamhet
 
-- **[!DNL Advanced Reporting]** - Få värdefulla insikter i korthet med dynamiska produkt-, order- och kundrapporter som drivs av [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en).
+- **[!DNL Advanced Reporting]** - Få värdefulla insikter i korthet med dynamiska produkt-, order- och kundrapporter som drivs av [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=sv-SE).
 
 - **Instrumentpanelsögonblicksbilder** - Att veta vad som är av intresse på din webbplats är avgörande för att maximera din marknadsföringsbudget. Använd den här [informationen på din instrumentpanel](admin-dashboard.md) för att avgöra vad du ska sälja över- och merförsäljning till lojala kunder, eller vilka produkter som ska säljas.
 

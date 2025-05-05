@@ -33,7 +33,7 @@ Google reCAPTCHA kan implementeras på flera sätt:
 
 >[!IMPORTANT]
 >
->Innan du kan konfigurera Google reCAPTCHA kontrollerar du att filen `PHP.ini` innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [Nödvändiga PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target=&quot;_blank&quot;} i installationshandboken.
+>Innan du kan konfigurera Google reCAPTCHA kontrollerar du att filen `PHP.ini` innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [Nödvändiga PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=sv-SE){:target=&quot;_blank&quot;} i installationshandboken.
 
 ## Steg 1: Generera Google reCAPTCHA-nycklar
 

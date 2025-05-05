@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Använd ett leveransnätverk
 
-Ett leveransnätverk kan användas för att lagra mediefiler. I Adobe Commerce molninfrastruktur ingår snabbt-CDN (se [Snabbt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) i _Commerce on Cloud Infrastructure Guide_). En Commerce-instans som är installerad _lokalt_ innehåller ingen integrering med ett specifikt CDN. Du kan använda valfritt CDN.
+Ett leveransnätverk kan användas för att lagra mediefiler. I Adobe Commerce molninfrastruktur ingår snabbt-CDN (se [Snabbt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=sv-SE) i _Commerce on Cloud Infrastructure Guide_). En Commerce-instans som är installerad _lokalt_ innehåller ingen integrering med ett specifikt CDN. Du kan använda valfritt CDN.
 
 När du har konfigurerat CDN måste du slutföra konfigurationen från administratören. Ändringarna kan göras antingen globalt eller på webbplatsnivå. När ett CDN används för medielagring ändras alla sökvägar till media på Commerce Store-sidor till de CDN-sökvägar som anges i konfigurationen.
 

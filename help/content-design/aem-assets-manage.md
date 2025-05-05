@@ -20,9 +20,9 @@ När du har redigerat en mediefil i AEM Assets skickar du uppdateringarna till C
 
 Mer information finns i följande AEM Assets-dokumentation.
 
-- [Bearbetar digitala resurser](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [Bearbetar digitala resurser](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [Godkänn en resurs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [Godkänn en resurs](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## Lägga till resurser i kategoriinnehåll
 

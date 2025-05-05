@@ -19,7 +19,7 @@ De här versionsinformationen för Commerce Admin Unified Experience-tillägget 
 
 >[!NOTE]
 >
->Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) om du vill ha mer information om status för Admin Unified Experience-tillägget i förhållande till Adobe Commerce.
+>Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=sv-SE) om du vill ha mer information om status för Admin Unified Experience-tillägget i förhållande till Adobe Commerce.
 
 ## 1.0-version
 

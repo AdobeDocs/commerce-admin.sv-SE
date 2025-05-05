@@ -52,5 +52,5 @@ Företag som följer GDPR kan ha ytterligare skyldigheter enligt CCPA. Mer infor
 - Information om dataflödesdiagram och mappning av databasentiteter finns i [Personlig informationsreferens][2]{: target=&quot;_blank&quot;}.
 
 [1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=sv-SE
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf

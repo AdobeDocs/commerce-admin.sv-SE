@@ -33,7 +33,7 @@ Här är några exempel på hur URL:er kan konfigureras för flera butiker:
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Varje butik har en egen sökväg, men delar en domän. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Varje butik har en egen underdomän till den primära domänen. |
 
-Installationer av Adobe Commerce i flera butiker måste konfigureras från Admin och från serverns kommandorad. Adobe Commerce [Konfigurationshandbok](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) innehåller detaljerade anvisningar om hur du konfigurerar servermiljön.
+Installationer av Adobe Commerce i flera butiker måste konfigureras från Admin och från serverns kommandorad. Adobe Commerce [Konfigurationshandbok](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=sv-SE) innehåller detaljerade anvisningar om hur du konfigurerar servermiljön.
 
 ### Steg 1: Välj butiksdomän
 
@@ -105,20 +105,20 @@ Det första steget är att välja hur du vill placera butiken. Ska butikerna del
 
 ### Steg 5: Konfigurera servern
 
-Mer information om hur du konfigurerar servern så att den stöder flera webbplatser finns i [Flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) i _Konfigurationshandboken_.
+Mer information om hur du konfigurerar servern så att den stöder flera webbplatser finns i [Flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=sv-SE) i _Konfigurationshandboken_.
 
 Hjälp om hur du konfigurerar webbservern finns i följande resurser:
 
-- [Konfigurera flera webbplatser med NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [Konfigurera flera webbplatser med Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [Konfigurera flera webbplatser med NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=sv-SE)
+- [Konfigurera flera webbplatser med Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=sv-SE)
 
-Information om Adobe Commerce i molninfrastruktur finns i [Konfigurera flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+Information om Adobe Commerce i molninfrastruktur finns i [Konfigurera flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=sv-SE).
 
 ## Lägg till webbplatser
 
 Flera webbplatser kan konfigureras från en enda Adobe Commerce- eller Magento Open Source-installation med samma domän eller olika domäner. Som standard har butiker under samma webbplats samma IP-adress och domän, samma säkerhetscertifikat och samma utcheckningsprocess. Om du vill att varje butik ska ha en dedikerad utcheckningsprocess i sin egen domän, måste varje butik ha en distinkt IP-adress och ett separat säkerhetscertifikat.
 
-Installationer av flera webbplatser för Adobe Commerce eller Magento Open Source måste konfigureras från Admin och från serverns kommandorad. Commerce [Konfigurationshandbok](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) innehåller detaljerade anvisningar om hur du konfigurerar servermiljön.
+Installationer av flera webbplatser för Adobe Commerce eller Magento Open Source måste konfigureras från Admin och från serverns kommandorad. Commerce [Konfigurationshandbok](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=sv-SE) innehåller detaljerade anvisningar om hur du konfigurerar servermiljön.
 
 ![Omfång - webbplatser](./assets/scope-multisite.svg){width="550"}
 
@@ -152,11 +152,11 @@ Följ instruktionerna för att konfigurera [butikens URL:er](store-urls.md).
 
 ### Steg 3: Konfigurera servern
 
-Mer information om hur du konfigurerar servern så att den stöder flera webbplatser finns i [Flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) i _Konfigurationshandboken_.
+Mer information om hur du konfigurerar servern så att den stöder flera webbplatser finns i [Flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=sv-SE) i _Konfigurationshandboken_.
 
 Hjälp om hur du konfigurerar webbservern finns i följande självstudiekurser:
 
-- [Konfigurera flera webbplatser med NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [Konfigurera flera webbplatser med Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [Konfigurera flera webbplatser med NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=sv-SE)
+- [Konfigurera flera webbplatser med Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=sv-SE)
 
-Information om Adobe Commerce i molninfrastruktur finns i [Konfigurera flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+Information om Adobe Commerce i molninfrastruktur finns i [Konfigurera flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=sv-SE).

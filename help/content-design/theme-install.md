@@ -16,7 +16,7 @@ När du först installerar [!DNL Commerce] baseras butikens designelement på `M
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Kontrollera att du har en giltig uppsättning [[!DNL Commerce] Åtkomstnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) innan du börjar.
+Kontrollera att du har en giltig uppsättning [[!DNL Commerce] Åtkomstnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=sv-SE) innan du börjar.
 
 Om du vill lägga till ett tema i din [!DNL Commerce]-butik följer du instruktionerna på [!DNL Commerce Marketplace]:
 

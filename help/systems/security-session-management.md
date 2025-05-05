@@ -64,7 +64,7 @@ Om du överskrider den maximala sessionsstorleken visas inget fel, men systemet 
 
 Med Adobe Commerce och Magento Open Source kan du validera sessionsvariabler som en skyddsåtgärd mot eventuella sessionsfixeringsattacker eller försök att förgifta eller kapa användarsessioner. Inställningarna för sessionsvalidering avgör hur sessionsvariabler valideras under varje butiksbesök och om sessions-ID inkluderas i butikens URL.
 
-Mer teknisk information finns i [Använd Redis för sessionslagring](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) i _Konfigurationshandboken_.
+Mer teknisk information finns i [Använd Redis för sessionslagring](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=sv-SE) i _Konfigurationshandboken_.
 
 ![Allmän konfiguration - Webbsessionsvalidering](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

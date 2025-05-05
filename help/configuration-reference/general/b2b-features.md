@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Med installation och aktivering av Adobe Commerce B2B kan köpupplevelsen personaliseras med företagsspecifika funktioner. Adobe Commerce B2B är en integrerad lösning som stöder både B2B- och B2C-modeller. Mer information om B2B-funktionerna finns i [_Adobe Commerce B2B-användarhandboken_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Med installation och aktivering av Adobe Commerce B2B kan köpupplevelsen personaliseras med företagsspecifika funktioner. Adobe Commerce B2B är en integrerad lösning som stöder både B2B- och B2C-modeller. Mer information om B2B-funktionerna finns i [_Adobe Commerce B2B-användarhandboken_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=sv-SE).
 
 ## [!UICONTROL B2B Features]
 

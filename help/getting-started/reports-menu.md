@@ -36,7 +36,7 @@ Markeringen av [försäljningsrapporter](sales-reports.md) innehåller rapporter
 
 ### [!UICONTROL System Insights]
 
-(Endast Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) ger systeminsikter för installationer av Adobe Commerce i molninfrastruktur med prestandaövervakning, rapporter och rekommendationer i realtid dygnet runt, alla dagar.
+(Endast Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=sv-SE) ger systeminsikter för installationer av Adobe Commerce i molninfrastruktur med prestandaövervakning, rapporter och rekommendationer i realtid dygnet runt, alla dagar.
 
 ### [!UICONTROL Customers]
 

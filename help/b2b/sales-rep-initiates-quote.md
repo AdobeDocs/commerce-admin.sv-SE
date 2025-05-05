@@ -27,7 +27,7 @@ En säljare kan skapa en offert från offerterna eller kundstödrastret.
 
 >[!NOTE]
 >
->En videodemo av en säljare som skapar en offert för en köpare finns i [Säljare initierar offerten](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) i _Commerce Videos och Tutorials_.
+>En videodemo av en säljare som skapar en offert för en köpare finns i [Säljare initierar offerten](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=sv-SE) i _Commerce Videos och Tutorials_.
 
 ### Skapa en offert från offertstödrastret
 
@@ -79,7 +79,7 @@ När du har skapat offertutkastet lägger du till produktartiklar, lägger till 
 
    >[!NOTE]
    >
-   >En demonstrationsvideo om hur rabatterna på radobjektet fungerar finns i [Säljare tillämpar rabatt på ett offertradobjekt](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) i _Commerce Videos och Tutorials_.
+   >En demonstrationsvideo om hur rabatterna på radobjektet fungerar finns i [Säljare tillämpar rabatt på ett offertradobjekt](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=sv-SE) i _Commerce Videos och Tutorials_.
 
 1. Använd rabatt på offertnivå efter behov:
 

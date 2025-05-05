@@ -58,5 +58,5 @@ ht-degree: 1%
    - [Ökning](shipments.md)
    - [Skapa försändelser](shipments-create.md)
 - [CLI-referens](cli.md)
-- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
 

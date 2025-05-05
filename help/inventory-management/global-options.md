@@ -86,7 +86,7 @@ Konfigurera standardkonfigurationsalternativen för produkter och lager för din
 
      >[!NOTE]
      >
-     >Om du vill konfigurera och ge stöd för _asynkrona köhanterare_ måste du skapa ett kommando via kommandoraden. Det här steget kan kräva utvecklarhjälp. Se [Starta meddelandekökonsumenter](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) i _Konfigurationshandboken_.
+     >Om du vill konfigurera och ge stöd för _asynkrona köhanterare_ måste du skapa ett kommando via kommandoraden. Det här steget kan kräva utvecklarhjälp. Se [Starta meddelandekökonsumenter](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=sv-SE) i _Konfigurationshandboken_.
 
    - Om det är aktiverat anger du **[!UICONTROL Asynchronous batch size]**. Standardbatchstorleken är 100. När massprocesser når den här mängden utlöses den av systemet.
 

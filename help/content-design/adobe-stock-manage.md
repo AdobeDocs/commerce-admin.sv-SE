@@ -118,13 +118,13 @@ Varje bild har information som kan visas. Ytterligare bildspecifika åtgärder, 
 
 ## Logga in på ditt Adobe-konto
 
-Om du vill få fullständig åtkomst till en bild och ta bort Adobe Stock-vattenstämpeln måste du [logga in med ett Adobe-konto](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) och köpa krediter för att licensiera rättigheterna att använda en bild.
+Om du vill få fullständig åtkomst till en bild och ta bort Adobe Stock-vattenstämpeln måste du [logga in med ett Adobe-konto](https://helpx.adobe.com/se/manage-account/using/access-adobe-id-account.html) och köpa krediter för att licensiera rättigheterna att använda en bild.
 
 1. [Öppna Adobe Stock Search-rutnätet](#access-the-adobe-stock-search-grid).
 
 1. Klicka på **[!UICONTROL Sign In]** överst till höger.
 
-   Ett nytt webbläsarfönster guidar dig genom inloggningsprocessen [Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Ett nytt webbläsarfönster guidar dig genom inloggningsprocessen [Adobe](https://helpx.adobe.com/se/manage-account/using/access-adobe-id-account.html).
 
    När du har slutfört inloggningsprocessen visas det licensierade läget för bilder i sökresultaten som en etikett.
 
@@ -178,7 +178,7 @@ Adobe Stock-resurser som du vill använda för din produktion [!DNL Commerce]-bu
 
      >[!NOTE]
      >
-     >Du måste ha [Adobe Stock-krediter](https://helpx.adobe.com/stock/help/credit-packs.html) tillgängliga på ditt konto för att licensiera bilden.
+     >Du måste ha [Adobe Stock-krediter](https://helpx.adobe.com/se/stock/help/credit-packs.html) tillgängliga på ditt konto för att licensiera bilden.
 
    Den här åtgärden visar en uppmaning om att ange ett filnamn som används för att spara bilden i [medielagringen](media-storage.md). Ett standardfilnamn anges, men du kan anpassa namnet efter dina inställningar.
 

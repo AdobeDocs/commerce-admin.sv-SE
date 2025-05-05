@@ -201,7 +201,7 @@ När alternativet är aktiverat har avsnittet _[!UICONTROL Downloadable Informat
 
    >[!NOTE]
    >
-   >Du kan inte använda länkar till externa resurser som hämtningsbara produkter. Giltiga länkdomäner är fördefinierade programmatiskt i filen `env.php` (se [env.php-referens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) i _konfigurationshandboken_).
+   >Du kan inte använda länkar till externa resurser som hämtningsbara produkter. Giltiga länkdomäner är fördefinierade programmatiskt i filen `env.php` (se [env.php-referens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=sv-SE) i _konfigurationshandboken_).
 
    - Ange **[!UICONTROL Shareable]** till något av följande:
 

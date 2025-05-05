@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{config}}
 
-<!-- [Invoice](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [Invoice](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 ## [!UICONTROL Invoice]
 

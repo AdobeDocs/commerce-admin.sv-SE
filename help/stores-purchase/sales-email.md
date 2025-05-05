@@ -35,7 +35,7 @@ Glöm inte att uppdatera mallen [email header](../systems/email-template-custom.
    - `Disable` - Skickar e-post för försäljning när den aktiveras av en händelse.
    - `Enable` - Skickar e-post med förbestämda, regelbundna intervall.
 
-   Adobe Commerce Support rekommenderar att asynkron sändning aktiveras för att förbättra orderplaceringens prestanda. Se [Bästa praxis för konfiguration av beställningsbearbetning](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) i Adobe Commerce Support Knowledge Base.
+   Adobe Commerce Support rekommenderar att asynkron sändning aktiveras för att förbättra orderplaceringens prestanda. Se [Bästa praxis för konfiguration av beställningsbearbetning](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=sv-SE) i Adobe Commerce Support Knowledge Base.
 
 ## Steg 3. Fyll i informationen för varje e-postmeddelande
 

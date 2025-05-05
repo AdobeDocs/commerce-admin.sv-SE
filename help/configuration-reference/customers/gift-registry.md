@@ -22,7 +22,7 @@ Mer information om hur du använder dessa inställningar för att aktivera prese
 
 ![Allmänna alternativ](./assets/gift-registry-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [General Options](https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -35,7 +35,7 @@ Mer information om hur du använder dessa inställningar för att aktivera prese
 
 ![Ägarmeddelande](./assets/gift-registry-owner-notification.png)<!-- zoom -->
 
-<!-- [Owner Notification](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [Owner Notification](https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -48,7 +48,7 @@ Mer information om hur du använder dessa inställningar för att aktivera prese
 
 ![Presentregisterdelning](./assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
 
-<!-- Gift Registry Sharing](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- Gift Registry Sharing](https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -62,7 +62,7 @@ Mer information om hur du använder dessa inställningar för att aktivera prese
 
 ![Presentregisteruppdatering](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
 
-<!-- [Gift Registry Update](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [Gift Registry Update](https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

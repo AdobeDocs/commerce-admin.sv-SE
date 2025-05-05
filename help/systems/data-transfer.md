@@ -19,7 +19,7 @@ Du kan till exempel lägga till nya produkter i lagret, uppdatera produktdata oc
 
 >[!NOTE]
 >
->Adobe Commerce stöder också SaaS-dataexport för överföring av produktdata från Commerce-servern till SaaS-tjänster. SaaS-dataexport är integrerad med Commerce SaaS-tjänster, inklusive [produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) och [katalogtjänst](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview). Mer information finns i [Exportguiden för SaaS-data](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
+>Adobe Commerce stöder också SaaS-dataexport för överföring av produktdata från Commerce-servern till SaaS-tjänster. SaaS-dataexport är integrerad med Commerce SaaS-tjänster, inklusive [produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=sv-SE), [Live Search](https://experienceleague.adobe.com/sv/docs/commerce/live-search/overview) och [katalogtjänst](https://experienceleague.adobe.com/sv/docs/commerce/catalog-service/guide-overview). Mer information finns i [Exportguiden för SaaS-data](https://experienceleague.adobe.com/sv/docs/commerce/saas-data-export/overview).
 
 ## Dataverifiering
 

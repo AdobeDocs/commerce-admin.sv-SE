@@ -34,5 +34,5 @@ Innan du lägger till produkter i katalogen bör du fastställa katalogens grund
 
 Hjälp om felsökning av kategoriproblem finns i följande artiklar i Commerce Support Knowledge Base:
 
-- [Ändringar i kategorier sparas inte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [Huvudmeny (kategorier) visas inte på undersidor med Snabbt aktiverat](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [Ändringar i kategorier sparas inte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=sv-SE)
+- [Huvudmeny (kategorier) visas inte på undersidor med Snabbt aktiverat](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=sv-SE)

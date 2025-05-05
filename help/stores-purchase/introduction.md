@@ -25,7 +25,7 @@ Adobe Commerce och Magento Open Source minskar antalet beställningsfel genom at
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) Med installation och aktivering av Adobe Commerce B2B kan du konfigurera _Snabbbeställning_ för kunder som är kopplade till ett företagskonto. Den här funktionen minskar orderprocessen till flera klick när de vet namnet eller SKU:n på de produkter de vill beställa. Du kan också konfigurera stöd för Negotiable Quotes för dina företagskonton. Mer information om B2B-funktionerna finns i [Adobe Commerce B2B-användarhandboken](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) Med installation och aktivering av Adobe Commerce B2B kan du konfigurera _Snabbbeställning_ för kunder som är kopplade till ett företagskonto. Den här funktionen minskar orderprocessen till flera klick när de vet namnet eller SKU:n på de produkter de vill beställa. Du kan också konfigurera stöd för Negotiable Quotes för dina företagskonton. Mer information om B2B-funktionerna finns i [Adobe Commerce B2B-användarhandboken](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=sv-SE).
 
 ## Shoppingassistans
 

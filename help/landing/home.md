@@ -22,7 +22,7 @@ Informationen i administratörens användarhandbok är utformad för att passa f
 
 Adobe Commerce är en flexibel B2B- och B2C-handelsplattform som gör det möjligt för handlare och varumärken att öka intäkterna genom kundcentrerade digitala handelsupplevelser på både webben och fysiska platser. Det är det ledande valet för medelstora och stora företag eftersom det erbjuder de mest flexibla distributionsmodellerna, från lokalt till hanterat moln med garanterade serviceavtal. Adobe Commerce möjliggör integrering av API:er i första hand och fullt anpassningsbara tillägg, samt den mest omfattande uppsättningen av affärsfunktioner, från marknadsföring till försäljning och leverans. Adobe Commerce bygger på en öppen källkodsbas för att ge flexibilitet och utbyggbarhet precis som ingen annan handelsplattform.
 
-En lista med de avancerade funktionerna som ingår i Adobe Commerce finns i [Commerce-funktioner](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) i _versionsinformationen_.
+En lista med de avancerade funktionerna som ingår i Adobe Commerce finns i [Commerce-funktioner](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=sv-SE) i _versionsinformationen_.
 
 ## Magento Open Source kodbas
 
@@ -35,7 +35,7 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
    <td valign="top" width="60px">
        <img alt="Komma igång" src="./assets/icon-lightbulb.svg" width="40" height="40" /></td>
    <td valign="top">
-   <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html"><strong>Komma igång</strong></a>
+   <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=sv-SE"><strong>Komma igång</strong></a>
     <div>
     <em>Frågorna"varför, var och hur" som de flesta handlare har när de först lär sig Admin, samt resurser och referensinformation. Den här guiden är en språngbräda till mer avancerade ämnen.</em>
     <br> </div>
@@ -44,7 +44,7 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>Adobe Commerce B2B</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=sv-SE"><strong>Adobe Commerce B2B</strong></a>
     <div><em>Den här funktionsuppsättningen är utformad för att uppfylla behoven hos säljare (handlare) vars kunder i första hand är företag - möjligen med komplexa organisationsstrukturer och flera anställda med olika roller och nivåer av köpbehörighet.</em>
     <br></div>
   </td>
@@ -52,7 +52,7 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 <tr>
   <td valign="top">
     <img alt="Kataloghantering" src="./assets/icon-shop.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html"><strong>Kataloghantering</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html?lang=sv-SE"><strong>Kataloghantering</strong></a>
     <div><em>Ett av de viktigaste områdena när det gäller att skapa och hantera din butik är produktkatalogen och kategorierna. Admin innehåller många verktyg för den första konfigurationen av din butik och produktkatalog.</em>
     <br></div>
   </td>
@@ -60,56 +60,56 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 <tr>
     <td valign="top">
        <img alt="Inventory management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html"> <strong>[!DNL Inventory Management]</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html?lang=sv-SE"> <strong>[!DNL Inventory Management]</strong></a>
     <div><em>Funktionerna i [!DNL Inventory Management] gör det möjligt för handlare med en enda butik att få flera lager, butiker, hämtningsplatser, avsändare med mera. Använd de här funktionerna för att behålla kvantiteter för försäljning och hantera leveranser för att slutföra beställningar. </em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Marknadsföring och reklam" src="./assets/icon-labels.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html"> <strong>Marknadsföring och kampanjer</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html?lang=sv-SE"> <strong>Marknadsföring och kampanjer</strong></a>
     <div><em>Skapa riktade kampanjer och möjligheter för kundengagemang som förvandlar kunderna till köpare. Hantera kundrelationerna genom att stödja efterinköpsaktiviteter och erbjuda specialrabatter till återkommande kunder. Lär dig bästa praxis och tekniker som stöder dina SEO-initiativ.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Innehåll och design" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html"> <strong>Innehåll och design</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html?lang=sv-SE"> <strong>Innehåll och design</strong></a>
     <div><em>Ditt innehåll definierar sidorna och elementen som kunderna ser när de öppnar din butik. Definiera grundläggande element för sidorna, till exempel text och bilder, samt mer avancerade element som tillhandahåller interaktivt och dynamiskt innehåll för att förbättra shoppingupplevelsen.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html"> <strong>[!DNL Page Builder]</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=sv-SE"> <strong>[!DNL Page Builder]</strong></a>
     <div><em>[!DNL Page Builder] gör det enkelt att skapa innehållsrika sidor med anpassade layouter. De här funktionerna har utformats för att förbättra kvaliteten och minska tiden och kostnaden för att skapa anpassade sidor.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Kundhantering" src="./assets/icon-demographic.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html"> <strong>Kundhantering</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html?lang=sv-SE"> <strong>Kundhantering</strong></a>
     <div><em>Hantera kundkonton och kundgrupper i Admin när du fortsätter att underhålla och utöka din butik.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Butiks- och inköpsupplevelser" src="./assets/icon-shopping-cart.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html"> <strong>Lagrar och köpupplevelser</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html?lang=sv-SE"> <strong>Lagrar och köpupplevelser</strong></a>
     <div><em>Kundvagnen är placerad i slutet av köpvägen, i skärningspunkten mellan köp och nedläggning. Ställ in inköpspunkten och stödfunktionerna som förvandlar kundvagnsartiklar till slutförda order.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Administratörssystem" src="./assets/icon-globe-grid.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html"> <strong>Administratörssystem</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html?lang=sv-SE"> <strong>Administratörssystem</strong></a>
     <div><em>Admin har flera verktyg för att hantera systemet och optimera dess prestanda. Den här handboken innehåller information om administration av administratörens användarkonto, med tillhörande roller och behörigheter.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Konfigurationsreferens" src="./assets/icon-settings.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html"> <strong>Konfigurationsreferens</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html?lang=sv-SE"> <strong>Konfigurationsreferens</strong></a>
     <div><em>En snabb och praktisk referens som innehåller fältbeskrivningar för alla konfigurationsinställningar i administratören.</em></div>
   </td>
 </tr>
@@ -119,7 +119,7 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 
 >[!TIP]
 >
->Du kan också granska [nyheter i Commerce Services-dokumentationen](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html#what%E2%80%99s-new) och [nyheter i användarhandböckerna](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
+>Du kan också granska [nyheter i Commerce Services-dokumentationen](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=sv-SE#what%E2%80%99s-new) och [nyheter i användarhandböckerna](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=sv-SE#what%E2%80%99s-new).
 
 | Beskrivning | Typ | Datum |
 | ----------- | ---- | ---- |

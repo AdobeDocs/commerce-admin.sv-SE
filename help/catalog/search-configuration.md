@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Konfigurera katalogsökning
 
-Det finns två varianter av katalogsökningskonfigurationen. Den första metoden beskriver de tillgängliga inställningarna när [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) installeras. Den andra metoden beskriver konfigurationsinställningarna för Adobe Commerce med [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}.
+Det finns två varianter av katalogsökningskonfigurationen. Den första metoden beskriver de tillgängliga inställningarna när [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=sv-SE) installeras. Den andra metoden beskriver konfigurationsinställningarna för Adobe Commerce med [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=sv-SE){:target="_blank"}.
 
 >[!NOTE]
 >
->Mer information om projekt för molninfrastruktur finns i ytterligare instruktioner i [_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
+>Mer information om projekt för molninfrastruktur finns i ytterligare instruktioner i [_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
 
 ## Metod 1: Adobe Commerce med [!DNL Live Search]
 
@@ -36,7 +36,7 @@ Det finns två varianter av katalogsökningskonfigurationen. Den första metoden
 
    Standardvärdet är `100`. Om du anger värdet `0` cachelagras alla söktermer och sökresultat när de anges en andra gång.
 
-1. Om du vill ändra det maximala antalet rader som är tillgängliga för returnerade resultat i [storefront-popup-fönstret över](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html) anger du ett annat **[!UICONTROL Autocomplete Limit]**-värde.
+1. Om du vill ändra det maximala antalet rader som är tillgängliga för returnerade resultat i [storefront-popup-fönstret över](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=sv-SE) anger du ett annat **[!UICONTROL Autocomplete Limit]**-värde.
 
    Genom att begränsa antalet rader förbättras sökningens prestanda och storleken på den returnerade listan minskas. Standardvärdet är `8` rader.
 
@@ -44,7 +44,7 @@ Det finns två varianter av katalogsökningskonfigurationen. Den första metoden
 
 >[!IMPORTANT]
 >
->- På grund av meddelandet [!DNL Elasticsearch 7] om att supporten upphör i augusti 2023 rekommenderar vi att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under produktuppgraderingen finns i [Migrera till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) i _uppgraderingshandboken_.
+>- På grund av meddelandet [!DNL Elasticsearch 7] om att supporten upphör i augusti 2023 rekommenderar vi att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under produktuppgraderingen finns i [Migrera till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=sv-SE) i _uppgraderingshandboken_.
 >- I version 2.4.4 och 2.4.3-p2 gäller alla fält med etiketten Elasticsearch även OpenSearch. När stöd för Elasticsearch 8.x introducerades i version 2.4.6 skapades nya etiketter för att skilja mellan Elasticsearch- och OpenSearch-konfigurationer. Konfigurationsalternativen för båda är dock desamma.
 
 ### Steg 1: Konfigurera allmänna sökalternativ

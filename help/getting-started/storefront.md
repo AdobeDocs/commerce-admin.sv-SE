@@ -32,7 +32,7 @@ I och med introduktionen av [!DNL **Commerce Storefront från Edge Delivery Serv
 
 Commerce Storefront från Edge Delivery Services har flera funktioner som är till nytta både för handlare och utvecklare. Med dessa funktioner kan företag skapa engagerande shoppingupplevelser och samtidigt behålla flexibiliteten att anpassa och skala sina butiker efter sina behov.
 
-Mer detaljerad information och vägledning om hur du konfigurerar och optimerar Commerce Storefront finns i [Adobe Commerce Storefront Documentation](https://experienceleague.adobe.com/en/docs/commerce).
+Mer detaljerad information och vägledning om hur du konfigurerar och optimerar Commerce Storefront finns i [Adobe Commerce Storefront Documentation](https://experienceleague.adobe.com/sv/docs/commerce).
 
 >[!BEGINTABS]
 
@@ -81,7 +81,7 @@ Visste du att det är nästan dubbelt så troligt att personer som använder sö
 
 ### [!DNL Live Search]
 
-Med [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) för Adobe Commerce kan din butik erbjuda en snabb, superrelevant och intuitiv sökupplevelse och är tillgänglig för Adobe Commerce utan extra kostnad.
+Med [[!DNL Live Search]](https://experienceleague.adobe.com/sv/docs/commerce/live-search/overview) för Adobe Commerce kan din butik erbjuda en snabb, superrelevant och intuitiv sökupplevelse och är tillgänglig för Adobe Commerce utan extra kostnad.
 
 ![Exempel på Live-sökning - sök medan du skriver](./assets/storefront-search-as-you-type.png){width="700"}
 

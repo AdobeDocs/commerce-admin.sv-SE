@@ -99,7 +99,7 @@ Adobe erbjuder ytterligare tillägg som måste installeras separat med Composer.
 
 [!DNL Adobe Commerce B2B] är ett integrerat tillägg som omvandlar vanliga Commerce-butiker till heltäckande affärs-till-företag-plattformar. Det gör det möjligt för företag att hantera komplexa organisationsstrukturer med flera köpare, anpassade roller och inköpsbehörigheter under enhetliga företagskonton. Viktiga funktioner är bland annat företagsspecifika kataloger och priser, överlåtbara offerter, hantering av inköpsorder, rekvisitionslistor och funktioner för snabb beställning. Lösningen har stöd för både B2B- och B2C-modeller i ett och samma fall, vilket gör den flexibel för olika affärsbehov. Tillägget kräver en separat licens och är sömlöst integrerat med Adobe Commerce kärnfunktioner för att ge en komplett e-handelslösning för B2B.
 
-Kontakta din Adobe-kontorepresentant för att få hjälp med etableringen. Implementeringsinformation och konfigurationssteg finns i [[!DNL B2B for Adobe Commerce] användarhandboken](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Kontakta din Adobe-kontorepresentant för att få hjälp med etableringen. Implementeringsinformation och konfigurationssteg finns i [[!DNL B2B for Adobe Commerce] användarhandboken](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=sv-SE).
 
 ### [!DNL AEM Assets Integration for Commerce]
 
@@ -115,7 +115,7 @@ Kontakta din Adobe-kontorepresentant för att få hjälp med etableringen. Imple
 
 Live Search är en Adobe Commerce-exklusiv funktion som ger en AI-baserad söklösning med sökfunktioner i realtid. Det ger snabba, relevanta resultat med produktminiatyrer samtidigt som kunderna skriver, tillsammans med intelligent ansikteshantering som automatiskt justerar filter baserat på köpbeteende. Lösningen innehåller säljfunktioner för produktförstärkning och -nedladdning, synonymhantering och sökanalys. [!DNL Live Search] ingår utan extra kostnad i Adobe Commerce och ersätter standardsökfunktionen med en mer avancerad SaaS-baserad sökfunktion. Den kräver minimal konfiguration för att komma igång.
 
-Implementeringsinformation och tekniska krav finns i [Live Search-användarhandboken](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+Implementeringsinformation och tekniska krav finns i [Live Search-användarhandboken](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=sv-SE).
 
 ### [!DNL Product Recommendations]
 
@@ -123,7 +123,7 @@ Implementeringsinformation och tekniska krav finns i [Live Search-användarhandb
 
 [!DNL Product Recommendations] är en Adobe Commerce-exklusiv funktion som drivs av Adobe Sensei AI-teknik som ger skräddarsydda produktförslag under kundens hela kundresa. Lösningen analyserar kundernas beteende och produktrelationer i realtid för att automatiskt generera relevanta rekommendationer, vilket kräver att det inte finns några manuella försäljningsregler. Detta AI-drivna tillvägagångssätt hjälper till att öka konverteringsgraden och intäktspotentialen samtidigt som man skapar mer engagerande produktupptäckt för kunderna.
 
-Implementeringsinformation och bästa praxis finns i [[!DNL Product Recommendations] användarhandboken](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html).
+Implementeringsinformation och bästa praxis finns i [[!DNL Product Recommendations] användarhandboken](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=sv-SE).
 
 ### [!DNL Catalog Service]
 
@@ -131,7 +131,7 @@ Implementeringsinformation och bästa praxis finns i [[!DNL Product Recommendati
 
 [!DNL Catalog Service] är en högpresterande lösning för Adobe Commerce och Magento Open Source som ger optimerad åtkomst till katalogdata via GraphQL slutpunkter. Den har en separat synkroniserad databas med produktinformation och relaterad information, och slipper direkt kommunikation för att ge snabbare sidinläsning. Tjänsten är särskilt värdefull för produktinformationssidor, kategorilistor och sökresultatsidor, vilket gör den idealisk för både traditionella och headless-handelsimplementationer.
 
-Instruktioner och teknisk information finns i [[!DNL Catalog Service] användarhandboken](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html).
+Instruktioner och teknisk information finns i [[!DNL Catalog Service] användarhandboken](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=sv-SE).
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ Instruktioner och teknisk information finns i [[!DNL Catalog Service] användarh
 
 [!DNL Payment Services] är en nyckelfärdig betalningslösning för Adobe Commerce- och Magento Open Source-butiker som erbjuder omfattande funktioner för betalningshantering. Tjänsten integrerar en säker betalningstjänstfunktion med inbyggt skydd mot bedrägeri, samtidigt som den erbjuder flera betalningsalternativ, inklusive kredit-/betalkort, PayPal-, Venmo- (US) och PayLater-planer. Den har enhetlig transaktionsrapportering och orderhantering via Commerce Admin-gränssnittet, vilket gör det enkelt för handlarna att spåra betalningar, hantera kassaflöden och stämma av ekonomiska data på ett och samma ställe.
 
-Detaljerade konfigurationssteg och betalningsalternativ finns i [[!DNL Payment Services] användarhandboken](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview).
+Detaljerade konfigurationssteg och betalningsalternativ finns i [[!DNL Payment Services] användarhandboken](https://experienceleague.adobe.com/sv/docs/commerce/payment-services/overview).

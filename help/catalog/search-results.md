@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Den här sidan beskriver standardsökfunktioner som kan skilja sig från [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>Den här sidan beskriver standardsökfunktioner som kan skilja sig från [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=sv-SE).
 
 Listan _Sökresultat_ innehåller alla produkter som matchar sökvillkoren som anges i snabbsökningsrutan eller i formuläret för avancerad sökning. Alla produktlistor i katalogen har i stort sett samma kontroller. Den enda skillnaden är att det ena är resultatet av en sökfråga och den andra skillnaden är resultatet av [navigering](navigation.md).
 
@@ -30,7 +30,7 @@ Med **Elasticsearch**:
 
 >[!IMPORTANT]
 >
->På grund av att supporten för Elasticsearch 7 upphör i augusti 2023 rekommenderar vi att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under produktuppgraderingen finns i [Migrera till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) i _uppgraderingshandboken_.
+>På grund av att supporten för Elasticsearch 7 upphör i augusti 2023 rekommenderar vi att alla Adobe Commerce-kunder migrerar till sökmotorn OpenSearch 2.x. Mer information om hur du migrerar sökmotorn under produktuppgraderingen finns i [Migrera till OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=sv-SE) i _uppgraderingshandboken_.
 
 ## Nyckelordsmappning som utökar sökresultaten
 

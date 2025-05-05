@@ -77,6 +77,6 @@ ht-degree: 0%
    - [Sessionshantering](security-session-management.md)
    - [Identifiering av webbläsarfunktioner](security-browser-capabilities-detection.md)
    - [Rapportering av säkerhetsproblem](security-issue-reporting.md)
-- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
 
 

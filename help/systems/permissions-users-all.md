@@ -19,7 +19,7 @@ Om andra teammedlemmar eller tjänsteleverantörer behöver åtkomst kan du skap
 
 >[!NOTE]
 >
->Adobe Commerce-handlare som har en Adobe ID och vill ha en smidig inloggning på Adobe Commerce- och Adobe Business-produkter kan integrera Commerce-autentisering med Adobe IMS-autentiseringsarbetsflödet. När integreringen har aktiverats för din Commerce Store måste varje Admin-användare använda sina Adobe-inloggningsuppgifter - inte Commerce-inloggningsuppgifter - för att logga in. Se [Integreringsöversikt för Adobe Identity Management-tjänst (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Adobe Commerce-handlare som har en Adobe ID och vill ha en smidig inloggning på Adobe Commerce- och Adobe Business-produkter kan integrera Commerce-autentisering med Adobe IMS-autentiseringsarbetsflödet. När integreringen har aktiverats för din Commerce Store måste varje Admin-användare använda sina Adobe-inloggningsuppgifter - inte Commerce-inloggningsuppgifter - för att logga in. Se [Integreringsöversikt för Adobe Identity Management-tjänst (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=sv-SE).
 
 För användare och roller som är tillfälliga kan du även ange ett förfallodatum för användarkontot.
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!UICONTROL Catalog]-menyn
 
-Menyn [!UICONTROL Catalog] ger enkel åtkomst till verktyg för att skapa produkter, kategorier och lagerhantering samt delade kataloger för anpassade priser i [B2B-butiker](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Menyn [!UICONTROL Catalog] ger enkel åtkomst till verktyg för att skapa produkter, kategorier och lagerhantering samt delade kataloger för anpassade priser i [B2B-butiker](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=sv-SE).
 
 ![Katalogmeny](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
@@ -31,6 +31,6 @@ Skapa [kategoristrukturen](categories.md) som är grunden för butikens navigeri
 
 ## [!UICONTROL Shared Catalogs]
 
-För butiker där Adobe Commerce B2B är installerat och aktiverat ger [delade kataloger](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) dig möjlighet att göra anpassade priser tillgängliga för olika företag.
+För butiker där Adobe Commerce B2B är installerat och aktiverat ger [delade kataloger](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=sv-SE) dig möjlighet att göra anpassade priser tillgängliga för olika företag.
 
 ![Delade katalogprodukter](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

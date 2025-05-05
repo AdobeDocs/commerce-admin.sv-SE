@@ -137,7 +137,7 @@ Om vissa sidor fortfarande hanteras med den osäkra URL:en (`http://`) efter att
 
 ## Använd en anpassad Admin URL
 
-Som en [god säkerhetsrutin](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) rekommenderar Adobe att du använder en unik Admin-URL i stället för _admin_ som standard eller en vanlig term som _backend_. Även om webbplatsen inte skyddas direkt från en bestämd skadad skådespelare kan den minska exponeringen för skript som försöker få obehörig åtkomst.
+Som en [god säkerhetsrutin](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=sv-SE) rekommenderar Adobe att du använder en unik Admin-URL i stället för _admin_ som standard eller en vanlig term som _backend_. Även om webbplatsen inte skyddas direkt från en bestämd skadad skådespelare kan den minska exponeringen för skript som försöker få obehörig åtkomst.
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
 >[!NOTE]
 >
->Som en försiktighetsåtgärd bör du inte ändra Admin URL själv om du inte vet hur du redigerar konfigurationsfiler på servern. För Adobe Commerce-projekt som distribueras i molninfrastruktur ändrar du Admin-URL genom att följa [instruktionerna](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) i *Adobe Commerce on Cloud Infrastructure Guide*.
+>Som en försiktighetsåtgärd bör du inte ändra Admin URL själv om du inte vet hur du redigerar konfigurationsfiler på servern. För Adobe Commerce-projekt som distribueras i molninfrastruktur ändrar du Admin-URL genom att följa [instruktionerna](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=sv-SE#admin-url) i *Adobe Commerce on Cloud Infrastructure Guide*.
 
 ### Metod 1: Ändra från administratör
 
@@ -199,7 +199,7 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
    >[!TIP]
    >
-   >För Adobe Commerce i molninfrastruktur kan du skapa en anpassad administratörssökväg med variabeln `ADMIN_URL` i molngränssnittet. Se avsnittet [Administratörsvariabler](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) i _Commerce on Cloud Infrastructure Guide_.
+   >För Adobe Commerce i molninfrastruktur kan du skapa en anpassad administratörssökväg med variabeln `ADMIN_URL` i molngränssnittet. Se avsnittet [Administratörsvariabler](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=sv-SE) i _Commerce on Cloud Infrastructure Guide_.
 
    - **Standardadministratörssökväg**
 

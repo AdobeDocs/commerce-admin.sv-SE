@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) har en snabb, superrelevant och intuitiv sökupplevelse och är tillgänglig för Adobe Commerce utan extra kostnad. I det här avsnittet beskrivs standardsökfunktionen som kan skilja sig från [!DNL Live Search].
+>[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=sv-SE) har en snabb, superrelevant och intuitiv sökupplevelse och är tillgänglig för Adobe Commerce utan extra kostnad. I det här avsnittet beskrivs standardsökfunktionen som kan skilja sig från [!DNL Live Search].
 
 Forskning visar att personer som använder sökningar är mer benägna att köpa än kunder som bara använder navigering. Enligt vissa undersökningar är sannolikheten att köpa sökningar nästan dubbelt så stor för dem.
 
@@ -32,7 +32,7 @@ I följande avsnitt beskrivs de grundläggande katalogsökfunktionerna. Mer info
 
 >[!NOTE]
 >
->När [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) har installerats och [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover)-widgeten har aktiverats returnerar sökrutan sökresultaten i en popup-ruta.
+>När [[!DNL Live Search]](https://experienceleague.adobe.com/sv/docs/commerce/live-search/overview) har installerats och [[!DNL Storefront Popover]](https://experienceleague.adobe.com/sv/docs/commerce/live-search/live-search-storefront/storefront-popover)-widgeten har aktiverats returnerar sökrutan sökresultaten i en popup-ruta.
 
 Sökrutan i butikens sidhuvud hjälper besökare att hitta produkter i din katalog. Söktexten kan vara det fullständiga eller delvisa produktnamnet eller något annat ord eller fras som beskriver produkten. De söktermer som andra använder för att hitta produkter kan hanteras från administratören.
 
@@ -48,7 +48,7 @@ Sökrutan i butikens sidhuvud hjälper besökare att hitta produkter i din katal
 
 >[!NOTE]
 >
->Den avancerade formulärsökningsfunktionen som beskrivs här gäller inte för [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>Den avancerade formulärsökningsfunktionen som beskrivs här gäller inte för [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=sv-SE).
 
 Med avancerad sökning kan kunderna söka i katalogen baserat på värden som anges i ett formulär. Eftersom formuläret innehåller flera fält kan en sökning innehålla flera parametrar. Resultatet är en lista över alla produkter i katalogen som uppfyller villkoren. En länk till den avancerade sökningen finns i sidfoten på din butik.
 

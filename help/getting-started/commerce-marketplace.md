@@ -77,7 +77,7 @@ Du kan skapa flera åtkomstnycklar för olika syften och aktivera eller inaktive
 
 >[!IMPORTANT]
 >
->Från och med Adobe Commerce och Magento Open Source 2.4.0 tas webbinstallationsguiden bort och du måste använda kommandoraden för att [installera](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) eller [uppgradera](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) din instans. Detta krav omfattar även [moduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) och [tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>Från och med Adobe Commerce och Magento Open Source 2.4.0 tas webbinstallationsguiden bort och du måste använda kommandoraden för att [installera](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=sv-SE) eller [uppgradera](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=sv-SE) din instans. Detta krav omfattar även [moduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=sv-SE) och [tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=sv-SE).
 
 Installationsprocessen för [!DNL Marketplace]-köp skiljer sig åt för _lokala_-installationer av Commerce jämfört med för installationer som finns på [Adobe Cloud-arkitekturen][4].
 

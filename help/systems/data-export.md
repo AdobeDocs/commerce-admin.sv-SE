@@ -80,7 +80,7 @@ Kryssrutan i den första kolumnen används för att exkludera attribut från exp
 
 1. Bläddra nedåt och klicka på **[!UICONTROL Continue]** i det nedre högra hörnet på sidan.
 
-   När uppgiften är slutförd bearbetas filen via en meddelandekö (kontrollera att ditt cron-jobb körs). Den exporterade filen sparas i `var/export/ folder`. Mer information om meddelandekön finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandboken_.
+   När uppgiften är slutförd bearbetas filen via en meddelandekö (kontrollera att ditt cron-jobb körs). Den exporterade filen sparas i `var/export/ folder`. Mer information om meddelandekön finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=sv-SE) i _Konfigurationshandboken_.
 
    Du kan spara eller öppna den exporterade CSV-filen som ett kalkylblad, redigera data och sedan importera dem tillbaka till din butik.
 
@@ -92,4 +92,4 @@ Kryssrutan i den första kolumnen används för att exkludera attribut från exp
 
 Hjälp med felsökning av dataexportproblem finns i följande artiklar i Commerce Support Knowledge Base:
 
-- [CSV-filen för exporterade produkter visas inte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [CSV-filen för exporterade produkter visas inte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=sv-SE)

@@ -46,5 +46,5 @@ ht-degree: 0%
    - [Produkter](products.md)
    - [Produktrekommendationer](recommendations.md)
 - [Mallar](templates.md)
-- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
 

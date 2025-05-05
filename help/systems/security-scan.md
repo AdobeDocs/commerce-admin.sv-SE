@@ -22,7 +22,7 @@ Med den förbättrade säkerhetssökningen kan du övervaka var och en av dina A
 - Få tillgång till historiska säkerhetsrapporter som spårar och övervakar webbplatsernas förlopp.
 - Få åtkomst till den inskannade rapporten som visar lyckade och misslyckade kontroller, med rekommenderade åtgärder.
 
-Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen för ditt [Commerce/Magento ](../getting-started/commerce-account-create.md)-konto. Mer teknisk information finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) i _infrastrukturhandboken för Commerce om molnet_.
+Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen för ditt [Commerce/Magento ](../getting-started/commerce-account-create.md)-konto. Mer teknisk information finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html?lang=sv-SE#set-up-the-security-scan-tool) i _infrastrukturhandboken för Commerce om molnet_.
 
 ![Säkerhetsgenomsökningsverktyget](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 

@@ -26,4 +26,4 @@ CSV-filen har separata kolumner för `downloadable_links` och `downloadable_samp
 
   ![Exempeldata - hämtningsbar produkt med hämtningsbara exempel](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
 
-Mer information om hur du aktiverar och hanterar fjärrlagringsmodulen finns i [Konfigurera fjärrlagring](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) i _konfigurationsguiden_.
+Mer information om hur du aktiverar och hanterar fjärrlagringsmodulen finns i [Konfigurera fjärrlagring](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=sv-SE) i _konfigurationsguiden_.

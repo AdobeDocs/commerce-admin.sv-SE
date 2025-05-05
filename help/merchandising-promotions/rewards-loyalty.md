@@ -187,4 +187,4 @@ Alla åtgärder som är relaterade till belöningspunkter visas i kundens _[!UIC
 
 Hjälp om felsökning av belöningspoängproblem finns i följande artiklar i Commerce Support Knowledge Base:
 
-- [404-fel - belöningspoäng tas bort vid utcheckning av flera leveranser](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
+- [404-fel - belöningspoäng tas bort vid utcheckning av flera leveranser](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=sv-SE)

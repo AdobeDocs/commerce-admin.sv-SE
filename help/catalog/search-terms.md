@@ -124,7 +124,7 @@ Ett sätt att förbättra effekten av [katalogsökning](search-configuration.md)
 
 Adobe Commerce har stöd för två olika synonymhanteringslösningar:
 
-- Funktionen [Synonymer](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) för Live-sökning är tillgänglig för Adobe Commerce-installationer med Live Search installerat.
+- Funktionen [Synonymer](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=sv-SE) för Live-sökning är tillgänglig för Adobe Commerce-installationer med Live Search installerat.
 - Standardfunktionen för söksynonymer (som beskrivs på den här sidan) är tillgänglig direkt för alla Adobe Commerce-installationer.
 
 >[!NOTE]

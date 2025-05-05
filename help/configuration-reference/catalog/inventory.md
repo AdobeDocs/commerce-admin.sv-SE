@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Inventory Management] för Adobe Commerce och Magento Open Source ger dig verktygen för att hantera produktinventeringen. Handlare med en enda butik till flera lager, butiker, upphämtningsplatser, avsändare med mera kan använda dessa funktioner för att behålla kvantiteter för försäljning och hantera leveranser för att slutföra beställningar. Mer information om de här funktionerna och hur du kan använda dem för att hantera Stock på flera platser finns i [_[!DNL Inventory Management] Användarhandbok _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html).
+>[!DNL Inventory Management] för Adobe Commerce och Magento Open Source ger dig verktygen för att hantera produktinventeringen. Handlare med en enda butik till flera lager, butiker, upphämtningsplatser, avsändare med mera kan använda dessa funktioner för att behålla kvantiteter för försäljning och hantera leveranser för att slutföra beställningar. Mer information om de här funktionerna och hur du kan använda dem för att hantera Stock på flera platser finns i [_[!DNL Inventory Management] Användarhandbok _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=sv-SE).
 
 ## [!UICONTROL Stock Options]
 
 ![Alternativ för Stock](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/sv/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 ![ProduktStock-alternativ](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/sv/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | Global | Avgör om du använder fullständig lagerkontroll för att hantera artiklarna i din katalog. Alternativ: <br/>**Ja** - Aktiverar fullständig lagerkontroll för att spåra antalet artiklar som för närvarande finns i lager. <br/>**Nej** - spårar inte antalet artiklar som finns i lager. |
 | [!UICONTROL Backorders] | Global | Avgör hur din butik hanterar restorder. En restorder ändrar inte orderns bearbetningsstatus. Pengarna godkänns eller hämtas direkt när beställningen görs, oavsett om produkten finns i lager eller inte. När produkten blir tillgänglig skickas den. Alternativ: <br/>**Inga restorder** - Tar inte emot restorder när produkten inte finns i lager. <br/>**Tillåt kvantitet under 0** - Accepterar restorder när kvantiteten är under noll. <br/>**Tillåt kvantitet under 0 och Meddela kund** - Accepterar restorder när kvantiteten är under noll, men meddelar kunderna att beställningar fortfarande kan göras. |
-| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Avgör om lageruppdatering ska skjutas upp om restorder tillåts (alternativet _Restorder_ är inställt på något annat än standardvärdet `No backorders`). Det fungerar för en enskild produkt eller en hel webbplats och använder mekanismen _Jobbkö_ för att tillåta att indikatorerna för lagerkvantitet uppdateras asynkront efter att beställningarna har placerats ut. Det här alternativet fungerar även med [asynkron orderplacering](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html#asynchronous-order-placement) i kombination med [Inventory management](../../inventory-management/introduction.md). |
+| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Avgör om lageruppdatering ska skjutas upp om restorder tillåts (alternativet _Restorder_ är inställt på något annat än standardvärdet `No backorders`). Det fungerar för en enskild produkt eller en hel webbplats och använder mekanismen _Jobbkö_ för att tillåta att indikatorerna för lagerkvantitet uppdateras asynkront efter att beställningarna har placerats ut. Det här alternativet fungerar även med [asynkron orderplacering](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html?lang=sv-SE#asynchronous-order-placement) i kombination med [Inventory management](../../inventory-management/introduction.md). |
 | Högsta tillåtna antal i kundvagn | Global | Fastställer det högsta antalet produkter som kan köpas i en enda order. Som standard är den maximala kvantiteten satt till 10 000. |
 | [!UICONTROL Out-of-Stock Threshold] | Global | Bestämmer lagernivån där en produkt anses vara ur lager. Alternativ: <br/>**Positivt belopp** - Med _Restorder_ inaktiverat anger du ett positivt belopp. När Restorder är aktiverade ignoreras det här beloppet. <br/>**Noll** - Om _Restorder_ är aktiverat kan du ange `0` för oändliga restorder. <br/>**Negativt belopp** - Med _Restorder_ aktiverat rekommenderar vi att du anger ett negativt belopp. Beloppet läggs till i den säljbara kvantiteten. Ange till exempel -50 om du vill tillåta order upp till detta belopp. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Global | Bestämmer det minsta beloppet för en artikel som är tillgänglig för inköp enligt kundgrupp. Som standard är den minsta kvantiteten satt till 1. Klicka på **[!UICONTROL Add Minimum Qty]** om du vill ange ett annat värde för en viss kundgrupp. |
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 ![Admin - gruppåtgärder](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/sv/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >
->Om du vill konfigurera och ge stöd för **asynkrona köhanterare** måste du använda kommandoraden. Detta kan kräva hjälp av utvecklare. Se [Starta meddelandekökonsumenter](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) i _Konfigurationshandboken_.
+>Om du vill konfigurera och ge stöd för **asynkrona köhanterare** måste du använda kommandoraden. Detta kan kräva hjälp av utvecklare. Se [Starta meddelandekökonsumenter](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=sv-SE) i _Konfigurationshandboken_.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ![Avståndsproviders för avståndsbaserad SSA](./assets/catalog-inventory-distance-provider.png)<!-- zoom -->
 
-<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/sv/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ![Google Distance Provider](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
-<!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Google Distance Provider](https://experienceleague.adobe.com/sv/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

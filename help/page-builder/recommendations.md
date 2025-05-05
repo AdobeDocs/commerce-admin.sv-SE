@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Lägg till innehåll - produktrekommendationer
 
-Använd innehållstypen _Produktrekommendationer_ för att lägga till en befintlig, aktiv [rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) på [[!DNL Page Builder] scenen](workspace.md#stage) för en CMS-sida, ett-block eller ett dynamiskt block.
+Använd innehållstypen _Produktrekommendationer_ för att lägga till en befintlig, aktiv [rekommendationsenhet](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/admin/create) på [[!DNL Page Builder] scenen](workspace.md#stage) för en CMS-sida, ett-block eller ett dynamiskt block.
 
 >[!NOTE]
 >
->Innehållstypen [!DNL Page Builder] _Produktrekommendationer_ stöds i Adobe Commerce 2.4.4 och senare och finns i [produktrekommendationspaketet version 3.0.x eller senare](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om du vill lägga till [!DNL Page Builder]-stöd för produktrekommendationer [läser du installationsinformationen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Den här innehållstypen är inte tillgänglig för Magento Open Source.**
+>Innehållstypen [!DNL Page Builder] _Produktrekommendationer_ stöds i Adobe Commerce 2.4.4 och senare och finns i [produktrekommendationspaketet version 3.0.x eller senare](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om du vill lägga till [!DNL Page Builder]-stöd för produktrekommendationer [läser du installationsinformationen](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/getting-started/install-configure). **Den här innehållstypen är inte tillgänglig för Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
 ## Lägg till en befintlig rekommendationsenhet
 
-1. Kontrollera att du redan [har skapat en rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) för sidtypen [!DNL Page Builder].
+1. Kontrollera att du redan [har skapat en rekommendationsenhet](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/admin/create) för sidtypen [!DNL Page Builder].
 
 >[!NOTE]
 >

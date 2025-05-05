@@ -25,7 +25,7 @@ Informationen i den här handboken ger en översikt över introduktionsupplevels
 
 ## Krav för [!DNL AR Viewer]
 
-[!DNL AR Viewer] är kompatibel med både [!DNL Magento Open Source] och Adobe Commerce. Mer information om vilka versioner som stöds finns i [Livscykelprincip](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank}.
+[!DNL AR Viewer] är kompatibel med både [!DNL Magento Open Source] och Adobe Commerce. Mer information om vilka versioner som stöds finns i [Livscykelprincip](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=sv-SE){target=_blank}.
 
 Mer information finns i [Installera  [!DNL AR Viewer] tillägget](../catalog/ar-viewer-setup.md).
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Lager som har aktiverat autentisering med Adobe Identity Management Services (IMS) har inbyggt Adobe Commerce- och Magento Open Source tvåfaktorautentisering (2FA) inaktiverat. Administratörsanvändare som är inloggade på sin Adobe Commerce-instans med sina Adobe-inloggningsuppgifter behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [Integrera Adobe Commerce med Adobe IMS - översikt](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Lager som har aktiverat autentisering med Adobe Identity Management Services (IMS) har inbyggt Adobe Commerce- och Magento Open Source tvåfaktorautentisering (2FA) inaktiverat. Administratörsanvändare som är inloggade på sin Adobe Commerce-instans med sina Adobe-inloggningsuppgifter behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [Integrera Adobe Commerce med Adobe IMS - översikt](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=sv-SE).
 
 {{config}}
 

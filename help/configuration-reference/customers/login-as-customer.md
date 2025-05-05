@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Logga in som kund - allmänna alternativ](./assets/login-as-customer.png)<!-- zoom -->
 
-<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
+<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/sv/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
 
 | Alternativ | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |-- | -- | -- |

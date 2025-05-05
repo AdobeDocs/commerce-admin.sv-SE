@@ -187,5 +187,5 @@ Du kan använda sökrutan längst upp till vänster i stödrastret Beställninga
 
 Hjälp om felsökning av orderproblem finns i följande artiklar i Commerce Support Knowledge Base:
 
-- [Visningsfel för beställningar](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
+- [Visningsfel för beställningar](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=sv-SE)
 - [Beställningar visas inte i rutnätet för beställningar i Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

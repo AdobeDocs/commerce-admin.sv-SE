@@ -18,7 +18,7 @@ Precis som de flesta webbplatser och tillämpningar på Internet kräver Adobe C
 - Om webbläsarens sekretessinställningar inte tillåter cookies kan du konfigurera systemet så att de dirigeras om automatiskt till sidan [Aktivera cookies](../content-design/pages.md#enable-cookies) , som förklarar hur du gör de rekommenderade inställningarna i de flesta webbläsare.
 - Om webbläsarens sekretessinställningar inte tillåter JavaScript kan du konfigurera systemet så att följande meddelande visas ovanför sidhuvudet på varje sida.
 
-Mer teknisk information finns i [Webbläsare som stöds](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) i _installationshandboken_.
+Mer teknisk information finns i [Webbläsare som stöds](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=sv-SE#supported-browsers) i _installationshandboken_.
 
 ## Konfigurera identifiering av webbläsarfunktioner
 

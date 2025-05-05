@@ -26,7 +26,7 @@ Använd de avancerade utvecklingsverktygen för att fastställa kompileringsläg
 
 Din Adobe Commerce- eller Magento Open Source-instans kan distribueras för körning i antingen _produktion_ eller _utvecklarläge_. De verktyg och konfigurationsinställningar som är särskilt utformade för utvecklare är bara tillgängliga när butiken körs i _utvecklarläge_.
 
-Åtgärdsläget kan bara ändras från serverns kommandorad av en användare med lämplig behörighet. Mer information finns i [Ange åtgärdsläge](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) i _konfigurationshandboken_.
+Åtgärdsläget kan bara ändras från serverns kommandorad av en användare med lämplig behörighet. Mer information finns i [Ange åtgärdsläge](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=sv-SE) i _konfigurationshandboken_.
 
 De flesta avsnitten i dokumentationen för handlare gäller för en Commerce-instans som körs i produktionsläge. Följande konfigurationsinställningar och verktyg kan dock bara användas när installationen körs i utvecklarläge.
 
@@ -58,7 +58,7 @@ Se [LESS-kompilering på klientsidan jämfört med ](https://developer.adobe.com
 
 Genom att lägga till en digital signatur i URL:en för statiska filer kan webbläsarna identifiera när en nyare version av filen är tillgänglig. Statiska filer som kan spåras med digitala signaturer är JavaScript, CSS, bilder och teckensnitt. Signaturen läggs till i sökvägen direkt efter bas-URL:en. Om en fils signatur skiljer sig från vad som lagras i webbläsarens cache, används den nyare versionen av filen.
 
-Se [Signering av statiskt innehåll](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target=&quot;_blank&quot;} i dokumentationen för Commerce-utvecklare.
+Se [Signering av statiskt innehåll](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=sv-SE){:target=&quot;_blank&quot;} i dokumentationen för Commerce-utvecklare.
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Den tid det tar att läsa in resursfiler kan minskas genom att filer sammanfogas
 
 Som standard sammanfogar, paketerar eller minimerar inte Adobe Commerce och Magento Open Source filer, och projektutvecklaren bör avgöra vilka filoptimeringsmetoder som ska användas.
 
-Mer information finns i [Bästa praxis för prestanda](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html).
+Mer information finns i [Bästa praxis för prestanda](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=sv-SE).
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ Innan du använder ett verktyg som [mallsökvägstips](#template-path-hints) må
 >
 >Begränsningar för utvecklarklient kan endast anges i [utvecklarläge](../systems/developer-tools.md#operation-modes).
 
-Mer teknisk information finns i [Anpassad VCL för att tillåta begäranden](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) i _Commerce on Cloud Infrastructure Guide_.
+Mer teknisk information finns i [Anpassad VCL för att tillåta begäranden](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=sv-SE) i _Commerce on Cloud Infrastructure Guide_.
 
 **_Så här lägger du till din IP-adress till tillåtelselista:_**
 

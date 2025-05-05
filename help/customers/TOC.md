@@ -55,5 +55,5 @@ ht-degree: 1%
    + [Skapa och ta bort kundsegment](customer-segment-create.md)
    + [Kundsegment i prisregler](customer-segment-price-rule.md)
    + [Kundsegmentrapport](customer-segment-reports.md)
-+ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
 

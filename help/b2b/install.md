@@ -4,7 +4,7 @@ description: Lär dig hur du installerar  [!DNL Adobe Commerce B2B] metapaketet.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
 source-wordcount: '1149'
@@ -39,16 +39,16 @@ Adobe Commerce B2B-tillägget `magento/extension-b2b` är tillgängligt för all
 
 **Förutsättningar**
 
-- Åtkomst till [repo.magento.com](https://repo.magento.com/) för att hämta tillägget. Om du vill ha nyckelgenerering och de nödvändiga rättigheterna kan du läsa [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+- Åtkomst till [repo.magento.com](https://repo.magento.com/) för att hämta tillägget. Om du vill ha nyckelgenerering och de nödvändiga rättigheterna kan du läsa [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/sv/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
   Spara autentiseringsnycklar för installation genom att definiera dem globalt i katalogen [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) . Du kan också spara dem i en [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) -fil i Adobe Commerce programrotkatalog.
 
-- [Version av B2B-tillägget som stöds](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) - Fastställ den senaste versionen av B2B-tillägget som stöds i den distribuerade Adobe Commerce-versionen.
+- [Version av B2B-tillägget som stöds](https://experienceleague.adobe.com/sv/docs/commerce-operations/release/product-availability) - Fastställ den senaste versionen av B2B-tillägget som stöds i den distribuerade Adobe Commerce-versionen.
 
 - I versionsinformationen finns den senaste informationen om versionskompatibilitet, uppdateringar eller ändringar som kan påverka installations- eller uppgraderingskrav.
 
    - [Versionsinformation för B2B](release-notes.md)
-   - [Versionsinformation för Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions)
+   - [Versionsinformation för Adobe Commerce](https://experienceleague.adobe.com/sv/docs/commerce-operations/release/versions)
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +62,7 @@ Installera B2B-tillägget (`magento/b2b-extension`) med Composer. Tillägget är
 >
 >När du installerar Adobe Commerce B2B i molninfrastrukturen rekommenderar Adobe att du distribuerar Adobe Commerce-programmet till en integrerings- eller mellanlagringsmiljö innan du börjar.
 
-Adobe rekommenderar att du arbetar i en utvecklingsgren när du lägger till B2B-tillägget i ditt projekt. Om du inte har någon gren läser du [Skapa en gren för utveckling](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches). När du installerar B2B-tillägget infogas `Magento_B2b`-tilläggets namn automatiskt i filen `app/etc/config.php`. Du behöver inte redigera filen direkt.
+Adobe rekommenderar att du arbetar i en utvecklingsgren när du lägger till B2B-tillägget i ditt projekt. Om du inte har någon gren läser du [Skapa en gren för utveckling](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/develop/cli-branches). När du installerar B2B-tillägget infogas `Magento_B2b`-tilläggets namn automatiskt i filen `app/etc/config.php`. Du behöver inte redigera filen direkt.
 
 **Så här installerar du B2B-tillägget**:
 
@@ -98,7 +98,7 @@ Adobe rekommenderar att du arbetar i en utvecklingsgren när du lägger till B2B
 
    >[!NOTE]
    >
-   >När du publicerar uppdateringar till molnmiljön initieras Commerce molndistributionsprocess för att ändringarna ska börja gälla. Kontrollera distributionsstatusen från [distributionsloggen](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process). Om du råkar ut för distributionsfel läser du [Återskapa från komponentfel](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
+   >När du publicerar uppdateringar till molnmiljön initieras Commerce molndistributionsprocess för att ändringarna ska börja gälla. Kontrollera distributionsstatusen från [distributionsloggen](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/develop/deploy/process). Om du råkar ut för distributionsfel läser du [Återskapa från komponentfel](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
 
 1. När bygget och distributionen är klar använder du SSH för att logga in på fjärrmiljön och verifiera att B2B-tillägget är installerat och aktiverat.
 
@@ -130,7 +130,7 @@ Adobe rekommenderar att du arbetar i en utvecklingsgren när du lägger till B2B
 
    Kontrollera att paketet är rättstavat, att det har en version och att paketet är tillgängligt och att det uppfyller kraven på minsta stabilitet (stabil).
 
-1. Ange dina [autentiseringsnycklar](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) om du uppmanas att göra det.
+1. Ange dina [autentiseringsnycklar](https://experienceleague.adobe.com/sv/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) om du uppmanas att göra det.
 
    Din _offentliga nyckel_ är ditt användarnamn. Din _privata nyckel_ är ditt lösenord. Om du har lagrat dina offentliga och privata nycklar i `auth.json` uppmanas du inte att autentisera dig.
 
@@ -173,14 +173,14 @@ Adobe Commerce B2B-tillägget använder MySQL för meddelandeköhantering. I fö
 | `purchaseorder.transactional.email` | Skicka e-post med inköpsorder. Krävs när alternativet [**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) är aktiverat i konfigurationsinställningarna för administratörssystemet. |
 | `purchaseorder.validation` | Validerar inköpsorder mot relevanta [godkännanderegler](account-dashboard-approval-rules.md). Krävs när alternativet [**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) är aktiverat i konfigurationsinställningarna för administratörssystemet. |
 | `quoteItemCleaner` | Tar bort ogiltiga eller inaktiva prisnoteringar när en produkt tas bort från katalogen eller tas bort från kundvagnen. Krävs när alternativet [**[!UICONTROL Quotes]**](quotes.md) är aktiverat i konfigurationsinställningarna för administratörssystemet. |
-| `inventoryQtyCounter` | Asynkront korrigerar aktieindexet efter att en order har placerats eller en produkt har tagits bort. Krävs när alternativet [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) är aktiverat för Inventory management i inställningarna för administratörskonfiguration. Se [Bästa praxis för prestanda](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update). |
+| `inventoryQtyCounter` | Asynkront korrigerar aktieindexet efter att en order har placerats eller en produkt har tagits bort. Krävs när alternativet [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) är aktiverat för Inventory management i inställningarna för administratörskonfiguration. Se [Bästa praxis för prestanda](https://experienceleague.adobe.com/sv/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update). |
 | `async.operations.all` | Skapar meddelanden för varje enskild åtgärd i en [gruppåtgärd](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/), till exempel import eller export av artiklar, ändring av priser på en massskala och tilldelning av produkter till ett lagerställe. Krävs när alternativet [**Admin bulk operations**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) för [!DNL Inventory Management] är inställt på **Kör asynkront** i konfigurationsinställningarna för Admin System. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->En lista över alla Adobe Commerce-meddelandekunder finns i [Meddelandekökonsumenter](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/consumers) i _Konfigurationshandboken_.
+>En lista över alla Adobe Commerce-meddelandekunder finns i [Meddelandekökonsumenter](https://experienceleague.adobe.com/sv/docs/commerce-operations/configuration-guide/message-queues/consumers) i _Konfigurationshandboken_.
 
 ### Konfigurera meddelandeanvändare
 
@@ -190,7 +190,7 @@ Förebygg eventuella bearbetningsproblem eller fördröjningar genom att lägga 
 
 - `--batch-size <value>` - Gör att du kan begränsa systemresurserna som förbrukas av konsumenterna (CPU, minne). Om du använder mindre grupper minskar resursanvändningen och det leder därmed till långsammare bearbetning.  Om det anges används meddelanden i en kö i grupper om `<value>`. Det här alternativet gäller endast för batchkonsumenten. Om `--batch-size` inte har definierats får batchkonsumenten alla tillgängliga meddelanden i en kö.
 
-Mer information om ytterligare konfigurationsalternativ finns i [Specifik konfiguration](https://experienceleague.adobe.com//en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#specific-configuration).
+Mer information om ytterligare konfigurationsalternativ finns i [Specifik konfiguration](https://experienceleague.adobe.com//en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues?lang=sv-SE#specific-configuration).
 
 ### Börjar skicka meddelanden till konsumenter
 
@@ -220,11 +220,11 @@ Om du vill aktivera asynkrona åtgärder för B2B-funktioner måste du starta fl
 >
 >Om du vill köra den i bakgrunden lägger du till `&` i kommandot, återgår till en fråga och fortsätter köra kommandon. Till exempel: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
 
-Mer information finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) i _konfigurationshandboken_.
+Mer information finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/sv/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) i _konfigurationshandboken_.
 
 ### Lägg till meddelandekonsument i cron
 
-Du kan automatisera körningsschemat för `SharedCatalogUpdateCategoryPermissions`- och `SharedCatalogUpdatePrice`-meddelandekonsument genom att lägga till schemat i cron-konfigurationsfilen [/app/code/Magento/MessageQueue/etc/crontab.xml](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#process-management).
+Du kan automatisera körningsschemat för `SharedCatalogUpdateCategoryPermissions`- och `SharedCatalogUpdatePrice`-meddelandekonsument genom att lägga till schemat i cron-konfigurationsfilen [/app/code/Magento/MessageQueue/etc/crontab.xml](https://experienceleague.adobe.com/sv/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#process-management).
 
 ```
 * * * * * ps ax | grep [s]haredCatalogUpdateCategoryPermissions >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdateCategoryPermissions &

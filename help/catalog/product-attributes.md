@@ -47,4 +47,4 @@ Ta bort oanvända produktegenskaper för bättre strukturering och snabbare inde
 
 >[OBS!]
 >
->Information om hur du optimerar produktattributkonfigurationen för prestanda finns i [Bästa praxis för kataloghantering](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) i _Implementeringspellistan_.
+>Information om hur du optimerar produktattributkonfigurationen för prestanda finns i [Bästa praxis för kataloghantering](https://experienceleague.adobe.com/sv/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) i _Implementeringspellistan_.

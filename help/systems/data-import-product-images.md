@@ -110,7 +110,7 @@ Innan du försöker importera många bilder ska du granska stegen i den importme
 
    Om du importerar flera bilder för en enskild `sku` infogar du bilderna i kolumnen `additional_images` (lägg till kolumnen om den inte redan har lagts till), avgränsade med kommatecken: `image02.jpg,image03.jpg`
 
-Mer information om hur du aktiverar och hanterar modulen för fjärrlagring finns i [Konfigurera fjärrlagring](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) i _konfigurationsguiden_.
+Mer information om hur du aktiverar och hanterar modulen för fjärrlagring finns i [Konfigurera fjärrlagring](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=sv-SE) i _konfigurationsguiden_.
 
 >[!NOTE]
 >

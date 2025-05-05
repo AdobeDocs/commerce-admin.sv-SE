@@ -13,7 +13,7 @@ ht-degree: 0%
 # Adobe Experience Cloud Integration för Commerce
 
 <table style="border:1px solid red">
-<tr><td><img alt="Funktionen Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Endast exklusiv funktion i Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Läs mer</a>)</td></tr>
+<tr><td><img alt="Funktionen Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Endast exklusiv funktion i Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=sv-SE#product-editions">Läs mer</a>)</td></tr>
 </table>
 
 Integrera Adobe Commerce-projekt med Experience Cloud genom att aktivera Admin Unified Experience-tillägget. När integreringen är aktiv kan administratörer komma åt Commerce-projekt från Adobe Experience Cloud.
@@ -30,11 +30,11 @@ Administratörer kan öppna Admin och Storefront för varje projekt från arbets
 
 - **Ögonblicksbild av Commerce Store-startsida** - ögonblicksbild av butikens startsida. Om ett projekt har flera webbplatser visar ögonblicksbilden startsidan för standardwebbplatsen.
 
-- **[Projektnamn](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** - Identifierar instansens molnprojektmiljö. Projektnamnet är som standard [Git-grennamnet](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) i molnprojektet. Ändra eller uppdatera projektnamnet i konfigurationsinställningarna för [Unified Experience Store](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin).
+- **[Projektnamn](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html?lang=sv-SE)** - Identifierar instansens molnprojektmiljö. Projektnamnet är som standard [Git-grennamnet](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=sv-SE) i molnprojektet. Ändra eller uppdatera projektnamnet i konfigurationsinställningarna för [Unified Experience Store](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin).
 
 - **[Lagringsplats-URL](../stores-purchase/store-urls.md)** - Visar bas-URL:en för standardwebbplatsen.
 
-- **[Miljötyp](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** - Commerce-instanser som distribueras till en utvecklings- eller staging-miljö identifieras med en [!UICONTROL Development]- eller [!UICONTROL Staging]-etikett. Instanser som inte har någon etikett distribueras till en produktionsmiljö.
+- **[Miljötyp](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html?lang=sv-SE)** - Commerce-instanser som distribueras till en utvecklings- eller staging-miljö identifieras med en [!UICONTROL Development]- eller [!UICONTROL Staging]-etikett. Instanser som inte har någon etikett distribueras till en produktionsmiljö.
 
 - **Commerce Admin-åtkomst** - Öppna administratören genom att klicka på **[!UICONTROL Open]**.
 
@@ -50,7 +50,7 @@ När integreringen av Experience Cloud är aktiverad använder administratörer 
 
    ![Experience Cloud - inloggningssida](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
 
-   Administratörer måste logga in på Experience Cloud med företagsprofilen Adobe för den organisation som är associerad med Commerce-instansen. Se [Hantera Adobe-profiler](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
+   Administratörer måste logga in på Experience Cloud med företagsprofilen Adobe för den organisation som är associerad med Commerce-instansen. Se [Hantera Adobe-profiler](https://helpx.adobe.com/se/enterprise/using/manage-adobe-profiles.html).
 
 1. Öppna [!UICONTROL Commerce Projects workspace] på startsidan för Experience Cloud genom att välja **[!UICONTROL Open]**.
 

@@ -16,7 +16,7 @@ Alla Adobe Commerce- och Magento Open Source-installationer har en [hierarki](..
 
 >[!NOTE]
 >
->Mer information finns i [Flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) i utvecklardokumentationen för [!DNL Commerce].
+>Mer information finns i [Flera webbplatser eller butiker](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=sv-SE) i utvecklardokumentationen för [!DNL Commerce].
 
 ## Webbplatser
 

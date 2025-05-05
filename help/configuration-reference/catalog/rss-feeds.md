@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![RSS-konfiguration](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
-<!-- [Rss Config](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/social-rss) -->
+<!-- [Rss Config](https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/communications/social-rss) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -32,7 +32,7 @@ Mer information om hur du använder RSS-flöden när de har aktiverats finns i [
 
 ![Önsklista](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
-<!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
+<!-- [Wish List](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ Mer information om hur du använder RSS-flöden när de har aktiverats finns i [
 
 ![Katalog](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
-<!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
+<!-- [Catalog](https://experienceleague.adobe.com/sv/docs/commerce-admin/catalog/catalog-menu) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ Mer information om hur du använder RSS-flöden när de har aktiverats finns i [
 
 ![Beställ](./assets/rss-feeds-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
+<!-- [Order](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

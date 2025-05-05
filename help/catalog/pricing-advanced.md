@@ -20,7 +20,7 @@ _[!UICONTROL Advanced Pricing]_-inställningarna definierar villkoren som krävs
 
 Avancerade prisuppgifter synkroniseras med produktsidor. Om du till exempel uppdaterar en nivåpriskvantitet uppdateras värdet på produktsidan.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med [Adobe Commerce B2B](./b2b/../introduction.md)) Om du använder delade kataloger synkroniseras avancerade prisdata med både produktsidor och delade kataloger. Om du till exempel uppdaterar en nivåpriskvantitet uppdateras värdet i den delade katalogen och på produktsidan. Alla anpassade priser som anges i den delade katalogen har prioritet framför kundgruppspriserna. Se även [Ange priser och struktur för delade kataloger](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) i _Adobe Commerce B2B-guiden_.
+![Adobe Commerce B2B](../assets/b2b.svg) (endast tillgängligt med [Adobe Commerce B2B](./b2b/../introduction.md)) Om du använder delade kataloger synkroniseras avancerade prisdata med både produktsidor och delade kataloger. Om du till exempel uppdaterar en nivåpriskvantitet uppdateras värdet i den delade katalogen och på produktsidan. Alla anpassade priser som anges i den delade katalogen har prioritet framför kundgruppspriserna. Se även [Ange priser och struktur för delade kataloger](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=sv-SE) i _Adobe Commerce B2B-guiden_.
 
 ![Avancerade priser](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

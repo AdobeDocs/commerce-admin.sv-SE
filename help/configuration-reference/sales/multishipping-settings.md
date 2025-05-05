@@ -20,7 +20,7 @@ Mer information om hur du konfigurerar dessa inställningar för flera leveranse
 
 ![Alternativ](./assets/multishipping-settings-options.png)<!-- zoom -->
 
-<!-- [Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
+<!-- [Options](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

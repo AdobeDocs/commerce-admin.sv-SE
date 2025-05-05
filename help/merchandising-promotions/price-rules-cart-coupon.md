@@ -62,7 +62,7 @@ Längden på och formatet för automatiskt genererade kupongkoder styrs av konfi
 
 >[!NOTE]
 >
->Innan du skapar kuponger använder du kommandot `bin/magento cron:run` för att verifiera att kron körs. Mer information finns i [Kör cron från kommandoraden](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) i _konfigurationshandboken_.
+>Innan du skapar kuponger använder du kommandot `bin/magento cron:run` för att verifiera att kron körs. Mer information finns i [Kör cron från kommandoraden](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=sv-SE#run-cron-from-the-command-line) i _konfigurationshandboken_.
 
 ### Metod 1: Skapa en specifik kupong
 

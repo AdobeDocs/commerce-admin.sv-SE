@@ -19,7 +19,7 @@ För varje produkt kan du överföra en `.USDZ`-fil som tillåter att AIR- och 3
 
 [!DNL AR Viewer] installeras som ett tillägg från [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank}.
 
-Mer information om installationsprocessen för tillägget finns i [_installationshandboken_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+Mer information om installationsprocessen för tillägget finns i [_installationshandboken_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=sv-SE).
 
 När tillägget [!DNL AR Viewer] har installerats och konfigurerats kan administratörsanvändare konfigurera, anpassa och hantera produktlistor för att inkludera 3D-modeller.
 
@@ -61,4 +61,4 @@ När produktinformationen uppdateras med 3D-modellen:
 
 >[!NOTE]
 >
-> En serie demonstrationsvideor om hur en användare lägger till en 3D-modell till en produkt finns på sidan [AR Viewer for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html) i _Commerce Videos och Tutorials_.
+> En serie demonstrationsvideor om hur en användare lägger till en 3D-modell till en produkt finns på sidan [AR Viewer for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=sv-SE) i _Commerce Videos och Tutorials_.

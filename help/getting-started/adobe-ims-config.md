@@ -27,8 +27,8 @@ Integrationen stöder Commerce handlare med admin-användare som har en Adobe ID
 
 Administratören som konfigurerar den här integreringen behöver följande autentiseringsuppgifter när modulen aktiveras:
 
-* Organisations-ID (hämtas från [Adobe Admin Console](https://adminconsole.adobe.com/)), som måste innehålla minst 24 tecken. Den autentiserade användaren måste tillhöra den här IMS-organisationen. Mer information om hur du hittar ditt företags-ID finns i [Organisationer i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
-* 2FA ska tillämpas på organisationsnivå i Adobe Admin Console för att aktivera modulen. Kontrollera [autentiseringsinställningar](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
+* Organisations-ID (hämtas från [Adobe Admin Console](https://adminconsole.adobe.com/)), som måste innehålla minst 24 tecken. Den autentiserade användaren måste tillhöra den här IMS-organisationen. Mer information om hur du hittar ditt företags-ID finns i [Organisationer i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv-SE).
+* 2FA ska tillämpas på organisationsnivå i Adobe Admin Console för att aktivera modulen. Kontrollera [autentiseringsinställningar](https://helpx.adobe.com/se/enterprise/using/authentication-settings.html#two-step-verification).
 * Klient-ID
 * Klienthemlighet
 * Klient-ID och klienthemlighet är tillgängliga efter hämtning av API-nycklar från [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/).
@@ -75,7 +75,7 @@ Innan du aktiverar integreringen bör du kontrollera att alla Adobe Commerce Adm
 
 >[!TIP]
 >
->Du kan skapa flera användarkonton genom att överföra användarinformationen från en CSV-fil. Se [Hantera flera användare](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+>Du kan skapa flera användarkonton genom att överföra användarinformationen från en CSV-fil. Se [Hantera flera användare](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html).
 
 1. Gå till **[!UICONTROL Users]** > **[!UICONTROL Users]** i [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 

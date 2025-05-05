@@ -16,7 +16,7 @@ Kontrollpanelen för datahantering ger en översikt över synkroniseringsstatuse
 
 ## Målgrupp
 
-Kontrollpanelen för datahantering är tillgänglig utan extra kostnad för alla Commerce-handlare som använder [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview) eller [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) med en aktiv licens.
+Kontrollpanelen för datahantering är tillgänglig utan extra kostnad för alla Commerce-handlare som använder [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/sv/docs/commerce/live-search/guide-overview) eller [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/sv/docs/commerce/catalog-service/guide-overview) med en aktiv licens.
 
 Kontrollpanelen för datahantering finns på *System* > Dataöverföring > *Kontrollpanelen för datahantering*.
 
@@ -27,8 +27,8 @@ Kontrollpanelen innehåller följande fält:
 | Fält | Beskrivning |
 |--- |--- |
 | Omfång | Specifik webbplats för synkroniserade data. |
-| [!DNL Product Recommendations] | Visar synkroniseringsstatus, antal synkroniserade produkter och en tabell över de [visningsbara](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synkroniserade produkterna för [!DNL Product Recommendations]. |
-| [!DNL Live Search] | Visar synkroniseringsstatus, antal synkroniserade produkter och en tabell över de [visningsbara](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synkroniserade produkterna för [!DNL Live Search]. |
+| [!DNL Product Recommendations] | Visar synkroniseringsstatus, antal synkroniserade produkter och en tabell över de [visningsbara](https://experienceleague.adobe.com/sv/docs/commerce-admin/config/catalog/inventory#stock-options) synkroniserade produkterna för [!DNL Product Recommendations]. |
+| [!DNL Live Search] | Visar synkroniseringsstatus, antal synkroniserade produkter och en tabell över de [visningsbara](https://experienceleague.adobe.com/sv/docs/commerce-admin/config/catalog/inventory#stock-options) synkroniserade produkterna för [!DNL Live Search]. |
 | [!DNL Catalog Service] | Visar synkroniseringsstatus, antal synkroniserade produkter och en tabell över synkroniserade produkter för [!DNL Catalog Service]. |
 | Inställningar | Öppnar en dialogruta där du kan [synkronisera om katalogdata manuellt](#resync-catalog-data). |
 | Synkroniseringsstatus | Visar antalet produkter som har överförts från Commerce-databasen till någon av SaaS-tjänsterna under de senaste tre timmarna. Om du gör ovanliga uppdateringar av katalogen är det här värdet ofta noll. Om en synkronisering pågår klickar du på **[!UICONTROL Refresh]** för att få ett uppdaterat antal. |
@@ -47,7 +47,7 @@ När antalet bearbetade produkter matchar antalet uppdaterade produkter anger de
 
 >[!NOTE]
 >
->Adobe tillhandahåller också ett kommandoradsgränssnitt och systemloggar som utvecklare och systemintegratörer kan använda för att hantera och spåra synkroniseringsåtgärder och felsöka fel för Commerce SaaS-tjänster. Mer information finns i [Exportguiden för SaaS-data](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
+>Adobe tillhandahåller också ett kommandoradsgränssnitt och systemloggar som utvecklare och systemintegratörer kan använda för att hantera och spåra synkroniseringsåtgärder och felsöka fel för Commerce SaaS-tjänster. Mer information finns i [Exportguiden för SaaS-data](https://experienceleague.adobe.com/sv/docs/commerce/saas-data-export/overview).
 
 ### Lista över synkroniserade produkter
 
@@ -57,7 +57,7 @@ Om du vill visa information om en synkroniserad produkt klickar du på produkten
 
 ### Synkronisera om katalogdata
 
-För att dina Commerce SaaS-tjänster alltid ska vara uppdaterade med den senaste produktinformationen bör du [implementera ett schema](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) för synkronisering av katalogdata.
+För att dina Commerce SaaS-tjänster alltid ska vara uppdaterade med den senaste produktinformationen bör du [implementera ett schema](https://experienceleague.adobe.com/sv/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) för synkronisering av katalogdata.
 
 Även om du [manuellt kan initiera](#manually-resync-catalog) en omsynkronisering av katalogdata från Commerce-databasen till SaaS-tjänster, rekommenderas inte det eftersom det kan öka belastningen på maskinvaruresurserna. Du kan behöva synkronisera om katalogen manuellt i följande scenarier:
 

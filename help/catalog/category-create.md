@@ -116,7 +116,7 @@ Definiera även eventuella associerade nyckelord och attribut, till exempel:
 
 1. Om du vill att kategorisidan ska innehålla avsnittet _`Filter by Attribute`_för lagerstyrd navigering anger du **[!UICONTROL Anchor]**&#x200B;till `Yes`.
 
-1. För alternativen för **[!UICONTROL Available Product Listing Sort By]** väljer du ett eller flera av de tillgängliga värdena som ska vara tillgängliga för kunder för att sortera listan. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidgeten Produktlista](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. För alternativen för **[!UICONTROL Available Product Listing Sort By]** väljer du ett eller flera av de tillgängliga värdena som ska vara tillgängliga för kunder för att sortera listan. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidgeten Produktlista](https://experienceleague.adobe.com/sv/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Som standard inkluderas alla tillgängliga värden. Avmarkera kryssrutan **[!UICONTROL Use All]** om du vill ändra valen. Värdena kan till exempel vara:
 
@@ -124,7 +124,7 @@ Definiera även eventuella associerade nyckelord och attribut, till exempel:
    - `Product Name`
    - `Price`
 
-1. Om du vill ange standardsorteringsordningen för kategorin väljer du värdet **[!UICONTROL Default Product Listing Sort By]**. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidgeten Produktlista](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Om du vill ange standardsorteringsordningen för kategorin väljer du värdet **[!UICONTROL Default Product Listing Sort By]**. Den här inställningen gäller inte för [!DNL Live Search] [Sidwidgeten Produktlista](https://experienceleague.adobe.com/sv/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Så här ändrar du standardinställningen för [prissteg](navigation-layered.md#configure-price-navigation) för navigering i flera lager:
 

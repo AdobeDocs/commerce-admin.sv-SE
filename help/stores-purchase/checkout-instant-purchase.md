@@ -57,7 +57,7 @@ Du kan använda Direktköp med Braintree eller Betalningstjänster för Adobe Co
 Lär dig hur du konfigurerar betalningsmetoden och aktiverar validering för Braintree eller Betalningstjänster:
 
 - [Braintree](braintree.md)
-- [Betalningstjänster - dokumentation](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [Betalningstjänster - dokumentation](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=sv-SE)
 
 ### Steg 3: Aktivera direktköp
 

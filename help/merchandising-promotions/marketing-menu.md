@@ -35,11 +35,11 @@ Privat försäljning och andra katalogevent är ett bra sätt att använda er be
 
 ### [!UICONTROL Channels]
 
-Öka intäkterna genom att öka försäljningen till fler webbutiker med [Amazon Marketplace-integrering](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html). Undermenyn Kanaler visas bara när Amazon Sales Channel har konfigurerats.
+Öka intäkterna genom att öka försäljningen till fler webbutiker med [Amazon Marketplace-integrering](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=sv-SE). Undermenyn Kanaler visas bara när Amazon Sales Channel har konfigurerats.
 
 >[!TIP]
 >
->Channel Manager hjälper handlare att öka försäljningen, nå nya kunder, effektivisera säljverksamheten och spara tid genom att integrera en produktkatalog för Adobe Commerce eller Magento Open Source med Walmart Marketplace. Mer information om installation, introduktion, konfiguration och hantering av Channel Manager finns i [_Channel Manager-handboken_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html).
+>Channel Manager hjälper handlare att öka försäljningen, nå nya kunder, effektivisera säljverksamheten och spara tid genom att integrera en produktkatalog för Adobe Commerce eller Magento Open Source med Walmart Marketplace. Mer information om installation, introduktion, konfiguration och hantering av Channel Manager finns i [_Channel Manager-handboken_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=sv-SE).
 
 ### [!UICONTROL Communications]
 

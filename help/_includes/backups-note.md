@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Inaktiverad funktion:** Säkerhetskopiering är inaktiverat som standard. Om du aktiverar den här funktionen kan det krävas hjälp från utvecklaren. Se följande avsnitt i _Installationshandboken_ om du vill aktivera säkerhetskopiering: [Säkerhetskopiera och återställa filsystemet, mediet och databasen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html).
+>**Inaktiverad funktion:** Säkerhetskopiering är inaktiverat som standard. Om du aktiverar den här funktionen kan det krävas hjälp från utvecklaren. Se följande avsnitt i _Installationshandboken_ om du vill aktivera säkerhetskopiering: [Säkerhetskopiera och återställa filsystemet, mediet och databasen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=sv-SE).
 
 >[!NOTE]
 >

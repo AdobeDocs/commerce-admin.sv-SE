@@ -219,7 +219,7 @@ Du kan ange ett villkor för en kundprisregel baserat på en Real-Time CDP [mål
    | `Name` | Målgruppens namn, till exempel `Orders over $50` |
    | `Description` | Beskrivning av målgruppen, till exempel `People who placed an order over $50 in the last month.`. |
    | `Source` | Anger varifrån målgruppen kom, till exempel `Experience Platform`. |
-   | `Website` | Anger vilken webbplats du har länkat till datastream som innehåller målgrupperna. Du skapar den här länken när du ansluter din Commerce-instans till Experience Platform via tillägget [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
+   | `Website` | Anger vilken webbplats du har länkat till datastream som innehåller målgrupperna. Du skapar den här länken när du ansluter din Commerce-instans till Experience Platform via tillägget [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=sv-SE). |
 
    {style="table-layout:auto"}
 

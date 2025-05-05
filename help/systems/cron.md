@@ -23,14 +23,14 @@ Adobe Commerce och Magento Open Source utför vissa åtgärder enligt schema gen
 
 >[!IMPORTANT]
 >
->Commerce tjänster måste installeras i crontab för att säkerställa att kärnkomponenterna och vissa tillägg från tredje part fungerar som förväntat. Mer information om hur du installerar tjänster på crontab finns i [instruktionerna i _installationshandboken_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html).
+>Commerce tjänster måste installeras i crontab för att säkerställa att kärnkomponenterna och vissa tillägg från tredje part fungerar som förväntat. Mer information om hur du installerar tjänster på crontab finns i [instruktionerna i _installationshandboken_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=sv-SE).
 
 Dessutom kan du konfigurera följande så att de körs enligt ett cron-schema:
 
 - Uppdateringar och omindexering av ordersystemets stödraster
 - Löptid för väntande betalning
 
-Kontrollera att [bas-URL:erna](../stores-purchase/store-urls.md) för arkivet är korrekt inställda så att URL:erna som genereras under kroniåtgärder är korrekta. Information om Adobe Commerce i molninfrastruktur finns i [Konfigurera kundjobben](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) i _Commerce i molninfrastrukturguiden_. Information om lokala inställningar finns i [Konfigurera och kör ikon](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) i _konfigurationshandboken_.
+Kontrollera att [bas-URL:erna](../stores-purchase/store-urls.md) för arkivet är korrekt inställda så att URL:erna som genereras under kroniåtgärder är korrekta. Information om Adobe Commerce i molninfrastruktur finns i [Konfigurera kundjobben](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=sv-SE) i _Commerce i molninfrastrukturguiden_. Information om lokala inställningar finns i [Konfigurera och kör ikon](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=sv-SE) i _konfigurationshandboken_.
 
 ## Konfigurera cron
 

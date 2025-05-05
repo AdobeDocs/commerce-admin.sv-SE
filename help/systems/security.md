@@ -22,11 +22,11 @@ Det finns flera sätt att skydda din butik och upprätthålla din datasäkerhet:
 >
 >Lager som har aktiverat [!DNL Adobe Identity Management Services] (IMS)-autentisering har inbyggda Adobe Commerce och Magento Open Source 2FA inaktiverade. Administratörsanvändare som är inloggade på sin Commerce-instans med sina inloggningsuppgifter för Adobe behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [[!DNL Adobe Identity Management Service] (IMS)-integreringsöversikt](../getting-started/adobe-ims-integration-overview.md).
 
-Besök [Säkerhetscenter](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} för att få de senaste nyheterna om potentiella sårbarheter, registrera dig för säkerhetsmeddelanden från Adobe och få tillgång till Adobe Trust Center.
+Besök [Säkerhetscenter](https://helpx.adobe.com/se/security.html){:target=&quot;_blank&quot;} för att få de senaste nyheterna om potentiella sårbarheter, registrera dig för säkerhetsmeddelanden från Adobe och få tillgång till Adobe Trust Center.
 
 ![Säkerhetscenter](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-Information om bästa säkerhetsmetoder finns i [Skydda din Commerce-webbplats och infrastruktur](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) i _Implementeringspellistan_.
+Information om bästa säkerhetsmetoder finns i [Skydda din Commerce-webbplats och infrastruktur](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=sv-SE) i _Implementeringspellistan_.
 
 ## Åtgärdsplan för säkerhet
 
