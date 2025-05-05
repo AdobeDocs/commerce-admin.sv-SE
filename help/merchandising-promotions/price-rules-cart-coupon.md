@@ -62,7 +62,7 @@ Längden på och formatet för automatiskt genererade kupongkoder styrs av konfi
 
 >[!NOTE]
 >
->[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Använd kommandot `bin/magento cron:run` för att verifiera att kron körs innan du skapar kuponger. Mer information finns i [Kör cron från kommandoraden](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) i _konfigurationshandboken_.
+>[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Använd kommandot `bin/magento cron:run` för att verifiera att kron körs innan du skapar kuponger. Mer information finns i [Kör cron från kommandoraden](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=sv-SE#run-cron-from-the-command-line) i _konfigurationshandboken_.
 
 ### Metod 1: Skapa en specifik kupong
 

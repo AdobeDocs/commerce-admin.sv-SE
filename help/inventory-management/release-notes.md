@@ -20,11 +20,11 @@ I versionsinformationen beskrivs releaser av [!DNL Inventory Management] och hä
 
 [!DNL Inventory Management] är ett specialprojekt för Magento Open Source Community Engineering som är öppet för medverkande. Om du vill delta och bidra läser du [GitHub-projektet](https://github.com/magento/inventory) och [wiki](https://github.com/magento/inventory/wiki) för att komma igång. Om du vill diskutera projektet går du med i [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)-kanalen ([självregistrering](https://opensource.magento.com/slack)).
 
-[Frigör schema](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} för kompatibla och stöds.
+[Frigör schema](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=sv-SE){target="_blank"} för kompatibla och stöds.
 
 ## v1.2.7
 
-Versionsinformation för [!DNL Inventory Management] 1.2.7 finns i versionsinformationen för [core 2.4.7 ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+Versionsinformation för [!DNL Inventory Management] 1.2.7 finns i versionsinformationen för [core 2.4.7 ](https://experienceleague.adobe.com/sv/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -116,7 +116,7 @@ Inventory management 1.2.4 (modulversion: `magento/inventory-metapackage = 1.2.4
 
 ![Korrigerat problem](../assets/fix.svg) Prestandan har förbättrats för kundvagn och utcheckning, t.ex. när produkter läggs till i varukorgen i distributioner med många (ungefär 10 000) lagerkällor. <!--- MC-42570-->
 
-![Korrigerat problem](../assets/fix.svg) [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Kommandot `bin/magento inventory:reservation:list-inconsistencies` hanterar nu order med partiella leveranser korrekt, även om reservationerna missas från databasen och cachen har rensats. Tidigare visades följande fel när det här kommandot kördes med en förrensad cache: `Area code is not set`. <!--- MC-42142-->
+![Korrigerat problem](../assets/fix.svg) [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Kommandot `bin/magento inventory:reservation:list-inconsistencies` hanterar nu order med partiella leveranser korrekt, även om reservationerna missas från databasen och cachen har rensats. Tidigare visades följande fel när det här kommandot kördes med en förrensad cache: `Area code is not set`. <!--- MC-42142-->
 
 
 ![Korrigerat problem](../assets/fix.svg) Inkrementell indexering av underordnade produkter i grupperade produkter medför inte längre att andra grupperade produkter indexeras felaktigt när underordnade produkter delas. <!--- MC-41963-->
@@ -277,7 +277,7 @@ Nya moduler för [!DNL Inventory Management] 1.1.2 Beta omfattar:
 
 [!DNL Inventory Management] 1.1.0 (modulversion: `inventory-composer-metapackage = 1.1.0`) stöds och är kompatibelt med version 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas. [!DNL Inventory Management] 1.1.1 släpps endast som en paketnamnsuppdatering som stöds för version 2.3.1 och är kompatibel med version 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
-![Ett problem har korrigerats](../assets/fix.svg) **Stöd för Elasticsearch för single- och multi-source-lägen har lagts till** - du kan nu konfigurera och använda Elasticsearch med anpassade lager. Se [Konfigurera Elasticsearch-tjänsten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"} för installationsinformation. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![Ett problem har korrigerats](../assets/fix.svg) **Stöd för Elasticsearch för single- och multi-source-lägen har lagts till** - du kan nu konfigurera och använda Elasticsearch med anpassade lager. Se [Konfigurera Elasticsearch-tjänsten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=sv-SE){target="_blank"} för installationsinformation. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![Korrigerat problem](../assets/fix.svg) Åtgärdade prestandaproblem med standardlagret för att drastiskt öka prestanda med flera åtgärder. Förbättringar ökar prestandan för single-source-läge, Överför lager till Source, Storefront Category-sidor och beräkningar för försäljningsantal.
 

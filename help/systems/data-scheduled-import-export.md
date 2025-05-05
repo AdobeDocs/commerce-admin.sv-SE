@@ -33,7 +33,7 @@ Tidsplanerade importer och exporter kan köras dagligen, varje vecka eller varje
    >
    >När du skapar eller uppdaterar en schemalagd import/export ändras systemkonfigurationen. När du har sparat måste du åtgärda det cacheminnet som visas högst upp på Admin-sidan och tömma cacheminnet för att tillämpa det nya eller uppdaterade schemat.
 
-1. [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Efter varje schemalagt jobb placeras en kopia av filen i katalogen `var/log/import_export` på den lokala Adobe Commerce-servern.
+1. [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Efter varje schemalagt jobb placeras en kopia av filen i katalogen `var/log/import_export` på den lokala Adobe Commerce-servern.
 
    Information om varje åtgärd skrivs inte till loggen. Om ett fel inträffar skickas ett meddelande om det misslyckade import-/exportjobbet med en beskrivning av felet.
 
@@ -48,7 +48,7 @@ Fördelen med schemalagd import är att du automatiskt kan importera en datafil 
 
 Information om varje importåtgärd skrivs inte till en logg, men om ett fel uppstår får du ett e-postmeddelande om att det gick att importera _misslyckades_ med en beskrivning av felet. Resultatet av det senaste schemalagda importjobbet visas i kolumnen Senaste resultat på sidan Schemalagd import/export.
 
-[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Efter varje importåtgärd placeras en kopia av importfilen i katalogen `var/log/import_export` på den server där Adobe Commerce eller Magento Open Source distribueras. Tidsstämpeln, markören för den importerade enheten (produkter eller kunder) och typen av åtgärd (i det här fallet import) läggs till i importfilens namn.
+[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Efter varje importåtgärd placeras en kopia av importfilen i katalogen `var/log/import_export` på den server där Adobe Commerce eller Magento Open Source distribueras. Tidsstämpeln, markören för den importerade enheten (produkter eller kunder) och typen av åtgärd (i det här fallet import) läggs till i importfilens namn.
 
 Efter varje schemalagt importjobb utförs en indexeringsåtgärd automatiskt. I den vänstra delen återspeglas ändringar i beskrivningarna och annan textinformation efter att de uppdaterade uppgifterna har skickats till databasen, och prisändringarna återspeglas först efter omindexeringsåtgärden.
 
@@ -203,7 +203,7 @@ Fördelen med att använda schemalagd export är att du kan exportera data flera
 
 Detaljerad information om varje export skrivs inte till en logg, men om ett fel uppstår får du ett e-postmeddelande om att exporten misslyckades, som innehåller felbeskrivningen. Resultatet av det senaste exportjobbet visas i kolumnen Senaste resultat på sidan Schemalagd import/export.
 
-[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Efter varje export placeras exportfilen på den användardefinierade platsen och en kopia i katalogen `var/log/import_export` på den server där Adobe Commerce eller Magento Open Source distribueras. Tidsstämpeln och markören för den exporterade enheten (produkter eller kunder) och typen av åtgärd (i det här fallet export) läggs till i exportfilens namn.
+[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Efter varje export placeras exportfilen på den användardefinierade platsen och en kopia i katalogen `var/log/import_export` på den server där Adobe Commerce eller Magento Open Source distribueras. Tidsstämpeln och markören för den exporterade enheten (produkter eller kunder) och typen av åtgärd (i det här fallet export) läggs till i exportfilens namn.
 
 ### Steg 1: Slutför exportinställningarna
 

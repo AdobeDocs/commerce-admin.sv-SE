@@ -4,7 +4,7 @@ description: Lär dig mer om de kommandon som finns i modulen  [!DNL Inventory M
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '843'

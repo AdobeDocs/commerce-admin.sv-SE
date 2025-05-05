@@ -5,7 +5,7 @@ hide: false
 hidefromtoc: false
 feature: Integration
 exl-id: 451bf2e1-7c38-40be-a7c1-aaf0fe9f486c
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '531'
@@ -75,7 +75,7 @@ Alla Commerce Admin-användare måste ha både ett Admin-konto på Commerce-inst
 
 - **Commerce Admin-konto**—[Hantera Commerce Admin-användare](../systems/permissions-users-all.md) från Admin för Commerce-instansen. Användarkonton för Commerce-administratörer måste tilldelas rollen Admin.
 
-  Systemadministratörer i Commerce-projektet kan använda [SSH för att ansluta till fjärrmiljön](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment) och använda kommandona Commerce CLI `admin:user:create` och `admin:user:unlock` för att lägga till eller låsa upp administratörskonton.
+  Systemadministratörer i Commerce-projektet kan använda [SSH för att ansluta till fjärrmiljön](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=sv-SE#connect-to-a-remote-environment) och använda kommandona Commerce CLI `admin:user:create` och `admin:user:unlock` för att lägga till eller låsa upp administratörskonton.
 
 - **Adobe-användarkonto** - En administratör för den Adobe-organisation som är kopplad till Commerce-instansen måste logga in på Adobe Admin Console och lägga till Adobe ID för varje Commerce-administratör i organisationen. Sedan måste de tilldela produktbehörigheter och behörigheter för att få tillgång till Commerce-programmet. Se [Konfigurera Adobe Commerce-användare i Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
 
@@ -83,4 +83,4 @@ Administratörer som hanterar konfigurationen för Experience Cloud-integrering 
 
 >[!NOTE]
 >
->Ett Adobe ID är ett konto som skapats via Adobe och som krävs för att få tillgång till produkter och tjänster via Experience Cloud. Commerce-administratörer som inte har någon Adobe ID kan [skapa ett kostnadsfritt konto](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) med samma e-postadress som de använder för att logga in på Commerce Admin.
+>Ett Adobe ID är ett konto som skapats via Adobe och som krävs för att få tillgång till produkter och tjänster via Experience Cloud. Commerce-administratörer som inte har någon Adobe ID kan [skapa ett kostnadsfritt konto](https://helpx.adobe.com/se/manage-account/using/create-update-adobe-id.html) med samma e-postadress som de använder för att logga in på Commerce Admin.
