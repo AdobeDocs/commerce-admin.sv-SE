@@ -70,7 +70,7 @@ Den här överföringstypen kräver att du först skapar en associerad Adobe ID 
 
 1. Klicka på **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447663/?learn=on&captions=swe)
 
 ## E-poständring
 
