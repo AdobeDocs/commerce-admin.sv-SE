@@ -28,7 +28,7 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 
 ## Konfigurera [!DNL Page Builder]
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 
@@ -60,7 +60,7 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 
 ## Konfigurera standardlayouter
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Web]** i den vänstra panelen under _[!UICONTROL General]_.
 
@@ -82,9 +82,9 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 
 >[!NOTE]
 >
->Om du inaktiverar [!DNL Page Builder] ersätts de avancerade innehållsverktygen med WYSIWYG-redigeraren [](../content-design/editor.md), vilket kan orsaka visningsfel i butiken. Innehåll som du tidigare skapat med [!DNL Page Builder] kanske inte kan redigeras från administratören.
+>Om du inaktiverar [!DNL Page Builder] ersätts de avancerade innehållsverktygen med WYSIWYG-redigeraren [&#128279;](../content-design/editor.md), vilket kan orsaka visningsfel i butiken. Innehåll som du tidigare skapat med [!DNL Page Builder] kanske inte kan redigeras från administratören.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 

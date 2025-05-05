@@ -27,7 +27,7 @@ Varje attribut, eller fält, representeras i CSV-filen som en kolumn, och kundpo
 | `created_at` | Datumet då kundkontot skapades. |
 | `created_in` | Butiksvyn där kontot skapades. |
 | `disable_auto_group_change` | Avgör om kundgrupper kan tilldelas dynamiskt under moms-ID-validering. |
-| `dob` | Kundens födelsedatum. <br><br>**_Viktigt!_**I enlighet med aktuella säkerhets- och sekretessrutiner bör du granska lagring och bearbetning av kundernas fullständiga födelsedatum (månad, dag, år). När det samlas in med andra personliga identifierare (till exempel_fullständigt namn _) är det en potentiell juridisk risk och säkerhetsrisk. Vi rekommenderar att man begränsar lagringen av kundernas födelsedatum och istället föreslår att man använder kundens födelseår som ett alternativ. |
+| `dob` | Kundens födelsedatum. <br><br>**_Viktigt!_**&#x200B;I enlighet med aktuella säkerhets- och sekretessrutiner bör du granska lagring och bearbetning av kundernas fullständiga födelsedatum (månad, dag, år). När det samlas in med andra personliga identifierare (till exempel_fullständigt namn _) är det en potentiell juridisk risk och säkerhetsrisk. Vi rekommenderar att man begränsar lagringen av kundernas födelsedatum och istället föreslår att man använder kundens födelseår som ett alternativ. |
 | `firstname` | Kundens förnamn. |
 | `gender` | Kundens kön. |
 | `group_id` | ID för kundgruppen där kunden är tilldelad. |

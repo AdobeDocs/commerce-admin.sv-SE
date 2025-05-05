@@ -66,7 +66,7 @@ Hur presentkort fungerar i butiken:
 
 - Konton för presentkoder skapas för att spåra saldot för en viss verifikation. En butiksadministratör kan justera saldot manuellt.
 
-Den mottagande kunden kan använda avsnittet _[!UICONTROL Gift Card]_på kontouppsättningen för att kontrollera saldot på sitt [presentkortskonto](product-gift-card-accounts.md) och inlösa presentkort för [butikskrediter](../customers/store-credit-using.md).
+Den mottagande kunden kan använda avsnittet _[!UICONTROL Gift Card]_&#x200B;på kontouppsättningen för att kontrollera saldot på sitt [presentkortskonto](product-gift-card-accounts.md) och inlösa presentkort för [butikskrediter](../customers/store-credit-using.md).
 
 ![Presentkort](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Den mottagande kunden kan använda avsnittet _[!UICONTROL Gift Card]_på kontoup
 
 ### Aktivering av presentkort
 
-1. På sidan _[!UICONTROL Gift Card]_anger kunden presentkortskoden.
+1. På sidan _[!UICONTROL Gift Card]_&#x200B;anger kunden presentkortskoden.
 
 1. Kunden klickar på **[!UICONTROL Redeem Gift Card]**.
 

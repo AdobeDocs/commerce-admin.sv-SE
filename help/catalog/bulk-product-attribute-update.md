@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Massuppdateringar för produktattribut
 
-Använd verktyget _[!UICONTROL Update Attributes]_för att ändra ett eller flera attribut i dina produkter. Med det här verktyget kan du göra betydande ändringar i en stor produktgrupp.
+Använd verktyget _[!UICONTROL Update Attributes]_&#x200B;för att ändra ett eller flera attribut i dina produkter. Med det här verktyget kan du göra betydande ändringar i en stor produktgrupp.
 
 1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 

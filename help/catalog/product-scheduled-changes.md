@@ -53,7 +53,7 @@ Tänk på följande när du konfigurerar scheman för produktuppdateringar och r
 
    ![Schemalägg som en ny uppdatering](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. Bläddra ned till _[!UICONTROL Price]_och klicka på&#x200B;**[!UICONTROL Advanced Pricing]**.
+1. Bläddra ned till _[!UICONTROL Price]_&#x200B;och klicka på&#x200B;**[!UICONTROL Advanced Pricing]**.
 
 1. Ange **[!UICONTROL Special Price]** för produkten under den schemalagda kampanjen och klicka på **[!UICONTROL Done]**.
 
@@ -85,7 +85,7 @@ Den schemalagda ändringen visas högst upp på produktsidan med kampanjens star
 
 ## Redigera den schemalagda ändringen
 
-1. Klicka på **[!UICONTROL View/Edit]** i rutan _[!UICONTROL Scheduled Changes]_överst på sidan.
+1. Klicka på **[!UICONTROL View/Edit]** i rutan _[!UICONTROL Scheduled Changes]_&#x200B;överst på sidan.
 
 1. Gör de ändringar som behövs för den schemalagda uppdateringen.
 
@@ -93,7 +93,7 @@ Den schemalagda ändringen visas högst upp på produktsidan med kampanjens star
 
 ## Ta bort den schemalagda ändringen
 
-1. Klicka på **[!UICONTROL View/Edit]** i rutan _[!UICONTROL Scheduled Changes]_överst på sidan.
+1. Klicka på **[!UICONTROL View/Edit]** i rutan _[!UICONTROL Scheduled Changes]_&#x200B;överst på sidan.
 
 1. Klicka på **[!UICONTROL Remove from Update]** i det övre fältet.
 
@@ -107,7 +107,7 @@ Den schemalagda ändringen visas högst upp på produktsidan med kampanjens star
 
 {{ce-feature}}
 
-Avsnittet _[!UICONTROL Schedule Design Update]_ger dig möjlighet att göra tillfälliga ändringar av utseendet på produktsidan. Du kan schemalägga designändringar för en säsong, en befordran eller bara för att göra saker och ting fräscha. Designändringar kan schemaläggas i förväg så att de träder i kraft, eller_ drop _, enligt ditt definierade schema.
+Avsnittet _[!UICONTROL Schedule Design Update]_&#x200B;ger dig möjlighet att göra tillfälliga ändringar av utseendet på produktsidan. Du kan schemalägga designändringar för en säsong, en befordran eller bara för att göra saker och ting fräscha. Designändringar kan schemaläggas i förväg så att de träder i kraft, eller_ drop _, enligt ditt definierade schema.
 
 ![Schemalagd designuppdatering](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

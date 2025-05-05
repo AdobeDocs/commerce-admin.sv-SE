@@ -49,7 +49,7 @@ Kryssrutan i den första kolumnen används för att exkludera attribut från exp
 
 ## Exportera data
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;på sidofältet_ Admin _.
 
 1. I avsnittet _Exportinställningar_ anger du **[!UICONTROL Entity Type]** till något av följande:
 

@@ -41,7 +41,7 @@ Se [LESS-kompilering på klientsidan jämfört med ](https://developer.adobe.com
 
 ![Avancerad konfiguration - utvecklingsarbetsflöde för frontend](../configuration-reference/advanced/assets/developer-frontend-development-workflow.png){width="600" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -70,7 +70,7 @@ En detaljerad lista över konfigurationsinställningarna finns i [_Statiska fili
 
 **_Så här aktiverar du signerade statiska filer:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -106,7 +106,7 @@ Mer information finns i [Bästa praxis för prestanda](https://experienceleague.
 
 **_Så här optimerar du resursfiler:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -144,7 +144,7 @@ Mer teknisk information finns i [Anpassad VCL för att tillåta begäranden](htt
 
 **_Så här lägger du till din IP-adress till tillåtelselista:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -180,7 +180,7 @@ Innan du använder sökvägstips för mallar lägger du till din IP-adress i [ti
 
 ### Steg 2: Aktivera tips för mallsökväg
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -200,7 +200,7 @@ Innan du använder sökvägstips för mallar lägger du till din IP-adress i [ti
 
 ### Steg 3: Rensa cachen
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Flush Magento Cache]** i det övre högra hörnet.
 
@@ -224,7 +224,7 @@ Om din butik finns på flera språk kan du göra finjusteringar i den översatta
 
 ### Steg 1: Inaktivera utdatacache
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _.
 
 1. Markera följande kryssrutor:
 
@@ -236,7 +236,7 @@ Om din butik finns på flera språk kan du göra finjusteringar i den översatta
 
 ### Steg 2: Aktivera verktyget Översätt textbundet
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Om du vill arbeta med en viss butiksvy anger du att **[!UICONTROL Store View]** ska uppdateras.
 
@@ -246,7 +246,7 @@ Om din butik finns på flera språk kan du göra finjusteringar i den översatta
 
    Avmarkera kryssrutan **[!UICONTROL Use Website]** om det behövs för att ändra de här inställningarna.
 
-   Alternativet _[!UICONTROL Enabled for Admin]_är inte tillgängligt när du redigerar en viss butiksvy.
+   Alternativet _[!UICONTROL Enabled for Admin]_&#x200B;är inte tillgängligt när du redigerar en viss butiksvy.
 
    ![Avancerad konfiguration - översätt infogad](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 
@@ -280,7 +280,7 @@ Om din butik finns på flera språk kan du göra finjusteringar i den översatta
 
 1. Återvänd till administratören för din butik.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Ange **[!UICONTROL Store View]** till den specifika vy som redigerades.
 
@@ -292,7 +292,7 @@ Om din butik finns på flera språk kan du göra finjusteringar i den översatta
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _.
 
 1. Markera kryssrutan för följande utdatacache som tidigare var inaktiverade:
 

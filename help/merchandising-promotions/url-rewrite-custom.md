@@ -41,7 +41,7 @@ Omdirigera från:
 
 {{url-rewrite-params}}
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**&#x200B;på sidofältet_ Admin _.
 
 1. Innan du fortsätter gör du följande för att verifiera att sökvägen till begäran är tillgänglig:
 

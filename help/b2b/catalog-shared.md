@@ -20,13 +20,13 @@ För den `Default (General)` offentliga delade katalogen måste du tilldela prod
 
 >[!NOTE]
 >
->**[B2B version 1.3.0](release-notes.md#b2b-v130) och senare** - När du skapar en delad katalog anges varje [kategoribehörighet](../catalog/category-permissions.md) för katalogen till _[!UICONTROL Allow for the Display Product Prices]_och_[!UICONTROL Add to Cart]_ för kundgrupper som tilldelas den här åtkomsten i katalogens behörighetsinställningar. Tidigare var de här inställningarna automatiskt inställda på `Deny` även när katalogbehörigheter var inställda på `Allow`.
+>**[B2B version 1.3.0](release-notes.md#b2b-v130) och senare** - När du skapar en delad katalog anges varje [kategoribehörighet](../catalog/category-permissions.md) för katalogen till _[!UICONTROL Allow for the Display Product Prices]_&#x200B;och&#x200B;_[!UICONTROL Add to Cart]_ för kundgrupper som tilldelas den här åtkomsten i katalogens behörighetsinställningar. Tidigare var de här inställningarna automatiskt inställda på `Deny` även när katalogbehörigheter var inställda på `Allow`.
 
 >[!IMPORTANT]
 >
 >Alla befintliga [gruppbehörighetsinställningar](../configuration-reference/catalog/catalog.md#category-permissions) ignoreras av **_alla_** kategorier i katalogen när funktionen **_[!UICONTROL Shared Catalog]_** är aktiverad. [!UICONTROL Shared Catalog] styr alla kategoribehörigheter i katalogen när den är aktiverad.
 
-Sidan _[!UICONTROL Shared Catalogs]_ger åtkomst till de verktyg som används för att hantera dina delade kataloger. Sidan liknar standardarbetsytan [för administratörer](../getting-started/admin-workspace.md) med filter och åtgärdskontroller. I rutnätet visas alla delade kataloger, inklusive den gemensamma standardkatalogen och eventuella egna kataloger som du har konfigurerat.
+Sidan _[!UICONTROL Shared Catalogs]_&#x200B;ger åtkomst till de verktyg som används för att hantera dina delade kataloger. Sidan liknar standardarbetsytan [för administratörer](../getting-started/admin-workspace.md) med filter och åtgärdskontroller. I rutnätet visas alla delade kataloger, inklusive den gemensamma standardkatalogen och eventuella egna kataloger som du har konfigurerat.
 
 ![Delade kataloger](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
@@ -36,7 +36,7 @@ Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]** på sidofä
 
 ## Åtgärder
 
-[åtgärdskontrollerna](../getting-started/admin-actions-control.md) i det övre vänstra hörnet kan användas med kontrollen för massåtgärder för att ta bort markerade delade kataloger som inte längre behövs. I stödrastret innehåller kolumnen _[!UICONTROL Actions]_det fullständiga urvalet av verktyg för att hantera dina delade kataloger.
+[åtgärdskontrollerna](../getting-started/admin-actions-control.md) i det övre vänstra hörnet kan användas med kontrollen för massåtgärder för att ta bort markerade delade kataloger som inte längre behövs. I stödrastret innehåller kolumnen _[!UICONTROL Actions]_&#x200B;det fullständiga urvalet av verktyg för att hantera dina delade kataloger.
 
 ![Åtgärder för delad katalog](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 

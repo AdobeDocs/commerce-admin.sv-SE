@@ -34,9 +34,9 @@ All återgivning av information som gör det möjligt för identiteten på en pe
 >
 >Luma-exempeldata innehåller ett exempel på sekretesspolicy som du kan ändra för att använda.
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
 
-1. Leta reda på **[!UICONTROL Privacy Policy]** i rutnätet. Klicka sedan på **[!UICONTROL Select]** i kolumnen _[!UICONTROL Action]_och välj **[!UICONTROL Edit]**.
+1. Leta reda på **[!UICONTROL Privacy Policy]** i rutnätet. Klicka sedan på **[!UICONTROL Select]** i kolumnen _[!UICONTROL Action]_&#x200B;och välj **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >

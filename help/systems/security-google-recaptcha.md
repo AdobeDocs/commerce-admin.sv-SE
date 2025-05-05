@@ -72,7 +72,7 @@ Google reCAPTCHA kräver ett par API-nycklar för att kunna aktiveras. Du kan f�
 
 1. Logga in på ditt Admin-konto.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidlisten Admin.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidlisten Admin.
 
 1. I det övre högra hörnet anger du **[!UICONTROL Store View]** till `Default Config`.
 
@@ -82,7 +82,7 @@ Google reCAPTCHA kräver ett par API-nycklar för att kunna aktiveras. Du kan f�
    >
    >Avmarkera kryssrutan **[!UICONTROL Use system value]** för varje fält som du vill konfigurera.
 
-1. Om du vill använda _[!DNL reCAPTCHA v2 ("I am not a robot")]_expanderar du avsnittet **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**och gör följande:
+1. Om du vill använda _[!DNL reCAPTCHA v2 ("I am not a robot")]_&#x200B;expanderar du avsnittet **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;och gör följande:
 
    - För **[!UICONTROL Google API Website Key]** anger du webbplatsnyckeln som skapades för den här reCAPTCHA-typen när du registrerade ditt Google reCAPTCHA-konto.
 
@@ -96,7 +96,7 @@ Google reCAPTCHA kräver ett par API-nycklar för att kunna aktiveras. Du kan f�
 
    ![reCAPTCHA v2 -&quot;Jag är inte en robot&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. Om du vill använda _[!DNL reCAPTCHA v2 Invisible]_expanderar du avsnittet **[!UICONTROL reCAPTCHA v2 Invisible]**och gör följande:
+1. Om du vill använda _[!DNL reCAPTCHA v2 Invisible]_&#x200B;expanderar du avsnittet **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;och gör följande:
 
    - För **[!UICONTROL Google API Website Key]** anger du webbplatsnyckeln som skapades för den här reCAPTCHA-typen när du registrerade ditt Google reCAPTCHA-konto.
 
@@ -110,7 +110,7 @@ Google reCAPTCHA kräver ett par API-nycklar för att kunna aktiveras. Du kan f�
 
    ![reCAPTCHA v2 Osynlig](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. Om du vill använda _[!DNL reCAPTCHA v3 Invisible]_expanderar du avsnittet **[!UICONTROL reCAPTCHA v3 Invisible]**och gör följande:
+1. Om du vill använda _[!DNL reCAPTCHA v3 Invisible]_&#x200B;expanderar du avsnittet **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;och gör följande:
 
    - För **[!UICONTROL Google API Website Key]** anger du webbplatsnyckeln som skapades för den här reCAPTCHA-typen när du registrerade ditt Google reCAPTCHA-konto.
 

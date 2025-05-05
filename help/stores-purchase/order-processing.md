@@ -34,7 +34,7 @@ När en kund gör en beställning skapas en försäljningsorder som en tillfäll
 
 ## Visa en order
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;på sidofältet_ Admin _.
 
 1. Hitta ordningen i rutnätet.
 

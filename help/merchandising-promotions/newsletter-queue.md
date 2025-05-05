@@ -16,7 +16,7 @@ För att hantera inläsningen på servern skickas nyhetsbrev med många prenumer
 
 ## Skicka ett nyhetsbrev
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**på menyn_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**&#x200B;på menyn_ Admin _.
 
 1. I rutnätet söker du efter den [nyhetsbrevmall](newsletter-template.md) som ska skickas och anger **[!UICONTROL Action]**-kolumnen till `Queue Newsletter`.
 
@@ -50,7 +50,7 @@ För att hantera inläsningen på servern skickas nyhetsbrev med många prenumer
 
 ## Kontrollera om det finns problem
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Newsletter Problem Reports]**på menyn_ Admin _.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Newsletter Problem Reports]**&#x200B;på menyn_ Admin _.
 
 ## Knappfält
 

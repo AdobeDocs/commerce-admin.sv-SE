@@ -32,7 +32,7 @@ När du konfigurerar UPS-inställningarna i Admin använder du autentiseringsupp
 
 ## Steg 3: Aktivera UPS för din butik
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Delivery Methods]** under **[!UICONTROL Sales]** på panelen till vänster.
 
@@ -184,7 +184,7 @@ Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i UP
 
 1. Kontrollera att din [Store-information](../getting-started/store-details.md#store-information) är fullständig.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 För varje produkt kan du överföra flera bilder och videoklipp, ändra ordningen på dem och styra hur de används. Om du har ett stort antal bilder att hantera kan du föredra att importera dem som en grupp i stället för att överföra dem separat. Mer information finns i [Importera produktbilder](../systems/data-import-product-images.md).
 
-Om du planerar att överföra stora bilder för visning på sidan _[!UICONTROL Product Details]_kan det vara bra att ange en maximal pixelstorlek (bredd och höjd) och automatiskt ändra storlek på filerna vid överföringen. Det finns ett alternativ för att aktivera automatisk storleksändring av större bildfiler när du överför dem. Mer information finns i [Ändra storlek på produktbilder](product-image-config.md#product-image-resizing).
+Om du planerar att överföra stora bilder för visning på sidan _[!UICONTROL Product Details]_&#x200B;kan det vara bra att ange en maximal pixelstorlek (bredd och höjd) och automatiskt ändra storlek på filerna vid överföringen. Det finns ett alternativ för att aktivera automatisk storleksändring av större bildfiler när du överför dem. Mer information finns i [Ändra storlek på produktbilder](product-image-config.md#product-image-resizing).
 
 ## Uppdatera produktbilderna
 
@@ -44,7 +44,7 @@ Gör något av följande om du vill överföra en bild:
 
 ### Ordna om bilder
 
-Om du vill ändra ordning på bilderna i galleriet klickar du på ikonen _[!UICONTROL Sort]_( ![Sorteringsikonen ](./assets/inventory-icon-sort.png) ) längst ned i bildrutan och drar bilden till en annan plats i rutan_[!UICONTROL Images And Videos]_.
+Om du vill ändra ordning på bilderna i galleriet klickar du på ikonen _[!UICONTROL Sort]_( ![Sorteringsikonen ](./assets/inventory-icon-sort.png) ) längst ned i bildrutan och drar bilden till en annan plats i rutan&#x200B;_[!UICONTROL Images And Videos]_.
 
 ![Ändra ordning](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -72,7 +72,7 @@ Ange en kort beskrivning av bilden i rutan _[!UICONTROL Alt Text]_.
 
 Som standard tilldelas alla roller till den första bilden som överförs till produkten. Så här tilldelar du en roll till en annan bild:
 
-I rutan _[!UICONTROL Role]_väljer du den roll du vill tilldela bilden.
+I rutan _[!UICONTROL Role]_&#x200B;väljer du den roll du vill tilldela bilden.
 
 När du återgår till avsnittet _Bilder och videoklipp_ visas de för närvarande tilldelade rollerna under varje bild.
 
@@ -109,13 +109,13 @@ Den vattenstämpel som används för bilden _small_ i följande exempel är en s
 
 ### Lägga till vattenstämplar i produktbilder
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
    Mer information om designkonfigurationer finns i [Designkonfiguration](../content-design/configuration.md).
 
 1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Under _[!UICONTROL Other Settings]_expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Product Image Watermarks]**.
+1. Under _[!UICONTROL Other Settings]_&#x200B;expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Product Image Watermarks]**.
 
    ![Vattenstämplar för produktbilder - bas](./assets/config-design-product-image-watermarks-base.png){width="600" zoomable="yes"}
 

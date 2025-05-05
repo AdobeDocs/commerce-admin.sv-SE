@@ -62,7 +62,7 @@ Konverteringsspårning visar antalet annonsklickningar som leder till en försä
 
 {{gtag-api-note}}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Om du konfigurerar Google AdWords för en viss butiksvy gör du följande:
 
@@ -125,7 +125,7 @@ Konverteringsspårning visar antalet annonsklickningar som leder till en försä
    - `Dynamic` - Avgör att en konvertering har skett baserat på det dynamiska orderbeloppsvärdet.
    - `Constant` - Avgör att en konvertering har inträffat baserat på ett specifikt värde som angetts.
 
-   För konverteringsvärdetypen _Konstant_ anger du en specifik **[!UICONTROL Value]** för _[!UICONTROL Order Amount]_som ska kvalificeras som en konvertering.
+   För konverteringsvärdetypen _Konstant_ anger du en specifik **[!UICONTROL Value]** för _[!UICONTROL Order Amount]_&#x200B;som ska kvalificeras som en konvertering.
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 

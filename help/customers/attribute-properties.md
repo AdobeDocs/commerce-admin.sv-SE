@@ -20,7 +20,7 @@ Kundattribut tillhandahåller den information som krävs för att stödja bestä
 
 ## Steg 1: Slutför attributegenskaperna
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Customer]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Customer]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Attribute]** i det övre högra hörnet.
 
@@ -36,7 +36,7 @@ Kundattribut tillhandahåller den information som krävs för att stödja bestä
 
    >[!TIP]
    >
-   >**Kortkommando:** Om du bara vill fylla i de obligatoriska fälten rullar du nedåt till _[!UICONTROL Storefront Properties]_, anger_[!UICONTROL Sort Order]_ och sparar.
+   >**Kortkommando:** Om du bara vill fylla i de obligatoriska fälten rullar du nedåt till _[!UICONTROL Storefront Properties]_, anger&#x200B;_[!UICONTROL Sort Order]_ och sparar.
 
 1. Fyll i datainmatningsegenskaperna:
 
@@ -47,7 +47,7 @@ Kundattribut tillhandahåller den information som krävs för att stödja bestä
      | `Text Field` | Ett textfält med en rad. |
      | `Text Area` | Ett inmatningsfält med flera rader för att skriva textstycken, som en produktbeskrivning. Du kan använda WYSIWYG Editor för att formatera texten med HTML-taggar eller ange taggarna direkt i texten. |
      | `Multiple Line` | Skapar flera textrader för attributet, ungefär som en gatuadress med flera rader. Antalet separata datainmatningsrader kan vara mellan två och 20. Använd `Default Value` för att ange fältets startvärde. |
-     | `Date` | Visar ett datumvärde i det önskade datumformatet och tidszonen. Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**Beroende på systemkonfigurationen kan_Admin _-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Visar ett datumvärde i det önskade datumformatet och tidszonen. Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**&#x200B;Beroende på systemkonfigurationen kan_Admin _-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Visar en nedrullningsbar lista med fördefinierade alternativ för `Yes` och `No`. |
      | `Dropdown` | Visar en nedrullningsbar lista med värden som endast accepterar ett val. Indatatypen för listrutan är en nyckelkomponent för [konfigurerbara produkter](../catalog/product-create-configurable.md). |
      | `Multiple Select` | En nedrullningsbar lista där flera värden kan väljas. |
@@ -163,7 +163,7 @@ Kundattribut tillhandahåller den information som krävs för att stödja bestä
 | `lastname` | Kundens efternamn. |
 | `suffix` | Alla suffix som används med kundens namn. (t.ex. Jr, Sr eller Esquire) |
 | `email` | Kundens e-postadress. |
-| `dob` | Kundens födelsedatum.  <br><br>**_Viktigt!_**I enlighet med aktuella säkerhets- och sekretessrutiner ska du vara medveten om eventuella juridiska risker och säkerhetsrisker som är förknippade med lagring av kunders födelsedatum (månad, dag, år) med andra personliga identifierare. Vi rekommenderar att du begränsar lagringen av kundernas födelsedatum och föreslår att du använder kundens födelseår som ett alternativ. |
+| `dob` | Kundens födelsedatum.  <br><br>**_Viktigt!_**&#x200B;I enlighet med aktuella säkerhets- och sekretessrutiner ska du vara medveten om eventuella juridiska risker och säkerhetsrisker som är förknippade med lagring av kunders födelsedatum (månad, dag, år) med andra personliga identifierare. Vi rekommenderar att du begränsar lagringen av kundernas födelsedatum och föreslår att du använder kundens födelseår som ett alternativ. |
 | `taxvat` | Det momsregistreringsnummer (VAT) som tilldelats kunden. Standardetiketten för det här attributet är `VAT Number`. Fältet för momsregistreringsnummer finns alltid i alla kundadresser för leverans och fakturering när det visas från administratören, men är inte ett obligatoriskt fält. |
 | `gender` | Kundens kön. |
 

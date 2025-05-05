@@ -27,7 +27,7 @@ Fält som är relaterade till startdatum och slutdatum har tagits bort från Ado
 
 Alla schemalagda uppdateringar tillämpas i följd, vilket innebär att alla enheter bara kan ha en schemalagd uppdatering åt gången. Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha en annan schemalagd uppdatering för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
 
-När en ny schemalagd uppdatering skapas för något av följande objekt skapas en motsvarande kampanj som platshållare och rutan _[!UICONTROL Scheduled Changes]_visas längst upp på sidan. Platshållarkampanjen har ett startdatum, men inte ett slutdatum. Du kan schemalägga uppdateringar av innehållet som en del av en kampanj och sedan förhandsgranska och dela ändringarna per datum, tid eller butiksvy. När en ny kampanj har skapats för ett objekt kan du tilldela den som en schemalagd uppdatering för andra objekt.
+När en ny schemalagd uppdatering skapas för något av följande objekt skapas en motsvarande kampanj som platshållare och rutan _[!UICONTROL Scheduled Changes]_&#x200B;visas längst upp på sidan. Platshållarkampanjen har ett startdatum, men inte ett slutdatum. Du kan schemalägga uppdateringar av innehållet som en del av en kampanj och sedan förhandsgranska och dela ändringarna per datum, tid eller butiksvy. När en ny kampanj har skapats för ett objekt kan du tilldela den som en schemalagd uppdatering för andra objekt.
 
 - [Produkter](../catalog/product-scheduled-changes.md)
 - [Kategorier](../catalog/category-scheduled-changes.md)
@@ -40,7 +40,7 @@ När en ny schemalagd uppdatering skapas för något av följande objekt skapas 
 
 1. **Skapa baslinjeinnehållet**
 
-   Baslinjen är innehållet i en resurs utan kampanj och innehåller allt under avsnittet _[!UICONTROL Scheduled Changes]_överst på sidan. Baslinjeinnehållet används alltid, såvida det inte finns en aktiv kampanj med ändringar schemalagda för den platsen på tidslinjen.
+   Baslinjen är innehållet i en resurs utan kampanj och innehåller allt under avsnittet _[!UICONTROL Scheduled Changes]_&#x200B;överst på sidan. Baslinjeinnehållet används alltid, såvida det inte finns en aktiv kampanj med ändringar schemalagda för den platsen på tidslinjen.
 
 1. **Skapa den första kampanjen**
 

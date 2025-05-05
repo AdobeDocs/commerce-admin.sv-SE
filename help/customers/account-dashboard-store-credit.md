@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Sidan _[!UICONTROL Store Credit]_på kundkontonamnet visar belopp från returer och återbetalningar som kan tillämpas på framtida inköp. Kunderna kan också lösa in värdet från ett presentkort.
+Sidan _[!UICONTROL Store Credit]_&#x200B;på kundkontonamnet visar belopp från returer och återbetalningar som kan tillämpas på framtida inköp. Kunderna kan också lösa in värdet från ett presentkort.
 
 ![Kundbutikskredit](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 

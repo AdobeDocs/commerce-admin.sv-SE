@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktinställningar - [!UICONTROL Product in Websites]
 
-Avsnittet _[!UICONTROL Product in Websites]_identifierar varje webbplats där produkten är tillgänglig, enligt [butikshierarkin](../stores-purchase/stores.md).
+Avsnittet _[!UICONTROL Product in Websites]_&#x200B;identifierar varje webbplats där produkten är tillgänglig, enligt [butikshierarkin](../stores-purchase/stores.md).
 
 ![Omfattningsdiagram för produktwebbplats](./assets/scope-product-website.svg){width="550"}
 

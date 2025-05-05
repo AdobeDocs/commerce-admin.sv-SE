@@ -30,7 +30,7 @@ I avsnittet [Produkter i kategorin](categories-product-assignments.md) kan en bu
 
    ![Fliken Sök i alla produkter](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. I kolumnen _[!UICONTROL Assign]_växlar du till `Yes` för varje produkt som du vill lägga till.
+1. I kolumnen _[!UICONTROL Assign]_&#x200B;växlar du till `Yes` för varje produkt som du vill lägga till.
 
    Om du vill ta med alla produkter som visas kan du klicka på menypilen i kolumnrubriken och välja **[!UICONTROL Select All]**.
 

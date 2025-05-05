@@ -47,7 +47,7 @@ Köpare hanterar offertförhandlingsprocessen från butiken med [[!UICONTROL My 
 
 1. Välj en **[!UICONTROL Expiration Date]** för offerten.
 
-1. Bläddra ner till avsnittet _[!UICONTROL Quote Totals]_och uppdatera **[!UICONTROL Negotiated Price]**efter behov.
+1. Bläddra ner till avsnittet _[!UICONTROL Quote Totals]_&#x200B;och uppdatera **[!UICONTROL Negotiated Price]**&#x200B;efter behov.
 
    ![Uppdatera förhandlat pris](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -65,7 +65,7 @@ Köpare hanterar offertförhandlingsprocessen från butiken med [[!UICONTROL My 
 
 ### Tillämpa radobjektsuppdateringar
 
-Tillämpa ändringar av radobjekt i avsnittet _[!UICONTROL Items Quoted]_om det behövs.
+Tillämpa ändringar av radobjekt i avsnittet _[!UICONTROL Items Quoted]_&#x200B;om det behövs.
 
 ![Tillämpa radobjektsuppdateringar](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -100,7 +100,7 @@ både radobjektrabatten och eventuell rabatt på offertnivå tillämpas på prod
 
 1. Ange **[!UICONTROL Proposed Shipping Price]**.
 
-   _[!UICONTROL Quote Totals]_har uppdaterats för att återspegla det föreslagna fraktpriset.
+   _[!UICONTROL Quote Totals]_&#x200B;har uppdaterats för att återspegla det föreslagna fraktpriset.
 
 ### Bifoga ett stöddokument
 
@@ -112,7 +112,7 @@ både radobjektrabatten och eventuell rabatt på offertnivå tillämpas på prod
 
 ## Steg 3: Uppdatera information på offertnivå och skicka ditt svar
 
-1. Ange ditt svar i avsnittet **[!UICONTROL Add your comment]** i avsnittet _[!UICONTROL Negotiation]_på fliken_[!UICONTROL Comments]_.
+1. Ange ditt svar i avsnittet **[!UICONTROL Add your comment]** i avsnittet _[!UICONTROL Negotiation]_&#x200B;på fliken&#x200B;_[!UICONTROL Comments]_.
 
 1. Om du vill inkludera ett stöddokument klickar du på **[!UICONTROL Attach file]** och väljer filen i din katalog.
 
@@ -120,7 +120,7 @@ både radobjektrabatten och eventuell rabatt på offertnivå tillämpas på prod
 
 1. Så här tillämpar du en rabatt på offerten:
 
-   - Välj någon av följande rabattyper under _[!UICONTROL Quote Totals]_i avsnittet_[!UICONTROL Negotiated Price]_:
+   - Välj någon av följande rabattyper under _[!UICONTROL Quote Totals]_&#x200B;i avsnittet&#x200B;_[!UICONTROL Negotiated Price]_:
 
       - `Percentage Discount`: En procentuell rabatt minskar det ursprungliga priset med en viss procentandel.
       - `Amount Discount`: En beloppsrabatt tillämpar en fast prissänkning.
@@ -160,7 +160,7 @@ För att övervaka dess position i arbetsflödet kontrollerar du din e-post och 
 
 | knapp | Beskrivning |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Återgår till sidan _[!UICONTROL Quotes]_utan att spara ändringarna. |
+| [!UICONTROL Back] | Återgår till sidan _[!UICONTROL Quotes]_&#x200B;utan att spara ändringarna. |
 | [!UICONTROL Print] | Skickar offerten till en skrivare eller sparar den som en PDF-fil. |
 | [!UICONTROL Create Copy] | Skapar och öppnar en kopia av den aktuella offerten med `(copy)` bifogat till det ursprungliga namnet. Byt namn på den nya offerten genom att redigera fältet [!UICONTROL Name]. Bearbeta den nya offerten genom att spara den som ett utkast eller skicka den till kunden. |
 | Skapa mall | Skapa en offertmall baserad på den aktuella offerten. Offertmallar effektiviserar offertförhandlingen genom att göra det möjligt för köpare och säljare att komma överens om kontrakt och prisvillkor som kan tillämpas på flera offerter. . Vid avtal kan köparen generera en i förväg godkänd, länkad offert från mallen för efterföljande order i stället för att starta om processen för anbudsförfrågan. |

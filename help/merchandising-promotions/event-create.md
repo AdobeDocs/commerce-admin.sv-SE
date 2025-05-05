@@ -20,7 +20,7 @@ Varje händelse är associerad med en kategori i din katalog och endast en händ
 
 ## Skapa en händelse
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Catalog Event]** i det övre högra hörnet.
 
@@ -52,7 +52,7 @@ Händelser kan redigeras antingen från sidan Händelser eller från den kategor
 
 ### Metod 1: Redigera en händelse från sidan Händelser
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på händelsen i listan och öppna den i redigeringsläge.
 
@@ -74,7 +74,7 @@ Händelser kan redigeras antingen från sidan Händelser eller från den kategor
 
 ## Ta bort en händelse
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på händelsen i listan och öppna den i redigeringsläge.
 

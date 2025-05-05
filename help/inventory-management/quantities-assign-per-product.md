@@ -14,7 +14,7 @@ ht-degree: 0%
 
 När du har lagt till [källor](sources-assign-per-product.md) uppdaterar du lagerkvantiteterna för din produkt. Dessa värden spårar tillgängliga lagerbehållningsbelopp.
 
-Om du vill dölja en källas lager från leveranser utan att ta bort källan anger du _[!UICONTROL Source Item Status]_till `Out of Stock`. SSA- och leveransalternativen har bara åtkomst till källor som listas som `In Stock` med tillgänglig lagerkvantitet.
+Om du vill dölja en källas lager från leveranser utan att ta bort källan anger du _[!UICONTROL Source Item Status]_&#x200B;till `Out of Stock`. SSA- och leveransalternativen har bara åtkomst till källor som listas som `In Stock` med tillgänglig lagerkvantitet.
 
 Alla uppdaterade kvantiteter och källor visas i produktrutnätet.
 
@@ -33,7 +33,7 @@ Alla uppdaterade kvantiteter och källor visas i produktrutnätet.
 1. Gör något av följande om du vill ange ett meddelande för lagerkvantiteter:
 
    - Anpassad meddelandekvantitet - Avmarkera kryssrutan **[!UICONTROL Use Default]** och ange ett belopp i **[!UICONTROL Notify Qty]**.
-   - Standardkvantitet för meddelande - Markera kryssrutan **[!UICONTROL Use Default]**. [!DNL Commerce] kontrollerar och använder inställningen i _[!UICONTROL Advanced Inventory]_eller den globala lagringskonfigurationen.
+   - Standardkvantitet för meddelande - Markera kryssrutan **[!UICONTROL Use Default]**. [!DNL Commerce] kontrollerar och använder inställningen i _[!UICONTROL Advanced Inventory]_&#x200B;eller den globala lagringskonfigurationen.
 
    ![Uppdatera produktkvantiteter per Source](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
@@ -44,6 +44,6 @@ Alla uppdaterade kvantiteter och källor visas i produktrutnätet.
    - Välj **[!UICONTROL Save & Close]** på menyn **[!UICONTROL Save]** (![Menypil](../assets/icon-menu-down-arrow-red.png)).
 
 
-Produktstödrastret uppdateras med en lista över alla källor och relaterade kvantiteter. För produkter med fler än fem tilldelade källor håller du pekaren över kolumnen _[!UICONTROL Quantity per Source]_för att se den fullständiga listan.
+Produktstödrastret uppdateras med en lista över alla källor och relaterade kvantiteter. För produkter med fler än fem tilldelade källor håller du pekaren över kolumnen _[!UICONTROL Quantity per Source]_&#x200B;för att se den fullständiga listan.
 
 ![Produktkvantiteter per källa](assets/inventory-product-quantity.png){width="600" zoomable="yes"}

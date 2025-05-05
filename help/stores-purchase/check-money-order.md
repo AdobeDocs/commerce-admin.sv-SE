@@ -16,11 +16,11 @@ Med Adobe Commerce och Magento Open Source kan du godkänna betalningar med chec
 
 **_Så här konfigurerar du betalning med check eller betalningsorder:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
-1. Under _[!UICONTROL Other Payment Methods]_expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Check / Money Order]**.
+1. Under _[!UICONTROL Other Payment Methods]_&#x200B;expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Check / Money Order]**.
 
    ![Kontrollera/Pengar beställ](../configuration-reference/sales/assets/payment-methods-check-money-order.png){width="600" zoomable="yes"}
 

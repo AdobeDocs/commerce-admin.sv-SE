@@ -50,7 +50,7 @@ Om du vill hitta en post i databasen använder du förstoringsglaset i huvudet f
 
 [Kontrollpanelen](admin-workspace.md#the-dashboard) är standardstartsidan för administratören, men du kan konfigurera en annan startsida.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Admin]** i den vänstra navigeringspanelen under **[!UICONTROL Advanced]**.
 

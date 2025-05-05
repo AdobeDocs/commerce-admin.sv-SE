@@ -18,7 +18,7 @@ Designkonfigurationen gör det enkelt att redigera designrelaterade regler och k
 
 ## Ändra designkonfigurationen
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
@@ -48,7 +48,7 @@ Designkonfigurationen gör det enkelt att redigera designrelaterade regler och k
    >
    >Du kan lägga till så många regler för de enheter som du vill ange. Söksträngarna matchas i den ordning de anges.
 
-1. Under _[!UICONTROL Other Settings]_expanderar du varje avsnitt och följer instruktionerna i de länkade avsnitten för att redigera inställningarna efter behov.
+1. Under _[!UICONTROL Other Settings]_&#x200B;expanderar du varje avsnitt och följer instruktionerna i de länkade avsnitten för att redigera inställningarna efter behov.
 
    - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
    - [[!UICONTROL HTML Head]](page-setup.md#html-head)

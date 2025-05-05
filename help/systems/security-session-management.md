@@ -30,7 +30,7 @@ Använd följande konfigurationsinställningar för att begränsa den maximala s
 
 **_Så här konfigurerar du maximal sessionsstorlek:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
@@ -74,9 +74,9 @@ Om du aktiverar alla valideringsvariabler kan du förhindra attacker, men det ka
 
 **_Så här konfigurerar du sessionsvalideringen:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
-1. Expandera _[!UICONTROL General]_i den vänstra panelen och välj **[!UICONTROL Web]**.
+1. Expandera _[!UICONTROL General]_&#x200B;i den vänstra panelen och välj **[!UICONTROL Web]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Session Validation Settings]**.
 
@@ -98,7 +98,7 @@ Som en säkerhetsåtgärd är _Admin_ inställd på timeout efter 900 sekunders 
 
 **_Så här justerar du administratörssessionens livstid:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Bläddra nedåt och expandera **[!UICONTROL Advanced]** på den vänstra panelen.
 

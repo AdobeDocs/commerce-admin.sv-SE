@@ -33,7 +33,7 @@ Widgeten _Beställningar och Returer_ ger gästerna möjlighet att kontrollera s
 
 ## Ställa in widgeten för beställningar och returer
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Widget]** i det övre högra hörnet.
 
@@ -57,7 +57,7 @@ Widgeten _Beställningar och Returer_ ger gästerna möjlighet att kontrollera s
 
    - (Valfritt) Ange ett nummer för **[!UICONTROL Sort Order]** för att avgöra i vilken ordning det här objektet visas med andra på samma del av sidan. (`0` = först, `1` = sekund, `3` = tredje o.s.v.)
 
-1. Klicka på **[!UICONTROL Add Layout Update]** i avsnittet _[!UICONTROL Layout Updates]_och gör följande:
+1. Klicka på **[!UICONTROL Add Layout Update]** i avsnittet _[!UICONTROL Layout Updates]_&#x200B;och gör följande:
 
    - Ange **[!UICONTROL Display On]** till den typ av sida där du vill att widgeten ska visas.
 

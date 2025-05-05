@@ -22,7 +22,7 @@ Administratörens [åtgärder](action-log.md)-arkiv visar CSV-loggfiler som lagr
 
 ## Konfigurera loggarkivet
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
@@ -39,6 +39,6 @@ Administratörens [åtgärder](action-log.md)-arkiv visar CSV-loggfiler som lagr
 
 ## Visa arkivet
 
-Gå till **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Archive]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Archive]**&#x200B;på sidofältet_ Admin _.
 
 ![Åtgärdsloggarkiv](./assets/action-log-archive.png){width="600" zoomable="yes"}

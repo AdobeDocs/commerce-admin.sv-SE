@@ -20,7 +20,7 @@ Attributen är ordnade i grupper som bestämmer var de visas i produktposten. Bu
 
 ## Skapa en attributuppsättning
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Set]**.
 
@@ -50,7 +50,7 @@ Attributen är ordnade i grupper som bestämmer var de visas i produktposten. Bu
 
 ## Skapa en attributgrupp
 
-1. Klicka på **[!UICONTROL Add New]** i kolumnen _[!UICONTROL Groups]_i attributuppsättningen.
+1. Klicka på **[!UICONTROL Add New]** i kolumnen _[!UICONTROL Groups]_&#x200B;i attributuppsättningen.
 
 1. Ange en **[!UICONTROL Name]** för den nya gruppen och klicka på **[!UICONTROL OK]**.
 
@@ -64,7 +64,7 @@ Attributen är ordnade i grupper som bestämmer var de visas i produktposten. Bu
 
 ## Ta bort en attributuppsättning
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**&#x200B;på sidofältet_ Admin _.
 
 1. Markera attributuppsättningen i listan och öppna i redigeringsläge.
 

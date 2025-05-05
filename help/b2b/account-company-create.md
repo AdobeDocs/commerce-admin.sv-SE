@@ -31,7 +31,7 @@ Den person som skapar ett företagskonto från butiken tilldelas en roll som [f�
    >
    >Om en besökare är inloggad på ett registrerat användarkonto kan de skapa ett företagskonto genom att gå till _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**.
 
-1. I avsnittet _[!UICONTROL Company Information]_gör kunden följande:
+1. I avsnittet _[!UICONTROL Company Information]_&#x200B;gör kunden följande:
 
    - Fyller i de obligatoriska fälten:
 
@@ -116,7 +116,7 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 
    ![Kontoinformation](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. När du skapar det första företaget är stödrastret _[!UICONTROL Company Hierarchy]_tomt när du expanderar det. När du har sparat företaget kan du inkludera det i en företagshierarki. Se [Företagshantering](manage-companies.md).
+1. När du skapar det första företaget är stödrastret _[!UICONTROL Company Hierarchy]_&#x200B;tomt när du expanderar det. När du har sparat företaget kan du inkludera det i en företagshierarki. Se [Företagshantering](manage-companies.md).
 
 1. Fyll i följande obligatoriska fält i avsnittet _[!UICONTROL Legal Address]_:
 
@@ -214,7 +214,7 @@ Processen att skapa ett företag från Admin är i stort sett densamma som i but
 | Fält | Beskrivning |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | Företagsnamnet anges när företagskontot skapas för första gången och kan vara en förkortad version av det fullständiga juridiska namnet. |
-| [!UICONTROL Status] | (Endast administratör) Anger det aktuella tillståndet för företagskontot. Alternativ: <br/>**[!UICONTROL Active]**- Företagskontot har godkänts av butiksadministratören. Företagsadministratören och associerade medlemmar kan logga in kontot från butiken och göra inköp.<br/>**[!UICONTROL Pending Approval]** - En begäran om att öppna ett företagskonto har skickats, men har ännu inte godkänts av butiksadministratören. <br/>**[!UICONTROL Rejected]**- En begäran om att öppna ett företagskonto har skickats, men inte godkänts av butiksadministratören. De inloggningsuppgifter som användes för att skicka begäran blockeras.<br/>** Blockerad **- Företagsmedlemmar kan logga in och komma åt katalogen, men de kan inte göra inköp. Butiksadministratören kan blockera ett företagskonto som inte är i gott skick. Butiksadministratören kan när som helst ta bort blocket på kontot. |
+| [!UICONTROL Status] | (Endast administratör) Anger det aktuella tillståndet för företagskontot. Alternativ: <br/>**[!UICONTROL Active]**- Företagskontot har godkänts av butiksadministratören. Företagsadministratören och associerade medlemmar kan logga in kontot från butiken och göra inköp.<br/>**[!UICONTROL Pending Approval]** - En begäran om att öppna ett företagskonto har skickats, men har ännu inte godkänts av butiksadministratören. <br/>**[!UICONTROL Rejected]**- En begäran om att öppna ett företagskonto har skickats, men inte godkänts av butiksadministratören. De inloggningsuppgifter som användes för att skicka begäran blockeras.<br/>**&#x200B; Blockerad &#x200B;**- Företagsmedlemmar kan logga in och komma åt katalogen, men de kan inte göra inköp. Butiksadministratören kan blockera ett företagskonto som inte är i gott skick. Butiksadministratören kan när som helst ta bort blocket på kontot. |
 | [!UICONTROL Company Email] | E-postadressen som är associerad med företagskontot. |
 | [!UICONTROL Sales Representative] | (Endast administratör) Den Admin-användare som är den primära kontakten för företagskontot. |
 

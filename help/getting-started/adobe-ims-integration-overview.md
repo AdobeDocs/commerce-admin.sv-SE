@@ -22,7 +22,7 @@ Information om hur du implementerar den här integreringen finns i [Konfigurera 
 
 ## Ändringar i administratörens arbetsflöden och gränssnitt efter integrering med IMS
 
-När den här integreringen är aktiverad, kommer Commerce Admin-användare att se ändringar i standardarbetsflödet för inloggning och autentisering i Commerce Admin när de utför rutinuppgifter i Admin som kräver omautentisering, t.ex. skapar en Admin-användare. Tvåfaktorautentisering (2FA) krävs på organisationsnivå i Adobe för modulaktivering. Standardadministratörsinloggningen och 2FA är inaktiverade och knappen _[!UICONTROL Sign In with Adobe ID]_ersätter standardformuläret för administratörsinloggning. Tillstånd hanteras fortfarande från administratören.
+När den här integreringen är aktiverad, kommer Commerce Admin-användare att se ändringar i standardarbetsflödet för inloggning och autentisering i Commerce Admin när de utför rutinuppgifter i Admin som kräver omautentisering, t.ex. skapar en Admin-användare. Tvåfaktorautentisering (2FA) krävs på organisationsnivå i Adobe för modulaktivering. Standardadministratörsinloggningen och 2FA är inaktiverade och knappen _[!UICONTROL Sign In with Adobe ID]_&#x200B;ersätter standardformuläret för administratörsinloggning. Tillstånd hanteras fortfarande från administratören.
 
 ## Hur administratörsintegrering med IMS påverkar Commerce lösenord
 

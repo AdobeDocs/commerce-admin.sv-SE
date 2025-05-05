@@ -21,7 +21,7 @@ I redigeraren kan du infoga en bild med tre källtyper:
 
 1. Öppna en sida, ett block eller ett dynamiskt block i redigeringsläge.
 
-1. Gå till avsnittet _[!UICONTROL Content]_och klicka på ett element som stöder redigeraren.
+1. Gå till avsnittet _[!UICONTROL Content]_&#x200B;och klicka på ett element som stöder redigeraren.
 
 1. Placera markören där du vill att bilden ska visas.
 

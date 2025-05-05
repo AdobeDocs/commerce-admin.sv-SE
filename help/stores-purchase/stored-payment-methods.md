@@ -36,7 +36,7 @@ En betalningsmetod som stöder ett säkert valv, som [Braintree](braintree.md), 
 
 1. Klicka på **[!UICONTROL Place Order]**.
 
-Den sparade betalningsmetoden visas sedan på fliken _[!UICONTROL Stored Payment Methods]_på kundkontrollpanelen.
+Den sparade betalningsmetoden visas sedan på fliken _[!UICONTROL Stored Payment Methods]_&#x200B;på kundkontrollpanelen.
 
 ## Ta bort en lagrad betalningsmetod
 

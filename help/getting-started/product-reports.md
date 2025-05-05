@@ -18,7 +18,7 @@ Produktrapporterna ger dig insikt om vilka produkter som visas och beställs, vi
 
 [!UICONTROL Product Views Report] visar de produkter som har visats under ett tidsintervall eller datumintervall. Rapporten innehåller produktnamn, pris och antal visningar.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]**&#x200B;på sidofältet_ Admin _.
 
 ![Rapport om produktvyer](./assets/product-views.png){width="600"}
 
@@ -26,7 +26,7 @@ Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]
 
 [!UICONTROL Bestsellers Report] visar de fem populäraste fem under ett tids- eller datumintervall. Rapporten innehåller produktnamn, pris och beställd kvantitet.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestsellers]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestsellers]**&#x200B;på sidofältet_ Admin _.
 
 ![rapport från bestsellers](./assets/bestsellers.png){width="600"}
 
@@ -34,7 +34,7 @@ Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestse
 
 [!UICONTROL Low Stock Report] visar alla produkter med lagernivåer inom ett angivet intervall. När [[!DNL Inventory Management]](../inventory-management/introduction.md) är aktiverat innehåller rapporten låga lagerbelopp per källa med den angivna källkoden.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low Stock]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low Stock]**&#x200B;på sidofältet_ Admin _.
 
 ![Rapport om låg lagernivå](./assets/low-stock.png){width="600"}
 
@@ -42,7 +42,7 @@ Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low St
 
 [!UICONTROL Ordered Products Report] visar alla produkter som beställts för ett angivet tidsintervall eller datumintervall. Rapporten innehåller produktnamn och beställd kvantitet.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordered]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordered]**&#x200B;på sidofältet_ Admin _.
 
 ![Rapport över beställda produkter](./assets/products-ordered.png){width="600"}
 
@@ -50,6 +50,6 @@ Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordere
 
 [!UICONTROL Downloads Report] visar alla hämtningar under det angivna tidsintervallet eller datumintervallet. Rapporten innehåller produktnamn, nedladdningslänk och SKU, samt antal inköp och nedladdningar.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**&#x200B;på sidofältet_ Admin _.
 
 ![Hämtningsrapport](./assets/downloads.png){width="600"}

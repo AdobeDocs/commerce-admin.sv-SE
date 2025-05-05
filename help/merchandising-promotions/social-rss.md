@@ -47,7 +47,7 @@ Sociala nätverksplatser har ett antal plugin-program som enkelt kan läggas til
 
 1. Återvänd till din butiksadministratör.
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Block]** i det övre högra hörnet.
 
@@ -77,7 +77,7 @@ Sociala nätverksplatser har ett antal plugin-program som enkelt kan läggas til
 
    - När du använder [!UICONTROL Page Builder] följer du instruktionerna för att [lägga till blocket](../page-builder/block.md) på scenen.
 
-   - Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
+   - Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Widget]** i det övre högra hörnet och gör följande:
 
@@ -95,7 +95,7 @@ Sociala nätverksplatser har ett antal plugin-program som enkelt kan läggas til
 
    - Ange ett nummer i fältet **[!UICONTROL Sort Order]** för att bestämma ordningen på blocket om det tilldelats att visas på samma plats på sidan som andra innehållselement. Den översta positionen är noll.
 
-1. I avsnittet _[!UICONTROL Layout Updates]_klickar du på&#x200B;**[!UICONTROL Add Layout Update]**och anger **[!UICONTROL Display On]**till den kategori, produkt eller sida där du vill att blocket ska visas.
+1. I avsnittet _[!UICONTROL Layout Updates]_&#x200B;klickar du på&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;och anger **[!UICONTROL Display On]**&#x200B;till den kategori, produkt eller sida där du vill att blocket ska visas.
 
    Om du till exempel väljer `All Pages` och placerar blocket i antingen sidhuvudet eller sidfoten, visas blocket på samma plats på alla sidor i butiken.
 
@@ -158,7 +158,7 @@ Den programvara som krävs för att läsa ett RSS-flöde kallas flödesläsare o
 
 ### Konfigurera RSS-flöden för din butik
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. I det övre högra hörnet anger du **[!UICONTROL Store View]** till de vyer där flödena ska vara tillgängliga.
 

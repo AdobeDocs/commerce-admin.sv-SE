@@ -24,7 +24,7 @@ Adobe Commerce har fördefinierade mallar för vart och ett av dessa e-postmedde
 
 ## Steg 1. Aktivera presentregister
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Gift Registry]**
 

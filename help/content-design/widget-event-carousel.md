@@ -26,7 +26,7 @@ Innan du börjar följer du [instruktionerna](../merchandising-promotions/event-
 
 ## Steg 2: Skapa widgeten
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Widget]** i det övre högra hörnet.
 
@@ -70,7 +70,7 @@ Innan du börjar följer du [instruktionerna](../merchandising-promotions/event-
 
    >[!NOTE]
    >
-   >Resultatet varierar beroende på tema och sidlayout. Du måste också ange _[!UICONTROL Catalog Events Carousel Default Template]_i kategorikonfigurationen.
+   >Resultatet varierar beroende på tema och sidlayout. Du måste också ange _[!UICONTROL Catalog Events Carousel Default Template]_&#x200B;i kategorikonfigurationen.
 
 1. Om du vill att händelsekarusellen ska visas på en annan plats i butiken klickar du på **[!UICONTROL Add Layout Update]** och upprepar de här stegen för den platsen.
 

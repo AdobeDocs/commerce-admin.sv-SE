@@ -26,7 +26,7 @@ Om [Belöningsväxelkursen](reward-exchange-rates.md) med riktningen `Points to 
 
 1. Anger all leveransinformation som krävs och navigerar till steget _Granska och betala_.
 
-1. I avsnittet _[!UICONTROL Reward points]_kontrollerar antalet tillgängliga poäng och deras valutavärde.
+1. I avsnittet _[!UICONTROL Reward points]_&#x200B;kontrollerar antalet tillgängliga poäng och deras valutavärde.
 
 1. Klicka på **[!UICONTROL Use reward points]**.
 

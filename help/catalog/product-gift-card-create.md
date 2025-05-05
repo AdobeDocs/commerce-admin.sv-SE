@@ -96,7 +96,7 @@ Det kan finnas ytterligare enskilda attribut som beskriver produkten. Markeringe
 
 ### Steg 5: Fyll i presentkortsinformationen
 
-Avsnittet _[!UICONTROL Gift Card Information]_i produktinställningarna kan användas för att åsidosätta [presentkortskonfigurationen](../configuration-reference/sales/gift-cards.md) som avgör hur kortet hanteras.
+Avsnittet _[!UICONTROL Gift Card Information]_&#x200B;i produktinställningarna kan användas för att åsidosätta [presentkortskonfigurationen](../configuration-reference/sales/gift-cards.md) som avgör hur kortet hanteras.
 
 1. Bläddra ned till avsnittet _[!UICONTROL Gift Card Information]_.
 

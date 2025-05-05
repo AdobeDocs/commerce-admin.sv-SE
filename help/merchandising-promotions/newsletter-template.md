@@ -18,7 +18,7 @@ Du kan skapa så många nyhetsbrevmallar du behöver för olika syften. Du kan s
 
 ## Skapa en mall för nyhetsbrev
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**på sidlisten Admin.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**&#x200B;på sidlisten Admin.
 
 1. Klicka på **[!UICONTROL Add New Template]** om du vill lägga till en mall.
 
@@ -72,7 +72,7 @@ Du kan skapa så många nyhetsbrevmallar du behöver för olika syften. Du kan s
 
 ## Ta bort en mall för nyhetsbrev
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på nyhetsbrevmallen som ska tas bort och öppna den i redigeringsläge.
 

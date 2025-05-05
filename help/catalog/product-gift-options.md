@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktinställningar - [!UICONTROL Gift Options]
 
-I avsnittet _[!UICONTROL Gift Options]_kan du ange alternativ för presentmeddelanden och presentomslutning i kassan på produktnivå. Om du vill åsidosätta standardkonfigurationsinställningen avmarkerar du kryssrutan **[!UICONTROL Use Config Settings]**.
+I avsnittet _[!UICONTROL Gift Options]_&#x200B;kan du ange alternativ för presentmeddelanden och presentomslutning i kassan på produktnivå. Om du vill åsidosätta standardkonfigurationsinställningen avmarkerar du kryssrutan **[!UICONTROL Use Config Settings]**.
 
 ![Presentalternativ](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
@@ -20,7 +20,7 @@ I avsnittet _[!UICONTROL Gift Options]_kan du ange alternativ för presentmeddel
 
 1. Öppna produkten i redigeringsläge.
 
-1. Bläddra nedåt och expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Gift Options]_och gör följande:
+1. Bläddra nedåt och expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Gift Options]_&#x200B;och gör följande:
 
    - Om du vill åsidosätta standardinställningen avmarkerar du kryssrutan **[!UICONTROL Use Config Settings]**.
 
@@ -38,7 +38,7 @@ Som standard tillåter Commerce att kunderna lägger till ett personligt present
 
 Du kan ge kunderna den här funktionen genom att aktivera _presentmeddelandet_ för din butik:
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 

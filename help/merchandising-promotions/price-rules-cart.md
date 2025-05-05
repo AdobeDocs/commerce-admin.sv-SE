@@ -22,7 +22,7 @@ Kundprisreglerna tillämpar rabatter på artiklar i kundvagnen, baserat på en u
 
 ## Få tillgång till kundvagnsprisregler
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;på sidofältet_ Admin _.
 
    ![Kundprisregel](./assets/price-rule-cart.png){width="700" zoomable="yes"}
 
@@ -48,9 +48,9 @@ Kundprisreglerna tillämpar rabatter på artiklar i kundvagnen, baserat på en u
 | [!UICONTROL Priority] | Fritextfält som filtrerar listan baserat på den prioritet som har definierats för en regel. |
 | [!UICONTROL Status] | Använd det här alternativet om du vill filtrera listan baserat på regelstatus (`Active` eller `Inactive`). |
 | [!UICONTROL Web Site] | Använd det här alternativet om du vill filtrera listan baserat på webbplatser som definierats för en regel. |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Klicka på **[!UICONTROL Edit]** för att visa sidan _[!UICONTROL Rule Information]_och uppdatera regelinställningarna (ungefär som att skapa en regel). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Använd de dynamiska kalenderfälten (_[!UICONTROL To:]_och_[!UICONTROL From:]_) för att filtrera listan baserat på regelns startdatum så som det definierades när regeln skapades. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Använd de dynamiska kalenderfälten (_[!UICONTROL To:]_och_[!UICONTROL From:]_) för att filtrera listan baserat på slutdatumet för regeln som definierades när regeln skapades. |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Klicka på **[!UICONTROL Edit]** för att visa sidan _[!UICONTROL Rule Information]_&#x200B;och uppdatera regelinställningarna (ungefär som att skapa en regel). |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Använd de dynamiska kalenderfälten (_[!UICONTROL To:]_&#x200B;och&#x200B;_[!UICONTROL From:]_) för att filtrera listan baserat på regelns startdatum så som det definierades när regeln skapades. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Använd de dynamiska kalenderfälten (_[!UICONTROL To:]_&#x200B;och&#x200B;_[!UICONTROL From:]_) för att filtrera listan baserat på slutdatumet för regeln som definierades när regeln skapades. |
 
 {style="table-layout:auto"}
 

@@ -72,7 +72,7 @@ I följande exempel används nyckelordsmappning baserad på SKU. När någon av 
 
 ### Steg 2: Mappa den första produkten
 
-1. Bläddra nedåt och expandera avsnittet _[!UICONTROL Attributes]_på sidan med produktinställningar.
+1. Bläddra nedåt och expandera avsnittet _[!UICONTROL Attributes]_&#x200B;på sidan med produktinställningar.
 1. I fältet **[!UICONTROL Search Keywords]** anger du SKU `MH01` som ska mappas till den här produkten.
 
    Du kan ange flera SKU:er avgränsade med ett mellanslag i fältet Sök efter nyckelord. I det här exemplet anges bara en.
@@ -80,7 +80,7 @@ I följande exempel används nyckelordsmappning baserad på SKU. När någon av 
    ![Attributavsnitt med söknyckelord](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**och uppdatera **[!UICONTROL Page Cache]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;och uppdatera **[!UICONTROL Page Cache]**.
 
 ### Steg 3: Mappa den andra produkten
 
@@ -88,7 +88,7 @@ I följande exempel används nyckelordsmappning baserad på SKU. När någon av 
 1. Bläddra nedåt och expandera avsnittet **[!UICONTROL Attributes]**.
 1. I fältet **[!UICONTROL Search Keywords]** anger du SKU för den andra produkten, `MJ03`.
 1. Klicka på **[!UICONTROL Save]**.
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**och uppdatera **[!UICONTROL Page Cache]**.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;och uppdatera **[!UICONTROL Page Cache]**.
 
 ### Steg 4: Testa det i butiken
 
@@ -105,7 +105,7 @@ Produktattribut som är aktiverade för katalogsökning kan tilldelas en vikt f�
 
 **_Så här anger du sökviktsegenskaperna för ett attribut:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på attributet i listan och öppna i redigeringsläge.
 

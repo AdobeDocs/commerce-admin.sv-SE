@@ -22,7 +22,7 @@ En kund kan ha flera listor som fokuserar på produkter från olika leverantöre
 
 Som standard kan kunderna behålla upp till 999 rekvisitionslistor för sitt konto. Men du kan ändra konfigurationen och ange ett lägre nummer för att minska belastningen på din butik.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Requisition Lists]**.
 

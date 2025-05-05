@@ -54,7 +54,7 @@ I den här delen av Simple Page skapar du en sida med en rad och en banderoll me
 
 ### Steg 1: Skapa en sida
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Page]** i det övre högra hörnet och gör följande:
 
@@ -70,7 +70,7 @@ I den här delen av Simple Page skapar du en sida med en rad och en banderoll me
 
 1. Om exempeldata är tillgängliga anger du **[!UICONTROL New Theme]** till `Magento Luma`. Annars kan du välja ett annat tillgängligt tema eller lämna det tomt om du vill använda standardtemat.
 
-   Inställningen _[!UICONTROL New Theme]_kan användas för att åsidosätta standardtemat och tillämpa ett annat tema på sidan.
+   Inställningen _[!UICONTROL New Theme]_&#x200B;kan användas för att åsidosätta standardtemat och tillämpa ett annat tema på sidan.
 
    >[!NOTE]
    >
@@ -112,7 +112,7 @@ I den här delen av Simple Page skapar du en sida med en rad och en banderoll me
 
    ![Radinställningar - fullständigt utfall](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. Bläddra ned till avsnittet _[!UICONTROL Advanced]_och ange alla **[!UICONTROL Margins and Padding]**-inställningar till `0`.
+1. Bläddra ned till avsnittet _[!UICONTROL Advanced]_&#x200B;och ange alla **[!UICONTROL Margins and Padding]**-inställningar till `0`.
 
    Med den här inställningen utökas radens hela bredd.
 
@@ -147,7 +147,7 @@ I den här delen av Simple Page skapar du en sida med en rad och en banderoll me
 
    ![Banderollutseende - collage right](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. Bläddra ned till avsnittet _[!UICONTROL Background]_och ange bakgrundsbilden för banderollen:
+1. Bläddra ned till avsnittet _[!UICONTROL Background]_&#x200B;och ange bakgrundsbilden för banderollen:
 
    - För **[!UICONTROL Background Image]** klickar du på **Överför**.
 
@@ -200,7 +200,7 @@ __
 
 1. Hovra för att visa banderollverktygslådan, välj ikonen _Inställningar_ ( ![Inställningarna ](./assets/pb-icon-settings.png){width="20"} ) igen och bläddra sedan till avsnittet _[!UICONTROL Content]_.
 
-   Observera att texten visas i rutan _Meddelandetext_. Text kan anges och redigeras antingen från scenen eller från avsnittet _[!UICONTROL Content]_i banderollinställningarna.
+   Observera att texten visas i rutan _Meddelandetext_. Text kan anges och redigeras antingen från scenen eller från avsnittet _[!UICONTROL Content]_&#x200B;i banderollinställningarna.
 
    ![Banderollinställningar - meddelandetext](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
@@ -243,7 +243,7 @@ __
 
 1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_&#x200B;för sidan där förhandsvisningen visas.
 
    Du kan växla mellan de två arbetsytelägen när du vill.
 
@@ -275,7 +275,7 @@ I den här delen av övningen lägger du till en rad på sidan och delar upp rad
 
    ![Verktygslådan Rad](./assets/pb-tutorial1-row-settings.png){width="600" zoomable="yes"}
 
-1. Under _[!UICONTROL Appearance]_godkänner du standardinställningen **Innehållet**.
+1. Under _[!UICONTROL Appearance]_&#x200B;godkänner du standardinställningen **Innehållet**.
 
    Den här inställningen begränsar radens innehållsområde till bredden på sidan enligt temat.
 
@@ -285,7 +285,7 @@ I den här delen av övningen lägger du till en rad på sidan och delar upp rad
 
 ### Steg 2: Lägg till en kolumn
 
-1. Dra en **[!UICONTROL Column]**-platshållare på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_till den nya raden.
+1. Dra en **[!UICONTROL Column]**-platshållare på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_&#x200B;till den nya raden.
 
    ![Dra en kolumninnehållstyp till scenen](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
@@ -345,7 +345,7 @@ I det här steget får du lära dig hur du överför en bild till banderollen.
 
 1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_&#x200B;för sidan där förhandsvisningen visas.
 
 1. Klicka på pilen **[!UICONTROL Save]** i det övre högra hörnet och välj **[!UICONTROL Save & Close]**.
 
@@ -365,7 +365,7 @@ Den sista raden på den här sidan innehåller innehåll från en produktgranskn
 
 1. Klicka på **[!UICONTROL Edit with Page Builder]** eller i förhandsvisningsområdet för innehållet.
 
-1. Dra en **[!UICONTROL Row]**-platshållare till scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_och placera den ovanför raden som skapades i den andra delen av den här övningen.
+1. Dra en **[!UICONTROL Row]**-platshållare till scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_&#x200B;och placera den ovanför raden som skapades i den andra delen av den här övningen.
 
    En röd stödlinje markerar gränsen mellan de två raderna.
 
@@ -381,11 +381,11 @@ Den sista raden på den här sidan innehåller innehåll från en produktgranskn
 
    ![Välja utseende med full bredd](./assets/pb-tutorial1-row-settings-appearance-full-width.png){width="600" zoomable="yes"}
 
-1. I avsnittet _[!UICONTROL Background]_anger du `#f1f1f1` som **[!UICONTROL Background Color]**.
+1. I avsnittet _[!UICONTROL Background]_&#x200B;anger du `#f1f1f1` som **[!UICONTROL Background Color]**.
 
    ![Anger bakgrundsfärg](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. Bläddra ned till avsnittet _[!UICONTROL Advanced]_och ange alla **Marginaler och utfyllnad**till `0`.
+1. Bläddra ned till avsnittet _[!UICONTROL Advanced]_&#x200B;och ange alla **Marginaler och utfyllnad**&#x200B;till `0`.
 
    ![Anger marginaler och utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -409,7 +409,7 @@ Den sista raden på den här sidan innehåller innehåll från en produktgranskn
 
 1. Håll pekaren över den första kolumnbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Bläddra ned till avsnittet _[!UICONTROL Advanced]_och ange alla **Marginaler och utfyllnad**till `0`.
+1. Bläddra ned till avsnittet _[!UICONTROL Advanced]_&#x200B;och ange alla **Marginaler och utfyllnad**&#x200B;till `0`.
 
    ![Anger marginaler och utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -445,7 +445,7 @@ Den andra kolumnen på raden ska innehålla innehåll från en kundrecension, in
 
    ![Infoga en bild i texten](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - Klicka på ikonen _Sök_ ( ![Sök-ikon](./assets/editor-btn-find-source.png) ) bredvid fältet _[!UICONTROL Source]_i dialogrutan_[!UICONTROL Insert/edit image]_.
+   - Klicka på ikonen _Sök_ ( ![Sök-ikon](./assets/editor-btn-find-source.png) ) bredvid fältet _[!UICONTROL Source]_&#x200B;i dialogrutan&#x200B;_[!UICONTROL Insert/edit image]_.
 
      ![Dialogrutan Infoga/redigera bild](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
@@ -507,7 +507,7 @@ Den andra kolumnen på raden ska innehålla innehåll från en kundrecension, in
 
    ![Anger minsta höjd och lodrät justering](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. Rulla ned till avsnittet _[!UICONTROL Advanced]_och ange alla **[!UICONTROL Margins and Padding]**-värden till noll ( `0` ).
+1. Rulla ned till avsnittet _[!UICONTROL Advanced]_&#x200B;och ange alla **[!UICONTROL Margins and Padding]**-värden till noll ( `0` ).
 
    ![Anger marginaler och utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -541,7 +541,7 @@ Den andra kolumnen på raden ska innehålla innehåll från en kundrecension, in
 
 1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_&#x200B;för sidan där förhandsvisningen visas.
 
 1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
@@ -571,7 +571,7 @@ När alla tre raderna är klara är det sista steget att ordna om raderna så at
 
 1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_&#x200B;för sidan där förhandsvisningen visas.
 
 1. Klicka på pilen **[!UICONTROL Save]** i det övre högra hörnet och välj **[!UICONTROL Save & Close]**.
 

@@ -18,9 +18,9 @@ Funktionen _Snabbbeställning_ minskar beställningsprocessen till flera klick f
 
 ## Aktivera snabbbeställningar för din butik
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
-1. Välj **[!UICONTROL B2B Features]** i avsnittet _[!UICONTROL General]_på den vänstra panelen.
+1. Välj **[!UICONTROL B2B Features]** i avsnittet _[!UICONTROL General]_&#x200B;på den vänstra panelen.
 
 1. Ange **[!UICONTROL Enable Quick Order]** till `Yes`.
 
@@ -92,7 +92,7 @@ Kunder kan ange produkter för snabbbeställningar på något av följande sätt
 
 ### Metod 3: Överför en lista över produkter
 
-1. Klicka på **[!UICONTROL Download Sample]** i avsnittet _[!UICONTROL Add from File]_för att hämta en ordermall.
+1. Klicka på **[!UICONTROL Download Sample]** i avsnittet _[!UICONTROL Add from File]_&#x200B;för att hämta en ordermall.
 
    ![Lägg till från fil](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 

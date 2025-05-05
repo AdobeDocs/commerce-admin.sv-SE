@@ -115,7 +115,7 @@ Formuläret uppdateras för att återspegla ändringen.
 
 1. Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
-1. Om du vill tilldela _[!UICONTROL Categories]_till produkten klickar du på rutan **[!UICONTROL Select…]**och gör något av följande:
+1. Om du vill tilldela _[!UICONTROL Categories]_&#x200B;till produkten klickar du på rutan **[!UICONTROL Select…]**&#x200B;och gör något av följande:
 
    **Välj en befintlig kategori:**
 
@@ -139,7 +139,7 @@ Formuläret uppdateras för att återspegla ändringen.
 
 ## Steg 5: Lägg till paketobjekten
 
-Avsnittet _[!UICONTROL Bundle Items]_används för att lägga till objekt i en paketprodukttyp och för att redigera det aktuella urvalet av objekt.
+Avsnittet _[!UICONTROL Bundle Items]_&#x200B;används för att lägga till objekt i en paketprodukttyp och för att redigera det aktuella urvalet av objekt.
 
 ![Paketobjekt har definierats för en produkt](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -180,7 +180,7 @@ Avsnittet _[!UICONTROL Bundle Items]_används för att lägga till objekt i en p
 
      >[!NOTE]
      >
-     >Kvantiteten kan vara ett förinställt eller användardefinierat värde. Tilldela emellertid inte egenskapen _[!UICONTROL User Defined]_till kryssrutor eller indatatyper med flera val.
+     >Kvantiteten kan vara ett förinställt eller användardefinierat värde. Tilldela emellertid inte egenskapen _[!UICONTROL User Defined]_&#x200B;till kryssrutor eller indatatyper med flera val.
 
      Som standard kan kunden inte ändra standardkvantiteten som ingår i en paketartikel. Kunden kan dock ange den kvantitet av artikeln som ska inkluderas i paketet.
 
@@ -283,7 +283,7 @@ Status för produktlager ändras **_inte automatiskt till Utanför lager_** när
 
 ![Kryssruta](../assets/checkbox.png) SKU och vikt kan vara antingen `Fixed` eller `Dynamic`.
 
-![Kryssruta](../assets/checkbox.png) Kvantiteten kan vara en förinställning eller ett användardefinierat värde. Tilldela emellertid inte egenskapen _[!UICONTROL User Defined]_till kryssrutor eller indatatyper med flera val.
+![Kryssruta](../assets/checkbox.png) Kvantiteten kan vara en förinställning eller ett användardefinierat värde. Tilldela emellertid inte egenskapen _[!UICONTROL User Defined]_&#x200B;till kryssrutor eller indatatyper med flera val.
 
 ![Kryssruta](../assets/checkbox.png) Paketartiklar kan levereras tillsammans eller separat.
 

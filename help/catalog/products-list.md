@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Produktlista
 
-Alla produkter i katalogen är tillgängliga från sidan _[!UICONTROL Products]_i Admin, där du kan skapa produkter och redigera befintliga. Vid installation på flera platser kan varje webbplats erbjuda olika produkter som ska säljas från samma katalog.
+Alla produkter i katalogen är tillgängliga från sidan _[!UICONTROL Products]_&#x200B;i Admin, där du kan skapa produkter och redigera befintliga. Vid installation på flera platser kan varje webbplats erbjuda olika produkter som ska säljas från samma katalog.
 
-Listan _[!UICONTROL Products]_innehåller alla produkter i katalogen, visar de webbplatser där de är tillgängliga och om de är aktiverade för försäljning. I Adobe Commerce B2B-installationer där [delade kataloger](../b2b/catalog-shared.md) är aktiverade innehåller rutnätet en kolumn som anger vilka produkter som har alternativa rabattpriser i en delad katalog.
+Listan _[!UICONTROL Products]_&#x200B;innehåller alla produkter i katalogen, visar de webbplatser där de är tillgängliga och om de är aktiverade för försäljning. I Adobe Commerce B2B-installationer där [delade kataloger](../b2b/catalog-shared.md) är aktiverade innehåller rutnätet en kolumn som anger vilka produkter som har alternativa rabattpriser i en delad katalog.
 
 Du kan bläddra igenom listsidan efter sida eller söka efter specifika produkter. Använd [standardkontrollerna](../getting-started/admin-grid-controls.md) för att sortera och filtrera listan och tillämpa [åtgärder](../getting-started/admin-actions-control.md) på valda produkter.
 
@@ -38,7 +38,7 @@ Den här konfigurationsinställningen för produktvisningsbegränsning är inakt
 
 **_Så här konfigurerar du produktvisningsbegränsningen:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** och välj **[!UICONTROL Admin]**.
 

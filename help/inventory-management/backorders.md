@@ -47,7 +47,7 @@ När kunderna köper de tillgängliga 25 produkterna läggs nya order in som res
 
 >[!NOTE]
 >
->När en kund gör en beställning med hjälp av _[!UICONTROL backorder qty]_subtraherar [!DNL Inventory Management] automatiskt kvantiteten från den försäljningsbara kvantiteten. Om en order inte har levererats och annullerats returneras kvantiteten till den aggregerade virtuella försäljningsbara kvantiteten. Den **_annullerade orderkvantiteten har inte tilldelats någon av källorna_**, utan returneras till det totala antalet produkter som är tillgängliga för försäljning (_[!UICONTROL Salable Quantity]_ kolumn i produktrutnätet).
+>När en kund gör en beställning med hjälp av _[!UICONTROL backorder qty]_&#x200B;subtraherar [!DNL Inventory Management] automatiskt kvantiteten från den försäljningsbara kvantiteten. Om en order inte har levererats och annullerats returneras kvantiteten till den aggregerade virtuella försäljningsbara kvantiteten. Den **_annullerade orderkvantiteten har inte tilldelats någon av källorna_**, utan returneras till det totala antalet produkter som är tillgängliga för försäljning (_[!UICONTROL Salable Quantity]_ kolumn i produktrutnätet).
 
 <!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
@@ -61,7 +61,7 @@ Produkterna måste anges till `In Stock`-status när backorder aktiveras. Du kan
 
 Dessa steg möjliggör restorder för alla produkter på webbplatsnivå.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Ange **[!UICONTROL Store View]** till `Default Config`.
 

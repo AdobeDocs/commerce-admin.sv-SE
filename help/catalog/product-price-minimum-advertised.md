@@ -64,7 +64,7 @@ När MAP är aktiverat blir MAP-inställningarna på produktnivå tillgängliga.
 
 ### Steg 1: Aktivera MAP för butiksvyn
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Om det är tillämpligt anger du **[!UICONTROL Store View]** i det övre högra hörnet till den vy där konfigurationen gäller.
 

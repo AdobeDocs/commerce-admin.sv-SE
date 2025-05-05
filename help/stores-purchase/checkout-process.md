@@ -36,7 +36,7 @@ Förloppsindikatorn överst på sidan följer varje steg i utcheckningsprocessen
 
 #### Lägg till en adress
 
-1. Längst ned i avsnittet _[!UICONTROL Shipping Address]_klickar kunden på&#x200B;**[!UICONTROL + New Address]**.
+1. Längst ned i avsnittet _[!UICONTROL Shipping Address]_&#x200B;klickar kunden på&#x200B;**[!UICONTROL + New Address]**.
 
 1. Fyller i formuläret _[!UICONTROL Shipping Address]_.
 
@@ -94,7 +94,7 @@ Administratörsanvändare kan ändra det maximala antalet objekt som visas i ord
 
 ![Antal objekt som visas i ordersammanfattning](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]**.
 
@@ -124,7 +124,7 @@ En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Utc
 
 ### Ändra alternativ för utcheckning
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 1. Expandera **[!UICONTROL Sales]** på den vänstra panelen och välj **[!UICONTROL Checkout]**.
 1. Ange något av följande alternativ som du behöver.
 1. Klicka på **[!UICONTROL Save Config]**.
@@ -148,7 +148,7 @@ En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Utc
 | [!UICONTROL Enable Terms and Conditions] | Butiksvy | Avgör om kunderna måste godkänna [villkoren](terms-and-conditions.md) för försäljningen innan de gör ett köp. Alternativ: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Butiksvy | Bestämmer platsen för faktureringsadressen under utcheckningen. Alternativ: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Butiksvy | Anger det maximala antalet objekt som kan visas i ordersammanfattningen under utcheckningen. Standardvärdet är `10`. |
-| [!UICONTROL Enable Address Search] | Webbplats | ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Avgör om kunder kan använda [adresssökning](checkout-address-search.md)-funktionalitet för _Leverans_ och _Granska och betala_-stegen. När den här funktionen är aktiverad använder du _[!UICONTROL Number of Customer Addresses Limit]_för att ange antalet sparade adresser som krävs för att aktivera den här funktionen vid utcheckning. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Webbplats | ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Avgör om kunder kan använda [adresssökning](checkout-address-search.md)-funktionalitet för _Leverans_ och _Granska och betala_-stegen. När den här funktionen är aktiverad använder du _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;för att ange antalet sparade adresser som krävs för att aktivera den här funktionen vid utcheckning. Alternativ: `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Webbplats | ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) När adresssökningen är **[!UICONTROL Enabled]** avgör hur många sparade adresser som krävs för att aktivera den här funktionen under utcheckningen. När kundens antal sparade adresser uppfyller eller överstiger det här antalet återges endast standardadressen i stegen _Leverans_ och _Granska och betala_. Kunden kan använda en sökfunktion för att ändra den valda adressen. Standardvärdet är 10. |
 
 {style="table-layout:auto"}

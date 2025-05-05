@@ -21,7 +21,7 @@ När du har lagt till källor måste du prioritera ordningen för källorna uppi
 
 ## Lägg till lagret
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stock]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stock]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Stock]**.
 

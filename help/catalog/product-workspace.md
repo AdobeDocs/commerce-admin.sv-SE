@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktarbetsyta
 
-Produktarbetsytan är i stort sett densamma för alla produkttyper, även om urvalet av fält ändras beroende på vilken attributuppsättning som används. Produktattributen är överst i formuläret, följt av expanderbara avsnitt av produktinformationen. När en ny produkt sparas för första gången visas väljaren _[!UICONTROL Store View]_längst upp till vänster i formuläret.
+Produktarbetsytan är i stort sett densamma för alla produkttyper, även om urvalet av fält ändras beroende på vilken attributuppsättning som används. Produktattributen är överst i formuläret, följt av expanderbara avsnitt av produktinformationen. När en ny produkt sparas för första gången visas väljaren _[!UICONTROL Store View]_&#x200B;längst upp till vänster i formuläret.
 
 ![Arbetsytan Produkt](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ Om du vill expandera eller komprimera ett avsnitt klickar du antingen på ikonen
 
 ## [!UICONTROL Save]-menyn
 
-Menyn _[!UICONTROL Save]_innehåller flera alternativ som gör att du kan spara och fortsätta, spara och skapa en produkt, spara och duplicera produkten eller spara och stänga.
+Menyn _[!UICONTROL Save]_&#x200B;innehåller flera alternativ som gör att du kan spara och fortsätta, spara och skapa en produkt, spara och duplicera produkten eller spara och stänga.
 
 ![Spara-menyn](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
@@ -73,7 +73,7 @@ En detaljerad lista över de här inställningarna finns i [Automatisk genererin
 
 ### Redigera platshållarvärdet
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 

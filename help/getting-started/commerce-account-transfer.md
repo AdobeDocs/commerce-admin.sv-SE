@@ -54,7 +54,7 @@ Den här överföringstypen kräver att du först skapar en associerad Adobe ID 
 
 1. Klicka på **[!UICONTROL Continue]**.
 
-   Detta skapar en Adobe ID och länkar den till det aktuella Commerce-kontot (MAGEID). Med den här kontolänken blockeras fältet _[!UICONTROL Email]_från ändringar. Den associerade e-postadressen hanteras av Adobe ID-kontot.
+   Detta skapar en Adobe ID och länkar den till det aktuella Commerce-kontot (MAGEID). Med den här kontolänken blockeras fältet _[!UICONTROL Email]_&#x200B;från ändringar. Den associerade e-postadressen hanteras av Adobe ID-kontot.
 
 1. Navigera till [account.adobe.com](https://account.adobe.com/).
 

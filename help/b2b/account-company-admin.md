@@ -33,7 +33,7 @@ Företagsadministratören tilldelas initialt när företagskontot skapas första
 
 1. Ange **[!UICONTROL Job Title]** för den nya företagsadministratören.
 
-   Den här åtgärden rensar formuläret och de obligatoriska _[!UICONTROL First Name]_- och_[!UICONTROL Last Name]_-fälten markeras.
+   Den här åtgärden rensar formuläret och de obligatoriska _[!UICONTROL First Name]_- och&#x200B;_[!UICONTROL Last Name]_-fälten markeras.
 
 1. Ange adressen **[!UICONTROL Email]** till den nya företagsadministratören.
 

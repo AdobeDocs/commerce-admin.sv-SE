@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Rubriknivåer skapar en hierarki som organiserar innehåll och hjälper sökmotorer att indexera varje sida. Använd innehållstypen _Rubrik_ i [[!DNL Page Builder] scenen](workspace.md#stage) för att lägga till en textbehållare med rubriknivå från H1 till H6 på scenen. Rubriker formateras enligt den formatmall som är kopplad till det aktuella temat.
 
-Fältet [Innehållsrubrik](workspace.md) i avsnittet _[!UICONTROL Content]_kan användas för att lägga till en H1-rubrik högst upp på sidan. Fältet är dock äldre än tidigare [!DNL Commerce] versioner och har stöd för äldre innehåll. Det här fältet utnyttjar inte de avancerade funktionerna i [!DNL Page Builder]. Vi rekommenderar att du lämnar fältet Innehållsrubrik tomt och använder innehållstypen [!DNL Page Builder] Rubrik för att lägga till rubriker på alla nivåer på sidan.
+Fältet [Innehållsrubrik](workspace.md) i avsnittet _[!UICONTROL Content]_&#x200B;kan användas för att lägga till en H1-rubrik högst upp på sidan. Fältet är dock äldre än tidigare [!DNL Commerce] versioner och har stöd för äldre innehåll. Det här fältet utnyttjar inte de avancerade funktionerna i [!DNL Page Builder]. Vi rekommenderar att du lämnar fältet Innehållsrubrik tomt och använder innehållstypen [!DNL Page Builder] Rubrik för att lägga till rubriker på alla nivåer på sidan.
 
 Följande exempel visar hur innehållstypen Innehållsrubrik och Rubrik visas när de formateras med Luma-temat.
 
@@ -74,7 +74,7 @@ Precis som för alla innehållsbehållare visas verktygslådan när du för musp
 
    Du kan även uppdatera innehållet i rubrikredigeraren.
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
 
    - Om du vill styra rubrikens placering i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
 

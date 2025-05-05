@@ -21,7 +21,7 @@ Processen med att skapa en widget är nästan densamma för varje [widgettyp](wi
 
 ### Steg 1: Välj typ
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Widget]**.
 
@@ -102,7 +102,7 @@ Titta på den här videon om du vill veta mer om hur du skapar widgetar:
 
 ## Redigera en widget
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta upp widgeten med hjälp av filtren ovanför stödrastret och klicka sedan på widgetens namn.
 
@@ -114,7 +114,7 @@ Titta på den här videon om du vill veta mer om hur du skapar widgetar:
 
 ## Ta bort en widget
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta upp widgetarna med hjälp av filtren ovanför stödrastret och markera sedan kryssrutan för de widgetar som ska tas bort.
 

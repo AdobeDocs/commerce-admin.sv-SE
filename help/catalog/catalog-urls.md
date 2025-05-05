@@ -37,7 +37,7 @@ URL-nyckeln är en del av en statisk URL som beskriver produkten eller kategorin
 
 >[!NOTE]
 >
->Som standard ersätts specialtecken med accent automatiskt med sina vanliga versioner utan accent i URL-tangenten. `ñ` ersätts till exempel automatiskt av `n`. Det här beteendet kan inaktiveras genom att konfigurationsalternativet _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_anges till `No`. Se [Konfigurera katalog-URL:er](#configure-catalog-urls).
+>Som standard ersätts specialtecken med accent automatiskt med sina vanliga versioner utan accent i URL-tangenten. `ñ` ersätts till exempel automatiskt av `n`. Det här beteendet kan inaktiveras genom att konfigurationsalternativet _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;anges till `No`. Se [Konfigurera katalog-URL:er](#configure-catalog-urls).
 
 URL-nyckeln ska bestå av gemener med bindestreck som inte är avslutande mellan dessa tecken för att avgränsa ord. Bindestreck tillåts inte i början eller slutet av URL-nyckeln. En väldesignad, &quot;sökmotorvänlig&quot; URL-nyckel kan innehålla produktnamn och nyckelord för att förbättra det sätt på vilket den indexeras av sökmotorer. URL-nyckeln kan konfigureras för att skapa en automatisk omdirigering om URL-nyckeln ändras.
 
@@ -76,7 +76,7 @@ Om du inte vill att sökmotorer ska kunna indexera flera URL:er som leder till s
 
 ## Konfigurera katalog-URL
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -102,7 +102,7 @@ Om du inte vill att sökmotorer ska kunna indexera flera URL:er som leder till s
 
 ## Konfigurera katalogmediets URL-format
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL General]** i den vänstra panelen och välj **[!UICONTROL Web]**.
 
@@ -113,7 +113,7 @@ Om du inte vill att sökmotorer ska kunna indexera flera URL:er som leder till s
 | Fält | [Omfång](../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Global | Om återskrivningar av webbservrar är aktiverade, infogar den här inställningen Store-koden för den aktuella vyn i URL:en. Alternativ: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Global | (För inställningar för en enskild butik) Om det finns en trasig länk på din webbplats dirigeras trafiken till bas-URL:en i stället för till en sida med meddelandet&quot;Hittar inte 404 sida&quot;. Alternativ: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Viktigt!_**Använd inte automatisk omdirigering till bas-URL för inställningar för flera lager. |
+| [!UICONTROL Auto-redirect to Base URL] | Global | (För inställningar för en enskild butik) Om det finns en trasig länk på din webbplats dirigeras trafiken till bas-URL:en i stället för till en sida med meddelandet&quot;Hittar inte 404 sida&quot;. Alternativ: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Viktigt!_**&#x200B;Använd inte automatisk omdirigering till bas-URL för inställningar för flera lager. |
 | [!UICONTROL Catalog media URL format] | Global | Definierar det URL-format som tilldelats produkter och kategorier. Alternativ: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Definierar det konverterade filnamnet som ett unikt hash-värde.<br />**[!UICONTROL Image optimization based on query parameters]** - Definierar [bildoptimeringsprocessen](../content-design/media-gallery-image-optimization.md) beroende på frågeparametrar. |
 
 {style="table-layout:auto"}

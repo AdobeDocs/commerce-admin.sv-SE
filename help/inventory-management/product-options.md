@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Konfigurera produktalternativ för [!DNL Inventory Management]
 
-Dessa konfigurationer gäller endast den redigerade produkten och åsidosätter alla konfigurationer på global webbplatsnivå. Ändra de här inställningarna när du redigerar en produkt via _[!UICONTROL Sources]_-avsnittet och_[!UICONTROL Advanced Inventory]_-sidan.
+Dessa konfigurationer gäller endast den redigerade produkten och åsidosätter alla konfigurationer på global webbplatsnivå. Ändra de här inställningarna när du redigerar en produkt via _[!UICONTROL Sources]_-avsnittet och&#x200B;_[!UICONTROL Advanced Inventory]_-sidan.
 
 - Konfigurera produktalternativ efter källa
 - Konfigurera produktalternativ för avancerat lager
@@ -51,8 +51,8 @@ Konfigurera kvantiteter och ytterligare inställningar per [tillagd källa](sour
 | [!UICONTROL Status] | Global | Produkten är aktiverad eller inaktiverad i katalogen. |
 | [!UICONTROL Source Item Status] | Global | Bestämmer produktens aktuella tillgänglighet. Alternativ:<br />`In Stock` - Gör produkten tillgänglig för köp.<br />`Out of Stock` - Om inte Restorder är aktiverade förhindras produkten från att bli tillgänglig för köp och listan tas bort från katalogen. |
 | [!UICONTROL Qty] | Global | Lagringsbelopp för varje källa eller plats. |
-| [!UICONTROL Notify Quantity] | Global | Ett belopp för _[!UICONTROL Notify for Quantity Below]_för den här specifika källan om_[!UICONTROL Notify Quantity Use Default]_ inte har valts. |
-| [!UICONTROL Notify Quantity Use Default] | Global | Anger att standardinställningen för _[!UICONTROL Notify for Quantity Below]_i produkten_[!UICONTROL Advanced Inventory]_ eller den globala inställningen i butikskonfigurationen ska användas. |
+| [!UICONTROL Notify Quantity] | Global | Ett belopp för _[!UICONTROL Notify for Quantity Below]_&#x200B;för den här specifika källan om&#x200B;_[!UICONTROL Notify Quantity Use Default]_ inte har valts. |
+| [!UICONTROL Notify Quantity Use Default] | Global | Anger att standardinställningen för _[!UICONTROL Notify for Quantity Below]_&#x200B;i produkten&#x200B;_[!UICONTROL Advanced Inventory]_ eller den globala inställningen i butikskonfigurationen ska användas. |
 
 ## Avancerade produktalternativ
 
@@ -74,9 +74,9 @@ Konfigurera kvantiteter och ytterligare inställningar per [tillagd källa](sour
 
    | Värde | Beskrivning |
    | ----- | ----- |
-   | Positivt belopp | Om _[!UICONTROL Backorders]_är inaktiverat anger du ett positivt värde. |
-   | Noll | Om _[!UICONTROL Backorders]_är aktiverat kan du ange `0` för oändliga efterbeställningar. |
-   | Negativt belopp | Om _[!UICONTROL Backorders]_är aktiverat bör du ange ett negativt värde. Beloppet läggs till i den säljbara kvantiteten. Ange till exempel `-50` om du vill tillåta order upp till detta belopp. |
+   | Positivt belopp | Om _[!UICONTROL Backorders]_&#x200B;är inaktiverat anger du ett positivt värde. |
+   | Noll | Om _[!UICONTROL Backorders]_&#x200B;är aktiverat kan du ange `0` för oändliga efterbeställningar. |
+   | Negativt belopp | Om _[!UICONTROL Backorders]_&#x200B;är aktiverat bör du ange ett negativt värde. Beloppet läggs till i den säljbara kvantiteten. Ange till exempel `-50` om du vill tillåta order upp till detta belopp. |
 
 1. Ange **[!UICONTROL Minimum Qty Allowed in Shopping Cart]**.
 

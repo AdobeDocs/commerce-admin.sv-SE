@@ -41,7 +41,7 @@ Funktionerna B2B [[!DNL Quick Order]](quick-order.md) och [[!DNL Requisition Lis
 
 Alternativen för att konfigurera Adobe Commerce B2B-funktioner är bara tillgängliga i Commerce-projekt som har [Adobe Commerce B2B-tillägget installerat](install.md).
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
    Om du har en installation med flera platser anger du kontrollen **[!UICONTROL Store View]** i det övre vänstra hörnet på webbplatsen där konfigurationen gäller.
 
@@ -103,7 +103,7 @@ Alternativen för att konfigurera Adobe Commerce B2B-funktioner är bara tillgä
 
 Den [säljare](account-company-manage.md#assign-a-sales-representative) som är tilldelad som primär kontakt för ett företag är som standard konfigurerad som avsändare av många automatiska e-postmeddelanden som skickas till företaget.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Company Configuration]**.
 
@@ -190,7 +190,7 @@ Den [säljare](account-company-manage.md#assign-a-sales-representative) som är 
 
 Möjligheten att spåra orderbehandling och inköpsorder ger företagsadministratörer kontroll över hur företagets köpare agerar. Funktionen för ordergodkännande är tillgänglig när funktionen för inköpsorder aktiveras av en butiksadministratör.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL General]** i den vänstra panelen och välj **[!UICONTROL B2B Features]**.
 
@@ -232,7 +232,7 @@ Betalning på konto är en offlinebetalningsmetod som gör att företag kan gör
 
 Så här aktiverar du Betalning på konto för din butik:
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 

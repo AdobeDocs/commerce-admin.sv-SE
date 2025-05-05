@@ -43,7 +43,7 @@ När kunderna glömmer sina lösenord skickas en återställningslänk till den 
 
 Du kan konfigurera butiken så att kunderna dirigeras om till sin kontouppsättning när de har loggat in eller låta dem fortsätta handla.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Customer Configuration]**.
 
@@ -80,7 +80,7 @@ För butiker med en konfigurerad [!DNL Amazon Pay]- och [!DNL Login with Amazon]
 
 ## Logga ut från ett kundkonto
 
-1. I det övre högra hörnet bredvid _[!UICONTROL Welcome, Customer Name!]_klickar kunden på menyväljaren **[!UICONTROL v]**.
+1. I det övre högra hörnet bredvid _[!UICONTROL Welcome, Customer Name!]_&#x200B;klickar kunden på menyväljaren **[!UICONTROL v]**.
 
 1. Välj **[!UICONTROL Sign Out]**.
 

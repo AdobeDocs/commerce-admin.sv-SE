@@ -32,7 +32,7 @@ Din [sekretesspolicy](privacy-policy.md)) ska innehålla namnet på din butik oc
 
 ### Steg 1: Aktivera läget för begränsning av cookies
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Web]** i den vänstra navigeringspanelen under **[!UICONTROL General]**.
 
@@ -206,7 +206,7 @@ Anges av Page Builder-modulen. Innehåller en flagga som förhindrar efterfölja
 
 Anges av Page Builder-modulen. Innehåller en flagga som förhindrar efterföljande uppmaningar att be en administratör bekräfta en viss åtgärd från att öppnas om administratören uttryckligen har stängt dem tidigare. Används endast i en butiks administrativa område. Gäller inte för kunder.
 
-#### `accordion-{VARIABLE}-{VARIABLE}`
+#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
 
 Används som en del av flikfunktionsimplementeringen endast i ett administrativt område i en butik. Gäller inte för kunder.
 

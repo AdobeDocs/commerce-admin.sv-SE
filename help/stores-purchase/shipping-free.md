@@ -20,7 +20,7 @@ _Fri frakt_ är en av de mest effektiva erbjudandena. Den kan baseras på ett mi
 
 ## Steg 1: Konfigurera fri frakt
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Delivery Methods]**.
 
@@ -38,7 +38,7 @@ _Fri frakt_ är en av de mest effektiva erbjudandena. Den kan baseras på ett mi
 
    >[!TIP]
    >
-   >Om du vill använda fri frakt med [tabellavgifter](shipping-table-rate.md) måste du göra _[!UICONTROL Minimum Order Amount]_så hög att den aldrig uppfylls. Om du använder det här höga värdet hindras fri frakt från att träda i kraft, såvida det inte triggas av en prisregel.
+   >Om du vill använda fri frakt med [tabellavgifter](shipping-table-rate.md) måste du göra _[!UICONTROL Minimum Order Amount]_&#x200B;så hög att den aldrig uppfylls. Om du använder det här höga värdet hindras fri frakt från att träda i kraft, såvida det inte triggas av en prisregel.
 
 1. Ange **[!UICONTROL Include Tax to Amount]**:
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Uppdatera en kundprofil
 
-Den vänstra panelen på sidan _[!UICONTROL Customer Information]_innehåller information om kundaktivitet, adresser, orderstatistik, senaste beställningar, kundvagnsinnehåll, produktrecensioner och prenumerationer på nyhetsbrev.
+Den vänstra panelen på sidan _[!UICONTROL Customer Information]_&#x200B;innehåller information om kundaktivitet, adresser, orderstatistik, senaste beställningar, kundvagnsinnehåll, produktrecensioner och prenumerationer på nyhetsbrev.
 
 ![Kundprofil](assets/cust-profile.png){width="700" zoomable="yes"}
 

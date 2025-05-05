@@ -27,7 +27,7 @@ _Order by SKU_ är en [widget](../content-design/widgets.md) som kan visas i but
 
 ## Konfigurera order efter SKU
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera avsnittet **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 
@@ -43,7 +43,7 @@ _Order by SKU_ är en [widget](../content-design/widgets.md) som kan visas i but
 
 1. Klicka på **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (endast Adobe Commerce B2B) _**Om du vill aktivera funktionen Ordna efter SKU inaktiverar du snabbordningsfunktionen:**_
+![Adobe Commerce B2B](../assets/b2b.svg) (endast Adobe Commerce B2B) _&#x200B;**Om du vill aktivera funktionen Ordna efter SKU inaktiverar du snabbordningsfunktionen:**&#x200B;_
 
 1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -75,7 +75,7 @@ När funktionen är konfigurerad för butiken kan kunderna beställa på SKU fr�
 
 1. Lägger till enskilda objekt efter inställning:
 
-   _**Lägger till varje objekt efter SKU:**_
+   _&#x200B;**Lägger till varje objekt efter SKU:**&#x200B;_
 
    - Anger **[!UICONTROL SKU]** och **[!UICONTROL Qty]** för objektet som ska ordnas.
 
@@ -83,7 +83,7 @@ När funktionen är konfigurerad för butiken kan kunderna beställa på SKU fr�
 
    - Klicka på **[!UICONTROL Add to Cart]**.
 
-   _**Överför en CSV-fil med flera objekt:**_
+   _&#x200B;**Överför en CSV-fil med flera objekt:**&#x200B;_
 
    - Förbereder en [import data-CSV](../systems/data-csv.md)-fil (kommaseparerat värde) som innehåller kolumner för `SKU` och `Qty`.
 

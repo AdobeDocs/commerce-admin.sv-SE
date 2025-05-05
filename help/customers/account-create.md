@@ -116,7 +116,7 @@ Som handlare kan du skapa ett kundkonto från administratören.
 
    >[!INFO]
    >
-   >När kundkontot har sparats visas alla alternativ på den vänstra panelen och på menyn överst på sidan. Fliken _[!UICONTROL Customer View]_visar en sammanfattning av kontot.
+   >När kundkontot har sparats visas alla alternativ på den vänstra panelen och på menyn överst på sidan. Fliken _[!UICONTROL Customer View]_&#x200B;visar en sammanfattning av kontot.
 
    ![Kundvy](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -147,7 +147,7 @@ Som handlare kan du skapa ett kundkonto från administratören.
 
    Annars klickar du på **[!UICONTROL Save and Continue Edit]** och upprepar föregående steg för att lägga till ytterligare adresser.
 
-   Den nya adressen visas på sidan [!UICONTROL Addresses] med de valda _[!UICONTROL Default Billing]_- och_[!UICONTROL Default Shipping]_-adresserna ovanför den fullständiga listan.
+   Den nya adressen visas på sidan [!UICONTROL Addresses] med de valda _[!UICONTROL Default Billing]_- och&#x200B;_[!UICONTROL Default Shipping]_-adresserna ovanför den fullständiga listan.
 
    ![Vyn Adresser](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -169,7 +169,7 @@ Ytterligare knappar blir tillgängliga när profilen sparas för första gången
 
 | Knapp | Beskrivning |
 |--- |--- |
-| **[!UICONTROL Back]** | Återgår till sidan _[!UICONTROL Customers]_utan att spara ändringarna. |
+| **[!UICONTROL Back]** | Återgår till sidan _[!UICONTROL Customers]_&#x200B;utan att spara ändringarna. |
 | **[!UICONTROL Delete Customer]** | Tar bort den aktuella kunden. Slutförda order som är kopplade till kunden tas inte bort. |
 | **[!UICONTROL Reset]** | Återställer alla osparade ändringar i kundformuläret till deras tidigare värden. |
 | **[!UICONTROL Create Order]** | Skapar en order för kunden. |

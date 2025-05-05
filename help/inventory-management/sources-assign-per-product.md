@@ -34,7 +34,7 @@ Innan du ändrar kvantiteter och inställningar måste du tilldela [källor](sou
 
 1. Klicka på **[!UICONTROL Assign Sources]** om du vill lägga till en källa.
 
-1. På sidan _[!UICONTROL Assign Sources]_markerar du kryssrutan bredvid varje källa som du vill tilldela produkten.
+1. På sidan _[!UICONTROL Assign Sources]_&#x200B;markerar du kryssrutan bredvid varje källa som du vill tilldela produkten.
 
    ![Produkt - tilldela källor](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 

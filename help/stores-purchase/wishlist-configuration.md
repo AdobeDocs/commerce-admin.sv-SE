@@ -16,7 +16,7 @@ Konfiguration av önskelista aktiverar önskelistor och fastställer e-postmalle
 
 ## Aktivera önskelistefunktioner
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Wish List]**.
 
@@ -61,7 +61,7 @@ Alla offentliga önskelistor kan hittas med widgeten [Wish List Search](../conte
 
 ![Exempelarkiv - sökning i önskelista](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Widget]** i det övre högra hörnet.
 
@@ -83,7 +83,7 @@ Alla offentliga önskelistor kan hittas med widgeten [Wish List Search](../conte
 
      `0` = first (standard), `1` = second, `2` = third och så vidare.
 
-1. Klicka på **[!UICONTROL Add Layout Update]** i avsnittet _[!UICONTROL Layout Updates]_och ange **[!UICONTROL Display on]**till något av följande:
+1. Klicka på **[!UICONTROL Add Layout Update]** i avsnittet _[!UICONTROL Layout Updates]_&#x200B;och ange **[!UICONTROL Display on]**&#x200B;till något av följande:
 
    - _[!UICONTROL Categories]_
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!UICONTROL Stores]-menyn
 
-Menyn _[!UICONTROL Stores]_ger åtkomst till inställningar som används mindre ofta, men som refereras under hela Adobe Commerce- eller Magento Open Source-installationen. Bland dessa funktioner finns inställningar för butikshierarki, konfiguration, försäljnings- och orderinställningar, moms och valuta, produktattribut, produktrecensioner och kundgrupper.
+Menyn _[!UICONTROL Stores]_&#x200B;ger åtkomst till inställningar som används mindre ofta, men som refereras under hela Adobe Commerce- eller Magento Open Source-installationen. Bland dessa funktioner finns inställningar för butikshierarki, konfiguration, försäljnings- och orderinställningar, moms och valuta, produktattribut, produktrecensioner och kundgrupper.
 
 ![Admin - menyn Lager](./assets/stores-menu.png){width="500" zoomable="yes"}
 

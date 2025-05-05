@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kategorier - Innehållsinställningar
 
-Inställningarna för _[!UICONTROL Content]_avgör om ytterligare innehåll visas på kategorisidan. Förutom listan med kategoriprodukter kan sidan innehålla en bild, beskrivning och CMS-block. Du kan använda [[!DNL Page Builder]](../page-builder/introduction.md)-innehållsverktygen för att definiera kategoribeskrivningen.
+Inställningarna för _[!UICONTROL Content]_&#x200B;avgör om ytterligare innehåll visas på kategorisidan. Förutom listan med kategoriprodukter kan sidan innehålla en bild, beskrivning och CMS-block. Du kan använda [[!DNL Page Builder]](../page-builder/introduction.md)-innehållsverktygen för att definiera kategoribeskrivningen.
 
 ## Lägg till kategoribeskrivningen i [!DNL Page Builder]
 

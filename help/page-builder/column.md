@@ -20,7 +20,7 @@ Använd innehållstypen _Kolumn_ för att dela upp en sida i flera kolumner på 
 
 ## Uppdateringar i version 2.4.5
 
-Page Builder-funktionerna uppdateras i version 2.4.5 så att användare nu använder _[!DNL Columns]_som överordnad behållare för enskilda kolumner. Den här nya behållaren stöder även egenskaper för bakgrund och eliminerar behovet av att radbryta kolumner. Det minskar onödig markering och ger bättre kontroll över butiksvisningen och upplevelsen.
+Page Builder-funktionerna uppdateras i version 2.4.5 så att användare nu använder _[!DNL Columns]_&#x200B;som överordnad behållare för enskilda kolumner. Den här nya behållaren stöder även egenskaper för bakgrund och eliminerar behovet av att radbryta kolumner. Det minskar onödig markering och ger bättre kontroll över butiksvisningen och upplevelsen.
 
 Du kan ändra layouten för behållaren [!DNL Columns] genom att dra en kolumn ovanför eller nedanför andra kolumner i gruppen och stapla dem. Detta öppnar en ny rad olika möjliga layoutkombinationer som kan uppnås utan att utvecklarna behöver anpassa dem.
 
@@ -100,7 +100,7 @@ I följande exempel med två kolumner anger siffrorna inom parentes (6/12) i den
 
    - Håll markören över kolumnen för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
-   - Rulla ned till avsnittet _[!UICONTROL Advanced]_och ange alla fyra **[!UICONTROL Padding]**-värdena till `0`.
+   - Rulla ned till avsnittet _[!UICONTROL Advanced]_&#x200B;och ange alla fyra **[!UICONTROL Padding]**-värdena till `0`.
 
      ![Använder ingen utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -170,7 +170,7 @@ I följande exempel med två kolumner anger siffrorna inom parentes (6/12) i den
 
    - **[!UICONTROL Background Repeat]** - Om du vill upprepa bakgrundsbilden för att fylla utrymmet ändrar du den här inställningen `Yes`.
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
 
    - Om du vill styra den vågräta placeringen av innehållsbehållare som läggs till i kolumnen väljer du en **[!UICONTROL Alignment]**:
 

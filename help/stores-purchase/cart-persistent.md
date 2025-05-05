@@ -28,17 +28,17 @@ Om du vill hantera användningen av kundvagnsbeständighet för din webbplats el
 
 När den beständiga kundvagnen är [aktiverad](#configure-a-persistent-cart) beror arbetsflödet på:
 
-- Värdena för inställningarna _[!UICONTROL Enable Remember Me]_och_[!UICONTROL Clear Persistence on Log Out]_
+- Värdena för inställningarna _[!UICONTROL Enable Remember Me]_&#x200B;och&#x200B;_[!UICONTROL Clear Persistence on Log Out]_
 - Kundens beslut att markera eller avmarkera kryssrutan _[!UICONTROL Remember Me]_
 - När den beständiga cookien rensas
 
 När kundsessionen förfaller visas en `Not Jane Smith?`-länk i sidhuvudet under följande villkor:
-- den inloggade kunden har valt alternativet _[!UICONTROL Remember Me]_och en beständig cookie används
-- kunden loggar ut när systemet har konfigurerats med _[!UICONTROL Clear Persistence on Sign Out]_inställt på `No`.
+- den inloggade kunden har valt alternativet _[!UICONTROL Remember Me]_&#x200B;och en beständig cookie används
+- kunden loggar ut när systemet har konfigurerats med _[!UICONTROL Clear Persistence on Sign Out]_&#x200B;inställt på `No`.
 
 Systemet sparar en post med kundvagnsinnehållet på den aktuella enheten, även om den inloggade sessionen går ut. Med länken `Not Jane Smith?` kan kunden avsluta den beständiga sessionen och börja arbeta som gäst, eller logga in som en annan eller samma kund.
 
-Om kunden markerade kryssrutan _[!UICONTROL Remember Me]_när han loggade in skapar och underhåller din butik en separat beständig cookie. Denna cookie hjälper kunden att hålla kundens kundvagn tillgänglig även när de har stängt webbläsaren eller navigerat till en annan webbplats och den inloggade sessionen förfaller.
+Om kunden markerade kryssrutan _[!UICONTROL Remember Me]_&#x200B;när han loggade in skapar och underhåller din butik en separat beständig cookie. Denna cookie hjälper kunden att hålla kundens kundvagn tillgänglig även när de har stängt webbläsaren eller navigerat till en annan webbplats och den inloggade sessionen förfaller.
 
 Om samma kund besöker din butik via flera webbläsare medan han/hon är inloggad eller medan en beständig session är aktiv, återspeglas kundens ändringar i kundvagnsinnehållet i en webbläsare i andra webbläsare när sidan uppdateras.
 
@@ -48,7 +48,7 @@ Om samma kund besöker din butik via flera webbläsare medan han/hon är inlogga
 
 ### Beteende för kryssrutan &quot;Kom ihåg mig&quot;
 
-Kunderna kan markera kryssrutan _[!UICONTROL Remember Me]_på inloggningssidan, autentiserings-popup, utcheckning av inloggningar eller när de skapar ett nytt konto för att hålla innehållet i kundvagnen tillgängligt på den aktuella enheten när den inloggade sessionen förfaller.
+Kunderna kan markera kryssrutan _[!UICONTROL Remember Me]_&#x200B;på inloggningssidan, autentiserings-popup, utcheckning av inloggningar eller när de skapar ett nytt konto för att hålla innehållet i kundvagnen tillgängligt på den aktuella enheten när den inloggade sessionen förfaller.
 
 | Kommer du ihåg mig? | Resultat |
 | ------------ |  ------ |

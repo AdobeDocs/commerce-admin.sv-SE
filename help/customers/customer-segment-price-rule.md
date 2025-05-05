@@ -18,7 +18,7 @@ Ett kundsegment kan användas för riktade kampanjer genom att associera det med
 
 ![Kundprisregel - riktat kundsegment](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_**Så här associerar du ett segment med en kundprisregel:**_
+_&#x200B;**Så här associerar du ett segment med en kundprisregel:**&#x200B;_
 
 1. Gå till **[!UICONTROL Marketing]** > _Kampanjer_ > **[!UICONTROL Cart Price Rules]** på sidofältet _Admin_.
 

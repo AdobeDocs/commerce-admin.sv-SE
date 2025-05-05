@@ -20,7 +20,7 @@ Moms beräknas utifrån butikens adress. Den faktiska kundskatten för en order 
 
 ## Definiera en ny momssats
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Tax Rate]** i det övre högra hörnet.
 
@@ -54,9 +54,9 @@ Moms beräknas utifrån butikens adress. Den faktiska kundskatten för en order 
 
 ## Redigera en befintlig momssats
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;på sidofältet_ Admin _.
 
-1. Hitta momssatsen i rutnätet _[!UICONTROL Tax Zones and Rates]_och öppna posten i redigeringsläge.
+1. Hitta momssatsen i rutnätet _[!UICONTROL Tax Zones and Rates]_&#x200B;och öppna posten i redigeringsläge.
 
    Om det finns många frekvenser i listan använder du [filterkontrollerna](../getting-started/admin-grid-controls.md) för att hitta den frekvens du behöver.
 
@@ -68,7 +68,7 @@ Moms beräknas utifrån butikens adress. Den faktiska kundskatten för en order 
 
 ## Ta bort momssats
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;på sidofältet_ Admin _.
 
 1. Hitta den momssats som ska tas bort och öppna den i redigeringsläge.
 

@@ -59,13 +59,13 @@ När du lägger till en företagsanvändare är det första företaget som du as
 
 [!UICONTROL Customers grid] visar en separat rad för varje företag som användaren har tilldelats. Följande kolumner uppdateras.
 
-- Kolumnen _[!UICONTROL Customer Type]_uppdateras för att visa rollen som tilldelats användaren.
+- Kolumnen _[!UICONTROL Customer Type]_&#x200B;uppdateras för att visa rollen som tilldelats användaren.
 
-  Om det här är första gången som kunden har tilldelats ett företag uppdateras kolumnen _[!UICONTROL Customer Type]_från_[!UICONTROL Individual user]_ till _[!UICONTROL Company User]_.
+  Om det här är första gången som kunden har tilldelats ett företag uppdateras kolumnen _[!UICONTROL Customer Type]_&#x200B;från&#x200B;_[!UICONTROL Individual user]_ till _[!UICONTROL Company User]_.
 
-- Kolumnen _[!UICONTROL Group]_ändras till namnet på kundgruppen (eller den delade katalogen) som har tilldelats företaget.
+- Kolumnen _[!UICONTROL Group]_&#x200B;ändras till namnet på kundgruppen (eller den delade katalogen) som har tilldelats företaget.
 
-- Kolumnen _[!UICONTROL Company]_visar namnet på det företag som kundprofilen nu är associerad med.
+- Kolumnen _[!UICONTROL Company]_&#x200B;visar namnet på det företag som kundprofilen nu är associerad med.
 
 ## Tilldela en användare till ett eller flera företagskonton
 
@@ -83,7 +83,7 @@ När du tilldelar en ny användare blir det första företaget som du associerar
 
 ## Ta bort företagstilldelning från ett användarkonto
 
-Om du tar bort ett företag från en användarprofil återkallas användaråtkomsten till det företaget. Användardata är fortfarande tillgängliga i Admin. Om du tar bort alla företagstilldelningar ändras _[!UICONTROL Customer Type]_till *[!UICONTROL Individual user]*som inaktiverar B2B-funktioner för kontot.
+Om du tar bort ett företag från en användarprofil återkallas användaråtkomsten till det företaget. Användardata är fortfarande tillgängliga i Admin. Om du tar bort alla företagstilldelningar ändras _[!UICONTROL Customer Type]_&#x200B;till *[!UICONTROL Individual user]*&#x200B;som inaktiverar B2B-funktioner för kontot.
 
 1. Redigera kundprofilen som ska uppdateras från kundrutnätet i Admin.
 

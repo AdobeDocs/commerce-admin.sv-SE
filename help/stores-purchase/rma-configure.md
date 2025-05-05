@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-När det här alternativet är aktiverat kan RMA-begäranden skickas in av kunder från butiken. Ett RMA-nummer kan bara genereras om det finns ett objekt i ordningen som kan returneras. Begäranden att returnera enskilda objekt hanteras av attributet _Enable RMA_ i varje produktpost. Som standard används konfigurationsinställningarna för produkten (_[!UICONTROL Use Config Settings]_är valt). Om_[!UICONTROL Enable RMA]_ är inställt på `No` visas produkten inte i listan med objekt som är tillgängliga för retur. Om du ändrar inställningen _Aktivera RMA_ gäller den både nya och befintliga order.
+När det här alternativet är aktiverat kan RMA-begäranden skickas in av kunder från butiken. Ett RMA-nummer kan bara genereras om det finns ett objekt i ordningen som kan returneras. Begäranden att returnera enskilda objekt hanteras av attributet _Enable RMA_ i varje produktpost. Som standard används konfigurationsinställningarna för produkten (_[!UICONTROL Use Config Settings]_&#x200B;är valt). Om&#x200B;_[!UICONTROL Enable RMA]_ är inställt på `No` visas produkten inte i listan med objekt som är tillgängliga för retur. Om du ändrar inställningen _Aktivera RMA_ gäller den både nya och befintliga order.
 
 ## Aktivera RMA för din butik
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 
@@ -34,7 +34,7 @@ När det här alternativet är aktiverat kan RMA-begäranden skickas in av kunde
 
    Den här inställningen avgör beteendet för attributet _Aktivera RMA_ för enskilda produkter i butiken:
 
-   - När [!UICONTROL Enable RMA on Product Level] är inställt på `Yes` kan kunder i butiken returnera alla enskilda produkter. Den innehåller både _[!UICONTROL Enable RMA]_= `Yes` och_[!UICONTROL Enable RMA]_ = `No` produktattributsvärden.
+   - När [!UICONTROL Enable RMA on Product Level] är inställt på `Yes` kan kunder i butiken returnera alla enskilda produkter. Den innehåller både _[!UICONTROL Enable RMA]_= `Yes` och&#x200B;_[!UICONTROL Enable RMA]_ = `No` produktattributsvärden.
    - När [!UICONTROL Enable RMA on Product Level] är inställt på `No` kan kunder på butiken bara returnera produkter med ett _[!UICONTROL Enable RMA]_= `Yes` produktattributvärde.
 
 1. Ange **[!UICONTROL Use Store Address]** till ett av följande värden:
@@ -48,7 +48,7 @@ När det här alternativet är aktiverat kan RMA-begäranden skickas in av kunde
 
 ## Konfigurera leveransmetoder för returer
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Delivery Methods]**.
 

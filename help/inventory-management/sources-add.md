@@ -18,7 +18,7 @@ Om du redigerar Source Standard kan du redigera alla konfigurationer förutom na
 
 ## Lägg till en lagerkälla
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Source]**.
 

@@ -22,11 +22,11 @@ Adobe Stock sökpanel är tillgänglig när du [lägger till eller redigerar en 
 
 **_Så här söker du efter Adobe Stock-resurser och lägger till en stockbild på en sida:_**
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add a New Page]**.
 
-   Om du vill redigera en befintlig sida kan du använda kolumnen _[!UICONTROL Action]_för att klicka på&#x200B;**[!UICONTROL Select]**och välja **[!UICONTROL Edit]**.
+   Om du vill redigera en befintlig sida kan du använda kolumnen _[!UICONTROL Action]_&#x200B;för att klicka på&#x200B;**[!UICONTROL Select]**&#x200B;och välja **[!UICONTROL Edit]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Content]** och gör följande:
 

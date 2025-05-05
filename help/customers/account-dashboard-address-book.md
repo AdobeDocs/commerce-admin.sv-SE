@@ -20,7 +20,7 @@ Kunder som håller sina adressböcker aktuella kan snabba upp kassaprocessen. Ad
 
 1. I den vänstra navigeringen för kundkontot väljer kunden **[!UICONTROL Address Book]**.
 
-1. Klicka på **[!UICONTROL Add New Address]** på sidan _[!UICONTROL Address Book]_under_ Ytterligare adressposter _.
+1. Klicka på **[!UICONTROL Add New Address]** på sidan _[!UICONTROL Address Book]_&#x200B;under_ Ytterligare adressposter _.
 
    ![Lägg till ny adress](assets/add-new-address.png){width="600" zoomable="yes"}
 

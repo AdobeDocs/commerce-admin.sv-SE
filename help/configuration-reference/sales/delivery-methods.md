@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | Webbplats | Anger den minsta vikt som ett paket kan ha enligt UPS-inställningarna. Om de beställda produkterna väger mindre än den minsta paketvikten är detta fraktalternativ inte tillgängligt. Kontrollera med din fraktfirma om du vill kontrollera minimivikten. |
 | [!UICONTROL Calculate Handling Fee] | Webbplats | Anger beräkningsmetoden för hanteringsavgift för tabellradsleverans. Alternativ: <br>**`Fixed`**- Hanteringsavgiften är en fast avgift.<br>**`Percent`** - Hanteringsavgift används som en procentandel av orderbeloppet. |
 | [!UICONTROL Handling Applied] | Webbplats | Anger om hanteringsavgift tillämpas på varje order eller på varje paket i en order. |
-| [!UICONTROL Handling Fee] | Webbplats | Anger den hantering som ingår i fraktpriset. Hanteringsavgift kan anges som ett fast belopp eller som en procentandel. <br/><br/>**_Obs!_**Om du anger ett procentvärde använder du decimalformatet `0.25` för 25 %. |
+| [!UICONTROL Handling Fee] | Webbplats | Anger den hantering som ingår i fraktpriset. Hanteringsavgift kan anges som ett fast belopp eller som en procentandel. <br/><br/>**_Obs!_**&#x200B;Om du anger ett procentvärde använder du decimalformatet `0.25` för 25 %. |
 
 {style="table-layout:auto"}
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Webbplats | Anger vilka UPS-leveransmetoder som erbjuds kunderna. Fraktsatser beräknas på den valda leveransmetoden. |
-| [!UICONTROL Free Method] | Webbplats | Identifierar den metod som används för kostnadsfri frakt via UPS. Om du vill inaktivera fri frakt väljer du Ingen. <br/><br/>**_Obs!_**Den här metoden liknar grundläggande [Fri frakt](../../stores-purchase/shipping-free.md), men den visas som ett UPS-leveransalternativ vid utcheckning. |
+| [!UICONTROL Free Method] | Webbplats | Identifierar den metod som används för kostnadsfri frakt via UPS. Om du vill inaktivera fri frakt väljer du Ingen. <br/><br/>**_Obs!_**&#x200B;Den här metoden liknar grundläggande [Fri frakt](../../stores-purchase/shipping-free.md), men den visas som ett UPS-leveransalternativ vid utcheckning. |
 | [!UICONTROL Free Shipping Amount Threshold] | Webbplats | Anger om fri frakt ska användas när orderbeloppet når tröskelvärdet för fri frakt. Alternativ: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Webbplats | Anger det minsta totala beloppet som en order måste uppnå för att få fri frakt. |
 | [!UICONTROL Displayed Error Message] | Butiksvy | Felmeddelandet som visas när den här leveransmetoden inte är tillgänglig av någon anledning. |
@@ -219,7 +219,7 @@ ht-degree: 0%
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Webbplats | Anger beräkningsmetoden för hanteringsavgift för tabellradsleverans. Alternativ: <br/>**`Fixed`**- Hanteringsavgiften är en fast avgift.<br/>**`Percent`** - Hanteringsavgift används som en procentandel av orderbeloppet. |
 | [!UICONTROL Handling Applied] | Webbplats | Anger om hanteringsavgift tillämpas på varje order eller på varje paket i en order. |
-| [!UICONTROL Handling Fee] | Webbplats | Anger den hantering som ingår i fraktpriset. Hanteringsavgift kan anges som ett fast belopp eller som en procentandel. <br/><br/>**_Obs!_**Använd decimalformatet `0.25` för 25 % när du skriver ett procentbelopp. |
+| [!UICONTROL Handling Fee] | Webbplats | Anger den hantering som ingår i fraktpriset. Hanteringsavgift kan anges som ett fast belopp eller som en procentandel. <br/><br/>**_Obs!_**&#x200B;Använd decimalformatet `0.25` för 25 % när du skriver ett procentbelopp. |
 
 {style="table-layout:auto"}
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Webbplats | Anger vilka metoder för USPS-leverans som erbjuds kunderna. Fraktsatser beräknas på den valda leveransmetoden. |
-| [!UICONTROL Free Method] | Webbplats | Anger metoden för fri frakt via USPS, eller kan inaktiveras genom att välja `None`. <br/><br/>**_Obs!_**Den här leveransmetoden liknar butikens kostnadsfria leveransmetod, men den anges som ett alternativ för USPS-leverans och identifieras som USPS-leverans. |
+| [!UICONTROL Free Method] | Webbplats | Anger metoden för fri frakt via USPS, eller kan inaktiveras genom att välja `None`. <br/><br/>**_Obs!_**&#x200B;Den här leveransmetoden liknar butikens kostnadsfria leveransmetod, men den anges som ett alternativ för USPS-leverans och identifieras som USPS-leverans. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Webbplats | Anger det minimiorderbelopp som måste uppfyllas för att få fri frakt. |
 | [!UICONTROL Displayed Error Message] | Butiksvy | Felmeddelandet som visas när USPS inte är tillgängligt av någon anledning. |
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | Webbplats | Bestämmer den metod som används för att beräkna hanteringsavgifter. Alternativ: `Fixed Fee` / `Percentage` <br/><br/>**_Obs!_**Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i leveranskostnaden för FedEx. |
+| [!UICONTROL Calculate Handling Fee] | Webbplats | Bestämmer den metod som används för att beräkna hanteringsavgifter. Alternativ: `Fixed Fee` / `Percentage` <br/><br/>**_Obs!_**&#x200B;Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i leveranskostnaden för FedEx. |
 | [!UICONTROL Handling Applied] | Webbplats | Avgör hur hanteringsavgifter tillämpas. Alternativ: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Webbplats | Anger det belopp som debiteras som en hanteringsavgift, baserat på den metod som används för att beräkna beloppet. Om avgiften baseras på en fast avgift anger du beloppet i decimalform, till exempel `4.90`. Om hanteringsavgiften baseras på en procentandel av ordern anger du beloppet som en procentandel. Om du till exempel vill debitera sex procent av ordern anger du värdet som `.06`. |
 
@@ -306,7 +306,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | Webbplats | Ange något av följande, beroende på om du säljer Business-to-Consumer (B2C) eller Business-to-Business (B2B): <br/>**`Yes`**- För B2C-leveranser<br/>**`No`** - För B2B-leveranser |
 | [!UICONTROL Allowed Methods] | Webbplats | Välj de leveransmetoder som du stöder i listan. Metoderna beror på ditt FedEx-konto, hur ofta och hur stora dina leveranser är och om du tillåter internationella leveranser. Som handlare kan du välja att endast erbjuda frakt på marken. |
 | [!UICONTROL Hub ID] | Webbplats | Ett ID från FedEx som används med metoden [!DNL Smart Post]. |
-| [!UICONTROL Free Method] | Webbplats | I listan väljer du den leveransmetod du vill använda för erbjudanden om fri frakt. <br/><br/>**_Obs!_**Den här leveransmetoden liknar den vanliga metoden för fri frakt, men den anges i FedEx leveransalternativ och identifieras som FedEx-leverans. |
+| [!UICONTROL Free Method] | Webbplats | I listan väljer du den leveransmetod du vill använda för erbjudanden om fri frakt. <br/><br/>**_Obs!_**&#x200B;Den här leveransmetoden liknar den vanliga metoden för fri frakt, men den anges i FedEx leveransalternativ och identifieras som FedEx-leverans. |
 | [!UICONTROL Free Shipping Amount Threshold] | Webbplats | Avgör om ett minimiorderbelopp krävs för fri frakt. Alternativ: <br/>**`Enable`**- Aktiverar kostnadsfri FedEx-leverans för order som uppfyller minimibeloppet.<br/>**`Disable`** - Inaktiverar fri FedEx-leverans med minimiorder. |
 | [!UICONTROL Free Shipping Amount Threshold] | Webbplats | Anger det minsta orderbelopp som krävs för fri frakt. |
 | [!UICONTROL Displayed Error Message] | Butiksvy | Meddelandet som visas när FedEx inte är tillgängligt av någon anledning. Du kan använda standardmeddelandet eller ange ett annat. |

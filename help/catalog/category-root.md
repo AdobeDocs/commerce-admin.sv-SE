@@ -48,7 +48,7 @@ I följande exempel visas hur du skapar en rotkategori och tilldelar den till en
 
 ## Steg 3: Tilldela rotkategorin till arkivet
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på den butik som du vill tilldela den nya katalogen i kolumnen _Lagrar_ i rutnätet.
 

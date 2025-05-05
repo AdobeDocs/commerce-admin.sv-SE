@@ -19,7 +19,7 @@ Om citattecken är aktiverade i de allmänna [B2B-funktionerna](enable-basic-fea
 >
 >Offertkonfigurationsalternativ och möjligheten att använda offertförhandlingsfunktioner styrs med [rollresurserna](../systems/permissions-user-roles.md#role-resources). Dessa rollresurser måste väljas för den administratörsanvändarroll som tilldelas administratörsanvändarkontot. Om du vill ge åtkomst till offertfunktioner i Admin går du till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**, markerar rollen och navigerar till [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] i trädet_ Rollresurser _.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Quotes]**.
 

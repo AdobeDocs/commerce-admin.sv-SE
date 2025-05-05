@@ -20,7 +20,7 @@ Se till att du har uppdaterat den e-postmall som behövs för att återspegla er
 
 ## Steg 2: Konfigurera e-postmeddelanden om misslyckade betalningar
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** på den vänstra panelen och välj **[!UICONTROL Checkout]**.
 

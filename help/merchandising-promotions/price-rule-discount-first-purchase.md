@@ -75,7 +75,7 @@ Kundsegmentet skapas och visas i rutnätet _[!UICONTROL Customer Segments]_.
 
 ## Steg 2. Skapa kundvagnsprisregel
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rule]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rule]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Rule]** i det övre högra hörnet.
 

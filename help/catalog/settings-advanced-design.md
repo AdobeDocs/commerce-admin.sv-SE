@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Produktinställningar - [!UICONTROL Design]
 
-Inställningarna för _[!UICONTROL Design]_gör att ett annat tema kan användas på produktsidan, ändra kolumnlayouten, bestämma var produktalternativen ska visas och ange anpassad XML-kod.
+Inställningarna för _[!UICONTROL Design]_&#x200B;gör att ett annat tema kan användas på produktsidan, ändra kolumnlayouten, bestämma var produktalternativen ska visas och ange anpassad XML-kod.
 
 ![Design](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->När samma produkt tilldelas till flera kategorier med olika designinställningar för varje kategori bör du ange **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` i konfigurationsalternativen för [Sökmotoroptimering](../configuration-reference/catalog/catalog.md#search-engine-optimization). Om du vill komma åt den här inställningen går du till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, expanderar **[!UICONTROL Catalog]**och väljer **[!UICONTROL Catalog]**under i den vänstra panelen. Expandera sedan avsnittet **[!UICONTROL Search Engine Optimization]**på sidan.
+>När samma produkt tilldelas till flera kategorier med olika designinställningar för varje kategori bör du ange **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` i konfigurationsalternativen för [Sökmotoroptimering](../configuration-reference/catalog/catalog.md#search-engine-optimization). Om du vill komma åt den här inställningen går du till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, expanderar **[!UICONTROL Catalog]**&#x200B;och väljer **[!UICONTROL Catalog]**&#x200B;under i den vänstra panelen. Expandera sedan avsnittet **[!UICONTROL Search Engine Optimization]**&#x200B;på sidan.
 
 | Fält | [Omfång](../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |---|---|----|

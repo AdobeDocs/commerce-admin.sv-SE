@@ -16,20 +16,20 @@ Cachehanteringssystemet Adobe Commerce och Magento Open Source är ett enkelt s�
 
 ![Spara produktattribut - uppdatera cachemeddelande](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-Sidan _[!UICONTROL Cache Management]_visar status för varje primärt cacheminne och dess associerade tagg. De stora knapparna i det övre högra hörnet kan användas för att tömma cacheminnet, eller den kompletta cachelagringen. Längst ned på sidan kan du med ytterligare knappar tömma cacheminnet för katalogproduktbilder och JavaScript/CSS-cacheminnet.
+Sidan _[!UICONTROL Cache Management]_&#x200B;visar status för varje primärt cacheminne och dess associerade tagg. De stora knapparna i det övre högra hörnet kan användas för att tömma cacheminnet, eller den kompletta cachelagringen. Längst ned på sidan kan du med ytterligare knappar tömma cacheminnet för katalogproduktbilder och JavaScript/CSS-cacheminnet.
 
 >[!IMPORTANT]
 >
->När katalogenheter ändras kan det påverka andra sidor och göra flera cacher ogiltiga samtidigt. När du granskar sidan för cachehantering kan du se ogiltiga objekt som behöver uppdateras när de _**inte redigerades direkt**_. Den här ogiltigförklaringen inträffar t.ex. när du redigerar en produkt i katalogen som är tilldelad en kategori eller när du ändrar en relaterad produktregel.
+>När katalogenheter ändras kan det påverka andra sidor och göra flera cacher ogiltiga samtidigt. När du granskar sidan för cachehantering kan du se ogiltiga objekt som behöver uppdateras när de _&#x200B;**inte redigerades direkt**&#x200B;_. Den här ogiltigförklaringen inträffar t.ex. när du redigerar en produkt i katalogen som är tilldelad en kategori eller när du ändrar en relaterad produktregel.
 
 När du har rensat ett cacheminne bör du alltid uppdatera webbläsaren så att du ser de senaste filerna. När du rensar Commerce-cachen rensas inte webbläsarens cacheminne. Du kan behöva rensa webbläsarens cache för att se uppdaterat innehåll.
 
 Mer teknisk information om Adobe Commerce-cachelagring finns i [Cacheöversikt](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=&quot;_blank&quot;} i _Commerce utvecklingsguide_.
 
-Gå till sidan _[!UICONTROL Cache Management]_genom att göra något av följande:
+Gå till sidan _[!UICONTROL Cache Management]_&#x200B;genom att göra något av följande:
 
 - Klicka på länken **[!UICONTROL Cache Management]** i meddelandet ovanför arbetsytan.
-- Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _.
+- Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _.
 
 ![Cachehantering](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
 
@@ -86,7 +86,7 @@ Mer information om hur du tilldelar resurser för att bevilja åtkomst för admi
 
 ## Rensa produktbildcachen
 
-1. Klicka på **[!UICONTROL Flush Catalog Images Cache]** under _[!UICONTROL Additional Cache Management]_för att rensa förgenererade produktbildfiler.
+1. Klicka på **[!UICONTROL Flush Catalog Images Cache]** under _[!UICONTROL Additional Cache Management]_&#x200B;för att rensa förgenererade produktbildfiler.
 
    Meddelandet `Image cache was cleaned` visas högst upp på arbetsytan.
 
@@ -94,7 +94,7 @@ Mer information om hur du tilldelar resurser för att bevilja åtkomst för admi
 
 ## Töm JavaScript/CSS-cachen
 
-1. Under _[!UICONTROL Additional Cache Management]_rensar du JavaScript- och CSS-filer som har slagits samman till en enda fil genom att klicka på&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**.
+1. Under _[!UICONTROL Additional Cache Management]_&#x200B;rensar du JavaScript- och CSS-filer som har slagits samman till en enda fil genom att klicka på&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**.
 
    Meddelandet `The JavaScript/CSS cache has been cleaned` visas högst upp på arbetsytan.
 
@@ -108,7 +108,7 @@ Systemadministratörer och utvecklare med tillgång till Commerce programserver 
 
 | Kontroll | Beskrivning |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Mass Actions] | Markerar kryssrutan för flera cacher. Alternativ: <br/>**[!UICONTROL Select All]**- Markerar kryssrutan för alla cacheminnen.<br/>** Avmarkera alla **- kryssrutan för alla cacheminnen rensas.<br/>**[!UICONTROL Select Visible]** - Markerar kryssrutan för alla synliga cacheminnen. <br/>**[!UICONTROL Unselect Visible]**- Rensar kryssrutan för alla synliga cacher. |
+| [!UICONTROL Mass Actions] | Markerar kryssrutan för flera cacher. Alternativ: <br/>**[!UICONTROL Select All]**- Markerar kryssrutan för alla cacheminnen.<br/>**&#x200B; Avmarkera alla &#x200B;**- kryssrutan för alla cacheminnen rensas.<br/>**[!UICONTROL Select Visible]** - Markerar kryssrutan för alla synliga cacheminnen. <br/>**[!UICONTROL Unselect Visible]**- Rensar kryssrutan för alla synliga cacher. |
 | [!UICONTROL Actions] | Anger vilken åtgärd som ska tillämpas på alla markerade cacheminnen. Alternativ: <br/>**[!UICONTROL Enable]**- Aktiverar alla markerade cacheminnen.<br/>**[!UICONTROL Disable]** - Inaktiverar alla markerade cacheminnen. <br/>**[!UICONTROL Refresh]**- Uppdaterar alla markerade cacheminnen. |
 | [!UICONTROL Submit] | Tillämpar åtgärden på alla markerade cacheminnen. |
 
@@ -185,7 +185,7 @@ Mer teknisk information finns i [Konfigurera och använda engelska](https://expe
 
 **_Så här konfigurerar du helsidescachen:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 

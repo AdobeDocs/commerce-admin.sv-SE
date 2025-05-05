@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Modulen [!DNL Inventory Management] har stöd för lagerkonfigurationsinställningar på produkt- och global nivå och innehåller även ytterligare inställningar som påverkar källans tillgänglighet, butiksprodukter och orderleverans. Konfigurationsinställningarna gäller för:
 
-- Hela katalogen: Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Expandera sedan **[!UICONTROL Catalog]**i den vänstra panelen och välj **[!UICONTROL Inventory]**.
+- Hela katalogen: Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Expandera sedan **[!UICONTROL Catalog]**&#x200B;i den vänstra panelen och välj **[!UICONTROL Inventory]**.
 
 - Särskilda produkter: Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]**. Öppna sedan produkten i redigeringsläge och klicka på **[!UICONTROL Advanced Inventory]** i avsnittet _[!UICONTROL Sources]_.
 
@@ -46,7 +46,7 @@ Ett annat sätt att använda tröskelvärdet för lagertillgänglighet är att h
 
 ## Återgång och arv för konfigurationsfall
 
-Konfigurationer åsidosätter eller används i följande arvssökväg: Avsnittet Product _[!UICONTROL Sources]_åsidosätter Product_[!UICONTROL Advanced Options]_ global _[!UICONTROL Inventory]_-butikskonfiguration.
+Konfigurationer åsidosätter eller används i följande arvssökväg: Avsnittet Product _[!UICONTROL Sources]_&#x200B;åsidosätter Product&#x200B;_[!UICONTROL Advanced Options]_ global _[!UICONTROL Inventory]_-butikskonfiguration.
 
 När [!DNL Commerce] söker efter anpassade inställningar som ska användas följer den ordningen:
 

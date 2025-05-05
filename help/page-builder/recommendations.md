@@ -45,7 +45,7 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
 1. Öppna sidan, blocket eller det dynamiska blocket i redigeringsläge.
 
-1. Expandera avsnittet _[!UICONTROL Content]_och klicka på&#x200B;**[!UICONTROL Edit with Page Builder]**eller inuti förhandsvisningsområdet för innehåll för att öppna arbetsytan för [!DNL Page Builder].
+1. Expandera avsnittet _[!UICONTROL Content]_&#x200B;och klicka på&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;eller inuti förhandsvisningsområdet för innehåll för att öppna arbetsytan för [!DNL Page Builder].
 
 1. Dra en **[!UICONTROL Row]**-platshållare till scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_.
 
@@ -68,7 +68,7 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
 1. Klicka på **[!UICONTROL Add Selected]** i det övre högra hörnet.
 
-   Namnet på den valda produktrekommendationen visas i avsnittet _[!UICONTROL Selection]_på sidan_[!UICONTROL Edit Product Recommendation]_.
+   Namnet på den valda produktrekommendationen visas i avsnittet _[!UICONTROL Selection]_&#x200B;på sidan&#x200B;_[!UICONTROL Edit Product Recommendation]_.
 
 1. Gör de ändringar som krävs för de [avancerade inställningarna](#advanced-settings).
 

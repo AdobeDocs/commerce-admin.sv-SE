@@ -28,7 +28,7 @@ Så här visar du alla granskningar för en viss produkt i Admin:
 
 ## Uppdatera status för granskningar
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**eller **[!UICONTROL All Reviews]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;eller **[!UICONTROL All Reviews]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på en väntande granskning i listan för att visa informationen och redigera vid behov.
 
@@ -56,7 +56,7 @@ Så här visar du alla granskningar för en viss produkt i Admin:
 
 Du kan uppdatera eller ta bort flera granskningar samtidigt:
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj de granskningar som du vill uppdatera.
 
@@ -66,7 +66,7 @@ Du kan uppdatera eller ta bort flera granskningar samtidigt:
 
 ## Ta bort en produktgranskning
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**&#x200B;på sidofältet_ Admin _.
 
 1. Hitta den produktgranskning som ska tas bort och öppna den i redigeringsläge.
 

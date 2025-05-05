@@ -142,7 +142,7 @@ Endast offertförfrågningar med statusen `Open` kan avvisas.
 
 1. Markera varje öppen offertförfrågan som du vill avvisa.
 
-1. Ställ in kontrollen _[!UICONTROL Actions]_på `Declined`.
+1. Ställ in kontrollen _[!UICONTROL Actions]_&#x200B;på `Declined`.
 
 1. Ange anledningen till att offerten avvisades när du uppmanas till detta och klicka på **[!UICONTROL Confirm]**.
 

@@ -16,7 +16,7 @@ En beställning som har betalats, men väntar på leverans, har statusen `Proces
 
 1. Välj **[!UICONTROL Sales]** > **[!UICONTROL Orders]** på sidofältet _Admin_.
 
-1. I listan _[!UICONTROL Orders]_letar du reda på den order som ska skickas och klickar för att öppna den.
+1. I listan _[!UICONTROL Orders]_&#x200B;letar du reda på den order som ska skickas och klickar för att öppna den.
 
 1. Klicka på knappen **[!UICONTROL Ship]** i det övre högra hörnet.
 
@@ -26,7 +26,7 @@ En beställning som har betalats, men väntar på leverans, har statusen `Proces
 
 1. Om du vill att transportören ska generera en leveransetikett markerar du kryssrutan **[!UICONTROL Create Shipping Label]** och anger alternativen:
 
-   - Om du vill lägga till ett spårningsnummer bläddrar du nedåt till avsnittet _[!UICONTROL Shipping Information]_och klickar på&#x200B;**[!UICONTROL Add Tracking Number]**.
+   - Om du vill lägga till ett spårningsnummer bläddrar du nedåt till avsnittet _[!UICONTROL Shipping Information]_&#x200B;och klickar på&#x200B;**[!UICONTROL Add Tracking Number]**.
 
    - Gör något av följande:
 
@@ -62,7 +62,7 @@ En beställning som har betalats, men väntar på leverans, har statusen `Proces
 
 1. Leta reda på leveransen i listan och klicka för att öppna posten.
 
-1. Om du vill lägga till en kommentar i ordningen rullar du nedåt till avsnittet _[!UICONTROL Comments History]_och anger kommentaren i rutan.
+1. Om du vill lägga till en kommentar i ordningen rullar du nedåt till avsnittet _[!UICONTROL Comments History]_&#x200B;och anger kommentaren i rutan.
 
    - Markera kryssrutan **[!UICONTROL Notify Customer by Email]** om du vill skicka kommentaren till kunden via e-post.
 
@@ -78,7 +78,7 @@ En beställning som har betalats, men väntar på leverans, har statusen `Proces
 
 1. Hitta leveransordern i rutnätet och klicka på **[!UICONTROL View]**.
 
-1. Bläddra ned till avsnittet _[!UICONTROL Shipping & Handling Information]_och klicka på&#x200B;**[!UICONTROL Track Order]**.
+1. Bläddra ned till avsnittet _[!UICONTROL Shipping & Handling Information]_&#x200B;och klicka på&#x200B;**[!UICONTROL Track Order]**.
 
    All tillgänglig spårningsinformation visas i ett popup-fönster.
 

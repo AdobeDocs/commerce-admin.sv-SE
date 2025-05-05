@@ -19,7 +19,7 @@ Med leveransmetoden i butik kan kunden välja en källa som ska användas som h�
 Vid utcheckning av butiken:
 
 1. Kunden klickar på **[!UICONTROL Pick In Store]** eller väljer leveransmetoden _[!UICONTROL In-Store Pickup Delivery]_.
-1. Utcheckningsfliken _[!UICONTROL Pick In Store]_öppnas.
+1. Utcheckningsfliken _[!UICONTROL Pick In Store]_&#x200B;öppnas.
 
 När kunden har en adress eller tidigare fyllt i leveransadressformuläret innan han/hon växlar till fliken _[!UICONTROL Pick In Store]_:
 
@@ -52,7 +52,7 @@ Om kunden inte har någon adress eller tidigare har fyllt i leveransadressformul
 
 Kontrollera först att leverans i butik är aktiverat.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Delivery Methods]**.
 

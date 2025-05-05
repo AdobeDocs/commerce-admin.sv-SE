@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Skapa och ta bort produktattribut
 
-Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONTROL Product Attributes]_. I följande steg visas hur du skapar attribut på menyn_[!UICONTROL Stores]_.
+Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONTROL Product Attributes]_. I följande steg visas hur du skapar attribut på menyn&#x200B;_[!UICONTROL Stores]_.
 
 ## Steg 1: Beskriv de grundläggande attributegenskaperna
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Attribute]**.
 
@@ -31,7 +31,7 @@ Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONT
    | `Text Field` | Ett enradigt inmatningsfält för text. |
    | `Text Area` | Ett inmatningsfält med flera rader för att skriva textstycken, som en produktbeskrivning. Du kan använda WYSIWYG Editor för att formatera texten med HTML-taggar eller ange taggarna direkt i texten. |
    | `Text Editor` | En fullt fungerande textredigerare på attributplatsen. |
-   | Datum | Visar ett datumvärde i det [önskade formatet](attributes-input-types.md#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**Beroende på systemkonfigurationen kan_Admin _-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](attributes-input-types.md#date-and-time-options). |
+   | Datum | Visar ett datumvärde i det [önskade formatet](attributes-input-types.md#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**&#x200B;Beroende på systemkonfigurationen kan_Admin _-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Visar en nedrullningsbar lista med fördefinierade alternativ för `Yes` och `No`. |
    | `Dropdown` | Visar en nedrullningsbar lista med värden som endast accepterar ett val. Indatatypen för listrutan är en nyckelkomponent för [konfigurerbara produkter](product-create-configurable.md). |
    | `Multiple Select` | Visar en nedrullningsbar lista med värden som accepterar flera val. |
@@ -175,7 +175,7 @@ Innan du tar bort ett attribut bör du kontrollera att det inte används av någ
 
 **_Så här tar du bort ett attribut:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på attributet i listan och öppna i redigeringsläge.
 

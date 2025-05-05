@@ -23,7 +23,7 @@ Följ de här instruktionerna för att [skapa de dynamiska blocken](dynamic-bloc
 
 ## Steg 2: Lägg till en widget för dynamisk blockrotering
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Widget]** i det övre högra hörnet.
 

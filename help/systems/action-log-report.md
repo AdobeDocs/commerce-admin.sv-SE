@@ -34,7 +34,7 @@ Rapporten Åtgärdsloggar innehåller följande information:
 
 ## Visa rapporten Åtgärdsloggar
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Report]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Report]**&#x200B;på sidofältet_ Admin _.
 
    ![Åtgärdsloggar](./assets/action-log-report.png){width="600" zoomable="yes"}
 

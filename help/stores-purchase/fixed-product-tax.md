@@ -39,7 +39,7 @@ Följande instruktioner visar hur du ställer in en fast produktskatt för din b
 
 ### Steg 1: Aktivera fast produktskatt
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Tax]**.
 
@@ -73,7 +73,7 @@ Följande instruktioner visar hur du ställer in en fast produktskatt för din b
 
 ### Steg 2: Skapa ett FPT-attribut
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Attribute]** i det övre högra hörnet och gör följande:
 
@@ -103,7 +103,7 @@ Följande instruktioner visar hur du ställer in en fast produktskatt för din b
 
 ### Steg 3: Lägg till FPT-attributet i en attributuppsättning
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på attributuppsättningen i listan för att öppna posten i redigeringsläge.
 

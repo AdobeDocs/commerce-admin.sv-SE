@@ -26,7 +26,7 @@ Butiksadministratörer kan visa kreditsaldo och kredithistorik från kundkontot 
 
 1. Klicka på **[!UICONTROL Edit]** i kolumnen _Åtgärd_.
 
-1. Rulla sidan _[!UICONTROL Customer View]_och visa **[!UICONTROL Store Credit Balance]**längst ned.
+1. Rulla sidan _[!UICONTROL Customer View]_&#x200B;och visa **[!UICONTROL Store Credit Balance]**&#x200B;längst ned.
 
 ![Butikskreditsaldo](assets/store-credit-balance.png){width="600" zoomable="yes"}
 

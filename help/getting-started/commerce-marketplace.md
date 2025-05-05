@@ -59,7 +59,7 @@ Du kan skapa flera åtkomstnycklar för olika syften och aktivera eller inaktive
 
    ![Din [!DNL Marketplace]-profil](./assets/marketplace-profile.png){width="600"}
 
-1. Klicka på **[!UICONTROL Access Keys]** på fliken _[!UICONTROL Marketplace]_under_[!UICONTROL My Products]_ och gör sedan något av följande:
+1. Klicka på **[!UICONTROL Access Keys]** på fliken _[!UICONTROL Marketplace]_&#x200B;under&#x200B;_[!UICONTROL My Products]_ och gör sedan något av följande:
 
    - Kontrollera om du redan har en uppsättning nycklar för dina Marketplace-inköp. Du kan skapa flera uppsättningar åtkomstnycklar för olika syften.
 

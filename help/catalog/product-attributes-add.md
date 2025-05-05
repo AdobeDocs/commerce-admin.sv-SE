@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ![Attributegenskaper](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. Under _[!UICONTROL Attribute Properties]_anger du ett **[!UICONTROL Attribute Label]**för att identifiera attributet.
+1. Under _[!UICONTROL Attribute Properties]_&#x200B;anger du ett **[!UICONTROL Attribute Label]**&#x200B;för att identifiera attributet.
 
 1. Ange **[!UICONTROL Catalog Input Type for Store Owner]** till typen för [indatakontroll](attributes-input-types.md) som ska användas för datainmatning.
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. Om du vill kunna ta med attributet som en kolumn i rutnätet Produkter anger du **[!UICONTROL Add to Column Options]** till `Yes`.
 
-1. Om du vill kunna filtrera stödrastret _[!UICONTROL Products]_efter den här kolumnen anger du **[!UICONTROL Use in Filter Options]**till `Yes`.
+1. Om du vill kunna filtrera stödrastret _[!UICONTROL Products]_&#x200B;efter den här kolumnen anger du **[!UICONTROL Use in Filter Options]**&#x200B;till `Yes`.
 
 ## Steg 4: Ange fältetiketten
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >När inställningen _[!UICONTROL Use in Search]_är inställd på `No` visas inte inställningen_[!UICONTROL Use in Search Results Layered Navigation]_ och produktattributet används inte i sökningen med något [!UICONTROL Use in Layered Navigation]-inställningsvärde.
+   >När inställningen _[!UICONTROL Use in Search]_&#x200B;är inställd på `No` visas inte inställningen&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ och produktattributet används inte i sökningen med något [!UICONTROL Use in Layered Navigation]-inställningsvärde.
 
 1. Om du vill använda attributet i lageruppbyggd navigering på sökresultatsidor anger du **[!UICONTROL Use in Search Results Layered Navigation]** till `Yes` och anger ett tal i fältet **[!UICONTROL Position]**.
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Fältet _[!UICONTROL Position]_är som standard nedtonat och du måste spara attributet innan du kan ändra den här inställningen.
+   >Fältet _[!UICONTROL Position]_&#x200B;är som standard nedtonat och du måste spara attributet innan du kan ändra den här inställningen.
 
 1. Om du vill använda attributet i prisregler anger du **[!UICONTROL Use for Promo Rule Conditions]** till `Yes`.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Leveranser
 
-I rutnätet _[!UICONTROL Shipments]_visas försändelseposten för alla fakturor som har förberetts för leverans. En försändelsepost kan genereras när en order är [fakturerad](invoices.md) eller senare.
+I rutnätet _[!UICONTROL Shipments]_&#x200B;visas försändelseposten för alla fakturor som har förberetts för leverans. En försändelsepost kan genereras när en order är [fakturerad](invoices.md) eller senare.
 
 Adobe Commerce och Magento Open Source har stöd för partiell och fullständig orderleverans, med ytterligare alternativ tillgängliga från [Inventory management](../inventory-management/introduction.md) och tredjepartstillägg.
 
@@ -77,7 +77,7 @@ Följ instruktionerna nedan om du vill skapa en leverans i Adobe Commerce eller 
 
 1. Klicka på **[!UICONTROL Ship]**.
 
-1. Bläddra ned till blocket _[!UICONTROL Payment & Shipping Method]_och klicka på&#x200B;**[!UICONTROL Add Tracking Number]**.
+1. Bläddra ned till blocket _[!UICONTROL Payment & Shipping Method]_&#x200B;och klicka på&#x200B;**[!UICONTROL Add Tracking Number]**.
 
 1. Ange **[!UICONTROL Carrier]**:
 
@@ -132,7 +132,7 @@ Du kan ändra frakt- och spårningsinformation efter behov med hjälp av direktu
 
 ## Ställ in kommentarer för leveranser
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Sales Email]** under _[!UICONTROL Sales]_.
 
@@ -166,7 +166,7 @@ Innan en försändelse skickas till en transportör kan den avbrytas genom att m
 
 1. Välj **[!UICONTROL Shipments]** på den vänstra panelen.
 
-   Om leveransen kan avbrytas visas _[!UICONTROL Cancel Shipment]_som ett alternativ i det övre knappfältet.
+   Om leveransen kan avbrytas visas _[!UICONTROL Cancel Shipment]_&#x200B;som ett alternativ i det övre knappfältet.
 
 1. Klicka på **[!UICONTROL Cancel Shipment]**.
 

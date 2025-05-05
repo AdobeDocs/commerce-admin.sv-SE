@@ -62,7 +62,7 @@ Kundtjänstsidan är en annan nod i sidhierarkin. De två rubrikerna på sidan h
 
 Konfigurationen _Standardsidor_ avgör vilken landningssida som är associerad med [bas-URL:en](../stores-purchase/store-urls.md) och motsvarande startsida. Den avgör också vilken sida som visas när ett _Sidan hittades inte_-fel inträffar och om ett [flödeslänk ](../catalog/navigation-breadcrumb-trail.md) visas högst upp på varje sida.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Web]** i den vänstra panelen under _[!UICONTROL General]_.
 
@@ -87,7 +87,7 @@ Konfigurationen _Standardsidor_ avgör vilken landningssida som är associerad m
 
    >[!NOTE]
    >
-   >Om du vill visa en viss butiksvy avmarkerar du kryssrutan **[!UICONTROL Use Default]** bredvid _[!UICONTROL Default Web URL]_och alla andra standardinställningar som ska ändras.
+   >Om du vill visa en viss butiksvy avmarkerar du kryssrutan **[!UICONTROL Use Default]** bredvid _[!UICONTROL Default Web URL]_&#x200B;och alla andra standardinställningar som ska ändras.
 
 1. Ange **[!UICONTROL CMS Home Page]** på CMS-sidan som ska användas som startsida. Andra skapade sidor kan användas som startsida, till exempel:
 

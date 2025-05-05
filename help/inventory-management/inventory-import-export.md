@@ -37,7 +37,7 @@ Använd en CSV-fil för att snabbt uppdatera flera produkter och tilldelade käl
 
 ## Exportera produktdata för alla källor
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj `Stock Sources` för **[!UICONTROL Entity Type]**.
 
@@ -53,7 +53,7 @@ Importera filen tillbaka till [!DNL Commerce] när du har uppdaterat lagerbelopp
 
 ## Exportera produktdata för en viss källa
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj `Stock Sources` för **[!UICONTROL Entity Type]**.
 
@@ -71,7 +71,7 @@ Importera filen tillbaka till [!DNL Commerce] när du har uppdaterat lagerbelopp
 
 ## Importera produktdata
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj `Stock Sources` för **[!UICONTROL Entity Type]**.
 

@@ -58,7 +58,7 @@ Innan du försöker importera många bilder ska du granska stegen i den importme
 
    >[!TIP]
    >
-   >Lämna _[!UICONTROL Images File Directory]_tomt om du vill använda katalogen `<Magento-root-folder>/var/import/images`. Från och med Adobe Commerce och Magento Open Source version 2.3.2 är detta standardkatalogen för importbilder.
+   >Lämna _[!UICONTROL Images File Directory]_&#x200B;tomt om du vill använda katalogen `<Magento-root-folder>/var/import/images`. Från och med Adobe Commerce och Magento Open Source version 2.3.2 är detta standardkatalogen för importbilder.
 
    Om du importerar flera bilder för en enskild `sku` infogar du bilderna i kolumnen `additional_images` (lägg till kolumnen om den inte redan har lagts till), avgränsade med kommatecken. Exempel: `image02.jpg,image03.jpg`
 
@@ -84,7 +84,7 @@ Innan du försöker importera många bilder ska du granska stegen i den importme
 
    >[!NOTE]
    >
-   >Från och med Adobe Commerce och Magento Open Source `2.3.2` sammanfogas sökvägen som anges i _[!UICONTROL Images File Directory]_för import till bildens baskatalog: `<remote-storage-root-folder>/var/import/images`. I tidigare versioner av Adobe Commerce och Magento Open Source kan du använda en annan mapp på Commerce-servern så länge sökvägen till mappen anges under importen.
+   >Från och med Adobe Commerce och Magento Open Source `2.3.2` sammanfogas sökvägen som anges i _[!UICONTROL Images File Directory]_&#x200B;för import till bildens baskatalog: `<remote-storage-root-folder>/var/import/images`. I tidigare versioner av Adobe Commerce och Magento Open Source kan du använda en annan mapp på Commerce-servern så länge sökvägen till mappen anges under importen.
 
 1. I CSV-data anger du namnet på varje bildfil som ska importeras på rätt rad, av `sku`, och i rätt kolumn enligt bildtyp (`base_image`, `small_image`, `thumbnail_image` eller `additional_images`).
 
@@ -106,7 +106,7 @@ Innan du försöker importera många bilder ska du granska stegen i den importme
 
    >[!TIP]
    >
-   >Lämna _[!UICONTROL Images File Directory]_tomt om du vill använda katalogen `<Magento-root-folder>/var/import/images`. Från och med Adobe Commerce och Magento Open Source version 2.3.2 är detta standardkatalogen för importbilder.
+   >Lämna _[!UICONTROL Images File Directory]_&#x200B;tomt om du vill använda katalogen `<Magento-root-folder>/var/import/images`. Från och med Adobe Commerce och Magento Open Source version 2.3.2 är detta standardkatalogen för importbilder.
 
    Om du importerar flera bilder för en enskild `sku` infogar du bilderna i kolumnen `additional_images` (lägg till kolumnen om den inte redan har lagts till), avgränsade med kommatecken: `image02.jpg,image03.jpg`
 

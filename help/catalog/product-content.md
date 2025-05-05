@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktinställningar - [!UICONTROL Content]
 
-Avsnittet _[!UICONTROL Content]_används för att ange och redigera huvudproduktbeskrivningen som visas på produktsidan. Den korta beskrivningen kan användas i de flesta RSS-flöden och kan även visas i kataloglistor, beroende på [tema](../content-design/themes.md).
+Avsnittet _[!UICONTROL Content]_&#x200B;används för att ange och redigera huvudproduktbeskrivningen som visas på produktsidan. Den korta beskrivningen kan användas i de flesta RSS-flöden och kan även visas i kataloglistor, beroende på [tema](../content-design/themes.md).
 
 ## Lägg till produktbeskrivningen i [!DNL Page Builder]
 
@@ -30,7 +30,7 @@ Avsnittet _[!UICONTROL Content]_används för att ange och redigera huvudprodukt
 
 ## [!DNL Page Builder] förhandsgranskning
 
-När du expanderar avsnittet _[!UICONTROL Content]_för en befintlig produkt där det finns innehåll som skapats med [!DNL Page Builder] visas en förhandsgranskning av **[!UICONTROL Description]**-innehållet så som det skulle visas på produktsidan. Öppna arbetsytan [!DNL Page Builder], där du kan göra nödvändiga uppdateringar genom att klicka på&#x200B;**[!UICONTROL Edit with Page Builder]**.
+När du expanderar avsnittet _[!UICONTROL Content]_&#x200B;för en befintlig produkt där det finns innehåll som skapats med [!DNL Page Builder] visas en förhandsgranskning av **[!UICONTROL Description]**-innehållet så som det skulle visas på produktsidan. Öppna arbetsytan [!DNL Page Builder], där du kan göra nödvändiga uppdateringar genom att klicka på&#x200B;**[!UICONTROL Edit with Page Builder]**.
 
 ![Förhandsgranskning av beskrivning](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

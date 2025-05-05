@@ -17,11 +17,11 @@ Filen `security.txt` innehåller kontaktinformation och säkerhetsrelaterade lä
 
 **_Så här konfigurerar du security.txt:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Security.txt]** i den vänstra panelen under _[!UICONTROL Security]_.
 
-1. I avsnittet _[!UICONTROL General]_anger du **[!UICONTROL Enable]**till `Yes`.
+1. I avsnittet _[!UICONTROL General]_&#x200B;anger du **[!UICONTROL Enable]**&#x200B;till `Yes`.
 
    ![Allmän säkerhetskonfiguration](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 

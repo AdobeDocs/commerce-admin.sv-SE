@@ -256,7 +256,7 @@ En bakgrundstyp kan vara en bild eller en video. [!DNL Page Builder] är som sta
 
 ### Inställningar för bildtyp
 
-Om du ställer in _[!UICONTROL Background Type]_på `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
+Om du ställer in _[!UICONTROL Background Type]_&#x200B;på `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
 
 ![Banner med bakgrundsbild](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ Du kan ändra bildinnehållet direkt på scenen eller när du ändrar inställni
 
 1. Klicka på navigeringspunkten längst ned i skjutreglaget för att visa verktygslådan för den enskilda bildrutan och välj ikonen _Inställningar_ ( ![Inställningsikon](./assets/pb-icon-settings.png){width="20"} ).
 
-1. I avsnittet _[!UICONTROL Content]_anger du den **[!UICONTROL Message Text]**som du vill ska visas med bildrutan.
+1. I avsnittet _[!UICONTROL Content]_&#x200B;anger du den **[!UICONTROL Message Text]**&#x200B;som du vill ska visas med bildrutan.
 
-1. Bläddra ned till avsnittet _[!UICONTROL Content]_och använd **[!UICONTROL Message Text]**-redigeraren för att ange och formatera banderolltext.
+1. Bläddra ned till avsnittet _[!UICONTROL Content]_&#x200B;och använd **[!UICONTROL Message Text]**-redigeraren för att ange och formatera banderolltext.
 
    Du kan också infoga element, till exempel textlänkar, bilder och widgetar.
 

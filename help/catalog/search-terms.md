@@ -42,13 +42,13 @@ När du lär dig nya ord som andra använder för att söka i din butik kan du l
 
 ### Lägg till en sökterm
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Search Term]**.
 
    ![Sök efter allmänna termer ](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. Ange det ord eller den fras du vill lägga till som ett nytt sökord under _[!UICONTROL General Information]_i rutan **[!UICONTROL Search Query]**.
+1. Ange det ord eller den fras du vill lägga till som ett nytt sökord under _[!UICONTROL General Information]_&#x200B;i rutan **[!UICONTROL Search Query]**.
 
 1. Om din butik finns tillgänglig på flera språk väljer du lämplig **[!UICONTROL Store]**-vy.
 
@@ -60,7 +60,7 @@ När du lär dig nya ord som andra använder för att söka i din butik kan du l
 
 ## Redigera en sökterm
 
-1. I rutnätet _[!UICONTROL Search Terms]_klickar du på raden för en post för att öppna söktermen i redigeringsläge.
+1. I rutnätet _[!UICONTROL Search Terms]_&#x200B;klickar du på raden för en post för att öppna söktermen i redigeringsläge.
 
 1. Gör de ändringar som behövs.
 
@@ -80,7 +80,7 @@ Det finns två metoder för att ta bort en sökterm - från rutnätet och på re
 
 **Metod 2:** På sidan _[!UICONTROL Edit a Search Term]_
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**&#x200B;på sidofältet_ Admin _.
 
 1. Sök efter den sökterm som ska tas bort och öppna den i redigeringsläge.
 
@@ -98,7 +98,7 @@ Vanliga söktermer är som standard aktiverade som sökmotoroptimeringsverktyg, 
 
 **_Så här konfigurerar du vanliga söktermer:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -139,9 +139,9 @@ Adobe Commerce har stöd för två olika synonymhanteringslösningar:
 
 ### Skapa en synonymgrupp
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**&#x200B;på sidofältet_ Admin _.
 
-   Rutnätet _[!UICONTROL Search Synonyms]_visas. Om det är första gången du använder söksynonymer är rutnätet tomt.
+   Rutnätet _[!UICONTROL Search Synonyms]_&#x200B;visas. Om det är första gången du använder söksynonymer är rutnätet tomt.
 
    ![Sök i synonymrutnät](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
@@ -164,7 +164,7 @@ Adobe Commerce har stöd för två olika synonymhanteringslösningar:
 
 ### Redigera en synonymgrupp
 
-1. I stödrastret _[!UICONTROL Search Synonyms]_klickar du på raden för en post för att öppna synonymgruppen i redigeringsläge.
+1. I stödrastret _[!UICONTROL Search Synonyms]_&#x200B;klickar du på raden för en post för att öppna synonymgruppen i redigeringsläge.
 
 1. Gör de ändringar som behövs.
 
@@ -196,7 +196,7 @@ I rapporten Sökvillkor visas antalet resultat för varje term och antalet träf
 
 ### Visa rapporten
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Search Terms]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Search Terms]**&#x200B;på sidofältet_ Admin _.
 
 1. Använd kontrollerna för att filtrera rapporten efter behov.
 

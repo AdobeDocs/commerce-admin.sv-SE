@@ -20,7 +20,7 @@ Returattributen används för att lagra information som behövs under produktret
 
 ## Skapa ett returattribut
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Attribute]** i det övre högra hörnet.
 

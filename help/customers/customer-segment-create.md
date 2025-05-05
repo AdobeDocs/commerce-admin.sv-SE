@@ -18,20 +18,20 @@ Att skapa ett kundsegment liknar att skapa en [kundprisregel](../merchandising-p
 
 ![Kundsegmentlista](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_**[!UICONTROL Customer Segments]rutnät **_
+_&#x200B;**[!UICONTROL Customer Segments]rutnät &#x200B;** _
 
 | Kolumn | Beskrivning |
 |--- |--- |
 | **[!UICONTROL ID]** | Unikt ID för kundsegment. |
 | **[!UICONTROL Segment]** | Namnet på kundsegmentet. |
-| **[!UICONTROL Status]** | Anger om kundsegmentet är _[!UICONTROL Active]_eller_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Anger om kundsegmentet är _[!UICONTROL Active]_&#x200B;eller&#x200B;_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Anger den webbplats som kundsegmentet tillhör. |
 
 {style="table-layout:auto"}
 
 ## Krav: Aktivera kundsegment
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Customer Configuration]**.
 
@@ -82,7 +82,7 @@ I följande steg används ett exempel för att skapa ett kundsegment som riktar 
 
 1. Klicka på **[!UICONTROL Save and Continue Edit]**.
 
-   När du har sparat segmentet _[!UICONTROL General Properties]_blir ytterligare alternativ tillgängliga på den vänstra panelen.
+   När du har sparat segmentet _[!UICONTROL General Properties]_&#x200B;blir ytterligare alternativ tillgängliga på den vänstra panelen.
 
    ![Segmentegenskaper](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -107,7 +107,7 @@ I följande steg används ett exempel för att skapa ett kundsegment som riktar 
 
 1. Klicka på **[!UICONTROL Conditions]** i den vänstra rutan.
 
-   Standardvillkoret börjar med _[!UICONTROL If ALL of these conditions are TRUE:]_på sidan.
+   Standardvillkoret börjar med _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;på sidan.
 
    ![Villkor](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -153,7 +153,7 @@ I följande steg används ett exempel för att skapa ett kundsegment som riktar 
 
 1. Kundsegmentet kan nu användas för riktade kampanjer, innehåll och utskick.
 
-_**[!UICONTROL Matched Customers]rutnät **_
+_&#x200B;**[!UICONTROL Matched Customers]rutnät &#x200B;** _
 
 | Kolumn | Beskrivning |
 |--- |--- |
@@ -183,7 +183,7 @@ _**[!UICONTROL Matched Customers]rutnät **_
 
 | Knapp | Beskrivning |
 |--- |--- |
-| **[!UICONTROL Back]** | Återgår till sidan _[!UICONTROL Customer Segments]_utan att spara ändringarna. |
+| **[!UICONTROL Back]** | Återgår till sidan _[!UICONTROL Customer Segments]_&#x200B;utan att spara ändringarna. |
 | **[!UICONTROL Delete]** | Tar bort aktuellt kundsegment. Kunder eller slutförda order som är kopplade till kunden i segmentet tas inte bort. |
 | **[!UICONTROL Reset]** | Återställer alla osparade ändringar i kundsegmentsformuläret till deras tidigare värden. |
 | **[!UICONTROL Refresh Segment Data]** | Uppdaterar segmentdata till de senast sparade värdena. Relevant om segmentdata inte är tillgängliga eller inaktuella. |

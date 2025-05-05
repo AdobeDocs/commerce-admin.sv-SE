@@ -49,7 +49,7 @@ Du kan skapa upp till tio varianter av varje enhet som du vill testa. Spara tid 
 
    **Metod 1:** Välj en befintlig vy
 
-   Klicka på nedpilen i kolumnrubriken _[!UICONTROL View]_och välj den vy som ska tillhandahålla data för experimentet.
+   Klicka på nedpilen i kolumnrubriken _[!UICONTROL View]_&#x200B;och välj den vy som ska tillhandahålla data för experimentet.
 
    **Metod 2:** Skapa en ny rapportvy
 

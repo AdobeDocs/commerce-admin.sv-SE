@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Tilldela företag till en delad katalog
 
-Det finns två sätt att tilldela ett företag till en delad katalog. Du kan göra tilldelningen från stödrastret _[!UICONTROL Shared Catalogs]_eller redigera företaget och tilldela den delade katalogen på samma sätt som du väljer en kundgrupp.
+Det finns två sätt att tilldela ett företag till en delad katalog. Du kan göra tilldelningen från stödrastret _[!UICONTROL Shared Catalogs]_&#x200B;eller redigera företaget och tilldela den delade katalogen på samma sätt som du väljer en kundgrupp.
 
 ![Tilldela företag](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 

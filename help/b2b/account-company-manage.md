@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Hantera företagskonton
 
-På sidan _[!UICONTROL Companies]_visas alla aktuella företagskonton, oavsett status. Eventuella väntande begäranden om godkännande visas högst upp i listan.
+På sidan _[!UICONTROL Companies]_&#x200B;visas alla aktuella företagskonton, oavsett status. Eventuella väntande begäranden om godkännande visas högst upp i listan.
 
 ![Företagsstödraster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Använd kontrollen *[!UICONTROL Columns]* för att anpassa de kolumner som visas i rutnätet. Anpassa de företag som visas i vyn med hjälp av sök- och filterfunktionerna.
 
-- Hitta företag i rutnätet **Företag** med hjälp av _[!UICONTROL Search]_. Sökningen indexerar kolumnerna **Företagsnamn**och **Överordnad**.
+- Hitta företag i rutnätet **Företag** med hjälp av _[!UICONTROL Search]_. Sökningen indexerar kolumnerna **Företagsnamn**&#x200B;och **Överordnad**.
 
 - Anpassa vyn så att den innehåller poster som uppfyller specifika villkor med [!UICONTROL Filter]. Om till exempel B2B-webbplatsen är konfigurerad att hantera både enskilda företagskonton och [företagshierarkier](manage-companies.md) kan du filtrera efter `[!UICONTROL Company Type - Company]` om du bara vill visa enskilda företag, eller efter `[!UICONTROL Company Type - Parent]` om du bara vill visa det överordnade företaget för varje hierarki.
 
-Använd en åtgärd på flera företagsposter med kontrollen _[!UICONTROL Actions]_ovanför rutnätet. I stället för att godkänna varje enskild företagsbegäran kan du till exempel välja flera begäranden för att aktivera kontona i en enda åtgärd. Vilka åtgärder som är tillgängliga beror på [behörigheterna](../systems/permissions.md) för rollen som tilldelas ditt administratörskonto.
+Använd en åtgärd på flera företagsposter med kontrollen _[!UICONTROL Actions]_&#x200B;ovanför rutnätet. I stället för att godkänna varje enskild företagsbegäran kan du till exempel välja flera begäranden för att aktivera kontona i en enda åtgärd. Vilka åtgärder som är tillgängliga beror på [behörigheterna](../systems/permissions.md) för rollen som tilldelas ditt administratörskonto.
 
 ## Resurser för företagsroll
 

@@ -26,11 +26,11 @@ För att spara tid kan noll deltotalorder anges till automatisk fakturering.
 
 **_Så här konfigurerar du utcheckning av delsumma noll:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
-1. Under _[!UICONTROL Other Payment Methods]_expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Zero Subtotal Checkout]**.
+1. Under _[!UICONTROL Other Payment Methods]_&#x200B;expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Zero Subtotal Checkout]**.
 
    ![Ingen deltotal utcheckning](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
@@ -52,7 +52,7 @@ För att spara tid kan noll deltotalorder anges till automatisk fakturering.
 
    >[!NOTE]
    >
-   >Om _[!UICONTROL New Order Status]_är inställt på `Processing` och_[!UICONTROL Automatically Invoice All Items]_ är inställt på `No` måste du även tilldela **[!UICONTROL Order Status]** = `Processing` för mappningen **[!UICONTROL Order State]** = `Pending` och **[!UICONTROL Default Status]** = `No` på sidan [Beställningsstatus](order-status.md#custom-order-status).
+   >Om _[!UICONTROL New Order Status]_&#x200B;är inställt på `Processing` och&#x200B;_[!UICONTROL Automatically Invoice All Items]_ är inställt på `No` måste du även tilldela **[!UICONTROL Order Status]** = `Processing` för mappningen **[!UICONTROL Order State]** = `Pending` och **[!UICONTROL Default Status]** = `No` på sidan [Beställningsstatus](order-status.md#custom-order-status).
 
 1. Ange **[!UICONTROL Payment from Applicable Countries]** till något av följande:
 

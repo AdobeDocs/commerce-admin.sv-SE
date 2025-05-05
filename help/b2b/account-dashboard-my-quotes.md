@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quotes]
 
-Om offerter är aktiverade visas alla offerter som skickats av kunden i avsnittet _[!UICONTROL My Quotes]_på kontrollpanelen för kundkonton. Beroende på deras tillstånd kan bara köpare som gör inköp för ett företags räkning skicka in begäranden om att förhandla om priset på ett köp.
+Om offerter är aktiverade visas alla offerter som skickats av kunden i avsnittet _[!UICONTROL My Quotes]_&#x200B;på kontrollpanelen för kundkonton. Beroende på deras tillstånd kan bara köpare som gör inköp för ett företags räkning skicka in begäranden om att förhandla om priset på ett köp.
 
 ![Mina citattecken](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
 
@@ -148,7 +148,7 @@ När köparen lägger till adressen tillhandahåller säljaren alternativ för f
 
 ## Skriva ut en offert
 
-1. I den öppna citattecknet till höger om avsnittet _[!UICONTROL Items Quoted]_klickar köparen på&#x200B;**[!UICONTROL Print]**.
+1. I den öppna citattecknet till höger om avsnittet _[!UICONTROL Items Quoted]_&#x200B;klickar köparen på&#x200B;**[!UICONTROL Print]**.
 
 1. Verifierar **[!UICONTROL Destination]** som skrivare eller PDF.
 
@@ -158,13 +158,13 @@ När köparen lägger till adressen tillhandahåller säljaren alternativ för f
 
 1. Klicka på **[!UICONTROL Close quote]** i den öppna citattecknet precis ovanför avsnittet Objekt som citerats.
 
-   Begäran avbryts och offertstatusen ändras till `Closed`. Den stängda offerten finns kvar i din lista med offerter och finns kvar i listan i rutnätet _[!UICONTROL Quotes]_från administratören.
+   Begäran avbryts och offertstatusen ändras till `Closed`. Den stängda offerten finns kvar i din lista med offerter och finns kvar i listan i rutnätet _[!UICONTROL Quotes]_&#x200B;från administratören.
 
 1. Om du vill ta bort det annullerade citattecknet från listan med citattecken klickar du på **[!UICONTROL Delete]**.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
-   Det avslutande citattecknet tas bort från deras lista med citattecken. Den visas dock fortfarande i rutnätet _[!UICONTROL Quotes]_i Admin, med statusen `Closed`.
+   Det avslutande citattecknet tas bort från deras lista med citattecken. Den visas dock fortfarande i rutnätet _[!UICONTROL Quotes]_&#x200B;i Admin, med statusen `Closed`.
 
 ## Offertåtgärder
 
@@ -184,6 +184,6 @@ När köparen lägger till adressen tillhandahåller säljaren alternativ för f
 | [!UICONTROL Quote Name] | Namnet som köparen tilldelat offertförfrågan. |
 | [!UICONTROL Created] | Datumet då offertförfrågan skickades för första gången. |
 | [!UICONTROL Created By] | Förnamn och efternamn på den köpare som skickade offertförfrågan. |
-| [!UICONTROL Status] | Anger offertens status. Status för en offert kan bara ändras genom åtgärder från antingen köparen eller säljaren. <br/>**[!UICONTROL Submitted]**- Köparens anbudsförfrågan har inte öppnats av säljaren än. I det här läget kan köparen fortfarande ändra anbudsförfrågan. Tillgängliga åtgärder: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - Säljaren har öppnat förfrågan och håller på att granska den och förbereda ett svar. Tillgängliga åtgärder: `View` / `Close` <br/>**[!UICONTROL Updated]**- säljaren har skickat ett svar till köparen och knappen _[!UICONTROL Proceed to Checkout]_är aktiverad. I det här läget kan köparen fortsätta att ändra offerten. Tillgängliga åtgärder: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- Köparen uppdaterar fortfarande offerten och knappen_[!UICONTROL Proceed to Checkout]_ är inaktiverad. Tillgängliga åtgärder: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- Köparen har skickat en order baserat på det förhandlade offerten. Offerten är låst och kan inte redigeras. Tillgänglig åtgärd: Visa<br/>**[!UICONTROL Closed]** - Köparen har avslutat förhandlingen och avbryter offerten. Offerten är låst och kan inte redigeras av vare sig köpare eller säljare. Tillgängliga åtgärder: `View` / `Delete` <br/>**[!UICONTROL Declined]**- säljaren har avböjt anbudsförfrågan eller för att göra en föreslagen ändring under förhandlingsprocessen. En offert kan avvisas när som helst i arbetsflödet. Alla anpassade priser tas bort från offerten. Köparen kan fortsätta redigera offerten och skicka in den på nytt eller göra köpet med standardpriser för katalog. Tillgängliga åtgärder: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - Offertens livstid har gått ut. Alla föreslagna priser återställs. Köparen kan antingen slutföra köpet baserat på standardpriser för kataloger eller inleda en ny förhandlingsrunda. Tillgängliga åtgärder: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | Anger offertens status. Status för en offert kan bara ändras genom åtgärder från antingen köparen eller säljaren. <br/>**[!UICONTROL Submitted]**- Köparens anbudsförfrågan har inte öppnats av säljaren än. I det här läget kan köparen fortfarande ändra anbudsförfrågan. Tillgängliga åtgärder: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - Säljaren har öppnat förfrågan och håller på att granska den och förbereda ett svar. Tillgängliga åtgärder: `View` / `Close` <br/>**[!UICONTROL Updated]**- säljaren har skickat ett svar till köparen och knappen _[!UICONTROL Proceed to Checkout]_&#x200B;är aktiverad. I det här läget kan köparen fortsätta att ändra offerten. Tillgängliga åtgärder: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- Köparen uppdaterar fortfarande offerten och knappen&#x200B;_[!UICONTROL Proceed to Checkout]_ är inaktiverad. Tillgängliga åtgärder: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- Köparen har skickat en order baserat på det förhandlade offerten. Offerten är låst och kan inte redigeras. Tillgänglig åtgärd: Visa<br/>**[!UICONTROL Closed]** - Köparen har avslutat förhandlingen och avbryter offerten. Offerten är låst och kan inte redigeras av vare sig köpare eller säljare. Tillgängliga åtgärder: `View` / `Delete` <br/>**[!UICONTROL Declined]**- säljaren har avböjt anbudsförfrågan eller för att göra en föreslagen ändring under förhandlingsprocessen. En offert kan avvisas när som helst i arbetsflödet. Alla anpassade priser tas bort från offerten. Köparen kan fortsätta redigera offerten och skicka in den på nytt eller göra köpet med standardpriser för katalog. Tillgängliga åtgärder: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - Offertens livstid har gått ut. Alla föreslagna priser återställs. Köparen kan antingen slutföra köpet baserat på standardpriser för kataloger eller inleda en ny förhandlingsrunda. Tillgängliga åtgärder: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

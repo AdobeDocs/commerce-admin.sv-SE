@@ -51,11 +51,11 @@ En detaljerad lista över konfigurationsinställningarna finns i [_Transaktionsm
 
 ## Steg 1. Ladda upp din logotyp
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Under _[!UICONTROL Other Settings]_expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Transactional Emails]**.
+1. Under _[!UICONTROL Other Settings]_&#x200B;expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Transactional Emails]**.
 
 1. Om du vill överföra den förberedda **[!UICONTROL Logo Image]** klickar du på **[!UICONTROL Upload]** och väljer filen från datorn.
 
@@ -208,9 +208,9 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
-| `New Registry` | **Sida:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Avsnitt:** [!UICONTROL Owner Notification]<br/>**Fält:** [!UICONTROL Email Template] |
-| `Registry Sharing` | **Sida:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Avsnitt:** [!UICONTROL Gift Registry Sharing]<br/>**Fält:** [!UICONTROL Email Template] |
-| `Registry Update` | **Sida:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Avsnitt:** [!UICONTROL Gift Registry Update]<br/>**Fält:** [!UICONTROL Email Template] |
+| `New Registry` | **Sida:** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Avsnitt:** [!UICONTROL Owner Notification]<br/>**Fält:** [!UICONTROL Email Template] |
+| `Registry Sharing` | **Sida:** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Avsnitt:** [!UICONTROL Gift Registry Sharing]<br/>**Fält:** [!UICONTROL Email Template] |
+| `Registry Update` | **Sida:** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Avsnitt:** [!UICONTROL Gift Registry Update]<br/>**Fält:** [!UICONTROL Email Template] |
 
 {style="table-layout:auto"}
 
@@ -218,8 +218,8 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
-| `Order is Ready for Pickup` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Fält:** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Order is Ready for Pickup For Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Fält:** [!UICONTROL Order Ready For Pickup Email Template for Guest] |
+| `Order is Ready for Pickup` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Fält:** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Order is Ready for Pickup For Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Fält:** [!UICONTROL Order Ready For Pickup Email Template for Guest] |
 
 {style="table-layout:auto"}
 
@@ -237,12 +237,12 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
-| `Declined Quote` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Declined Quote Template (to Buyer)] |
-| `Expiration Date Reset` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Expiration Date Reset] | **Sida:** [!UICONTROL Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Expiration Warning` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Quote Expiration (in 48 hrs)] |
-| `Expiration Warning1` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Quote Expiration (in 24 hrs)] |
-| `New Quote` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL New Quote Template (to Seller)] |
-| `Updated Quote` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Updated Quote Template (to Seller)] |
+| `Declined Quote` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Declined Quote Template (to Buyer)] |
+| `Expiration Date Reset` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Expiration Date Reset] | **Sida:** [!UICONTROL Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Expiration Warning` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Quote Expiration (in 48 hrs)] |
+| `Expiration Warning1` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Quote Expiration (in 24 hrs)] |
+| `New Quote` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL New Quote Template (to Seller)] |
+| `Updated Quote` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Quote]<br/>**Fält:** [!UICONTROL Updated Quote Template (to Seller)] |
 
 {style="table-layout:auto"}
 
@@ -250,9 +250,9 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
-| `Subscription Confirmation` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Avsnitt:** [!UICONTROL  Subscription Options]<br/>**Fält:** [!UICONTROL Confirmation Email Template] |
-| `Subscription Success` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Avsnitt:** [!UICONTROL  Subscription Options]<br/>**Fält:** [!UICONTROL Success Email Template] |
-| `Unsubscription Success` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Avsnitt:** [!UICONTROL  Subscription Options]<br/>**Fält:** [!UICONTROL Unsubscription Email Template] |
+| `Subscription Confirmation` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Avsnitt:** [!UICONTROL &#x200B; Subscription Options]<br/>**Fält:** [!UICONTROL Confirmation Email Template] |
+| `Subscription Success` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Avsnitt:** [!UICONTROL &#x200B; Subscription Options]<br/>**Fält:** [!UICONTROL Success Email Template] |
+| `Unsubscription Success` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Avsnitt:** [!UICONTROL &#x200B; Subscription Options]<br/>**Fält:** [!UICONTROL Unsubscription Email Template] |
 
 {style="table-layout:auto"}
 
@@ -270,15 +270,15 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
-| `Approved Purchase Order` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Approved Purchase Order] |
-| `Approved, requires payment` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Approved, requires payment details (to Buyer)] |
-| `Comment added to Purchase Order` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Comment added to Purchase Order] |
-| `Created and Auto-approved Purchase Order` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
-| `Created and automatically approved, requires payment details` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
-| `Created and requires Approval Purchase Order` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
-| `Error creating Order from Purchase Order` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
-| `Purchase Order requires Approval` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Purchase Order requires Approval (to Approver)] |
-| `Rejected Purchase Order` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Rejected Purchase Order (to Buyer)] |
+| `Approved Purchase Order` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Approved Purchase Order] |
+| `Approved, requires payment` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Approved, requires payment details (to Buyer)] |
+| `Comment added to Purchase Order` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Comment added to Purchase Order] |
+| `Created and Auto-approved Purchase Order` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
+| `Created and automatically approved, requires payment details` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
+| `Created and requires Approval Purchase Order` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
+| `Error creating Order from Purchase Order` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
+| `Purchase Order requires Approval` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Purchase Order requires Approval (to Approver)] |
+| `Rejected Purchase Order` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL Purchase Order Approval]<br/>**Fält:** [!UICONTROL Rejected Purchase Order (to Buyer)] |
 
 {style="table-layout:auto"}
 
@@ -309,13 +309,13 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
-| `New RMA` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL  RMA]<br/>**Fält:** [!UICONTROL RMA Email Template] |
-| `New RMA for Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL  RMA]<br/>**Fält:** [!UICONTROL RMA Email Template for Guest] |
-| `RMA Admin Comments` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL  RMA Admin Comments]<br/>**Fält:** [!UICONTROL RMA Comment Email Template] |
-| `RMA Admin Comments for Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL  RMA Admin Comments]<br/>**Fält:** [!UICONTROL RMA Comment Email Template for Guest] |
-| `RMA Authorization` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL  RMA Authorization]<br/>**Fält:** [!UICONTROL RMA Authorization Email Template] |
-| `RMA Authorization for Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL  RMA Authorization]<br/>**Fält:** [!UICONTROL RMA Authorization Email Template for Guest] |
-| `RMA Customer Comments` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL RMA Customer Comments]<br/>**Fält:** [!DNL RMA Comment Email Template] |
+| `New RMA` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL &#x200B; RMA]<br/>**Fält:** [!UICONTROL RMA Email Template] |
+| `New RMA for Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL &#x200B; RMA]<br/>**Fält:** [!UICONTROL RMA Email Template for Guest] |
+| `RMA Admin Comments` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL &#x200B; RMA Admin Comments]<br/>**Fält:** [!UICONTROL RMA Comment Email Template] |
+| `RMA Admin Comments for Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL &#x200B; RMA Admin Comments]<br/>**Fält:** [!UICONTROL RMA Comment Email Template for Guest] |
+| `RMA Authorization` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL &#x200B; RMA Authorization]<br/>**Fält:** [!UICONTROL RMA Authorization Email Template] |
+| `RMA Authorization for Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL &#x200B; RMA Authorization]<br/>**Fält:** [!UICONTROL RMA Authorization Email Template for Guest] |
+| `RMA Customer Comments` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Avsnitt:** [!UICONTROL RMA Customer Comments]<br/>**Fält:** [!DNL RMA Comment Email Template] |
 
 {style="table-layout:auto"}
 
@@ -323,38 +323,38 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 
 | Mall | Konfigurationssökväg |
 |--- |--- |
-| `Credit Memo Update` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo Contents]<br/>**Fält:** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo Comments]<br/>**Fält:** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update for Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo Comments]<br/>**Fält:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Credit Memo Update for Guest (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo Comments]<br/>**Fält:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Invoice Update` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice Comments]<br/>**Fält:** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice Comments]<br/>**Fält:** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update for Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice Comments]<br/>**Fält:** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `Invoice Update for Guest (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice Comments]<br/>**Fält:** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `New Credit Memo` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo]<br/>**Fält:** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]]../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo]<br/>**Fält:** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo for Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo]<br/>**Fält:** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Credit Memo for Guest (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo]<br/>**Fält:** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Invoice` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice]<br/>**Fält:** [!UICONTROL Invoice Email Template] |
-| `New Invoice (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice]<br/>**Fält:** [!UICONTROL Invoice Email Template] |
-| `New Invoice for Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice]<br/>**Fält:** [!UICONTROL Invoice Email Template for Guest] |
-| `New Invoice for Guest (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice]<br/>**Fält:** [!UICONTROL Invoice Email Template for Guest] |
-| `New Order` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order]<br/>**Fält:** [!UICONTROL New Order Confirmation Template] |
-| `New Order (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order]<br/>**Fält:** [!UICONTROL New Order Confirmation Template] |
-| `New Order for Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order]<br/>**Fält:** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Order for Guest (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order]<br/>**Fält:** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Shipment` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment]<br/>**Fält:** [!UICONTROL Shipment Email Template] |
-| `New Shipment (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment]<br/>**Fält:** [!UICONTROL Shipment Email Template] |
-| `New Shipment for Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment]<br/>**Fält:** [!UICONTROL Shipment Email Template for Guest] |
-| `New Shipment for Guest (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment]<br/>**Fält:** [!UICONTROL Shipment Email Template for Guest] |
-| `Order Update` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order Comments]<br/>**Fält:** [!UICONTROL Order Comment Email Template] |
-| `Order Update (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order Comments]<br/>**Fält:** [!UICONTROL Order Comment Email Template] |
-| `Order Update for Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order Comments]<br/>**Fält:** [!UICONTROL Order Comment Email Template for Guest] |
-| `Order Update for Guest (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order Comments]<br/>**Fält:** [!UICONTROL Order Comment Email Template for Guest] |
-| `Shipment Update` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment Comments]<br/>**Fält:** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment Comments]<br/>**Fält:** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update for Guest` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment Comments]<br/>**Fält:** [!UICONTROL Shipment Comment Email Template for Guest] |
-| `Shipment Update for Guest (Magento/luma)` | **Sida:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment Comments]<br/>**Fält:** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Credit Memo Update` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo Contents]<br/>**Fält:** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo Comments]<br/>**Fält:** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update for Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo Comments]<br/>**Fält:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Credit Memo Update for Guest (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo Comments]<br/>**Fält:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Invoice Update` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice Comments]<br/>**Fält:** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice Comments]<br/>**Fält:** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update for Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice Comments]<br/>**Fält:** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `Invoice Update for Guest (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice Comments]<br/>**Fält:** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `New Credit Memo` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo]<br/>**Fält:** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]]../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo]<br/>**Fält:** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo for Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo]<br/>**Fält:** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Credit Memo for Guest (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Credit Memo]<br/>**Fält:** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Invoice` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice]<br/>**Fält:** [!UICONTROL Invoice Email Template] |
+| `New Invoice (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice]<br/>**Fält:** [!UICONTROL Invoice Email Template] |
+| `New Invoice for Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice]<br/>**Fält:** [!UICONTROL Invoice Email Template for Guest] |
+| `New Invoice for Guest (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Invoice]<br/>**Fält:** [!UICONTROL Invoice Email Template for Guest] |
+| `New Order` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order]<br/>**Fält:** [!UICONTROL New Order Confirmation Template] |
+| `New Order (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order]<br/>**Fält:** [!UICONTROL New Order Confirmation Template] |
+| `New Order for Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order]<br/>**Fält:** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Order for Guest (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order]<br/>**Fält:** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Shipment` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment]<br/>**Fält:** [!UICONTROL Shipment Email Template] |
+| `New Shipment (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment]<br/>**Fält:** [!UICONTROL Shipment Email Template] |
+| `New Shipment for Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment]<br/>**Fält:** [!UICONTROL Shipment Email Template for Guest] |
+| `New Shipment for Guest (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment]<br/>**Fält:** [!UICONTROL Shipment Email Template for Guest] |
+| `Order Update` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order Comments]<br/>**Fält:** [!UICONTROL Order Comment Email Template] |
+| `Order Update (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order Comments]<br/>**Fält:** [!UICONTROL Order Comment Email Template] |
+| `Order Update for Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order Comments]<br/>**Fält:** [!UICONTROL Order Comment Email Template for Guest] |
+| `Order Update for Guest (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Order Comments]<br/>**Fält:** [!UICONTROL Order Comment Email Template for Guest] |
+| `Shipment Update` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment Comments]<br/>**Fält:** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment Comments]<br/>**Fält:** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update for Guest` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment Comments]<br/>**Fält:** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Shipment Update for Guest (Magento/luma)` | **Sida:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Avsnitt:** [!UICONTROL Shipment Comments]<br/>**Fält:** [!UICONTROL Shipment Comment Email Template for Guest] |
 
 {style="table-layout:auto"}
 

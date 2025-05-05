@@ -114,7 +114,7 @@ En bakgrundstyp kan vara en bild eller en video. [!DNL Page Builder] är som sta
 
 ### Inställningar för bildtyp
 
-Om du ställer in _[!UICONTROL Background Type]_på `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
+Om du ställer in _[!UICONTROL Background Type]_&#x200B;på `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
 
 ![Bakgrundsbild](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

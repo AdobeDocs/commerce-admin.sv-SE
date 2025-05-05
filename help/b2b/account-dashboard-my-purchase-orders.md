@@ -48,7 +48,7 @@ Om kunden har en befintlig inköpsorder och vill lägga till nya artiklar kan de
 
 1. Följer det normala arbetsflödet för utcheckning och klickar på **[!UICONTROL Place Purchase Order]**.
 
-Om de har artiklar i kundvagnen när de klickar på _[!UICONTROL Add Items to Shopping Cart]_visas en dialogruta. I den här dialogrutan kan de välja mellan att sammanfoga varukorgen med de nya artiklarna eller att ersätta artiklarna i kundvagnen med artiklarna i inköpsordern.
+Om de har artiklar i kundvagnen när de klickar på _[!UICONTROL Add Items to Shopping Cart]_&#x200B;visas en dialogruta. I den här dialogrutan kan de välja mellan att sammanfoga varukorgen med de nya artiklarna eller att ersätta artiklarna i kundvagnen med artiklarna i inköpsordern.
 
 Den ursprungliga inköpsordern kan stängas om den inte längre behövs.
 

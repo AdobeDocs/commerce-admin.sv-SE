@@ -26,9 +26,9 @@ Följande krav måste vara uppfyllda för att en komplex produkt (till exempel b
 
 1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
-1. För produkten i rutnätet som du vill lägga till går du till kolumnen _[!UICONTROL Action]_och klickar på&#x200B;**[!UICONTROL Edit]**.
+1. För produkten i rutnätet som du vill lägga till går du till kolumnen _[!UICONTROL Action]_&#x200B;och klickar på&#x200B;**[!UICONTROL Edit]**.
 
-1. Bläddra nedåt, expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Product in Shared Catalogs]_och gör följande:
+1. Bläddra nedåt, expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Product in Shared Catalogs]_&#x200B;och gör följande:
 
    - Markera kryssrutan för varje delad katalog där produkten ska visas. Klicka på **[!UICONTROL Select all]** om du vill välja alla kataloger.
 
@@ -46,7 +46,7 @@ Följande krav måste vara uppfyllda för att en komplex produkt (till exempel b
 
 1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]** på sidofältet _Admin_.
 
-1. För den delade katalogen i rutnätet går du till kolumnen _[!UICONTROL Action]_och väljer **[!UICONTROL Set Pricing and Structure]**.
+1. För den delade katalogen i rutnätet går du till kolumnen _[!UICONTROL Action]_&#x200B;och väljer **[!UICONTROL Set Pricing and Structure]**.
 
 1. Gör något av följande i kategoriträdet:
 
@@ -54,7 +54,7 @@ Följande krav måste vara uppfyllda för att en komplex produkt (till exempel b
    - Om du vill ta med specifika produktkategorier markerar du kryssrutan för varje kategori som du vill ta med.
    - Om du vill inkludera eller exkludera en enskild produkt markerar eller avmarkerar du produktkryssrutan.
 
-   Kommentaren under varje kategori i trädet visar antalet produkter i kategorin som för närvarande ingår i den delade katalogen. Kommentaren under rotkategorin [](../catalog/category-root.md) visar det totala antalet produkter från alla kategorier som för närvarande är markerade för den delade katalogen.
+   Kommentaren under varje kategori i trädet visar antalet produkter i kategorin som för närvarande ingår i den delade katalogen. Kommentaren under rotkategorin [&#128279;](../catalog/category-root.md) visar det totala antalet produkter från alla kategorier som för närvarande är markerade för den delade katalogen.
 
 1. Om du vill visa kategoriprodukter i rutnätet klickar du på namnet på kategorin i trädet.
 

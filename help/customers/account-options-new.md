@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Nya alternativ för kundkonton
 
-I avsnittet _[!UICONTROL Create New Account Options]_i konfigurationen kombineras de grundläggande kontoalternativen med mer avancerade alternativ som relaterar till moms-ID-validering och anpassade integreringar. Följande instruktioner täcker endast de vanligaste alternativen. Mer information om automatiska kundgrupptilldelningar finns i [momsvalidering](../stores-purchase/vat.md).
+I avsnittet _[!UICONTROL Create New Account Options]_&#x200B;i konfigurationen kombineras de grundläggande kontoalternativen med mer avancerade alternativ som relaterar till moms-ID-validering och anpassade integreringar. Följande instruktioner täcker endast de vanligaste alternativen. Mer information om automatiska kundgrupptilldelningar finns i [momsvalidering](../stores-purchase/vat.md).
 
 ![Skapa nya kontoalternativ](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 ## Ange grundläggande alternativ för kundkonton
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Customer Configuration]**.
 

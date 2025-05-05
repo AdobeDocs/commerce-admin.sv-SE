@@ -45,7 +45,7 @@ Det första steget är att välja hur du vill placera butiken. Ska butikerna del
 
 ### Steg 2: Skapa butiken
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Create Store]** och ange alternativ för den nya butiken:
 
@@ -83,9 +83,9 @@ Det första steget är att välja hur du vill placera butiken. Ska butikerna del
 
 ### Steg 4: Konfigurera butikens URL
 
-1. Klicka på **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Klicka på **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
-1. Välj **[!UICONTROL Web]** under _[!UICONTROL General]_i den vänstra panelen till vänster.
+1. Välj **[!UICONTROL Web]** under _[!UICONTROL General]_&#x200B;i den vänstra panelen till vänster.
 
 1. I det övre vänstra hörnet anger du **[!UICONTROL Store View]** till den vy som du skapade för den nya butiken.
 
@@ -124,7 +124,7 @@ Installationer av flera webbplatser för Adobe Commerce eller Magento Open Sourc
 
 ### Steg 1: Skapa en webbplats
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Create Website]** i det övre högra hörnet.
 

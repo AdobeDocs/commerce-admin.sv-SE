@@ -23,7 +23,7 @@ Om du har en stor mängd data att bearbeta kan diagrammet stängas av för att f
 
 ## Konfigurera instrumentpanelen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _och fyll i någon av följande inställningar.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _och fyll i någon av följande inställningar.
 
 1. När konfigurationen är klar klickar du på **[!UICONTROL Save Config]**.
 
@@ -49,7 +49,7 @@ Mer information om alternativen för administratörskonfiguration finns i [refer
 
 Kontrollpanelen är standardstartsida [för administratören](../configuration-reference/advanced/admin.md), men du kan konfigurera en annan startsida.
 
-1. Om du inte redan har administratörskonfigurationsalternativen öppna väljer du **[!UICONTROL Admin]** under _[!UICONTROL Advanced]_i den vänstra navigeringspanelen.
+1. Om du inte redan har administratörskonfigurationsalternativen öppna väljer du **[!UICONTROL Admin]** under _[!UICONTROL Advanced]_&#x200B;i den vänstra navigeringspanelen.
 
 1. Klicka för att expandera avsnittet **Startsida**.
 

@@ -26,7 +26,7 @@ Dynamiska URL-direktiv bearbetas från sparat HTML-innehåll när sidan återges
 
 Som standard har bilder som infogats i katalogen från WYSIWYG-redigeraren relativa, dynamiska URL:er. Om du föredrar att använda en statisk URL kan du ändra konfigurationsinställningen.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 

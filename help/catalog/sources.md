@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktinställningar - [!UICONTROL Sources]
 
-Avsnittet _[!UICONTROL Sources]_i produktinställningarna listar de källor som produkten kan distribueras från. Den används för att tilldela och ta bort tilldelningar samt för att hantera kvantitet och tillgänglighet för produkten. Det här avsnittet visas bara om mer än en källa har definierats för din butik. Mer information om källor finns i [Hantera källor](../inventory-management/sources-manage.md).
+Avsnittet _[!UICONTROL Sources]_&#x200B;i produktinställningarna listar de källor som produkten kan distribueras från. Den används för att tilldela och ta bort tilldelningar samt för att hantera kvantitet och tillgänglighet för produkten. Det här avsnittet visas bara om mer än en källa har definierats för din butik. Mer information om källor finns i [Hantera källor](../inventory-management/sources-manage.md).
 
 ## Tilldela en källa för en produkt
 

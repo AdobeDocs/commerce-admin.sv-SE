@@ -48,7 +48,7 @@ Om du vill använda en tredjepartstjänst för att skicka nyhetsbrev kan du expo
 
 ## Avbryta en prenumeration från prenumerationslistan
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**&#x200B;på sidofältet_ Admin _.
 
    För en flersidig installation där vissa kunder har prenumerationer för mer än en webbplats visas varje prenumeration som en radobjekt i rutnätet.
 
@@ -58,7 +58,7 @@ Om du vill använda en tredjepartstjänst för att skicka nyhetsbrev kan du expo
    >
    >Om du vill avbryta en satsvis prenumeration markerar du kryssrutan för varje prenumerant som du vill avbryta.
 
-1. Ställ in kontrollen _[!UICONTROL Action]_på&#x200B;**[!UICONTROL Unsubscribe]**och klicka på&#x200B;**[!UICONTROL Submit]**.
+1. Ställ in kontrollen _[!UICONTROL Action]_&#x200B;på&#x200B;**[!UICONTROL Unsubscribe]**&#x200B;och klicka på&#x200B;**[!UICONTROL Submit]**.
 
    ![Avbeställ nyhetsbrev](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -66,7 +66,7 @@ Om du vill använda en tredjepartstjänst för att skicka nyhetsbrev kan du expo
 
 ## Exportera listan över prenumeranter
 
-1. Använd filterkontrollerna i listan _[!UICONTROL Newsletter Subscribers]_för att endast inkludera poster med statusen_ _för `Subscribed` och för rätt webbplats-, butik- eller butiksvy.
+1. Använd filterkontrollerna i listan _[!UICONTROL Newsletter Subscribers]_&#x200B;för att endast inkludera poster med statusen_ _för `Subscribed` och för rätt webbplats-, butik- eller butiksvy.
 
 1. Ställ in kontrollen **[!UICONTROL Export to]** på något av följande:
 
@@ -79,10 +79,10 @@ Om du vill använda en tredjepartstjänst för att skicka nyhetsbrev kan du expo
 
 ## Ta bort en prenumerant från prenumerantlistan
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på prenumeranten i rutnätet och markera kryssrutan i den första kolumnen.
 
-1. Ställ in kontrollen _[!UICONTROL Action]_på&#x200B;**[!UICONTROL Delete]**och klicka på&#x200B;**[!UICONTROL Submit]**.
+1. Ställ in kontrollen _[!UICONTROL Action]_&#x200B;på&#x200B;**[!UICONTROL Delete]**&#x200B;och klicka på&#x200B;**[!UICONTROL Submit]**.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.

@@ -38,7 +38,7 @@ ht-degree: 0%
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | Global | Avgör om innehavaren av presentkortet kan lösa in sitt kontantvärde. Alternativ: `Yes` / `No`. |
-| [!UICONTROL Lifetime (days)] | Global | Anger antalet dagar som kortet är giltigt. Om kortet lämnas tomt upphör det inte att gälla. <br/><br/>**_Viktigt!_**På vissa platser är det inte tillåtet att ange förfallodata för presentkort. Kontrollera de lokala lagarna innan du anger en livstid för dina presentkort. |
+| [!UICONTROL Lifetime (days)] | Global | Anger antalet dagar som kortet är giltigt. Om kortet lämnas tomt upphör det inte att gälla. <br/><br/>**_Viktigt!_**&#x200B;På vissa platser är det inte tillåtet att ange förfallodata för presentkort. Kontrollera de lokala lagarna innan du anger en livstid för dina presentkort. |
 | [!UICONTROL Allow Gift Message] | Butiksvy | Avgör om möjligheten att inkludera ett presentmeddelande är tillgängligt för kunder som köper ett presentkort. Alternativ: `Yes` / `No`. |
 | [!UICONTROL Gift Message Maximum Length] | Butiksvy | Anger det maximala antalet tecken som tillåts i ett presentkortsmeddelande. Standardvärde: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Avgör om ett presentkortskonto genereras när en kund gör en beställning eller när ordern faktureras. Alternativ: `Ordered` / `Invoiced` |

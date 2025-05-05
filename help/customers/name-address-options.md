@@ -24,7 +24,7 @@ Du kan konfigurera de namn- och adressalternativ som visas för kunderna på but
 
 ### Steg 1: Ange omfattningen för konfigurationen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Customer Configuration]**.
 
@@ -41,7 +41,7 @@ Du kan konfigurera de namn- och adressalternativ som visas för kunderna på but
 
    >[!INFO]
    >
-   >Avsnittet _[!UICONTROL Name and Address Options]_visas inte när omfånget är `Default Store View`.
+   >Avsnittet _[!UICONTROL Name and Address Options]_&#x200B;visas inte när omfånget är `Default Store View`.
 
    ![Konfigurationsomfång](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ Konfigurera de namn- och adressalternativ som visas för kunderna på butiken n�
 
 ### Steg 1: Ange omfattningen för konfigurationen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Customer Configuration]**.
 

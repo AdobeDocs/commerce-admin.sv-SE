@@ -32,7 +32,7 @@ När det här alternativet är aktiverat visas ett nytt _[!UICONTROL Category Pe
 >
 >Alla befintliga [gruppbehörighetsinställningar](../configuration-reference/catalog/catalog.md#category-permissions) ignoreras av **_alla_** kategorier i katalogen när funktionen **_[!UICONTROL Shared Catalog]_** är aktiverad. [!UICONTROL Shared Catalog] styr alla kategoribehörigheter i katalogen när den är aktiverad.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -64,7 +64,7 @@ Gör så här om du vill tillåta medlemmar i en **_specifik kundgrupp_** att bl
 
    ![Tillåt att kunder bläddrar efter kundgrupp i grossistledet](./assets/category-permissions-allow-browsing-customer-groups.png){width="600" zoomable="yes"}
 
-Så här begränsar du åtkomst och omdirigering till en landningssida _**:**_ Gör så här:
+Så här begränsar du åtkomst och omdirigering till en landningssida _&#x200B;**:**&#x200B;_ Gör så här:
 
 1. Ange **[!UICONTROL Allow Browsing Category]** till `No, Redirect to Landing Page`.
 
@@ -74,7 +74,7 @@ Så här begränsar du åtkomst och omdirigering till en landningssida _**:**_ G
 
    >[!NOTE]
    >
-   >Även om inställningen _[!UICONTROL Allow Browsing Category]_gäller för alla kategorier på webbplatsen kan du konfigurera olika landningssidor för varje butiksvy.
+   >Även om inställningen _[!UICONTROL Allow Browsing Category]_&#x200B;gäller för alla kategorier på webbplatsen kan du konfigurera olika landningssidor för varje butiksvy.
 
 ### [!UICONTROL Display Product Prices]
 

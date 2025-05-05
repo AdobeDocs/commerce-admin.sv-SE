@@ -22,7 +22,7 @@ Du kan till exempel definiera och ange villkoren för en prisregel som när den 
 
 ## Få tillgång till prisregler för kataloger
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rules]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rules]**&#x200B;på sidofältet_ Admin _.
 
    ![Katalogprisregler](./assets/price-rule-catalog.png){width="700" zoomable="yes"}
 

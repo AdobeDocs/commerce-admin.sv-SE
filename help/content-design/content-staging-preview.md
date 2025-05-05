@@ -21,7 +21,7 @@ Alla dagar och tidsperioder under en kampanj kan förhandsgranskas och delas med
 
    - _Från Instrumentpanelen för innehållsmellanlagring_
 
-      - Gå till **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**på sidofältet_ Admin _.
+      - Gå till **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**&#x200B;på sidofältet_ Admin _.
       - Klicka på ett objekt på sidan och klicka sedan på **[!UICONTROL Preview]** på den sammanfattningsinformation som visas för kampanjen.
 
    - _Från en sida med schemalagda ändringar_

@@ -18,7 +18,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 ## Definiera en roll
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Role]** i det övre högra hörnet.
 
@@ -26,7 +26,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 ### Steg 1: Lägg till rollnamnet
 
-1. Under _[!UICONTROL Role Information]_anger du en beskrivande **[!UICONTROL Role Name]**.
+1. Under _[!UICONTROL Role Information]_&#x200B;anger du en beskrivande **[!UICONTROL Role Name]**.
 
 1. Ange ditt lösenord under _[!UICONTROL Current User Identity Verification]_.
 
@@ -49,9 +49,9 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
    >[!NOTE]
    >
-   >Användare med rollomfånget `Custom` kan inte skapa webbplatser och kategorier, tilldela produkter till kategorier eller redigera produkter i omfattningen _[!UICONTROL All Store Views]_när de tilldelas begränsade butiker. De här användarna kan inte heller utföra andra_ globala _åtgärder som påverkar scope där de inte har åtkomst.
+   >Användare med rollomfånget `Custom` kan inte skapa webbplatser och kategorier, tilldela produkter till kategorier eller redigera produkter i omfattningen _[!UICONTROL All Store Views]_&#x200B;när de tilldelas begränsade butiker. De här användarna kan inte heller utföra andra_ globala _åtgärder som påverkar scope där de inte har åtkomst.
 
-1. Under _[!UICONTROL Roles Resources]_anger du **[!UICONTROL Resource Access]**till `Custom`.
+1. Under _[!UICONTROL Roles Resources]_&#x200B;anger du **[!UICONTROL Resource Access]**&#x200B;till `Custom`.
 
 1. Markera kryssrutan för varje administratörsfunktion som rollen har åtkomst till i trädstrukturen **[!UICONTROL Resource]**.
 
@@ -63,7 +63,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
    >[!NOTE]
    >
-   >En Admin-användare måste ha **[!UICONTROL Sales / Archive]** behörigheter för att kunna se flikarna _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ och _[!UICONTROL Shipments]_order [ ](../stores-purchase/order-processing.md).
+   >En Admin-användare måste ha **[!UICONTROL Sales / Archive]** behörigheter för att kunna se flikarna _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ och _[!UICONTROL Shipments]_&#x200B;order [&#128279;](../stores-purchase/order-processing.md).
 
 1. Klicka på **[!UICONTROL Save Role]** när du är klar.
 
@@ -77,7 +77,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 1. Välj **[!UICONTROL Role Users]** på den vänstra panelen.
 
-   Alternativet _[!UICONTROL Role Users]_visas bara när en ny roll har sparats.
+   Alternativet _[!UICONTROL Role Users]_&#x200B;visas bara när en ny roll har sparats.
 
    ![Användarkonton som tilldelats rollen](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
@@ -93,7 +93,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 ## Redigera en roll
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på rollen med hjälp av filter ovanför stödrastret och klicka på rollnamnet.
 
@@ -107,7 +107,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 ## Ta bort en roll
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på rollen med hjälp av filter ovanför stödrastret och öppna i redigeringsläge.
 

@@ -83,7 +83,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Make Check Payable to] | Butiksvy | Namnet på den enhet som checkar och betalningsorder ska betalas till. |
 | [!UICONTROL Send Check to] | Butiksvy | Gatuadress eller PO Box dit checkar och betalningsorder ska skickas. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Det minsta orderbeloppet som kan betalas med check eller penningorder. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med check eller penningorder. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med check eller penningorder. <br/><br/>**_Obs!_**&#x200B;En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning med check eller betalningsorder visas när det visas med andra betalningsmetoder i kassan. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
@@ -102,7 +102,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Avgör från vilka länder du godkänner betalning via banköverföring. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder från vilka du godkänner betalning via banköverföring. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Det minsta orderbelopp som kan betalas genom banköverföring. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**&#x200B;En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning via banköverföring visas när det visas med andra betalningsmetoder under utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
@@ -123,7 +123,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Bestämmer de länder där du tillåter företag att debitera sina konton för inköp. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder där företag kan debitera sina konton för inköp. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Anger det minsta orderbelopp som kan debiteras ett företagskonto. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan debiteras ett företagskonto. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan debiteras ett företagskonto. <br/><br/>**_Obs!_**&#x200B;En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer den order som betalning på konto visas när det visas med andra betalningsmetoder vid utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
@@ -146,7 +146,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Avgör från vilka länder du godkänner betalning via banköverföring. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder från vilka du godkänner betalning via banköverföring. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Anger det minsta orderbelopp som kan betalas genom banköverföring. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**&#x200B;En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning via banköverföring visas när det visas med andra betalningsmetoder under utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
@@ -189,7 +189,7 @@ I avsnittet Grundinställningar för varje enskild betalningsmetod finns en omfa
 
 >[!NOTE]
 >
->Välj inte alternativet _[!UICONTROL Not Capture]_om du inte är säker på att du kommer att hämta betalningen via Commerce senare. Du kan inte skapa en kreditnota förrän betalningen har hämtats med knappen Hämta.
+>Välj inte alternativet _[!UICONTROL Not Capture]_&#x200B;om du inte är säker på att du kommer att hämta betalningen via Commerce senare. Du kan inte skapa en kreditnota förrän betalningen har hämtats med knappen Hämta.
 
 ## [!UICONTROL Purchase Order]
 
@@ -205,7 +205,7 @@ I avsnittet Grundinställningar för varje enskild betalningsmetod finns en omfa
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Bestämmer från vilka länder du godkänner betalning av inköpsorder. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder från vilka du godkänner betalning från inköpsorder. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Det minsta orderbelopp som kan betalas av inköpsorder. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan betalas av inköpsorder. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan betalas av inköpsorder. <br/><br/>**_Obs!_**&#x200B;En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer den order som betalning via inköpsorder visas när det visas med andra betalningsmetoder vid utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}

@@ -94,7 +94,7 @@ Mer information om hur du använder den nya gruppen [!DNL Columns] finns i [Layo
 
 ![Nytt](../assets/new.svg) <!-- Issue 510, 511, 512, 513 -->**Immersiv helskärmsredigering** - Innehåll som redigeras [!DNL Page Builder] visas nu endast i helskärmsläge för alla områden som styrs av [!DNL Page Builder]. Den här ändringen omfattar CMS-sidor, produkt- och kategorisidor, block och dynamiska block. Vid helskärmsredigering fokuseras ditt innehåll och ger en vy som bättre matchar användarupplevelsen i butiken.
 
-![Nya](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] förhandsgranskningar av innehåll **- Som standard innehåller [!DNL Page Builder] nu förhandsgranskningar av innehåll inte bara för CMS-sidor, block och dynamiska block, utan även för produkt- och kategorisidor. Du kan konfigurera den här funktionen så att den är aktiverad eller inaktiverad för produkt- och kategorisidor med den nya inställningen [!DNL Page Builder] för förhandsvisning av innehåll, som du kommer åt i butikskonfigurationen på Innehållshantering > Avancerade innehållsverktyg.
+![Nya](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] förhandsgranskningar av innehåll &#x200B;**- Som standard innehåller [!DNL Page Builder] nu förhandsgranskningar av innehåll inte bara för CMS-sidor, block och dynamiska block, utan även för produkt- och kategorisidor. Du kan konfigurera den här funktionen så att den är aktiverad eller inaktiverad för produkt- och kategorisidor med den nya inställningen [!DNL Page Builder] för förhandsvisning av innehåll, som du kommer åt i butikskonfigurationen på Innehållshantering > Avancerade innehållsverktyg.
 
 ![Nytt](../assets/new.svg) <!-- Issue 543 -->**Förbättrad åtkomst till korta produktbeskrivningar** - Som standard visas en kort produktbeskrivning före den längre beskrivningen. Ändringen matchar den ordning som de visas i butiken och förhindrar att det längre beskrivningsinnehållet behöver bläddras igenom för att komma åt den korta beskrivningen.
 
@@ -186,16 +186,16 @@ Den här versionen av [!DNL Page Builder] är bara en versionsnummeruppdatering 
 
 ![Korrigerat problem](../assets/fix.svg) **Flera korrigeringar**
 
-- <!-- PB-50 -->Ett problem har korrigerats där TinyMCE-menyn för bildinnehåll visas under andra innehållstyper om bildens överordnade behållare är duplicerad.
-- <!-- PB-166 -->[!DNL Page Builder] har uppdaterats för att implementera en borttagningsmetod för att förhindra minnesläckor i vissa scenarier.
-- <!-- PB-170 -->Förbättrade TinyMCE-prestanda när flera instanser används på Admin-scenen.
-- <!-- PB-252 -->Korrigerade ett problem där innehållstypen för dynamiskt block inte återges på adminscenen om den översta raden är markerad som dold.
-- <!-- PB-273 -->Förfinade mushovringshändelser på Admin-scenen genom att ta bort en 200 ms fördröjning från olika gränssnittskontroller. Den här ändringen gör det enklare att arbeta med kapslade innehållsobjekt på scenen.
-- <!-- PB-294 -->Korrigerade ett problem där valutasymbolen felaktigt undrades i produktlistwidgeten i Block/Dynamic Block på Admin-scenen.
-- <!-- PB-296 -->Ett problem har korrigerats där produktsumman på redigeringspanelen [!DNL Page Builder] inte fungerade för anpassade MSI-arkivprodukter.
-- <!-- PB-317 -->Ett problem har korrigerats där [!DNL Page Builder]-innehåll med bakgrundsbilder på Microsoft Edge inte återger dessa bilder i butiken.
-- <!-- PB-390 -->Korrigerade ett problem där kapslat [!DNL Page Builder]-innehåll inte kunde sparas om användarna klickar på knappen Spara innan sidan återges fullständigt.
-- <!-- PB-418 -->Ett undantagsfel som uppstod i cron-jobb på grund av [!DNL Page Builder]-analyser har åtgärdats.
+- &#x200B;<!-- PB-50 -->Ett problem har korrigerats där TinyMCE-menyn för bildinnehåll visas under andra innehållstyper om bildens överordnade behållare är duplicerad.
+- &#x200B;<!-- PB-166 -->[!DNL Page Builder] har uppdaterats för att implementera en borttagningsmetod för att förhindra minnesläckor i vissa scenarier.
+- &#x200B;<!-- PB-170 -->Förbättrade TinyMCE-prestanda när flera instanser används på Admin-scenen.
+- &#x200B;<!-- PB-252 -->Korrigerade ett problem där innehållstypen för dynamiskt block inte återges på adminscenen om den översta raden är markerad som dold.
+- &#x200B;<!-- PB-273 -->Förfinade mushovringshändelser på Admin-scenen genom att ta bort en 200 ms fördröjning från olika gränssnittskontroller. Den här ändringen gör det enklare att arbeta med kapslade innehållsobjekt på scenen.
+- &#x200B;<!-- PB-294 -->Korrigerade ett problem där valutasymbolen felaktigt undrades i produktlistwidgeten i Block/Dynamic Block på Admin-scenen.
+- &#x200B;<!-- PB-296 -->Ett problem har korrigerats där produktsumman på redigeringspanelen [!DNL Page Builder] inte fungerade för anpassade MSI-arkivprodukter.
+- &#x200B;<!-- PB-317 -->Ett problem har korrigerats där [!DNL Page Builder]-innehåll med bakgrundsbilder på Microsoft Edge inte återger dessa bilder i butiken.
+- &#x200B;<!-- PB-390 -->Korrigerade ett problem där kapslat [!DNL Page Builder]-innehåll inte kunde sparas om användarna klickar på knappen Spara innan sidan återges fullständigt.
+- &#x200B;<!-- PB-418 -->Ett undantagsfel som uppstod i cron-jobb på grund av [!DNL Page Builder]-analyser har åtgärdats.
 
 ## 1.2.2 för Adobe Commerce 2.3.4-p2
 
@@ -219,14 +219,14 @@ Den här versionen av [!DNL Page Builder] är bara en versionsnummeruppdatering 
 
 ![Korrigerat problem](../assets/fix.svg) **Flera korrigeringar**
 
-- <!-- PB-237 -->Säkerhetsförbättringar.
-- <!-- PB-41 -->Korrigerade sökningar i användargränssnittet för att välja komponenter så att bara en AJAX per sökterm görs.
-- <!-- PB-76, PB-84-->Uppdaterade produktförhandsvisningar i Admin för att matcha butiken, inklusive produktstjärngradering, färg och storleksalternativ när det är relevant.
-- <!-- PB-169 -->Korrigerade ett problem där [!DNL Page Builder] inte kunde sparas när JavaScript minification and bundling är aktiverat i Commerce.
-- <!-- PB-241 -->Korrigerade administratörsförhandsgranskningarna av Produkter, Block och Dynamic Blocks för korrekt rendering på Commerce-installationer som definierar olika URL:er för Admin och frontend.
-- <!-- PB-238 -->Korrigerade administratörsförhandsgranskningarna av Produkter, Block och Dynamic Blocks så att de återges korrekt på Commerce-installationer med B2B installerat med alternativet _Endast inloggning_ aktiverat. Före den här korrigeringen skulle förhandsgranskningen [!DNL Page Builder] göra att sidan dirigeras om till kundkontoinloggningen.
-- <!-- PB-239 -->Ett sessionsfel som kan uppstå vid förhandsgranskning av en stor sida i [!DNL Page Builder]-administratören har korrigerats.
-- <!-- PB-248 -->[!DNL Page Builder] LESS-format har uppdaterats för att förhindra dubblering av storefront-format.
+- &#x200B;<!-- PB-237 -->Säkerhetsförbättringar.
+- &#x200B;<!-- PB-41 -->Korrigerade sökningar i användargränssnittet för att välja komponenter så att bara en AJAX per sökterm görs.
+- &#x200B;<!-- PB-76, PB-84-->Uppdaterade produktförhandsvisningar i Admin för att matcha butiken, inklusive produktstjärngradering, färg och storleksalternativ när det är relevant.
+- &#x200B;<!-- PB-169 -->Korrigerade ett problem där [!DNL Page Builder] inte kunde sparas när JavaScript minification and bundling är aktiverat i Commerce.
+- &#x200B;<!-- PB-241 -->Korrigerade administratörsförhandsgranskningarna av Produkter, Block och Dynamic Blocks för korrekt rendering på Commerce-installationer som definierar olika URL:er för Admin och frontend.
+- &#x200B;<!-- PB-238 -->Korrigerade administratörsförhandsgranskningarna av Produkter, Block och Dynamic Blocks så att de återges korrekt på Commerce-installationer med B2B installerat med alternativet _Endast inloggning_ aktiverat. Före den här korrigeringen skulle förhandsgranskningen [!DNL Page Builder] göra att sidan dirigeras om till kundkontoinloggningen.
+- &#x200B;<!-- PB-239 -->Ett sessionsfel som kan uppstå vid förhandsgranskning av en stor sida i [!DNL Page Builder]-administratören har korrigerats.
+- &#x200B;<!-- PB-248 -->[!DNL Page Builder] LESS-format har uppdaterats för att förhindra dubblering av storefront-format.
 
 ## 1.1.1 för Adobe Commerce 2.3.3-p1
 

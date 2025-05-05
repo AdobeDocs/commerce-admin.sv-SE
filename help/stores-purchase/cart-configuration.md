@@ -47,7 +47,7 @@ Länken kan konfigureras för att visa antalet olika produkter (eller SKU:er) i 
 
 ### Konfigurera mini-vagnen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]**.
 
@@ -73,7 +73,7 @@ Länken kan konfigureras för att visa antalet olika produkter (eller SKU:er) i 
 
 ### Konfigurera kundvagnslänken
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]**.
 
@@ -94,7 +94,7 @@ Kundvagnssidan kan konfigureras så att den visas när en artikel läggs till i 
 
 **_Så här konfigurerar du när vagnen visas:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]**.
 
@@ -121,7 +121,7 @@ Du kan bestämma hur länge ett pris är giltigt genom att ställa in livslängd
 
 **_Så här konfigurerar du offertens livstid:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]**.
 
@@ -145,7 +145,7 @@ Med konfigurationen kan du ange ett minimibelopp, efter att rabatter har tilläm
 
 **_Så här konfigurerar du ett minimiorderbelopp:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 
@@ -227,7 +227,7 @@ Miniatyrbilden för både grupperade och konfigurerbara produkter kan ställas i
 
 **_Så här konfigurerar du kundvagnsminiatyrer:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]**.
 
@@ -257,7 +257,7 @@ Presentationsalternativskonfigurationen gäller hela webbplatsen, men kan åsido
 
 ### Aktivera presentalternativ
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 
@@ -297,7 +297,7 @@ Presentfigursättningsbilden ska vara en färgruta som visar det upprepade möns
 
 #### Lägg till en figursatt design
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**&#x200B;på sidofältet_ Admin _.
 
    ![Presentomslutningsrutnät](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
@@ -321,13 +321,13 @@ Presentfigursättningsbilden ska vara en färgruta som visar det upprepade möns
 
 1. Om du vill överföra en miniatyrbild **[!UICONTROL Image]** av presentpaketet klickar du på **[!UICONTROL Choose File]** och väljer filen som ska överföras från katalogen.
 
-   En miniatyrbild av bilden visas i _[!UICONTROL Gift Wrapping Information]_när posten har sparats.
+   En miniatyrbild av bilden visas i _[!UICONTROL Gift Wrapping Information]_&#x200B;när posten har sparats.
 
 1. Klicka på **[!UICONTROL Save]**.
 
 #### Redigera en figursatt design
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**&#x200B;på sidofältet_ Admin _.
 
 1. Hitta presentradsposten i listan.
 
@@ -367,7 +367,7 @@ Priserna för presentkort och presentkort kan konfigureras så att de inkluderar
 
 **_Så här konfigurerar du moms för presentalternativ:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Tax]**.
 

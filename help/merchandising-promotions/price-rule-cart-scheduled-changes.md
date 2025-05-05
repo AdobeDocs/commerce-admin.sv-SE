@@ -40,7 +40,7 @@ Tänk på följande viktiga saker:
 
 - Om en kampanj som innehåller en prisregel skapas från början utan ett slutdatum, kan kampanjen inte redigeras så att den innehåller ett slutdatum. Vi rekommenderar att du antingen lägger till ett slutdatum när du skapar kampanjen eller skapar en dubblettversion av den befintliga kampanjen och lägger till slutdatumet i dubbletten efter behov.
 - När du använder en schemalagd uppdatering för att aktivera en kundvagnsprisregel med ett slutdatum måste du ange regeln som Inledande inaktiverad. Regler som redan är aktiva uppfyller inte slutdatumet.
-- Kuponger är inte anslutna till kundprisregler. En schemalagd uppdatering ger inte åtkomst till fälten _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_och_[!UICONTROL Uses per Customer]_ på fliken _[!UICONTROL Rule Information]_. Dessutom är inte alla inställningar på fliken_[!UICONTROL Manage Coupon Codes]_ tillgängliga.
+- Kuponger är inte anslutna till kundprisregler. En schemalagd uppdatering ger inte åtkomst till fälten _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_&#x200B;och&#x200B;_[!UICONTROL Uses per Customer]_ på fliken _[!UICONTROL Rule Information]_. Dessutom är inte alla inställningar på fliken&#x200B;_[!UICONTROL Manage Coupon Codes]_ tillgängliga.
 
 >[!IMPORTANT]
 >

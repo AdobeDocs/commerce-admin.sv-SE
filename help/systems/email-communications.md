@@ -16,13 +16,13 @@ Med _inställningarna för att skicka e-post_ kan du dirigera returnerad e-post 
 
 >[!IMPORTANT]
 >
->**Säkerhetsmeddelande** Alla handlare bör omedelbart ställa in sin sändningskonfiguration för e-post för att skydda mot en nyligen identifierad potentiell fjärrexekvering av kod. Vi rekommenderar att du undviker att använda [!DNL Sendmail] för e-postkommunikation tills problemet är löst. Kontrollera att _[!UICONTROL Set Return Path]_är inställt på `No` i_[!UICONTROL Mail Sending Settings]_.
+>**Säkerhetsmeddelande** Alla handlare bör omedelbart ställa in sin sändningskonfiguration för e-post för att skydda mot en nyligen identifierad potentiell fjärrexekvering av kod. Vi rekommenderar att du undviker att använda [!DNL Sendmail] för e-postkommunikation tills problemet är löst. Kontrollera att _[!UICONTROL Set Return Path]_&#x200B;är inställt på `No` i&#x200B;_[!UICONTROL Mail Sending Settings]_.
 
 En detaljerad lista över konfigurationsinställningarna finns i [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) i _konfigurationsreferensen_.
 
 ## Konfigurera e-postkommunikation
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 

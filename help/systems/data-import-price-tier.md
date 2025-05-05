@@ -22,9 +22,9 @@ I följande exempel exporteras data om nivåpriser för en enskild produkt. Seda
 
 ![Priser på produktnivå](./assets/price-tier-customer-group-discount.png){width="600" zoomable="yes"}
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;på sidofältet_ Admin _.
 
-1. Under _[!UICONTROL Export Settings]_anger du **[!UICONTROL Entity Type]**till `Advanced Pricing`.
+1. Under _[!UICONTROL Export Settings]_&#x200B;anger du **[!UICONTROL Entity Type]**&#x200B;till `Advanced Pricing`.
 
 1. Bläddra nedåt till SKU-attributen i rutnätet **[!UICONTROL Entity Attributes]** och gör följande:
 
@@ -67,7 +67,7 @@ Du använder exporterade data som en mall för import av skiktprisdata.
 
 ## Steg 3: Importera uppdaterade data
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**&#x200B;på sidofältet_ Admin _.
 
 1. Under _Importinställningar_ anger du **[!UICONTROL Entity Type]** till `Advanced Pricing`.
 

@@ -28,7 +28,7 @@ Om du ändrar väsentliga delar av en order annulleras den ursprungliga ordern o
 | **[!UICONTROL Login as Customer]** | Gör att en administratörsanvändare kan hjälpa kunderna med deras beställningar. |
 | **[!UICONTROL Cancel]** | Avbryter väntande ordning. |
 | **[!UICONTROL Send Email]** | Skickar ett e-postmeddelande om den väntande ordern till kunden. |
-| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändrar status för väntande order till `On Hold`. Välj _[!UICONTROL Unhold]_om du vill släppa undantaget. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändrar status för väntande order till `On Hold`. Välj _[!UICONTROL Unhold]_&#x200B;om du vill släppa undantaget. |
 | **[!UICONTROL Invoice]** | Skapar en [faktura](invoices.md#create-an-invoice) från den väntande ordern genom att konvertera ordern till en faktura och ändra orderstatusen till `processing`. |
 | **[!UICONTROL Ship]** | Skapar en [försändelse](shipments.md#create-a-shipment)-post för ordern. |
 | **[!UICONTROL Reorder]** | Skapar en ny väntande order som är en dubblett av den aktuella väntande ordern. |
@@ -59,7 +59,7 @@ Du kan inte ändra en `Processing`-beställning avsevärt, men du kan redigera f
 | **[!UICONTROL Send Email]** | Skickar ett e-postmeddelande om ordern till kunden. |
 | **[!UICONTROL Void]** | [Annullerar](#void-a-processing-order) en ordertransaktion eller en partiell ordertransaktion. |
 | **[!UICONTROL Credit Memo]** | Initierar processen att skapa en [kreditnota](credit-memo-create.md). |
-| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändrar försäljningsorderns status till `On Hold`. Välj _[!UICONTROL Unhold]_om du vill släppa spärren på försäljningsordern. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändrar försäljningsorderns status till `On Hold`. Välj _[!UICONTROL Unhold]_&#x200B;om du vill släppa spärren på försäljningsordern. |
 | **[!UICONTROL Reorder]** | Skapar en ny väntande order baserat på den aktuella ordern. |
 | **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Initierar processen att [returnera](returns.md) ett eller flera objekt från ordningen. |
 
@@ -75,7 +75,7 @@ Betalningsmetoden avgör vilka betalningsåtgärder som är tillgängliga. Mer i
 
 **_Så här annullerar du en order:_**
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL View]** i kolumnen **[!UICONTROL Action]** för den ordning som ska redigeras.
 
@@ -87,7 +87,7 @@ Du kan utfärda alla återbetalningar som behövs med hjälp av en [kreditnota](
 
 ## Redigera en väntande order
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL View]** i kolumnen **[!UICONTROL Action]** för den ordning som ska redigeras.
 
@@ -119,7 +119,7 @@ Om du vill ta bort spärren för en order redigerar du ordningen igen och klicka
 
 Om du avbryter en order ändras dess status från `Pending` till `Canceled`.
 
-1. I rutnätet _[!UICONTROL Orders]_hittar du den väntande ordern som ska annulleras.
+1. I rutnätet _[!UICONTROL Orders]_&#x200B;hittar du den väntande ordern som ska annulleras.
 
 1. Klicka på **[!UICONTROL View]** i kolumnen _[!UICONTROL Action]_.
 

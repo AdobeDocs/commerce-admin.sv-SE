@@ -20,7 +20,7 @@ Om du gör affärer i flera länder och levererar en stor mängd produkter kan d
 
 ## Steg 1: Exportera Commerce momssatser
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import/Export Tax Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import/Export Tax Rates]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Export Tax Rates]**.
 
@@ -79,7 +79,7 @@ Du har två kalkylblad öppna, sida vid sida. Den ena innehåller exportfilsstru
 
 ## Steg 3: Importera skattesatser
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import/Export Tax Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import/Export Tax Rates]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Choose File]** och välj den CSV-momstarifffil som du förberedde för import.
 
@@ -87,7 +87,7 @@ Du har två kalkylblad öppna, sida vid sida. Den ena innehåller exportfilsstru
 
    Det kan ta flera minuter att importera data. När processen är klar visas meddelandet `The tax rate has been imported`. Om du får ett felmeddelande rättar du till problemet i data och försöker igen.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;på sidofältet_ Admin _.
 
    Importerade frekvenser visas i listan.
 

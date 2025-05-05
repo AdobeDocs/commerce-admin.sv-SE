@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Lägga till en variabel i en e-postmall
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**&#x200B;på sidofältet_ Admin _.
 
 1. Gör något av följande:
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
    - Om du vill använda variabeln i en ny mall klickar du på **[!UICONTROL Add New Template]** och anpassar standardmallkoden. Se [Meddelandemallar](email-template-custom.md#message-templates).
 
-1. Under _[!UICONTROL Load default template]_väljer du den **[!UICONTROL Template]**som du vill anpassa.
+1. Under _[!UICONTROL Load default template]_&#x200B;väljer du den **[!UICONTROL Template]**&#x200B;som du vill anpassa.
 
 1. Klicka på **[!UICONTROL Load Template]** om du vill använda en mall.
 
-   Fältet _[!UICONTROL Currently used for]_visar mallens konfigurationssökväg._[!UICONTROL Template Subject]_ och _[!UICONTROL Template Content]_genereras automatiskt i förhållande till den valda mallen.
+   Fältet _[!UICONTROL Currently used for]_&#x200B;visar mallens konfigurationssökväg._[!UICONTROL Template Subject]_ och _[!UICONTROL Template Content]_&#x200B;genereras automatiskt i förhållande till den valda mallen.
 
    - **[!UICONTROL Template Subject]** - Den här texten visas på ämnesraden i ett e-postmeddelande.
 

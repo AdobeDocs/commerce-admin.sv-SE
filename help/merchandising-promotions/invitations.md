@@ -18,7 +18,7 @@ När inbjudningar är aktiverade kan kunderna skicka och visa inbjudningar från
 
 ## Mina inbjudningar
 
-Avsnittet _[!UICONTROL My Invitations]_i kundkontot innehåller alla inbjudningar som har skickats av kunden. Kunder kan skicka inbjudningar till vänner och familj för butiksevenemang, presentregister, önskelistor och så vidare.
+Avsnittet _[!UICONTROL My Invitations]_&#x200B;i kundkontot innehåller alla inbjudningar som har skickats av kunden. Kunder kan skicka inbjudningar till vänner och familj för butiksevenemang, presentregister, önskelistor och så vidare.
 
 ![Mina inbjudningar](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
@@ -57,7 +57,7 @@ Ett meddelande om inbjudan skickas till den inbjudna användarens e-postadress m
 
 Inbjudningskonfigurationen aktiverar inbjudningar till butiken och avgör hur de skickas.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Invitations]**.
 
@@ -99,7 +99,7 @@ I avsnittet [Privata försäljningsrapporter](../getting-started/private-sales-r
 
 ### Skapa en inbjudan i administratören
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Invitations]** i det övre högra hörnet.
 
@@ -113,7 +113,7 @@ I avsnittet [Privata försäljningsrapporter](../getting-started/private-sales-r
 
 ### Ignorera inbjudningar för en enskild enhet
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**&#x200B;på sidofältet_ Admin _.
 
 1. Sök efter önskad inbjudan med hjälp av filter och öppna den i redigeringsläge.
 
@@ -123,7 +123,7 @@ I avsnittet [Privata försäljningsrapporter](../getting-started/private-sales-r
 
 ### Ignorera inbjudningar för flera entiteter
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**&#x200B;på sidofältet_ Admin _.
 
 1. Sök efter och välj de inbjudningar som ska ignoreras.
 

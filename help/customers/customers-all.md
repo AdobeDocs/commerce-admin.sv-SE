@@ -59,7 +59,7 @@ I Admin visas i rutnätet [!UICONTROL Customers] alla kunder som har registrerat
 | **[!UICONTROL Web Site]** | Webbplatsen i butikshierarkin som kundkontot är kopplat till. |
 | **[!UICONTROL Confirmed Email]** | Anger om ett bekräftelsemeddelande krävs. |
 | **[!UICONTROL Account Created In]** | Anger butiksvyn som kundkontot skapades från. |
-| **[!UICONTROL Date of Birth]** | Kundens födelsedatum. <br><br>**_Viktigt!_**I enlighet med aktuella säkerhets- och sekretessrutiner ska du vara medveten om eventuella juridiska risker och säkerhetsrisker som är förknippade med lagring av kunders födelsedatum (månad, dag, år) med andra personliga identifierare. Vi rekommenderar att du begränsar lagringen av kundernas födelsedatum och föreslår att du använder kundens födelseår som ett alternativ. |
+| **[!UICONTROL Date of Birth]** | Kundens födelsedatum. <br><br>**_Viktigt!_**&#x200B;I enlighet med aktuella säkerhets- och sekretessrutiner ska du vara medveten om eventuella juridiska risker och säkerhetsrisker som är förknippade med lagring av kunders födelsedatum (månad, dag, år) med andra personliga identifierare. Vi rekommenderar att du begränsar lagringen av kundernas födelsedatum och föreslår att du använder kundens födelseår som ett alternativ. |
 | **[!UICONTROL Tax / VAT Number]** | Om tillämpligt, momsregistreringsnumret eller [momsregistreringsnumret ](../stores-purchase/vat.md) som tilldelats kunden. <br/><br/>Det här fältet är inte detsamma som momsregistreringsnumret. |
 | **[!UICONTROL Gender]** | Kundens kön. |
 | **[!UICONTROL Action]** | Redigera - Öppnar företagskontot i redigeringsläge. |

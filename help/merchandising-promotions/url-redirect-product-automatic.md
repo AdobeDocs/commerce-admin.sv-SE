@@ -21,7 +21,7 @@ Din butik kan konfigureras så att den automatiskt genererar en permanent omdiri
 
 ## Konfigurera automatiska omdirigeringar
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -36,7 +36,7 @@ Din butik kan konfigureras så att den automatiskt genererar en permanent omdiri
 
 >[!NOTE]
 >
-> URL-omskrivningar kan genereras för butiksvyn eller webbplatsomfånget. Ange omskrivningsscopet för URL från administratören på **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Välj omfånget i fältet_[!UICONTROL Product URL Rewrite Scope]_.
+> URL-omskrivningar kan genereras för butiksvyn eller webbplatsomfånget. Ange omskrivningsscopet för URL från administratören på **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Välj omfånget i fältet&#x200B;_[!UICONTROL Product URL Rewrite Scope]_.
 
 ## Omdirigera produkt-URL:er automatiskt
 
@@ -86,7 +86,7 @@ Din butik kan konfigureras så att den automatiskt genererar en permanent omdiri
 >
 >Om du stänger av den automatiska genereringen av URL:er för kategorier/produkter tas alla befintliga URL-skrivningar för kategori/produkttyp bort permanent, vilket inte kan återställas. Detta kan potentiellt orsaka olösta konflikter mellan kategori-/produkttypens URL-adress som kräver en manuell uppdatering av URL-nyckeln för att kunna lösas.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 

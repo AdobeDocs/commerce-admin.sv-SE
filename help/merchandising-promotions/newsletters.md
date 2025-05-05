@@ -22,7 +22,7 @@ Det första steget när du skapar nyhetsbrev är att konfigurera inställningarn
 
 ## Aktivera nyhetsbrev
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Newsletter]**.
 
@@ -34,7 +34,7 @@ När du har aktiverat nyhetsbrevsfunktionen visas avsnittet _[!UICONTROL Subscri
 
 ## Konfigurera prenumerationsalternativen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Newsletter]**.
 

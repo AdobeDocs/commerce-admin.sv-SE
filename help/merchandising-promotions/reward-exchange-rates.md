@@ -32,7 +32,7 @@ När du konverterar valuta till punkter kan antalet punkter inte delas upp. Valu
 
 ![Återbetalningsvalutakurser](./assets/reward-exchange-rates.png){width="700" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Rate]** i det övre högra hörnet.
 
@@ -55,8 +55,8 @@ När du konverterar valuta till punkter kan antalet punkter inte delas upp. Valu
 
    | Riktning | Kursinställningar |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | I det första _[!UICONTROL Rate]_-fältet anger du antalet punkter. I det andra_[!UICONTROL Rate]_-fältet anger du det monetära värdet för poängen. |
-   | [!UICONTROL Currency to Points] | Ange det monetära värdet i det första fältet _[!UICONTROL Rate]_. I det andra fältet_[!UICONTROL Rate]_ anger du antalet punkter som representeras av det monetära värdet. |
+   | [!UICONTROL Points to Currency] | I det första _[!UICONTROL Rate]_-fältet anger du antalet punkter. I det andra&#x200B;_[!UICONTROL Rate]_-fältet anger du det monetära värdet för poängen. |
+   | [!UICONTROL Currency to Points] | Ange det monetära värdet i det första fältet _[!UICONTROL Rate]_. I det andra fältet&#x200B;_[!UICONTROL Rate]_ anger du antalet punkter som representeras av det monetära värdet. |
 
    När du konverterar punkter till valuta kan antalet punkter inte delas. Om tio punkter till exempel konverteras till $2.00 måste poäng lösas in i grupper om tio. Därför skulle 25 poäng återbetalas för 4,00 USD, med 5 poäng kvar i kundens saldo.
 
@@ -66,7 +66,7 @@ När du konverterar valuta till punkter kan antalet punkter inte delas upp. Valu
 
 ## Ta bort en belöningsvalutakurs
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**&#x200B;på sidofältet_ Admin _.
 
 1. Hitta den belöningsvalutakurs som ska tas bort och öppna den i redigeringsläge.
 
@@ -80,4 +80,4 @@ När du konverterar valuta till punkter kan antalet punkter inte delas upp. Valu
 |--- |--- |
 | [!UICONTROL Website] | Webbplatserna där belöningspriserna gäller. |
 | [!UICONTROL Customer Group] | Kundgrupperna som belöningssatserna gäller för. |
-| [!UICONTROL Direction] | Avgör vilken typ av transaktion valutakursen definierar. Alternativ: <br/>**[!UICONTROL Points to Currency]**- Definierar antalet poäng som kan användas som kredit i förhållande till orderbeloppet. I det första _[!UICONTROL Rate]_-fältet anger du antalet punkter. I det andra_[!UICONTROL Rate]_-fältet anger du det monetära värdet för poängen.<br/>**[!UICONTROL Currency to Points]** - Definierar beloppet för en order som kan få kundpoäng. Ange det monetära värdet i det första fältet _[!UICONTROL Rate]_. I det andra fältet_[!UICONTROL Rate]_ anger du antalet punkter som representeras av det monetära värdet. |
+| [!UICONTROL Direction] | Avgör vilken typ av transaktion valutakursen definierar. Alternativ: <br/>**[!UICONTROL Points to Currency]**- Definierar antalet poäng som kan användas som kredit i förhållande till orderbeloppet. I det första _[!UICONTROL Rate]_-fältet anger du antalet punkter. I det andra&#x200B;_[!UICONTROL Rate]_-fältet anger du det monetära värdet för poängen.<br/>**[!UICONTROL Currency to Points]** - Definierar beloppet för en order som kan få kundpoäng. Ange det monetära värdet i det första fältet _[!UICONTROL Rate]_. I det andra fältet&#x200B;_[!UICONTROL Rate]_ anger du antalet punkter som representeras av det monetära värdet. |

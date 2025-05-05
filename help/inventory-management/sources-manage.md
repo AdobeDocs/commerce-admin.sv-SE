@@ -36,9 +36,9 @@ Du kan uppdatera namn, adress, GPS-plats och kontaktinformation. Källkoden är 
 
 Om du redigerar Source Standard kan du redigera alla konfigurationer förutom namn och kod. Vi rekommenderar att handlare med en enda källa lägger till information som matchar deras plats.
 
-På sidan _[!UICONTROL Manage Sources]_visas alla tillgängliga lagerplatser och leveransanläggningar. Du kan lägga till nya lagerkällor och redigera befintliga platser.
+På sidan _[!UICONTROL Manage Sources]_&#x200B;visas alla tillgängliga lagerplatser och leveransanläggningar. Du kan lägga till nya lagerkällor och redigera befintliga platser.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**&#x200B;på sidofältet_ Admin _.
 
 1. Mer information om hur du lägger till en lagerplats finns i [Lägga till en ny Source](sources-add.md).
 

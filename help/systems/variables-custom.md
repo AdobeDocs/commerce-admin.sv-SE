@@ -23,7 +23,7 @@ För att uppfylla ditt företags specifika behov kan du skapa anpassade variable
 
 ## Steg 1: Skapa en egen variabel
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Custom Variables]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Custom Variables]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Variable]**.
 

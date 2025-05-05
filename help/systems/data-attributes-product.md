@@ -20,7 +20,7 @@ Den installation som används för att exportera dessa data har exempeldata inst
 
 | Attribut | Beskrivning |
 |--- |--- |
-| `sku` | (Obligatoriskt) Lagringsenheten är en unik alfanumerisk identifierare som används för att spåra lagret. En SKU kan innehålla upp till 64 tecken. Till exempel: `sku123`<br/>**_Obs!_**En SKU som är längre än 64 tecken gör att importen misslyckas. |
+| `sku` | (Obligatoriskt) Lagringsenheten är en unik alfanumerisk identifierare som används för att spåra lagret. En SKU kan innehålla upp till 64 tecken. Till exempel: `sku123`<br/>**_Obs!_**&#x200B;En SKU som är längre än 64 tecken gör att importen misslyckas. |
 | `store_view_code` | Identifierar de specifika butiksvyer där produkten är tillgänglig. Om den är tom är produkten tillgänglig i standardbutiksvyn. Till exempel: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Tilldelar produkten till en specifik attributuppsättning eller produktmall, beroende på produkttyp. Till exempel: `default`<br><br>När produkten har skapats kan attributuppsättningen inte ändras med importfunktionen. Du kan dock ändra attributuppsättningen i Admin och exportera om produkten för att uppdatera CSV-filen. |
 | `product_type` | Anger typen av produkt. Värden:<br/>`simple` - Materiella artiklar som vanligen säljs som enstaka enheter eller i fasta kvantiteter.<br/>`grouped` - En grupp separata produkter som säljs som en uppsättning.<br/>`configurable` - En produkt med flera alternativ som kunden måste välja innan han/hon kan göra ett köp. Inventering kan hanteras för varje uppsättning variationer eftersom de representerar en separat produkt med en distinkt SKU. En kombination av färg och storlek för en konfigurerbar produkt kopplas till exempel till en specifik SKU i katalogen.<br/>`virtual` - En icke-materiell produkt som inte kräver frakt och som inte finns i lager. Exempel är tjänster, medlemskap och prenumerationer.<br/>`bundle` - En anpassningsbar produktuppsättning med enkla produkter som säljs tillsammans. |
@@ -161,8 +161,8 @@ Med avancerad import/export av pris kan du snabbt uppdatera prisinformation för
 
 | Attribut | Beskrivning |
 |--- |--- |
-| `sku` | (Obligatoriskt) Lagringsenheten är en unik alfanumerisk identifierare som används för att spåra lagret. En SKU kan innehålla upp till 64 tecken. Till exempel: `sku123`<br/>**_Obs!_**En SKU som är längre än 64 tecken gör att importen misslyckas. |
-| `tier_price_website` | Webbplatskoden [](../stores-purchase/stores.md#add-websites) identifierar varje webbplats där nivåpriser är tillgängliga. Till exempel: `-  website1 -  All Websites [USD]` |
+| `sku` | (Obligatoriskt) Lagringsenheten är en unik alfanumerisk identifierare som används för att spåra lagret. En SKU kan innehålla upp till 64 tecken. Till exempel: `sku123`<br/>**_Obs!_**&#x200B;En SKU som är längre än 64 tecken gör att importen misslyckas. |
+| `tier_price_website` | Webbplatskoden [&#128279;](../stores-purchase/stores.md#add-websites) identifierar varje webbplats där nivåpriser är tillgängliga. Till exempel: `-  website1 -  All Websites [USD]` |
 | `tier_price_customer` | Identifierar de [kundgrupper](../customers/customer-groups.md) där nivåpriser är tillgängliga. Till exempel: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | Identifierar de kundgrupper där nivåpriser är tillgängliga. Till exempel: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_qty` | Den kvantitet av produkten som måste beställas för att erhålla rabatten på skiktpriset. |

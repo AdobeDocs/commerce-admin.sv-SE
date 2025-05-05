@@ -18,7 +18,7 @@ Sidans arbetsyta innehåller verktyg som hjälper dig att snabbt hitta de sidor 
 
 ## Uppdatera sidegenskaper snabbt
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
 1. Klicka på en rad i rutnätet.
 
    ![Sidegenskaperna kan redigeras i sidstödrastret](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
@@ -79,7 +79,7 @@ Sidans arbetsyta innehåller verktyg som hjälper dig att snabbt hitta de sidor 
 
 ## Sidsökning
 
-Sökrutan i det övre vänstra hörnet av stödrastret _[!UICONTROL Pages]_kan användas för att hitta specifika sidor per nyckelord. Om du vill göra en mer avancerad sökning kan du [filtrera](../getting-started/admin-grid-controls.md) sökningen efter flera parametrar.
+Sökrutan i det övre vänstra hörnet av stödrastret _[!UICONTROL Pages]_&#x200B;kan användas för att hitta specifika sidor per nyckelord. Om du vill göra en mer avancerad sökning kan du [filtrera](../getting-started/admin-grid-controls.md) sökningen efter flera parametrar.
 
 ### Sök efter nyckelord
 
@@ -139,7 +139,7 @@ Sidor kan redigeras, inaktiveras, aktiveras och tas bort. Om du vill utföra en 
 
 ### En åtgärd
 
-Använd kolumnen _[!UICONTROL Action]_längst till höger om du vill använda någon av följande åtgärder på den enskilda sidan:
+Använd kolumnen _[!UICONTROL Action]_&#x200B;längst till höger om du vill använda någon av följande åtgärder på den enskilda sidan:
 
 - [!UICONTROL Edit] - öppnar sidan i redigeringsläge
 - [!UICONTROL Delete] - tar bort sidan (kräver bekräftelse)

@@ -111,7 +111,7 @@ Om du vill utföra en åtgärd på en viss order markerar du kryssrutan i den f�
 | [!UICONTROL Grand Total (Base)] | Orderns totalsumma. |
 | [!UICONTROL Grand Total (Purchased)] | Summan av inköpta produkter i ordern. |
 | [!UICONTROL Status] | Aktuell orderstatus. |
-| [!UICONTROL Action] | _[!UICONTROL View]_öppnar ordningen i redigeringsläge. |
+| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;öppnar ordningen i redigeringsläge. |
 | [!UICONTROL Allocated sources] | Källor som tilldelats den specifika ordern. |
 
 {style="table-layout:auto"}

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quote Templates]
 
-Om offerter är aktiverade visas alla offertmallar som är associerade med kundkontot i avsnittet _[!UICONTROL My Quotes Template]_på kontrollpanelen för kundkonton. Beroende på deras tillstånd kan bara köpare som gör inköp för ett företags räkning begära en offertmall och förhandla om offertpriser och villkor för återkommande order.
+Om offerter är aktiverade visas alla offertmallar som är associerade med kundkontot i avsnittet _[!UICONTROL My Quotes Template]_&#x200B;på kontrollpanelen för kundkonton. Beroende på deras tillstånd kan bara köpare som gör inköp för ett företags räkning begära en offertmall och förhandla om offertpriser och villkor för återkommande order.
 
 ![Mina offertmallar](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -115,7 +115,7 @@ Köpare kan utföra följande åtgärder från en länkad offert:
 
 Klicka på **[!UICONTROL Cancel Quote Template]** på mallsidan för offerter.
 
-Offertmallen avbryts och offertstatusen ändras till `Closed`. Det stängda citattecknet finns kvar i listan med *[!UICONTROL Inactive]* citattecken och finns kvar i listan i rutnätet _[!UICONTROL Quote Templates]_i Admin.
+Offertmallen avbryts och offertstatusen ändras till `Closed`. Det stängda citattecknet finns kvar i listan med *[!UICONTROL Inactive]* citattecken och finns kvar i listan i rutnätet _[!UICONTROL Quote Templates]_&#x200B;i Admin.
 
 ## Hantera länkar till referensdokument
 

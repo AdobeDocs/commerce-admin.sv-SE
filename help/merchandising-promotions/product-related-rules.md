@@ -18,7 +18,7 @@ Med relaterade produktregler kan ni inrikta er på de produkter som presenteras 
 
 Eftersom flera aktiva regler kan aktiveras samtidigt kan du ange en prioritet för varje regel. Den definierar i vilken ordning reglerna tillämpas och produkterna visas på sidan.
 
-Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**om du vill komma åt de relaterade produktreglerna.
+Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**&#x200B;om du vill komma åt de relaterade produktreglerna.
 
 ![Listan med relaterade produktregler](./assets/related-products-rules.png){width="700" zoomable="yes"}
 
@@ -28,8 +28,8 @@ Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Re
 |--- |--- |
 | [!UICONTROL ID] | En unik numerisk identifierare som tilldelas varje relaterad produktregel |
 | [!UICONTROL Rule] | Namnet på den relaterade produktregeln |
-| [!UICONTROL Start] | Använd de dynamiska kalenderfälten (_[!UICONTROL To:]_och_[!UICONTROL From:]_) för att filtrera listan baserat på regelns startdatum som det definierades när regeln skapades. |
-| [!UICONTROL End] | Använd de dynamiska kalenderfälten (_[!UICONTROL To:]_och_[!UICONTROL From:]_) för att filtrera listan baserat på regelns slutdatum som det definierades när regeln skapades. |
+| [!UICONTROL Start] | Använd de dynamiska kalenderfälten (_[!UICONTROL To:]_&#x200B;och&#x200B;_[!UICONTROL From:]_) för att filtrera listan baserat på regelns startdatum som det definierades när regeln skapades. |
+| [!UICONTROL End] | Använd de dynamiska kalenderfälten (_[!UICONTROL To:]_&#x200B;och&#x200B;_[!UICONTROL From:]_) för att filtrera listan baserat på regelns slutdatum som det definierades när regeln skapades. |
 | [!UICONTROL Priority] | Ange text i det här fältet om du vill filtrera listan baserat på den prioritet som har definierats för en regel. |
 | [!UICONTROL Applies To] | Det här alternativet filtrerar listan med regler som gäller för `Related Products`, `Up-sells` och `Cross-sells`. |
 | [!UICONTROL Status] | Använd det här alternativet om du vill filtrera listan baserat på regelstatus (`Active` eller `Inactive`). |
@@ -47,7 +47,7 @@ Antalet produkt-ID:n som kan inkluderas i en produktrelationsregel bestäms av v
 Anta till exempel att du har tre regler med prioriteten `1`, `2` och `3`.
 
 - Två matchande produkter returnerades för _Regel 1_, sex matchande produkter för _Regel 2_ och 20 matchande produkter för _Regel 3_.
-- I konfigurationen är _[!UICONTROL Maximum Number of Products for Related Products List]_inställd på `6`.
+- I konfigurationen är _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;inställd på `6`.
 
   | Regler | Prioritet | Matchande produkter |
   |---|---|-----|
@@ -67,7 +67,7 @@ De matchande produkter som returneras från _Regel 1_ kan först användas för 
 
 Beteendet för produktrelationsregler och visningen av matchade produkter bestäms av konfigurationsinställningarna. Dessa inställningar avgör hur många produkter som matchar regeln som kan visas och i vilken ordning de visas.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i panelen till vänster och välj **[!UICONTROL Catalog]** under.
 

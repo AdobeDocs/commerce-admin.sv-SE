@@ -20,7 +20,7 @@ Massåtgärdsloggen registrerar information om asynkrona massåtgärder som kör
 
 ## Konfigurera massåtgärder
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
@@ -36,7 +36,7 @@ Massåtgärdsloggen registrerar information om asynkrona massåtgärder som kör
 
 ## Visa massåtgärder
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**&#x200B;på sidofältet_ Admin _.
 
 1. Sök efter önskad åtgärd i loggen.
 

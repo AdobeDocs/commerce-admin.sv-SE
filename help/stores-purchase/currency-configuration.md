@@ -20,7 +20,7 @@ Du anger också vilka valutor du godkänner och vilken valuta du vill använda f
 
 ## Steg 1: Välj godkända valutor
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. I det övre vänstra hörnet anger du **[!UICONTROL Scope]** till den butiksvy där konfigurationen gäller.
 
@@ -142,7 +142,7 @@ Med Hantering av valutasymboler kan du anpassa symbolen som är kopplad till var
 
 ![Valutasymboler](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**&#x200B;på sidofältet_ Admin _.
 
    Varje valuta som är aktiverad för din butik visas i listan _[!UICONTROL Currency]_.
 
@@ -150,7 +150,7 @@ Med Hantering av valutasymboler kan du anpassa symbolen som är kopplad till var
 
    - Ange en anpassad symbol för varje valuta som du vill använda, eller markera kryssrutan **[!UICONTROL Use Standard]** för varje valuta.
 
-   - Om du vill åsidosätta standardsymbolen avmarkerar du kryssrutan _[!UICONTROL Use Standard]_och anger den symbol som du vill använda.
+   - Om du vill åsidosätta standardsymbolen avmarkerar du kryssrutan _[!UICONTROL Use Standard]_&#x200B;och anger den symbol som du vill använda.
 
    >[!NOTE]
    >

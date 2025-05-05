@@ -132,7 +132,7 @@ Dessa rekommenderade inställningar kan användas för de flesta momskonfigurati
 | Skatteberäkning | På artikel |
 | Fraktfritt? | Ja |
 | Använd rabatt | Före skatt, rabatter på priser, inklusive moms. |
-| Kommentar | För B2B-handlare att enklare ta hänsyn till momskedjan. Skatteberäkning på rad är också giltig, men kontakta din skattejurisdiktion. Installationsprogrammet förutsätter att en handlare finns i leveranskedjan och att sålda varor används av andra leverantörer för momsrabatter och så vidare. Den här definitionen gör det enkelt att ta reda på moms per artikel för snabbare rabattgenerering. <br/><br/>**_Obs!_**Vissa jurisdiktioner kräver olika avrundningsstrategier som inte stöds av Commerce och att inte alla jurisdiktioner tillåter artikel- eller radnivåskatt. |
+| Kommentar | För B2B-handlare att enklare ta hänsyn till momskedjan. Skatteberäkning på rad är också giltig, men kontakta din skattejurisdiktion. Installationsprogrammet förutsätter att en handlare finns i leveranskedjan och att sålda varor används av andra leverantörer för momsrabatter och så vidare. Den här definitionen gör det enkelt att ta reda på moms per artikel för snabbare rabattgenerering. <br/><br/>**_Obs!_**&#x200B;Vissa jurisdiktioner kräver olika avrundningsstrategier som inte stöds av Commerce och att inte alla jurisdiktioner tillåter artikel- eller radnivåskatt. |
 
 {style="table-layout:auto"}
 
@@ -160,7 +160,7 @@ I följande exempel visas hur du ställer in GST-skattesatser för Kanada och PS
 
 ### Steg 1: Fullständiga inställningar för momsberäkning
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Om du vill ha en konfiguration med flera platser anger du **[!UICONTROL Store View]** till webbplatsen och lagret som är målet för konfigurationen.
 
@@ -346,13 +346,13 @@ Skapa följande momsregler:
 
 ### Steg 4: Konfigurera en butiksvy för Tyskland
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;på sidofältet_ Admin _.
 
 1. Skapa en butiksvy för **[!UICONTROL Germany]** under standardwebbplatsen.
 
 1. Gör sedan följande:
 
-   - Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+   - Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
    - I det övre vänstra hörnet anger du **[!UICONTROL Default Config]** till den franska butiken.
 
@@ -397,7 +397,7 @@ Ange följande allmänna skatteinställningar:
 
 ### Steg 6: Konfigurera skatteinställningar för Tyskland
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. I det övre högra hörnet anger du **[!UICONTROL Store View]** till vyn till den tyska butiken och klickar på **[!UICONTROL OK]** för att bekräfta.
 

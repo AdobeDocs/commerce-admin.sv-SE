@@ -52,8 +52,8 @@ Adobe Commerce importprocess kanske inte känner igen filer som är kodade i UTF
 
 | Åtgärd | Beskrivning |
 | --------- | ----------- |
-| Lägg till/uppdatera | Nya produktdata läggs till i befintliga produktdata för de befintliga posterna i databasen. Alla fält utom `sku` kan uppdateras.<br><br>Nya momsklasser som anges i importdata skapas automatiskt.<br><br>Nya produktkategorier som anges i importfilen skapas automatiskt.<br><br>Nya SKU:er som anges i importfilen skapas automatiskt <br><br>**_Obs!_**För produkter kan du uppdatera alla fält utom SKU genom import.<br><br>**_Viktigt!_** Det går inte att ta bort flera fältvärden, till exempel webbplatser eller kategorier, med importfunktionen _Lägg till/uppdatera_. Dessa fält finns kvar i databasen efter importen om de inte finns med i CSV-filen. |
-| Ersätt | Befintliga produktdata ersätts med nya data.<br><br>**_Viktigt!_**Var försiktig när du ersätter data eftersom befintliga produktdata rensas och alla referenser i systemet går förlorade.<br><br>Om en SKU i importdata matchar SKU för en befintlig entitet tas alla fält, inklusive SKU:n, bort och en ny post skapas med CSV-data. Ett fel uppstår om CSV-filen refererar till en SKU som inte finns i databasen. Du kan kontrollera data för att visa fel. |
+| Lägg till/uppdatera | Nya produktdata läggs till i befintliga produktdata för de befintliga posterna i databasen. Alla fält utom `sku` kan uppdateras.<br><br>Nya momsklasser som anges i importdata skapas automatiskt.<br><br>Nya produktkategorier som anges i importfilen skapas automatiskt.<br><br>Nya SKU:er som anges i importfilen skapas automatiskt <br><br>**_Obs!_**&#x200B;För produkter kan du uppdatera alla fält utom SKU genom import.<br><br>**_Viktigt!_** Det går inte att ta bort flera fältvärden, till exempel webbplatser eller kategorier, med importfunktionen _Lägg till/uppdatera_. Dessa fält finns kvar i databasen efter importen om de inte finns med i CSV-filen. |
+| Ersätt | Befintliga produktdata ersätts med nya data.<br><br>**_Viktigt!_**&#x200B;Var försiktig när du ersätter data eftersom befintliga produktdata rensas och alla referenser i systemet går förlorade.<br><br>Om en SKU i importdata matchar SKU för en befintlig entitet tas alla fält, inklusive SKU:n, bort och en ny post skapas med CSV-data. Ett fel uppstår om CSV-filen refererar till en SKU som inte finns i databasen. Du kan kontrollera data för att visa fel. |
 | Ta bort | Alla entiteter i importdata som finns i databasen tas bort från databasen.<br><br>Ta bort ignorerar alla kolumner i importdata, förutom SKU. Du kan ignorera alla andra attribut i data.<br><br>Ett fel inträffar om CSV-filen refererar till en SKU som inte finns i databasen. Du kan kontrollera data för att visa fel. |
 
 {style="table-layout:auto"}
@@ -70,7 +70,7 @@ När produktdata importeras läggs nya produktdata till i befintliga produktdata
 
 ### Steg 1: Förbered data
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**&#x200B;på sidofältet_ Admin _.
 
 1. Under _Importinställningar_ anger du **[!UICONTROL Entity Type]** till något av följande:
 
@@ -145,7 +145,7 @@ När produktdata importeras läggs nya produktdata till i befintliga produktdata
 
    >[!NOTE]
    >
-   >Från och med Adobe Commerce och Magento Open Source `2.3.2` sammanfogas sökvägen som anges i _[!UICONTROL Images File Directory]_för import till bildens baskatalog: `<Magento-root-folder>/var/import/images`. Du kan till exempel placera `product_images`-filerna i mappen `<Magento-root-directory>/var/import/images/product_images`. Baskatalogen för importbilderna kan konfigureras i filen `\Magento\ImportExport\etc\config.xml`. Om fjärrlagringsmodulen är aktiverad importerar du filer till mappen `<remote-storage-root-directory>/var/import/images/product_images`.
+   >Från och med Adobe Commerce och Magento Open Source `2.3.2` sammanfogas sökvägen som anges i _[!UICONTROL Images File Directory]_&#x200B;för import till bildens baskatalog: `<Magento-root-folder>/var/import/images`. Du kan till exempel placera `product_images`-filerna i mappen `<Magento-root-directory>/var/import/images/product_images`. Baskatalogen för importbilderna kan konfigureras i filen `\Magento\ImportExport\etc\config.xml`. Om fjärrlagringsmodulen är aktiverad importerar du filer till mappen `<remote-storage-root-directory>/var/import/images/product_images`.
 
    Mer information om hur du importerar produktbilder finns i [Importera produktbilder](data-import-product-images.md).
 
@@ -177,7 +177,7 @@ Commerce sparar en post med data som har importerats till din butik, inklusive s
 
 **_Så här visar du importhistoriken:_**
 
-Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**&#x200B;på sidofältet_ Admin _.
 
 ![Historik för dataimport](./assets/data-import-history.png){width="600" zoomable="yes"}
 

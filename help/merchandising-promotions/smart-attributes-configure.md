@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Konfigurationen av Visual Merchandiser avgör vilka attribut som kan användas i försäljningsfönstret och miniminivån för aktieströskeln. Konfigurationen identifierar också det attribut som används för färg och ordningen för färgvärden.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Visual Merchandiser]** under.
 

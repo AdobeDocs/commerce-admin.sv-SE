@@ -45,7 +45,7 @@ På servern styrs sessionens längd av filen `php.ini` och flera variabler. För
 
 För att underlätta inloggningen gör funktionen **[!UICONTROL Remember Me]** att kontoinnehavare inte kan ange sina inloggningsuppgifter varje gång de öppnar butiken. Av säkerhetsskäl är beständighetsfunktionen inaktiverad som standard.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Persistent Shopping Cart]**.
 

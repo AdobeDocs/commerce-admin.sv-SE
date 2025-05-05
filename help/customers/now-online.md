@@ -1,6 +1,6 @@
 ---
 title: Kunder som nu är online
-description: Alternativet _Now Online_ på menyn [!UICONTROL Customers ]visar alla kunder och besökare som för närvarande är online i din butik.
+description: Alternativet _Now Online_ på menyn [!UICONTROL Customers &#x200B;]visar alla kunder och besökare som för närvarande är online i din butik.
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
@@ -31,7 +31,7 @@ Gå till **[!UICONTROL Customers]** > **[!UICONTROL Online Now]** på sidofälte
 
 ## Konfigurera tidsintervallet
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Customer Configuration]**.
 

@@ -56,7 +56,7 @@ Priserna i butiken har företräde från högsta till lägsta kvantitet. Om du h
 
      >[!NOTE]
      >
-     >För att få det rabatterade priset beräknas den definierade procentandelen mot det värde som definieras i fältet _[!UICONTROL Price]_, inte i fältet_[!UICONTROL Special Price]_.
+     >För att få det rabatterade priset beräknas den definierade procentandelen mot det värde som definieras i fältet _[!UICONTROL Price]_, inte i fältet&#x200B;_[!UICONTROL Special Price]_.
 
      ![Pris i procent](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 

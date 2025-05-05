@@ -22,7 +22,7 @@ Er verksamhet körs och lagrar uppdateringar i takt med försäljningen. När ku
 
 Så här fungerar inställningen i enkät- och flerkällsinventeringar:
 
-- Aktivera _[!UICONTROL Manage Stock]_om du vill använda [!DNL Inventory Management].
+- Aktivera _[!UICONTROL Manage Stock]_&#x200B;om du vill använda [!DNL Inventory Management].
 
 - [!UICONTROL Manage Stock]-inställningarna på produktnivåkonfigurationen åsidosätter butikskonfigurationen.
 
@@ -38,7 +38,7 @@ När [!DNL Inventory Management] är aktiverat kan du se följande för att konf
 
 ## Aktivera eller inaktivera [!DNL Inventory Management]
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Inventory]**.
 

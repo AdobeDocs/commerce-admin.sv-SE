@@ -36,7 +36,7 @@ Adobe Commerce och Magento Open Source kan konfigureras för att leverera alla s
 
 ## Konfigurera bas-URL:en
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Web]** under _Allmänt_ i den vänstra panelen.
 
@@ -50,11 +50,11 @@ Adobe Commerce och Magento Open Source kan konfigureras för att leverera alla s
 
    - **[!UICONTROL Base URL for Static View Files]** — (Valfritt) Ange en alternativ plats för bas-URL:en för statiska vyfiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{unsecure_base_url}}
+     \{unsecure_base_url}&rbrace;
 
    - **[!UICONTROL Base URL for User Media Files]** — (Valfritt) Ange en alternativ plats för bas-URL:en för användarmediefiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{unsecure_base_url}}
+     \{unsecure_base_url}&rbrace;
 
      För en vanlig installation finns det ingen anledning att uppdatera sökvägarna för statiska vyfiler eller mediefiler eftersom de är relativa till bas-URL:en.
 
@@ -80,11 +80,11 @@ Om din domän har ett giltigt säkerhetscertifikat kan du konfigurera URL:er fö
 
    - **[!UICONTROL Secure Base URL for Static View Files]** — (Valfritt) Ange en alternativ plats för den säkra bas-URL:en för statiska vyfiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{secure_base_url}}
+     \{secure_base_url}&rbrace;
 
    - **[!UICONTROL Secure Base URL for User Media Files]** — (Valfritt) Ange en alternativ plats för den säkra bas-URL:en för användarmediefiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{secure_base_url}}
+     \{secure_base_url}&rbrace;
 
 1. Om du vill förbättra säkerheten anger du `Yes` som båda av följande alternativ.
 
@@ -109,9 +109,9 @@ Om din domän har ett giltigt säkerhetscertifikat kan du konfigurera URL:er fö
 >
 >När alternativet _Lägg till butikskod i URL:er_ är inställt på `Yes` måste du inkludera butikskoder i URL:erna för webbläsaren. Den här inställningen säkerställer att URL-omskrivningar mappas korrekt och att alla sidor öppnas utan _&quot;404 Page Not found&quot;_ -fel.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
-1. Välj **[!UICONTROL Web]** under _[!UICONTROL General]_i den vänstra panelen.
+1. Välj **[!UICONTROL Web]** under _[!UICONTROL General]_&#x200B;i den vänstra panelen.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL URL Options]**.
 
@@ -157,7 +157,7 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
 ### Metod 1: Ändra från administratör
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Admin]**.
 
@@ -219,7 +219,7 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
 1. Använd någon av följande metoder för att rensa cacheminnet:
 
-   - Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
+   - Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
    - Kör följande på servern:
 
      ```bash
@@ -258,7 +258,7 @@ Om du har angett en ogiltig Admin URL eller en Admin Path och inte längre komme
 
 1. Använd någon av följande metoder för att rensa cacheminnet:
 
-   - Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
+   - Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
    - Kör följande på servern:
 
      ```bash

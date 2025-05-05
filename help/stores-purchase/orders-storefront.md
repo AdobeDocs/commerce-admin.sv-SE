@@ -18,7 +18,7 @@ Kunderna har tillgång till alla sina beställningar från sitt konto. Beställn
 
 {{b2b-feature}}
 
-Dina ursprungliga _[!UICONTROL My Orders]_-resultat innehåller även matchande order från underordnade användare från alla webbplatser i handelsinstansen. En kund som är associerad med ett företagskonto kan filtrera orderlistan för att snabbt hitta poster i resultaten. Om du vill visa filteralternativen klickar kunden på&#x200B;**[!UICONTROL Filter]**och klickar på&#x200B;**[!UICONTROL Close]**för att dölja filtren.
+Dina ursprungliga _[!UICONTROL My Orders]_-resultat innehåller även matchande order från underordnade användare från alla webbplatser i handelsinstansen. En kund som är associerad med ett företagskonto kan filtrera orderlistan för att snabbt hitta poster i resultaten. Om du vill visa filteralternativen klickar kunden på&#x200B;**[!UICONTROL Filter]**&#x200B;och klickar på&#x200B;**[!UICONTROL Close]**&#x200B;för att dölja filtren.
 
 ![Mina beställningar](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -42,7 +42,7 @@ En kund hittar ordern i listan och klickar på **[!UICONTROL View Order]**. I d
 
 Blocket **[!UICONTROL Recent Orders]** visas i sidofältet och på sidan **[!UICONTROL My Account]** för kunder som är inloggade efter att ha gjort en beställning. Här visas fem produkter från det senaste köpet.
 
-Kunden kan läsa produkter i kundvagnen genom att välja produkterna och klicka på **[!UICONTROL Add to Cart]**. De kan även visa den sista ordningen genom att klicka på **[!UICONTROL View all]**, som dirigerar om till sidan _[!UICONTROL My Account]_och **[!UICONTROL Recent Orders]**-blocket.
+Kunden kan läsa produkter i kundvagnen genom att välja produkterna och klicka på **[!UICONTROL Add to Cart]**. De kan även visa den sista ordningen genom att klicka på **[!UICONTROL View all]**, som dirigerar om till sidan _[!UICONTROL My Account]_&#x200B;och **[!UICONTROL Recent Orders]**-blocket.
 
 ### Skriv ut order
 
@@ -103,7 +103,7 @@ Kunden kan initiera omsorteringsfunktionen för en viss order från två sidor:
 
 ## Beställningar
 
-Länken _[!UICONTROL Reorder]_visas i listan med order nära länken_[!UICONTROL View]_.
+Länken _[!UICONTROL Reorder]_&#x200B;visas i listan med order nära länken&#x200B;_[!UICONTROL View]_.
 
 ![Länken Ändra ordning på sidan Min beställning](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -117,7 +117,7 @@ Kunden dirigeras om till kundvagnen och alla produkter läggs i kundvagnen.
 >
 >Det går att ordna om `Not Visible Individually` produkter.
 
-Länken _[!UICONTROL Reorder]_visas inte på sidorna_[!UICONTROL My Orders]_ och _[!UICONTROL View Order]_.
+Länken _[!UICONTROL Reorder]_&#x200B;visas inte på sidorna&#x200B;_[!UICONTROL My Orders]_ och _[!UICONTROL View Order]_.
 
 ![Sidan Min beställning](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -135,7 +135,7 @@ Kunden kan initiera avbeställningsfunktionen för en viss order från tre sidor
 - Sidan Ordervy
 - Sidan Mitt konto
 
-Länken _[!UICONTROL Cancel Order]_visas nära länken_[!UICONTROL Reorder]_. Om beställningen inte kan avbrytas visas inte länken.
+Länken _[!UICONTROL Cancel Order]_&#x200B;visas nära länken&#x200B;_[!UICONTROL Reorder]_. Om beställningen inte kan avbrytas visas inte länken.
 
 ![Avbryt länk på sidan Min beställning](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -153,7 +153,7 @@ Så här utför du avbeställningen:
 
    ![Avbryt på sidan Min beställning](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Efter annulleringen kommer de order som hade statusen _[!UICONTROL Pending]_att ändras till status_[!UICONTROL Canceled]_, de order som hade statusen _[!UICONTROL Processing]_att bearbetas, ändras till status_[!UICONTROL Closed]_ och en återbetalning kommer att bearbetas.
+   Efter annulleringen kommer de order som hade statusen _[!UICONTROL Pending]_&#x200B;att ändras till status&#x200B;_[!UICONTROL Canceled]_, de order som hade statusen _[!UICONTROL Processing]_&#x200B;att bearbetas, ändras till status&#x200B;_[!UICONTROL Closed]_ och en återbetalning kommer att bearbetas.
 
    När avbeställningen är klar skickas ett e-postmeddelande till kunden.
 

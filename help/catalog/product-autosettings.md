@@ -14,6 +14,6 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Avsnittet _[!UICONTROL Autosettings]_innehåller alla attribut som är beroenden för andra åtgärder. Du kan tillämpa standardinställningen [RMA-konfiguration](../stores-purchase/rma-configure.md) på produkten eller åsidosätta den efter behov.
+Avsnittet _[!UICONTROL Autosettings]_&#x200B;innehåller alla attribut som är beroenden för andra åtgärder. Du kan tillämpa standardinställningen [RMA-konfiguration](../stores-purchase/rma-configure.md) på produkten eller åsidosätta den efter behov.
 
 ![Automatiska inställningar](./assets/product-autosettings.png){width="600" zoomable="yes"}

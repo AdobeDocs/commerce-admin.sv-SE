@@ -28,11 +28,11 @@ Lagervarningen skapar en länk med namnet _Meddela mig när den här produkten f
 
 ## Ställ in produktvarningar
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
-1. Klicka för att expandera avsnittet _[!UICONTROL Product Alerts]_och gör följande:
+1. Klicka för att expandera avsnittet _[!UICONTROL Product Alerts]_&#x200B;och gör följande:
 
    ![Produktaviseringar](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Konfigurera, lägg till eller ändra e-postmallen för prisaviseringen. Du kan r
 
 Mer information om hur du använder e-postmeddelanden finns i [Meddelandemallar](../systems/email-template-custom.md#message-templates) i _handboken för administratörssystem_.
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Template]**.
 
@@ -89,7 +89,7 @@ Med de här inställningarna kan du välja hur ofta [!DNL Commerce] söker efter
 
 ![Körningsinställningar för produktavisering](assets/config-catalog-product-alerts-run-settings.png){width="600" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 

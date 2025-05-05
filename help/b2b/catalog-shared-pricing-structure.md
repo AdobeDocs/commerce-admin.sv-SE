@@ -23,7 +23,7 @@ I standardkategoriträdet är rotkategorin den översta behållaren och kallas _
 
 1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]** på sidofältet _Admin_
 
-1. För den delade katalogen i rutnätet går du till kolumnen _[!UICONTROL Action]_och klickar på&#x200B;**[!UICONTROL Set Pricing and Structure]**.
+1. För den delade katalogen i rutnätet går du till kolumnen _[!UICONTROL Action]_&#x200B;och klickar på&#x200B;**[!UICONTROL Set Pricing and Structure]**.
 
    ![Ange priser och struktur för delad katalog](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
@@ -47,7 +47,7 @@ Endast kategorier med valda produkter visas i den [översta navigeringen](../cat
    - Om du vill ta med specifika produktkategorier markerar du kryssrutan för varje kategori som du vill ta med.
    - Om du vill inkludera eller exkludera en enskild produkt markerar eller avmarkerar du produktkryssrutan.
 
-   Kommentaren under varje kategori i trädet visar antalet produkter i kategorin som för närvarande ingår i den delade katalogen. Kommentaren under rotkategorin [](../catalog/category-root.md) visar det totala antalet produkter från alla kategorier som för närvarande är markerade för den delade katalogen.
+   Kommentaren under varje kategori i trädet visar antalet produkter i kategorin som för närvarande ingår i den delade katalogen. Kommentaren under rotkategorin [&#128279;](../catalog/category-root.md) visar det totala antalet produkter från alla kategorier som för närvarande är markerade för den delade katalogen.
 
 1. Om du vill visa kategoriprodukter i rutnätet klickar du på namnet på kategorin i trädet. När en kategori är markerad händer följande:
 
@@ -69,7 +69,7 @@ Endast kategorier med valda produkter visas i den [översta navigeringen](../cat
 
 ## Steg 3: Ange anpassade priser
 
-Du kan ange anpassade priser för varje enskild produkt eller använda kontrollen _[!UICONTROL Action]_för att ange anpassade priser som ett fast belopp eller en procentsats för flera produktposter.
+Du kan ange anpassade priser för varje enskild produkt eller använda kontrollen _[!UICONTROL Action]_&#x200B;för att ange anpassade priser som ett fast belopp eller en procentsats för flera produktposter.
 
 - **[!UICONTROL Fixed]**: Anger slutproduktspriset. Om du till exempel anger ett fast pris på $10.00, är priset i butiken för motsvarande företag $10.00.
 
@@ -83,7 +83,7 @@ Du kan ange anpassade priser för varje enskild produkt eller använda kontrolle
 
 - **[!UICONTROL Percentage]**: Fastställer det anpassade priset baserat på rabattprocenten. Om du till exempel vill erbjuda en rabatt på 10 procent anger du den anpassade pristypen till `Percentage` och anger `10`. Det rabatterade anpassade priset är 90 % av det ursprungliga produktpriset.
 
-Använd kolumnen _[!UICONTROL Custom Price]_i rutnätet om du vill ange ett fast belopp eller en procentsats för följande produkttyper:
+Använd kolumnen _[!UICONTROL Custom Price]_&#x200B;i rutnätet om du vill ange ett fast belopp eller en procentsats för följande produkttyper:
 
 - [Enkel](../catalog/product-create-simple.md) (inklusive konfigurerbara produktvariationer)
 - [Paket](../catalog/product-create-bundle.md)
@@ -105,7 +105,7 @@ Det går inte att ändra valet av produkter i rutnätet från sidan _Anpassade p
 1. Använd någon av följande metoder för att välja de produkter där det anpassade priset ska gälla.
 
    - Använd kategoriträdet för att välja alla produkter i en viss kategori.
-   - Ställ in kontrollen _[!UICONTROL Mass Actions]_i huvudet på `Select All`.
+   - Ställ in kontrollen _[!UICONTROL Mass Actions]_&#x200B;i huvudet på `Select All`.
    - Markera kryssrutan för enskilda produkter.
 
    Rutnätet visar produkterna i de valda kategorierna och du kan använda standardkontrollerna för att hitta produkter och filtrera listan.
@@ -163,4 +163,4 @@ Följande instruktioner visar hur du tillämpar nivåpriser på en enskild produ
 
 När de anpassade priserna är klara klickar du på **[!UICONTROL Generate Catalog]** och sedan på **[!UICONTROL Save]**.
 
-Den delade katalogen sparas nu i databasen. Dess namn visas i kolumnen _[!UICONTROL Shared Catalog]_i rutnätet_[!UICONTROL Products]_. Nästa steg är att [tilldela den delade katalogen till ett företag](./catalog-shared-assign-companies.md).
+Den delade katalogen sparas nu i databasen. Dess namn visas i kolumnen _[!UICONTROL Shared Catalog]_&#x200B;i rutnätet&#x200B;_[!UICONTROL Products]_. Nästa steg är att [tilldela den delade katalogen till ett företag](./catalog-shared-assign-companies.md).

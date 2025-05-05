@@ -15,7 +15,7 @@ Din butik får meddelanden från Adobe regelbundet. Meddelandena klassas som vik
 
 ![Admin - inkommande meddelanden](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-På sidan _[!UICONTROL Notifications]_visas alla meddelanden ordnade efter datum._[!UICONTROL Action]_-kommandona kan användas för att markera enskilda meddelanden som lästa, visa mer detaljerad information eller för att ta bort meddelandet från inkorgen.
+På sidan _[!UICONTROL Notifications]_&#x200B;visas alla meddelanden ordnade efter datum._[!UICONTROL Action]_-kommandona kan användas för att markera enskilda meddelanden som lästa, visa mer detaljerad information eller för att ta bort meddelandet från inkorgen.
 
 Konfigurationen avgör hur ofta inkorgen uppdateras och hur meddelandena levereras. Om din butiksadministratör har en säker URL måste meddelanden levereras via HTTPS.
 
@@ -42,7 +42,7 @@ Gör något av följande om du vill få ett meddelande av avgörande betydelse:
 
    - Klicka på ikonen **[!UICONTROL Notification]** i sidhuvudet. Om ett eller flera nya meddelanden visas klickar du på **[!UICONTROL See All]**.
 
-   - Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**på sidofältet_ Admin _.
+   - Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**&#x200B;på sidofältet_ Admin _.
 
 1. Gör något av följande i kolumnen **[!UICONTROL Action]**:
 
@@ -68,7 +68,7 @@ Gör något av följande om du vill få ett meddelande av avgörande betydelse:
 
 ## Konfigurera meddelanden
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra navigeringspanelen och välj **[!UICONTROL System]**.
 

@@ -54,9 +54,9 @@ När du anger leveranser dras de inmatade beloppen av lagerbehållningen av. Res
 
      ![Välj en Source och ange en kvantitet](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Granska sidan _[!UICONTROL New Shipment]_och ange eventuella ytterligare ändringar efter behov.
+1. Granska sidan _[!UICONTROL New Shipment]_&#x200B;och ange eventuella ytterligare ändringar efter behov.
 
-   Avsnittet _[!UICONTROL Inventory]_visar källa, produktleverans, total beställd kvantitet och kvantitet som ska levereras.
+   Avsnittet _[!UICONTROL Inventory]_&#x200B;visar källa, produktleverans, total beställd kvantitet och kvantitet som ska levereras.
 
    ![Lagerinformation för leveransen, till exempel partiell leverans](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

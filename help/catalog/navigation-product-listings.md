@@ -16,13 +16,13 @@ Produktlistor kan ställas in så att de visas som standard som antingen en list
 
 >[!NOTE]
 >
->När en kategori sorteras efter ett produktattribut sorteras produkter med samma attributvärden också efter deras _[!UICONTROL Product ID]_i stigande ordning.
+>När en kategori sorteras efter ett produktattribut sorteras produkter med samma attributvärden också efter deras _[!UICONTROL Product ID]_&#x200B;i stigande ordning.
 
 ![Produkter som visas som ett rutnät](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
 ## Konfigurera produktlistor
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -34,7 +34,7 @@ Produktlistor kan ställas in så att de visas som standard som antingen en list
 
    >[!NOTE]
    >
-   >Om du vill visa produkter och deras priser på rätt sätt enligt _produktsortering efter pris_ kontrollerar du att inställningarna för prisvisningen i [Momskonfiguration](../configuration-reference/sales/tax.md) har samma värde (`Excluding Tax` **eller** `Including Tax`). Kontrollera värdet **[!UICONTROL Catalog Prices]** för _[!UICONTROL Calculation Settings]_. Och för_[!UICONTROL Price Display Settings]_, kontrollera värdet **[!UICONTROL Display Product Prices in Catalog]**. Om de har olika värden kan prisfiltren i lagernavigeringen eventuellt inte filtrera och sortera produkter efter pris.
+   >Om du vill visa produkter och deras priser på rätt sätt enligt _produktsortering efter pris_ kontrollerar du att inställningarna för prisvisningen i [Momskonfiguration](../configuration-reference/sales/tax.md) har samma värde (`Excluding Tax` **eller** `Including Tax`). Kontrollera värdet **[!UICONTROL Catalog Prices]** för _[!UICONTROL Calculation Settings]_. Och för&#x200B;_[!UICONTROL Price Display Settings]_, kontrollera värdet **[!UICONTROL Display Product Prices in Catalog]**. Om de har olika värden kan prisfiltren i lagernavigeringen eventuellt inte filtrera och sortera produkter efter pris.
 
 1. Ange standardvärdet **[!UICONTROL List Mode]** till något av följande:
 
@@ -95,7 +95,7 @@ Sidnumreringsinställningarna visas högst upp och längst ned i listan och styr
 | Kontroll | Beskrivning |
 |--- |--- |
 | ![Visa stödraster](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Visar listan i antingen rutnät- eller listformat. |
-| ![Sortera efter](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Ändrar sorteringsordningen för listan. Egenskapen _[!UICONTROL Used for Sorting in Product Listing]_storefront avgör vilka [produktattribut](../catalog/product-attributes.md) som kan användas för att sortera listan. |
+| ![Sortera efter](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Ändrar sorteringsordningen för listan. Egenskapen _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront avgör vilka [produktattribut](../catalog/product-attributes.md) som kan användas för att sortera listan. |
 | ![Visa per sida](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Anger hur många produkter som visas per sida. |
 | ![Sidnumreringslänkar](./assets/control-pagination.png) | Sidnumreringslänkar - Navigeringslänkar till andra sidor. |
 
@@ -103,7 +103,7 @@ Sidnumreringsinställningarna visas högst upp och längst ned i listan och styr
 
 ### Konfigurera sidnumreringskontrollerna
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen **[!UICONTROL Action]**.
 

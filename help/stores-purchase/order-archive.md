@@ -18,13 +18,13 @@ Att arkivera beställningar regelbundet förbättrar prestanda och håller arbet
 
 >[!NOTE]
 >
->Alternativet _[!UICONTROL Archive]_visas bara på [[!UICONTROL Sales] menu](sales-menu.md) när arkivering är [aktiverad](../configuration-reference/sales/sales.md).
+>Alternativet _[!UICONTROL Archive]_&#x200B;visas bara på [[!UICONTROL Sales] menu](sales-menu.md) när arkivering är [aktiverad](../configuration-reference/sales/sales.md).
 
 ## Konfigurera orderarkivet
 
 Din butik kan konfigureras för att arkivera order, fakturor, leveranser och kreditnotor efter ett visst antal dagar. Du kan flytta beställningar och tillhörande dokument till arkivet eller återställa dem till deras tidigare status. Arkiverade order tas inte bort och är fortfarande tillgängliga från administratören. Arkiverade data kan exporteras till en CSV-fil och öppnas i ett kalkylblad. När det här alternativet är aktiverat visas åtgärden _Arkiv_ längst upp på arbetsytan.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera avsnittet **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 
@@ -52,7 +52,7 @@ Din butik kan konfigureras för att arkivera order, fakturor, leveranser och kre
 
 ## Visa arkiverade dokument
 
-1. Välj något av följande på menyn _[!UICONTROL Sales]_under_[!UICONTROL Archive]_:
+1. Välj något av följande på menyn _[!UICONTROL Sales]_&#x200B;under&#x200B;_[!UICONTROL Archive]_:
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -111,11 +111,11 @@ Markera varje dokument som ska vara mål för åtgärden och välj något av fö
 
 1. Klicka på **[!UICONTROL Export]**.
 
-Din butik kan konfigureras för att arkivera order, fakturor, leveranser och kreditnotor efter ett visst antal dagar. Du kan flytta beställningar och tillhörande dokument till arkivet eller återställa dem till deras tidigare status. Arkiverade order tas inte bort och är fortfarande tillgängliga från administratören. Arkiverade data kan exporteras till en CSV-fil och öppnas i ett kalkylblad. När det här alternativet är aktiverat visas kommandot _[!UICONTROL Archive]_längst upp på arbetsytan.
+Din butik kan konfigureras för att arkivera order, fakturor, leveranser och kreditnotor efter ett visst antal dagar. Du kan flytta beställningar och tillhörande dokument till arkivet eller återställa dem till deras tidigare status. Arkiverade order tas inte bort och är fortfarande tillgängliga från administratören. Arkiverade data kan exporteras till en CSV-fil och öppnas i ett kalkylblad. När det här alternativet är aktiverat visas kommandot _[!UICONTROL Archive]_&#x200B;längst upp på arbetsytan.
 
 ## Arkivera order manuellt
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;på sidofältet_ Admin _.
 
 1. Markera kryssrutan i den första kolumnen om du vill välja ordningen i rutnätet.
 
@@ -133,11 +133,11 @@ Din butik kan konfigureras för att arkivera order, fakturor, leveranser och kre
 
    - Klicka på **[!UICONTROL Go to Archive]** i knappfältet ovanför stödrastret _[!UICONTROL Orders]_.
 
-   - Gå till **[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**på sidofältet_ Admin _.
+   - Gå till **[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**&#x200B;på sidofältet_ Admin _.
 
    >[!NOTE]
    >
-   >Precis som på sidan Beställningar är rubriken för den arkiverade beställningssidan _[!UICONTROL Orders]_. Den enda märkbara skillnaden är alternativet_[!UICONTROL Return to Orders Management]_ i knappfältet. Sidans URL anger också att du är i orderarkivet.
+   >Precis som på sidan Beställningar är rubriken för den arkiverade beställningssidan _[!UICONTROL Orders]_. Den enda märkbara skillnaden är alternativet&#x200B;_[!UICONTROL Return to Orders Management]_ i knappfältet. Sidans URL anger också att du är i orderarkivet.
 
 1. Klicka på **[!UICONTROL View]** i kolumnen _Åtgärd_.
 
@@ -149,7 +149,7 @@ Din butik kan konfigureras för att arkivera order, fakturor, leveranser och kre
 >
 >En ordning som återställs från en arkiverad order arkiveras igen enligt det antal dagar som har konfigurerats i inställningen [!UICONTROL Archive Orders Purchased] (se [Konfigurera orderarkivet](#configure-the-order-archive)). Antalet dagar beräknas utifrån datumet [!UICONTROL Updated At] för ordern, som ändras när ordningen flyttas från arkivet.
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Go to Archive]** i knappfältet.
 
@@ -163,6 +163,6 @@ Leta efter meddelandet att den arkiverade ordern har tagits bort från arkivet.
 
 ## Exportera arkiverad order
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Export]** på åtgärdsmenyn och välj önskat format.

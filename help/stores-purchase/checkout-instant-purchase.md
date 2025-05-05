@@ -48,7 +48,7 @@ Med _Direktköp_ kan kunderna gå igenom kassan snabbare med hjälp av informati
 
 ### Steg 1: Öppna konfigurationssidan
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 ### Steg 2: Konfigurera betalningsmetodvalvet
 

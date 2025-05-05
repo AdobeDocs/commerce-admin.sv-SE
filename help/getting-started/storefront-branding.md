@@ -44,7 +44,7 @@ Filformat för logotyper som stöds:
 
 {style="table-layout:auto"}
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
    ![Designkonfigurationssida](./assets/design-configuration.png){width="700"}
 
@@ -90,11 +90,11 @@ En favoritikonbild är vanligtvis 16 x 16 pixlar eller 32 x 32 pixlar stor. [!DN
 
 ### Steg 2: Överför favoritikonen till din butik
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Under _[!UICONTROL Other Settings]_expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
+1. Under _[!UICONTROL Other Settings]_&#x200B;expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
 
    ![Inställningar för HTML-huvud](./assets/configuration-html-head.png){width="600"}
 
@@ -122,11 +122,11 @@ Välkomstmeddelandet i rubriken utökas så att det innehåller namnet på den k
 
 ![Välkommen](./assets/storefront-welcome-message.png){width="600"}
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Under _[!UICONTROL Other Settings]_expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Header]**.
+1. Under _[!UICONTROL Other Settings]_&#x200B;expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Header]**.
 
 1. I **[!UICONTROL Welcome Text]** anger du den välkomstmeddelandetext som du vill ska visas i butikens sidhuvud.
 
@@ -154,7 +154,7 @@ Teckenkoden `&copy;` används för att infoga copyrightsymbolen, vilket visas i 
 
 **_Så här uppdaterar du copyrightmeddelandet:_**
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
@@ -174,11 +174,11 @@ Om din butik är online, men fortfarande är under uppbyggnad, kan du visa ett d
 
 ![Meddelande om Adobe Storefront-demo](./assets/storefront-demo-notice.png){width="600"}
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Under _[!UICONTROL Other Settings]_expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
+1. Under _[!UICONTROL Other Settings]_&#x200B;expanderar du ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
 
    ![HTML Head](./assets/configuration-html-head.png){width="600"}
 

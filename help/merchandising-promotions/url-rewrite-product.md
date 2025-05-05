@@ -41,7 +41,7 @@ Omdirigera från: `overnight-duffle.html`
 
 {{url-rewrite-params}}
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**&#x200B;på sidofältet_ Admin _.
 
 1. Innan du fortsätter gör du följande för att kontrollera att sökvägen till begäran är tillgänglig.
 
@@ -124,11 +124,11 @@ Du kan snabbt uppdatera URL-omskrivningar för flera eller alla produkter samtid
 
 1. Markera alla produkter som du vill uppdatera URL-omskrivningar för.
 
-1. Under _[!UICONTROL Actions]_väljer du **[!UICONTROL Update attributes]**om du vill uppdatera flera eller alla återskrivningar.
+1. Under _[!UICONTROL Actions]_&#x200B;väljer du **[!UICONTROL Update attributes]**&#x200B;om du vill uppdatera flera eller alla återskrivningar.
 
 1. Klicka på fliken **[!UICONTROL Websites]** under _[!UICONTROL PRODUCTS INFORMATION]_.
 
-1. I avsnittet _[!UICONTROL Add Product To Websites]_väljer du alla webbplatser som du vill återställa URL-skrivningar för.
+1. I avsnittet _[!UICONTROL Add Product To Websites]_&#x200B;väljer du alla webbplatser som du vill återställa URL-skrivningar för.
 
 1. Klicka på **[!UICONTROL Save]** när du är klar att uppdatera.
 

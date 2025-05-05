@@ -40,11 +40,11 @@ Om du vill lägga till en produktvideo måste du först skaffa en API-nyckel fr�
 
 ## Steg 2: Konfigurera nyckeln i Commerce
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
-1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Product Video]_och klistra in **[!UICONTROL YouTube API key]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Product Video]_&#x200B;och klistra in **[!UICONTROL YouTube API key]**.
 
    ![Produktvideons konfiguration](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ Om du vill lägga till en produktvideo måste du först skaffa en API-nyckel fr�
 
    >[!NOTE]
    >
-   >Om konfigurationsalternativet _[!UICONTROL Autostart base video]_är inställt på `Yes` men videon inte börjar spelas upp automatiskt, kan det bero på de automatiska uppspelningsprinciper som används av webbläsaren och som inte kan styras av Adobe Commerce. Alla webbläsare som stöds har sina egna automatiska uppspelningsprinciper som kan ändras över tid och videon kanske inte spelas upp automatiskt i framtiden. Som en rekommenderad metod bör du inte förlita dig på automatisk uppspelning för affärskritisk funktionalitet och bör testa beteendet för automatisk uppspelning av video i din butik med varje webbläsare som stöds.
+   >Om konfigurationsalternativet _[!UICONTROL Autostart base video]_&#x200B;är inställt på `Yes` men videon inte börjar spelas upp automatiskt, kan det bero på de automatiska uppspelningsprinciper som används av webbläsaren och som inte kan styras av Adobe Commerce. Alla webbläsare som stöds har sina egna automatiska uppspelningsprinciper som kan ändras över tid och videon kanske inte spelas upp automatiskt i framtiden. Som en rekommenderad metod bör du inte förlita dig på automatisk uppspelning för affärskritisk funktionalitet och bör testa beteendet för automatisk uppspelning av video i din butik med varje webbläsare som stöds.
 
 ## Underhåll API-åtkomst
 

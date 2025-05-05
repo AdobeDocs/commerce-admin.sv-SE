@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Hantera kundkonton
 
-Använd stödrastret _[!UICONTROL Customers]_för att hitta ett kundkonto. Du kan använda standardkontrollerna för [arbetsplats](../getting-started/admin-workspace.md) för att filtrera listan, ändra [kolumnlayouten](../getting-started/admin-grid-controls.md), spara vyer och exportera data. [Åtgärdskontrollen](../getting-started/admin-actions-control.md) ovanför rutnätet kan användas för att tillämpa en åtgärd på flera kundposter.
+Använd stödrastret _[!UICONTROL Customers]_&#x200B;för att hitta ett kundkonto. Du kan använda standardkontrollerna för [arbetsplats](../getting-started/admin-workspace.md) för att filtrera listan, ändra [kolumnlayouten](../getting-started/admin-grid-controls.md), spara vyer och exportera data. [Åtgärdskontrollen](../getting-started/admin-actions-control.md) ovanför rutnätet kan användas för att tillämpa en åtgärd på flera kundposter.
 
 ![Alla kunder](assets/customers-all-customers.png){width="700" zoomable="yes"}
 

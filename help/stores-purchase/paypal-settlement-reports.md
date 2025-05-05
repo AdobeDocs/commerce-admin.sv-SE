@@ -22,7 +22,7 @@ Efter konfigurering och aktivering av avvecklingsrapporter på PayPal-handelskon
 
 **_Så här visar du kvittningsrapporter:_**
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**&#x200B;på sidofältet_ Admin _.
 
    ![PayPal-kvittningsrapporter](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
 

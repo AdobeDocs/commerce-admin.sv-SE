@@ -32,7 +32,7 @@ Om du har en multisiteinstallation måste du konfigurera prisomfattningen innan 
 
 ![Webbplatsväljaren](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **Katalog** i den vänstra panelen och välj **Katalog** under.
 
@@ -97,7 +97,7 @@ Om en offentlig delad katalog dupliceras, ändras typen för den duplicerade kat
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.
 
-   Dupliceringen visas i rutnätet _[!UICONTROL Shared Catalogs]_med ett unikt ID.
+   Dupliceringen visas i rutnätet _[!UICONTROL Shared Catalogs]_&#x200B;med ett unikt ID.
 
 ## Steg 2: Slutför installationen
 
@@ -105,7 +105,7 @@ När du har skapat en ny delad katalog måste den konfigureras med rätt produkt
 
 >[!NOTE]
 >
->**[B2B version 1.3.0](release-notes.md#b2b-v130) och senare** - När du skapar en delad katalog anges varje [kategoribehörighet](../catalog/category-permissions.md) för katalogen till _[!UICONTROL Allow for the Display Product Prices]_och_[!UICONTROL Add to Cart]_ för kundgrupper som tilldelas den här åtkomsten i katalogens behörighetsinställningar. Tidigare var de här inställningarna automatiskt inställda på `Deny` även när katalogbehörigheter var inställda på `Allow`.
+>**[B2B version 1.3.0](release-notes.md#b2b-v130) och senare** - När du skapar en delad katalog anges varje [kategoribehörighet](../catalog/category-permissions.md) för katalogen till _[!UICONTROL Allow for the Display Product Prices]_&#x200B;och&#x200B;_[!UICONTROL Add to Cart]_ för kundgrupper som tilldelas den här åtkomsten i katalogens behörighetsinställningar. Tidigare var de här inställningarna automatiskt inställda på `Deny` även när katalogbehörigheter var inställda på `Allow`.
 
 ## Demo av delad katalog
 

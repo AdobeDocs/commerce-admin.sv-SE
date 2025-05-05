@@ -24,7 +24,7 @@ Försäljare med en eller flera källor kan uppdatera källor, lagerkvantiteter 
 
 - Handlare med flera källor kan tilldela flera källor och kvantiteter per produkt för varje plats (lagerställen, butiker, avsändare osv.). Du bör lägga till källor innan du anger produktlagerbelopp.
 
-När du lägger till källor och kvantiteter till dina produkter kan du visa beloppen via produktstödrastret. Om du har ett stort antal källor håller du pekaren över _[!UICONTROL Quantity per Source]_för att se den fullständiga, rullningsbara listan över källor med aktuella kvantiteter.
+När du lägger till källor och kvantiteter till dina produkter kan du visa beloppen via produktstödrastret. Om du har ett stort antal källor håller du pekaren över _[!UICONTROL Quantity per Source]_&#x200B;för att se den fullständiga, rullningsbara listan över källor med aktuella kvantiteter.
 
 ![Produktkvantiteter per källa](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
 

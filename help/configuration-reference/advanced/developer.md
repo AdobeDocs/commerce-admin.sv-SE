@@ -121,7 +121,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Optimera res
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | Global | Anger det kort som används för att återge bilder. När du har ändrat adapterinställningen tömmer du cachen för katalogbilder. Alternativ: `PHP GD2` / `ImageMagick` <br/><br/>**_Obs!_**ICO-filtypen stöds bara av ImageMagik-adaptern. |
+| [!UICONTROL Image Adapter] | Global | Anger det kort som används för att återge bilder. När du har ändrat adapterinställningen tömmer du cachen för katalogbilder. Alternativ: `PHP GD2` / `ImageMagick` <br/><br/>**_Obs!_**&#x200B;ICO-filtypen stöds bara av ImageMagik-adaptern. |
 
 {style="table-layout:auto"}
 

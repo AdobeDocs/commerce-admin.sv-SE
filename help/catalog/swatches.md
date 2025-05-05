@@ -20,7 +20,7 @@ För [konfigurerbara produkter](product-create-configurable.md) kan färgen indi
 
 >[!NOTE]
 >
->Du kan konfigurera färgruteattribut så att de inte visar motsvarande enkla produktbilder när du väljer färgrutan genom att ange alternativvärdet _[!UICONTROL Update Product Preview Image]_till `No` på sidan [!UICONTROL Attribute Edit] i Admin.
+>Du kan konfigurera färgruteattribut så att de inte visar motsvarande enkla produktbilder när du väljer färgrutan genom att ange alternativvärdet _[!UICONTROL Update Product Preview Image]_&#x200B;till `No` på sidan [!UICONTROL Attribute Edit] i Admin.
 
 ## Textbaserade färgrutor
 
@@ -30,7 +30,7 @@ Om en bild inte är tillgänglig för en färgruta visas attributvärdet som tex
 
 ## Färgrutor i navigering i lager
 
-Färgrutor kan också användas i lagerstyrd navigering om egenskapen _[!UICONTROL Use in Layered Navigation]_för färgattributet är inställd på `Yes`. I följande exempel visas både textbaserade färgrutor och färgrutor i lageruppbyggd navigering.
+Färgrutor kan också användas i lagerstyrd navigering om egenskapen _[!UICONTROL Use in Layered Navigation]_&#x200B;för färgattributet är inställd på `Yes`. I följande exempel visas både textbaserade färgrutor och färgrutor i lageruppbyggd navigering.
 
 ![Färgrutor visas i lagernavigering](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -50,7 +50,7 @@ Använd någon av följande metoder för att skapa färgrutor för dina produkte
 
    ![Hexadecimala färgvärden](./assets/swatch-hex-values.png){width="400"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
 
 1. Öppna attributet _color_ i redigeringsläget i rutnätet.
 
@@ -58,7 +58,7 @@ Använd någon av följande metoder för att skapa färgrutor för dina produkte
 
 1. Om du inte vill visa motsvarande enkla produktbilder när färgrutan väljs på produktvisningssidan anger du **[!UICONTROL Update Product Preview Image]** till `No`.
 
-1. Klicka på **[!UICONTROL Add Swatch]** under _[!UICONTROL Manage Swatch (Values of Your Attribute)]_och gör följande:
+1. Klicka på **[!UICONTROL Add Swatch]** under _[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;och gör följande:
 
    ![Hantera värden för färgrutor](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -98,7 +98,7 @@ Använd någon av följande metoder för att skapa färgrutor för dina produkte
 
    ![Färgrutebilder](./assets/swatch-samples.png){width="400"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
 
 1. Öppna attributet **[!UICONTROL color]** i redigeringsläge i rutnätet.
 
@@ -106,9 +106,9 @@ Använd någon av följande metoder för att skapa färgrutor för dina produkte
 
 1. Om du inte vill visa motsvarande enkla produktbilder när färgrutan väljs på produktvisningssidan anger du **[!UICONTROL Update Product Preview Image]** till `No`.
 
-1. Under _[!UICONTROL Manage Swatch]_(värden för ditt attribut) klickar du på&#x200B;**[!UICONTROL Add Swatch]**och gör följande:
+1. Under _[!UICONTROL Manage Swatch]_(värden för ditt attribut) klickar du på&#x200B;**[!UICONTROL Add Swatch]**&#x200B;och gör följande:
 
-   - I kolumnen _[!UICONTROL Swatch]_klickar du på den nya färgrutan för att visa menyn och väljer **[!UICONTROL Upload a file]**.
+   - I kolumnen _[!UICONTROL Swatch]_&#x200B;klickar du på den nya färgrutan för att visa menyn och väljer **[!UICONTROL Upload a file]**.
 
    - Navigera till den färgrutefil som du har förberett och välj den fil som ska överföras.
 

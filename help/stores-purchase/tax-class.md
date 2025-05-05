@@ -24,7 +24,7 @@ Skatteklasser kan tilldelas kunder, produkter och frakt. Commerce analyserar kun
 
 Den momsklass som används för leverans och standardmomsklasserna för [produkter och kunder](#add-a-product-tax-class) anges i konfigurationen _[!UICONTROL Sales]_.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Tax]**.
 
@@ -45,7 +45,7 @@ Den momsklass som används för leverans och standardmomsklasserna för [produkt
 
 Skatteklasser för kunder och produkter kan enkelt läggas till och sedan tilldelas enskilda kunder och produkter, och användas i skatteregler.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Tax Rule]**.
 
@@ -79,7 +79,7 @@ Standardinställningarna för skattedestination avgör vilket land, delstat och 
 
 **_Så här konfigurerar du standardmålet för skatt för beräkningar:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Tax]**.
 

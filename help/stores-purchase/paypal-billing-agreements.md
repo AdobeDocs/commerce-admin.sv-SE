@@ -26,15 +26,15 @@ För att förenkla utcheckningsprocessen kan kunderna ingå ett faktureringsavta
 
 ## Hantera faktureringsavtal
 
-På sidan _[!UICONTROL Billing Agreements]_visas alla faktureringsavtal mellan din butik och dess kunder. Affärsmännen kan filtrera posterna efter kund- eller faktureringsavtalsinformation, inklusive referens-ID för faktureringsavtal, status och skapandedatum. Varje post innehåller allmän information om faktureringsavtalet och alla försäljningsorder som har använt det som betalningsmetod. Du kan visa, avbryta eller ta bort kundfaktureringsavtal. Ett annullerat faktureringsavtal kan bara tas bort av butiksadministratören.
+På sidan _[!UICONTROL Billing Agreements]_&#x200B;visas alla faktureringsavtal mellan din butik och dess kunder. Affärsmännen kan filtrera posterna efter kund- eller faktureringsavtalsinformation, inklusive referens-ID för faktureringsavtal, status och skapandedatum. Varje post innehåller allmän information om faktureringsavtalet och alla försäljningsorder som har använt det som betalningsmetod. Du kan visa, avbryta eller ta bort kundfaktureringsavtal. Ett annullerat faktureringsavtal kan bara tas bort av butiksadministratören.
 
 ### Visa ett faktureringsavtal
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta upp faktureringsavtalet i listan och klicka för att öppna det.
 
-Varje faktureringsavtalssida består av två flikar: _[!UICONTROL General Information]_och_[!UICONTROL Related Orders]_.
+Varje faktureringsavtalssida består av två flikar: _[!UICONTROL General Information]_&#x200B;och&#x200B;_[!UICONTROL Related Orders]_.
 
 #### Allmän information
 
@@ -56,7 +56,7 @@ På den här fliken visas en lista med de beställningar som har gjorts med det 
 
 ### Avbryta ett faktureringsavtal
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta upp faktureringsavtalet i listan och klicka för att öppna det.
 
@@ -66,7 +66,7 @@ På den här fliken visas en lista med de beställningar som har gjorts med det 
 
 ### Ta bort ett faktureringsavtal
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta upp faktureringsavtalet i listan och klicka för att öppna det.
 

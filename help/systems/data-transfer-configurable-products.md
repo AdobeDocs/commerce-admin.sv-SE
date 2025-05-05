@@ -34,7 +34,7 @@ I följande exempel lägger du till en uppsättning produktvariationer för en n
 
 1. Om du lägger till en storlek eller färg, eller gör andra ändringar i ett befintligt attribut, måste du uppdatera attributet med det nya värdet.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på attributet i listan och öppna i redigeringsläge.
 
@@ -58,7 +58,7 @@ I följande exempel lägger du till en uppsättning produktvariationer för en n
    - Ange **[!UICONTROL Type]** till `Configurable Product` och klicka på **[!UICONTROL Apply Filters]**.
    - Välj den konfigurerbara produkt som du vill använda för din testexport och notera **[!UICONTROL SKU]**.
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;på sidofältet_ Admin _.
 
    ![Inställningar för dataexport](./assets/data-transfer-export-settings.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ I följande exempel lägger du till en uppsättning produktvariationer för en n
 
    - Ange **[!UICONTROL Export File Format]** till `CSV`.
 
-1. Under _[!UICONTROL Entity Attributes]_bläddrar du nedåt eller använder attributetikettfiltret för att hitta attributet **[!UICONTROL SKU]**och gör följande:
+1. Under _[!UICONTROL Entity Attributes]_&#x200B;bläddrar du nedåt eller använder attributetikettfiltret för att hitta attributet **[!UICONTROL SKU]**&#x200B;och gör följande:
 
    - Ange SKU för den konfigurerbara produkt som du har valt att exportera och klicka på **[!UICONTROL Continue]**.
 
@@ -150,15 +150,15 @@ I följande exempel kopieras uppsättningen XL-storlekar och klistras in i kalky
 
 ## Steg 4: Importera uppdaterade data
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**&#x200B;på sidofältet_ Admin _.
 
-1. Under _[!UICONTROL Import Settings]_anger du **[!UICONTROL Entity Type]**till `Products`.
+1. Under _[!UICONTROL Import Settings]_&#x200B;anger du **[!UICONTROL Entity Type]**&#x200B;till `Products`.
 
-1. Under _[!UICONTROL Import Behavior]_anger du **[!UICONTROL Import Behavior]**till `Add/Update`.
+1. Under _[!UICONTROL Import Behavior]_&#x200B;anger du **[!UICONTROL Import Behavior]**&#x200B;till `Add/Update`.
 
    ![Beteende vid dataimport](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. Under _[!UICONTROL File to Import]_klickar du på&#x200B;**[!UICONTROL Choose File]**och navigerar till CSV-filen som du förberedde för import och väljer filen.
+1. Under _[!UICONTROL File to Import]_&#x200B;klickar du på&#x200B;**[!UICONTROL Choose File]**&#x200B;och navigerar till CSV-filen som du förberedde för import och väljer filen.
 
    ![Dataimportfil](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

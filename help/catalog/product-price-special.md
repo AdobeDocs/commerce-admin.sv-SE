@@ -50,7 +50,7 @@ Adobe Commerce stöder [schemalagda uppdateringar](../content-design/content-sta
 
    I butiken ska specialpriset visas både i kataloglistan och på produktsidan.
 
-   _[!UICONTROL Scheduled Change]_visas högst upp på sidan.
+   _[!UICONTROL Scheduled Change]_&#x200B;visas högst upp på sidan.
 
    ![Schemalagd ändring](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -62,7 +62,7 @@ Magento Open Source har alternativ för enkla start- och slutdatum i Avancerade 
 
 1. Öppna produkten i redigeringsläge.
 
-1. Bläddra ned till fältet _[!UICONTROL Price]_, klicka på&#x200B;**[!UICONTROL Advanced Pricing]**och ange **[!UICONTROL Special Price]**-mängden.
+1. Bläddra ned till fältet _[!UICONTROL Price]_, klicka på&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;och ange **[!UICONTROL Special Price]**-mängden.
 
 1. Använd ikonen _Kalender_ ( ![kalenderikon](../assets/icon-calendar.png) ) för att välja **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** för specialpriserbjudandet.
 
@@ -84,7 +84,7 @@ Du kan också tilldela ett specialpris till flera produkter, till exempel flera 
 
 I följande exempel visas hur du tilldelar samma specialpris till flera produktvarianter av en konfigurerbar produkt i Adobe Commerce.
 
-1. På sidan _[!UICONTROL Products]_klickar du på&#x200B;**[!UICONTROL Filters]**och anger **[!UICONTROL Name]**för den konfigurerbara produkten.
+1. På sidan _[!UICONTROL Products]_&#x200B;klickar du på&#x200B;**[!UICONTROL Filters]**&#x200B;och anger **[!UICONTROL Name]**&#x200B;för den konfigurerbara produkten.
 
 1. Ange **[!UICONTROL Type]** till `Configurable Product` och klicka på **[!UICONTROL Apply Filters]**.
 
@@ -94,7 +94,7 @@ I följande exempel visas hur du tilldelar samma specialpris till flera produktv
 
 1. Ställ in kontrollen **[!UICONTROL Actions]** på `Update attributes`.
 
-1. Bläddra ned till fältet _[!UICONTROL Special Price]_och markera kryssrutan **[!UICONTROL Change]**nedanför fältet_[!UICONTROL Special Price]_ och ange det specialpris som du vill erbjuda.
+1. Bläddra ned till fältet _[!UICONTROL Special Price]_&#x200B;och markera kryssrutan **[!UICONTROL Change]**&#x200B;nedanför fältet&#x200B;_[!UICONTROL Special Price]_ och ange det specialpris som du vill erbjuda.
 
    ![Specialprisfält](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 

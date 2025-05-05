@@ -41,7 +41,7 @@ I följande exempel läggs en kampanjbild till på kategorisidan under kampanjen
 
 ## Validera objektet
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**&#x200B;på sidofältet_ Admin _.
 
 1. Hitta kampanjen i den visade listan eller tidslinjen och öppna den för att få tillgång till informationen:
 

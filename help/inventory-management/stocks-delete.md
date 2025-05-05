@@ -17,7 +17,7 @@ När du tar bort stocken tilldelas alla tilldelade webbplatser standardlagret. D
 >
 >Om du tar bort en [aktie](stocks-manage.md) kan försäljningsbara kvantiteter och obearbetade order för en försäljningskanal påverkas. Om du fortsätter använda en försäljningskanal lägger du till försäljningskanalen i en annan befintlig eller ny aktie.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj en eller flera aktier som ska tas bort.
 

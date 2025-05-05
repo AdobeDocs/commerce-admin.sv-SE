@@ -14,11 +14,11 @@ ht-degree: 0%
 
 På sidan _Meddelanden_ visas alla meddelanden ordnade efter allvarlighetsgrad, med det senaste högst upp. Åtgärdskommandona kan användas för att markera enskilda meddelanden som lästa, visa mer detaljerad information eller för att ta bort meddelandet från inkorgen.
 
-1. Öppna sidan _[!UICONTROL Notifications]_genom att göra något av följande:
+1. Öppna sidan _[!UICONTROL Notifications]_&#x200B;genom att göra något av följande:
 
    - Klicka på ikonen _Meddelande_ i sidhuvudet. Om ett eller flera nya meddelanden visas klickar du på **[!UICONTROL See All]**.
 
-   - Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**på sidofältet_ Admin _.
+   - Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**&#x200B;på sidofältet_ Admin _.
 
 1. Gör något av följande i kolumnen **[!UICONTROL Action]**:
 

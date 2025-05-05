@@ -23,7 +23,7 @@ Datainsamlaren samlar in den information om ditt system som vårt supportteam be
 
 ### Kör datainsamlaren
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL New Backup]** i det övre högra hörnet.
 
@@ -55,13 +55,13 @@ När säkerhetskopieringen har skapats kan du hämta en kopia av kod- och databa
 
 1. Kontrollera att den har statusen `Complete`.
 
-1. Klicka på enhetsnamnet i _[!UICONTROL Code Dump]_- eller_[!UICONTROL DB Dump]_-kolumner.
+1. Klicka på enhetsnamnet i _[!UICONTROL Code Dump]_- eller&#x200B;_[!UICONTROL DB Dump]_-kolumner.
 
 Hämtningsprocessen bör starta automatiskt.
 
 ## Ta bort säkerhetskopieringsdata
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**&#x200B;på sidofältet_ Admin _.
 
 1. Sök efter och markera de säkerhetskopierade data som ska tas bort.
 
@@ -77,7 +77,7 @@ I stödrastret Systemrapporter kan du visa och hämta befintliga rapporter, ta b
 
 ### Åtkomst till systemrapporter
 
-Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**&#x200B;på sidofältet_ Admin _.
 
 ![Admin - systemrapporter](./assets/reports.png){width="600" zoomable="yes"}
 
@@ -99,7 +99,7 @@ Du hittar användbar information om installerade moduler.
 
 **_Så här visar du rapportinformation för varje installerad modul:_**
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**&#x200B;på sidofältet_ Admin _.
 1. Klicka på **[!UICONTROL New Report]**.
 1. Välj `Modules` i listan **[!UICONTROL Groups]**.
 1. Klicka på **[!UICONTROL Create]**.

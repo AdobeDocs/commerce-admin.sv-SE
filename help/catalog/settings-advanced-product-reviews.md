@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktinställningar - [!UICONTROL Product Reviews]
 
-I avsnittet _[!UICONTROL Product Reviews]_visas alla recensioner som kunder har skickat in om produkten. Det här avsnittet visas med den andra produktinformationen först när en ny produkt har sparats för första gången. Mer information finns i [Produktrecensioner](../merchandising-promotions/product-reviews.md).
+I avsnittet _[!UICONTROL Product Reviews]_&#x200B;visas alla recensioner som kunder har skickat in om produkten. Det här avsnittet visas med den andra produktinformationen först när en ny produkt har sparats för första gången. Mer information finns i [Produktrecensioner](../merchandising-promotions/product-reviews.md).
 
 ![Produktrecensioner](./assets/product-review.png){width="600" zoomable="yes"}
 

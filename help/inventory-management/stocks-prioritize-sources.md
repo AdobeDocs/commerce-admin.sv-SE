@@ -22,11 +22,11 @@ I det här exemplet har UK Stock oordnade källor för en butik och två lagerst
 
 Handlaren föredrar att få leveranser prioriterade från större lager i Berlin, sedan London-lagerstället, London-lagerplatsen och slutligen butiken i London. Om du vill ändra ordningen drar och släpper du posterna i önskad ordning.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**&#x200B;på sidofältet_ Admin _.
 
 1. Öppna Stock i läget _Redigera_.
 
-1. Expandera fliken _[!UICONTROL Sources]_om det behövs.
+1. Expandera fliken _[!UICONTROL Sources]_&#x200B;om det behövs.
 
 1. Använd ![Sorteringsikonen](assets/icon-sort.png) om du vill dra och släppa källorna i en prioritet från överkanten (första) till nederkanten (sista).
 

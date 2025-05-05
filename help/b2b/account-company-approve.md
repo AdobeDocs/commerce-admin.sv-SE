@@ -28,7 +28,7 @@ Du kan också använda [åtgärdskontrollen](account-company-manage.md) för att
 
 1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL Companies]** på sidofältet _Admin_.
 
-   Du kan använda väljaren _[!UICONTROL Columns]_ovanför stödrastret för att visa kolumnen **[!UICONTROL Status]**.
+   Du kan använda väljaren _[!UICONTROL Columns]_&#x200B;ovanför stödrastret för att visa kolumnen **[!UICONTROL Status]**.
 
 1. Klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 

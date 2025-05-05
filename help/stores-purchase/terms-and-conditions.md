@@ -18,7 +18,7 @@ När funktionen _Villkor_ är aktiverad manuellt måste kunderna godkänna förs
 
 ## Steg 1: Aktivera villkor för utcheckning
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]**.
 
@@ -34,7 +34,7 @@ När funktionen _Villkor_ är aktiverad manuellt måste kunderna godkänna förs
 
 ## Steg 2: Lägg till egen villkorsinformation
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Terms and Conditions]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Terms and Conditions]**&#x200B;på sidofältet_ Admin _.
 
    ![Rutnät för villkor](./assets/terms-conditions.png){width="600" zoomable="yes"}
 

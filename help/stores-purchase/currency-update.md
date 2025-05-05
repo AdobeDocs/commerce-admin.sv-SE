@@ -20,7 +20,7 @@ Innan du importerar valutakurser slutför du inställningarna för [valutakurser
 
 ## Uppdatera en valutakurs manuellt
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på den kurs som du vill ändra och ange det nya värdet för varje valuta som stöds.
 
@@ -28,7 +28,7 @@ Innan du importerar valutakurser slutför du inställningarna för [valutakurser
 
 ## Importera valutakurser
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**&#x200B;på sidofältet_ Admin _.
 
 1. Ange **[!UICONTROL Import Service]** till valutakursprovidern.
 
@@ -54,6 +54,6 @@ Innan du importerar valutakurser slutför du inställningarna för [valutakurser
 
 1. Om du vill ange vilka valutor du godkänner och upprätta importanslutningen och schemat, slutför du [Inställningar för valutakurs](currency-configuration.md).
 
-1. Kontrollera listan _[!UICONTROL Currency Rates]_om du vill verifiera att tarifferna har importerats enligt schemat.
+1. Kontrollera listan _[!UICONTROL Currency Rates]_&#x200B;om du vill verifiera att tarifferna har importerats enligt schemat.
 
 1. Vänta på tidsperioden för den frekvensinställning som har fastställts för schemat och kontrollera hastigheterna igen.

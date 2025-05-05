@@ -16,7 +16,7 @@ Mallar är behållare som sparar [!DNL Page Builder] innehåll och layouter med 
 
 ## Åtkomstmallar
 
-Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Templates]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Templates]**&#x200B;på sidofältet_ Admin _.
 
 ![Mallrutnät med miniatyrförhandsvisning](./assets/templates-list.png){width="700" zoomable="yes"}
 
@@ -56,7 +56,7 @@ Du kan tillämpa en mall på ett [!DNL Page Builder]-innehållsområde (sida, bl
 
    ![[!DNL Page Builder] Knappen Använd mall ](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. Välj en mall från stödrastret _[!UICONTROL Apply Template]_och klicka på&#x200B;**[!UICONTROL Apply]**i slutet av raden.
+1. Välj en mall från stödrastret _[!UICONTROL Apply Template]_&#x200B;och klicka på&#x200B;**[!UICONTROL Apply]**&#x200B;i slutet av raden.
 
    Om du vill visa hela mallen kan du klicka på miniatyrbilden av mallen. Den här åtgärden utökar bilden så att du kan visa hela mallen efter behov.
 

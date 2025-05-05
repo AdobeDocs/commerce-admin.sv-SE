@@ -35,7 +35,7 @@ Omdirigera från: `gear/bags.html`
 
 {{url-rewrite-params}}
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**&#x200B;på sidofältet_ Admin _.
 
 1. Innan du fortsätter gör du följande för att verifiera att sökvägen till begäran är tillgänglig:
 
@@ -45,7 +45,7 @@ Omdirigera från: `gear/bags.html`
 
    - Klicka på **[!UICONTROL Delete]** i det övre högra hörnet. Klicka på **[!UICONTROL OK]** när du uppmanas att bekräfta.
 
-1. När du kommer tillbaka till sidan _[!UICONTROL URL Rewrites]_klickar du på&#x200B;**[!UICONTROL Add URL Rewrite]**.
+1. När du kommer tillbaka till sidan _[!UICONTROL URL Rewrites]_&#x200B;klickar du på&#x200B;**[!UICONTROL Add URL Rewrite]**.
 
 1. Ange **[!UICONTROL Create URL Rewrite]** till `For category` och välj målkategorin i trädet som är målet för omdirigeringen.
 

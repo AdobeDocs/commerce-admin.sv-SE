@@ -31,7 +31,7 @@ Att ange en källa till `disabled` är användbart i följande situationer:
 
 ## Inaktivera en eller flera anpassade källor
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**&#x200B;på sidofältet_ Admin _.
 
 1. Markera kryssrutan för varje aktiverad anpassad källa som du vill inaktivera.
 
@@ -43,7 +43,7 @@ Att ange en källa till `disabled` är användbart i följande situationer:
 
 ## Aktivera eller inaktivera en enda anpassad källa
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på en anpassad källa och klicka på **[!UICONTROL Edit]**.
 

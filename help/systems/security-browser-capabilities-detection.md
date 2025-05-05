@@ -22,7 +22,7 @@ Mer teknisk information finns i [Webbläsare som stöds](https://experienceleagu
 
 ## Konfigurera identifiering av webbläsarfunktioner
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Web]** på panelen till vänster under _[!UICONTROL General]_.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktbildskonfiguration
 
-Om du planerar att överföra stora bilder för visning på sidan _[!UICONTROL Product Details]_kan det vara bra att ange en maximal pixelstorlek (bredd och höjd) och automatiskt ändra storlek på filerna vid överföringen. För att ge stöd för den här typen av överföring av produktbilder finns det ett alternativ för att aktivera automatisk storleksändring av större bildfiler när du överför dem. Du kan konfigurera en platshållarbild för produkter som du vill lägga till i katalogen men ännu inte har någon bildresurs att visa.
+Om du planerar att överföra stora bilder för visning på sidan _[!UICONTROL Product Details]_&#x200B;kan det vara bra att ange en maximal pixelstorlek (bredd och höjd) och automatiskt ändra storlek på filerna vid överföringen. För att ge stöd för den här typen av överföring av produktbilder finns det ett alternativ för att aktivera automatisk storleksändring av större bildfiler när du överför dem. Du kan konfigurera en platshållarbild för produkter som du vill lägga till i katalogen men ännu inte har någon bildresurs att visa.
 
 ## Ändra storlek på produktbilder
 
@@ -28,7 +28,7 @@ En bildfil på 3 000 x 2 100 pixlar JPG 100 % kan till exempel vara en bildfil p
 
 ### Aktivera storleksändring av bilder
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
@@ -75,7 +75,7 @@ Adobe Commerce och Magento Open Source använder temporära bilder som platshål
 
 **_Så här överför du platshållarbilder:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 

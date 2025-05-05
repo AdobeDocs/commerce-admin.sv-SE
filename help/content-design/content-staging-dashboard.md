@@ -21,7 +21,7 @@ Kontrollpanelen [!UICONTROL Content Staging] ger en översikt över alla aktiva 
 
 ## Visa kontrollpanelen för mellanlagring
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**&#x200B;på sidofältet_ Admin _.
 
 1. Om du vill ändra kontrollpanelens format anger du **[!UICONTROL View As]**-kontrollen till `list`, `Grid` eller `Timeline`.
 
@@ -69,14 +69,14 @@ Kampanjen i det här exemplet innehåller två kategorier och tre enskilda produ
 
 Följ stegen nedan om du vill redigera något av objekten i kampanjen.
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**&#x200B;på sidofältet_ Admin _.
 
 1. Hitta kampanjen i den visade listan eller tidslinjen och öppna den för att få tillgång till informationen:
 
    - Om du vill visa en lista klickar du på **[!UICONTROL Select]** och sedan på **[!UICONTROL View/Edit]** i kolumnen _[!UICONTROL Action]_.
    - Om du vill visa en tidslinje klickar du en gång för att visa sammanfattningen och sedan på **[!UICONTROL View/Edit]**.
 
-1. Uppdatera inställningarna i avsnittet _[!UICONTROL General]_efter behov.
+1. Uppdatera inställningarna i avsnittet _[!UICONTROL General]_&#x200B;efter behov.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i alla avsnitt som innehåller ett objekt som ska redigeras.
 

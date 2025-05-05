@@ -18,7 +18,7 @@ Butiksvyer används vanligtvis för att göra butiken tillgänglig på olika spr
 
 ## Lägga till en butiksvy
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;på sidofältet_ Admin _.
 
    ![Alla butiker](./assets/stores-all.png){width="700" zoomable="yes"}
 
@@ -55,11 +55,11 @@ Om din Adobe Commerce- eller Magento Open Source-installation har en konfigurati
 
 {style="table-layout:auto"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;på sidofältet_ Admin _.
 
-1. Klicka i kolumnen _[!UICONTROL Store View]_i rutnätet på namnet på den vy som du vill redigera.
+1. Klicka i kolumnen _[!UICONTROL Store View]_&#x200B;i rutnätet på namnet på den vy som du vill redigera.
 
-   När du redigerar standardvyn är fälten _[!UICONTROL Store]_och_[!UICONTROL Status]_ inte tillgängliga.
+   När du redigerar standardvyn är fälten _[!UICONTROL Store]_&#x200B;och&#x200B;_[!UICONTROL Status]_ inte tillgängliga.
 
    ![Butiksvy - redigera standardvy](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

@@ -39,8 +39,8 @@ Du börjar med ett standardlager som är tilldelat till standardversionen av Sou
 
 Kvantitet är antalet produkter i ditt aktiva lager som är tillgängliga för inköp. Kvantiteten produkter ökar och minskar när du slutför leveranser eller justerar lager. Detta belopp påverkas inte om du lägger till produkter i en kundvagn. Salable Quantity spårar tillgängligheten för produkten för en försäljningskanal och använder även det här värdet för att fastställa tillgängligt lager för inköp. Beroende på antalet källor kan du se och hantera produktkvantiteten för något av följande:
 
-- **Kvantitet** - För handlare med en enda källa spårar kolumnen och värdet _[!UICONTROL Quantity]_mängden tillgängligt lagerutrymme.
-- **Kvantitet per Source** - För handlare med flera källor spårar kolumnen och värdena _[!UICONTROL Quantity per Source]_lagerbehållningen som är tillgänglig per plats. Om du lägger till flera källor ersätter det här värdet Kvantitet och visar alla källor och tilldelade kvantiteter.
+- **Kvantitet** - För handlare med en enda källa spårar kolumnen och värdet _[!UICONTROL Quantity]_&#x200B;mängden tillgängligt lagerutrymme.
+- **Kvantitet per Source** - För handlare med flera källor spårar kolumnen och värdena _[!UICONTROL Quantity per Source]_&#x200B;lagerbehållningen som är tillgänglig per plats. Om du lägger till flera källor ersätter det här värdet Kvantitet och visar alla källor och tilldelade kvantiteter.
 
 Reservationer spårar lagerbegäranden för hela shoppingprocessen - lägga till produkter i kundvagnen, slutföra utcheckningen och hantera återbetalningar. För tillgängligt lager och lager reserverar du lagerbelopp per order via utcheckningsprocessen, subtraherat från den försäljningsbara kvantiteten. Reservationer konverteras till kvantitetsavdrag vid fakturering och leverans av produkter.
 

@@ -22,7 +22,7 @@ Skattereglerna innehåller en kombination av produktklass, kundklass och momssat
 
 ## Steg 1: Fyll i momsregelinformationen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Tax Rule]** i det övre högra hörnet.
 

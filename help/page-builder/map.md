@@ -66,7 +66,7 @@ Beroende på om du redan har en [!DNL Google Maps]-nyckel kan du använda någon
 
 ### Steg 2: Konfigurera [!DNL Google Maps] i [!DNL Commerce]
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 
@@ -158,7 +158,7 @@ Använd guiden [!DNL Google Maps] för plattformsformat för att tillämpa ett a
 
 ### Ändra kartformatet
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 
@@ -197,7 +197,7 @@ Använd guiden [!DNL Google Maps] för plattformsformat för att tillämpa ett a
 
    {style="table-layout:auto"}
 
-1. Ändra inställningarna för _[!UICONTROL Advanced]_efter behov:
+1. Ändra inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov:
 
    - Om du vill styra den vågräta placeringen av kartinnehållet som har lagts till i behållaren väljer du en **[!UICONTROL Alignment]**:
 
@@ -264,7 +264,7 @@ Använd guiden [!DNL Google Maps] för plattformsformat för att tillämpa ett a
 
 Stödrasterstorleken avgör storleken på kartan som hör till en [kolumn](column.md) på scenen [!DNL Page Builder]. Som standard är kartan 12 kolumner bred, med högst 16 kolumner.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 

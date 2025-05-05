@@ -55,7 +55,7 @@ För att kunna starta en assisterad shoppingsession måste kunden vara inloggad 
    >
    >Använd kontrollen [Filter](../getting-started/admin-grid-controls.md) om du vill hitta kundposten snabbt.
 
-   I kundprofilen under _[!UICONTROL Personal Information]_visar datumet och tiden_[!UICONTROL Last Logged In]_ att kunden är online.
+   I kundprofilen under _[!UICONTROL Personal Information]_&#x200B;visar datumet och tiden&#x200B;_[!UICONTROL Last Logged In]_ att kunden är online.
 
    ![Kundprofil för en onlinekund](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ Du kan överföra artiklar till kundvagnen från kundens önskelista och nyligen
 
 1. Klicka på **[!UICONTROL Create Order]**.
 
-   På sidan _[!UICONTROL Create New Order]_visas artiklarna i kundvagnen följt av leverans- och betalningsinformation.
+   På sidan _[!UICONTROL Create New Order]_&#x200B;visas artiklarna i kundvagnen följt av leverans- och betalningsinformation.
 
 1. Fyll i information om frakt och betalning.
 

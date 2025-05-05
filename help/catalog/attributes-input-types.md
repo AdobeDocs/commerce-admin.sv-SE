@@ -21,7 +21,7 @@ När attribut visas från administratören är de fält som du fyller i när du 
 | [!UICONTROL Text Field] | Ett enradigt inmatningsfält för text. |
 | [!UICONTROL Text Area] | Ett inmatningsfält med flera rader för att skriva textstycken, som en produktbeskrivning. Du kan använda WYSIWYG-redigeraren för att formatera texten med HTML-taggar, eller ange taggarna direkt i texten. |
 | [!UICONTROL Text Editor] | En fullt fungerande textredigerare på attributplatsen. |
-| [!UICONTROL Date] | Visar ett datumvärde i det [önskade formatet](#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**Beroende på systemkonfigurationen kan_Admin _-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](#date-and-time-options). |
+| [!UICONTROL Date] | Visar ett datumvärde i det [önskade formatet](#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**&#x200B;Beroende på systemkonfigurationen kan_Admin _-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](#date-and-time-options). |
 | [!UICONTROL Date and Time] | Visar ett datum- och tidsvärde i det [önskade formatet](#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datum och tid kan anges manuellt eller väljas från en kalender. Exempelformat: MM/DD/ÅÅÅÅ HH:MM |
 | [!UICONTROL Yes/No] | Visar en nedrullningsbar lista med fördefinierade alternativ för `Yes` och `No`. |
 | Listruta | Visar en nedrullningsbar lista med värden som endast accepterar ett val. Indatatypen för listrutan är en nyckelkomponent för [konfigurerbara produkter](../catalog/product-create-configurable.md). |
@@ -43,7 +43,7 @@ Du kan anpassa formatet för datum- och tidsfält och välja den indatakontroll 
 
 **_Så här formaterar du datum/tid-fält:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i panelen till vänster och klicka på underobjektet **[!UICONTROL Catalog]**.
 

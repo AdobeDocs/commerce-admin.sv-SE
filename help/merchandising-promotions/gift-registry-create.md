@@ -28,7 +28,7 @@ Du kan använda en av de tre förberedda presentregistren eller skapa ett eget a
 
 ## Använd ett förberett presentregister
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**&#x200B;på sidofältet_ Admin _.
 
    Registren för födelsedag, bröllop och spädbarn är klara att användas av kunderna på deras konton.
 
@@ -36,7 +36,7 @@ Du kan använda en av de tre förberedda presentregistren eller skapa ett eget a
 
 ## Skapa ett anpassat presentregister
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**på sidlisten Admin.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**&#x200B;på sidlisten Admin.
 
 1. Klicka på **[!UICONTROL Add Gift Registry Type]** i det övre högra hörnet.
 
@@ -134,7 +134,7 @@ Välj den typ av data- och indatakontroll som är associerad med attributet.
 | [!UICONTROL Event Date] | Avgör hur datumattributet används i butiken. Alternativ: <br/>**[!UICONTROL Searchable]**- Anger om attributet är tillgängligt för avancerad sökning. Alternativ: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Avgör om händelsen finns med i listan över händelser som är tillgängliga i butiken. Alternativ: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Bestämmer formatet för händelsedatumet. Alternativ: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
 | [!UICONTROL Event Country] | Visar attributet som en lista över länder. Alternativ: <br/>**[!UICONTROL Searchable]**- Anger om attributet är tillgängligt för avancerad sökning. Alternativ: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Avgör om händelsen finns med i listan över händelser som är tillgängliga i butiken. Alternativ: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**- Anger regionen för händelsen. |
 | [!UICONTROL Event Location] | Platsen för händelsen som är relaterad till presentregistret. <br/>Ange **[!UICONTROL Is Searcheable]** till: `Yes` / `No` <br/>Ange **[!UICONTROL Is Listed]** till: `Yes` / `No` |
-| [!UICONTROL Role] | Den roll som identifierar presentmottagaren. Till exempel `Bride`, `Groom` eller `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Ange som `Yes`/ `No`<br/>** Listar **- Ange som `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Klicka för att lägga till fler villkor i listrutan:<br/>**Kod** - Ett unikt namn som identifierar attributet internt.<br/>**[!UICONTROL Label]**- Det namn som identifierar attributet på kundens kontonamall.<br/>**[!UICONTROL Is Default]** - Ange den här växeln för att välja standardvillkoret.<br/>**[!UICONTROL Delete Option]**- Klicka för att ta bort alternativet. |
+| [!UICONTROL Role] | Den roll som identifierar presentmottagaren. Till exempel `Bride`, `Groom` eller `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Ange som `Yes`/ `No`<br/>**&#x200B; Listar &#x200B;**- Ange som `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Klicka för att lägga till fler villkor i listrutan:<br/>**Kod** - Ett unikt namn som identifierar attributet internt.<br/>**[!UICONTROL Label]**- Det namn som identifierar attributet på kundens kontonamall.<br/>**[!UICONTROL Is Default]** - Ange den här växeln för att välja standardvillkoret.<br/>**[!UICONTROL Delete Option]**- Klicka för att ta bort alternativet. |
 
 {style="table-layout:auto"}
 

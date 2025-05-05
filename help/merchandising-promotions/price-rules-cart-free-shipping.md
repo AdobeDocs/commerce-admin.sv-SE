@@ -24,7 +24,7 @@ Vissa transportföretagskonfigurationer ger dig möjlighet att erbjuda fri frakt
 
 ## Steg 2. Skapa en kundvagnsprisregel
 
-Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;på sidofältet_ Admin _.
 
 Följ stegen nedan för att ange vilken typ av kostnadsfri frakthöjning du vill erbjuda.
 

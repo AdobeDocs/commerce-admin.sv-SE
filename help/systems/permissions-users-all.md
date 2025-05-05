@@ -27,11 +27,11 @@ För användare och roller som är tillfälliga kan du även ange ett förfallod
 
 ## Skapa en användare
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New User]** i det övre högra hörnet.
 
-   Om du vill redigera en befintlig användare klickar du på ett användarnamn i rutnätet. Du kan ändra avsnitten _[!UICONTROL User Info]_och_[!UICONTROL User Role]_ efter behov.
+   Om du vill redigera en befintlig användare klickar du på ett användarnamn i rutnätet. Du kan ändra avsnitten _[!UICONTROL User Info]_&#x200B;och&#x200B;_[!UICONTROL User Role]_ efter behov.
 
 1. Gör följande i avsnittet _[!UICONTROL Account Information]_:
 
@@ -69,13 +69,13 @@ För användare och roller som är tillfälliga kan du även ange ett förfallod
 
 >[!IMPORTANT]
 >
->När avsnittet _[!UICONTROL Account Information]_är klart kan du spara användaren. Den nya användaren visas i rutnätet_[!UICONTROL Users]_, men användarnamnet kan inte logga in förrän en roll har tilldelats.
+>När avsnittet _[!UICONTROL Account Information]_&#x200B;är klart kan du spara användaren. Den nya användaren visas i rutnätet&#x200B;_[!UICONTROL Users]_, men användarnamnet kan inte logga in förrän en roll har tilldelats.
 
 ## Tilldela en användarroll
 
 1. Klicka på **[!UICONTROL User Role]** i den vänstra panelen.
 
-   I rutnätet visas alla befintliga användarroller. _[!UICONTROL Administrators]_är den enda tillgängliga rollen för en ny butik.
+   I rutnätet visas alla befintliga användarroller. _[!UICONTROL Administrators]_&#x200B;är den enda tillgängliga rollen för en ny butik.
 
    ![Admin - lägg till ny användarroll](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
@@ -105,11 +105,11 @@ För användare och roller som är tillfälliga kan du även ange ett förfallod
 
 1. Ange ditt lösenord för att bekräfta din identitet när du uppmanas till detta och klicka sedan på **[!UICONTROL Save User]** igen.
 
-   Rutnätet _[!UICONTROL Users]_öppnas och alla användare visas.
+   Rutnätet _[!UICONTROL Users]_&#x200B;öppnas och alla användare visas.
 
 ## Ta bort en administratörsanvändare
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta upp användarkontot med hjälp av filter ovanför rutnätet och klicka på användarnamnet.
 
@@ -125,7 +125,7 @@ Konfigurationen av administratörens e-postmall avgör vilka e-postmeddelanden s
 
 **_Så här konfigurerar du administratörens e-postmallar:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Setting]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Setting]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** på den vänstra panelen och välj **[!UICONTROL Admin]**.
 
@@ -151,7 +151,7 @@ Ytterligare säkerhetsmätningar för lösenord kan implementeras i konfiguratio
 
 **_Så här låser du upp ett administratörskonto:_**
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL Locked Users]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL Locked Users]**&#x200B;på sidofältet_ Admin _.
 
 1. Markera kryssrutan för det låsta kontot i rutnätet.
 

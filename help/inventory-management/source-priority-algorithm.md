@@ -34,7 +34,7 @@ Ordna källorna uppifrån och ned i prioritetsordning för att utföra beställn
 
 1. Klicka på **[!UICONTROL Assign Sources]**.
 
-1. I vyn _[!UICONTROL Assign Sources]_markerar du kryssrutan för den önskade källan och klickar sedan på&#x200B;**[!UICONTROL Done]**för att tilldela en källa till lagret.
+1. I vyn _[!UICONTROL Assign Sources]_&#x200B;markerar du kryssrutan för den önskade källan och klickar sedan på&#x200B;**[!UICONTROL Done]**&#x200B;för att tilldela en källa till lagret.
 
 >[!NOTE]
 >

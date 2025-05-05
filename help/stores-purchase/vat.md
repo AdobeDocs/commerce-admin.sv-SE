@@ -42,7 +42,7 @@ I vissa affärstransaktioner görs ingen uppskattning av moms. Commerce kan vali
 
 Processen med att skapa en momsregel börjar med att lägga till en skattesats.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;på sidofältet_ Admin _.
 
    ![Konfigurera kundmomsklasser](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -66,7 +66,7 @@ Baserat på den inskickade skattesatsen kan du skapa efterföljande momsregler. 
 
 ### Steg 2: Ange produktskatteklasser
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Tax Rule]**.
 
@@ -88,7 +88,7 @@ Baserat på den inskickade skattesatsen kan du skapa efterföljande momsregler. 
 
 ### Steg 3: Ange momszoner och skattesatser
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;på sidofältet_ Admin _.
 
    I det här exemplet kan du ta bort amerikanska skattesatser eller låta dem vara som de är.
 
@@ -116,7 +116,7 @@ Baserat på den inskickade skattesatsen kan du skapa efterföljande momsregler. 
 
 En momsregel är en kombination av en kundskatteklass, en produktskatteklass och en momssats.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;på sidofältet_ Admin _.
 
 1. Lägg till nya momsregler enligt följande:
 
@@ -279,7 +279,7 @@ Skapa [momsreglerna](tax-rules.md) för att effektivt använda moms-ID-validerin
 
 #### Steg 3: Aktivera och konfigurera validering av moms-ID
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Ange **[!UICONTROL Store View]** för konfigurationen om det behövs.
 

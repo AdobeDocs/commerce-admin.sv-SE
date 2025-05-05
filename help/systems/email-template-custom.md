@@ -42,7 +42,7 @@ När du har slutfört [konfigurationen](email-templates.md#configure-email-templ
 
 ### Steg 1. Läs in standardmallen
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Template]**.
 
@@ -92,7 +92,7 @@ När du har slutfört [konfigurationen](email-templates.md#configure-email-templ
 
 ### Steg 3. Uppdatera konfigurationen
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
@@ -110,7 +110,7 @@ Sidfoten för e-postmallen innehåller e-postmeddelandets avslutande och signatu
 
 ### Steg 1. Läs in standardmallen
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Template]**.
 
@@ -148,7 +148,7 @@ Sidfoten för e-postmallen innehåller e-postmeddelandets avslutande och signatu
 
 ### Steg 3. Uppdatera konfigurationen
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
@@ -166,7 +166,7 @@ Att anpassa brödtexten i varje meddelande är detsamma som att anpassa sidhuvud
 
 ### Steg 1. Läs in standardmallen
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Template]**.
 
@@ -218,7 +218,7 @@ Att anpassa brödtexten i varje meddelande är detsamma som att anpassa sidhuvud
 
 ### Steg 3. Uppdatera konfigurationen
 
-Breadcrumb-spåret _[!UICONTROL Currently Used For]_visar var mallen används. I det här exemplet finns mallkonfigurationen på sidan_[!UICONTROL Customer Configuration]_, i avsnittet _[!UICONTROL Create New Account Options]_och i fältet_[!UICONTROL Default Welcome Email]_.
+Breadcrumb-spåret _[!UICONTROL Currently Used For]_&#x200B;visar var mallen används. I det här exemplet finns mallkonfigurationen på sidan&#x200B;_[!UICONTROL Customer Configuration]_, i avsnittet _[!UICONTROL Create New Account Options]_&#x200B;och i fältet&#x200B;_[!UICONTROL Default Welcome Email]_.
 
 - Sida - [!UICONTROL Customer Configuration]
 - Avsnitt - [!UICONTROL Create New Account Options]

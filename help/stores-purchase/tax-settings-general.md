@@ -18,7 +18,7 @@ Administratörens [behörigheter](../systems/permissions.md) kan ställas in så
 
 ## Konfigurera allmänna skatteinställningar
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Om du vill ha en konfiguration med flera platser anger du **[!UICONTROL Store View]** till webbplatsen och lagret som är målet för konfigurationen.
 
@@ -209,7 +209,7 @@ Handlare som är verksamma i olika regioner och regioner kan få ett enda pris g
 
 **_Så här aktiverar du gränsöverskridande priskonsekvens:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Om du vill ha en konfiguration med flera platser anger du **[!UICONTROL Store View]** till webbplatsen och lagret som är målet för konfigurationen.
 

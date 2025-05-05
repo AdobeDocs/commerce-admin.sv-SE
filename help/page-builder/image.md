@@ -58,7 +58,7 @@ Verktygslådan för bilden visas när du hovrar över bildbehållaren.
    >
    >Den största filstorleken är 4 MB. Filtyper som stöds är JPG, GIF och PNG.
 
-   - _**Överför en ny bild**_: Använd den här metoden om du vill överföra en ny bildfil från datorn.
+   - _&#x200B;**Överför en ny bild**&#x200B;_: Använd den här metoden om du vill överföra en ny bildfil från datorn.
 
       - Klicka på **[!UICONTROL Upload Image]**.
 
@@ -66,7 +66,7 @@ Verktygslådan för bilden visas när du hovrar över bildbehållaren.
 
      Du kan också dra en bildfil från datorn och släppa den på ikonen _Kamera_ ( ![Kameraikon](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _**Välj en befintlig resurs**_: Använd den här metoden om du vill välja en befintlig bildresurs från medielagring/galleri.
+   - _&#x200B;**Välj en befintlig resurs**&#x200B;_: Använd den här metoden om du vill välja en befintlig bildresurs från medielagring/galleri.
 
       - Klicka på **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +76,7 @@ Verktygslådan för bilden visas när du hovrar över bildbehållaren.
 
         ![Lägger till en markerad bild](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _**Sök efter och markera en Adobe Stock-bild**_: Använd den här metoden om du vill söka efter en bild från Adobe Stock.
+   - _&#x200B;**Sök efter och markera en Adobe Stock-bild**&#x200B;_: Använd den här metoden om du vill söka efter en bild från Adobe Stock.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ Filnamnet, dimensionerna och filstorleken visas under den aktuella bilden.
 
 1. Gör något av följande om du vill ändra aktuell **[!UICONTROL Image]**:
 
-   - _**Överför en ny bild**_: Använd den här metoden om du vill överföra en ny bildfil från datorn.
+   - _&#x200B;**Överför en ny bild**&#x200B;_: Använd den här metoden om du vill överföra en ny bildfil från datorn.
 
       - Klicka på **[!UICONTROL Upload Image]**.
 
       - Leta upp och välj bilden som du vill lägga till i galleriet och målbehållaren.
 
-   - _**Välj en befintlig resurs**_: Använd den här metoden om du vill välja en befintlig bildresurs från medielagring/galleri.
+   - _&#x200B;**Välj en befintlig resurs**&#x200B;_: Använd den här metoden om du vill välja en befintlig bildresurs från medielagring/galleri.
 
       - Klicka på **[!UICONTROL Select from Gallery]**.
 

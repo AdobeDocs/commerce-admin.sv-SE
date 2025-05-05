@@ -69,7 +69,7 @@ När det finns en rabatt med inbäddad moms beräknar Commerce en _dold skatt_ s
 
 1. Hur kunden vanligtvis förstår det rabatterade priset (ordersumma):
 
-   _Fullt pris på artikeln inklusive moms **minus**rabattbeloppet: $100 - $8,33 = $91.67_
+   _Fullt pris på artikeln inklusive moms **minus**&#x200B;rabattbeloppet: $100 - $8,33 = $91.67_
 
 1. **Hur Commerce beräknar det rabatterade priset** (se tidigare för en formel):
 

@@ -53,7 +53,7 @@ Systemet har en fördefinierad standardanvändarroll, som du kan använda _som_ 
 
 ### Ändra en roll
 
-1. Företagsadministratören klickar på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Actions]_för rollen som ska ändras.
+1. Företagsadministratören klickar på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Actions]_&#x200B;för rollen som ska ändras.
 
 1. Gör nödvändiga ändringar i namn- och behörighetsinställningarna.
 
@@ -61,7 +61,7 @@ Systemet har en fördefinierad standardanvändarroll, som du kan använda _som_ 
 
 ### Duplicera en roll
 
-1. Företagsadministratören klickar på **[!UICONTROL Duplicate]** i kolumnen _[!UICONTROL Actions]_för att rollen ska dupliceras.
+1. Företagsadministratören klickar på **[!UICONTROL Duplicate]** i kolumnen _[!UICONTROL Actions]_&#x200B;för att rollen ska dupliceras.
 
 1. Gör nödvändiga ändringar i namn- och behörighetsinställningarna.
 

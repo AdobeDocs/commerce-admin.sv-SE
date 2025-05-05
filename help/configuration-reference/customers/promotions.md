@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | Global | Definierar kupongkodformatet. Alternativen är: <br/>**`Alphanumeric`**- Valfri kombination av bokstäver och siffror.<br/>**`Alphabetical`** - Endast bokstäver. <br/>**`Numeric`**- Endast siffror. |
 | [!UICONTROL Code Prefix] | Global | Ett värde som läggs till i början av alla kupongkoder. Om du inte vill använda ett prefix lämnar du fältet tomt. |
 | [!UICONTROL Code Suffix] | Global | Ett värde som läggs till i slutet av alla koder. Om du inte vill använda ett suffix lämnar du fältet tomt. |
-| [!UICONTROL Dash Every X Characters] | Global | Intervallet för att infoga ett bindestreck (-) i alla kupongkoder. Om du inte vill använda ett streck lämnar du fältet tomt. <br/>_**Obs!**_ Kupongkoder som bara skiljer sig åt med bindestreck anses vara olika koder. |
+| [!UICONTROL Dash Every X Characters] | Global | Intervallet för att infoga ett bindestreck (-) i alla kupongkoder. Om du inte vill använda ett streck lämnar du fältet tomt. <br/>_&#x200B;**Obs!**&#x200B;_ Kupongkoder som bara skiljer sig åt med bindestreck anses vara olika koder. |
 
 {style="table-layout:auto"}

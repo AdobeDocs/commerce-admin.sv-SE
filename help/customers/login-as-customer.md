@@ -16,7 +16,7 @@ Ibland behöver kunderna hjälp med beställningen. Butiksadministratörer kan a
 
 Alla åtgärder som vidtas när kunden är inloggad tillämpas på den faktiska kundens konto.
 
-När det är aktiverat för en _Admin_ -användare visas knappen _[!UICONTROL Login as Customer]_på flera sidor:
+När det är aktiverat för en _Admin_ -användare visas knappen _[!UICONTROL Login as Customer]_&#x200B;på flera sidor:
 
 * [Kundredigeringssida](../customers/update-account.md)
 * [Sidan Ordervy](../stores-purchase/order-processing.md)
@@ -32,7 +32,7 @@ Om du vill aktivera _inloggningen som kund_ måste du aktivera funktionen i din 
 
 ### Aktivera funktionen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidlisten Admin.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidlisten Admin.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Login as Customer]**.
 

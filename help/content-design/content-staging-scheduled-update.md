@@ -26,7 +26,7 @@ I följande exempel visas hur du schemalägger en tillfällig prisändring för 
 
 1. Öppna en produkt i redigeringsläge från stödrastret _[!UICONTROL Products]_.
 
-1. Klicka på **[!UICONTROL Schedule New Update]** i rutan _[!UICONTROL Scheduled Changes]_överst på sidan.
+1. Klicka på **[!UICONTROL Schedule New Update]** i rutan _[!UICONTROL Scheduled Changes]_&#x200B;överst på sidan.
 
    ![Schemalägg ny uppdatering](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -49,7 +49,7 @@ I följande exempel visas hur du schemalägger en tillfällig prisändring för 
      >
      >Kampanjens startdatum och slutdatum måste definieras med hjälp av administratörstidszonen **_default_** som konverteras från den lokala tidszonen på varje webbplats. Om du till exempel har flera webbplatser i olika tidszoner, men vill starta en kampanj som baseras på en amerikansk (standard) tidszon, måste du schemalägga en separat uppdatering för varje lokal tidszon. I det här fallet anger du **[!UICONTROL Start Date]** och **[!UICONTROL End Date]** som konverterade från alla lokala webbplatsers tidszon till administratörens standardtidszon.
 
-1. Bläddra ned till _[!UICONTROL Price]_och klicka på&#x200B;**[!UICONTROL Advanced Pricing]**.
+1. Bläddra ned till _[!UICONTROL Price]_&#x200B;och klicka på&#x200B;**[!UICONTROL Advanced Pricing]**.
 
 1. Ange **[!UICONTROL Special Price]** för produkten under den schemalagda kampanjen och klicka på **[!UICONTROL Done]**.
 

@@ -34,7 +34,7 @@ Om det finns flera prisregler som körs i samma kampanj avgör inställningen Pr
 
 ## Schemalägg en uppdatering av en katalogprisregel
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**Katalogprisregel**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**Katalogprisregel**&#x200B;på sidofältet_ Admin _.
 
 1. Öppna regeln i redigeringsläge.
 
@@ -60,7 +60,7 @@ Om det finns flera prisregler som körs i samma kampanj avgör inställningen Pr
 
    >[!NOTE]
    >
-   >Om du ändrar till någon av regelinformationsparametrarna kontrollerar du att _[!UICONTROL Status]_är korrekt inställd. Om du vill att ändringen ska resultera i en aktivt tillämpad regel ska statusen vara `Active`.
+   >Om du ändrar till någon av regelinformationsparametrarna kontrollerar du att _[!UICONTROL Status]_&#x200B;är korrekt inställd. Om du vill att ändringen ska resultera i en aktivt tillämpad regel ska statusen vara `Active`.
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.
 
@@ -114,4 +114,4 @@ Om det finns flera prisregler som körs i samma kampanj avgör inställningen Pr
 
    Om du vill visa schemalagda ändringar för olika butiksvyer klickar du på **[!UICONTROL Scope]** i sidhuvudet på sidan Förhandsgranska. Välj den webbplats-, butik- eller butiksvy som du vill förhandsgranska.
 
-1. Om det behövs går du tillbaka till kalendern och klickar på **[!UICONTROL View/Edit]** i kolumnen _[!UICONTROL Action]_för att öppna en annan schemalagd uppdatering.
+1. Om det behövs går du tillbaka till kalendern och klickar på **[!UICONTROL View/Edit]** i kolumnen _[!UICONTROL Action]_&#x200B;för att öppna en annan schemalagd uppdatering.

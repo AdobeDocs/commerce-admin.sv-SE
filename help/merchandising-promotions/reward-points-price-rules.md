@@ -22,7 +22,7 @@ Belöningspoäng kan tilldelas kunder enligt en [kundvagnsprisregel](price-rules
 
 ## Lägga till belöningspunkter i en prisregel
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Rule]** för att skapa en kundvagnsprisregel eller klicka på en befintlig kundvagnsprisregel för att öppna den.
 

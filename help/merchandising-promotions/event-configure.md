@@ -18,7 +18,7 @@ Innan du kan skapa en händelse måste du slutföra den grundläggande konfigura
 
 ## Aktivera och konfigurera händelser
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -48,7 +48,7 @@ Innan du kan skapa en händelse måste du slutföra den grundläggande konfigura
 
 ![Allmän konfiguration - webbplatsbegränsningar](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL General]** i den vänstra panelen och välj **[!UICONTROL General]** under.
 
@@ -88,6 +88,6 @@ Innan du kan skapa en händelse måste du slutföra den grundläggande konfigura
 
 ### Begränsa försäljningen
 
-Som standard är produkter som visas i kommande eller stängda händelser inte tillgängliga för allmän försäljning och knappen _[!UICONTROL Add to Cart]_visas inte i produktlistan eller produktsidan.
+Som standard är produkter som visas i kommande eller stängda händelser inte tillgängliga för allmän försäljning och knappen _[!UICONTROL Add to Cart]_&#x200B;visas inte i produktlistan eller produktsidan.
 
-Om du vill återställa knappen _[!UICONTROL Add to Cart]_för en stängd händelse måste händelsen tas bort (se [Uppdatera händelser](event-create.md#update-events)). Om en produkt är kopplad till en annan kategori som inte har några försäljningsbegränsningar är knappen tillgänglig på produktsidan. På samma sätt visas inte börskursblocket på produktsidan om produkten är kopplad till en annan kategori som inte har några försäljningsbegränsningar.
+Om du vill återställa knappen _[!UICONTROL Add to Cart]_&#x200B;för en stängd händelse måste händelsen tas bort (se [Uppdatera händelser](event-create.md#update-events)). Om en produkt är kopplad till en annan kategori som inte har några försäljningsbegränsningar är knappen tillgänglig på produktsidan. På samma sätt visas inte börskursblocket på produktsidan om produkten är kopplad till en annan kategori som inte har några försäljningsbegränsningar.

@@ -45,7 +45,7 @@ Det bästa sättet att förstå strukturen hos en paketprodukt är att exportera
 
 I det här steget exporteras Sprite Yoga Companion Kit som en ([CSV](data-csv.md) -fil. Du kan använda vilken paketprodukt som helst som finns i katalogen.
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;på sidofältet_ Admin _.
 
 1. Under _Exportinställningar_ anger du **[!UICONTROL Entity Type]** till `Products`.
 
@@ -55,7 +55,7 @@ I det här steget exporteras Sprite Yoga Companion Kit som en ([CSV](data-csv.md
 
 1. Bläddra nedåt till avsnittets nederkant och klicka på **[!UICONTROL Continue]**.
 
-1. Klicka på **[!UICONTROL Select]** i kolumnen _[!UICONTROL Action]_i rutnätet_[!UICONTROL File name]_ och välj `Download`.
+1. Klicka på **[!UICONTROL Select]** i kolumnen _[!UICONTROL Action]_&#x200B;i rutnätet&#x200B;_[!UICONTROL File name]_ och välj `Download`.
 
    Filen visas på den hämtningsplats som används i webbläsaren.
 
@@ -81,9 +81,9 @@ I det här steget exporteras Sprite Yoga Companion Kit som en ([CSV](data-csv.md
 
 #### Steg 3: Importera den uppdaterade produkten
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**&#x200B;på sidofältet_ Admin _.
 
-1. Under _[!UICONTROL Import Settings]_anger du **[!UICONTROL Entity Type]**till `Products`.
+1. Under _[!UICONTROL Import Settings]_&#x200B;anger du **[!UICONTROL Entity Type]**&#x200B;till `Products`.
 
 1. Ange **[!UICONTROL Import Behavior]** till `Replace`.
 
@@ -97,6 +97,6 @@ I det här steget exporteras Sprite Yoga Companion Kit som en ([CSV](data-csv.md
 
 1. Om filen är giltig klickar du på **[!UICONTROL Import]**.
 
-1. När processen är klar går du till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**och klickar på&#x200B;**[!UICONTROL Flush Cache Storage]**.
+1. När processen är klar går du till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;och klickar på&#x200B;**[!UICONTROL Flush Cache Storage]**.
 
    Detta garanterar att den uppdaterade produkten finns omedelbart tillgänglig i butiken.

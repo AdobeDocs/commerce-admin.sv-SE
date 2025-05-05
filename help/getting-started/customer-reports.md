@@ -18,7 +18,7 @@ Kundrapporter ger insikt i kundaktivitet under en viss tidsperiod eller ett viss
 
 [!UICONTROL Order Total Report] visar kundorder för ett angivet tidsintervall eller datumintervall. Rapporten innehåller antalet order per kund, genomsnittligt orderbelopp och totalt belopp.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**&#x200B;på sidofältet_ Admin _.
 
 ![Ordersummeringsrapport](./assets/customers-order-total.png){width="600"}
 
@@ -50,7 +50,7 @@ Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order
 
 [!UICONTROL Order Count Report] visar antalet order per kund för ett angivet tidsintervall eller datumintervall. Rapporten innehåller antalet order per kund, genomsnittligt orderbelopp och totalt belopp.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**&#x200B;på sidofältet_ Admin _.
 
 ![Orderräkningsrapport](./assets/customer-order-count.png){width="600"}
 
@@ -82,7 +82,7 @@ Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order
 
 [!UICONTROL New Accounts Report] visar antalet nya kundkonton som öppnats under ett angivet tidsintervall eller datumintervall.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**&#x200B;på sidofältet_ Admin _.
 
 ![Rapport om nya konton](./assets/customers-new-accounts.png){width="600"}
 
@@ -113,7 +113,7 @@ Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]*
 
 [!UICONTROL Customer Wish List Report] innehåller information om kundernas önskelistor.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**&#x200B;på sidofältet_ Admin _.
 
 ![Önsklisterapport](./assets/customer-wish-list.png){width="600"}
 
@@ -153,7 +153,7 @@ Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish 
 
 [!UICONTROL Customer Segment Report] ger information om antalet kunder i varje segment.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**&#x200B;på sidofältet_ Admin _.
 
 ![Segmentrapport](./assets/customers-segments.png){width="600"}
 

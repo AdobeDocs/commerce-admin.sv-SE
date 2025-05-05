@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktinställningar - [!UICONTROL Images and Videos]
 
-I avsnittet _[!UICONTROL Images and Videos]_kan du utföra grundläggande bildhanteringsåtgärder som att överföra flera bilder, ordna om bilder och styra hur varje bild används. Om du vill ha mer kontroll över enskilda bilder kan du öppna varje bild i_ detaljvyn _. Mer information finns i [Katalogbilder och video](catalog-images-video.md).
+I avsnittet _[!UICONTROL Images and Videos]_&#x200B;kan du utföra grundläggande bildhanteringsåtgärder som att överföra flera bilder, ordna om bilder och styra hur varje bild används. Om du vill ha mer kontroll över enskilda bilder kan du öppna varje bild i_ detaljvyn _. Mer information finns i [Katalogbilder och video](catalog-images-video.md).
 
 ## Överför en ny bild
 

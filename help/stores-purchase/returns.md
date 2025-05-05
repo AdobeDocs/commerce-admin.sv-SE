@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Returnerar
 
-En _returnerad varuauktorisering_ (RMA) kan beviljas kunder som begär att returnera en artikel för ersättning eller återbetalning. Normalt kontaktar kunden handlaren för att begära en återbetalning. Om det godkänns tilldelas det ett unikt RMA-nummer som identifierar den returnerade produkten. I konfigurationen kan du antingen aktivera RMA för alla produkter eller bara tillåta RMA för vissa produkter. Rutnätet _[!UICONTROL Returns]_visar aktuella returnerade varuförfrågningar (RMA) och används för att ange nya returförfrågningar.
+En _returnerad varuauktorisering_ (RMA) kan beviljas kunder som begär att returnera en artikel för ersättning eller återbetalning. Normalt kontaktar kunden handlaren för att begära en återbetalning. Om det godkänns tilldelas det ett unikt RMA-nummer som identifierar den returnerade produkten. I konfigurationen kan du antingen aktivera RMA för alla produkter eller bara tillåta RMA för vissa produkter. Rutnätet _[!UICONTROL Returns]_&#x200B;visar aktuella returnerade varuförfrågningar (RMA) och används för att ange nya returförfrågningar.
 
 ![Returnerar rutnät](./assets/return.png){width="600" zoomable="yes"}
 
@@ -72,7 +72,7 @@ En handlare kan skapa en returbegäran för kundens räkning från administratö
 
 1. Om du vill skapa en returbegäran klickar du på en order med statusen `Complete`.
 
-1. Under avsnittet _[!UICONTROL Return Information]_väljer du fliken **[!UICONTROL Return Items]**.
+1. Under avsnittet _[!UICONTROL Return Information]_&#x200B;väljer du fliken **[!UICONTROL Return Items]**.
 
 1. Klicka på **[!UICONTROL Add Items]** om du vill lägga till objekt som ska returneras.
 

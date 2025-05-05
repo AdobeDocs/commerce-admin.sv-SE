@@ -27,7 +27,7 @@ Vyn Store i det övre vänstra hörnet av många konfigurationssidor filtrerar v
 
 ## [!UICONTROL Use system value]
 
-Kryssrutan _[!UICONTROL Use System Value]_till höger om många konfigurationsinställningar används för att antingen tillämpa eller åsidosätta standardfältvärdet inom det aktuella konfigurationsomfånget. Standardfältvärdet kan inte ändras när kryssrutan är markerad. Om du vill ändra värdet avmarkerar du kryssrutan och anger det nya värdet. Du uppmanas att bekräfta varje gång du ändrar systemvärdet.
+Kryssrutan _[!UICONTROL Use System Value]_&#x200B;till höger om många konfigurationsinställningar används för att antingen tillämpa eller åsidosätta standardfältvärdet inom det aktuella konfigurationsomfånget. Standardfältvärdet kan inte ändras när kryssrutan är markerad. Om du vill ändra värdet avmarkerar du kryssrutan och anger det nya värdet. Du uppmanas att bekräfta varje gång du ändrar systemvärdet.
 
 Kryssrutans etikett ändras enligt det aktuella omfånget och refererar alltid till den överordnade nivån som är ett steg upp i omfångshierarkin. Eftersom den överordnade nivån är en behållare för alla objekt under den nivån ärvs omfångsinställningen från den överordnade nivån, såvida den inte åsidosätts.
 

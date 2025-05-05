@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Hantera dina delade kataloger
 
-Sidan _[!UICONTROL Shared Catalogs]_ger tillgång till de verktyg som behövs för att hantera dina delade kataloger. Sidan liknar standardarbetsytan för administratörer med filter och åtgärdskontroller. I rutnätet visas alla delade kataloger, inklusive den gemensamma standardkatalogen och eventuella egna kataloger som du har konfigurerat.
+Sidan _[!UICONTROL Shared Catalogs]_&#x200B;ger tillgång till de verktyg som behövs för att hantera dina delade kataloger. Sidan liknar standardarbetsytan för administratörer med filter och åtgärdskontroller. I rutnätet visas alla delade kataloger, inklusive den gemensamma standardkatalogen och eventuella egna kataloger som du har konfigurerat.
 
 ## Uppdatera produktvalet
 
-Det är enkelt att uppdatera urvalet av produkter i alla delade kataloger från kolumnen _[!UICONTROL Action]_i stödrastret för delade kataloger. De ändringar du gör är synliga för medlemmar i associerade företagskonton. Processen är i princip densamma som att välja produkter för en ny [katalogstruktur](catalog-shared-pricing-structure.md), förutom att konfigurationens omfattning inte kan ändras.
+Det är enkelt att uppdatera urvalet av produkter i alla delade kataloger från kolumnen _[!UICONTROL Action]_&#x200B;i stödrastret för delade kataloger. De ändringar du gör är synliga för medlemmar i associerade företagskonton. Processen är i princip densamma som att välja produkter för en ny [katalogstruktur](catalog-shared-pricing-structure.md), förutom att konfigurationens omfattning inte kan ändras.
 
 1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]** på sidofältet _Admin_.
 
@@ -40,7 +40,7 @@ De anpassade priserna för produkter i alla delade kataloger kan enkelt uppdater
 
 1. För den delade katalogen i rutnätet som du vill uppdatera går du till kolumnen **[!UICONTROL Action]** och väljer **[!UICONTROL Set Pricing and Structure]**.
 
-1. Klicka på **[!UICONTROL Configure]** på sidan _[!UICONTROL Catalog Structure]_och gör något av följande:
+1. Klicka på **[!UICONTROL Configure]** på sidan _[!UICONTROL Catalog Structure]_&#x200B;och gör något av följande:
 
    - Klicka på **[!UICONTROL Pricing]** i förloppsindikatorn överst på sidan.
    - Klicka på **[!UICONTROL Next]** i det övre högra hörnet.
@@ -53,7 +53,7 @@ De anpassade priserna för produkter i alla delade kataloger kan enkelt uppdater
 
 >[!NOTE]
 >
->**[B2B version 1.3.0](release-notes.md#b2b-v130) och senare** - När du skapar en delad katalog anges varje [kategoribehörighet](../catalog/category-permissions.md) för katalogen till `Allow` för _[!UICONTROL Display Product Prices]_och_[!UICONTROL Add to Cart]_ för kundgrupper som tilldelats den här åtkomsten i katalogens behörighetsinställningar. Tidigare var de här inställningarna automatiskt inställda på `Deny` även när katalogbehörigheter var inställda på `Allow`.
+>**[B2B version 1.3.0](release-notes.md#b2b-v130) och senare** - När du skapar en delad katalog anges varje [kategoribehörighet](../catalog/category-permissions.md) för katalogen till `Allow` för _[!UICONTROL Display Product Prices]_&#x200B;och&#x200B;_[!UICONTROL Add to Cart]_ för kundgrupper som tilldelats den här åtkomsten i katalogens behörighetsinställningar. Tidigare var de här inställningarna automatiskt inställda på `Deny` även när katalogbehörigheter var inställda på `Allow`.
 
 >[!IMPORTANT]
 >

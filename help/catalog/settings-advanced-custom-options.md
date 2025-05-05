@@ -57,7 +57,7 @@ Om en kundvagnsprisregel utlöses av köpet gäller den första beräkningen fö
 
    - (Valfritt) Ange **[!UICONTROL SKU]** som alternativ. Alternativet SKU är ett suffix som läggs till i produktens SKU.
 
-   - Om _[!UICONTROL Option Type]_är `File` anger du parametrarna för filen. För **[!UICONTROL Compatible File Extensions]**anger du giltiga tillägg som kommaavgränsade värden (till exempel `png, jpg, gif`). Ange den maximala bildstorleken i pixlar för **[!UICONTROL Maximum Image Size]**. Om det är en textinmatning anger du det maximala värdet för **[!UICONTROL Maximum Characters]**.
+   - Om _[!UICONTROL Option Type]_&#x200B;är `File` anger du parametrarna för filen. För **[!UICONTROL Compatible File Extensions]**&#x200B;anger du giltiga tillägg som kommaavgränsade värden (till exempel `png, jpg, gif`). Ange den maximala bildstorleken i pixlar för **[!UICONTROL Maximum Image Size]**. Om det är en textinmatning anger du det maximala värdet för **[!UICONTROL Maximum Characters]**.
 
    ![Lägg till värden för anpassningsalternativ](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 

@@ -43,7 +43,7 @@ För en installation i flera butiker tilldelas standardlagret till [huvudwebbpla
 
 | Knapp | Beskrivning |
 |--|--|
-| [!UICONTROL Add New Stock] | Öppnar formuläret _[!UICONTROL New Stock]_som används för att ange ett nytt lagerställe för att mappa lager till försäljningskanal. |
+| [!UICONTROL Add New Stock] | Öppnar formuläret _[!UICONTROL New Stock]_&#x200B;som används för att ange ett nytt lagerställe för att mappa lager till försäljningskanal. |
 
 ## Hantera Stock-kolumnbeskrivningar
 

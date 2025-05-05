@@ -16,7 +16,7 @@ På sidan _Transaktioner_ visas alla betalningsaktiviteter som har utförts mell
 
 ## Visa transaktioner
 
-Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**&#x200B;på sidofältet_ Admin _.
 
 ![Transaktionsrutnät](./assets/transactions.png){width="600" zoomable="yes"}
 

@@ -18,9 +18,9 @@ En enda katalogprisregel kan tillämpas på flera SKU:er, vilket gör det möjli
 
 Innan du börjar kontrollerar du att [StoreFront Properties](../catalog/attribute-product-create.md#step-4-describe-the-storefront-properties) för attributet `sku` är inställda på `Use in Promo Rules`.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
 
-1. I sökfiltret högst upp i kolumnen _[!UICONTROL Attribute Code]_anger du `sku` och klickar på&#x200B;**[!UICONTROL Search]**.
+1. I sökfiltret högst upp i kolumnen _[!UICONTROL Attribute Code]_&#x200B;anger du `sku` och klickar på&#x200B;**[!UICONTROL Search]**.
 
 1. Klicka för att öppna attributet `sku` i redigeringsläge.
 
@@ -30,7 +30,7 @@ Innan du börjar kontrollerar du att [StoreFront Properties](../catalog/attribut
 
 ## Steg 2. Tillämpa en prisregel på flera SKU:er
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rules]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rules]**&#x200B;på sidofältet_ Admin _.
 
 1. Gör något av följande:
 

@@ -70,7 +70,7 @@ Förutom förinställda statusinställningar för ordning kan du skapa egna stat
 
 ### Skapa en anpassad orderstatus
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Create New Status]** i det övre högra hörnet.
 
@@ -82,7 +82,7 @@ Förutom förinställda statusinställningar för ordning kan du skapa egna stat
 
    - För **[!UICONTROL Status Label]** anger du en etikett som identifierar statusinställningen i både Admin och storefront.
 
-1. I avsnittet _[!UICONTROL Store View Specific Labels]_anger du eventuella etiketter som behövs för olika butiksvyer.
+1. I avsnittet _[!UICONTROL Store View Specific Labels]_&#x200B;anger du eventuella etiketter som behövs för olika butiksvyer.
 
 1. Klicka på **[!UICONTROL Save Status]**.
 
@@ -128,15 +128,15 @@ Förutom förinställda statusinställningar för ordning kan du skapa egna stat
 >
 >En statusinställning kan inte tas bort från ett läge om statusen används.
 
-1. I rutnätet _[!UICONTROL Order Status]_hittar du den orderstatuspost som ska tas bort.
+1. I rutnätet _[!UICONTROL Order Status]_&#x200B;hittar du den orderstatuspost som ska tas bort.
 
-1. Klicka på länken **[!UICONTROL Unassign]** i kolumnen _[!UICONTROL Action]_längst till höger på raden.
+1. Klicka på länken **[!UICONTROL Unassign]** i kolumnen _[!UICONTROL Action]_&#x200B;längst till höger på raden.
 
    Ett meddelande visas högst upp på arbetsytan om att orderstatusen inte har tilldelats. Även om orderstatusetiketten fortfarande visas i listan är den inte längre tilldelad till ett läge. Det går inte att ta bort inställningarna för orderstatus.
 
 >[!NOTE]
 >
->Om standardorderstatusen inte har tilldelats från ordertillståndet, anges _**en annan**_-orderstatus automatiskt _**som standard för det här ordertillståndet.**_
+>Om standardorderstatusen inte har tilldelats från ordertillståndet, anges _&#x200B;**en annan**&#x200B;_-orderstatus automatiskt _&#x200B;**som standard för det här ordertillståndet.**&#x200B;_
 
 ## Meddelande
 
@@ -144,7 +144,7 @@ Kunder kan spåra status för sina order med [RSS-flöde](../merchandising-promo
 
 ### Aktivera meddelande om orderstatus
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL RSS Feeds]** under.
 
@@ -158,7 +158,7 @@ Kunder kan spåra status för sina order med [RSS-flöde](../merchandising-promo
 
 ### Konfigurera e-postmeddelanden om ny beställning
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales Emails]** under.
 

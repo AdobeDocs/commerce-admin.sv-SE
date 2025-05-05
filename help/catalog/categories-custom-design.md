@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Kategorier - Designinställningar
 
-Avsnittet _[!UICONTROL Design]_ger dig kontroll över utseendet och känslan för en kategori, alla tillhörande produktsidor och sidlayout. Du kan anpassa en kategorisida och tillhörande produkter för en kampanj, eller för att skilja kategorin åt. Du kan till exempel utveckla en distinkt design för ett varumärke eller en specialproduktlinje, eller tillämpa en uppdatering för en viss tidsperiod.
+Avsnittet _[!UICONTROL Design]_&#x200B;ger dig kontroll över utseendet och känslan för en kategori, alla tillhörande produktsidor och sidlayout. Du kan anpassa en kategorisida och tillhörande produkter för en kampanj, eller för att skilja kategorin åt. Du kan till exempel utveckla en distinkt design för ett varumärke eller en specialproduktlinje, eller tillämpa en uppdatering för en viss tidsperiod.
 
 ![Designinställningar för en kategori](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->När samma produkt tilldelas till flera kategorier med olika designinställningar för varje kategori bör du ange **Använd kategorisökväg för produkt-URL:er** = `Yes` i [konfigurationsalternativen för sökmotoroptimering](../configuration-reference/catalog/catalog.md#search-engine-optimization). Om du vill komma åt den här inställningen går du till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, expanderar **[!UICONTROL Catalog]**och väljer **Katalog**under den vänstra panelen och expanderar sedan avsnittet **Sökmotoroptimering**på sidan.
+>När samma produkt tilldelas till flera kategorier med olika designinställningar för varje kategori bör du ange **Använd kategorisökväg för produkt-URL:er** = `Yes` i [konfigurationsalternativen för sökmotoroptimering](../configuration-reference/catalog/catalog.md#search-engine-optimization). Om du vill komma åt den här inställningen går du till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, expanderar **[!UICONTROL Catalog]**&#x200B;och väljer **Katalog**&#x200B;under den vänstra panelen och expanderar sedan avsnittet **Sökmotoroptimering**&#x200B;på sidan.
 
 | Fält | Beskrivning |
 |--- |--- |
@@ -34,7 +34,7 @@ Avsnittet _[!UICONTROL Design]_ger dig kontroll över utseendet och känslan fö
 
 {{ce-feature}}
 
-Avsnittet _[!UICONTROL Scheduled Design Update]_avgör datumintervallet när en anpassad design används på kategorisidor.
+Avsnittet _[!UICONTROL Scheduled Design Update]_&#x200B;avgör datumintervallet när en anpassad design används på kategorisidor.
 
 | Fält | Beskrivning |
 |--- |--- |

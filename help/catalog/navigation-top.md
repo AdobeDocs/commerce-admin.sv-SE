@@ -16,7 +16,7 @@ Huvudmenyn i din butik är som en katalog till de olika avdelningarna i din buti
 
 ![Övre navigering](./assets/storefront-top-navigation.png){width="700" zoomable="yes"}
 
-Katalogens kategoristruktur kan påverka hur bra webbplatsen indexeras av sökmotorer. Ju djupare inkapslad en kategori är, desto mindre sannolikt är det att den indexeras grundligt. I allmänhet är det mest effektiva att använda mellan en och tre synliga nivåer. Rotkategorin [](category-root.md) räknas som den första nivån, men visas inte på menyn. Det maximala antalet nivåer som är tillgängliga i den översta navigeringen bestäms av konfigurationen. Dessutom kan det finnas en gräns för hur många menynivåer som stöds av ditt butikstema. Exempeltemat Luma har stöd för upp till fem nivåer, inklusive roten.
+Katalogens kategoristruktur kan påverka hur bra webbplatsen indexeras av sökmotorer. Ju djupare inkapslad en kategori är, desto mindre sannolikt är det att den indexeras grundligt. I allmänhet är det mest effektiva att använda mellan en och tre synliga nivåer. Rotkategorin [&#128279;](category-root.md) räknas som den första nivån, men visas inte på menyn. Det maximala antalet nivåer som är tillgängliga i den översta navigeringen bestäms av konfigurationen. Dessutom kan det finnas en gräns för hur många menynivåer som stöds av ditt butikstema. Exempeltemat Luma har stöd för upp till fem nivåer, inklusive roten.
 
 ## Numrera menynivåer
 
@@ -60,7 +60,7 @@ För en multibutiksinstallation kan en annan huvudmeny tilldelas som [rotkategor
 
 ### Steg 2: Ange djupet för den översta navigeringen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -68,7 +68,7 @@ För en multibutiksinstallation kan en annan huvudmeny tilldelas som [rotkategor
 
    ![Övre kategorinavigering](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
-   Eftersom den översta navigeringens djup har ett globalt [konfigurationsomfång](../getting-started/websites-stores-views.md#scope-settings) gäller inställningen alla webbplatser, butiker och butiksvyer i Commerce-installationen. Konfigurationsavsnittet _[!UICONTROL Category Top Navigation]_är bara tillgängligt när_[!UICONTROL Store View]_ i det övre vänstra hörnet är inställt på `Default Config`.
+   Eftersom den översta navigeringens djup har ett globalt [konfigurationsomfång](../getting-started/websites-stores-views.md#scope-settings) gäller inställningen alla webbplatser, butiker och butiksvyer i Commerce-installationen. Konfigurationsavsnittet _[!UICONTROL Category Top Navigation]_&#x200B;är bara tillgängligt när&#x200B;_[!UICONTROL Store View]_ i det övre vänstra hörnet är inställt på `Default Config`.
 
    En detaljerad lista över dessa alternativ finns i [Övre navigering för kategori](../configuration-reference/catalog/catalog.md#layered-navigation) i _Konfigurationsreferens_.
 
