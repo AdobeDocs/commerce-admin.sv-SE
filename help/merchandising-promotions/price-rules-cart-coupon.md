@@ -30,7 +30,7 @@ Från och med Commerce 2.4.7 kan man få flera kuponger i en kundvagn. Handlarna
 
 Längden på och formatet för automatiskt genererade kupongkoder styrs av konfigurationen. Tecknen kan anges till alla siffror, alla bokstäver eller en kombination. Du kan infoga ett bindestreck med angivna intervall för att göra det enkelt att läsa, och lägga till ett prefix och suffix för att associera koden med en viss kampanj eller ett visst initiativ.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Promotions]**.
 
@@ -184,7 +184,7 @@ I följande exempel användes kupongkoden&quot;H20&quot; av två kunder. En av b
 
 ### Kör rapporten
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Coupons]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Coupons]**&#x200B;på sidofältet_ Admin _.
 
 1. Om du har flera butiksvyer anger du **[!DNL Store View]** i det övre vänstra hörnet för att fastställa rapportens omfång.
 

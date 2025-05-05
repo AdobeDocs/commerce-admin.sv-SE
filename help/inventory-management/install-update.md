@@ -84,7 +84,7 @@ Installationsprocessen [!DNL Inventory Management] lägger till alla moduler i f
 
 ## Aktivera [!DNL Inventory Management]-funktioner
 
-Vid installation, uppgradering eller uppdatering är alternativet _[!UICONTROL Manage Stock]_i Admin aktiverat som standard. Det här alternativet aktiverar lagerspårning och lagerhantering, men påverkar inte modulens status. Mer information om hur du inaktiverar moduler finns i nästa avsnitt.
+Vid installation, uppgradering eller uppdatering är alternativet _[!UICONTROL Manage Stock]_&#x200B;i Admin aktiverat som standard. Det här alternativet aktiverar lagerspårning och lagerhantering, men påverkar inte modulens status. Mer information om hur du inaktiverar moduler finns i nästa avsnitt.
 
 Mer information om konfigurationer finns i [Konfigurera Inventory management](configuration.md).
 

@@ -47,7 +47,7 @@ För en lyckad integrering krävs att alla Adobe Commerce-användare har adminis
 
 ## Konfigurera integreringen
 
-När följande steg har slutförts av en administratör eller utvecklare med systemåtkomst visas knappen _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_på inloggningssidan för Commerce Admin för alla Admin-användare.
+När följande steg har slutförts av en administratör eller utvecklare med systemåtkomst visas knappen _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;på inloggningssidan för Commerce Admin för alla Admin-användare.
 
 ### Steg 1: Hämta Adobe Org ID
 

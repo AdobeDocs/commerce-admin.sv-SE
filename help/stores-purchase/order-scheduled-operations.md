@@ -20,7 +20,7 @@ Använd [Cron](../systems/cron.md)-jobb för att schemalägga följande orderbea
 
 Livslängden för order med väntande betalningar bestäms av konfigurationen för _Kroniinställningar_ för beställningar. Standardvärdet är 480 minuter, vilket är åtta timmar.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera avsnittet **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Sales]** under.
 
@@ -51,7 +51,7 @@ Genom att schemalägga dessa uppgifter kan du undvika de lås som uppstår när 
 
 När [Standardläge](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) är aktiverat utför du följande steg:
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera avsnittet **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 

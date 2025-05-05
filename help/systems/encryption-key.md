@@ -63,7 +63,7 @@ Följande instruktioner kräver åtkomst till en terminal.
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++Administratörsinställningar
 
@@ -71,7 +71,7 @@ Följande instruktioner kräver åtkomst till en terminal.
    >
    >Den här funktionen har tagits bort och tagits bort i 2.4.8. Adobe rekommenderar att du ändrar krypteringsnycklar med CLI.
 
-   1. Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**på sidofältet_ Admin _.
+   1. Gå till **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**&#x200B;på sidofältet_ Admin _.
 
       ![Systemkrypteringsnyckel](./assets/encryption-key.png){width="700" zoomable="yes"}
 
@@ -86,7 +86,7 @@ Följande instruktioner kräver åtkomst till en terminal.
       >
       >Registrera den nya nyckeln på en säker plats. Du måste dekryptera data om det uppstår problem med filerna.
 
-+++
+   +++
 
 1. Töm cacheminnet.
 

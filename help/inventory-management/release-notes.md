@@ -127,11 +127,11 @@ Inventory management 1.2.4 (modulversion: `magento/inventory-metapackage = 1.2.4
 
 ![Ett problem har korrigerats](../assets/fix.svg). Hanteringen av lager som överskrider 10 000 artiklar har förbättrats. Tidigare hindrade prestationsproblem ibland handlarna från att redigera material i administratören innan de lanserade sin webbplats. <!--- MC-42643-->
 
-![Ett problem har korrigerats](../assets/fix.svg) Sidan **[!UICONTROL User Roles]** i Admin har uppdaterats för att ge administratörer begränsad behörighet till konfigurationen av leveransmetoder. Avsnittet _Leveransmetoder_ har bytt namn till _[!UICONTROL Delivery methods]_och_[!UICONTROL In-Store Pickup]_ flyttas under avsnittet _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![Ett problem har korrigerats](../assets/fix.svg) Sidan **[!UICONTROL User Roles]** i Admin har uppdaterats för att ge administratörer begränsad behörighet till konfigurationen av leveransmetoder. Avsnittet _Leveransmetoder_ har bytt namn till _[!UICONTROL Delivery methods]_&#x200B;och&#x200B;_[!UICONTROL In-Store Pickup]_ flyttas under avsnittet _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![Korrigerat problem](../assets/fix.svg) Adobe Commerce skapar inte längre en dubblettproduktreservation efter att en kreditnota har uppdaterats av API. <!--- MC-41757-->
 
-![Korrigerat problem](../assets/fix.svg) Om du växlar från fliken _[!UICONTROL Pick up in Store]_till fliken_[!UICONTROL Shipping]_ i arbetsflödet för utcheckning utlöses inte längre ett JavaScript-fel när endast hämtningsleverans i butiken är tillgänglig. <!--- MC-42808-->
+![Korrigerat problem](../assets/fix.svg) Om du växlar från fliken _[!UICONTROL Pick up in Store]_&#x200B;till fliken&#x200B;_[!UICONTROL Shipping]_ i arbetsflödet för utcheckning utlöses inte längre ett JavaScript-fel när endast hämtningsleverans i butiken är tillgänglig. <!--- MC-42808-->
 
 ![Korrigerat problem](../assets/fix.svg) Försäljningsbar produktkvantitet och produktkvantitet i lager synkroniseras nu korrekt. Tidigare återskapades inte kompensation för lagerreservation för annullerade order. <!--- MC-42485-->
 
