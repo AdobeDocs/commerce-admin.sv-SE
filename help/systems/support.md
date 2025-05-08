@@ -2,9 +2,9 @@
 title: Supportverktyg
 description: Lär dig mer om de supportverktyg du kan använda för att identifiera problem i systemet.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
+source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -15,60 +15,6 @@ ht-degree: 0%
 
 Supportverktygen är utformade för att identifiera kända fel i systemet. De kan användas som en resurs under utvecklings- och optimeringsprocesserna och som ett diagnostiskt verktyg som hjälper vårt supportteam att identifiera och lösa problem.
 
-## Datainsamlare
-
-Datainsamlaren samlar in den information om ditt system som vårt supportteam behöver för att felsöka problem med din Adobe Commerce-installation. Säkerhetskopian som skapas tar flera minuter att slutföra och innehåller både kod och databasdump. Data kan exporteras till en CSV- eller Excel XML-fil.
-
-![System - Datainsamling](./assets/data-collector.png){width="600" zoomable="yes"}
-
-### Kör datainsamlaren
-
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**&#x200B;på sidofältet_ Admin _.
-
-1. Klicka på **[!UICONTROL New Backup]** i det övre högra hörnet.
-
-   Det tar några minuter att generera säkerhetskopian. Du kan övervaka resultatet av bearbetningen genom att klicka på **[!UICONTROL Refresh Status]**. När du är klar visas säkerhetskopian i rutnätet _[!UICONTROL Data Collector]_.
-
-1. Så här visar du en logg med säkerhetskopieringsinformation:
-
-   - Välj **[!UICONTROL Show Log]** i kolumnen _[!UICONTROL Action]_.
-
-   - Klicka på **[!UICONTROL Back]** för att gå tillbaka till rutnätet.
-
-   ![datainsamlarlogg](./assets/data-collector-log.png){width="600" zoomable="yes"}
-
-### Exportera säkerhetskopieringsdata
-
-1. I den första kolumnen markerar du kryssrutan för den säkerhetskopia som ska exporteras.
-
-1. Använd menyn **[!UICONTROL Export]** för att välja exportdatans format.
-
-   ![Exportformat](./assets/data-collector-export.png){width="600" zoomable="yes"}
-
-1. Få åtkomst till filen från webbläsarens hämtningsplats och **[!UICONTROL Save]** den.
-
-### Hämta säkerhetskopieringsdata
-
-När säkerhetskopieringen har skapats kan du hämta en kopia av kod- och databasdata.
-
-1. Hitta den säkerhetskopieringsenhet som behövs i rutnätet.
-
-1. Kontrollera att den har statusen `Complete`.
-
-1. Klicka på enhetsnamnet i _[!UICONTROL Code Dump]_- eller&#x200B;_[!UICONTROL DB Dump]_-kolumner.
-
-Hämtningsprocessen bör starta automatiskt.
-
-## Ta bort säkerhetskopieringsdata
-
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**&#x200B;på sidofältet_ Admin _.
-
-1. Sök efter och markera de säkerhetskopierade data som ska tas bort.
-
-1. Klicka på **[!UICONTROL Delete]** i kolumnen _[!UICONTROL Action]_.
-
-1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
-
 ## Systemrapporter
 
 Systemrapporteringsverktyget ger dig möjlighet att ta regelbundna, fullständiga eller delvisa ögonblicksbilder av systemet och spara dem för framtida referens. Du kan jämföra prestandainställningar före och efter kodutvecklingscykler eller ändringar av serverinställningarna. Systemrapporteringsverktyget kan dramatiskt minska tiden för förberedelse och inlämning av den information som supporten behöver för att inleda en utredning.
@@ -77,7 +23,7 @@ I stödrastret Systemrapporter kan du visa och hämta befintliga rapporter, ta b
 
 ### Åtkomst till systemrapporter
 
-Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**&#x200B;på sidofältet_ Admin _.
+Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**på sidofältet_ Admin _.
 
 ![Admin - systemrapporter](./assets/reports.png){width="600" zoomable="yes"}
 
@@ -99,7 +45,7 @@ Du hittar användbar information om installerade moduler.
 
 **_Så här visar du rapportinformation för varje installerad modul:_**
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**på sidofältet_ Admin _.
 1. Klicka på **[!UICONTROL New Report]**.
 1. Välj `Modules` i listan **[!UICONTROL Groups]**.
 1. Klicka på **[!UICONTROL Create]**.
