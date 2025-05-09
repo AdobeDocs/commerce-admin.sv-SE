@@ -88,13 +88,13 @@ Du kan ha två PayPal-lösningar aktiva samtidigt: PayPal Express Checkout plus 
 
 ### Steg 1: Påbörja konfigurationen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
 1. Om din installation har flera webbplatser, butiker eller vyer anger du **[!UICONTROL Store View]** till den butiksvy där du vill använda den här konfigurationen.
 
-1. I avsnittet _[!UICONTROL Merchant Location]_väljer du **[!UICONTROL Merchant Country]**där ditt företag finns.
+1. I avsnittet _[!UICONTROL Merchant Location]_&#x200B;väljer du **[!UICONTROL Merchant Country]**&#x200B;där ditt företag finns.
 
    Den här inställningen bestämmer valet av PayPal-lösningar som visas i konfigurationen.
 
@@ -312,7 +312,7 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
    - `Sale` - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto.
    - `Order` - Orderbeloppet hämtas eller auktoriseras inte i kundsaldot, bankkontot eller kreditkortet på PayPal. Orderbetalningsåtgärden representerar ett avtal mellan betalningssystemet PayPal och handlaren. Det gör det möjligt för handlaren att samla in ett eller flera belopp upp till den beställda summan från kundens köparkonto under en period på upp till 29 dagar. Efter beställningen kan handlaren när som helst samla in pengarna under den följande 29-dagarsperioden. Beställningsbeloppet kan bara hämtas från Commerce Admin genom att en eller flera fakturor skapas.
 
-1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_på produktsidan anger du **[!UICONTROL Display on Product Details Page]**till `Yes`.
+1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_&#x200B;på produktsidan anger du **[!UICONTROL Display on Product Details Page]**&#x200B;till `Yes`.
 
 1. Om betalningsåtgärden är inställd på `Order` utför du följande
 
@@ -580,5 +580,5 @@ Med funktionsinställningarna kan du inaktivera vissa funktioner som hör till d
 [3]: https://manager.paypal.com/
 [4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;amp;page=incontextProductCheckout
+[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
 [7]: https://developer.paypal.com/docs/api-basics/sandbox/

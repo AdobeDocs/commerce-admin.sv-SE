@@ -30,13 +30,13 @@ Gå till [Braintree Payments][1] och registrera dig för ett konto.
 
 ## Steg 2: Slutför de grundläggande inställningarna
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
    - Om din Commerce-installation har flera webbplatser, butiker eller vyer väljer du **[!UICONTROL Store View]** där konfigurationen gäller i det övre vänstra hörnet.
 
-   - I avsnittet _[!UICONTROL Merchant Location]_kontrollerar du att **[!UICONTROL Merchant Country]**är inställd på platsen för ditt företag.
+   - I avsnittet _[!UICONTROL Merchant Location]_&#x200B;kontrollerar du att **[!UICONTROL Merchant Country]**&#x200B;är inställd på platsen för ditt företag.
 
 1. Under _[!UICONTROL Recommended Solutions]_, i avsnittet_[!UICONTROL Braintree Payments] (av [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Versionsinformation](https://support.gene.co.uk/support/solutions/articles/35000278668)_, klickar du på&#x200B;**[!UICONTROL Configure]**.
 
@@ -252,7 +252,7 @@ Gå till [Braintree Payments][1] och registrera dig för ett konto.
 
      >[!NOTE]
      >
-     >PayPal Credit är endast tillgängligt i USA och Storbritannien. PayPal-kredit är inaktiverad om det valda värdet för fältet _[!UICONTROL Merchant Country]_inte är `US` eller `UK`.
+     >PayPal Credit är endast tillgängligt i USA och Storbritannien. PayPal-kredit är inaktiverad om det valda värdet för fältet _[!UICONTROL Merchant Country]_&#x200B;inte är `US` eller `UK`.
 
    - Om du vill inkludera [!DNL PayPal PayLater] som ett betalningsalternativ med Braintree anger du **[!UICONTROL Enable PayPal PayLater through Braintree]** till `Yes`.
 
