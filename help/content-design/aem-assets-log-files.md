@@ -2,23 +2,22 @@
 title: Konfigurera loggrotation
 description: Konfigurera loggrotation för AEM Assets-integrering för Commerce.
 feature: CMS, Media, Integration
-source-git-commit: 9e1f80d24eed078b5b28ae2d102c3f3df457081d
+exl-id: f735d086-048c-4555-bc58-ac6736c281b0
+source-git-commit: c71fd243d809e2b86c5c8e781d527892965838ae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
 # Konfigurera Experience Manager Assets
 
-AEM Assets Integration för Commerce innehåller följande loggfiler:
+AEM Assets Integration för Commerce innehåller följande loggfiler i din Commerce-instans:
 
 - `/var/log/aem-assets-integration.log`
 - `/var/log/aem-assets-integration-errors.log`
 
 Be systemadministratören att kontrollera loggfilens rotationsschema för dessa loggar för att förhindra att de blir för stora. I vissa miljöer roteras loggfilerna automatiskt, men i andra miljöer måste du konfigurera loggrotation manuellt. Mer information finns i följande avsnitt:
 
-- Be systemadministratören att konfigurera [loggrotation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=sv-SE#server-settings) för lokala Adobe Commerce-installationer.
-- Information om projekt för molninfrastruktur finns i [Visa och hantera loggar](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=sv-SE).
-
-
+- Be systemadministratören att konfigurera [loggrotation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html#server-settings) för lokala Adobe Commerce-installationer.
+- Information om projekt för molninfrastruktur finns i [Visa och hantera loggar](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html).
