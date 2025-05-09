@@ -3,9 +3,10 @@ title: Braintree
 description: Lär dig hur du konfigurerar Braintree som en onlinebetalningslösning i din butik.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2873'
+source-wordcount: '2890'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Om du behöver hjälp med oväntade kostnader på kortet kan du få hjälp på sidan [Avbryt prenumeration](https://helpx.adobe.com/se/manage-account/using/cancel-subscription.html).
+>Om du behöver hjälp med oväntade kostnader på kortet kan du få hjälp på sidan [Avbryt prenumeration](https://helpx.adobe.com/manage-account/using/cancel-subscription.html).
 
 Braintree erbjuder en helt anpassningsbar utcheckningsupplevelse med bedrägeriidentifiering och PayPal-integrering. Den stöder [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo och lokala betalningsmetoder. Braintree minskar PCI-kompatibilitetsbördan för handlare eftersom transaktionen äger rum i Braintree-systemet. Integreringen av Braintree Payments har utvecklats av [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
 
@@ -29,13 +30,13 @@ Gå till [Braintree Payments][1] och registrera dig för ett konto.
 
 ## Steg 2: Slutför de grundläggande inställningarna
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
    - Om din Commerce-installation har flera webbplatser, butiker eller vyer väljer du **[!UICONTROL Store View]** där konfigurationen gäller i det övre vänstra hörnet.
 
-   - I avsnittet _[!UICONTROL Merchant Location]_&#x200B;kontrollerar du att **[!UICONTROL Merchant Country]**&#x200B;är inställd på platsen för ditt företag.
+   - I avsnittet _[!UICONTROL Merchant Location]_kontrollerar du att **[!UICONTROL Merchant Country]**är inställd på platsen för ditt företag.
 
 1. Under _[!UICONTROL Recommended Solutions]_, i avsnittet_[!UICONTROL Braintree Payments] (av [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Versionsinformation](https://support.gene.co.uk/support/solutions/articles/35000278668)_, klickar du på&#x200B;**[!UICONTROL Configure]**.
 
@@ -89,15 +90,15 @@ Gå till [Braintree Payments][1] och registrera dig för ett konto.
 
 1. Om du vill förhindra att transaktionen skickas för utvärdering som en del av kontrollerna av avancerade bedrägeriverktyg anger du **[!UICONTROL Skip Fraud Checks on Admin Orders]** till `Yes` för order som gjorts via administratören.
 
-1. Set the **[!UICONTROL Bypass Fraud Protection Threshold]** so that the `Advanced Fraud Protection` checks are bypassed when the threshold is met or exceeded.
+1. Ange **[!UICONTROL Bypass Fraud Protection Threshold]** så att `Advanced Fraud Protection`-kontrollerna kringgås när tröskelvärdet uppnås eller överskrids.
 
-   Leaving this field blank disables this option.
+   Om du lämnar fältet tomt inaktiveras det här alternativet.
 
-1. If you want the system to save a log file of interactions between your store and Braintree, set **[!UICONTROL Debug]** to `Yes`.
+1. Om du vill att systemet ska spara en loggfil med interaktioner mellan din butik och Braintree anger du **[!UICONTROL Debug]** till `Yes`.
 
 1. Om du vill att kunderna ska ange den tresiffriga säkerhetskoden från baksidan av ett kreditkort anger du **[!UICONTROL CVV Verification]** till `Yes`.
 
-   If using CVV verification, make sure to enable AVS and/or CVV in the _Settings/Processing_ section of your Braintree account.
+   Om du använder CVV-verifiering måste du aktivera AVS och/eller CVV i avsnittet _Inställningar/Bearbetning_ i ditt Braintree-konto.
 
 1. Ange **[!UICONTROL Send Card Line Items]** till `Yes` om du vill skicka vagnsradsobjekten för alla betalningsmetoder.
 
@@ -105,11 +106,11 @@ Gå till [Braintree Payments][1] och registrera dig för ett konto.
 
    Om du vill välja flera korttyper håller du ned Ctrl (PC) eller Kommando (Mac) och klickar på varje alternativ.
 
-1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which Braintree appears when listed with other payment methods during checkout.
+1. För **[!UICONTROL Sort Order]** anger du ett nummer som avgör i vilken ordning Braintree visas när det visas med andra betalningsmetoder vid utcheckning.
 
-## Step 4: Complete the Braintree webhook settings
+## Steg 4: Slutför inställningarna för Braintree webkrok
 
-![Braintree Webhooks Settings](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
+![Braintree Webhooks-inställningar](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
 
 1. Ange **[!UICONTROL Enable Webhook]** till `Yes` för att aktivera webkrockfunktionen för bedrägeriskydd, ACH-betalningar och lokala betalningsmetoder.
 
@@ -208,11 +209,11 @@ Gå till [Braintree Payments][1] och registrera dig för ett konto.
    - `Authorize Only` - Godkänner köpet och spärrar pengarna. Beloppet dras inte tillbaka från kundens bankkonto förrän försäljningen är _hämtad_ av handlaren.
    - `Intent Sale` - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto.
 
-1. Set **[!UICONTROL Button Color]** to determine the color of the [!DNL Google Pay] button: `White` or `Black`
+1. Ange **[!UICONTROL Button Color]** för att bestämma färgen på knappen [!DNL Google Pay]: `White` eller `Black`
 
-1. For **[!UICONTROL Merchant ID]**, enter your MerchantID (provided by Google).
+1. För **[!UICONTROL Merchant ID]** anger du ditt MerchantID (tillhandahålls av Google).
 
-1. For **[!UICONTROL Accepted Cards]**, select the type of cards that a customer can use to place an order using [!DNL Google Pay].
+1. För **[!UICONTROL Accepted Cards]** väljer du den typ av kort som en kund kan använda för att göra en beställning med [!DNL Google Pay].
 
    Alternativ: `Visa` / `MasterCard` / `AMEX` / `Discover` / `JCB`
 
@@ -224,7 +225,7 @@ Gå till [Braintree Payments][1] och registrera dig för ett konto.
 
 1. Ange **[!UICONTROL Enable Vault for Venmo]** till `Yes` för att aktivera användning av ett säkert valv för att lagra kundernas Venmo-konto så att kunden inte behöver logga in på sitt Venmo-konto igen för framtida transaktioner.
 
-   ![Venmo through Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}
+   ![Venmo via Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}
 
 1. Ange **[!UICONTROL Payment Action]** till något av följande:
 
@@ -251,7 +252,7 @@ Gå till [Braintree Payments][1] och registrera dig för ett konto.
 
      >[!NOTE]
      >
-     >PayPal Credit är endast tillgängligt i USA och Storbritannien. PayPal-kredit är inaktiverad om det valda värdet för fältet _[!UICONTROL Merchant Country]_&#x200B;inte är `US` eller `UK`.
+     >PayPal Credit är endast tillgängligt i USA och Storbritannien. PayPal-kredit är inaktiverad om det valda värdet för fältet _[!UICONTROL Merchant Country]_inte är `US` eller `UK`.
 
    - Om du vill inkludera [!DNL PayPal PayLater] som ett betalningsalternativ med Braintree anger du **[!UICONTROL Enable PayPal PayLater through Braintree]** till `Yes`.
 
@@ -323,17 +324,17 @@ Alternativen och inställningarna i det här avsnittet varierar beroende på vil
 
 1. För **[!UICONTROL Color]** väljer du PayPal-knappfärgen: `Blue`, `Black`, `Gold` eller `Silver`
 
-1. For **[!UICONTROL Shape]**, select the PayPal button shape: `Pill` or `Rectangle`
+1. För **[!UICONTROL Shape]** väljer du PayPal-knappformen: `Pill` eller `Rectangle`
 
-1. For **[!UICONTROL Size (Deprecated)]**, select the PayPal button size: `Medium`, `Large`, or `Responsive`
+1. För **[!UICONTROL Size (Deprecated)]** väljer du PayPal-knappens storlek: `Medium`, `Large` eller `Responsive`
 
 >[!NOTE]
 >
 >Konfigurationsfältet **[!DNL Size(Deprecated)]** är föråldrat och används inte för att formatera PayPal-knapparna.
 
-When these options are set, you can see the preview of the PayPal buttons. There are controls that you can use to apply the settings or reset the values:
+När de här alternativen är angivna kan du se förhandsvisningen av PayPal-knapparna. Det finns kontroller som du kan använda för att tillämpa inställningarna eller återställa värdena:
 
-- To store the selected styling settings for buttons and PayLater messaging and apply them to the current location and current button type, click **[!UICONTROL Apply]**.
+- Om du vill lagra de valda formatinställningarna för knappar och PayLater-meddelanden och använda dem på den aktuella platsen och den aktuella knapptypen klickar du på **[!UICONTROL Apply]**.
 
 - Om du vill lagra de valda formatinställningarna för knappar och PaySenare-meddelandevärden och använda dem för alla knapptyper och platser klickar du på **[!UICONTROL Apply to All Buttons]**.
 
@@ -345,7 +346,7 @@ When these options are set, you can see the preview of the PayPal buttons. There
 
 ![Betala senare meddelande - Inställningar för produktsida](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-product.png){width="600" zoomable="yes"}
 
-1. To show [!DNL Pay Later] messaging on the storefront at product page, set **[!UICONTROL Show PayLater Messaging]** to `Yes`.
+1. Om du vill visa [!DNL Pay Later]-meddelanden på butiken på produktsidan anger du **[!UICONTROL Show PayLater Messaging]** till `Yes`.
 
    Visar meddelanden om att betala senare för tillgängliga erbjudanden. Begränsningar gäller. Se [PayPals dokumentation](https://developer.paypal.com/studio/checkout/pay-later/us).
 

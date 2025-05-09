@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] i Commerce Admin.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 489c72652693a15ffe1c745277bbaa9da084dcba
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Betalningstjänster för Adobe Commerce och Magento Open Source erbjuder en nyckelfärdig självbetjäningslösning, inklusive sandlådetestning och en enkel konfiguration, för stabil och säker betalningshantering. Om du vill veta mer om den här kraftfulla verktygsuppsättningen och hur den kan ge dig de insikter och den kontroll du behöver för att skapa den bästa upplevelsen för dina köpare kan du läsa [_användarhandboken för betaltjänster_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=sv-SE).
+>Betalningstjänster för Adobe Commerce och Magento Open Source erbjuder en nyckelfärdig självbetjäningslösning, inklusive sandlådetestning och en enkel konfiguration, för stabil och säker betalningshantering. Om du vill veta mer om den här kraftfulla verktygsuppsättningen och hur den kan ge dig de insikter och den kontroll du behöver för att skapa den bästa upplevelsen för dina köpare kan du läsa [_användarhandboken för betaltjänster_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 ![Affärsplats](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://experienceleague.adobe.com/sv/docs/commerce-admin/start/setup/store-details#merchant-location) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -34,9 +36,9 @@ ht-degree: 0%
 
 Följande betalningslösningar rekommenderas som ett enkelt sätt för handlare som just har börjat acceptera onlinebetalningar via PayPal-konto eller kreditkort. I takt med att verksamheten växer kan ni kombinera dessa med ytterligare betallösningar från PayPal.
 
-- [PayPal Express-kassan](paypal-express-checkout.md)
-- [Braintree](braintree.md)
 - [Betalningstjänster](payment-services.md)
+- [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [PayPal Express Checkout](paypal-express-checkout.md)
+- [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [Braintree](braintree.md)
 
 >[!NOTE]
 >
@@ -44,21 +46,27 @@ Följande betalningslösningar rekommenderas som ett enkelt sätt för handlare 
 ><br/>
 >**Amazon Pay** och **Klarna**: Adobe Commerce och Magento Open Source version 2.4.0 till 2.4.3 innehåller dessa tillägg som utvecklats av återförsäljare. Från och med version 2.4.4 paketeras dessa tillägg inte längre med kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
 ><br/>
->Om du har aktiverat och konfigurerat något av de här paketerade tilläggen måste du uppdatera din `composer.json`-fil som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=sv-SE) i _uppgraderingshandboken_.<br/>
+>Om du har aktiverat och konfigurerat något av de här paketerade tilläggen måste du uppdatera din `composer.json`-fil som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _uppgraderingshandboken_.<br/>
 ><br/>
 >**Worldplay**, **Eway**, **CyberSource** och **Authorize.Net**: Mer information om hur du gör en säker övergång från dessa betalningsintegreringar finns i [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Andra PayPal-metoder
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 PayPal erbjuder olika betalningslösningar som uppfyller behoven hos företag av alla storlekar och som är engagerade i affärer över hela världen. Med PayPal kan du acceptera betalningar från alla större debet- och kreditkort. PayPal erbjuder ytterligare bekvämlighet utan extra ansträngning eftersom även kunder som inte har något PayPal-konto kan betala för sina inköp med PayPal.
 
 ### PayPal - allt-i-ett-metoder
+
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 - [Avancerad PayPal-betalning](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
 - [PayPal Payments Standard](paypal-payments-standard.md)
 
 ### Betalningsgateways för PayPal
+
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) (inkluderar Express Checkout)
 - [PayPal Payflow Link](paypal-payflow-link.md) (inkluderar Express Checkout)
@@ -71,7 +79,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 
 ![Kontrollera/Pengar beställ](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -83,7 +91,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Make Check Payable to] | Butiksvy | Namnet på den enhet som checkar och betalningsorder ska betalas till. |
 | [!UICONTROL Send Check to] | Butiksvy | Gatuadress eller PO Box dit checkar och betalningsorder ska skickas. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Det minsta orderbeloppet som kan betalas med check eller penningorder. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med check eller penningorder. <br/><br/>**_Obs!_**&#x200B;En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med check eller penningorder. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning med check eller betalningsorder visas när det visas med andra betalningsmetoder i kassan. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
@@ -92,7 +100,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 
 ![Banköverföringsbetalning](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -102,7 +110,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Avgör från vilka länder du godkänner betalning via banköverföring. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder från vilka du godkänner betalning via banköverföring. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Det minsta orderbelopp som kan betalas genom banköverföring. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**&#x200B;En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning via banköverföring visas när det visas med andra betalningsmetoder under utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
@@ -113,7 +121,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 
 ![Betalning på konto](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://experienceleague.adobe.com/sv/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -123,7 +131,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Bestämmer de länder där du tillåter företag att debitera sina konton för inköp. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder där företag kan debitera sina konton för inköp. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Anger det minsta orderbelopp som kan debiteras ett företagskonto. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan debiteras ett företagskonto. <br/><br/>**_Obs!_**&#x200B;En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan debiteras ett företagskonto. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer den order som betalning på konto visas när det visas med andra betalningsmetoder vid utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
@@ -146,7 +154,7 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Avgör från vilka länder du godkänner betalning via banköverföring. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder från vilka du godkänner betalning via banköverföring. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Anger det minsta orderbelopp som kan betalas genom banköverföring. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**&#x200B;En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbeloppet som kan betalas med banköverföring. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer ordern som betalning via banköverföring visas när det visas med andra betalningsmetoder under utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}
@@ -170,6 +178,8 @@ Följande betalningsmetoder är inbyggda i Commerce och använder inte en tredje
 
 ## [!UICONTROL Payment actions]
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 Betalningsåtgärder är konfigurerade _per betalningsmetod_. Betalningsåtgärden avgör när medlen hämtas och när fakturor skapas för dina försäljningsorder.
 
 I avsnittet Grundinställningar för varje enskild betalningsmetod finns en omfattande lista med de olika konfigurationsalternativen.
@@ -189,7 +199,7 @@ I avsnittet Grundinställningar för varje enskild betalningsmetod finns en omfa
 
 >[!NOTE]
 >
->Välj inte alternativet _[!UICONTROL Not Capture]_&#x200B;om du inte är säker på att du kommer att hämta betalningen via Commerce senare. Du kan inte skapa en kreditnota förrän betalningen har hämtats med knappen Hämta.
+>Välj inte alternativet _[!UICONTROL Not Capture]_om du inte är säker på att du kommer att hämta betalningen via Commerce senare. Du kan inte skapa en kreditnota förrän betalningen har hämtats med knappen Hämta.
 
 ## [!UICONTROL Purchase Order]
 
@@ -205,7 +215,7 @@ I avsnittet Grundinställningar för varje enskild betalningsmetod finns en omfa
 | [!UICONTROL Payment from Applicable Countries] | Webbplats | Bestämmer från vilka länder du godkänner betalning av inköpsorder. Alternativ: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webbplats | Identifierar de specifika länder från vilka du godkänner betalning från inköpsorder. |
 | [!UICONTROL Minimum Order Total] | Webbplats | Det minsta orderbelopp som kan betalas av inköpsorder. |
-| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan betalas av inköpsorder. <br/><br/>**_Obs!_**&#x200B;En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
+| [!UICONTROL Maximum Order Total] | Webbplats | Det största orderbelopp som kan betalas av inköpsorder. <br/><br/>**_Obs!_**En order kvalificerar om summan är mellan, eller matchar, den minsta eller högsta ordersumman. |
 | [!UICONTROL Sort Order] | Webbplats | Ett tal som bestämmer den order som betalning via inköpsorder visas när det visas med andra betalningsmetoder vid utcheckning. Ange `0` om du vill placera den överst i listan. |
 
 {style="table-layout:auto"}

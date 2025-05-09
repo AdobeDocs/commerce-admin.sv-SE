@@ -3,9 +3,10 @@ title: Betalningslösningar för PayPal
 description: Lär dig mer om de integreringar av betalningslösningar från PayPal som är tillgängliga för din butik.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ PayPal är världsledande inom onlinebetalningar och ett snabbt och säkert sät
 >[!IMPORTANT]
 >
 >**PSD2-krav:** <br/>
->Från och med 14 september 2019 kan europeiska banker avböja betalningar som inte uppfyller kraven för [PSD2](../getting-started/compliance-payment-services-directive.md). För de flesta PayPal-lösningar krävs ingen åtgärd för att uppfylla PSD 2 eftersom dessa krav hanteras av PayPal.
+>Från och med 14 september 2019 kan europeiska banker avböja betalningar som inte uppfyller kraven för [PSD2](../getting-started/compliance-payment-services-directive.md). För de flesta PayPal-lösningar krävs ingen åtgärd för att uppfylla PSD2 eftersom dessa krav hanteras av PayPal.
 
 ## PayPal-företagskonto
 
@@ -102,7 +103,7 @@ Hanteringsfilter för PayPal-bedrägeri gör det enklare att upptäcka och besva
 | Åtgärd | Resultat |
 | --- | --- |
 | [!UICONTROL Review] | Den misstänkta ordern får statusen _Betalningsgranskning_ när ordern läggs. Du kan granska ordern och godkänna eller avbryta betalningen i Admin eller på PayPal-sidan. När du klickar på **[!UICONTROL Accept Payment]** eller **[!UICONTROL Deny Payment]** skapas inga nya transaktioner för ordern. <br/><br/>Om du ändrar status för transaktionen på PayPal-webbplatsen måste du klicka på **[!UICONTROL Get Payment Update]** på sidan Ordning i Admin för att ändringarna ska gälla. Om du klickar på **[!UICONTROL Accept Payment]** eller **[!UICONTROL Deny Payment]** tillämpas de ändringar som gjorts på PayPal-webbplatsen. |
-| [!UICONTROL Deny] | Den misstänkta ordern kan inte utföras av kunden eftersom motsvarande transaktion avvisas av PayPal. <br/><br/>Om du vill neka betalningen från administratören klickar du på **[!UICONTROL Deny Payment]** i det övre högra hörnet på sidan. Orderstatusen ändras till `Canceled`, transaktionen återställs och medel frisläpps på kundkontot. Motsvarande information läggs till i avsnittet _[!UICONTROL Comments History]_&#x200B;i ordervyn. |
+| [!UICONTROL Deny] | Den misstänkta ordern kan inte utföras av kunden eftersom motsvarande transaktion avvisas av PayPal. <br/><br/>Om du vill neka betalningen från administratören klickar du på **[!UICONTROL Deny Payment]** i det övre högra hörnet på sidan. Orderstatusen ändras till `Canceled`, transaktionen återställs och medel frisläpps på kundkontot. Motsvarande information läggs till i avsnittet _[!UICONTROL Comments History]_i ordervyn. |
 | [!UICONTROL Flag] | Den misstänkta ordern får statusen `Processing` när den placeras. Motsvarande transaktion är markerad med en flagga i listan över handelskontotransaktioner. |
 
 {style="table-layout:auto"}

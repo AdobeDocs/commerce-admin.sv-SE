@@ -3,9 +3,10 @@ title: Rapport över PayPal-kvittning
 description: Läs mer om PayPal-kvittningsrapporten som ett verktyg för att hantera PayPal-transaktioner.
 exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ PayPal-kvittningsrapporten förser handlarna med information om varje transaktio
 >
 >Innan kvittningsrapporter genereras måste butiksadministratören begära att PayPal Merchant Technical Services skapar ett SFTP-användarkonto, aktiverar generering av kvittningsrapporter och aktivera SFTP i PayPals affärskonto.
 
-Efter konfigurering och aktivering av avvecklingsrapporter på PayPal-handelskontot kommer Adobe Commerce och Magento Open Source att börja generera rapporter under de följande 24 timmarna. Listan med tillgängliga kvittningsrapporter kan visas från administratören.
+När du har konfigurerat och aktiverat avvecklingsrapporter på PayPal-handelskontot kommer Adobe Commerce och Magento Open Source att börja generera rapporter under de följande 24 timmarna. Listan med tillgängliga kvittningsrapporter kan visas från administratören.
 
 **_Så här visar du kvittningsrapporter:_**
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**på sidofältet_ Admin _.
 
    ![PayPal-kvittningsrapporter](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
 

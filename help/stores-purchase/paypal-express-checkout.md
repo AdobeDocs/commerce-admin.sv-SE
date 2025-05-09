@@ -3,9 +3,10 @@ title: PayPal Express-kassan
 description: Lär dig hur du konfigurerar PayPal Express Checkout som en onlinebetalningslösning i din butik.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3110'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ PayPal Express Checkout hjälper till att öka försäljningen genom att ge dina
 >[!IMPORTANT]
 >
 >**PSD2-krav:** <br/>
->Från och med den 14 september 2019 kan europeiska banker avböja betalningar som inte uppfyller kraven för [PSD2](../getting-started/compliance-payment-services-directive.md). Ingen åtgärd krävs för PayPal Express-utcheckning för att uppfylla PSD 2 eftersom alla krav hanteras av PayPal.
+>Från och med den 14 september 2019 kan europeiska banker avböja betalningar som inte uppfyller kraven för [PSD2](../getting-started/compliance-payment-services-directive.md). Ingen åtgärd krävs för att PayPal Express Checkout ska uppfylla PSD2 eftersom alla krav hanteras av PayPal.
 
 Kunder med aktuella PayPal-konton kan göra ett köp i ett enda steg genom att klicka på knappen _[!UICONTROL Check out with PayPal]_. Express Checkout kan användas som fristående eller med en allt-i-ett-lösning för PayPal. Om du redan godkänner kreditkort online kan du erbjuda Express Checkout som ett extra alternativ för att locka nya kunder som föredrar att betala med PayPal.
 
@@ -87,13 +88,13 @@ Du kan ha två PayPal-lösningar aktiva samtidigt: PayPal Express Checkout plus 
 
 ### Steg 1: Påbörja konfigurationen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
 1. Om din installation har flera webbplatser, butiker eller vyer anger du **[!UICONTROL Store View]** till den butiksvy där du vill använda den här konfigurationen.
 
-1. I avsnittet _[!UICONTROL Merchant Location]_&#x200B;väljer du **[!UICONTROL Merchant Country]**&#x200B;där ditt företag finns.
+1. I avsnittet _[!UICONTROL Merchant Location]_väljer du **[!UICONTROL Merchant Country]**där ditt företag finns.
 
    Den här inställningen bestämmer valet av PayPal-lösningar som visas i konfigurationen.
 
@@ -311,7 +312,7 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
    - `Sale` - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto.
    - `Order` - Orderbeloppet hämtas eller auktoriseras inte i kundsaldot, bankkontot eller kreditkortet på PayPal. Orderbetalningsåtgärden representerar ett avtal mellan betalningssystemet PayPal och handlaren. Det gör det möjligt för handlaren att samla in ett eller flera belopp upp till den beställda summan från kundens köparkonto under en period på upp till 29 dagar. Efter beställningen kan handlaren när som helst samla in pengarna under den följande 29-dagarsperioden. Beställningsbeloppet kan bara hämtas från Commerce Admin genom att en eller flera fakturor skapas.
 
-1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_&#x200B;på produktsidan anger du **[!UICONTROL Display on Product Details Page]**&#x200B;till `Yes`.
+1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_på produktsidan anger du **[!UICONTROL Display on Product Details Page]**till `Yes`.
 
 1. Om betalningsåtgärden är inställd på `Order` utför du följande
 
@@ -579,5 +580,5 @@ Med funktionsinställningarna kan du inaktivera vissa funktioner som hör till d
 [3]: https://manager.paypal.com/
 [4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
+[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;amp;page=incontextProductCheckout
 [7]: https://developer.paypal.com/docs/api-basics/sandbox/

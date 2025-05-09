@@ -3,9 +3,10 @@ title: PayPal-faktureringsavtal
 description: Lär dig hur du kan stödja PayPal-faktureringsavtal och en betalningsmetod i din butik.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -26,15 +27,15 @@ För att förenkla utcheckningsprocessen kan kunderna ingå ett faktureringsavta
 
 ## Hantera faktureringsavtal
 
-På sidan _[!UICONTROL Billing Agreements]_&#x200B;visas alla faktureringsavtal mellan din butik och dess kunder. Affärsmännen kan filtrera posterna efter kund- eller faktureringsavtalsinformation, inklusive referens-ID för faktureringsavtal, status och skapandedatum. Varje post innehåller allmän information om faktureringsavtalet och alla försäljningsorder som har använt det som betalningsmetod. Du kan visa, avbryta eller ta bort kundfaktureringsavtal. Ett annullerat faktureringsavtal kan bara tas bort av butiksadministratören.
+På sidan _[!UICONTROL Billing Agreements]_visas alla faktureringsavtal mellan din butik och dess kunder. Affärsmännen kan filtrera posterna efter kund- eller faktureringsavtalsinformation, inklusive referens-ID för faktureringsavtal, status och skapandedatum. Varje post innehåller allmän information om faktureringsavtalet och alla försäljningsorder som har använt det som betalningsmetod. Du kan visa, avbryta eller ta bort kundfaktureringsavtal. Ett annullerat faktureringsavtal kan bara tas bort av butiksadministratören.
 
 ### Visa ett faktureringsavtal
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**på sidofältet_ Admin _.
 
 1. Leta upp faktureringsavtalet i listan och klicka för att öppna det.
 
-Varje faktureringsavtalssida består av två flikar: _[!UICONTROL General Information]_&#x200B;och&#x200B;_[!UICONTROL Related Orders]_.
+Varje faktureringsavtalssida består av två flikar: _[!UICONTROL General Information]_och_[!UICONTROL Related Orders]_.
 
 #### Allmän information
 
@@ -56,7 +57,7 @@ På den här fliken visas en lista med de beställningar som har gjorts med det 
 
 ### Avbryta ett faktureringsavtal
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**på sidofältet_ Admin _.
 
 1. Leta upp faktureringsavtalet i listan och klicka för att öppna det.
 
@@ -66,7 +67,7 @@ På den här fliken visas en lista med de beställningar som har gjorts med det 
 
 ### Ta bort ett faktureringsavtal
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**på sidofältet_ Admin _.
 
 1. Leta upp faktureringsavtalet i listan och klicka för att öppna det.
 
