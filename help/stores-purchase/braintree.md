@@ -3,7 +3,7 @@ title: Braintree
 description: Lär dig hur du konfigurerar Braintree som en onlinebetalningslösning i din butik.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
 source-wordcount: '2890'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Om du behöver hjälp med oväntade kostnader på kortet kan du få hjälp på sidan [Avbryt prenumeration](https://helpx.adobe.com/manage-account/using/cancel-subscription.html).
+>Om du behöver hjälp med oväntade kostnader på kortet kan du få hjälp på sidan [Avbryt prenumeration](https://helpx.adobe.com/se/manage-account/using/cancel-subscription.html).
 
 Braintree erbjuder en helt anpassningsbar utcheckningsupplevelse med bedrägeriidentifiering och PayPal-integrering. Den stöder [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo och lokala betalningsmetoder. Braintree minskar PCI-kompatibilitetsbördan för handlare eftersom transaktionen äger rum i Braintree-systemet. Integreringen av Braintree Payments har utvecklats av [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
 

@@ -169,11 +169,11 @@ Du kan också konfigurera leverans till specifika länder för varje tillgängli
 
 Hjälp med felsökning av problem med landskonfiguration finns i följande artiklar i [!DNL Commerce] kunskapsbasen med supportfrågor:
 
-- [Lägga till ett land](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Lägga till ett land](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=sv-SE)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Inställningen för handelsplats används för att konfigurera [betalningsmetoder](../stores-purchase/payments.md). Om det inte finns något värde för den här inställningen används inställningen [Standardland](#uicontrol-country-options).
 
