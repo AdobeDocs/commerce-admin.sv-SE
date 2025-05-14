@@ -3,7 +3,7 @@ title: Konfigurerbar produkt
 description: Lär dig hur du skapar en konfigurerbar produkt som ger kunderna olika valmöjligheter.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,6 +33,7 @@ Egenskaperna för varje attribut som används för en konfigurerbar produktvaria
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | Indatatypen för alla attribut som används för en produktvariation måste vara något av följande: `Dropdown`, `Visual Swatch` eller `Text Swatch`. |
 | [!UICONTROL Values Required] | `Yes` |
+| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -138,7 +139,7 @@ Förloppsindikatorn högst upp på sidan visar var du befinner dig i processen o
 
 ### Steg 1: Välj attribut
 
-1. Bläddra nedåt till avsnittet _[!UICONTROL Configurations]_&#x200B;och klicka på&#x200B;**[!UICONTROL Create Configurations]**&#x200B;om du fortsätter uppifrån.
+1. Bläddra nedåt till avsnittet _[!UICONTROL Configurations]_och klicka på&#x200B;**[!UICONTROL Create Configurations]**om du fortsätter uppifrån.
 
    ![Konfigurationer](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -302,7 +303,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
 - [Presentalternativ](product-gift-options.md)
 
-### Steg 7: Publish produkten
+### Steg 7: Publicera produkten
 
 1. Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable Product]** till `Yes` och gör något av följande:
 
@@ -324,7 +325,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
 Om du har en annan bild för varje variant kan du ställa in konfigurationen så att rätt bild används för kundvagnsminiatyrbilden.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]** under.
 
@@ -366,7 +367,7 @@ _Stock-status_ för den konfigurerbara produkten styrs delvis av Stock-statusen 
 
 - Om det konfigurerbara värdet för produktStock-status är **_manuellt_** inställt på `Out of Stock` av en Admin-användare, filimport eller API-anrop förblir det `Out of Stock` på både **_Admin_** och **_Storefront_** tills det **_ändras manuellt_** till `In Stock` av en Admin-användare, fil-import eller API-anrop. Det **_kan inte_** kontrolleras av den underordnade produktens arkivstatus.
 
-- Om det konfigurerbara värdet för produktStock-status är **_manuellt_** inställt på `In Stock` av en Admin-användare, en filimport eller ett API-anrop, styrs dess lagerstatus **_automatiskt_** endast av den underordnade produktens Storefront **_6&rbrace; -status._**
+- Om det konfigurerbara värdet för produktStock-status är **_manuellt_** inställt på `In Stock` av en Admin-användare, en filimport eller ett API-anrop, styrs dess lagerstatus **_automatiskt_** endast av den underordnade produktens Storefront **_6} -status._**
 
 - Om det konfigurerbara värdet för produktStock-status är **_manuellt_** inställt på `In Stock` av en administratörsanvändare, filimport eller API-anrop förblir det `In Stock` i **_Admin_** tills det **_ändras manuellt_** till `Out of Stock` av en administratörsanvändare, filimport eller API-anrop. Det **_kan inte_** kontrolleras av den underordnade produktens arkivstatus.
 
