@@ -52,4 +52,4 @@ Det täcker inte kärnfunktionerna i Adobe Commerce och Magento Open Source.
 
 Hjälp med felsökning av [!DNL Page Builder]-problem finns i följande artiklar i [!DNL Commerce] kunskapsbasen med supportfrågor:
 
-- [Tom sida när DotDigital [!DNL Page Builder] formuläret har sparats](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
+- [Tom sida när DotDigital [!DNL Page Builder] formuläret har sparats](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html?lang=sv-SE)
