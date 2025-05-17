@@ -18,7 +18,7 @@ Mer information om de här konfigurationsfälten och alternativen finns i [Lagra
 
 ## [!UICONTROL General]
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 ![Lagra e-postadresser > Allmän kontakt](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
