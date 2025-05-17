@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] i Commerce Admin.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: bad9a004d0354f3db7739d4582a015f4b38116f8
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,18 @@ ht-degree: 0%
 {{config}}
 
 Mer information om de här konfigurationsfälten och alternativen finns i [Lagra e-postadresser](../../getting-started/store-details.md#store-email-addresses).
+
+## [!UICONTROL General]
+
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+
+![Lagra e-postadresser > Allmän kontakt](./assets/store-email-addresses-general-general.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Storefront Base URL] | Butiksvy | Den bas-URL som ska användas för att skapa länkar som ingår i kundtillvända e-postmeddelanden. URL:en måste avslutas med ett snedstreck. Exempel: `https://www.example.com/`. |
+
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Contact]
 

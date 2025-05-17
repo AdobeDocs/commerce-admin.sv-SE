@@ -3,9 +3,9 @@ title: Butiksinformation
 description: Lär dig hur du uppdaterar den grundläggande informationen för din butik.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
+source-git-commit: c9c04d4fb2f51b9bac0de6a172d7bcf35be18a85
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Den grundläggande informationen för din butik omfattar butikens namn och adres
 
 ## [!UICONTROL Store Information]
 
-Avsnittet _[!UICONTROL Store Information]_&#x200B;innehåller grundläggande information som visas i försäljningsdokument och i annan kommunikation.
+Avsnittet _[!UICONTROL Store Information]_innehåller grundläggande information som visas i försäljningsdokument och i annan kommunikation.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL General]** under **[!UICONTROL General]** i den vänstra navigeringspanelen.
 
@@ -63,7 +63,7 @@ Språkinställningen avgör antalet inställningar som används i hela butiken. 
 
 Språkinställningen avgör vilken tidszon och vilket språk som används för varje butik och identifierar veckodagarna i området.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL General]** i den vänstra navigeringspanelen under **[!UICONTROL General]**.
 
@@ -93,7 +93,7 @@ I många länder är staten, provinsen eller regionen en obligatorisk del av en 
 
 Eftersom standardadressformaten varierar mellan olika länder kan du även redigera mallen som används för att formatera adressen för fakturor, följesedlar och leveransetiketter.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL General]** under **[!UICONTROL General]** i den vänstra navigeringspanelen.
 
@@ -119,7 +119,7 @@ Alternativen för land anger det land där företaget finns och de länder från
 
 ### Ange landsalternativ för din butik
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL General]** i den vänstra navigeringspanelen under **[!UICONTROL General]**.
 
@@ -151,7 +151,7 @@ Alternativen för land anger det land där företaget finns och de länder från
 
 Du kan också konfigurera leverans till specifika länder för varje tillgänglig [leveransmetod](../stores-purchase/delivery.md) (UPS, FedEx och så vidare).
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra navigeringspanelen och välj **[!UICONTROL Delivery Methods]**.
 
@@ -169,15 +169,15 @@ Du kan också konfigurera leverans till specifika länder för varje tillgängli
 
 Hjälp med felsökning av problem med landskonfiguration finns i följande artiklar i [!DNL Commerce] kunskapsbasen med supportfrågor:
 
-- [Lägga till ett land](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=sv-SE)
+- [Lägga till ett land](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Inställningen för handelsplats används för att konfigurera [betalningsmetoder](../stores-purchase/payments.md). Om det inte finns något värde för den här inställningen används inställningen [Standardland](#uicontrol-country-options).
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra navigeringspanelen och välj **[!UICONTROL Payment Methods]**.
 
@@ -213,9 +213,23 @@ Varje identitet och tillhörande e-postadress kan kopplas till specifika automat
 
 Innan du kan konfigurera e-postadresser för butiken måste varje anges som en giltig e-postadress för din domän. Följ instruktionerna från serveradministratören eller e-postleverantören för att skapa de e-postadresser som behövs.
 
-### Steg 2: Konfigurera e-postadresserna för din butik
+### Steg 2: Ange bas-URL för genererade länkar
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+
+Vissa kundorienterade e-postmeddelanden innehåller länkar till butiken, t.ex. sådana som hjälper kunderna att återställa sina lösenord. För att länkarna till butiken ska fungera måste du definiera bas-URL:en till butiken.
+
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+
+1. Välj **[!UICONTROL Store Email Addresses]** under **[!UICONTROL General]** i den vänstra navigeringspanelen.
+
+1. I avsnittet **[!UICONTROL Storefront Base URL]** fält **[!UICONTROL General]** anger du arkivets rot-URL, till exempel `https://www.example.com/`. URL:en måste avslutas med ett snedstreck.
+
+   ![Allmän konfiguration - Allmänt](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
+
+### Steg 3: Konfigurera e-postadresserna för din butik
+
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Store Email Addresses]** under **[!UICONTROL General]** i den vänstra navigeringspanelen.
 
@@ -231,7 +245,7 @@ Innan du kan konfigurera e-postadresser för butiken måste varje anges som en g
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
-### Steg 3: Uppdatera e-postkonfigurationen för försäljning
+### Steg 4: Uppdatera e-postkonfigurationen för försäljning
 
 Om du använder anpassade e-postadresser måste du uppdatera konfigurationen för alla relaterade e-postmeddelanden så att rätt identitet visas som avsändare.
 
@@ -271,7 +285,7 @@ Exempeldata för luma innehåller ytterligare information på sidan Kontakta oss
 
 ### Konfigurera kontaktformuläret
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Contacts]** i den vänstra navigeringspanelen under **[!UICONTROL General]**.
 
@@ -299,7 +313,7 @@ Du kan anpassa innehållet i formuläret _Kontakta oss_ så att det passar butik
 
 Luma-exempeldata innehåller ett _Kontakta oss_ -block som kan anpassas för din butik. `contact-us-info` [block](../content-design/blocks.md) kan enkelt ändras för att lägga till ditt eget innehåll på sidan Kontakta oss.
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**på sidofältet_ Admin _.
 
 1. Hitta blocket **[!UICONTROL Contact Us Info]** i listan och öppna i läget **[!UICONTROL Edit]**.
 
