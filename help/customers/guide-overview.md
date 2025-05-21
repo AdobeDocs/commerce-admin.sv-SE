@@ -1,13 +1,13 @@
 ---
 title: Adobe Commerce Customer Management Guide
-description: Omfattande information om kundkonton och segment för Adobe Commerce- och Magento Open Source-administratörer, inklusive konfiguration.
+description: Omfattande information om kundkonton och -segment för Adobe Commerce- och Magento Open Source-administratörer, inklusive konfiguration.
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 

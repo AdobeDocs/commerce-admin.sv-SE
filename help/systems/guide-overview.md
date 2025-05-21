@@ -1,11 +1,11 @@
 ---
 title: Handbok för adminsystem
-description: Lär dig de bästa säkerhetsrutinerna för att skydda din Commerce-butik och hantera behörigheter, och hur du importerar och exporterar data, hanterar integreringar och tillägg samt hanterar rutinunderhåll.
+description: Lär dig de bästa säkerhetsrutinerna för att skydda din Commerce-butik och hantera behörigheter, ta reda på hur du importerar och exporterar data, hanterar integreringar och tillägg och utför rutinunderhåll.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
