@@ -74,7 +74,7 @@ Som standard innehåller filen robots.txt som genereras av Commerce instruktione
 
 ### Konfigurera `robots.txt`
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på konfigurationen **[!UICONTROL Global]** i den första raden i rutnätet och klicka på **[!UICONTROL Edit]**.
 

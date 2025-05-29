@@ -26,7 +26,7 @@ En av uppgifterna du bör utföra innan du lanserar din butik är att granska e-
 
 Administratören stöder även olika uppgifter för systemadministratörer som kan hantera administratörsanvändare inom organisationen och hantera butiken. De innehåller följande verktyg:
 
-- **Administratörsanvändarkonton och behörigheter** - Hantera administratörsanvändarkonton [](permissions-users-all.md), samt associerade [roller och behörigheter](permissions-user-roles.md) som styr deras åtkomst till platser och funktionsområden i administratören.
+- **Administratörsanvändarkonton och behörigheter** - Hantera administratörsanvändarkonton [&#128279;](permissions-users-all.md), samt associerade [roller och behörigheter](permissions-user-roles.md) som styr deras åtkomst till platser och funktionsområden i administratören.
 - **Administratörssessioner och webbplatsbegränsningar** - Granska [säkerheten](security.md) och lär dig hantera administratörssessioner och autentiseringsuppgifter, implementera CAPTCHA och hantera webbplatsbegränsningar.
 - [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} **Systemverktyg** - Utför rutinmässiga [index](index-management.md)- och [cache](cache-management.md)-hanteringsåtgärder, [säkerhetskopiera](backups.md) systemet, hantera [schemalagda åtgärder](data-scheduled-import-export.md) och använd ett sortiment av [utvecklingsverktyg](developer-tools.md).
 - **Dataöverföring** - Använd [dataöverföringsverktygen](data-transfer.md) för att importera och exportera data, samt för att hantera produkt-, prissättnings-, kund- och momsdata.

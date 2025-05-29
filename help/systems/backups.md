@@ -23,7 +23,7 @@ Med Adobe Commerce och Magento Open Source kan du säkerhetskopiera olika delar 
 
 ## Aktivera och schemalägg säkerhetskopiering
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
@@ -45,7 +45,7 @@ Med Adobe Commerce och Magento Open Source kan du säkerhetskopiera olika delar 
 
 ## Skapa en säkerhetskopia
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka i det övre högra hörnet på den typ av säkerhetskopia som du vill skapa:
 

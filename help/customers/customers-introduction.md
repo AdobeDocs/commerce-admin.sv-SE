@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Introduktion till kundhantering
 
-Menyn _[!UICONTROL Customers]_ger åtkomst till kundkontohanteringsverktyg och ger dig möjlighet att se vem som är online i din butik.
+Menyn _[!UICONTROL Customers]_&#x200B;ger åtkomst till kundkontohanteringsverktyg och ger dig möjlighet att se vem som är online i din butik.
 
 >[!BEGINTABS]
 

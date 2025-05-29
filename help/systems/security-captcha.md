@@ -26,7 +26,7 @@ För en extra säkerhetsnivå kan du lägga till en CAPTCHA på sidan Administre
 
 ![Admin - Logga in med CAPTCHA](./assets/security-captcha-admin.png){width="300"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Admin]**.
 
@@ -74,7 +74,7 @@ Kunder kan behöva ange en CAPTCHA varje gång de loggar in på sina konton, ell
 
 ![CAPTCHA vid utcheckning](./assets/storefront-checkout-payment-captcha.png){width="700" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Customer Configuration]**.
 

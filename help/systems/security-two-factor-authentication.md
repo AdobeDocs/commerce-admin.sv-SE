@@ -36,11 +36,11 @@ Du kan titta på den här [videodemonstrationen](https://video.tv.adobe.com/v/33
 
 ## Konfigurera dina 2FA-leverantörer
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Security]** i den vänstra panelen och välj **[!UICONTROL 2FA]**.
 
-1. I avsnittet _[!UICONTROL General]_väljer du de providers som ska användas.
+1. I avsnittet _[!UICONTROL General]_&#x200B;väljer du de providers som ska användas.
 
    | Provider | Funktion |
    |--- |--- |

@@ -26,7 +26,7 @@ Genom att definiera en integrering i Commerce Admin kan du fastställa platsen f
 
 ## Lägg till en integrering
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;på sidofältet_ Admin _.
 
    ![Ny integrering](./assets/integration-new.png){width="600" zoomable="yes"}
 
@@ -61,7 +61,7 @@ Genom att definiera en integrering i Commerce Admin kan du fastställa platsen f
 
 Som standard visas en sparad integrering i rutnätet med statusen `Inactive`. Så här aktiverar du den:
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;på sidofältet_ Admin _.
 
 1. Hitta den nyskapade integreringen och klicka på länken **[!UICONTROL Activate]**.
 
@@ -77,7 +77,7 @@ Som standard visas en sparad integrering i rutnätet med statusen `Inactive`. S�
 
 Om du vill generera en ny integreringsåtkomsttoken och åtkomsttokenhemlighet har du auktoriserat integreringen från administratören igen:
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;på sidofältet_ Admin _.
 
 1. Hitta integreringen med statusen **[!UICONTROL Active]**.
 
@@ -91,7 +91,7 @@ Om du vill generera en ny integreringsåtkomsttoken och åtkomsttokenhemlighet h
 
 Som standard tillåter systemet inte anonym gäståtkomst till CMS, katalog och andra butiksresurser. Om du måste ändra inställningen gör du följande:
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Services]** i den vänstra panelen och välj **[!UICONTROL Magento Web API]**.
 
@@ -107,7 +107,7 @@ Mer information finns i [Begränsa åtkomst till anonyma webb-API:er](https://de
 
 ## Ta bort en integrering
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;på sidofältet_ Admin _.
 
 1. Leta reda på den befintliga integrationen och klicka på ikonen ( ![papperskorgsikonen](../assets/icon-delete-trashcan-solid.png) ) i kolumnen **[!UICONTROL Delete]** .
 

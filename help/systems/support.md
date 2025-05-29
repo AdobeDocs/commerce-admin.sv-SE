@@ -24,7 +24,7 @@ I stödrastret Systemrapporter kan du visa och hämta befintliga rapporter, ta b
 
 ### Åtkomst till systemrapporter
 
-Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**på sidofältet_ Admin _.
+Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**&#x200B;på sidofältet_ Admin _.
 
 ![Admin - systemrapporter](./assets/reports.png){width="600" zoomable="yes"}
 
@@ -46,7 +46,7 @@ Du hittar användbar information om installerade moduler.
 
 **_Så här visar du rapportinformation för varje installerad modul:_**
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**&#x200B;på sidofältet_ Admin _.
 1. Klicka på **[!UICONTROL New Report]**.
 1. Välj `Modules` i listan **[!UICONTROL Groups]**.
 1. Klicka på **[!UICONTROL Create]**.

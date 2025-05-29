@@ -20,8 +20,8 @@ Commerce har en inbyggd funktion för produktgranskning som du kan hantera från
 >[!NOTE]
 >
 >Adobe Commerce och Magento Open Source version 2.4.0 till 2.4.3 innehåller tillägget som utvecklats av Yotpo-leverantörer. Från och med version 2.4.4 är det här tillägget inte längre bundet till kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
->><br><br>
->>Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _Uppgraderingshandboken_.
+>&#x200B;><br><br>
+>&#x200B;>Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _Uppgraderingshandboken_.
 
 ## Produktrecensioner i butiken
 
@@ -43,7 +43,7 @@ Antalet stjärnor anger att produkten är nöjd. Besökarna kan klicka på länk
 
 ### [!UICONTROL My Product Reviews]
 
-Avsnittet _[!UICONTROL My Product Reviews]_på kundkontouppsättningen visar alla recensioner som kunden har skickat in och som godkänts för publicering. Varje granskningssammanfattning innehåller det datum då granskningen skickades, länkar till produktsidan och granskningsinformation.
+Avsnittet _[!UICONTROL My Product Reviews]_&#x200B;på kundkontouppsättningen visar alla recensioner som kunden har skickat in och som godkänts för publicering. Varje granskningssammanfattning innehåller det datum då granskningen skickades, länkar till produktsidan och granskningsinformation.
 
 ![Mina produktrecensioner](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -61,7 +61,7 @@ Funktionen Commerce produktrecensioner är aktiverad som standard.
 >
 >Om du vill ange dessa fält som `No` och inaktivera Commerce produktgranskningar måste du avmarkera kryssrutorna **Använd systemvärde**.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och markera **[!UICONTROL Catalog]** under.
 
@@ -85,13 +85,13 @@ Med Commerce produktrecensioner kan man ge betyg när man skickar in en produktr
 
 ![Exempelarkiv - egna klassificeringar](./assets/attribute-custom-ratings-review.png){width="700" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Rating]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Rating]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Rating]** i det övre högra hörnet.
 
    ![Admin - Klassificeringar](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. I avsnittet _[!UICONTROL Rating Title]_anger du **[!UICONTROL Default Value]**för den nya klassificeringen.
+1. I avsnittet _[!UICONTROL Rating Title]_&#x200B;anger du **[!UICONTROL Default Value]**&#x200B;för den nya klassificeringen.
 
    Ange även översättningen för varje butiksvy, om tillämpligt.
 

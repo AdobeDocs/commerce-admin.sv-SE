@@ -31,15 +31,15 @@ Information om hur du återställer autentiserare från kommandoraden och mer av
 >
 >Om du vill återställa 2FA-providers för andra användare måste du vara _administratör_ med `All` behörigheter eller ha `Custom` behörigheter för din roll med [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL Two Factor Auth] och [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL All Users] markerat. Mer information finns i [Användarroller](permissions-user-roles.md).
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**&#x200B;på sidofältet_ Admin _.
 
 1. Markera användaren och öppna kontot i redigeringsläge.
 
-1. Bläddra ned till avsnittet _[!UICONTROL Current User Identity Verification]_och ange ditt lösenord.
+1. Bläddra ned till avsnittet _[!UICONTROL Current User Identity Verification]_&#x200B;och ange ditt lösenord.
 
 1. Klicka på **[!UICONTROL 2FA]** i den vänstra panelen.
 
-1. Klicka på **[!UICONTROL Reset]** och **[!UICONTROL OK]** i avsnittet _[!UICONTROL Configuration reset]_för att bekräfta.
+1. Klicka på **[!UICONTROL Reset]** och **[!UICONTROL OK]** i avsnittet _[!UICONTROL Configuration reset]_&#x200B;för att bekräfta.
 
    ![Användarkonto - aktivera 2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 
