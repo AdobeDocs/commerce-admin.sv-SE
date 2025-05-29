@@ -3,7 +3,7 @@ title: Metadata
 description: Läs om hur du kan ange metadata med nyckelord för att förbättra det sätt på vilket sökmotorer indexerar din Commerce-webbplats.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '703'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Information om Adobe Commerce as a Cloud Service finns i [metadatariktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) i dokumentationen för Commerce Storefront
+>Information om Adobe Commerce as a Cloud Service finns i [metadatariktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=sv-SE) i dokumentationen för Commerce Storefront
 
 Din butik innehåller platser där du kan ange metadata med sökord för att förbättra sökmotorernas indexering av webbplatsen. När du konfigurerar din butik kan du ange preliminära metadata för att slutföra den senare. Med tiden kan ni finjustera metadata för att inrikta er på kundernas köpmönster och önskemål.
 

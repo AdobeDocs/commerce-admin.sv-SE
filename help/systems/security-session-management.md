@@ -4,7 +4,7 @@ description: Lär dig hur du konfigurerar sessionshantering för att skydda admi
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '769'
@@ -65,7 +65,7 @@ Om du överskrider den maximala sessionsstorleken visas inget fel, men systemet 
 
 Med Adobe Commerce och Magento Open Source kan du validera sessionsvariabler som en skyddsåtgärd mot eventuella sessionsfixeringsattacker eller försök att förgifta eller kapa användarsessioner. Inställningarna för sessionsvalidering avgör hur sessionsvariabler valideras under varje butiksbesök och om sessions-ID inkluderas i butikens URL.
 
-Mer teknisk information finns i [Använd Redis för sessionslagring](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) i _Konfigurationshandboken_.
+Mer teknisk information finns i [Använd Redis för sessionslagring](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=sv-SE) i _Konfigurationshandboken_.
 
 ![Allmän konfiguration - Webbsessionsvalidering](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

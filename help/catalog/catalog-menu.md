@@ -11,19 +11,19 @@ ht-degree: 0%
 
 # [!UICONTROL Catalog]-menyn
 
-Menyn [!UICONTROL Catalog] ger enkel åtkomst till verktyg för att skapa produkter, kategorier och lagerhantering samt delade kataloger för anpassade priser i [B2B-butiker](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Menyn [!UICONTROL Catalog] ger enkel åtkomst till verktyg för att skapa produkter, kategorier och lagerhantering samt delade kataloger för anpassade priser i [B2B-butiker](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=sv-SE).
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 ![Katalogmeny](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 ![Katalogmeny](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
@@ -45,6 +45,6 @@ Skapa [kategoristrukturen](categories.md) som är grunden för butikens navigeri
 
 ## [!UICONTROL Shared Catalogs]
 
-För butiker där Adobe Commerce B2B är installerat och aktiverat ger [delade kataloger](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) dig möjlighet att göra anpassade priser tillgängliga för olika företag.
+För butiker där Adobe Commerce B2B är installerat och aktiverat ger [delade kataloger](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=sv-SE) dig möjlighet att göra anpassade priser tillgängliga för olika företag.
 
 ![Delade katalogprodukter](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

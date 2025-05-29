@@ -4,7 +4,7 @@ description: Lär dig konfigurera säkerhet för din butiksadministratör.
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '719'
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Konfigurera administratörssäkerhet
 
-Vi rekommenderar att du använder ett mångfacetterat tillvägagångssätt för att skydda din butik. Du kan börja med att använda en [anpassad administratörs-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) som inte är enkel att gissa sig till, i stället för den självklara &quot;Admin&quot; eller &quot;Backend&quot;. Som standard måste lösenord som används för att [logga in](../getting-started/admin-signin.md) i Admin vara minst sju tecken långa och innehålla både bokstäver och siffror. Som [bästa praxis](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) bör du bara använda starka administratörslösenord som innehåller en kombination av bokstäver, siffror och symboler. Adobe Commerce och Magento Open Source tillåter inte återanvändning av de fyra sista lösenorden som tilldelats kontot.
+Vi rekommenderar att du använder ett mångfacetterat tillvägagångssätt för att skydda din butik. Du kan börja med att använda en [anpassad administratörs-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) som inte är enkel att gissa sig till, i stället för den självklara &quot;Admin&quot; eller &quot;Backend&quot;. Som standard måste lösenord som används för att [logga in](../getting-started/admin-signin.md) i Admin vara minst sju tecken långa och innehålla både bokstäver och siffror. Som [bästa praxis](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=sv-SE) bör du bara använda starka administratörslösenord som innehåller en kombination av bokstäver, siffror och symboler. Adobe Commerce och Magento Open Source tillåter inte återanvändning av de fyra sista lösenorden som tilldelats kontot.
 
 Administratörens säkerhetskonfiguration ger dig möjlighet att:
 
