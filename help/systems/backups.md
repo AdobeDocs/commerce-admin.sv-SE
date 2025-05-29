@@ -3,9 +3,10 @@ title: Säkerhetskopiering av system
 description: Lär dig hur du skapar och schemalägger systemsäkerhetskopieringar, inklusive filsystem, databaser och mediefiler.
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Med Adobe Commerce och Magento Open Source kan du säkerhetskopiera olika delar 
 
 ## Aktivera och schemalägg säkerhetskopiering
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
@@ -44,7 +45,7 @@ Med Adobe Commerce och Magento Open Source kan du säkerhetskopiera olika delar 
 
 ## Skapa en säkerhetskopia
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**på sidofältet_ Admin _.
 
 1. Klicka i det övre högra hörnet på den typ av säkerhetskopia som du vill skapa:
 

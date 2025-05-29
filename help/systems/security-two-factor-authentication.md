@@ -4,9 +4,10 @@ description: Lär dig mer om stöd för tvåfaktorsautentisering för att säker
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 4997c4c01f11d6e0355eb8e02f8f099db685b400
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -29,17 +30,17 @@ Första gången en användare loggar in på _Admin_ måste de ställa in varje [
 
 >[!NOTE]
 >
->Lager som har aktiverat autentisering med Adobe Identity Management Services (IMS) har inbyggt Adobe Commerce och Magento Open Source 2FA inaktiverat. Administratörsanvändare som är inloggade på sin Commerce-instans med sina Adobe-inloggningsuppgifter behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [Integreringsöversikt för Adobe Identity Management-tjänst (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=sv-SE).
+>Lager som har aktiverat autentisering med Adobe Identity Management Services (IMS) har inbyggt Adobe Commerce och Magento Open Source 2FA inaktiverat. Administratörsanvändare som är inloggade på sin Commerce-instans med sina Adobe-inloggningsuppgifter behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [Integreringsöversikt för Adobe Identity Management-tjänst (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Du kan titta på den här [videodemonstrationen](https://video.tv.adobe.com/v/339104?quality=12&learn=on) om du vill se en översikt över tvåfaktorsautentisering i Admin.
 
 ## Konfigurera dina 2FA-leverantörer
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Security]** i den vänstra panelen och välj **[!UICONTROL 2FA]**.
 
-1. I avsnittet _[!UICONTROL General]_&#x200B;väljer du de providers som ska användas.
+1. I avsnittet _[!UICONTROL General]_väljer du de providers som ska användas.
 
    | Provider | Funktion |
    |--- |--- |

@@ -4,9 +4,9 @@ description: Lär dig konfigurera Google reCAPTCHA för administratörsåtkomst 
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Google reCAPTCHA kan implementeras på flera sätt:
 
 >[!IMPORTANT]
 >
->Innan du kan konfigurera Google reCAPTCHA kontrollerar du att filen `PHP.ini` innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [Nödvändiga PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=sv-SE){:target=&quot;_blank&quot;} i installationshandboken.
+>Innan du kan konfigurera Google reCAPTCHA kontrollerar du att filen `PHP.ini` innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [Nödvändiga PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target="_blank"} i installationshandboken.
 
 ## Steg 1: Generera Google reCAPTCHA-nycklar
 
@@ -70,9 +70,11 @@ Google reCAPTCHA kräver ett par API-nycklar för att kunna aktiveras. Du kan f�
 
 ## Steg 2: Konfigurera Google reCAPTCHA för administratören
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 1. Logga in på ditt Admin-konto.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidlisten Admin.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidlisten Admin.
 
 1. I det övre högra hörnet anger du **[!UICONTROL Store View]** till `Default Config`.
 
@@ -82,7 +84,7 @@ Google reCAPTCHA kräver ett par API-nycklar för att kunna aktiveras. Du kan f�
    >
    >Avmarkera kryssrutan **[!UICONTROL Use system value]** för varje fält som du vill konfigurera.
 
-1. Om du vill använda _[!DNL reCAPTCHA v2 ("I am not a robot")]_&#x200B;expanderar du avsnittet **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;och gör följande:
+1. Om du vill använda _[!DNL reCAPTCHA v2 ("I am not a robot")]_expanderar du avsnittet **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**och gör följande:
 
    - För **[!UICONTROL Google API Website Key]** anger du webbplatsnyckeln som skapades för den här reCAPTCHA-typen när du registrerade ditt Google reCAPTCHA-konto.
 
@@ -96,7 +98,7 @@ Google reCAPTCHA kräver ett par API-nycklar för att kunna aktiveras. Du kan f�
 
    ![reCAPTCHA v2 -&quot;Jag är inte en robot&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. Om du vill använda _[!DNL reCAPTCHA v2 Invisible]_&#x200B;expanderar du avsnittet **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;och gör följande:
+1. Om du vill använda _[!DNL reCAPTCHA v2 Invisible]_expanderar du avsnittet **[!UICONTROL reCAPTCHA v2 Invisible]**och gör följande:
 
    - För **[!UICONTROL Google API Website Key]** anger du webbplatsnyckeln som skapades för den här reCAPTCHA-typen när du registrerade ditt Google reCAPTCHA-konto.
 
@@ -110,7 +112,7 @@ Google reCAPTCHA kräver ett par API-nycklar för att kunna aktiveras. Du kan f�
 
    ![reCAPTCHA v2 Osynlig](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. Om du vill använda _[!DNL reCAPTCHA v3 Invisible]_&#x200B;expanderar du avsnittet **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;och gör följande:
+1. Om du vill använda _[!DNL reCAPTCHA v3 Invisible]_expanderar du avsnittet **[!UICONTROL reCAPTCHA v3 Invisible]**och gör följande:
 
    - För **[!UICONTROL Google API Website Key]** anger du webbplatsnyckeln som skapades för den här reCAPTCHA-typen när du registrerade ditt Google reCAPTCHA-konto.
 

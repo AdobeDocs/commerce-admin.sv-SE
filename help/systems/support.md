@@ -2,9 +2,10 @@
 title: Supportverktyg
 description: Lär dig mer om de supportverktyg du kan använda för att identifiera problem i systemet.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ I stödrastret Systemrapporter kan du visa och hämta befintliga rapporter, ta b
 
 ### Åtkomst till systemrapporter
 
-Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**&#x200B;på sidofältet_ Admin _.
+Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**på sidofältet_ Admin _.
 
 ![Admin - systemrapporter](./assets/reports.png){width="600" zoomable="yes"}
 
@@ -45,7 +46,7 @@ Du hittar användbar information om installerade moduler.
 
 **_Så här visar du rapportinformation för varje installerad modul:_**
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**på sidofältet_ Admin _.
 1. Klicka på **[!UICONTROL New Report]**.
 1. Välj `Modules` i listan **[!UICONTROL Groups]**.
 1. Klicka på **[!UICONTROL Create]**.

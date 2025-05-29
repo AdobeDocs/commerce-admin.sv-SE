@@ -3,9 +3,10 @@ title: Indexhantering
 description: Lär dig mer om indexhantering, inklusive åtgärder som utlöser omindexering och bästa praxis.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -43,9 +44,9 @@ Omindexering och cachelagring har olika syften i Commerce. Indexen spårar datab
 
 >[!IMPORTANT]
 >
->För butiker som använder [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=sv-SE) och har angett Elasticsearch som fulltextindexerare (`catalogsearch_fulltext`): fulltextindexet måste köras igen efter att gruppbehörigheter har ändrats eller när behörighetsindexeraren är i läget Schemalagd.
+>För butiker som använder [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) och har angett Elasticsearch som fulltextindexerare (`catalogsearch_fulltext`): fulltextindexet måste köras igen efter att gruppbehörigheter har ändrats eller när behörighetsindexeraren är i läget Schemalagd.
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**på sidofältet_ Admin _.
 
 1. Markera kryssrutan för varje indexerare som du vill ändra.
 
@@ -76,7 +77,7 @@ Omindexering och cachelagring har olika syften i Commerce. Indexen spårar datab
 
 ## Indexera om med kommandoraden
 
-I Commerce finns fler alternativ för indexering via kommandoraden. Fullständig information och kommandoalternativ finns i [Indexera om](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=sv-SE#reindex){:target="blank"} i _Konfigurationshandboken_.
+I Commerce finns fler alternativ för indexering via kommandoraden. Fullständig information och kommandoalternativ finns i [Indexera om](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} i _Konfigurationshandboken_.
 
 ## Utlösarhändelser för index
 

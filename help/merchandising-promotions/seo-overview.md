@@ -3,9 +3,9 @@ title: Sökmotoroptimering
 description: Läs om SEO-verktyg (sökmotoroptimering) för Commerce webbplatser och de bästa sätten att optimera SEO.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,27 @@ ht-degree: 0%
 
 _Sökmotoroptimering_ (SEO) är ett sätt att finjustera innehållet och presentationen för en webbplats för att förbättra det sätt på vilket sidorna indexeras av sökmotorer. Commerce har olika funktioner som stöder er pågående SEO-insats.
 
+>[!TIP]
+>
+>Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) i dokumentationen för Commerce Storefront
+
 ## Metadata
 
-Lär dig mer om att lägga till och förbättra [meta-data](meta-data.md) med nyckelord för din webbplats och ditt arkiv.
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
+Lär dig mer om att lägga till och förbättra [metadata](meta-data.md) med nyckelord för din webbplats och butik.
 
 ## Använda en platskarta
+
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 En [webbplatskarta](sitemap-xml.md) förbättrar det sätt på vilket din butik indexeras av sökmotorer och är utformad för att hitta sidor som kan förbises av webbcrawler. En platskarta kan konfigureras för indexering av alla sidor och bilder.
 
 ## URL-omskrivningar
 
-Med verktyget [URL-omskrivning](url-rewrite.md) kan du ändra alla URL:er som är kopplade till en produkt, kategori eller CMS-sida.
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
+Med verktyget [URL-omskrivning](url-rewrite.md) kan du ändra alla URL-adresser som är kopplade till en produkt, kategori eller CMS-sida.
 
 ## Sökrobotar
 
@@ -64,7 +74,7 @@ Som standard innehåller filen robots.txt som genereras av Commerce instruktione
 
 ### Konfigurera `robots.txt`
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Leta reda på konfigurationen **[!UICONTROL Global]** i den första raden i rutnätet och klicka på **[!UICONTROL Edit]**.
 

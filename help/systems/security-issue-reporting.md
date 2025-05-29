@@ -4,9 +4,10 @@ description: Lär dig hur du konfigurerar kontaktinformation och säkerhetsrelat
 exl-id: 47b95505-51a3-4b7a-a4e3-dbc4b0045797
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ Filen `security.txt` innehåller kontaktinformation och säkerhetsrelaterade lä
 
 **_Så här konfigurerar du security.txt:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Security.txt]** i den vänstra panelen under _[!UICONTROL Security]_.
 
-1. I avsnittet _[!UICONTROL General]_&#x200B;anger du **[!UICONTROL Enable]**&#x200B;till `Yes`.
+1. I avsnittet _[!UICONTROL General]_anger du **[!UICONTROL Enable]**till `Yes`.
 
    ![Allmän säkerhetskonfiguration](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 

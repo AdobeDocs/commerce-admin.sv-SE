@@ -2,20 +2,34 @@
 title: '[!UICONTROL Content]-menyn'
 description: Använd menyn [!UICONTROL Content] för att få tillgång till flera funktioner för att hantera innehållet i din butik.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: c036fffe602593a801f9cf1361fdb44f1f7e1d5f
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Content]-menyn
 
-![Menyn [!UICONTROL Content] som visas i Admin](./assets/admin-menu-content.png){width="400" zoomable="yes"}
-
 >[!NOTE]
 >
->När den nya [[!DNL Media Gallery]](media-gallery.md) är aktiverad visas avsnittet _[!UICONTROL Media]_&#x200B;med ett alternativ för åtkomst till [!DNL Media Gallery]. Du kan ange alternativet **[!UICONTROL Enable Old Media Gallery]**&#x200B;till `No` genom att gå till **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** och välja **[!UICONTROL Advanced]** > **[!UICONTROL System]** i den vänstra panelen.
+>När den nya [[!DNL Media Gallery]](media-gallery.md) är aktiverad visas avsnittet _[!UICONTROL Media]_med ett alternativ för åtkomst till [!DNL Media Gallery]. Du kan ange alternativet **[!UICONTROL Enable Old Media Gallery]**till `No` genom att gå till **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** och välja **[!UICONTROL Advanced]** > **[!UICONTROL System]** i den vänstra panelen.
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
+![Menyn [!UICONTROL Content] som visas i Admin](./assets/admin-menu-content.png){width="400" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+
+![Menyn [!UICONTROL Content] som visas i Admin](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Visa menyn [!UICONTROL Content]
 
@@ -32,7 +46,7 @@ Välj **[!UICONTROL Content]** på sidofältet _Admin_.
 
 >[!NOTE]
 >
->Alternativet _[!UICONTROL Banners]_&#x200B;på den här menyn har tagits bort från 2.3.1 och har nu tagits bort. Funktionen ersätts av Dynamic Blocks.
+>Alternativet _[!UICONTROL Banners]_på den här menyn har tagits bort från 2.3.1 och har nu tagits bort. Funktionen ersätts av Dynamic Blocks.
 
 ## [!UICONTROL Design] {#design-features}
 

@@ -2,9 +2,10 @@
 title: Operationer
 description: Riktlinjer för migrering till ett HIPAA-klart erbjudande och användning av den sekundära mellanlagringsmiljön för felsökning.
 exl-id: 058b43de-1cee-4557-b2e3-87ee7422bf9b
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Använd de här riktlinjerna om du vill lära dig mer om hur du migrerar till de
 Kunder som migrerar från ett icke-HIPAA Commerce-erbjudande till ett HIPAA-klart erbjudande måste följa följande riktlinjer:
 
 1. **Ta bort befintliga datamängder**: Före migreringen måste alla befintliga datamängder tas bort för att förhindra att känsliga och icke-känsliga data kombineras i Adobe Commerce SaaS-lagret. Skapa en supportbiljett för att ta bort dina dataspaces.
-1. **Konfigurera ny miljö**: [Installationen av Commerce Services Connector](https://experienceleague.adobe.com/sv/docs/commerce/user-guides/integration-services/saas) i den nya HIPAA Commerce-instansen bör konfigureras först efter att datamängderna har tagits bort. Den nya SaaS-miljön för HIPAA bör endast användas efter att de gamla dataspaces har tagits bort. Installationen av Commerce Services Connector aktiverar automatiskt skapandet av nya SaaS-dataspaces.
+1. **Konfigurera ny miljö**: [Installationen av Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas) i den nya HIPAA Commerce-instansen bör konfigureras först efter att datamängderna har tagits bort. Den nya SaaS-miljön för HIPAA bör endast användas efter att de gamla dataspaces har tagits bort. Installationen av Commerce Services Connector aktiverar automatiskt skapandet av nya SaaS-dataspaces.
 1. **Migreringsstrategi**: Borttagningen av SaaS-dataspaces är en oåterkallelig process och tar bort alla katalogdata och relaterade konfigurationer. Det måste finnas en migreringsstrategi om du vill överföra några av dina gamla data eller konfigurationer. Handlaren ansvarar för denna strategi. En supportbiljett för borttagning av befintliga datamängder bör skapas först när säkerhetskopieringen av migreringsdata (om tillämpligt) har slutförts.
 
 >[!NOTE]
@@ -39,8 +40,8 @@ Kunderna måste se till att `staging_for_support`-miljön:
 
 - **Commerce-tjänster som inte är HIPAA-klara** - Kunder får inte använda Adobe Commerce-tjänster, till exempel Live Search, Produktrekommendationer, Betalningstjänster, Försäljningskanaler eller Commerce Intelligence eftersom de inte är HIPAA-klara. Kunder bör endast använda [HIPAA-förberedda tjänster](overview.md).
 
-- **Dataanslutning** - Endast den bakomliggande kontors-samlaren i tillägget [Dataanslutning](https://experienceleague.adobe.com/sv/docs/commerce/data-connection/overview) är HIPAA-klar. Kunder bör inte skicka PHI till dataanslutningstjänster som inte är HIPAA-förberedda, som butikshändelser och Audience Activation. Kunderna måste se till att datainsamlingen för butiken är inaktiverad.
+- **Dataanslutning** - Endast den bakomliggande kontors-samlaren i tillägget [Dataanslutning](https://experienceleague.adobe.com/en/docs/commerce/data-connection/overview) är HIPAA-klar. Kunder bör inte skicka PHI till dataanslutningstjänster som inte är HIPAA-förberedda, som butikshändelser och Audience Activation. Kunderna måste se till att datainsamlingen för butiken är inaktiverad.
 
-- **Katalogtjänsten** - Enligt design bearbetar inte [katalogtjänsten](https://experienceleague.adobe.com/sv/docs/commerce/catalog-service/overview) PHI, vilket innebär att den inte omfattas av beredskapsgranskningen och kompatibiliteten för HIPAA. Kunderna ansvarar för att säkerställa att de använder denna tjänst baserat på sin egen utvärdering av användningsfall och i samråd med jurister. Kunder bör inte heller använda katalogtjänsten via den federerade tjänsten för att undvika risken att skicka PHI till icke-HIPAA-klara tjänster.
+- **Katalogtjänsten** - Enligt design bearbetar inte [katalogtjänsten](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/overview) PHI, vilket innebär att den inte omfattas av beredskapsgranskningen och kompatibiliteten för HIPAA. Kunderna ansvarar för att säkerställa att de använder denna tjänst baserat på sin egen utvärdering av användningsfall och i samråd med jurister. Kunder bör inte heller använda katalogtjänsten via den federerade tjänsten för att undvika risken att skicka PHI till icke-HIPAA-klara tjänster.
 
-- **SaaS-dataexport** - Tjänsten [SaaS-dataexport](https://experienceleague.adobe.com/sv/docs/commerce/saas-data-export/overview) bör konfigureras så att den endast skickar data för HIPAA-komponenter i Adobe Commerce.
+- **SaaS-dataexport** - Tjänsten [SaaS-dataexport](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) bör konfigureras så att den endast skickar data för HIPAA-komponenter i Adobe Commerce.

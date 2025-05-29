@@ -3,15 +3,19 @@ title: URL-omskrivningar
 description: Lär dig mer om att skriva om URL-adresser och att använda Commerce URL-omskrivningsverktyg för att ändra URL-adresser som är kopplade till en produkt, kategori eller CMS-sida.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
 
 # URL-omskrivningar
+
+>[!TIP]
+>
+>Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) i dokumentationen för Commerce Storefront
 
 Med URL-omskrivningsverktyget kan du ändra alla URL-adresser som är kopplade till en produkt, kategori eller CMS-sida. När omskrivningen börjar gälla omdirigeras alla länkar som pekar på den tidigare URL:en till den nya adressen.
 
@@ -59,7 +63,7 @@ URL med omskrivning av webbserver
 
     http://www.yourdomain.com/magento/storeview/url-identifier
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Web]** i den vänstra panelen där **[!UICONTROL General]** är expanderat.
 

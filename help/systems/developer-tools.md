@@ -3,9 +3,10 @@ title: Utvecklarverktyg
 description: Läs mer om de avancerade utvecklingsverktygen som är tillgängliga för utvecklare som arbetar med anpassningsprojekt.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -26,14 +27,14 @@ Använd de avancerade utvecklingsverktygen för att fastställa kompileringsläg
 
 Din Adobe Commerce- eller Magento Open Source-instans kan distribueras för körning i antingen _produktion_ eller _utvecklarläge_. De verktyg och konfigurationsinställningar som är särskilt utformade för utvecklare är bara tillgängliga när butiken körs i _utvecklarläge_.
 
-Åtgärdsläget kan bara ändras från serverns kommandorad av en användare med lämplig behörighet. Mer information finns i [Ange åtgärdsläge](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=sv-SE) i _konfigurationshandboken_.
+Åtgärdsläget kan bara ändras från serverns kommandorad av en användare med lämplig behörighet. Mer information finns i [Ange åtgärdsläge](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) i _konfigurationshandboken_.
 
 De flesta avsnitten i dokumentationen för handlare gäller för en Commerce-instans som körs i produktionsläge. Följande konfigurationsinställningar och verktyg kan dock bara användas när installationen körs i utvecklarläge.
 
 ## Utvecklingsarbetsflöde
 
 Frontend Development Workflow-typen avgör om mindre kompilering sker på klient- eller serversidan under utvecklingen. Less är ett tillägg till CSS som har ytterligare funktioner och konventioner och som skapar strömlinjeformad kod. Mindre kompilering på klientsidan rekommenderas för temautveckling. Kompilering på serversidan är standardläge. Alternativen för utvecklingsarbetsflöde är inte tillgängliga för butiker i produktionsläge.
-Se [LESS-kompilering på klientsidan jämfört med ](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target=&quot;_blank&quot;} i dokumentationen för Commerce-utvecklare.
+Se [LESS-kompilering på klientsidan jämfört med serversidan](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"} i dokumentationen för Commerce-utvecklare.
 
 >[!NOTE]
 >
@@ -41,7 +42,7 @@ Se [LESS-kompilering på klientsidan jämfört med ](https://developer.adobe.com
 
 ![Avancerad konfiguration - utvecklingsarbetsflöde för frontend](../configuration-reference/advanced/assets/developer-frontend-development-workflow.png){width="600" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -58,7 +59,7 @@ Se [LESS-kompilering på klientsidan jämfört med ](https://developer.adobe.com
 
 Genom att lägga till en digital signatur i URL:en för statiska filer kan webbläsarna identifiera när en nyare version av filen är tillgänglig. Statiska filer som kan spåras med digitala signaturer är JavaScript, CSS, bilder och teckensnitt. Signaturen läggs till i sökvägen direkt efter bas-URL:en. Om en fils signatur skiljer sig från vad som lagras i webbläsarens cache, används den nyare versionen av filen.
 
-Se [Signering av statiskt innehåll](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=sv-SE){:target=&quot;_blank&quot;} i dokumentationen för Commerce-utvecklare.
+Se [Statisk innehållssignering](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} i dokumentationen för Commerce-utvecklare.
 
 >[!NOTE]
 >
@@ -70,7 +71,7 @@ En detaljerad lista över konfigurationsinställningarna finns i [_Statiska fili
 
 **_Så här aktiverar du signerade statiska filer:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -90,7 +91,7 @@ Den tid det tar att läsa in resursfiler kan minskas genom att filer sammanfogas
 
 Som standard sammanfogar, paketerar eller minimerar inte Adobe Commerce och Magento Open Source filer, och projektutvecklaren bör avgöra vilka filoptimeringsmetoder som ska användas.
 
-Mer information finns i [Bästa praxis för prestanda](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=sv-SE).
+Mer information finns i [Bästa praxis för prestanda](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html).
 
 >[!NOTE]
 >
@@ -106,7 +107,7 @@ Mer information finns i [Bästa praxis för prestanda](https://experienceleague.
 
 **_Så här optimerar du resursfiler:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -140,11 +141,11 @@ Innan du använder ett verktyg som [mallsökvägstips](#template-path-hints) må
 >
 >Begränsningar för utvecklarklient kan endast anges i [utvecklarläge](../systems/developer-tools.md#operation-modes).
 
-Mer teknisk information finns i [Anpassad VCL för att tillåta begäranden](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=sv-SE) i _Commerce on Cloud Infrastructure Guide_.
+Mer teknisk information finns i [Anpassad VCL för att tillåta begäranden](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) i _Commerce on Cloud Infrastructure Guide_.
 
 **_Så här lägger du till din IP-adress till tillåtelselista:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -168,7 +169,7 @@ Tips för mallsökvägar är ett diagnostiskt verktyg som lägger till antecknin
 >
 >Tips för mallsökväg kan bara redigeras i [utvecklarläget](../systems/developer-tools.md#operation-modes).
 
-Mer information finns i [Hitta mallar, layouter och format](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target=&quot;_blank&quot;} i dokumentationen för Commerce-utvecklare.
+Mer information finns i [Hitta mallar, layouter och format](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"} i dokumentationen för Commerce-utvecklare.
 
 ![Exempelarkiv - tips för mallsökvägar](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 
@@ -180,7 +181,7 @@ Innan du använder sökvägstips för mallar lägger du till din IP-adress i [ti
 
 ### Steg 2: Aktivera tips för mallsökväg
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -200,7 +201,7 @@ Innan du använder sökvägstips för mallar lägger du till din IP-adress i [ti
 
 ### Steg 3: Rensa cachen
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Flush Magento Cache]** i det övre högra hörnet.
 
@@ -224,7 +225,7 @@ Om din butik finns på flera språk kan du göra finjusteringar i den översatta
 
 ### Steg 1: Inaktivera utdatacache
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _.
 
 1. Markera följande kryssrutor:
 
@@ -236,7 +237,7 @@ Om din butik finns på flera språk kan du göra finjusteringar i den översatta
 
 ### Steg 2: Aktivera verktyget Översätt textbundet
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Om du vill arbeta med en viss butiksvy anger du att **[!UICONTROL Store View]** ska uppdateras.
 
@@ -246,7 +247,7 @@ Om din butik finns på flera språk kan du göra finjusteringar i den översatta
 
    Avmarkera kryssrutan **[!UICONTROL Use Website]** om det behövs för att ändra de här inställningarna.
 
-   Alternativet _[!UICONTROL Enabled for Admin]_&#x200B;är inte tillgängligt när du redigerar en viss butiksvy.
+   Alternativet _[!UICONTROL Enabled for Admin]_är inte tillgängligt när du redigerar en viss butiksvy.
 
    ![Avancerad konfiguration - översätt infogad](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 
@@ -280,7 +281,7 @@ Om din butik finns på flera språk kan du göra finjusteringar i den översatta
 
 1. Återvänd till administratören för din butik.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Ange **[!UICONTROL Store View]** till den specifika vy som redigerades.
 
@@ -292,7 +293,7 @@ Om din butik finns på flera språk kan du göra finjusteringar i den översatta
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _.
 
 1. Markera kryssrutan för följande utdatacache som tidigare var inaktiverade:
 

@@ -3,9 +3,10 @@ title: Skapa och uppdatera händelser
 description: Lär dig hur du skapar en händelse som är kopplad till en kategori i din katalog.
 exl-id: 6c9f6a33-6785-4c3a-add6-dc2a6b16ed88
 feature: Marketing Tools, Promotions/Events
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Varje händelse är associerad med en kategori i din katalog och endast en händ
 
 ## Skapa en händelse
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Catalog Event]** i det övre högra hörnet.
 
@@ -52,7 +53,7 @@ Händelser kan redigeras antingen från sidan Händelser eller från den kategor
 
 ### Metod 1: Redigera en händelse från sidan Händelser
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**på sidofältet_ Admin _.
 
 1. Leta reda på händelsen i listan och öppna den i redigeringsläge.
 
@@ -74,7 +75,7 @@ Händelser kan redigeras antingen från sidan Händelser eller från den kategor
 
 ## Ta bort en händelse
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**på sidofältet_ Admin _.
 
 1. Leta reda på händelsen i listan och öppna den i redigeringsläge.
 

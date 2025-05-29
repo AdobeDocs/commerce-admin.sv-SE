@@ -4,9 +4,10 @@ description: Lär dig hur du konfigurerar OAuth-autentiseringsuppgifter och omdi
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Genom att definiera en integrering i Commerce Admin kan du fastställa platsen f
 
 ## Lägg till en integrering
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**på sidofältet_ Admin _.
 
    ![Ny integrering](./assets/integration-new.png){width="600" zoomable="yes"}
 
@@ -60,7 +61,7 @@ Genom att definiera en integrering i Commerce Admin kan du fastställa platsen f
 
 Som standard visas en sparad integrering i rutnätet med statusen `Inactive`. Så här aktiverar du den:
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**på sidofältet_ Admin _.
 
 1. Hitta den nyskapade integreringen och klicka på länken **[!UICONTROL Activate]**.
 
@@ -76,7 +77,7 @@ Som standard visas en sparad integrering i rutnätet med statusen `Inactive`. S�
 
 Om du vill generera en ny integreringsåtkomsttoken och åtkomsttokenhemlighet har du auktoriserat integreringen från administratören igen:
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**på sidofältet_ Admin _.
 
 1. Hitta integreringen med statusen **[!UICONTROL Active]**.
 
@@ -88,9 +89,9 @@ Om du vill generera en ny integreringsåtkomsttoken och åtkomsttokenhemlighet h
 
 ## Ändra säkerhetsinställningen för API-gäståtkomst
 
-Som standard tillåter systemet inte anonym gäståtkomst till CMS, kataloger och andra lagringsresurser. Om du måste ändra inställningen gör du följande:
+Som standard tillåter systemet inte anonym gäståtkomst till CMS, katalog och andra butiksresurser. Om du måste ändra inställningen gör du följande:
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Services]** i den vänstra panelen och välj **[!UICONTROL Magento Web API]**.
 
@@ -106,7 +107,7 @@ Mer information finns i [Begränsa åtkomst till anonyma webb-API:er](https://de
 
 ## Ta bort en integrering
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**på sidofältet_ Admin _.
 
 1. Leta reda på den befintliga integrationen och klicka på ikonen ( ![papperskorgsikonen](../assets/icon-delete-trashcan-solid.png) ) i kolumnen **[!UICONTROL Delete]** .
 

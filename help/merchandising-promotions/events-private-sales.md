@@ -3,9 +3,10 @@ title: Privat försäljning och evenemang
 description: Lär dig hur du använder privat försäljning och andra kataloghändelser för att öka försäljningen till din befintliga kundbas och generera spänningsproblem och nya leads.
 exl-id: 0b890463-b1e5-4327-8d8a-372afd53312a
 feature: Reporting, Promotions/Events
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Privat försäljning och andra kataloghändelser är ett bra sätt att använda er befintliga kundbas för att generera spänningsproblem och nya leads eller för att avlasta överskottslager. Du kan skapa tidsbegränsad försäljning, begränsa försäljningen till specifika medlemmar eller skapa en fristående privat försäljningssida. Du kan också definiera inbjudningar och händelseinformation. Öka varumärkeslojaliteten och skapa ett krångel genom att ge era bästa kunder VIP behandling. Erbjud exklusiv åtkomst till medlemmar som bara säljer eller säljer privat för att öka varumärkeslojaliteten. Du kan också använda dessa försäljningar för att likvidera överskottsvaror. Kundgrupper är användbara när du ställer in den här typen av medlemmar och VIP försäljning.
+Privat försäljning och andra kataloghändelser är ett bra sätt att använda er befintliga kundbas för att generera spänningsproblem och nya leads eller för att avlasta överskottslager. Du kan skapa tidsbegränsad försäljning, begränsa försäljningen till specifika medlemmar eller skapa en fristående privat försäljningssida. Du kan också definiera inbjudningar och händelseinformation. Öka varumärkeslojaliteten och skapa ett krångel genom att ge era bästa kunder VIP-behandling. Erbjud exklusiv åtkomst till medlemmar som bara säljer eller säljer privat för att öka varumärkeslojaliteten. Du kan också använda dessa försäljningar för att likvidera överskottsvaror. Kundgrupper är bara användbara när det gäller att konfigurera den här typen av medlemmar och VIP försäljning.
 
 ![Exempelarkiv - händelse på startsida](./assets/storefront-event-home-page.png){width="700" zoomable="yes"}
 

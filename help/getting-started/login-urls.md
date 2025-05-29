@@ -4,9 +4,9 @@ description: Läs mer om Commerce URL:er och kontoinloggningsuppgifter som anvä
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 feature: System
 role: Admin, Leader
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,6 @@ Se till att du konfigurerar ett [kundkonto](../customers/account-dashboard.md) n
 
 ## Exempeldata
 
-Adobe tillhandahåller en exempeldatauppsättning som innehåller en exempelbutik med mer än 250 produkter (cirka 200 av dem är konfigurerbara produkter), kategorier, kampanjprisregler, CMS-sidor, banners osv. Exempeldata använder _Luma_-temat på butiken. [Det är valfritt att installera exempeldata](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=sv-SE), men det kan vara användbart för att testa och utveckla anpassningar för din e-handelsverksamhet.
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
+Adobe tillhandahåller en exempeldatauppsättning som innehåller en exempelbutik med mer än 250 produkter (cirka 200 av dem är konfigurerbara produkter), kategorier, kampanjprisregler, CMS-sidor, banners osv. Exempeldata använder _Luma_-temat på butiken. [Det är valfritt att installera exempeldata](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html), men det kan vara användbart för att testa och utveckla anpassningar för din e-handelsverksamhet.

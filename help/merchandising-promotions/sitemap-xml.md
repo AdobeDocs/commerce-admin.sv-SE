@@ -3,14 +3,19 @@ title: Webbplatskartor
 description: Lär dig hur du konfigurerar en webbplatskarta för att indexera alla sidor och bilder på dina Commerce-webbplatser.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
 
 # Webbplatskartor
+
+>[!TIP]
+>
+>Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) i dokumentationen för Commerce Storefront
 
 En webbplatskarta förbättrar det sätt på vilket din butik indexeras av sökmotorer och är utformad för att hitta sidor som kan förbises av webbcrawler. En platskarta kan konfigureras för indexering av alla sidor och bilder.
 
@@ -28,7 +33,7 @@ Slutför konfigurationen [XML-platskarta](#site-map-configuration) för att fast
 
 ## Steg 2. Generera webbplatskartan
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**&#x200B;på menyn_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**på menyn_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Site Map]**.
 
@@ -80,7 +85,7 @@ Så här skapar du platskartor för en multistore-instans:
        /sitemaps/domain_1/
        /sitemaps/domain_2/
    
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**på sidofältet_ Admin _.
 
 1. Skapa eller redigera platskartlistor för varje butik och ställ in **[!UICONTROL Path]** på den som du skapade för butiken:
 
@@ -97,7 +102,7 @@ Så här skapar du platskartor för en multistore-instans:
    
 >[!NOTE]
 >
->Om din webbplats använder webbservermotorn [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=sv-SE) bör du uppdatera filen [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) i webbplatsens rot för att dirigera eventuella andra platskarteförfrågningar till rätt plats.
+>Om din webbplats använder webbservermotorn [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) bör du uppdatera filen [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) i webbplatsens rot för att dirigera eventuella andra platskarteförfrågningar till rätt plats.
 
 ## Kolumnbeskrivningar
 
@@ -119,7 +124,7 @@ Din webbplatskarta bör uppdateras så ofta som innehållet på din webbplats ä
 
 ### Steg 1. Ange frekvens och prioritet för innehållsuppdateringar
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL XML Sitemap]**.
 
@@ -223,6 +228,6 @@ Din webbplatskarta bör uppdateras så ofta som innehållet på din webbplats ä
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=sv-SE
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

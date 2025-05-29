@@ -2,9 +2,9 @@
 title: '[!UICONTROL System]-menyn'
 description: Commerce Admin innehåller menyn [!UICONTROL System] som ger åtkomst till verktyg för import och export av data, hantering av systemcache och index, behörighetshantering, behörighetshantering, säkerhetskopiering, systemmeddelanden och anpassade variabler.
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
-source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 Menyn [!UICONTROL System] innehåller verktyg för att importera och exportera data, hantera systemcacher och index, hantera behörigheter, säkerhetskopiera, systemmeddelanden och anpassade variabler.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 ![Systemmeny](./assets/system-menu.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+
+![Systemmeny](./assets/system-menu-accs.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
 
 **_Så här visar du [!UICONTROL System]-menyn:_**
 
@@ -25,13 +39,19 @@ Dessa [verktyg](data-transfer.md) ger dig möjlighet att hantera flera poster i 
 
 ## [!UICONTROL Extensions]
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 Hantera [tredjepartsintegreringar](integrations.md) och tillägg för din butik.
 
 ## [!UICONTROL Tools]
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 Använd den här verktygsuppsättningen för att hantera systemresurser, inklusive hantering av [cache](cache-management.md) och [index](index-management.md), [säkerhetskopiering](backups.md) och installationsinställningar.
 
 ## [!UICONTROL Support]
+
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce)
 

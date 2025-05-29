@@ -2,9 +2,9 @@
 title: Introduktion till administratörssystem
 description: Lär dig mer om de systemverktyg och funktioner som butiksadministratören kan använda för att hantera webbplatser, data, integreringar och admin-användare på ett effektivt sätt.
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
+source-git-commit: 5517bb16a8f7c8aa2f9f057df773f142302a69c7
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,10 @@ En av uppgifterna du bör utföra innan du lanserar din butik är att granska e-
 
 Administratören stöder även olika uppgifter för systemadministratörer som kan hantera administratörsanvändare inom organisationen och hantera butiken. De innehåller följande verktyg:
 
-- **Administratörsanvändarkonton och behörigheter** - Hantera administratörsanvändarkonton [&#128279;](permissions-users-all.md), samt associerade [roller och behörigheter](permissions-user-roles.md) som styr deras åtkomst till platser och funktionsområden i administratören.
+- **Administratörsanvändarkonton och behörigheter** - Hantera administratörsanvändarkonton [](permissions-users-all.md), samt associerade [roller och behörigheter](permissions-user-roles.md) som styr deras åtkomst till platser och funktionsområden i administratören.
 - **Administratörssessioner och webbplatsbegränsningar** - Granska [säkerheten](security.md) och lär dig hantera administratörssessioner och autentiseringsuppgifter, implementera CAPTCHA och hantera webbplatsbegränsningar.
-- **Systemverktyg** - Utför rutinmässiga [index](index-management.md)- och [cache](cache-management.md)-hanteringsåtgärder, [säkerhetskopiera](backups.md) systemet, hantera [schemalagda åtgärder](data-scheduled-import-export.md) och använd ett sortiment av [utvecklingsverktyg](developer-tools.md).
+- [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} **Systemverktyg** - Utför rutinmässiga [index](index-management.md)- och [cache](cache-management.md)-hanteringsåtgärder, [säkerhetskopiera](backups.md) systemet, hantera [schemalagda åtgärder](data-scheduled-import-export.md) och använd ett sortiment av [utvecklingsverktyg](developer-tools.md).
 - **Dataöverföring** - Använd [dataöverföringsverktygen](data-transfer.md) för att importera och exportera data, samt för att hantera produkt-, prissättnings-, kund- och momsdata.
 - **Integrationer** - Ange platsen för OAuth-autentiseringsuppgifter och omdirigerings-URL för [tredjepartsintegreringar](integrations.md) och identifiera tillgängliga API-resurser.
 - **Åtgärdsloggar** - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Åtkomst till posterna ([åtgärdsloggar](action-log.md)) för ändringar gjorda av administratörsanvändare som arbetar i din butik.
-- **Supportverktyg** - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) [Systemrapporter](support.md#access-system-reports) är utformade för att identifiera kända fel i systemet. De kan användas som en resurs under utvecklings- och optimeringsprocesserna och som ett diagnostiskt verktyg som hjälper vårt supportteam att identifiera och lösa problem.
+- [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} **Supportverktyg** - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) [Systemrapporter](support.md#access-system-reports)) är utformade för att identifiera kända fel i systemet. De kan användas som en resurs under utvecklings- och optimeringsprocesserna och som ett diagnostiskt verktyg som hjälper vårt supportteam att identifiera och lösa problem.

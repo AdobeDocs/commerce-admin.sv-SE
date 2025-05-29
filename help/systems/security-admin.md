@@ -4,16 +4,17 @@ description: Lär dig konfigurera säkerhet för din butiksadministratör.
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-source-git-commit: e301cfaeec3a8427fff6138ba041bdbd7433c137
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
 # Konfigurera administratörssäkerhet
 
-Vi rekommenderar att du använder ett mångfacetterat tillvägagångssätt för att skydda din butik. Du kan börja med att använda en [anpassad administratörs-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) som inte är enkel att gissa sig till, i stället för den självklara &quot;Admin&quot; eller &quot;Backend&quot;. Som standard måste lösenord som används för att [logga in](../getting-started/admin-signin.md) i Admin vara minst sju tecken långa och innehålla både bokstäver och siffror. Som [bästa praxis](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=sv-SE) bör du bara använda starka administratörslösenord som innehåller en kombination av bokstäver, siffror och symboler. Adobe Commerce och Magento Open Source tillåter inte återanvändning av de fyra sista lösenorden som tilldelats kontot.
+Vi rekommenderar att du använder ett mångfacetterat tillvägagångssätt för att skydda din butik. Du kan börja med att använda en [anpassad administratörs-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) som inte är enkel att gissa sig till, i stället för den självklara &quot;Admin&quot; eller &quot;Backend&quot;. Som standard måste lösenord som används för att [logga in](../getting-started/admin-signin.md) i Admin vara minst sju tecken långa och innehålla både bokstäver och siffror. Som [bästa praxis](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) bör du bara använda starka administratörslösenord som innehåller en kombination av bokstäver, siffror och symboler. Adobe Commerce och Magento Open Source tillåter inte återanvändning av de fyra sista lösenorden som tilldelats kontot.
 
 Administratörens säkerhetskonfiguration ger dig möjlighet att:
 
@@ -29,15 +30,15 @@ Utöver säkerhetsinställningarna i det här avsnittet krävs [tvåfaktorautent
 
 >[!NOTE]
 >
->Lager som har aktiverat [!DNL Adobe Identity Management Services] (IMS)-autentisering har inbyggda Adobe Commerce och Magento Open Source 2FA inaktiverade. Administratörsanvändare som är inloggade på sin Commerce-instans med sina inloggningsuppgifter för Adobe behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [[!DNL Adobe Identity Management Service] (IMS)-integreringsöversikt](../getting-started/adobe-ims-integration-overview.md).
+>Lager som har aktiverat [!DNL Adobe Identity Management Services] (IMS)-autentisering har inbyggda Adobe Commerce och Magento Open Source 2FA inaktiverade. Administratörsanvändare som är inloggade på sin Commerce-instans med sina Adobe-inloggningsuppgifter behöver inte autentisera igen för många administratörsuppgifter. Autentisering hanteras av Adobe IMS när administratörsanvändaren loggar in på sin aktuella session. Se [[!DNL Adobe Identity Management Service] (IMS)-integreringsöversikt](../getting-started/adobe-ims-integration-overview.md).
 
-Mer teknisk information finns i [Säkerhetsöversikt](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target=&quot;_blank&quot;} i utvecklardokumentationen.
+Mer teknisk information finns i [Säkerhetsöversikt](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} i utvecklardokumentationen.
 
 ![Administratörssäkerhet](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 ## Konfigurera administratörssäkerhet
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Admin]** i den vänstra panelen under _[!UICONTROL Advanced]_.
 

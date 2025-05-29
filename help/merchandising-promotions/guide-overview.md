@@ -2,9 +2,9 @@
 title: Handbok för marknadsföring och reklam
 description: Utforska detaljerad information om marknadsförings- och marknadsföringsfunktioner i Adobe Commerce, inklusive riktade rabatter och evenemang.
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Den här guiden täcker:
 | ------- | ----------- |
 | [Introduktion](introduction.md) | Översikt över försäljnings- och marknadsföringsfunktioner med en Commerce-instans. |
 | [Marknadsföringsmeny](marketing-menu.md) | Använd menyn [!UICONTROL Marketing] för att få tillgång till flera funktioner för att hantera kampanjer, kommunikation, SEO och användargenererat innehåll. |
-| [Visual Merchandiser](visual-merchandiser.md) | Utforska den här uppsättningen avancerade verktyg som gör att du kan positionera produkter och använda villkor som bestämmer vilka produkter som visas i kategorilistan. |
+| [Visual Merchandiser](visual-merchandiser.md) | [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Utforska den här uppsättningen avancerade verktyg som gör att du kan placera produkter och använda villkor som avgör vilka produkter som visas i kategorilistan. |
 | [Presentregister](gift-registries.md) | Ge kunderna möjlighet att skapa presentregister för särskilda tillfällen och bjuda in vänner och familj att köpa gåvor från presentregistret. |
 | [Belönings- och förmånsprogram](rewards-loyalty.md) | Implementera program som driver kundengagemang och främjar kundlojalitet. |
 | [Privat försäljning och händelser](events-private-sales.md) | Skapa tidsbegränsad försäljning, begränsa försäljningen till specifika medlemmar eller skapa en fristående privat försäljningssida. |

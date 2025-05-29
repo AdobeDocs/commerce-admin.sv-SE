@@ -3,16 +3,17 @@ title: Cron (schemalagda aktiviteter)
 description: Lär dig hur du styr körning och schemaläggning av Commerce cron-jobb i Admin.
 exl-id: e0da08ab-212f-4977-9387-0b4b40560cfb
 feature: System, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Cron (schemalagda aktiviteter)
 
-Adobe Commerce och Magento Open Source utför vissa åtgärder enligt schema genom att regelbundet köra ett skript. Du kan styra körning och schemaläggning av Commerce cron-jobb från Admin. Butiksåtgärder som körs enligt ett cron-schema omfattar, men är inte begränsade till:
+Adobe Commerce och Magento Open Source utför vissa åtgärder enligt schema genom att regelbundet köra skript. Du kan styra körning och schemaläggning av Commerce cron-jobb från Admin. Butiksåtgärder som körs enligt ett cron-schema omfattar, men är inte begränsade till:
 
 - [E-post](email-communications.md)
 - [Katalogprisregler](../merchandising-promotions/price-rules-catalog.md)
@@ -23,18 +24,18 @@ Adobe Commerce och Magento Open Source utför vissa åtgärder enligt schema gen
 
 >[!IMPORTANT]
 >
->Commerce tjänster måste installeras i crontab för att säkerställa att kärnkomponenterna och vissa tillägg från tredje part fungerar som förväntat. Mer information om hur du installerar tjänster på crontab finns i [instruktionerna i _installationshandboken_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=sv-SE).
+>Commerce tjänster måste installeras i crontab för att säkerställa att kärnkomponenterna och vissa tillägg från tredje part fungerar som förväntat. Mer information om hur du installerar tjänster på crontab finns i [instruktionerna i _installationshandboken_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html).
 
 Dessutom kan du konfigurera följande så att de körs enligt ett cron-schema:
 
 - Uppdateringar och omindexering av ordersystemets stödraster
 - Löptid för väntande betalning
 
-Kontrollera att [bas-URL:erna](../stores-purchase/store-urls.md) för arkivet är korrekt inställda så att URL:erna som genereras under kroniåtgärder är korrekta. Information om Adobe Commerce i molninfrastruktur finns i [Konfigurera kundjobben](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=sv-SE) i _Commerce i molninfrastrukturguiden_. Information om lokala inställningar finns i [Konfigurera och kör ikon](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=sv-SE) i _konfigurationshandboken_.
+Kontrollera att [bas-URL:erna](../stores-purchase/store-urls.md) för arkivet är korrekt inställda så att URL:erna som genereras under kroniåtgärder är korrekta. Information om Adobe Commerce i molninfrastruktur finns i [Konfigurera kundjobben](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) i _Commerce i molninfrastrukturguiden_. Information om lokala inställningar finns i [Konfigurera och kör ikon](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) i _konfigurationshandboken_.
 
 ## Konfigurera cron
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 

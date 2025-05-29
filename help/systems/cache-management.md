@@ -3,9 +3,10 @@ title: Cachehantering
 description: Lär dig hur du använder verktygen för cachehantering, som är ett enkelt sätt att förbättra prestanda för din plats.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -16,20 +17,20 @@ Cachehanteringssystemet Adobe Commerce och Magento Open Source är ett enkelt s�
 
 ![Spara produktattribut - uppdatera cachemeddelande](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-Sidan _[!UICONTROL Cache Management]_&#x200B;visar status för varje primärt cacheminne och dess associerade tagg. De stora knapparna i det övre högra hörnet kan användas för att tömma cacheminnet, eller den kompletta cachelagringen. Längst ned på sidan kan du med ytterligare knappar tömma cacheminnet för katalogproduktbilder och JavaScript/CSS-cacheminnet.
+Sidan _[!UICONTROL Cache Management]_visar status för varje primärt cacheminne och dess associerade tagg. De stora knapparna i det övre högra hörnet kan användas för att tömma cacheminnet, eller den kompletta cachelagringen. Längst ned på sidan kan du med ytterligare knappar tömma cacheminnet för katalogproduktbilder och JavaScript/CSS-cacheminnet.
 
 >[!IMPORTANT]
 >
->När katalogenheter ändras kan det påverka andra sidor och göra flera cacher ogiltiga samtidigt. När du granskar sidan för cachehantering kan du se ogiltiga objekt som behöver uppdateras när de _&#x200B;**inte redigerades direkt**&#x200B;_. Den här ogiltigförklaringen inträffar t.ex. när du redigerar en produkt i katalogen som är tilldelad en kategori eller när du ändrar en relaterad produktregel.
+>När katalogenheter ändras kan det påverka andra sidor och göra flera cacher ogiltiga samtidigt. När du granskar sidan för cachehantering kan du se ogiltiga objekt som behöver uppdateras när de _**inte redigerades direkt**_. Den här ogiltigförklaringen inträffar t.ex. när du redigerar en produkt i katalogen som är tilldelad en kategori eller när du ändrar en relaterad produktregel.
 
 När du har rensat ett cacheminne bör du alltid uppdatera webbläsaren så att du ser de senaste filerna. När du rensar Commerce-cachen rensas inte webbläsarens cacheminne. Du kan behöva rensa webbläsarens cache för att se uppdaterat innehåll.
 
 Mer teknisk information om Adobe Commerce-cachelagring finns i [Cacheöversikt](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} i _Commerce Fornend Development Guide_.
 
-Gå till sidan _[!UICONTROL Cache Management]_&#x200B;genom att göra något av följande:
+Gå till sidan _[!UICONTROL Cache Management]_genom att göra något av följande:
 
 - Klicka på länken **[!UICONTROL Cache Management]** i meddelandet ovanför arbetsytan.
-- Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _.
+- Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**på sidofältet_ Admin _.
 
 ![Cachehantering](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
 
@@ -86,7 +87,7 @@ Mer information om hur du tilldelar resurser för att bevilja åtkomst för admi
 
 ## Rensa produktbildcachen
 
-1. Klicka på **[!UICONTROL Flush Catalog Images Cache]** under _[!UICONTROL Additional Cache Management]_&#x200B;för att rensa förgenererade produktbildfiler.
+1. Klicka på **[!UICONTROL Flush Catalog Images Cache]** under _[!UICONTROL Additional Cache Management]_för att rensa förgenererade produktbildfiler.
 
    Meddelandet `Image cache was cleaned` visas högst upp på arbetsytan.
 
@@ -94,7 +95,7 @@ Mer information om hur du tilldelar resurser för att bevilja åtkomst för admi
 
 ## Töm JavaScript/CSS-cachen
 
-1. Under _[!UICONTROL Additional Cache Management]_&#x200B;rensar du JavaScript- och CSS-filer som har slagits samman till en enda fil genom att klicka på&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**.
+1. Under _[!UICONTROL Additional Cache Management]_rensar du JavaScript- och CSS-filer som har slagits samman till en enda fil genom att klicka på&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**.
 
    Meddelandet `The JavaScript/CSS cache has been cleaned` visas högst upp på arbetsytan.
 
@@ -102,13 +103,13 @@ Mer information om hur du tilldelar resurser för att bevilja åtkomst för admi
 
 ## Töm med kommandoraden
 
-Systemadministratörer och utvecklare med tillgång till Commerce programserver kan också hantera cache- och cachekonfigurationen från kommandoraden med Commerce CLI. Se [Hantera cachen](https://experienceleague.adobe.com/sv/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} i _Konfigurationshandboken_.
+Systemadministratörer och utvecklare med tillgång till Commerce programserver kan också hantera cache- och cachekonfigurationen från kommandoraden med Commerce CLI. Se [Hantera cachen](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} i _Konfigurationshandboken_.
 
 ## Kontroller
 
 | Kontroll | Beskrivning |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Mass Actions] | Markerar kryssrutan för flera cacher. Alternativ: <br/>**[!UICONTROL Select All]**- Markerar kryssrutan för alla cacheminnen.<br/>**&#x200B; Avmarkera alla &#x200B;**- kryssrutan för alla cacheminnen rensas.<br/>**[!UICONTROL Select Visible]** - Markerar kryssrutan för alla synliga cacheminnen. <br/>**[!UICONTROL Unselect Visible]**- Rensar kryssrutan för alla synliga cacher. |
+| [!UICONTROL Mass Actions] | Markerar kryssrutan för flera cacher. Alternativ: <br/>**[!UICONTROL Select All]**- Markerar kryssrutan för alla cacheminnen.<br/>** Avmarkera alla **- kryssrutan för alla cacheminnen rensas.<br/>**[!UICONTROL Select Visible]** - Markerar kryssrutan för alla synliga cacheminnen. <br/>**[!UICONTROL Unselect Visible]**- Rensar kryssrutan för alla synliga cacher. |
 | [!UICONTROL Actions] | Anger vilken åtgärd som ska tillämpas på alla markerade cacheminnen. Alternativ: <br/>**[!UICONTROL Enable]**- Aktiverar alla markerade cacheminnen.<br/>**[!UICONTROL Disable]** - Inaktiverar alla markerade cacheminnen. <br/>**[!UICONTROL Refresh]**- Uppdaterar alla markerade cacheminnen. |
 | [!UICONTROL Submit] | Tillämpar åtgärden på alla markerade cacheminnen. |
 
@@ -136,11 +137,11 @@ På sidan [!UICONTROL Cache Management] visas de cachetyper som du kan hantera f
 
 Utvecklare och systemintegratörer använder dessa värden för att konfigurera och hantera cachning när de anpassar eller integrerar med Adobe Commerce, till exempel för att utveckla integreringar med GraphQL API:er.
 
-[!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} `cache_type_id` används även för cachehantering från programserverns kommandorad med Commerce CLI. ` bin/magento cache:status config` visar till exempel aktuell status för konfigurationscachen.
+[!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} `cache_type_id` används även för cachehantering från programserverns kommandorad med Commerce CLI. ` bin/magento cache:status config` visar till exempel aktuell status för konfigurationscachen.
 
 >[!NOTE]
 >
->Utvecklare och systemintegratörer kan anpassa och utöka Commerce cachehanteringssystem för att stödja anpassade moduler och integreringar. Mer information finns i [Konfigurera cachelagring](https://experienceleague.adobe.com/sv/docs/commerce-operations/configuration-guide/cache/caching-overview) i _Konfigurationshandboken för Adobe Commerce_.
+>Utvecklare och systemintegratörer kan anpassa och utöka Commerce cachehanteringssystem för att stödja anpassade moduler och integreringar. Mer information finns i [Konfigurera cachelagring](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) i _Konfigurationshandboken för Adobe Commerce_.
 
 <!-- prettier-ignore -->
 
@@ -183,11 +184,11 @@ Cachelagrat innehåll kan användas för att behandla begäranden från liknande
 - `Sessioned` - Under ett session-besök tilldelas de kunder som interagerar med butiken ett sessions-ID. Interaktionerna kan vara att jämföra produkter eller lägga till produkter i kundvagnen. Cachelagrade sidor som genereras under sessionen används endast av den användaren under sessionen.
 - `Customer` - Kundsessioner skapas för kunder som loggar in och handlar med sitt registrerade konto. Under sessionen kan kunderna få specialerbjudanden, kampanjer och priser baserat på deras tilldelade kundgrupp.
 
-Mer teknisk information finns i [Konfigurera och använda lack](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=sv-SE){:target="_blank"} och [Använd Redis för Commerce-sidan och standardcachen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=sv-SE){:target="_blank"} i _konfigurationshandboken_.
+Mer teknisk information finns i [Konfigurera och använda lack](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} och [Använd Redis för Commerce-sidan och standardcachen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"} i _konfigurationshandboken_.
 
 **_Så här konfigurerar du helsidescachen:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
@@ -202,7 +203,7 @@ Mer teknisk information finns i [Konfigurera och använda lack](https://experien
 
 1. Ange **[!UICONTROL TTL for public content]** om du vill ange timeout för sidcachen. (Standardvärdet är `86400`)
 
-1. Ange **[!UICONTROL Handles param size]** om du vill ange det maximala antalet [layouthandtag](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) som ska bearbetas på HTTP-slutpunkten [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=sv-SE). Genom att begränsa storleken kan du förbättra säkerheten och prestandan. (Standardvärdet är `100`)
+1. Ange **[!UICONTROL Handles param size]** om du vill ange det maximala antalet [layouthandtag](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) som ska bearbetas på HTTP-slutpunkten [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). Genom att begränsa storleken kan du förbättra säkerheten och prestandan. (Standardvärdet är `100`)
 
 1. Om du använder lack fyller du i avsnittet **[!UICONTROL Varnish Configuration]** enligt följande:
 
@@ -212,7 +213,7 @@ Mer teknisk information finns i [Konfigurera och använda lack](https://experien
 
    - **[!UICONTROL Backend port]** - Identifiera den serverdelsport som används för att generera konfigurationsfiler. Standardvärdet är: `8080`.
 
-   - **[!UICONTROL Grace period]** - Ange hur många sekunder som ska användas som respitperiod för att generera konfigurationsfiler. Se [Avancerad lack-konfiguration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=sv-SE) i _Konfigurationshandboken_.
+   - **[!UICONTROL Grace period]** - Ange hur många sekunder som ska användas som respitperiod för att generera konfigurationsfiler. Se [Avancerad lack-konfiguration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) i _Konfigurationshandboken_.
 
    - Om du vill exportera konfigurationen som en `varnish.vcl`-fil klickar du på knappen för den version av engelska som du använder.
 

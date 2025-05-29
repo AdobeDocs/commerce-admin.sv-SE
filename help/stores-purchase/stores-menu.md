@@ -2,18 +2,32 @@
 title: '[!UICONTROL Stores]-menyn'
 description: Commerce Admin innehåller menyn [!UICONTROL Stores] som ger tillgång till verktyg för att konfigurera butikshierarkin, konfigurationen, lagret, skatter och attribut.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 48d47b7dfe4ab1162b74d650083e7b1a66456d4f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Stores]-menyn
 
-Menyn _[!UICONTROL Stores]_&#x200B;ger åtkomst till inställningar som används mindre ofta, men som refereras under hela Adobe Commerce- eller Magento Open Source-installationen. Bland dessa funktioner finns inställningar för butikshierarki, konfiguration, försäljnings- och orderinställningar, moms och valuta, produktattribut, produktrecensioner och kundgrupper.
+Menyn _[!UICONTROL Stores]_ger åtkomst till inställningar som används mindre ofta, men som refereras under hela Adobe Commerce- eller Magento Open Source-installationen. Bland dessa funktioner finns inställningar för butikshierarki, konfiguration, försäljnings- och orderinställningar, moms och valuta, produktattribut, produktrecensioner och kundgrupper.
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 ![Admin - menyn Lager](./assets/stores-menu.png){width="500" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+
+![Admin - menyn Lager](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Visa menyn [!UICONTROL Stores]
 
