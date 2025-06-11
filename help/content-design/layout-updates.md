@@ -2,9 +2,10 @@
 title: Layoutuppdateringar
 description: Lär dig hur du använder layoutuppdateringar för att anpassa layouten på en sida.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ I följande diagram är namnen som refererar till behållare svarta och blocktyp
 | `page/html_wrapper` | Även om det ingår i standardlayouten är det här blocket föråldrat och inkluderas endast för att säkerställa bakåtkompatibilitet. Använd inte block av den här typen. |
 | `page/html_breadcrumbs` | Namnet på det här blocket är `breadcrumbs` och det är underordnat rubrikblocket. Detta block visar vägbeskrivningar för den aktuella sidan. Det får bara finnas ett block av den här typen per sida. |
 | `page/html_footer` | Blocknamnet är `footer` och är underordnat rotblocket. Sidfotsblocket motsvarar den synliga sidfoten längst ned på sidan och innehåller flera standardblock. Det kan bara finnas ett block av den här typen per sida och det får inte tas bort. |
-| `page/template_links` | Det finns två block av den här typen i standardlayouten. `top.links`-blocket är underordnat rubrikblocket och motsvarar den övre navigeringsmenyn. `footer_links`-blocket är underordnat sidfotsblocket och motsvarar den nedre navigeringsmenyn. <br/><br/>**_Obs!_**&#x200B;Det går att ändra malllänkarna, vilket visas i exemplen. |
+| `page/template_links` | Det finns två block av den här typen i standardlayouten. `top.links`-blocket är underordnat rubrikblocket och motsvarar den övre navigeringsmenyn. `footer_links`-blocket är underordnat sidfotsblocket och motsvarar den nedre navigeringsmenyn. <br/><br/>**_Obs!_**Det går att ändra malllänkarna, vilket visas i exemplen. |
 | `page/switch` | Det finns två block av den här typen i en standardlayout. `store_language`-blocket är underordnat rubrikblocket och motsvarar den översta språkväljaren. Blocket `store_switcher` är underordnat sidfotsblocket och motsvarar väljaren för det nedre arkivet. |
 | kärna/meddelanden | Det finns två block av den här typen i en standardlayout. Blocket `global_messages` visar globala meddelanden. Blocket `messages` används för att visa alla andra meddelanden. Om ni tar bort dessa block ser kunden inga meddelanden. |
 | `core/text_list` | Den här typen av block används ofta i hela [!DNL Commerce] som platshållare för återgivning av underordnade block. |
@@ -52,7 +53,7 @@ Följande steg visar hur du använder en layoutuppdatering för att placera ett 
 
 ### Steg 2: Skapa layoutuppdateringen i XML
 
-1. Disponera layoutinstruktionerna i XML till [Referera till ett CMS-block](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
+1. Disponera layoutinstruktionerna i XML för att [Referera till ett CMS-block](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
 
 1. Spara [layoutinstruktionerna](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) på servern i layoutmappen där XML-filer sparas för temat.
 
@@ -66,14 +67,14 @@ Följande steg visar hur du använder en layoutuppdatering för att placera ett 
 
    | Element | Beskrivning |
    |--- |--- |
-   | CMS-sididentifierare | Sidans URL-nyckel med ett snedstreck (`/`) ersatt med ett understreck (`_`). |
+   | CMS Page Identifier | Sidans URL-nyckel med ett snedstreck (`/`) ersatt med ett understreck (`_`). |
    | Namn på layoutuppdatering | Det alternativ som visas för _anpassad layoutuppdatering_. |
 
    {style="table-layout:auto"}
 
 ### Steg 3: Referera layoutuppdateringen från sidan
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
 
 1. Leta upp sidan där du vill placera blocket och öppna den i redigeringsläge.
 

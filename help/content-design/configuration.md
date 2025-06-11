@@ -3,9 +3,9 @@ title: Designkonfiguration
 description: Designkonfigurationen gör det enkelt att redigera designrelaterade regler och konfigurationsinställningar genom att visa inställningarna på en enda sida.
 exl-id: 43fec57f-d76d-45a9-812b-ba1947cea46d
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Designkonfigurationen gör det enkelt att redigera designrelaterade regler och k
 
 ## Ändra designkonfigurationen
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
@@ -28,7 +28,7 @@ Designkonfigurationen gör det enkelt att redigera designrelaterade regler och k
 
    Om inget tema anges används systemets standardtema. Vissa tillägg från tredje part ändrar systemets standardtema.
 
-1. Om temat bara ska användas för en viss enhet anger du **[!UICONTROL User Agent Rules]**.
+1. [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Om temat bara ska användas för en viss enhet anger du **[!UICONTROL User Agent Rules]**.
 
    ![Användaragentregler](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
@@ -48,13 +48,13 @@ Designkonfigurationen gör det enkelt att redigera designrelaterade regler och k
    >
    >Du kan lägga till så många regler för de enheter som du vill ange. Söksträngarna matchas i den ordning de anges.
 
-1. Under _[!UICONTROL Other Settings]_&#x200B;expanderar du varje avsnitt och följer instruktionerna i de länkade avsnitten för att redigera inställningarna efter behov.
+1. Under _[!UICONTROL Other Settings]_expanderar du varje avsnitt och följer instruktionerna i de länkade avsnitten för att redigera inställningarna efter behov.
 
-   - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
-   - [[!UICONTROL HTML Head]](page-setup.md#html-head)
-   - [[!UICONTROL Header]](page-setup.md#header)
-   - [[!UICONTROL Footer]](page-setup.md#footer)
-   - [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots)
+   - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls) [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+   - [[!UICONTROL HTML Head]](page-setup.md#html-head) [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+   - [[!UICONTROL Header]](page-setup.md#header) [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+   - [[!UICONTROL Footer]](page-setup.md#footer) [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+   - [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots) [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
 

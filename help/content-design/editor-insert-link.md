@@ -1,10 +1,11 @@
 ---
 title: Infoga en länk i redigeraren
-description: Använd WYSIWYG-redigeraren för att lägga till en länk till ditt innehåll
+description: Använd WYSIWYG Editor för att lägga till en länk till ditt innehåll
 exl-id: c9930a4f-a082-4bd8-b0c4-9d86b59a2365
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---

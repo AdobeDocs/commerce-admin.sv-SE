@@ -2,9 +2,10 @@
 title: WYSIWYG Editor
 description: Lär dig använda redigeraren och arbeta med innehåll i en _What You See Is What You Get_-vy (WYSIWYG).
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-source-git-commit: 3cc17d79762d1a67c5329bc1971169f0e7cf5090
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ WYSIWYG-redigeraren är aktiverad som standard och kan användas för att redige
 
 En detaljerad beskrivning av alla WYSIWYG-alternativ finns i [Innehållshantering](../configuration-reference/general/content-management.md) i _Konfigurationsreferens_.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 

@@ -3,9 +3,10 @@ title: ' [!DNL Media Gallery]'
 description: Använd Mediegalleriet för att ordna och hantera dina mediefiler på servern.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ Med Adobe Commerce eller Magento Open Source 2.4 kan handlare använda den nya _
 
 >[!NOTE]
 >
->Produktbilder som lagts till i [_[!UICONTROL Images and Videos]_-produktavsnittet ](../catalog/product-image.md#upload-an-image) hanteras inte av [!DNL Media Gallery]. Endast bilder som används i produktavsnittsfälten för&#x200B;_[!UICONTROL Content]_ visas och filtreras i den nya [!DNL Media Gallery].
+>Produktbilder som lagts till i [_[!UICONTROL Images and Videos]_-produktavsnittet ](../catalog/product-image.md#upload-an-image) hanteras inte av [!DNL Media Gallery]. Endast bilder som används i produktavsnittsfälten för_[!UICONTROL Content]_ visas och filtreras i den nya [!DNL Media Gallery].
 
 ## Aktivera nya [!DNL Media Gallery]
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
@@ -40,7 +41,7 @@ Med Adobe Commerce eller Magento Open Source 2.4 kan handlare använda den nya _
 
 >[!NOTE]
 >
->Fullständig funktionalitet för nya [!DNL Media Gallery] kräver att `media.gallery.synchronization`- och `media.content.synchronization`-kökonsumenter startas för inledande synkronisering. Mer information finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=sv-SE) i _Konfigurationshandboken_.
+>Fullständig funktionalitet för nya [!DNL Media Gallery] kräver att `media.gallery.synchronization`- och `media.content.synchronization`-kökonsumenter startas för inledande synkronisering. Mer information finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandboken_.
 
 ## Åtkomst till nya [!DNL Media Gallery]
 
@@ -48,15 +49,15 @@ Den nya [!DNL Media Gallery] är tillgänglig på menyn Innehåll eller när du 
 
 Så här kommer du åt den nya [!UICONTROL Media Gallery] via menyn [!UICONTROL Content]:
 
-- Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+- Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
 
 Så här kommer du åt det nya mediegalleriet när du lägger till eller redigerar en sida:
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add a New Page]**.
 
-   Om du vill redigera en befintlig sida kan du använda kolumnen _[!UICONTROL Action]_&#x200B;för att klicka på&#x200B;**[!UICONTROL Select]**&#x200B;och välja **[!UICONTROL Edit]**.
+   Om du vill redigera en befintlig sida kan du använda kolumnen _[!UICONTROL Action]_för att klicka på&#x200B;**[!UICONTROL Select]**och välja **[!UICONTROL Edit]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Content]** och gör följande:
 

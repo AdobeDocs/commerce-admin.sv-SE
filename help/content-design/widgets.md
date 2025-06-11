@@ -2,9 +2,10 @@
 title: Widgetar
 description: Lär dig mer om widgetar, som innehåller ett kodfragment som gör det möjligt att visa ett brett innehållsområde och placera det vid särskilda blockreferenser i din butik.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ När du [skapar en widget](widget-create.md) måste du ange typen. Den här type
 | Typ | Beskrivning |
 |--- |--- |
 | [!UICONTROL CMS Hierarchy Node Link] | Använd det här alternativet om du vill visa en länk till en viss nod i sidhierarkin som kan införlivas i annat innehåll. |
-| [!UICONTROL CMS Page Link] | Använd det här alternativet om du vill ange anpassad text och en titel som länkar till en viss CMS-sida. När länken är klar kan den användas på innehållssidor och i block. |
+| [!UICONTROL CMS Page Link] | Använd det här alternativet om du vill ange anpassad text och en rubrik som länkar till en viss CMS-sida. När länken är klar kan den användas på innehållssidor och i block. |
 | [!UICONTROL CMS Static Block] | Använd det här alternativet om du vill visa ett innehållsblock på en viss plats på en sida. |
 | [!UICONTROL Catalog Category Link] | Använd det här alternativet om du vill visa en textbunden länk eller en blockliknande länk till en vald katalogkategori. När länken är klar kan den användas på innehållssidor och i block. |
 | [!UICONTROL Catalog Events Carousel] | Använd det här alternativet om du vill visa en lista över kommande kataloghändelser. |

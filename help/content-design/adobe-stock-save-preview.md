@@ -3,10 +3,11 @@ title: Spara en Adobe Stock-förhandsvisning
 description: Förhandsgranskning av bilder är kostnadsfria och ett bra sätt att experimentera med olika Adobe Stock-bilder innan du bestämmer dig för att köpa en licens.
 exl-id: 148d8445-fbbb-4f27-8de8-d8c1943d2afe
 feature: CMS, Media
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 1%
+source-wordcount: '215'
+ht-degree: 0%
 
 ---
 

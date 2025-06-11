@@ -2,9 +2,10 @@
 title: Lägga till innehållsblock
 description: Skapa anpassade innehållsblock som du kan återanvända på valfri sida eller i ett annat block.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Du kan skapa egna block med innehåll och sedan lägga till dem på en sida, i e
 
 ## Skapa ett block
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**på sidofältet_ Admin _.
 
 1. Klicka på **Lägg till nytt block** i det övre högra hörnet.
 
@@ -61,14 +62,14 @@ Det finns två sätt att ta bort ett anpassat block. Du kan ta bort den från st
 
 ### Metod 1: Ta bort ett block från rutnätet
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**på sidofältet_ Admin _.
 1. Leta upp blocken med hjälp av filter ovanför stödrastret och markera kryssrutan för ett eller flera block som ska tas bort.
 1. I listans övre vänstra hörn anger du **[!UICONTROL Actions]** till `Delete`.
 1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
 
 ### Metod 2: Ta bort ett block från redigeringssidan
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**på sidofältet_ Admin _.
 1. Sök efter det block som ska tas bort.
 1. Klicka på **[!UICONTROL Select]** i kolumnen _Åtgärder_ för blocket och välj **[!UICONTROL Edit]**.
 1. Klicka på **[!UICONTROL Delete Block]** på menyraden.

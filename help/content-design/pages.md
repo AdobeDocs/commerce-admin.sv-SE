@@ -3,9 +3,10 @@ title: Sidor
 description: Lär dig mer om de sidor med huvudinnehåll som ingår i  [!DNL Commerce] demoarkivet och ändra konfigurationen för standardsidor.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ Kundtjänstsidan är en annan nod i sidhierarkin. De två rubrikerna på sidan h
 
 Konfigurationen _Standardsidor_ avgör vilken landningssida som är associerad med [bas-URL:en](../stores-purchase/store-urls.md) och motsvarande startsida. Den avgör också vilken sida som visas när ett _Sidan hittades inte_-fel inträffar och om ett [flödeslänk ](../catalog/navigation-breadcrumb-trail.md) visas högst upp på varje sida.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Web]** i den vänstra panelen under _[!UICONTROL General]_.
 
@@ -73,7 +74,7 @@ Konfigurationen _Standardsidor_ avgör vilken landningssida som är associerad m
    | Fält | [Omfång](../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
    |--- |--- |--- |
    | [!UICONTROL Default Web URL] | Butiksvy | Anger landningssidan som är associerad med bas-URL:en. Som standard är det här fältet inställt på `cms` för att ange en sida från innehållshanteringssystemet [!DNL Commerce]. Du kan också använda en annan typ av landningssida, till exempel en blogg. Om till exempel en blogg är installerad på servern på `magento/blog` kan du ange mappnamnet `blog` som en relativ sökväg till urvalet av sidor. |
-   | [!UICONTROL CMS Home Page] | Butiksvy | Om du vill välja butikens hemsida väljer du bara CMS-sidan i listan. Som standard visas hela urvalet av CMS-sidor som är tillgängliga för din butik på CMS-startsidan. |
+   | [!UICONTROL CMS Home Page] | Butiksvy | Om du vill välja butikens hemsida väljer du CMS-sidan i listan. Som standard visas hela urvalet av CMS-sidor som är tillgängliga för din butik på CMS hemsida. |
    | [!UICONTROL Default No-route URL] | Butiksvy | Innehåller URL-adressen till den standardsida som du vill ska visas när ett `404 Page not Found`-fel inträffar. Standardvärdet är `cms/noroute/index`. |
    | [!UICONTROL CMS No Route Page] | Butiksvy | Identifierar en specifik CMS-sida som du vill ska visas när ett fel av typen 404 Sidan hittades inte inträffar. Standardsidan är `404 Not Found`. |
    | [!UICONTROL CMS No Cookies Page] | Butiksvy | Identifierar en specifik CMS-sida som visas när cookies inte är aktiverade för webbläsaren. På sidan förklaras varför cookies används och hur du aktiverar dem för varje webbläsare. Standardsidan är `Enable Cookies`. |
@@ -87,7 +88,7 @@ Konfigurationen _Standardsidor_ avgör vilken landningssida som är associerad m
 
    >[!NOTE]
    >
-   >Om du vill visa en viss butiksvy avmarkerar du kryssrutan **[!UICONTROL Use Default]** bredvid _[!UICONTROL Default Web URL]_&#x200B;och alla andra standardinställningar som ska ändras.
+   >Om du vill visa en viss butiksvy avmarkerar du kryssrutan **[!UICONTROL Use Default]** bredvid _[!UICONTROL Default Web URL]_och alla andra standardinställningar som ska ändras.
 
 1. Ange **[!UICONTROL CMS Home Page]** på CMS-sidan som ska användas som startsida. Andra skapade sidor kan användas som startsida, till exempel:
 
@@ -103,9 +104,9 @@ Konfigurationen _Standardsidor_ avgör vilken landningssida som är associerad m
 
    Standardvärdet är `cms/index/noRoute`.
 
-1. Ange **[!UICONTROL CMS No Route Page]** till CMS-sidan som visas när ett _404-sidfel inte hittades_ inträffar.
+1. Ange **[!UICONTROL CMS No Route Page]** till den CMS-sida som visas när ett _404-sidfel inte hittades_ inträffar.
 
-1. Ange **[!UICONTROL CMS No Cookies Page]** till CMS-sidan som visas när cookies är inaktiverade i webbläsaren. På sidan förklaras varför cookies används och hur du aktiverar dem för varje webbläsare. Standardsidan är `Enable Cookies`.
+1. Ange **[!UICONTROL CMS No Cookies Page]** till den CMS-sida som visas när cookies är inaktiverade i webbläsaren. På sidan förklaras varför cookies används och hur du aktiverar dem för varje webbläsare. Standardsidan är `Enable Cookies`.
 
 1. Om du vill att ett spårningsspår ska visas högst upp på alla CMS-sidor anger du **[!UICONTROL Show Breadcrumbs for CMS Pages]** till `Yes`.
 

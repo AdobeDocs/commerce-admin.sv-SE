@@ -1,11 +1,12 @@
 ---
 title: Installera ett nytt tema
-description: Lär dig hur du installerar ett nytt tema för din Adobe Commerce eller Magento Open Source Store.
+description: Lär dig hur du installerar ett nytt tema för din Adobe Commerce- eller Magento Open Source-butik.
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ När du först installerar [!DNL Commerce] baseras butikens designelement på `M
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Kontrollera att du har en giltig uppsättning [[!DNL Commerce] Åtkomstnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=sv-SE) innan du börjar.
+Kontrollera att du har en giltig uppsättning [[!DNL Commerce] Åtkomstnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) innan du börjar.
 
 Om du vill lägga till ett tema i din [!DNL Commerce]-butik följer du instruktionerna på [!DNL Commerce Marketplace]:
 

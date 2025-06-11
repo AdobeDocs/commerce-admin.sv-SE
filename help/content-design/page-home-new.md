@@ -1,11 +1,12 @@
 ---
 title: Ange startsida
-description: Lär dig hur du ändrar hemsidan som används som standard-CMS-sida.
+description: Lär dig hur du ändrar hemsidan som används som CMS standardsida.
 exl-id: 0065da5a-ca55-45ef-b9a7-9b5548ef73d1
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +16,7 @@ Du kan behålla ett urval av olika hemsidor och aktivera sidan som du vill anvä
 
 1. Slutför stegen för att [lägga till en sida](page-add.md).
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Web]** i den vänstra panelen under _[!UICONTROL General]_.
 

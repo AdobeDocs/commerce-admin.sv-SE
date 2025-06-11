@@ -2,9 +2,10 @@
 title: Lägga till ett roterande dynamiskt block
 description: Visa ett bildspel med interaktivt innehåll på butiken genom att lägga till flera dynamiska block i en roterare.
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Följ de här instruktionerna för att [skapa de dynamiska blocken](dynamic-bloc
 
 ## Steg 2: Lägg till en widget för dynamisk blockrotering
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Widget]** i det övre högra hörnet.
 

@@ -3,9 +3,10 @@ title: Dynamiska block i prisregler
 description: Associera ett dynamiskt block med en kampanjprisregel.
 exl-id: e1564df2-1c06-4d11-a32d-6f5c0be974e3
 feature: Page Content, Price Rules
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Alla [dynamiska block](dynamic-blocks.md) som du skapar kan kopplas till en befo
 
 ## Associera ett dynamiskt block med en prisregel
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_&#x200B;på sidofältet_ Admin _och välj något av följande:
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_på sidofältet_ Admin _och välj något av följande:
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**
@@ -43,7 +44,7 @@ Alla [dynamiska block](dynamic-blocks.md) som du skapar kan kopplas till en befo
 
 ## Associera en prisregel med ett dynamiskt block
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**på sidofältet_ Admin _.
 
 1. Hitta det dynamiska blocket i rutnätet och öppna i redigeringsläge.
 

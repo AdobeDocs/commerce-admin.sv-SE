@@ -3,9 +3,10 @@ title: Konfigurera AEM Assets Integration för Commerce
 description: Lär dig hur du konfigurerar och konfigurerar din Experience Manager Assets-miljö för att hantera Commerce-resurser för din butik.
 feature: CMS, Media, Configuration
 exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
-source-git-commit: f64975793edc88a34d75965c8fae4967fae801c7
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -22,13 +23,13 @@ För att kunna konfigurera Adobe Experience Manager Assets-integrationen för Co
 
 För att utnyttja integreringen måste företagen uppfylla följande krav:
 
-- Aktiva licenser för Adobe Commerce, Adobe Experience Manager Assets och [AEM Dynamic Media](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
+- Aktiva licenser för Adobe Commerce, Adobe Experience Manager Assets och [AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
 
 - Adobe Commerce 2.4.5+
 
-- Adobe Experience Manager etableras med [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/overview)
+- Adobe Experience Manager etableras med [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
 
-- Den Adobe Commerce-användare som konfigurerar integreringen måste ha tillgång till den [IMS-organisation](https://experienceleague.adobe.com/sv/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) där AEM Assets-projektet etableras.
+- Den Adobe Commerce-användare som konfigurerar integreringen måste ha tillgång till den [IMS-organisation](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) där AEM Assets-projektet etableras.
 
 ## Viktiga fördelar
 

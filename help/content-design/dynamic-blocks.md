@@ -2,9 +2,10 @@
 title: Dynamiska block
 description: Använd dynamiska block för att skapa interaktivt multimediematerial som bygger på logik från prisregler och kundsegment.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ Skapa avancerat interaktivt innehåll som styrs av logik från [prisregler](../m
 
 >[!NOTE]
 >
->Alternativet _[!UICONTROL Banner]_&#x200B;i [[!UICONTROL Content] menu ](content-menu.md) togs bort i 2.3.1 och togs bort i 2.4.0. Funktionen ersätts av Dynamic Blocks.
+>Alternativet _[!UICONTROL Banner]_i [[!UICONTROL Content] menu ](content-menu.md) togs bort i 2.3.1 och togs bort i 2.4.0. Funktionen ersätts av Dynamic Blocks.
 
 ![[!DNL Page Builder] - dynamiskt block med prisregel och kundsegment ](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
 ## Steg 1: Skapa ett dynamiskt block
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**på sidofältet_ Admin _.
 
    ![Lista med dynamiska block](../page-builder/assets/pb-tutorial2-block-dynamic-add.png){width="600" zoomable="yes"}
 

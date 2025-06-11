@@ -3,9 +3,10 @@ title: Mapphantering för mediegalleriet
 description: Lär dig hur du använder mappar för att ordna medieresurser.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '156'
 ht-degree: 1%
 
 ---
@@ -20,7 +21,7 @@ Använd mappar för att ordna bilder i det nya [mediegalleriet](media-gallery.md
 >
 >Du kan bara skapa en mapp i mapparna `pub/media/wysywig` och `pub/media/catalog/category`.
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Create Folder]**.
 
@@ -36,7 +37,7 @@ Använd mappar för att ordna bilder i det nya [mediegalleriet](media-gallery.md
 >
 >Om du tar bort en mapp tas alla bilder i mappen bort. Du kan bara ta bort en mapp i mapparna `pub/media/wysywig` och `pub/media/catalog/category`.
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
 
 1. Markera mappen som ska tas bort.
 

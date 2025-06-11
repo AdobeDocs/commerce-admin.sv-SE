@@ -2,9 +2,10 @@
 title: Schemalägg designändringar
 description: Lär dig hur du schemalägger ändringar av temats design i förväg
 exl-id: 0a214fd5-77a6-4ad4-9740-5138d40ad0a1
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Schemalägg ändringar av temats design i förväg så att de träder i kraft ef
 
 ## Lägga till en schemalagd designändring
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Design Change]**.
 
@@ -33,7 +34,7 @@ Schemalägg ändringar av temats design i förväg så att de träder i kraft ef
 
 ## Redigera schemalagd designändring
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**på sidofältet_ Admin _.
 
 1. Markera det objekt som du vill redigera.
 
@@ -43,7 +44,7 @@ Schemalägg ändringar av temats design i förväg så att de träder i kraft ef
 
 ## Ta bort schemalagd designändring
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**på sidofältet_ Admin _.
 
 1. Markera det objekt som du vill ta bort.
 

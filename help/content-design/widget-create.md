@@ -2,9 +2,10 @@
 title: Skapa och hantera widgetar
 description: Lär dig hur du skapar och hanterar widgetar som automatiskt uppdaterar innehåll i din butik.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Processen med att skapa en widget är nästan densamma för varje [widgettyp](wi
 
 ### Steg 1: Välj typ
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Widget]**.
 
@@ -102,7 +103,7 @@ Titta på den här videon om du vill veta mer om hur du skapar widgetar:
 
 ## Redigera en widget
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
 
 1. Leta upp widgeten med hjälp av filtren ovanför stödrastret och klicka sedan på widgetens namn.
 
@@ -114,7 +115,7 @@ Titta på den här videon om du vill veta mer om hur du skapar widgetar:
 
 ## Ta bort en widget
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
 
 1. Leta upp widgetarna med hjälp av filtren ovanför stödrastret och markera sedan kryssrutan för de widgetar som ska tas bort.
 

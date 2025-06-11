@@ -3,9 +3,10 @@ title: Medielagring
 description: Lär dig hur medielagring hjälper dig att ordna och få tillgång till Commerce mediefiler som lagras på servern.
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-source-git-commit: 7dae6b6d387c796c5ff472293c6590fabaa83e85
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ De första två stegen är samma som om du infogar en bild.
 
    Den här åtgärden öppnar dialogrutan _[!UICONTROL Insert/edit image]_.
 
-1. Efter _[!UICONTROL Source]_&#x200B;klickar du på ikonen_ Sök _(![ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
+1. Efter _[!UICONTROL Source]_klickar du på ikonen_ Sök _(![ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
 1. Gör något av följande i katalogträdet till vänster:
 
@@ -64,11 +65,11 @@ Bilderna överförs till den aktuella medielagringsmappen på servern.
 
 Öppna sidan eller blocket som ska redigeras. Använd sedan någon av följande metoder för att infoga en bild från medielagring:
 
-### Metod 1: WYSIWYG-läge
+### Metod 1: WYSIWYG
 
 1. Klicka på ikonen _Infoga bild_ i verktygsfältet [redigerare](editor.md) .
 
-1. Efter _[!UICONTROL Source]_&#x200B;klickar du på ikonen_ Sök _(![ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
+1. Efter _[!UICONTROL Source]_klickar du på ikonen_ Sök _(![ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
    ![Markera sökikonen](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
@@ -76,7 +77,7 @@ Bilderna överförs till den aktuella medielagringsmappen på servern.
 
 1. Markera bildrutan i bilden och klicka på **[!UICONTROL Add Selected]**.
 
-### Metod 2: HTML-läge
+### Metod 2: HTML
 
 1. Placera markören i koden där taggen `<img>` ska infogas.
 

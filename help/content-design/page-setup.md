@@ -2,9 +2,10 @@
 title: Utskriftsformat
 description: Lär dig hur du konfigurerar standardinställningarna för huvuddelarna av en butikssida.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -13,19 +14,19 @@ ht-degree: 0%
 
 Huvudavsnitten på sidan styrs delvis av en uppsättning HTML-standardtaggar. Vissa av dessa märkord kan användas för att bestämma vilka teckensnitt, färger, storlekar, bakgrundsfärger och bilder som ska användas i varje avsnitt på sidan. Andra inställningar styr sidelement som logotypen i sidhuvudet och copyrightinformationen i sidfoten. De här avsnitten motsvarar den underliggande strukturen på HTML-sidan och många av de grundläggande egenskaperna kan anges från administratören.
 
-- [HTML head](#html-head)
+- [HTML Head](#html-head)
 - [Sidhuvud](#header)
 - [Sidfot](#footer)
 
 ![HTML sidavsnitt](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
-## HTML head
+## HTML Head
 
 Inställningarna i avsnittet HTML Head motsvarar taggen `<head>` på en HTML-sida och kan konfigureras för varje butiksvy. Förutom metadata för sidans titel, beskrivning och nyckelord innehåller avsnittet en länk till favoritikonen och olika skript. Instruktioner för sökrobotar och visning av demonstrationsmeddelanden för butiker konfigureras också i det här avsnittet.
 
 ### Konfigurera HTML Head
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
@@ -59,7 +60,7 @@ Inställningarna i avsnittet HTML Head motsvarar taggen `<head>` på en HTML-sid
 
 1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.
 
-### Fältbeskrivningar för HTML
+### Fältbeskrivningar för HTML Head
 
 | Fält | Omfång | Beskrivning |
 |--- |--- |--- |
@@ -82,7 +83,7 @@ Huvudkonfigurationen identifierar sökvägen till din butikslogotyp och anger lo
 
 ### Konfigurera rubriken
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
@@ -116,7 +117,7 @@ I konfigurationsavsnittet Sidfot kan du uppdatera det [copyrightmeddelande](../g
 
 ### Konfigurera sidfoten
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Leta reda på den butiksvy som du vill konfigurera och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
@@ -135,7 +136,7 @@ I konfigurationsavsnittet Sidfot kan du uppdatera det [copyrightmeddelande](../g
 | Fält | Omfång | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Miscellaneous HTML] | Butiksvy | En inmatningsruta där du kan överföra olika skript till servern som måste placeras precis före den avslutande `<body>`-taggen. |
-| [!UICONTROL Copyright] | Butiksvy | Upphovsrättssatsen som visas längst ned på varje sida. Om du vill ta med copyrightsymbolen använder du teckenentiteten `\&copy;` i HTML enligt följande: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Se till att ersätta copyrightmeddelandet med ditt eget. |
+| [!UICONTROL Copyright] | Butiksvy | Upphovsrättssatsen som visas längst ned på varje sida. Om du vill ta med copyrightsymbolen använder du HTML-teckenentiteten `\&copy;` enligt följande: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Se till att ersätta copyrightmeddelandet med ditt eget. |
 | [!UICONTROL Display Report Bugs Link] | Butiksvy | Anger om felrapportlänken (som stöds för vissa teman) är aktiverad eller inaktiverad. |
 
 {style="table-layout:auto"}

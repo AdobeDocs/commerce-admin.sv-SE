@@ -3,9 +3,10 @@ title: Temaresurser
 description: Lär dig hur du hanterar dina temaresurser, som CSS, teckensnitt, bilder och JavaScript-filer.
 exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: e50b85311f4512fb54c7cb29faf6136eaf07eae6
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ För en standardinstallation ordnas resurserna som är kopplade till ett tema i 
 
 ## Lägga till en digital signatur i statiska filadresser
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -49,7 +50,7 @@ Som en del av ett försök att optimera webbplatsen och minska sidinläsningstid
 >
 >CSS-filer kan bara sammanfogas från panelen _Admin_ när du arbetar i [utvecklarläget](../systems/developer-tools.md#operation-modes).
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. I den vänstra panelen **[!UICONTROL Advanced]** och väljer **[!UICONTROL Developer]**.
 
@@ -71,7 +72,7 @@ Flera JavaScript-filer kan sammanfogas till en enda komprimerad fil för att min
 >
 >JavaScript-filer kan bara sammanfogas från panelen _Admin_ när du arbetar i [Utvecklarläge](../systems/developer-tools.md#operation-modes).
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. I den vänstra panelen **[!UICONTROL Advanced]** och väljer **[!UICONTROL Developer]**.
 

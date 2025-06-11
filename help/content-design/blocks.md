@@ -2,9 +2,10 @@
 title: Innehållsblock
 description: Ett -block kan användas för att visa fast information som text, bilder, inbäddad video och dynamisk information.
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---

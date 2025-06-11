@@ -2,9 +2,9 @@
 title: Introduktion till  [!DNL Commerce] innehåll och design
 description: Lär dig hur du använder innehålls- och webbplatsdesignfunktionerna för att återspegla din profilering och stil i din butik.
 exl-id: e13782e3-b53c-4f25-b2cc-8dacec57e451
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Ditt innehåll bör återspegla varumärket i din butik och levereras med din un
 
 Adobe Commerce och Magento Open Source har många lättanvända designalternativ som du kan använda för att göra enkla ändringar i din butik. Det finns även många professionellt utformade teman i [Commerce Marketplace](../getting-started/commerce-marketplace.md). Precis som fönsteromslaget i din butik kan du ändra temat för säsongen eller för en befordran.
 
-Mer avancerade butiksdesigners uppskattar flexibiliteten i att arbeta med en objektorienterad miljö som sammanställer sidor från olika komponenter. När du har förstått grunderna kommer du att uppskatta om du arbetar i en sådan flexibel och flytande miljö. Mer information finns i [Utvecklarhandbok för Adobe Premiere][1].
+[!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Mer avancerade butiksdesigners uppskattar flexibiliteten i att arbeta med en objektorienterad miljö som sammanställer sidor från olika komponenter. När du har förstått grunderna kommer du att uppskatta om du arbetar i en sådan flexibel och flytande miljö. Mer information finns i [Utvecklarhandbok för Adobe Premiere][1].
 
 ### Konfiguration
 
@@ -30,6 +30,8 @@ Med [designkonfigurationen](configuration.md) kan du enkelt hantera olika instä
 [Temat](themes.md) avgör den visuella presentationen av din butik och består av en samling layoutfiler, mallfiler, översättningsfiler och skal.
 
 ### Schema
+
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Teman kan aktiveras för en viss tidsperiod enligt ett [schema](schedule.md). Använd schemat för att planera temaändringar i förväg för en säsong eller en befordran.
 

@@ -2,9 +2,10 @@
 title: Sidhierarki
 description: Lär dig hur sidhierarkisystemet ger dig möjlighet att ordna dina innehållssidor och lägga till sidnumrering, navigering och menyer.
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Konfigurationsinställningarna aktiverar sidhierarkisystemet och metadata och fa
 
 ![CMS-sidhierarki](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 
@@ -47,19 +48,19 @@ I följande exempel visas hur du skapar en nod med enkel navigering till relater
 
 Du kan till exempel skapa en nod med namnet _Pressmeddelanden_ som har navigering till enskilda pressmeddelanden. Sedan kan du inkludera länken på sidan _Om oss_ till noden. Du kan också skapa en nod för en samling med bakomliggande utgåvor av nyhetsbrevet.
 
-Om du vill länka till en nod använder du verktyget [Widget](widgets.md) för att skapa en CMS-hierarkikodlänk och placerar widgeten i ett innehållsblock eller en -sida.
+Om du vill länka till en nod använder du verktyget [Widget](widgets.md) för att skapa en CMS Hierarchy Node-länk och placerar widgeten i ett innehållsblock eller en innehållssida.
 
 ![Exempel på navigeringsmeny på sidan Om oss](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
 
 ### Steg 1: Skapa en nod
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Hierarchy]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Hierarchy]**på sidofältet_ Admin _.
 
-   ![Rutnät för CMS-sidor](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
+   ![CMS sidstödraster](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Add Node...]** ovanför rutnätet.
 
-1. Under _[!UICONTROL Page Properties]_&#x200B;anger du en **[!UICONTROL Title]**&#x200B;för noden och en lämplig **[!UICONTROL URL Key]**.
+1. Under _[!UICONTROL Page Properties]_anger du en **[!UICONTROL Title]**för noden och en lämplig **[!UICONTROL URL Key]**.
 
    URL-nyckeln ger en unik webbadress för noden. Det måste bestå av enbart små bokstäver, och bindestreck måste användas för att avgränsa ord i stället för blanksteg.
 
@@ -85,7 +86,7 @@ Om du vill länka till en nod använder du verktyget [Widget](widgets.md) för a
 
 1. Klicka på noden högst upp i hierarkin.
 
-   Avsnittet _[!UICONTROL Page Properties]_&#x200B;visar nu information om noden.
+   Avsnittet _[!UICONTROL Page Properties]_visar nu information om noden.
 
 1. Gör följande under **[!UICONTROL Render Metadata in HTML Head]**:
 

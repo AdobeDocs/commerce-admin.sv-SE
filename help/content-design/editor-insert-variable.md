@@ -1,11 +1,12 @@
 ---
 title: Infoga en variabel i redigeraren
-description: Lägg till fördefinierade eller anpassade variabler i innehållet i WYSIWYG-redigeraren.
+description: Lägg till fördefinierade eller anpassade variabler i ditt innehåll i WYSIWYG Editor.
 exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 feature: Page Content, Variables
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ Butiken innehåller många fördefinierade [variabler](../systems/variables-pred
 
 1. Öppna en sida, ett block eller ett dynamiskt block i redigeringsläge.
 
-1. Gå till avsnittet _[!UICONTROL Content]_&#x200B;och klicka på ett element som stöder redigeraren.
+1. Gå till avsnittet _[!UICONTROL Content]_och klicka på ett element som stöder redigeraren.
 
 1. Placera markören där du vill att variabeln ska visas och klicka på ikonen _Infoga variabel_ .
 
