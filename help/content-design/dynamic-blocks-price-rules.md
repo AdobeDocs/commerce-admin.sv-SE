@@ -23,7 +23,7 @@ Alla [dynamiska block](dynamic-blocks.md) som du skapar kan kopplas till en befo
 
 ## Associera ett dynamiskt block med en prisregel
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_på sidofältet_ Admin _och välj något av följande:
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_&#x200B;på sidofältet_ Admin _och välj något av följande:
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**
@@ -44,7 +44,7 @@ Alla [dynamiska block](dynamic-blocks.md) som du skapar kan kopplas till en befo
 
 ## Associera en prisregel med ett dynamiskt block
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**&#x200B;på sidofältet_ Admin _.
 
 1. Hitta det dynamiska blocket i rutnätet och öppna i redigeringsläge.
 

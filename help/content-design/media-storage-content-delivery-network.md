@@ -30,7 +30,7 @@ När du har konfigurerat CDN måste du slutföra konfigurationen från administr
 
 ## Konfigurera ett nätverk för innehållsleverans
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Web]** i den vänstra panelen under _[!UICONTROL General]_.
 

@@ -21,7 +21,7 @@ För en standardinstallation ordnas resurserna som är kopplade till ett tema i 
 
 ## Lägga till en digital signatur i statiska filadresser
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Developer]**.
 
@@ -50,7 +50,7 @@ Som en del av ett försök att optimera webbplatsen och minska sidinläsningstid
 >
 >CSS-filer kan bara sammanfogas från panelen _Admin_ när du arbetar i [utvecklarläget](../systems/developer-tools.md#operation-modes).
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. I den vänstra panelen **[!UICONTROL Advanced]** och väljer **[!UICONTROL Developer]**.
 
@@ -72,7 +72,7 @@ Flera JavaScript-filer kan sammanfogas till en enda komprimerad fil för att min
 >
 >JavaScript-filer kan bara sammanfogas från panelen _Admin_ när du arbetar i [Utvecklarläge](../systems/developer-tools.md#operation-modes).
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. I den vänstra panelen **[!UICONTROL Advanced]** och väljer **[!UICONTROL Developer]**.
 

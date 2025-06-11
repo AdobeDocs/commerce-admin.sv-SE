@@ -18,7 +18,7 @@ Schemalägg ändringar av temats design i förväg så att de träder i kraft ef
 
 ## Lägga till en schemalagd designändring
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Design Change]**.
 
@@ -34,7 +34,7 @@ Schemalägg ändringar av temats design i förväg så att de träder i kraft ef
 
 ## Redigera schemalagd designändring
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**&#x200B;på sidofältet_ Admin _.
 
 1. Markera det objekt som du vill redigera.
 
@@ -44,7 +44,7 @@ Schemalägg ändringar av temats design i förväg så att de träder i kraft ef
 
 ## Ta bort schemalagd designändring
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**&#x200B;på sidofältet_ Admin _.
 
 1. Markera det objekt som du vill ta bort.
 

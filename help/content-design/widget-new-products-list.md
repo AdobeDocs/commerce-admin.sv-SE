@@ -23,7 +23,7 @@ Listan med nya produkter är ett exempel på dynamiskt innehåll och består av 
 
 ![Adobe Commerce](../assets/adobe-logo.svg) För Adobe Commerce-butiker, se [Schemalägga en uppdatering](content-staging-scheduled-update.md) och fortsätt sedan till steg 2 på den här sidan.
 
-Datumintervallinställningen _[!UICONTROL Set Product as New]_kan bara konfigureras i schemalagda uppdateringar.
+Datumintervallinställningen _[!UICONTROL Set Product as New]_&#x200B;kan bara konfigureras i schemalagda uppdateringar.
 
 Om du anger en produkt som ny läggs produkten till i listan _Nya produkter_. Du kan när som helst ändra inställningen igen när du inte längre vill ta med den i listan.
 
@@ -43,7 +43,7 @@ Om du anger en produkt som ny läggs produkten till i listan _Nya produkter_. Du
 
 Koden som avgör innehållet i listan Nya produkter och dess placering i din butik genereras av widgetverktyget.
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add Widget]** i det övre högra hörnet.
 
@@ -119,6 +119,6 @@ Koden som avgör innehållet i listan Nya produkter och dess placering i din but
 
 ## Steg 5: Förhandsgranska ditt arbete
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
 
 1. Hitta sidan i rutnätet där listan _Nya produkter_ ska visas och klicka på länken **[!UICONTROL Preview]** i kolumnen _[!UICONTROL Action]_.

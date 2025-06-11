@@ -31,7 +31,7 @@ WYSIWYG-redigeraren är aktiverad som standard och kan användas för att redige
 
 En detaljerad beskrivning av alla WYSIWYG-alternativ finns i [Innehållshantering](../configuration-reference/general/content-management.md) i _Konfigurationsreferens_.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 

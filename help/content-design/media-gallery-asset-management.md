@@ -17,7 +17,7 @@ Det nya [Mediegalleriet](media-gallery.md) innehåller verktyg för att hantera 
 
 ## Överföra en resurs
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Upload Image]**.
 
@@ -27,7 +27,7 @@ Det nya [Mediegalleriet](media-gallery.md) innehåller verktyg för att hantera 
 
 ## Visa tillgångsinformation
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på de tre punkterna under resursen (![Ikonen Detaljer](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och klicka sedan på **[!UICONTROL View Details]**.
 
@@ -50,7 +50,7 @@ Det nya [Mediegalleriet](media-gallery.md) innehåller verktyg för att hantera 
 
 ## Redigera en resurs
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på de tre punkterna under resursen (![Ikonen Resurs-menyn](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och klicka sedan på **[!UICONTROL Edit]**.
 
@@ -78,7 +78,7 @@ Assets kan användas i stor utsträckning i hela administratören, till exempel 
 
 ## Ta bort resurser
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Delete Images...]** och markera kryssrutan för varje resurs som du vill ta bort.
 
@@ -88,7 +88,7 @@ Assets kan användas i stor utsträckning i hela administratören, till exempel 
 
 ## Sök efter resurser
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
 
 1. Använd indata från **[!UICONTROL Search by keywords]** för att utföra bildsökning med nyckelord/taggar.
 
@@ -106,7 +106,7 @@ Assets kan användas i stor utsträckning i hela administratören, till exempel 
 >
 >Funktionen _Används i_ kräver att [!UICONTROL Media Gallery Image Optimization] är aktiverad i [konfigurationsinställningarna](media-gallery-image-optimization.md).
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på fliken **[!UICONTROL Filters]**.
 

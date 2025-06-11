@@ -31,7 +31,7 @@ De första två stegen är samma som om du infogar en bild.
 
    Den här åtgärden öppnar dialogrutan _[!UICONTROL Insert/edit image]_.
 
-1. Efter _[!UICONTROL Source]_klickar du på ikonen_ Sök _(![ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
+1. Efter _[!UICONTROL Source]_&#x200B;klickar du på ikonen_ Sök _(![ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
 1. Gör något av följande i katalogträdet till vänster:
 
@@ -69,7 +69,7 @@ Bilderna överförs till den aktuella medielagringsmappen på servern.
 
 1. Klicka på ikonen _Infoga bild_ i verktygsfältet [redigerare](editor.md) .
 
-1. Efter _[!UICONTROL Source]_klickar du på ikonen_ Sök _(![ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
+1. Efter _[!UICONTROL Source]_&#x200B;klickar du på ikonen_ Sök _(![ikonen Sök](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
    ![Markera sökikonen](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 

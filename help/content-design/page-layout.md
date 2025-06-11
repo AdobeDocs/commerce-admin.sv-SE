@@ -20,7 +20,7 @@ På sidan flyter innehållsblocken så att det tillgängliga utrymmet fylls, enl
 
 ## Konfigurera standardlayouter
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 
 1. Välj **[!UICONTROL Web]** i den vänstra panelen under _[!UICONTROL General]_.
 
@@ -87,28 +87,28 @@ På sidan flyter innehållsblocken så att det tillgängliga utrymmet fylls, enl
 
 ![Diagram - layout med en kolumn](./assets/layout-1-col-th.png){zoomable="yes"}
 
-Layouten _[!UICONTROL 1 Column]_kan användas för att skapa en dramatisk startsida med en stor bild eller fokalpunkt. Det är också ett bra val för en landningssida eller en annan sida som har en kombination av text, bilder och video.
+Layouten _[!UICONTROL 1 Column]_&#x200B;kan användas för att skapa en dramatisk startsida med en stor bild eller fokalpunkt. Det är också ett bra val för en landningssida eller en annan sida som har en kombination av text, bilder och video.
 
 ### Två kolumner med vänster fält
 
 ![Diagram - layout med två kolumner och vänster fält](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-Layouten _[!UICONTROL 2 Columns with Left Bar]_används ofta för sidor med navigering till vänster, till exempel en katalog eller sökresultatsidor med navigering i flera lager. Det är också ett utmärkt val för hemsidor som behöver ytterligare navigering eller block med stöd för innehåll till vänster.
+Layouten _[!UICONTROL 2 Columns with Left Bar]_&#x200B;används ofta för sidor med navigering till vänster, till exempel en katalog eller sökresultatsidor med navigering i flera lager. Det är också ett utmärkt val för hemsidor som behöver ytterligare navigering eller block med stöd för innehåll till vänster.
 
 ### Två kolumner med höger fält
 
 ![Diagram - layout med två kolumner och höger fält](./assets/layout-2-col-rt-bar-th.png){zoomable="yes"}
 
-Med layouten _[!UICONTROL 2 Columns with Right Bar]_är huvudinnehållsområdet tillräckligt stort för en iögonfallande bild eller banderoll. Den här layouten används ofta för produktsidor med block med stödinnehåll till höger.
+Med layouten _[!UICONTROL 2 Columns with Right Bar]_&#x200B;är huvudinnehållsområdet tillräckligt stort för en iögonfallande bild eller banderoll. Den här layouten används ofta för produktsidor med block med stödinnehåll till höger.
 
 ### Tre kolumner
 
 ![Diagram - layout med tre kolumner](./assets/layout-3-col-th.png){zoomable="yes"}
 
-Layouten _[!UICONTROL 3 Column]_har en mittkolumn som är tillräckligt bred för sidans huvudtext, med utrymme på varje sida för ytterligare navigering och block med stöd för innehåll.
+Layouten _[!UICONTROL 3 Column]_&#x200B;har en mittkolumn som är tillräckligt bred för sidans huvudtext, med utrymme på varje sida för ytterligare navigering och block med stöd för innehåll.
 
 ### Tom
 
 ![Diagram - tom layout](./assets/layout-blank-th.png){zoomable="yes"}
 
-Layouten _[!UICONTROL Empty]_kan användas för att definiera anpassade sidlayouter.
+Layouten _[!UICONTROL Empty]_&#x200B;kan användas för att definiera anpassade sidlayouter.
