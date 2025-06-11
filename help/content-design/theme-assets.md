@@ -3,7 +3,7 @@ title: Temaresurser
 description: Lär dig hur du hanterar dina temaresurser, som CSS, teckensnitt, bilder och JavaScript-filer.
 exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
 feature: Page Content, Themes
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: e50b85311f4512fb54c7cb29faf6136eaf07eae6
 workflow-type: tm+mt
 source-wordcount: '481'

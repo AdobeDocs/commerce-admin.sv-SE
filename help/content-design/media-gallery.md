@@ -3,7 +3,7 @@ title: ' [!DNL Media Gallery]'
 description: Använd Mediegalleriet för att ordna och hantera dina mediefiler på servern.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '330'
@@ -41,7 +41,7 @@ Med Adobe Commerce eller Magento Open Source 2.4 kan handlare använda den nya _
 
 >[!NOTE]
 >
->Fullständig funktionalitet för nya [!DNL Media Gallery] kräver att `media.gallery.synchronization`- och `media.content.synchronization`-kökonsumenter startas för inledande synkronisering. Mer information finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandboken_.
+>Fullständig funktionalitet för nya [!DNL Media Gallery] kräver att `media.gallery.synchronization`- och `media.content.synchronization`-kökonsumenter startas för inledande synkronisering. Mer information finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=sv-SE) i _Konfigurationshandboken_.
 
 ## Åtkomst till nya [!DNL Media Gallery]
 
