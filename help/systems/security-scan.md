@@ -4,16 +4,29 @@ description: Lär dig hur du kör en förbättrad säkerhetsgenomsökning och ö
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 4f46ce0ee4e4d51d178dac04d1493f0d9cffc49b
+source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
 
+
 # Säkerhetssökning
 
-Övervaka dina Adobe Commerce- och Magento Open Source-sajter för att se om det finns säkerhetsrisker och skadlig kod, och få säkerhetsuppdateringar och meddelanden.
+Adobe Commerce Security Scan Tool ger kostnadsfri säkerhetsövervakning för dina Adobe Commerce- och Magento Open Source-webbplatser. Verktyget fungerar som en webbaserad tjänst som du kommer åt via ditt Adobe Commerce-onlinekonto på [account.magento.com](https://account.magento.com/customer/account/login).
+
+![Verktyget för säkerhetsgenomsökning](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe tillhandahåller den här tjänsten utan kostnad, men handlarna måste acceptera villkor som begränsar Adobe ansvar baserat på skanningsresultat och webbplatskonfiguration.
+
+## Skanna täckning
+
+Verktyget för säkerhetsgenomsökning körs över både HTTP- och HTTPS-protokoll för att upptäcka skadlig kod, identifiera säkerhetsproblem och hjälpa dig att upprätthålla butikens säkerhetsposition. Verktyget är tillgängligt för alla handlare, utvecklare och utsedd personal med ansvar för platssäkerhet.
+
+Verktyget för säkerhetssökning erbjuder omfattande säkerhetsövervakningsfunktioner som hjälper dig att upprätthålla en säker lagringsmiljö:
 
 - Få insikt i butikens säkerhetsstatus i realtid.
 - Få förslag baserat på bästa praxis för att lösa problem.
@@ -22,11 +35,25 @@ ht-degree: 0%
 - Få tillgång till historiska säkerhetsrapporter som spårar och övervakar webbplatsernas förlopp.
 - Få åtkomst till den inskannade rapporten som visar lyckade och misslyckade kontroller, med rekommenderade åtgärder.
 
-Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen för ditt [Commerce/Magento-konto](../getting-started/commerce-account-create.md). Mer teknisk information finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) i _Commerce on Cloud Infrastructure Guide_.
+>[!NOTE]
+>
+>Du kan inte utesluta vissa säkerhetstester från säkerhetsgenomsökningsverktyget för Adobe Commerce. Du kan dock vara självbetjäning i [ignorera fel](#manage-scan-failures) som false-positiv om det är tillämpligt.
 
-![Verktyget för säkerhetsgenomsökning](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## Åtkomst
 
-## Kör en säkerhetssökning
+Verktyget för säkerhetsgenomsökning upprätthåller strikta åtkomstkontroller för att skydda webbplatsinformationen. Det är bara du som kan skanna webbplatsen eftersom verktyget kräver verifiering av domänägarskap via ditt Adobe Commerce-konto. Varje webbplats ansluts till ditt konto via en unik token, vilket förhindrar obehörig skanning från tredje part.
+
+Verktyget fokuserar specifikt på Adobe Commerce-domäner och deras säkerhetsproblem. Även om din webbutik kan innehålla sidor från andra plattformar bör verktyget för säkerhetsgenomsökning endast skanna Adobe Commerce-genererat innehåll för att säkerställa tillförlitliga resultat. Skanning av icke-Adobe Commerce-sidor kan leda till otillförlitliga säkerhetsuppskattningar.
+
+## Köra en sökning
+
+Under genomsökningen kontrolleras webbplatsen mot kända säkerhetsproblem och saknade Adobe Commerce-korrigeringar och uppdateringar som kan göra din butik sårbar för attacker identifieras.
+
+>[!TIP]
+>
+>Information om Commerce i molninfrastrukturprojekt finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+
+Så här kör du en sökning:
 
 1. Logga in på ditt [Commerce/Magento-konto](../getting-started/commerce-account-create.md) från Commerce hemsida.
 
@@ -55,7 +82,7 @@ Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från inst
 
    1. Logga in på administratören för din butik som användare med fullständig administratörsbehörighet och gör följande:
 
-      1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+      1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
       1. Hitta din webbplats i listan och klicka på **[!UICONTROL Edit]**.
       1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
       1. Bläddra ned till **[!UICONTROL Scripts and Style Sheets]** och klicka i textrutan i slutet av eventuell befintlig kod. Klistra in bekräftelsekoden i textrutan.
@@ -104,7 +131,7 @@ Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från inst
 
          När byggprocessen är klar kommer ändringarna att distribueras till din PWA-butik.
 
-1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_&#x200B;i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;för att etablera ägarskap för domänen.
+1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap för domänen.
 
 1. Konfigurera alternativen för **[!UICONTROL Set Automatic Security Scan]** för någon av följande typer efter att du har bekräftat att åtgärden lyckades:
 
@@ -159,7 +186,7 @@ Vanliga scenarier där du kan markera ett skanningsfel som falskt positivt är:
 
 Följ de här stegen för att hantera sökningsfel som du har identifierat som falska positiva:
 
-1. På sidan _[!UICONTROL Monitored Websites]_&#x200B;klickar du på&#x200B;**[!UICONTROL View Report]**&#x200B;för den webbplats du vill hantera.
+1. På sidan _[!UICONTROL Monitored Websites]_klickar du på&#x200B;**[!UICONTROL View Report]**för den webbplats du vill hantera.
 
 1. Leta reda på den misslyckade sökning som du vill markera som falskt positiv i rapportvyn.
 
@@ -169,13 +196,13 @@ Följ de här stegen för att hantera sökningsfel som du har identifierat som f
 
 1. Klicka på **[!UICONTROL Apply Changes]** för att spara markeringen.
 
-Det ignorerade genomsökningsfelet flyttas till avsnittet _[!UICONTROL Ignored Results]_&#x200B;och tas inte med i riskpoängen.
+Det ignorerade genomsökningsfelet flyttas till avsnittet _[!UICONTROL Ignored Results]_och tas inte med i riskpoängen.
 
 ### Sluta ignorera sökningsfel
 
 Om du behöver återställa ett tidigare ignorerat skanningsfel till den aktiva övervakningen gör du så här:
 
-1. Bläddra till avsnittet _[!UICONTROL Ignored Results]_&#x200B;i rapportvyn.
+1. Bläddra till avsnittet _[!UICONTROL Ignored Results]_i rapportvyn.
 
 1. Klicka på **[!UICONTROL Stop Ignoring]** för det genomsökningsfel som du vill återställa.
 
@@ -183,7 +210,7 @@ Om du behöver återställa ett tidigare ignorerat skanningsfel till den aktiva 
 
 1. Klicka på **[!UICONTROL Apply Changes]** för att spara markeringen.
 
-Skanningsfelet återgår till avsnittet _[!UICONTROL Failed Scans]_&#x200B;och ingår i riskpoängen.
+Skanningsfelet återgår till avsnittet _[!UICONTROL Failed Scans]_och ingår i riskpoängen.
 
 ### Visa ignorerade skanningsfel
 
