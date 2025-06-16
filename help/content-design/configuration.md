@@ -28,7 +28,7 @@ Designkonfigurationen gör det enkelt att redigera designrelaterade regler och k
 
    Om inget tema anges används systemets standardtema. Vissa tillägg från tredje part ändrar systemets standardtema.
 
-1. [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Om temat bara ska användas för en viss enhet anger du **[!UICONTROL User Agent Rules]**.
+1. [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Om temat bara ska användas för en viss enhet anger du **[!UICONTROL User Agent Rules]**.
 
    ![Användaragentregler](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
@@ -50,11 +50,11 @@ Designkonfigurationen gör det enkelt att redigera designrelaterade regler och k
 
 1. Under _[!UICONTROL Other Settings]_&#x200B;expanderar du varje avsnitt och följer instruktionerna i de länkade avsnitten för att redigera inställningarna efter behov.
 
-   - [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
-   - [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [[!UICONTROL HTML Head]](page-setup.md#html-head)
-   - [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [[!UICONTROL Header]](page-setup.md#header)
-   - [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [[!UICONTROL Footer]](page-setup.md#footer)
-   - [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots)
+   - [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
+   - [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [[!UICONTROL HTML Head]](page-setup.md#html-head)
+   - [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [[!UICONTROL Header]](page-setup.md#header)
+   - [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [[!UICONTROL Footer]](page-setup.md#footer)
+   - [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots)
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
 
