@@ -63,7 +63,7 @@ Under genomsökningen kontrolleras webbplatsen mot kända säkerhetsproblem och 
 
 >[!TIP]
 >
->Information om Commerce i molninfrastrukturprojekt finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Information om Commerce i molninfrastrukturprojekt finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Så här kör du en sökning:
 
