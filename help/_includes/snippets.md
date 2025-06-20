@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## Konfigurationsinställningar {#config}
 
-Om du vill komma åt lagringskonfigurationsinställningarna väljer du **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**i sidofältet_ Admin _.
+Om du vill komma åt lagringskonfigurationsinställningarna väljer du **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;i sidofältet_ Admin _.
 
 ## UPS API-borttagning {#ups-api}
 
