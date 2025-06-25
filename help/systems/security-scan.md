@@ -4,9 +4,9 @@ description: Lär dig hur du kör en förbättrad säkerhetsgenomsökning och ö
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 183b8c52c6d8e2ea1afcc74fe4e2ed8e42efb216
+source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,19 @@ Verktyget för säkerhetssökning erbjuder omfattande säkerhetsövervakningsfun
 
 >[!NOTE]
 >
->Du kan inte utesluta vissa säkerhetstester från säkerhetsgenomsökningsverktyget för Adobe Commerce. Du kan dock vara självbetjäning i [ignorera fel](#manage-scan-failures) som false-positiv om det är tillämpligt.
+>Du kan inte utesluta att specifika säkerhetstester körs, men du kan flytta de misslyckade kontrollerna till kategorin **[!UICONTROL Ignored Results]**. Mer information finns i [Hantera skanningsfel](#manage-scan-failures).
 
 ## Åtkomst
 
 Verktyget för säkerhetsgenomsökning upprätthåller strikta åtkomstkontroller för att skydda webbplatsinformationen. Det är bara du som kan skanna webbplatsen eftersom verktyget kräver verifiering av domänägarskap via ditt Adobe Commerce-konto. Varje webbplats ansluts till ditt konto via en unik token, vilket förhindrar obehörig skanning från tredje part.
 
 Verktyget fokuserar specifikt på Adobe Commerce-domäner och deras säkerhetsproblem. Även om din webbutik kan innehålla sidor från andra plattformar bör verktyget för säkerhetsgenomsökning endast skanna Adobe Commerce-genererat innehåll för att säkerställa tillförlitliga resultat. Skanning av icke-Adobe Commerce-sidor kan leda till otillförlitliga säkerhetsuppskattningar.
+
+
+## Åtkomst till inskannade resultat
+
+Sökresultaten är bara tillgängliga för den användare som ursprungligen konfigurerade sökningen. Om du vill dela resultat med andra måste originalanvändaren distribuera PDF-rapporten manuellt. En butiksägare kan också dela inskickade data med ett annat MAGEID med funktionen [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). Andra personer kan också göra inläsningar med sina egna konton. Under skanningskonfigurationen kan en kommaavgränsad lista med e-postadresser anges för att ta emot meddelanden om slutförda skanningar och bedömd risknivå.
+
 
 >[!NOTE]
 >
@@ -61,13 +67,14 @@ Verktyget fokuserar specifikt på Adobe Commerce-domäner och deras säkerhetspr
 >
 >Lägg till de här IP-adresserna till en tillåtelselista i brandväggsreglerna för nätverket så att verktyget kan skanna din webbplats. Verktyget skickar endast begäranden till portarna `80` och `443`.
 
+
 ## Köra en sökning
 
 Under genomsökningen kontrolleras webbplatsen mot kända säkerhetsproblem och saknade Adobe Commerce-korrigeringar och uppdateringar som kan göra din butik sårbar för attacker identifieras.
 
 >[!TIP]
 >
->Information om Commerce i molninfrastrukturprojekt finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Information om Commerce i molninfrastrukturprojekt finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Så här kör du en sökning:
 
@@ -98,7 +105,7 @@ Så här kör du en sökning:
 
    1. Logga in på administratören för din butik som användare med fullständig administratörsbehörighet och gör följande:
 
-      1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+      1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
       1. Hitta din webbplats i listan och klicka på **[!UICONTROL Edit]**.
       1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
       1. Bläddra ned till **[!UICONTROL Scripts and Style Sheets]** och klicka i textrutan i slutet av eventuell befintlig kod. Klistra in bekräftelsekoden i textrutan.
@@ -147,7 +154,7 @@ Så här kör du en sökning:
 
          När byggprocessen är klar kommer ändringarna att distribueras till din PWA-butik.
 
-1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_&#x200B;i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;för att etablera ägarskap för domänen.
+1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap för domänen.
 
 1. Konfigurera alternativen för **[!UICONTROL Set Automatic Security Scan]** för någon av följande typer efter att du har bekräftat att åtgärden lyckades:
 
@@ -191,18 +198,20 @@ Genom att hantera skanningsfel kan du få en mer korrekt säkerhetsöversikt öv
 - Eliminera behovet av att kontakta support för kända, falska positiva motiv.
 - Spara tid genom att självhantera skanningsfel som du redan har utrett.
 
-Vanliga scenarier där du kan markera ett skanningsfel som falskt positivt är:
+### Exempel på giltiga scenarier för ignorering av sökningsfel
 
 - När du redan har tillämpat en säkerhetskorrigering som inte har identifierats av skanningsverktyget.
-- När ett identifierat problem inte kan tillämpas på din specifika lagringskonfiguration.
-- När du har implementerat en alternativ säkerhetsåtgärd som åtgärdar problemet.
+- När ett identifierat problem inte gäller din specifika butikskonfiguration (t.ex. anpassade inloggnings- och registreringssidor).
+- När du har implementerat en alternativ säkerhetsåtgärd som åtgärdar problemet (t.ex. Brandvägg för webbprogram).
 - När genomsökningsfelet baseras på en konfiguration som du avsiktligt har ställt in för ditt företags behov.
+- När du avsiktligt använder JavaScript-kod från tredje part som inte kan kontrolleras på grund av att koden är felaktig och/eller kodas.
+
 
 ### Ignorera sökningsfel
 
 Följ de här stegen för att hantera sökningsfel som du har identifierat som falska positiva:
 
-1. På sidan _[!UICONTROL Monitored Websites]_&#x200B;klickar du på&#x200B;**[!UICONTROL View Report]**&#x200B;för den webbplats du vill hantera.
+1. På sidan _[!UICONTROL Monitored Websites]_klickar du på&#x200B;**[!UICONTROL View Report]**för den webbplats du vill hantera.
 
 1. Leta reda på den misslyckade sökning som du vill markera som falskt positiv i rapportvyn.
 
@@ -212,13 +221,13 @@ Följ de här stegen för att hantera sökningsfel som du har identifierat som f
 
 1. Klicka på **[!UICONTROL Apply Changes]** för att spara markeringen.
 
-Det ignorerade genomsökningsfelet flyttas till avsnittet _[!UICONTROL Ignored Results]_&#x200B;och tas inte med i riskpoängen.
+Det ignorerade genomsökningsfelet flyttas till avsnittet _[!UICONTROL Ignored Results]_och tas inte med i riskpoängen.
 
 ### Sluta ignorera sökningsfel
 
 Om du behöver återställa ett tidigare ignorerat skanningsfel till den aktiva övervakningen gör du så här:
 
-1. Bläddra till avsnittet _[!UICONTROL Ignored Results]_&#x200B;i rapportvyn.
+1. Bläddra till avsnittet _[!UICONTROL Ignored Results]_i rapportvyn.
 
 1. Klicka på **[!UICONTROL Stop Ignoring]** för det genomsökningsfel som du vill återställa.
 
@@ -226,7 +235,7 @@ Om du behöver återställa ett tidigare ignorerat skanningsfel till den aktiva 
 
 1. Klicka på **[!UICONTROL Apply Changes]** för att spara markeringen.
 
-Skanningsfelet återgår till avsnittet _[!UICONTROL Failed Scans]_&#x200B;och ingår i riskpoängen.
+Skanningsfelet återgår till avsnittet _[!UICONTROL Failed Scans]_och ingår i riskpoängen.
 
 ### Visa ignorerade skanningsfel
 
