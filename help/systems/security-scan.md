@@ -52,7 +52,7 @@ Verktyget fokuserar specifikt på Adobe Commerce-domäner och deras säkerhetspr
 
 ## Åtkomst till inskannade resultat
 
-Sökresultaten är bara tillgängliga för den användare som ursprungligen konfigurerade sökningen. Om du vill dela resultat med andra måste originalanvändaren distribuera PDF-rapporten manuellt. En butiksägare kan också dela inskickade data med ett annat MAGEID med funktionen [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). Andra personer kan också göra inläsningar med sina egna konton. Under skanningskonfigurationen kan en kommaavgränsad lista med e-postadresser anges för att ta emot meddelanden om slutförda skanningar och bedömd risknivå.
+Sökresultaten är bara tillgängliga för den användare som ursprungligen konfigurerade sökningen. Om du vill dela resultat med andra måste originalanvändaren distribuera PDF-rapporten manuellt. En butiksägare kan också dela inskickade data med ett annat MAGEID med funktionen [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/sv/docs/commerce-admin/start/commerce-account/commerce-account-share). Andra personer kan också göra inläsningar med sina egna konton. Under skanningskonfigurationen kan en kommaavgränsad lista med e-postadresser anges för att ta emot meddelanden om slutförda skanningar och bedömd risknivå.
 
 
 >[!NOTE]
@@ -74,7 +74,7 @@ Under genomsökningen kontrolleras webbplatsen mot kända säkerhetsproblem och 
 
 >[!TIP]
 >
->Information om Commerce i molninfrastrukturprojekt finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Information om Commerce i molninfrastrukturprojekt finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Så här kör du en sökning:
 
