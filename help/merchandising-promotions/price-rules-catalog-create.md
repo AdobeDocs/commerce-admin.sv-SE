@@ -16,11 +16,11 @@ Följ dessa anvisningar för att tillämpa en rabatt på vissa produkter när en
 
 ## Steg 1: Lägg till en regel
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rule]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rule]**&#x200B;på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Rule]** i det övre högra hörnet.
 
-   Avsnittet _[!UICONTROL Rule Information]_innehåller utökningsbara avsnitt för **[!UICONTROL Conditions]**och **[!UICONTROL Actions]**.
+   Avsnittet _[!UICONTROL Rule Information]_&#x200B;innehåller utökningsbara avsnitt för **[!UICONTROL Conditions]**&#x200B;och **[!UICONTROL Actions]**.
 
    ![Katalogprisregel - information](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -242,7 +242,7 @@ Anger villkoren som måste uppfyllas innan katalogprisregeln verkställs. Om ing
 
 | Fält | Beskrivning |
 |-----|-----------|
-| [!UICONTROL Apply] | Bestämmer vilken typ av beräkning som ska tillämpas på inköpet. Alternativ: <br/>**[!UICONTROL Apply as percentage of original]**- Rabattartikel genom att subtrahera en procentandel av normalpriset.<br/>**[!UICONTROL Apply as fixed amount]** - Rabattartikel genom att subtrahera ett fast belopp från normalpriset. <br/>**[!UICONTROL Adjust final price to this percentage]**- Justerar det slutliga priset med en procentandel av det normala priset.<br/>**[!UICONTROL Adjust final price to discount value]** - Anger slutpriset till ett fast, diskonterat belopp. <br/><br/>**_Obs!_**Ordinarie pris avser basproduktpriset utan några avancerade priser (special/tier/group) eller kampanjrabatter. Slutpris avser det rabatterade pris som visas i kundvagnen. <br/>Det**_slutliga _**produktpriset beräknas som det**_lägsta _**relevanta priset, med följande formel: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Bestämmer vilken typ av beräkning som ska tillämpas på inköpet. Alternativ: <br/>**[!UICONTROL Apply as percentage of original]**- Rabattartikel genom att subtrahera en procentandel av normalpriset.<br/>**[!UICONTROL Apply as fixed amount]** - Rabattartikel genom att subtrahera ett fast belopp från normalpriset. <br/>**[!UICONTROL Adjust final price to this percentage]**- Justerar det slutliga priset med en procentandel av det normala priset.<br/>**[!UICONTROL Adjust final price to discount value]** - Anger slutpriset till ett fast, diskonterat belopp. <br/><br/>**_Obs!_**&#x200B;Ordinarie pris avser basproduktpriset utan några avancerade priser (special/tier/group) eller kampanjrabatter. Slutpris avser det rabatterade pris som visas i kundvagnen. <br/>Det&#x200B;**_slutliga _**&#x200B;produktpriset beräknas som det&#x200B;**_lägsta _**&#x200B;relevanta priset, med följande formel: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Obligatoriskt) Erbjudandet om rabatt. |
 | [!UICONTROL Discard Subsequent Rules] | Avgör om ytterligare regler kan tillämpas på det här köpet. Välj `Yes` om du vill förhindra att flera rabatter tillämpas på samma inköp. Alternativ: `Yes` / `No` |
 
