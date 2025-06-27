@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] i Commerce Admin.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: bad9a004d0354f3db7739d4582a015f4b38116f8
+source-git-commit: 7cbb5b3af0803dd2ec4d47d372632756b5ebfffa
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Mer information om de här konfigurationsfälten och alternativen finns i [Lagra
 
 ## [!UICONTROL General]
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 ![Lagra e-postadresser > Allmän kontakt](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
@@ -35,7 +35,7 @@ Mer information om de här konfigurationsfälten och alternativen finns i [Lagra
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Butiksvy | Namnet som visas som avsändaren av e-postmeddelandet som skickas av identiteten `General Contact`. |
-| [!UICONTROL Sender Email] | Butiksvy | E-postadressen som är associerad med identiteten `General Contact`. |
+| [!UICONTROL Sender Email] | Butiksvy | E-postadressen som är associerad med identiteten `General Contact`. I Adobe Commerce as a Cloud Service skapar du en supportanmälan för att ändra e-postadressen. |
 
 {style="table-layout:auto"}
 
@@ -46,7 +46,7 @@ Mer information om de här konfigurationsfälten och alternativen finns i [Lagra
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Butiksvy | Namnet som visas som avsändaren av e-postmeddelandet som skickas av identiteten `Sales Representative`. |
-| [!UICONTROL Sender Email] | Butiksvy | E-postadressen som är associerad med identiteten `Sales Representative`. |
+| [!UICONTROL Sender Email] | Butiksvy | E-postadressen som är associerad med identiteten `Sales Representative`.  I Adobe Commerce as a Cloud Service skapar du en supportanmälan för att ändra e-postadressen. |
 
 {style="table-layout:auto"}
 
@@ -57,7 +57,7 @@ Mer information om de här konfigurationsfälten och alternativen finns i [Lagra
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Butiksvy | Namnet som visas som avsändaren av e-postmeddelandet som skickas av identiteten `Customer Support`. |
-| [!UICONTROL Sender Email] | Butiksvy | E-postadressen som är associerad med identiteten `Customer Support`. |
+| [!UICONTROL Sender Email] | Butiksvy | E-postadressen som är associerad med identiteten `Customer Support`.  I Adobe Commerce as a Cloud Service skapar du en supportanmälan för att ändra e-postadressen. |
 
 {style="table-layout:auto"}
 
@@ -68,7 +68,7 @@ Mer information om de här konfigurationsfälten och alternativen finns i [Lagra
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Butiksvy | Namnet som visas som avsändaren av e-postmeddelandet som skickas av identiteten `Custom 1`. |
-| [!UICONTROL Sender Email] | Butiksvy | E-postadressen som är associerad med identiteten `Custom 1`. |
+| [!UICONTROL Sender Email] | Butiksvy | E-postadressen som är associerad med identiteten `Custom 1`.  I Adobe Commerce as a Cloud Service skapar du en supportanmälan för att ändra e-postadressen. |
 
 {style="table-layout:auto"}
 
@@ -79,6 +79,6 @@ Mer information om de här konfigurationsfälten och alternativen finns i [Lagra
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Butiksvy | Namnet som visas som avsändaren av e-postmeddelandet som skickas av identiteten `Custom 2`. |
-| [!UICONTROL Sender Email] | Butiksvy | E-postadressen som är associerad med identiteten `Custom 2`. |
+| [!UICONTROL Sender Email] | Butiksvy | E-postadressen som är associerad med identiteten `Custom 2`.  I Adobe Commerce as a Cloud Service skapar du en supportanmälan för att ändra e-postadressen. |
 
 {style="table-layout:auto"}
