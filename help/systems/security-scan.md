@@ -4,88 +4,38 @@ description: Lär dig hur du kör en förbättrad säkerhetsgenomsökning och ö
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
+source-git-commit: 8e634311cd84a9e797a36218c29abb4699d72835
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
-
 # Säkerhetssökning
 
-Adobe Commerce Security Scan Tool ger kostnadsfri säkerhetsövervakning för dina Adobe Commerce- och Magento Open Source-webbplatser. Verktyget fungerar som en webbaserad tjänst som du kommer åt via ditt Adobe Commerce-onlinekonto på [account.magento.com](https://account.magento.com/customer/account/login).
-
-![Verktyget för säkerhetsgenomsökning](./assets/magento-security-scan.png){width="600" zoomable="yes"}
-
->[!NOTE]
->
->Adobe tillhandahåller den här tjänsten utan kostnad, men handlarna måste acceptera villkor som begränsar Adobe ansvar baserat på skanningsresultat och webbplatskonfiguration.
-
->[!NOTE]
->
->Adobe rekommenderar att du använder verktyget för säkerhetsgenomsökning framför andra verktyg från tredje part för att säkerställa bästa möjliga servicekvalitet under undersökningen av resultaten.
-
-## Skanna täckning
-
-Verktyget för säkerhetsgenomsökning körs över både HTTP- och HTTPS-protokoll för att upptäcka skadlig kod, identifiera säkerhetsproblem och hjälpa dig att upprätthålla butikens säkerhetsposition. Verktyget är tillgängligt för alla handlare, utvecklare och utsedd personal med ansvar för platssäkerhet.
-
-Verktyget för säkerhetssökning erbjuder omfattande säkerhetsövervakningsfunktioner som hjälper dig att upprätthålla en säker lagringsmiljö:
+Med den förbättrade säkerhetssökningen kan du övervaka var och en av dina Adobe Commerce- och Magento Open Source-sajter, inklusive PWA, för att upptäcka kända säkerhetsrisker och skadlig programvara, samt få korrigeringsuppdateringar och säkerhetsmeddelanden.
 
 - Få insikt i butikens säkerhetsstatus i realtid.
 - Få förslag baserat på bästa praxis för att lösa problem.
-- Schemalägg en säkerhetsgenomsökning så att den körs varje vecka, dag eller on demand.
+- Schemalägg en säkerhetsgenomsökning som ska köras varje vecka, varje dag eller på begäran.
 - Kör över 21 000 säkerhetstester för att identifiera potentiell skadlig kod.
 - Få tillgång till historiska säkerhetsrapporter som spårar och övervakar webbplatsernas förlopp.
 - Få åtkomst till den inskannade rapporten som visar lyckade och misslyckade kontroller, med rekommenderade åtgärder.
 
->[!NOTE]
->
->Du kan inte utesluta att specifika säkerhetstester körs, men du kan flytta de misslyckade kontrollerna till kategorin **[!UICONTROL Ignored Results]**. Mer information finns i [Hantera skanningsfel](#manage-scan-failures).
+Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen för ditt [Commerce/Magento-konto](../getting-started/commerce-account-create.md). Mer teknisk information finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) i _infrastrukturhandboken för Commerce om molnet_.
 
-## Åtkomst
+![Säkerhetsgenomsökningsverktyget](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
-Verktyget för säkerhetsgenomsökning upprätthåller strikta åtkomstkontroller för att skydda webbplatsinformationen. Det är bara du som kan skanna webbplatsen eftersom verktyget kräver verifiering av domänägarskap via ditt Adobe Commerce-konto. Varje webbplats ansluts till ditt konto via en unik token, vilket förhindrar obehörig skanning från tredje part.
+## Kör en säkerhetssökning
 
-Verktyget fokuserar specifikt på Adobe Commerce-domäner och deras säkerhetsproblem. Även om din webbutik kan innehålla sidor från andra plattformar bör verktyget för säkerhetsgenomsökning endast skanna Adobe Commerce-genererat innehåll för att säkerställa tillförlitliga resultat. Skanning av icke-Adobe Commerce-sidor kan leda till otillförlitliga säkerhetsuppskattningar.
+1. Logga in på ditt [Commerce/Magento-konto](../getting-started/commerce-account-create.md).
 
+1. Klicka på fliken [!UICONTROL Security Scan] i den vänstra panelen. (Granska och godkänn vid behov alla uppdaterade villkor för användning av verktyget för säkerhetsgenomsökning.)
 
-## Åtkomst till inskannade resultat
-
-Sökresultaten är bara tillgängliga för den användare som ursprungligen konfigurerade sökningen. Om du vill dela resultat med andra måste originalanvändaren distribuera PDF-rapporten manuellt. En butiksägare kan också dela inskickade data med ett annat MAGEID med funktionen [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/sv/docs/commerce-admin/start/commerce-account/commerce-account-share). Andra personer kan också göra inläsningar med sina egna konton. Under skanningskonfigurationen kan en kommaavgränsad lista med e-postadresser anges för att ta emot meddelanden om slutförda skanningar och bedömd risknivå.
-
-
->[!NOTE]
->
->Verktyget för säkerhetsgenomsökning använder följande offentliga IP-adresser:
->
->```text
->52.87.98.44
->34.196.167.176
->3.218.25.102
->```
->
->Lägg till de här IP-adresserna till en tillåtelselista i brandväggsreglerna för nätverket så att verktyget kan skanna din webbplats. Verktyget skickar endast begäranden till portarna `80` och `443`.
-
-
-## Köra en sökning
-
-Under genomsökningen kontrolleras webbplatsen mot kända säkerhetsproblem och saknade Adobe Commerce-korrigeringar och uppdateringar som kan göra din butik sårbar för attacker identifieras.
-
->[!TIP]
->
->Information om Commerce i molninfrastrukturprojekt finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
-
-Så här kör du en sökning:
-
-1. Logga in på ditt [Commerce/Magento-konto](../getting-started/commerce-account-create.md) från Commerce hemsida.
-
-1. Granska och godkänn villkoren för användning av verktyget för säkerhetsgenomsökning.
-
-   1. Välj **[!UICONTROL Security Scan]** på den vänstra panelen.
-   1. Klicka på **[!UICONTROL Go to Security Scan]**.
-   1. Läs **[!UICONTROL Terms and Conditions]**.
-   1. Klicka på **[!UICONTROL Agree]** för att fortsätta.
+   - Välj **[!UICONTROL Security Scan]** på den vänstra panelen.
+   - Klicka på **[!UICONTROL Go to Security Scan]**.
+   - Läs **[!UICONTROL Terms and Conditions]**.
+   - Klicka på **[!UICONTROL Agree]** för att fortsätta.
 
 1. Klicka på **[!UICONTROL +Add Site]** på sidan _[!UICONTROL Monitored Websites]_.
 
@@ -97,82 +47,80 @@ Så här kör du en sökning:
 
    **Commerce storefront**:
 
-   1. Ange **[!UICONTROL Site URL]** och **[!UICONTROL Site Name]**.
-   1. Klicka på **[!UICONTROL Generate Confirmation Code]**.
-   1. Klicka på **Kopiera** om du vill kopiera bekräftelsekoden till Urklipp.
+   - Ange **[!UICONTROL Site URL]** och **[!UICONTROL Site Name]**.
+   - Klicka på **[!UICONTROL Generate Confirmation Code]**.
+   - Klicka på **Kopiera** om du vill kopiera bekräftelsekoden till Urklipp.
 
-      ![Generera bekräftelsekod](./assets/scan-site1.png){width="400" zoomable="yes"}
+     ![Generera bekräftelsekod](./assets/scan-site1.png){width="400" zoomable="yes"}
 
-   1. Logga in på administratören för din butik som användare med fullständig administratörsbehörighet och gör följande:
+   - Logga in på administratören för din butik som användare med fullständig administratörsbehörighet och gör följande:
 
-      1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
-      1. Hitta din webbplats i listan och klicka på **[!UICONTROL Edit]**.
-      1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
-      1. Bläddra ned till **[!UICONTROL Scripts and Style Sheets]** och klicka i textrutan i slutet av eventuell befintlig kod. Klistra in bekräftelsekoden i textrutan.
+      - Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+      - Hitta din webbplats i listan och klicka på **[!UICONTROL Edit]**.
+      - Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
+      - Bläddra ned till **[!UICONTROL Scripts and Style Sheets]** och klicka i textrutan i slutet av en befintlig kod och klistra in bekräftelsekoden i textrutan.
 
-         ![Skript och formatmallar](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+        ![Skript och formatmallar](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-      1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.
+      - Klicka på **[!UICONTROL Save Configuration]** när du är klar.
 
    **PWA storefront**:
 
-   1. Ange **[!UICONTROL Site URL]** och **[!UICONTROL Site Name]**.
+   - Ange **[!UICONTROL Site URL]** och **[!UICONTROL Site Name]**.
 
-   1. För **[!UICONTROL Confirmation Code]** väljer du alternativet `META Tag` och klickar sedan på **[!UICONTROL Generate Code]**.
+   - För **[!UICONTROL Confirmation Code]** väljer du alternativet `META Tag` och klickar sedan på **[!UICONTROL Generate Code]**.
 
-   1. Klicka på **[!UICONTROL Copy]** för att kopiera den genererade META-taggen för bekräftelsekoden till Urklipp.
+   - Klicka på **[!UICONTROL Copy]** för att kopiera den genererade META-taggen för bekräftelsekoden till Urklipp.
 
-      ![Generera bekräftelsekod](./assets/scan-site2.png){width="400" zoomable="yes"}
+     ![Generera bekräftelsekod](./assets/scan-site2.png){width="400" zoomable="yes"}
 
-   1. Gå till projektkatalogen för PWA Studio storefront och gör följande:
+   - Gå till projektkatalogen för PWA Studio storefront och gör följande:
 
-      1. Gå till `packages > venia-concept > template.html` under PWA Studio projektkatalog.
-      1. Lägg till den kopierade bekräftelsekoden (den genererade META-taggen) i HTML head och spara ändringarna.
+      - Gå till `packages > venia-concept > template.html` under PWA Studio projektkatalog.
+      - Lägg till den kopierade bekräftelsekoden (den genererade META-taggen) i HTML head och spara ändringarna.
 
-         ![Kopiera bekräftelsekod](./assets/code-pwa.png){width="600" zoomable="yes"}
+        ![Kopiera bekräftelsekod](./assets/code-pwa.png){width="600" zoomable="yes"}
 
-      1. Gå tillbaka till PWA Studio CLI och använd garn för att installera projektberoenden och köra projektbyggkommandot.
+      - Gå tillbaka till PWA Studio CLI och använd garn för att installera projektberoenden och köra projektbyggkommandot.
 
-         ```sh
-         yarn install &&
-         yarn build
-         ```
+        ```sh
+        yarn install &&
+        yarn build
+        ```
 
-      1. *I ditt molnprojekt* skapar du en `pwa`-mapp och kopierar innehållet i ditt storefront-projekts `dist`-mapp.
+      - *I ditt molnprojekt* skapar du en `pwa`-mapp och kopierar innehållet i ditt storefront-projekts `dist`-mapp.
 
-         ```sh
-         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
-         ```
+        ```sh
+        mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
+        ```
 
-      1. Använd Git CLI-verktyget för att mellanlagra, genomföra och överföra dessa ändringar till ditt Cloud-projekt.
+      - Använd Git CLI-verktyget för att mellanlagra, genomföra och överföra dessa ändringar till ditt Cloud-projekt.
 
-         ```sh
-         git add . &&
-         git commit -m "Added storefront file bundles" &&
-         git push origin
-         ```
+        ```sh
+        git add . &&
+        git commit -m "Added storefront file bundles" &&
+        git push origin
+        ```
 
-         När byggprocessen är klar kommer ändringarna att distribueras till din PWA-butik.
+        När byggprocessen är klar kommer ändringarna att distribueras till din PWA-butik.
 
-1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_&#x200B;i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;för att etablera ägarskap för domänen.
+1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap för domänen.
 
 1. Konfigurera alternativen för **[!UICONTROL Set Automatic Security Scan]** för någon av följande typer efter att du har bekräftat att åtgärden lyckades:
 
    **Sök igenom varje vecka (rekommenderas)**:
 
-   Välj **[!UICONTROL Week Day]**, **[!UICONTROL Time]** och **[!UICONTROL Time Zone]** som genomsökningen ska utföras varje vecka.
+   - Välj **[!UICONTROL Week Day]**, **[!UICONTROL Time]** och **[!UICONTROL Time Zone]** som genomsökningen ska utföras varje vecka.
+   - Som standard är genomsökningen schemalagd att börja varje vecka vid midnatt lördag, UTC och fortsätta till början av söndagen.
 
-   Som standard är genomsökningen schemalagd att börja varje vecka vid midnatt lördag, UTC och fortsätta till början av söndagen.
-
-   ![Sök igenom varje vecka](./assets/scan-weekly.png){width="500" zoomable="yes"}
+     ![Sök igenom varje vecka](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **Sök dagligen**:
 
-   Välj **[!UICONTROL Time]** och **[!UICONTROL Time Zone]** som genomsökningen ska utföras varje dag.
+   - Välj **[!UICONTROL Time]** och **[!UICONTROL Time Zone]** som genomsökningen ska utföras varje dag.
+   - Som standard är genomsökningen schemalagd att börja varje dag vid midnatt, UTC.
 
-   Som standard är genomsökningen schemalagd att börja varje dag vid midnatt, UTC.
-
-   ![Sök dagligen](./assets/scan-daily.png){width="500" zoomable="yes"}
+     ![Sök dagligen](./assets/scan-daily.png){width="500" zoomable="yes"}
 
 1. Ange **[!UICONTROL Email Address]** där du vill få meddelanden om slutförda sökningar och säkerhetsuppdateringar.
 
@@ -184,61 +132,20 @@ Så här kör du en sökning:
 
 1. Om du har flera webbplatser med olika domäner upprepar du den här processen för att konfigurera en säkerhetsgenomsökning för varje.
 
-## Hantera skanningsfel
+## Ta bort en säkerhetssökning
 
-Med verktyget för säkerhetsgenomsökning kan du hantera genomsökningsfel direkt från rapportvyn. Du kan markera specifika skanningsfel som falska positiva och utesluta dem från riskpoängen.
+>[!NOTE]
+>
+>Det är bara den person som ursprungligen konfigurerade skanningen som kan ta bort den från kontot. Om de inte har loggat in på sitt [konto](https://account.magento.com) sedan augusti 2022 måste de först kontrollera att de har [registrerat sig för en Adobe ID](https://account.magento.com).
 
-### Fördelar med att hantera misslyckade sökningar
+**Ta bort en skanning**
 
-Genom att hantera skanningsfel kan du få en mer korrekt säkerhetsöversikt över din butik:
+1. Logga in på [Commerce/Magento-kontot](../getting-started/commerce-account-create.md).
 
-- Minska antalet falska positiv i säkerhetsrapporterna.
-- Fokusera på relevanta säkerhetsfrågor som behöver åtgärdas.
-- Få en tydligare bild av butikens verkliga säkerhetsstatus.
-- Eliminera behovet av att kontakta support för kända, falska positiva motiv.
-- Spara tid genom att självhantera skanningsfel som du redan har utrett.
+1. Klicka på fliken [!UICONTROL Security Scan] i den vänstra panelen. (Granska och godkänn vid behov alla uppdaterade villkor för användning av verktyget för säkerhetsgenomsökning.)
 
-### Exempel på giltiga scenarier för ignorering av sökningsfel
+   - Klicka på **[!UICONTROL Go to Security Scan]**.
+   - Läs **[!UICONTROL Terms and Conditions]**.
+   - Klicka på **[!UICONTROL Agree]** för att fortsätta.
 
-- När du redan har tillämpat en säkerhetskorrigering som inte har identifierats av skanningsverktyget.
-- När ett identifierat problem inte gäller din specifika butikskonfiguration (t.ex. anpassade inloggnings- och registreringssidor).
-- När du har implementerat en alternativ säkerhetsåtgärd som åtgärdar problemet (t.ex. Brandvägg för webbprogram).
-- När genomsökningsfelet baseras på en konfiguration som du avsiktligt har ställt in för ditt företags behov.
-- När du avsiktligt använder JavaScript-kod från tredje part som inte kan kontrolleras på grund av att koden är felaktig och/eller kodas.
-
-
-### Ignorera sökningsfel
-
-Följ de här stegen för att hantera sökningsfel som du har identifierat som falska positiva:
-
-1. På sidan _[!UICONTROL Monitored Websites]_&#x200B;klickar du på&#x200B;**[!UICONTROL View Report]**&#x200B;för den webbplats du vill hantera.
-
-1. Leta reda på den misslyckade sökning som du vill markera som falskt positiv i rapportvyn.
-
-1. Klicka på **[!UICONTROL Ignore]** om du vill se det specifika genomsökningsfelet.
-
-   ![Ignorera sökningsfel](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
-
-1. Klicka på **[!UICONTROL Apply Changes]** för att spara markeringen.
-
-Det ignorerade genomsökningsfelet flyttas till avsnittet _[!UICONTROL Ignored Results]_&#x200B;och tas inte med i riskpoängen.
-
-### Sluta ignorera sökningsfel
-
-Om du behöver återställa ett tidigare ignorerat skanningsfel till den aktiva övervakningen gör du så här:
-
-1. Bläddra till avsnittet _[!UICONTROL Ignored Results]_&#x200B;i rapportvyn.
-
-1. Klicka på **[!UICONTROL Stop Ignoring]** för det genomsökningsfel som du vill återställa.
-
-   ![Universella genomsökningsfel](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
-
-1. Klicka på **[!UICONTROL Apply Changes]** för att spara markeringen.
-
-Skanningsfelet återgår till avsnittet _[!UICONTROL Failed Scans]_&#x200B;och ingår i riskpoängen.
-
-### Visa ignorerade skanningsfel
-
-Ignorerade resultat visas i ett separat avsnitt i rapporten och riskpoängen uppdateras automatiskt så att endast aktiva skanningsfel visas. Du kan hantera flera skanningsfel samtidigt genom att markera flera objekt innan du tillämpar ändringarna.
-
-![Visa ignorerade skanningsfel](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}
+1. På sidan _[!UICONTROL Monitored Websites]_letar du reda på listrutan under kolumnen [!UICONTROL Actions] och väljer sedan **[!UICONTROL Delete]**för rätt webbplats(er).
