@@ -26,7 +26,7 @@ Ditt [!DNL Commerce]-konto innehåller information som du kan göra tillgänglig
 
 1. Innan du börjar får du följande information från [!DNL Commerce]-kontot för den **nya delade åtkomstbehörigheten**:
 
-   - Användaren måste ha registrerat sig för ett konto på account.adobe.com och loggas in via account.magento.com. Mer information finns i [Skapa ett Commerce-konto](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account).
+   - Användaren måste ha registrerat sig för ett konto på account.adobe.com och loggas in via account.magento.com. Mer information finns i [Skapa ett Commerce-konto](https://experienceleague.adobe.com/sv/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account).
    - `MAGE ID/Account ID (MAG00XXXXXXX)` visas i det övre vänstra hörnet på fliken _[!UICONTROL Magento]_, precis ovanför länken **Logga ut**.
    - Den `Email`-adress som är associerad med kontot.
 
@@ -64,7 +64,7 @@ Ditt [!DNL Commerce]-konto innehåller information som du kan göra tillgänglig
 
 >[!NOTE]
 >
->Det är inte nödvändigt att dela åtkomst till _[!UICONTROL Security Tool]_- Alla användare med ett MAGE ID kan konfigurera verktyget för säkerhetsgenomsökning med ett eget konto. De behöver bara de nödvändiga behörigheterna för att göra ändringar på webbplatsen och för att verifiera domänens ägarskap med någon av de [obligatoriska metoderna](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
+>Det är inte nödvändigt att dela åtkomst till _[!UICONTROL Security Tool]_- Alla användare med ett MAGE ID kan konfigurera verktyget för säkerhetsgenomsökning med ett eget konto. De behöver bara de nödvändiga behörigheterna för att göra ändringar på webbplatsen och för att verifiera domänens ägarskap med någon av de [obligatoriska metoderna](https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/security/security-scan)).
 
 ## Åtkomst till ett delat konto
 
@@ -91,11 +91,11 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
 
    ![Support](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Du kan använda [Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) från det delade kontot för att söka efter artiklar och felsökningsinformation, hitta korrigeringsfiler för kända problem och skapa supportärenden.
+   Du kan använda [Adobe Commerce Help Center](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/overview) från det delade kontot för att söka efter artiklar och felsökningsinformation, hitta korrigeringsfiler för kända problem och skapa supportärenden.
 
    >[!NOTE]
    >
-   >När du har fått delad åtkomst ska du [skicka ett supportärende](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) på Experience League och först markera organisationsnamnet som slutar med &quot;([!DNL Commerce])&quot; i den vänstra kolumnen.
+   >När du har fått delad åtkomst ska du [skicka ett supportärende](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) på Experience League och först markera organisationsnamnet som slutar med &quot;([!DNL Commerce])&quot; i den vänstra kolumnen.
 
 1. Om du vill återgå till ditt eget konto klickar du på **Bakåt** i webbläsarkontrollerna och anger **[!UICONTROL Switch Accounts]** till `My Account`.
 
@@ -109,21 +109,21 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
 
    >[!NOTE]
    >
-   > Om **[!UICONTROL Delete]** inte visas kontrollerar du om **[!UICONTROL Share Name]** innehåller namnmönstret `Cloud Shared Access from MAG0XYZ`. Om kontot har det [namngivningsmönstret och inte kan tas bort](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users) beror det på att den delade åtkomsten skapades av ett API, inte direkt från [Commerce-kontot](https://account.magento.com/).
+   > Om **[!UICONTROL Delete]** inte visas kontrollerar du om **[!UICONTROL Share Name]** innehåller namnmönstret `Cloud Shared Access from MAG0XYZ`. Om kontot har det [namngivningsmönstret och inte kan tas bort](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users) beror det på att den delade åtkomsten skapades av ett API, inte direkt från [Commerce-kontot](https://account.magento.com/).
    > 
    > Om den inte kan tas bort måste kontoägaren ändra kontot för delad åtkomst och avmarkera alla objekt under Bevilja kontobehörigheter. Efter den uppdateringen kommer användaren inte längre att kunna komma åt några kontoresurser.
    > ![bild](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
-   > Se dessutom till att användarna tas bort från projektet så att de inte längre får e-postmeddelanden: [Tidigare teammedlemmar får Adobe Commerce molnmeddelanden](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > Se dessutom till att användarna tas bort från projektet så att de inte längre får e-postmeddelanden: [Tidigare teammedlemmar får Adobe Commerce molnmeddelanden](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Delete User]**.
 
 >[!NOTE]
 >
->Du kan inte ta bort användare med resursnamnet _Cloud Shared Access från MAG[XYZ]_ i det här gränssnittet. Se [Så här tar du bort användare som har beviljats delad åtkomst via ett molnprojekt?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
+>Du kan inte ta bort användare med resursnamnet _Cloud Shared Access från MAG[XYZ]_ i det här gränssnittet. Se [Så här tar du bort användare som har beviljats delad åtkomst via ett molnprojekt?](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Relaterad läsning
 
-[Felsökning av delad åtkomst](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[Felsökning av delad åtkomst](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 
