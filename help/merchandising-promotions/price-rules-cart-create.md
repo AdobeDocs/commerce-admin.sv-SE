@@ -3,9 +3,9 @@ title: Skapa en kundvagnsprisregel
 description: Lär dig hur du skapar en kundvagnsprisregel baserat på kundvagn- eller produktattribut.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: d981a0365cc7768394ca03f4352be45caef87a73
 workflow-type: tm+mt
-source-wordcount: '3386'
+source-wordcount: '3382'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Utför följande steg för att lägga till en regel, beskriva villkoren och defi
 
 ## Steg 1: Lägg till en regel
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**på sidofältet_ Admin _.
 
 1. Klicka på **[!UICONTROL Add New Rule]** och gör följande:
 
@@ -59,13 +59,7 @@ Utför följande steg för att lägga till en regel, beskriva villkoren och defi
 
 1. Ange ett tal för att definiera **[!UICONTROL Priority]** för den här prisregeln i relation till åtgärdsinställningarna för andra prisregler som är aktiva samtidigt.
 
-   >[!NOTE]
-   >
-   >Inställningen _[!UICONTROL Priority]_&#x200B;är viktig när två kundvagnsregler eller kupongkoder är giltiga för samma produkt samtidigt. Regeln med den högsta [!UICONTROL Priority]-inställningen som styr kundvagnsåtgärden.  Prioriteter från högsta till lägsta är `0,1,2,3...`. Se_ Ignorera efterföljande prisregler _i steget_[ Definiera åtgärder ](#step-3-define-the-actions)_.
-
-   >[!NOTE]
-   >
-   >Kundprisregler som har samma prioritet ger ingen kombinerad rabatt. Varje regel (kupong) tillämpas på matchande produkter separat, en i taget, enligt kundprisregelns ID i databasen. Adobe rekommenderar att du anger olika prioriteter för varje tillagd kundprisregel för att styra i vilken ordning rabatterna ska tillämpas.
+   När flera kundvagnsregler eller kuponger gäller för samma produkt, tillämpas regeln med den högsta prioriteten (lägsta antal) först. Regler med samma prioritet kombineras inte. De tillämpas separat baserat på regel-ID. Om du vill styra i vilken ordning rabatterna ska tillämpas tilldelar du unika prioriteringar och bör använda [Ignorera efterföljande prisregler](#step-3-define-the-actions) i steget Åtgärder för att förhindra att rabatterna staplas.
 
 1. Om du vill tillämpa regeln på publicerade [RSS-flöden](social-rss.md#rss-feeds) anger du **Offentlig i RSS-feed** till `Yes`.
 
@@ -79,17 +73,15 @@ Utför följande steg för att lägga till en regel, beskriva villkoren och defi
 
 ## Steg 2: Beskriv villkoren
 
-I det här steget beskrivs de villkor som måste uppfyllas för att en beställning ska vara berättigad till en befordran. Regeln aktiveras när villkorsuppsättningen uppfylls.
-
-Om du använder målgrupper från Real-Time CDP går du vidare till [det här avsnittet](#use-real-time-cdp-audiences-to-set-a-condition).
-
 >[!NOTE]
 >
->Kundprisregeln tillämpas på **_varje_** produkt i kundvagnen när uppsättningen villkor på fliken _[!UICONTROL Conditions]_&#x200B;uppfylls. Lägg till villkor på fliken&#x200B;_[!UICONTROL Actions]_ för att begränsa antalet produkter som påverkas av kundprisregeln.
+>Om du använder målgrupper från Real-Time CDP går du vidare till [det här avsnittet](#use-real-time-cdp-audiences-to-set-a-condition).
 
->[!NOTE]
->
->Om minst ett villkorsproduktattribut har ett tomt värde, tillämpas inte kundvagnsprisregeln på produkten.
+I det här steget beskrivs de villkor som måste uppfyllas för att en beställning ska vara berättigad till en befordran. Villkoren påverkar kundprisreglerna på följande sätt:
+
+- Kundprisregeln tillämpas på **_varje_** produkt i kundvagnen när uppsättningen villkor på fliken _[!UICONTROL Conditions]_uppfylls. Om du vill begränsa antalet produkter som påverkas av kundvagnsprisregeln lägger du till villkor på fliken_[!UICONTROL Actions]_ för att begränsa antalet produkter som påverkas av kundvagnsprisregeln.
+
+- Om minst ett villkorsproduktattribut har ett tomt värde, tillämpas inte kundvagnsprisregeln på produkten.
 
 1. Välj **[!UICONTROL Conditions]** i den vänstra panelen.
 
@@ -172,7 +164,7 @@ Om du använder målgrupper från Real-Time CDP går du vidare till [det här av
 
 ### Lägg till ett produktattribut i kundprisreglerna
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;och öppna produktattributet.
+1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**och öppna produktattributet.
 
 1. Välj **[!UICONTROL Storefront Properties]** i den vänstra panelen.
 
@@ -219,7 +211,7 @@ Du kan ange ett villkor för en kundprisregel baserat på en Real-Time CDP [mål
    | `Name` | Målgruppens namn, till exempel `Orders over $50` |
    | `Description` | Beskrivning av målgruppen, till exempel `People who placed an order over $50 in the last month.`. |
    | `Source` | Anger varifrån målgruppen kom, till exempel `Experience Platform`. |
-   | `Website` | Anger vilken webbplats du har länkat till datastream som innehåller målgrupperna. Du skapar den här länken när du ansluter din Commerce-instans till Experience Platform via tillägget [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=sv-SE). |
+   | `Website` | Anger vilken webbplats du har länkat till datastream som innehåller målgrupperna. Du skapar den här länken när du ansluter din Commerce-instans till Experience Platform via tillägget [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
 
    {style="table-layout:auto"}
 
@@ -239,10 +231,12 @@ Kundvagnsprisregelåtgärderna beskriver hur priserna uppdateras när villkoren 
    |------|-----------|
    | `Percent of product price discount` | Rabattartikel genom att subtrahera en procentandel från det ursprungliga priset. Rabatten gäller för varje kvalificerande artikel i kundvagnen. Ange till exempel `10` i [!UICONTROL Discount Amount] för ett uppdaterat pris som är 10 % mindre än det ursprungliga priset. |
    | `Fixed amount discount` | Rabattartikel genom att subtrahera ett fast belopp från det ursprungliga priset för varje kvalificerande artikel i kundvagnen. Ange till exempel `10` i [!UICONTROL Discount Amount] för ett uppdaterat pris som är 10 USD mindre än det ursprungliga priset. |
-   | Fast beloppsrabatt för hela kundvagn | Rabatterar hela kundvagnen genom att subtrahera ett fast belopp från kundvagnssumman. Exempel: Ange 10 i [!UICONTROL Discount Amount] om du vill subtrahera $10 från kundvagnssumman. Som standard gäller rabatten endast delsumman i kundvagnen. Använd alternativet _[!UICONTROL Apply to Shipping Amount]_&#x200B;om du vill tillämpa rabatten på delsumman och skicka separat. |
+   | Fast beloppsrabatt för hela kundvagn | Rabatterar hela kundvagnen genom att subtrahera ett fast belopp från kundvagnssumman. Exempel: Ange 10 i [!UICONTROL Discount Amount] om du vill subtrahera $10 från kundvagnssumman. Som standard gäller rabatten endast delsumman i kundvagnen. Använd alternativet _[!UICONTROL Apply to Shipping Amount]_om du vill tillämpa rabatten på delsumman och skicka separat. |
    | `Buy X get Y free` | Definierar en kvantitet X som kunden måste köpa för att få kvantiteten Y **av samma produkt/variation** utan kostnad. ([!UICONTROL Discount Amount] är Y.) En total kvantitet på X+Y av samma artikel måste finnas i/läggas till i kundvagnen för att rabatten ska tillämpas. |
 
    {style="table-layout:auto"}
+
+   - Om du vill tillämpa fasta beloppsrabatter konsekvent på webbplatser med olika valutor (utan att konvertera från den globala basvalutan) ställer du in alternativet **[!UICONTROL Catalog Price Scope]** på `Website` och definierar en basvaluta för varje webbplats.
 
    - Ange **[!UICONTROL Discount Amount]** som ett tal, utan symboler. Beroende på vilket rabattalternativ du väljer kan talet 10 t.ex. visa en procentsats, ett fast belopp eller en kvantitet artiklar.
 
@@ -347,7 +341,7 @@ I den här videon får du lära dig att skapa kundvagnsprisregler:
 | [!UICONTROL Active] | (Obligatoriskt) Anger om regeln är aktiv i butiken. Alternativ: `Yes` / `No` |
 | [!UICONTROL Websites] | (Obligatoriskt) Identifierar de webbplatser där regeln kan användas. |
 | [!UICONTROL Customer Groups] | (Obligatoriskt) Identifierar de kundgrupper som regeln gäller. |
-| [!UICONTROL Coupon] | (Obligatoriskt) Anger om en kupong är associerad med regeln. Alternativ: <br/>**[!UICONTROL No Coupon]**- Ingen kupong är associerad med regeln.<br/>**[!UICONTROL Specific Coupon]** - En specifik kupong är associerad med regeln. <br/>**[!UICONTROL Coupon Code]**- Ange den kupongkod som kunden måste ange för att kunna utnyttja erbjudandet.<br/>**[!UICONTROL Use Auto Generation]** - Markera kryssrutan för att automatiskt generera flera kupongkoder som kan användas med kampanjen. <br/>**[!UICONTROL Auto]**- Visar avsnittet _[!UICONTROL Manage Coupon Codes]_&#x200B;för att definiera formatet på kupongkoderna som ska genereras. |
+| [!UICONTROL Coupon] | (Obligatoriskt) Anger om en kupong är associerad med regeln. Alternativ: <br/>**[!UICONTROL No Coupon]**- Ingen kupong är associerad med regeln.<br/>**[!UICONTROL Specific Coupon]** - En specifik kupong är associerad med regeln. <br/>**[!UICONTROL Coupon Code]**- Ange den kupongkod som kunden måste ange för att kunna utnyttja erbjudandet.<br/>**[!UICONTROL Use Auto Generation]** - Markera kryssrutan för att automatiskt generera flera kupongkoder som kan användas med kampanjen. <br/>**[!UICONTROL Auto]**- Visar avsnittet _[!UICONTROL Manage Coupon Codes]_för att definiera formatet på kupongkoderna som ska genereras. |
 | [!UICONTROL Uses per Coupon] | Avgör hur många gånger kupongkoden kan användas. Om det inte finns någon gräns lämnar du fältet tomt. |
 | [!UICONTROL Uses per Customer] | Avgör hur många gånger kundprisregeln kan användas av samma registrerade kund som tillhör en vald kundgrupp. Gäller inte gästkunder som är medlemmar i kundgruppen NOT LOGGED IN, eller kunder som handlar utan att logga in på sina konton. Utan begränsning lämnas tomt. |
 | [!UICONTROL Priority] | Ett tal som anger den här regelns prioritet i förhållande till andra. Prioriteringarna från högsta till lägsta är `0,1,2,3...` |
@@ -390,7 +384,7 @@ Anger villkoren som måste uppfyllas innan kundprisregeln aktiveras. Om inget an
 
 | Fält | Beskrivning |
 |--- |--- |
-| [!UICONTROL Apply] | Bestämmer vilken typ av beräkning som ska tillämpas på inköpet. Alternativ: <br/>**[!UICONTROL Percent of product price discount]**- Rabattartikel genom att subtrahera en procentandel från det ursprungliga priset. Ange till exempel `10` i _[!UICONTROL Discount Amount]_&#x200B;för ett uppdaterat pris som är 10 % mindre än det ursprungliga priset.<br/>**[!UICONTROL Fixed amount discount]**- Rabattartikel genom att subtrahera ett fast belopp från det ursprungliga priset för varje kvalificerande artikel i kundvagnen. Ange till exempel `10` i&#x200B;_[!UICONTROL Discount Amount]_ för ett uppdaterat pris som är 10 USD mindre än det ursprungliga priset. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Rabatterar hela kundvagnen genom att subtrahera ett fast belopp från kundvagnens delsumma. Ange till exempel `10` i _[!UICONTROL Discount Amount]_&#x200B;om du vill subtrahera $10 från kundvagnens delsumma. Som standard gäller rabatten endast delsumman i kundvagnen. Om du vill tillämpa rabatten på delsumman och skicka separat läser du_Tillämpa på leveransbelopp _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definierar en kvantitet som kunden måste köpa för att få en kvantitet kostnadsfritt. (_[!UICONTROL Discount Amount]_ är Y.) |
+| [!UICONTROL Apply] | Bestämmer vilken typ av beräkning som ska tillämpas på inköpet. Alternativ: <br/>**[!UICONTROL Percent of product price discount]**- Rabattartikel genom att subtrahera en procentandel från det ursprungliga priset. Ange till exempel `10` i _[!UICONTROL Discount Amount]_för ett uppdaterat pris som är 10 % mindre än det ursprungliga priset.<br/>**[!UICONTROL Fixed amount discount]**- Rabattartikel genom att subtrahera ett fast belopp från det ursprungliga priset för varje kvalificerande artikel i kundvagnen. Ange till exempel `10` i_[!UICONTROL Discount Amount]_ för ett uppdaterat pris som är 10 USD mindre än det ursprungliga priset. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Rabatterar hela kundvagnen genom att subtrahera ett fast belopp från kundvagnens delsumma. Ange till exempel `10` i _[!UICONTROL Discount Amount]_om du vill subtrahera $10 från kundvagnens delsumma. Som standard gäller rabatten endast delsumman i kundvagnen. Om du vill tillämpa rabatten på delsumman och skicka separat läser du_Tillämpa på leveransbelopp _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definierar en kvantitet som kunden måste köpa för att få en kvantitet kostnadsfritt. (_[!UICONTROL Discount Amount]_ är Y.) |
 | [!UICONTROL Discount Amount] | (Obligatoriskt) Erbjudandet om rabatt. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Anger det maximala antalet produkter som rabatten kan tillämpas på i samma inköp. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Anger antalet produkter som representeras av `X` i en `Buy X Get Y Free`-kampanj. Definierar även hur många produkter som måste läggas till i varukorgen tillsammans i grupper för att `Fixed amount discount`- och `Percent of product price discount`-kampanjer ska kunna användas. |
