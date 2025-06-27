@@ -55,7 +55,7 @@ Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från inst
 
    - Logga in på administratören för din butik som användare med fullständig administratörsbehörighet och gör följande:
 
-      - Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**på sidofältet_ Admin _.
+      - Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
       - Hitta din webbplats i listan och klicka på **[!UICONTROL Edit]**.
       - Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
       - Bläddra ned till **[!UICONTROL Scripts and Style Sheets]** och klicka i textrutan i slutet av en befintlig kod och klistra in bekräftelsekoden i textrutan.
@@ -104,7 +104,7 @@ Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från inst
 
         När byggprocessen är klar kommer ändringarna att distribueras till din PWA-butik.
 
-1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap för domänen.
+1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_&#x200B;i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;för att etablera ägarskap för domänen.
 
 1. Konfigurera alternativen för **[!UICONTROL Set Automatic Security Scan]** för någon av följande typer efter att du har bekräftat att åtgärden lyckades:
 
@@ -148,4 +148,4 @@ Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från inst
    - Läs **[!UICONTROL Terms and Conditions]**.
    - Klicka på **[!UICONTROL Agree]** för att fortsätta.
 
-1. På sidan _[!UICONTROL Monitored Websites]_letar du reda på listrutan under kolumnen [!UICONTROL Actions] och väljer sedan **[!UICONTROL Delete]**för rätt webbplats(er).
+1. På sidan _[!UICONTROL Monitored Websites]_&#x200B;letar du reda på listrutan under kolumnen [!UICONTROL Actions] och väljer sedan **[!UICONTROL Delete]**&#x200B;för rätt webbplats(er).
