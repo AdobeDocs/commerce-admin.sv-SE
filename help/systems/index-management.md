@@ -46,7 +46,7 @@ Omindexering och cachelagring har olika syften i Commerce. Indexen spårar datab
 >
 >För butiker som använder [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) och har angett Elasticsearch som fulltextindexerare (`catalogsearch_fulltext`): fulltextindexet måste köras igen efter att gruppbehörigheter har ändrats eller när behörighetsindexeraren är i läget Schemalagd.
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**på sidofältet_ Admin _.
+1. Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**&#x200B;på sidofältet_ Admin _.
 
 1. Markera kryssrutan för varje indexerare som du vill ändra.
 
