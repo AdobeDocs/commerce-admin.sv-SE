@@ -3,26 +3,28 @@ title: HIPAA-beredskap på Adobe Commerce
 description: Läs om hur du kan lägga till tillägget Adobe Commerce HIPAA-Ready och få ytterligare funktioner som gör att du kan uppfylla dina skyldigheter enligt HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: ee2635e45c56be82b0abb7369fd6d74a3b00ce93
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2390'
 ht-degree: 1%
 
 ---
 
 # HIPAA-beredskap på Adobe Commerce
 
+{{ee-feature}}
+
 >[!IMPORTANT]
 >
 >**Juridisk ansvarsfriskrivning**<br/>
->Den här informationen är avsedd att hjälpa Adobe-kunder att besvara sina frågor om Adobe HIPAA-Ready Services. Den utgör inte juridisk rådgivning. Handlarna bör samråda med sitt eget juridiska ombud för att förstå sina skyldigheter enligt HIPAA och att Adobe produkter används och konfigureras på lämpligt sätt.
+>>Den här informationen är avsedd att hjälpa Adobe-kunder att besvara sina frågor om Adobe HIPAA-Ready Services. Den utgör inte juridisk rådgivning. Handlarna bör samråda med sitt eget juridiska ombud för att förstå sina skyldigheter enligt HIPAA och att Adobe produkter används och konfigureras på lämpligt sätt.
 
 >[!BEGINSHADEBOX]
 
 **HIPAA (Health Insurance Portability and Accounability Act)**
 
-HIPAA (Health Insurance Portability and Accounability Act) är den viktigaste federala hälso- och sjukvårdslagstiftningen i USA och regleras av USA:s Department of Health and Human Services (HHS). HIPAA gäller för _täckta entiteter_ (t.ex. vårdgivare, försäkringsgivare och clearinghus) och _Business Associates_ (t.ex. de entiteter som tillhandahåller tjänster till täckta entiteter). HIPAA-kraven anges i tre separata regler: sekretessregel, säkerhetsregel och regel för meddelanden om överträdelser. Adobe fungerar som Business Associate för vissa produkter som Adobe klassificerar som&quot;HIPAA-Ready Services&quot;. Data som regleras under HIPAA kallas _Skyddad hälsoinformation_ eller PHI. PHI är en delmängd av hälsoinformation som (1) skapas eller tas emot av en vårdgivare, en hälsoplan eller en vårdcentral, (2) avser en individs tidigare, nuvarande eller framtida fysiska eller psykiska hälsa eller tillstånd, tillhandahållande av hälso- och sjukvård till en individ eller tidigare, nuvarande eller framtida betalning för tillhandahållande av hälso- och sjukvård till en individ, och (3) identifierar den individ eller med avseende på vilken det finns en rimlig grund att tro informationen kan användas för att identifiera den enskilda personen. HIPAA:s sekretess- och säkerhetsregler kräver att en enhet som omfattas erhåller skriftliga garantier från en Business Associate i form av ett Business Associate-avtal, eller BAA, som kräver att Business Associate ska skydda integriteten och säkerheten för de berörda enheternas PHI. Mer information finns i [HIPAA och Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) i Adobe Trust Center.
+HIPAA (Health Insurance Portability and Accounability Act) är den viktigaste federala hälso- och sjukvårdslagstiftningen i USA och regleras av USA:s Department of Health and Human Services (HHS). HIPAA gäller för _täckta entiteter_ (t.ex. vårdgivare, försäkringsgivare och clearinghus) och _Business Associates_ (t.ex. de entiteter som tillhandahåller tjänster till täckta entiteter). HIPAA-kraven anges i tre separata regler: sekretessregel, säkerhetsregel och regel för meddelanden om överträdelser. Adobe fungerar som Business Associate för vissa produkter som Adobe klassificerar som&quot;HIPAA-Ready Services&quot;. Data som regleras under HIPAA kallas _Skyddad hälsoinformation_ eller PHI. PHI är en delmängd av hälsoinformation som (1) skapas eller tas emot av en vårdgivare, en hälsoplan eller en vårdcentral, (2) avser en individs tidigare, nuvarande eller framtida fysiska eller psykiska hälsa eller tillstånd, tillhandahållande av hälso- och sjukvård till en individ eller tidigare, nuvarande eller framtida betalning för tillhandahållande av hälso- och sjukvård till en individ, och (3) identifierar den individ eller med avseende på vilken det finns en rimlig grund att tro informationen kan användas för att identifiera den enskilda personen. HIPAA:s sekretess- och säkerhetsregler kräver att en enhet som omfattas erhåller skriftliga garantier från en Business Associate i form av ett Business Associate-avtal, eller BAA, som kräver att Business Associate ska skydda integriteten och säkerheten för de berörda enheternas PHI. Mer information finns i [HIPAA och Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-hds/hipaa-ready.html) i Adobe Trust Center.
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +46,7 @@ I följande tabell visas kompatibiliteten mellan olika versioner av Adobe Commer
 
 | Adobe Commerce | Stöds | Anteckningar |
 |----------------|-----------|-------|
-| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4-stöd kräver en [snabbkorrigering](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4-stöd kräver en [snabbkorrigering](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | Stöd för [datatjänster](#adobe-commerce-services) infördes i 1.1.0 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -63,7 +65,7 @@ I följande tabell visas kompatibiliteten mellan olika versioner av Adobe Commer
 >[!BEGINSHADEBOX]
 
 - Adobe har etablerat ditt Adobe Commerce-konto för att komma åt tillägget HIPAA Ready.
-- Åtkomst till [repo.magento.com](https://repo.magento.com) för att installera tillägget. Om du vill ha nyckelgenerering och de nödvändiga rättigheterna kan du läsa [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=sv-SE).
+- Åtkomst till [repo.magento.com](https://repo.magento.com) för att installera tillägget. Om du vill ha nyckelgenerering och de nödvändiga rättigheterna kan du läsa [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
 >[!ENDSHADEBOX]
 
@@ -71,13 +73,13 @@ Installera den senaste versionen av Adobe HIPAA-Ready Services-tillägg (`magent
 
 >[!NOTE]
 >
->Information om hur du ser till att data som skickas till Experience Platform är HIPAA-klara finns i [tilläggsguiden för dataanslutning](https://experienceleague.adobe.com/sv/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Information om hur du ser till att data som skickas till Experience Platform är HIPAA-klara finns i [tilläggsguiden för dataanslutning](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. På din lokala arbetsstation byter du till projektkatalogen för ditt Adobe Commerce i molninfrastrukturprojekt.
 
    >[!NOTE]
    >
-   >Mer information om att hantera Commerce projektmiljöer lokalt finns i [Hantera grenar med CLI](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/develop/cli-branches) i _Adobe Commerce on Cloud Infrastructure User Guide_.
+   >Mer information om att hantera Commerce projektmiljöer lokalt finns i [Hantera grenar med CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches) i _Adobe Commerce on Cloud Infrastructure User Guide_.
 
 1. Checka ut miljögrenen för att uppdatera med Adobe Commerce Cloud CLI.
 
@@ -105,7 +107,7 @@ Installera den senaste versionen av Adobe HIPAA-Ready Services-tillägg (`magent
    git push origin <branch-name>
    ```
 
-   När uppdateringarna skickas initieras [Commerce molndistributionsprocess](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/develop/deploy/process) för att ändringarna ska börja gälla. Kontrollera distributionsstatusen från [distributionsloggen](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   När uppdateringarna skickas initieras [Commerce molndistributionsprocess](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process) för att ändringarna ska börja gälla. Kontrollera distributionsstatusen från [distributionsloggen](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
 
 ### Verifiera installation
 
@@ -160,7 +162,7 @@ Rapportrutnätet _Åtgärdsloggar_ (**[!UICONTROL System]** > Åtgärdsloggar > 
 
 1. Två kolumner har lagts till:
    - ***Source***: Visar var åtgärden utfördes.
-Värden: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
+Värden: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Klienttyp***: Visar klienttypen.
 Värden: Kund | Administratör | Integrering
 
@@ -191,7 +193,7 @@ Funktionen för begränsning av HIPAA-kundsökresultat i Adobe Commerce säkerst
 - **Sökbegränsningar**: Användare utan de nödvändiga rollerna kan inte söka efter eller visa kundposter.
 - **Obligatorisk sökning för åtkomst**: Till skillnad från Adobe Commerce standardbeteende går det inte att visa kundinformation utan att göra en sökning. Detta säkerställer att användarna måste känna till specifik information om en kund för att kunna hitta sin information.
 - **Begränsade sökresultat**: Sökresultat som matchar villkoren är begränsade till 10 poster, vilket garanterar att endast ett hanterbart antal poster visas åt gången.
-- **Minsta antal filter**: Användarna måste tillämpa minst tre filter (t.ex. e-post, efternamn och tillstånd) för att kunna utföra en sökning, vilket säkerställer att sökningarna är specifika och riktade.
+- **Minsta antal filter**: Användarna måste tillämpa minst tre filter (till exempel e-post, efternamn och tillstånd) för att kunna utföra en sökning, vilket säkerställer att sökningarna är specifika och riktade.
 - **Filtrera meddelanden**: När sökbegränsningar är aktiverade meddelas användare om att använda filter för att förfina sina sökresultat.
 
 #### Konfiguration
@@ -203,7 +205,7 @@ Konfigurationen för att begränsa antalet kunder i sökresultaten finns i admin
 
 #### Funktionsområden som påverkas
 
-Kundraster på sidan Admin Create Order (**[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**) och kundsidan (**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**) påverkas av begränsningsfunktionen för sökresultat.
+Begränsningsfunktionen för sökresultat gäller för kundstödraster på sidan för att skapa order för administratörer (**[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**) och på sidan Kunder (**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**).
 
 - Filter öppnas som standard.
 - Användarna måste använda minst tre filter för att kunna göra en sökning.
@@ -215,7 +217,7 @@ Kundraster på sidan Admin Create Order (**[!UICONTROL Sales]** > **[!UICONTROL 
 Begränsningsfunktionen för sökresultat gäller även REST API för kundsökning (`/V1/customers/search`).
 
 - Om filter inte används eller om filter saknas returneras ett felmeddelande som anger att det antal filter som krävs för att utföra en sökning.
-- När tillräckliga filter tillämpas av behöriga användare returnerar API:t resultat inom den angivna gränsen.
+- Auktoriserade användare som tillämpar tillräckligt många filter får API-resultat inom den angivna gränsen.
 - När resultaten är begränsade läggs ett meddelande till i svaret som anger det totala antalet poster som hittats och den aktuella tillämpade gränsen.
 
 ### Import- och exportfunktioner
@@ -277,15 +279,15 @@ Följande tabell visar vilka Adobe Commerce-tjänster som är tillgängliga för
 
 | Tjänst | Icke-produktion | Produktion |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
-| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | Ja | Ja |
+| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Ja | Ja |
 | [API-nät för Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
-| [SaaS-dataexport](https://experienceleague.adobe.com/sv/docs/commerce/saas-data-export/overview) | Ja | Ja |
-| [Live Search](https://experienceleague.adobe.com/sv/docs/commerce/live-search/overview) | Nej | Nej |
-| [Produktrekommendationer](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/overview) | Nej | Nej |
-| [Betalningstjänster](https://experienceleague.adobe.com/sv/docs/commerce/payment-services/guide-overview) | Nej | Nej |
-| [Återkommande Office-händelser för dataanslutning](https://experienceleague.adobe.com/sv/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
-| [Händelser för dataanslutningsarkiv](https://experienceleague.adobe.com/sv/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nej | Nej |
-| [Audience Activation](https://experienceleague.adobe.com/sv/docs/commerce-admin/customers/audience-activation) | Nej | Nej |
+| [SaaS-dataexport](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Ja | Ja |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Nej | Nej |
+| [Produktrekommendationer](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Nej | Nej |
+| [Betalningstjänster](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Nej | Nej |
+| [Återkommande Office-händelser för dataanslutning](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
+| [Händelser för dataanslutningsarkiv](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nej | Nej |
+| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Nej | Nej |
 
 ### verktyg
 
@@ -297,7 +299,7 @@ Med [verktyget för säkerhetsgenomsökning](../../systems/security-scan.md) fö
 - Alla installerade tillägg matchar ett fördefinierat tillåtelselista
 - Inga Adobe-tjänster som inte stöds är installerade
 
-Du kan [konfigurera verktyget](../../systems/security-scan.md#run-a-security-scan) så att du kan skicka e-postmeddelanden med information från schemalagda genomsökningar eller [manuellt visa rapporter](https://experienceleague.adobe.com/sv/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
+Du kan [konfigurera verktyget](../../systems/security-scan.md#run-a-security-scan) så att du kan skicka e-postmeddelanden med information från schemalagda genomsökningar eller [manuellt visa rapporter](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview).
 
 ## Handikappade funktioner
 
@@ -305,7 +307,7 @@ För att uppfylla HIPAA-kraven är vissa funktioner som stöds av Adobe Commerce
 
 Följande funktioner är inaktiverade som standard i modulen HIPAA-beredskap. Handlare kan aktivera alla dessa funktioner på egen risk.
 
-- **[Transactional email](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=sv-SE)** - SendGrid är inaktiverat som standard eftersom tjänsten inte är HIPAA-ready. Adobe Commerce har ett integreringsalternativ som du kan använda med ditt eget [AWS Simple Email Service](https://docs.aws.amazon.com/ses/)-konto. Kontakta kundens tekniska kontohanterare eller Adobe Commerce Support för mer information om konfigurationen.
+- **[Transactional email](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)** - SendGrid är inaktiverat som standard eftersom tjänsten inte är HIPAA-ready. Adobe Commerce har ett integreringsalternativ som du kan använda med ditt eget [AWS Simple Email Service](https://docs.aws.amazon.com/ses/)-konto. Kontakta kundens tekniska kontohanterare eller Adobe Commerce Support för mer information om konfigurationen.
 
 - **[Gästutcheckning](../../stores-purchase/checkout-guest.md)** - Den här funktionen utgör en potentiell risk för olika aspekter av HIPAA, bland annat loggning, åtkomstkontroll, PHI-hygien och -hållning.
 
