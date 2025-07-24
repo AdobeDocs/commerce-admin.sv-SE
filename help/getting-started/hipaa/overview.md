@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**Juridisk ansvarsfriskrivning**<br/>
->>Den här informationen är avsedd att hjälpa Adobe-kunder att besvara sina frågor om Adobe HIPAA-Ready Services. Den utgör inte juridisk rådgivning. Handlarna bör samråda med sitt eget juridiska ombud för att förstå sina skyldigheter enligt HIPAA och att Adobe produkter används och konfigureras på lämpligt sätt.
+>&#x200B;>Den här informationen är avsedd att hjälpa Adobe-kunder att besvara sina frågor om Adobe HIPAA-Ready Services. Den utgör inte juridisk rådgivning. Handlarna bör samråda med sitt eget juridiska ombud för att förstå sina skyldigheter enligt HIPAA och att Adobe produkter används och konfigureras på lämpligt sätt.
 
 >[!BEGINSHADEBOX]
 
