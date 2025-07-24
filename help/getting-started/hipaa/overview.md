@@ -3,10 +3,10 @@ title: HIPAA-beredskap på Adobe Commerce
 description: Läs om hur du kan lägga till tillägget Adobe Commerce HIPAA-Ready och få ytterligare funktioner som gör att du kan uppfylla dina skyldigheter enligt HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: ee2635e45c56be82b0abb7369fd6d74a3b00ce93
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: afb6b4ca31675f6e549282749ef032ef1cd2f9f9
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2391'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**Juridisk ansvarsfriskrivning**<br/>
->&#x200B;>Den här informationen är avsedd att hjälpa Adobe-kunder att besvara sina frågor om Adobe HIPAA-Ready Services. Den utgör inte juridisk rådgivning. Handlarna bör samråda med sitt eget juridiska ombud för att förstå sina skyldigheter enligt HIPAA och att Adobe produkter används och konfigureras på lämpligt sätt.
+>>Den här informationen är avsedd att hjälpa Adobe-kunder att besvara sina frågor om Adobe HIPAA-Ready Services. Den utgör inte juridisk rådgivning. Handlarna bör samråda med sitt eget juridiska ombud för att förstå sina skyldigheter enligt HIPAA och att Adobe produkter används och konfigureras på lämpligt sätt.
 
 >[!BEGINSHADEBOX]
 
@@ -46,7 +46,7 @@ I följande tabell visas kompatibiliteten mellan olika versioner av Adobe Commer
 
 | Adobe Commerce | Stöds | Anteckningar |
 |----------------|-----------|-------|
-| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4-stöd kräver en [snabbkorrigering](https://experienceleague.adobe.com/sv/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.7-p4 och senare | 1.2.0 | 2.4.7-p4-stöd kräver en [snabbkorrigering](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | Stöd för [datatjänster](#adobe-commerce-services) infördes i 1.1.0 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -65,7 +65,7 @@ I följande tabell visas kompatibiliteten mellan olika versioner av Adobe Commer
 >[!BEGINSHADEBOX]
 
 - Adobe har etablerat ditt Adobe Commerce-konto för att komma åt tillägget HIPAA Ready.
-- Åtkomst till [repo.magento.com](https://repo.magento.com) för att installera tillägget. Om du vill ha nyckelgenerering och de nödvändiga rättigheterna kan du läsa [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/sv/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+- Åtkomst till [repo.magento.com](https://repo.magento.com) för att installera tillägget. Om du vill ha nyckelgenerering och de nödvändiga rättigheterna kan du läsa [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
 >[!ENDSHADEBOX]
 
@@ -73,13 +73,13 @@ Installera den senaste versionen av Adobe HIPAA-Ready Services-tillägg (`magent
 
 >[!NOTE]
 >
->Information om hur du ser till att data som skickas till Experience Platform är HIPAA-klara finns i [tilläggsguiden för dataanslutning](https://experienceleague.adobe.com/sv/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Information om hur du ser till att data som skickas till Experience Platform är HIPAA-klara finns i [tilläggsguiden för dataanslutning](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. På din lokala arbetsstation byter du till projektkatalogen för ditt Adobe Commerce i molninfrastrukturprojekt.
 
    >[!NOTE]
    >
-   >Mer information om att hantera Commerce projektmiljöer lokalt finns i [Hantera grenar med CLI](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/develop/cli-branches) i _Adobe Commerce on Cloud Infrastructure User Guide_.
+   >Mer information om att hantera Commerce projektmiljöer lokalt finns i [Hantera grenar med CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches) i _Adobe Commerce on Cloud Infrastructure User Guide_.
 
 1. Checka ut miljögrenen för att uppdatera med Adobe Commerce Cloud CLI.
 
@@ -107,7 +107,7 @@ Installera den senaste versionen av Adobe HIPAA-Ready Services-tillägg (`magent
    git push origin <branch-name>
    ```
 
-   När uppdateringarna skickas initieras [Commerce molndistributionsprocess](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/develop/deploy/process) för att ändringarna ska börja gälla. Kontrollera distributionsstatusen från [distributionsloggen](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
+   När uppdateringarna skickas initieras [Commerce molndistributionsprocess](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process) för att ändringarna ska börja gälla. Kontrollera distributionsstatusen från [distributionsloggen](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
 
 ### Verifiera installation
 
@@ -281,13 +281,13 @@ Följande tabell visar vilka Adobe Commerce-tjänster som är tillgängliga för
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Ja | Ja |
 | [API-nät för Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
-| [SaaS-dataexport](https://experienceleague.adobe.com/sv/docs/commerce/saas-data-export/overview) | Ja | Ja |
-| [Live Search](https://experienceleague.adobe.com/sv/docs/commerce/live-search/overview) | Nej | Nej |
-| [Produktrekommendationer](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/overview) | Nej | Nej |
-| [Betalningstjänster](https://experienceleague.adobe.com/sv/docs/commerce/payment-services/guide-overview) | Nej | Nej |
-| [Återkommande Office-händelser för dataanslutning](https://experienceleague.adobe.com/sv/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
-| [Händelser för dataanslutningsarkiv](https://experienceleague.adobe.com/sv/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nej | Nej |
-| [Audience Activation](https://experienceleague.adobe.com/sv/docs/commerce-admin/customers/audience-activation) | Nej | Nej |
+| [SaaS-dataexport](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Ja | Ja |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Nej | Nej |
+| [Produktrekommendationer](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Nej | Nej |
+| [Betalningstjänster](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Nej | Nej |
+| [Återkommande Office-händelser för dataanslutning](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
+| [Händelser för dataanslutningsarkiv](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nej | Nej |
+| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Nej | Nej |
 
 ### verktyg
 
@@ -299,7 +299,7 @@ Med [verktyget för säkerhetsgenomsökning](../../systems/security-scan.md) fö
 - Alla installerade tillägg matchar ett fördefinierat tillåtelselista
 - Inga Adobe-tjänster som inte stöds är installerade
 
-Du kan [konfigurera verktyget](../../systems/security-scan.md#run-a-security-scan) så att du kan skicka e-postmeddelanden med information från schemalagda genomsökningar eller [manuellt visa rapporter](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/launch/overview).
+Du kan [konfigurera verktyget](../../systems/security-scan.md#run-a-security-scan) så att du kan skicka e-postmeddelanden med information från schemalagda genomsökningar eller [manuellt visa rapporter](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview).
 
 ## Handikappade funktioner
 
@@ -307,7 +307,7 @@ För att uppfylla HIPAA-kraven är vissa funktioner som stöds av Adobe Commerce
 
 Följande funktioner är inaktiverade som standard i modulen HIPAA-beredskap. Handlare kan aktivera alla dessa funktioner på egen risk.
 
-- **[Transactional email](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/project/sendgrid)** - SendGrid är inaktiverat som standard eftersom tjänsten inte är HIPAA-ready. Adobe Commerce har ett integreringsalternativ som du kan använda med ditt eget [AWS Simple Email Service](https://docs.aws.amazon.com/ses/)-konto. Kontakta kundens tekniska kontohanterare eller Adobe Commerce Support för mer information om konfigurationen.
+- **[Transactional email](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)** - SendGrid är inaktiverat som standard eftersom tjänsten inte är HIPAA-ready. Adobe Commerce har ett integreringsalternativ som du kan använda med ditt eget [AWS Simple Email Service](https://docs.aws.amazon.com/ses/)-konto. Kontakta kundens tekniska kontohanterare eller Adobe Commerce Support för mer information om konfigurationen.
 
 - **[Gästutcheckning](../../stores-purchase/checkout-guest.md)** - Den här funktionen utgör en potentiell risk för olika aspekter av HIPAA, bland annat loggning, åtkomstkontroll, PHI-hygien och -hållning.
 
