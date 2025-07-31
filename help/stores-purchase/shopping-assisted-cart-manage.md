@@ -3,9 +3,9 @@ title: Hantera en kundvagn
 description: Lär dig hur du kan hjälpa en kund med kundvagnen direkt från administratören.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
+source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ För att kunna starta en assisterad shoppingsession måste kunden vara inloggad 
 
 | Knapp | Beskrivning |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | Rensar den aktuella kundvagnen från alla produkter. |
+| [!UICONTROL Clear my shopping cart] | Tar bort alla objekt från kundvagnen. |
 | [!UICONTROL Update Items and Quantities|]Ange önskad kvantitet i fältet **[!UICONTROL Qty]** och uppdatera antalet artiklar i kundvagnen. |
 | [!UICONTROL Add selections to my cart] | Lägger till produkter från alla avsnitt i kundvagnen. |
 
@@ -39,7 +39,7 @@ För att kunna starta en assisterad shoppingsession måste kunden vara inloggad 
 
 ## Verifiera att kunden är inloggad
 
-1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL Now Online]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Customers]** Admin **[!UICONTROL Now Online]**.
 
    Alla besökare i butiken och inloggade kunder visas i listan.
 
@@ -47,7 +47,7 @@ För att kunna starta en assisterad shoppingsession måste kunden vara inloggad 
 
 ## Erbjud assisterad butik
 
-1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Customers]** Admin **[!UICONTROL All Customers]**.
 
 1. Öppna kundposten i redigeringsläge i listan.
 
@@ -55,7 +55,7 @@ För att kunna starta en assisterad shoppingsession måste kunden vara inloggad 
    >
    >Använd kontrollen [Filter](../getting-started/admin-grid-controls.md) om du vill hitta kundposten snabbt.
 
-   I kundprofilen under _[!UICONTROL Personal Information]_&#x200B;visar datumet och tiden&#x200B;_[!UICONTROL Last Logged In]_ att kunden är online.
+   I kundprofilen under _[!UICONTROL Personal Information]_visar datumet och tiden_[!UICONTROL Last Logged In]_ att kunden är online.
 
    ![Kundprofil för en onlinekund](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,10 +175,26 @@ Du kan överföra artiklar till kundvagnen från kundens önskelista och nyligen
 
 1. Klicka på **[!UICONTROL Create Order]**.
 
-   På sidan _[!UICONTROL Create New Order]_&#x200B;visas artiklarna i kundvagnen följt av leverans- och betalningsinformation.
+   På sidan _[!UICONTROL Create New Order]_visas artiklarna i kundvagnen följt av leverans- och betalningsinformation.
 
 1. Fyll i information om frakt och betalning.
 
 1. Klicka på **[!UICONTROL Submit Order]**.
 
 Mer information finns i [Skapa en beställning](customer-account-create-order.md).
+
+## Ta bort alla objekt från en kundvagn
+
+Att ta bort alla artiklar från kundvagnen i assisterat shoppingläge är användbart om kunden vill börja om, har lagt till felaktiga artiklar eller behöver rensa kundvagnen innan en ny order läggs. Detta säkerställer att kundvagnen endast innehåller de produkter kunden faktiskt vill köpa.
+
+1. Gå till _>_ på sidofältet **[!UICONTROL Customers]** Admin **[!UICONTROL All Customers]**.
+
+1. Öppna kundposten i redigeringsläge i listan.
+
+1. Klicka på **[!UICONTROL Manage Shopping Cart]** i det övre knappfältet.
+
+1. Klicka på **[!UICONTROL Clear my shopping cart]**.
+
+   ![Rensa min kundvagn](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+
+1. Klicka på **[!UICONTROL OK]** när du uppmanas att bekräfta åtgärden.
