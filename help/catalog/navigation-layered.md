@@ -42,7 +42,7 @@ Följande instruktioner visar hur du ställer in grundläggande lagerstyrd navig
 
 ## Steg 1: Ange attributegenskaperna
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Product]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_&#x200B;Admin **[!UICONTROL Product]**.
 
 1. Bläddra eller använd filtrerad sökning för att hitta ett attribut i listan och öppna det i redigeringsläge.
 
@@ -62,7 +62,7 @@ Följande instruktioner visar hur du ställer in grundläggande lagerstyrd navig
 
 >[!NOTE]
 >
->- Om inställningen _[!UICONTROL Use in Search]_är inställd på `No` visas inte inställningen_[!UICONTROL Use in Search Results Layered Navigation]_. I det här fallet används inte produktattributet i sökningen, oavsett inställningen för [!UICONTROL Use in Layered Navigation].
+>- Om inställningen _[!UICONTROL Use in Search]_&#x200B;är inställd på `No` visas inte inställningen&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_. I det här fallet används inte produktattributet i sökningen, oavsett inställningen för [!UICONTROL Use in Layered Navigation].
 >
 >- Fältet [!UICONTROL Position] är som standard nedtonat. Du måste spara attributet innan du kan ändra den här inställningen.
 
@@ -94,11 +94,11 @@ Detta kan göra det svårt för kunderna att välja en föredragen produkt och d
 
 Du kan använda följande steg för att ta bort filterbara attributvärden med 0 produkter från lagernavigeringen:
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Product]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_&#x200B;Admin **[!UICONTROL Product]**.
 
 1. Bläddra eller använd filtrerad sökning för att hitta ett attribut i listan och öppna det i redigeringsläge.
 
-1. Klicka på _[!UICONTROL Attribute Information]_under **[!UICONTROL Storefront Properties]**.
+1. Klicka på _[!UICONTROL Attribute Information]_&#x200B;under **[!UICONTROL Storefront Properties]**.
 
 1. Välj **[!UICONTROL Layered Navigation]** för `Filterable (with results)`.
 
@@ -149,9 +149,9 @@ Iterativ uppdelning ger den bästa produktfördelningen mellan olika prisinterva
 
 >[!IMPORTANT]
 >
->Om du vill visa produkter och deras priser på rätt sätt enligt _prisfilter_ i lagernavigeringen, kontrollerar du att inställningarna för prisvisningen i [momskonfigurationen](../configuration-reference/sales/tax.md) har samma värde (`Excluding Tax` **eller** `Including Tax`). Kontrollera värdet _[!UICONTROL Calculation Settings]_för **[!UICONTROL Catalog Prices]**. Och för_[!UICONTROL Price Display Settings]_, kontrollera värdet **[!UICONTROL Display Product Prices in Catalog]**. Om de har olika värden kan prisfiltren i lagernavigeringen eventuellt inte filtrera och sortera produkter efter pris.
+>Om du vill visa produkter och deras priser på rätt sätt enligt _prisfilter_ i lagernavigeringen, kontrollerar du att inställningarna för prisvisningen i [momskonfigurationen](../configuration-reference/sales/tax.md) har samma värde (`Excluding Tax` **eller** `Including Tax`). Kontrollera värdet _[!UICONTROL Calculation Settings]_&#x200B;för **[!UICONTROL Catalog Prices]**. Och för&#x200B;_[!UICONTROL Price Display Settings]_, kontrollera värdet **[!UICONTROL Display Product Prices in Catalog]**. Om de har olika värden kan prisfiltren i lagernavigeringen eventuellt inte filtrera och sortera produkter efter pris.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -209,9 +209,9 @@ Låt **[!UICONTROL Price Navigation Steps Calculation]** vara inställt på `Aut
 
 Konfigurationen för lagerstyrd navigering avgör om ett produktantal visas inom parentes efter varje attribut och storleken på stegberäkningen som används i prisnavigeringen.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
-1. Expandera avsnittet _[!UICONTROL Catalog]_i den vänstra panelen och välj **[!UICONTROL Catalog]**under.
+1. Expandera avsnittet _[!UICONTROL Catalog]_&#x200B;i den vänstra panelen och välj **[!UICONTROL Catalog]**&#x200B;under.
 
 1. Expandera avsnittet _[!UICONTROL Layered Navigation]_.
 
