@@ -3,9 +3,9 @@ title: Navigering i flera lager
 description: Se hur lagerstyrd navigering gör det enkelt för kunderna att hitta produkter baserat på kategori, prisintervall eller något annat tillgängligt attribut.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Den standardnavigering i lager som beskrivs i det här avsnittet skiljer sig från filtrerad navigering i Live Search med [facets](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=sv-SE).
+>Den standardnavigering i lager som beskrivs i det här avsnittet skiljer sig från filtrerad navigering i Live Search med [facets](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Navigering i flera lager gör det enkelt att hitta produkter baserat på kategori, prisintervall eller något annat tillgängligt attribut. Navigering med flera lager visas vanligtvis i den vänstra kolumnen med sökresultat och kategorisidor och ibland på hemsidan. Standardnavigeringen innehåller en _Shop By_-lista med kategorier och prisintervall. Du kan konfigurera visningen av lagerstyrd navigering, inklusive produktantal och prisintervall.
 
@@ -24,9 +24,9 @@ Navigering i flera lager gör det enkelt att hitta produkter baserat på kategor
 
 >[!NOTE]
 >
->De filterbara attributkraven som beskrivs i det här avsnittet skiljer sig åt för [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=sv-SE). Mer information finns i [Fasetter](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=sv-SE).
+>De filterbara attributkraven som beskrivs i det här avsnittet skiljer sig åt för [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). Mer information finns i [Fasetter](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-Navigering i flera lager kan användas för att söka efter produkter efter kategori eller attribut. När en kund t.ex. väljer kategorin Mens/Korts i den övre navigeringen innehåller de inledande resultaten alla produkter i kategorin. Du kan filtrera listan ytterligare genom att välja ett specifikt format, klimat, färg, material, mönster eller pris, eller en kombination av värden. Filterbara attribut visas i ett expanderande avsnitt som visar varje attributvärde. Som ett alternativ kan listan med produkter med matchande resultat konfigureras så att den innehåller produkter med eller utan en matchning.
+Navigering i flera lager kan användas för att söka efter produkter efter kategori eller attribut. När en kund t.ex. väljer kategorin Mens/Korts i den övre navigeringen innehåller de inledande resultaten alla produkter i kategorin. Du kan filtrera listan ytterligare genom att välja ett specifikt format, klimat, färg, material, mönster eller pris (eller en kombination av värden). Filterbara attribut visas i ett expanderande avsnitt som visar varje attributvärde. Som ett alternativ kan listan med produkter med matchande resultat konfigureras så att den innehåller produkter med eller utan en matchning.
 
 Attributegenskaperna, i kombination med produktindatatypen, avgör vilka attribut som kan användas för lagerstyrd navigering. Navigering i lager är bara tillgängligt för [_ankarpunktskategorier_](categories-display-settings.md), men kan även läggas till på sökresultatsidor. Egenskapen **Katalogindatatyp för butiksägare** för varje attribut måste anges till `Yes/No`, `Dropdown`, `Multiple Select` eller `Price`. För att attributen ska kunna filtreras måste egenskapen **Använd i navigering i lager** anges till antingen `Filterable (with results)` eller `Filterable (no results)`.
 
@@ -42,7 +42,7 @@ Följande instruktioner visar hur du ställer in grundläggande lagerstyrd navig
 
 ## Steg 1: Ange attributegenskaperna
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Product]**.
 
 1. Bläddra eller använd filtrerad sökning för att hitta ett attribut i listan och öppna det i redigeringsläge.
 
@@ -50,9 +50,9 @@ Följande instruktioner visar hur du ställer in grundläggande lagerstyrd navig
 
 1. Välj **[!UICONTROL Storefront Properties]** i den vänstra panelen och ange **[!UICONTROL Use In Layered Navigation]** till något av följande:
 
-   - `Filterable (with results)` - Navigering i lager innehåller bara de filter för vilka matchande produkter kan hittas. Alla attributvärden som redan gäller för alla produkter som visas i listan bör fortfarande visas som ett tillgängligt filter. Attributvärden med antalet noll (0) produktmatchningar utelämnas från listan med tillgängliga filter. Den filtrerade listan innehåller bara de produkter som matchar filtret. Produktlistan uppdateras bara om de valda filtren ändrar vad som visas.
+   - `Filterable (with results)` - Navigering i lager innehåller bara de filter för vilka matchande produkter kan hittas. Alla attributvärden som redan gäller för alla produkter som visas i listan ska fortfarande visas som ett tillgängligt filter. Attributvärden med antalet noll (0) produktmatchningar utelämnas från listan med tillgängliga filter. Den filtrerade listan innehåller bara de produkter som matchar filtret. Produktlistan uppdateras bara om de valda filtren ändrar vad som visas.
 
-   - `Filterable (no results)` - Navigering i lager innehåller filter för alla tillgängliga attributvärden och deras produktantal, inklusive produkter med noll (0) produktmatchningar. Om attributvärdet är en färgruta visas värdet som ett filter, men stryks över. Prisnivåfiltrering stöds inte av det här alternativet och påverkar inte prisfilter.
+   - `Filterable (no results)` - Navigering i lager visar filter för alla tillgängliga attributvärden och deras produktantal, även när det finns produkter med noll (0) som matchar. Om attributvärdet är en färgruta visas filtret men stryks över. Det här alternativet stöder inte prisnivåfiltrering och påverkar inte prisfilter.
 
 1. Ange **[!UICONTROL Use In Search Results Layered Navigation]** till `Yes`.
 
@@ -62,15 +62,13 @@ Följande instruktioner visar hur du ställer in grundläggande lagerstyrd navig
 
 >[!NOTE]
 >
->När inställningen _[!UICONTROL Use in Search]_&#x200B;är inställd på `No` visas inte inställningen&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ och produktattributet används inte i sökningen med något [!UICONTROL Use in Layered Navigation]-inställningsvärde.
-
->[!NOTE]
+>- Om inställningen _[!UICONTROL Use in Search]_är inställd på `No` visas inte inställningen_[!UICONTROL Use in Search Results Layered Navigation]_. I det här fallet används inte produktattributet i sökningen, oavsett inställningen för [!UICONTROL Use in Layered Navigation].
 >
->Fältet [!UICONTROL Position] är som standard nedtonat, så du måste spara attributet innan du kan ändra den här inställningen.
+>- Fältet [!UICONTROL Position] är som standard nedtonat. Du måste spara attributet innan du kan ändra den här inställningen.
 
 ## Steg 2: Gör kategorin till en ankarpunkt
 
-1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Categories]**.
 
 1. I kategoriträdet väljer du den kategori där du vill använda lagerstyrd navigering.
 
@@ -96,13 +94,13 @@ Detta kan göra det svårt för kunderna att välja en föredragen produkt och d
 
 Du kan använda följande steg för att ta bort filterbara attributvärden med 0 produkter från lagernavigeringen:
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Product]**.
 
 1. Bläddra eller använd filtrerad sökning för att hitta ett attribut i listan och öppna det i redigeringsläge.
 
-1. Klicka på **[!UICONTROL Storefront Properties]** under _[!UICONTROL Attribute Information]_.
+1. Klicka på _[!UICONTROL Attribute Information]_under **[!UICONTROL Storefront Properties]**.
 
-1. Välj `Filterable (with results)` för **[!UICONTROL Layered Navigation]**.
+1. Välj **[!UICONTROL Layered Navigation]** för `Filterable (with results)`.
 
    ![Avsnittet Attributinformation](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
 
@@ -112,13 +110,19 @@ Du kan använda följande steg för att ta bort filterbara attributvärden med 0
 
 >[!NOTE]
 >
->Den prisnavigeringskonfiguration som beskrivs i det här avsnittet skiljer sig åt för [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=sv-SE).
+>Den prisnavigeringskonfiguration som beskrivs i det här avsnittet skiljer sig från filtrerad navigering i Live Search med [facets](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Prisnavigering kan användas för att distribuera produkter efter prisintervall i lagernavigering. Du kan också dela upp varje intervall i intervall. Det finns några sätt att beräkna prisnavigering:
 
 - Automatiskt (Utjämna prisintervall)
 - Automatiskt (Utjämna produktantal)
 - Manuell
+
+>[!BEGINSHADEBOX]
+
+Vid filtrering efter pris i lageruppbyggd navigering använder Adobe Commerce det lägsta priset för en konfigurerbar produkts underordnade objekt. Därför visas en konfigurerbar produkt endast i det lägsta prisintervallet för dess underordnade produkter, även om vissa underordnade produkter har högre priser.
+
+>[!ENDSHADEBOX]
 
 Med de första två metoderna beräknas navigeringsstegen automatiskt. Med den manuella metoden kan du ange en divisionsgräns för prisintervall. I följande exempel visas skillnaden mellan prisnavigeringsstegen 10 och 100.
 
@@ -145,9 +149,9 @@ Iterativ uppdelning ger den bästa produktfördelningen mellan olika prisinterva
 
 >[!IMPORTANT]
 >
->Om du vill visa produkter och deras priser på rätt sätt enligt _prisfilter_ i lagernavigeringen, kontrollerar du att inställningarna för prisvisningen i [momskonfigurationen](../configuration-reference/sales/tax.md) har samma värde (`Excluding Tax` **eller** `Including Tax`). Kontrollera värdet **[!UICONTROL Catalog Prices]** för _[!UICONTROL Calculation Settings]_. Och för&#x200B;_[!UICONTROL Price Display Settings]_, kontrollera värdet **[!UICONTROL Display Product Prices in Catalog]**. Om de har olika värden kan prisfiltren i lagernavigeringen eventuellt inte filtrera och sortera produkter efter pris.
+>Om du vill visa produkter och deras priser på rätt sätt enligt _prisfilter_ i lagernavigeringen, kontrollerar du att inställningarna för prisvisningen i [momskonfigurationen](../configuration-reference/sales/tax.md) har samma värde (`Excluding Tax` **eller** `Including Tax`). Kontrollera värdet _[!UICONTROL Calculation Settings]_för **[!UICONTROL Catalog Prices]**. Och för_[!UICONTROL Price Display Settings]_, kontrollera värdet **[!UICONTROL Display Product Prices in Catalog]**. Om de har olika värden kan prisfiltren i lagernavigeringen eventuellt inte filtrera och sortera produkter efter pris.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -201,13 +205,13 @@ Låt **[!UICONTROL Price Navigation Steps Calculation]** vara inställt på `Aut
 
 >[!NOTE]
 >
->Standardkonfigurationen som beskrivs på den här sidan skiljer sig åt för [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=sv-SE).
+>Den standardnavigering i lager som beskrivs i det här avsnittet skiljer sig från filtrerad navigering i Live Search med [facets](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Konfigurationen för lagerstyrd navigering avgör om ett produktantal visas inom parentes efter varje attribut och storleken på stegberäkningen som används i prisnavigeringen.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Expandera avsnittet _[!UICONTROL Catalog]_&#x200B;i den vänstra panelen och välj **[!UICONTROL Catalog]**&#x200B;under.
+1. Expandera avsnittet _[!UICONTROL Catalog]_i den vänstra panelen och välj **[!UICONTROL Catalog]**under.
 
 1. Expandera avsnittet _[!UICONTROL Layered Navigation]_.
 
