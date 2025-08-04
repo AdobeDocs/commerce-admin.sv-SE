@@ -3,9 +3,9 @@ title: Prisområde
 description: Läs mer om vilket omfång som används för produktpriser, som kan konfigureras för att gälla både globalt och på webbplatsnivå.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: bc3977f29c8048a1b8578aa21fa55fa1a4d903f2
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Olika faktorer kan påverka priset på samma produkt på en plats och inte på e
 
 ## Konfigurera prisomfång
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på menyn_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på menyn _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -41,10 +41,12 @@ Olika faktorer kan påverka priset på samma produkt på en plats och inte på e
 
 Commerce tillåter inte att ett produktpris fastställs för varje butik. Men du kan ändra priset per webbplats:
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på menyn_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på menyn _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
-1. På fliken **[!UICONTROL Price]** anger du prisomfånget till `Website` i stället för globalt.
+1. På fliken **[!UICONTROL Price]** anger du prisomfånget till `Website` i stället för `Global`.
 
 1. Ställ in priset genom att öppna produktredigeringssidan, markera omfånget uppe till vänster och sedan ange ett nytt pris per webbplats.
+
+I sällsynta fall när prisomfånget är inställt på `Global` kan Commerce-databasen fortfarande ha olika priser på webbplatsnivån. Detta kan bero på synkroniseringsproblem utanför Commerce. I dessa fall måste handlaren rensa priset på butiksnivå och köra en katalogsynkronisering med Commerce Services.
