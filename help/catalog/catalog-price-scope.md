@@ -22,7 +22,7 @@ Olika faktorer kan påverka priset på samma produkt på en plats och inte på e
 
 ## Konfigurera prisomfång
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på menyn _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på menyn _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -41,7 +41,7 @@ Olika faktorer kan påverka priset på samma produkt på en plats och inte på e
 
 Commerce tillåter inte att ett produktpris fastställs för varje butik. Men du kan ändra priset per webbplats:
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på menyn _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på menyn _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
