@@ -3,7 +3,7 @@ title: United Parcel Service (UPS)
 description: Lär dig hur du konfigurerar UPS som fraktfirma för din butik.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
+source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -32,9 +32,9 @@ När du konfigurerar UPS-inställningarna i Admin använder du autentiseringsupp
 
 ## Steg 3: Aktivera UPS för din butik
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL Delivery Methods]** under **[!UICONTROL Sales]** på panelen till vänster.
+1. Välj **[!UICONTROL Sales]** under **[!UICONTROL Delivery Methods]** på panelen till vänster.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL UPS]**.
 
@@ -46,9 +46,9 @@ När du konfigurerar UPS-inställningarna i Admin använder du autentiseringsupp
 
    - Ange **[!UICONTROL Mode]** till `Live` om du vill skicka data till UPS-leveranssystemet via en säker anslutning. (I utvecklingsläget skickas inga data via en säker anslutning.)
 
-   - Verifiera **[!UICONTROL Gateway URL]** som krävs för att skicka begäranden. Använd en sandbox-URL (`https://wwwcie.ups.com/`) för testläge och en produktions-URL för live-begäranden (`https://onlinetools.ups.com`). Se till att använda respektive slutpunkter för varje begäran med den angivna värden.
+   - Verifiera **[!UICONTROL Gateway URL]** som krävs för att skicka begäranden. Använd en sandbox-URL (`https://wwwcie.ups.com/api/rating/`) för testläge och en produktions-URL för live-begäranden (`https://onlinetools.ups.com/api/rating/`). Se till att använda respektive slutpunkter för varje begäran med den angivna värden.
 
-   - Verifiera **[!UICONTROL Tracking URL]** som krävs för att hämta spårningsinformation. Använd en sandbox-URL (`https://wwwcie.ups.com/`) för testläge och en produktions-URL för live-begäranden (`https://onlinetools.ups.com`). Se till att använda respektive slutpunkter för varje begäran med den angivna värden.
+   - Verifiera **[!UICONTROL Tracking URL]** som krävs för att hämta spårningsinformation. Använd en sandbox-URL (`https://wwwcie.ups.com/api/track/`) för testläge och en produktions-URL för live-begäranden (`https://onlinetools.ups.com/api/track/`). Se till att använda respektive slutpunkter för varje begäran med den angivna värden.
 
    - Ange **[!UICONTROL Origin of the Shipment]** till den region där leveransen kommer.
 
@@ -184,7 +184,7 @@ Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i UP
 
 1. Kontrollera att din [Store-information](../getting-started/store-details.md#store-information) är fullständig.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 
