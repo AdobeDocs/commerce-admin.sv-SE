@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: Lär dig hur du använder  [!DNL Google Tag Manager] för att hantera många taggar (kodfragment) som är relaterade till marknadsföringskampanjerna på dina Adobe Commerce-webbplatser.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Se [Konfigurera webbplatssökning](https://support.google.com/analytics/answer/1
 
    - Välj **[!UICONTROL Property Settings]**.
 
-   - Under _[!UICONTROL Advertising Features]_&#x200B;anger du **[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;till `On`.
+   - Under _[!UICONTROL Advertising Features]_anger du **[!UICONTROL Enable Demographics and Interest Reports]**till `On`.
 
    - **[!UICONTROL Save]** inställningarna.
 
@@ -80,7 +80,7 @@ Följande instruktioner visar hur du konfigurerar en ny behållare med de grundl
 
 1. Klicka på **[!UICONTROL Choose container file]** och markera json-filen.
 
-1. Klicka på **[!UICONTROL New]** under **[!UICONTROL Choose workspace]**.
+1. Klicka på **[!UICONTROL Choose workspace]** under **[!UICONTROL New]**.
 
 1. Ange en titel och en beskrivning och klicka sedan på **[!UICONTROL Save]**.
 
@@ -112,7 +112,7 @@ Följande instruktioner visar hur du konfigurerar en ny behållare med de grundl
 
 1. Logga in på administratören för din Commerce-butik.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Google API]**.
 
@@ -124,7 +124,7 @@ Följande instruktioner visar hur du konfigurerar en ny behållare med de grundl
 
    - Ange **[!UICONTROL Account type]** till `Google Tag Manager`.
 
-   - Ange ditt GTM-ID (`GTM-xxxxxx`) i fältet **[!UICONTROL Container ID]**.
+   - Ange ditt GTM-ID (**[!UICONTROL Container ID]**) i fältet `GTM-xxxxxx`.
 
    - Om du även använder Google Analytics för innehållsexperiment anger du **Aktivera innehållsexperiment** till `Yes`.
 
@@ -145,11 +145,10 @@ Följande instruktioner visar hur du konfigurerar en ny behållare med de grundl
 | [!UICONTROL Enable] | Butiksvy | Avgör om Google Analytics Enhanced Ecommerce kan användas för att analysera aktiviteter i din butik. Alternativ: `Yes` / `No` |
 | [!UICONTROL Account type] | Butiksvy | Anger den spårningskod för Google som används för att övervaka butiksaktivitet och trafik. Alternativ: `Google Analytics` / `Google Tag Manager` |
 | [!UICONTROL Anonymize IP] | Butiksvy | Avgör om identifieringsinformation tas bort från IP-adresser som visas i Google Analytics-resultat. |
-| [!UICONTROL Enable Content Experiments] | Butiksvy | Aktiverar Google Content Experiments, som kan användas för att testa upp till tio olika versioner av samma sida. Alternativ: `Yes` / `No` |
 | [!UICONTROL Container Id] | Butiksvy | Om [!DNL Google Tag Manager] redan är installerat och konfigurerat för din butik visas behållar-ID:t automatiskt i det här fältet. |
 | [!UICONTROL List property for the catalog page] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med katalogsidan. Standardvärde: `Catalog Page` |
 | [!UICONTROL List property for the cross-sell block] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med korsförsäljningsblocket. Standardvärde: `Cross-sell` |
-| [!UICONTROL List property for the up-sell block] | Butiksvy | Identifierar den taggstyrning-egenskap som är kopplad till merförsäljningsblocket. Standardvärde: `Up-sell` |
+| [!UICONTROL List property for the up-sell block] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med merförsäljningsblocket. Standardvärde: `Up-sell` |
 | [!UICONTROL List property for the related products block] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med det relaterade produktblocket. Standardvärde: `Related Products` |
 | [!UICONTROL List property for the search results page] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med sökresultatsidan. Standardvärde: `Search Results` |
 | [!UICONTROL "Internal Promotions" for promotions field "Label"] | Butiksvy | Identifierar tagghanterarens egenskap som är associerad med etiketterna för interna kampanjer. Standardvärde: `Label` |
@@ -164,7 +163,7 @@ Om du har ett Google AdWords-konto kan du skapa en tagg som spårar konvertering
 
 1. Logga in på ditt [!DNL Google Tag Manager]-konto och klicka på länken för den behållare som du skapade för din butik.
 
-1. Klicka på **[!UICONTROL Add a new tag]** i rutan **[!UICONTROL New Tag]**.
+1. Klicka på **[!UICONTROL New Tag]** i rutan **[!UICONTROL Add a new tag]**.
 
 1. Hämta följande information från ditt AdWords-konto:
 
@@ -173,13 +172,13 @@ Om du har ett Google AdWords-konto kan du skapa en tagg som spårar konvertering
 
    Om du behöver hjälp kan du gå till Google [supportwebbplats](https://support.google.com/tagmanager/answer/6105160).
 
-1. Klicka på **[!UICONTROL Google AdWords]** på kontrollpanelen [!DNL Google Tag Manager] och gör följande:
+1. Klicka på [!DNL Google Tag Manager] på kontrollpanelen **[!UICONTROL Google AdWords]** och gör följande:
 
    - Klicka på titelplatshållaren och ange ett namn för den nya taggen.
 
-   - Välj **[!UICONTROL Google AdWords]** under **[!UICONTROL Choose Product]**.
+   - Välj **[!UICONTROL Choose Product]** under **[!UICONTROL Google AdWords]**.
 
-   - Under _[!UICONTROL Choose a Tag Type]_&#x200B;väljer du **[!UICONTROL AdWords Conversion Tracking]**&#x200B;och klickar på&#x200B;**[!UICONTROL Continue]**.
+   - Under _[!UICONTROL Choose a Tag Type]_väljer du **[!UICONTROL AdWords Conversion Tracking]**och klickar på&#x200B;**[!UICONTROL Continue]**.
 
 1. Ange **[!UICONTROL Conversion ID]** och **[!UICONTROL Conversion Label]** från ditt AdWords-konto och klicka på **[!UICONTROL Continue]**.
 
@@ -187,7 +186,7 @@ Om du har ett Google AdWords-konto kan du skapa en tagg som spårar konvertering
 
 Om du fortsätter från kontrollpanelen [!DNL Google Tag Manager] är nästa steg att skapa en regel som aktiverar taggen på konverteringssidan.
 
-1. Klicka på **[!UICONTROL Some Pages]** under **[!UICONTROL Fire On]**.
+1. Klicka på **[!UICONTROL Fire On]** under **[!UICONTROL Some Pages]**.
 
 1. Fyll i följande inställningar i avsnittet _[!UICONTROL Choose Pages]_:
 
@@ -240,7 +239,7 @@ Om du inte kan importera variabelkonfigurationen följer du stegen nedan för at
 1. Ge variabeln `gtmNonce` ett namn.
 1. Klicka på pennikonen för att redigera variabeln.
 1. Välj **JavaScript-variabel** i avsnittet **Sidvariabel**.
-1. Ange `window.cspNonce` i fältet **Global variabelnamn**.
+1. Ange **i fältet** Global variabelnamn`window.cspNonce`.
 1. Spara variabeln.
 
 Mer information om [Google Tag Manager-variabler](https://support.google.com/tagmanager/answer/7683056?hl=en) finns i [Användardefinierade variabeltyper för webben](https://support.google.com/tagmanager/answer/7683362?hl=en) i Google-dokumentationen. Den här dokumentationen ger detaljerad vägledning om hur du skapar och hanterar anpassade variabler för att skräddarsy tagghanteringen för specifika marknadsförings- och analysbehov.

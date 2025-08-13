@@ -4,9 +4,9 @@ user-guide-description: Omfattande information om kataloghanteringsfunktioner f�
 breadcrumb-title: Kataloghantering
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 5703ca88d085d39c36ab1edca70e4e802b625e7a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
       + [Paketprodukt](product-create-bundle.md)
       + [Nedladdningsbar produkt](product-create-downloadable.md)
       + [Presentkort](product-gift-card-create.md)
-   + Digitala produktresurser {#digital-assets}
+   + Digitala resurser {#digital-assets}
       + [Katalogbilder och videoklipp](catalog-images-video.md)
       + [Konfiguration av bildresurs](product-image-config.md)
       + [Hantera produktbilder](product-image.md)
@@ -76,7 +76,7 @@ ht-degree: 0%
       + [Nivåpriser](product-price-tier.md)
       + [Lägsta annonspris](product-price-minimum-advertised.md)
    + [Schemalägg produktuppdateringar](product-scheduled-changes.md)
-   + Produktinställningsreferens {#settings}
+   + Referens för produktinställningar {#settings}
       + [Källor](sources.md)
       + [Innehåll](product-content.md)
       + [Konfigurationer](product-configurations.md)
@@ -84,7 +84,6 @@ ht-degree: 0%
       + [Bilder och video](product-images-and-video.md)
       + [Sökmotoroptimering](product-search-engine-optimization.md)
       + [Samhörande produkter, merförsäljning och korsförsäljning](related-products-up-sells-cross-sells.md)
-      + [Optimering av produktvy](product-view-optimization.md)
       + [Anpassningsbara alternativ](settings-advanced-custom-options.md)
       + [Produkt på webbplatser](settings-basic-websites.md)
       + [Design](settings-advanced-design.md)
@@ -99,5 +98,5 @@ ht-degree: 0%
       + [Skapa och ta bort attribut](attribute-product-create.md)
       + [Massuppdateringar](bulk-product-attribute-update.md)
       + [Attributuppsättningar](attribute-sets.md)
-+ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

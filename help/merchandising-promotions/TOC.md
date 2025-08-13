@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce och Magento Open Source innehåller mång
 breadcrumb-title: Marknadsföring och reklam
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 - [Översikt över användarhandbok](guide-overview.md)
 - [Introduktion till marknadsföring och reklam](introduction.md)
 - [Marknadsföring](marketing-menu.md)
-- Marknadsföring {#merchandising}
+- Merchandising {#merchandising}
    - Visual Merchandiser {#visual-merch}
       - [Visual Merchandiser - översikt](visual-merchandiser.md)
       - [Kategoriregler för försäljning](category-product-rules.md)
@@ -36,13 +36,13 @@ ht-degree: 0%
    - Produktrecensioner {#product-reviews}
       - [Kundproduktrecensioner](product-reviews.md)
       - [Moderera granskningar](product-reviews-moderate.md)
-- Kampanjer {#promotions}
-   - Privat försäljning och händelser {#events}
+- Erbjudanden {#promotions}
+   - Privat försäljning och evenemang {#events}
       - [Översikt över händelser](events-private-sales.md)
       - [Konfigurera händelser](event-configure.md)
       - [Skapa händelser](event-create.md)
       - [Händelseinbjudningar](invitations.md)
-   - Katalogens prisregler {#catalog-rules}
+   - Katalogprisregler {#catalog-rules}
       - [Översikt över regler för katalogpris](price-rules-catalog.md)
       - [Skapa en katalogprisregel](price-rules-catalog-create.md)
       - [Schemalagda ändringar av katalogens prisregler](price-rule-catalog-scheduled-changes.md)
@@ -60,21 +60,21 @@ ht-degree: 0%
       - [Ökning](product-relationships.md)
       - [Regler och konfiguration för relaterade produkter](product-related-rules.md)
       - [Skapa en relaterad produktregel](product-related-rule-create.md)
-- Marknadsföringskommunikation {#communications}
+- Marknadsföring {#communications}
    - Nyhetsbrev {#newsletters}
       - [Aktivera nyhetsbrev](newsletters.md)
       - [Mallar för nyhetsbrev](newsletter-template.md)
       - [Skicka nyhetsbrev](newsletter-queue.md)
       - [Hantera prenumeranter](newsletter-subscribers.md)
    - [Sociala medier och RSS-flöden](social-rss.md)
-   - E-postpåminnelser {#email-reminders}
+   - Påminnelser via e-post {#email-reminders}
       - [Aktivera e-postpåminnelser](email-reminder-rules.md)
       - [Skapa e-postpåminnelser](email-reminder-rules-create.md)
 - Sökmotoroptimering {#seo}
    - [Översikt över SEO och bästa praxis](seo-overview.md)
    - [Metadata](meta-data.md)
    - [Webbplatskartor](sitemap-xml.md)
-   - URL skriver om {#url-rewrites}
+   - URL-omskrivningar {#url-rewrites}
       - [Översikt och konfiguration](url-rewrite.md)
       - [Kategoriåterskrivningar](url-rewrite-category.md)
       - [Återskrivningar av produkter](url-rewrite-product.md)
@@ -86,6 +86,5 @@ ht-degree: 0%
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-   - [Google Content Experiments](google-content-experiments.md)
-- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

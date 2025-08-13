@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Google API] i Commerce Admin.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5ee52e8d4f2ebb8fc28f13cca53e87c3529f76d3
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 | ----- | ------------------------------------------ | ----------- |
@@ -26,7 +26,6 @@ ht-degree: 0%
 | [!UICONTROL Account Type] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Anger konfigurationsalternativen enligt din kontotyp för Google Analytics. Alternativ: Universal Analytics (standard)/Google Tag Manager |
 | [!UICONTROL Account Number] | Butiksvy | Kontonumret, eller spårningskoden, som tilldelades när du skapade ditt [!DNL Google Analytics]-konto. |
 | [!UICONTROL Anonymize IP] | Butiksvy | Avgör om identifieringsinformation tas bort från IP-adresser som visas i [!DNL Google Analytics]-resultat. |
-| [!UICONTROL Enable Content Experiments] | Butiksvy | Aktiverar [Google Content Experiments](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207) som kan användas för att testa upp till tio olika versioner av samma sida. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -54,7 +53,7 @@ När **[!UICONTROL Account Type]** är inställt på `Google Tag Manager` visas 
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 | ----- | ------------------------------------------ | ----------- |
@@ -78,15 +77,14 @@ När **[!UICONTROL Account Type]** är inställt på `Google Tag Manager` visas 
 
 ![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 | ----- | ------------------------------------------ | ----------- |
-| [!UICONTROL Enable] | Butiksvy | Aktiverar Google Analytics 4 för din butik. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable] | Butiksvy | Möjliggör Google Analytics 4 för er butik. Alternativ: `Yes` / `No` |
 | [!UICONTROL Account Type] | Butiksvy | ![Adobe Commerce](../../assets/adobe-logo.svg) (endast Adobe Commerce) Anger konfigurationsalternativen enligt din kontotyp för Google Analytics. Alternativ: `Google Analytics4` (standard) / `Google Tag Manager` |
 | [!UICONTROL Measurement ID] | Butiksvy | Kontonumret, eller spårningskoden, som tilldelades när du skapade ditt Google Analytics-konto. |
 | [!UICONTROL Anonymize IP] | Butiksvy | Avgör om identifieringsinformation tas bort från IP-adresser som visas i Google Analytics-resultat. |
-| [!UICONTROL Enable Content Experiments] | Butiksvy | Aktiverar [Google Content Experiments](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207) som kan användas för att testa upp till tio olika versioner av samma sida. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -114,7 +112,7 @@ När **[!UICONTROL Account Type]** är inställt på `Google Tag Manager` visas 
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 | ----- | ------------------------------------------ | ----------- |

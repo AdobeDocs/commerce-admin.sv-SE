@@ -3,9 +3,9 @@ title: Google webbplatsverktyg
 description: Läs mer om de Google-verktyg som ni kan använda för att optimera ert innehåll, analysera trafiken och koppla samman er katalog med shoppingaggregatorer och marknadsplatser.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 Din butikskonfiguration är integrerad med följande Google-verktyg för att optimera ditt innehåll, analysera trafiken och koppla din katalog till shoppingaggregatorer och marknadsplatser.
 
 - [Google Analytics](google-analytics.md) - Använd _Google Universal Analytics_ för att definiera ytterligare anpassade mått och mätvärden för spårning, med stöd för interaktioner offline och i mobilappar samt tillgång till pågående uppdateringar.
-
-- [Google Content Experiments](google-content-experiments.md) - Konfigurera ett A/B-test för produkter, kategorier eller innehållssidor med hjälp av Google Analytics Content Experiments.
 
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Använd Google Tag Manager för att hantera många taggar som hör till marknadsföringskampanjhändelser.
 
@@ -30,11 +28,11 @@ Om ditt företag måste följa sekretessregler som [GDPR](../getting-started/com
 
 ### Steg 1: Uppdatera Google-inställningar
 
-1. [Logga in][1]{: target=&quot;_blank&quot;} på ditt företags Google Analytics-konto.
+1. [Logga in][1]{: target="_blank"} på ditt företags Google Analytics-konto.
 
 1. Välj **[!UICONTROL Admin]** längst ned i det vänstra sidfältet och navigera sedan till det konto som du vill redigera (om tillämpligt).
 
-1. Klicka på **[!UICONTROL Account Settings]** i kolumnen **[!UICONTROL Account]**.
+1. Klicka på **[!UICONTROL Account]** i kolumnen **[!UICONTROL Account Settings]**.
 
 1. Inaktivera datadelning för att uppfylla kraven på sekretesslagstiftning.
 
@@ -47,7 +45,7 @@ Om ditt företag måste följa sekretessregler som [GDPR](../getting-started/com
 
 1. Acceptera _databearbetningstillägget_.
 
-   Google Ads Data Processing Terms beskriver hur Google behandlar data och vilka åtgärder som vidtas för att säkerställa datasäkerheten för företag som omfattas av den allmänna dataskyddsförordningen. En förteckning över era juridiska personer och kontaktuppgifter bevaras också i samband med ändringen. Om du vill [lära dig mer][2]{: target=&quot;_blank&quot;} klickar du på länken i meddelandet överst på sidan.
+   Google Ads Data Processing Terms beskriver hur Google behandlar data och vilka åtgärder som vidtas för att säkerställa datasäkerheten för företag som omfattas av den allmänna dataskyddsförordningen. En förteckning över era juridiska personer och kontaktuppgifter bevaras också i samband med ändringen. Om du vill [lära dig mer][2]{: target="_blank"} klickar du på länken i meddelandet längst upp på sidan.
 
    - Bläddra ned sidan till **[!UICONTROL Data Processing Amendment]**.
    - Klicka på **[!UICONTROL Review Amendment]** för att läsa _Google Ads Data Processing Terms_.
@@ -58,7 +56,7 @@ Om ditt företag måste följa sekretessregler som [GDPR](../getting-started/com
 
    - Klicka på **[!UICONTROL Manage DPA Details]** för att öppna en DPA-administrationssida där du kan redigera kontakter och organisationens juridiska personer.
 
-   - Klicka på ikonen _Redigera_ ( ![Google-redigeringsikonen](./assets/google-icon-edit.png) ) i avsnittet **[!UICONTROL Legal Entities]** och lägg till ett eller flera registrerade namn för din organisation. Klicka på **[!UICONTROL Save]** när du är klar.
+   - Klicka på ikonen **[!UICONTROL Legal Entities]** Redigera _(_ Google-redigeringsikonen![ ) i avsnittet ](./assets/google-icon-edit.png) och lägg till ett eller flera registrerade namn för din organisation. Klicka på **[!UICONTROL Save]** när du är klar.
 
    - I avsnittet **Kontakter** klickar du på ikonen _Lägg till_ ( ![Lägg till Google-ikon](./assets/google-icon-add.png) ) och anger information för den första kontakten. Markera sedan kryssrutan för varje tillämplig roll och klicka på **[!UICONTROL Add]**.
 
@@ -82,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-Mer information finns i [Fältreferens för Analytics.js][3]{: target=&quot;_blank&quot;} i Google-hjälpen.
+Mer information finns i [Fältreferens för Analytics.js][3]{: target="_blank"} i Google-hjälpen.
 
 Om du använder det gamla `ga.js`-biblioteket lägger du till följande kodutdrag:
 

@@ -2,9 +2,9 @@
 title: Introduktion till Commerce marknadsföring och reklam
 description: Förstå mer om Commerce-verktyg för att skapa riktade kampanjer och möjligheter för kundengagemang.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Målinrikta kampanjer och skapa möjligheter för kundengagemang och omvandla ku
 
 _Merchandising_ är en term som används i detaljhandeln för att beskriva konsten och vetenskapen inom planutveckling och presentation av produkter. Du kanske tänker på den [kategoribaserade navigeringen](../catalog/navigation-top.md) som butikens golvplan och den dynamiska presentationen av produkter som villkor som du kan tillämpa på produktlistan i butiken. Ni kan också implementera program som ökar försäljningen:
 
-- [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [Visual Merchandiser](visual-merchandiser.md) - En uppsättning avancerade verktyg som gör att du kan placera produkter och använda villkor som avgör vilka produkter som visas i kategorilistan.
+- [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [Visual Merchandiser](visual-merchandiser.md) - En uppsättning avancerade verktyg som gör att du kan placera produkter och använda villkor som avgör vilka produkter som visas i kategorilistan.
 
 - [Presentregister](gift-registries.md) - Ge dina kunder möjlighet att skapa presentregister för särskilda tillfällen och bjuda in vänner och familj att köpa presenter från presentregistret.
 
@@ -27,7 +27,7 @@ _Merchandising_ är en term som används i detaljhandeln för att beskriva konst
 
 >[!TIP]
 >
->Om du vill veta mer om produktrekommendationer och hur de kan ge dig de insikter och den kontroll du behöver för att skapa den bästa upplevelsen för dina köpare kan du läsa [användarhandboken för produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=sv-SE).
+>Om du vill veta mer om produktrekommendationer och hur de kan ge dig de insikter och den kontroll du behöver för att skapa den bästa upplevelsen för dina köpare kan du läsa [användarhandboken för produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Erbjudanden
 
@@ -67,8 +67,8 @@ En av uppgifterna du bör utföra innan du lanserar din butik är att granska e-
 >[!NOTE]
 >
 >Adobe Commerce och Magento Open Source version 2.4.0 till 2.4.3 innehåller det programtillägg som utvecklats av en digital leverantör och som används för integrering med Adobe Digital Engagement Cloud. Från och med version 2.4.4 är det här tillägget inte längre bundet till kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
-><br><br>
->Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=sv-SE) i _Uppgraderingshandboken_.
+>><br><br>
+>>Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _Uppgraderingshandboken_.
 
 - [Nyhetsbrev](newsletters.md) - Skapa nyhetsbrev, hantera din lista över prenumeranter, utveckla innehåll och skicka trafik till din butik.
 
@@ -85,8 +85,6 @@ Din butikskonfiguration är integrerad med följande Google-verktyg för att opt
 >Från och med version 2.4.5 uppdateras integreringen av Google-tjänster så att den stöder användningen av GTag-API:erna. GTag är en enhetlig mekanism för integrering med Google-funktioner för webbsidor och har stöd för de senaste funktionerna och möjligheterna att spåra och hantera innehåll via Google Services. Mer information finns i [dokumentationen för Google Analytics-utvecklare](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
 - [Google Analytics](google-analytics.md) - Använd Google Universal Analytics för att definiera ytterligare anpassade dimensioner och mätvärden för spårning, med stöd för interaktion offline och i mobilappar samt tillgång till pågående uppdateringar.
-
-- [Google Content Experiments](google-content-experiments.md) - Konfigurera ett A/B-test av produkter, kategorier eller innehållssidor med Google Analytics Content
 
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Använd Google Tag Manager för att hantera många taggar som hör till marknadsföringskampanjhändelser.
 
