@@ -67,8 +67,8 @@ En av uppgifterna du bör utföra innan du lanserar din butik är att granska e-
 >[!NOTE]
 >
 >Adobe Commerce och Magento Open Source version 2.4.0 till 2.4.3 innehåller det programtillägg som utvecklats av en digital leverantör och som används för integrering med Adobe Digital Engagement Cloud. Från och med version 2.4.4 är det här tillägget inte längre bundet till kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
->><br><br>
->>Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _Uppgraderingshandboken_.
+>&#x200B;><br><br>
+>&#x200B;>Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _Uppgraderingshandboken_.
 
 - [Nyhetsbrev](newsletters.md) - Skapa nyhetsbrev, hantera din lista över prenumeranter, utveckla innehåll och skicka trafik till din butik.
 

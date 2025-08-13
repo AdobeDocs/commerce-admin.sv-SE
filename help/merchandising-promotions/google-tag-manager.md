@@ -44,7 +44,7 @@ Se [Konfigurera webbplatssökning](https://support.google.com/analytics/answer/1
 
    - Välj **[!UICONTROL Property Settings]**.
 
-   - Under _[!UICONTROL Advertising Features]_anger du **[!UICONTROL Enable Demographics and Interest Reports]**till `On`.
+   - Under _[!UICONTROL Advertising Features]_&#x200B;anger du **[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;till `On`.
 
    - **[!UICONTROL Save]** inställningarna.
 
@@ -112,7 +112,7 @@ Följande instruktioner visar hur du konfigurerar en ny behållare med de grundl
 
 1. Logga in på administratören för din Commerce-butik.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Google API]**.
 
@@ -178,7 +178,7 @@ Om du har ett Google AdWords-konto kan du skapa en tagg som spårar konvertering
 
    - Välj **[!UICONTROL Choose Product]** under **[!UICONTROL Google AdWords]**.
 
-   - Under _[!UICONTROL Choose a Tag Type]_väljer du **[!UICONTROL AdWords Conversion Tracking]**och klickar på&#x200B;**[!UICONTROL Continue]**.
+   - Under _[!UICONTROL Choose a Tag Type]_&#x200B;väljer du **[!UICONTROL AdWords Conversion Tracking]**&#x200B;och klickar på&#x200B;**[!UICONTROL Continue]**.
 
 1. Ange **[!UICONTROL Conversion ID]** och **[!UICONTROL Conversion Label]** från ditt AdWords-konto och klicka på **[!UICONTROL Continue]**.
 
