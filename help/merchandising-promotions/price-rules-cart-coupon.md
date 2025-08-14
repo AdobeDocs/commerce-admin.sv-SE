@@ -3,9 +3,9 @@ title: Kupongkoder
 description: Lär dig hur du använder kupongkoder med kundprisregler för att tillämpa en rabatt när en uppsättning villkor uppfylls.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,20 @@ Från och med Commerce 2.4.7 kan man få flera kuponger i en kundvagn. Handlarna
 
 ## Konfigurera kupongkoder
 
+>[!BEGINSHADEBOX]
+
+Som standard har Commerce stöd för två metoder för att skapa kupongkoder:
+
+1. Skapa en särskild kupongkod
+1. Genererar flera _slumpmässiga_ kupongkoder
+
+Om du redan har en lista med kupongkoder som du vill importera och koppla till en kundprisregel bör du överväga att använda ett tillägg från [Commerce Marketplace](https://marketplace.magento.com/).
+
+>[!ENDSHADEBOX]
+
 Längden på och formatet för automatiskt genererade kupongkoder styrs av konfigurationen. Tecknen kan anges till alla siffror, alla bokstäver eller en kombination. Du kan infoga ett bindestreck med angivna intervall för att göra det enkelt att läsa, och lägga till ett prefix och suffix för att associera koden med en viss kampanj eller ett visst initiativ.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Promotions]**.
 
@@ -62,7 +73,7 @@ Längden på och formatet för automatiskt genererade kupongkoder styrs av konfi
 
 >[!NOTE]
 >
->[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Använd kommandot `bin/magento cron:run` för att verifiera att kron körs innan du skapar kuponger. Mer information finns i [Kör cron från kommandoraden](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=sv-SE#run-cron-from-the-command-line) i _konfigurationshandboken_.
+>[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Använd kommandot `bin/magento cron:run` för att verifiera att kron körs innan du skapar kuponger. Mer information finns i [Kör cron från kommandoraden](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) i _konfigurationshandboken_.
 
 ### Metod 1: Skapa en specifik kupong
 
@@ -121,7 +132,7 @@ Genereringen av rabattkuponger är en asynkron åtgärd som körs i bakgrunden s
 
 1. Följ instruktionerna för att skapa en [kundvagnsprisregel](price-rules-cart.md).
 
-1. Markera kryssrutan **[!UICONTROL Use Auto Generation]** under **[!UICONTROL Coupon Code]**.
+1. Markera kryssrutan **[!UICONTROL Coupon Code]** under **[!UICONTROL Use Auto Generation]**.
 
 1. Om du vill begränsa antalet gånger som varje kund kan använda kupongen anger du antalet **[!UICONTROL Uses per Customer]**.
 
@@ -170,10 +181,6 @@ Du kan exportera kupongkoder till en CSV- eller Excel XML-fil genom att markera 
 
 Om du vill ta bort kupongkoder väljer du en eller flera koder i listan. Välj `Delete` i **[!UICONTROL Actions]**-väljaren och klicka sedan på **[!UICONTROL Submit]**.
 
->[!NOTE]
->
->Även om Commerce tillåter konfigurering av flera kupongkoder, kan kunden bara använda en kupongkod i kundvagnen. Om du vill tillåta användning av mer än en kupongkod i kundvagnen samtidigt kan du använda ett motsvarande tillägg från [Commerce Marketplace](https://marketplace.magento.com/).
-
 ## Kupongrapport
 
 Rapporten _Kuponger_ samlar in data från varje kupong som används under ett visst datumintervall. Eftersom kuponger används från kundvagnen innehåller rapporten data från alla inlösta kuponger, oavsett [orderstatus](../stores-purchase/order-status.md). Därför kan rapporten innehålla både beräknade och faktiska summor. Rapporten kan filtreras efter en viss butiksvy, tidsperiod, orderstatus och kundprisregel.
@@ -184,7 +191,7 @@ I följande exempel användes kupongkoden&quot;H20&quot; av två kunder. En av b
 
 ### Kör rapporten
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Coupons]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_Admin **[!UICONTROL Coupons]**.
 
 1. Om du har flera butiksvyer anger du **[!DNL Store View]** i det övre vänstra hörnet för att fastställa rapportens omfång.
 
