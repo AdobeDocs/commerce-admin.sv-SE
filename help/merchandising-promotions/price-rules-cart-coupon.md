@@ -41,7 +41,7 @@ Om du redan har en lista med kupongkoder som du vill importera och koppla till e
 
 Längden på och formatet för automatiskt genererade kupongkoder styrs av konfigurationen. Tecknen kan anges till alla siffror, alla bokstäver eller en kombination. Du kan infoga ett bindestreck med angivna intervall för att göra det enkelt att läsa, och lägga till ett prefix och suffix för att associera koden med en viss kampanj eller ett visst initiativ.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Promotions]**.
 
@@ -191,7 +191,7 @@ I följande exempel användes kupongkoden&quot;H20&quot; av två kunder. En av b
 
 ### Kör rapporten
 
-1. Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_Admin **[!UICONTROL Coupons]**.
+1. Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_&#x200B;Admin **[!UICONTROL Coupons]**.
 
 1. Om du har flera butiksvyer anger du **[!DNL Store View]** i det övre vänstra hörnet för att fastställa rapportens omfång.
 
