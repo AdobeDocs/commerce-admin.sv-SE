@@ -28,7 +28,7 @@ Versionsinformationen för B2B-tillägget innehåller tillägg och korrigeringar
 
 Kompatibel med Adobe Commerce version 2.4.9-alpha2
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/se/security/products/magento/apsb25-71.html).
 
 ## B2B v1.5.2-p2
 
@@ -37,7 +37,7 @@ Kompatibel med Adobe Commerce version 2.4.9-alpha2
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.8-p2, 2.4.7-p7 och 2.4.6-p12 säkerhetsuppdateringar.
 Kompatibel med Adobe Commerce version 2.4.7 till 2.4.7-p6, 2.4.6 till 2.4.6-p11.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/se/security/products/magento/apsb25-71.html).
 
 ## B2B v1.5.2-p1
 
@@ -206,7 +206,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 [!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p7+ och 2.4.6-p12+.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/se/security/products/magento/apsb25-71.html).
 
 {{b2b-compatibility}}
 
@@ -358,7 +358,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 [!BADGE Säkerhetsuppdateringar som stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.6-p12+.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/se/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.5-p10
 
@@ -440,7 +440,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/se/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.4-p13
 
@@ -522,7 +522,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/se/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.3-p14
 
