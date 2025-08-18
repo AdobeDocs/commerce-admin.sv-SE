@@ -3,9 +3,9 @@ title: Skapa och få åtkomst till ditt [!DNL Commerce] konto
 description: Lär dig mer om  [!DNL Commerce] konton, som hanterar de produkter och tjänster som du har köpt.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d5f5405c9470e77327f2978f503cec800a440b5d
+source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '434'
 ht-degree: 1%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 1%
 
 # Åtkomst till ditt [!DNL Commerce]-konto
 
-Du kan komma åt ditt konto från webbplatsen [!DNL Commerce]. På kontrollpanelen för ditt [!DNL Commerce]-konto hittar du information som är relaterad till de produkter och tjänster som du har köpt samt din kontakt- och faktureringsinformation. Viss information är endast synlig för licensägare.
-
-Du kan komma åt ditt konto från webbplatsen [!DNL Commerce]. På kontouppsättningen visas information om inköpta produkter, tjänster samt kontakt- eller faktureringsinformation. Viss information är bara synlig för licensägare.
+Du kan komma åt ditt [!DNL Commerce]-konto från webbplatsen [!DNL Commerce]. På kontrollpanelen för ditt [!DNL Commerce]-konto hittar du information som är relaterad till de produkter och tjänster som du har köpt samt din kontakt- och faktureringsinformation. Viss information är endast synlig för licensägare.
 
 ![Ditt [!DNL Commerce]-konto](./assets/home-acct.png){width="700"}
 
 Inloggningen för ditt [!DNL Commerce]-konto är skild från inloggningen för din administratör för butik. Du använder vanligtvis olika autentiseringsuppgifter för varje, och åtkomsten till varje system hanteras separat.
 
-En användare som vill effektivisera inloggningen till Adobe Commerce och Adobe Business-produkter kan konfigurera sin Adobe ID att logga in till butiksadministratören: [Konfigurera Commerce Admin Integration med Adobe ID](https://experienceleague.adobe.com/sv/docs/commerce-admin/start/admin/ims/adobe-ims-config)
-
-Inloggningarna för din Commerce- och arkivadministratör är separata, med olika autentiseringsuppgifter och oberoende hanterad åtkomst. Du kan dock effektivisera åtkomsten genom att konfigurera din Adobe ID för att logga in i butiksadministratören. Se [Konfigurera Commerce Admin Integration med Adobe ID] i *IMS-integreringsguiden för Commerce*.
+En användare som vill effektivisera sin inloggning på Adobe Commerce och Adobe Business-produkter kan dock konfigurera sin Adobe ID att logga in på butiksadministratören: [Konfigurera Commerce Admin Integration med Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) i *IMS Integration Guide for Commerce*.
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ Inloggningarna för din Commerce- och arkivadministratör är separata, med olik
 
 ## Logga in på ditt [!DNL Commerce]-konto
 
-Du måste ha en Adobe ID för att få tillgång till ett Commerce-konto. Om du redan har ett Commerce-konto men inte har någon Adobe ID kan du skapa ett under inloggningsprocessen.
+Du måste ha en Adobe ID för att få tillgång till ett Commerce-konto. Om du redan har ett [!DNL Commerce]-konto men inte har loggat in på kontot sedan augusti 2022 måste du skapa en Adobe ID under inloggningsprocessen.
 
 >[!WARNING]
 >
