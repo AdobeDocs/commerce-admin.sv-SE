@@ -3,7 +3,7 @@ title: Privata försäljningsrapporter
 description: De privata försäljningsrapporterna som finns i Adobe Commerce ger användbar information om händelser och privat försäljning.
 exl-id: e1c2b01f-500a-475e-b61e-20f3ccbc0e70
 feature: Promotions/Events, Reporting
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '153'

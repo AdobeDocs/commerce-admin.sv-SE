@@ -3,7 +3,7 @@ title: Granska rapporter
 description: Om webbplatsen använder den inbyggda granskningsfunktionen ger granskningsrapporter information om produktrecensioner per kund och produkt.
 exl-id: f337c0fc-a8fd-43ef-82db-f11741e6dc76
 feature: Reporting, Customers, Products
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '147'

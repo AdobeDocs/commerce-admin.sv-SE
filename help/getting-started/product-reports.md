@@ -3,7 +3,7 @@ title: Produktrapporter
 description: De produktrapporter som finns i Adobe Commerce och Magento Open Source ger er insikt i vilka produkter som visas och beställs, vilka som säljer bäst, vilka som har lagrad och vilka nedladdningar som finns.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '233'

@@ -4,7 +4,7 @@ description: Läs mer om  [!DNL New Relic] rapporteringen för konton för Adobe
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '1399'
@@ -54,7 +54,7 @@ Om du vill använda [!DNL New Relic APM Pro] för att samla in och överföra d
 >[!NOTE]
 >Dessa konfigurationsalternativ gäller inte för Adobe Commerce i molninfrastrukturen.
 >
->Om du har ett Pro-avtal är New Relic redan [förkonfigurerat och aktiverat som standard](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Om du har startplaner måste du slutföra de [konfigurationssteg för New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) som ingår i installationsprocessen.
+>Om du har ett Pro-avtal är New Relic redan [förkonfigurerat och aktiverat som standard](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=sv-SE). Om du har startplaner måste du slutföra de [konfigurationssteg för New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=sv-SE#configure-new-relic-for-starter-environment) som ingår i installationsprocessen.
 
 1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
@@ -337,6 +337,6 @@ Returnerar det totala antalet radartiklar som beställts under den angivna tidsp
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html
-[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=sv-SE
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=sv-SE
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference

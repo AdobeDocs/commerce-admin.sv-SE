@@ -3,7 +3,7 @@ title: Kundrapporter
 description: Kundrapporter som finns i Adobe Commerce och Magento Open Source ger insikt i kundaktiviteten under en viss tidsperiod eller ett visst datumintervall.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '893'

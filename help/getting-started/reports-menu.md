@@ -3,7 +3,7 @@ title: '[!UICONTROL Reports]-menyn'
 description: Adobe Commerce och Magento Open Source tillhandahåller ett stort urval rapporter som håller dig informerad om marknadsföringssatsningar, säljprodukter och kundaktiviteter.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '267'
@@ -37,7 +37,7 @@ Markeringen av [försäljningsrapporter](sales-reports.md) innehåller rapporter
 
 ### [!UICONTROL System Insights]
 
-(Endast Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) ger systeminsikter för installationer av Adobe Commerce i molninfrastruktur med prestandaövervakning, rapporter och rekommendationer i realtid dygnet runt, alla dagar.
+(Endast Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=sv-SE) ger systeminsikter för installationer av Adobe Commerce i molninfrastruktur med prestandaövervakning, rapporter och rekommendationer i realtid dygnet runt, alla dagar.
 
 ### [!UICONTROL Customers]
 

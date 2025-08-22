@@ -3,7 +3,7 @@ title: Försäljningsrapporter
 description: Med  [!DNL Commerce] försäljningsrapporterna kan du spåra order, skatter, fakturor, frakt, återbetalningar, kuponger och PayPal-kvittning.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '690'
