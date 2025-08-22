@@ -3,9 +3,10 @@ title: Granska rapporter
 description: Om webbplatsen använder den inbyggda granskningsfunktionen ger granskningsrapporter information om produktrecensioner per kund och produkt.
 exl-id: f337c0fc-a8fd-43ef-82db-f11741e6dc76
 feature: Reporting, Customers, Products
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Om du använder de inbyggda [!DNL Commerce]-granskningarna innehåller gransknin
 
 [!UICONTROL Customer Reviews Report] innehåller en lista med alla kunder som har skickat in produktrecensioner. Rapporten innehåller antalet recensioner som varje kund lämnat in och en länk till listan över recensioner.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**&#x200B;på sidofältet_ Admin _.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Reviews]_Admin **[!UICONTROL By Customers]**.
 
 ![Granskningsrapport från kunder](./assets/customer-reviews.png){width="600"}
 
@@ -26,6 +27,6 @@ Gå till **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Cust
 
 I [!UICONTROL Product Reviews Report] visas alla produkter som har granskats av kunder. Rapporten innehåller antalet recensioner och genomsnittsklassificeringar, produkten granskades senast och en länk till en lista över recensioner för varje produkt.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**&#x200B;på sidofältet_ Admin _.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Reviews]_Admin **[!UICONTROL By Products]**.
 
 ![Granskningsrapport per produkt](./assets/product-reviews.png){width="600"}

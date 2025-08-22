@@ -4,9 +4,10 @@ description: Läs mer om  [!DNL New Relic] rapporteringen för konton för Adobe
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -21,16 +22,16 @@ ht-degree: 0%
 
    Du kan också registrera dig för ett kostnadsfritt provkonto.
 
-1. Följ instruktionerna på webbplatsen. När du uppmanas till det väljer du den produkt som du vill installera först.
+1. Följ instruktionerna på webbplatsen. När du uppmanas till det väljer du den produkt du vill installera först.
 
-1. När du är på ditt konto letar du reda på följande autentiseringsuppgifter som krävs för att slutföra Commerce-konfigurationen:
+1. När du är på ditt konto kan du hitta följande autentiseringsuppgifter som krävs för att slutföra Commerce-konfigurationen:
 
    | Alternativ | Beskrivning |
    | ------ | ----------- |
    | Konto-ID | Från din [!DNL New Relic]-kontokontrollpanel är konto-ID numret i URL:en efter: `/accounts` |
-   | Program-ID | Klicka på **[!UICONTROL New Relic APM]** på kontrollpanelen för ditt [!DNL New Relic]-konto. Välj **[!UICONTROL Applications]** på menyn. Välj sedan programmet. Program-ID:t är numret i URL:en efter: `/applications/` |
-   | Ny Relic API-nyckel | Klicka på **[!UICONTROL Account Settings]** på kontrollpanelen för ditt [!DNL New Relic]-konto. Välj **[!UICONTROL Data Sharing]** på menyn till vänster under Integreringar. Du kan skapa, generera om eller ta bort API-nyckeln från den här sidan. |
-   | API-nyckel för insikter | Klicka på **[!UICONTROL Insights]** på kontrollpanelen för ditt [!DNL New Relic]-konto. Välj **[!UICONTROL API Keys]** på menyn till vänster under Administration. API-nycklar för dina insikter visas på den här sidan. Klicka vid behov på plustecknet (**+**) bredvid Infoga tangenter för att generera en tangent. |
+   | Program-ID | Klicka på [!DNL New Relic] på kontrollpanelen för ditt **[!UICONTROL New Relic APM]**-konto. Välj **[!UICONTROL Applications]** på menyn. Välj sedan programmet. Program-ID är numret i URL:en efter: `/applications/` |
+   | New Relic API-nyckel | Klicka på [!DNL New Relic] på kontrollpanelen för ditt **[!UICONTROL Account Settings]**-konto. Välj **[!UICONTROL Data Sharing]** på menyn till vänster under Integreringar. Du kan skapa, generera om eller ta bort API-nyckeln från den här sidan. |
+   | API-nyckel för insikter | Klicka på [!DNL New Relic] på kontrollpanelen för ditt **[!UICONTROL Insights]**-konto. Välj **[!UICONTROL API Keys]** på menyn till vänster under Administration. API-nycklar för dina insikter visas på den här sidan. Klicka vid behov på plustecknet (**+**) bredvid Infoga tangenter för att generera en tangent. |
 
    {style="table-layout:auto"}
 
@@ -53,11 +54,11 @@ Om du vill använda [!DNL New Relic APM Pro] för att samla in och överföra d
 >[!NOTE]
 >Dessa konfigurationsalternativ gäller inte för Adobe Commerce i molninfrastrukturen.
 >
->Om du har ett Pro-avtal är New Relic redan [förkonfigurerat och aktiverat som standard](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=sv-SE). Om du har startplaner måste du slutföra de [konfigurationssteg för New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=sv-SE#configure-new-relic-for-starter-environment) som ingår i installationsprocessen.
+>Om du har ett Pro-avtal är New Relic redan [förkonfigurerat och aktiverat som standard](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Om du har startplaner måste du slutföra de [konfigurationssteg för New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) som ingår i installationsprocessen.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL New Relic Reporting]** i den vänstra navigeringspanelen där **[!UICONTROL General]** är expanderat och gör följande:
+1. Välj **[!UICONTROL General]** i den vänstra navigeringspanelen där **[!UICONTROL New Relic Reporting]** är expanderat och gör följande:
 
    ![New Relic Reporting-konfiguration](./assets/new-relic-reporting-general.png){width="600"}
 
@@ -127,16 +128,16 @@ Returnerar antalet senaste Admin-åtgärder.
 
 #### Senaste administratörsaktivitet
 
-Returnerar detaljerad information om de senaste administratörsåtgärderna, inklusive administratörens användarnamn, varaktighet och programnamn.
+Returnerar detaljinformation om de senaste administratörsåtgärderna, inklusive administratörens användarnamn, varaktighet och programnamn.
 
-    VÄLJ AdminName, varaktighet, namn
-    FRÅN transaktion
-    DÄR appName=&#39;&lt;your_app_name>&#39; OCH AdminName ÄR INTE NULL
-    OCH AdminName!&lt;/your_app_name>= &quot;N/A&quot; GRÄNS 50
+    VÄLJ AdminName, duration, name
+    FROM Transaction
+    WHERE appName=&#39;&lt;your_app_name>&#39; OCH AdminName ÄR INTE NULL
+    AND AdminName != &#39;N/A&#39; LIMIT 50
 
-### Cron-evenemang
+### Cron-händelser
 
-#### Antal kategorier
+#### Kategoriantal
 
 Returnerar antalet programhändelser per kategori under den angivna tidsperioden.
 
@@ -149,12 +150,11 @@ Returnerar antalet programhändelser per kategori under den angivna tidsperioden
 
 Returnerar det genomsnittliga antalet programhändelser i katalogen per kategori under den angivna tidsperioden.
 
-    SELECT average(CatalogCategoryCount)
+    SELECT Average(CatalogCategoryCount)
     FROM Cron
     WHERE CatalogCategoryCount IS NOT NULL
     AND CatalogCategoryCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago 2 minutes ago LIMIT 1
-&lt;/your_app_name>
+    AND appName = &#39;&lt;your_app_name>&#39; SEDAN 2 minuter sedan LIMIT 1
 
 #### Aktiva produkter
 
@@ -257,7 +257,7 @@ Returnerar det genomsnittliga antalet programhändelser per webbplats och butik 
 
     SELECT Average(StoreViewCount), Average(WebsiteCount)
     FROM Cron
-    WHERE appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 minuter
+    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 minuter
 
 #### Aktuellt antal webbplatser och butiker
 
@@ -305,27 +305,27 @@ Returnerar de främsta kunderna under den angivna tidsperioden.
 
 Returnerar ett definierat antal poster för den senaste aktiviteten, som innehåller kundens namn och besökets längd.
 
-    VÄLJ CustomerName, varaktighet, namn
-    FRÅN transaktion
+    VÄLJ CustomerName, duration, name
+    FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39;
-    AND CustomerName IS NOT NULL
-    och CustomerName!&lt;/your_app_name>= &quot;N/A&quot; GRÄNS 50
+    OCH CustomerName ÄR INTE NULL
+    OCH CustomerName != &#39;N/A&#39; LIMIT 50
 
 ### Beställningar
 
-#### Antal beställningar som gjorts
+#### Antal beställningar
 
-Returnerar antalet beställningar som gjorts under den angivna tidsperioden.
+Returnerar antalet order som placerats under den angivna tidsperioden.
 
     SELECT count(Order)
-    FROM Transaktion SEDAN 1 dag sedan
+    FROM Transaction SEINCE 1 day ago
 
 #### Totalt ordervärde
 
 Returnerar det totala antalet radartiklar som beställts under den angivna tidsperioden.
 
-    VÄLJ sum(orderValue)
-    FROM Transaktion sedan 1 dag sedan
+    SELECT sum(orderValue)
+    FROM Transaction SEDAN 1 dag sedan
 
 #### Totalt antal beställda radartiklar
 
@@ -337,6 +337,6 @@ Returnerar det totala antalet radartiklar som beställts under den angivna tidsp
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=sv-SE
-[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=sv-SE
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference

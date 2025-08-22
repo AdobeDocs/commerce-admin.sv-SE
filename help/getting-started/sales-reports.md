@@ -3,9 +3,10 @@ title: Försäljningsrapporter
 description: Med  [!DNL Commerce] försäljningsrapporterna kan du spåra order, skatter, fakturor, frakt, återbetalningar, kuponger och PayPal-kvittning.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
@@ -34,7 +35,7 @@ Om du vill filtrera en försäljningsrapport anger du följande alternativ:
 
 [!UICONTROL Orders Report] innehåller antalet beställningar som har gjorts och annullerats, med totalsummor för försäljning, fakturerade belopp, återbetalt, inkasserad moms, fraktavgifter och rabatter.
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Orders]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_Admin **[!UICONTROL Orders]**.
 
 1. I avsnittet **[!UICONTROL Filter]** väljer du alternativ för rapporteringsperiod och orderstatus som används för att fylla i rapporten.
 
@@ -46,7 +47,7 @@ Om du vill filtrera en försäljningsrapport anger du följande alternativ:
 
 [!UICONTROL Tax Report] innehåller den momsregel som används, momssats, antal order och momsbelopp.
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Tax]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_Admin **[!UICONTROL Tax]**.
 
 1. I avsnittet **[!UICONTROL Filter]** väljer du alternativ för rapporteringsperiod och orderstatus som används för att fylla i rapporten.
 
@@ -59,7 +60,7 @@ Om du vill filtrera en försäljningsrapport anger du följande alternativ:
 
 [!UICONTROL Invoice Report] innehåller antalet order och fakturor under tidsperioden, med fakturerade, betalda och obetalda belopp.
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Invoiced]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_Admin **[!UICONTROL Invoiced]**.
 
 1. I avsnittet **[!UICONTROL Filter]** väljer du alternativ för rapporteringsperiod och orderstatus som används för att fylla i rapporten.
 
@@ -71,7 +72,7 @@ Om du vill filtrera en försäljningsrapport anger du följande alternativ:
 
 [!UICONTROL Shipping Report] innehåller antalet beställningar för transportföretaget eller leveransmetoden, inklusive belopp för total försäljning och total frakt.
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Shipping]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_Admin **[!UICONTROL Shipping]**.
 
 1. I avsnittet **[!UICONTROL Filter]** väljer du alternativ för rapporteringsperiod och orderstatus som används för att fylla i rapporten.
 
@@ -83,7 +84,7 @@ Om du vill filtrera en försäljningsrapport anger du följande alternativ:
 
 [!UICONTROL Refunds Report] innehåller antalet återbetalningsorder och det totala beloppet som återbetalas online och offline.
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Refunds]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_Admin **[!UICONTROL Refunds]**.
 
 1. I avsnittet **[!UICONTROL Filter]** väljer du alternativ för rapporteringsperiod och orderstatus som används för att fylla i rapporten.
 
@@ -95,7 +96,7 @@ Om du vill filtrera en försäljningsrapport anger du följande alternativ:
 
 [!UICONTROL Coupons Report] innehåller varje kupongkod som används under angivet tidsintervall, relaterad prisregel och antal gånger som används, med summor och delsummor för försäljning och rabatter.
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Coupons]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_Admin **[!UICONTROL Coupons]**.
 
 1. I avsnittet **[!UICONTROL Filter]** väljer du alternativ för rapporteringsperiod och orderstatus som används för att fylla i rapporten.
 
@@ -109,7 +110,7 @@ Mer information om hur du använder [!UICONTROL Coupons Report] för att samla i
 
 Sidan [PayPal-kvittningsrapporter] innehåller händelsetypen, till exempel en debetkortstransaktion, start- och slutdatum, bruttobelopp och relaterade avgifter. Rapporten kan uppdateras automatiskt med de senaste data från PayPal. Det finns filtreringsalternativ för datumintervall, handelskonto, transaktions-ID, faktura-ID eller PayPal-referens-ID.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**&#x200B;på sidofältet_ Admin _.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_Admin **[!UICONTROL PayPal Settlement]**.
 
 ![PayPal-kvittningsrapport](./assets/reports-sales-paypal-settlement.png){width="600"}
 
@@ -119,7 +120,7 @@ Mer information om hur du använder [!UICONTROL PayPal Settlement Reports] för 
 
 Kvittningsrapporten [Braintree](../stores-purchase/braintree.md) kan filtreras efter skapandedatum, belopp, status, transaktionstyp, betalningstyp, transaktions-ID, order-ID, PayPal-betalnings-ID, typ, handelskonto-ID eller kvittningsbatch-ID. Rapporten innehåller transaktions-ID, beställnings-ID, PayPal-betalnings-ID, typ, skapandedatum, belopp, kvittningskod, status, kvittningssvarstext, återbetalning-ID, handlarkonto-ID, kvittningsbatch-ID och valuta.
 
-Gå till **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Braintree Settlement]**&#x200B;på sidofältet_ Admin _.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_Admin **[!UICONTROL Braintree Settlement]**.
 
 <!--- ![Braintree Settlement Report](./assets/braintree-settlement.png) need a Braintree connection to update report screen -->
 
@@ -135,7 +136,7 @@ Om du vill minska prestandapåverkan av att generera försäljningsrapporter, be
 
 ![Uppdatera statistik](./assets/refresh-stats.png){width="700"}
 
-1. Gå till **[!UICONTROL Reports]** > _[!UICONTROL Statistics]_>**[!UICONTROL Refresh Statistics]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Statistics]_Admin **[!UICONTROL Refresh Statistics]**.
 
 1. Markera kryssrutan för varje rapport som ska uppdateras i listan.
 
