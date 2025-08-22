@@ -56,7 +56,7 @@ Om du vill använda [!DNL New Relic APM Pro] för att samla in och överföra d
 >
 >Om du har ett Pro-avtal är New Relic redan [förkonfigurerat och aktiverat som standard](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Om du har startplaner måste du slutföra de [konfigurationssteg för New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) som ingår i installationsprocessen.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Välj **[!UICONTROL General]** i den vänstra navigeringspanelen där **[!UICONTROL New Relic Reporting]** är expanderat och gör följande:
 
@@ -257,7 +257,7 @@ Returnerar det genomsnittliga antalet programhändelser per webbplats och butik 
 
     SELECT Average(StoreViewCount), Average(WebsiteCount)
     FROM Cron
-    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 minuter
+    WHERE appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 minuter
 
 #### Aktuellt antal webbplatser och butiker
 

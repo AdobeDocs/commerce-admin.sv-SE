@@ -19,7 +19,7 @@ Om du använder de inbyggda [!DNL Commerce]-granskningarna innehåller gransknin
 
 [!UICONTROL Customer Reviews Report] innehåller en lista med alla kunder som har skickat in produktrecensioner. Rapporten innehåller antalet recensioner som varje kund lämnat in och en länk till listan över recensioner.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Reviews]_Admin **[!UICONTROL By Customers]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Reviews]_&#x200B;Admin **[!UICONTROL By Customers]**.
 
 ![Granskningsrapport från kunder](./assets/customer-reviews.png){width="600"}
 
@@ -27,6 +27,6 @@ Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Reviews]_Ad
 
 I [!UICONTROL Product Reviews Report] visas alla produkter som har granskats av kunder. Rapporten innehåller antalet recensioner och genomsnittsklassificeringar, produkten granskades senast och en länk till en lista över recensioner för varje produkt.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Reviews]_Admin **[!UICONTROL By Products]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Reviews]_&#x200B;Admin **[!UICONTROL By Products]**.
 
 ![Granskningsrapport per produkt](./assets/product-reviews.png){width="600"}
