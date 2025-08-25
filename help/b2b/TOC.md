@@ -5,7 +5,7 @@ breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 63585845dc51a0be31102dfe3e4b9074225c490d
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -30,13 +30,13 @@ ht-degree: 1%
    + [Tilldela en kundgrupp till ett företag](account-company-customer-group.md)
    + [Lägga till kunder i ett företag](customer-assign-company.md)
    + [Hantera företagskrediter](credit-company.md)
-   + Företagsanvändare och struktur {#users}
+   + Företagsanvändare och -struktur {#users}
       + [Företagets användarkonton](account-company-users.md)
       + [Företagsroller och behörigheter](account-company-roles-permissions.md)
       + [Definiera företagsstruktur](account-company-structure.md)
-+ Företagshantering {#company-management}
++ Företagsledning {#company-management}
    + [Ökning](manage-companies.md)
-   + [Hantera företagshierarki](manage-company-hierarchy.md)
+   + [Hantera företagshierarkier](manage-company-hierarchy.md)
 + Delade kataloger {#shared-catalogs}
    + [Ökning](catalog-shared.md)
    + Definiera delade kataloger {#define}
@@ -50,7 +50,7 @@ ht-degree: 1%
    + [Inköpsorder för företag](purchase-order-flow.md)
    + [Godkännanderegler](account-dashboard-approval-rules.md)
    + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
-+ Citattecken {#quotes}
++ Citat {#quotes}
    + [Ökning](quotes.md)
    + [Konfigurera offerter](configure-quotes.md)
    + [Anbudsförfrågan](quote-request.md)
@@ -68,4 +68,4 @@ ht-degree: 1%
 + Referens {#reference}
    + [Bakåtkompatibla ändringar](backward-incompatible-changes.md)
    + [Paket](packages.md)
-+ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
