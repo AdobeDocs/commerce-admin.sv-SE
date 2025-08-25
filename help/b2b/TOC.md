@@ -68,4 +68,4 @@ ht-degree: 1%
 + Referens {#reference}
    + [Bakåtkompatibla ändringar](backward-incompatible-changes.md)
    + [Paket](packages.md)
-+ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
