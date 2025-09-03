@@ -2,7 +2,7 @@
 title: Handbok för adminsystem
 description: Lär dig de bästa säkerhetsrutinerna för att skydda din Commerce-butik och hantera behörigheter, ta reda på hur du importerar och exporterar data, hanterar integreringar och tillägg och utför rutinunderhåll.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: bc52e81a445fe432187648f4e9003ad5332a18cd
+source-git-commit: 0a305befd07236faf7f5f477907b9ce46e8af6f5
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Den här guiden täcker:
 | [E-postmallar](email-templates.md) | E-postmallar definierar layout, innehåll och formatering för automatiserade meddelanden som skickas från din butik. De kallas transaktionsbaserade e-postmeddelanden eftersom var och en är kopplad till en viss typ av transaktion eller händelse. |
 | [Dataöverföring](data-transfer.md) | Med import- och exportverktygen kan du hantera flera poster i en enda åtgärd. Du kan inte bara importera nya objekt, utan även uppdatera, ersätta och ta bort befintliga produktuppsättningar. |
 | [Åtgärdsloggar](action-log.md) | För Adobe Commerce fångar åtgärdsloggarna alla ändringar som görs av en Admin-användare som arbetar i din butik. På så sätt kan du spåra alla ändringar som gjorts i din butik. |
-| verktyg | [!BADGE Det finns bara &#x200B;]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Systemadministratörer som har en samling verktyg tillgängliga: [supportverktygen](support.md) är utformade för att identifiera kända fel i systemet. Systemverktygen ger operativt stöd för att utföra rutinmässig hantering av [index](index-management.md) och [cache](cache-management.md), [säkerhetskopiera systemet](backups.md), hantera [schemalagda åtgärder](data-scheduled-import-export.md) och använda ett sortiment av [utvecklingsverktyg](developer-tools.md). |
+| verktyg | [!BADGE Det finns bara ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Systemadministratörer som har en samling verktyg tillgängliga: [supportverktygen](support.md) är utformade för att identifiera kända fel i systemet. Systemverktygen ger operativt stöd för att utföra rutinmässig hantering av [index](index-management.md) och [cache](cache-management.md), [säkerhetskopiera systemet](backups.md), hantera [schemalagda åtgärder](data-scheduled-import-export.md) och använda ett sortiment av [utvecklingsverktyg](developer-tools.md). |
 | [Integrationer](integrations.md) | Fastställ platsen för OAuth-autentiseringsuppgifter och ange omdirigerings-URL:er för tredjepartsintegreringar. |
 | [Säkerhet](security.md) | Lär dig mer om de verktyg som finns för att skydda din butik och dina data, och riktlinjer för en säkerhetsåtgärdsplan om du upptäcker en kompromiss. |
 
