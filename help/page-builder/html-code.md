@@ -1,31 +1,31 @@
 ---
-title: Elements - HTML-kod
-description: Lär dig mer om innehållstypen HTML Code, som används för att lägga till kodfragment av HTML, CSS och JavaScript i  [!DNL Page Builder] scenen.
+title: Elements - HTML Code
+description: Lär dig mer om HTML Code-innehållstypen som används för att lägga till kodfragment av HTML-, CSS- och JavaScript-kod på  [!DNL Page Builder] scenen.
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
-# Elements - HTML-kod
+# Elements - HTML Code
 
-Använd innehållstypen _HTML-kod_ för att lägga till kodfragment av HTML, CSS och JavaScript i [[!DNL Page Builder] scenen](workspace.md#stage). Du kan till exempel lägga till anpassad HTML och deklarera en CSS-klass som kan användas på ett element på sidan. Du kan också lägga till ett kodfragment för en logotyp, knapp eller banderoll som du har fått från en tredjepartsleverantör.
+Använd innehållstypen _HTML Code_ för att lägga till kodfragment av HTML-, CSS- och JavaScript-kod på [[!DNL Page Builder] scenen](workspace.md#stage). Du kan till exempel lägga till anpassad HTML och deklarera en CSS-klass som kan användas på ett element på sidan. Du kan också lägga till ett kodfragment för en logotyp, knapp eller banderoll som du har fått från en tredjepartsleverantör.
 
 ## Verktygslådan HTML Code
 
-![Verktygslådan HTML-kod](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
+![HTML Code, verktygslåda](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
 
 | Verktyg | Ikon | Beskrivning |
 | --------- | ---------- | ----------------- |
-| Flytta | ![Ikonen Flytta](./assets/pb-icon-move.png){width="25"} | Flyttar kodbehållaren HTML till en annan giltig plats på sidan. |
+| Flytta | ![Ikonen Flytta](./assets/pb-icon-move.png){width="25"} | Flyttar HTML Code-behållaren till en annan giltig plats på sidan. |
 | Inställningar | ![Ikon för inställningar](./assets/pb-icon-settings.png){width="25"} | Öppnar sidan Redigera HTML-kod, där du kan ändra egenskaperna för behållaren. |
-| Dölj | ![Dölj ikon](./assets/pb-icon-hide.png){width="25"} | Döljer kodbehållaren HTML. |
-| Visa | ![Visa ikon](./assets/pb-icon-show.png){width="25"} | Visar den dolda kodbehållaren HTML. |
-| Duplicera | ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av behållaren HTML Code. |
-| Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="25"} | Tar bort kodbehållaren HTML och dess innehåll från scenen. |
+| Dölj | ![Dölj ikon](./assets/pb-icon-hide.png){width="25"} | Döljer HTML Code-behållaren. |
+| Visa | ![Visa ikon](./assets/pb-icon-show.png){width="25"} | Visar den dolda HTML Code-behållaren. |
+| Duplicera | ![Duplicera ikon](./assets/pb-icon-duplicate.png){width="25"} | Skapar en kopia av HTML Code-behållaren. |
+| Ta bort | ![Ikonen Ta bort](./assets/pb-icon-remove.png){width="25"} | Tar bort HTML Code-behållaren och dess innehåll från scenen. |
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
@@ -56,25 +56,25 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
 
 ### Steg 2: Lägg till koden på sidan
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _i din butik.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**i din butik.
 
 1. Hitta sidan där teckensnittet ska vara tillgängligt och öppna den i redigeringsläge.
 
 1. Bläddra nedåt och expandera avsnittet **[!UICONTROL Content]**.
 
-1. Expandera **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL HTML Code]** platshållare till en rad, kolumn eller tabb på scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Elements]** och dra en **[!UICONTROL HTML Code]** platshållare till en rad, kolumn eller tabb på scenen.
 
    Använd den röda stödlinjen för att placera avgränsaren antingen före eller efter en annan innehållsbehållare i rad-, kolumn- eller tabbuppsättningen.
 
-   ![Dra en platshållare för HTML-kod till scenen](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
+   ![Dra en HTML Code-platshållare till scenen](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Håll pekaren över behållaren HTML för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över HTML-behållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Klistra in den inbäddade Google Fonts-koden och de formatdeklarationer som du har förberett i textrutan.
 
    Om du vill göra det enklare att läsa kan du ange några mellanslag för indrag av koden.
 
-   ![Kod och format för HTML](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![HTML-kod och format](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
 1. Uppdatera de återstående inställningarna efter behov (mer information finns i [Ändra kodinställningarna för HTML](#html-settings)).
 
@@ -84,7 +84,7 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
 
 ### Steg 3: Förhandsgranska sidan
 
-1. I avsnittet _[!UICONTROL Currently Active]_&#x200B;anger du **[!UICONTROL Enable Page]**&#x200B;till `Yes`.
+1. I avsnittet _[!UICONTROL Currently Active]_anger du **[!UICONTROL Enable Page]**till `Yes`.
 
    ![Aktivera sidan](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -96,11 +96,11 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
 
 ## Ändra kodinställningar för HTML {#html-settings}
 
-1. Håll pekaren över behållaren i HTML för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
+1. Håll pekaren över HTML-behållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Redigera koden i textrutan efter behov.
 
-   HTML, CSS och JavaScript-kod stöds. Kodfragment som tillhör avsnittet `<head>` på sidan kan anges här.
+   HTML-, CSS- och JavaScript-kod stöds. Kodfragment som tillhör avsnittet `<head>` på sidan kan anges här.
 
    Redigeraren innehåller även knappar för att infoga specialelement i koden:
 
@@ -110,7 +110,7 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
    | Infoga bild... | Klicka för att infoga en överförd bild eller en bild från galleriet vid markörens position i textrutan HTML. |
    | Infoga variabel... | Klicka för att infoga en variabel vid markörens position i textrutan HTML. |
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
 
    - Om du vill styra placeringen av koden i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
 
@@ -164,3 +164,5 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
      | [!UICONTROL Padding] | Mängden tomt utrymme som används på behållarens inre kant på alla sidor. Alternativ: `Top` / `Right` / `Bottom` / `Left` |
 
 [1]: https://fonts.google.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

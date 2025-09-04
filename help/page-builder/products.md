@@ -3,7 +3,7 @@ title: Lägg till innehåll - produkter
 description: Lär dig mer om innehållstypen Produkter som används för att lägga till en lista med produkter på  [!DNL Page Builder] scenen.
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Följande instruktioner visar hur du lägger till en produktlista i ett block. D
 
 ## Skapa ett produktlistblock
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Blocks]**.
 
 1. Klicka på **[!UICONTROL Add New Block]**.
 
@@ -63,7 +63,7 @@ Följande instruktioner visar hur du lägger till en produktlista i ett block. D
 
 1. Bläddra nedåt och klicka på **[!UICONTROL Edit with Page Builder]** eller i förhandsvisningsområdet för innehåll för att öppna arbetsytan i [!DNL Page Builder].
 
-1. Expandera **[!UICONTROL Add Content]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Products]** platshållare till scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Add Content]** och dra en **[!UICONTROL Products]** platshållare till scenen.
 
    ![Lägg till innehållstyp för produkter](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"}
 
@@ -252,3 +252,5 @@ Om du har konfigurerat en karusell bör den se ut ungefär som i följande exemp
 ![Produktkarusell på scenen](./assets/pb-products-admin-carousel.png){width="600"}
 
 Du kan nu använda en [widget](../content-design/widgets.md) för att placera det här blocket där du vill att det ska visas i butiken. Du kan också använda [Lägg till innehåll - block](block.md) för att lägga till blocket på en befintlig sida, flik eller block.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

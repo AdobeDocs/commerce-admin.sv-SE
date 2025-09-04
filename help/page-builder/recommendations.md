@@ -3,7 +3,7 @@ title: Lägg till innehåll - produktrekommendationer
 description: Läs mer om innehållstypen Produktrekommendationer som används för att lägga till en lista med rekommendationer på  [!DNL Page Builder] scenen.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Lägg till innehåll - produktrekommendationer
 
-Använd innehållstypen _Produktrekommendationer_ för att lägga till en befintlig, aktiv [rekommendationsenhet](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/admin/create) på [[!DNL Page Builder] scenen](workspace.md#stage) för en CMS-sida, ett-block eller ett dynamiskt block.
+Använd innehållstypen _Produktrekommendationer_ för att lägga till en befintlig, aktiv [rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) på [[!DNL Page Builder] scenen](workspace.md#stage) för en CMS-sida, ett-block eller ett dynamiskt block.
 
 >[!NOTE]
 >
->Innehållstypen [!DNL Page Builder] _Produktrekommendationer_ stöds i Adobe Commerce 2.4.4 och senare och finns i [produktrekommendationspaketet version 3.0.x eller senare](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om du vill lägga till [!DNL Page Builder]-stöd för produktrekommendationer [läser du installationsinformationen](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/getting-started/install-configure). **Den här innehållstypen är inte tillgänglig för Magento Open Source.**
+>Innehållstypen [!DNL Page Builder] _Produktrekommendationer_ stöds i Adobe Commerce 2.4.4 och senare och finns i [produktrekommendationspaketet version 3.0.x eller senare](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om du vill lägga till [!DNL Page Builder]-stöd för produktrekommendationer [läser du installationsinformationen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Den här innehållstypen är inte tillgänglig för Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
 ## Lägg till en befintlig rekommendationsenhet
 
-1. Kontrollera att du redan [har skapat en rekommendationsenhet](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/admin/create) för sidtypen [!DNL Page Builder].
+1. Kontrollera att du redan [har skapat en rekommendationsenhet](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) för sidtypen [!DNL Page Builder].
 
 >[!NOTE]
 >
@@ -45,11 +45,11 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
 1. Öppna sidan, blocket eller det dynamiska blocket i redigeringsläge.
 
-1. Expandera avsnittet _[!UICONTROL Content]_&#x200B;och klicka på&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;eller inuti förhandsvisningsområdet för innehåll för att öppna arbetsytan för [!DNL Page Builder].
+1. Expandera avsnittet _[!UICONTROL Content]_och klicka på&#x200B;**[!UICONTROL Edit with Page Builder]**eller inuti förhandsvisningsområdet för innehåll för att öppna arbetsytan för [!DNL Page Builder].
 
-1. Dra en **[!UICONTROL Row]**-platshållare till scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_.
+1. Dra en [!DNL Page Builder]-platshållare till scenen på panelen _[!UICONTROL Layout]_under **[!UICONTROL Row]**.
 
-1. Dra en **[!UICONTROL Product Recommendation]**-platshållare till raden på panelen [!DNL Page Builder] under _[!UICONTROL Add Content]_.
+1. Dra en [!DNL Page Builder]-platshållare till raden på panelen _[!UICONTROL Add Content]_under **[!UICONTROL Product Recommendation]**.
 
    ![Lägger till produktrekommendationens innehållstyp](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -60,7 +60,7 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
    ![Redigera produktrekommendation](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Select]** i avsnittet _[!UICONTROL Selection]_.
+1. Klicka på _[!UICONTROL Selection]_i avsnittet **[!UICONTROL Select]**.
 
 1. I listan med aktiva produktrekommendationer letar du reda på raden med rekommendationsenheten som du vill lägga till och klickar på **[!UICONTROL Select]** i den sista kolumnen.
 
@@ -68,7 +68,7 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
 1. Klicka på **[!UICONTROL Add Selected]** i det övre högra hörnet.
 
-   Namnet på den valda produktrekommendationen visas i avsnittet _[!UICONTROL Selection]_&#x200B;på sidan&#x200B;_[!UICONTROL Edit Product Recommendation]_.
+   Namnet på den valda produktrekommendationen visas i avsnittet _[!UICONTROL Selection]_på sidan_[!UICONTROL Edit Product Recommendation]_.
 
 1. Gör de ändringar som krävs för de [avancerade inställningarna](#advanced-settings).
 
@@ -164,3 +164,5 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
    | [!UICONTROL Padding] | Mängden tomt utrymme som används på den inre kanten på alla sidor av enheten. Alternativ: `Top` / `Right` / `Bottom` / `Left` |
 
    {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

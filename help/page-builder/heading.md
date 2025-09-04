@@ -3,7 +3,7 @@ title: Element - rubrik
 description: Lär dig mer om innehållstypen Rubrik, som används för att lägga till en textbehållare med en rubriknivå från H1 till H6 på  [!DNL Page Builder] scenen.
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Rubriknivåer skapar en hierarki som organiserar innehåll och hjälper sökmotorer att indexera varje sida. Använd innehållstypen _Rubrik_ i [[!DNL Page Builder] scenen](workspace.md#stage) för att lägga till en textbehållare med rubriknivå från H1 till H6 på scenen. Rubriker formateras enligt den formatmall som är kopplad till det aktuella temat.
 
-Fältet [Innehållsrubrik](workspace.md) i avsnittet _[!UICONTROL Content]_&#x200B;kan användas för att lägga till en H1-rubrik högst upp på sidan. Fältet är dock äldre än tidigare [!DNL Commerce] versioner och har stöd för äldre innehåll. Det här fältet utnyttjar inte de avancerade funktionerna i [!DNL Page Builder]. Vi rekommenderar att du lämnar fältet Innehållsrubrik tomt och använder innehållstypen [!DNL Page Builder] Rubrik för att lägga till rubriker på alla nivåer på sidan.
+Fältet [Innehållsrubrik](workspace.md) i avsnittet _[!UICONTROL Content]_kan användas för att lägga till en H1-rubrik högst upp på sidan. Fältet är dock äldre än tidigare [!DNL Commerce] versioner och har stöd för äldre innehåll. Det här fältet utnyttjar inte de avancerade funktionerna i [!DNL Page Builder]. Vi rekommenderar att du lämnar fältet Innehållsrubrik tomt och använder innehållstypen [!DNL Page Builder] Rubrik för att lägga till rubriker på alla nivåer på sidan.
 
 Följande exempel visar hur innehållstypen Innehållsrubrik och Rubrik visas när de formateras med Luma-temat.
 
@@ -50,7 +50,7 @@ Precis som för alla innehållsbehållare visas verktygslådan när du för musp
 
 ## Lägg till en rubrik
 
-1. Expandera **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Heading]** platshållare till en rad, kolumn eller tabb på scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Elements]** och dra en **[!UICONTROL Heading]** platshållare till en rad, kolumn eller tabb på scenen.
 
    ![Dra en rubrik till scenen](./assets/pb-elements-heading-drag.png){width="600" zoomable="yes"}
 
@@ -74,7 +74,7 @@ Precis som för alla innehållsbehållare visas verktygslådan när du för musp
 
    Du kan även uppdatera innehållet i rubrikredigeraren.
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
 
    - Om du vill styra rubrikens placering i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
 
@@ -154,3 +154,5 @@ För en formaterad rubrik med specifika inställningar är det effektivare att d
 1. Om du vill ändra rubriknivån klickar du på rubriktexten och väljer den nya nivån i redigeringsverktygsfältet.
 
    ![Välj en ny rubriknivå](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

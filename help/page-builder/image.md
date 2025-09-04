@@ -1,9 +1,9 @@
 ---
 title: Media - bild
-description: Lär dig mer om bildinnehållstypen som används för att lägga till en JPG, GIF eller PNG-bild på  [!DNL Page Builder] scenen.
+description: Lär dig mer om bildinnehållstypen som används för att lägga till en JPG-, GIF- eller PNG-bild på  [!DNL Page Builder] scenen.
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Media - bild
 
-Använd innehållstypen _Bild_ om du vill lägga till en JPG, GIF eller PNG-bild på [[!DNL Page Builder] scenen](workspace.md#stage). Förutom standardskrivbordsbilden kan du ange en sekundär bild för mobila enheter. Du kan också lägga till en bildtext som visas under bilden och länka bilden till en URL-adress, produkt, kategori eller sida.
+Använd innehållstypen _Bild_ för att lägga till en JPG-, GIF- eller PNG-bild på [[!DNL Page Builder] scenen](workspace.md#stage). Förutom standardskrivbordsbilden kan du ange en sekundär bild för mobila enheter. Du kan också lägga till en bildtext som visas under bilden och länka bilden till en URL-adress, produkt, kategori eller sida.
 
 >[!TIP]
 >
@@ -44,7 +44,7 @@ Verktygslådan för bilden visas när du hovrar över bildbehållaren.
 
 ## Lägga till en bild
 
-1. Expandera **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Image]** platshållare till målbehållaren.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Media]** och dra en **[!UICONTROL Image]** platshållare till målbehållaren.
 
    Du kan lägga till en bild till en rad, kolumn eller tabb. I följande exempel dras bilden till en tom kolumn.
 
@@ -58,7 +58,7 @@ Verktygslådan för bilden visas när du hovrar över bildbehållaren.
    >
    >Den största filstorleken är 4 MB. Filtyper som stöds är JPG, GIF och PNG.
 
-   - _&#x200B;**Överför en ny bild**&#x200B;_: Använd den här metoden om du vill överföra en ny bildfil från datorn.
+   - _**Överför en ny bild**_: Använd den här metoden om du vill överföra en ny bildfil från datorn.
 
       - Klicka på **[!UICONTROL Upload Image]**.
 
@@ -66,7 +66,7 @@ Verktygslådan för bilden visas när du hovrar över bildbehållaren.
 
      Du kan också dra en bildfil från datorn och släppa den på ikonen _Kamera_ ( ![Kameraikon](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _&#x200B;**Välj en befintlig resurs**&#x200B;_: Använd den här metoden om du vill välja en befintlig bildresurs från medielagring/galleri.
+   - _**Välj en befintlig resurs**_: Använd den här metoden om du vill välja en befintlig bildresurs från medielagring/galleri.
 
       - Klicka på **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +76,7 @@ Verktygslådan för bilden visas när du hovrar över bildbehållaren.
 
         ![Lägger till en markerad bild](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**Sök efter och markera en Adobe Stock-bild**&#x200B;_: Använd den här metoden om du vill söka efter en bild från Adobe Stock.
+   - _**Sök efter och markera en Adobe Stock-bild**_: Använd den här metoden om du vill söka efter en bild från Adobe Stock.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ Filnamnet, dimensionerna och filstorleken visas under den aktuella bilden.
 
 1. Gör något av följande om du vill ändra aktuell **[!UICONTROL Image]**:
 
-   - _&#x200B;**Överför en ny bild**&#x200B;_: Använd den här metoden om du vill överföra en ny bildfil från datorn.
+   - _**Överför en ny bild**_: Använd den här metoden om du vill överföra en ny bildfil från datorn.
 
       - Klicka på **[!UICONTROL Upload Image]**.
 
       - Leta upp och välj bilden som du vill lägga till i galleriet och målbehållaren.
 
-   - _&#x200B;**Välj en befintlig resurs**&#x200B;_: Använd den här metoden om du vill välja en befintlig bildresurs från medielagring/galleri.
+   - _**Välj en befintlig resurs**_: Använd den här metoden om du vill välja en befintlig bildresurs från medielagring/galleri.
 
       - Klicka på **[!UICONTROL Select from Gallery]**.
 
@@ -258,3 +258,5 @@ Texten för de här inställningarna visas för sökmotorer och förbättrar ind
   | [!UICONTROL Padding] | Mängden tomt utrymme som används på behållarens inre kant på alla sidor. |
 
   {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

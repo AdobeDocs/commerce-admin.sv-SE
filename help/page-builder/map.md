@@ -3,7 +3,7 @@ title: Media - Karta
 description: Lär dig mer om innehållstypen för kartan, som används för att lägga till en karta från  [!DNL Google Maps] Plattform på  [!DNL Page Builder] scenen.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -66,9 +66,9 @@ Beroende på om du redan har en [!DNL Google Maps]-nyckel kan du använda någon
 
 ### Steg 2: Konfigurera [!DNL Google Maps] i [!DNL Commerce]
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
+1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Content Management]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
@@ -88,7 +88,7 @@ Beroende på om du redan har en [!DNL Google Maps]-nyckel kan du använda någon
 
 1. Öppna sidan, blocket eller det dynamiska blocket på arbetsytan för [!DNL Page Builder].
 
-1. Expandera **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Map]** platshållare till scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Media]** och dra en **[!UICONTROL Map]** platshållare till scenen.
 
    ![Dra en karta till scenen](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
@@ -104,7 +104,7 @@ Beroende på om du redan har en [!DNL Google Maps]-nyckel kan du använda någon
 
 1. Håll pekaren över kartbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Klicka på **[!UICONTROL Add Location]** i det övre högra hörnet på sidan _[!UICONTROL Edit Map]_.
+1. Klicka på _[!UICONTROL Edit Map]_i det övre högra hörnet på sidan **[!UICONTROL Add Location]**.
 
 1. Ange **[!UICONTROL Location Name]** som du vill ska kopplas till stiftet på kartan.
 
@@ -158,13 +158,13 @@ Använd guiden [!DNL Google Maps] för plattformsformat för att tillämpa ett a
 
 ### Ändra kartformatet
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
+1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Content Management]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-1. Klicka på [Skapa kartformat][6] i textrutan **[!UICONTROL Google Maps Style]**.
+1. Klicka på **[!UICONTROL Google Maps Style]** Skapa kartformat[ i textrutan ][6].
 
    Den här åtgärden öppnar guiden [[!DNL Google Maps] Plattformsformat][6] på en separat flik, där du kan definiera en stil för [!DNL Google Maps]-plattformsprojektet.
 
@@ -197,7 +197,7 @@ Använd guiden [!DNL Google Maps] för plattformsformat för att tillämpa ett a
 
    {style="table-layout:auto"}
 
-1. Ändra inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov:
+1. Ändra inställningarna för _[!UICONTROL Advanced]_efter behov:
 
    - Om du vill styra den vågräta placeringen av kartinnehållet som har lagts till i behållaren väljer du en **[!UICONTROL Alignment]**:
 
@@ -264,9 +264,9 @@ Använd guiden [!DNL Google Maps] för plattformsformat för att tillämpa ett a
 
 Stödrasterstorleken avgör storleken på kartan som hör till en [kolumn](column.md) på scenen [!DNL Page Builder]. Som standard är kartan 12 kolumner bred, med högst 16 kolumner.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
+1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Content Management]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
@@ -290,3 +290,5 @@ Stödrasterstorleken avgör storleken på kartan som hör till en [kolumn](colum
 [4]: https://developers.google.com/maps/documentation/javascript/get-api-key
 [5]: https://www.google.com/maps
 [6]: https://mapstyle.withgoogle.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

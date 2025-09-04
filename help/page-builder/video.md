@@ -3,7 +3,7 @@ title: Media - video
 description: Lär dig mer om videoinnehållstypen som används för att lägga till en video som finns på YouTube eller Vimeo på  [!DNL Page Builder] scenen.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 0%
@@ -42,9 +42,9 @@ Använd innehållstypen _Video_ för att lägga till en video som finns på [You
 
    Du kan också kopiera en direktlänk till en giltig videofil. Mer information om giltiga länkar finns i [Grundläggande videoinställningar](#basic-video-settings).
 
-1. Gå tillbaka till arbetsytan [!DNL Page Builder] i [!DNL Commerce]-administratören där du vill lägga till videon.
+1. Gå tillbaka till arbetsytan [!DNL Commerce] i [!DNL Page Builder]-administratören där du vill lägga till videon.
 
-1. Expandera **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Video]** platshållare till scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Media]** och dra en **[!UICONTROL Video]** platshållare till scenen.
 
    ![Dra en videoplatshållare till scenen](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
@@ -170,3 +170,5 @@ Använd innehållstypen _Video_ för att lägga till en video som finns på [You
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

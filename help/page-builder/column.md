@@ -3,7 +3,7 @@ title: Layout - kolumn
 description: Lär dig mer om innehållstypen Kolumn, som används för att dela upp en sida i flera kolumner på scenen [!DNL Page Builder] .
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Använd innehållstypen _Kolumn_ för att dela upp en sida i flera kolumner på 
 
 ## Uppdateringar i version 2.4.5
 
-Page Builder-funktionerna uppdateras i version 2.4.5 så att användare nu använder _[!DNL Columns]_&#x200B;som överordnad behållare för enskilda kolumner. Den här nya behållaren stöder även egenskaper för bakgrund och eliminerar behovet av att radbryta kolumner. Det minskar onödig markering och ger bättre kontroll över butiksvisningen och upplevelsen.
+Page Builder-funktionerna uppdateras i version 2.4.5 så att användare nu använder _[!DNL Columns]_som överordnad behållare för enskilda kolumner. Den här nya behållaren stöder även egenskaper för bakgrund och eliminerar behovet av att radbryta kolumner. Det minskar onödig markering och ger bättre kontroll över butiksvisningen och upplevelsen.
 
 Du kan ändra layouten för behållaren [!DNL Columns] genom att dra en kolumn ovanför eller nedanför andra kolumner i gruppen och stapla dem. Detta öppnar en ny rad olika möjliga layoutkombinationer som kan uppnås utan att utvecklarna behöver anpassa dem.
 
@@ -54,7 +54,7 @@ I följande exempel med två kolumner anger siffrorna inom parentes (6/12) i den
 
 ## Lägga till en kolumn
 
-1. Dra en **[!UICONTROL Column]** till scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_.
+1. Dra en [!DNL Page Builder] till scenen på panelen _[!UICONTROL Layout]_under **[!UICONTROL Column]**.
 
    ![Dra en kolumn till scenen](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -100,7 +100,7 @@ I följande exempel med två kolumner anger siffrorna inom parentes (6/12) i den
 
    - Håll markören över kolumnen för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
-   - Rulla ned till avsnittet _[!UICONTROL Advanced]_&#x200B;och ange alla fyra **[!UICONTROL Padding]**-värdena till `0`.
+   - Rulla ned till avsnittet _[!UICONTROL Advanced]_och ange alla fyra **[!UICONTROL Padding]**-värdena till `0`.
 
      ![Använder ingen utfyllnad](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -170,7 +170,7 @@ I följande exempel med två kolumner anger siffrorna inom parentes (6/12) i den
 
    - **[!UICONTROL Background Repeat]** - Om du vill upprepa bakgrundsbilden för att fylla utrymmet ändrar du den här inställningen `Yes`.
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
 
    - Om du vill styra den vågräta placeringen av innehållsbehållare som läggs till i kolumnen väljer du en **[!UICONTROL Alignment]**:
 
@@ -226,3 +226,5 @@ I följande exempel med två kolumner anger siffrorna inom parentes (6/12) i den
      {style="table-layout:auto"}
 
 1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
+
+<!-- Last updated from includes: 2023-01-19 14:32:13 -->

@@ -2,7 +2,7 @@
 title: Adobe Commerce B2B-ändringar som inte är kompatibla bakåt
 description: Läs om ändringar i Adobe Commerce B2B-utgåvor som kan kräva att du uppdaterar din anpassade kod.
 exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
-source-git-commit: b869440f08d4c51efbafec94d9cce9f7f5b05b49
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
@@ -28,3 +28,5 @@ Granska den övergripande referensinformationen för alla bakåtkompatibla ändr
 {{$include /help/_includes/backward-incompatible-changes/1.3.4-1.3.5.md}}
 
 {{$include /help/_includes/backward-incompatible-changes/1.3.3-1.3.4.md}}
+
+<!-- Last updated from includes: 2025-04-29 22:23:23 -->

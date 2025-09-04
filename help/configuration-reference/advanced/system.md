@@ -4,7 +4,7 @@ description: Granska konfigurationsinställningarna på sidan [!UICONTROL Advanc
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Konfigurera 
 
 >[!IMPORTANT]
 >
->**Säkerhetsmeddelande** Vi rekommenderar att alla handlare omedelbart ställer in sin sändningskonfiguration för e-post för att skydda mot en nyligen identifierad potentiell fjärrexekvering av kod. Vi rekommenderar att du undviker att använda [!DNL Sendmail] för e-postkommunikation tills problemet är löst. Kontrollera att [!UICONTROL Set Return Path] är inställt på `No` i [!UICONTROL Mail Sending Settings].
+>**Säkerhetsmeddelande** Vi rekommenderar att alla handlare omedelbart ställer in sin sändningskonfiguration för e-post för att skydda mot en nyligen identifierad potentiell fjärrexekvering av kod. Vi rekommenderar att du undviker att använda [!DNL Sendmail] för e-postkommunikation tills problemet är löst. Kontrollera att [!UICONTROL Mail Sending Settings] är inställt på [!UICONTROL Set Return Path] i `No`.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -153,11 +153,11 @@ Mer information om hur du ändrar de här inställningarna finns i [Säkerhetsko
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Anger om Commerce-instansen tillåter säkerhetskopiering. Alternativ: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Visas när _[!UICONTROL Enable Backup]_&#x200B;är inställd på `Yes`.) Anger om Commerce-instansen automatiskt säkerhetskopieras enligt ett regelbundet schema. Alternativ: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Global | (Visas när _[!UICONTROL Enable Scheduled Backup]_&#x200B;är inställd på `Yes`.) Anger vilka element i Commerce-instansen som ingår i säkerhetskopian. Alternativ: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Visas när _[!UICONTROL Enable Backup]_är inställd på `Yes`.) Anger om Commerce-instansen automatiskt säkerhetskopieras enligt ett regelbundet schema. Alternativ: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Visas när _[!UICONTROL Enable Scheduled Backup]_är inställd på `Yes`.) Anger vilka element i Commerce-instansen som ingår i säkerhetskopian. Alternativ: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Global | (Visas när [!UICONTROL Enable Scheduled Backup] är inställd på `Yes`.) Anger timmen, minuten och sekunden då den schemalagda säkerhetskopieringen börjar. |
-| [!UICONTROL Frequency] | Global | (Visas när [!UICONTROL Enable Scheduled Backup] är inställd på `Yes`.) Avgör hur ofta den schemalagda säkerhetskopieringen sker. Alternativ: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | Global | (Visas när [!UICONTROL Enable Scheduled Backup] är inställd på `Yes`.) Anger om butiken är i underhållsläge under den schemalagda säkerhetskopieringen. Alternativ: `Yes` / `No` |
+| [!UICONTROL Frequency] | Global | (Visas när [!UICONTROL Enable Scheduled Backup] är inställd på `Yes`.) Anger hur ofta den schemalagda säkerhetskopieringen ska utföras. Alternativ: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | Global | (Visas när [!UICONTROL Enable Scheduled Backup] är inställd på `Yes`.) Anger om arkivet är i underhållsläge under den schemalagda säkerhetskopieringen. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -188,7 +188,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Helsidescach
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Bestämmer vilket program som används för att hantera helsidescachen. Alternativ: <br/>**`Built-in Application`**- Rekommenderas inte för produktionsmiljön.<br/>**`Varnish Caching`** - Rekommenderas för produktionsmiljön. |
 | [!UICONTROL TTL for public content] | Global | Anger livslängden för cacheminnet för offentligt innehåll i sekunder. Standardvärde: `120` |
-| [!UICONTROL Handles param size] | global | Anger det maximala antalet [layoutreferenser](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) som kan bearbetas på HTTP-slutpunkten [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=sv-SE). Genom att begränsa storleken kan du förbättra säkerheten och prestandan. Standardvärde: `100` |
+| [!UICONTROL Handles param size] | global | Anger det maximala antalet [layoutreferenser](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) som kan bearbetas på HTTP-slutpunkten [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). Genom att begränsa storleken kan du förbättra säkerheten och prestandan. Standardvärde: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Anger de IP-adresser som kan tömma konfigurationen för lack för att generera en konfigurationsfil. Avgränsa flera poster med komma. Standardvärde: `localhost` |
 | [!UICONTROL Backend host] | Global | Anger den serverdelsvärd som genererar konfigurationsfiler. Standardvärde: `localhost` |
@@ -218,7 +218,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Använd en m
 
 >[!IMPORTANT]
 >
->Databasmedielagringsmetoden används inte i Adobe Commerce och Magento Open Source 2.4.3.
+>Databasens medialagringsmetod används inte i Adobe Commerce och Magento Open Source 2.4.3.
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -268,11 +268,11 @@ Mer information om hur du ändrar de här inställningarna finns i [Schemalagd i
 
 ![Avancerad konfiguration - konfiguration för bildöverföring](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Quality] | Global | Anger JPG för den storleksändrade bilden. Lägre kvalitet minskar filstorleken. Använd 80-90 % för att minska filstorleken med hög kvalitet. Standard: `80` |
+| [!UICONTROL Quality] | Global | Anger JPG-kvaliteten för den storleksändrade bilden. Lägre kvalitet minskar filstorleken. Använd 80-90 % för att minska filstorleken med hög kvalitet. Standard: `80` |
 | [!UICONTROL Enable Frontend Resize] | Global | Aktivera den här inställningen för att tillåta att Commerce ändrar storlek på stora, stora bilder som du kan överföra för sidan _Produktinformation_. Commerce ändrar storlek på bildfilerna med JavaScript innan filen överförs. När bildens storlek ändras behålls de exakta proportionerna och den största storleken för Maximal bredd och Maximal höjd får inte överskridas. Standard: `Yes` |
 | [!UICONTROL Maximum Width] | Global | Anger bildens maximala pixelbredd. När bildens storlek ändras överskrider den inte denna bredd. Standard: `1920` |
 | [!UICONTROL Maximum Height] | Global | Anger bildens maximala pixelhöjd. När bildens storlek ändras överskrider den inte den här höjden. Standard: `1200` |
@@ -315,3 +315,5 @@ Mer information om hur du konfigurerar de här inställningarna finns i [Adobe S
 | [!UICONTROL Test Connection] |  | Kör ett test för att verifiera att API-nyckeln är giltig för användning med Adobe Stock-tjänsten. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

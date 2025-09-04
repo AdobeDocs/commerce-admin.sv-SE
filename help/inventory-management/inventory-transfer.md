@@ -3,7 +3,7 @@ title: Överför lager till källa
 description: Lär dig hur flerkällvaruhandlare kan överföra produktlager från en källplats till en annan.
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Du kan också ta bort tilldelningen av källan när du överför lagerkvantitete
 
 ![Överför lager till en annan källa](assets/inventory-bulk-transfer-source.gif)
 
-1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
 1. Välj de produkter som du vill ändra källor för.
 
@@ -53,3 +53,5 @@ Du kan också ta bort tilldelningen av källan när du överför lagerkvantitete
 1. Klicka på **[!UICONTROL Transfer Inventory]**.
 
    Alla produktkvantiteter dras av från ursprungskällan och läggs till i destinationskällan. Kvantitet och säljbart antal uppdateras automatiskt.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

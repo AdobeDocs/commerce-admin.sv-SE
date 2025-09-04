@@ -2,8 +2,8 @@
 title: Widgetar
 description: Lär dig mer om widgetar, som innehåller ett kodfragment som gör det möjligt att visa ett brett innehållsområde och placera det vid särskilda blockreferenser i din butik.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -43,3 +43,5 @@ När du [skapar en widget](widget-create.md) måste du ange typen. Den här type
 | [!UICONTROL Wish List Search] | Använd det här alternativet för att ge en kund möjlighet att söka efter offentligt tillgängliga önskelistor med önskelisteägarens namn eller e-postadress. Butikskunder kan hitta önskelistor som tillhör andra kunder, visa dem och beställa produkter från dem eller lägga till produkterna i sina egna önskelistor. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

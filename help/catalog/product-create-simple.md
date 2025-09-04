@@ -3,7 +3,7 @@ title: Enkel produkt
 description: Lär dig hur du skapar en enkel produkt som kan säljas individuellt eller som en del av en grupperad, konfigurerbar eller paketerad produkt.
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -20,9 +20,9 @@ I följande instruktioner visas hur du skapar en enkel produkt med en [produktma
 
 ## Steg 1: Välj produkttyp
 
-1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
-1. Välj **[!UICONTROL Simple Product]** på menyn _[!UICONTROL Add Product]_( ![menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ) i det övre högra hörnet.
+1. Välj _[!UICONTROL Add Product]_på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}menypil **[!UICONTROL Simple Product]**) i det övre högra hörnet.
 
    ![Lägg till enkel produkt](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ Formuläret uppdateras för att återspegla ändringen.
 
 1. Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
-1. Om du vill tilldela _[!UICONTROL Categories]_&#x200B;till produkten klickar du på rutan **[!UICONTROL Select…]**&#x200B;och gör något av följande:
+1. Om du vill tilldela _[!UICONTROL Categories]_till produkten klickar du på rutan **[!UICONTROL Select…]**och gör något av följande:
 
    **Välj en befintlig kategori**:
 
@@ -99,7 +99,7 @@ Formuläret uppdateras för att återspegla ändringen.
 
    - Klicka på **[!UICONTROL Create Category]**.
 
-1. Markera kryssrutan **[!UICONTROL Set Product as New]** om du vill visa produkten i listan över [nya produkter](../content-design/widget-new-products-list.md).
+1. Markera kryssrutan [ om du vill visa produkten i listan över ](../content-design/widget-new-products-list.md)nya produkter **[!UICONTROL Set Product as New]**.
 
 1. Välj **[!UICONTROL Country of Manufacture]**.
 
@@ -122,7 +122,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 - [Design](settings-advanced-design.md)
 - [Presentalternativ](product-gift-options.md)
 
-## Steg 6: Publish produkten
+## Steg 6: Publicera produkten
 
 1. Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable Product]**-växeln till `Yes`.
 
@@ -140,7 +140,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
    - **Metod 2:** Spara och stäng
 
-     Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ).
+     Välj _[!UICONTROL Save]_på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
 
 ## Saker att komma ihåg
 
@@ -149,3 +149,5 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 - Enkel produktkonfiguration åsidosätter konfigurerbara produktkonfigurationer för en viss produkt.
 
 - En enkel produkt kan ha anpassade alternativ med olika typer av indata, vilket gör det möjligt att sälja många produktvariationer från en enda SKU.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

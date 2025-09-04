@@ -3,7 +3,7 @@ title: Markeringstaggar
 description: Lär dig mer om taggar som innehåller kodfragment som refererar till ett objekt i din butik.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Markeringstaggar
 
-En märkordstagg är ett direktiv som innehåller kodfragment med en relativ referens till ett objekt i din butik, t.ex. en variabel, URL, bild eller block. Markeringstaggar kan användas var som helst där redigeraren är tillgänglig och ingår i HTML i mallarna [email](email-templates.md) och [newsletter](../merchandising-promotions/newsletter-template.md) samt andra typer av [innehåll](../content-design/introduction.md#content).
+En märkordstagg är ett direktiv som innehåller kodfragment med en relativ referens till ett objekt i din butik, t.ex. en variabel, URL, bild eller block. Markeringstaggar kan användas var som helst där redigeraren är tillgänglig och ingår i HTML-mallarna [email](email-templates.md) och [newsletter](../merchandising-promotions/newsletter-template.md) samt andra typer av [innehåll](../content-design/introduction.md#content).
 
-Markeringstaggar omges av dubbla klammerparenteser och kan antingen genereras med widgetverktyget eller skrivas direkt i HTML. I stället för att hårdkoda hela sökvägen till en sida kan du använda en tagg som representerar butikens URL. De märkordstaggar som beskrivs i följande exempel är:
+Markeringstaggar omges av dubbla klammerparenteser och kan antingen genereras med widgetverktyget eller skrivas direkt i HTML-innehåll. I stället för att hårdkoda hela sökvägen till en sida kan du använda en tagg som representerar butikens URL. De märkordstaggar som beskrivs i följande exempel är:
 
 {{$include /help/_includes/directives-caution.md}}
 
@@ -38,7 +38,7 @@ URL-taggen för dynamiska medier representerar platsen och filnamnet för en bil
 
 ## Blockera ID
 
-Kodtaggen för block-ID är en av de enklaste att använda och kan användas för att placera ett block direkt på en CMS-sida, eller till och med kapslas i ett annat block. Du kan använda den här tekniken för att ändra ett block för olika erbjudanden eller språk. Kodtaggen Block ID refererar till ett block med hjälp av dess identifierare.
+Kodtaggen för block-ID är en av de enklaste att använda och kan användas för att placera ett block direkt på en CMS-sida, eller kapslas inuti ett annat block. Du kan använda den här tekniken för att ändra ett block för olika erbjudanden eller språk. Kodtaggen Block ID refererar till ett block med hjälp av dess identifierare.
 
 \{\{block id=&#39;block-id&#39;}}
 
@@ -66,11 +66,11 @@ Koden i nästa exempel kan läggas till på en sida eller i ett block för att v
 
 ## Använda taggar i länkar
 
-Du kan använda märkordstaggar med ankarpunktstaggar i HTML och länka direkt till en sida i din butik. Länken kan läggas in i innehållssidor, block eller mallar för e-post och nyhetsbrev. Du kan också använda den här tekniken för att länka en bild till en viss sida.
+Du kan använda märkordstaggar med HTML ankarpunktstaggar och länka direkt till en sida i din butik. Länken kan läggas in i innehållssidor, block eller mallar för e-post och nyhetsbrev. Du kan också använda den här tekniken för att länka en bild till en viss sida.
 
 ### Steg 1. Identifiera mål-URL
 
-Navigera om möjligt till sidan som du vill länka till och kopiera den fullständiga URL:en från webbläsarens adressfält. Den del av URL:en som du behöver kommer efter `.com/`. Annars kopierar du URL-nyckeln från CMS-sidan som du vill använda som länkmål.
+Navigera om möjligt till sidan som du vill länka till och kopiera den fullständiga URL:en från webbläsarens adressfält. Den del av URL:en som du behöver kommer efter `.com/`. I annat fall kopierar du URL-nyckeln från den CMS-sida som du vill använda som länkmål.
 
 #### Hel URL till kategorisida
 
@@ -82,7 +82,7 @@ Navigera om möjligt till sidan som du vill länka till och kopiera den fullstä
 `https://mystore.com/apparel/shoes/womens/nine-west-pump`
 `https://mystore.com/apparel/shoes/womens/nine-west-pump.html`
 
-#### Fullständig URL till CMS-sida
+#### Fullständig URL till CMS
 
 `https://mystore.com/about-us`
 
@@ -127,3 +127,5 @@ Klistra in den färdiga ankartaggen i koden för en CMS-sida, -block, -banderoll
 ### Fullständig länk med markering
 
 \&lt;a href=&quot;\{\{store url=&#39;kläm/skor&#39;}}&quot;>Skådeförsäljning\&lt;/a>
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -3,7 +3,7 @@ title: Element - text
 description: Lär dig mer om innehållstypen Text som används för att lägga till en textbehållare på scenen  [!DNL Page Builder] .
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Element - text
 
-Använd innehållstypen _Text_ för att lägga till en textbehållare med en WYSIWYG-redigerare (&quot;What You See Is What You Get&quot;) i [[!DNL Page Builder] scenen](workspace.md#stage). Du kan dessutom lägga till länkar, bilder, [variabler](../systems/variables-predefined.md) och widgetar i texten från redigeringsverktygsfältet.
+Använd innehållstypen _Text_ om du vill lägga till en textbehållare med en WYSIWYG-redigerare (&quot;What You See Is What You Get&quot;) i [[!DNL Page Builder] scenen](workspace.md#stage). Du kan dessutom lägga till länkar, bilder, [variabler](../systems/variables-predefined.md) och widgetar i texten från redigeringsverktygsfältet.
 
 ![Formaterad text på en banner](./assets/pb-storefont-banner-with-button.png){width="700"}
 
@@ -44,7 +44,7 @@ Du kommer åt textredigeraren direkt från scenen eller från en inställningssi
 
 ## Lägg till text
 
-1. Expandera **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Text]** platshållare till en rad, kolumn eller tabb på scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Elements]** och dra en **[!UICONTROL Text]** platshållare till en rad, kolumn eller tabb på scenen.
 
    ![Dra en textplatshållare till scenen](./assets/pb-elements-text-drag.png){width="600" zoomable="yes"}
 
@@ -78,11 +78,11 @@ Mer information om hur du skapar en länk för ett telefonnummer eller ett e-pos
 
    Med den här inställningen öppnas sidan i samma webbläsarfönster, i stället för en ny flik.
 
-1. Ange `Shop Tees` för **[!UICONTROL Title]**.
+1. Ange **[!UICONTROL Title]** för `Shop Tees`.
 
    Länkattributet `Title` används av vissa webbläsare som verktygstips.
 
-1. Klicka på **[!UICONTROL OK]** om du vill spara länken och återgå till arbetsytan [!DNL Page Builder].
+1. Klicka på [!DNL Page Builder] om du vill spara länken och återgå till arbetsytan **[!UICONTROL OK]**.
 
    ![Länkdetalj](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="500" zoomable="yes"}
 
@@ -114,7 +114,7 @@ Mer information om hur du skapar en länk för ett telefonnummer eller ett e-pos
 
 1. Uppdatera innehållet efter behov.
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
 
    - Om du vill styra placeringen av texten i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
 
@@ -170,3 +170,5 @@ Mer information om hur du skapar en länk för ett telefonnummer eller ett e-pos
      {style="table-layout:auto"}
 
 1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

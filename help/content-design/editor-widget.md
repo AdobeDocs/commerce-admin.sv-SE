@@ -2,8 +2,8 @@
 title: Infoga en widget i redigeraren
 description: Lägg till olika innehållselement på en sida med widgetverktyget i WYSIWYG Editor.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Som standard ärver länkar sin stil från temats formatmall.
 
 1. Öppna en sida, ett block eller ett dynamiskt block i redigeringsläge.
 
-1. Gå till avsnittet _[!UICONTROL Content]_&#x200B;och klicka på ett element som stöder redigeraren.
+1. Gå till avsnittet _[!UICONTROL Content]_och klicka på ett element som stöder redigeraren.
 
 1. Placera markören där du vill att widgeten ska visas och klicka på ikonen _Infoga widget_ .
 
@@ -59,3 +59,5 @@ Som standard ärver länkar sin stil från temats formatmall.
    Om du arbetar med HTML-kod visas en [markup-tagg](../systems/markup-tags.md) för länken överst på sidan, omsluten av dubbla klammerparenteser. Använd vid behov _Klipp ut och Klistra in_ för att placera taggen i koden där du vill att länken ska visas.
 
 1. När dina innehållsredigeringar är klara klickar du på **[!UICONTROL Save]**.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

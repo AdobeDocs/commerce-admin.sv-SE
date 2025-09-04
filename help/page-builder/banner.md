@@ -3,7 +3,7 @@ title: Media - banderoll
 description: Lär dig mer om Banner-innehållstypen som används för att lägga till en illustrerad, interaktiv komponent på  [!DNL Page Builder] scenen.
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2302'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Media - banderoll
 
-Använd innehållstypen _Banner_ för att lägga till en illustrerad, interaktiv komponent som engagerar användarna med ett anrop till åtgärd och knapp på [[!DNL Page Builder] scenen](workspace.md#stage).
+Använd innehållstypen _Banner_ för att lägga till en illustrerad, interaktiv komponent som engagerar användare med en call to action och en knapp på [[!DNL Page Builder] scenen](workspace.md#stage).
 
 >[!NOTE]
 >
@@ -46,11 +46,11 @@ Banderollverktygslådan visas när du hovrar över banderollbehållaren.
 
 ## Lägg till en banderoll
 
-1. Expandera **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Banner]** platshållare till scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Media]** och dra en **[!UICONTROL Banner]** platshållare till scenen.
 
    ![Dra en bannerinnehållstyp till scenen](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   Knapparna _[!UICONTROL Upload Image]_&#x200B;och&#x200B;_[!UICONTROL Select from Gallery]_ inkluderas så att du snabbt kan ändra banderollinnehållet direkt från scenen. Du kan också ändra innehållet på sidan _[!UICONTROL Edit Banner]_.
+   Knapparna _[!UICONTROL Upload Image]_och_[!UICONTROL Select from Gallery]_ inkluderas så att du snabbt kan ändra banderollinnehållet direkt från scenen. Du kan också ändra innehållet på sidan _[!UICONTROL Edit Banner]_.
 
 1. Klicka på banderollplatshållaren för att visa [textredigeraren](../content-design/editor.md) och ange innehåll för banderollen.
 
@@ -183,7 +183,7 @@ Om du anger _bakgrundstypen_ till `Image` använder du följande inställningar 
 
 ### Inställningar för videotyp
 
-Om du ställer in _[!UICONTROL Background Type]_&#x200B;på `Video` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
+Om du ställer in _[!UICONTROL Background Type]_på `Video` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
 
 - **[!UICONTROL Video URL]** - Ange en giltig video-URL. Giltiga video-URL:er kan vara länkar till:
 
@@ -223,7 +223,7 @@ Du kan ändra banderollinnehållet direkt på scenen eller när du ändrar inst�
 
 1. Håll pekaren över banderollbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="25"} ).
 
-1. Bläddra ned till avsnittet _[!UICONTROL Content]_&#x200B;och använd **[!UICONTROL Message Text]**-redigeraren för att ange och formatera banderolltext.
+1. Bläddra ned till avsnittet _[!UICONTROL Content]_och använd **[!UICONTROL Message Text]**-redigeraren för att ange och formatera banderolltext.
 
    Du kan också infoga element, till exempel textlänkar, bilder och widgetar.
 
@@ -240,7 +240,7 @@ Du kan ändra banderollinnehållet direkt på scenen eller när du ändrar inst�
 
    >[!NOTE]
    >
-   >Från och med version 2.4.1 stöder [!DNL Page Builder] inte längre länkning av banderollen och länkar i den kapslade texten på grund av problem med visningen på butiken. Om du använder en länk i _[!UICONTROL Message Text]_&#x200B;kan du inte konfigurera alternativet&#x200B;_[!UICONTROL Link]_. Om du föredrar att använda en enda länk för hela banderollen kan du ta bort alla länkar från texten.<br/>
+   >Från och med version 2.4.1 stöder [!DNL Page Builder] inte längre länkning av banderollen och länkar i den kapslade texten på grund av problem med visningen på butiken. Om du använder en länk i _[!UICONTROL Message Text]_kan du inte konfigurera alternativet_[!UICONTROL Link]_. Om du föredrar att använda en enda länk för hela banderollen kan du ta bort alla länkar från texten.<br/>
    >
    >![Länkkonfigurationen är blockerad](./assets/pb-nested-link-blocked.png){width="200"}
 
@@ -369,3 +369,5 @@ Texten för de här inställningarna visas för sökmotorer och förbättrar ind
    | [!UICONTROL Padding] | Mängden tomt utrymme som används på behållarens inre kant på alla sidor. |
 
    {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

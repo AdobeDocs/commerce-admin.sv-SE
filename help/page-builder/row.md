@@ -3,7 +3,7 @@ title: Layout - rad
 description: Lär dig mer om innehållstypen Rad som används för att lägga till en rad på scenen  [!DNL Page Builder] .
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Verktygslådan för raden visas när du hovrar över radbehållaren. Verktygslå
 
 ## Lägga till en rad
 
-1. Dra en ny **[!UICONTROL Row]** till scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_, precis nedanför den första raden.
+1. Dra en ny [!DNL Page Builder] till scenen på panelen _[!UICONTROL Layout]_under **[!UICONTROL Row]**, precis nedanför den första raden.
 
 1. Om du vill formatera raden för du muspekaren över radbehållaren för att visa verktygslådan och väljer ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -114,7 +114,7 @@ En bakgrundstyp kan vara en bild eller en video. [!DNL Page Builder] är som sta
 
 ### Inställningar för bildtyp
 
-Om du ställer in _[!UICONTROL Background Type]_&#x200B;på `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
+Om du ställer in _[!UICONTROL Background Type]_på `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
 
 ![Bakgrundsbild](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -258,3 +258,5 @@ Använd de här alternativen om du vill styra hastigheten för en rullad bakgrun
   {style="table-layout:auto"}
 
   ![Marginaler och utfyllnad](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,8 +3,8 @@ title: Mediegalleriets resurshantering
 description: Lär dig hur du hanterar överförda mediefiler och mediefiler som du hämtar via en Adobe Stock-integrering.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Det nya [Mediegalleriet](media-gallery.md) innehåller verktyg för att hantera 
 
 ## Överföra en resurs
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på **[!UICONTROL Upload Image]**.
 
@@ -27,7 +27,7 @@ Det nya [Mediegalleriet](media-gallery.md) innehåller verktyg för att hantera 
 
 ## Visa tillgångsinformation
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på de tre punkterna under resursen (![Ikonen Detaljer](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och klicka sedan på **[!UICONTROL View Details]**.
 
@@ -50,7 +50,7 @@ Det nya [Mediegalleriet](media-gallery.md) innehåller verktyg för att hantera 
 
 ## Redigera en resurs
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på de tre punkterna under resursen (![Ikonen Resurs-menyn](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och klicka sedan på **[!UICONTROL Edit]**.
 
@@ -78,7 +78,7 @@ Assets kan användas i stor utsträckning i hela administratören, till exempel 
 
 ## Ta bort resurser
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på **[!UICONTROL Delete Images...]** och markera kryssrutan för varje resurs som du vill ta bort.
 
@@ -88,7 +88,7 @@ Assets kan användas i stor utsträckning i hela administratören, till exempel 
 
 ## Sök efter resurser
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Använd indata från **[!UICONTROL Search by keywords]** för att utföra bildsökning med nyckelord/taggar.
 
@@ -106,7 +106,7 @@ Assets kan användas i stor utsträckning i hela administratören, till exempel 
 >
 >Funktionen _Används i_ kräver att [!UICONTROL Media Gallery Image Optimization] är aktiverad i [konfigurationsinställningarna](media-gallery-image-optimization.md).
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på fliken **[!UICONTROL Filters]**.
 
@@ -134,3 +134,5 @@ Assets kan användas i stor utsträckning i hela administratören, till exempel 
 1. Klicka på fliken **[!UICONTROL Filters]** och markera kryssrutan **[!UICONTROL Show duplicates]**.
 
 1. Klicka på **[!UICONTROL Apply Filters]** om du vill se resultatet.
+
+<!-- Last updated from includes: 2024-01-30 15:43:39 -->

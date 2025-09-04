@@ -3,7 +3,7 @@ title: Lägg till innehåll - dynamiskt block
 description: Lär dig mer om innehållstypen för dynamiskt block, som används för att lägga till ett återanvändbart dynamiskt block på  [!DNL Page Builder] scenen.
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Använd innehållstypen för dynamiskt block för att lägga till ett befintligt
 
 1. Navigera till arbetsytan [!DNL Page Builder] på målsidan, blocket, produkten eller kategorin.
 
-1. Expandera **[!UICONTROL Add Content]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Dynamic Block]** platshållare till scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Add Content]** och dra en **[!UICONTROL Dynamic Block]** platshållare till scenen.
 
    ![Dra en platshållare för dynamiska block till scenen](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
@@ -45,7 +45,7 @@ Använd innehållstypen för dynamiskt block för att lägga till ett befintligt
 
    ![Verktygslådan Dynamiskt block](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Select Dynamic Block]** på sidan _Redigera dynamiskt block_ och använd listan för att markera blocket.
+1. Klicka på _på sidan_ Redigera dynamiskt block **[!UICONTROL Select Dynamic Block]** och använd listan för att markera blocket.
 
    ![Markera ett dynamiskt block](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
@@ -164,3 +164,5 @@ Använd innehållstypen för dynamiskt block för att lägga till ett befintligt
 1. Håll pekaren över den dynamiska blockbehållaren för att visa verktygslådan och välj ikonen _Ta bort_ ( ![Ta bort ikon](./assets/pb-icon-remove.png){width="20"} ).
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

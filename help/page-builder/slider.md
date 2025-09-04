@@ -3,7 +3,7 @@ title: Media - Skjutreglage
 description: Lär dig mer om Slider-innehållstypen som används för att lägga till ett bildspel med bilder på  [!DNL Page Builder] scenen.
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '3810'
 ht-degree: 0%
@@ -56,7 +56,7 @@ När du arbetar med Slider-innehållstypen lägger du till och redigerar enskild
 
 1. Öppna sidan, blocket eller det dynamiska blocket där du vill placera skjutreglaget och expandera avsnittet **[!UICONTROL Content]**.
 
-1. Expandera **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Slider]** platshållare till en rad, kolumn eller tabb på scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Media]** och dra en **[!UICONTROL Slider]** platshållare till en rad, kolumn eller tabb på scenen.
 
    I följande exempel är radens bakgrundsfärg gul (`#fffd16`).
 
@@ -136,7 +136,7 @@ Du kan lägga till alla [widgettyper](../content-design/widgets.md#widget-types)
 
 1. Öppna sidan, blocket eller det dynamiska blocket där du vill placera skjutreglaget och expandera avsnittet **[!UICONTROL Content]**.
 
-1. Expandera **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Slider]** platshållare till en rad, kolumn eller tabb på scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Media]** och dra en **[!UICONTROL Slider]** platshållare till en rad, kolumn eller tabb på scenen.
 
 1. Klicka i skjutreglagebehållaren för att visa verktygsfältet [textredigerare](../content-design/editor.md) och klicka på ikonen _Infoga widget_ ( ![ikonen Infoga widget](./assets/editor-btn-insert-widget.png){width="20"} ).
 
@@ -256,7 +256,7 @@ En bakgrundstyp kan vara en bild eller en video. [!DNL Page Builder] är som sta
 
 ### Inställningar för bildtyp
 
-Om du ställer in _[!UICONTROL Background Type]_&#x200B;på `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
+Om du ställer in _[!UICONTROL Background Type]_på `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
 
 ![Banner med bakgrundsbild](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ Du kan ändra bildinnehållet direkt på scenen eller när du ändrar inställni
 
 1. Klicka på navigeringspunkten längst ned i skjutreglaget för att visa verktygslådan för den enskilda bildrutan och välj ikonen _Inställningar_ ( ![Inställningsikon](./assets/pb-icon-settings.png){width="20"} ).
 
-1. I avsnittet _[!UICONTROL Content]_&#x200B;anger du den **[!UICONTROL Message Text]**&#x200B;som du vill ska visas med bildrutan.
+1. I avsnittet _[!UICONTROL Content]_anger du den **[!UICONTROL Message Text]**som du vill ska visas med bildrutan.
 
-1. Bläddra ned till avsnittet _[!UICONTROL Content]_&#x200B;och använd **[!UICONTROL Message Text]**-redigeraren för att ange och formatera banderolltext.
+1. Bläddra ned till avsnittet _[!UICONTROL Content]_och använd **[!UICONTROL Message Text]**-redigeraren för att ange och formatera banderolltext.
 
    Du kan också infoga element, till exempel textlänkar, bilder och widgetar.
 
@@ -503,7 +503,7 @@ Texten för de här inställningarna visas för sökmotorer och förbättrar ind
 
 Om du vill ha en rubrik ovanför skjutreglaget lägger du bara till en [textinnehållstyp] ovanför skjutreglaget. Formatera sedan texten efter behov.
 
-1. Expandera **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra en **Text** -platshållare till en rad, kolumn eller tabb som angetts på scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Elements]** och dra en **Text** -platshållare till en rad, kolumn eller tabb som angetts på scenen.
 
    När du drar markerar en röd stödlinje insättningspunkten ovanför skjutreglaget.
 
@@ -621,3 +621,5 @@ Om du vill ha en rubrik ovanför skjutreglaget lägger du bara till en [textinne
    När du förhandsgranskar skjutreglaget ändrar du storlek på fönstret så att du kan se hur det ser ut på en mobil enhet.
 
    ![Förhandsgranskning av reglage - mobilvy](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

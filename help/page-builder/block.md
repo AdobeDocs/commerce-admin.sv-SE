@@ -3,7 +3,7 @@ title: Lägg till innehåll - blockera
 description: Lär dig mer om blockinnehållstypen som används för att lägga till ett återanvändbart block på  [!DNL Page Builder] scenen.
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Använd innehållstypen _Block_ för att lägga till ett befintligt, aktivt [blo
 
 1. Navigera till arbetsytan [!DNL Page Builder] på målsidan, blocket, det dynamiska blocket, produkten eller kategorin.
 
-1. Expandera **[!UICONTROL Add Content]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Block]** platshållare till scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Add Content]** och dra en **[!UICONTROL Block]** platshållare till scenen.
 
    ![Dra ett block till scenen](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
@@ -146,3 +146,5 @@ Använd innehållstypen _Block_ för att lägga till ett befintligt, aktivt [blo
 1. Håll pekaren över blockbehållaren för att visa verktygslådan och välj ikonen _Ta bort_ (![Ta bort ikon](./assets/pb-icon-remove.png)).
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

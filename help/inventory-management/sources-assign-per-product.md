@@ -3,7 +3,7 @@ title: Tilldela lagerkällor per produkt
 description: Lär dig hur du tilldelar en lagerkälla till en produkt.
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Innan du ändrar kvantiteter och inställningar måste du tilldela [källor](sou
 
 ## Tilldela källor till en produkt
 
-1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
 1. Öppna en produkt i _redigeringsläget_.
 
@@ -34,7 +34,7 @@ Innan du ändrar kvantiteter och inställningar måste du tilldela [källor](sou
 
 1. Klicka på **[!UICONTROL Assign Sources]** om du vill lägga till en källa.
 
-1. På sidan _[!UICONTROL Assign Sources]_&#x200B;markerar du kryssrutan bredvid varje källa som du vill tilldela produkten.
+1. På sidan _[!UICONTROL Assign Sources]_markerar du kryssrutan bredvid varje källa som du vill tilldela produkten.
 
    ![Produkt - tilldela källor](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
@@ -43,6 +43,8 @@ Innan du ändrar kvantiteter och inställningar måste du tilldela [källor](sou
 1. Spara genom att göra något av följande:
 
    - Klicka på **[!UICONTROL Save]**.
-   - Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_(![menypil](../assets/icon-menu-down-arrow-red.png)).
+   - Välj _[!UICONTROL Save]_på menyn ![ (](../assets/icon-menu-down-arrow-red.png)menypil **[!UICONTROL Save & Close]**).
 
 När du har tilldelat källor uppdaterar du [lagerkvantiteten](quantities-assign-per-product.md) för varje produktkälla.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

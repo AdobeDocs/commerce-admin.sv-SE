@@ -3,7 +3,7 @@ title: Element - knappar
 description: Lär dig mer om innehållstypen Knappar som används för att lägga till en enskild knapp eller en uppsättning knappar på scenen [!DNL Page Builder] .
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -55,7 +55,7 @@ När du arbetar med innehållstypen Knappar lägger du till och redigerar enskil
 
 ## Lägga till en enskild knapp
 
-1. Expandera **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Buttons]** platshållare till en rad, kolumn eller tabb på scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Elements]** och dra en **[!UICONTROL Buttons]** platshållare till en rad, kolumn eller tabb på scenen.
 
    ![Dra en knapp till scenen](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
 
@@ -161,7 +161,7 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
    ![Knappbehållarverktygslådan](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Välj **[!UICONTROL Stacked]** under _[!UICONTROL Appearance]_.
+1. Välj _[!UICONTROL Appearance]_under **[!UICONTROL Stacked]**.
 
 1. Ange **[!UICONTROL All Buttons are same size]** till `Yes`.
 
@@ -300,3 +300,5 @@ Du kan ändra _[!UICONTROL Advanced]_-inställningarna för enskilda knappar och
 
 [advanced-settings]: #change-advanced-settings
 [button-container]: #change-settings-for-a-button-container
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

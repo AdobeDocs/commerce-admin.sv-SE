@@ -3,7 +3,7 @@ title: Elements - avdelare
 description: Lär dig mer om Divider-innehållstypen som används för att lägga till en regel som en visuell brytning mellan innehållsavsnitt på  [!DNL Page Builder] scenen.
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Använd innehållstypen _Delare_ om du vill lägga till en regel som en visuell 
 
 ## Lägga till en avgränsare
 
-1. Expandera **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Divider]** platshållare till en rad, kolumn eller tabb på scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Elements]** och dra en **[!UICONTROL Divider]** platshållare till en rad, kolumn eller tabb på scenen.
 
    Använd den röda stödlinjen som referens när du placerar avgränsaren antingen före eller efter en annan innehållsbehållare på scenen.
 
@@ -73,7 +73,7 @@ Använd innehållstypen _Delare_ om du vill lägga till en regel som en visuell 
 
    ![Anger linjefärg, tjocklek och bredd](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
 
    - Om du vill styra placeringen av avgränsaren i den överordnade behållaren väljer du **[!UICONTROL Alignment]**:
 
@@ -157,3 +157,5 @@ För en formaterad avgränsare med specifika inställningar är det effektivare 
    ![Flyttar den duplicerade delaren till position](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
 [1]: https://en.wikipedia.org/wiki/Web_colors
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->
