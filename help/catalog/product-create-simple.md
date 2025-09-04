@@ -22,7 +22,7 @@ I följande instruktioner visas hur du skapar en enkel produkt med en [produktma
 
 1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
-1. Välj _[!UICONTROL Add Product]_på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}menypil **[!UICONTROL Simple Product]**) i det övre högra hörnet.
+1. Välj _[!UICONTROL Add Product]_&#x200B;på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}menypil **[!UICONTROL Simple Product]**) i det övre högra hörnet.
 
    ![Lägg till enkel produkt](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ Formuläret uppdateras för att återspegla ändringen.
 
 1. Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
-1. Om du vill tilldela _[!UICONTROL Categories]_till produkten klickar du på rutan **[!UICONTROL Select…]**och gör något av följande:
+1. Om du vill tilldela _[!UICONTROL Categories]_&#x200B;till produkten klickar du på rutan **[!UICONTROL Select…]**&#x200B;och gör något av följande:
 
    **Välj en befintlig kategori**:
 
@@ -140,7 +140,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
    - **Metod 2:** Spara och stäng
 
-     Välj _[!UICONTROL Save]_på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
+     Välj _[!UICONTROL Save]_&#x200B;på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
 
 ## Saker att komma ihåg
 

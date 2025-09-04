@@ -35,7 +35,7 @@ Hämtningsbara produkter kan konfigureras så att kunden måste logga in på ett
 
 De hämtningsbara konfigurationsinställningarna avgör standardvärdena och leveransalternativen för hämtningsbara produkter och anger om gästerna kan köpa hämtningar.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -88,7 +88,7 @@ I följande instruktioner visas hur du skapar en hämtningsbar produkt med hjäl
 
 1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
-1. Välj _[!UICONTROL Add Product]_på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}menypil `Downloadable Product` ) i det övre högra hörnet.
+1. Välj _[!UICONTROL Add Product]_&#x200B;på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}menypil `Downloadable Product` ) i det övre högra hörnet.
 
    ![Lägg till hämtningsbar produkt](./assets/product-add-downloadable.png){width="700" zoomable="yes"}
 
@@ -147,7 +147,7 @@ Formuläret uppdateras för att återspegla ändringen.
 
 1. Markera kryssrutan [ om du vill att produkten ska visas i listan ](../content-design/widget-new-products-list.md)med nya produkter **[!UICONTROL Set Product as New]**.
 
-1. Om du vill tilldela _[!UICONTROL Categories]_till produkten klickar du på rutan **[!UICONTROL Select…]**och gör något av följande:
+1. Om du vill tilldela _[!UICONTROL Categories]_&#x200B;till produkten klickar du på rutan **[!UICONTROL Select…]**&#x200B;och gör något av följande:
 
    **Välj en befintlig kategori**:
 
@@ -178,15 +178,15 @@ Formuläret uppdateras för att återspegla ändringen.
 
 ### Steg 5: Fyll i den hämtningsbara informationen
 
-Bläddra nedåt, expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Downloadable Information]_och markera kryssrutan **[!UICONTROL Is this downloadable product?]**.
+Bläddra nedåt, expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Downloadable Information]_&#x200B;och markera kryssrutan **[!UICONTROL Is this downloadable product?]**.
 
-När alternativet är aktiverat har avsnittet _[!UICONTROL Downloadable Information]_två delar. I den första delen beskrivs varje nedladdningslänk och i den andra delen beskrivs varje exempelfil. Standardvärdet för många av dessa alternativ kan anges i [konfigurationen](#configure-the-download-options).
+När alternativet är aktiverat har avsnittet _[!UICONTROL Downloadable Information]_&#x200B;två delar. I den första delen beskrivs varje nedladdningslänk och i den andra delen beskrivs varje exempelfil. Standardvärdet för många av dessa alternativ kan anges i [konfigurationen](#configure-the-download-options).
 
 ![Hämtningsbar information](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Fyll i länkarna
 
-1. I avsnittet _[!UICONTROL Links]_anger du den **[!UICONTROL Title]**som du vill använda som rubrik för hämtningslänkarna.
+1. I avsnittet _[!UICONTROL Links]_&#x200B;anger du den **[!UICONTROL Title]**&#x200B;som du vill använda som rubrik för hämtningslänkarna.
 
 1. Markera kryssrutan **[!UICONTROL Links can be purchased separately]** om tillämpligt.
 
@@ -222,7 +222,7 @@ När alternativet är aktiverat har avsnittet _[!UICONTROL Downloadable Informat
 
 #### Fyll i exemplen
 
-1. I avsnittet _[!UICONTROL Samples]_anger du den **[!UICONTROL Title]**som du vill använda som rubrik för exemplen.
+1. I avsnittet _[!UICONTROL Samples]_&#x200B;anger du den **[!UICONTROL Title]**&#x200B;som du vill använda som rubrik för exemplen.
 
 1. Klicka på **[!UICONTROL Add Link]** om du vill slutföra informationen för varje exempel.
 
@@ -270,11 +270,11 @@ Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable
 
 **Metod 2:** Spara och stäng
 
-Välj _[!UICONTROL Save]_på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
+Välj _[!UICONTROL Save]_&#x200B;på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
 
 ## StoreFront
 
-På kontrollpanelen för kundkonton länkar sidan _[!UICONTROL My Downloadable Products]_till varje order med hämtningsbara produkter. Nedladdningarna blir tillgängliga från kundens konto när beställningen är klar.
+På kontrollpanelen för kundkonton länkar sidan _[!UICONTROL My Downloadable Products]_&#x200B;till varje order med hämtningsbara produkter. Nedladdningarna blir tillgängliga från kundens konto när beställningen är klar.
 
 ![Mina hämtningsbara produkter](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ I följande tabell beskrivs värdena för _Mina hämtningsbara produkter_:
 | [!UICONTROL Status] | Beställningsstatus. |
 | [!UICONTROL Remaining Downloads] | Antal tillgängliga hämtningar av den hämtade produkten. |
 
-_**Så här hämtar du en produktfil från kontouppsättningen**_
+_&#x200B;**Så här hämtar du en produktfil från kontouppsättningen**&#x200B;_
 
 1. I kontouppsättningen väljer kunden **[!UICONTROL My Downloadable Products]**.
 

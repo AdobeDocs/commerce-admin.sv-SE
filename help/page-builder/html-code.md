@@ -56,7 +56,7 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
 
 ### Steg 2: Lägg till koden på sidan
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**i din butik.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_&#x200B;Admin **[!UICONTROL Pages]**&#x200B;i din butik.
 
 1. Hitta sidan där teckensnittet ska vara tillgängligt och öppna den i redigeringsläge.
 
@@ -84,7 +84,7 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
 
 ### Steg 3: Förhandsgranska sidan
 
-1. I avsnittet _[!UICONTROL Currently Active]_anger du **[!UICONTROL Enable Page]**till `Yes`.
+1. I avsnittet _[!UICONTROL Currently Active]_&#x200B;anger du **[!UICONTROL Enable Page]**&#x200B;till `Yes`.
 
    ![Aktivera sidan](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
    | Infoga bild... | Klicka för att infoga en överförd bild eller en bild från galleriet vid markörens position i textrutan HTML. |
    | Infoga variabel... | Klicka för att infoga en variabel vid markörens position i textrutan HTML. |
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
 
    - Om du vill styra placeringen av koden i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
 

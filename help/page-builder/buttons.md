@@ -161,7 +161,7 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
    ![Knappbehållarverktygslådan](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Välj _[!UICONTROL Appearance]_under **[!UICONTROL Stacked]**.
+1. Välj _[!UICONTROL Appearance]_&#x200B;under **[!UICONTROL Stacked]**.
 
 1. Ange **[!UICONTROL All Buttons are same size]** till `Yes`.
 

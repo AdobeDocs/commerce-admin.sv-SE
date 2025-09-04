@@ -114,7 +114,7 @@ Mer information om hur du skapar en länk för ett telefonnummer eller ett e-pos
 
 1. Uppdatera innehållet efter behov.
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
 
    - Om du vill styra placeringen av texten i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
 

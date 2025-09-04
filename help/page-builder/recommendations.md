@@ -45,11 +45,11 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
 1. Öppna sidan, blocket eller det dynamiska blocket i redigeringsläge.
 
-1. Expandera avsnittet _[!UICONTROL Content]_och klicka på&#x200B;**[!UICONTROL Edit with Page Builder]**eller inuti förhandsvisningsområdet för innehåll för att öppna arbetsytan för [!DNL Page Builder].
+1. Expandera avsnittet _[!UICONTROL Content]_&#x200B;och klicka på&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;eller inuti förhandsvisningsområdet för innehåll för att öppna arbetsytan för [!DNL Page Builder].
 
-1. Dra en [!DNL Page Builder]-platshållare till scenen på panelen _[!UICONTROL Layout]_under **[!UICONTROL Row]**.
+1. Dra en [!DNL Page Builder]-platshållare till scenen på panelen _[!UICONTROL Layout]_&#x200B;under **[!UICONTROL Row]**.
 
-1. Dra en [!DNL Page Builder]-platshållare till raden på panelen _[!UICONTROL Add Content]_under **[!UICONTROL Product Recommendation]**.
+1. Dra en [!DNL Page Builder]-platshållare till raden på panelen _[!UICONTROL Add Content]_&#x200B;under **[!UICONTROL Product Recommendation]**.
 
    ![Lägger till produktrekommendationens innehållstyp](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -60,7 +60,7 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
    ![Redigera produktrekommendation](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. Klicka på _[!UICONTROL Selection]_i avsnittet **[!UICONTROL Select]**.
+1. Klicka på _[!UICONTROL Selection]_&#x200B;i avsnittet **[!UICONTROL Select]**.
 
 1. I listan med aktiva produktrekommendationer letar du reda på raden med rekommendationsenheten som du vill lägga till och klickar på **[!UICONTROL Select]** i den sista kolumnen.
 
@@ -68,7 +68,7 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
 1. Klicka på **[!UICONTROL Add Selected]** i det övre högra hörnet.
 
-   Namnet på den valda produktrekommendationen visas i avsnittet _[!UICONTROL Selection]_på sidan_[!UICONTROL Edit Product Recommendation]_.
+   Namnet på den valda produktrekommendationen visas i avsnittet _[!UICONTROL Selection]_&#x200B;på sidan&#x200B;_[!UICONTROL Edit Product Recommendation]_.
 
 1. Gör de ändringar som krävs för de [avancerade inställningarna](#advanced-settings).
 

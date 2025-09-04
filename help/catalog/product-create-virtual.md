@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Virtuella produkter, eller digitala varor, representerar icke-materiella tillgångar som medlemskap, tjänster, garantier eller prenumerationer samt digitala nedladdningar av böcker, musik, videor eller andra produkter. Virtuella produkter kan säljas individuellt eller inkluderas som en del av produkttyperna [Grupperad produkt](product-create-grouped.md), [Konfigurerbar produkt](product-create-configurable.md) eller [Paketprodukt](product-create-bundle.md).
 
-Förutom att fältet _[!UICONTROL Weight]_saknas är processen att skapa en virtuell produkt och en enkel produkt densamma. I följande instruktioner visas hur du skapar en virtuell produkt med hjälp av en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
+Förutom att fältet _[!UICONTROL Weight]_&#x200B;saknas är processen att skapa en virtuell produkt och en enkel produkt densamma. I följande instruktioner visas hur du skapar en virtuell produkt med hjälp av en [produktmall](attribute-sets.md), obligatoriska fält och grundläggande inställningar. När du är klar med grunderna kan du slutföra de andra produktinställningarna efter behov.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Förutom att fältet _[!UICONTROL Weight]_saknas är processen att skapa en virt
 
 1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
-1. Välj _[!UICONTROL Add Product]_på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}menypil **[!UICONTROL Virtual Product]**) i det övre högra hörnet.
+1. Välj _[!UICONTROL Add Product]_&#x200B;på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}menypil **[!UICONTROL Virtual Product]**) i det övre högra hörnet.
 
    ![Lägg till virtuell produkt](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
@@ -116,7 +116,7 @@ Fyll i informationen i följande avsnitt efter behov:
 
 >[!NOTE]
 >
->Alternativet _[!UICONTROL Is this downloadable product?]_är inaktiverat som standard. Om du aktiverar den här funktionen för en virtuell produkt blir produkten [nedladdningsbar](product-create-downloadable.md#downloadable-product).
+>Alternativet _[!UICONTROL Is this downloadable product?]_&#x200B;är inaktiverat som standard. Om du aktiverar den här funktionen för en virtuell produkt blir produkten [nedladdningsbar](product-create-downloadable.md#downloadable-product).
 
 ## Steg 6: Publicera produkten
 
@@ -136,7 +136,7 @@ Fyll i informationen i följande avsnitt efter behov:
 
    - **Metod 2:** Spara och stäng
 
-     Välj _[!UICONTROL Save]_på menyn ![ (](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
+     Välj _[!UICONTROL Save]_&#x200B;på menyn ![ (](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
 
 ## Saker att komma ihåg
 

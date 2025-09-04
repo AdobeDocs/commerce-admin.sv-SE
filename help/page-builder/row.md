@@ -38,7 +38,7 @@ Verktygslådan för raden visas när du hovrar över radbehållaren. Verktygslå
 
 ## Lägga till en rad
 
-1. Dra en ny [!DNL Page Builder] till scenen på panelen _[!UICONTROL Layout]_under **[!UICONTROL Row]**, precis nedanför den första raden.
+1. Dra en ny [!DNL Page Builder] till scenen på panelen _[!UICONTROL Layout]_&#x200B;under **[!UICONTROL Row]**, precis nedanför den första raden.
 
 1. Om du vill formatera raden för du muspekaren över radbehållaren för att visa verktygslådan och väljer ikonen _Inställningar_ ( ![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -114,7 +114,7 @@ En bakgrundstyp kan vara en bild eller en video. [!DNL Page Builder] är som sta
 
 ### Inställningar för bildtyp
 
-Om du ställer in _[!UICONTROL Background Type]_på `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
+Om du ställer in _[!UICONTROL Background Type]_&#x200B;på `Image` använder du följande inställningar för att definiera hur bakgrundsbilden ska visas.
 
 ![Bakgrundsbild](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

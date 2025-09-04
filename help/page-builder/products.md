@@ -53,7 +53,7 @@ Följande instruktioner visar hur du lägger till en produktlista i ett block. D
 
 ## Skapa ett produktlistblock
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Blocks]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_&#x200B;Admin **[!UICONTROL Blocks]**.
 
 1. Klicka på **[!UICONTROL Add New Block]**.
 
