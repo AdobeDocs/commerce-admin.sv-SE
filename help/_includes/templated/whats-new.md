@@ -23,7 +23,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Tydligare standardmetoder för <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">att skapa kupongkoder</a> och gav vägledning om hur du använder ett tillägg för att importera en lista med anpassade kupongkoder.</p>
+      <td><p>Tydligare standardmetoder för <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">att skapa kupongkoder</a> och gav vägledning om hur du använder ett tillägg för att importera en lista med anpassade kupongkoder.</p>
 </td>
       <td>
         Teknisk
@@ -45,7 +45,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Lade till säkerhetsuppdatering från augusti 2025 för B2B <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">versionsinformation</a>.</p>
+      <td><p>Lade till säkerhetsuppdatering från augusti 2025 för B2B <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/b2b/release-notes">versionsinformation</a>.</p>
 </td>
       <td>
         Viktig uppdatering
@@ -67,7 +67,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Tydligare förväntat beteende för <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">prisfiltrering</a> för konfigurerbara produkter i lagerstyrd navigering.</p>
+      <td><p>Tydligare förväntat beteende för <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">prisfiltrering</a> för konfigurerbara produkter i lagerstyrd navigering.</p>
 </td>
       <td>
         Teknisk
@@ -75,7 +75,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">bekräfta</a></td>
     </tr>
     <tr>
-      <td><p>Förtydliga hur du <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">tar bort alla artiklar</a> från en kunds kundvagn i assisterat shoppingläge.</p>
+      <td><p>Förtydliga hur du <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">tar bort alla artiklar</a> från en kunds kundvagn i assisterat shoppingläge.</p>
 </td>
       <td>
         Viktig uppdatering
@@ -97,7 +97,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Systemkraven för <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA-tillägget</a> har uppdaterats.</p>
+      <td><p>Systemkraven för <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA-tillägget</a> har uppdaterats.</p>
 </td>
       <td>
         Teknisk
@@ -119,7 +119,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Standardläget för <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management">indexeraren för kundstödraster</a> klarades, vilket ändrades i 2.4.8.</p>
+      <td><p>Standardläget för <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/tools/index-management">indexeraren för kundstödraster</a> klarades, vilket ändrades i 2.4.8.</p>
 </td>
       <td>
         Teknisk
