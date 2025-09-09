@@ -5,9 +5,9 @@ breadcrumb-title: Komma igång
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: b45824312b02204f1031b04c215ca42c5298d824
+source-git-commit: 0ea13aa32745f6ba5045c2aeec54926857525836
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -66,10 +66,9 @@ ht-degree: 0%
    + [Produktrapporter](product-reports.md)
    + [Privata försäljningsrapporter](private-sales-reports.md)
    + [Commerce Intelligence](business-intelligence.md)
-   + [New Relic-rapportering](new-relic-reporting.md)
 + Resurs {#resources}
    + [Ekosystem](resources.md)
    + [Tillägg](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

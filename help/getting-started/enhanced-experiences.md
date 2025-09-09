@@ -3,9 +3,9 @@ title: Förbättrade butiksupplevelser
 description: Lär dig mer om de många verktygen som hjälper er att maximera kundengagemang, kundlojalitet och lojalitet.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Förutom de standardelement som gör det möjligt för kunderna att handla i er 
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=sv-SE)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -32,7 +32,7 @@ Adobe Commerce och Magento Open Source är fullmatade med funktioner som gör de
 
 - **Platskarta** - Länka till en [platskarta](../merchandising-promotions/sitemap-xml.md) från butikens sidfot för att ge kunderna en översikt över katalogstrukturen, med länkar till alla kategorier och produkter i butiken. Enkel integrering med Google Sitemap.
 
-- **Analys** - Förutom att övervaka din webbplats från Admin Dashboard kan du integrera analysverktyg från tredje part som [Google Analytics](../merchandising-promotions/google-analytics.md) och [New Relic Reporting](new-relic-reporting.md) för detaljerad statistik om trafik och försäljning.
+- **Analys** - Förutom att övervaka din webbplats från Admin Dashboard kan du integrera analysverktyg från tredje part som [Google Analytics](../merchandising-promotions/google-analytics.md) för detaljerad statistik om trafik och försäljning.
 
 ## Engagera kunderna
 
@@ -52,7 +52,7 @@ Adobe Commerce och Magento Open Source gör det enkelt att skapa en skräddarsyd
 
 ## Differentiera och personalisera
 
-Adobe Commerce och Magento Open Source erbjuder en mängd verktyg för att skapa personaliserade upplevelser över flera digitala kontaktytor, baserat på kundaktivitet och kundprofil.
+Adobe Commerce och Magento Open Source erbjuder en mängd verktyg för att skapa personaliserade upplevelser över flera digitala kontaktytor, baserat på kundaktivitet och profil.
 
 - **Anpassade kataloger och prislistor** - Erbjud ett välstrukturerat produkturval med anpassade [priser för specifika företag](../b2b/catalog-shared-pricing-structure.md), samtidigt som du fortsätter att erbjuda standardkatalogen med regelbundna priser för allmänna kunder.
 
@@ -84,11 +84,11 @@ Adobe Commerce och Magento Open Source har en rad verktyg som hjälper er att sk
 
 ## Optimera affärsprocesser och lönsamhet
 
-- **[!DNL Advanced Reporting]** - Få värdefulla insikter i korthet med dynamiska produkt-, order- och kundrapporter som drivs av [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=sv-SE).
+- **[!DNL Advanced Reporting]** - Få värdefulla insikter i korthet med dynamiska produkt-, order- och kundrapporter från [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en).
 
 - **Instrumentpanelsögonblicksbilder** - Att veta vad som är av intresse på din webbplats är avgörande för att maximera din marknadsföringsbudget. Använd den här [informationen på din instrumentpanel](admin-dashboard.md) för att avgöra vad du ska sälja över- och merförsäljning till lojala kunder, eller vilka produkter som ska säljas.
 
-- **Skatter** - Hantera dina [skatter](../stores-purchase/taxes.md) med inbyggda verktyg eller lägg till tillägg från tredje part från [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target=&quot;_blank&quot;}.
+- **Skatter** - Hantera dina [skatter](../stores-purchase/taxes.md) med inbyggda verktyg eller lägg till tillägg från tredje part från [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"}.
 
 - **Automatiska affärsregler** - Ställ in [automatiserade affärsregler](../merchandising-promotions/price-rules-cart.md) som definierar produktrelationer och använder prisregler som utlöser rabatter baserat på olika villkor.
 
@@ -96,7 +96,7 @@ Adobe Commerce och Magento Open Source har en rad verktyg som hjälper er att sk
 
 ## Inköpstillfälle
 
-Gör det enkelt för kunderna att slutföra sina inköp. Adobe Commerce och Magento Open Source har utformats för att hjälpa er att effektivisera era kassaprocessen och öka konverteringsgraden.
+Gör det enkelt för kunderna att slutföra sina inköp. Adobe Commerce och Magento Open Source har utformats för att hjälpa er att effektivisera er process-checkout och öka konverteringsgraden.
 
 **Direktköp** - Förenkla beställningen och öka konverteringsgraden genom att tillåta dina kunder att [gå igenom kassan](../stores-purchase/checkout-instant-purchase.md) snabbare genom att använda lagrad betalnings- och leveransinformation.
 
