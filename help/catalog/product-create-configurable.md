@@ -3,7 +3,7 @@ title: Konfigurerbar produkt
 description: Lär dig hur du skapar en konfigurerbar produkt som ger kunderna olika valmöjligheter.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
+source-git-commit: ee7928b50ddd07e757c71ce5bed84619f1437410
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,15 +33,14 @@ Egenskaperna för varje attribut som används för en konfigurerbar produktvaria
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | Indatatypen för alla attribut som används för en produktvariation måste vara något av följande: `Dropdown`, `Visual Swatch` eller `Text Swatch`. |
 | [!UICONTROL Values Required] | `Yes` |
-| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
 ### Steg 1: Välj produkttyp
 
-1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
-1. Välj **[!UICONTROL Configurable Product]** på menyn _[!UICONTROL Add Product]_( ![menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ) i det övre högra hörnet.
+1. Välj _[!UICONTROL Add Product]_på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}menypil **[!UICONTROL Configurable Product]**) i det övre högra hörnet.
 
    ![Lägg till konfigurerbar produkt](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -103,7 +102,7 @@ Egenskaperna för varje attribut som används för en konfigurerbar produktvaria
 
 1. Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
-1. Markera kryssrutan **[!UICONTROL Set Product as New]** om du vill visa produkten i listan över [nya produkter](../content-design/widget-new-products-list.md).
+1. Markera kryssrutan [ om du vill visa produkten i listan över ](../content-design/widget-new-products-list.md)nya produkter **[!UICONTROL Set Product as New]**.
 
 1. Om du vill tilldela kategorier till produkten klickar du på rutan **[!UICONTROL Select…]** och gör något av följande:
 
@@ -139,7 +138,7 @@ Förloppsindikatorn högst upp på sidan visar var du befinner dig i processen o
 
 ### Steg 1: Välj attribut
 
-1. Bläddra nedåt till avsnittet _[!UICONTROL Configurations]_&#x200B;och klicka på&#x200B;**[!UICONTROL Create Configurations]**&#x200B;om du fortsätter uppifrån.
+1. Bläddra nedåt till avsnittet _[!UICONTROL Configurations]_och klicka på&#x200B;**[!UICONTROL Create Configurations]**om du fortsätter uppifrån.
 
    ![Konfigurationer](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -319,13 +318,13 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
    - **Metod 2:** Spara och stäng
 
-     Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ).
+     Välj _[!UICONTROL Save]_på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
 
 ### Steg 8: Konfigurera kundvagnsminiatyrerna
 
 Om du har en annan bild för varje variant kan du ställa in konfigurationen så att rätt bild används för kundvagnsminiatyrbilden.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]** under.
 
@@ -367,7 +366,7 @@ _Stock-status_ för den konfigurerbara produkten styrs delvis av Stock-statusen 
 
 - Om det konfigurerbara värdet för produktStock-status är **_manuellt_** inställt på `Out of Stock` av en Admin-användare, filimport eller API-anrop förblir det `Out of Stock` på både **_Admin_** och **_Storefront_** tills det **_ändras manuellt_** till `In Stock` av en Admin-användare, fil-import eller API-anrop. Det **_kan inte_** kontrolleras av den underordnade produktens arkivstatus.
 
-- Om det konfigurerbara värdet för produktStock-status är **_manuellt_** inställt på `In Stock` av en Admin-användare, en filimport eller ett API-anrop, styrs dess lagerstatus **_automatiskt_** endast av den underordnade produktens Storefront **_6&rbrace; -status._**
+- Om det konfigurerbara värdet för produktStock-status är **_manuellt_** inställt på `In Stock` av en Admin-användare, en filimport eller ett API-anrop, styrs dess lagerstatus **_automatiskt_** endast av den underordnade produktens Storefront **_6} -status._**
 
 - Om det konfigurerbara värdet för produktStock-status är **_manuellt_** inställt på `In Stock` av en administratörsanvändare, filimport eller API-anrop förblir det `In Stock` i **_Admin_** tills det **_ändras manuellt_** till `Out of Stock` av en administratörsanvändare, filimport eller API-anrop. Det **_kan inte_** kontrolleras av den underordnade produktens arkivstatus.
 
