@@ -2,10 +2,10 @@
 title: Widgetar
 description: Lär dig mer om widgetar, som innehåller ett kodfragment som gör det möjligt att visa ett brett innehållsområde och placera det vid särskilda blockreferenser i din butik.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: a5e42a412d09a8e6306ef6eb72e65675fc244091
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ När du [skapar en widget](widget-create.md) måste du ange typen. Den här type
 | [!UICONTROL Order by SKU] | Order by SKU kan visas i butiken som en bekvämlighet för alla kunder, eller göras tillgängliga endast för specifika kundgrupper. Köpare kan antingen ange SKU- och kvantitetsinformation direkt i Order by SKU-blocket eller överföra en CSV-fil från sitt kundkonto. |
 | [!UICONTROL Orders and Returns] | Använd det här alternativet för att ge gästerna möjlighet att kontrollera status för sina order och skicka in begäranden om att returnera varor. Widgeten visas bara för gäster och kunder som inte är inloggade på sina konton. |
 | [!UICONTROL Recently Compared Products] | Visar blocket med nyligen jämförda produkter. Du kan ange antalet produkter som ska inkluderas och formatera dem som en lista eller ett produktrutnät. |
-| [!UICONTROL Recently Viewed Products] | Använd det här alternativet om du vill visa blocket med nyligen visade produkter. Du kan ange antalet produkter som ska inkluderas och formatera dem som en lista eller ett produktrutnät. |
+| [!UICONTROL Recently Viewed Products] | Använd det här alternativet om du vill visa blocket med nyligen visade produkter. Du kan ange antalet produkter som ska inkluderas och formatera dem som en lista eller ett produktrutnät. Widgeten kanske inte visar prisuppdateringar i realtid. Köparen måste klicka på en produkt för att se aktuella priser på sin produktsida. |
 | [!UICONTROL Wish List Search] | Använd det här alternativet för att ge en kund möjlighet att söka efter offentligt tillgängliga önskelistor med önskelisteägarens namn eller e-postadress. Butikskunder kan hitta önskelistor som tillhör andra kunder, visa dem och beställa produkter från dem eller lägga till produkterna i sina egna önskelistor. |
 
 {style="table-layout:auto"}
