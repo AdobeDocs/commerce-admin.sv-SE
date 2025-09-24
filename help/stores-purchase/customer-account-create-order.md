@@ -99,7 +99,7 @@ Du kan överföra artiklar till kundvagnen från kundens önskelista eller från
 
 >[!NOTE]
 >
->Mer information om betalningsmetoder som stöder den här funktionen finns i [Betalningstjänster](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) när tillägget Betalningstjänster installeras och konfigureras.
+>Mer information om betalningsmetoder som stöder den här funktionen finns i [Betalningstjänster](https://experienceleague.adobe.com/sv/docs/commerce/payment-services/guide-overview) när tillägget Betalningstjänster installeras och konfigureras.
 
 ## Steg 3: Skicka beställningen
 

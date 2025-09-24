@@ -169,7 +169,7 @@ Endast försäljningsorder som inte har fakturerats, har statusen `Processing` o
 
 ### Egna orderattribut
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 Med anpassade orderattribut kan du koppla ytterligare information som är specifik för dina affärsbehov till ordern.
 
