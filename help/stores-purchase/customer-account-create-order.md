@@ -3,26 +3,26 @@ title: Skapa en order
 description: Lär dig hur du skapar en beställning för en kund i Commerce Admin.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 0e2d79f6b716f5d59aa9cd60b096608a6b2dbb98
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
 
 # Skapa en order
 
-För registrerade kunder som behöver hjälp kan du skapa en hel order direkt från administratören. Formuläret _[!UICONTROL Create New Order]_&#x200B;innehåller all information som behövs för den normala utcheckningsprocessen, med aktivitetssammanfattningar från kundens kontouppsättning.
+För registrerade kunder som behöver hjälp kan du skapa en hel order direkt från administratören. Formuläret _[!UICONTROL Create New Order]_innehåller all information som behövs för den normala utcheckningsprocessen, med aktivitetssammanfattningar från kundens kontouppsättning.
 
 ![Skapa en order för en kund](./assets/create-new-order.png){width="700" zoomable="yes"}
 
 ## Steg 1: Skapa en order
 
-1. Klicka på **[!UICONTROL Customers]** på sidofältet _Admin_.
+1. Klicka på _på sidofältet_ Admin **[!UICONTROL Customers]**.
 
 1. Hitta kunden i rutnätet.
 
-1. Klicka på **[!UICONTROL Edit]** i kolumnen _Åtgärd_.
+1. Klicka på _i kolumnen_&#x200B;Åtgärd **[!UICONTROL Edit]**.
 
 1. Klicka på **[!UICONTROL Create Order]** i arbetsytehuvudet.
 
@@ -95,10 +95,11 @@ Du kan överföra artiklar till kundvagnen från kundens önskelista eller från
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
+   - [!UICONTROL [attribut för anpassad ordning]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->Mer information om betalningsmetoder som stöder den här funktionen finns i [Betalningstjänster](https://experienceleague.adobe.com/sv/docs/commerce/payment-services/guide-overview) när tillägget Betalningstjänster installeras och konfigureras.
+>Mer information om betalningsmetoder som stöder den här funktionen finns i [Betalningstjänster](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) när tillägget Betalningstjänster installeras och konfigureras.
 
 ## Steg 3: Skicka beställningen
 

@@ -3,9 +3,9 @@ title: Beställningsarbetsflöde och -bearbetning
 description: Lär dig mer om orderarbetsflöde, vilken status som gäller i varje steg och hur du flyttar beställningar genom den här processen.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
+source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ När en kund gör en beställning skapas en försäljningsorder som en tillfäll
 
 ## Visa en order
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_Admin **[!UICONTROL Orders]**.
 
 1. Hitta ordningen i rutnätet.
 
-1. Klicka på **[!UICONTROL View]** i kolumnen _[!UICONTROL Action]_.
+1. Klicka på _[!UICONTROL Action]_i kolumnen **[!UICONTROL View]**.
 
 1. Kontrollera orderstatus:
 
@@ -166,6 +166,26 @@ Endast försäljningsorder som inte har fakturerats, har statusen `Processing` o
 | [!UICONTROL Shipping & Handling Information] | Den leveransmetod som ska användas och eventuella hanteringsavgifter som är tillämpliga. |
 
 {style="table-layout:auto"}
+
+### Egna orderattribut
+
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+
+Med anpassade orderattribut kan du koppla ytterligare information som är specifik för dina affärsbehov till ordern.
+
+![Anpassade ordningsattribut](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
+
+I avsnittet **[!UICONTROL Custom Order Attributes]** visas alla anpassade ordningsattribut och deras aktuella värden.
+
+Om du vill skapa ett nytt attribut för anpassad ordning anger du **[!UICONTROL Attribute Code]** och **[!UICONTROL Value]**
+
+Klicka på **[!UICONTROL Add Attribute]** om du vill skapa ytterligare anpassade ordningsattribut.
+
+Klicka på ikonen **[!UICONTROL X]** om du vill ta bort ett anpassat ordningsattribut.
+
+>[!NOTE]
+>
+>Anpassade orderattribut kan bara redigeras när ordningen har statusen `Pending`. För order i andra statusar kan du visa attributvärdena, men inte ändra dem.
 
 ### Granska beställda artiklar
 
