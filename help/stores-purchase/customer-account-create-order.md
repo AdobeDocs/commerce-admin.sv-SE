@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Skapa en order
 
-För registrerade kunder som behöver hjälp kan du skapa en hel order direkt från administratören. Formuläret _[!UICONTROL Create New Order]_innehåller all information som behövs för den normala utcheckningsprocessen, med aktivitetssammanfattningar från kundens kontouppsättning.
+För registrerade kunder som behöver hjälp kan du skapa en hel order direkt från administratören. Formuläret _[!UICONTROL Create New Order]_&#x200B;innehåller all information som behövs för den normala utcheckningsprocessen, med aktivitetssammanfattningar från kundens kontouppsättning.
 
 ![Skapa en order för en kund](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Du kan överföra artiklar till kundvagnen från kundens önskelista eller från
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [!UICONTROL [attribut för anpassad ordning]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [attribut för anpassad ordning]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >

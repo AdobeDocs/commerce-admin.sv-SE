@@ -34,11 +34,11 @@ När en kund gör en beställning skapas en försäljningsorder som en tillfäll
 
 ## Visa en order
 
-1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_Admin **[!UICONTROL Orders]**.
+1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_&#x200B;Admin **[!UICONTROL Orders]**.
 
 1. Hitta ordningen i rutnätet.
 
-1. Klicka på _[!UICONTROL Action]_i kolumnen **[!UICONTROL View]**.
+1. Klicka på _[!UICONTROL Action]_&#x200B;i kolumnen **[!UICONTROL View]**.
 
 1. Kontrollera orderstatus:
 
