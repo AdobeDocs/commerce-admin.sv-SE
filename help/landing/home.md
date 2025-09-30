@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![Administratörsdokumentation](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![Administratörsdokumentation](./assets/banner-user-home.png) {#documentation}
 
 Välkommen till nästa generation av världens ledande digitala handelsplattform. Adobe Commerce ger onlinehandlare oöverträffad flexibilitet och kontroll över utseendet, innehållet och funktionaliteten i sina onlinebutiker. Admin har kraftfulla verktyg för marknadsföring, sökmotoroptimering och produkthantering som ger dig möjlighet att skapa webbplatser som är anpassade efter just era affärsbehov.
 
