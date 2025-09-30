@@ -1,7 +1,7 @@
 ---
-source-git-commit: 7478624e4ffa25f2349b3bd77c21891daee081b4
+source-git-commit: 7262125cb9cb246cdefef934aa708726c832648f
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 0%
 ## Nyheter
 
 Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 dagarna. Vi utelämnar alla mindre uppdateringar, som kopieringsredigering, från den här listan.
+
+### 24 september 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beskrivning</th>
+      <th>Typ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Lagt till information om hur du visar och redigerar <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">anpassade orderattribut</a> i Admin for Adobe Commerce as a Cloud Service.</p>
+</td>
+      <td>
+        Viktig uppdatering
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/68c4c836d0e6dfff1f397dcc93368f8daac774f3">bekräfta</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 10 september 2025
 
@@ -23,7 +45,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Attributet Använd för kampanjregelvillkor har tagits bort från tabellen"Krav för produktvariantattribut" i avsnittet <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">Konfigurerbara produkter</a>.</p>
+      <td><p>Attributet Använd för kampanjregelvillkor har tagits bort från tabellen"Krav för produktvariantattribut" i avsnittet <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">Konfigurerbara produkter</a>.</p>
 </td>
       <td>
         Teknisk
@@ -31,7 +53,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">bekräfta</a></td>
     </tr>
     <tr>
-      <td><p>En beskrivning av varje typ av villkor för <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/customers/segments/customer-segment-create">kundsegment</a> har lagts till.</p>
+      <td><p>En beskrivning av varje typ av villkor för <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">kundsegment</a> har lagts till.</p>
 </td>
       <td>
         Teknisk
@@ -53,7 +75,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Borttagen inaktuella funktionsdokument för New Relic <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/start/reporting/new-relic-reporting">Reporting</a>.</p>
+      <td><p>Borttagen inaktuella funktionsdokument för New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">Reporting</a>.</p>
 </td>
       <td>
         Viktig uppdatering
@@ -75,7 +97,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Tydligare standardmetoder för <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">att skapa kupongkoder</a> och gav vägledning om hur du använder ett tillägg för att importera en lista med anpassade kupongkoder.</p>
+      <td><p>Tydligare standardmetoder för <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">att skapa kupongkoder</a> och gav vägledning om hur du använder ett tillägg för att importera en lista med anpassade kupongkoder.</p>
 </td>
       <td>
         Teknisk
@@ -97,7 +119,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Lade till säkerhetsuppdatering från augusti 2025 för B2B <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/b2b/release-notes">versionsinformation</a>.</p>
+      <td><p>Lade till säkerhetsuppdatering från augusti 2025 för B2B <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">versionsinformation</a>.</p>
 </td>
       <td>
         Viktig uppdatering
@@ -119,7 +141,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Tydligare förväntat beteende för <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">prisfiltrering</a> för konfigurerbara produkter i lagerstyrd navigering.</p>
+      <td><p>Tydligare förväntat beteende för <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">prisfiltrering</a> för konfigurerbara produkter i lagerstyrd navigering.</p>
 </td>
       <td>
         Teknisk
@@ -127,7 +149,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">bekräfta</a></td>
     </tr>
     <tr>
-      <td><p>Förtydliga hur du <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">tar bort alla artiklar</a> från en kunds kundvagn i assisterat shoppingläge.</p>
+      <td><p>Förtydliga hur du <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">tar bort alla artiklar</a> från en kunds kundvagn i assisterat shoppingläge.</p>
 </td>
       <td>
         Viktig uppdatering
