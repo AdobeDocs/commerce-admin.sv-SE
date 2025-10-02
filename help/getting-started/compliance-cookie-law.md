@@ -3,9 +3,9 @@ title: Cookie-lagefterlevnad
 description: För att hålla jämna steg med lagstiftningen i många länder om användningen av cookies erbjuder Adobe Commerce och Magento Open Source säljare ett urval av metoder för att få kundens samtycke.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
+source-git-commit: 3276729b2da1068e7c3d236d568ac745a97d71be
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Din [sekretesspolicy](privacy-policy.md)) ska innehålla namnet på din butik oc
 
 ### Steg 1: Aktivera läget för begränsning av cookies
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL Web]** i den vänstra navigeringspanelen under **[!UICONTROL General]**.
+1. Välj **[!UICONTROL General]** i den vänstra navigeringspanelen under **[!UICONTROL Web]**.
 
 1. Expandera avsnittet **[!UICONTROL Default Cookie Settings]** och gör följande:
 
@@ -206,15 +206,15 @@ Anges av Page Builder-modulen. Innehåller en flagga som förhindrar efterfölja
 
 Anges av Page Builder-modulen. Innehåller en flagga som förhindrar efterföljande uppmaningar att be en administratör bekräfta en viss åtgärd från att öppnas om administratören uttryckligen har stängt dem tidigare. Används endast i en butiks administrativa område. Gäller inte för kunder.
 
-#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
+#### `accordion-{VARIABLE}-{VARIABLE}`
 
 Används som en del av flikfunktionsimplementeringen endast i ett administrativt område i en butik. Gäller inte för kunder.
 
 ## Produktrekommendationer - cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies används av produktrekommendationer för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies används av produktrekommendationer för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: Gör att du kan [begränsa Adobe Commerce datainsamling](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/developer/setting-cookie) om du har anpassad kod för att hantera cookie-samtycke på din webbplats.
+- `mg_dnt`: Gör att du kan [begränsa Adobe Commerce datainsamling](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) om du har anpassad kod för att hantera cookie-samtycke på din webbplats.
 - `user_allowed_save_cookie`: Används för [begränsningsläge för cookies](#cookie-restriction-mode).
 - `authentication_flag`: Anger om en kund har loggat in eller ut. Den här cookien uppdateras samtidigt som cookien `dataservices_customer_id`.
 - `dataservices_customer_id`: Anger om en kund har loggat in eller ut. Denna cookie innehåller kundens unika ID i systemet.
@@ -222,9 +222,19 @@ Används som en del av flikfunktionsimplementeringen endast i ett administrativt
 - `dataservices_cart_id`: Identifierar kundens kundvagnsaktiviteter. Denna cookie innehåller kundens unika kundvagn-ID i systemet.
 - `dataservices_product_context`: Identifierar en kunds produktinteraktioner. Denna cookie innehåller kundens unika offert-ID i systemet.
 
+### Produktrekommendationer, lokala lagringsdata
+
+Följande data sparas i lokal lagring för butiker med Luma-temat när Live Search eller Produktrekommendationer är installerade:
+
+- `ds-cart`: Sparar kundvagnsinformation för Luma-specifika funktioner
+- `ds-cart-order`: Lagrar orderinformation för kundvagnsfunktioner
+- `ds-purchase-history`: Spåra kundens inköpshistorik
+- `ds-view-history-time-decay`: Lagrar produktvyhistorik med tidsbaserad minskning
+- `ds-logged-in`: Anger kundens inloggningsstatus. Dessa data finns endast när kunden är inloggad och lagras även när läget för cookie-begränsning är aktiverat. Det här är de enda data som Commerce lagrar i lokal lagring när läget för begränsning av cookies är aktiverat, oavsett användarens medgivandestatus.
+
 ## Ytterligare cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies har angetts för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies har angetts för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: Anges av Snowplow JavaScript-spåraren. Mer information finns i [Snowplow-dokumentationen](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Med tanke på den aktuella webbsidans värdnamn är detta den översta domänen som inte är ett &quot;offentligt suffix&quot; enligt https://publicsuffix.org. Detta är i princip den översta domänen som kan ta emot cookies. Den här cookien är en del av [Alloy Web SDK](https://github.com/adobe/alloy).
