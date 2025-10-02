@@ -3,9 +3,9 @@ title: Överföra ett Commerce-konto
 description: Lär dig hur du överför ditt Commerce-konto till en annan ägare eller e-postadress.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: b66fd3fad065f78726eb368b5ba06f0f61174356
+source-git-commit: 7d1a086b4c5443e88029fb6f151f41f9926d41ae
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 När ditt ansvar förändras kan du behöva överföra ditt Commerce-konto till en ny ägare eller till en annan e-postadress. Den här överföringen kräver en ändring av den primära användarens e-postadress som är kopplad till kontot.
 
-Följande information beskriver processen för överföring av ett Commerce-konto (MAGEID). Det innehåller inga ändringar av ägarskapet för molnkontot (molnprojektet eller New Relic). Mer information om åtkomst till molnprojekt finns i [Hantera användaråtkomst](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=sv-SE) i _Commerce on Cloud Infrastructure Guide_.
+Följande information beskriver processen för överföring av ett Commerce-konto (MAGEID). Det innehåller inga ändringar av ägarskapet för molnkontot (molnprojektet eller New Relic). Mer information om åtkomst till molnprojekt finns i [Hantera användaråtkomst](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) i _Commerce on Cloud Infrastructure Guide_.
 
 >[!IMPORTANT]
 >
->Om den nya kontoägaren har köpt tillägg med delad åtkomst, kommer åtkomsten till tilläggen att förloras så snart kontoöverföringsprocessen har initierats. Innan du begär kontoöverföringen kontrollerar du att den nya ägaren hämtar order-ID:n för köp från [deras Marketplace-konto](https://commercemarketplace.adobe.com/sales/order/history/) och begär en återbetalning för dessa tillägg från [Marketplace-teamet](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). Det går inte att överföra tilläggsköp till ett annat konto.
+>Om den nya kontoägaren har köpt tillägg med delad åtkomst, kommer åtkomsten till tilläggen att förloras så snart kontoöverföringsprocessen har initierats. Innan du begär kontoöverföringen kontrollerar du att den nya ägaren hämtar order-ID:n för köp från [deras Marketplace-konto](https://commercemarketplace.adobe.com/sales/order/history/) och begär en återbetalning för dessa tillägg från [Marketplace-teamet](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). Det går inte att överföra tilläggsköp till ett annat konto.
 
 ## Identifiera din överföringstyp
 
@@ -26,9 +26,9 @@ Vilken typ av kontoöverföring som Commerce har beror på vilka inloggningsuppg
 
 | Överföringstyp | Aktuell ägare | Ny ägare |
 | ------------- | ------------- | --------- |
-| [Ny ändring av Adobe ID och e-post](#new-adobe-id-and-email-change) | Har ett MAGEID som **_inte är anslutet_** med ett Adobe-inloggningskonto. | Har inget MAGEID och är inte anslutet till ett Adobe-inloggningskonto. |
-| [E-poständring](#email-change) | Har ett MAGEID som är **_anslutet_** med ett Adobe-inloggningskonto. | Har inget MAGEID och är inte anslutet till ett Adobe-inloggningskonto. |
-| [Adobe ID-växel](#adobe-id-account-switch) | Har ett MAGEID som är **_anslutet_** med ett Adobe-inloggningskonto. | Har ett MAGEID och är anslutet till ett Adobe-inloggningskonto. |
+| [Ny ändring av Adobe ID och e-post](#new-adobe-id-and-email-change) | Har ett MAGEID som **_inte har anslutits_** till ett Adobe-inloggningskonto | Har inget MAGEID och är inte anslutet till ett Adobe-inloggningskonto. |
+| [E-poständring](#email-change) | Har ett MAGEID som är **_anslutet_** med ett Adobe-inloggningskonto. | Har ett Adobe-inloggningskonto, men **_har inget MAGEID_** anslutet till ett Adobe-inloggningskonto. |
+| [Adobe ID-kontoväxling](#adobe-id-account-switch) | Har ett MAGEID som är **_anslutet_** till ett Adobe-inloggningskonto. | Har ett MAGEID och är anslutet till ett Adobe-inloggningskonto. |
 
 {style="table-layout:auto"}
 
@@ -42,9 +42,9 @@ Vilken typ av kontoöverföring som Commerce har beror på vilka inloggningsuppg
 >
 >Granska [överföringstyperna](#identify-your-transfer-type) och kontrollera att du uppfyller villkoren för den här stegsekvensen.
 
-Den här överföringstypen kräver att du först skapar en associerad Adobe ID och sedan ändrar kontot till den nya ägarens e-postadress.
+Den här överföringstypen kräver att du har en Adobe ID som är länkad till det befintliga Commerce-kontot och sedan ändrar kontot till den nya ägarens e-postadress.
 
-1. Gå till ditt [Commerce-konto](https://account.magento.com/customer/account/login/).
+1. Gå till inloggningssidan för [Commerce-kontot](https://account.magento.com/customer/account/login/).
 
 1. Klicka på **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -54,7 +54,7 @@ Den här överföringstypen kräver att du först skapar en associerad Adobe ID 
 
 1. Klicka på **[!UICONTROL Continue]**.
 
-   I det här steget skapas en Adobe ID och den länkas till det aktuella Commerce-kontot (MAGEID). Med den här kontolänken blockeras fältet _[!UICONTROL Email]_&#x200B;från ändringar. Konfigurationen av den associerade e-postadressen hanteras från Adobe ID-kontot.
+   I det här steget skapas en Adobe ID och den länkas till det aktuella Commerce-kontot (MAGEID). Med den här kontolänken blockeras fältet _[!UICONTROL Email]_från ändringar. Konfigurationen av den associerade e-postadressen hanteras från Adobe ID-kontot.
 
 1. Navigera till [account.adobe.com](https://account.adobe.com/).
 
@@ -72,13 +72,15 @@ Den här överföringstypen kräver att du först skapar en associerad Adobe ID 
 
 1. Klicka på **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447663/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## E-poständring
 
 >[!IMPORTANT]
 >
 >Granska [överföringstyperna](#identify-your-transfer-type) och kontrollera att du uppfyller villkoren för den här stegsekvensen.
+
+Den här överföringstypen medför att den nuvarande kontoägaren förlorar åtkomst till andra Adobe-produkter.
 
 1. Gå till [account.adobe.com](https://account.adobe.com/) och fyll i Adobe-inloggningen.
 
@@ -102,7 +104,7 @@ Den här överföringstypen kräver att du först skapar en associerad Adobe ID 
 >
 >Granska [överföringstyperna](#identify-your-transfer-type) och kontrollera att du uppfyller villkoren för den här stegsekvensen.
 
-Om den nuvarande ägaren och den nya ägaren har ett befintligt Adobe-ID bör båda kontona finnas kvar, men e-postadresserna måste växlas mellan dem. Detta kräver att en giltig _tillfällig_-e-postadress används, men den är inte associerad med en Adobe ID.
+Den här överföringstypen använder en tillfällig e-postadress för att växla kontoägarskap när både den aktuella ägaren och den nya ägaren har befintliga Adobe-ID:n och du vill behålla båda kontona. För att slutföra ägarbytet måste du använda en temporär e-postadress som inte är kopplad till någon Adobe ID.
 
 ### Ändra till ett tillfälligt konto
 
@@ -148,7 +150,7 @@ När den aktuella ägaren har slutfört överföringen till en temporär e-posta
 
 ### Följ upp steg
 
-När den nya ägaren har konfigurerat sitt Adobe-konto med den ursprungliga e-postadressen till den aktuella (nu tidigare) ägaren följer du de här stegen för att överföra ägarskap.
+När den nya ägaren har konfigurerat sitt Adobe-konto med den aktuella ägarens ursprungliga e-postadress följer du de här stegen för att överföra ägarskap.
 
 1. Gå till [account.adobe.com](https://account.adobe.com/) och fyll i Adobe-inloggningen med e-postadressen för det [tillfälliga kontot](#change-to-a-temporary-account).
 
