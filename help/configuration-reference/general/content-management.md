@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Content Management]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL Content Management] i Commerce Admin.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: 5929a2ff26dadda40ecfa9e435a73343caef3cde
 workflow-type: tm+mt
 source-wordcount: '488'
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ![WYSIWYG-alternativ](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/sv/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ![CMS-sidhierarki](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/sv/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ![Avancerade innehållsverktyg](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/sv/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
