@@ -24,7 +24,7 @@ Du kan aktivera målgrupper i en Luma storefront eller [headless](#headless-supp
 Det här avsnittet innehåller information om uppdateringar av Audience Activation-tillägget och innehåller:
 
 ![Nytt](../assets/new.svg) - Nya funktioner
-![Korrigera ](../assets/fix.svg) - Korrigeringar och förbättringar
+![Korrigera &#x200B;](../assets/fix.svg) - Korrigeringar och förbättringar
 ![Fel](../assets/bug.svg) - Kända fel
 
 Läs [Kommande releaser](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) om du vill veta mer om releasescheman och support.
@@ -179,11 +179,11 @@ composer require magento/audiences
 
 När du har installerat tillägget [!DNL Audience Activation] måste du logga in i Commerce Admin och slutföra följande:
 
-1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Services]_Admin **[!UICONTROL Commerce Services Connector]**.
+1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Services]_&#x200B;Admin **[!UICONTROL Commerce Services Connector]**.
 
 1. [Logga in](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#organizationid) på ditt Adobe-konto och välj ditt företags-ID.
 
-1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Services]_Admin **[!UICONTROL [!DNL Data Connection]]**.
+1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Services]_&#x200B;Admin **[!UICONTROL [!DNL Data Connection]]**.
 
 1. I fältet **[!UICONTROL Datastream ID]** klistrar du in ID:t för den datastream som du skapade när du [aktiverade](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce som mål i Real-Time CDP.
 
@@ -193,11 +193,11 @@ När du har installerat tillägget [!DNL Audience Activation] måste du logga in
    >
    >När du anger ett datastream-ID [kopplar du det till en specifik webbplats](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) i tillägget [!DNL Data Connection]. Om din Commerce-butik har flera webbplatser kan du [skapa ett mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) för varje webbplats i Real-Time CDP och använda olika data-ID för varje.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Services]** och välj **[!UICONTROL [!DNL Data Connection]]**.
 
-1. [Lägg till ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) tjänstkonto och autentiseringsuppgifter.
+1. [Lägg till &#x200B;](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) tjänstkonto och autentiseringsuppgifter.
 
 ## Var kan man använda Real-Time CDP målgrupper i Commerce?
 
@@ -416,7 +416,7 @@ Exempel:
 ### Felaktig autentiseringstyp har valts i konfigurationen
 
 1. Öppna din Commerce-instans.
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 1. Expandera **[!UICONTROL Services]** och välj **[!UICONTROL [!DNL Data Connection]]**.
 1. Kontrollera att auktoriseringsmetoden server-till-server som du angav i fältet **[!UICONTROL Authentication Type]** är korrekt. Adobe rekommenderar att du använder **OAuth**. JWT har tagits bort. [Läs mer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
