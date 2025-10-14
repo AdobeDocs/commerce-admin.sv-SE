@@ -88,7 +88,7 @@ I följande instruktioner visas hur du skapar en hämtningsbar produkt med hjäl
 
 1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
-1. Välj _[!UICONTROL Add Product]_&#x200B;på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}menypil `Downloadable Product` ) i det övre högra hörnet.
+1. Välj _[!UICONTROL Add Product]_&#x200B;på menyn ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}menypil `Downloadable Product` ) i det övre högra hörnet.
 
    ![Lägg till hämtningsbar produkt](./assets/product-add-downloadable.png){width="700" zoomable="yes"}
 
@@ -145,7 +145,7 @@ Formuläret uppdateras för att återspegla ändringen.
 
 1. Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
-1. Markera kryssrutan [ om du vill att produkten ska visas i listan ](../content-design/widget-new-products-list.md)med nya produkter **[!UICONTROL Set Product as New]**.
+1. Markera kryssrutan [&#x200B; om du vill att produkten ska visas i listan &#x200B;](../content-design/widget-new-products-list.md)med nya produkter **[!UICONTROL Set Product as New]**.
 
 1. Om du vill tilldela _[!UICONTROL Categories]_&#x200B;till produkten klickar du på rutan **[!UICONTROL Select…]**&#x200B;och gör något av följande:
 
@@ -262,7 +262,7 @@ Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable
 
 - Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-- Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil ](../assets/icon-menu-down-arrow-black.png) ).
+- Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil &#x200B;](../assets/icon-menu-down-arrow-black.png) ).
 
   Butiken öppnas på en ny flik i webbläsaren.
 
@@ -270,7 +270,7 @@ Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable
 
 **Metod 2:** Spara och stäng
 
-Välj _[!UICONTROL Save]_&#x200B;på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
+Välj _[!UICONTROL Save]_&#x200B;på menyn ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
 
 ## StoreFront
 

@@ -190,7 +190,7 @@ Avsnittet _[!UICONTROL Bundle Items]_&#x200B;används för att lägga till objek
 
 1. Upprepa dessa steg för varje objekt som du vill lägga till i paketet.
 
-1. Om du vill ändra objektens ordning i ett paketavsnitt klickar du på ikonen _Flytta_ ( ![Flytta ](../assets/icon-move.png) ) i början av raden och drar objektet till rätt plats.
+1. Om du vill ändra objektens ordning i ett paketavsnitt klickar du på ikonen _Flytta_ ( ![Flytta &#x200B;](../assets/icon-move.png) ) i början av raden och drar objektet till rätt plats.
 
    ![Ändra ordning på paketobjekt](./assets/product-bundle-items-move.png){width="600" zoomable="yes"}
 
@@ -198,7 +198,7 @@ Avsnittet _[!UICONTROL Bundle Items]_&#x200B;används för att lägga till objek
 
    Om du vill få en bättre vy över arbetsytan kan du komprimera varje avsnitt först och sedan dra dem till rätt plats.
 
-1. Om du vill ta bort ett objekt från paketet klickar du på ikonen **[!UICONTROL Delete]** ( ![papperskorgen ](../assets/icon-delete-trashcan.png) ).
+1. Om du vill ta bort ett objekt från paketet klickar du på ikonen **[!UICONTROL Delete]** ( ![papperskorgen &#x200B;](../assets/icon-delete-trashcan.png) ).
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.
 
@@ -217,7 +217,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
 ## Steg 7: Publish produkten
 
-1. Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable Product]** till `Yes` ( ![Växla ja ](../assets/toggle-yes.png) ).
+1. Om du är redo att publicera produkten i katalogen anger du **[!UICONTROL Enable Product]** till `Yes` ( ![Växla ja &#x200B;](../assets/toggle-yes.png) ).
 
 1. Gör något av följande:
 
@@ -225,7 +225,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
    - Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-   - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil ](../assets/icon-menu-down-arrow-black.png) ).
+   - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil &#x200B;](../assets/icon-menu-down-arrow-black.png) ).
 
      Butiken öppnas på en ny flik i webbläsaren.
 
@@ -233,7 +233,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
    **Metod 2:** Spara och stäng
 
-   Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ).
+   Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## Indatakontroller
 

@@ -43,7 +43,7 @@ När du anger leveranser dras de inmatade beloppen av lagerbehållningen av. Res
 
      >[!IMPORTANT]
      >
-     >När du använder algoritmen Distance Priority för leverans och vägar och data inte returneras för det valda [Computation Mode ](distance-priority-algorithm.md) (som kör, cyklar eller går) för en leverans, används som standard Source Priority för SSA. Vi rekommenderar att du även anger [prioritet för källor per lager](stocks-prioritize-sources.md).
+     >När du använder algoritmen Distance Priority för leverans och vägar och data inte returneras för det valda [Computation Mode &#x200B;](distance-priority-algorithm.md) (som kör, cyklar eller går) för en leverans, används som standard Source Priority för SSA. Vi rekommenderar att du även anger [prioritet för källor per lager](stocks-prioritize-sources.md).
 
 
    - För **[!UICONTROL Select a Source to Ship from]** väljer du en källa att skicka en leverans från.

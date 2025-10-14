@@ -60,7 +60,7 @@ I den här genomgången skapar du ett enkelt block med innehåll från [!DNL Goo
 
    En platshållarkarta visas om [!DNL Google Maps] inte har konfigurerats för din butik än.
 
-   ![[!DNL Google Maps] platshållare ](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
+   ![[!DNL Google Maps] platshållare &#x200B;](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
 1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
@@ -356,7 +356,7 @@ I den sista delen av övningen redigerar du ett dynamiskt block medan sidan finn
 
      Den första kolumnen är nu fyra av 12 (4/12) breda stödrasterindelningar, och den andra kolumnen är åtta av 12 (8/12) breda indelningar.
 
-     ![Två olika kolumner ](./assets/pb-tutorial2-dynamic-block-edit-column-width-changed.png){width="600" zoomable="yes"}
+     ![Två olika kolumner &#x200B;](./assets/pb-tutorial2-dynamic-block-edit-column-width-changed.png){width="600" zoomable="yes"}
 
 1. Ändra textfärgen:
 

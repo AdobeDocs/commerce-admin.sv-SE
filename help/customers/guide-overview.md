@@ -19,7 +19,7 @@ Handboken är avsedd för kundtjänstpersonal som arbetar i Adobe Commerce och M
 | Ämne | Beskrivning |
 | ------- | ----------- |
 | [Introduktion](customers-introduction.md) | Översikt över hur du använder kundhanteringsfunktionerna i Commerce Admin. |
-| Kundhanteringsverktyg | Lär dig hur du använder [[!UICONTROL Customers]-rutnätet ](customers-all.md) och [[!UICONTROL Now Online]-funktionen ](now-online.md) i Commerce Admin som du kan använda för att hantera dina butikskunder. |
+| Kundhanteringsverktyg | Lär dig hur du använder [[!UICONTROL Customers]-rutnätet &#x200B;](customers-all.md) och [[!UICONTROL Now Online]-funktionen &#x200B;](now-online.md) i Commerce Admin som du kan använda för att hantera dina butikskunder. |
 | Kundkonton | Lär dig hur du ger en optimal upplevelse för registrerade kunder på butiken, från [inloggningar](login-landing-page.md) till [lösenordsrester](password-reset.md), och [ger kundhjälp](login-as-customer.md). |
 | [Personalization i skala](personalize-scale.md) | Läs mer om de funktioner som finns för att personalisera shoppingupplevelsen för varje kontaktyta med kunderna baserat på direkt kontext och tidigare observerade beteenden. |
 | [[!DNL Audience Activation]](audience-activation.md) | Lär dig mer om tillägget [!DNL Audience Activation] som gör att du kan aktivera Real-Time CDP-målgrupper i Adobe Commerce för att informera unika erbjudanden i kundvagnen, dynamiska block och relaterade produkter. |

@@ -129,7 +129,7 @@ I det här steget beskrivs de villkor som måste uppfyllas för att en beställn
 
 1. Markera kryssrutan för den kategori som du vill använda som villkor för prisregeln och klicka på ikonen ![Lägg till](../assets/icon-checkmark-green-circle.png) för att godkänna kategorivalen.
 
-   Villkoret kan baseras på vilken kategori som helst som är underordnad arkivets [rotkategori ](../catalog/category-root.md).
+   Villkoret kan baseras på vilken kategori som helst som är underordnad arkivets [rotkategori &#x200B;](../catalog/category-root.md).
 
    ![Villkor för kundprisregel - produktkategori](./assets/subselection-category.png){width="600" zoomable="yes"}
 
@@ -223,7 +223,7 @@ Kundvagnsprisregelåtgärderna beskriver hur priserna uppdateras när villkoren 
 
 1. Bläddra ned till **[!UICONTROL Actions]** och expandera avsnittet ![Expansionsväljare](../assets/icon-display-expand.png).
 
-   ![Kundprisregel - åtgärder ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![Kundprisregel - åtgärder &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. Ange **[!UICONTROL Apply]** till ett av följande rabattalternativ:
 

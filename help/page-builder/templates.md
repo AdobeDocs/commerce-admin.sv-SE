@@ -28,11 +28,11 @@ Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Templa
 
 1. Ovanför scenen klickar du på **[!UICONTROL Save as Template]** längst upp till höger.
 
-   ![[!DNL Page Builder]-scen med knappen Spara som mall ](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder]-scen med knappen Spara som mall &#x200B;](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
    Den här åtgärden visar dialogrutan _[!UICONTROL Save Content as Template]_.
 
-   ![[!DNL Page Builder] Dialogrutan Spara som mall ](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
+   ![[!DNL Page Builder] Dialogrutan Spara som mall &#x200B;](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
 1. Ange ett unikt namn för mallen för **[!UICONTROL Template Name]**.
 
@@ -54,13 +54,13 @@ Du kan tillämpa en mall på ett [!DNL Page Builder]-innehållsområde (sida, bl
 
 1. Klicka på **[!UICONTROL Apply Template]** överst till höger i innehållsområdet.
 
-   ![[!DNL Page Builder] Knappen Använd mall ](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] Knappen Använd mall &#x200B;](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
 1. Välj en mall från stödrastret _[!UICONTROL Apply Template]_&#x200B;och klicka på&#x200B;**[!UICONTROL Apply]**&#x200B;i slutet av raden.
 
    Om du vill visa hela mallen kan du klicka på miniatyrbilden av mallen. Den här åtgärden utökar bilden så att du kan visa hela mallen efter behov.
 
-   ![[!DNL Page Builder] Använd mallstödraster ](./assets/pb-templates-apply-slideout-nofilters.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] Använd mallstödraster &#x200B;](./assets/pb-templates-apply-slideout-nofilters.png){width="600" zoomable="yes"}
 
 ## Ta bort en mall
 
@@ -85,7 +85,7 @@ Rutnätet _Använd mall_ och sidstödrastret _Mallar_ erbjuder två sätt att fi
    - Mallnamnet (**[!UICONTROL Template Name]**)
    - Det avsedda innehållsområdet (**[!UICONTROL Created For]**)
 
-![[!DNL Page Builder] Använd mallstödraster ](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] Använd mallstödraster &#x200B;](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
 
 ## Demo av innehållsmallar
 

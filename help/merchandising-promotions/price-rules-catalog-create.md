@@ -116,7 +116,7 @@ De flesta tillgängliga villkor baseras på befintliga attributvärden. Om du vi
 
    Upprepa processen tills alla önskade villkor är klara.
 
-   Om du vill ta bort en del av villkorssatsen klickar du på ikonen **[!UICONTROL Delete]** (![Ta bort ](../assets/icon-delete-red-circle.png) i slutet av raden.
+   Om du vill ta bort en del av villkorssatsen klickar du på ikonen **[!UICONTROL Delete]** (![Ta bort &#x200B;](../assets/icon-delete-red-circle.png) i slutet av raden.
 
 ## Steg 3: Definiera åtgärderna
 

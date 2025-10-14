@@ -69,7 +69,7 @@ Använd [!DNL Page Builder] för att infoga en anpassad variabel.
 
 1. Klicka på ( ![Infoga variabel](./assets/editor-btn-insert-variable.png) ) längst till höger i redigeringsverktygsfältet om du vill infoga en variabel.
 
-   ![[!DNL Page Builder] scen och panel ](./assets/variable-custom-pagebuilder-stage.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] scen och panel &#x200B;](./assets/variable-custom-pagebuilder-stage.png){width="600" zoomable="yes"}
 
 1. I listan väljer du den anpassade variabel som du vill infoga och klickar på **[!UICONTROL Insert Variable]**.
 
@@ -77,6 +77,6 @@ Använd [!DNL Page Builder] för att infoga en anpassad variabel.
 
    Variabelidentifieraren visas som en platshållare i redigeraren.
 
-   ![[!DNL Page Builder] stage - variabelplatshållare ](./assets/pagebuilder-variable-inserted.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] stage - variabelplatshållare &#x200B;](./assets/pagebuilder-variable-inserted.png){width="600" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.

@@ -154,7 +154,7 @@ Använd innehållstypen _Video_ för att lägga till en video som finns på [You
 
 ## Flytta en video
 
-1. Håll pekaren över videobehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta ](./assets/pb-icon-move.png){width="20"} ).
+1. Håll pekaren över videobehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta &#x200B;](./assets/pb-icon-move.png){width="20"} ).
 
    ![Flytta en video](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
 

@@ -23,7 +23,7 @@ Om [automatiska omdirigeringar](url-redirect-product-automatic.md) har aktiverat
 
 Om du vill undvika misstag skriver du ned _omdirigeringen till_-sökvägen och _omdirigeringen från_-sökvägen och inkluderar URL-nyckeln och suffixet (om tillämpligt).
 
-Om du är osäker öppnar du varje produktsida i din butik och kopierar sökvägen från webbläsarens adressfält. När du skapar en produktomdirigering kan du antingen inkludera eller exkludera sökvägen för [kategorin ](../catalog/catalog-urls.md). I det här exemplet skapar vi en produktomdirigering utan en kategorisökväg.
+Om du är osäker öppnar du varje produktsida i din butik och kopierar sökvägen från webbläsarens adressfält. När du skapar en produktomdirigering kan du antingen inkludera eller exkludera sökvägen för [kategorin &#x200B;](../catalog/catalog-urls.md). I det här exemplet skapar vi en produktomdirigering utan en kategorisökväg.
 
 ### Produkt med kategorisökväg
 

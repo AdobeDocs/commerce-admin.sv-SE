@@ -46,7 +46,7 @@ När du lär dig nya ord som andra använder för att söka i din butik kan du l
 
 1. Klicka på **[!UICONTROL Add New Search Term]**.
 
-   ![Sök efter allmänna termer ](./assets/search-terms-information.png){width="600" zoomable="yes"}
+   ![Sök efter allmänna termer &#x200B;](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
 1. Ange det ord eller den fras du vill lägga till som ett nytt sökord under _[!UICONTROL General Information]_&#x200B;i rutan **[!UICONTROL Search Query]**.
 

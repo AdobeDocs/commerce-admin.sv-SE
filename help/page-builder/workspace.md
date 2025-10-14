@@ -14,7 +14,7 @@ ht-degree: 0%
 
 När [[!DNL Page Builder]  är aktiverat](setup.md) ändras avsnittet _[!UICONTROL Content]_&#x200B;och processen för att skapa innehåll så att du kan utnyttja de avancerade [!DNL Page Builder] verktygen för CMS [sidor](../content-design/page-add.md), [product](../catalog/product-content.md) och [category](../catalog/categories-content-settings.md) -sidor, [block](../content-design/block-add.md) och [dynamiska block](../content-design/dynamic-blocks.md). Det här avsnittet innehåller ett_ fält för innehållsrubrik _, en förhandsgranskning av innehållet och enkel åtkomst till arbetsytan för helskärmsläge [!DNL Page Builder].
 
-![Innehållsavsnitt med [!DNL Page Builder] förhandsgranskning ](./assets/pb-content-preview.png){width="700" zoomable="yes"}
+![Innehållsavsnitt med [!DNL Page Builder] förhandsgranskning &#x200B;](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
 ## Innehållsrubrik
 
@@ -91,7 +91,7 @@ Avsnittet _[!UICONTROL Layout]_&#x200B;på panelen [!DNL Page Builder] används 
 
 Som standard är scenen [!DNL Page Builder] tom. När du drar layoutinnehållstyper från panelen till scenen kan du placera dem ovanför, under eller inuti andra layoutbehållare på sidan. Rader kan bara läggas till direkt på scenen.
 
-Panelen ![[!DNL Page Builder] med innehållstyper för layout och scenen ](./assets/pb-stage-toolbox.png){width="600" zoomable="yes"}
+Panelen ![[!DNL Page Builder] med innehållstyper för layout och scenen &#x200B;](./assets/pb-stage-toolbox.png){width="600" zoomable="yes"}
 
 | Innehållstyp för layout | Beskrivning |
 | ------------------- |------------ |
@@ -105,7 +105,7 @@ Panelen ![[!DNL Page Builder] med innehållstyper för layout och scenen ](./ass
 
 Använd avsnittet _[!UICONTROL Elements]_&#x200B;på panelen [!DNL Page Builder] för att lägga till text, rubriker, knappar, avgränsare och HTML-kod i en layoutbehållare på [[!DNL Page Builder] scenen](workspace.md#stage). När du drar en innehållstyp från panelen till en rad eller kolumn, eller till en tabbuppsättning på scenen, visas en behållare. Använd verktygslådan för innehållstyp för att komma åt inställningar som är specifika för typen.
 
-Panelen ![[!DNL Page Builder] med elementinnehållstyper ](./assets/pb-elements.png){width="600" zoomable="yes"}
+Panelen ![[!DNL Page Builder] med elementinnehållstyper &#x200B;](./assets/pb-elements.png){width="600" zoomable="yes"}
 
 | Elementinnehållstyp | Beskrivning |
 | -------------------- | ----------- |

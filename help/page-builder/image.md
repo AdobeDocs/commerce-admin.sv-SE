@@ -176,7 +176,7 @@ Filnamnet, dimensionerna och filstorleken visas under den aktuella bilden.
 
 ## Flytta en bild
 
-1. Håll pekaren över bildbehållaren för att visa verktygslådan och välj ikonen _Flytta_ (![Flytta ](./assets/pb-icon-move.png){width="20"} ).
+1. Håll pekaren över bildbehållaren för att visa verktygslådan och välj ikonen _Flytta_ (![Flytta &#x200B;](./assets/pb-icon-move.png){width="20"} ).
 
    ![Flytta en bild](./assets/pb-media-image-column1-move-giftcard.png){width="500" zoomable="yes"}
 

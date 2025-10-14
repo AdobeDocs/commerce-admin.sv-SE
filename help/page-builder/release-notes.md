@@ -32,7 +32,7 @@ I versionsinformationen beskrivs releaser av [!DNL Page Builder] och här ingår
 
 ![Nytt](../assets/new.svg) <!-- Issue 594 -->**Nytt stöd för flera kolumner har lagts till i kolumngruppen** - Med det här tillägget kan användare ändra flera rader med kolumner inuti en [!DNL Columns]-grupp för att göra kolumnlayouterna mycket mer flexibla.<!--- PB-108-->
 
-Mer information om hur du använder den nya gruppen [!DNL Columns] finns i [Layout - kolumn ](./column.md).
+Mer information om hur du använder den nya gruppen [!DNL Columns] finns i [Layout - kolumn &#x200B;](./column.md).
 
 ## 1.7.1 för Commerce 2.4.4
 
@@ -207,7 +207,7 @@ Den här versionen av [!DNL Page Builder] är bara en versionsnummeruppdatering 
 
 ## 1.2.0 för Adobe Commerce 2.3.4
 
-![Ny ](../assets/new.svg) **[!DNL Page Builder]-integrering med PWA Studio** - [!DNL Page Builder] innehållsrendering har lagts till i Venia-appen i PWA Studio. [!DNL Page Builder] innehåll kan nu visas i appen PWA Studio Venia. Mer information om den här nya funktionen finns i [!DNL Page Builder]-dokumentationen i [PWA Studio].
+![Ny &#x200B;](../assets/new.svg) **[!DNL Page Builder]-integrering med PWA Studio** - [!DNL Page Builder] innehållsrendering har lagts till i Venia-appen i PWA Studio. [!DNL Page Builder] innehåll kan nu visas i appen PWA Studio Venia. Mer information om den här nya funktionen finns i [!DNL Page Builder]-dokumentationen i [PWA Studio].
 
 ![Nytt](../assets/new.svg) **Lagt till produktkarusell** - <!-- PB-77, PB-173, PB-175 -->Innehållstypen Produkter innehåller nu ett alternativ för att visa dina produkter i karusellformat eller skjutreglage, inklusive flera alternativ för att anpassa karusellen efter dina behov.
 

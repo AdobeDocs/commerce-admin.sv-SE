@@ -98,7 +98,7 @@ Beroende på om du redan har en [!DNL Google Maps]-nyckel kan du använda någon
 
    Om [!DNL Google Maps]-plattformen ännu inte har konfigurerats för din butik visas en platshållarkarta i stället.
 
-   ![[!DNL Google Maps] Platshållare ](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
+   ![[!DNL Google Maps] Platshållare &#x200B;](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
 ## Lägg till en anpassad mappningsplats
 
@@ -150,7 +150,7 @@ Beroende på om du redan har en [!DNL Google Maps]-nyckel kan du använda någon
 
    Den nya platsen visas på kartan och i kartpositionens rutnät på sidan _[!UICONTROL Edit Map]_.
 
-   ![[!DNL Page Builder] - mappar platsens rutnät ](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] - mappar platsens rutnät &#x200B;](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
 ## Formatera kartan {#styling}
 

@@ -18,9 +18,9 @@ Skapa avancerat interaktivt innehåll som styrs av logik från [prisregler](../m
 
 >[!NOTE]
 >
->Alternativet _[!UICONTROL Banner]_&#x200B;i [[!UICONTROL Content] menu ](content-menu.md) togs bort i 2.3.1 och togs bort i 2.4.0. Funktionen ersätts av Dynamic Blocks.
+>Alternativet _[!UICONTROL Banner]_&#x200B;i [[!UICONTROL Content] menu &#x200B;](content-menu.md) togs bort i 2.3.1 och togs bort i 2.4.0. Funktionen ersätts av Dynamic Blocks.
 
-![[!DNL Page Builder] - dynamiskt block med prisregel och kundsegment ](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] - dynamiskt block med prisregel och kundsegment &#x200B;](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
 ## Steg 1: Skapa ett dynamiskt block
 

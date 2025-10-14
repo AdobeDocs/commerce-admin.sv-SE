@@ -121,7 +121,7 @@ Din butik kan konfigureras för att arkivera order, fakturor, leveranser och kre
 
 1. Ställ in kontrollen **[!UICONTROL Actions]** på `Move to Archive` och sök efter meddelandet att ordningen har arkiverats.
 
-   ![Flyttar valda order till arkivet ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![Flyttar valda order till arkivet &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >

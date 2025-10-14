@@ -54,7 +54,7 @@ Följ de här instruktionerna för att [skapa de dynamiska blocken](dynamic-bloc
 
    - Ange **[!UICONTROL Display on]** på sidan, eller sidtypen, där roteraren ska visas.
 
-      - `Categories` - Visar roteraren på sidor i antingen [ ankarpunkt ](../catalog/navigation-layered.md) eller icke-ankarkategori. Alternativ: Ankarkategorier / Kategorier utan ankarpunkt
+      - `Categories` - Visar roteraren på sidor i antingen [&#x200B; ankarpunkt &#x200B;](../catalog/navigation-layered.md) eller icke-ankarkategori. Alternativ: Ankarkategorier / Kategorier utan ankarpunkt
       - `Products` - Visar roteraren på en viss typ av produktsida eller på alla produktsidor. Alternativ: Alla produkttyper / [Enkel produkt](../catalog/product-create-simple.md) / [Virtuell produkt](../catalog/product-create-virtual.md) / [Paketprodukt](../catalog/product-create-bundle.md) / [Produkt som kan hämtas](../catalog/product-create-downloadable.md) / [Presentkort](../catalog/product-gift-card-create.md) / [Konfigurerbar produkt](../catalog/product-create-configurable.md) / [Grupperad produkt](../catalog/product-create-grouped.md)
       - `Generic Pages` - Visar roteringen på alla sidor, på en viss sida eller endast på sidor med en viss layout. Alternativ: `All Pages` / `Specified Page` / `Page Layouts`
 

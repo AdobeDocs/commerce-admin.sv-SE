@@ -26,7 +26,7 @@ I följande instruktioner visas hur du skapar en grupperad produkt med hjälp av
 
 1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
 
-1. Välj **[!UICONTROL Grouped Product]** på menyn _[!UICONTROL Add Product]_( ![menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ) i det övre högra hörnet.
+1. Välj **[!UICONTROL Grouped Product]** på menyn _[!UICONTROL Add Product]_( ![menypil &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} ) i det övre högra hörnet.
 
    ![Lägg till grupperad produkt](./assets/product-add-grouped.png){width="700" zoomable="yes"}
 
@@ -154,7 +154,7 @@ Fyll i informationen i följande avsnitt efter behov:
 
    - Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-   - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil ](../assets/icon-menu-down-arrow-black.png) ).
+   - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil &#x200B;](../assets/icon-menu-down-arrow-black.png) ).
 
      Butiken öppnas på en ny flik i webbläsaren.
 
@@ -162,7 +162,7 @@ Fyll i informationen i följande avsnitt efter behov:
 
    **Metod 2:** Spara och stäng
 
-   - Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ).
+   - Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## Steg 7: Konfigurera kundvagnsminiatyrerna (valfritt)
 

@@ -50,7 +50,7 @@ Följ de tre delarna av genomgången i ordning.
 
 I den här delen av Simple Page skapar du en sida med en rad och en banderoll med helt utfall. Raden har olika bakgrundsbilder för datorer och mobila enheter.
 
-![[!DNL Page Builder] hel utfallsrad med banner ](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}
+![[!DNL Page Builder] hel utfallsrad med banner &#x200B;](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}
 
 ### Steg 1: Skapa en sida
 
@@ -198,7 +198,7 @@ I den här delen av Simple Page skapar du en sida med en rad och en banderoll me
    ![Banderoll i innehållsscenen med formaterad text](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 __
 
-1. Hovra för att visa banderollverktygslådan, välj ikonen _Inställningar_ ( ![Inställningarna ](./assets/pb-icon-settings.png){width="20"} ) igen och bläddra sedan till avsnittet _[!UICONTROL Content]_.
+1. Hovra för att visa banderollverktygslådan, välj ikonen _Inställningar_ ( ![Inställningarna &#x200B;](./assets/pb-icon-settings.png){width="20"} ) igen och bläddra sedan till avsnittet _[!UICONTROL Content]_.
 
    Observera att texten visas i rutan _Meddelandetext_. Text kan anges och redigeras antingen från scenen eller från avsnittet _[!UICONTROL Content]_&#x200B;i banderollinställningarna.
 

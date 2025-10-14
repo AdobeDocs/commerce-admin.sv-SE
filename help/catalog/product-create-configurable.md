@@ -40,7 +40,7 @@ Egenskaperna för varje attribut som används för en konfigurerbar produktvaria
 
 1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
-1. Välj _[!UICONTROL Add Product]_&#x200B;på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}menypil **[!UICONTROL Configurable Product]**) i det övre högra hörnet.
+1. Välj _[!UICONTROL Add Product]_&#x200B;på menyn ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}menypil **[!UICONTROL Configurable Product]**) i det övre högra hörnet.
 
    ![Lägg till konfigurerbar produkt](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -102,7 +102,7 @@ Egenskaperna för varje attribut som används för en konfigurerbar produktvaria
 
 1. Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
-1. Markera kryssrutan [ om du vill visa produkten i listan över ](../content-design/widget-new-products-list.md)nya produkter **[!UICONTROL Set Product as New]**.
+1. Markera kryssrutan [&#x200B; om du vill visa produkten i listan över &#x200B;](../content-design/widget-new-products-list.md)nya produkter **[!UICONTROL Set Product as New]**.
 
 1. Om du vill tilldela kategorier till produkten klickar du på rutan **[!UICONTROL Select…]** och gör något av följande:
 
@@ -310,7 +310,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
       - Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-      - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil ](../assets/icon-menu-down-arrow-black.png) ).
+      - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil &#x200B;](../assets/icon-menu-down-arrow-black.png) ).
 
      Butiken öppnas på en ny flik i webbläsaren.
 
@@ -318,7 +318,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
    - **Metod 2:** Spara och stäng
 
-     Välj _[!UICONTROL Save]_&#x200B;på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
+     Välj _[!UICONTROL Save]_&#x200B;på menyn ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
 
 ### Steg 8: Konfigurera kundvagnsminiatyrerna
 

@@ -143,7 +143,7 @@ Fyll i informationen i följande avsnitt efter behov:
 
    **Metod 2:** Spara och stäng
 
-   Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil ](../assets/icon-menu-down-arrow-red.png){width="25"} ).
+   Välj **[!UICONTROL Save & Close]** på menyn _[!UICONTROL Save]_( ![Menypil &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} ).
 
 ## Saker att komma ihåg
 

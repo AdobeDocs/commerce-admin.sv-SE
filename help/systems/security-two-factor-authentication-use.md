@@ -116,7 +116,7 @@ I följande exempel visas alternativen för `Ask me to choose an authenticator m
 
 1. Klicka på **[!UICONTROL Confirm]** när du är klar.
 
-   ![[!DNL Authy] verifieringskod ](./assets/storefront-2fa-authy-verify.png){width="300"}
+   ![[!DNL Authy] verifieringskod &#x200B;](./assets/storefront-2fa-authy-verify.png){width="300"}
 
 ### Steg 2: Logga in med [!DNL Authy]
 

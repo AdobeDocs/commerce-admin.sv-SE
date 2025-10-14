@@ -83,7 +83,7 @@ Gränssnittskomponenten för produktdata läggs till automatiskt baserat på mal
 
 1. **[!UICONTROL Create]** en metadataprofil för Commerce-integreringen.
 
-   ![AEM Author Admin lägger till metadataprofiler ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![AEM Author Admin lägger till metadataprofiler &#x200B;](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Lägg till en flik för Commerce-metadata.
 

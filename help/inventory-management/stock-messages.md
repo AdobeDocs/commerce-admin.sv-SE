@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Du kan använda en kombination av konfigurationsinställningar för att kontrollera tillgänglighetsmeddelanden för lager på produktsidor och i produktlistor på katalogsidor.
 
-![Grupperad produkt med meddelandet &quot;Out of Stock&quot; ](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
+![Grupperad produkt med meddelandet &quot;Out of Stock&quot; &#x200B;](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
 ## Stock-meddelanden på produktsidan
 

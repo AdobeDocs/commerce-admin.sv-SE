@@ -379,7 +379,7 @@ Priserna för presentkort och presentkort kan konfigureras så att de inkluderar
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]**.
 
-   ![Inställningar för beställningar, fakturor och kreditnotor ](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
+   ![Inställningar för beställningar, fakturor och kreditnotor &#x200B;](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
 1. Ange **[!UICONTROL Display Gift Wrapping Prices]** till något av följande:
 

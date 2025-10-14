@@ -17,7 +17,7 @@ Innehållet kan ses i termer av hållbarhet, precis som alla produkter i en buti
 
 Innehåll med lång hållbarhetstid kallas ibland _evergreen content_. Exempel på flergrönt innehåll är framgångsberättelser från kunder, _hur man_ får instruktioner och Vanliga frågor och svar. Innehåll som till sin natur är lättfördärvligt inkluderar händelser, branschnyheter och pressmeddelanden.
 
-![Sidan Om oss som ingår i Luma-exempelarkivet ](./assets/storefront-about-us.png){width="700" zoomable="yes"}
+![Sidan Om oss som ingår i Luma-exempelarkivet &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}
 
 ## Kärninnehållssidor
 
@@ -61,7 +61,7 @@ Kundtjänstsidan är en annan nod i sidhierarkin. De två rubrikerna på sidan h
 
 ## Konfigurera standardsidor
 
-Konfigurationen _Standardsidor_ avgör vilken landningssida som är associerad med [bas-URL:en](../stores-purchase/store-urls.md) och motsvarande startsida. Den avgör också vilken sida som visas när ett _Sidan hittades inte_-fel inträffar och om ett [flödeslänk ](../catalog/navigation-breadcrumb-trail.md) visas högst upp på varje sida.
+Konfigurationen _Standardsidor_ avgör vilken landningssida som är associerad med [bas-URL:en](../stores-purchase/store-urls.md) och motsvarande startsida. Den avgör också vilken sida som visas när ett _Sidan hittades inte_-fel inträffar och om ett [flödeslänk &#x200B;](../catalog/navigation-breadcrumb-trail.md) visas högst upp på varje sida.
 
 1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
 

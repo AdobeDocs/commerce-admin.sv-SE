@@ -28,7 +28,7 @@ Följande aspekter av en delad katalog måste konfigureras innan den kan använd
 
 ## Prisområde
 
-Om du har en multisiteinstallation måste du konfigurera prisomfattningen innan du skapar dina delade kataloger. Prisomfattningen [för ](../catalog/catalog-price-scope.md) kan anges till `Global` eller `Website`. Den kan dock bara ställas in i början av installationsprocessen. Webbplatsväljaren visas under steg 2 i [konfigurationen för delad katalog](catalog-shared-pricing-structure.md).
+Om du har en multisiteinstallation måste du konfigurera prisomfattningen innan du skapar dina delade kataloger. Prisomfattningen [för &#x200B;](../catalog/catalog-price-scope.md) kan anges till `Global` eller `Website`. Den kan dock bara ställas in i början av installationsprocessen. Webbplatsväljaren visas under steg 2 i [konfigurationen för delad katalog](catalog-shared-pricing-structure.md).
 
 ![Webbplatsväljaren](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
 

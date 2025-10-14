@@ -64,7 +64,7 @@ Adobe [!DNL Commerce]-datadelning innehåller två huvudkomponenter:
 
 ### Personaliserade Adobe Storefront-upplevelser i alla kanaler, i stor skala
 
-Adobe [!DNL Commerce] kan dra nytta av en högpresterande butik som kallas [ Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=sv-SE) för att leverera personaliserade upplevelser i alla kanaler, med AI-funktioner i centrum och snabbhet som grund.
+Adobe [!DNL Commerce] kan dra nytta av en högpresterande butik som kallas [&#x200B; Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=sv-SE) för att leverera personaliserade upplevelser i alla kanaler, med AI-funktioner i centrum och snabbhet som grund.
 
 Med Edge Delivery Services kan man
 

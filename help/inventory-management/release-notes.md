@@ -15,7 +15,7 @@ ht-degree: 0%
 I versionsinformationen beskrivs releaser av [!DNL Inventory Management] och här ingår:
 
 ![Nya](../assets/new.svg) nya funktioner
-![ Åtgärdat problem ](../assets/fix.svg) Korrigeringar och förbättringar
+![&#x200B; Åtgärdat problem &#x200B;](../assets/fix.svg) Korrigeringar och förbättringar
 ![Kända fel](../assets/bug.svg)
 
 [!DNL Inventory Management] är ett specialprojekt för Magento Open Source Community Engineering som är öppet för medverkande. Om du vill delta och bidra läser du [GitHub-projektet](https://github.com/magento/inventory) och [wiki](https://github.com/magento/inventory/wiki) för att komma igång. Om du vill diskutera projektet går du med i [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)-kanalen ([självregistrering](https://opensource.magento.com/slack)).
@@ -24,7 +24,7 @@ I versionsinformationen beskrivs releaser av [!DNL Inventory Management] och hä
 
 ## v1.2.7
 
-Versionsinformation för [!DNL Inventory Management] 1.2.7 finns i versionsinformationen för [core 2.4.7 ](https://experienceleague.adobe.com/sv/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+Versionsinformation för [!DNL Inventory Management] 1.2.7 finns i versionsinformationen för [core 2.4.7 &#x200B;](https://experienceleague.adobe.com/sv/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -220,9 +220,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.4 (modulversion: `inventory-composer-metapackage = 1.1.4`) stöds med version 2.3.4 och är kompatibel med version 2.3.3, 2.3.2, 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastruktur samt Magento Open Source kodbas.
 
-![Korrigerat problem ](../assets/fix.svg)**Förbättrade prestanda.** Introducerade buntlogik för CLI-kommandot för lagerreservationer för att minska minnesanvändningen och undvika fall när processen fastnar utan något svar.
+![Korrigerat problem &#x200B;](../assets/fix.svg)**Förbättrade prestanda.** Introducerade buntlogik för CLI-kommandot för lagerreservationer för att minska minnesanvändningen och undvika fall när processen fastnar utan något svar.
 
-![Nytt ](../assets/new.svg)**Ökad testtäckning.** introducerade många nya funktionstester. Nästan alla manuella inventeringsscenarier täcks av automatiserade tester.
+![Nytt &#x200B;](../assets/new.svg)**Ökad testtäckning.** introducerade många nya funktionstester. Nästan alla manuella inventeringsscenarier täcks av automatiserade tester.
 
 ![Känt fel](../assets/bug.svg) Flera korrigeringar har gjorts för att lösa problem med kreditnotor, grupperade produkter samt käll- och aktiemassåtgärder.
 
@@ -230,15 +230,15 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.3 (modulversion: `inventory-composer-metapackage = 1.1.3`) stöds med version 2.3.3 och är kompatibel med version 2.3.2, 2.3.1 och 2.3.0 av Adobe Commerce, Adobe Commerce i molninfrastrukturen och Magento Open Source kodbas.
 
-![Korrigerat problem ](../assets/fix.svg)**Bättre integrering med Adobe Commerce- och B2B-funktioner.** [!DNL Inventory Management] fungerar nu korrekt med följande funktioner för webbplatser som använder lagerkällor och lager som inte är standard:
+![Korrigerat problem &#x200B;](../assets/fix.svg)**Bättre integrering med Adobe Commerce- och B2B-funktioner.** [!DNL Inventory Management] fungerar nu korrekt med följande funktioner för webbplatser som använder lagerkällor och lager som inte är standard:
 
 - Beställ på SKU (Adobe Commerce)
 - Snabbordning (B2B)
 - Rekvisitionslistor (B2B)
 
-![Nytt ](../assets/new.svg)**Förbättrade prestanda.** Katalogbläddringsprestanda för Storefront har förbättrats för webbplatser som kör standardlagret och standardkällan för lager.
+![Nytt &#x200B;](../assets/new.svg)**Förbättrade prestanda.** Katalogbläddringsprestanda för Storefront har förbättrats för webbplatser som kör standardlagret och standardkällan för lager.
 
-![Nytt ](../assets/new.svg)**Ökad testtäckning.** Det automatiska funktions- och integreringstestets täckning har ökat avsevärt.
+![Nytt &#x200B;](../assets/new.svg)**Ökad testtäckning.** Det automatiska funktions- och integreringstestets täckning har ökat avsevärt.
 
 ## 1.1.2
 

@@ -45,7 +45,7 @@ Genom att schemalägga dessa uppgifter kan du undvika de lås som uppstår när 
 
 **_Så här aktiverar du uppdateringar och omindexering:_**
 
-[!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} När [produktionsläget ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=sv-SE#production-mode) (standardläget i Adobe Commerce i molninfrastrukturen) är aktiverat kör du följande kommando:
+[!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} När [produktionsläget &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=sv-SE#production-mode) (standardläget i Adobe Commerce i molninfrastrukturen) är aktiverat kör du följande kommando:
 
 `bin/magento config:set dev/grid/async_indexing 1`
 

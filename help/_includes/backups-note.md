@@ -16,4 +16,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**Föråldringsmeddelande:** Säkerhetskopieringsfunktionerna används inte i version 2.3.0. Alla handlare bör undersöka ytterligare säkerhetskopieringstekniker och binära säkerhetskopieringsverktyg (till exempel [[!DNL Percona XtraBackup] ](https://www.percona.com/software/mysql-database/percona-xtrabackup)).
+>**Föråldringsmeddelande:** Säkerhetskopieringsfunktionerna används inte i version 2.3.0. Alla handlare bör undersöka ytterligare säkerhetskopieringstekniker och binära säkerhetskopieringsverktyg (till exempel [[!DNL Percona XtraBackup] &#x200B;](https://www.percona.com/software/mysql-database/percona-xtrabackup)).

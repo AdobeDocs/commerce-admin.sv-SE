@@ -76,7 +76,7 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
 1. När du är klar gör du följande:
 
-   - Om du arbetar med ett helt maximerat webbläsarfönster klickar du på ikonen _Stäng helskärm_ (![Stäng helskärm ](./assets/pb-icon-reduce.png)) i det övre högra hörnet av arbetsytan.
+   - Om du arbetar med ett helt maximerat webbläsarfönster klickar du på ikonen _Stäng helskärm_ (![Stäng helskärm &#x200B;](./assets/pb-icon-reduce.png)) i det övre högra hörnet av arbetsytan.
 
    - Klicka på **[!UICONTROL Save]** om du vill använda inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
@@ -98,7 +98,7 @@ Använd innehållstypen _Produktrekommendationer_ för att lägga till en befint
 
    Dupliceringen visas precis nedanför originalet.
 
-1. Om du vill flytta den duplicerade rekommendationsenheten till en ny plats håller du pekaren över behållaren och klickar på ikonen _Flytta_ (![Flytta ](./assets/pb-icon-move.png)) i verktygslådan.
+1. Om du vill flytta den duplicerade rekommendationsenheten till en ny plats håller du pekaren över behållaren och klickar på ikonen _Flytta_ (![Flytta &#x200B;](./assets/pb-icon-move.png)) i verktygslådan.
 
 1. Markera och dra rekommendationsenheten tills den röda stödlinjen visas på den nya positionen.
 

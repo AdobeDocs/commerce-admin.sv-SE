@@ -59,7 +59,7 @@ United Parcel Service levererar både internt och internationellt. Leveransetike
 
 [!DNL United States Postal Service] levereras både nationellt och internationellt.
 
-1. Expandera ![-expanderingsväljaren ](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL USPS]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
+1. Expandera ![-expanderingsväljaren &#x200B;](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL USPS]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
 
 1. Kontrollera att **[!UICONTROL Secure Gateway URL]** är korrekt.
 
@@ -78,7 +78,7 @@ United Parcel Service levererar både internt och internationellt. Leveransetike
 
 FedEx levererar nationellt och internationellt. Lager utanför USA kan endast skapa FedEx-etiketter för internationella leveranser.
 
-1. Expandera ![-expanderingsväljaren ](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL FedEx]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
+1. Expandera ![-expanderingsväljaren &#x200B;](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL FedEx]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
 
 1. Kontrollera att följande FedEx-autentiseringsuppgifter är korrekta:
 
@@ -92,7 +92,7 @@ FedEx levererar nationellt och internationellt. Lager utanför USA kan endast sk
 
 DHL tillhandahåller internationella sjöfartstjänster.
 
-1. Expandera ![-expanderingsväljaren ](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL DHL]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
+1. Expandera ![-expanderingsväljaren &#x200B;](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL DHL]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
 
 1. Kontrollera att **[!UICONTROL Gateway URL]** är korrekt.
 

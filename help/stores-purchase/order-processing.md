@@ -14,7 +14,7 @@ ht-degree: 0%
 
 När en kund gör en beställning skapas en försäljningsorder som en tillfällig post för transaktionen. I orderrutnätet har försäljningsorder till att börja med statusen &quot;Väntande&quot; och kan annulleras när som helst tills betalningen har bearbetats. När betalningen har bekräftats kan ordern faktureras och skickas.
 
-**Steg 1: Beställ** - Utcheckningsprocessen börjar när kunden klickar på **[!UICONTROL Go to Checkout]** på kundvagnssidan eller [beställer ](reorders-allow.md) direkt från kundkontot.
+**Steg 1: Beställ** - Utcheckningsprocessen börjar när kunden klickar på **[!UICONTROL Go to Checkout]** på kundvagnssidan eller [beställer &#x200B;](reorders-allow.md) direkt från kundkontot.
 
 **Steg 2: Väntande beställning** - Den initiala försäljningsorderstatusen är `Pending`. I det här läget har betalningen inte bearbetats och ordern kan fortfarande redigeras eller annulleras. Det här läget inträffar när betalningsmetoden har konfigurerats för auktoriseringsläge.
 

@@ -146,7 +146,7 @@ För en formaterad avgränsare med specifika inställningar är det effektivare 
 
    ![Duplicerad avdelare](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. Håll pekaren över den nya delningsbehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta ](./assets/pb-icon-move.png){width="20"} ).
+1. Håll pekaren över den nya delningsbehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta &#x200B;](./assets/pb-icon-move.png){width="20"} ).
 
    ![Flytta en avdelare](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 

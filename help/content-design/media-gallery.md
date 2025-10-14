@@ -19,7 +19,7 @@ Med Adobe Commerce eller Magento Open Source 2.4 kan handlare använda den nya _
 
 >[!NOTE]
 >
->Produktbilder som lagts till i [_[!UICONTROL Images and Videos]_-produktavsnittet ](../catalog/product-image.md#upload-an-image) hanteras inte av [!DNL Media Gallery]. Endast bilder som används i produktavsnittsfälten för&#x200B;_[!UICONTROL Content]_ visas och filtreras i den nya [!DNL Media Gallery].
+>Produktbilder som lagts till i [_[!UICONTROL Images and Videos]_-produktavsnittet &#x200B;](../catalog/product-image.md#upload-an-image) hanteras inte av [!DNL Media Gallery]. Endast bilder som används i produktavsnittsfälten för&#x200B;_[!UICONTROL Content]_ visas och filtreras i den nya [!DNL Media Gallery].
 
 ## Aktivera nya [!DNL Media Gallery]
 
@@ -37,7 +37,7 @@ Med Adobe Commerce eller Magento Open Source 2.4 kan handlare använda den nya _
 
 1. När du uppmanas till det klickar du på länken **[!UICONTROL Cache Management]** i systemmeddelandet och uppdaterar den ogiltiga cachen.
 
-   [[!UICONTROL Content]-menyn ](/help/content-design/content-menu.md) visar nu det nya _[!UICONTROL Media Gallery]_-alternativet.
+   [[!UICONTROL Content]-menyn &#x200B;](/help/content-design/content-menu.md) visar nu det nya _[!UICONTROL Media Gallery]_-alternativet.
 
 >[!NOTE]
 >

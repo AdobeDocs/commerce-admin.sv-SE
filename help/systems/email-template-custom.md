@@ -162,7 +162,7 @@ Sidfoten för e-postmallen innehåller e-postmeddelandets avslutande och signatu
 
 ## Meddelandemallar
 
-Att anpassa brödtexten i varje meddelande är detsamma som att anpassa sidhuvudet eller sidfoten. Den enda skillnaden är meddelandemallen för varje aktivitet eller händelse som utlöser ett meddelande. Du kan använda mallarna som de är, eller anpassa dem så att de matchar din röst och ditt varumärke. Förutom malltexten finns det ett brett urval av tillåtna [fördefinierade ](variables-predefined.md)- och [anpassade](variables-custom.md)-variabler som du kan skapa och lägga till i mallen.
+Att anpassa brödtexten i varje meddelande är detsamma som att anpassa sidhuvudet eller sidfoten. Den enda skillnaden är meddelandemallen för varje aktivitet eller händelse som utlöser ett meddelande. Du kan använda mallarna som de är, eller anpassa dem så att de matchar din röst och ditt varumärke. Förutom malltexten finns det ett brett urval av tillåtna [fördefinierade &#x200B;](variables-predefined.md)- och [anpassade](variables-custom.md)-variabler som du kan skapa och lägga till i mallen.
 
 ### Steg 1. Läs in standardmallen
 

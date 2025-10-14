@@ -33,7 +33,7 @@ Det främsta skälet till att upprätthålla en rekvisitionslista är att det ä
 
 1. Så här ändrar du produktalternativ:
 
-   - Klicka på ikonen _Redigera_ (![Penna ](../assets/icon-edit-pencil.png)) i radobjektet.
+   - Klicka på ikonen _Redigera_ (![Penna &#x200B;](../assets/icon-edit-pencil.png)) i radobjektet.
    - Ändrar de alternativ som är nödvändiga.
    - Klicka på **[!UICONTROL Update Requisition List]**.
 

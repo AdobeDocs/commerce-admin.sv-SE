@@ -52,7 +52,7 @@ I den här övningen förutsätts att du har slutfört [Del 1: Enkel sida](1-sim
 
      ![Väljer kategoriattribut för villkoret](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
-   - Slutför delen _[!UICONTROL Category is]..._ av villkoret genom att klicka på ikonen Mer (..) och sedan på ikonen _Väljaren_ (![Väljaren ](../assets/icon-list-chooser.png)).
+   - Slutför delen _[!UICONTROL Category is]..._ av villkoret genom att klicka på ikonen Mer (..) och sedan på ikonen _Väljaren_ (![Väljaren &#x200B;](../assets/icon-list-chooser.png)).
 
      ![Definierar villkoret](./assets/pb-add-content-products-settings-condition-category-is.png){width="600" zoomable="yes"}
 
@@ -197,7 +197,7 @@ I det här steget skapar du två nya anpassade attribut som visar hur indatatype
 
    När du skapar ett anpassat attribut kan du ange den redigerare som är bäst lämpad för programmet som antingen `Page Builder` eller standard, WYSIWYG `Text Editor`.
 
-   ![[!DNL Page Builder] Indatatyp ](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] Indatatyp &#x200B;](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Advanced Attribute Properties]** och gör följande inställningar:
 

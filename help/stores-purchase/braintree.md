@@ -236,7 +236,7 @@ Gå till [Braintree Payments][1] och registrera dig för ett konto.
 
 ## Steg 11: Slutför PayPal med Braintree-inställningarna
 
-![PayPal via Braintree Settings ](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
+![PayPal via Braintree Settings &#x200B;](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
 
 1. Om du vill inkludera PayPal som ett betalningsalternativ med Braintree anger du **[!UICONTROL Enable PayPal through Braintree]** till `Yes`.
 

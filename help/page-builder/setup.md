@@ -32,7 +32,7 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 
 1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 
-1. Expandera ![Expansionsväljaren ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och verifiera att **[!UICONTROL Enable Page Builder]** är inställd på `Yes`.
+1. Expandera ![Expansionsväljaren &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och verifiera att **[!UICONTROL Enable Page Builder]** är inställd på `Yes`.
 
    ![Avancerade innehållsverktyg](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
@@ -88,7 +88,7 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 
 1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
 
-1. Expandera ![Expansionsväljaren ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och ange **[!UICONTROL Enable Page Builder]** till `No`.
+1. Expandera ![Expansionsväljaren &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och ange **[!UICONTROL Enable Page Builder]** till `No`.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Turn Off]**.
 

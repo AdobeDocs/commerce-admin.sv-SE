@@ -44,7 +44,7 @@ Din butik kan konfigureras så att den automatiskt genererar en permanent omdiri
 
 1. Hitta produkten i listan och klicka för att öppna posten.
 
-1. Expandera ![Expansionsväljaren ](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Search Engine Optimization]**.
+1. Expandera ![Expansionsväljaren &#x200B;](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Search Engine Optimization]**.
 
    ![Optimering av produktsökmotor - permanent omdirigering](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

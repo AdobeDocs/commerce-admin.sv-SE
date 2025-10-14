@@ -14,7 +14,7 @@ ht-degree: 0%
 
 _Sökmotoroptimering_ (SEO) är ett sätt att finjustera innehållet och presentationen för en webbplats för att förbättra det sätt på vilket sidorna indexeras av sökmotorer.
 
-_[!UICONTROL Search Engine Optimization]_-inställningarna för en produkt anger fälten [ URL-nyckel ](catalog-urls.md) och [ metadata ](../merchandising-promotions/meta-data.md) som används av sökmotorer för att indexera produkten. Även om vissa sökmotorer ignorerar metatangentord används de även av andra sökmotorer. Den aktuella [SEO-metoden ](../merchandising-promotions/seo-overview.md) är att infoga nyckelord med högt värde i både metatiteln och metabeskrivningen.
+_[!UICONTROL Search Engine Optimization]_-inställningarna för en produkt anger fälten [&#x200B; URL-nyckel &#x200B;](catalog-urls.md) och [&#x200B; metadata &#x200B;](../merchandising-promotions/meta-data.md) som används av sökmotorer för att indexera produkten. Även om vissa sökmotorer ignorerar metatangentord används de även av andra sökmotorer. Den aktuella [SEO-metoden &#x200B;](../merchandising-promotions/seo-overview.md) är att infoga nyckelord med högt värde i både metatiteln och metabeskrivningen.
 
 Standardvärdet för varje metadatafält kan genereras automatiskt baserat på värden som anges i konfigurationen. Varje fält innehåller en platshållare som ersätts med ett faktiskt värde. Mer information finns i [Automatisk generering av produktfält](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
 

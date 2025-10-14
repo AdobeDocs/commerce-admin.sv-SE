@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kategorier - Inställningar för sökmotoroptimering
 
-Avsnittet _[!UICONTROL Search Engine Optimization]_&#x200B;anger fälten [ URL-nyckel ](catalog-urls.md) och [ metadata ](../merchandising-promotions/meta-data.md) som används av sökmotorer för att indexera kategorin. Även om vissa sökmotorer ignorerar metatangentord används de fortfarande av andra. Det bästa sättet att använda SEO är att lägga in nyckelord med högt värde i både metatiteln och metabeskrivningen.
+Avsnittet _[!UICONTROL Search Engine Optimization]_&#x200B;anger fälten [&#x200B; URL-nyckel &#x200B;](catalog-urls.md) och [&#x200B; metadata &#x200B;](../merchandising-promotions/meta-data.md) som används av sökmotorer för att indexera kategorin. Även om vissa sökmotorer ignorerar metatangentord används de fortfarande av andra. Det bästa sättet att använda SEO är att lägga in nyckelord med högt värde i både metatiteln och metabeskrivningen.
 
 ![Sökmotoroptimering](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

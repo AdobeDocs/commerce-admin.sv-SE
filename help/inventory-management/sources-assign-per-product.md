@@ -43,7 +43,7 @@ Innan du ändrar kvantiteter och inställningar måste du tilldela [källor](sou
 1. Spara genom att göra något av följande:
 
    - Klicka på **[!UICONTROL Save]**.
-   - Välj _[!UICONTROL Save]_&#x200B;på menyn ![ (](../assets/icon-menu-down-arrow-red.png)menypil **[!UICONTROL Save & Close]**).
+   - Välj _[!UICONTROL Save]_&#x200B;på menyn ![&#x200B; (](../assets/icon-menu-down-arrow-red.png)menypil **[!UICONTROL Save & Close]**).
 
 När du har tilldelat källor uppdaterar du [lagerkvantiteten](quantities-assign-per-product.md) för varje produktkälla.
 

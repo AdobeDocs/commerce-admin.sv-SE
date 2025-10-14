@@ -51,7 +51,7 @@ Använd standardregeln *Matcha efter produktsku* för den första konfiguratione
 
 1. Ange **[!UICONTROL Asset Selector IMS Client ID]**.
 
-   [Klient-ID:t för IMS-klient ](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) för resursväljaren krävs av [!UICONTROL Assets Selector], en AEM Assets-funktion som gör att användare kan bädda in visuella resurser direkt på Commerce produktsidor.
+   [Klient-ID:t för IMS-klient &#x200B;](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) för resursväljaren krävs av [!UICONTROL Assets Selector], en AEM Assets-funktion som gör att användare kan bädda in visuella resurser direkt på Commerce produktsidor.
 
 1. Välj [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) för autentisering av begäranden mellan Commerce och tjänsten för tillgångsmatchning.
 
@@ -63,7 +63,7 @@ Använd standardregeln *Matcha efter produktsku* för den första konfiguratione
 
    1. Välj **[!UICONTROL Match by product SKU]** eller **[!UICONTROL Custom match (Requires App Builder)]**.
 
-   1. Lägg till [AEM Assets-metadatafältnamnet ](aem-assets-configure-aem.md#configure-metadata) som definierats för Commerce produkt-SKU:er i fältet **[!UICONTROL Match by product SKU attribute name]**, till exempel `commerce:skus`.
+   1. Lägg till [AEM Assets-metadatafältnamnet &#x200B;](aem-assets-configure-aem.md#configure-metadata) som definierats för Commerce produkt-SKU:er i fältet **[!UICONTROL Match by product SKU attribute name]**, till exempel `commerce:skus`.
 
 1. Välj **[!UICONTROL Save Config]** om du vill använda uppdateringar och initiera resurssynkronisering.
 

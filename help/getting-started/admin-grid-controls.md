@@ -104,4 +104,4 @@ Se till att rulla nedåt för att se alla tillgängliga kolumner.
 
    - Om du vill använda en annan vy klickar du på vyns namn.
    - Om du vill ändra namnet på en vy klickar du på ikonen _Redigera_ (![Redigera ikon](../assets/icon-edit-pencil.png)) och uppdaterar namnet.
-   - Om du vill ta bort en vy klickar du på ikonen _Redigera_ (![Redigera ](../assets/icon-edit-pencil.png)) och sedan på ikonen _Ta bort_ (![Ta bort](../assets/icon-delete-trashcan-solid.png)).
+   - Om du vill ta bort en vy klickar du på ikonen _Redigera_ (![Redigera &#x200B;](../assets/icon-edit-pencil.png)) och sedan på ikonen _Ta bort_ (![Ta bort](../assets/icon-delete-trashcan-solid.png)).

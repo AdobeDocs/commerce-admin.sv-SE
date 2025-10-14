@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Kundvagnen placeras i slutet av köpsökvägen, i skärningspunkten mellan _Köp_ och _Avbeställ_, och är en av de viktigaste sidorna i din butik. I kundvagnen beräknas ordersumman, plus rabattkuponger och beräknad frakt och moms. Det är en bra plats att visa upp märken och förseglingar och en idealisk möjlighet att erbjuda en sista artikel. Du kan välja vilka artiklar som ska erbjudas som ett impulsköp för korsförsäljning när en viss artikel visas i kundvagnen.
 
-![På kundvagnssidan visas verktyg som kunden kan använda för att hantera produkterna för sin beställning ](./assets/storefront-cart-full.png){width="700" zoomable="yes"}
+![På kundvagnssidan visas verktyg som kunden kan använda för att hantera produkterna för sin beställning &#x200B;](./assets/storefront-cart-full.png){width="700" zoomable="yes"}
 
 - Konfigurera alternativen för [kundvagnen](cart-configuration.md) för att avgöra vilka verktyg som är tillgängliga för kunderna och ändra visningen.
 - Konfigurera beteendet [kundvagnsbeständighet](cart-persistent.md) så att kunderna kan behålla innehållet i sina kundvagnar.

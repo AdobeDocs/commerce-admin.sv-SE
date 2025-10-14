@@ -32,7 +32,7 @@ Du kan till exempel definiera och ange villkoren för en prisregel som när den 
 
    - ![Magento Open Source](../assets/open-source.svg) (endast Magento Open Source) Klicka på regeln i listan för att visa sidan Regelinformation.
 
-   Här kan du ändra inställningarna för regeln (ungefär som när [en regel ](price-rules-catalog-create.md) skapas).
+   Här kan du ändra inställningarna för regeln (ungefär som när [en regel &#x200B;](price-rules-catalog-create.md) skapas).
 
 ## Filteralternativ
 

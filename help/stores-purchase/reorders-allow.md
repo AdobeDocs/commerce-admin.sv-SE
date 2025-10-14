@@ -70,7 +70,7 @@ Användaren dirigeras om till kundvagnen och alla produkter läggs till i kundva
 
 Knappen _Ändra ordning_ visas inte på sidorna _Mina beställningar_ och _Visa ordning_.
 
-![Sidan Mina beställningar ](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
+![Sidan Mina beställningar &#x200B;](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
 
 ### Sidan Ordervy
 

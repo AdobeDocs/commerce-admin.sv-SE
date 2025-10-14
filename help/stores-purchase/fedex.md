@@ -142,7 +142,7 @@ FedEx-handlarkonto och registrering för FedEx Web Services Production Access kr
 
    Den här textrutan är förinställd med ett standardmeddelande, men du kan ange ett annat meddelande som du vill ska visas om FedEx inte är tillgängligt.
 
-   ![Tillåtna leveransmetoder för FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
+   ![Tillåtna leveransmetoder för FedEx &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
 1. Ange **[!UICONTROL Ship to Applicable Countries]**:
 

@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Frontend Experience Settings]
 
-![Inställningar för Edge Experience Settings - Format för PayPal Merchant Pages ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png)<!-- zoom -->
+![Inställningar för Edge Experience Settings - Format för PayPal Merchant Pages &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

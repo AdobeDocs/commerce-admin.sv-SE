@@ -103,7 +103,7 @@ Listan med e-postmallar ordnas i bokstavsordning efter modul.
 | Mall | Konfigurationssökväg |
 |--- |--- |
 | `Assign Company Admin` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Avsnitt:** [!UICONTROL Customer-Related Emails]<br/>**Fält:** [!UICONTROL Default 'Assign Company Admin' Email] |
-| `Assign Company to Customer` | **Sida:** [!UICONTROL Customers] > [Företagskonfiguration ](../configuration-reference/customers/company-configuration.md)<br/>**Avsnitt:** [!UICONTROL Customer-Related Emails] <br/>**Fält:** [!UICONTROL Default 'Assign Company to Customer' Email] |
+| `Assign Company to Customer` | **Sida:** [!UICONTROL Customers] > [Företagskonfiguration &#x200B;](../configuration-reference/customers/company-configuration.md)<br/>**Avsnitt:** [!UICONTROL Customer-Related Emails] <br/>**Fält:** [!UICONTROL Default 'Assign Company to Customer' Email] |
 | `Company Admin Changed to Member` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Avsnitt:** [!UICONTROL Customer-Related Emails]<br/>**Fält:** [!UICONTROL Default 'Company Admin Changed To Member' Email] |
 | `Company Admin Set Inactive` | **Sida:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Avsnitt:** [!UICONTROL Customer-Related Emails]<br/>**Fält:** [!UICONTROL Default 'Customer Status Inactive' Email] |
 | `Company Invite` | n/a |

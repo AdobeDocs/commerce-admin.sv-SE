@@ -175,7 +175,7 @@ Mer information finns i [Hitta mallar, layouter och format](https://developer.ad
 
 ### Steg 1: Lägg till din IP-adress i tillåtelselista
 
-Innan du använder sökvägstips för mallar lägger du till din IP-adress i [tillåtelselista ](#client-restrictions) för att undvika störningar för kunder som handlar i butiken. När du är klar bör du rensa Commerce-cachen så att alla tips tas bort från butiken.
+Innan du använder sökvägstips för mallar lägger du till din IP-adress i [tillåtelselista &#x200B;](#client-restrictions) för att undvika störningar för kunder som handlar i butiken. När du är klar bör du rensa Commerce-cachen så att alla tips tas bort från butiken.
 
 ![Avancerad konfiguration - begränsningar för utvecklarklient](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 

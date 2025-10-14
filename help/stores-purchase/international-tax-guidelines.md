@@ -407,7 +407,7 @@ Ange följande allmänna skatteinställningar:
 
    - Avmarkera kryssrutan **[!UICONTROL Use Website]** efter varje fält,
 
-   - Uppdatera följande värden om du vill matcha webbplatsens leveransinställningar [punkt ](shipping-settings.md#point-of-origin):
+   - Uppdatera följande värden om du vill matcha webbplatsens leveransinställningar [punkt &#x200B;](shipping-settings.md#point-of-origin):
 
       - Standardland
       - Standardläge

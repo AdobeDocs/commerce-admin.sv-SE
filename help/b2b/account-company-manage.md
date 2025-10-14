@@ -310,7 +310,7 @@ Följande kolumner är tillgängliga genom att ändra [kolumnlayouten](../gettin
 | Fält | Beskrivning |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | Företagets officiella, fullständiga namn. |
-| [!UICONTROL VAT / TAX ID] | Moms- eller [momsregistreringsnummer ](../stores-purchase/vat.md) som tilldelas företaget för momsrapportering. |
+| [!UICONTROL VAT / TAX ID] | Moms- eller [momsregistreringsnummer &#x200B;](../stores-purchase/vat.md) som tilldelas företaget för momsrapportering. |
 | [!UICONTROL Reseller ID] | Återförsäljningsnumret som har tilldelats företaget för momsrapportering. |
 | [!UICONTROL Comment] | Anteckningarna om företagskontot är till för referens och visas endast från administratören. |
 
@@ -349,7 +349,7 @@ Följande kolumner är tillgängliga genom att ändra [kolumnlayouten](../gettin
 
 | Fält | Beskrivning |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Website] | Ange webbplatsomfånget [för ](../getting-started/websites-stores-views.md) för företagskontot. Standardvärdet är *[!UICONTROL Main Website]*. |
+| [!UICONTROL Website] | Ange webbplatsomfånget [för &#x200B;](../getting-started/websites-stores-views.md) för företagskontot. Standardvärdet är *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | Namnet på den företagsadministratör som hanterar företagskontot. |
 | [!UICONTROL Work Phone Number] | Telefonnumret till den företagsadministratör som hanterar företagskontot. |
 | [!UICONTROL Email] | Företagsadministratörens e-postadress kan vara samma som företagets e-postadress. Om en annan e-postadress anges skapas ett separat individuellt konto för företagsadministratören utöver företagskontot. |

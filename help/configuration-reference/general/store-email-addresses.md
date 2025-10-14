@@ -63,7 +63,7 @@ Mer information om de här konfigurationsfälten och alternativen finns i [Lagra
 
 ## Egen e-post 1
 
-![Lagra e-postadresser > Egen e-postadress ](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
+![Lagra e-postadresser > Egen e-postadress &#x200B;](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -74,7 +74,7 @@ Mer information om de här konfigurationsfälten och alternativen finns i [Lagra
 
 ## Egen e-post 2
 
-![Lagra e-postadresser > Egen e-postadress ](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
+![Lagra e-postadresser > Egen e-postadress &#x200B;](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

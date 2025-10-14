@@ -22,7 +22,7 @@ Du kan läsa in CAPTCHA igen så många gånger som behövs genom att klicka på
 
 ## Konfigurera CAPTCHA för administratören
 
-För en extra säkerhetsnivå kan du lägga till en CAPTCHA på sidan Administrera inloggning och Glömt lösenord. Administratörsanvändare kan läsa in den visade CAPTCHA-filen igen genom att klicka på ikonen _Läs in igen_ ![Läs in ](./assets/CAPTCHA-icon-reload.png) i bildens övre högra hörn. Antalet omladdningar är obegränsat.
+För en extra säkerhetsnivå kan du lägga till en CAPTCHA på sidan Administrera inloggning och Glömt lösenord. Administratörsanvändare kan läsa in den visade CAPTCHA-filen igen genom att klicka på ikonen _Läs in igen_ ![Läs in &#x200B;](./assets/CAPTCHA-icon-reload.png) i bildens övre högra hörn. Antalet omladdningar är obegränsat.
 
 ![Admin - Logga in med CAPTCHA](./assets/security-captcha-admin.png){width="300"}
 

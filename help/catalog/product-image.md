@@ -44,13 +44,13 @@ Gör något av följande om du vill överföra en bild:
 
 ### Ordna om bilder
 
-Om du vill ändra ordning på bilderna i galleriet klickar du på ikonen _[!UICONTROL Sort]_( ![Sorteringsikonen ](./assets/inventory-icon-sort.png) ) längst ned i bildrutan och drar bilden till en annan plats i rutan&#x200B;_[!UICONTROL Images And Videos]_.
+Om du vill ändra ordning på bilderna i galleriet klickar du på ikonen _[!UICONTROL Sort]_( ![Sorteringsikonen &#x200B;](./assets/inventory-icon-sort.png) ) längst ned i bildrutan och drar bilden till en annan plats i rutan&#x200B;_[!UICONTROL Images And Videos]_.
 
 ![Ändra ordning](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
 ### Ta bort en bild
 
-Om du vill ta bort en bild från galleriet klickar du på ikonen **[!UICONTROL Delete]** ( ![papperskorgen ](../assets/icon-delete-trashcan.png) ) i det övre högra hörnet av bildpanelen och klickar på **[!UICONTROL Save]**.
+Om du vill ta bort en bild från galleriet klickar du på ikonen **[!UICONTROL Delete]** ( ![papperskorgen &#x200B;](../assets/icon-delete-trashcan.png) ) i det övre högra hörnet av bildpanelen och klickar på **[!UICONTROL Save]**.
 
 ### Ange bildinformation
 
@@ -146,7 +146,7 @@ Den vattenstämpel som används för bilden _small_ i följande exempel är en s
 
 ### Ta bort en vattenstämpel
 
-1. Klicka på ikonen **[!UICONTROL Delete]** ( ![papperskorgen ](../assets/icon-delete-trashcan-solid.png) ) i bildens nedre vänstra hörn.
+1. Klicka på ikonen **[!UICONTROL Delete]** ( ![papperskorgen &#x200B;](../assets/icon-delete-trashcan-solid.png) ) i bildens nedre vänstra hörn.
 
    ![Ta bort vattenstämpel](./assets/product-image-watermark-delete.png){width="300"}
 

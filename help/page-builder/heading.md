@@ -141,7 +141,7 @@ För en formaterad rubrik med specifika inställningar är det effektivare att d
 
    ![Duplicera en rubrikbehållare](./assets/pb-elements-heading-duplicate.png){width="500" zoomable="yes"}
 
-1. Håll pekaren över den nya rubrikbehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta ](./assets/pb-icon-move.png){width="20"} ).
+1. Håll pekaren över den nya rubrikbehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta &#x200B;](./assets/pb-icon-move.png){width="20"} ).
 
    ![Flytta en rubrik](./assets/pb-elements-heading-move.png){width="500" zoomable="yes"}
 

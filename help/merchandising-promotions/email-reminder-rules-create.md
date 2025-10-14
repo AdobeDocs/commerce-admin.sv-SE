@@ -66,7 +66,7 @@ Innan du konfigurerar en påminnelseregel för e-post måste du först [ställa 
 
 1. Välj **[!UICONTROL Emails and Labels]** i panelen till vänster.
 
-   ![Regel för påminnelse via e-post - mallar för e-post och etiketter ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Regel för påminnelse via e-post - mallar för e-post och etiketter &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. I avsnittet **[!UICONTROL Email Templates]** väljer du den e-postmall som ska användas för varje webbplats och butiksvy i din [butikshierarki](../getting-started/websites-stores-views.md).
 

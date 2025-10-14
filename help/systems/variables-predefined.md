@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Använd fördefinierade variabler
 
-[Fördefinierade ](variables-predefined.md)-variabler gör det enkelt att anpassa mallar för [e-post](email-templates.md), [nyhetsbrev](../merchandising-promotions/newsletters.md) och andra typer av innehåll. Listan med tillåtna [fördefinierade](variables-predefined.md) variabler visas när du klickar på knappen Infoga variabel. Som framgår av bilden nedan bestäms listan med tillgängliga variabler för en viss e-postmall av de data som är kopplade till mallen. I [Variabelreferens](variables-reference.md) finns en lista över e-postmallar som används ofta och tillhörande variabler.
+[Fördefinierade &#x200B;](variables-predefined.md)-variabler gör det enkelt att anpassa mallar för [e-post](email-templates.md), [nyhetsbrev](../merchandising-promotions/newsletters.md) och andra typer av innehåll. Listan med tillåtna [fördefinierade](variables-predefined.md) variabler visas när du klickar på knappen Infoga variabel. Som framgår av bilden nedan bestäms listan med tillgängliga variabler för en viss e-postmall av de data som är kopplade till mallen. I [Variabelreferens](variables-reference.md) finns en lista över e-postmallar som används ofta och tillhörande variabler.
 
 ![Fördefinierade variabler för e-postmallen](./assets/email-template-new-pickup-order-predefined-variables.png){width="700" zoomable="yes"}
 

@@ -16,7 +16,7 @@ Kärnan i [!DNL Inventory Management] spårar alla tillgängliga produkter prakt
 
 >[!NOTE]
 >
->Mer information om att arbeta med [-systemet med programkod finns i ](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)utvecklardokumentationen[!DNL Inventory Management].
+>Mer information om att arbeta med [-systemet med programkod finns i &#x200B;](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)utvecklardokumentationen[!DNL Inventory Management].
 
 ## Source Selection Algorithm
 

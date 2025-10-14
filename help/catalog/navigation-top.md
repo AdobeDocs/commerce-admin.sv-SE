@@ -56,7 +56,7 @@ Om du vill att en kategori ska visas i den översta navigeringen i en butik utf�
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.
 
-För en multibutiksinstallation kan en annan huvudmeny tilldelas som [rotkategori ](category-root.md) för varje [butik](../stores-purchase/stores.md#add-stores).
+För en multibutiksinstallation kan en annan huvudmeny tilldelas som [rotkategori &#x200B;](category-root.md) för varje [butik](../stores-purchase/stores.md#add-stores).
 
 ### Steg 2: Ange djupet för den översta navigeringen
 
