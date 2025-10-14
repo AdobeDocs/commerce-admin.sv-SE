@@ -15,7 +15,7 @@ ht-degree: 0%
 Versionsinformationen för B2B-tillägget innehåller tillägg och korrigeringar som Adobe har lagt till under en releasecykel, inklusive:
 
 ![Nya](../assets/new.svg) nya funktioner
-![ Åtgärdat problem ](../assets/fix.svg) Korrigeringar och förbättringar
+![&#x200B; Åtgärdat problem &#x200B;](../assets/fix.svg) Korrigeringar och förbättringar
 ![Kända fel](../assets/bug.svg)
 
 >[!NOTE]
@@ -92,9 +92,9 @@ Den här förbättringen bygger på B2B 1.5.0:s funktioner för medlemskap för 
 
 ![Ett problem har korrigerats](../assets/fix.svg) I B2B v1.5.2-versionen finns följande korrigeringar för överlåtbara offerter:
 
-- <!-- B2B-3252 -->Fältet [!UICONTROL Line Item Discount Amount] validerar indata för att förhindra att negativa rabattvärden anges.
-- <!-- B2B-3224 -->Korrigerade ett användarupplevelseproblem där anteckningar för långradsobjekt trunkerades och var svåra att läsa för B2B-kunder.
-- <!-- B2B-2865 -->B2B-kunder kan nu ange produktkvantiteter med hjälp av decimalvärden (till exempel 1.5 eller 2.75) när de skapar offerter.
+- &#x200B;<!-- B2B-3252 -->Fältet [!UICONTROL Line Item Discount Amount] validerar indata för att förhindra att negativa rabattvärden anges.
+- &#x200B;<!-- B2B-3224 -->Korrigerade ett användarupplevelseproblem där anteckningar för långradsobjekt trunkerades och var svåra att läsa för B2B-kunder.
+- &#x200B;<!-- B2B-2865 -->B2B-kunder kan nu ange produktkvantiteter med hjälp av decimalvärden (till exempel 1.5 eller 2.75) när de skapar offerter.
 
 ### Offertmall
 
@@ -138,7 +138,7 @@ B2B v1.5.1-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
 *30 oktober 2024*
 
-[!BADGE Säkerhetsuppdateringar som stöds i ]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.7-p3+ och 2.4.6-p8+.
+[!BADGE Säkerhetsuppdateringar som stöds i &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.7-p3+ och 2.4.6-p8+.
 Kompatibel med Adobe Commerce version 2.4.8-beta1, 2.4.7 till 2.4.7-p2, 2.4.6 till 2.4.6-p7.
 
 Adobe Commerce B2B version 1.5.0 är även kompatibel med PHP 8.3 och stöder [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
@@ -221,7 +221,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *14 oktober 2025*
 
-[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p8+ och 2.4.6-p13+.
+[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p8+ och 2.4.6-p13+.
 
 ![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
@@ -231,7 +231,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *12 augusti 2025*
 
-[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p7+ och 2.4.6-p12+.
+[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p7+ och 2.4.6-p12+.
 
 ![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
@@ -241,7 +241,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *10 juni 2025*
 
-[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p6+ och 2.4.6-p11+.
+[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p6+ och 2.4.6-p11+.
 
 ![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
 
@@ -263,7 +263,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *11 februari 2025*
 
-[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p4+ och 2.4.6-p9+.
+[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p4+ och 2.4.6-p9+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p4+ och 2.4.6-p9+ har lagts till.
 
@@ -275,7 +275,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *8 oktober 2024*
 
-[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p3+ och 2.4.6-p8+.
+[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p3+ och 2.4.6-p8+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p3+ och 2.4.6-p8+ har lagts till.
 
@@ -285,7 +285,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 ## B2B v1.4.2-p2
 
-[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p2+ och 2.4.6-p7+.
+[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p2+ och 2.4.6-p7+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p2+ och 2.4.6-p7+ har lagts till.
 
@@ -297,7 +297,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *9 augusti 2024*
 
-[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p1+ och 2.4.6-p6+.
+[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p1+ och 2.4.6-p6+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p1+ och 2.4.6-p6+ har lagts till.
 
@@ -707,7 +707,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Korrigerat problem](../assets/fix.svg) <!--- MC-40426--> Merchants kan nu använda POST `rest/all/V1/requisition_lists`-slutpunkten för att skapa en rekvisitionslista för en kund. Tidigare inträffade detta 400-fel i Adobe Commerce när du försökte skapa en rekvisitionslista: `Could not save Requisition List`.
 
-![Ett problem har korrigerats](../assets/fix.svg) <!--- MC-41123--> Knappen **[!UICONTROL Add to Requisition List]** visas nu för en kundvagns produkter i lager när vagnen även innehåller produkter som inte finns i lager. Tidigare visades inte knappen _[!UICONTROL Add to Requisition List]_för någon av produkterna om en varukorg innehöll två produkter, varav en inte fanns i lager.
+![Ett problem har korrigerats](../assets/fix.svg) <!--- MC-41123--> Knappen **[!UICONTROL Add to Requisition List]** visas nu för en kundvagns produkter i lager när vagnen även innehåller produkter som inte finns i lager. Tidigare visades inte knappen _[!UICONTROL Add to Requisition List]_&#x200B;för någon av produkterna om en varukorg innehöll två produkter, varav en inte fanns i lager.
 
 ![Korrigerat problem](../assets/fix.svg) <!--- MC-40877--> Du kan nu använda REST API för att lägga till en produkt i en rekvisitionslista.
 
@@ -865,7 +865,7 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Korrigerat problem](../assets/fix.svg) Du kan nu implementera multileverans för order som innehåller både fysiska och virtuella produkter. <!--- MC-33818-->
 
-![Korrigerat problem](../assets/fix.svg) Merchants kan nu skapa företagsanvändare från avsnittet _[!UICONTROL Company Users]_på sidorna Mitt konto och Företagsstruktur när **[!UICONTROL Access Restriction]**är aktiverat och **[!UICONTROL Restriction Mode]**är inställd på `Sales: Login Only`. Tidigare inträffade det här felet i Adobe Commerce när en handlare försökte skapa en användare: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![Korrigerat problem](../assets/fix.svg) Merchants kan nu skapa företagsanvändare från avsnittet _[!UICONTROL Company Users]_&#x200B;på sidorna Mitt konto och Företagsstruktur när **[!UICONTROL Access Restriction]**&#x200B;är aktiverat och **[!UICONTROL Restriction Mode]**&#x200B;är inställd på `Sales: Login Only`. Tidigare inträffade det här felet i Adobe Commerce när en handlare försökte skapa en användare: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 ![Korrigerat problem](../assets/fix.svg) Adobe Commerce återställer inte längre en kunds kundgrupp till standardvärdet när en kund sparar sin kontoinformation. <!--- MC-33554-->
 
@@ -931,7 +931,7 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Ett problem har korrigerats](../assets/fix.svg). När en kund flyttats till en annan kundgrupp gick det inte att lägga till en produkt i en beställning med _Snabbordning_. Problemet har åtgärdats.
 
-![Ett fel ](../assets/fix.svg) har korrigerats vid försök att checka ut med WebAPI med ett B2B-citattecken. Ett felaktigt värde skickades till API:t, vilket orsakade att ett fel uppstod. Problemet har åtgärdats.
+![Ett fel &#x200B;](../assets/fix.svg) har korrigerats vid försök att checka ut med WebAPI med ett B2B-citattecken. Ett felaktigt värde skickades till API:t, vilket orsakade att ett fel uppstod. Problemet har åtgärdats.
 
 ![Ett fel har korrigerats](../assets/fix.svg) Tidigare uppstod ett fel när ett företag ställdes in på &quot;Active&quot; via API:t. Problemet har nu åtgärdats.
 
