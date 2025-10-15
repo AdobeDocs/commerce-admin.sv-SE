@@ -30,7 +30,7 @@ Adobe har massor av affärsresurser, tekniska resurser, självhjälpsverktyg och
 {style="table-layout:auto"}
 
 [1]: https://experienceleague.adobe.com/docs/commerce.html?lang=sv-SE
-[3]: https://business.adobe.com/resources/main.html?Products+%26+Services=Commerce%252CCommerce%2520Cloud
+[3]: https://business.adobe.com/se/resources/main.html?Products+%26+Services=Commerce%252CCommerce%2520Cloud
 [4]: https://helpx.adobe.com/se/security.html
 [5]: https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf
 [6]: https://community.magento.com/
@@ -38,5 +38,5 @@ Adobe har massor av affärsresurser, tekniska resurser, självhjälpsverktyg och
 [8]: https://www.adobe.com/events.html
 [9]: https://marketplace.magento.com/
 [10]: https://learning.adobe.com/catalog.html?solution=Adobe%20Commerce
-[12]: https://business.adobe.com/products/magento/partners.html
-[13]: https://business.adobe.com/products/magento/fully-managed-service.html
+[12]: https://business.adobe.com/se/products/magento/partners.html
+[13]: https://business.adobe.com/se/products/magento/fully-managed-service.html

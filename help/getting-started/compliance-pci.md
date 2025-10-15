@@ -48,5 +48,5 @@ Mer information finns i [Adobe-strategi för PCI-kompatibilitet][1]{:target=&quo
 
 Efterhand som ert företag växer kan ni behöva lämna in en årlig rapport om regelefterlevnaden. Kraven på PCI-rapportering ökar i proportion till handlarnivån, men gäller inte för företag som bearbetar färre än 20 000 kreditkortstransaktioner per år. Mer information finns på webbplatsen [PCI Security Standards Council][2].
 
-[1]: https://business.adobe.com/products/magento/pci-compliance.html
+[1]: https://business.adobe.com/se/products/magento/pci-compliance.html
 [2]: https://www.pcisecuritystandards.org/index.php

@@ -20,7 +20,7 @@ Adobe Commerce B2B-tillägget `magento/extension-b2b` är tillgängligt för all
 
 ## Krav
 
-- [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html), alla versioner som stöds
+- [Adobe Commerce](https://business.adobe.com/se/products/magento/magento-commerce.html), alla versioner som stöds
 - PHP 8.1, 8.2 och 8.3 (kräver B2B 1.5.0)
 - [!DNL Composer]
 

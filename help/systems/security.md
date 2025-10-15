@@ -40,4 +40,4 @@ Om du misstänker att din Adobe Commerce- eller Magento Open Source-webbplats ä
 
 1. **Rapport**: Om du tror att du har hittat en specifik säkerhetslucka i Commerce [öppnar du ett problem med Adobe](https://hackerone.com/adobe?type=team) och inkluderar teknisk information.
 
-1. **Uppgradera**: Om du vill känna dig extra trygg som supporten dygnet runt kan du planera din uppgradering till [Adobe Commerce på vår molnarkitektur](https://business.adobe.com/products/magento/cloud-delivery.html) nu.
+1. **Uppgradera**: Om du vill känna dig extra trygg som supporten dygnet runt kan du planera din uppgradering till [Adobe Commerce på vår molnarkitektur](https://business.adobe.com/se/products/magento/cloud-delivery.html) nu.

@@ -16,7 +16,7 @@ Studier visar att butiker som erbjuder kunder ett urval av flera leveransmetoder
 
 >[!NOTE]
 >
->Stödet för [!DNL Magento Shipping] har tagits bort i 2.4.0 på grund av att Temando stängts av. Detaljerad statusinformation och rekommendationer för nya leveransimplementeringar i Commerce finns på sidan [produktinformation](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} .
+>Stödet för [!DNL Magento Shipping] har tagits bort i 2.4.0 på grund av att Temando stängts av. Detaljerad statusinformation och rekommendationer för nya leveransimplementeringar i Commerce finns på sidan [produktinformation](https://business.adobe.com/se/products/magento/shipping.html){:target="_blank"} .
 
 ## Grundläggande leveransmetoder
 
