@@ -99,7 +99,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > Om du tänker använda det här attributet som en aspekt i Live Search måste du ange en butiksspecifik etikett. Utan det kanske attributnamnet inte visas korrekt på sidan med ansiktskonfigurationer. Om du vill uppdatera konfigurationen redigerar du etiketten manuellt med alternativet [redigera i Live Search-faktablad](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) i _Live Search-guiden_.
+   > Om du tänker använda det här attributet som en aspekt i Live Search måste du ange en butiksspecifik etikett. Utan det kanske attributnamnet inte visas korrekt på sidan med ansiktskonfigurationer. Om du vill uppdatera konfigurationen redigerar du etiketten manuellt med alternativet [redigera i Live Search-faktablad](https://experienceleague.adobe.com/sv/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) i _Live Search-guiden_.
 
 ## Steg 5: Beskriv egenskaperna för butiken
 
