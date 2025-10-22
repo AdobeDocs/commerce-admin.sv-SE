@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Skapa och ta bort produktattribut
 
-Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONTROL Product Attributes]_. I följande steg visas hur du skapar attribut på menyn_[!UICONTROL Stores]_.
+Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONTROL Product Attributes]_. I följande steg visas hur du skapar attribut på menyn&#x200B;_[!UICONTROL Stores]_.
 
 ## Steg 1: Beskriv de grundläggande attributegenskaperna
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Product]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_&#x200B;Admin **[!UICONTROL Product]**.
 
 1. Klicka på **[!UICONTROL Add New Attribute]**.
 
@@ -48,7 +48,7 @@ Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONT
 
 1. Gör följande för indatatyperna [!UICONTROL Dropdown] och [!UICONTROL Multiple Select]:
 
-   - Klicka på _[!UICONTROL Manage Options]_under **[!UICONTROL Add Option]**.
+   - Klicka på _[!UICONTROL Manage Options]_&#x200B;under **[!UICONTROL Add Option]**.
 
    - Ange det första värdet som du vill ska visas i listan.
 
@@ -179,7 +179,7 @@ Innan du tar bort ett attribut bör du kontrollera att det inte används av någ
 
 **_Ta bort ett attribut:_**
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Product]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_&#x200B;Admin **[!UICONTROL Product]**.
 
 1. Leta reda på attributet i listan och öppna i redigeringsläge.
 
