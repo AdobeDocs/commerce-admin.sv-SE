@@ -3,9 +3,9 @@ title: Lägga till attribut i en produkt
 description: Lär dig hur du lägger till attribut till produkter i din katalog.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
+source-git-commit: 45d69ccc1a5a6a7b8d072465c19829a76dde826d
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ![Attributegenskaper](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. Under _[!UICONTROL Attribute Properties]_&#x200B;anger du ett **[!UICONTROL Attribute Label]**&#x200B;för att identifiera attributet.
+1. Under _[!UICONTROL Attribute Properties]_anger du ett **[!UICONTROL Attribute Label]**för att identifiera attributet.
 
 1. Ange **[!UICONTROL Catalog Input Type for Store Owner]** till typen för [indatakontroll](attributes-input-types.md) som ska användas för datainmatning.
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. Gör följande för indatatyperna `Dropdown` och `Multiple Select`:
 
-   - Klicka på **[!UICONTROL Add Value]** under **[!UICONTROL Values]**.
+   - Klicka på **[!UICONTROL Values]** under **[!UICONTROL Add Value]**.
 
    - Ange det första värdet som du vill ska visas i listan.
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. Om du vill kunna ta med attributet som en kolumn i rutnätet Produkter anger du **[!UICONTROL Add to Column Options]** till `Yes`.
 
-1. Om du vill kunna filtrera stödrastret _[!UICONTROL Products]_&#x200B;efter den här kolumnen anger du **[!UICONTROL Use in Filter Options]**&#x200B;till `Yes`.
+1. Om du vill kunna filtrera stödrastret _[!UICONTROL Products]_efter den här kolumnen anger du **[!UICONTROL Use in Filter Options]**till `Yes`.
 
 ## Steg 4: Ange fältetiketten
 
@@ -96,6 +96,10 @@ ht-degree: 0%
    Om din butik finns på olika språk kan du ange en översatt titel för varje vy.
 
    ![Hantera titlar](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   > Om du tänker använda det här attributet som en aspekt i Live Search måste du ange en butiksspecifik etikett. Utan det kanske attributnamnet inte visas korrekt på sidan med ansiktskonfigurationer. Om du vill uppdatera konfigurationen redigerar du etiketten manuellt med alternativet [redigera i Live Search-faktablad](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) i _Live Search-guiden_.
 
 ## Steg 5: Beskriv egenskaperna för butiken
 
@@ -115,7 +119,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >När inställningen _[!UICONTROL Use in Search]_&#x200B;är inställd på `No` visas inte inställningen&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ och produktattributet används inte i sökningen med något [!UICONTROL Use in Layered Navigation]-inställningsvärde.
+   >När inställningen _[!UICONTROL Use in Search]_är inställd på `No` visas inte inställningen_[!UICONTROL Use in Search Results Layered Navigation]_ och produktattributet används inte i sökningen med något [!UICONTROL Use in Layered Navigation]-inställningsvärde.
 
 1. Om du vill använda attributet i lageruppbyggd navigering på sökresultatsidor anger du **[!UICONTROL Use in Search Results Layered Navigation]** till `Yes` och anger ett tal i fältet **[!UICONTROL Position]**.
 
@@ -123,13 +127,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Fältet _[!UICONTROL Position]_&#x200B;är som standard nedtonat och du måste spara attributet innan du kan ändra den här inställningen.
+   >Fältet _[!UICONTROL Position]_är som standard nedtonat och du måste spara attributet innan du kan ändra den här inställningen.
 
 1. Om du vill använda attributet i prisregler anger du **[!UICONTROL Use for Promo Rule Conditions]** till `Yes`.
 
 1. Om du vill tillåta att texten formateras med HTML anger du **[!UICONTROL Allow HTML Tags on Storefront]** till `Yes`.
 
-   Den här inställningen gör WYSIWYG-redigeraren tillgänglig när du redigerar fältet.
+   Med den här inställningen blir WYSIWYG-redigeraren tillgänglig när du redigerar fältet.
 
 1. Om du vill ta med attributet på produktsidan anger du **[!UICONTROL Visible on Catalog Pages on Storefront]** till `Yes`.
 

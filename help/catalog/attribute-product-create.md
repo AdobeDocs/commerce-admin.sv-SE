@@ -3,20 +3,20 @@ title: Skapa och ta bort produktattribut
 description: Lär dig hur du skapar och tar bort produktattribut, som används för att beskriva specifika egenskaper för produkterna i din katalog.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
+source-git-commit: ab91c19cda6a89219fc8946dad4a0a70d0991b38
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
 
 # Skapa och ta bort produktattribut
 
-Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONTROL Product Attributes]_. I följande steg visas hur du skapar attribut på menyn&#x200B;_[!UICONTROL Stores]_.
+Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONTROL Product Attributes]_. I följande steg visas hur du skapar attribut på menyn_[!UICONTROL Stores]_.
 
 ## Steg 1: Beskriv de grundläggande attributegenskaperna
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Product]**.
 
 1. Klicka på **[!UICONTROL Add New Attribute]**.
 
@@ -31,7 +31,7 @@ Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONT
    | `Text Field` | Ett enradigt inmatningsfält för text. |
    | `Text Area` | Ett inmatningsfält med flera rader för att skriva textstycken, som en produktbeskrivning. Du kan använda WYSIWYG Editor för att formatera texten med HTML-taggar eller ange taggarna direkt i texten. |
    | `Text Editor` | En fullt fungerande textredigerare på attributplatsen. |
-   | Datum | Visar ett datumvärde i det [önskade formatet](attributes-input-types.md#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**&#x200B;Beroende på systemkonfigurationen kan_Admin _-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](attributes-input-types.md#date-and-time-options). |
+   | Datum | Visar ett datumvärde i det [önskade formatet](attributes-input-types.md#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!:_** Beroende på systemkonfigurationen kan _Admin_-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Visar en nedrullningsbar lista med fördefinierade alternativ för `Yes` och `No`. |
    | `Dropdown` | Visar en nedrullningsbar lista med värden som endast accepterar ett val. Indatatypen för listrutan är en nyckelkomponent för [konfigurerbara produkter](product-create-configurable.md). |
    | `Multiple Select` | Visar en nedrullningsbar lista med värden som accepterar flera val. |
@@ -48,7 +48,7 @@ Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONT
 
 1. Gör följande för indatatyperna [!UICONTROL Dropdown] och [!UICONTROL Multiple Select]:
 
-   - Klicka på **[!UICONTROL Add Option]** under _[!UICONTROL Manage Options]_.
+   - Klicka på _[!UICONTROL Manage Options]_under **[!UICONTROL Add Option]**.
 
    - Ange det första värdet som du vill ska visas i listan.
 
@@ -103,6 +103,10 @@ Du kan skapa attribut när du arbetar med en produkt eller från sidan _[!UICONT
    Om din butik finns på olika språk kan du ange en översatt titel för varje vy.
 
    ![Produktattribut - hantera titlar](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   > Om du tänker använda det här attributet som en aspekt i Live Search måste du ange en butiksspecifik etikett. Utan det kanske attributnamnet inte visas korrekt på sidan med ansiktskonfigurationer. Om du vill uppdatera konfigurationen redigerar du etiketten manuellt med alternativet [redigera i Live Search-faktablad](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) i _Live Search-guiden_.
 
 ## Steg 4: Beskriv egenskaperna för butiken
 
@@ -173,9 +177,9 @@ När ett attribut tas bort tas det bort från alla relaterade produkter och attr
 
 Innan du tar bort ett attribut bör du kontrollera att det inte används av någon produkt i katalogen. Ett enkelt sätt att avgöra om ett attribut används är att använda verktyget [Exportera](../systems/data-export.md) för att kontrollera listan med produktentitetsattribut. Om attributet inte finns med i listan används det inte av några produkter i katalogen.
 
-**_Så här tar du bort ett attribut:_**
+**_Ta bort ett attribut:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Product]**.
 
 1. Leta reda på attributet i listan och öppna i redigeringsläge.
 
