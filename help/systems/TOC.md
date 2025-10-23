@@ -5,9 +5,9 @@ breadcrumb-title: Handbok för adminsystem
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c200a46a30d51b4844fff24d864b629b8400f33
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
    - [Hantera användarkonton](permissions-users-all.md)
    - [Användarroller](permissions-user-roles.md)
 - [Systemmeddelanden](notifications.md)
-- Variabler {#variables}
+- Variabel {#variables}
    - [Fördefinierade variabler](variables-predefined.md)
    - [Egna variabler](variables-custom.md)
    - [Variabelreferens](variables-reference.md)
@@ -48,7 +48,9 @@ ht-degree: 0%
       - [Importera nedladdningsbara produkter](data-transfer-downloadable-products.md)
       - [Importera skiktprisdata](data-import-price-tier.md)
    - [Schemalagd import och export](data-scheduled-import-export.md)
-   - [Instrumentpanel för datahantering](data-dashboard.md)
+   - Datasynkronisering för Commerce-tjänster {#data-sync}
+      - [Instrumentpanel för datahantering](data-dashboard.md)
+      - [Synkroniseringsstatus för datafeed](data-feed-sync-status.md)
 - Åtgärdsloggar {#action-logs}
    - [Ökning](action-log.md)
    - [Åtgärdsloggrapport](action-log-report.md)
@@ -77,6 +79,6 @@ ht-degree: 0%
    - [Sessionshantering](security-session-management.md)
    - [Identifiering av webbläsarfunktioner](security-browser-capabilities-detection.md)
    - [Rapportering av säkerhetsproblem](security-issue-reporting.md)
-- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 
