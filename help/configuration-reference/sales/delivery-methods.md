@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] i Commerce Admin.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '3792'
+source-wordcount: '4148'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![Platt hastighet](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![Fri frakt](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![Tabellavgifter](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![Butiksleverans](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Inställningar för UPS XML-konto](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ![Information om UPS-paket](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -147,19 +147,19 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | Webbplats | Anger den minsta vikt som ett paket kan ha enligt UPS-inställningarna. Om de beställda produkterna väger mindre än den minsta paketvikten är detta fraktalternativ inte tillgängligt. Kontrollera med din fraktfirma om du vill kontrollera minimivikten. |
 | [!UICONTROL Calculate Handling Fee] | Webbplats | Anger beräkningsmetoden för hanteringsavgift för tabellradsleverans. Alternativ: <br>**`Fixed`**- Hanteringsavgiften är en fast avgift.<br>**`Percent`** - Hanteringsavgift används som en procentandel av orderbeloppet. |
 | [!UICONTROL Handling Applied] | Webbplats | Anger om hanteringsavgift tillämpas på varje order eller på varje paket i en order. |
-| [!UICONTROL Handling Fee] | Webbplats | Anger den hantering som ingår i fraktpriset. Hanteringsavgift kan anges som ett fast belopp eller som en procentandel. <br/><br/>**_Obs!_**&#x200B;Om du anger ett procentvärde använder du decimalformatet `0.25` för 25 %. |
+| [!UICONTROL Handling Fee] | Webbplats | Anger den hantering som ingår i fraktpriset. Hanteringsavgift kan anges som ett fast belopp eller som en procentandel. <br/><br/>**_Obs!:_** Om du anger ett procentvärde använder du decimalformatet `0.25` för 25 %. |
 
 {style="table-layout:auto"}
 
 ![Tillåtna UPS-metoder](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Webbplats | Anger vilka UPS-leveransmetoder som erbjuds kunderna. Fraktsatser beräknas på den valda leveransmetoden. |
-| [!UICONTROL Free Method] | Webbplats | Identifierar den metod som används för kostnadsfri frakt via UPS. Om du vill inaktivera fri frakt väljer du Ingen. <br/><br/>**_Obs!_**&#x200B;Den här metoden liknar grundläggande [Fri frakt](../../stores-purchase/shipping-free.md), men den visas som ett UPS-leveransalternativ vid utcheckning. |
+| [!UICONTROL Free Method] | Webbplats | Identifierar den metod som används för kostnadsfri frakt via UPS. Om du vill inaktivera fri frakt väljer du Ingen. <br/><br/>**_Obs!:_** Den här metoden liknar grundläggande [Fri frakt](../../stores-purchase/shipping-free.md), men den visas som ett UPS-leveransalternativ vid utcheckning. |
 | [!UICONTROL Free Shipping Amount Threshold] | Webbplats | Anger om fri frakt ska användas när orderbeloppet når tröskelvärdet för fri frakt. Alternativ: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Webbplats | Anger det minsta totala beloppet som en order måste uppnå för att få fri frakt. |
 | [!UICONTROL Displayed Error Message] | Butiksvy | Felmeddelandet som visas när den här leveransmetoden inte är tillgänglig av någon anledning. |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ![UPS-länder och andra inställningar](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -195,9 +195,26 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
+Följande fält är bara tillgängliga om du har tillämpat kvalitetskorrigeringen [USPS REST API Migration quality patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html) (AC-1520). Den här korrigeringen har stöd för USPS API:er, en REST-baserad plattform som ersätter API:erna för webbverktyg. Mer information finns i [API-borttagning för USPS-webbverktyg](../../stores-purchase/carriers.md).
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL USPS Type] | Webbplats | Välj **USPS Rest API:er** eller **USPS Web Tools API** baserat på vilket som ska användas. |
+| [!UICONTROL Consumer Key] | Webbplats | Klient-ID för ditt USPS-avdelarkonto för REST API. |
+| [!UICONTROL Consumer Secret] | Webbplats | Klienthemlig nyckel för USPS-avsändarkontot för REST API. |
+| [!UICONTROL Account Type] | Webbplats | Typ av USPS-betalkonto. Alternativ: `"EPS"` (Enterprise Payment System) eller `"PERMIT"` (Permit Imprint) för REST API. <br/><br/>**_Obs!:_** Det här fältet är valfritt, men du måste aktivera skapande av leveransetiketter. |
+| [!UICONTROL Pricing Options] | Webbplats | Prisalternativ för USPS: **Detaljhandel** eller **Företag**. Påverkar den fraktkostnad som används. Standardvärdet är **Commercial** för REST API. |
+| [!UICONTROL Account Number] | Webbplats | Ditt USPS **kontonummer**, som används för betalning för REST API.  <br/><br/>**_Obs!:_** Det här fältet är valfritt, men du måste aktivera skapande av leveransetiketter. |
+| [!UICONTROL Customer Registration Identifier(CRID)] | Webbplats | Ett kundregistrerings-ID-nummer (CRID) är en USPS-genererad numerisk kod som unikt identifierar ett företag på en plats för REST API.  <br/><br/>**_Obs!:_** Det här fältet är valfritt, men du måste aktivera skapande av leveransetiketter. |
+| [!UICONTROL Mailer Identifier(MID)] | Webbplats | Mailer Identifier (MID) är ett fält i den intelligenta e-poststreckkoden som används för att identifiera e-postmeddelanden. MID:n tilldelas av USPS till en e-postägare, e-postagent eller annan tjänsteleverantör som begär dem för REST API.  <br/><br/>**_Obs!:_** Det här fältet är valfritt, men du måste aktivera skapande av leveransetiketter. |
+| [!UICONTROL Manifest MID] | Webbplats | Den unika identifieraren för e-post som har angetts för manifestet för REST API.  <br/><br/>**_Obs!:_** Det här fältet är valfritt, men du måste aktivera skapande av leveransetiketter. |
+| [!UICONTROL AES/ITN] | Webbplats | USPS AES - Automated Export System/ITN - Internal Transaction Number for REST API. <br/><br/>**_Obs!:_** Det här fältet är vanligtvis valfritt, men måste aktiveras för att skapa leveransetiketter om: <ul><li>Varje typ av varor i leveransen (enligt definition i Schedule B Export Codes på <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>) värderas till 2 500 USD eller mindre och kräver ingen exportlicens.</li><li>Leveransen, oavsett värde, skickas till Kanada och kräver ingen exportlicens.</li></ul> |
+
+{style="table-layout:auto"}
+
 ![Inställningar för USPS-paketering](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -212,26 +229,26 @@ ht-degree: 0%
 
 ![Avgiftsinställningar för USPS-hantering](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Webbplats | Anger beräkningsmetoden för hanteringsavgift för tabellradsleverans. Alternativ: <br/>**`Fixed`**- Hanteringsavgiften är en fast avgift.<br/>**`Percent`** - Hanteringsavgift används som en procentandel av orderbeloppet. |
 | [!UICONTROL Handling Applied] | Webbplats | Anger om hanteringsavgift tillämpas på varje order eller på varje paket i en order. |
-| [!UICONTROL Handling Fee] | Webbplats | Anger den hantering som ingår i fraktpriset. Hanteringsavgift kan anges som ett fast belopp eller som en procentandel. <br/><br/>**_Obs!_**&#x200B;Använd decimalformatet `0.25` för 25 % när du skriver ett procentbelopp. |
+| [!UICONTROL Handling Fee] | Webbplats | Anger den hantering som ingår i fraktpriset. Hanteringsavgift kan anges som ett fast belopp eller som en procentandel. <br/><br/>**_Obs!:_** Använd decimalformatet `0.25` för 25 % när du skriver ett procentbelopp. |
 
 {style="table-layout:auto"}
 
 ![Tillåtna USPS-metoder](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Webbplats | Anger vilka metoder för USPS-leverans som erbjuds kunderna. Fraktsatser beräknas på den valda leveransmetoden. |
-| [!UICONTROL Free Method] | Webbplats | Anger metoden för fri frakt via USPS, eller kan inaktiveras genom att välja `None`. <br/><br/>**_Obs!_**&#x200B;Den här leveransmetoden liknar butikens kostnadsfria leveransmetod, men den anges som ett alternativ för USPS-leverans och identifieras som USPS-leverans. |
+| [!UICONTROL Free Method] | Webbplats | Anger metoden för fri frakt via USPS, eller kan inaktiveras genom att välja `None`. <br/><br/>**_Obs!:_** Den här leveransmetoden liknar butikens kostnadsfria leveransmetod, men den anges som ett alternativ för USPS-leverans och identifieras som USPS-leverans. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Webbplats | Anger det minimiorderbelopp som måste uppfyllas för att få fri frakt. |
 | [!UICONTROL Displayed Error Message] | Butiksvy | Felmeddelandet som visas när USPS inte är tillgängligt av någon anledning. |
 
@@ -239,7 +256,7 @@ ht-degree: 0%
 
 ![USPS-länder](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -253,7 +270,7 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### Kontoinställningar för FedEx
 
@@ -291,7 +308,7 @@ ht-degree: 0%
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | Webbplats | Bestämmer den metod som används för att beräkna hanteringsavgifter. Alternativ: `Fixed Fee` / `Percentage` <br/><br/>**_Obs!_**&#x200B;Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i leveranskostnaden för FedEx. |
+| [!UICONTROL Calculate Handling Fee] | Webbplats | Bestämmer den metod som används för att beräkna hanteringsavgifter. Alternativ: `Fixed Fee` / `Percentage` <br/><br/>**_Note:_** Hanteringsavgiften är valfri och visas som en extra avgift som läggs till i FedEx-leveranskostnaden. |
 | [!UICONTROL Handling Applied] | Webbplats | Avgör hur hanteringsavgifter tillämpas. Alternativ: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Webbplats | Anger det belopp som debiteras som en hanteringsavgift, baserat på den metod som används för att beräkna beloppet. Om avgiften baseras på en fast avgift anger du beloppet i decimalform, till exempel `4.90`. Om hanteringsavgiften baseras på en procentandel av ordern anger du beloppet som en procentandel. Om du till exempel vill debitera sex procent av ordern anger du värdet som `.06`. |
 
@@ -306,7 +323,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | Webbplats | Ange något av följande, beroende på om du säljer Business-to-Consumer (B2C) eller Business-to-Business (B2B): <br/>**`Yes`**- För B2C-leveranser<br/>**`No`** - För B2B-leveranser |
 | [!UICONTROL Allowed Methods] | Webbplats | Välj de leveransmetoder som du stöder i listan. Metoderna beror på ditt FedEx-konto, hur ofta och hur stora dina leveranser är och om du tillåter internationella leveranser. Som handlare kan du välja att endast erbjuda frakt på marken. |
 | [!UICONTROL Hub ID] | Webbplats | Ett ID från FedEx som används med metoden [!DNL Smart Post]. |
-| [!UICONTROL Free Method] | Webbplats | I listan väljer du den leveransmetod du vill använda för erbjudanden om fri frakt. <br/><br/>**_Obs!_**&#x200B;Den här leveransmetoden liknar den vanliga metoden för fri frakt, men den anges i FedEx leveransalternativ och identifieras som FedEx-leverans. |
+| [!UICONTROL Free Method] | Webbplats | I listan väljer du den leveransmetod du vill använda för erbjudanden om fri frakt. <br/><br/>**_Obs!:_** Den här leveransmetoden liknar den vanliga metoden för fri frakt, men den anges i FedEx leveransalternativ och identifieras som FedEx-leverans. |
 | [!UICONTROL Free Shipping Amount Threshold] | Webbplats | Avgör om ett minimiorderbelopp krävs för fri frakt. Alternativ: <br/>**`Enable`**- Aktiverar kostnadsfri FedEx-leverans för order som uppfyller minimibeloppet.<br/>**`Disable`** - Inaktiverar fri FedEx-leverans med minimiorder. |
 | [!UICONTROL Free Shipping Amount Threshold] | Webbplats | Anger det minsta orderbelopp som krävs för fri frakt. |
 | [!UICONTROL Displayed Error Message] | Butiksvy | Meddelandet som visas när FedEx inte är tillgängligt av någon anledning. Du kan använda standardmeddelandet eller ange ett annat. |
@@ -331,7 +348,7 @@ ht-degree: 0%
 
 ![DHL-kontoinställningar](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -347,7 +364,7 @@ ht-degree: 0%
 
 ![Inställningar för DHL-paket](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -363,7 +380,7 @@ ht-degree: 0%
 
 ![Tillåtna DHL-metoder](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -379,7 +396,7 @@ ht-degree: 0%
 
 ![DHL-länder](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

@@ -3,9 +3,9 @@ title: United States Postal Service (USPS)
 description: Lär dig hur du konfigurerar USPS som fraktfirma för din butik.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ Du kan även öppna ett [USPS Web Tools][1]-konto. När du är klar med registre
 
 ## Steg 2: Aktivera USPS för din butik
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
+
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Delivery Methods]**.
 
@@ -34,17 +36,28 @@ Du kan även öppna ett [USPS Web Tools][1]-konto. När du är klar med registre
 
 1. Ange **[!UICONTROL Enabled for Checkout]** till `Yes`.
 
-1. Om det behövs anger du **[!UICONTROL Gateway URL]** för att få åtkomst till leveranshastigheten för USPS.
+1. Ange **[!UICONTROL USPS Type]** till `USPS Rest APIs` om du använder USPS REST API.
 
-   >[!IMPORTANT]
-   >
-   >Från och med 24 juni 2021 kommer webbverktygen för USPS att ta bort stöd för alla osäkra HTTP-slutpunkter. Efter den här ändringen kommer alla API:er för webbverktyg att misslyckas för osäkra HTTP-slutpunkter. Kontrollera att din **[!UICONTROL Gateway URL]** använder den säkra HTTPS-slutpunkten.
+   Om du använder USPS Web Tools API anger du **[!UICONTROL USPS Type]** till `USPS Web Tools API`.
+
+1. Om det behövs anger du **[!UICONTROL Gateway URL]** för att få åtkomst till leveranshastigheten för USPS.
 
    Fältet är förinställt som standard och behöver normalt inte ändras.
 
 1. Ange en **[!UICONTROL Title]** för den här leveransmetoden som visas under utcheckningen.
 
-1. Ange **[!UICONTROL User ID]** och **[!UICONTROL Password]** för ditt USPS-konto.
+1. Använd inloggningsuppgifterna från USPS för att fylla i följande fält:
+
+   Om du använder USPS Rest API:er måste du ange följande autentiseringsuppgifter:
+
+   - **[!UICONTROL Consumer Key]**
+   - **[!UICONTROL Consumer Secret]**
+   - **[!UICONTROL Pricing Options]**
+
+   Om du använder USPS Web Tools API måste du ange följande autentiseringsuppgifter:
+
+   - **[!UICONTROL User ID]**
+   - **[!UICONTROL Password]**
 
 1. Ange **[!UICONTROL Mode]** till något av följande:
 
@@ -128,7 +141,6 @@ Hanteringsavgiften är valfri och visas som en extra avgift som läggs till DHL:
    `0` = först, `1` = sekund, `2` = tredje och så vidare.
 
 1. Klicka på **[!UICONTROL Save Config]**.
-
 
 [1]: https://secure.shippingapis.com/registration/
 [2]: https://www.usps.com/business/web-tools-apis/welcome.htm

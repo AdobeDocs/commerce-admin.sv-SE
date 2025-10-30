@@ -3,9 +3,9 @@ title: Inställningar för fraktfirma
 description: Läs mer om den support för kommersiella leveranskonton som finns för din butik.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,20 @@ Konfigurationsalternativen varierar för olika hållare. Alla kräver dock följ
 1. Öppna ett leveranskonto hos transportföretaget.
 
 1. Ange ditt kontonummer eller användar-ID och gateway-URL:en till deras system i butikens konfiguration.
+
+### API-borttagning för USPS Web Tools
+
+Adobe Commerce version 2.4.6, 2.4.7 och 2.4.8 använder de äldre API:erna för webbverktyg för integrering av slutprodukten med USPS. USPS har introducerat USPS-API:er, en REST-baserad plattform som ersätter de äldre API:erna för webbverktyg.
+
+Den 25 januari 2026 upphör USPS med de äldre API:erna för webbverktyg. Efter detta datum kommer alla begäranden till API:er för webbverktyg att misslyckas.
+
+För att undvika avbrott i USPS-leveranserna ska du vidta följande åtgärder före den 25 januari 2026:
+
+- Använd kvalitetskorrigeringen [USPS REST API Migration quality patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html) (AC-1520) för att lägga till stöd för integrering med USPS REST API:er.
+
+- Uppdatera Commerce USPS-konfigurationen så att den använder REST API:er:
+
+   - [Konfiguration av USPS-fraktfirma](usps.md)
+
+   - [Konfiguration av leveransetikett](shipping-label-create.md)
+

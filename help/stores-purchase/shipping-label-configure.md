@@ -3,9 +3,9 @@ title: Konfigurera etiketter för leverans
 description: Lär dig hur du konfigurerar butik för att generera fraktetiketter.
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Följande inställningar måste göras på produktnivå och i konfigurationen f�
 
 | [!UICONTROL Carrier] | Krav |
 |-------|--------|
-| [USPS](usps.md) | Kräver ett USPS-konto. Från och med den 23 februari 2018 kräver USPS att alla fraktsedlar ska innehålla frakt. |
+| [USPS](usps.md) | Kräver ett USPS-konto för fraktsetikettposten. |
 | [UPS](ups.md) | Kräver ett UPS-konto. Leveransetiketter är bara tillgängliga för leveranser som har sitt ursprung i USA-specifika autentiseringsuppgifter krävs för butiker utanför USA. |
 | [FedEx](fedex.md) | Kräver ett FedEx-konto. För butiker utanför USA stöds etiketter endast för internationella leveranser. FedEx tillåter inte inhemska leveranser som kommer utanför USA |
 | [DHL](dhl.md) | Kräver ett DHL-konto. Leveransetiketter stöds endast för leveranser som har sitt ursprung i USA. |
@@ -29,7 +29,7 @@ Följande inställningar måste göras på produktnivå och i konfigurationen f�
 
 Tillverkningslandet krävs för alla produkter som levereras internationellt av USPS och FedEx. Om du har många produkter som ska uppdateras kan du antingen [importera](../systems/data-import.md) uppdateringarna eller använda lagerrutnätet för att uppdatera flera poster.
 
-1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
 1. Uppdatera etikettposten för frakt på något av följande sätt.
 
@@ -59,7 +59,7 @@ Tillverkningslandet krävs för alla produkter som levereras internationellt av 
 
 ## Steg 2 Verifiera butiksinformationen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 
@@ -70,7 +70,7 @@ Tillverkningslandet krävs för alla produkter som levereras internationellt av 
 
    ![Ursprung](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
-1. Välj **[!UICONTROL Delivery Methods]** i avsnittet _Försäljning_ i den vänstra panelen.
+1. Välj _i avsnittet_ Försäljning **[!UICONTROL Delivery Methods]** i den vänstra panelen.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL USPS]** och kontrollera att följande fält är fullständiga:
 

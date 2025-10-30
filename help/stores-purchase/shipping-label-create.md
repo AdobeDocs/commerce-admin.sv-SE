@@ -3,9 +3,9 @@ title: Skapa etiketter och paket
 description: Lär dig hur du paketerar artiklar i en beställning och skapar leveransetiketter.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: cf57e136c7c3b6e8ba83afbbd539f4037c0ca486
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1944'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Följ instruktionerna från respektive fraktfirma för att lägga till stöd fö
 
 1. Kontrollera att din [Store-information](../getting-started/store-details.md#store-information) är fullständig.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 
@@ -45,7 +45,7 @@ Följ instruktionerna från respektive fraktfirma för att lägga till stöd fö
 
 United Parcel Service levererar både internt och internationellt. Leveransetiketter kan bara genereras för leveranser som har sitt ursprung i USA.
 
-1. Välj **[!UICONTROL Delivery Methods]** i avsnittet _[!UICONTROL Sales]_&#x200B;i den vänstra panelen.
+1. Välj _[!UICONTROL Sales]_i avsnittet **[!UICONTROL Delivery Methods]**i den vänstra panelen.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL UPS]**.
 
@@ -59,11 +59,32 @@ United Parcel Service levererar både internt och internationellt. Leveransetike
 
 [!DNL United States Postal Service] levereras både nationellt och internationellt.
 
-1. Expandera ![-expanderingsväljaren &#x200B;](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL USPS]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
+
+1. Expandera **[!UICONTROL Delivery Methods]**-expanderingsväljaren ![ i avsnittet ](../assets/icon-display-expand.png) i **[!UICONTROL USPS]**-konfigurationen.
+
+1. Välj **[!UICONTROL USPS Type]** som `USPS Rest APIs` eller `USPS Web Tools API`.
 
 1. Kontrollera att **[!UICONTROL Secure Gateway URL]** är korrekt.
 
 1. Ange **[!UICONTROL Password]** som du fått från USPS.
+
+1. Kontrollera att följande konfiguration är klar baserat på vald **[!UICONTROL USPS Type]**:
+
+   Om du använder USPS Web Tools API:
+   - Användar-ID
+   - Lösenord
+
+   Om du använder USPS REST API:er:
+   - Konsumentnyckel
+   - Konsumenthemlighet
+   - Prisalternativ
+   - Kontotyp
+   - Kontonummer
+   - Kundregistrerings-ID (CRID)
+   - Mailer Identifier (MID)
+   - Manifest MID
+   - AES/ITN
 
 1. Ange **[!UICONTROL Size]** till `Large` och ange värden för följande dimensioner:
 
@@ -78,7 +99,7 @@ United Parcel Service levererar både internt och internationellt. Leveransetike
 
 FedEx levererar nationellt och internationellt. Lager utanför USA kan endast skapa FedEx-etiketter för internationella leveranser.
 
-1. Expandera ![-expanderingsväljaren &#x200B;](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL FedEx]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
+1. Expandera **[!UICONTROL Delivery Methods]**-expanderingsväljaren ![ i avsnittet ](../assets/icon-display-expand.png) i **[!UICONTROL FedEx]**-konfigurationen.
 
 1. Kontrollera att följande FedEx-autentiseringsuppgifter är korrekta:
 
@@ -92,7 +113,7 @@ FedEx levererar nationellt och internationellt. Lager utanför USA kan endast sk
 
 DHL tillhandahåller internationella sjöfartstjänster.
 
-1. Expandera ![-expanderingsväljaren &#x200B;](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL DHL]** i **[!UICONTROL Delivery Methods]**-konfigurationen.
+1. Expandera **[!UICONTROL Delivery Methods]**-expanderingsväljaren ![ i avsnittet ](../assets/icon-display-expand.png) i **[!UICONTROL DHL]**-konfigurationen.
 
 1. Kontrollera att **[!UICONTROL Gateway URL]** är korrekt.
 
@@ -108,7 +129,7 @@ DHL tillhandahåller internationella sjöfartstjänster.
 
 ### Metod 1: Skapa etikett för ny leverans
 
-1. Gå till **[!UICONTROL Sales]** > **[!UICONTROL Orders]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Sales]** Admin **[!UICONTROL Orders]**.
 
 1. Leta reda på ordningen i rutnätet och öppna posten.
 
@@ -124,7 +145,7 @@ DHL tillhandahåller internationella sjöfartstjänster.
 
 1. Lägg till eller uppdatera produkter i paketet:
 
-   - Om du vill lägga till produkter från ordningen i paketet klickar du på **[!UICONTROL Add Products]**. Kolumnen _[!UICONTROL Quantity]_&#x200B;visar det maximala antalet produkter som är tillgängliga för paketet.
+   - Om du vill lägga till produkter från ordningen i paketet klickar du på **[!UICONTROL Add Products]**. Kolumnen _[!UICONTROL Quantity]_visar det maximala antalet produkter som är tillgängliga för paketet.
 
    - Markera kryssrutan för varje produkt som ska läggas till i paketet och ange **[!UICONTROL Quantity]** för varje produkt. Klicka sedan på **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -132,7 +153,7 @@ DHL tillhandahåller internationella sjöfartstjänster.
 
    - Klicka på **[!UICONTROL Delete Package]** om du vill ta bort ett paket.
 
-   - Om du vill avbryta en beställning klickar du på **[!UICONTROL Cancel]**. Ingen leveransetikett har skapats och kryssrutan _[!UICONTROL Create Shipping Label]_&#x200B;har tagits bort.
+   - Om du vill avbryta en beställning klickar du på **[!UICONTROL Cancel]**. Ingen leveransetikett har skapats och kryssrutan _[!UICONTROL Create Shipping Label]_har tagits bort.
 
    >[!NOTE]
    >
@@ -144,11 +165,11 @@ DHL tillhandahåller internationella sjöfartstjänster.
 
 ### Metod 2: Skapa etikett för befintlig leverans
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_Admin **[!UICONTROL Orders]**.
 
 1. Hitta beställningen i rutnätet och öppna leveransformuläret.
 
-1. Klicka på **[!UICONTROL Create Shipping Label]** i avsnittet _[!UICONTROL Shipping and Tracking Information]_.
+1. Klicka på _[!UICONTROL Shipping and Tracking Information]_i avsnittet **[!UICONTROL Create Shipping Label]**.
 
 1. Distribuera de beställda produkterna till rätt paket och klicka på **[!UICONTROL OK]**.
 
@@ -170,11 +191,11 @@ Leveransetiketter genereras i PDF-format och kan skrivas ut från administratör
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - Hitta leveransen i rutnätet och öppna posten.
 
-1. Om du vill hämta PDF-filen går du till avsnittet _[!UICONTROL Shipping and Tracking]_&#x200B;i formuläret och klickar på&#x200B;**[!UICONTROL Print Shipping Label]**.
+1. Om du vill hämta PDF-filen går du till avsnittet _[!UICONTROL Shipping and Tracking]_i formuläret och klickar på&#x200B;**[!UICONTROL Print Shipping Label]**.
 
    Beroende på inställningarna i webbläsaren kan etiketterna visas och skrivas ut direkt från PDF-filen.
 
-   Knappen _[!UICONTROL Print Shipping Label]_&#x200B;visas bara efter att transportören har genererat etiketter för leveransen. Om knappen saknas klickar du på&#x200B;**[!UICONTROL Create Shipping Label]**. Knappen visas när Commerce har tagit emot etiketten från transportören.
+   Knappen _[!UICONTROL Print Shipping Label]_visas bara efter att transportören har genererat etiketter för leveransen. Om knappen saknas klickar du på&#x200B;**[!UICONTROL Create Shipping Label]**. Knappen visas när Commerce har tagit emot etiketten från transportören.
 
 ### Metod 2: Skriv ut etiketter för flera order
 
@@ -203,7 +224,7 @@ En fullständig uppsättning fraktsetiketter skrivs ut för varje leverans som �
 
 ## Skapa paket
 
-Fönstret _[!UICONTROL Create Packages]_&#x200B;visas när du väljer att skapa en leveransetikett. Du kan börja konfigurera det första paketet omedelbart.
+Fönstret _[!UICONTROL Create Packages]_visas när du väljer att skapa en leveransetikett. Du kan börja konfigurera det första paketet omedelbart.
 
 ### Konfigurera ett paket
 
@@ -215,7 +236,7 @@ Fönstret _[!UICONTROL Create Packages]_&#x200B;visas när du väljer att skapa 
 
    - Ange produkter och kvantiteter.
 
-     Kolumnen _[!UICONTROL Qty]_&#x200B;visar den maximala kvantitet som är tillgänglig att lägga till. För den första förpackningen är numret den totala kvantiteten av produkten som ska levereras.
+     Kolumnen _[!UICONTROL Qty]_visar den maximala kvantitet som är tillgänglig att lägga till. För den första förpackningen är numret den totala kvantiteten av produkten som ska levereras.
 
    - Klicka på **[!UICONTROL Add Selected Product(s) to Package]** om du vill lägga till produkterna i paketet.
 
