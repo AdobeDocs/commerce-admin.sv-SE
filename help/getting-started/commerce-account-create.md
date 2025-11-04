@@ -3,9 +3,9 @@ title: Skapa och få åtkomst till ditt [!DNL Commerce] konto
 description: Lär dig mer om  [!DNL Commerce] konton, som hanterar de produkter och tjänster som du har köpt.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
+source-git-commit: 2b0959de64e139d3f652e1cd5edb744c0a8489a3
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '442'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Du kan komma åt ditt [!DNL Commerce]-konto från webbplatsen [!DNL Commerce]. P
 
 Inloggningen för ditt [!DNL Commerce]-konto är skild från inloggningen för din administratör för butik. Du använder vanligtvis olika autentiseringsuppgifter för varje, och åtkomsten till varje system hanteras separat.
 
-En användare som vill effektivisera sin inloggning på Adobe Commerce och Adobe Business-produkter kan dock konfigurera sin Adobe ID att logga in på butiksadministratören: [Konfigurera Commerce Admin Integration med Adobe ID](https://experienceleague.adobe.com/sv/docs/commerce-admin/start/admin/ims/adobe-ims-config) i *IMS Integration Guide for Commerce*.
+En användare som vill effektivisera sin inloggning på Adobe Commerce och Adobe Business-produkter kan dock konfigurera sin Adobe ID att logga in på butiksadministratören: [Konfigurera Commerce Admin Integration med Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) i *IMS Integration Guide for Commerce*.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ En användare som vill effektivisera sin inloggning på Adobe Commerce och Adobe
 
 ## Logga in på ditt [!DNL Commerce]-konto
 
-Du måste ha en Adobe ID för att få tillgång till ett Commerce-konto. Om du redan har ett [!DNL Commerce]-konto men inte har loggat in på kontot sedan augusti 2022 måste du skapa en Adobe ID under inloggningsprocessen.
+Du måste ha en Adobe ID för att få tillgång till ditt Commerce-konto. Om du har ett befintligt [!DNL Commerce]-konto men inte har loggat in sedan augusti 2022 måste du skapa en Adobe ID under inloggningsprocessen. Du måste slutföra det här steget innan du kan logga in på ditt konto.
 
 >[!WARNING]
 >
