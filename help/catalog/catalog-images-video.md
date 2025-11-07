@@ -38,5 +38,5 @@ Det finns många ljusrutor och reglage från tredje part som du kan använda fö
 
 Hjälp med felsökning av bild- och videoproblem finns i följande artiklar i Commerce Support Knowledge Base:
 
-- [Produktbilder visas inte trots produktredigeringsbildsroller](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [Lagra bilder som inte visas efter distributionen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [Produktbilder visas inte trots produktredigeringsbildsroller](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=sv-SE)
+- [Lagra bilder som inte visas efter distributionen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=sv-SE)
