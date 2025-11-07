@@ -67,7 +67,7 @@ Klicka på kontrollen **[!UICONTROL View]** ( ![Ögon-ikon](../assets/icon-view-
 
 - Om du vill använda en annan vy klickar du på vyns namn.
 
-- Om du vill ändra namnet på en vy klickar du på ikonen _Redigera_ ( ![Penna ](../assets/icon-edit-pencil.png) ) och uppdaterar namnet.
+- Om du vill ändra namnet på en vy klickar du på ikonen _Redigera_ ( ![Penna &#x200B;](../assets/icon-edit-pencil.png) ) och uppdaterar namnet.
 
 ### Workspace
 
@@ -111,7 +111,7 @@ Om du vill utföra en åtgärd på en viss order markerar du kryssrutan i den f�
 | [!UICONTROL Grand Total (Base)] | Orderns totalsumma. |
 | [!UICONTROL Grand Total (Purchased)] | Summan av inköpta produkter i ordern. |
 | [!UICONTROL Status] | Aktuell orderstatus. |
-| [!UICONTROL Action] | _[!UICONTROL View]_öppnar ordningen i redigeringsläge. |
+| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;öppnar ordningen i redigeringsläge. |
 | [!UICONTROL Allocated sources] | Källor som tilldelats den specifika ordern. |
 
 {style="table-layout:auto"}
@@ -145,7 +145,7 @@ Du kan använda sökrutan längst upp till vänster i stödrastret Beställninga
 
 1. Ange en sökterm i sökrutan.
 
-1. Om du vill visa resultatet klickar du på _Sök_ ( ![Förstoringsglaset ](../assets/icon-magnify-search.png) ).
+1. Om du vill visa resultatet klickar du på _Sök_ ( ![Förstoringsglaset &#x200B;](../assets/icon-magnify-search.png) ).
 
 ### Filtrera sökningen
 

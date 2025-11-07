@@ -48,7 +48,7 @@ Konfiguration av belöningspunkter avgör hur belöningspunkter presenteras i bu
 
 ### Steg 1. Konfigurera belöningspoäng
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Reward Points]**.
 
@@ -94,7 +94,7 @@ I det här steget anges antalet belöningspoäng som kan intjänas för olika ku
 
    ![Kundkonfiguration - åtgärder för att erhålla belöningspoäng per kund](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. Ange [ till ](reward-exchange-rates.md) om du vill tillåta belöningspoäng att intjänas för inköp baserat på de konfigurerade **[!UICONTROL Purchase]** belöningspriserna`Yes`.
+1. Ange [&#x200B; till &#x200B;](reward-exchange-rates.md) om du vill tillåta belöningspoäng att intjänas för inköp baserat på de konfigurerade **[!UICONTROL Purchase]** belöningspriserna`Yes`.
 
    >[!NOTE]
    >
