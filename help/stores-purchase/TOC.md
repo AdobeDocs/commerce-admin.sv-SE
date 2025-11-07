@@ -5,9 +5,9 @@ breadcrumb-title: Butiks- och inköpsupplevelser
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 2e5d8c81cbf20612d1351da2f5474f13f353c34c
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 + [Butiks and Purchase Experience Guide](guide-overview.md)
 + [Introduktion till butiker och inköpsupplevelser](introduction.md)
-+ Hantering av plats och butik {#site-store}
++ Hantering av webbplatser och butiker {#site-store}
    + [Menyn Lager](stores-menu.md)
    + [Lagring och webbplatsstruktur](stores.md)
    + [Butiksvyer](store-views.md)
@@ -131,5 +131,3 @@ ht-degree: 0%
       + [Översikt över leveransetikett](shipping-labels.md)
       + [Konfigurera etiketter för leverans](shipping-label-configure.md)
       + [Skapa leveransetiketter](shipping-label-create.md)
-+ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
-

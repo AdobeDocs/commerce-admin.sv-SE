@@ -3,9 +3,9 @@ title: Beställningar
 description: Lär dig mer om arbetsytan Beställningar och de sökfunktioner som används för att hitta beställningar i Admin.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Klicka på kontrollen **[!UICONTROL View]** ( ![Ögon-ikon](../assets/icon-view-
 
 - Om du vill använda en annan vy klickar du på vyns namn.
 
-- Om du vill ändra namnet på en vy klickar du på ikonen _Redigera_ ( ![Penna &#x200B;](../assets/icon-edit-pencil.png) ) och uppdaterar namnet.
+- Om du vill ändra namnet på en vy klickar du på ikonen _Redigera_ ( ![Penna ](../assets/icon-edit-pencil.png) ) och uppdaterar namnet.
 
 ### Workspace
 
@@ -111,7 +111,7 @@ Om du vill utföra en åtgärd på en viss order markerar du kryssrutan i den f�
 | [!UICONTROL Grand Total (Base)] | Orderns totalsumma. |
 | [!UICONTROL Grand Total (Purchased)] | Summan av inköpta produkter i ordern. |
 | [!UICONTROL Status] | Aktuell orderstatus. |
-| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;öppnar ordningen i redigeringsläge. |
+| [!UICONTROL Action] | _[!UICONTROL View]_öppnar ordningen i redigeringsläge. |
 | [!UICONTROL Allocated sources] | Källor som tilldelats den specifika ordern. |
 
 {style="table-layout:auto"}
@@ -145,7 +145,7 @@ Du kan använda sökrutan längst upp till vänster i stödrastret Beställninga
 
 1. Ange en sökterm i sökrutan.
 
-1. Om du vill visa resultatet klickar du på _Sök_ ( ![Förstoringsglaset &#x200B;](../assets/icon-magnify-search.png) ).
+1. Om du vill visa resultatet klickar du på _Sök_ ( ![Förstoringsglaset ](../assets/icon-magnify-search.png) ).
 
 ### Filtrera sökningen
 
@@ -183,9 +183,3 @@ Du kan använda sökrutan längst upp till vänster i stödrastret Beställninga
 
 {style="table-layout:auto"}
 
-## Felsökningsresurser
-
-Hjälp om felsökning av orderproblem finns i följande artiklar i Commerce Support Knowledge Base:
-
-- [Visningsfel för beställningar](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=sv-SE)
-- [Beställningar visas inte i rutnätet för beställningar i Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

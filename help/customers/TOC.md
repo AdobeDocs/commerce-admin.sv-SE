@@ -2,10 +2,10 @@
 user-guide-title: Handbok för kundhantering
 breadcrumb-title: Kundhantering
 feature: Customers
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b58e5e2dc660b58be694bd7896d8596e9ef48c04
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 1%
       + [Attributegenskaper](attribute-properties.md)
       + [Adressattribut](address-attributes.md)
       + [Adressmallar](address-templates.md)
-   + Butikskrediten {#store-credit}
+   + Butikskredit {#store-credit}
       + [Arbetsflöde för butikskrediter](store-credit.md)
       + [Konfigurera butikskredit](credit-configure.md)
       + [Använd butikskredit](store-credit-using.md)
@@ -55,5 +55,4 @@ ht-degree: 1%
    + [Skapa och ta bort kundsegment](customer-segment-create.md)
    + [Kundsegment i prisregler](customer-segment-price-rule.md)
    + [Kundsegmentrapport](customer-segment-reports.md)
-+ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
 

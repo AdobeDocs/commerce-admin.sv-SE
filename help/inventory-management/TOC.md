@@ -4,9 +4,9 @@ user-guide-description: Lär dig hur du använder  [!DNL Inventory Management] f
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b9a2bf31efd5ed04098a1e24ed4d779ba74cb1b9
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
    - [Konfigurera backorders](backorders.md)
    - [Konfigurera källprioritet](source-priority-algorithm.md)
    - [Konfigurera avståndsprioritet](distance-priority-algorithm.md)
-   - Produktaviseringar {#product-alerts}
+   - Produktvarningar {#product-alerts}
       - [Ställ in produktvarningar](alert-setup.md)
       - [Scenarier för Stock-meddelanden](stock-messages.md)
 - Hantera källor {#sources}
@@ -58,5 +58,3 @@ ht-degree: 1%
    - [Ökning](shipments.md)
    - [Skapa försändelser](shipments-create.md)
 - [CLI-referens](cli.md)
-- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
-

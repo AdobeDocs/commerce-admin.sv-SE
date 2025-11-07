@@ -3,9 +3,9 @@ title: Katalogbilder och video
 description: Lär dig mer om hur du använder digitala medier för att förbättra katalogproduktsidorna och ge dina kunder visuell information.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+source-git-commit: 1056037029d729deda788be348d4f4ecf9f8268c
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,11 @@ Om [basbilden](product-image.md) är stor nog att skapa zoomeffekten kan kundern
 
 ### Ljusrutor och reglage
 
-Det finns många ljusrutor och reglage från tredje part som du kan använda för att förbättra presentationen av dina produktbilder. Leta efter tillägg i [Commerce Marketplace](../getting-started/commerce-marketplace.md).
+Det finns många ljusrutor och reglage från tredje part som du kan använda för att förbättra presentationen av dina produktbilder. Sök efter tillägg i [Commerce Marketplace](../getting-started/commerce-marketplace.md).
 
 ## Felsökningsresurser
 
 Hjälp med felsökning av bild- och videoproblem finns i följande artiklar i Commerce Support Knowledge Base:
 
-- [Efter installationen läses inte bilder och formatmallar in. Endast textvisning, inga bilder](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html?lang=sv-SE)
-- [Produktbilder visas inte trots produktredigeringsbildsroller](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=sv-SE)
-- [Lagra bilder som inte visas efter distributionen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=sv-SE)
+- [Produktbilder visas inte trots produktredigeringsbildsroller](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
+- [Lagra bilder som inte visas efter distributionen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)

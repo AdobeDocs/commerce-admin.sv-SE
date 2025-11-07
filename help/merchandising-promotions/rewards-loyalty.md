@@ -3,9 +3,9 @@ title: Belönings- och förmånsprogram
 description: Läs om belöningspoängsystemet som ni kan använda för att öka kundengagemanget och främja kundlojaliteten.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Konfiguration av belöningspunkter avgör hur belöningspunkter presenteras i bu
 
 ### Steg 1. Konfigurera belöningspoäng
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Reward Points]**.
 
@@ -94,7 +94,7 @@ I det här steget anges antalet belöningspoäng som kan intjänas för olika ku
 
    ![Kundkonfiguration - åtgärder för att erhålla belöningspoäng per kund](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. Ange **[!UICONTROL Purchase]** till `Yes` om du vill tillåta belöningspoäng att intjänas för inköp baserat på de konfigurerade [belöningspriserna](reward-exchange-rates.md).
+1. Ange [ till ](reward-exchange-rates.md) om du vill tillåta belöningspoäng att intjänas för inköp baserat på de konfigurerade **[!UICONTROL Purchase]** belöningspriserna`Yes`.
 
    >[!NOTE]
    >
@@ -142,11 +142,11 @@ I det här steget anges antalet belöningspoäng som kan intjänas för olika ku
 
 Saldot för belöningspoäng kan uppdateras från administratören.
 
-1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Customers]** Admin **[!UICONTROL All Customers]**.
 
 1. Hitta kunden i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
-1. Välj avsnittet **[!UICONTROL Reward Points]** under _Kundinformation_.
+1. Välj avsnittet _under_ Kundinformation **[!UICONTROL Reward Points]**.
 
 1. Ange antalet **[!UICONTROL Update Points]**:
 
@@ -183,8 +183,3 @@ Alla åtgärder som är relaterade till belöningspunkter visas i kundens _[!UIC
 
 {style="table-layout:auto"}
 
-## Felsökningsresurser
-
-Hjälp om felsökning av belöningspoängproblem finns i följande artiklar i Commerce Support Knowledge Base:
-
-- [404-fel - belöningspoäng tas bort vid utcheckning av flera leveranser](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=sv-SE)

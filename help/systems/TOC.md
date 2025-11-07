@@ -5,9 +5,9 @@ breadcrumb-title: Handbok för adminsystem
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 9c200a46a30d51b4844fff24d864b629b8400f33
+source-git-commit: cfe92b643c0365256aa6077f3237b61e6aad9dd8
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,6 @@ ht-degree: 0%
    - [Sessionshantering](security-session-management.md)
    - [Identifiering av webbläsarfunktioner](security-browser-capabilities-detection.md)
    - [Rapportering av säkerhetsproblem](security-issue-reporting.md)
-- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/sv/docs/commerce-admin/user-guides/home)
+
 
 
