@@ -112,7 +112,7 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
    > Om **[!UICONTROL Delete]** inte visas kontrollerar du om **[!UICONTROL Share Name]** innehåller namnmönstret `Cloud Shared Access from MAG0XYZ`. Om kontot har det [namngivningsmönstret och inte kan tas bort](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users) beror det på att den delade åtkomsten skapades av ett API, inte direkt från [Commerce-kontot](https://account.magento.com/).
    > 
    > Om den inte kan tas bort måste kontoägaren ändra kontot för delad åtkomst och avmarkera alla objekt under Bevilja kontobehörigheter. Efter den uppdateringen kommer användaren inte längre att kunna komma åt några kontoresurser.
-   > ![bild](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > ![bild](https://git.corp.adobe.com/AdobeDocs/commerce-admin.sv-SE/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > Se dessutom till att användarna tas bort från projektet så att de inte längre får e-postmeddelanden: [Tidigare teammedlemmar får Adobe Commerce molnmeddelanden](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
