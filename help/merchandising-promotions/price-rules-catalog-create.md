@@ -16,11 +16,11 @@ Följ dessa anvisningar för att tillämpa en rabatt på vissa produkter när en
 
 ## Steg 1: Lägg till en regel
 
-1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Promotions]_Admin **[!UICONTROL Catalog Price Rule]**.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Promotions]_&#x200B;Admin **[!UICONTROL Catalog Price Rule]**.
 
 1. Klicka på **[!UICONTROL Add New Rule]** i det övre högra hörnet.
 
-   Avsnittet _[!UICONTROL Rule Information]_innehåller utökningsbara avsnitt för **[!UICONTROL Conditions]**och **[!UICONTROL Actions]**.
+   Avsnittet _[!UICONTROL Rule Information]_&#x200B;innehåller utökningsbara avsnitt för **[!UICONTROL Conditions]**&#x200B;och **[!UICONTROL Actions]**.
 
    ![Katalogprisregel - information](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -120,7 +120,7 @@ De flesta tillgängliga villkor baseras på befintliga attributvärden. Om du vi
 
    Upprepa processen tills alla önskade villkor är klara.
 
-   Om du vill ta bort en del av villkorssatsen klickar du på ikonen **[!UICONTROL Delete]** (![Ta bort ](../assets/icon-delete-red-circle.png) i slutet av raden.
+   Om du vill ta bort en del av villkorssatsen klickar du på ikonen **[!UICONTROL Delete]** (![Ta bort &#x200B;](../assets/icon-delete-red-circle.png) i slutet av raden.
 
 ## Steg 3: Definiera åtgärderna
 

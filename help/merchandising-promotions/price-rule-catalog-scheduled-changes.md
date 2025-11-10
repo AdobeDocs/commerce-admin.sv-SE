@@ -32,7 +32,7 @@ Om en aktiv prisregel skapades utan ett slutdatum och du behöver avsluta den vi
 
 ## Schemalägg en uppdatering av en katalogprisregel
 
-1. Gå till _>_ > **[!UICONTROL Marketing]** Katalogprisregel _[!UICONTROL Promotions]_på sidofältet **Admin**.
+1. Gå till _>_ > **[!UICONTROL Marketing]** Katalogprisregel _[!UICONTROL Promotions]_&#x200B;på sidofältet **Admin**.
 
 1. Öppna regeln i redigeringsläge.
 
@@ -58,7 +58,7 @@ Om en aktiv prisregel skapades utan ett slutdatum och du behöver avsluta den vi
 
    >[!NOTE]
    >
-   >När du uppdaterar regelinformationsparametrar måste du se till att _[!UICONTROL Status]_har angetts korrekt. Om du vill att ändringen ska resultera i en regel som används, anger du statusen till `Active`.
+   >När du uppdaterar regelinformationsparametrar måste du se till att _[!UICONTROL Status]_&#x200B;har angetts korrekt. Om du vill att ändringen ska resultera i en regel som används, anger du statusen till `Active`.
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.
 
@@ -112,4 +112,4 @@ Om en aktiv prisregel skapades utan ett slutdatum och du behöver avsluta den vi
 
    Om du vill visa schemalagda ändringar för olika butiksvyer klickar du på **[!UICONTROL Scope]** i sidhuvudet på sidan Förhandsgranska. Välj den webbplats-, butik- eller butiksvy som du vill förhandsgranska.
 
-1. Om det behövs går du tillbaka till kalendern och klickar på **[!UICONTROL View/Edit]** i kolumnen _[!UICONTROL Action]_för att öppna en annan schemalagd uppdatering.
+1. Om det behövs går du tillbaka till kalendern och klickar på **[!UICONTROL View/Edit]** i kolumnen _[!UICONTROL Action]_&#x200B;för att öppna en annan schemalagd uppdatering.

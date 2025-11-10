@@ -136,7 +136,7 @@ I följande exempel visas hur URL:er visas med och utan aktiverad omskrivning av
 
 #### Aktivera eller inaktivera omskrivning av webbserver:
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Välj **[!UICONTROL General]** i den vänstra panelen där **[!UICONTROL Web]** är expanderat.
 
