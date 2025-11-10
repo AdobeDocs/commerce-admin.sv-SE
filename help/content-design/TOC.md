@@ -91,4 +91,4 @@ ht-degree: 0%
    - [Kontrollpanel för mellanlagring](content-staging-dashboard.md)
    - [Lägg till ett kampanjobjekt](content-staging-add-item.md)
    - [Förhandsgranska en kampanj](content-staging-preview.md)
-- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=sv-SE)

@@ -83,4 +83,4 @@ ht-degree: 0%
    - [Administratör](./advanced/admin.md)
    - [System](./advanced/system.md)
    - [Utvecklare](./advanced/developer.md)
-- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=sv-SE)

@@ -98,4 +98,4 @@ ht-degree: 0%
       + [Skapa och ta bort attribut](attribute-product-create.md)
       + [Massuppdateringar](bulk-product-attribute-update.md)
       + [Attributuppsättningar](attribute-sets.md)
-+ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=sv-SE)

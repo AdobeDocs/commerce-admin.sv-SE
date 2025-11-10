@@ -70,4 +70,4 @@ ht-degree: 0%
    + [Ekosystem](resources.md)
    + [Tillägg](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=sv-SE)

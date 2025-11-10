@@ -131,4 +131,4 @@ ht-degree: 0%
       + [Översikt över leveransetikett](shipping-labels.md)
       + [Konfigurera etiketter för leverans](shipping-label-configure.md)
       + [Skapa leveransetiketter](shipping-label-create.md)
-+ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=sv-SE)
