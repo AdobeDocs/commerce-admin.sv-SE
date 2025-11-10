@@ -2,9 +2,9 @@
 user-guide-title: Handbok för kundhantering
 breadcrumb-title: Kundhantering
 feature: Customers
-source-git-commit: b58e5e2dc660b58be694bd7896d8596e9ef48c04
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ ht-degree: 0%
    + [Skapa och ta bort kundsegment](customer-segment-create.md)
    + [Kundsegment i prisregler](customer-segment-price-rule.md)
    + [Kundsegmentrapport](customer-segment-reports.md)
-
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

@@ -4,9 +4,9 @@ user-guide-description: Omfattande information om kataloghanteringsfunktioner f�
 breadcrumb-title: Kataloghantering
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: d3c26582e70f18612e9736df57e328f1c8686c57
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,4 @@ ht-degree: 0%
       + [Skapa och ta bort attribut](attribute-product-create.md)
       + [Massuppdateringar](bulk-product-attribute-update.md)
       + [Attributuppsättningar](attribute-sets.md)
++ [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
