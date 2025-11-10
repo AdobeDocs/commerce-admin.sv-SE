@@ -3,9 +3,9 @@ title: Schemalagda ändringar av katalogens prisregler
 description: Lär dig hur du tillämpar katalogprisregler i schemat som en del av en kampanj och grupperar dem med andra innehållsändringar.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
+source-git-commit: e4c18621d0607446b48bf2447ac1a978d33ac24a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -16,29 +16,27 @@ ht-degree: 0%
 
 Rutan Schemalagda ändringar visas högst upp på sidan när en ny prisregel sparas eller uppdateras. Katalogens prisregler kan tillämpas på schemat som en del av en kampanj och grupperas med andra innehållsändringar. Du kan skapa en kampanj baserat på schemalagda ändringar av en prisregel eller tillämpa ändringarna på en befintlig kampanj.
 
->[!NOTE]
->
->Fälten [!UICONTROL From] och [!UICONTROL To] har tagits bort i ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce och kan inte ändras direkt i katalogprisregeln. Du måste skapa en schemalagd uppdatering för dessa aktiveringar.
-
->[!NOTE]
->
->Alla schemalagda uppdateringar tillämpas i följd. Det innebär att en enhet bara kan ha en schemalagd uppdatering vid ett tillfälle. Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha olika schemalagda uppdateringar för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
-
-Om det finns flera prisregler som körs i samma kampanj avgör inställningen Prioritet för prisregeln vilken regel som har företräde. Mer information finns i [Innehållsfördelning](../content-design/content-staging.md).
-
->[!IMPORTANT]
->
->Om en aktiv kampanj initialt skapas utan ett slutdatum kan kampanjen inte redigeras senare så att den innehåller ett slutdatum. I så fall är det nödvändigt att skapa en dubblettkampanj och ange det slutdatum som behövs.
-
 ![Katalogprisregel - schemalagda ändringar](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
+
+## Så här fungerar schemalagda uppdateringar av prisregel
+
+- Alla schemalagda uppdateringar tillämpas i följd. Det innebär att en enhet bara kan ha en schemalagd uppdatering åt gången.
+
+- Alla schemalagda uppdateringar tillämpas på alla butiksvyer inom tidsramen. Därför kan en enhet inte ha olika schemalagda uppdateringar för olika butiksvyer samtidigt. Alla värden för entitetsattribut i alla butiksvyer, som inte påverkas av den aktuella schemalagda uppdateringen, hämtas från standardvärdena och inte från den tidigare schemalagda uppdateringen.
+
+- Om det finns flera prisregler som körs i samma kampanj avgör inställningen Prioritet för prisregeln vilken regel som har företräde. Mer information finns i [Innehållsfördelning](../content-design/content-staging.md).
+
+## Avsluta en försäljning av en prisregel vid en viss tidpunkt
+
+Om en aktiv prisregel skapades utan ett slutdatum och du behöver avsluta den vid en viss tidpunkt, kan du inte redigera den befintliga schemalagda uppdateringen för att lägga till ett slutdatum. I stället måste du skapa en ny schemalagd uppdatering som ändrar regelns status till `Inactive`. Ange startdatumet för den nya uppdateringen till det datum och den tidpunkt då du vill att försäljningen ska sluta.
 
 ## Schemalägg en uppdatering av en katalogprisregel
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**Katalogprisregel**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Marketing]** Katalogprisregel _[!UICONTROL Promotions]_på sidofältet **Admin**.
 
 1. Öppna regeln i redigeringsläge.
 
-1. Klicka på **[!UICONTROL Schedule New Update]** i rutan **[!UICONTROL Scheduled Changes]** överst på sidan.
+1. Klicka på **[!UICONTROL Scheduled Changes]** i rutan **[!UICONTROL Schedule New Update]** överst på sidan.
 
 1. Markera alternativet **[!UICONTROL Save as a New Update]** och gör följande:
 
@@ -60,7 +58,7 @@ Om det finns flera prisregler som körs i samma kampanj avgör inställningen Pr
 
    >[!NOTE]
    >
-   >Om du ändrar till någon av regelinformationsparametrarna kontrollerar du att _[!UICONTROL Status]_&#x200B;är korrekt inställd. Om du vill att ändringen ska resultera i en aktivt tillämpad regel ska statusen vara `Active`.
+   >När du uppdaterar regelinformationsparametrar måste du se till att _[!UICONTROL Status]_har angetts korrekt. Om du vill att ändringen ska resultera i en regel som används, anger du statusen till `Active`.
 
 1. Klicka på **[!UICONTROL Save]** när du är klar.
 
@@ -68,19 +66,19 @@ Om det finns flera prisregler som körs i samma kampanj avgör inställningen Pr
 
 ## Redigera en schemalagd regeländring
 
-1. Klicka på **[!UICONTROL View/Edit]** i rutan **[!UICONTROL Scheduled Changes]** överst på sidan.
+>[!NOTE]
+>
+>Om en kampanj är länkad till mer än en katalogprisregel kan du bara redigera kampanjen från [instrumentpanelen för innehållsmellanlagring](../content-design/content-staging-dashboard.md).
+
+1. Klicka på **[!UICONTROL Scheduled Changes]** i rutan **[!UICONTROL View/Edit]** överst på sidan.
 
 1. Gör de ändringar som behövs för den schemalagda uppdateringen.
-
-   >[!NOTE]
-   >
-   >Om en kampanj är länkad till mer än en katalogprisregel kan kampanjen bara redigeras från [instrumentpanelen för innehållsmellanlagring](../content-design/content-staging-dashboard.md).
 
 1. Klicka på **[!UICONTROL Save]**.
 
 ## Förhandsgranska den schemalagda regeländringen
 
-1. Klicka på **[!UICONTROL Preview]** i rutan **[!UICONTROL Scheduled Changes]** överst på sidan.
+1. Klicka på **[!UICONTROL Scheduled Changes]** i rutan **[!UICONTROL Preview]** överst på sidan.
 
    Förhandsgranskningen öppnar en ny webbläsarflik som läser in butiken med den tillämpade schemalagda ändringen. Navigera till en produkt som påverkas av ändringen.
 
@@ -104,14 +102,14 @@ Om det finns flera prisregler som körs i samma kampanj avgör inställningen Pr
 
    **Dela en länk till förhandsgranskningen**
 
-   Klicka på **[!UICONTROL Share]** om du vill dela en länk till butiksförhandsgranskningen med dina kollegor. Kopiera länken till Urklipp och klistra in den i brödtexten i ett e-postmeddelande.
+   Klicka på **[!UICONTROL Share]** om du vill dela en länk till butiksförhandsgranskningen med andra administratörsanvändare. Kopiera länken till Urklipp och klistra in den i brödtexten i ett e-postmeddelande.
 
    >[!NOTE]
    >
-   >Ett administratörsanvändarkonto krävs för att se en delad förhandsgranskning. Om din [roll har åtkomst](../systems/permissions-user-roles.md) för att skapa ett administratörsanvändarkonto måste du skapa kontot för en ny användare innan du kan dela.
+   >Om din [roll har åtkomst](../systems/permissions-user-roles.md) för att hantera administratörsanvändarkonton kan du skapa eller uppdatera ett befintligt användarkonto med administratörsbehörighet så att du kan dela förhandsgranskningslänken.
 
    **Ändra omfattningen för förhandsgranskningen**
 
    Om du vill visa schemalagda ändringar för olika butiksvyer klickar du på **[!UICONTROL Scope]** i sidhuvudet på sidan Förhandsgranska. Välj den webbplats-, butik- eller butiksvy som du vill förhandsgranska.
 
-1. Om det behövs går du tillbaka till kalendern och klickar på **[!UICONTROL View/Edit]** i kolumnen _[!UICONTROL Action]_&#x200B;för att öppna en annan schemalagd uppdatering.
+1. Om det behövs går du tillbaka till kalendern och klickar på **[!UICONTROL View/Edit]** i kolumnen _[!UICONTROL Action]_för att öppna en annan schemalagd uppdatering.
