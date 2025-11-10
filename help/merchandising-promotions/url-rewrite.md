@@ -3,7 +3,7 @@ title: URL-omskrivningar
 description: Lär dig mer om att skriva om URL-adresser och att använda Commerce URL-omskrivningsverktyg för att ändra URL-adresser som är kopplade till en produkt, kategori eller CMS-sida.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: 2f2db4926ff92adfa27692eeca872c1765fd31d6
 workflow-type: tm+mt
 source-wordcount: '905'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) i dokumentationen för Commerce Storefront
+>Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=sv-SE) i dokumentationen för Commerce Storefront
 
 Med verktyget för URL-omskrivning kan du ändra alla URL-adresser som är kopplade till en produkt, kategori eller CMS-sida. När du skapar en URL-omskrivning skapar Commerce automatiskt en permanent omdirigering (301) så att alla länkar som pekar på den gamla URL:en omdirigeras till den nya adressen.
 
