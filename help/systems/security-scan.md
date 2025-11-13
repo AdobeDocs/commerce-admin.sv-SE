@@ -4,9 +4,9 @@ description: Lär dig hur du kör en förbättrad säkerhetsgenomsökning och ö
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 27c23a24b9435c5f94b483bafe5edb467aa14267
+source-git-commit: 5dd564185975216361918bda4954ed4a6fc8fee4
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -22,91 +22,137 @@ ht-degree: 0%
 - Få tillgång till historiska säkerhetsrapporter som spårar och övervakar webbplatsernas förlopp.
 - Få åtkomst till den inskannade rapporten som visar lyckade och misslyckade kontroller, med rekommenderade åtgärder.
 
-Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen för ditt [Commerce/Magento-konto](../getting-started/commerce-account-create.md). Mer teknisk information finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) i _Commerce on Cloud Infrastructure Guide_.
+Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen för ditt [Commerce/Magento-konto](../getting-started/commerce-account-create.md). Mer teknisk information finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) i _Commerce on Cloud Infrastructure Guide_.
 
 ![Verktyget för säkerhetsgenomsökning](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
-## Kör en säkerhetssökning
+## Arbetsflöde
+
+Om du vill konfigurera och konfigurera verktyget för säkerhetsgenomsökning för din Adobe Commerce- eller Magento Open Source-webbplats utför du två steg:
+
+1. [Konfigurera webbplatsen för säkerhetsgenomsökning](#step-1-set-up-your-site-for-security-scanning)
+2. [Konfigurera automatiska säkerhetssökningar](#step-2-configure-automatic-security-scans)
+
+### Steg 1: Konfigurera din webbplats för säkerhetsgenomsökning
 
 1. Logga in på ditt [Commerce/Magento-konto](../getting-started/commerce-account-create.md) från Commerce hemsida.
 
-1. Granska och godkänn villkoren för användning av verktyget för säkerhetsgenomsökning.
+2. Granska och godkänn villkoren för användning av verktyget för säkerhetsgenomsökning.
 
    1. Välj **[!UICONTROL Security Scan]** på den vänstra panelen.
    1. Klicka på **[!UICONTROL Go to Security Scan]**.
    1. Läs **[!UICONTROL Terms and Conditions]**.
    1. Klicka på **[!UICONTROL Agree]** för att fortsätta.
 
-1. Klicka på _[!UICONTROL Monitored Websites]_&#x200B;på sidan **[!UICONTROL +Add Site]**.
+3. Klicka på _[!UICONTROL Monitored Websites]_på sidan **[!UICONTROL +Add Site]**.
 
    Om du har flera platser med olika domäner, konfigurerar du en separat sökning för varje domän.
 
    ![Övervakade platser](./assets/monitored-website.png){width="600" zoomable="yes"}
 
-1. Gör något av följande om du vill verifiera ditt ägarskap av webbplatsdomänen genom att lägga till en bekräftelsekod:
+4. Verifiera ditt ägarskap av webbplatsdomänen genom att generera och lägga till en bekräftelsekod till verktyget för säkerhetsgenomsökning.
 
-   **Commerce storefront**:
+   Hur du lägger till bekräftelsekoden varierar beroende på vilken typ av butik du använder. Följ stegen för din butikstyp.
 
-   1. Ange **[!UICONTROL Site URL]** och **[!UICONTROL Site Name]**.
-   1. Klicka på **[!UICONTROL Generate Confirmation Code]**.
-   1. Klicka på **Kopiera** om du vill kopiera bekräftelsekoden till Urklipp.
+>[!BEGINTABS]
 
-      ![Generera bekräftelsekod](./assets/scan-site1.png){width="400" zoomable="yes"}
+>[!TAB Commerce storefront]
 
-   1. Logga in på administratören för din butik som användare med fullständig administratörsbehörighet och gör följande:
+1. Ange **[!UICONTROL Site URL]** och **[!UICONTROL Site Name]**.
+1. Klicka på **[!UICONTROL Generate Confirmation Code]**.
+1. Klicka på **Kopiera** om du vill kopiera bekräftelsekoden till Urklipp.
 
-      1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Design]_&#x200B;Admin **[!UICONTROL Configuration]**.
-      1. Hitta din webbplats i listan och klicka på **[!UICONTROL Edit]**.
-      1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
-      1. Bläddra ned till **[!UICONTROL Scripts and Style Sheets]** och klicka i textrutan i slutet av eventuell befintlig kod. Klistra in bekräftelsekoden i textrutan.
+   ![Generera bekräftelsekod](./assets/scan-site1.png){width="400" zoomable="yes"}
 
-         ![Skript och formatmallar](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+1. Logga in på administratören för din butik som användare med fullständig administratörsbehörighet och gör följande:
 
-      1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.
+   1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Design]_Admin **[!UICONTROL Configuration]**.
+   1. Hitta din webbplats i listan och klicka på **[!UICONTROL Edit]**.
+   1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
+   1. Bläddra ned till **[!UICONTROL Scripts and Style Sheets]** och klicka i textrutan i slutet av eventuell befintlig kod. Klistra in bekräftelsekoden i textrutan.
 
-   **PWA storefront**:
+      ![Skript och formatmallar](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-   1. Ange **[!UICONTROL Site URL]** och **[!UICONTROL Site Name]**.
+   1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.
 
-   1. För **[!UICONTROL Confirmation Code]** väljer du alternativet `META Tag` och klickar sedan på **[!UICONTROL Generate Code]**.
+1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap för domänen.
 
-   1. Klicka på **[!UICONTROL Copy]** för att kopiera den genererade META-taggen för bekräftelsekoden till Urklipp.
+>[!TAB PWA storefront]
 
-      ![Generera bekräftelsekod](./assets/scan-site2.png){width="400" zoomable="yes"}
+1. Ange **[!UICONTROL Site URL]** och **[!UICONTROL Site Name]**.
 
-   1. Gå till projektkatalogen för PWA Studio storefront och gör följande:
+1. För **[!UICONTROL Confirmation Code]** väljer du alternativet `META Tag` och klickar sedan på **[!UICONTROL Generate Code]**.
 
-      1. Gå till `packages > venia-concept > template.html` under PWA Studio projektkatalog.
-      1. Lägg till den kopierade bekräftelsekoden (den genererade META-taggen) i HTML head och spara ändringarna.
+1. Klicka på **[!UICONTROL Copy]** om du vill kopiera den genererade bekräftelsekoden META Tag till Urklipp.
 
-         ![Kopiera bekräftelsekod](./assets/code-pwa.png){width="600" zoomable="yes"}
+   ![Generera bekräftelsekod](./assets/scan-site2.png){width="400" zoomable="yes"}
 
-      1. Gå tillbaka till PWA Studio CLI och använd garn för att installera projektberoenden och köra projektbyggkommandot.
+1. Gå till projektkatalogen för PWA Studio storefront och gör följande:
 
-         ```sh
-         yarn install &&
-         yarn build
-         ```
+   1. Gå till `packages > venia-concept > template.html` under PWA Studio projektkatalog.
+   1. Lägg till den kopierade bekräftelsekoden (den genererade META-taggen) i huvudet på HTML och spara ändringarna.
 
-      1. *I ditt molnprojekt* skapar du en `pwa`-mapp och kopierar innehållet i ditt storefront-projekts `dist`-mapp.
+      ![Kopiera bekräftelsekod](./assets/code-pwa.png){width="600" zoomable="yes"}
 
-         ```sh
-         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
-         ```
+   1. Gå tillbaka till PWA Studio CLI och använd garn för att installera projektberoenden och köra projektbyggkommandot.
 
-      1. Använd Git CLI-verktyget för att mellanlagra, genomföra och överföra dessa ändringar till ditt Cloud-projekt.
+      ```sh
+      yarn install &&
+      yarn build
+      ```
 
-         ```sh
-         git add . &&
-         git commit -m "Added storefront file bundles" &&
-         git push origin
-         ```
+   1. *I ditt molnprojekt* skapar du en `pwa`-mapp och kopierar innehållet i ditt storefront-projekts `dist`-mapp.
 
-         När byggprocessen är klar kommer ändringarna att distribueras till din PWA-butik.
+      ```sh
+      mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
+      ```
 
-1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_&#x200B;i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;för att etablera ägarskap för domänen.
+   1. Använd Git CLI-verktyget för att mellanlagra, genomföra och överföra dessa ändringar till ditt Cloud-projekt.
 
-1. Konfigurera alternativen för **[!UICONTROL Set Automatic Security Scan]** för någon av följande typer efter att du har bekräftat att åtgärden lyckades:
+      ```sh
+      git add . &&
+      git commit -m "Added storefront file bundles" &&
+      git push origin
+      ```
+
+      När byggprocessen är klar distribueras ändringarna till din PWA-butik.
+
+1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap för domänen.
+
+>[!TAB AEM Storefront]
+
+1. Ange **[!UICONTROL Site URL]** och **[!UICONTROL Site Name]**.
+
+1. För **[!UICONTROL Confirmation Code]** väljer du alternativet `HTML Content` eller `META Tag` och klickar sedan på **[!UICONTROL Generate Code]**.
+
+1. Klicka på **[!UICONTROL Copy]** om du vill kopiera den genererade bekräftelsekoden till Urklipp.
+
+   ![Generera bekräftelsekod](./assets/scan-site3.png){width="400" zoomable="yes"}
+
+1. Gå till projektkatalogen för AEM storefront och gör följande:
+
+   1. Gå till `head.html` under projektkatalogen för AEM storefront.
+   1. Lägg till den kopierade bekräftelsekoden (det genererade HTML-innehållet eller META-taggen) i filen `head.html` och spara ändringarna.
+
+   ![Kopiera bekräftelsekod](./assets/code-aem.png){width="600" zoomable="yes"}
+
+1. Använd Git CLI-verktyget för att mellanlagra, implementera och överföra dessa ändringar till projektdatabasen.
+
+   ```sh
+   git add . &&
+   git commit -m "Added security scan confirmation code" &&
+   git push origin
+   ```
+
+   När byggprocessen är klar kommer ändringarna att distribueras till din AEM-butik.
+
+1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap för domänen.
+
+>[!ENDTABS]
+
+### Steg 2: Konfigurera automatisk säkerhetsgenomsökning
+
+1. När du har verifierat webbplatsens ägarskap konfigurerar du alternativen för **[!UICONTROL Set Automatic Security Scan]** för någon av följande typer:
 
    **Sök igenom varje vecka (rekommenderas)**:
 
@@ -159,7 +205,7 @@ Vanliga scenarier där du kan markera ett skanningsfel som falskt positivt är:
 
 Följ de här stegen för att hantera sökningsfel som du har identifierat som falska positiva:
 
-1. På sidan _[!UICONTROL Monitored Websites]_&#x200B;klickar du på&#x200B;**[!UICONTROL View Report]**&#x200B;för den webbplats du vill hantera.
+1. På sidan _[!UICONTROL Monitored Websites]_klickar du på&#x200B;**[!UICONTROL View Report]**för den webbplats du vill hantera.
 
 1. Leta reda på den misslyckade sökning som du vill markera som falskt positiv i rapportvyn.
 
@@ -169,13 +215,13 @@ Följ de här stegen för att hantera sökningsfel som du har identifierat som f
 
 1. Klicka på **[!UICONTROL Apply Changes]** för att spara markeringen.
 
-Det ignorerade genomsökningsfelet flyttas till avsnittet _[!UICONTROL Ignored Results]_&#x200B;och tas inte med i riskpoängen.
+Det ignorerade genomsökningsfelet flyttas till avsnittet _[!UICONTROL Ignored Results]_och tas inte med i riskpoängen.
 
 ### Sluta ignorera sökningsfel
 
 Om du behöver återställa ett tidigare ignorerat skanningsfel till den aktiva övervakningen gör du så här:
 
-1. Bläddra till avsnittet _[!UICONTROL Ignored Results]_&#x200B;i rapportvyn.
+1. Bläddra till avsnittet _[!UICONTROL Ignored Results]_i rapportvyn.
 
 1. Klicka på **[!UICONTROL Stop Ignoring]** för det genomsökningsfel som du vill återställa.
 
@@ -183,7 +229,7 @@ Om du behöver återställa ett tidigare ignorerat skanningsfel till den aktiva 
 
 1. Klicka på **[!UICONTROL Apply Changes]** för att spara markeringen.
 
-Skanningsfelet återgår till avsnittet _[!UICONTROL Failed Scans]_&#x200B;och ingår i riskpoängen.
+Skanningsfelet återgår till avsnittet _[!UICONTROL Failed Scans]_och ingår i riskpoängen.
 
 ### Visa ignorerade skanningsfel
 
