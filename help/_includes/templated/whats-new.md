@@ -23,7 +23,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Dokumentation har lagts till för tillägget <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Status för synkronisering av datafeed</a> för att övervaka synkronisering av dataexport från Adobe Commerce till Commerce SaaS-databasen för publicering till anslutna Commerce-tjänster (Live Search, Product Recommendations, Catalog Service). Sidan Status för datasynkronisering finns på menyn System i Commerce Admin.</p>
+      <td><p>Dokumentation har lagts till för tillägget <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Status för synkronisering av datafeed</a> för att övervaka synkronisering av dataexport från Adobe Commerce till Commerce SaaS-databasen för publicering till anslutna Commerce-tjänster (Live Search, Product Recommendations, Catalog Service). Sidan Status för datasynkronisering finns på menyn System i Commerce Admin.</p>
 </td>
       <td>
         Nytt ämne
@@ -45,7 +45,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Oktober 2025-B2B-säkerhetspatchen <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">versionsinformation</a> har lagts till.</p>
+      <td><p>Oktober 2025-B2B-säkerhetspatchen <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/b2b/release-notes">versionsinformation</a> har lagts till.</p>
 </td>
       <td>
         Viktig uppdatering
@@ -67,7 +67,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Lagt till information om hur du visar och redigerar <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">anpassade orderattribut</a> i Admin for Adobe Commerce as a Cloud Service.</p>
+      <td><p>Lagt till information om hur du visar och redigerar <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">anpassade orderattribut</a> i Admin for Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Viktig uppdatering
