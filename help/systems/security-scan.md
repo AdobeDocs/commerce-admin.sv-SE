@@ -4,9 +4,9 @@ description: Lär dig hur du kör en förbättrad säkerhetsgenomsökning och ö
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 5dd564185975216361918bda4954ed4a6fc8fee4
+source-git-commit: 425004ece49f96fa102e9f46b9c5d15c89233334
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 - Få tillgång till historiska säkerhetsrapporter som spårar och övervakar webbplatsernas förlopp.
 - Få åtkomst till den inskannade rapporten som visar lyckade och misslyckade kontroller, med rekommenderade åtgärder.
 
-Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen för ditt [Commerce/Magento-konto](../getting-started/commerce-account-create.md). Mer teknisk information finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) i _Commerce on Cloud Infrastructure Guide_.
+Verktyget för säkerhetsgenomsökning är tillgängligt utan kostnad från instrumentpanelen för ditt [Commerce/Magento-konto](../getting-started/commerce-account-create.md). Mer teknisk information finns i [Konfigurera verktyget för säkerhetsgenomsökning](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) i _Commerce on Cloud Infrastructure Guide_.
 
 ![Verktyget för säkerhetsgenomsökning](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -44,7 +44,7 @@ Om du vill konfigurera och konfigurera verktyget för säkerhetsgenomsökning f�
    1. Läs **[!UICONTROL Terms and Conditions]**.
    1. Klicka på **[!UICONTROL Agree]** för att fortsätta.
 
-3. Klicka på _[!UICONTROL Monitored Websites]_&#x200B;på sidan **[!UICONTROL +Add Site]**.
+3. Klicka på _[!UICONTROL Monitored Websites]_på sidan **[!UICONTROL +Add Site]**.
 
    Om du har flera platser med olika domäner, konfigurerar du en separat sökning för varje domän.
 
@@ -66,7 +66,7 @@ Om du vill konfigurera och konfigurera verktyget för säkerhetsgenomsökning f�
 
 1. Logga in på administratören för din butik som användare med fullständig administratörsbehörighet och gör följande:
 
-   1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Design]_&#x200B;Admin **[!UICONTROL Configuration]**.
+   1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Design]_Admin **[!UICONTROL Configuration]**.
    1. Hitta din webbplats i listan och klicka på **[!UICONTROL Edit]**.
    1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL HTML Head]**.
    1. Bläddra ned till **[!UICONTROL Scripts and Style Sheets]** och klicka i textrutan i slutet av eventuell befintlig kod. Klistra in bekräftelsekoden i textrutan.
@@ -75,7 +75,7 @@ Om du vill konfigurera och konfigurera verktyget för säkerhetsgenomsökning f�
 
    1. Klicka på **[!UICONTROL Save Configuration]** när du är klar.
 
-1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_&#x200B;i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;för att etablera ägarskap för domänen.
+1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap för domänen.
 
 >[!TAB PWA storefront]
 
@@ -117,7 +117,7 @@ Om du vill konfigurera och konfigurera verktyget för säkerhetsgenomsökning f�
 
       När byggprocessen är klar distribueras ändringarna till din PWA-butik.
 
-1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_&#x200B;i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;för att etablera ägarskap för domänen.
+1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap för domänen.
 
 >[!TAB AEM Storefront]
 
@@ -134,6 +134,10 @@ Om du vill konfigurera och konfigurera verktyget för säkerhetsgenomsökning f�
    1. Gå till `head.html` under projektkatalogen för AEM storefront.
    1. Lägg till den kopierade bekräftelsekoden (det genererade HTML-innehållet eller META-taggen) i filen `head.html` och spara ändringarna.
 
+   >[!NOTE]
+   >
+   >Verifiering av ägarskap för webbplats fungerar bara om bekräftelse läggs till direkt i filen `head.html` i projektkatalogen för AEM storefront. Det går inte att lägga till via webbsideredigeringsverktyg som Document Authoring eller Universal Editor.
+
    ![Kopiera bekräftelsekod](./assets/code-aem.png){width="600" zoomable="yes"}
 
 1. Använd Git CLI-verktyget för att mellanlagra, implementera och överföra dessa ändringar till projektdatabasen.
@@ -146,7 +150,7 @@ Om du vill konfigurera och konfigurera verktyget för säkerhetsgenomsökning f�
 
    När byggprocessen är klar kommer ändringarna att distribueras till din AEM-butik.
 
-1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_&#x200B;i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;för att etablera ägarskap för domänen.
+1. Gå tillbaka till sidan _[!UICONTROL Security Scan]_i ditt Commerce-konto och klicka på&#x200B;**[!UICONTROL Verify Confirmation Code]**för att etablera ägarskap för domänen.
 
 >[!ENDTABS]
 
@@ -205,7 +209,7 @@ Vanliga scenarier där du kan markera ett skanningsfel som falskt positivt är:
 
 Följ de här stegen för att hantera sökningsfel som du har identifierat som falska positiva:
 
-1. På sidan _[!UICONTROL Monitored Websites]_&#x200B;klickar du på&#x200B;**[!UICONTROL View Report]**&#x200B;för den webbplats du vill hantera.
+1. På sidan _[!UICONTROL Monitored Websites]_klickar du på&#x200B;**[!UICONTROL View Report]**för den webbplats du vill hantera.
 
 1. Leta reda på den misslyckade sökning som du vill markera som falskt positiv i rapportvyn.
 
@@ -215,13 +219,13 @@ Följ de här stegen för att hantera sökningsfel som du har identifierat som f
 
 1. Klicka på **[!UICONTROL Apply Changes]** för att spara markeringen.
 
-Det ignorerade genomsökningsfelet flyttas till avsnittet _[!UICONTROL Ignored Results]_&#x200B;och tas inte med i riskpoängen.
+Det ignorerade genomsökningsfelet flyttas till avsnittet _[!UICONTROL Ignored Results]_och tas inte med i riskpoängen.
 
 ### Sluta ignorera sökningsfel
 
 Om du behöver återställa ett tidigare ignorerat skanningsfel till den aktiva övervakningen gör du så här:
 
-1. Bläddra till avsnittet _[!UICONTROL Ignored Results]_&#x200B;i rapportvyn.
+1. Bläddra till avsnittet _[!UICONTROL Ignored Results]_i rapportvyn.
 
 1. Klicka på **[!UICONTROL Stop Ignoring]** för det genomsökningsfel som du vill återställa.
 
@@ -229,7 +233,7 @@ Om du behöver återställa ett tidigare ignorerat skanningsfel till den aktiva 
 
 1. Klicka på **[!UICONTROL Apply Changes]** för att spara markeringen.
 
-Skanningsfelet återgår till avsnittet _[!UICONTROL Failed Scans]_&#x200B;och ingår i riskpoängen.
+Skanningsfelet återgår till avsnittet _[!UICONTROL Failed Scans]_och ingår i riskpoängen.
 
 ### Visa ignorerade skanningsfel
 
