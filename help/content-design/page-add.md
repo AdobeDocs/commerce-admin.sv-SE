@@ -22,7 +22,7 @@ I följande instruktioner får du hjälp med varje steg för att skapa en enkel 
 
 ### Steg 1: Skapa sidan
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_&#x200B;Admin **[!UICONTROL Pages]**.
 
 1. Klicka på **[!UICONTROL Add New Page]**.
 
@@ -156,7 +156,7 @@ Lägg till sidinnehållet beroende på konfigurationen för [avancerade verktyg 
 
 ### Steg 8: Publicera sidan
 
-1. Välj **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_i rutnätet.
+1. Välj **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_&#x200B;i rutnätet.
 
 1. Ange **[!UICONTROL Enable Page]** till `Yes`.
 
@@ -168,7 +168,7 @@ Alla innehållssidor kan användas som mallar och sparas som dubbletter. Du kan 
 
 ![Spara och duplicera](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_&#x200B;Admin **[!UICONTROL Pages]**.
 
 1. Leta reda på sidan som du vill duplicera i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
@@ -211,11 +211,11 @@ Alla innehållssidor kan användas som mallar och sparas som dubbletter. Du kan 
 
 ## Ta bort en sida
 
-Det finns två sätt att ta bort en skapad sida. Du kan ta bort den från stödrastret _[!UICONTROL Pages]_eller från sidan_[!UICONTROL Edit]_.
+Det finns två sätt att ta bort en skapad sida. Du kan ta bort den från stödrastret _[!UICONTROL Pages]_&#x200B;eller från sidan&#x200B;_[!UICONTROL Edit]_.
 
 ### Metod 1: Ta bort en sida från sidstödrastret
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_&#x200B;Admin **[!UICONTROL Pages]**.
 
 1. Leta upp sidorna med hjälp av filter ovanför stödrastret och markera kryssrutan för en eller flera sidor som ska tas bort.
 
@@ -225,11 +225,11 @@ Det finns två sätt att ta bort en skapad sida. Du kan ta bort den från stödr
 
 ### Metod 2: Ta bort en sida från redigeringssidan
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_&#x200B;Admin **[!UICONTROL Pages]**.
 
 1. Hitta sidan som ska tas bort.
 
-1. Klicka på _[!UICONTROL Actions]_i kolumnen **[!UICONTROL Select]**för sidenheten och välj **[!UICONTROL Edit]**.
+1. Klicka på _[!UICONTROL Actions]_&#x200B;i kolumnen **[!UICONTROL Select]**&#x200B;för sidenheten och välj **[!UICONTROL Edit]**.
 
 1. Klicka på **[!UICONTROL Delete Page]** i knappfältet.
 
