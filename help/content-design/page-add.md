@@ -2,10 +2,10 @@
 title: Lägga till och ta bort sidor
 description: Lär dig hur du lägger till och tar bort innehållssidor som används i din [!DNL Commerce] butik.
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ I följande instruktioner får du hjälp med varje steg för att skapa en enkel 
 
 ### Steg 1: Skapa sidan
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
 
 1. Klicka på **[!UICONTROL Add New Page]**.
 
@@ -37,6 +37,10 @@ I följande instruktioner får du hjälp med varje steg för att skapa en enkel 
 ### Steg 2: Slutför innehållet
 
 Lägg till sidinnehållet beroende på konfigurationen för [avancerade verktyg för innehåll](../configuration-reference/general/content-management.md).
+
+>[!NOTE]
+>
+>Page Builder-innehållets redigerare visar inte en förhandsvisning av CMS Page-element som inte är tillgängliga för standardbutiksvyn. Du kan till exempel inte förhandsgranska ett CMS-block som endast är tilldelat icke-standardbutiksvyer. I så fall måste du publicera din CMS-sida först. Sedan kan du visa den här sidan direkt på Storefront. Du kan också visa sidan från rutnätet [!UICONTROL Pages] i Admin genom att markera CMS-sidan [!UICONTROL View] i kolumnen [!UICONTROL Action].
 
 #### Använda innehållsverktygen i Page Builder
 
@@ -152,7 +156,7 @@ Lägg till sidinnehållet beroende på konfigurationen för [avancerade verktyg 
 
 ### Steg 8: Publicera sidan
 
-1. Välj **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_&#x200B;i rutnätet.
+1. Välj **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_i rutnätet.
 
 1. Ange **[!UICONTROL Enable Page]** till `Yes`.
 
@@ -164,7 +168,7 @@ Alla innehållssidor kan användas som mallar och sparas som dubbletter. Du kan 
 
 ![Spara och duplicera](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
 
 1. Leta reda på sidan som du vill duplicera i rutnätet och klicka på **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
@@ -207,11 +211,11 @@ Alla innehållssidor kan användas som mallar och sparas som dubbletter. Du kan 
 
 ## Ta bort en sida
 
-Det finns två sätt att ta bort en skapad sida. Du kan ta bort den från stödrastret _[!UICONTROL Pages]_&#x200B;eller från sidan&#x200B;_[!UICONTROL Edit]_.
+Det finns två sätt att ta bort en skapad sida. Du kan ta bort den från stödrastret _[!UICONTROL Pages]_eller från sidan_[!UICONTROL Edit]_.
 
 ### Metod 1: Ta bort en sida från sidstödrastret
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
 
 1. Leta upp sidorna med hjälp av filter ovanför stödrastret och markera kryssrutan för en eller flera sidor som ska tas bort.
 
@@ -221,11 +225,11 @@ Det finns två sätt att ta bort en skapad sida. Du kan ta bort den från stödr
 
 ### Metod 2: Ta bort en sida från redigeringssidan
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
 
 1. Hitta sidan som ska tas bort.
 
-1. Klicka på **[!UICONTROL Select]** i kolumnen _[!UICONTROL Actions]_&#x200B;för sidenheten och välj **[!UICONTROL Edit]**.
+1. Klicka på _[!UICONTROL Actions]_i kolumnen **[!UICONTROL Select]**för sidenheten och välj **[!UICONTROL Edit]**.
 
 1. Klicka på **[!UICONTROL Delete Page]** i knappfältet.
 

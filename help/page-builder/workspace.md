@@ -3,18 +3,18 @@ title: '[!DNL Page Builder] Workspace'
 description: Lär dig mer om de verktyg som finns på arbetsytan i  [!DNL Page Builder] när du skapar bassidor, produkt- och katalogsidor, block och dynamiska block.
 exl-id: 1cd7b300-0a18-490f-bc11-36de3fec13dc
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: 69adfa95a11c8a62bd97bd917cebcaa22d3a8087
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
 
 # [!DNL Page Builder] Workspace
 
-När [[!DNL Page Builder]  är aktiverat](setup.md) ändras avsnittet _[!UICONTROL Content]_&#x200B;och processen för att skapa innehåll så att du kan utnyttja de avancerade [!DNL Page Builder] verktygen för CMS [sidor](../content-design/page-add.md), [product](../catalog/product-content.md) och [category](../catalog/categories-content-settings.md) -sidor, [block](../content-design/block-add.md) och [dynamiska block](../content-design/dynamic-blocks.md). Det här avsnittet innehåller ett_ fält för innehållsrubrik _, en förhandsgranskning av innehållet och enkel åtkomst till arbetsytan för helskärmsläge [!DNL Page Builder].
+När [[!DNL Page Builder]  är aktiverat](setup.md) ändras avsnittet _[!UICONTROL Content]_och processen för att skapa innehåll så att du kan utnyttja de avancerade [!DNL Page Builder] verktygen för CMS [sidor](../content-design/page-add.md), [product](../catalog/product-content.md) och [category](../catalog/categories-content-settings.md) -sidor, [block](../content-design/block-add.md) och [dynamiska block](../content-design/dynamic-blocks.md). Det här avsnittet innehåller ett_ fält för innehållsrubrik _, en förhandsgranskning av innehållet och enkel åtkomst till arbetsytan för helskärmsläge [!DNL Page Builder].
 
-![Innehållsavsnitt med [!DNL Page Builder] förhandsgranskning &#x200B;](./assets/pb-content-preview.png){width="700" zoomable="yes"}
+![Innehållsavsnitt med [!DNL Page Builder] förhandsgranskning ](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
 ## Innehållsrubrik
 
@@ -22,15 +22,19 @@ Eftersom sökmotorer söker efter rubriker på nivå ett (H1) är det enkelt att
 
 >[!NOTE]
 >
->Fältet _[!UICONTROL Content Heading]_&#x200B;som visas högst upp på sidan är ett äldre fält som stöder innehåll som har skapats med tidigare [!DNL Commerce]-versioner. Den ingår dock inte i [!DNL Page Builder]. [!UICONTROL Content Heading] är formaterad som en H1-rubrik enligt formatmallen som är associerad med det aktuella temat. Den placeras precis ovanför det aktiva innehållsområdet som definieras av scenen [!DNL Page Builder].
+>Fältet _[!UICONTROL Content Heading]_som visas högst upp på sidan är ett äldre fält som stöder innehåll som har skapats med tidigare [!DNL Commerce]-versioner. Den ingår dock inte i [!DNL Page Builder]. [!UICONTROL Content Heading] är formaterad som en H1-rubrik enligt formatmallen som är associerad med det aktuella temat. Den placeras precis ovanför det aktiva innehållsområdet som definieras av scenen [!DNL Page Builder].
 
-Du bör lämna fältet _[!UICONTROL Content Heading]_&#x200B;tomt och använda innehållstypen [!DNL Page Builder] [Rubrik](heading.md) för att få bästa kontroll över placering och format för rubriker på alla nivåer.
+Du bör lämna fältet _[!UICONTROL Content Heading]_tomt och använda innehållstypen [!DNL Page Builder] [Rubrik](heading.md) för att få bästa kontroll över placering och format för rubriker på alla nivåer.
 
 ![Innehållsrubrik och andra rubriker](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
 ## Förhandsgranska
 
-När du expanderar avsnittet _[!UICONTROL Content]_&#x200B;och det finns befintligt innehåll som skapats med [!DNL Page Builder] visas en förhandsgranskning av innehållet så som det skulle visas på en sida. Klicka på&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;eller i förhandsvisningsområdet för innehåll för att öppna arbetsytan i [!DNL Page Builder], där du kan göra nödvändiga uppdateringar.
+När du expanderar avsnittet _[!UICONTROL Content]_och det finns befintligt innehåll som skapats med [!DNL Page Builder] visas en förhandsgranskning av innehållet så som det skulle visas på en sida. Klicka på&#x200B;**[!UICONTROL Edit with Page Builder]**eller i förhandsvisningsområdet för innehåll för att öppna arbetsytan i [!DNL Page Builder], där du kan göra nödvändiga uppdateringar.
+
+>[!NOTE]
+>
+>Page Builder-innehållets redigerare visar inte en förhandsvisning av CMS Page-element som inte är tillgängliga för standardbutiksvyn. Du kan till exempel inte förhandsgranska ett CMS-block som endast är tilldelat icke-standardbutiksvyer. I så fall måste du publicera din CMS-sida först. Sedan kan du visa den här sidan direkt på Storefront. Du kan också visa sidan från rutnätet [!UICONTROL Pages] i Admin genom att markera CMS-sidan [!UICONTROL View] i kolumnen [!UICONTROL Action].
 
 ![Förhandsgranskning av produktbeskrivning](./assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
@@ -77,7 +81,7 @@ Som standard har [!DNL Page Builder] två visningsrutor:
 
 ### Brytpunktsinställningar
 
-Visningsknapparna har också möjlighet att tillämpa olika brytpunktsformat på innehållstyper baserat på den valda visningsrutan. Som standard innehåller [!DNL Page Builder] brytpunktsinställningar för fälten _[!UICONTROL Minimum Height]_&#x200B;för rader, kolumner, flikar, flikobjekt, banderoller, reglage och bildrutor. När du väljer visningsrutan för mobila enheter och sedan öppnar du redigeraren för någon av dessa innehållstyper kan du ange fältvärden som är specifika för brytpunkterna för visningsrutan för mobila enheter. I innehållstypfält som tillåter särskilda brytpunktsinställningar visas en ikon till höger om fältet, som i följande exempel för en rad:
+Visningsknapparna har också möjlighet att tillämpa olika brytpunktsformat på innehållstyper baserat på den valda visningsrutan. Som standard innehåller [!DNL Page Builder] brytpunktsinställningar för fälten _[!UICONTROL Minimum Height]_för rader, kolumner, flikar, flikobjekt, banderoller, reglage och bildrutor. När du väljer visningsrutan för mobila enheter och sedan öppnar du redigeraren för någon av dessa innehållstyper kan du ange fältvärden som är specifika för brytpunkterna för visningsrutan för mobila enheter. I innehållstypfält som tillåter särskilda brytpunktsinställningar visas en ikon till höger om fältet, som i följande exempel för en rad:
 
 ![Ikonindikator för brytpunktsinställning](./assets/pb-workspace-viewport-field-breakpoint.png){width="400"}
 
@@ -87,11 +91,11 @@ Panelen [!DNL Page Builder] finns till vänster om scenen och innehåller inneh�
 
 ### Layout
 
-Avsnittet _[!UICONTROL Layout]_&#x200B;på panelen [!DNL Page Builder] används för att lägga till rader, kolumner eller flikar på scenen. När du drar en innehållstyp från panelen till scenen visas en behållare med en verktygslåda med alternativ som är specifika för innehållstypen.
+Avsnittet _[!UICONTROL Layout]_på panelen [!DNL Page Builder] används för att lägga till rader, kolumner eller flikar på scenen. När du drar en innehållstyp från panelen till scenen visas en behållare med en verktygslåda med alternativ som är specifika för innehållstypen.
 
 Som standard är scenen [!DNL Page Builder] tom. När du drar layoutinnehållstyper från panelen till scenen kan du placera dem ovanför, under eller inuti andra layoutbehållare på sidan. Rader kan bara läggas till direkt på scenen.
 
-Panelen ![[!DNL Page Builder] med innehållstyper för layout och scenen &#x200B;](./assets/pb-stage-toolbox.png){width="600" zoomable="yes"}
+Panelen ![[!DNL Page Builder] med innehållstyper för layout och scenen ](./assets/pb-stage-toolbox.png){width="600" zoomable="yes"}
 
 | Innehållstyp för layout | Beskrivning |
 | ------------------- |------------ |
@@ -103,9 +107,9 @@ Panelen ![[!DNL Page Builder] med innehållstyper för layout och scenen &#x200B
 
 ### Element
 
-Använd avsnittet _[!UICONTROL Elements]_&#x200B;på panelen [!DNL Page Builder] för att lägga till text, rubriker, knappar, avgränsare och HTML-kod i en layoutbehållare på [[!DNL Page Builder] scenen](workspace.md#stage). När du drar en innehållstyp från panelen till en rad eller kolumn, eller till en tabbuppsättning på scenen, visas en behållare. Använd verktygslådan för innehållstyp för att komma åt inställningar som är specifika för typen.
+Använd avsnittet _[!UICONTROL Elements]_på panelen [!DNL Page Builder] för att lägga till text, rubriker, knappar, avgränsare och HTML-kod i en layoutbehållare på [[!DNL Page Builder] scenen](workspace.md#stage). När du drar en innehållstyp från panelen till en rad eller kolumn, eller till en tabbuppsättning på scenen, visas en behållare. Använd verktygslådan för innehållstyp för att komma åt inställningar som är specifika för typen.
 
-Panelen ![[!DNL Page Builder] med elementinnehållstyper &#x200B;](./assets/pb-elements.png){width="600" zoomable="yes"}
+Panelen ![[!DNL Page Builder] med elementinnehållstyper ](./assets/pb-elements.png){width="600" zoomable="yes"}
 
 | Elementinnehållstyp | Beskrivning |
 | -------------------- | ----------- |
@@ -119,7 +123,7 @@ Panelen ![[!DNL Page Builder] med elementinnehållstyper &#x200B;](./assets/pb-e
 
 ### Media
 
-Använd avsnittet _[!UICONTROL Media]_&#x200B;på panelen [!DNL Page Builder] för att lägga till bilder, video, banners, skjutreglage och [!DNL Google Maps] i en layoutbehållare på [[!DNL Page Builder] scenen](workspace.md#stage). När en mediainnehållstyp dras från panelen till scenen, visas en behållare med en verktygslåda med alternativ som är specifika för innehållstypen.
+Använd avsnittet _[!UICONTROL Media]_på panelen [!DNL Page Builder] för att lägga till bilder, video, banners, skjutreglage och [!DNL Google Maps] i en layoutbehållare på [[!DNL Page Builder] scenen](workspace.md#stage). När en mediainnehållstyp dras från panelen till scenen, visas en behållare med en verktygslåda med alternativ som är specifika för innehållstypen.
 
 ![[!DNL Page Builder]-panel med mediainnehållstyper](./assets/pb-media-content-types.png){width="600" zoomable="yes"}
 
@@ -135,7 +139,7 @@ Använd avsnittet _[!UICONTROL Media]_&#x200B;på panelen [!DNL Page Builder] f�
 
 ### Lägg till innehåll
 
-Använd avsnittet _[!UICONTROL Add Content]_&#x200B;på panelen [!DNL Page Builder] för att lägga till befintligt innehåll på [[!DNL Page Builder] scenen](workspace.md#stage). När du drar en mediainnehållstyp från panelen till scenen visas en behållare. Använd verktygslådan för innehållstyp för att komma åt de_ inställningar _som är specifika för typen.
+Använd avsnittet _[!UICONTROL Add Content]_på panelen [!DNL Page Builder] för att lägga till befintligt innehåll på [[!DNL Page Builder] scenen](workspace.md#stage). När du drar en mediainnehållstyp från panelen till scenen visas en behållare. Använd verktygslådan för innehållstyp för att komma åt de_ inställningar _som är specifika för typen.
 
 Panelen ![[!DNL Page Builder] med Lägg till innehållstyper](./assets/pb-add-content.png){width="600" zoomable="yes"}
 
