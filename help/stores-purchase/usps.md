@@ -24,7 +24,7 @@ Du kan även öppna ett [USPS Web Tools][1]-konto. När du är klar med registre
 
 {{$include /help/_includes/usps-api-type-configuration-note.md}}
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Delivery Methods]**.
 
