@@ -22,7 +22,7 @@ Informationen i administratörens användarhandbok är utformad för att passa f
 
 Adobe Commerce är en flexibel B2B- och B2C-handelsplattform som gör det möjligt för handlare och varumärken att öka intäkterna genom kundcentrerade digitala handelsupplevelser på både webben och fysiska platser. Det är det ledande valet för medelstora och stora företag eftersom det erbjuder de mest flexibla distributionsmodellerna, från lokalt till hanterat moln med garanterade serviceavtal. Adobe Commerce möjliggör integrering av API:er i första hand och fullt anpassningsbara tillägg, samt den mest omfattande uppsättningen av affärsfunktioner, från marknadsföring till försäljning och leverans. Adobe Commerce bygger på en öppen källkodsbas för att ge flexibilitet och utbyggbarhet precis som ingen annan handelsplattform.
 
-En lista med de avancerade funktionerna som ingår i Adobe Commerce finns i [Commerce-funktioner](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) i _versionsinformationen_.
+En lista med de avancerade funktionerna som ingår i Adobe Commerce finns i [Commerce-funktioner](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=sv-SE) i _versionsinformationen_.
 
 ## Magento Open Source kodbas
 
@@ -44,7 +44,7 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
     <div><em>Den här funktionsuppsättningen är utformad för att uppfylla behoven hos säljare (handlare) vars kunder i första hand är företag - möjligen med komplexa organisationsstrukturer och flera anställda med olika roller och nivåer av köpbehörighet.</em>
     <br></div>
   </td>
@@ -81,7 +81,7 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
     <div><em>[!DNL Page Builder] gör det enkelt att skapa innehållsrika sidor med anpassade layouter. De här funktionerna har utformats för att förbättra kvaliteten och minska tiden och kostnaden för att skapa anpassade sidor.</em></div>
   </td>
 </tr>
