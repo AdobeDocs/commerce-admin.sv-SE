@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Lär dig mer om  [!DNL Commerce Marketplace], som erbjuder handlare ett välstrukturerat urval av lösningar, och ger kvalificerade utvecklare verktyg, plattform och primär plats för att skapa ett livskraftigt företag.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 7b5c331625e4c4dab0e41156722c4a8deb4aa4c0
+source-git-commit: 17ec998812d21ab5815546e0f015965c2d35c853
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ Du kan skapa flera åtkomstnycklar för olika syften och aktivera eller inaktive
 
 1. Logga in på ditt [!DNL Commerce]-konto.
 
-1. Välj fliken **[!UICONTROL Marketplace]** på sidan _[!UICONTROL My Account]_.
+1. Välj fliken _[!UICONTROL My Account]_på sidan **[!UICONTROL Marketplace]**.
 
 1. Klicka på nedpilen i det övre högra hörnet bredvid ditt namn och välj **[!UICONTROL My Profile]**.
 
    ![Din [!DNL Marketplace]-profil](./assets/marketplace-profile.png){width="600"}
 
-1. Klicka på **[!UICONTROL Access Keys]** på fliken _[!UICONTROL Marketplace]_&#x200B;under&#x200B;_[!UICONTROL My Products]_ och gör sedan något av följande:
+1. Klicka på _[!UICONTROL Marketplace]_på fliken_[!UICONTROL My Products]_ under **[!UICONTROL Access Keys]** och gör sedan något av följande:
 
    - Kontrollera om du redan har en uppsättning nycklar för dina Marketplace-inköp. Du kan skapa flera uppsättningar åtkomstnycklar för olika syften.
 
@@ -77,7 +77,7 @@ Du kan skapa flera åtkomstnycklar för olika syften och aktivera eller inaktive
 
 >[!IMPORTANT]
 >
->Från och med Adobe Commerce och Magento Open Source 2.4.0 tas webbinstallationsguiden bort och du måste använda kommandoraden för att [installera](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=sv-SE) eller [uppgradera](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=sv-SE) din instans. Detta krav omfattar även [moduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=sv-SE) och [tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=sv-SE).
+>Från och med Adobe Commerce och Magento Open Source 2.4.0 tas webbinstallationsguiden bort och du måste använda kommandoraden för att [installera](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) eller [uppgradera](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) din instans. Detta krav omfattar även [moduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) och [tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 Installationsprocessen för [!DNL Marketplace]-köp skiljer sig åt för _lokala_-installationer av Commerce jämfört med för installationer som finns på [Adobe Cloud-arkitekturen][4].
 
@@ -87,7 +87,7 @@ Installationsprocessen för [!DNL Marketplace]-köp skiljer sig åt för _lokala
 
 Om du behöver hjälp med att installera eller använda ett tillägg ska du först titta i dokumentationen som medföljer tillägget. Om du inte hittar svaret på din fråga kan du kontakta utvecklaren direkt med kontaktinformationen i tilläggslistan. Om det du köper på Marketplace inte uppfyller dina behov kan du [begära en återbetalning](#refund-requests) inom 25 dagar från inköpsdatumet. Adobe granskar alla återbetalningsansökningar och (om det godkänns) utfärdar rätt återbetalningsvillkor. För problem relaterade till Commerce Marketplace:
 
-Metod 1: Gå till [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), navigera längst ned på sidan och klicka på [!UICONTROL Contact Us] som öppnar ett formulär för att skicka en biljett.
+Metod 1: Skicka en supportförfrågan från formuläret [Adobe Commerce Marketplace - kontakta oss](https://commercemarketplace.adobe.com/contact-us/).
 
 Metod 2: [E-postsupport](mailto:commercemarketplacesupport@adobe.com).
 
@@ -109,7 +109,7 @@ Inloggningsproblem är vanligtvis relaterade till en felmatchning mellan ditt MA
 
 ### Frågor om öppen källkod
 
-Marketplace Support-teamet löser problem som bara gäller webbplatserna [commercialMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) och [commercialDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) . Du kan ställa frågor om Magento Open Source till [Community-forumet](https://community.magento.com/) eller [kontakta en partner](https://business.adobe.com/se/products/magento/partners.html) som kan hjälpa till med Magento Open Source.
+Marketplace Support-teamet löser problem som bara gäller webbplatserna [commercialMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) och [commercialDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) . Du kan ställa frågor om Magento Open Source till [Community-forumet](https://community.magento.com/) eller [kontakta en partner](https://business.adobe.com/products/magento/partners.html) som kan hjälpa till med Magento Open Source.
 
 ### Återbetalningsbegäranden
 
@@ -143,4 +143,4 @@ Dessa särskilda behörigheter ger samma åtkomstnivå på Adobe Commerce som de
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/se/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/products/magento/magento-commerce.html
