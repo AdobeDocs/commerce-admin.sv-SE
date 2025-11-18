@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![Administratörsdokumentation](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![Administratörsdokumentation](./assets/banner-user-home.png) {#documentation}
 
 Välkommen till nästa generation av världens ledande digitala handelsplattform. Adobe Commerce ger näthandlare oöverträffad flexibilitet och kontroll över utseende, innehåll och funktionalitet i deras nätbutiker. The Admin har kraftfulla verktyg för marknadsföring, sökmotoroptimering och produkthantering som ger dig möjlighet att skapa webbplatser anpassade efter dina unika affärsbehov.
 
@@ -44,7 +44,7 @@ Magento Open Source är den kodbas som Adobe officiellt bidrar till och ser till
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [! BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller Adobe Commerce on Cloud-projekt (Adobe-administrerad PaaS-infrastruktur) och endast lokala projekt."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller Adobe Commerce on Cloud-projekt (Adobe-administrerad PaaS-infrastruktur) och endast lokala projekt."}
     <div><em>Denna funktionsuppsättning är utformad för att möta behoven hos säljare (handlare) vars kunder främst är företag – möjligen med komplexa organisationsstrukturer och flera medarbetare med olika roller och nivåer av köptillstånd.</em>
     <br></div>
   </td>
