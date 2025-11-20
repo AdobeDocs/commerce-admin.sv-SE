@@ -40,9 +40,9 @@ Mer information finns i [Företagshantering](manage-companies.md).
 
 Tjänster för Adobe Commerce är värdtjänster som ger utökade funktioner till Adobe Commerce och Magento Open Source. Tjänster som stöder B2B-arbetsflöden är:
 
-* [Katalogtjänst](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
-* [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
-* [Produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
+* [Katalogtjänst](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=sv-SE)
+* [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=sv-SE)
+* [Produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=sv-SE)
 
 ## Delade kataloger
 
