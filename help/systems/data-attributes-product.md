@@ -3,7 +3,7 @@ title: Referens för produktdataattribut
 description: Använd den här referensen för produktdataattribut när du arbetar med import och export av produktdata.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
+source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Den installation som används för att exportera dessa data har exempeldata inst
 
 | Attribut | Beskrivning |
 |--- |--- |
-| `sku` | (Obligatoriskt) Lagringsenheten är en unik alfanumerisk identifierare som används för att spåra lagret. En SKU kan innehålla upp till 64 tecken. Till exempel: `sku123`<br/>**_Obs!_**&#x200B;En SKU som är längre än 64 tecken gör att importen misslyckas. |
+| `sku` | (Obligatoriskt) Lagringsenheten är en unik alfanumerisk identifierare som används för att spåra lagret. En SKU kan innehålla upp till 64 tecken. Till exempel: `sku123`<br/>**_Obs!:_** En SKU som är längre än 64 tecken orsakar att importen misslyckas. |
 | `store_view_code` | Identifierar de specifika butiksvyer där produkten är tillgänglig. Om den är tom är produkten tillgänglig i standardbutiksvyn. Till exempel: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Tilldelar produkten till en specifik attributuppsättning eller produktmall, beroende på produkttyp. Till exempel: `default`<br><br>När produkten har skapats kan attributuppsättningen inte ändras med importfunktionen. Du kan dock ändra attributuppsättningen i Admin och exportera om produkten för att uppdatera CSV-filen. |
 | `product_type` | Anger typen av produkt. Värden:<br/>`simple` - Materiella artiklar som vanligen säljs som enstaka enheter eller i fasta kvantiteter.<br/>`grouped` - En grupp separata produkter som säljs som en uppsättning.<br/>`configurable` - En produkt med flera alternativ som kunden måste välja innan han/hon kan göra ett köp. Inventering kan hanteras för varje uppsättning variationer eftersom de representerar en separat produkt med en distinkt SKU. En kombination av färg och storlek för en konfigurerbar produkt kopplas till exempel till en specifik SKU i katalogen.<br/>`virtual` - En icke-materiell produkt som inte kräver frakt och som inte finns i lager. Exempel är tjänster, medlemskap och prenumerationer.<br/>`bundle` - En anpassningsbar produktuppsättning med enkla produkter som säljs tillsammans. |
@@ -41,7 +41,7 @@ Den installation som används för att exportera dessa data har exempeldata inst
 | save_rewrites_history | När det anges med värdet `1` med en ny `url_key` genereras en ny 301-URL-omskrivning så att den gamla URL:en omdirigeras till den nya URL:en. |
 | `meta_title` | Meta-titeln visas i namnlisten och på fliken i webbläsaren och i sökresultatlistorna. Meta-titeln ska vara unik för produkten, innehålla nyckelord med högt värde och vara kortare än 70 tecken. |
 | `meta_keywords` | Meta-nyckelord är bara synliga för sökmotorer och ignoreras av vissa sökmotorer. Välj högvärdesnyckelord, avgränsade med kommatecken. Till exempel: `keyword1`, `keyword2`, `keyword3` |
-| `meta_description` | Metabeskrivningar ger en kort översikt över produkten för sökresultatlistor. I idealfallet bör en metabeskrivning innehålla mellan 150 och 160 tecken, men fältet får innehålla upp till 255 tecken. |
+| `meta_description` | Meta beskrivningar ger en kort översikt över produkten för sökresultatlistor. I idealfallet bör en metabeskrivning innehålla mellan 150 och 160 tecken, men fältet får innehålla upp till 255 tecken. |
 | `base_image` | Den relativa sökvägen för huvudbilden på produktsidan. Commerce sparar filer internt i en alfabetisk mappstruktur. Du kan se den exakta placeringen av varje bild i de exporterade data. Exempel: `/sample_data/m/b/mb01-blue-0.jpg`<br/>Om du vill överföra en ny bild eller skriva över en befintlig bild anger du filnamnet, föregånget av ett snedstreck. Till exempel: `/image.jpg` |
 | `base_image_label` | Etiketten som är associerad med basbilden. |
 | `small_image` | Filnamnet på den lilla bilden som används på katalogsidor, föregånget av ett snedstreck. Till exempel: `/image.jpg` |
@@ -161,8 +161,8 @@ Med avancerad import/export av pris kan du snabbt uppdatera prisinformation för
 
 | Attribut | Beskrivning |
 |--- |--- |
-| `sku` | (Obligatoriskt) Lagringsenheten är en unik alfanumerisk identifierare som används för att spåra lagret. En SKU kan innehålla upp till 64 tecken. Till exempel: `sku123`<br/>**_Obs!_**&#x200B;En SKU som är längre än 64 tecken gör att importen misslyckas. |
-| `tier_price_website` | Webbplatskoden [&#128279;](../stores-purchase/stores.md#add-websites) identifierar varje webbplats där nivåpriser är tillgängliga. Till exempel: `-  website1 -  All Websites [USD]` |
+| `sku` | (Obligatoriskt) Lagringsenheten är en unik alfanumerisk identifierare som används för att spåra lagret. En SKU kan innehålla upp till 64 tecken. Till exempel: `sku123`<br/>**_Obs!:_** En SKU som är längre än 64 tecken orsakar att importen misslyckas. |
+| `tier_price_website` | Webbplatskoden [](../stores-purchase/stores.md#add-websites) identifierar varje webbplats där nivåpriser är tillgängliga. Till exempel: `-  website1 -  All Websites [USD]` |
 | `tier_price_customer` | Identifierar de [kundgrupper](../customers/customer-groups.md) där nivåpriser är tillgängliga. Till exempel: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | Identifierar de kundgrupper där nivåpriser är tillgängliga. Till exempel: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_qty` | Den kvantitet av produkten som måste beställas för att erhålla rabatten på skiktpriset. |
