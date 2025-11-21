@@ -4,7 +4,7 @@ description: Granska konfigurationsinställningarna på sidan [!UICONTROL Advanc
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: ac364c1b3cab3988c135ade2c6de799c915cee8c
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Optimera res
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
 | [!UICONTROL Allow Symlinks] | Butiksvy | Om du aktiverar [symboliska länkar](https://en.wikipedia.org/wiki/Symbolic_link) kan platsen utsättas för säkerhetsrisker och rekommenderas inte för ett produktionsarkiv. |
-| [!UICONTROL Minify Html] | Butiksvy | Anger om HTML för butiksmallar är minimerad. Alternativ: `Yes` / `No` |
+| [!UICONTROL Minify Html] | Butiksvy | Avgör om HTML för butiksmallar är minimerad. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -121,7 +121,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Optimera res
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | Global | Anger det kort som används för att återge bilder. När du har ändrat adapterinställningen tömmer du cachen för katalogbilder. Alternativ: `PHP GD2` / `ImageMagick` <br/><br/>**_Obs!_**&#x200B;ICO-filtypen stöds bara av ImageMagik-adaptern. |
+| [!UICONTROL Image Adapter] | Global | Anger det kort som används för att återge bilder. När du har ändrat adapterinställningen tömmer du cachen för katalogbilder. Alternativ: `PHP GD2` / `ImageMagick` <br/><br/>**_Note:_** ICO-filtypen stöds bara av ImageMagik-adaptern. |
 
 {style="table-layout:auto"}
 
