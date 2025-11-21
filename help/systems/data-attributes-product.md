@@ -162,7 +162,7 @@ Med avancerad import/export av pris kan du snabbt uppdatera prisinformation för
 | Attribut | Beskrivning |
 |--- |--- |
 | `sku` | (Obligatoriskt) Lagringsenheten är en unik alfanumerisk identifierare som används för att spåra lagret. En SKU kan innehålla upp till 64 tecken. Till exempel: `sku123`<br/>**_Obs!:_** En SKU som är längre än 64 tecken orsakar att importen misslyckas. |
-| `tier_price_website` | Webbplatskoden [](../stores-purchase/stores.md#add-websites) identifierar varje webbplats där nivåpriser är tillgängliga. Till exempel: `-  website1 -  All Websites [USD]` |
+| `tier_price_website` | Webbplatskoden [&#128279;](../stores-purchase/stores.md#add-websites) identifierar varje webbplats där nivåpriser är tillgängliga. Till exempel: `-  website1 -  All Websites [USD]` |
 | `tier_price_customer` | Identifierar de [kundgrupper](../customers/customer-groups.md) där nivåpriser är tillgängliga. Till exempel: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | Identifierar de kundgrupper där nivåpriser är tillgängliga. Till exempel: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_qty` | Den kvantitet av produkten som måste beställas för att erhålla rabatten på skiktpriset. |
