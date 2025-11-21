@@ -1,7 +1,7 @@
 ---
-source-git-commit: 425e0876646027428c8169e20b5ee7b4997bce6f
+source-git-commit: a65802a0975a11cbdad8be703c6fab79b0c0235f
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 0%
 ## Nyheter
 
 Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 dagarna. Vi utelämnar alla mindre uppdateringar, som kopieringsredigering, från den här listan.
+
+### 21 november 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beskrivning</th>
+      <th>Typ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Uppdaterade referensen <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product#bundle-products">bundle product data attributes</a> för att inkludera nya <code class="language-plaintext highlighter-rouge">bundle_values</code>-alternativ: <code class="language-plaintext highlighter-rouge">price_website_[website-code]</code> och <code class="language-plaintext highlighter-rouge">price_type_website_[website-code]</code>. Med dessa attribut kan du importera eller exportera produktpriser per webbplatskod.</p>
+</td>
+      <td>
+        Teknisk
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b0bd7d82b8d454e71af5b693165c14544a399630">bekräfta</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 15 november 2025
 
@@ -23,7 +45,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Vägledning om tillgängligheten för förhandsgranskning i Page Builder på CMS Page har lagts till i avsnitten <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/content-design/elements/pages/page-add">Lägg till och ta bort sidor</a> och <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/page-builder/workspace">Page Builder Workspace</a> . Förhandsvisningen visar inte innehåll om det inte finns tillgängligt i Standard Store View.</p>
+      <td><p>Vägledning om tillgängligheten för förhandsgranskning i Page Builder på CMS Page har lagts till i avsnitten <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add">Lägg till och ta bort sidor</a> och <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace">Page Builder Workspace</a> . Förhandsgranskningen visar inte innehåll om den inte är tillgänglig i standardbutiksvyn.</p>
 </td>
       <td>
         Teknik, feedback
@@ -40,12 +62,12 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
     <tr>
       <th>Beskrivning</th>
       <th>Typ</th>
-      <th>Källa</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/security/security-scan">Security Scan-verktyget</a> har uppdaterats för att stödja handlare med Commerce-butiker som installerats som Adobe Experience Manager-sajter.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan">Verktyget för säkerhetsgenomsökning</a> har uppdaterats för att ge stöd åt handlare med Commerce-butiker som distribuerats som Adobe Experience Manager-webbplatser.</p>
 </td>
       <td>
         Teknisk
@@ -62,17 +84,17 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
     <tr>
       <th>Beskrivning</th>
       <th>Typ</th>
-      <th>Källa</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Tydligare information om hur en aktiv prisregelförsäljning ska avslutas vid en viss tidpunkt när inget slutdatum har angetts i avsnittet <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Schemalagda ändringar för katalogprisregler</a>.<br />Avsnittet <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL skrivs om</a> för att förbättra exempel, konceptuella definitioner och gruppera ytterligare konfigurationsinstruktioner för URL-hantering för Web Server Rewrites och Canonical URL:er.</p>
+      <td><p>Tydligare information om hur en aktiv prisregelförsäljning ska avslutas vid en viss tidpunkt när inget slutdatum har angetts i avsnittet <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Schemalagda ändringar för katalogprisregler</a>.<br />Avsnittet <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL skrivs om</a> för att förbättra exempel, konceptuella definitioner och gruppera ytterligare konfigurationsinstruktioner för URL-hantering för Web Server Rewrites och Canonical URL:er.</p>
 </td>
       <td>
         Teknik, feedback
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">begå</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">bekräfta</a></td>
     </tr>
   </tbody>
 </table>
@@ -89,12 +111,12 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Uppdaterade instruktionerna <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">för installation</a> av fraktbärare med instruktioner för migrering från USPS Web Tools API till USPS REST API:er.</p>
+      <td><p>Instruktionerna för <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">transportföretagsinstallation</a> har uppdaterats med instruktioner för att migrera från USPS Web Tools API till USPS REST API:er.</p>
 </td>
       <td>
-        Tekniskt, feedback
+        Teknik, feedback
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5304a26081e0f4639c962d77b1932d300e5a4a6e">begå</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5304a26081e0f4639c962d77b1932d300e5a4a6e">bekräfta</a></td>
     </tr>
   </tbody>
 </table>
@@ -106,12 +128,12 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
     <tr>
       <th>Beskrivning</th>
       <th>Typ</th>
-      <th>Källa</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Lagt till dokumentation för tillägget <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"></a> Data Feed Sync Status för att övervaka synkronisering av dataexportflöden från Adobe Commerce till Commerce SaaS-databasen för publicering till anslutna handelstjänster (Live Search, Produktrekommendationer, Katalogtjänst). Sidan Data Sync Status finns tillgänglig i Systemmenyn i Commerce Admin.</p>
+      <td><p>Dokumentation har lagts till för tillägget <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Status för synkronisering av datafeed</a> för att övervaka synkronisering av dataexport från Adobe Commerce till Commerce SaaS-databasen för publicering till anslutna Commerce-tjänster (Live Search, Product Recommendations, Catalog Service). Sidan Status för datasynkronisering finns på menyn System i Commerce Admin.</p>
 </td>
       <td>
         Nytt ämne
@@ -128,15 +150,15 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
     <tr>
       <th>Beskrivning</th>
       <th>Typ</th>
-      <th>Källa</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Tillagd information om hur man konfigurerar Single Sign-On (SSO) för säker åtkomst till Adobe Apps till ämnet <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">Konfigurera Commerce Admin-integration med Adobe ID</a> i Commerce Merchant-dokumentationen.</p>
+      <td><p>Lagt till information om hur du konfigurerar enkel inloggning (SSO) för säker åtkomst till Adobe-appar i avsnittet <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">Konfigurera Commerce Admin Integration med Adobe ID</a> i Commerce Merchant-dokumentationen.</p>
 </td>
       <td>
-        Tekniskt, feedback
+        Teknik, feedback
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9e399378ac6360936b7c0bd5f08355793976c096">bekräfta</a></td>
     </tr>
@@ -150,12 +172,12 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
     <tr>
       <th>Beskrivning</th>
       <th>Typ</th>
-      <th>Källa</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Oktober 2025-B2B-säkerhetspatchen <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/b2b/release-notes">versionsinformation</a> har lagts till.</p>
+      <td><p>Oktober 2025-B2B-säkerhetspatchen <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">versionsinformation</a> har lagts till.</p>
 </td>
       <td>
         Viktig uppdatering
@@ -177,12 +199,12 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Lagt till information om hur du visar och redigerar <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">anpassade orderattribut</a> i Admin for Adobe Commerce as a Cloud Service.</p>
+      <td><p>Lagt till information om hur du visar och redigerar <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">anpassade orderattribut</a> i Admin for Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
-        Större uppdatering
+        Viktig uppdatering
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/68c4c836d0e6dfff1f397dcc93368f8daac774f3">begå</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/68c4c836d0e6dfff1f397dcc93368f8daac774f3">bekräfta</a></td>
     </tr>
   </tbody>
 </table>
