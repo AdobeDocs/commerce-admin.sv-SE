@@ -3,7 +3,7 @@ title: Förbättrade butiksupplevelser
 description: Lär dig mer om de många verktygen som hjälper er att maximera kundengagemang, kundlojalitet och lojalitet.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Förutom de standardelement som gör det möjligt för kunderna att handla i er 
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=sv-SE)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -28,7 +28,7 @@ Adobe Commerce och Magento Open Source är fullmatade med funktioner som gör de
 
 - **Anpassade URL:er** - Ange [anpassade URL:er](../stores-purchase/store-urls.md) för att göra dem korta, rena och enkla att komma ihåg. Du kan också generera sökvänliga URL:er automatiskt för att få en smidigare köpväg.
 
-- **Metadata** - Förbättra din rankning av sökmotorer genom att välja specifika kriterier som gör det enklare för sökmotorer att hitta och indexera dina produkter. Du kan ange [metadata](../merchandising-promotions/meta-data.md) för produkt-, kategori- och innehållssidor.
+- **Meta-data** - Förbättra din rankning av sökmotorer genom att välja specifika kriterier som gör det enklare för sökmotorer att hitta och indexera dina produkter. Du kan ange [metadata](../merchandising-promotions/meta-data.md) för produkt-, kategori- och innehållssidor.
 
 - **Platskarta** - Länka till en [platskarta](../merchandising-promotions/sitemap-xml.md) från butikens sidfot för att ge kunderna en översikt över katalogstrukturen, med länkar till alla kategorier och produkter i butiken. Enkel integrering med Google Sitemap.
 
@@ -84,7 +84,7 @@ Adobe Commerce och Magento Open Source har en rad verktyg som hjälper er att sk
 
 ## Optimera affärsprocesser och lönsamhet
 
-- **[!DNL Advanced Reporting]** - Få värdefulla insikter i korthet med dynamiska produkt-, order- och kundrapporter från [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=sv-SE).
+- **[!DNL Advanced Reporting]** - Få värdefulla insikter i korthet med dynamiska produkt-, order- och kundrapporter från [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
 - **Instrumentpanelsögonblicksbilder** - Att veta vad som är av intresse på din webbplats är avgörande för att maximera din marknadsföringsbudget. Använd den här [informationen på din instrumentpanel](admin-dashboard.md) för att avgöra vad du ska sälja över- och merförsäljning till lojala kunder, eller vilka produkter som ska säljas.
 

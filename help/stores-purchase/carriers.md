@@ -3,9 +3,9 @@ title: Inställningar för fraktfirma
 description: Läs mer om den support för kommersiella leveranskonton som finns för din butik.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Den 25 januari 2026 upphör USPS med de äldre API:erna för webbverktyg. Efter 
 
 För att undvika avbrott i USPS-leveranserna ska du vidta följande åtgärder före den 25 januari 2026:
 
-- Använd kvalitetskorrigeringen [USPS REST API Migration quality patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html) (AC-1520) för att lägga till stöd för integrering med USPS REST API:er.
+- Använd kvalitetskorrigeringen för [USPS REST API-migrering](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) för att lägga till stöd för integrering med REST API:erna för USPS.
 
 - Uppdatera Commerce USPS-konfigurationen så att den använder REST API:er:
 

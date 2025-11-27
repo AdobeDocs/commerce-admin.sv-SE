@@ -3,8 +3,8 @@ title: Adobe Identity Management Service (IMS) - översikt
 description: Introducerar den valfria integreringen av Adobe Commerce Admin-inloggningar med Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Information om hur du implementerar den här integreringen finns i [Konfigurera 
 
 ## Ändringar i administratörens arbetsflöden och gränssnitt efter integrering med IMS
 
-När den här integreringen är aktiverad, kommer Commerce Admin-användare att se ändringar i standardarbetsflödet för inloggning och autentisering i Commerce Admin när de utför rutinuppgifter i Admin som kräver omautentisering, t.ex. skapar en Admin-användare. Tvåfaktorautentisering (2FA) på Adobe-organisationsnivå krävs för modulaktivering. Standardadministratörsinloggningen och 2FA är inaktiverade och knappen _[!UICONTROL Sign In with Adobe ID]_&#x200B;ersätter standardformuläret för administratörsinloggning. Tillstånd hanteras fortfarande från administratören.
+När den här integreringen är aktiverad, kommer Commerce Admin-användare att se ändringar i standardarbetsflödet för inloggning och autentisering i Commerce Admin när de utför rutinuppgifter i Admin som kräver omautentisering, t.ex. skapar en Admin-användare. Tvåfaktorautentisering (2FA) på Adobe-organisationsnivå krävs för modulaktivering. Standardadministratörsinloggningen och 2FA är inaktiverade och knappen _[!UICONTROL Sign In with Adobe ID]_ersätter standardformuläret för administratörsinloggning. Tillstånd hanteras fortfarande från administratören.
 
 ## Hur administratörsintegrering med IMS påverkar Commerce lösenord
 
@@ -40,7 +40,7 @@ Användarkonton och rollbehörigheter för Commerce-programmet hanteras fortfara
 
 Commerce Admin API:er påverkas när Admin-autentisering med Adobe IMS är aktiverat i en Commerce-instans. Administratörsanvändare kan inte längre använda de autentiseringsuppgifter som utfärdats av Commerce-instansen. Detta är de autentiseringsuppgifter som krävs för att logga in på Admin och för att få åtkomsttokens som tjänster kan använda för att göra förfrågningar till Admin REST och SOAP API:er.
 
-När integreringen med Adobe IMS är aktiverad måste administratörsanvändare använda [Adobe IMS OAuth-tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/) för Adobe Commerce API-slutpunkter som kräver autentisering. Klientlösningarna hämtar token dynamiskt för webb-API-användning. Den här autentiseringsmekanismen är aktiverad för REST- och SOAP webb-API-områden som en del av konfigureringen av den här integreringen.
+När integreringen med Adobe IMS är aktiverad måste administratörsanvändare använda [Adobe IMS OAuth-tokens](https://developer.adobe.com/developer-console/docs/guides/authentication/) för Adobe Commerce API-slutpunkter som kräver autentisering. Klientlösningarna hämtar token dynamiskt för webb-API-användning. Den här autentiseringsmekanismen är aktiverad för REST- och SOAP webb-API-områden som en del av konfigureringen av den här integreringen.
 
 Se [Tokenbaserad autentisering](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) för en översikt över hur webb-API:er använder Commerce åtkomsttoken, inklusive IMS-åtkomsttoken.
 

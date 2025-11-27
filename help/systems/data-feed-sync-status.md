@@ -2,8 +2,8 @@
 title: Statusövervakning för synkronisering av datafeed
 description: Övervaka synkronisering av dataexport och identifiera eventuella problem eller fördröjningar med flödeshanteringen för  [!DNL Catalog Service], [!DNL Live Search] och [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 4cc5f5842e772ead9785b8280557a7b5b8f26419
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%
@@ -38,24 +38,24 @@ Status spåras för följande feeds:
 
 >[!TIP]
 >
->Mer information om datasynkroniseringsprocessen finns i [Synkronisera data med SaaS-dataexport](https://experienceleague.adobe.com/sv/docs/commerce/saas-data-export/data-synchronization) i *Exporthandboken för SaaS-data*.
+>Mer information om datasynkroniseringsprocessen finns i [Synkronisera data med SaaS-dataexport](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization) i *Exporthandboken för SaaS-data*.
 
 ## Installera tillägget
 
 Statussidan för datafeeds är tillgänglig för alla Commerce-handlare med aktiva licenser för följande Commerce-tjänster:
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/sv/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/sv/docs/commerce/catalog-service/guide-overview) med en aktiv licens.
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
+* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) med en aktiv licens.
 
 **Krav**
 
 * PHP 8.1, 8.2, 8.3 eller 8.4
 * Adobe Commerce 2.4.4+
-* [Adobe Commerce Data Export Extension](https://experienceleague.adobe.com/sv/docs/commerce/saas-data-export/manage-extension), version 103.4.15 eller senare
+* [Adobe Commerce Data Export Extension](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), version 103.4.15 eller senare
 * Åtkomst till [repo.magento.com](https://repo.magento.com)
 
-  Mer information om hur du skapar nycklar och får de nödvändiga rättigheterna finns i [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/sv/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Information om molninstallationer finns i [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+  Mer information om hur du skapar nycklar och får de nödvändiga rättigheterna finns i [Hämta dina autentiseringsnycklar](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Information om molninstallationer finns i [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 
 * Åtkomst till kommandoraden på Adobe Commerce-programservern.
 
@@ -69,9 +69,9 @@ composer require magento/module-data-exporter-status
 
 Detaljerade installationssteg finns i följande handböcker:
 
-* [Installera tillägg på Adobe Commerce i molninfrastrukturen](https://experienceleague.adobe.com/sv/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [Installera tillägg på Adobe Commerce i molninfrastrukturen](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [Installera tillägget Adobe Commerce lokalt](https://experienceleague.adobe.com/sv/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [Installera tillägget Adobe Commerce lokalt](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## Gå till statussidan för datafeed
 
@@ -82,7 +82,7 @@ Gå till statussidan för datafeeds från Commerce Admin från Commerce Admin p�
 Övervakning av status för datafeed ger två gränssnitt:
 
 * Sammanfattningssidan [Synkroniseringsstatus för datafeed](#data-feed-sync-status-summary) som visar tillgängliga feeds och det aktuella läget
-* Synkroniseringsstatus för [datafeed - Information &#x200B;](#data-feed-sync-status-details) som visar detaljerad information om en vald feed.
+* Synkroniseringsstatus för [datafeed - Information ](#data-feed-sync-status-details) som visar detaljerad information om en vald feed.
 
 ## Statussammanfattning för synkronisering av datafeed
 
@@ -100,7 +100,7 @@ På sidan Statussammanfattning för feedsynkronisering finns information om expo
 
 Klicka på ett flödesnamn på sammanfattningssidan för dataflödesstatus eller använd åtgärden [!DNL View Details] för att få tillgång till detaljerad information om enskilda poster i en feed.
 
-![[!UICONTROL Data Feed Sync Status - Details] sida med statusrapportering för feed-objekt &#x200B;](assets/data-feed-sync-status-details.png)
+![[!UICONTROL Data Feed Sync Status - Details] sida med statusrapportering för feed-objekt ](assets/data-feed-sync-status-details.png)
 
 I detaljvyn finns följande information för varje feed-objekt:
 
@@ -133,7 +133,7 @@ Högst upp på varje feed-detaljsida ger viktiga hälsoindikatorer systemstatus 
 
 >[!TIP]
 >
->Mer information om indexbearbetning finns i avsnittet [Indexhantering](https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/tools/index-management).
+>Mer information om indexbearbetning finns i avsnittet [Indexhantering](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management).
 
 #### Changelog-efterlogg
 
@@ -165,7 +165,7 @@ När antalet poster som har skickats matchar antalet källposter visar det att s
 
 >[!NOTE]
 >
->Adobe innehåller även kommandoradsverktyg och systemloggar som utvecklare och systemintegratörer kan använda för att hantera och spåra synkroniseringsåtgärder. Mer information finns i [Exportguiden för SaaS-data](https://experienceleague.adobe.com/sv/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe innehåller även kommandoradsverktyg och systemloggar som utvecklare och systemintegratörer kan använda för att hantera och spåra synkroniseringsåtgärder. Mer information finns i [Exportguiden för SaaS-data](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Hantera misslyckade exporter
 
@@ -265,5 +265,5 @@ Om du behöver synkronisera om specifika feed-objekt:
 
 >[!MORELIKETHIS]
 >
->* [Instrumentpanel för datahantering](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard)
->* [Handbok för export av SaaS-data](https://experienceleague.adobe.com/sv/docs/commerce-merchant-services/saas-data-export/overview)
+>* [Instrumentpanel för datahantering](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
+>* [Handbok för export av SaaS-data](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)

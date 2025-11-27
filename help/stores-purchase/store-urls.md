@@ -3,8 +3,8 @@ title: Lagra URL:er
 description: Lär dig mer om butiks-URL:er och hur du konfigurerar bas-URL:en och lagringskoderna.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 0%
@@ -37,9 +37,9 @@ Adobe Commerce och Magento Open Source kan konfigureras för att leverera alla s
 
 ## Konfigurera bas-URL:en
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL Web]** under _Allmänt_ i den vänstra panelen.
+1. Välj _under_ Allmänt **[!UICONTROL Web]** i den vänstra panelen.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Base URL]**.
 
@@ -51,11 +51,11 @@ Adobe Commerce och Magento Open Source kan konfigureras för att leverera alla s
 
    - **[!UICONTROL Base URL for Static View Files]** — (Valfritt) Ange en alternativ plats för bas-URL:en för statiska vyfiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{unsecure_base_url}&rbrace;
+     \{unsecure_base_url}}
 
    - **[!UICONTROL Base URL for User Media Files]** — (Valfritt) Ange en alternativ plats för bas-URL:en för användarmediefiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{unsecure_base_url}&rbrace;
+     \{unsecure_base_url}}
 
      För en vanlig installation finns det ingen anledning att uppdatera sökvägarna för statiska vyfiler eller mediefiler eftersom de är relativa till bas-URL:en.
 
@@ -81,11 +81,11 @@ Om din domän har ett giltigt säkerhetscertifikat kan du konfigurera URL:er fö
 
    - **[!UICONTROL Secure Base URL for Static View Files]** — (Valfritt) Ange en alternativ plats för den säkra bas-URL:en för statiska vyfiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{secure_base_url}&rbrace;
+     \{secure_base_url}}
 
    - **[!UICONTROL Secure Base URL for User Media Files]** — (Valfritt) Ange en alternativ plats för den säkra bas-URL:en för användarmediefiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{secure_base_url}&rbrace;
+     \{secure_base_url}}
 
 1. Om du vill förbättra säkerheten anger du `Yes` som båda av följande alternativ.
 
@@ -110,9 +110,9 @@ Om din domän har ett giltigt säkerhetscertifikat kan du konfigurera URL:er fö
 >
 >När alternativet _Lägg till butikskod i URL:er_ är inställt på `Yes` måste du inkludera butikskoder i URL:erna för webbläsaren. Den här inställningen säkerställer att URL-omskrivningar mappas korrekt och att alla sidor öppnas utan _&quot;404 Page Not found&quot;_ -fel.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL Web]** under _[!UICONTROL General]_&#x200B;i den vänstra panelen.
+1. Välj _[!UICONTROL General]_under **[!UICONTROL Web]**i den vänstra panelen.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL URL Options]**.
 
@@ -138,7 +138,7 @@ Om vissa sidor fortfarande hanteras med den osäkra URL:en (`http://`) efter att
 
 ## Använd en anpassad Admin URL
 
-Adobe rekommenderar att du använder en unik administratörs-URL i stället för _admin_ som standard eller en vanlig term som _backend_ som [bästa säkerhetspraxis](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=sv-SE). Även om webbplatsen inte skyddas direkt från en bestämd skadad skådespelare kan den minska exponeringen för skript som försöker få obehörig åtkomst.
+Adobe rekommenderar att du använder en unik administratörs-URL i stället för [admin](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) som standard eller en vanlig term som _backend_ som _bästa säkerhetspraxis_. Även om webbplatsen inte skyddas direkt från en bestämd skadad skådespelare kan den minska exponeringen för skript som försöker få obehörig åtkomst.
 
 >[!NOTE]
 >
@@ -154,11 +154,11 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
 >[!NOTE]
 >
->Som en försiktighetsåtgärd bör du inte ändra Admin URL själv om du inte vet hur du redigerar konfigurationsfiler på servern. För Adobe Commerce-projekt som distribueras i molninfrastruktur ändrar du Admin-URL genom att följa [instruktionerna](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=sv-SE#admin-url) i *Adobe Commerce on Cloud Infrastructure Guide*.
+>Som en försiktighetsåtgärd bör du inte ändra Admin URL själv om du inte vet hur du redigerar konfigurationsfiler på servern. För Adobe Commerce-projekt som distribueras i molninfrastruktur ändrar du Admin-URL genom att följa [instruktionerna](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) i *Adobe Commerce on Cloud Infrastructure Guide*.
 
 ### Metod 1: Ändra från administratör
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Admin]**.
 
@@ -200,7 +200,7 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
    >[!TIP]
    >
-   >För Adobe Commerce i molninfrastruktur kan du skapa en anpassad administratörssökväg med variabeln `ADMIN_URL` i molngränssnittet. Se avsnittet [Administratörsvariabler](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=sv-SE) i _Commerce on Cloud Infrastructure Guide_.
+   >För Adobe Commerce i molninfrastruktur kan du skapa en anpassad administratörssökväg med variabeln `ADMIN_URL` i molngränssnittet. Se avsnittet [Administratörsvariabler](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) i _Commerce on Cloud Infrastructure Guide_.
 
    - **Standardadministratörssökväg**
 
@@ -220,7 +220,7 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
 1. Använd någon av följande metoder för att rensa cacheminnet:
 
-   - Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
+   - Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Tools]_Admin **[!UICONTROL Cache Management]**. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
    - Kör följande på servern:
 
      ```bash
@@ -259,7 +259,7 @@ Om du har angett en ogiltig Admin URL eller en Admin Path och inte längre komme
 
 1. Använd någon av följande metoder för att rensa cacheminnet:
 
-   - Gå till **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;på sidofältet_ Admin _. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
+   - Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Tools]_Admin **[!UICONTROL Cache Management]**. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
    - Kör följande på servern:
 
      ```bash
