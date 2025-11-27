@@ -16,7 +16,7 @@ Adobe Commerce och Magento Open Source stöder en mängd olika betalningsmetoder
 
 >[!TIP]
 >
->Betalningstjänster för Adobe Commerce och Magento Open Source erbjuder en nyckelfärdig självbetjäningslösning, inklusive sandlådetestning och en enkel konfiguration, för stabil och säker betalningshantering. Om du vill veta mer om den här kraftfulla verktygsuppsättningen och hur den kan ge dig de insikter och den kontroll du behöver för att skapa den bästa upplevelsen för dina köpare kan du läsa [användarhandboken för betaltjänster](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html). Det här är standardlösningen för betalningar i [Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview).
+>Betalningstjänster för Adobe Commerce och Magento Open Source erbjuder en nyckelfärdig självbetjäningslösning, inklusive sandlådetestning och en enkel konfiguration, för stabil och säker betalningshantering. Om du vill veta mer om den här kraftfulla verktygsuppsättningen och hur den kan ge dig de insikter och den kontroll du behöver för att skapa den bästa upplevelsen för dina köpare kan du läsa [användarhandboken för betaltjänster](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=sv-SE). Det här är standardlösningen för betalningar i [Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/sv/docs/commerce/cloud-service/overview).
 
 >[!NOTE]
 >
@@ -24,13 +24,13 @@ Adobe Commerce och Magento Open Source stöder en mängd olika betalningsmetoder
 
 ## Ändringar i 2.4
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Vissa betalningsintegreringar och programtillägg har tagits bort i version 2.4.x och flyttats till Commerce Marketplace. Du hittar de senaste officiella tilläggen för betalningsintegrering i [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
 
 - **Amazon Pay** och **Klarna**: Adobe Commerce och Magento Open Source version 2.4.0 till 2.4.3 innehåller dessa tillägg som utvecklats av återförsäljare. Från och med version 2.4.4 paketeras dessa tillägg inte längre med kärnversionen och måste installeras och uppdateras från Commerce Marketplace. Marketplace ger också tillgång till aktuell dokumentation från tilläggsutvecklaren.
 
-  Om du har aktiverat och konfigurerat något av de här paketerade tilläggen måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar framöver. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _Uppgraderingshandboken_.
+  Om du har aktiverat och konfigurerat något av de här paketerade tilläggen måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar framöver. Mer information finns i [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=sv-SE) i _Uppgraderingshandboken_.
 
 - **Worldplay**, **Eway**, **CyberSource** och **Authorize.Net**: Mer information om hur du gör en säker övergång från dessa betalningsintegreringar finns i [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
@@ -51,19 +51,19 @@ Adobe Commerce och Magento Open Source har stöd för ett stort antal betallösn
 
 ### Rekommenderade lösningar
 
-- [Betalningstjänster](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
-- [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [PayPal Express Checkout](paypal-express-checkout.md)
-- [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [Braintree](braintree.md)
+- [Betalningstjänster](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=sv-SE)
+- [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [PayPal Express Checkout](paypal-express-checkout.md)
+- [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} [Braintree](braintree.md)
 
 ### Andra PayPal-betalningslösningar
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Mer information om betalningsmetoder för PayPal finns i [PayPal](paypal.md).
 
 #### Allt-i-ett-PayPal-lösningar
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 - [Avancerade PayPal-betalningar](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
@@ -71,14 +71,14 @@ Mer information om betalningsmetoder för PayPal finns i [PayPal](paypal.md).
 
 #### Betalningsgateways för PayPal
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [Länk till PayPal-betalningsflöde](paypal-payflow-link.md)
 
 ## Bedrägeriskydd
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Tjänsterna för bedrägeriskydd och -filter undersöker skickade order innan transaktionen behandlas för att upptäcka bedrägliga order och skydda dig mot kostnader för avgiftsåterbetalning. Adobe Commerce och Magento Open Source stöder följande lösningar för skydd mot bedrägerier:
 
@@ -92,8 +92,8 @@ Tjänsterna för bedrägeriskydd och -filter undersöker skickade order innan tr
 
 ## Felsökningsresurser
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
-Hjälp om felsökning av betalningsproblem finns i [kunskapsbasen med supportfrågor](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html).
+Hjälp om felsökning av betalningsproblem finns i [kunskapsbasen med supportfrågor](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=sv-SE).
 
 [1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection

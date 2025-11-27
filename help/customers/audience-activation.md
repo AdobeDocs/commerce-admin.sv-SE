@@ -5,7 +5,7 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: 676081da615d02f8cb2e4896b200b1e4c0855913
 workflow-type: tm+mt
 source-wordcount: '1688'
@@ -27,9 +27,9 @@ Det här avsnittet innehåller information om uppdateringar av Audience Activati
 ![Korrigera &#x200B;](../assets/fix.svg) - Korrigeringar och förbättringar
 ![Fel](../assets/bug.svg) - Kända fel
 
-Läs [Kommande releaser](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) om du vill veta mer om releasescheman och support.
+Läs [Kommande releaser](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=sv-SE) om du vill veta mer om releasescheman och support.
 
-Läs utvecklardokumentationen för att [lära dig mer om produktkompatibilitet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
+Läs utvecklardokumentationen för att [lära dig mer om produktkompatibilitet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=sv-SE).
 
 ## Uppdateringar av tjänster som stöds
 
@@ -163,7 +163,7 @@ _31 mars 2023_
 Följande uppgifter gäller både Luma-implementeringar och implementeringar utan headless storefront. Om du vill aktivera målgrupper i Adobe Commerce måste du:
 
 - Installera Adobe Commerce version 2.4.4 eller senare
-- [Aktivera](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce som mål i Real-Time CDP
+- [Aktivera](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=sv-SE) Adobe Commerce som mål i Real-Time CDP
 - [Installera](#install-the-extension) tillägget [!DNL Audience Activation] i Admin
 - [Konfigurera](#configure-the-extension) tillägget [!DNL Audience Activation] i Admin
 
@@ -181,23 +181,23 @@ När du har installerat tillägget [!DNL Audience Activation] måste du logga in
 
 1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Services]_&#x200B;Admin **[!UICONTROL Commerce Services Connector]**.
 
-1. [Logga in](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#organizationid) på ditt Adobe-konto och välj ditt företags-ID.
+1. [Logga in](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=sv-SE#organizationid) på ditt Adobe-konto och välj ditt företags-ID.
 
 1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Services]_&#x200B;Admin **[!UICONTROL [!DNL Data Connection]]**.
 
-1. I fältet **[!UICONTROL Datastream ID]** klistrar du in ID:t för den datastream som du skapade när du [aktiverade](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce som mål i Real-Time CDP.
+1. I fältet **[!UICONTROL Datastream ID]** klistrar du in ID:t för den datastream som du skapade när du [aktiverade](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=sv-SE#parameters) Adobe Commerce som mål i Real-Time CDP.
 
-   Denna datastream skickar data från din Commerce webbplats till Real-Time CDP för att avgöra om en kund tillhör en viss målgrupp. Om du ännu inte har skapat ett datastream [skapar](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) i Experience Platform, [lägger till](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) det i Commerce-målet i Real-Time CDP och i tillägget [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) i Admin.
+   Denna datastream skickar data från din Commerce webbplats till Real-Time CDP för att avgöra om en kund tillhör en viss målgrupp. Om du ännu inte har skapat ett datastream [skapar](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=sv-SE#create) i Experience Platform, [lägger till](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=sv-SE) det i Commerce-målet i Real-Time CDP och i tillägget [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=sv-SE#data-collection) i Admin.
 
    >[!NOTE]
    >
-   >När du anger ett datastream-ID [kopplar du det till en specifik webbplats](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) i tillägget [!DNL Data Connection]. Om din Commerce-butik har flera webbplatser kan du [skapa ett mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) för varje webbplats i Real-Time CDP och använda olika data-ID för varje.
+   >När du anger ett datastream-ID [kopplar du det till en specifik webbplats](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=sv-SE#data-collection) i tillägget [!DNL Data Connection]. Om din Commerce-butik har flera webbplatser kan du [skapa ett mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=sv-SE) för varje webbplats i Real-Time CDP och använda olika data-ID för varje.
 
 1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Services]** och välj **[!UICONTROL [!DNL Data Connection]]**.
 
-1. [Lägg till &#x200B;](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) tjänstkonto och autentiseringsuppgifter.
+1. [Lägg till &#x200B;](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=sv-SE#add-service-account-and-credential-details) tjänstkonto och autentiseringsuppgifter.
 
 ## Var kan man använda Real-Time CDP målgrupper i Commerce?
 
@@ -209,11 +209,11 @@ När tillägget [!DNL Audience Activation] är aktiverat kan du:
 
 >[!TIP]
 >
->Ett komplett slutanvändarexempel med information om hur du exporterar [!DNL Commerce]-data till Real-Time CDP finns i [!DNL Commerce]Skapa en målgrupp och aktivera den målgruppen till [Real-Time CDP med  [!DNL Commerce] .](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience)
+>Ett komplett slutanvändarexempel med information om hur du exporterar [!DNL Commerce]-data till Real-Time CDP finns i [!DNL Commerce]Skapa en målgrupp och aktivera den målgruppen till [Real-Time CDP med  [!DNL Commerce] .](https://experienceleague.adobe.com/sv/docs/commerce/data-connection/use-cases/create-audience)
 
 ## Real-Time CDP målgruppspanel
 
-Du kan visa alla [aktiva](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) målgrupper som är tillgängliga för anpassning i din Adobe Commerce-instans med kontrollpanelen **Real-Time CDP-målgrupper**.
+Du kan visa alla [aktiva](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=sv-SE) målgrupper som är tillgängliga för anpassning i din Adobe Commerce-instans med kontrollpanelen **Real-Time CDP-målgrupper**.
 
 Gå till sidofältet **Admin** och gå till _>_ för att komma åt kontrollpanelen **[!UICONTROL Customers]** Real-Time CDP Audiences **[!UICONTROL Real-time CDP Audience]**.
 
@@ -243,7 +243,7 @@ Du kan aktivera målgrupper i en headless Adobe Commerce-instans, som AEM och PW
 
 ### Kundprisregler och relaterade produktregler
 
-För kundvagnsprisregler och relaterade produktregler kommunicerar en headless Store till Experience Platform via [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Ramverket innehåller ett API på serversidan som implementeras med GraphQL. Målgruppsinformation, till exempel en kunds segment, skickas till Commerce via en GraphQL-huvudparameter med namnet `aep-segments-membership`.
+För kundvagnsprisregler och relaterade produktregler kommunicerar en headless Store till Experience Platform via [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html?lang=sv-SE). Ramverket innehåller ett API på serversidan som implementeras med GraphQL. Målgruppsinformation, till exempel en kunds segment, skickas till Commerce via en GraphQL-huvudparameter med namnet `aep-segments-membership`.
 
 Den övergripande arkitekturen är följande:
 
@@ -251,7 +251,7 @@ Den övergripande arkitekturen är följande:
 
 När du har [installerat](#install-the-extension) och [konfigurerat](#configure-the-extension) tillägget innehåller Experience Platform Web SDK målgruppsinformation i form av segmentmedlemskap.
 
-Information om hur du fångar dessa segmentmedlemskap från SDK finns i det här [kodfragmentet](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
+Information om hur du fångar dessa segmentmedlemskap från SDK finns i det här [kodfragmentet](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=sv-SE#example-response-for-custom-personalization-with-attributes).
 
 När segmenten har hämtats kan du skicka dem till Commerce i GraphQL sidhuvud. Exempel:
 
@@ -344,7 +344,7 @@ Läs mer om GraphQL-frågan `dynamicBlocks` i [utvecklardokumentationen](https:/
 Du kan hämta Real-Time CDP-målgrupper med Adobe Experience Platform Mobile SDK.
 
 1. [Installera](#install-the-extension) Audience Activation-tillägget.
-1. [installera och konfigurera SDK för din mobila Commerce-webbplats](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [installera och konfigurera SDK för din mobila Commerce-webbplats](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html?lang=sv-SE).
 
 >[!IMPORTANT]
 >
@@ -418,7 +418,7 @@ Exempel:
 1. Öppna din Commerce-instans.
 1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 1. Expandera **[!UICONTROL Services]** och välj **[!UICONTROL [!DNL Data Connection]]**.
-1. Kontrollera att auktoriseringsmetoden server-till-server som du angav i fältet **[!UICONTROL Authentication Type]** är korrekt. Adobe rekommenderar att du använder **OAuth**. [JWT har tagits bort](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), och alla aktuella certifikat upphör att gälla den 1 mars 2026.
+1. Kontrollera att auktoriseringsmetoden server-till-server som du angav i fältet **[!UICONTROL Authentication Type]** är korrekt. Adobe rekommenderar att du använder **OAuth**. [JWT har tagits bort](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), och alla aktuella certifikat upphör att gälla den 1 mars 2026.
 
 ### Otillräckliga privilegier för genererad token
 
@@ -432,5 +432,5 @@ Problemet kan bero på otillräcklig API-behörighet för den genererade token. 
 1. Öppna autentiseringsuppgifterna och välj sedan **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
 1. Lägg till rollen som innehåller behörigheten **[!UICONTROL Manage destinations]**.
 1. Klicka på **[!UICONTROL Save]**.
-1. [Återskapa](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) åtkomsttoken i konsolen.
+1. [Återskapa](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=sv-SE#generate-access-token) åtkomsttoken i konsolen.
 1. Kontrollera att token ger ett giltigt svar med [Target Connections API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).

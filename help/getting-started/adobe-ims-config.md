@@ -3,7 +3,7 @@ title: Konfigurera Commerce Admin-integrering med ID
 description: Följ den här valfria proceduren för att integrera inloggningar för användarkonton i Adobe Commerce Admin med Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '817'
@@ -28,8 +28,8 @@ Integrationen stöder Commerce handlare med admin-användare som har en Adobe ID
 
 Administratören som konfigurerar den här integreringen behöver följande autentiseringsuppgifter när modulen aktiveras:
 
-* Organisations-ID (hämtas från [Adobe Admin Console](https://adminconsole.adobe.com/)), som måste innehålla minst 24 tecken. Den autentiserade användaren måste tillhöra den här IMS-organisationen. Mer information om hur du hittar ditt företags-ID finns i [Organisationer i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
-* 2FA ska tillämpas på organisationsnivå i Adobe Admin Console för att aktivera modulen. Kontrollera [autentiseringsinställningar](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
+* Organisations-ID (hämtas från [Adobe Admin Console](https://adminconsole.adobe.com/)), som måste innehålla minst 24 tecken. Den autentiserade användaren måste tillhöra den här IMS-organisationen. Mer information om hur du hittar ditt företags-ID finns i [Organisationer i Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv-SE).
+* 2FA ska tillämpas på organisationsnivå i Adobe Admin Console för att aktivera modulen. Kontrollera [autentiseringsinställningar](https://helpx.adobe.com/se/enterprise/using/authentication-settings.html#two-step-verification).
 * Klient-ID
 * Klienthemlighet
 * Klient-ID och klienthemlighet är tillgängliga efter hämtning av API-nycklar från [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials).
@@ -76,7 +76,7 @@ Innan du aktiverar integreringen bör du kontrollera att alla Adobe Commerce Adm
 
 >[!TIP]
 >
->Du kan skapa flera användarkonton genom att överföra användarinformationen från en CSV-fil. Se [Hantera flera användare](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+>Du kan skapa flera användarkonton genom att överföra användarinformationen från en CSV-fil. Se [Hantera flera användare](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html).
 
 1. Gå till [&#x200B; > &#x200B;](https://helpx.adobe.com/se/enterprise/using/admin-console.html) i **[!UICONTROL Users]** Adobe Admin Console **[!UICONTROL Users]**.
 
@@ -109,4 +109,4 @@ När du har aktiverat den här funktionen kan du överföra andra Adobe Commerce
 
 ## Identitet och enkel inloggning
 
-Information om alternativ för identitetskonfiguration, inklusive Adobe ID, Enterprise ID och Federated ID, och instruktioner för hur du konfigurerar enkel inloggning (SSO) för säker åtkomst till Adobe-program finns i [Konfigurera identitet och enkel inloggning](https://helpx.adobe.com/enterprise/using/set-up-identity.html) i *Enterprise Admin Console* -dokumentationen.
+Information om alternativ för identitetskonfiguration, inklusive Adobe ID, Enterprise ID och Federated ID, och instruktioner för hur du konfigurerar enkel inloggning (SSO) för säker åtkomst till Adobe-program finns i [Konfigurera identitet och enkel inloggning](https://helpx.adobe.com/se/enterprise/using/set-up-identity.html) i *Enterprise Admin Console* -dokumentationen.

@@ -51,7 +51,7 @@ Den 25 januari 2026 upphör USPS med de äldre API:erna för webbverktyg. Efter 
 
 För att undvika avbrott i USPS-leveranserna ska du vidta följande åtgärder före den 25 januari 2026:
 
-- Använd kvalitetskorrigeringen för [USPS REST API-migrering](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) för att lägga till stöd för integrering med REST API:erna för USPS.
+- Använd kvalitetskorrigeringen för [USPS REST API-migrering](https://experienceleague.adobe.com/sv/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) för att lägga till stöd för integrering med REST API:erna för USPS.
 
 - Uppdatera Commerce USPS-konfigurationen så att den använder REST API:er:
 
