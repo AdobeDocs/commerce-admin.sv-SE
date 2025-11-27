@@ -82,7 +82,7 @@ Gå till statussidan för datafeeds från Commerce Admin från Commerce Admin p�
 Övervakning av status för datafeed ger två gränssnitt:
 
 * Sammanfattningssidan [Synkroniseringsstatus för datafeed](#data-feed-sync-status-summary) som visar tillgängliga feeds och det aktuella läget
-* Synkroniseringsstatus för [datafeed - Information ](#data-feed-sync-status-details) som visar detaljerad information om en vald feed.
+* Synkroniseringsstatus för [datafeed - Information &#x200B;](#data-feed-sync-status-details) som visar detaljerad information om en vald feed.
 
 ## Statussammanfattning för synkronisering av datafeed
 
@@ -100,7 +100,7 @@ På sidan Statussammanfattning för feedsynkronisering finns information om expo
 
 Klicka på ett flödesnamn på sammanfattningssidan för dataflödesstatus eller använd åtgärden [!DNL View Details] för att få tillgång till detaljerad information om enskilda poster i en feed.
 
-![[!UICONTROL Data Feed Sync Status - Details] sida med statusrapportering för feed-objekt ](assets/data-feed-sync-status-details.png)
+![[!UICONTROL Data Feed Sync Status - Details] sida med statusrapportering för feed-objekt &#x200B;](assets/data-feed-sync-status-details.png)
 
 I detaljvyn finns följande information för varje feed-objekt:
 
