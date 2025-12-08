@@ -72,7 +72,7 @@ Den här överföringstypen kräver att du har en Adobe ID som är länkad till 
 
 1. Klicka på **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447663/?captions=swe&learn=on)
 
 ## E-poständring
 
