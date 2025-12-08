@@ -3,9 +3,9 @@ title: Överföra ett Commerce-konto
 description: Lär dig hur du överför ditt Commerce-konto till en annan ägare eller e-postadress.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 63c1bb5848f1071c0d715ea65b38f347152ffa60
+source-git-commit: a7b23834b00b2ae0f5fd98de47fdc6f4aa00c010
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1196'
 ht-degree: 1%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 När ditt ansvar förändras kan du behöva överföra ditt Commerce-konto till en ny ägare eller till en annan e-postadress. Den här överföringen kräver en ändring av den primära användarens e-postadress som är kopplad till kontot.
 
-Följande information beskriver processen för överföring av ett Commerce-konto (MAGEID). Det innehåller inga ändringar av ägarskapet för molnkontot (molnprojektet eller New Relic). Mer information om åtkomst till molnprojekt finns i [Hantera användaråtkomst](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=sv-SE) i _Commerce on Cloud Infrastructure Guide_.
+Följande information beskriver processen för överföring av ett Commerce-konto (MAGEID). Det innehåller inga ändringar av ägarskapet för molnkontot (molnprojektet eller New Relic). Mer information om åtkomst till molnprojekt finns i [Hantera användaråtkomst](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) i _Commerce on Cloud Infrastructure Guide_.
 
 >[!IMPORTANT]
 >
->Om den nya kontoägaren har köpt tillägg med delad åtkomst, kommer åtkomsten till tilläggen att förloras så snart kontoöverföringsprocessen har initierats. Innan du begär kontoöverföringen kontrollerar du att den nya ägaren hämtar order-ID:n för köp från [deras Marketplace-konto](https://commercemarketplace.adobe.com/sales/order/history/) och begär en återbetalning för dessa tillägg från [Marketplace-teamet](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). Det går inte att överföra tilläggsköp till ett annat konto.
+>Om den nya kontoägaren har köpt tillägg med delad åtkomst, kommer åtkomsten till tilläggen att förloras så snart kontoöverföringsprocessen har initierats. Innan du begär kontoöverföringen kontrollerar du att den nya ägaren hämtar order-ID:n för köp från [deras Marketplace-konto](https://commercemarketplace.adobe.com/sales/order/history/) och begär en återbetalning för dessa tillägg från [Marketplace-teamet](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). Det går inte att överföra tilläggsköp till ett annat konto.
 
 ## Identifiera din överföringstyp
 
@@ -54,7 +54,7 @@ Den här överföringstypen kräver att du har en Adobe ID som är länkad till 
 
 1. Klicka på **[!UICONTROL Continue]**.
 
-   I det här steget skapas en Adobe ID och den länkas till det aktuella Commerce-kontot (MAGEID). Med den här kontolänken blockeras fältet _[!UICONTROL Email]_&#x200B;från ändringar. Konfigurationen av den associerade e-postadressen hanteras från Adobe ID-kontot.
+   I det här steget skapas en Adobe ID och den länkas till det aktuella Commerce-kontot (MAGEID). Med den här kontolänken blockeras fältet _[!UICONTROL Email]_från ändringar. Konfigurationen av den associerade e-postadressen hanteras från Adobe ID-kontot.
 
 1. Navigera till [account.adobe.com](https://account.adobe.com/).
 
@@ -72,7 +72,7 @@ Den här överföringstypen kräver att du har en Adobe ID som är länkad till 
 
 1. Klicka på **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447663/?captions=swe&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## E-poständring
 
@@ -120,7 +120,7 @@ Den aktuella ägaren slutför dessa steg för att associera sin Adobe ID med en 
 >
 >Du måste ha tillgång till e-postadressen så att du kan hämta e-postmeddelandet med bekräftelsekoden.
 >
->Om du inte kan komma åt kontots e-postadress ber du IT-teamet att konfigurera e-postvidarebefordran för kontots e-postadress i företagets e-postsystem. Om vidarebefordran via e-post inte kan konfigureras kontrollerar du att den nya kontoägaren har en Adobe ID och [skickar sedan en supportförfrågan](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) med all nödvändig information för att initiera kontoöverföringen.
+>Om du inte kan komma åt kontots e-postadress ber du IT-teamet att konfigurera e-postvidarebefordran för kontots e-postadress i företagets e-postsystem. Om vidarebefordran via e-post inte kan konfigureras kontrollerar du att den nya kontoägaren har en Adobe ID och [skickar sedan en supportförfrågan](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) med all nödvändig information för att initiera kontoöverföringen.
 
 1. Klicka på **[!UICONTROL Change]**.
 
@@ -170,6 +170,6 @@ När den nya ägaren har konfigurerat sitt Adobe-konto med den aktuella ägarens
 
 1. Klicka på **[!UICONTROL Verify]**.
 
->[!IMPORTANT]
->
->[Skicka en supportförfrågan](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) för att informera supportteamet om att du har uppdaterat kontoägarens e-postadress. Teamet måste utföra ytterligare steg för att slutföra uppdateringen, till exempel uppdatera e-postadressen för din [Commerce Marketplace](https://commercemarketplace.adobe.com/) -profil. Inkludera föregående kontoägares e-postadress i din begäran.
+## Slutliga steg
+
+När den nya ägaren har slutfört stegen i det första eller tredje ärendet måste den nya ägaren [skicka en supportförfrågan](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) för att informera supportteamet om e-postadressuppdateringen. Supportteamet slutför sedan ytterligare uppgifter, till exempel att uppdatera e-postadressen för profilen [Commerce Marketplace](https://commercemarketplace.adobe.com/) . Inkludera den föregående kontoägarens e-postadress i begäran.
