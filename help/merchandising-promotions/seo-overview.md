@@ -3,9 +3,9 @@ title: Sökmotoroptimering
 description: Läs om SEO-verktyg (sökmotoroptimering) för Commerce webbplatser och de bästa sätten att optimera SEO.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: c8649d9107a92b15a1c9af8ae5d2ad0e8e34e64e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -16,23 +16,23 @@ _Sökmotoroptimering_ (SEO) är ett sätt att finjustera innehållet och present
 
 >[!TIP]
 >
->Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=sv-SE) i dokumentationen för Commerce Storefront
+>Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) i dokumentationen för Commerce Storefront
 
 ## Metadata
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Lär dig mer om att lägga till och förbättra [metadata](meta-data.md) med nyckelord för din webbplats och butik.
 
 ## Använda en platskarta
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 En [webbplatskarta](sitemap-xml.md) förbättrar det sätt på vilket din butik indexeras av sökmotorer och är utformad för att hitta sidor som kan förbises av webbcrawler. En platskarta kan konfigureras för indexering av alla sidor och bilder.
 
 ## URL-omskrivningar
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Med verktyget [URL-omskrivning](url-rewrite.md) kan du ändra alla URL-adresser som är kopplade till en produkt, kategori eller CMS-sida.
 
@@ -74,7 +74,7 @@ Som standard innehåller filen robots.txt som genereras av Commerce instruktione
 
 ### Konfigurera `robots.txt`
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Design]_Admin **[!UICONTROL Configuration]**.
 
 1. Leta reda på konfigurationen **[!UICONTROL Global]** i den första raden i rutnätet och klicka på **[!UICONTROL Edit]**.
 
@@ -90,8 +90,8 @@ Som standard innehåller filen robots.txt som genereras av Commerce instruktione
      |------|------------|
      | `INDEX, FOLLOW` | Instruerar webbcrawlningar att indexera platsen och att checka tillbaka senare för att se ändringar. |
      | `NOINDEX, FOLLOW` | Instruerar webbcrawlningar att undvika att indexera platsen, men att senare göra ändringar. |
-     | `INDEX, NOFOLLOW` | Instruerar webbcrawlningar att indexera platsen en gång, men att inte checka tillbaka senare för ändringar. |
-     | `NOINDEX, NOFOLLOW` | Instruerar webbcrawlningar att undvika att indexera webbplatsen och att inte checka tillbaka senare för att se ändringar. |
+     | `INDEX, NOFOLLOW` | Instruerar webbcrawlningar att indexera platsen en gång, men inte följa några länkar på sidan. |
+     | `NOINDEX, NOFOLLOW` | Instruerar webbcrawlningar att undvika att indexera platsen och att inte följa några länkar på sidan. |
 
      {style="table-layout:auto"}
 
