@@ -3,16 +3,16 @@ title: Kategoriprodukttilldelningar
 description: Läs om hur du använder inställningarna för [!UICONTROL Products in Category] för att kontrollera vilka produkter som för närvarande är tilldelade till kategorin.
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: eb78c90debf31c8e28b3710584e6865dae1cb6a4
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Kategoriprodukttilldelningar
 
-För en kategori använder du avsnittet _[!UICONTROL Products in Category]_&#x200B;för att granska de produkter som för närvarande är tilldelade till kategorin. Sökfiltren högst upp i varje kolumn används för att lägga till och ta bort produkter från kategorin. Du kan också använda [kategoriregler](../merchandising-promotions/category-product-rules.md) ( ![endast Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce) för att dynamiskt ändra produktvalet när en uppsättning villkor uppfylls. Mer information finns i [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
+För en kategori använder du avsnittet _[!UICONTROL Products in Category]_för att granska de produkter som för närvarande är tilldelade till kategorin. Sökfiltren högst upp i varje kolumn används för att lägga till och ta bort produkter från kategorin. Du kan också använda [kategoriregler](../merchandising-promotions/category-product-rules.md) ( ![endast Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce) för att dynamiskt ändra produktvalet när en uppsättning villkor uppfylls. Mer information finns i [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
@@ -26,7 +26,7 @@ För en kategori använder du avsnittet _[!UICONTROL Products in Category]_&#x20
 
 >[!NOTE]
 >
->I kolumnen _Stock_ visas endast säljbar produktkvantitet för _&#x200B;**valt kategoriomfång**&#x200B;_. När flera lager hanteras för produkter bör du växla mellan motsvarande omfång för att visa andra _Stock_-kolumnvärden i rutnätet _Kategoriprodukter_.
+>I kolumnen _Stock_ visas endast tillgänglig produktkvantitet för _**det valda kategoriomfånget**_. När flera lager hanteras för produkter bör du växla mellan motsvarande omfång för att visa andra _Stock_-kolumnvärden i rutnätet _Kategoriprodukter_.
 
 ## Använd en kategoriregel
 
@@ -80,7 +80,7 @@ För en kategori använder du avsnittet _[!UICONTROL Products in Category]_&#x20
 
 | Alternativ | Beskrivning |
 |--- |--- |
-| [!UICONTROL Attribute] | Anger det attribut som används som bas för villkoret. Alternativ: <br/>**[!UICONTROL Clone Category ID(s)]**- Klonar produkter dynamiskt, utan sortering och ordning, från flera kategorier baserat på kategori-ID.<br/>**[!UICONTROL Color]** - Inkluderar produkter baserade på färg. <br/>**[!UICONTROL Date Created (days ago)]**- Inkluderar produkter baserat på antalet dagar sedan produkterna lades till i katalogen.<br/>**[!UICONTROL Date Modified (days ago)]** - Inkluderar produkter baserat på antalet dagar sedan produkterna senast ändrades. <br/>**[!UICONTROL Name]**- Inkluderar produkter baserat på produktnamnet.<br/>**[!UICONTROL Price]** - Inkluderar produkter baserat på pris. <br/>**[!UICONTROL Quantity]**- Inkluderar produkter baserat på lagerkvantiteten.<br/>**&#x200B; SKU &#x200B;**- Innehåller produkter baserade på SKU. |
+| [!UICONTROL Attribute] | Anger det attribut som används som bas för villkoret. Alternativ: <br/>**[!UICONTROL Clone Category ID(s)]**- Klonar produkter dynamiskt, utan sortering och ordning, från flera kategorier baserat på kategori-ID.<br/>**[!UICONTROL Color]** - Inkluderar produkter baserade på färg. <br/>**[!UICONTROL Date Created (days ago)]**- Inkluderar produkter baserat på antalet dagar sedan produkterna lades till i katalogen.<br/>**[!UICONTROL Date Modified (days ago)]** - Inkluderar produkter baserat på antalet dagar sedan produkterna senast ändrades. <br/>**[!UICONTROL Name]**- Inkluderar produkter baserat på produktnamnet.<br/>**[!UICONTROL Price]** - Inkluderar produkter baserat på pris. <br/>**[!UICONTROL Quantity]**- Inkluderar produkter baserat på lagerkvantiteten.<br/>** SKU **- Innehåller produkter baserade på SKU. |
 | [!UICONTROL Operator] | Anger den operator som används i attributvärdet för att uppfylla villkoret. Om ingen operator anges används `Equal` som standard. Alternativ: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | Anger det värde som attributet måste ha för att uppfylla villkoret. |
 | [!UICONTROL Logic] | Används för att definiera flera villkor och visas bara när ett annat villkor läggs till. Alternativ: `OR` / `AND` |
@@ -89,7 +89,7 @@ För en kategori använder du avsnittet _[!UICONTROL Products in Category]_&#x20
 
 >[!NOTE]
 >
->Kvantiteten för en konfigurerbar produkt med underordnade alternativ beräknas genom att kombinera alla säljbara underordnade produktkvantiteter. Ta ett exempel på en konfigurerbar produkt _Endurance Fitness Tank_ med färgalternativen lila, röd och gul och olika mängder av varje. I det här scenariot är den överordnade produktkvantiteten den sammanlagda försäljningsbara kvantiteten för de lila, röda och gula underordnade produkterna.
+>Kvantiteten för en konfigurerbar produkt med underordnade alternativ beräknas genom att kombinera alla underordnade produktkvantiteter. Ta ett exempel på en konfigurerbar produkt _Endurance Fitness Tank_ med färgalternativen lila, röd och gul och olika mängder av varje. I det här scenariot är den överordnade produktkvantiteten den kombinerade kvantiteten för de lila, röda och gula underordnade produkterna.
 
 ## Kontroller
 
