@@ -48,7 +48,7 @@ Instruktioner om hur du skapar attribut finns i [Produktattribut](product-attrib
 
 1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
-1. Välj _[!UICONTROL Add Product]_på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}menypil **[!UICONTROL Configurable Product]**) i det övre högra hörnet.
+1. Välj _[!UICONTROL Add Product]_&#x200B;på menyn ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}menypil **[!UICONTROL Configurable Product]**) i det övre högra hörnet.
 
    ![Lägg till konfigurerbar produkt](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -114,7 +114,7 @@ Instruktioner om hur du skapar attribut finns i [Produktattribut](product-attrib
 
 1. Acceptera standardinställningen **[!UICONTROL Visibility]** för `Catalog, Search`.
 
-1. Markera kryssrutan [ om du vill visa produkten i listan över ](../content-design/widget-new-products-list.md)nya produkter **[!UICONTROL Set Product as New]**.
+1. Markera kryssrutan [&#x200B; om du vill visa produkten i listan över &#x200B;](../content-design/widget-new-products-list.md)nya produkter **[!UICONTROL Set Product as New]**.
 
 1. Om du vill tilldela kategorier till produkten klickar du på rutan **[!UICONTROL Select…]** och gör något av följande:
 
@@ -150,7 +150,7 @@ I följande steg visas hur du lägger till konfigurationer för flera varianter.
 
 ### Steg 6: Välj variantattribut
 
-1. Bläddra ned till avsnittet _[!UICONTROL Configurations]_och klicka på&#x200B;**[!UICONTROL Create Configurations]**.
+1. Bläddra ned till avsnittet _[!UICONTROL Configurations]_&#x200B;och klicka på&#x200B;**[!UICONTROL Create Configurations]**.
 
    ![Konfigurationer](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -254,7 +254,7 @@ _Enskilda Source-handlare :_
 
 Ange **[!UICONTROL Quantity]**.
 
-_Flera Source-handlare med [Inventory management ](../inventory-management/introduction.md):_
+_Flera Source-handlare med [Inventory management &#x200B;](../inventory-management/introduction.md):_
 
 Tilldela källor och lägg till kvantiteter för alla genererade produktvarianter:
 
@@ -274,7 +274,7 @@ _Enskilda Source-handlare :_
 
 Ange **[!UICONTROL Quantity]** för varje attributvärde.
 
-_Flera Source-handlare med [Inventory management ](../inventory-management/introduction.md):_
+_Flera Source-handlare med [Inventory management &#x200B;](../inventory-management/introduction.md):_
 
 Tilldela källor och lägg till kvantiteter för alla genererade produktvarianter:
 
@@ -338,7 +338,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
    - Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
-   - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil ](../assets/icon-menu-down-arrow-black.png) ).
+   - Om du vill visa produkten i din butik väljer du **[!UICONTROL Customer View]** på menyn _Admin_ ( ![Menypil &#x200B;](../assets/icon-menu-down-arrow-black.png) ).
 
    Butiken öppnas på en ny flik i webbläsaren.
 
@@ -346,7 +346,7 @@ Bläddra nedåt och fyll i informationen i följande avsnitt efter behov:
 
    **Metod 2: Spara och stäng**
 
-   Välj _[!UICONTROL Save]_på menyn ![ ( ](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
+   Välj _[!UICONTROL Save]_&#x200B;på menyn ![&#x200B; ( &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}Menypil **[!UICONTROL Save & Close]**).
 
 ## Konfigurera Stock-status
 
@@ -390,7 +390,7 @@ Om du ställer in Stock-statusen manuellt till `Out of Stock` (via användaråtg
 
 Om du har olika bilder för varje variant kan du konfigurera systemet så att rätt bild visas för kundvagnsminiatyrbilden.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Checkout]**.
 
