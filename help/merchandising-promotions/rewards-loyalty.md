@@ -3,9 +3,9 @@ title: Belönings- och förmånsprogram
 description: Läs om belöningspoängsystemet som ni kan använda för att öka kundengagemanget och främja kundlojaliteten.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
+source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ Poängen kan lösas in av administratörsanvändare och -kunder (om de är aktiv
 
 >[!NOTE]
 >
+>Belöningspoäng och butikskredit minskar inte orderns beskattningsbara bas. Moms beräknas på delsumman innan dessa rabatter tillämpas. Poäng eller kredit minskar bara det slutliga belopp som kunden betalar.
+
+>[!NOTE]
+>
 >Belöningspoäng rekommenderas inte för postförskott eftersom det inte går att bekräfta inleveransen förrän ordern har fakturerats.
 
 ## Återbetala till belöningspoäng
@@ -48,7 +52,7 @@ Konfiguration av belöningspunkter avgör hur belöningspunkter presenteras i bu
 
 ### Steg 1. Konfigurera belöningspoäng
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Reward Points]**.
 
@@ -94,7 +98,7 @@ I det här steget anges antalet belöningspoäng som kan intjänas för olika ku
 
    ![Kundkonfiguration - åtgärder för att erhålla belöningspoäng per kund](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. Ange [&#x200B; till &#x200B;](reward-exchange-rates.md) om du vill tillåta belöningspoäng att intjänas för inköp baserat på de konfigurerade **[!UICONTROL Purchase]** belöningspriserna`Yes`.
+1. Ange [ till ](reward-exchange-rates.md) om du vill tillåta belöningspoäng att intjänas för inköp baserat på de konfigurerade **[!UICONTROL Purchase]** belöningspriserna`Yes`.
 
    >[!NOTE]
    >
