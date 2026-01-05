@@ -1,7 +1,7 @@
 ---
-source-git-commit: c0e04ffd76d69be3a7d508dd72930f54d97ea382
+source-git-commit: c2139d5d02342b8b166e4bce1dccdfec76cf780d
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Avsnittet </a> om belöningar och lojalitet har uppdaterats för att klargöra hur momsen beräknas när kunderna använder belöningspoäng eller butikskrediter under utcheckningen.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Avsnittet </a> om belöningar och lojalitet har uppdaterats för att klargöra hur momsen beräknas när kunderna använder belöningspoäng eller butikskrediter under utcheckningen.</p>
 </td>
       <td>
         Feedback
@@ -45,7 +45,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Beskrivningarna för <code class="language-plaintext highlighter-rouge">NOFOLLOW</code>-robotarmmetadirektiven i <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/seo/seo-overview">SEO-dokumentationen</a> har uppdaterats.<br /><em>Åtgärdsproblem <a href="https://github.com/AdobeDocs/commerce-admin.sv-SE/issues/82">#82</a>.</em></p>
+      <td><p>Beskrivningarna för <code class="language-plaintext highlighter-rouge">NOFOLLOW</code>-robotarmmetadirektiven i <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">SEO-dokumentationen</a> har uppdaterats.<br /><em>Åtgärdsproblem <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
 </td>
       <td>
         Teknik, feedback
@@ -67,7 +67,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Lagt till information om vilka standardcookies som inte ska inaktiveras för <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Kompatibilitet med cookies</a>.</p>
+      <td><p>Lagt till information om vilka standardcookies som inte ska inaktiveras för <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Kompatibilitet med cookies</a>.</p>
 </td>
       <td>
         Teknisk
@@ -89,7 +89,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Vägledning om tillgängligheten för förhandsgranskning i Page Builder på CMS Page har lagts till i avsnitten <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/content-design/elements/pages/page-add">Lägg till och ta bort sidor</a> och <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/page-builder/workspace">Page Builder Workspace</a> . Förhandsgranskningen visar inte innehåll om den inte är tillgänglig i standardbutiksvyn.</p>
+      <td><p>Vägledning om tillgängligheten för förhandsgranskning i Page Builder på CMS Page har lagts till i avsnitten <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add">Lägg till och ta bort sidor</a> och <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace">Page Builder Workspace</a> . Förhandsgranskningen visar inte innehåll om den inte är tillgänglig i standardbutiksvyn.</p>
 </td>
       <td>
         Teknik, feedback
@@ -111,7 +111,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/security/security-scan">Verktyget för säkerhetsgenomsökning</a> har uppdaterats för att ge stöd åt handlare med Commerce-butiker som distribuerats som Adobe Experience Manager-webbplatser.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan">Verktyget för säkerhetsgenomsökning</a> har uppdaterats för att ge stöd åt handlare med Commerce-butiker som distribuerats som Adobe Experience Manager-webbplatser.</p>
 </td>
       <td>
         Teknisk
@@ -133,56 +133,12 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Tydligare information om hur en aktiv prisregelförsäljning ska avslutas vid en viss tidpunkt när inget slutdatum har angetts i avsnittet <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Schemalagda ändringar för katalogprisregler</a>.<br />Avsnittet <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL skrivs om</a> för att förbättra exempel, konceptuella definitioner och gruppera ytterligare konfigurationsinstruktioner för URL-hantering för Web Server Rewrites och Canonical URL:er.</p>
+      <td><p>Tydligare information om hur en aktiv prisregelförsäljning ska avslutas vid en viss tidpunkt när inget slutdatum har angetts i avsnittet <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Schemalagda ändringar för katalogprisregler</a>.<br />Avsnittet <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL skrivs om</a> för att förbättra exempel, konceptuella definitioner och gruppera ytterligare konfigurationsinstruktioner för URL-hantering för Web Server Rewrites och Canonical URL:er.</p>
 </td>
       <td>
         Teknik, feedback
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">bekräfta</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 30 oktober 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beskrivning</th>
-      <th>Typ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Instruktionerna för <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">transportföretagsinstallation</a> har uppdaterats med instruktioner för att migrera från USPS Web Tools API till USPS REST API:er.</p>
-</td>
-      <td>
-        Teknik, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5304a26081e0f4639c962d77b1932d300e5a4a6e">bekräfta</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 23 oktober 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beskrivning</th>
-      <th>Typ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Dokumentation har lagts till för tillägget <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Status för synkronisering av datafeed</a> för att övervaka synkronisering av dataexport från Adobe Commerce till Commerce SaaS-databasen för publicering till anslutna Commerce-tjänster (Live Search, Product Recommendations, Catalog Service). Sidan Status för datasynkronisering finns på menyn System i Commerce Admin.</p>
-</td>
-      <td>
-        Nytt ämne
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3a91e33221d7bcd6a42ae9c5da18a70e5d697d15">bekräfta</a></td>
     </tr>
   </tbody>
 </table>
