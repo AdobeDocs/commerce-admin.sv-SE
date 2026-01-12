@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kategoriprodukttilldelningar
 
-För en kategori använder du avsnittet _[!UICONTROL Products in Category]_för att granska de produkter som för närvarande är tilldelade till kategorin. Sökfiltren högst upp i varje kolumn används för att lägga till och ta bort produkter från kategorin. Du kan också använda [kategoriregler](../merchandising-promotions/category-product-rules.md) ( ![endast Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce) för att dynamiskt ändra produktvalet när en uppsättning villkor uppfylls. Mer information finns i [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
+För en kategori använder du avsnittet _[!UICONTROL Products in Category]_&#x200B;för att granska de produkter som för närvarande är tilldelade till kategorin. Sökfiltren högst upp i varje kolumn används för att lägga till och ta bort produkter från kategorin. Du kan också använda [kategoriregler](../merchandising-promotions/category-product-rules.md) ( ![endast Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce) för att dynamiskt ändra produktvalet när en uppsättning villkor uppfylls. Mer information finns i [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
@@ -22,7 +22,7 @@ För en kategori använder du avsnittet _[!UICONTROL Products in Category]_för 
 
 >[!NOTE]
 >
->I kolumnen _Stock_ visas endast tillgänglig produktkvantitet för _**det valda kategoriomfånget**_. När flera lager hanteras för produkter bör du växla mellan motsvarande omfång för att visa andra _Stock_-kolumnvärden i rutnätet _Kategoriprodukter_.
+>I kolumnen _Stock_ visas endast tillgänglig produktkvantitet för _&#x200B;**det valda kategoriomfånget**&#x200B;_. När flera lager hanteras för produkter bör du växla mellan motsvarande omfång för att visa andra _Stock_-kolumnvärden i rutnätet _Kategoriprodukter_.
 
 ## Använd en kategoriregel
 
@@ -76,7 +76,7 @@ För en kategori använder du avsnittet _[!UICONTROL Products in Category]_för 
 
 | Alternativ | Beskrivning |
 |--- |--- |
-| [!UICONTROL Attribute] | Anger det attribut som används som bas för villkoret. Alternativ: <br/>**[!UICONTROL Clone Category ID(s)]**- Klonar produkter dynamiskt, utan sortering och ordning, från flera kategorier baserat på kategori-ID.<br/>**[!UICONTROL Color]** - Inkluderar produkter baserade på färg. <br/>**[!UICONTROL Date Created (days ago)]**- Inkluderar produkter baserat på antalet dagar sedan produkterna lades till i katalogen.<br/>**[!UICONTROL Date Modified (days ago)]** - Inkluderar produkter baserat på antalet dagar sedan produkterna senast ändrades. <br/>**[!UICONTROL Name]**- Inkluderar produkter baserat på produktnamnet.<br/>**[!UICONTROL Price]** - Inkluderar produkter baserat på pris. <br/>**[!UICONTROL Quantity]**- Inkluderar produkter baserat på lagerkvantiteten.<br/>** SKU **- Innehåller produkter baserade på SKU. |
+| [!UICONTROL Attribute] | Anger det attribut som används som bas för villkoret. Alternativ: <br/>**[!UICONTROL Clone Category ID(s)]**- Klonar produkter dynamiskt, utan sortering och ordning, från flera kategorier baserat på kategori-ID.<br/>**[!UICONTROL Color]** - Inkluderar produkter baserade på färg. <br/>**[!UICONTROL Date Created (days ago)]**- Inkluderar produkter baserat på antalet dagar sedan produkterna lades till i katalogen.<br/>**[!UICONTROL Date Modified (days ago)]** - Inkluderar produkter baserat på antalet dagar sedan produkterna senast ändrades. <br/>**[!UICONTROL Name]**- Inkluderar produkter baserat på produktnamnet.<br/>**[!UICONTROL Price]** - Inkluderar produkter baserat på pris. <br/>**[!UICONTROL Quantity]**- Inkluderar produkter baserat på lagerkvantiteten.<br/>**&#x200B; SKU &#x200B;**- Innehåller produkter baserade på SKU. |
 | [!UICONTROL Operator] | Anger den operator som används i attributvärdet för att uppfylla villkoret. Om ingen operator anges används `Equal` som standard. Alternativ: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | Anger det värde som attributet måste ha för att uppfylla villkoret. |
 | [!UICONTROL Logic] | Används för att definiera flera villkor och visas bara när ett annat villkor läggs till. Alternativ: `OR` / `AND` |

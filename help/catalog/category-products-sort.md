@@ -24,7 +24,7 @@ Du kan ställa in kategorialternativen separat för varje [butiksvy](../stores-p
 
 1. Om det behövs väljer du **[!UICONTROL Store View]** där inställningarna ska gälla.
 
-   För en installation i flera butiker använder inställningen _[!UICONTROL Store View]_sorteringsordningen för alla tillgängliga vyer i butiken.
+   För en installation i flera butiker använder inställningen _[!UICONTROL Store View]_&#x200B;sorteringsordningen för alla tillgängliga vyer i butiken.
 
 1. Välj den kategori som du vill redigera i kategoriträdet till vänster.
 
@@ -34,9 +34,9 @@ Du kan ställa in kategorialternativen separat för varje [butiksvy](../stores-p
 
 >[!NOTE]
 >
->När en kategori sorteras efter ett produktattribut sorteras produkter med samma attributvärden också efter deras _[!UICONTROL Product ID]_i stigande ordning.
+>När en kategori sorteras efter ett produktattribut sorteras produkter med samma attributvärden också efter deras _[!UICONTROL Product ID]_&#x200B;i stigande ordning.
 
-I avsnittet _[!UICONTROL Products in Category]_klickar du på ikonen för paneler ( ![Visa paneler](../assets/icon-view-tiles.png) ) för att visa produktrutorna i ett rutnät. Använd antingen den manuella eller automatiska metoden för att sortera produkterna.
+I avsnittet _[!UICONTROL Products in Category]_&#x200B;klickar du på ikonen för paneler ( ![Visa paneler](../assets/icon-view-tiles.png) ) för att visa produktrutorna i ett rutnät. Använd antingen den manuella eller automatiska metoden för att sortera produkterna.
 
 ![Produktpaneler](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
