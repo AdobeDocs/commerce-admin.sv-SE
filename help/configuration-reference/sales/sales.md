@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Sales] &gt; [!UICONTROL Sales] i Commerce Admin.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Allmänt](./assets/sales-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![Summor för utcheckning sorteringsordning](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
-<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
+<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ![Ändra ordning](./assets/sales-reorder.png)<!-- zoom -->
 
-<!-- [Reorder](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
+<!-- [Reorder](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -67,12 +67,12 @@ ht-degree: 0%
 
 ![Designa faktura och följesedel](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
-<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
-| [!UICONTROL Logo for PDF Print-outs] | Butiksvy | Identifierar logotypfilen som visas i huvudet på PDF-fakturor och följesedlar. Tillåtna filtyper: <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
-| [!UICONTROL Logo for HTML Print View] | Butiksvy | Identifierar logotypfilen som visas i sidhuvudet i HTML i utskriftsvyn på fakturor och följesedlar. Tillåtna filtyper: <br/>JPG/JPEG <br/>GIF <br/>PNG |
+| [!UICONTROL Logo for PDF Print-outs] | Butiksvy | Identifierar logotypfilen som visas i huvudet på PDF fakturor och följesedlar. Tillåtna filtyper: <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
+| [!UICONTROL Logo for HTML Print View] | Butiksvy | Identifierar logotypfilen som visas i sidhuvudet i HTML utskriftsvy med fakturor och följesedlar. Tillåtna filtyper: <br/>JPG/JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | Butiksvy | Butiksadressen som du vill att den ska visas på fakturor och följesedlar. |
 
 {style="table-layout:auto"}
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ![Minsta orderbelopp](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-<!-- [Minimum Order Amount](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
+<!-- [Minimum Order Amount](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 ![Instrumentpanel](./assets/sales-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://experienceleague.adobe.com/sv/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ![Beställningar av kroniinställningar](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-<!-- [Orders Cron Settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/tools/cron) -->
+<!-- [Orders Cron Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -121,11 +121,23 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Promotions]
+
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="Objekten i listan är för närvarande bara tillgängliga i sandlådemiljöer. Adobe gör nya releaser tillgängliga i sandlådemiljöer först för att ge dig tid att testa kommande ändringar innan releasen är tillgänglig i produktionsmiljöer."}
+
+![Kampanjinställningar](./assets/sales-promotions-settings.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--- |--- |--- |
+| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | Global | Aktiverar [nivåpriser för katalogprisregler](../../catalog/product-price-tier.md) när kvantiteten för ett skiktpris är inställd på `1`.  Alternativ: `Yes` / `No` |
+
 ## [!UICONTROL Gift Options]
 
 ![Presentalternativ](./assets/sales-gift-options.png)<!-- zoom -->
 
-<!-- [Gift Options](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
+<!-- [Gift Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -143,7 +155,7 @@ ht-degree: 0%
 
 ![Lägsta kampanjpris](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
-<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/sv/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
+<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -173,7 +185,7 @@ ht-degree: 0%
 
 ![Beställa efter SKU-inställningar](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
-<!-- [Order by SKU Settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
+<!-- [Order by SKU Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
 
 ![Beställa efter SKU-inställningar för kundgrupp](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
@@ -188,7 +200,7 @@ ht-degree: 0%
 
 ![Direktköp](./assets/sales-instant-purchase.png)<!-- zoom -->
 
-<!-- [Instant Purchase](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
+<!-- [Instant Purchase](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |

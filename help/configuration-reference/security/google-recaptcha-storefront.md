@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront] i Commerce Admin.
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Innan du kan konfigurera Google reCAPTCHA måste du se till att filen `PHP.ini` innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=sv-SE) i _installationshandboken_.
+>Innan du kan konfigurera Google reCAPTCHA måste du se till att filen `PHP.ini` innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) i _installationshandboken_.
 
 {{config}}
 
@@ -60,6 +60,27 @@ Mer information om hur du använder Google reCAPTCHA för att skydda din butik f
 | [!UICONTROL Invisible Badge Position] | Webbplats | Positionen för det osynliga reCAPTCHA-märket på varje sida. Alternativ: `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Webbplats | Anger formatet för rutan Google reCAPTCHA. Alternativ: `Light Theme` (standard) / `Dark Theme` |
 | [!UICONTROL Language Code] | Butiksvy | En [kod med två tecken](https://developers.google.com/recaptcha/docs/language) som anger vilket språk som används för Google reCAPTCHA-text och -meddelanden. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL reCAPTCHA Enterprise]
+
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="Objekten i listan är för närvarande bara tillgängliga i sandlådemiljöer. Adobe gör nya releaser tillgängliga i sandlådemiljöer först för att ge dig tid att testa kommande ändringar innan releasen är tillgänglig i produktionsmiljöer."}
+
+![reCAPTCHA v3 Enterprise](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
+
+| Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
+|--|--|--|
+| [!UICONTROL Site Key] | Webbplats | Den webbplatsnyckel som skapas när du registrerar ditt Google reCAPTCHA Enterprise-konto. |
+| [!UICONTROL Google Cloud Project ID] | Webbplats | Projekt-ID visas i avsnittet **Projektinformation** på projektets kontrollpanel. |
+| [!UICONTROL Service Account JSON] | Webbplats | Hämta tjänstkontonyckeln från Google Cloud-konsolen och klistra in innehållet i det här fältet. |
+| [!UICONTROL Minimum Score Threshold] | Webbplats | Det lägsta poängvärde som identifierar en användarinteraktion som en potentiell risk, där 1.0 är en typisk användarinteraktion och 0.0 är troligtvis en robot. Standard: `0.5` |
+| [!UICONTROL Badge Position] | Webbplats | Positionen för det osynliga reCAPTCHA-märket på varje sida. Alternativ: `Inline` / `Bottom Right` / `Bottom Left` |
+| [!UICONTROL Theme] | Webbplats | Anger formatet för rutan Google reCAPTCHA. Alternativ: `Light Theme` (standard) / `Dark Theme` |
+| [!UICONTROL Language Code] | Butiksvy | En [kod med två tecken](https://developers.google.com/recaptcha/docs/language) som anger vilket språk som används för Google reCAPTCHA-text och -meddelanden. Lämna fältet tomt om du vill använda standardspråket i användarens webbläsare. |
+| [!UICONTROL Validation Failure Message] | Butiksvy | Ett meddelande som visas när valideringen misslyckas. |
 
 {style="table-layout:auto"}
 

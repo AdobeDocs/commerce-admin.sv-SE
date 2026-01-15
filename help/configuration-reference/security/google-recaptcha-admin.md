@@ -3,9 +3,10 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] i Commerce Admin.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Innan du kan konfigurera Google reCAPTCHA måste du se till att filen `PHP.ini` innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [Nödvändiga PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=sv-SE) i _installationshandboken_.
+>Innan du kan konfigurera Google reCAPTCHA måste du se till att filen `PHP.ini` innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [Nödvändiga PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) i _installationshandboken_.
 
 {{config}}
 
@@ -88,7 +89,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Google reCAP
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--|--|--|
-| [!UICONTROL Enable for Login] | Global | Bestämmer vilken typ av reCAPTCHA som är aktiverad för [administratörsinloggningen](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=sv-SE). Alternativ:<br/>**`No`**- (standard) Verifierar inte administratörsinloggningen.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Kräver att användaren markerar kryssrutan _Jag är inte en robot_.<br />**`Invisible reCAPTCHA v2`**- Validerar användarbeteende i bakgrunden utan att det krävs interaktioner baserat på poäng.<br/>**`Invisible reCAPTCHA v3`** - (Rekommenderas) Validerar användarbeteende i bakgrunden baserat på interaktionspoäng. |
-| [!UICONTROL Enable for Forgot Password] | Global | Bestämmer vilken typ av reCAPTCHA som är aktiverad för att begära en [återställning av administratörslösenord](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=sv-SE#reset-your-password). Alternativ:<br/>**`No`**- (standard) Verifierar inte begäran om återställning av lösenord.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Kräver att användaren markerar kryssrutan _Jag är inte en robot_.<br />**`Invisible reCAPTCHA v2`**- Validerar användarbeteende i bakgrunden utan att det krävs interaktioner baserat på poäng.<br/>**`Invisible reCaptcha v3`** - (Rekommenderas) Validerar användarbeteende i bakgrunden baserat på interaktionspoäng. |
+| [!UICONTROL Enable for Login] | Global | Bestämmer vilken typ av reCAPTCHA som är aktiverad för [administratörsinloggningen](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Alternativ:<br/>**`No`**- (standard) Verifierar inte administratörsinloggningen.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Kräver att användaren markerar kryssrutan _Jag är inte en robot_.<br />**`Invisible reCAPTCHA v2`**- Validerar användarbeteende i bakgrunden utan att det krävs interaktioner baserat på poäng.<br/>**`Invisible reCAPTCHA v3`** - (Rekommenderas) Validerar användarbeteende i bakgrunden baserat på interaktionspoäng. |
+| [!UICONTROL Enable for Forgot Password] | Global | Bestämmer vilken typ av reCAPTCHA som är aktiverad för att begära en [återställning av administratörslösenord](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Alternativ:<br/>**`No`**- (standard) Verifierar inte begäran om återställning av lösenord.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Kräver att användaren markerar kryssrutan _Jag är inte en robot_.<br />**`Invisible reCAPTCHA v2`**- Validerar användarbeteende i bakgrunden utan att det krävs interaktioner baserat på poäng.<br/>**`Invisible reCaptcha v3`** - (Rekommenderas) Validerar användarbeteende i bakgrunden baserat på interaktionspoäng. |
 
 {style="table-layout:auto"}

@@ -5,9 +5,9 @@ breadcrumb-title: Handbok för adminsystem
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -71,12 +71,13 @@ ht-degree: 0%
    - [Konfigurera administratörssäkerhet](security-admin.md)
    - CAPTCHA {#captcha}
       - [Standard CAPTCHA](security-captcha.md)
-      - [Google reCAPTCHA](security-google-recaptcha.md)
-   - Tvåfaktorautentisering (2FA) {#2fa}
+      - [Google reCAPTCHA V3 och V2](security-google-recaptcha.md)
+      - [Google reCAPTCHA Enterprise](security-google-recaptcha-enterprise.md)
+   - Tvåfaktorautentisering (2FA) {#tfa}
       - [Ökning](security-two-factor-authentication.md)
       - [Inställning av användarkonto för 2FA](security-two-factor-authentication-use.md)
       - [Hantera 2FA](security-two-factor-authentication-manage.md)
    - [Sessionshantering](security-session-management.md)
    - [Identifiering av webbläsarfunktioner](security-browser-capabilities-detection.md)
    - [Rapportering av säkerhetsproblem](security-issue-reporting.md)
-- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=sv-SE)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
