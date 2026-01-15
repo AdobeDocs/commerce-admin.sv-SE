@@ -33,7 +33,7 @@ Google reCAPTCHA kan implementeras på flera sätt:
 
 >[!IMPORTANT]
 >
->Innan du kan konfigurera Google reCAPTCHA kontrollerar du att filen `PHP.ini` innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [Nödvändiga PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target="_blank"} i installationshandboken.
+>Innan du kan konfigurera Google reCAPTCHA kontrollerar du att filen `PHP.ini` innehåller följande inställning: `allow_url_fopen = 1`. Detta kan kräva hjälp av utvecklare. Se [Nödvändiga PHP-inställningar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=sv-SE){:target="_blank"} i installationshandboken.
 
 ## Steg 1: Generera Google reCAPTCHA-nycklar
 
@@ -70,7 +70,7 @@ Google reCAPTCHA kräver ett par API-nycklar för att kunna aktiveras. Du kan f�
 
 ## Steg 2: Konfigurera Google reCAPTCHA för administratören
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 1. Logga in på ditt Admin-konto.
 
