@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Allmänna inställningar](./assets/sales-emails-general-settings.png)<!-- zoom -->
 
-<!-- [General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-communications) -->
+<!-- [General Settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/communications/email-communications) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![Beställ](./assets/sales-emails-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
+<!-- [Order](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ![Beställa kommentarer](./assets/sales-emails-order-comments.png)<!-- zoom -->
 
-<!-- [Order Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
+<!-- [Order Comments](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![Faktura](./assets/sales-emails-invoice.png)<!-- zoom -->
 
-<!-- [Invoice](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices) -->
+<!-- [Invoice](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/invoices) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ![Fakturakommentarer](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
 
-<!-- [Invoice Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
+<!-- [Invoice Comments](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 ![Utleverans](./assets/sales-emails-shipment.png)<!-- zoom -->
 
-<!-- [Shipment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ![Leveranskommentarer](./assets/sales-emails-shipment-comments.png)<!-- zoom -->
 
-<!-- [Shipment Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment Comments](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 ![Kreditnota](./assets/sales-emails-credit-memo.png)<!-- zoom -->
 
-<!-- [Credit Memo](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
+<!-- [Credit Memo](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 ![Kreditnotkommentarer](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
 
-<!-- [Credit Memo Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
+<!-- [Credit Memo Comments](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -168,7 +168,7 @@ Det här alternativet kräver att [Inventory management](../../inventory-managem
 
 ![Beställningen är klar för hämtning i Store](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
-<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -206,7 +206,7 @@ Det här alternativet kräver att [Inventory management](../../inventory-managem
 
 ![Citat](./assets/sales-emails-quote.png)<!-- zoom -->
 
-<!-- [Quotes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
+<!-- [Quotes](https://experienceleague.adobe.com/sv/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -229,7 +229,7 @@ Det här alternativet kräver att [Inventory management](../../inventory-managem
 
 ![RMA](./assets/sales-emails-rma.png)<!-- zoom -->
 
-<!-- [RMA](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -248,7 +248,7 @@ Det här alternativet kräver att [Inventory management](../../inventory-managem
 
 ![RMA-auktorisering](./assets/sales-emails-rma-auth.png)<!-- zoom -->
 
-<!-- [RMA Authorization](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
+<!-- [RMA Authorization](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -284,7 +284,7 @@ Det här alternativet kräver att [Inventory management](../../inventory-managem
 
 ![RMA-kundkommentarer](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
 
-<!-- [RMA Customer Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA Customer Comments](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
