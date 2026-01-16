@@ -3,14 +3,17 @@ title: Google reCAPTCHA Enterprise
 description: Lär dig hur du konfigurerar Google CAPTCHA Enterprise för att skydda din Adobe Commerce as a Cloud Service-butik från stötar och bedrägliga aktiviteter.
 role: Admin
 feature: Configuration, Security
-source-git-commit: 5181e6dcbffdca87dd6c376c36f7c9d0a3fbc015
+badgeSaas: label="Endast SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."
+source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA Enterprise
+
+[!BADGE Sandbox]{type=Caution tooltip="Objekten i listan är för närvarande bara tillgängliga i sandlådemiljöer. Adobe släpper först uppdateringar i Sandbox så att du kan testa kommande ändringar innan de börjar i Production."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform) ger avancerat robotskydd för din Adobe Commerce as a Cloud Service-butik genom att använda adaptiv riskanalys och maskininlärning för att skilja mellan människor och botar. Detta bidrar till att förhindra bedrägliga aktiviteter, skräppost och missbruk på din webbplats.
 
@@ -28,7 +31,7 @@ Google reCAPTCHA Enterprise har följande funktioner:
 - **Riskanalys**: Innehåller detaljerade riskpoäng (0,0-1,0) för varje interaktion
 - **Konfigurerbara tröskelvärden**: Ange minimala godtagbara riskpoäng per klientorganisation
 - **Stöd för flera innehavare**: Konfiguration per innehavare med isolerade Google Cloud-projekt
-- **Krypterade autentiseringsuppgifter**: Tjänstkontots autentiseringsuppgifter lagras i databasen
+- **Krypterade autentiseringsuppgifter**: Tjänstkontots autentiseringsuppgifter lagras krypterade i en databas
 - **Formulärskydd**: Skyddar alla Commerce-standardformulär, inklusive inloggning, utcheckning, produktrecensioner med mera.
 
 ## Förutsättningar
@@ -56,7 +59,7 @@ Följ de här allmänna stegen för att konfigurera Google reCAPTCHA Enterprise 
 
 ## Steg 2: Konfigurera Google reCAPTCHA för butiken
 
-1. Välj _[!UICONTROL Security]_&#x200B;i den vänstra panelen under **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. Välj _[!UICONTROL Security]_i den vänstra panelen under **[!UICONTROL Google reCAPTCHA Storefront]**.
 
 1. Fyll i avsnittet **[!UICONTROL reCAPTCHA Enterprise]** enligt följande.
 
@@ -66,7 +69,7 @@ Följ de här allmänna stegen för att konfigurera Google reCAPTCHA Enterprise 
 
    - För **[!UICONTROL Service Account JSON]** kopierar du innehållet i JSON-nyckelfilen för tjänstkontot som du hämtade i [Steg 1: Konfigurera Google reCAPTCHA Enterprise](#step-1-set-up-google-recaptcha-enterprise).
 
-   - För **[!UICONTROL Minimum Score Threshold]** anger du det lägsta poängvärdet (0,0-1,0) för att identifiera när en användarinteraktion flaggas som en potentiell risk. Där 1.0 är en typisk användarinteraktion och 0.0 troligtvis är en robot.
+   - För **[!UICONTROL Minimum Score Threshold]** anger du det lägsta poängvärdet (0,0-1,0) för att identifiera när en användarinteraktion har flaggats som en potentiell risk. Poängen 1.0 är en typisk användarinteraktion och 0.0 är troligen en robot.
 
    - För **[!UICONTROL Badge Position]** väljer du positionen för det osynliga reCAPTCHA-märket på varje sida. Alternativ: `Inline` / `Bottom Right` / `Bottom Left`.
 
