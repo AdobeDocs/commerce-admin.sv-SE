@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8181804df811dd0916cd3df423cc6f52d68d1326
+source-git-commit: 50ee2dca64338225c0d024daff74e243c9268564
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -10,6 +10,72 @@ ht-degree: 0%
 ## Nyheter
 
 Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 dagarna. Vi utelämnar alla mindre uppdateringar, som kopieringsredigering, från den här listan.
+
+### 20 januari 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beskrivning</th>
+      <th>Typ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Ändrade produktreferenser från"Adobe Sensei" till"Adobe AI" för att återspegla Adobe varumärkesuppdateringar.</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4077b922dae0ed9a9050a5f6160143a636646daa">bekräfta</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 16 januari 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beskrivning</th>
+      <th>Typ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Lagt till förtydligande när <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store">e-postmeddelanden om beställning klar för hämtning finns tillgängliga i Store</a>.</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/65fd67dcd3c14daddfc0f36493dc6da3630898a1">bekräfta</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 15 januari 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beskrivning</th>
+      <th>Typ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Följande funktioner har lagts till i Adobe Commerce as a Cloud Service:<br />- Stöd har lagts till för <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a> som ger avancerat robotskydd med adaptiv riskanalys och maskininlärningsfunktioner.<br />- Omvandla försändelsspårningsnummer som finns i e-postmeddelanden från oformaterad text till klickbara länkar genom att <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">aktivera URL:er för anpassad spårning</a>. Den här funktionen stöds för USPS, UPS, FedEx och DHL.<br /> - Du kan nu kombinera rabatter för nivåindelad prissättning med katalogregelrabatter med hjälp av <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">katalogprisregler</a>. Tack vare den här förbättringen kan ni skapa mer dynamiska och konkurrenskraftiga prissättningsstrategier.</p>
+</td>
+      <td>
+        Viktig uppdatering, nytt ämne
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/70e73b47c4b0342ade3deab64dbe39f29b82191f">bekräfta</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 17 december 2025
 
@@ -23,7 +89,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Avsnittet </a> om belöningar och lojalitet har uppdaterats för att klargöra hur momsen beräknas när kunderna använder belöningspoäng eller butikskrediter under utcheckningen.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Avsnittet </a> om belöningar och lojalitet har uppdaterats för att klargöra hur momsen beräknas när kunderna använder belöningspoäng eller butikskrediter under utcheckningen.</p>
 </td>
       <td>
         Feedback
@@ -45,7 +111,7 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Beskrivningarna för <code class="language-plaintext highlighter-rouge">NOFOLLOW</code>-robotarmmetadirektiven i <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/seo/seo-overview">SEO-dokumentationen</a> har uppdaterats.<br /><em>Åtgärdsproblem <a href="https://github.com/AdobeDocs/commerce-admin.sv-SE/issues/82">#82</a>.</em></p>
+      <td><p>Beskrivningarna för <code class="language-plaintext highlighter-rouge">NOFOLLOW</code>-robotarmmetadirektiven i <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">SEO-dokumentationen</a> har uppdaterats.<br /><em>Åtgärdsproblem <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
 </td>
       <td>
         Teknik, feedback
@@ -67,56 +133,12 @@ Det här avsnittet innehåller de ändringar som har gjorts under de senaste 60 
   </thead>
   <tbody>
     <tr>
-      <td><p>Lagt till information om vilka standardcookies som inte ska inaktiveras för <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Kompatibilitet med cookies</a>.</p>
+      <td><p>Lagt till information om vilka standardcookies som inte ska inaktiveras för <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Kompatibilitet med cookies</a>.</p>
 </td>
       <td>
         Teknisk
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/dbc09915e0ce6f052fa797ddd103f051ea289625">bekräfta</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 15 november 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beskrivning</th>
-      <th>Typ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Vägledning om tillgängligheten för förhandsgranskning i Page Builder på CMS Page har lagts till i avsnitten <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/content-design/elements/pages/page-add">Lägg till och ta bort sidor</a> och <a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/page-builder/workspace">Page Builder Workspace</a> . Förhandsgranskningen visar inte innehåll om den inte är tillgänglig i standardbutiksvyn.</p>
-</td>
-      <td>
-        Teknik, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/929fe633f473af030f44e9b0d6b0f9bf8b4c53d5">bekräfta</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 13 november 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beskrivning</th>
-      <th>Typ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p><a href="https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/security/security-scan">Verktyget för säkerhetsgenomsökning</a> har uppdaterats för att ge stöd åt handlare med Commerce-butiker som distribuerats som Adobe Experience Manager-webbplatser.</p>
-</td>
-      <td>
-        Teknisk
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/467decc88b33ada26ae7aa4afbf9b4a8e78f23cc">bekräfta</a></td>
     </tr>
   </tbody>
 </table>
