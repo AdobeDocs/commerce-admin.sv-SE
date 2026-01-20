@@ -36,4 +36,4 @@ När du skapar eller uppdaterar en produkt kan du med [produktinställningarna](
 
 ## Produktrekommendationer från Adobe AI
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) [Produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html) från Adobe AI förenklar processen att definiera produktrelationer genom att använda artificiell intelligens och maskininlärningsalgoritmer för att utföra en djupanalys av samlade besöksdata. Dessa data kombineras med er Adobe Commerce-katalog och ger en engagerande, relevant och personaliserad upplevelse för kunderna.
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) [Produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=sv-SE) från Adobe AI förenklar processen att definiera produktrelationer genom att använda artificiell intelligens och maskininlärningsalgoritmer för att utföra en djupanalys av samlade besöksdata. Dessa data kombineras med er Adobe Commerce-katalog och ger en engagerande, relevant och personaliserad upplevelse för kunderna.
