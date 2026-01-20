@@ -3,7 +3,7 @@ title: Produktrelationer
 description: Lär dig mer om de produktrelationstyper du kan använda för att marknadsföra produkter till riktade köpare.
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -34,6 +34,6 @@ När du skapar eller uppdaterar en produkt kan du med [produktinställningarna](
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) [Relaterade produktregler](product-related-rules.md) ger dig möjlighet att rikta in dig på de produkter som presenteras för kunderna som relaterade produkter, merförsäljning och korsförsäljning.
 
-## Produktrekommendationer från Adobe Sensei
+## Produktrekommendationer från Adobe AI
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) [Produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=sv-SE) från Adobe Sensei förenklar processen att definiera produktrelationer genom att använda artificiell intelligens och maskininlärningsalgoritmer för att utföra en djupanalys av samlade besöksdata. Dessa data kombineras med er Adobe Commerce-katalog och ger en engagerande, relevant och personaliserad upplevelse för kunderna.
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) [Produktrekommendationer](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html) från Adobe AI förenklar processen att definiera produktrelationer genom att använda artificiell intelligens och maskininlärningsalgoritmer för att utföra en djupanalys av samlade besöksdata. Dessa data kombineras med er Adobe Commerce-katalog och ger en engagerande, relevant och personaliserad upplevelse för kunderna.

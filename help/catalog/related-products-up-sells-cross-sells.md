@@ -3,7 +3,7 @@ title: Produktinställningar - [!UICONTROL Related Products, Up-Sells, and Cross
 description: För en produkt definierar inställningarna för [!UICONTROL Related Products, Up-Sells, and Cross-Sells] enkla marknadsföringsblock på produktsidan som markerar ett urval av ytterligare produkter.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktinställningar - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Använd avsnittet _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;för att skapa enkla marknadsföringsblock som visar ett urval av ytterligare produkter som kan vara av intresse för kunden. Mer information finns i [Produktrelationer](../merchandising-promotions/product-relationships.md).
+Använd avsnittet _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_för att skapa enkla marknadsföringsblock som visar ett urval av ytterligare produkter som kan vara av intresse för kunden. Mer information finns i [Produktrelationer](../merchandising-promotions/product-relationships.md).
 
 ![Samhörande produkter, merförsäljning och korsförsäljning](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -33,9 +33,9 @@ Varje block består av en lista över produkter som tillhör ett visst alternati
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) **Produktrekommendationer från Adobe Sensei** förenklar processen att definiera produktrelationer genom att använda artificiell intelligens och maskininlärningsalgoritmer för att göra en djupanalys av samlade besöksdata. Dessa data kombineras med er Adobe Commerce-katalog och ger en engagerande, relevant och personaliserad upplevelse för kunderna.
+>![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) **Produktrekommendationer från Adobe AI** förenklar processen att definiera produktrelationer genom att använda artificiell intelligens och maskininlärningsalgoritmer för att utföra en djupanalys av samlade besöksdata. Dessa data kombineras med er Adobe Commerce-katalog och ger en engagerande, relevant och personaliserad upplevelse för kunderna.
 ><br/>
->Mer information om hur du använder det här Adobe-utvecklade tillägget som ett alternativ till manuellt konfigurerade produktrekommendationer och merförsäljning finns i _[produktrekommendationsguiden](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=sv-SE)_.
+>Mer information om hur du använder det här Adobe-utvecklade tillägget som ett alternativ till manuellt konfigurerade produktrekommendationer och merförsäljning finns i _[produktrekommendationsguiden](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
 
 ## Samhörande produkter
 
@@ -91,7 +91,7 @@ Korsförsäljningsartiklar liknar impulsköp som placerats bredvid kassaregistre
 
 >[!NOTE]
 >
->Om du vill visa eller dölja korsförsäljningsobjekt per butiksvy läser du alternativet [Kassa > Kundvagn](../configuration-reference/sales/checkout.md) med namnet _[!UICONTROL Show Cross-sell Items]_&#x200B;i kundvagnen. Du kanske vill dölja korsförsäljning under en viss försäljning eller för A/B-testning i en butiksvy.
+>Om du vill visa eller dölja korsförsäljningsobjekt per butiksvy läser du alternativet [Kassa > Kundvagn](../configuration-reference/sales/checkout.md) med namnet _[!UICONTROL Show Cross-sell Items]_i kundvagnen. Du kanske vill dölja korsförsäljning under en viss försäljning eller för A/B-testning i en butiksvy.
 
 ![Korsförsäljning i kundvagn](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
