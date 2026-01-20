@@ -57,7 +57,7 @@ Följ de här allmänna stegen för att konfigurera Google reCAPTCHA Enterprise 
 
 ## Steg 2: Konfigurera Google reCAPTCHA för butiken
 
-1. Välj _[!UICONTROL Security]_i den vänstra panelen under **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. Välj _[!UICONTROL Security]_&#x200B;i den vänstra panelen under **[!UICONTROL Google reCAPTCHA Storefront]**.
 
 1. Fyll i avsnittet **[!UICONTROL reCAPTCHA Enterprise]** enligt följande.
 

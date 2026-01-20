@@ -28,9 +28,9 @@ Priserna i butiken har företräde från högsta till lägsta kvantitet. Om du h
 
 1. Öppna produkten i redigeringsläge.
 
-1. Klicka _[!UICONTROL Price]_nedanför fältet **[!UICONTROL Advanced Pricing]**.
+1. Klicka _[!UICONTROL Price]_&#x200B;nedanför fältet **[!UICONTROL Advanced Pricing]**.
 
-1. Klicka på _[!UICONTROL Tier Price]_i avsnittet **[!UICONTROL Add]**.
+1. Klicka på _[!UICONTROL Tier Price]_&#x200B;i avsnittet **[!UICONTROL Add]**.
 
    Om du skapar en nivå med flera priser klickar du på **[!UICONTROL Add]** för varje ytterligare nivå så att du kan arbeta med alla nivåer samtidigt. Varje nivå i gruppen har samma webbplats och kundgrupp eller delad katalogtilldelning, men olika kvantitet och pris.
 
@@ -56,7 +56,7 @@ Priserna i butiken har företräde från högsta till lägsta kvantitet. Om du h
 
      >[!NOTE]
      >
-     >För att få det rabatterade priset beräknas den definierade procentandelen mot det värde som definieras i fältet _[!UICONTROL Price]_, inte i fältet_[!UICONTROL Special Price]_.
+     >För att få det rabatterade priset beräknas den definierade procentandelen mot det värde som definieras i fältet _[!UICONTROL Price]_, inte i fältet&#x200B;_[!UICONTROL Special Price]_.
 
      ![Pris i procent](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
