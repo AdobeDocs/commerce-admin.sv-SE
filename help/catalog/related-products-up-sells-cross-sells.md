@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktinställningar - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Använd avsnittet _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_för att skapa enkla marknadsföringsblock som visar ett urval av ytterligare produkter som kan vara av intresse för kunden. Mer information finns i [Produktrelationer](../merchandising-promotions/product-relationships.md).
+Använd avsnittet _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;för att skapa enkla marknadsföringsblock som visar ett urval av ytterligare produkter som kan vara av intresse för kunden. Mer information finns i [Produktrelationer](../merchandising-promotions/product-relationships.md).
 
 ![Samhörande produkter, merförsäljning och korsförsäljning](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Korsförsäljningsartiklar liknar impulsköp som placerats bredvid kassaregistre
 
 >[!NOTE]
 >
->Om du vill visa eller dölja korsförsäljningsobjekt per butiksvy läser du alternativet [Kassa > Kundvagn](../configuration-reference/sales/checkout.md) med namnet _[!UICONTROL Show Cross-sell Items]_i kundvagnen. Du kanske vill dölja korsförsäljning under en viss försäljning eller för A/B-testning i en butiksvy.
+>Om du vill visa eller dölja korsförsäljningsobjekt per butiksvy läser du alternativet [Kassa > Kundvagn](../configuration-reference/sales/checkout.md) med namnet _[!UICONTROL Show Cross-sell Items]_&#x200B;i kundvagnen. Du kanske vill dölja korsförsäljning under en viss försäljning eller för A/B-testning i en butiksvy.
 
 ![Korsförsäljning i kundvagn](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
