@@ -84,7 +84,7 @@ Med alternativen för leverans av flera adresser kan kunderna skicka en order ti
 
 ## URL:er för e-postleveransspårning
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 Som standard är leveransspårningsnummer som skickas i e-postmeddelanden från kunder oformaterad text. Du kan konvertera spårningsnumren till klickbara länkar genom att aktivera den anpassade spårnings-URL-funktionen. Med den här funktionen kan du definiera en mall för att spåra URL:er för olika fraktfirmor. Varje mall innehåller den fullständiga URL:en till spårningswebbplatsen och en platshållare för spårningsnumret. Commerce ersätter platshållaren med det faktiska spårningsnumret i e-postmeddelandet.
 

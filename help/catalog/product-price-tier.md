@@ -76,7 +76,7 @@ Priserna i butiken har företräde från högsta till lägsta kvantitet. Om du h
 
 ## Aktivera nivåpriser för katalogprisregler
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 I tidigare versioner av Commerce gick det inte att använda nivåpriser tillsammans med katalogprisreglerna. Katalogreglerna ignorerade nivåpriskonfigurationen och beräknade rabatter från det ursprungliga baspriset. Med Adobe Commerce as a Cloud Service kan du nu välja att inkludera nivåpriser i beräkningen av katalogprisregler.
 

@@ -44,7 +44,7 @@ Mer information om hur du ändrar de här inställningarna finns i [Leveransinst
 
 ## [!UICONTROL Shipment Tracking URLs]
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 ![Parametrar för leveransprincip](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 
