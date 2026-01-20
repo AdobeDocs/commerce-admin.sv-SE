@@ -3,9 +3,9 @@ title: Nivåpriser
 description: Lär dig hur du använder nivåpriser för att erbjuda en mängdrabatt från en produktlista eller produktsida.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Priserna i butiken har företräde från högsta till lägsta kvantitet. Om du h
 
 1. Öppna produkten i redigeringsläge.
 
-1. Klicka _[!UICONTROL Price]_&#x200B;nedanför fältet **[!UICONTROL Advanced Pricing]**.
+1. Klicka _[!UICONTROL Price]_nedanför fältet **[!UICONTROL Advanced Pricing]**.
 
-1. Klicka på _[!UICONTROL Tier Price]_&#x200B;i avsnittet **[!UICONTROL Add]**.
+1. Klicka på _[!UICONTROL Tier Price]_i avsnittet **[!UICONTROL Add]**.
 
    Om du skapar en nivå med flera priser klickar du på **[!UICONTROL Add]** för varje ytterligare nivå så att du kan arbeta med alla nivåer samtidigt. Varje nivå i gruppen har samma webbplats och kundgrupp eller delad katalogtilldelning, men olika kvantitet och pris.
 
@@ -56,7 +56,7 @@ Priserna i butiken har företräde från högsta till lägsta kvantitet. Om du h
 
      >[!NOTE]
      >
-     >För att få det rabatterade priset beräknas den definierade procentandelen mot det värde som definieras i fältet _[!UICONTROL Price]_, inte i fältet&#x200B;_[!UICONTROL Special Price]_.
+     >För att få det rabatterade priset beräknas den definierade procentandelen mot det värde som definieras i fältet _[!UICONTROL Price]_, inte i fältet_[!UICONTROL Special Price]_.
 
      ![Pris i procent](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -76,9 +76,7 @@ Priserna i butiken har företräde från högsta till lägsta kvantitet. Om du h
 
 ## Aktivera nivåpriser för katalogprisregler
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
-
-[!BADGE Sandbox]{type=Caution tooltip="Objekten i listan är för närvarande bara tillgängliga i sandlådemiljöer. Adobe gör nya releaser tillgängliga i sandlådemiljöer först för att ge dig tid att testa kommande ändringar innan releasen är tillgänglig i produktionsmiljöer."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 I tidigare versioner av Commerce gick det inte att använda nivåpriser tillsammans med katalogprisreglerna. Katalogreglerna ignorerade nivåpriskonfigurationen och beräknade rabatter från det ursprungliga baspriset. Med Adobe Commerce as a Cloud Service kan du nu välja att inkludera nivåpriser i beräkningen av katalogprisregler.
 

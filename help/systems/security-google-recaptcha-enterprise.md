@@ -3,17 +3,15 @@ title: Google reCAPTCHA Enterprise
 description: Lär dig hur du konfigurerar Google CAPTCHA Enterprise för att skydda din Adobe Commerce as a Cloud Service-butik från stötar och bedrägliga aktiviteter.
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="Endast SaaS" type="Positive" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."
-source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
+badgeSaas: label="Endast SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA Enterprise
-
-[!BADGE Sandbox]{type=Caution tooltip="Objekten i listan är för närvarande bara tillgängliga i sandlådemiljöer. Adobe släpper först uppdateringar i Sandbox så att du kan testa kommande ändringar innan de börjar i Production."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform) ger avancerat robotskydd för din Adobe Commerce as a Cloud Service-butik genom att använda adaptiv riskanalys och maskininlärning för att skilja mellan människor och botar. Detta bidrar till att förhindra bedrägliga aktiviteter, skräppost och missbruk på din webbplats.
 
@@ -59,7 +57,7 @@ Följ de här allmänna stegen för att konfigurera Google reCAPTCHA Enterprise 
 
 ## Steg 2: Konfigurera Google reCAPTCHA för butiken
 
-1. Välj _[!UICONTROL Security]_&#x200B;i den vänstra panelen under **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. Välj _[!UICONTROL Security]_i den vänstra panelen under **[!UICONTROL Google reCAPTCHA Storefront]**.
 
 1. Fyll i avsnittet **[!UICONTROL reCAPTCHA Enterprise]** enligt följande.
 

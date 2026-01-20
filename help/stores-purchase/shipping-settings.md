@@ -3,9 +3,9 @@ title: Leveransinställningar
 description: Lär dig hur du konfigurerar leveransinställningar som definierar ursprung och leveransregler för din butik.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Ursprungspunkten används för att beräkna avgiften för försändelser som gö
 
 ![Ursprung](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 
@@ -42,7 +42,7 @@ En fraktpolicy bör förklara företagets affärsregler och riktlinjer för leve
 
 Om du vill visa din leveranspolicy under utcheckning fyller du i parametrarna för leveranspolicy i konfigurationen. Texten visas när kunderna klickar på _Se vår leveranspolicy_ under utcheckningen.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 
@@ -64,7 +64,7 @@ Om du vill visa din leveranspolicy under utcheckning fyller du i parametrarna f�
 
 Med alternativen för leverans av flera adresser kan kunderna skicka en order till flera adresser under utcheckningen och bestämma det högsta antalet adresser som en order kan skickas till.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Multishipping Settings]**.
 
@@ -84,9 +84,7 @@ Med alternativen för leverans av flera adresser kan kunderna skicka en order ti
 
 ## URL:er för e-postleveransspårning
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
-
-[!BADGE Sandbox]{type=Caution tooltip="Objekten i listan är för närvarande bara tillgängliga i sandlådemiljöer. Adobe gör nya releaser tillgängliga i sandlådemiljöer först för att ge dig tid att testa kommande ändringar innan releasen är tillgänglig i produktionsmiljöer."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 Som standard är leveransspårningsnummer som skickas i e-postmeddelanden från kunder oformaterad text. Du kan konvertera spårningsnumren till klickbara länkar genom att aktivera den anpassade spårnings-URL-funktionen. Med den här funktionen kan du definiera en mall för att spåra URL:er för olika fraktfirmor. Varje mall innehåller den fullständiga URL:en till spårningswebbplatsen och en platshållare för spårningsnumret. Commerce ersätter platshållaren med det faktiska spårningsnumret i e-postmeddelandet.
 
@@ -99,7 +97,7 @@ Följande fraktföretag stöds:
 
 Så här aktiverar eller redigerar du anpassade spårnings-URL:er:
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Shipping Settings]**.
 
