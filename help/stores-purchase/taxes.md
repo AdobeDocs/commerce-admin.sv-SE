@@ -18,7 +18,7 @@ Konfigurera din butik för att beräkna skatter enligt kraven för din språkins
 >
 >Adobe Commerce och Magento Open Source version 2.4.0 till 2.4.3 innehåller tillägget Vertex som utvecklades av leverantören och som används för att integrera med Vertex Cloud för att tillhandahålla skattehantering och adressrensning. Från och med version 2.4.4 är det här tillägget inte längre bundet till kärnversionen och måste installeras och uppdateras från Commerce Marketplace eller direkt från leverantören. [Kontakta hörnet](https://marketplace.magento.com/partner/vertex_inc) om du vill ha information om tillägget och dokumentationen.<br><br>
 >
->Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Se [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _uppgraderingshandboken_.
+>Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Se [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=sv-SE) i _uppgraderingshandboken_.
 
 ## Snabbreferens
 

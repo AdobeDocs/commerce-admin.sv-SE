@@ -18,7 +18,7 @@ Språkpaket finns under [Översättningar och lokalisering](https://marketplace.
 
 ## Steg 1: Installera ett språkpaket
 
-Följ standardinstruktionerna för att installera språkpakettillägget. Mer information om hur du installerar ett tillägg finns i [Allmän CLI-installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) i _Tilläggsguiden_.
+Följ standardinstruktionerna för att installera språkpakettillägget. Mer information om hur du installerar ett tillägg finns i [Allmän CLI-installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=sv-SE) i _Tilläggsguiden_.
 
 ## Steg 2: Skapa en butiksvy för språket
 

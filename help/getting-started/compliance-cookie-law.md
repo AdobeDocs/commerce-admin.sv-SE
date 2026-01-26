@@ -208,9 +208,9 @@ Används som en del av flikfunktionsimplementeringen endast i ett administrativt
 
 ## Produktrekommendationer - cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies används av produktrekommendationer för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies används av produktrekommendationer för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: Gör att du kan [begränsa Adobe Commerce datainsamling](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) om du har anpassad kod för att hantera cookie-samtycke på din webbplats.
+- `mg_dnt`: Gör att du kan [begränsa Adobe Commerce datainsamling](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/developer/setting-cookie) om du har anpassad kod för att hantera cookie-samtycke på din webbplats.
 - `user_allowed_save_cookie`: Används för [begränsningsläge för cookies](#cookie-restriction-mode).
 - `authentication_flag`: Anger om en kund har loggat in eller ut. Den här cookien uppdateras samtidigt som cookien `dataservices_customer_id`.
 - `dataservices_customer_id`: Anger om en kund har loggat in eller ut. Denna cookie innehåller kundens unika ID i systemet.
@@ -230,8 +230,8 @@ Följande data sparas i lokal lagring för butiker med Luma-temat när Live Sear
 
 ## Ytterligare cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies har angetts för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce) Följande cookies har angetts för Adobe Commerce-kunder. Dessa cookies installeras med [DataServices-modulen](https://experienceleague.adobe.com/sv/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: Anges av Snowplow JavaScript-spåraren. Mer information finns i [Snowplow-dokumentationen](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Med tanke på den aktuella webbsidans värdnamn är detta den översta domänen som inte är ett &quot;offentligt suffix&quot; enligt https://publicsuffix.org. Detta är i princip den översta domänen som kan ta emot cookies. Den här cookien är en del av [Alloy Web SDK](https://github.com/adobe/alloy).
-- `aep-segments-membership`: Innehåller [målgruppsinformation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), t.ex. vilket segment en kund tillhör.
+- `aep-segments-membership`: Innehåller [målgruppsinformation](https://experienceleague.adobe.com/sv/docs/commerce-admin/customers/audience-activation), t.ex. vilket segment en kund tillhör.

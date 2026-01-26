@@ -111,8 +111,8 @@ Ta reda på era digitala resurser, inklusive alla integreringar och vem som har 
 
 1. Se följande avsnitt för relevanta dataflödesdiagram och databastentitetsmappningar för respektive version:
 
-   - [Referens för personlig information (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-   - [Referens för personlig information (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+   - [Referens för personlig information (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=sv-SE)
+   - [Referens för personlig information (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=sv-SE)
 
    ![diagram](./assets/privacy-frontend-diagram.svg)
 

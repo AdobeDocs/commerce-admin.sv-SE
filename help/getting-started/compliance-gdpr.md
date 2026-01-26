@@ -47,6 +47,6 @@ Företag som följer GDPR kan ha ytterligare skyldigheter enligt CCPA. Mer infor
 
 - Bevara genomskinlighet och ha grundlig dokumentation.
 
-- Om du vill veta hur Adobe kan hjälpa handlare att uppfylla gällande juridiska skyldigheter kan du gå till [webbplatsen](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
+- Om du vill veta hur Adobe kan hjälpa handlare att uppfylla gällande juridiska skyldigheter kan du gå till [webbplatsen](https://business.adobe.com/se/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Information om dataflödesdiagram och mappning av databasentiteter finns i [Personlig informationsreferens](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.
+- Information om dataflödesdiagram och mappning av databasentiteter finns i [Personlig informationsreferens](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=sv-SE){: target="_blank"}.

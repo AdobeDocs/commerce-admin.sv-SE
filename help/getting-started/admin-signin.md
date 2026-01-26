@@ -161,7 +161,7 @@ Administratören ger åtkomst till funktionerna för att hantera order, kunder, 
 
 För att försäkra dig om att din administratör är säker bör du regelbundet kontrollera användare och roller med administratörsåtkomst.
 
-Överväg också att [uppdatera Admin Base URL-konfigurationen](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) om du vill ändra standardslutpunkten `/admin` till en anpassad sökväg. Att konfigurera en anpassad sökväg ger följande säkerhetsfördelar:
+Överväg också att [uppdatera Admin Base URL-konfigurationen](https://experienceleague.adobe.com/sv/docs/commerce-admin/config/advanced/admin#admin-base-url) om du vill ändra standardslutpunkten `/admin` till en anpassad sökväg. Att konfigurera en anpassad sökväg ger följande säkerhetsfördelar:
 
 **Förbättrat skydd**: Standardsökvägen för admin är allmänt känd och är ofta riktad till illasinnade aktörer som försöker attackera med styrkan. Genom att ändra det till ett unikt, anpassat värde minskar du avsevärt risken för obehöriga åtkomstförsök.
 
@@ -173,4 +173,4 @@ För att försäkra dig om att din administratör är säker bör du regelbundet
 
 >[!NOTE]
 >
->Om det finns misstanke om en överträdelse ska du ta bort alla okända administratörsanvändare och återställa alla administratörslösenord. Mer information finns i [säkerhetsplanen](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security).
+>Om det finns misstanke om en överträdelse ska du ta bort alla okända administratörsanvändare och återställa alla administratörslösenord. Mer information finns i [säkerhetsplanen](https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/security/security).

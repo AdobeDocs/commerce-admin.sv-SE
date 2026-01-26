@@ -3,7 +3,7 @@ title: '[!DNL Commerce Intelligence]-verktyg'
 description: Läs om hur handlare i Adobe Commerce och Magento Open Source kan använda Commerce Intelligence verktyg för att få de insikter de behöver för att fatta sunda affärsbeslut.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1179'
@@ -17,7 +17,7 @@ Använd Commerce Intelligence verktyg för att få den kunskap som behövs för 
 
 ## [!DNL Commerce Intelligence]-konto
 
-När du aktiverar ett [!DNL Commerce Intelligence]-konto via Adobe får du tillgång till fem instrumentpaneler med ungefär 70 rapporter. Dessa rapporter är utformade för att ge insikter om era data och svara på frågor som&quot;Hur växer mina order månadsvis?&quot;,&quot;Vilka är mina mest lojala kunder?&quot; och&quot;Fungerar min kupongstrategi?&quot; Mer information om den här verktygsuppsättningen finns i [Commerce Intelligence användarhandbok](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html).
+När du aktiverar ett [!DNL Commerce Intelligence]-konto via Adobe får du tillgång till fem instrumentpaneler med ungefär 70 rapporter. Dessa rapporter är utformade för att ge insikter om era data och svara på frågor som&quot;Hur växer mina order månadsvis?&quot;,&quot;Vilka är mina mest lojala kunder?&quot; och&quot;Fungerar min kupongstrategi?&quot; Mer information om den här verktygsuppsättningen finns i [Commerce Intelligence användarhandbok](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=sv-SE).
 
 ## [!DNL Advanced Reporting]
 
@@ -43,7 +43,7 @@ Teknisk information finns i avsnittet [[!DNL Advanced Reporting]](https://develo
 
 * [!DNL Commerce] och **[!UICONTROL Use Secure URLs on Storefront]** måste anges till **[!UICONTROL Use Secure URLs in Admin]** i konfigurationen `Yes` för arkiv-URL:er.
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) skapas och cron-jobb körs på den installerade servern.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=sv-SE) skapas och cron-jobb körs på den installerade servern.
 
 >[!NOTE]
 >

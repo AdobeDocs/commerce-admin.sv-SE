@@ -169,11 +169,11 @@ Du kan också konfigurera leverans till specifika länder för varje tillgängli
 
 Hjälp med felsökning av problem med landskonfiguration finns i följande artiklar i [!DNL Commerce] kunskapsbasen med supportfrågor:
 
-- [Lägga till ett land](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Lägga till ett land](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=sv-SE)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Inställningen för handelsplats används för att konfigurera [betalningsmetoder](../stores-purchase/payments.md). Om det inte finns något värde för den här inställningen används inställningen [Standardland](#uicontrol-country-options).
 
@@ -215,7 +215,7 @@ Innan du kan konfigurera e-postadresser för butiken måste varje anges som en g
 
 ### Steg 2: Ange bas-URL för genererade länkar
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 Vissa kundorienterade e-postmeddelanden innehåller länkar till butiken, t.ex. sådana som hjälper kunderna att återställa sina lösenord. För att länkarna till butiken ska fungera måste du definiera bas-URL:en till butiken.
 
@@ -229,7 +229,7 @@ Vissa kundorienterade e-postmeddelanden innehåller länkar till butiken, t.ex. 
 
 ### Steg 3: Konfigurera e-postadresserna för din butik
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."} E-postadresser för avsändare konfigureras när din instans etableras. Om du behöver ändra adresserna skapar du en supportanmälan.
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."} E-postadresser för avsändare konfigureras när din instans etableras. Om du behöver ändra adresserna skapar du en supportanmälan.
 
 1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 

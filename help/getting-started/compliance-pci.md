@@ -40,7 +40,7 @@ Betalkortsbranschen (PCI) har fastställt en uppsättning krav för företag som
 
 ![kryssruta](../assets/checkbox.png) - Behåll en profil som behandlar informationssäkerhet.
 
-Mer information finns i [Adobe metod för PCI-kompatibilitet](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
+Mer information finns i [Adobe metod för PCI-kompatibilitet](https://business.adobe.com/se/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >

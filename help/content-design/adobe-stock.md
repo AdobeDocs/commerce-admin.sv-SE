@@ -3,7 +3,7 @@ title: Adobe Stock Integration
 description: Integrera Adobe Stock med  [!DNL Commerce] -instansen för att få tillgång till ett oändligt antal mediefiler som kan användas i din butik.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '399'
@@ -28,7 +28,7 @@ Den här integreringen kräver:
 
 För licensiering av Adobe Stock-bilder krävs:
 
-- Ett [Adobe-konto](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- Ett [Adobe-konto](https://helpx.adobe.com/se/manage-account/using/access-adobe-id-account.html)
 - En betald [Adobe Stock](https://stock.adobe.com)-plan som är kopplad till kontot
 
 ## Integrera [!DNL Commerce] och Adobe Stock
