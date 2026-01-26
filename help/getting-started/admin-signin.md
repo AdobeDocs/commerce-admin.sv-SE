@@ -110,7 +110,7 @@ Det är inte tillåtet att återanvända de fyra senaste lösenorden som tilldel
 
    ![Logga ut](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-Sidan _[!UICONTROL Sign In]_visar ett meddelande om att du är utloggad. Logga ut från_ Admin _när du lämnar datorn obevakad.
+Sidan _[!UICONTROL Sign In]_&#x200B;visar ett meddelande om att du är utloggad. Logga ut från_ Admin _när du lämnar datorn obevakad.
 
 ## Redigera kontoinformation
 
@@ -132,7 +132,7 @@ Sidan _[!UICONTROL Sign In]_visar ett meddelande om att du är utloggad. Logga u
 
 Administratören ger åtkomst till funktionerna för att hantera order, kunder, produkter, frakt och betalningar. Standardkonfigurationen är inställd på att inte tillåta flera inloggningar för ett administratörskonto som en god säkerhetsrutin. Du kan dock ändra den här inställningen så att administratörsanvändare kan logga in från flera enheter för att få plats med dina arbetsflöden.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra navigeringspanelen och välj **[!UICONTROL Admin]**.
 
@@ -146,7 +146,7 @@ Administratören ger åtkomst till funktionerna för att hantera order, kunder, 
 
 ## Ange administratörens inloggningsnamn som skiftlägeskänsliga
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra navigeringspanelen och välj **[!UICONTROL Admin]**.
 

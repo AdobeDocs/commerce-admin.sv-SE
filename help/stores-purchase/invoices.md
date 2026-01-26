@@ -61,7 +61,7 @@ En faktura för ordern måste genereras innan den kan skrivas ut. Om du vill vis
 
 **_Om du vill fakturera en order:_**
 
-1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_Admin **[!UICONTROL Orders]**.
+1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_&#x200B;Admin **[!UICONTROL Orders]**.
 
 1. Hitta försäljningsordern med statusen `Processing` i rutnätet. Gör sedan följande:
 
@@ -71,7 +71,7 @@ En faktura för ordern måste genereras innan den kan skrivas ut. Om du vill vis
 
    >[!NOTE]
    >
-   >Alternativet _[!UICONTROL Invoice]_visas inte när [betalningsåtgärden](../configuration-reference/sales/payment-methods.md#payment-actions) för din specifika [betalningsmetod](../configuration-reference/sales/payment-methods.md) är inställd på `Authorize and Capture`, vilket automatiskt genererar en faktura. Detta gäller också om ordern har lagts och betalningsåtgärden för betalningsmetoden har angetts till `Authorize` och ordern har fakturerats.
+   >Alternativet _[!UICONTROL Invoice]_&#x200B;visas inte när [betalningsåtgärden](../configuration-reference/sales/payment-methods.md#payment-actions) för din specifika [betalningsmetod](../configuration-reference/sales/payment-methods.md) är inställd på `Authorize and Capture`, vilket automatiskt genererar en faktura. Detta gäller också om ordern har lagts och betalningsåtgärden för betalningsmetoden har angetts till `Authorize` och ordern har fakturerats.
 
    ![Fakturaförsäljningsorder](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -129,9 +129,9 @@ Fakturor kan skrivas ut individuellt eller som en batch. Innan en faktura kan sk
 
 ### Skriva ut en enda faktura
 
-1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_Admin **[!UICONTROL Invoices]**.
+1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_&#x200B;Admin **[!UICONTROL Invoices]**.
 
-1. Leta reda på fakturan i rutnätet _[!UICONTROL Invoices]_och klicka på&#x200B;**[!UICONTROL View]**i kolumnen_&#x200B;Åtgärd _.
+1. Leta reda på fakturan i rutnätet _[!UICONTROL Invoices]_&#x200B;och klicka på&#x200B;**[!UICONTROL View]**&#x200B;i kolumnen_&#x200B;Åtgärd _.
 
 1. Klicka på **[!UICONTROL Print]** högst upp på fakturan för att generera en PDF av fakturan.
 
@@ -139,9 +139,9 @@ Fakturor kan skrivas ut individuellt eller som en batch. Innan en faktura kan sk
 
 ### Skriva ut flera fakturor
 
-1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_Admin **[!UICONTROL Invoices]**.
+1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_&#x200B;Admin **[!UICONTROL Invoices]**.
 
-1. I rutnätet _[!UICONTROL Invoices]_markerar du kryssrutan för varje faktura som ska skrivas ut.
+1. I rutnätet _[!UICONTROL Invoices]_&#x200B;markerar du kryssrutan för varje faktura som ska skrivas ut.
 
 1. Ställ in kontrollen **[!UICONTROL Actions]** på `PDF Invoices`.
 

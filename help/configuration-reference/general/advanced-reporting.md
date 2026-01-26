@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_är en molnbaserad tjänst som drivs av [Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html){:target="_blank"}. Mer information finns i [Avancerad rapportering](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting){:target="_blank"} i_ Starthandboken _.
+_[!DNL Advanced Reporting]_&#x200B;är en molnbaserad tjänst som drivs av [Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html){:target="_blank"}. Mer information finns i [Avancerad rapportering](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting){:target="_blank"} i_ Starthandboken _.
 
 ![Avancerad rapportering](./assets/advanced-reporting.png)<!-- zoom -->
 

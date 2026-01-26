@@ -32,9 +32,9 @@ De data som används för att beräkna tabellfrekvenser förbereds i ett kalkylb
 
 Det första steget är att slutföra standardinställningarna för tabellfrekvenser. Du kan slutföra det här steget utan att ändra konfigurationens omfattning.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
-1. Välj _[!UICONTROL Sales]_i avsnittet **[!UICONTROL Delivery Methods]**på den vänstra panelen.
+1. Välj _[!UICONTROL Sales]_&#x200B;i avsnittet **[!UICONTROL Delivery Methods]**&#x200B;på den vänstra panelen.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Table Rates]**.
 
@@ -115,10 +115,10 @@ Det första steget är att slutföra standardinställningarna för tabellfrekven
 1. Fyll i tabellen med lämpliga värden för leveransberäkningsvillkoret.
 
    - Använd en asterisk (*) som jokertecken som representerar alla möjliga värden i alla kategorier.
-   - Kolumnen _[!UICONTROL Country]_måste innehålla en [giltig kod med tre tecken ](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) för varje rad.
-   - Sortera data efter _[!UICONTROL Region/State]_så att de specifika platserna finns högst upp i listan och jokerteckens platser längst ned. Med den här metoden bearbetas reglerna med de absoluta värdena först och jokertecknen senare.
+   - Kolumnen _[!UICONTROL Country]_&#x200B;måste innehålla en [giltig kod med tre tecken &#x200B;](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) för varje rad.
+   - Sortera data efter _[!UICONTROL Region/State]_&#x200B;så att de specifika platserna finns högst upp i listan och jokerteckens platser längst ned. Med den här metoden bearbetas reglerna med de absoluta värdena först och jokertecknen senare.
    - Postnummerintervall stöds inte. Använd en asterisk (*) om du vill tillåta alla koder i regionen/staten, eller ange en enda kod för en viss plats i kolumnen _[!UICONTROL Zip/Postal Code]_.
-   - Värden i kolumnen _[!UICONTROL Weight (and above)]_kan ha högst fyra decimaler (till exempel `2.5075`). Om fler decimaler används i data misslyckas importen.
+   - Värden i kolumnen _[!UICONTROL Weight (and above)]_&#x200B;kan ha högst fyra decimaler (till exempel `2.5075`). Om fler decimaler används i data misslyckas importen.
 
    ![Vikt jämfört med mål (Australien)](./assets/table-rates-weight-destination-csv.png){width="500"}
 

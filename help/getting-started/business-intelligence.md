@@ -54,7 +54,7 @@ Teknisk information finns i avsnittet [[!DNL Advanced Reporting]](https://develo
 
 I [!DNL Commerce]-konfigurationen är [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) aktiverad som standard och startar automatiskt om cron är [konfigurerad](../configuration-reference/advanced/system.md) och körs. Ett försök att upprätta prenumerationen påbörjas i början av varje timme under de kommande 24 timmarna tills det är klart. Prenumerationsstatusen är &quot;väntande&quot; tills prenumerationen har upprättats.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Välj **[!UICONTROL General]** i den vänstra navigeringspanelen där **[!UICONTROL Advanced Reporting]** är expanderat och gör följande:
 
@@ -77,7 +77,7 @@ I [!DNL Commerce]-konfigurationen är [[!DNL Advanced Reporting]](../configurati
 1. Gör något av följande:
 
    * Välj _på sidofältet_ Admin **[!UICONTROL Dashboard]**. Klicka sedan på **[!UICONTROL Go to Advanced Reporting]**.
-   * Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Business Intelligence]_Admin **[!UICONTROL Advanced Reporting]**.
+   * Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Business Intelligence]_&#x200B;Admin **[!UICONTROL Advanced Reporting]**.
 
    Kontrollpanelen [!DNL Advanced Reporting] innehåller en snabb sammanfattning av dina beställningar, kunder och produkter. Se till att bläddra nedåt för att se hela instrumentpanelen.
 
@@ -100,7 +100,7 @@ Om du får ett 404-meddelande om att sidan inte hittades kontrollerar du att din
 
 ### Kontrollera att integreringen är aktiv
 
-1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Extensions]_Admin **[!UICONTROL Integration]**.
+1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Extensions]_&#x200B;Admin **[!UICONTROL Integration]**.
 
 1. Kontrollera att integreringen av **[!UICONTROL Magento Analytics user]** visas i listan och att **[!UICONTROL Status]** är `Active`.
 

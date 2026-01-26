@@ -18,7 +18,7 @@ Du kan skapa egna block med innehåll och sedan lägga till dem på en sida, i e
 
 ## Skapa ett block
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Blocks]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_&#x200B;Admin **[!UICONTROL Blocks]**.
 
 1. Klicka på **Lägg till nytt block** i det övre högra hörnet.
 
@@ -62,14 +62,14 @@ Det finns två sätt att ta bort ett anpassat block. Du kan ta bort den från st
 
 ### Metod 1: Ta bort ett block från rutnätet
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Blocks]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_&#x200B;Admin **[!UICONTROL Blocks]**.
 1. Leta upp blocken med hjälp av filter ovanför stödrastret och markera kryssrutan för ett eller flera block som ska tas bort.
 1. I listans övre vänstra hörn anger du **[!UICONTROL Actions]** till `Delete`.
 1. Bekräfta åtgärden genom att klicka på **[!UICONTROL OK]**.
 
 ### Metod 2: Ta bort ett block från redigeringssidan
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Blocks]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_&#x200B;Admin **[!UICONTROL Blocks]**.
 1. Sök efter det block som ska tas bort.
 1. Klicka på _i kolumnen_&#x200B;Åtgärder **[!UICONTROL Select]** för blocket och välj **[!UICONTROL Edit]**.
 1. Klicka på **[!UICONTROL Delete Block]** på menyraden.

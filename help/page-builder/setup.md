@@ -28,11 +28,11 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 
 ## Konfigurera [!DNL Page Builder]
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
-1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Content Management]**.
+1. Välj _[!UICONTROL General]_&#x200B;i den vänstra panelen under **[!UICONTROL Content Management]**.
 
-1. Expandera ![Expansionsväljaren ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och verifiera att **[!UICONTROL Enable Page Builder]** är inställd på `Yes`.
+1. Expandera ![Expansionsväljaren &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och verifiera att **[!UICONTROL Enable Page Builder]** är inställd på `Yes`.
 
    ![Avancerade innehållsverktyg](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
@@ -44,7 +44,7 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 
    >[!NOTE]
    >
-   >Mer information om hur du använder [ i ditt ](map.md)-innehåll finns i [!DNL Google Maps]Media - karta[!DNL Page Builder].
+   >Mer information om hur du använder [&#x200B; i ditt &#x200B;](map.md)-innehåll finns i [!DNL Google Maps]Media - karta[!DNL Page Builder].
 
 1. Så här konfigurerar du antalet stödlinjer i kolumnstödrastret [!DNL Page Builder]:
 
@@ -54,15 +54,15 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 
    >[!NOTE]
    >
-   >Mer information om hur du använder kolumnstödrastret när du arbetar med ditt [-innehåll finns i ](column.md)Layout - kolumn[!DNL Page Builder].
+   >Mer information om hur du använder kolumnstödrastret när du arbetar med ditt [-innehåll finns i &#x200B;](column.md)Layout - kolumn[!DNL Page Builder].
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Konfigurera standardlayouter
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
-1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Web]**.
+1. Välj _[!UICONTROL General]_&#x200B;i den vänstra panelen under **[!UICONTROL Web]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]** och gör följande:
 
@@ -84,11 +84,11 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 >
 >Om du inaktiverar [!DNL Page Builder] ersätts de avancerade innehållsverktygen med WYSIWYG [editor](../content-design/editor.md). Det kan orsaka visningsfel i butiken. Innehåll som du tidigare skapat med [!DNL Page Builder] kanske inte kan redigeras från administratören.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
-1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Content Management]**.
+1. Välj _[!UICONTROL General]_&#x200B;i den vänstra panelen under **[!UICONTROL Content Management]**.
 
-1. Expandera ![Expansionsväljaren ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och ange **[!UICONTROL Enable Page Builder]** till `No`.
+1. Expandera ![Expansionsväljaren &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och ange **[!UICONTROL Enable Page Builder]** till `No`.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Turn Off]**.
 

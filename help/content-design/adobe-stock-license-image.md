@@ -27,7 +27,7 @@ Licensfunktionen för Adobe Stock är bara tillgänglig om [Adobe Stock Integrat
 
 ## Licensiera en bild från nya [!DNL Media Gallery]
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_&#x200B;Admin **[!UICONTROL Media Gallery]**.
 
 1. Följ stegen i [Använda Adobe Stock-bilder](./adobe-stock-manage.md) för att logga in och spara förhandsvisningsbilder i [medielagringen](./media-storage.md).
 

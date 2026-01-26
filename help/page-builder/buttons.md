@@ -161,7 +161,7 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
    ![Knappbehållarverktygslådan](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Välj _[!UICONTROL Appearance]_under **[!UICONTROL Stacked]**.
+1. Välj _[!UICONTROL Appearance]_&#x200B;under **[!UICONTROL Stacked]**.
 
 1. Ange **[!UICONTROL All Buttons are same size]** till `Yes`.
 
@@ -179,7 +179,7 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
 1. Klicka på den knapp som du vill flytta.
 
-1. Markera och dra ikonen Flytta ( ![ikonen Flytta ](./assets/pb-icon-move.png){width="20"} ), som visas precis före knapptexten, till en ny plats för knappen i knappbehållaren.
+1. Markera och dra ikonen Flytta ( ![ikonen Flytta &#x200B;](./assets/pb-icon-move.png){width="20"} ), som visas precis före knapptexten, till en ny plats för knappen i knappbehållaren.
 
    ![Flytta en knapp](./assets/pb-elements-button-set-move-button.png){width="500" zoomable="yes"}
 

@@ -53,7 +53,7 @@ Fastställ vilken typ av återbetalning du vill utfärda - för ett [kreditköp]
 
 1. Sök efter ordningen i rutnätet och klicka på **[!UICONTROL View]**.
 
-1. Om knappen _[!UICONTROL Credit Memo]_visas i knappfältet gör du något av följande:
+1. Om knappen _[!UICONTROL Credit Memo]_&#x200B;visas i knappfältet gör du något av följande:
 
    - Gå till steg 6 för att utfärda en `offline`-återbetalning.
    - Om du vill återbetala `online` fortsätter du med steg 4.
@@ -274,7 +274,7 @@ Betalningsmetoden som används för ordern avgör vilka återbetalningsknappar s
 
 Om du vill skriva ut eller visa den ifyllda kreditnotan måste du ha en PDF Reader installerad. Du kan ladda ned [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Hämta Adobe Reader") utan kostnad.
 
-1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_Admin **[!UICONTROL Credit Memos]**.
+1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_&#x200B;Admin **[!UICONTROL Credit Memos]**.
 
 1. Skriv ut kreditnotan på något av följande sätt:
 

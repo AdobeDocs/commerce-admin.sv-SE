@@ -73,7 +73,7 @@ Använd innehållstypen _Delare_ om du vill lägga till en regel som en visuell 
 
    ![Anger linjefärg, tjocklek och bredd](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
 
    - Om du vill styra placeringen av avgränsaren i den överordnade behållaren väljer du **[!UICONTROL Alignment]**:
 
@@ -146,7 +146,7 @@ För en formaterad avgränsare med specifika inställningar är det effektivare 
 
    ![Duplicerad avdelare](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. Håll pekaren över den nya delningsbehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta ](./assets/pb-icon-move.png){width="20"} ).
+1. Håll pekaren över den nya delningsbehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta &#x200B;](./assets/pb-icon-move.png){width="20"} ).
 
    ![Flytta en avdelare](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 

@@ -56,7 +56,7 @@ När du arbetar med innehållstypen _Tabbar_ lägger du till och redigerar enski
 
 ## Lägga till en enskild flik
 
-1. Dra platshållaren [!DNL Page Builder] direkt till scenen eller till en rad eller kolumn på scenen på panelen _[!UICONTROL Layout]_under **[!UICONTROL Tabs]**.
+1. Dra platshållaren [!DNL Page Builder] direkt till scenen eller till en rad eller kolumn på scenen på panelen _[!UICONTROL Layout]_&#x200B;under **[!UICONTROL Tabs]**.
 
    ![Dra tabbar till en rad](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

@@ -42,7 +42,7 @@ I vissa affärstransaktioner görs ingen uppskattning av moms. Commerce kan vali
 
 Processen med att skapa en momsregel börjar med att lägga till en skattesats.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Taxes]_Admin **[!UICONTROL Tax Zones and Rates]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Taxes]_&#x200B;Admin **[!UICONTROL Tax Zones and Rates]**.
 
    ![Konfigurera kundmomsklasser](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -66,7 +66,7 @@ Baserat på den inskickade skattesatsen kan du skapa efterföljande momsregler. 
 
 ### Steg 2: Ange produktskatteklasser
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Taxes]_Admin **[!UICONTROL Tax Rules]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Taxes]_&#x200B;Admin **[!UICONTROL Tax Rules]**.
 
 1. Klicka på **[!UICONTROL Add New Tax Rule]**.
 
@@ -88,7 +88,7 @@ Baserat på den inskickade skattesatsen kan du skapa efterföljande momsregler. 
 
 ### Steg 3: Ange momszoner och skattesatser
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Taxes]_Admin **[!UICONTROL Tax Zones and Rates]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Taxes]_&#x200B;Admin **[!UICONTROL Tax Zones and Rates]**.
 
    I det här exemplet kan du ta bort amerikanska skattesatser eller låta dem vara som de är.
 
@@ -116,7 +116,7 @@ Baserat på den inskickade skattesatsen kan du skapa efterföljande momsregler. 
 
 En momsregel är en kombination av en kundskatteklass, en produktskatteklass och en momssats.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Taxes]_Admin **[!UICONTROL Tax Rules]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Taxes]_&#x200B;Admin **[!UICONTROL Tax Rules]**.
 
 1. Lägg till nya momsregler enligt följande:
 
@@ -279,7 +279,7 @@ Skapa [momsreglerna](tax-rules.md) för att effektivt använda moms-ID-validerin
 
 #### Steg 3: Aktivera och konfigurera validering av moms-ID
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Ange **[!UICONTROL Store View]** för konfigurationen om det behövs.
 
@@ -317,7 +317,7 @@ Skapa [momsreglerna](tax-rules.md) för att effektivt använda moms-ID-validerin
 
 #### Steg 5: Verifiera listan över EU-medlemsländer
 
-1. Expandera _Expanderingsväljaren_ i avsnittet ![ på konfigurationssidan ](../assets/icon-display-expand.png)Allmänt **[!UICONTROL Countries Options]** .
+1. Expandera _Expanderingsväljaren_ i avsnittet ![&#x200B; på konfigurationssidan &#x200B;](../assets/icon-display-expand.png)Allmänt **[!UICONTROL Countries Options]** .
 
    ![Alternativ för länder](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
 

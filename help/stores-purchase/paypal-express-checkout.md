@@ -52,7 +52,7 @@ PayPals _In-Context Checkout_ gör det enklare än någonsin att betala online. 
 
 ![PayPal - demo av kontextutcheckning](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
 
-[_PayPal - demo av kontextutcheckning_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout)
+[_PayPal - demo av kontextutcheckning_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&page=incontextProductCheckout)
 
 När du konfigurerar din butik för [!DNL PayPal Express Checkout] kan du aktivera det här alternativet.
 
@@ -88,19 +88,19 @@ Du kan ha två PayPal-lösningar aktiva samtidigt: PayPal Express Checkout plus 
 
 ### Steg 1: Påbörja konfigurationen
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
 1. Om din installation har flera webbplatser, butiker eller vyer anger du **[!UICONTROL Store View]** till den butiksvy där du vill använda den här konfigurationen.
 
-1. I avsnittet _[!UICONTROL Merchant Location]_väljer du **[!UICONTROL Merchant Country]**där ditt företag finns.
+1. I avsnittet _[!UICONTROL Merchant Location]_&#x200B;väljer du **[!UICONTROL Merchant Country]**&#x200B;där ditt företag finns.
 
    Den här inställningen bestämmer valet av PayPal-lösningar som visas i konfigurationen.
 
    ![Handelsland](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Klicka _[!UICONTROL Recommended Solutions]_för **[!UICONTROL Configure]**under **[!UICONTROL PayPal Express Checkout]**.
+1. Klicka _[!UICONTROL Recommended Solutions]_&#x200B;för **[!UICONTROL Configure]**&#x200B;under **[!UICONTROL PayPal Express Checkout]**.
 
    ![Konfigurera PayPal Express Checkout](./assets/paypal-express-checkout.png){width="600"}
 
@@ -312,7 +312,7 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
    - `Sale` - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto.
    - `Order` - Orderbeloppet hämtas eller auktoriseras inte i kundsaldot, bankkontot eller kreditkortet på PayPal. Orderbetalningsåtgärden representerar ett avtal mellan betalningssystemet PayPal och handlaren. Det gör det möjligt för handlaren att samla in ett eller flera belopp upp till den beställda summan från kundens köparkonto under en period på upp till 29 dagar. Efter beställningen kan handlaren när som helst samla in pengarna under den följande 29-dagarsperioden. Beställningsbeloppet kan bara hämtas från Commerce Admin genom att en eller flera fakturor skapas.
 
-1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_på produktsidan anger du **[!UICONTROL Display on Product Details Page]**till `Yes`.
+1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_&#x200B;på produktsidan anger du **[!UICONTROL Display on Product Details Page]**&#x200B;till `Yes`.
 
 1. Om betalningsåtgärden är inställd på `Order` utför du följande
 

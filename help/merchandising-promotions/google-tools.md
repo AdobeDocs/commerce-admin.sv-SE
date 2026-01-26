@@ -56,7 +56,7 @@ Om ditt företag måste följa sekretessregler som [GDPR](../getting-started/com
 
    - Klicka på **[!UICONTROL Manage DPA Details]** för att öppna en DPA-administrationssida där du kan redigera kontakter och organisationens juridiska personer.
 
-   - Klicka på ikonen **[!UICONTROL Legal Entities]** Redigera _(_ Google-redigeringsikonen![ ) i avsnittet ](./assets/google-icon-edit.png) och lägg till ett eller flera registrerade namn för din organisation. Klicka på **[!UICONTROL Save]** när du är klar.
+   - Klicka på ikonen **[!UICONTROL Legal Entities]** Redigera _(_ Google-redigeringsikonen![&#x200B; ) i avsnittet &#x200B;](./assets/google-icon-edit.png) och lägg till ett eller flera registrerade namn för din organisation. Klicka på **[!UICONTROL Save]** när du är klar.
 
    - I avsnittet **Kontakter** klickar du på ikonen _Lägg till_ ( ![Lägg till Google-ikon](./assets/google-icon-add.png) ) och anger information för den första kontakten. Markera sedan kryssrutan för varje tillämplig roll och klicka på **[!UICONTROL Add]**.
 

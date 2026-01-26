@@ -73,15 +73,15 @@ Nyckeln är från [Google Maps Platform](https://cloud.google.com/maps-platform/
 
 ### Steg 2: Konfigurera Google MAP Provider
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Inventory]**.
 
-1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Distance Provider for Distance Based SSA]_och ange **[!UICONTROL Provider]**till `Google MAP`.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;och ange **[!UICONTROL Provider]**&#x200B;till `Google MAP`.
 
    ![Providers för distansbaserad SSA](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Google Distance Provider]_och konfigurera inställningarna:
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Google Distance Provider]_&#x200B;och konfigurera inställningarna:
 
    - För **[!UICONTROL Google API Key]** anger du nyckeln som kopierats från ditt Google-konto.
 
@@ -124,7 +124,7 @@ Slutför dessa kommandon när du vill lägga till fler geokoder.
 
 ### Steg 2: Ange beräkningen
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Inventory]**.
 

@@ -33,7 +33,7 @@ Slutför konfigurationen [XML-platskarta](#site-map-configuration) för att fast
 
 ## Steg 2. Generera webbplatskartan
 
-1. Gå till _>_ > **[!UICONTROL Marketing]** på menyn _[!UICONTROL SEO & Search]_Admin **[!UICONTROL Site Map]**.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på menyn _[!UICONTROL SEO & Search]_&#x200B;Admin **[!UICONTROL Site Map]**.
 
 1. Klicka på **[!UICONTROL Add Site Map]**.
 
@@ -85,7 +85,7 @@ Så här skapar du platskartor för en multistore-instans:
        /sitemaps/domain_1/
        /sitemaps/domain_2/
    
-1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL SEO & Search]_Admin **[!UICONTROL Site Map]**.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL SEO & Search]_&#x200B;Admin **[!UICONTROL Site Map]**.
 
 1. Skapa eller redigera platskartlistor för varje butik och ställ in **[!UICONTROL Path]** på den som du skapade för butiken:
 
@@ -124,7 +124,7 @@ Din webbplatskarta bör uppdateras så ofta som innehållet på din webbplats ä
 
 ### Steg 1. Ange frekvens och prioritet för innehållsuppdateringar
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL XML Sitemap]**.
 

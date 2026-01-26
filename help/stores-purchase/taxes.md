@@ -89,7 +89,7 @@ Handlare som är föremål för revision av skatter som betalas för digitala va
 - Kundens leveransadress och ett kvitto på en lyckad betalningstransaktion kan användas för att fastställa kundens bosättningsort. (Betalning accepteras endast om leveransadressen stämmer överens med betalarens information.)
 - Informationen kan också hämtas direkt från datalagret i Commerce databastabeller.
 
-_**Så här samlar du in skatteinformation för digitala varor:**_
+_&#x200B;**Så här samlar du in skatteinformation för digitala varor:**&#x200B;_
 
 1. Läs in skattesatserna för alla EU:s medlemsländer.
 

@@ -19,11 +19,11 @@ Med Adobe Commerce eller Magento Open Source 2.4 kan handlare använda den nya _
 
 >[!NOTE]
 >
->Produktbilder som lagts till i [_[!UICONTROL Images and Videos]_-produktavsnittet ](../catalog/product-image.md#upload-an-image) hanteras inte av [!DNL Media Gallery]. Endast bilder som används i produktavsnittsfälten för_[!UICONTROL Content]_ visas och filtreras i den nya [!DNL Media Gallery].
+>Produktbilder som lagts till i [_[!UICONTROL Images and Videos]_-produktavsnittet &#x200B;](../catalog/product-image.md#upload-an-image) hanteras inte av [!DNL Media Gallery]. Endast bilder som används i produktavsnittsfälten för&#x200B;_[!UICONTROL Content]_ visas och filtreras i den nya [!DNL Media Gallery].
 
 ## Aktivera nya [!DNL Media Gallery]
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
@@ -37,7 +37,7 @@ Med Adobe Commerce eller Magento Open Source 2.4 kan handlare använda den nya _
 
 1. När du uppmanas till det klickar du på länken **[!UICONTROL Cache Management]** i systemmeddelandet och uppdaterar den ogiltiga cachen.
 
-   [[!UICONTROL Content]-menyn ](/help/content-design/content-menu.md) visar nu det nya _[!UICONTROL Media Gallery]_-alternativet.
+   [[!UICONTROL Content]-menyn &#x200B;](/help/content-design/content-menu.md) visar nu det nya _[!UICONTROL Media Gallery]_-alternativet.
 
 >[!NOTE]
 >
@@ -49,15 +49,15 @@ Den nya [!DNL Media Gallery] är tillgänglig på menyn Innehåll eller när du 
 
 Så här kommer du åt den nya [!UICONTROL Media Gallery] via menyn [!UICONTROL Content]:
 
-- Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
+- Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_&#x200B;Admin **[!UICONTROL Media Gallery]**.
 
 Så här kommer du åt det nya mediegalleriet när du lägger till eller redigerar en sida:
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_&#x200B;Admin **[!UICONTROL Pages]**.
 
 1. Klicka på **[!UICONTROL Add a New Page]**.
 
-   Om du vill redigera en befintlig sida kan du använda kolumnen _[!UICONTROL Action]_för att klicka på&#x200B;**[!UICONTROL Select]**och välja **[!UICONTROL Edit]**.
+   Om du vill redigera en befintlig sida kan du använda kolumnen _[!UICONTROL Action]_&#x200B;för att klicka på&#x200B;**[!UICONTROL Select]**&#x200B;och välja **[!UICONTROL Edit]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Content]** och gör följande:
 
