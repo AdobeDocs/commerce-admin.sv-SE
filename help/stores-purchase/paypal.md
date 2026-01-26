@@ -3,8 +3,8 @@ title: Betalningslösningar för PayPal
 description: Lär dig mer om de integreringar av betalningslösningar från PayPal som är tillgängliga för din butik.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -22,7 +22,7 @@ PayPal är världsledande inom onlinebetalningar och ett snabbt och säkert sät
 
 ## PayPal-företagskonto
 
-Om du vill erbjuda PayPal som betalningsmetod i din butik måste du ha ett PayPal [företagskonto][1] och/eller ett [PayPal-betalningsflödeskonto][2]. Kontokraven anges i beskrivningen av varje PayPal-lösning. Ditt PayPal-handelskonto används även för att hantera eventuella [bedrägerifilter](#paypal-fraud-management-filters) som tillämpas på köp som görs från din butik.
+Om du vill erbjuda PayPal som betalningsmetod i din butik måste du ha ett PayPal [företagskonto](https://manager.paypal.com/) och/eller ett [PayPal-betalningsflödeskonto](https://developer.paypal.com/docs/payflow/payflow-gateway/). Kontokraven anges i beskrivningen av varje PayPal-lösning. Ditt PayPal-handelskonto används även för att hantera eventuella [bedrägerifilter](#paypal-fraud-management-filters) som tillämpas på köp som görs från din butik.
 
 Kunder som använder PayPal Express Checkout eller Express Checkout för Payflow Pro måste ha ett PayPal-köpkonto. PayPal Payments Standard (Web Site Payments Standard i vissa länder) kan användas direkt eller via ett köpkonto när handlaren aktiverar _PayPal Account Optional_. Som standard är den här parametern aktiverad så att kunderna kan välja att ange sin kreditkortsinformation eller skapa ett köpkonto med PayPal. När det är inaktiverat måste kunderna först skapa ett PayPal-köpkonto innan de kan göra ett köp.
 
@@ -30,7 +30,7 @@ Webbplatsbetalningar Pro, webbplatsbetalningar Pro Payflow Edition, Payflow Pro 
 
 ## PayPal Credit och PayLater
 
-PayPal PayLater ger dina kunder snabb tillgång till finansiering, så att de kan köpa nu och betala med tiden, utan extra kostnad. Du debiteras inte när kunderna väljer PayPal-kreditalternativ, och du betalar bara din vanliga PayPal-transaktionsavgift. Mer information finns på webbplatsen [PayPal][3].
+PayPal PayLater ger dina kunder snabb tillgång till finansiering, så att de kan köpa nu och betala med tiden, utan extra kostnad. Du debiteras inte när kunderna väljer PayPal-kreditalternativ, och du betalar bara din vanliga PayPal-transaktionsavgift. Mer information finns på webbplatsen [PayPal](https://www.paypal.com/us/business/buy-now-pay-later).
 
 Ge försäljningen ett lyft när ni annonserar finansiering. PayPal hjälper till att göra webbläsare till köpare genom att finansiera med PayPal PayLater. Era kunder kan betala med tiden, samtidigt som ni betalar i förskott - utan extra kostnad. Använd kostnadsfria banners för PayPal för att annonsera PayPal-finansiering som ett betalningsalternativ när kunderna checkar ut med PayPal. PayPal Advertising-programmet har visat sig generera ytterligare inköp och öka de genomsnittliga inköpsstorlekarna med 15 % eller mer.
 
@@ -103,7 +103,7 @@ Hanteringsfilter för PayPal-bedrägeri gör det enklare att upptäcka och besva
 | Åtgärd | Resultat |
 | --- | --- |
 | [!UICONTROL Review] | Den misstänkta ordern får statusen _Betalningsgranskning_ när ordern läggs. Du kan granska ordern och godkänna eller avbryta betalningen i Admin eller på PayPal-sidan. När du klickar på **[!UICONTROL Accept Payment]** eller **[!UICONTROL Deny Payment]** skapas inga nya transaktioner för ordern. <br/><br/>Om du ändrar status för transaktionen på PayPal-webbplatsen måste du klicka på **[!UICONTROL Get Payment Update]** på sidan Ordning i Admin för att ändringarna ska gälla. Om du klickar på **[!UICONTROL Accept Payment]** eller **[!UICONTROL Deny Payment]** tillämpas de ändringar som gjorts på PayPal-webbplatsen. |
-| [!UICONTROL Deny] | Den misstänkta ordern kan inte utföras av kunden eftersom motsvarande transaktion avvisas av PayPal. <br/><br/>Om du vill neka betalningen från administratören klickar du på **[!UICONTROL Deny Payment]** i det övre högra hörnet på sidan. Orderstatusen ändras till `Canceled`, transaktionen återställs och medel frisläpps på kundkontot. Motsvarande information läggs till i avsnittet _[!UICONTROL Comments History]_&#x200B;i ordervyn. |
+| [!UICONTROL Deny] | Den misstänkta ordern kan inte utföras av kunden eftersom motsvarande transaktion avvisas av PayPal. <br/><br/>Om du vill neka betalningen från administratören klickar du på **[!UICONTROL Deny Payment]** i det övre högra hörnet på sidan. Orderstatusen ändras till `Canceled`, transaktionen återställs och medel frisläpps på kundkontot. Motsvarande information läggs till i avsnittet _[!UICONTROL Comments History]_i ordervyn. |
 | [!UICONTROL Flag] | Den misstänkta ordern får statusen `Processing` när den placeras. Motsvarande transaktion är markerad med en flagga i listan över handelskontotransaktioner. |
 
 {style="table-layout:auto"}
@@ -185,8 +185,3 @@ PayPal Express Checkout och PayPal Website Payments Standard är tillgängliga i
 - Uruguay
 - Venezuela
 - Vietnam
-
-
-[1]: https://manager.paypal.com/
-[2]: https://developer.paypal.com/docs/payflow/payflow-gateway/
-[3]: https://www.paypal.com/us/business/buy-now-pay-later

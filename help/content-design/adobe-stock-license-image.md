@@ -3,10 +3,10 @@ title: Licensiera en Adobe Stock-bild
 description: För att säkerställa att du har laglig åtkomst och för att ta bort Adobe Stock-vattenstämpeln licensierar du dina Adobe Stock-bilder.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 9d6dade372d4b931bec9aec9b9bfeedc3107ad1e
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ Den nya [[!DNL Media Gallery]](media-gallery.md) har en direkt integrering med A
 
 **Krav**
 
-Licensfunktionen för Adobe Stock är bara tillgänglig om [Adobe Stock Integration](./adobe-stock.md) är installerad och konfigurerad. Licensiering av [Adobe Stock][adobe-stock]-bilder kräver en betald Adobe Stock-plan och ett [Adobe-konto][adobe-signin].
+Licensfunktionen för Adobe Stock är bara tillgänglig om [Adobe Stock Integration](./adobe-stock.md) är installerad och konfigurerad. Licensiering av [Adobe Stock](https://stock.adobe.com)-bilder kräver en betald Adobe Stock-plan och ett [Adobe-konto](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
 >[!ENDSHADEBOX]
 
 ## Licensiera en bild från nya [!DNL Media Gallery]
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_&#x200B;Admin **[!UICONTROL Media Gallery]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Följ stegen i [Använda Adobe Stock-bilder](./adobe-stock-manage.md) för att logga in och spara förhandsvisningsbilder i [medielagringen](./media-storage.md).
 
@@ -47,7 +47,7 @@ Licensfunktionen för Adobe Stock är bara tillgänglig om [Adobe Stock Integrat
 
    >[!NOTE]
    >
-   >Du måste ha [Adobe Stock-krediter][stock-credits] tillgängliga på ditt konto för att licensiera bilden.
+   >Du måste ha [Adobe Stock-krediter](https://helpx.adobe.com/stock/help/credit-packs.html) tillgängliga på ditt konto för att licensiera bilden.
 
 ## Licensiera en bild från standardmedielagringen
 
@@ -63,7 +63,7 @@ Licensfunktionen för Adobe Stock är bara tillgänglig om [Adobe Stock Integrat
 
      >[!NOTE]
      >
-     >Du måste ha [Adobe Stock-krediter][stock-credits] tillgängliga på ditt konto för att licensiera bilden.
+     >Du måste ha [Adobe Stock-krediter](https://helpx.adobe.com/stock/help/credit-packs.html) tillgängliga på ditt konto för att licensiera bilden.
 
    Den här åtgärden visar en uppmaning om att ange ett filnamn som används för att spara bilden i [medielagringen](./media-storage.md). Ett standardfilnamn anges, men du kan anpassa namnet efter dina inställningar.
 
@@ -72,9 +72,3 @@ Licensfunktionen för Adobe Stock är bara tillgänglig om [Adobe Stock Integrat
 1. Klicka på **[!UICONTROL Confirm]**.
 
    Sidan dirigeras om till medielagringen och den sparade förhandsvisningen visas.
-
-[access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
-[view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/se/stock/help/credit-packs.html
-[adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/se/manage-account/using/access-adobe-id-account.html

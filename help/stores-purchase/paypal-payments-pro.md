@@ -3,8 +3,8 @@ title: PayPal Payments Pro
 description: Lär dig hur du konfigurerar PayPal Payments Pro som en onlinebetalningslösning i din butik.
 exl-id: 9cc5c3a6-d471-4198-85a2-c4cf9dfd378b
 feature: Payments
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PayPal Payments Pro
 
-[PayPal Payments Pro][3] ger dig alla fördelar med ett handlarkonto och en betalningstjänst i ett paket, plus möjligheten att skapa en egen, helt anpassad utcheckningsupplevelse. PayPal Express Checkout aktiveras automatiskt med PayPal Payments Pro, så du kan utnyttja mer än 110 miljoner aktiva PayPal-användare.
+[PayPal Payments Pro](https://developer.paypal.com/docs/paypal-payments-pro/) ger dig alla fördelar med ett handlarkonto och en betalningstjänst i ett paket, plus möjligheten att skapa en egen, helt anpassad utcheckningsupplevelse. PayPal Express Checkout aktiveras automatiskt med PayPal Payments Pro, så du kan utnyttja mer än 110 miljoner aktiva PayPal-användare.
 
 ![PayPal Payments Pro visas i minikorgen](./assets/storefront-mini-cart-payments-pro-racer-tank.png){width="700" zoomable="yes"}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## Krav
 
-- [PayPal Merchant-konto][1] (med direktbetalningar aktiverade)
+- [PayPal Merchant-konto](https://www.paypal.com/webapps/mpp/how-to-sell-online) (med direktbetalningar aktiverade)
 
 ## Arbetsflöde för kassor
 
@@ -71,7 +71,7 @@ Innan du konfigurerar PayPal Payments Pro i Commerce måste du konfigurera ditt 
 
 1. Välj **[!UICONTROL Service Settings]** på PayPal Manager-menyn.
 
-1. Klicka på **[!UICONTROL Set Up]** under **[!UICONTROL Hosted Checkout Pages]**.
+1. Klicka på **[!UICONTROL Hosted Checkout Pages]** under **[!UICONTROL Set Up]**.
 
 1. Under **[!UICONTROL Choose your settings]** anger du **[!UICONTROL Transaction Process Mode]** till `Live`.
 
@@ -89,7 +89,7 @@ Innan du konfigurerar PayPal Payments Pro i Commerce måste du konfigurera ditt 
 
 1. Klicka på **[!UICONTROL Save Changes]**.
 
-1. Välj **[!UICONTROL Service Settings]** på menyn _PayPal Manager_ och välj **[!UICONTROL Customize]** under _Hosted Checkout Pages_.
+1. Välj _på menyn_ PayPal Manager **[!UICONTROL Service Settings]** och välj _under_ Hosted Checkout Pages **[!UICONTROL Customize]**.
 
 1. Välj **[!UICONTROL Layout C]**.
 
@@ -97,7 +97,7 @@ Innan du konfigurerar PayPal Payments Pro i Commerce måste du konfigurera ditt 
 
 1. Klicka på **[!UICONTROL Save and Publish]**.
 
-1. Välj **[!UICONTROL Account Administration]** på PayPal Manager-menyn. Klicka på **[!UICONTROL Transaction Settings]** under **[!UICONTROL Manage Security]**.
+1. Välj **[!UICONTROL Account Administration]** på PayPal Manager-menyn. Klicka på **[!UICONTROL Manage Security]** under **[!UICONTROL Transaction Settings]**.
 
 1. Ange **[!UICONTROL Allow reference transactions]** till `Yes`.
 
@@ -136,13 +136,13 @@ Innan du konfigurerar PayPal Payments Pro i Commerce måste du konfigurera ditt 
 
 ### Steg 1: Påbörja konfigurationen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
 1. Om din Commerce-installation har flera webbplatser, butiker eller vyer anger du **[!UICONTROL Store View]** i butiksvyn där du vill använda den här konfigurationen.
 
-1. I avsnittet _[!UICONTROL Merchant Location]_&#x200B;väljer du **[!UICONTROL Merchant Country]**&#x200B;där ditt företag finns.
+1. I avsnittet _[!UICONTROL Merchant Location]_väljer du **[!UICONTROL Merchant Country]**där ditt företag finns.
 
    Den här inställningen bestämmer valet av PayPal-lösningar som visas i konfigurationen.
 
@@ -176,7 +176,7 @@ Innan du konfigurerar PayPal Payments Pro i Commerce måste du konfigurera ditt 
 
 1. Om du vill köra testtransaktioner anger du **[!UICONTROL Test Mode]** till `Yes`.
 
-   När du testar konfigurationen i en sandlåda ska du bara använda [kreditkortsnummer][2] som rekommenderas av PayPal. När du är redo att börja producera återgår du till konfigurationen och ställer in testläget på `No`.
+   När du testar konfigurationen i en sandlåda ska du bara använda [kreditkortsnummer](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) som rekommenderas av PayPal. När du är redo att börja producera återgår du till konfigurationen och ställer in testläget på `No`.
 
 1. Om systemet använder en proxyserver för att upprätta anslutningen till PayPal-systemet anger du **[!UICONTROL Use Proxy]** till `Yes` och gör följande:
 
@@ -423,7 +423,7 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
 
 #### Frontend Experience Settings
 
-Använd _[!UICONTROL Frontend Experience Settings]_&#x200B;för att välja vilka PayPal-logotyper som ska visas på din webbplats och för att anpassa utseendet på PayPal-handlarsidorna.
+Använd _[!UICONTROL Frontend Experience Settings]_för att välja vilka PayPal-logotyper som ska visas på din webbplats och för att anpassa utseendet på PayPal-handlarsidorna.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Frontend Experience Settings]**.
 
@@ -478,7 +478,7 @@ Använd _[!UICONTROL Frontend Experience Settings]_&#x200B;för att välja vilka
    - `Authorization` - Godkänner köpet och spärrar pengarna. Beloppet dras inte tillbaka förrän det _har hämtats_ av handlaren.
    - `Sale` - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto.
 
-1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_&#x200B;på produktsidan anger du **[!UICONTROL Display on Product Details Page]**&#x200B;till `Yes`.
+1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_på produktsidan anger du **[!UICONTROL Display on Product Details Page]**till `Yes`.
 
 ### Steg 7: Slutför de avancerade inställningarna för PayPal Express Checkout
 
@@ -506,7 +506,3 @@ Använd _[!UICONTROL Frontend Experience Settings]_&#x200B;för att välja vilka
 1. Om du vill att kunden ska kunna slutföra transaktionen från PayPal-webbplatsen utan att gå tillbaka till din butik för ordergranskning anger du **[!UICONTROL Skip Order Review Step]** till `Yes`.
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[3]: https://developer.paypal.com/docs/paypal-payments-pro/

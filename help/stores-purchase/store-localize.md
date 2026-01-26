@@ -3,7 +3,7 @@ title: Lagringsplats
 description: Lär dig hur du lokaliserar en butik eller butiksvy.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 Den mesta texten som verkar vara hårdkodad på sidor i butiken kan omedelbart ändras till ett annat språk genom att vyns språkområde ändras. När du ändrar språkområdet översätts inte ordet för ord, utan bara en annan översättningstabell som innehåller gränssnittstexten som används i hela butiken. Den text som kan ändras är navigeringsrubriker, etiketter, knappar och länkar som _Min kundvagn_ och _Mitt konto_. Du kan också använda verktyget [Textbunden översättning](../configuration-reference/advanced/developer.md) för att redigera text i gränssnittet.
 
-Språkpaket finns under [Översättningar och lokalisering][1]{:target="_blank"} på Commerce Marketplace. Nya tillägg läggs kontinuerligt till på Marketplace, så kom tillbaka ofta.
+Språkpaket finns under [Översättningar och lokalisering](https://marketplace.magento.com/extensions/content-customizations/translations-localization.html){:target="_blank"} på Commerce Marketplace. Nya tillägg läggs kontinuerligt till på Marketplace, så kom tillbaka ofta.
 
 ## Steg 1: Installera ett språkpaket
 
-Följ standardinstruktionerna för att installera språkpakettillägget. Mer information om hur du installerar ett tillägg finns i [Allmän CLI-installation][2] i _Tilläggsguiden_.
+Följ standardinstruktionerna för att installera språkpakettillägget. Mer information om hur du installerar ett tillägg finns i [Allmän CLI-installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) i _Tilläggsguiden_.
 
 ## Steg 2: Skapa en butiksvy för språket
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL All Stores]**.
 
 1. Klicka på **[!UICONTROL Create Store View]**.
 
@@ -44,11 +44,11 @@ Följ standardinstruktionerna för att installera språkpakettillägget. Mer inf
 
 ## Steg 3: Ändra språkinställningen för butiksvyn
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. I listrutan **[!UICONTROL Scope]** väljer du den butiksvy som ska konfigureras och klickar på **[!UICONTROL OK]** när du uppmanas till detta.
 
-1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Locale Options]** på konfigurationssidan *[!UICONTROL General]*.
+1. Expandera *[!UICONTROL General]* Expansionsväljaren![ i avsnittet ](../assets/icon-display-expand.png) på konfigurationssidan **[!UICONTROL Locale Options]**.
 
 1. Avmarkera kryssrutan **[!UICONTROL Use Website]** och ställ in **[!UICONTROL Locale]** på det språk som du vill tilldela vyn.
 
@@ -64,7 +64,7 @@ Om din butik har flera vyer på olika språk är samma produkter tillgängliga i
 
 ### Steg 1: Översätt produktfält
 
-1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
 1. Leta reda på produkten som ska översättas i rutnätet och öppna den i redigeringsläge.
 
@@ -82,13 +82,13 @@ Om din butik har flera vyer på olika språk är samma produkter tillgängliga i
 
 ### Steg 2: Översätt fältetiketter
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Product]**.
 
 1. I listan hittar du attributet som ska översättas och öppnas i redigeringsläge.
 
 1. Välj **[!UICONTROL Manage Labels]** på den vänstra panelen.
 
-1. I avsnittet _[!UICONTROL Manage Titles]_&#x200B;anger du en översatt etikett för varje butiksvy.
+1. I avsnittet _[!UICONTROL Manage Titles]_anger du en översatt etikett för varje butiksvy.
 
    ![Ange översatta etiketter](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -96,7 +96,7 @@ Om din butik har flera vyer på olika språk är samma produkter tillgängliga i
 
 ### Steg 3: Översätt alla kategorier
 
-1. Gå till **[!UICONTROL Catalog]** > **Kategorier** på sidofältet _Admin_.
+1. Gå till _>_ Kategorier **[!UICONTROL Catalog]** på sidofältet **Admin**.
 
 1. I det övre vänstra hörnet anger du **[!UICONTROL Store View]** till vyn för översättningen och klickar på **[!UICONTROL OK]** när du uppmanas att bekräfta.
 
@@ -104,7 +104,7 @@ Om din butik har flera vyer på olika språk är samma produkter tillgängliga i
 
 1. För _grundläggande information_, översätt **[!UICONTROL Category Name]**.
 
-1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Content]_&#x200B;och översätt **[!UICONTROL Description]**.
+1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet _[!UICONTROL Content]_och översätt **[!UICONTROL Description]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Search Engine Optimization Settings]** och översätt följande fält:
 
@@ -112,7 +112,7 @@ Om din butik har flera vyer på olika språk är samma produkter tillgängliga i
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. Gör följande under avsnittet _[!UICONTROL Search Engine Optimization Settings]_&#x200B;för att översätta **[!UICONTROL URL Key]**:
+1. Gör följande under avsnittet _[!UICONTROL Search Engine Optimization Settings]_för att översätta **[!UICONTROL URL Key]**:
 
    - Avmarkera kryssrutan **[!UICONTROL Use Default Value]** till höger om fältet.
 
@@ -128,7 +128,7 @@ Om din butik har flera vyer på olika språk är samma produkter tillgängliga i
 
 ### Steg 4: Översätt produktattribut och attributalternativ
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Product]**.
 
 1. Välj det attribut som ska översättas.
 
@@ -139,7 +139,3 @@ Om din butik har flera vyer på olika språk är samma produkter tillgängliga i
    ![Hantera alternativ](./assets/manage-option-tab.png){width="600" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Save Attribute]** när du är klar.
-
-
-[1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=sv-SE

@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Granska konfigurationsinställningarna på sidan [!UICONTROL General] &gt; [!UICONTROL Web] i Commerce Admin.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,12 +18,12 @@ ht-degree: 0%
 
 ![Webb > Allmänna alternativ](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Fält | Omfång | Beskrivning |
 |  ---  |  ---  |  ---  |
 | [!UICONTROL Add Store Code to URLs] | Global | Om Rewrites för webbserver är aktiverat infogar Store-koden för den aktuella vyn i URL:en. Alternativ: `Yes` / `No`. <br />När det här fältet är inställt på `Yes` måste du inkludera butikskoder i webbläsarens URL:er för att säkerställa att URL-omskrivningar mappas korrekt och att alla sidor öppnas korrekt. På så sätt undviker du _404 Sidan som inte hittades_-fel. |
-| [!UICONTROL Auto-redirect to Base URL] | Butiksvy | (För inställningar för en enskild butik) Om det finns en bruten länk på din webbplats dirigerar om trafiken till bas-URL:en i stället för till en sida med meddelandet&quot;Hittar inte 404 sida&quot;. Alternativ:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_Viktigt:_**&#x200B;Använd inte automatisk omdirigering till bas-URL för inställningar för flera lager. |
+| [!UICONTROL Auto-redirect to Base URL] | Butiksvy | (För inställningar för en enskild butik) Om det finns en bruten länk på din webbplats dirigerar om trafiken till bas-URL:en i stället för till en sida med meddelandet&quot;Hittar inte 404 sida&quot;. Alternativ:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_Important:_** Använd inte automatisk omdirigering till bas-URL för inställningar för flera lager. |
 | [!UICONTROL Catalog media URL format] | Global | Definierar det [URL-format](../../catalog/catalog-urls.md) som tilldelats produkter och kategorier. Alternativ: Unik hash per bildvariant (äldre läge) definierar det konverterade filnamnet som ett unikt hash-värde. Bildoptimering baserad på frågeparametrar definierar processen [bildoptimering](../../content-design/media-gallery-image-optimization.md) beroende på frågeparametrar. |
 
 {style="table-layout:auto"}
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![Webb > Sökmotoroptimering](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![Webb > Bas-URL:er](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![Webb > Bas-URL:er (säker)](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -69,7 +69,7 @@ ht-degree: 0%
 | [!UICONTROL Secure Base URL for User Media Files] | Butiksvy | En sökväg som pekar på platsen för katalogbilder och andra mediefiler. Filerna kan finnas på en osäker eller säker kanal. En platshållare används för att representera bas-URL. Om din Commerce-installation har flera platser med samma mappstruktur kan du ha olika mediamappar för var och en av dem. Detta ger dig möjlighet att säkerhetskopiera och återställa varje mediemapp separat. Du kan även ange en mediemapp utanför Commerce-installationen. |
 | [!UICONTROL Use Secure URLs on Storefront] | Butiksvy | Om din domän har ett säkerhetscertifikat kan du välja att köra butiken med eller utan SSL-kryptering. Alternativ:<br />**`Yes`**- Lagra URL:er börjar med `https` för att ange att sidan levereras med krypterat, säkert protokoll.<br />**`No`** - Lagra URL:er börjar med `http` för att ange att sidan levereras utan säkert protokoll. |
 | [!UICONTROL Use Secure URLs in Admin] | Global | Om din domän har ett säkerhetscertifikat kan du välja att köra arkivadministratören, med eller utan SSL-kryptering. Alternativ: <br />**`Yes`**- Admin-URL:er börjar med `https` för att ange att sidan levereras med krypterat, säkert protokoll.<br />**`No`** - Admin-URL:er börjar med `http` för att ange att sidan levereras utan säkert protokoll.<br /> När säkra URL:er har aktiverats för både arkivet och administratören visas ytterligare två fält för att aktivera och konfigurera `HSTS`. |
-| [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | Butiksvy | När det här alternativet är aktiverat tillhandahåller [`HSTS`][1] ett mått på säkerhet mot attacker av typen&quot;man in the middle&quot; och förhindrar att användare åsidosätter meddelandet om&quot;ogiltigt certifikat&quot;. Alternativ: `Yes` / `No` |
+| [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | Butiksvy | När det här alternativet är aktiverat tillhandahåller [`HSTS`](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) ett mått på säkerhet mot attacker av typen&quot;man in the middle&quot; och förhindrar användare att åsidosätta meddelandet om&quot;ogiltigt certifikat&quot;. Alternativ: `Yes` / `No` |
 | [!UICONTROL Upgrade Insecure Requests] | Butiksvy | När det här alternativet är aktiverat konverteras osäkra (`HTTP`) begäranden som tas emot från webbläsaren till det säkra (`HTTPS`) protokollet. Alternativ: `Yes` / `No` |
 | [!UICONTROL Offloader Header] | Global | Anger värdet `offloader_header` i serverkonfigurationen för att identifiera protokollet mellan klienten och belastningsutjämnaren. De flesta Commerce-installationer använder standardvärdet `X-Forwarded-Proto` (XFP) för att identifiera protokollet som antingen `HTTP` eller `HTTPS`. |
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 ![Webb > Standardsidor](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ![Standardlayouter](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://experienceleague.adobe.com/sv/docs/commerce-admin/content-design/design/layout/page-layout) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Webb > Standardinställningar för cookie](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![Webb > Sessionsvalidering](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ![Webb > Identifiering av webbläsarfunktioner](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | Fält | [Omfång](../../getting-started/websites-stores-views.md#scope-settings) | Beskrivning |
 |--- |--- |--- |
@@ -150,5 +150,3 @@ ht-degree: 0%
 | [!UICONTROL Show Notice if Local Storage is Disabled] | Butiksvy | Visar ett meddelande om den lokala cachen är inaktiverad. Alternativ: `Yes` / `No` |
 
 {style="table-layout:auto"}
-
-[1]: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html

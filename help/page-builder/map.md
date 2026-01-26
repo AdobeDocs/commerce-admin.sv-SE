@@ -3,18 +3,18 @@ title: Media - Karta
 description: Lär dig mer om innehållstypen för kartan, som används för att lägga till en karta från  [!DNL Google Maps] Plattform på  [!DNL Page Builder] scenen.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
 
 # Media - Karta
 
-Använd innehållstypen _Karta_ om du vill lägga till en karta från [[!DNL Google Maps] Plattform][1] på [[!DNL Page Builder] scenen](workspace.md#stage). Du kan till exempel lägga till en karta till ett block och sedan lägga till blocket på sidorna [Om oss](../content-design/pages.md#about-us) och [Kontakta oss](../getting-started/store-details.md#contact-us-form).
+Använd innehållstypen _Karta_ om du vill lägga till en karta från [[!DNL Google Maps] Plattform](https://cloud.google.com/maps-platform/) på [[!DNL Page Builder] scenen](workspace.md#stage). Du kan till exempel lägga till en karta till ett block och sedan lägga till blocket på sidorna [Om oss](../content-design/pages.md#about-us) och [Kontakta oss](../getting-started/store-details.md#contact-us-form).
 
-Om du vill få ut det mesta av [!DNL Google Maps]-plattformen kan du anpassa kartan, markera dina butiksplatser och använda Google [Platser][2] för att lägga till omfattande information om din butik i alla [!DNL Google Maps] .
+Om du vill få ut det mesta av [!DNL Google Maps]-plattformen kan du anpassa kartan, markera dina butiksplatser och använda Google [Platser](https://cloud.google.com/maps-platform/places/) för att lägga till omfattande information om din butik i alla [!DNL Google Maps] .
 
 ## Fördelar med att bädda in en Google-karta
 
@@ -50,7 +50,7 @@ Kartverktygslådan visas när du hovrar över kartbehållaren.
 
 ## Konfigurera [!DNL Google Maps] för din administratör
 
-Innan du lägger till en karta måste du först öppna ett [konto][3] för en kostnadsfri testversion av [!DNL Google Maps] Platform. Den kostnadsfria provperioden varar i 12 månader och inkluderar en kredit på 300 dollar. Om du använder din kredit debiterar Google inte ditt konto utan ditt tillstånd.
+Innan du lägger till en karta måste du först öppna ett [konto](https://cloud.google.com/maps-platform/user-guide/) för en kostnadsfri testversion av [!DNL Google Maps] Platform. Den kostnadsfria provperioden varar i 12 månader och inkluderar en kredit på 300 dollar. Om du använder din kredit debiterar Google inte ditt konto utan ditt tillstånd.
 
 ### Steg 1: Hämta [!DNL Google Maps] API-nyckeln
 
@@ -60,15 +60,15 @@ Beroende på om du redan har en [!DNL Google Maps]-nyckel kan du använda någon
 
 1. Klicka på listrutan för projektet och välj eller skapa det projekt som du vill lägga till en API-nyckel för.
 
-1. Om du vill konfigurera dina API-autentiseringsuppgifter följer du [instruktionerna][4] i [!DNL Google Maps] -dokumentationen.
+1. Om du vill konfigurera dina API-autentiseringsuppgifter följer du [instruktionerna](https://developers.google.com/maps/documentation/javascript/get-api-key) i [!DNL Google Maps] -dokumentationen.
 
 1. Kopiera API-nyckeln till Urklipp.
 
 ### Steg 2: Konfigurera [!DNL Google Maps] i [!DNL Commerce]
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj _[!UICONTROL General]_&#x200B;i den vänstra panelen under **[!UICONTROL Content Management]**.
+1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Content Management]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
@@ -98,13 +98,13 @@ Beroende på om du redan har en [!DNL Google Maps]-nyckel kan du använda någon
 
    Om [!DNL Google Maps]-plattformen ännu inte har konfigurerats för din butik visas en platshållarkarta i stället.
 
-   ![[!DNL Google Maps] Platshållare &#x200B;](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
+   ![[!DNL Google Maps] Platshållare ](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
 ## Lägg till en anpassad mappningsplats
 
 1. Håll pekaren över kartbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ ( ![Inställningsikonen](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Klicka på _[!UICONTROL Edit Map]_&#x200B;i det övre högra hörnet på sidan **[!UICONTROL Add Location]**.
+1. Klicka på _[!UICONTROL Edit Map]_i det övre högra hörnet på sidan **[!UICONTROL Add Location]**.
 
 1. Ange **[!UICONTROL Location Name]** som du vill ska kopplas till stiftet på kartan.
 
@@ -112,7 +112,7 @@ Beroende på om du redan har en [!DNL Google Maps]-nyckel kan du använda någon
 
    I rutan **[!UICONTROL Position]** kan du också dra stiftet på den visade kartan.
 
-   Om det behövs går du till [[!DNL Google Maps]][5] i ett nytt webbläsarfönster och använder någon av följande metoder för att hämta koordinaterna:
+   Om det behövs går du till [[!DNL Google Maps]](https://www.google.com/maps) i ett nytt webbläsarfönster och använder någon av följande metoder för att hämta koordinaterna:
 
    ![Mappningskoordinater](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
@@ -150,7 +150,7 @@ Beroende på om du redan har en [!DNL Google Maps]-nyckel kan du använda någon
 
    Den nya platsen visas på kartan och i kartpositionens rutnät på sidan _[!UICONTROL Edit Map]_.
 
-   ![[!DNL Page Builder] - mappar platsens rutnät &#x200B;](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] - mappar platsens rutnät ](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
 ## Formatera kartan {#styling}
 
@@ -158,15 +158,15 @@ Använd guiden [!DNL Google Maps] för plattformsformat för att tillämpa ett a
 
 ### Ändra kartformatet
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj _[!UICONTROL General]_&#x200B;i den vänstra panelen under **[!UICONTROL Content Management]**.
+1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Content Management]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-1. Klicka på **[!UICONTROL Google Maps Style]** Skapa kartformat[ i textrutan ][6].
+1. Klicka på **[!UICONTROL Google Maps Style]** Skapa kartformat[ i textrutan ](https://mapstyle.withgoogle.com/).
 
-   Den här åtgärden öppnar guiden [[!DNL Google Maps] Plattformsformat][6] på en separat flik, där du kan definiera en stil för [!DNL Google Maps]-plattformsprojektet.
+   Den här åtgärden öppnar guiden [[!DNL Google Maps] Plattformsformat](https://mapstyle.withgoogle.com/) på en separat flik, där du kan definiera en stil för [!DNL Google Maps]-plattformsprojektet.
 
 1. Klicka på **[!UICONTROL Create a Style]** och följ instruktionerna.
 
@@ -197,7 +197,7 @@ Använd guiden [!DNL Google Maps] för plattformsformat för att tillämpa ett a
 
    {style="table-layout:auto"}
 
-1. Ändra inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov:
+1. Ändra inställningarna för _[!UICONTROL Advanced]_efter behov:
 
    - Om du vill styra den vågräta placeringen av kartinnehållet som har lagts till i behållaren väljer du en **[!UICONTROL Alignment]**:
 
@@ -264,9 +264,9 @@ Använd guiden [!DNL Google Maps] för plattformsformat för att tillämpa ett a
 
 Stödrasterstorleken avgör storleken på kartan som hör till en [kolumn](column.md) på scenen [!DNL Page Builder]. Som standard är kartan 12 kolumner bred, med högst 16 kolumner.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj _[!UICONTROL General]_&#x200B;i den vänstra panelen under **[!UICONTROL Content Management]**.
+1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Content Management]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
@@ -284,11 +284,5 @@ Stödrasterstorleken avgör storleken på kartan som hör till en [kolumn](colum
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://cloud.google.com/maps-platform/places/
-[3]: https://cloud.google.com/maps-platform/user-guide/
-[4]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[5]: https://www.google.com/maps
-[6]: https://mapstyle.withgoogle.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

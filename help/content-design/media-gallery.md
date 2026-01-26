@@ -3,8 +3,8 @@ title: ' [!DNL Media Gallery]'
 description: Använd Mediegalleriet för att ordna och hantera dina mediefiler på servern.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # [!DNL Media Gallery]
 
-Med Adobe Commerce eller Magento Open Source 2.4 kan handlare använda den nya _förbättrade_ [!DNL Media Gallery] för att ordna och hantera sina mediefiler på servern. Den nya [!DNL Media Gallery] innehåller samma funktioner som den befintliga medielagringen, men innehåller ett förbättrat användargränssnitt och en närmare integrering med [Adobe Stock][adobe-stock].
+Med Adobe Commerce eller Magento Open Source 2.4 kan handlare använda den nya _förbättrade_ [!DNL Media Gallery] för att ordna och hantera sina mediefiler på servern. Den nya [!DNL Media Gallery] innehåller samma funktioner som den befintliga medielagringen, men innehåller ett förbättrat användargränssnitt och en närmare integrering med [Adobe Stock](https://stock.adobe.com).
 
 ![Bilder som visas i stödrastret för mediegalleriet](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->Produktbilder som lagts till i [_[!UICONTROL Images and Videos]_-produktavsnittet &#x200B;](../catalog/product-image.md#upload-an-image) hanteras inte av [!DNL Media Gallery]. Endast bilder som används i produktavsnittsfälten för&#x200B;_[!UICONTROL Content]_ visas och filtreras i den nya [!DNL Media Gallery].
+>Produktbilder som lagts till i [_[!UICONTROL Images and Videos]_-produktavsnittet ](../catalog/product-image.md#upload-an-image) hanteras inte av [!DNL Media Gallery]. Endast bilder som används i produktavsnittsfälten för_[!UICONTROL Content]_ visas och filtreras i den nya [!DNL Media Gallery].
 
 ## Aktivera nya [!DNL Media Gallery]
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
@@ -37,11 +37,11 @@ Med Adobe Commerce eller Magento Open Source 2.4 kan handlare använda den nya _
 
 1. När du uppmanas till det klickar du på länken **[!UICONTROL Cache Management]** i systemmeddelandet och uppdaterar den ogiltiga cachen.
 
-   [[!UICONTROL Content]-menyn &#x200B;](/help/content-design/content-menu.md) visar nu det nya _[!UICONTROL Media Gallery]_-alternativet.
+   [[!UICONTROL Content]-menyn ](/help/content-design/content-menu.md) visar nu det nya _[!UICONTROL Media Gallery]_-alternativet.
 
 >[!NOTE]
 >
->Fullständig funktionalitet för nya [!DNL Media Gallery] kräver att `media.gallery.synchronization`- och `media.content.synchronization`-kökonsumenter startas för inledande synkronisering. Mer information finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=sv-SE) i _Konfigurationshandboken_.
+>Fullständig funktionalitet för nya [!DNL Media Gallery] kräver att `media.gallery.synchronization`- och `media.content.synchronization`-kökonsumenter startas för inledande synkronisering. Mer information finns i [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandboken_.
 
 ## Åtkomst till nya [!DNL Media Gallery]
 
@@ -49,15 +49,15 @@ Den nya [!DNL Media Gallery] är tillgänglig på menyn Innehåll eller när du 
 
 Så här kommer du åt den nya [!UICONTROL Media Gallery] via menyn [!UICONTROL Content]:
 
-- Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+- Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 Så här kommer du åt det nya mediegalleriet när du lägger till eller redigerar en sida:
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
 
 1. Klicka på **[!UICONTROL Add a New Page]**.
 
-   Om du vill redigera en befintlig sida kan du använda kolumnen _[!UICONTROL Action]_&#x200B;för att klicka på&#x200B;**[!UICONTROL Select]**&#x200B;och välja **[!UICONTROL Edit]**.
+   Om du vill redigera en befintlig sida kan du använda kolumnen _[!UICONTROL Action]_för att klicka på&#x200B;**[!UICONTROL Select]**och välja **[!UICONTROL Edit]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Content]** och gör följande:
 
@@ -72,6 +72,3 @@ Så här kommer du åt det nya mediegalleriet när du lägger till eller rediger
 Titta på den här videon om du vill veta mer om [!DNL Media Gallery]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
-
-[adobe-stock]: https://stock.adobe.com
-

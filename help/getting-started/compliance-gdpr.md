@@ -3,9 +3,9 @@ title: GDPR-efterlevnad
 description: Läs om den allmänna dataskyddsförordningen (GDPR), som är en lagstiftning som reglerar dataskydd och sekretess för alla enskilda personer i EU och EES.
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Denna information är en del av ett antal ämnen som hjälper handlarna och utvecklarna i Adobe Commerce och Magento Open Source att förstå konsekvenserna av den allmänna dataskyddsförordningen (GDPR). Uppgifterna är endast avsedda som information och bör inte tolkas som juridisk rådgivning. Om du vill ta reda på om och hur ditt företag ska uppfylla några juridiska skyldigheter kontaktar du ditt juridiska ombud.
+>Denna information ingår i en rad ämnen som hjälper handlare och utvecklare i Adobe Commerce och Magento Open Source att förstå konsekvenserna av den allmänna dataskyddsförordningen (GDPR). Uppgifterna är endast avsedda som information och bör inte tolkas som juridisk rådgivning. Om du vill ta reda på om och hur ditt företag ska uppfylla några juridiska skyldigheter kontaktar du ditt juridiska ombud.
 
 Den allmänna dataskyddsförordningen (GDPR) är lagstiftning som reglerar dataskydd och sekretess för alla enskilda personer i Europeiska unionen och Europeiska ekonomiska samarbetsområdet. Lagstiftningen gäller också för export av personuppgifter utanför EU. GDPR antogs i april 2016 och blev verkställbart den 25 maj 2018. Företag som inte är baserade i EU men som bedriver global handel måste följa förordningen. GDPA definierar **personuppgifter** enligt följande:
 
@@ -37,7 +37,7 @@ Om ditt företag måste följa både GDPR och [California Consumer Privacy Act (
 - CCPA har ytterligare krav på datalager och datamappning.
 - Reglerna har olika krav på integritetspolicy.
 
-Företag som följer GDPR kan ha ytterligare skyldigheter enligt CCPA. Mer information finns i [faktablad för CCPA][3]{:target=&quot;_blank&quot;}.
+Företag som följer GDPR kan ha ytterligare skyldigheter enligt CCPA. Mer information finns i [faktablad för CCPA](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ## God praxis
 
@@ -47,10 +47,6 @@ Företag som följer GDPR kan ha ytterligare skyldigheter enligt CCPA. Mer infor
 
 - Bevara genomskinlighet och ha grundlig dokumentation.
 
-- Om du vill veta hur Adobe kan hjälpa handlare att uppfylla gällande juridiska skyldigheter kan du besöka [webbplatsen][1]{:target=&quot;_blank&quot;}.
+- Om du vill veta hur Adobe kan hjälpa handlare att uppfylla gällande juridiska skyldigheter kan du gå till [webbplatsen](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Information om dataflödesdiagram och mappning av databasentiteter finns i [Personlig informationsreferens][2]{: target=&quot;_blank&quot;}.
-
-[1]: https://business.adobe.com/se/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=sv-SE
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
+- Information om dataflödesdiagram och mappning av databasentiteter finns i [Personlig informationsreferens](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.

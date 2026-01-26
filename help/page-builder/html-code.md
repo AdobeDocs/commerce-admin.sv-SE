@@ -3,9 +3,9 @@ title: Elements - HTML Code
 description: Lär dig mer om HTML Code-innehållstypen som används för att lägga till kodfragment av HTML-, CSS- och JavaScript-kod på  [!DNL Page Builder] scenen.
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Använd innehållstypen _HTML Code_ för att lägga till kodfragment av HTML-, C
 
 ## Lägg till HTML-kod
 
-I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar anpassade rubrikklasser som åsidosätter den aktuella formatmallen.
+I följande exempel visas hur du bäddar in [Google Font](https://fonts.google.com/)-kod och deklarerar anpassade rubrikklasser som åsidosätter den aktuella formatmallen.
 
 ### Steg 1: Välj ett Google-teckensnitt
 
-1. Gå till webbplatsen [Google Fonts][1] och välj den teckensnittsfamilj som du vill använda.
+1. Gå till webbplatsen [Google Fonts](https://fonts.google.com/) och välj den teckensnittsfamilj som du vill använda.
 
 1. Kopiera den genererade koden som ska bäddas in i avsnittet `<head>` på sidan och klistra in den tillfälligt i en textredigerare.
 
@@ -56,7 +56,7 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
 
 ### Steg 2: Lägg till koden på sidan
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_&#x200B;Admin **[!UICONTROL Pages]**&#x200B;i din butik.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**i din butik.
 
 1. Hitta sidan där teckensnittet ska vara tillgängligt och öppna den i redigeringsläge.
 
@@ -84,7 +84,7 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
 
 ### Steg 3: Förhandsgranska sidan
 
-1. I avsnittet _[!UICONTROL Currently Active]_&#x200B;anger du **[!UICONTROL Enable Page]**&#x200B;till `Yes`.
+1. I avsnittet _[!UICONTROL Currently Active]_anger du **[!UICONTROL Enable Page]**till `Yes`.
 
    ![Aktivera sidan](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
    | Infoga bild... | Klicka för att infoga en överförd bild eller en bild från galleriet vid markörens position i textrutan HTML. |
    | Infoga variabel... | Klicka för att infoga en variabel vid markörens position i textrutan HTML. |
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
 
    - Om du vill styra placeringen av koden i den överordnade behållaren väljer du en **[!UICONTROL Alignment]**:
 
@@ -163,6 +163,5 @@ I följande exempel visas hur du bäddar in [Google Font][1]-kod och deklarerar 
      | [!UICONTROL Margins] | Mängden tomt utrymme som används på ytterkanten på behållarens alla sidor. Alternativ: `Top` / `Right` / `Bottom` / `Left` |
      | [!UICONTROL Padding] | Mängden tomt utrymme som används på behållarens inre kant på alla sidor. Alternativ: `Top` / `Right` / `Bottom` / `Left` |
 
-[1]: https://fonts.google.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

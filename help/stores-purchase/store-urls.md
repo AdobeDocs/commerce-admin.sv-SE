@@ -3,8 +3,8 @@ title: Lagra URL:er
 description: Lär dig mer om butiks-URL:er och hur du konfigurerar bas-URL:en och lagringskoderna.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 0%
@@ -27,17 +27,17 @@ Varje webbplats i en Adobe Commerce- eller Magento Open Source-installation har 
 
 Bas-URL:erna för din butik konfigurerades ursprungligen under Adobe Commerce-installationen. Om ett säkerhetscertifikat var tillgängligt vid den tidpunkten kan du ange att `HTTPS` URL:er ska användas för arkivet, administratören eller båda. Om din Adobe Commerce-installation innehåller flera butiker eller du planerar att lägga till fler butiker senare, kan du inkludera butikskoden i URL:en. Alla Adobe-resurser och -åtgärder kan användas med säkra protokoll.
 
-Om det inte fanns något säkerhetscertifikat tillgängligt för domänen vid tidpunkten för installationen måste du uppdatera konfigurationen innan du startar arkivet. När ett säkerhetscertifikat har skapats för din domän kan du konfigurera en eller båda bas-URL:erna så att de fungerar med SSL- (Secure Sockets Layer) och TLS-protokoll ([Transport Layer Security][1]).
+Om det inte fanns något säkerhetscertifikat tillgängligt för domänen vid tidpunkten för installationen måste du uppdatera konfigurationen innan du startar arkivet. När ett säkerhetscertifikat har skapats för din domän kan du konfigurera en eller båda bas-URL:erna så att de fungerar med SSL- (Secure Sockets Layer) och TLS-protokoll ([Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
 
 >[!IMPORTANT]
 >
 >Adobe rekommenderar starkt att alla sidor på en produktionsplats, inklusive innehåll och produktsidor, skickas med ett säkert protokoll.
 
-Adobe Commerce och Magento Open Source kan konfigureras för att leverera alla sidor över `HTTPS` som standard. Om din butik har installerats med standardprotokoll kan du förbättra säkerheten genom att aktivera [HTTP Strict Transport Security][2] (HSTS) och uppgradera alla osäkra sidförfrågningar. HSTS är ett anmälningsprotokoll som förhindrar att webbläsare återger `HTTP` standardsidor som överförs med osäkert protokoll för den angivna domänen. Eftersom sökmotorer redan har indexerat varje sida i din butik med `HTTP` standardadresser, kan du konfigurera Commerce så att osäkra sidförfrågningar uppgraderas automatiskt till `HTTPS` så att du inte förlorar någon trafik. När Commerce har konfigurerats att använda säkra URL:er för både storefront och Admin visas ytterligare två fält där du kan aktivera `HSTS`.
+Adobe Commerce och Magento Open Source kan konfigureras för att leverera alla sidor över `HTTPS` som standard. Om din butik har installerats med standardprotokoll kan du förbättra säkerheten genom att aktivera [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) (HSTS) och uppgradera alla osäkra sidförfrågningar. HSTS är ett anmälningsprotokoll som förhindrar att webbläsare återger `HTTP` standardsidor som överförs med osäkert protokoll för den angivna domänen. Eftersom sökmotorer redan har indexerat varje sida i din butik med `HTTP` standardadresser, kan du konfigurera Commerce så att osäkra sidförfrågningar uppgraderas automatiskt till `HTTPS` så att du inte förlorar någon trafik. När Commerce har konfigurerats att använda säkra URL:er för både storefront och Admin visas ytterligare två fält där du kan aktivera `HSTS`.
 
 ## Konfigurera bas-URL:en
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Välj _under_ Allmänt **[!UICONTROL Web]** i den vänstra panelen.
 
@@ -51,11 +51,11 @@ Adobe Commerce och Magento Open Source kan konfigureras för att leverera alla s
 
    - **[!UICONTROL Base URL for Static View Files]** — (Valfritt) Ange en alternativ plats för bas-URL:en för statiska vyfiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{unsecure_base_url}&rbrace;
+     \{unsecure_base_url}}
 
    - **[!UICONTROL Base URL for User Media Files]** — (Valfritt) Ange en alternativ plats för bas-URL:en för användarmediefiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{unsecure_base_url}&rbrace;
+     \{unsecure_base_url}}
 
      För en vanlig installation finns det ingen anledning att uppdatera sökvägarna för statiska vyfiler eller mediefiler eftersom de är relativa till bas-URL:en.
 
@@ -81,11 +81,11 @@ Om din domän har ett giltigt säkerhetscertifikat kan du konfigurera URL:er fö
 
    - **[!UICONTROL Secure Base URL for Static View Files]** — (Valfritt) Ange en alternativ plats för den säkra bas-URL:en för statiska vyfiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{secure_base_url}&rbrace;
+     \{secure_base_url}}
 
    - **[!UICONTROL Secure Base URL for User Media Files]** — (Valfritt) Ange en alternativ plats för den säkra bas-URL:en för användarmediefiler genom att ange sökvägen som börjar med följande platshållare:
 
-     \{secure_base_url}&rbrace;
+     \{secure_base_url}}
 
 1. Om du vill förbättra säkerheten anger du `Yes` som båda av följande alternativ.
 
@@ -110,9 +110,9 @@ Om din domän har ett giltigt säkerhetscertifikat kan du konfigurera URL:er fö
 >
 >När alternativet _Lägg till butikskod i URL:er_ är inställt på `Yes` måste du inkludera butikskoder i URL:erna för webbläsaren. Den här inställningen säkerställer att URL-omskrivningar mappas korrekt och att alla sidor öppnas utan _&quot;404 Page Not found&quot;_ -fel.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj _[!UICONTROL General]_&#x200B;under **[!UICONTROL Web]**&#x200B;i den vänstra panelen.
+1. Välj _[!UICONTROL General]_under **[!UICONTROL Web]**i den vänstra panelen.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL URL Options]**.
 
@@ -138,7 +138,7 @@ Om vissa sidor fortfarande hanteras med den osäkra URL:en (`http://`) efter att
 
 ## Använd en anpassad Admin URL
 
-Adobe rekommenderar att du använder en unik administratörs-URL i stället för [admin](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=sv-SE) som standard eller en vanlig term som _backend_ som _bästa säkerhetspraxis_. Även om webbplatsen inte skyddas direkt från en bestämd skadad skådespelare kan den minska exponeringen för skript som försöker få obehörig åtkomst.
+Adobe rekommenderar att du använder en unik administratörs-URL i stället för [admin](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) som standard eller en vanlig term som _backend_ som _bästa säkerhetspraxis_. Även om webbplatsen inte skyddas direkt från en bestämd skadad skådespelare kan den minska exponeringen för skript som försöker få obehörig åtkomst.
 
 >[!NOTE]
 >
@@ -154,11 +154,11 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
 >[!NOTE]
 >
->Som en försiktighetsåtgärd bör du inte ändra Admin URL själv om du inte vet hur du redigerar konfigurationsfiler på servern. För Adobe Commerce-projekt som distribueras i molninfrastruktur ändrar du Admin-URL genom att följa [instruktionerna](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=sv-SE#admin-url) i *Adobe Commerce on Cloud Infrastructure Guide*.
+>Som en försiktighetsåtgärd bör du inte ändra Admin URL själv om du inte vet hur du redigerar konfigurationsfiler på servern. För Adobe Commerce-projekt som distribueras i molninfrastruktur ändrar du Admin-URL genom att följa [instruktionerna](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) i *Adobe Commerce on Cloud Infrastructure Guide*.
 
 ### Metod 1: Ändra från administratör
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL Admin]**.
 
@@ -200,7 +200,7 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
    >[!TIP]
    >
-   >För Adobe Commerce i molninfrastruktur kan du skapa en anpassad administratörssökväg med variabeln `ADMIN_URL` i molngränssnittet. Se avsnittet [Administratörsvariabler](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=sv-SE) i _Commerce on Cloud Infrastructure Guide_.
+   >För Adobe Commerce i molninfrastruktur kan du skapa en anpassad administratörssökväg med variabeln `ADMIN_URL` i molngränssnittet. Se avsnittet [Administratörsvariabler](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) i _Commerce on Cloud Infrastructure Guide_.
 
    - **Standardadministratörssökväg**
 
@@ -220,7 +220,7 @@ I en vanlig installation följer Admin-URL:en och sökvägen omedelbart bas-URL:
 
 1. Använd någon av följande metoder för att rensa cacheminnet:
 
-   - Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Tools]_&#x200B;Admin **[!UICONTROL Cache Management]**. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
+   - Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Tools]_Admin **[!UICONTROL Cache Management]**. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
    - Kör följande på servern:
 
      ```bash
@@ -259,13 +259,9 @@ Om du har angett en ogiltig Admin URL eller en Admin Path och inte längre komme
 
 1. Använd någon av följande metoder för att rensa cacheminnet:
 
-   - Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Tools]_&#x200B;Admin **[!UICONTROL Cache Management]**. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
+   - Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Tools]_Admin **[!UICONTROL Cache Management]**. Klicka sedan på&#x200B;**[!UICONTROL Flush Magento Cache]**.
    - Kör följande på servern:
 
      ```bash
      php bin/magento cache:flush
      ```
-
-
-[1]: https://en.wikipedia.org/wiki/Transport_Layer_Security
-[2]: https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security

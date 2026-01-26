@@ -3,9 +3,9 @@ title: Riktlinjer för efterlevnad av PCI
 description: Granska den här informationen om kraven för betalkortsbranschen (PCI) för företag som accepterar betalning med kreditkort via Internet.
 exl-id: b9fff131-bea3-4d7a-bbf7-e98b284387d3
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Betalkortsbranschen (PCI) har fastställt en uppsättning krav för företag som
 
 ![kryssruta](../assets/checkbox.png) - Använd inte standardvärden som tillhandahålls av leverantörer för systemlösenord och andra säkerhetsparametrar.
 
-![kryssruta](../assets/checkbox.png) - Protect lagrade cardholder-data.
+![kryssruta](../assets/checkbox.png) - Skydda lagrade kortinnehavardata.
 
 ![kryssruta](../assets/checkbox.png) - Kryptera överföring av kortinnehavardata över öppna, offentliga nätverk.
 
@@ -40,13 +40,10 @@ Betalkortsbranschen (PCI) har fastställt en uppsättning krav för företag som
 
 ![kryssruta](../assets/checkbox.png) - Behåll en profil som behandlar informationssäkerhet.
 
-Mer information finns i [Adobe-strategi för PCI-kompatibilitet][1]{:target=&quot;_blank&quot;}.
+Mer information finns i [Adobe metod för PCI-kompatibilitet](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >
 >Detta innehåll är endast avsett som information och ska inte tolkas som juridisk rådgivning. Om du vill ta reda på om och hur ditt företag ska uppfylla några juridiska skyldigheter kontaktar du ditt juridiska ombud.
 
-Efterhand som ert företag växer kan ni behöva lämna in en årlig rapport om regelefterlevnaden. Kraven på PCI-rapportering ökar i proportion till handlarnivån, men gäller inte för företag som bearbetar färre än 20 000 kreditkortstransaktioner per år. Mer information finns på webbplatsen [PCI Security Standards Council][2].
-
-[1]: https://business.adobe.com/se/products/magento/pci-compliance.html
-[2]: https://www.pcisecuritystandards.org/index.php
+Efterhand som ert företag växer kan ni behöva lämna in en årlig rapport om regelefterlevnaden. Kraven på PCI-rapportering ökar i proportion till handlarnivån, men gäller inte för företag som bearbetar färre än 20 000 kreditkortstransaktioner per år. Mer information finns på webbplatsen [PCI Security Standards Council](https://www.pcisecuritystandards.org/index.php).

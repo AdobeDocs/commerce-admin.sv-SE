@@ -3,7 +3,7 @@ title: Source algoritmer och reservationer
 description: Läs mer om Source Selection Algorithm and Reservations systems som körs i bakgrunden för att hålla dina säljbara kvantiteter uppdaterade.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2196'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Kärnan i [!DNL Inventory Management] spårar alla tillgängliga produkter prakt
 
 >[!NOTE]
 >
->Mer information om att arbeta med [-systemet med programkod finns i &#x200B;](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)utvecklardokumentationen[!DNL Inventory Management].
+>Mer information om att arbeta med [-systemet med programkod finns i ](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)utvecklardokumentationen[!DNL Inventory Management].
 
 ## Source Selection Algorithm
 
@@ -66,7 +66,7 @@ Algoritmen Avståndsprioritet jämför platsen för leveransdestinationsadressen
 
 Du har två alternativ för att beräkna avståndet och tiden för att hitta den närmaste källan för leverans:
 
-- **Google MAP** - Använder [Google Maps Platform][1]-tjänster för att beräkna avståndet och tiden mellan leveransdestinationsadressen och källplatserna (adress och GPS-koordinater). Det här alternativet använder källans latitud och longitud. En Google API-nyckel krävs med [API för geokodning][2] och [API:t för distansmatris][3] aktiverat. Det här alternativet kräver en Google-faktureringsplan och kan medföra avgifter via Google.
+- **Google MAP** - Använder [Google Maps Platform](https://cloud.google.com/maps-platform/)-tjänster för att beräkna avståndet och tiden mellan leveransdestinationsadressen och källplatserna (adress och GPS-koordinater). Det här alternativet använder källans latitud och longitud. En Google API-nyckel krävs med [API för geokodning](https://developers.google.com/maps/documentation/geocoding/start) och [API:t för distansmatris](https://developers.google.com/maps/documentation/distance-matrix/start) aktiverat. Det här alternativet kräver en Google-faktureringsplan och kan medföra avgifter via Google.
 
 - **Offlineberäkning** - Beräknar avståndet med nedladdade och importerade geokoddata för att fastställa närmaste källa till leveransens måladress. Det här alternativet använder landskoderna för leveransadressen och källan. Om du vill konfigurera det här alternativet kan du behöva utvecklarassistans för att initialt hämta och importera geokoder via en kommandorad.
 
@@ -82,7 +82,7 @@ I stället för att omedelbart dra av eller lägga till produktlagerkvantiteter 
 
 >[!NOTE]
 >
->[!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Reservationsfunktionen kräver att meddelandekökonsumenten `inventory.reservations.updateSalabilityStatus` körs kontinuerligt. Använd kommandot `bin/magento queue:consumers:list` om du vill kontrollera om det körs. Om meddelandekökonsumenten inte finns med i listan startar du den: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Reservationsfunktionen kräver att meddelandekökonsumenten `inventory.reservations.updateSalabilityStatus` körs kontinuerligt. Använd kommandot `bin/magento queue:consumers:list` om du vill kontrollera om det körs. Om meddelandekökonsumenten inte finns med i listan startar du den: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Beställningsreservationer
 
@@ -188,7 +188,7 @@ De tre `quantity`-värdena är summerade till 0 (-25 + 5 + 20). Systemet ändrar
 
 Kronjobbet `inventory_cleanup_reservations` kör SQL-frågor för att rensa reservationsdatabastabellen. Som standard körs den varje dag vid midnatt, men du kan konfigurera tider och frekvens. Kronjobbet kör ett skript som frågar databasen efter fullständiga reservationssekvenser där summan av kvantitetsvärdena är 0. När alla reservationer för en viss produkt som har sitt ursprung samma dag (eller annan konfigurerad tid) har kompenserats, tar kronijobbet bort alla reservationer samtidigt.
 
-Kronijobbet `inventory_reservations_cleanup` är inte detsamma som meddelandekökonsumenten `inventory.reservations.cleanup`. Konsumenten tar asynkront bort reservationer per produkt-SKU efter att en produkt har tagits bort, medan kronijobbet rensar hela reservationstabellen. Konsumenten krävs när du aktiverar alternativet [**Synkronisera med katalog**](../configuration-reference/catalog/inventory.md) i butikskonfigurationen. Se [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=sv-SE) i _Konfigurationshandboken_.
+Kronijobbet `inventory_reservations_cleanup` är inte detsamma som meddelandekökonsumenten `inventory.reservations.cleanup`. Konsumenten tar asynkront bort reservationer per produkt-SKU efter att en produkt har tagits bort, medan kronijobbet rensar hela reservationstabellen. Konsumenten krävs när du aktiverar alternativet [**Synkronisera med katalog**](../configuration-reference/catalog/inventory.md) i butikskonfigurationen. Se [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i _Konfigurationshandboken_.
 
 Ofta går det inte att kompensera alla ursprungliga reservationer som gjorts under en och samma dag. Detta kan inträffa när en kund gör en beställning precis innan kronijobbet påbörjas eller gör ett köp med en offlinebetalningsmetod, som en banköverföring. De kompenserade reservationssekvenserna finns kvar i databasen tills de alla kompenseras. Denna praxis påverkar inte reservationsberäkningar, eftersom summan för varje reservation är 0.
 
@@ -220,8 +220,5 @@ Om du tar bort alla källor från en produkt för ett lager med väntande order 
 
 {{$include /help/_includes/unassign-source.md}}
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://developers.google.com/maps/documentation/geocoding/start
-[3]: https://developers.google.com/maps/documentation/distance-matrix/start
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->

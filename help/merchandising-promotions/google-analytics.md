@@ -3,9 +3,9 @@ title: '[!DNL Google Analytics]'
 description: Lär dig hur du kan använda  [!DNL Google Analytics] för att samla in användbar statistik för dina Commerce-webbplatser.
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Om du inte redan har en [!DNL Google Analytics] 4-konfiguration för din plats g
 
 1. Logga in på Admin for your Commerce store.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Google API]**.
 
@@ -45,33 +45,33 @@ Om du inte redan har en [!DNL Google Analytics] 4-konfiguration för din plats g
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i underavsnittet **[!UICONTROL Google Analytics4]** och gör följande:
 
-   - Ställ in **[!UICONTROL Enable]** på `Yes`.
+   - Ange **[!UICONTROL Enable]** till `Yes`.
 
    - Lämna **[!UICONTROL Account type]** som `Google Analytics4`.
 
-   - Ange din **[!UICONTROL Measurement ID]**. Mer information finns i [Hjälp för Google Analytics](https://support.google.com/analytics/answer/9539598).
+   - Ange din **[!UICONTROL Measurement ID]**. Mer information finns i [Google Analytics-hjälpen](https://support.google.com/analytics/answer/9539598).
 
    - Om du vill utföra A/B-tester och andra prestandatester på ditt innehåll anger du **Content Experiments** till `Yes`.
 
    ![Försäljningskonfiguration - Google API för Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Save Config]** när det är klart.
+1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Google Universal Analytics
 
 >[!IMPORTANT]
 >
->Den 1 juli 2023 kommer Universal Analytics-standardegenskaper inte längre att behandla data. Om du fortfarande litar på [!DNL Universal Analytics] rekommenderar vi att du [förbereder för att använda Google Analytics 4](https://support.google.com/analytics/answer/10759417) framöver.
+>Den 1 juli 2023 kommer standardegenskaper för Universal Analytics inte längre att bearbeta data. Om du fortfarande förlitar dig på [!DNL Universal Analytics] rekommenderar vi att du [förbereder dig för att använda Google Analytics 4](https://support.google.com/analytics/answer/10759417) framåt.
 
 ### Steg 1: Konfigurera Google Universal Analytics
 
-Gå till Google-webbplatsen och registrera dig för ett [Google Universal Analytics][1]-konto.
+Besök Google webbplats och registrera dig för ett [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en) -konto.
 
 ### Steg 2: Slutför Commerce-konfigurationen
 
 1. Logga in på Admin for your Commerce store.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Google API]**.
 
@@ -97,7 +97,7 @@ Följande instruktioner visar hur du konfigurerar [!DNL Google Tag Manager] med 
 
 1. Registrera dig för ett [Google Tag Manager](google-tag-manager.md)-konto och slutför Commerce-konfigurationen.
 
-1. Registrera ett nytt [Google Universal Analytics][1]-konto.
+1. Registrera ett nytt [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en)-konto.
 
 ### Steg 2. Konfigurera Förbättrad e-handel
 
@@ -152,8 +152,8 @@ Följande instruktioner visar hur du konfigurerar [!DNL Google Tag Manager] med 
      | [!UICONTROL Product] | Google Analytics |
      | [!UICONTROL Tag Type] | Universal Analytics |
      | [!UICONTROL Tracking ID] | UA-XXX (Spårnings-ID från ditt Universal Analytics-konto.) |
-     | [!UICONTROL Enable Enhanced Ecommerce Features] | Sant |
-     | [!UICONTROL Use data layer] | Sant |
+     | [!UICONTROL Enable Enhanced Ecommerce Features] | True |
+     | [!UICONTROL Use data layer] | True |
      | [!UICONTROL Use Debug version] | True |
 
 1. Slutför de enskilda spårningskonfigurationerna.
@@ -162,9 +162,9 @@ Följande instruktioner visar hur du konfigurerar [!DNL Google Tag Manager] med 
 
      | Inställning | Värde |
      |--- |--- |
-     | [!UICONTROL Track Type] | Evenemang |
+     | [!UICONTROL Track Type] | Händelse |
      | [!UICONTROL Category] | E-handel |
-     | [!UICONTROL Action] | Lägg till i kundvagn |
+     | [!UICONTROL Action] | Lägg i kundvagnen |
      | [!UICONTROL Trigger] | addToCart |
 
    - Ange följande **[!UICONTROL Checkout option]**-spårningsinställningar:
@@ -210,9 +210,6 @@ Följande instruktioner visar hur du konfigurerar [!DNL Google Tag Manager] med 
      | [!UICONTROL Action] | Ta bort från kundvagnen |
      | [!UICONTROL Trigger] | removeFromCart |
 
-1. När du är klar klickar du på **[!UICONTROL Preview]** och kontrollerar att taggarna fungerar korrekt.
+1. När det är klart klickar du på **[!UICONTROL Preview]** och kontrollerar att taggarna fungerar som de ska.
 
 1. När du har verifierat inställningarna klickar du på **[!UICONTROL Publish]**.
-
-
-[1]: https://support.google.com/analytics/answer/2817075?hl=en

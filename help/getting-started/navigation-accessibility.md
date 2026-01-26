@@ -3,18 +3,18 @@ title: Tillgänglighet
 description: Granska de vanliga tangentbordskontrollerna för att få tillgång till webbplatsnavigering för dina kunder.
 exl-id: 7e3becf2-6c47-4993-8581-e253607ab381
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 # Tillgänglighet
 
-Vissa besökare på webbplatsen använder tangentbordskontroller för navigering - och inte för musen - medan andra använder pek- eller röstkommandon. Även om tangentbordsnavigeringskontrollerna varierar beroende på webbläsare och plattform, används tabbtangenten ofta för att flytta fokus mellan fält, länkar och knappar på en sida. Mer information finns i [Kortkommandon][1]{:target=&quot;_blank&quot;}.
+Vissa besökare på webbplatsen använder tangentbordskontroller för navigering - och inte för musen - medan andra använder pek- eller röstkommandon. Även om tangentbordsnavigeringskontrollerna varierar beroende på webbläsare och plattform, används tabbtangenten ofta för att flytta fokus mellan fält, länkar och knappar på en sida. Mer information finns i [Kortkommandon](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"}.
 
-Mer information om hjälpmedel finns i [Riktlinjer för hjälpmedel][2]{:target=&quot;_blank&quot;} i utvecklardokumentationen.
+Mer information om hjälpmedel finns i [Riktlinjer för hjälpmedel](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"} i utvecklardokumentationen.
 
 ## Windows
 
@@ -52,6 +52,3 @@ Mer information om hjälpmedel finns i [Riktlinjer för hjälpmedel][2]{:target=
 | Rulla vågrätt | `Left`, `Right` |
 
 {style="table-layout:auto"}
-
-[1]: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
-[2]: https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/

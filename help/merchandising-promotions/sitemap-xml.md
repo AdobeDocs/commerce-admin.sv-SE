@@ -3,8 +3,8 @@ title: Webbplatskartor
 description: Lär dig hur du konfigurerar en webbplatskarta för att indexera alla sidor och bilder på dina Commerce-webbplatser.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=sv-SE) i dokumentationen för Commerce Storefront
+>Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) i dokumentationen för Commerce Storefront
 
 En webbplatskarta förbättrar det sätt på vilket din butik indexeras av sökmotorer och är utformad för att hitta sidor som kan förbises av webbcrawler. En platskarta kan konfigureras för indexering av alla sidor och bilder.
 
@@ -23,7 +23,7 @@ När det här alternativet är aktiverat skapar Commerce en fil med namnet `site
 
 När din webbplats är under utveckling kan du inkludera instruktioner i filen `robots.txt` för webbcrawlningar för att undvika att indexera webbplatsen. Innan du startar programmet kan du ändra instruktionerna så att webbplatsen kan indexeras.
 
-Mer teknisk information finns i [Lägg till platskarta och robots.txt][1] i _Commerce on Cloud Infrastructure Guide_.
+Mer teknisk information finns i [Lägg till platskarta och robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) i _Commerce on Cloud Infrastructure Guide_.
 
 ![Rutnät för platskartor](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -33,7 +33,7 @@ Slutför konfigurationen [XML-platskarta](#site-map-configuration) för att fast
 
 ## Steg 2. Generera webbplatskartan
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**&#x200B;på menyn_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på menyn _[!UICONTROL SEO & Search]_Admin **[!UICONTROL Site Map]**.
 
 1. Klicka på **[!UICONTROL Add Site Map]**.
 
@@ -61,14 +61,14 @@ Slutför konfigurationen av [sökrobotar](seo-overview.md#search-engine-robots) 
 
 Du kan skicka webbplatskartan till olika sökmotorer genom att ge dem länken till filen `sitemap.xml` i din Commerce-installation. Så här kopierar du länken:
 
-1. Högerklicka på URL:en i kolumnen **[!UICONTROL Link for Google]** i listan _Platskarta_.
+1. Högerklicka på URL:en i kolumnen _i listan_ Platskarta **[!UICONTROL Link for Google]**.
 
 1. Välj **[!UICONTROL Copy Link Address]** på menyn.
 
 Mer information finns i instruktionerna för den specifika sökmotorn. Här följer länkar till instruktioner för två sökmotorer:
 
-- [Google][2]
-- [Microsoft® Bing][3]
+- [Google](https://support.google.com/webmasters/answer/183669?hl=en)
+- [Microsoft® Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
 
 ## Steg 5: Återställ tidigare instruktioner för robot (valfritt)
 
@@ -85,7 +85,7 @@ Så här skapar du platskartor för en multistore-instans:
        /sitemaps/domain_1/
        /sitemaps/domain_2/
    
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL SEO & Search]_Admin **[!UICONTROL Site Map]**.
 
 1. Skapa eller redigera platskartlistor för varje butik och ställ in **[!UICONTROL Path]** på den som du skapade för butiken:
 
@@ -102,7 +102,7 @@ Så här skapar du platskartor för en multistore-instans:
    
 >[!NOTE]
 >
->Om din webbplats använder webbservermotorn [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=sv-SE) bör du uppdatera filen [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) i webbplatsens rot för att dirigera eventuella andra platskarteförfrågningar till rätt plats.
+>Om din webbplats använder webbservermotorn [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) bör du uppdatera filen [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) i webbplatsens rot för att dirigera eventuella andra platskarteförfrågningar till rätt plats.
 
 ## Kolumnbeskrivningar
 
@@ -124,7 +124,7 @@ Din webbplatskarta bör uppdateras så ofta som innehållet på din webbplats ä
 
 ### Steg 1. Ange frekvens och prioritet för innehållsuppdateringar
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL XML Sitemap]**.
 
@@ -144,7 +144,7 @@ Din webbplatskarta bör uppdateras så ofta som innehållet på din webbplats ä
       - `Yearly`
       - `Never`
 
-   - Ange ett värde mellan `0.0` och `1.0` för **[!UICONTROL Priority]**. Noll har lägst prioritet.
+   - Ange ett värde mellan **[!UICONTROL Priority]** och `0.0` för `1.0`. Noll har lägst prioritet.
 
    ![XML-webbplatskarta - Kategorialternativ](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png){width="600" zoomable="yes"}
 
@@ -227,7 +227,3 @@ Din webbplatskarta bör uppdateras så ofta som innehållet på din webbplats ä
 1. Om du använder en `robots.txt`-fil för att ge instruktioner till sökmotorer som crawlar din webbplats, anger du **[!UICONTROL Enable Submission to Robots.txt]** till `Yes`.
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
-
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=sv-SE
-[2]: https://support.google.com/webmasters/answer/183669?hl=en
-[3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

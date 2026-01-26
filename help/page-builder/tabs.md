@@ -3,7 +3,7 @@ title: Layout - Tabbar
 description: Lär dig mer om innehållstypen Flikar som används för att lägga till en uppsättning flikar på scenen  [!DNL Page Builder] .
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ När du arbetar med innehållstypen _Tabbar_ lägger du till och redigerar enski
 
 ## Lägga till en enskild flik
 
-1. Dra platshållaren [!DNL Page Builder] direkt till scenen eller till en rad eller kolumn på scenen på panelen _[!UICONTROL Layout]_&#x200B;under **[!UICONTROL Tabs]**.
+1. Dra platshållaren [!DNL Page Builder] direkt till scenen eller till en rad eller kolumn på scenen på panelen _[!UICONTROL Layout]_under **[!UICONTROL Tabs]**.
 
    ![Dra tabbar till en rad](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -74,8 +74,8 @@ När du arbetar med innehållstypen _Tabbar_ lägger du till och redigerar enski
 
 1. Om det behövs anger du de andra alternativen med följande avsnitt som vägledning:
 
-   - [[!UICONTROL Background]][background]
-   - [[!UICONTROL Advanced]][advanced]
+   - [[!UICONTROL Background]](#background)
+   - [[!UICONTROL Advanced]](#advanced)
 
 1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
@@ -324,7 +324,5 @@ Du kan lägga till valfri innehållstyp på en flik precis som du kan på en rad
 
 1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
-[background]: #background
-[advanced]: #advanced
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

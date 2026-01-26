@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Page Builder] Gå igenom del 2: block'
+title: '[!DNL Page Builder] Genomgång del 2: block'
 description: Lär dig skillnaden mellan enkla block och dynamiska block när du använder  [!DNL Page Builder].
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 0%
@@ -32,13 +32,13 @@ I den här genomgången skapar du ett enkelt block med innehåll från [!DNL Goo
 
 ### Steg 1: Skapa ett block
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Blocks]**.
 
 1. Klicka på **[!UICONTROL Add New Block]** i det övre högra hörnet.
 
-1. Ange `Google Map` för **[!UICONTROL Block Title]**.
+1. Ange **[!UICONTROL Block Title]** för `Google Map`.
 
-1. Ange `google-map` för **[!UICONTROL Identifier]**.
+1. Ange **[!UICONTROL Identifier]** för `google-map`.
 
 1. Välj **[!UICONTROL Store View]** där blocket ska vara tillgängligt.
 
@@ -50,7 +50,7 @@ I den här genomgången skapar du ett enkelt block med innehåll från [!DNL Goo
 
 1. Bläddra ned till förhandsgranskningen av [!DNL Page Builder]-innehållet (för närvarande tom) och klicka på **[!UICONTROL Edit with Page Builder]**.
 
-1. Expandera **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Map]** platshållare till scenen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Media]** och dra en **[!UICONTROL Map]** platshållare till scenen.
 
    ![Dra en karta till scenen](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
@@ -60,11 +60,11 @@ I den här genomgången skapar du ett enkelt block med innehåll från [!DNL Goo
 
    En platshållarkarta visas om [!DNL Google Maps] inte har konfigurerats för din butik än.
 
-   ![[!DNL Google Maps] platshållare &#x200B;](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
+   ![[!DNL Google Maps] platshållare ](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
 1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_&#x200B;för blocket med förhandsvisningen.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för blocket med förhandsvisningen.
 
 1. Klicka på pilen **[!UICONTROL Save]** i det övre högra hörnet och välj **[!UICONTROL Save & Close]**.
 
@@ -76,13 +76,13 @@ Om [!DNL Google Maps] redan har konfigurerats för din butik kan du hoppa över 
 
 1. Klicka på listrutan för projektet och välj eller skapa det projekt som du vill lägga till en API-nyckel för.
 
-1. Om du vill konfigurera dina API-autentiseringsuppgifter följer du [instruktionerna][1] i [!DNL Google Maps]-dokumentationen.
+1. Om du vill konfigurera dina API-autentiseringsuppgifter följer du [instruktionerna](https://developers.google.com/maps/documentation/javascript/get-api-key) i [!DNL Google Maps]-dokumentationen.
 
 1. Kopiera API-nyckeln till Urklipp.
 
 1. Gå tillbaka till [!DNL Commerce] Admin och gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
+1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Content Management]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
@@ -100,17 +100,17 @@ Om [!DNL Google Maps] redan har konfigurerats för din butik kan du hoppa över 
 
 ### Steg 4: Lägg till blocket på en sida
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
 
-1. Leta reda på _[!UICONTROL Simple Page]_&#x200B;som du skapade i den första självstudiekursen i rutnätet och välj **[!UICONTROL Edit]**&#x200B;i kolumnen&#x200B;_[!UICONTROL Action]_.
+1. Leta reda på _[!UICONTROL Simple Page]_som du skapade i den första självstudiekursen i rutnätet och välj **[!UICONTROL Edit]**i kolumnen_[!UICONTROL Action]_.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Content]** och klicka på **[!UICONTROL Edit with Page Builder]** eller inuti förhandsvisningsområdet för innehållet.
 
-1. Dra en **[!UICONTROL Row]**-platshållare högst upp på scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_.
+1. Dra en [!DNL Page Builder]-platshållare högst upp på scenen på panelen _[!UICONTROL Layout]_under **[!UICONTROL Row]**.
 
    ![Lägger till raden överst på scenen](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
-1. Expandera **[!UICONTROL Add Content]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Block]** platshållare till den nya raden.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Add Content]** och dra en **[!UICONTROL Block]** platshållare till den nya raden.
 
 1. Håll pekaren över den tomma blockbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ (![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -130,7 +130,7 @@ Om [!DNL Google Maps] redan har konfigurerats för din butik kan du hoppa över 
 
 1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_&#x200B;för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
 
 1. Klicka på pilen **[!UICONTROL Save]** i det övre högra hörnet och välj **[!UICONTROL Save & Close]**.
 
@@ -144,7 +144,7 @@ Ett dynamiskt block innehåller logik som bestämmer var, när och till vem det 
 
 ### Steg 1: Skapa ett nytt dynamiskt block
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Dynamic Blocks]**.
 
    ![Listan Dynamiska block](./assets/pb-tutorial2-block-dynamic-add.png){width="700" zoomable="yes"}
 
@@ -156,7 +156,7 @@ Ett dynamiskt block innehåller logik som bestämmer var, när och till vem det 
 
    - Ange **[!UICONTROL Enable Dynamic Block]** till `Yes`.
 
-   - Ange `Tee Shirt Promo` för **[!UICONTROL Dynamic Block Name]**.
+   - Ange **[!UICONTROL Dynamic Block Name]** för `Tee Shirt Promo`.
 
    - Ange **[!UICONTROL Dynamic Block Type]** till `Content Area` och klicka på **[!UICONTROL Done]**.
 
@@ -178,11 +178,11 @@ Bläddra ned till avsnittet _[!UICONTROL Content]_, som visar en tom förhandsgr
 
 1. Håll pekaren över radbehållaren för att visa verktygslådan och välj ikonen _Inställningar_ (![Inställningar-ikon](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Välj **[!UICONTROL Full Bleed]** under _[!UICONTROL Appearance]_.
+1. Välj _[!UICONTROL Appearance]_under **[!UICONTROL Full Bleed]**.
 
-1. Ange `400px` för **[!UICONTROL Minimum Height]**.
+1. Ange **[!UICONTROL Minimum Height]** för `400px`.
 
-1. Bläddra till avsnittet _[!UICONTROL Background]_&#x200B;och ange **[!UICONTROL Background Image]**&#x200B;genom att klicka på&#x200B;**[!UICONTROL Select from Gallery]**&#x200B;och välja den `wide-banner-background.png`-bild som överfördes i den första självstudiekursen.
+1. Bläddra till avsnittet _[!UICONTROL Background]_och ange **[!UICONTROL Background Image]**genom att klicka på&#x200B;**[!UICONTROL Select from Gallery]**och välja den `wide-banner-background.png`-bild som överfördes i den första självstudiekursen.
 
 1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
@@ -190,7 +190,7 @@ Bläddra ned till avsnittet _[!UICONTROL Content]_, som visar en tom förhandsgr
 
 **Aktivitet 2:** Lägg till kolumner
 
-Dra en **[!UICONTROL Column]**-platshållare till raden på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_.
+Dra en [!DNL Page Builder]-platshållare till raden på panelen _[!UICONTROL Layout]_under **[!UICONTROL Column]**.
 
 ![Dra kolumntypen till raden](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -198,7 +198,7 @@ Raden är nu uppdelad i två kolumner med samma bredd.
 
 **Aktivitet 3:** Lägg till text
 
-1. Expandera **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra en **Text**-platshållare till den andra kolumnen.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Elements]** och dra en **Text**-platshållare till den andra kolumnen.
 
    ![Dra en textruta till den andra kolumnen](./assets/pb-tutorial2-column-text-drag.png){width="600" zoomable="yes"}
 
@@ -254,17 +254,17 @@ I den första övningen lärde du dig att använda innehållstypen [Button](butt
 
    Med den här inställningen öppnas sidan i samma webbläsarfönster, i stället för en ny flik.
 
-1. Ange `Shop Tees` för **[!UICONTROL Title]**.
+1. Ange **[!UICONTROL Title]** för `Shop Tees`.
 
    Attributet för titellänken används av vissa webbläsare som verktygstips.
 
-1. Klicka på **[!UICONTROL OK]** om du vill spara länken och återgå till arbetsytan [!DNL Page Builder].
+1. Klicka på [!DNL Page Builder] om du vill spara länken och återgå till arbetsytan **[!UICONTROL OK]**.
 
    ![Länkinformation](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="600" zoomable="yes"}
 
 1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_&#x200B;för det dynamiska blocket med förhandsvisningen.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för det dynamiska blocket med förhandsvisningen.
 
 1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
@@ -288,7 +288,7 @@ I den första övningen lärde du dig att använda innehållstypen [Button](butt
 
 ### Steg 4: Lägg till det dynamiska blocket på en sida
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
 
 1. Hitta den _enkla sidan_ som du skapade i den [första genomgången](1-simple-page.md) och öppna den i redigeringsläge.
 
@@ -298,9 +298,9 @@ I den första övningen lärde du dig att använda innehållstypen [Button](butt
 
    Bekräfta att raden har tagits bort från sidan genom att klicka på **[!UICONTROL OK]** .
 
-1. Dra en ny **[!UICONTROL Row]**-platshållare högst upp på scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_.
+1. Dra en ny [!DNL Page Builder]-platshållare högst upp på scenen på panelen _[!UICONTROL Layout]_under **[!UICONTROL Row]**.
 
-1. Expandera **[!UICONTROL Add Content]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Dynamic Block]** platshållare till den nya raden.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Add Content]** och dra en **[!UICONTROL Dynamic Block]** platshållare till den nya raden.
 
    ![Dra ett dynamiskt block till raden](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
@@ -308,11 +308,11 @@ I den första övningen lärde du dig att använda innehållstypen [Button](butt
 
    ![Verktygslådan för dynamiskt block](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Select Dynamic Block]** på sidan _[!UICONTROL Edit Dynamic Block]_.
+1. Klicka på _[!UICONTROL Edit Dynamic Block]_på sidan **[!UICONTROL Select Dynamic Block]**.
 
    ![Välj dynamiskt block](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. Leta reda på det _[!DNL Tee Shirt Promo]_&#x200B;dynamiska blocket som du skapade och klicka på&#x200B;**[!UICONTROL Select]**.
+1. Leta reda på det _[!DNL Tee Shirt Promo]_dynamiska blocket som du skapade och klicka på&#x200B;**[!UICONTROL Select]**.
 
    En sammanfattning av informationen om det dynamiska blocket visas nedan.
 
@@ -326,7 +326,7 @@ I den första övningen lärde du dig att använda innehållstypen [Button](butt
 
 1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_&#x200B;för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
 
 1. Klicka på pilen **[!UICONTROL Save]** i det övre högra hörnet och välj **[!UICONTROL Save & Close]**.
 
@@ -340,7 +340,7 @@ I den sista delen av övningen redigerar du ett dynamiskt block medan sidan finn
 
 ### Steg 1: Redigera det dynamiska blocket
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Dynamic Blocks]**.
 
 1. Hitta det dynamiska _[!DNL Tee Shirt Promo]_-blocket i rutnätet och öppna det i redigeringsläge.
 
@@ -356,7 +356,7 @@ I den sista delen av övningen redigerar du ett dynamiskt block medan sidan finn
 
      Den första kolumnen är nu fyra av 12 (4/12) breda stödrasterindelningar, och den andra kolumnen är åtta av 12 (8/12) breda indelningar.
 
-     ![Två olika kolumner &#x200B;](./assets/pb-tutorial2-dynamic-block-edit-column-width-changed.png){width="600" zoomable="yes"}
+     ![Två olika kolumner ](./assets/pb-tutorial2-dynamic-block-edit-column-width-changed.png){width="600" zoomable="yes"}
 
 1. Ändra textfärgen:
 
@@ -368,7 +368,7 @@ I den sista delen av övningen redigerar du ett dynamiskt block medan sidan finn
 
 1. Klicka på ikonen _Stäng helskärm_ (![Stäng helskärm](./assets/pb-icon-reduce.png)) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_&#x200B;för det dynamiska blocket med förhandsvisningen.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för det dynamiska blocket med förhandsvisningen.
 
 1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet.
 
@@ -405,5 +405,3 @@ Eftersom det här dynamiska blocket bara är synligt för medlemmar i ett visst 
 Du har avslutat Block-övningen. Se till att du sparar ditt arbete som referens.
 
 När du är klar fortsätter du till [del 3: Kataloginnehåll](3-catalog-content.md)
-
-[1]: https://developers.google.com/maps/documentation/javascript/get-api-key

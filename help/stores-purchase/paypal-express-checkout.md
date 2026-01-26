@@ -3,10 +3,10 @@ title: PayPal Express-kassan
 description: Lär dig hur du konfigurerar PayPal Express Checkout som en onlinebetalningslösning i din butik.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3111'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Kunder med aktuella PayPal-konton kan göra ett köp i ett enda steg genom att k
 
 ## Krav
 
-- Merchant: [Business PayPal-konto][1]
-- Kund: [Personal PayPal-konto][2]
+- Merchant: [Business PayPal-konto](https://www.paypal.com/webapps/mpp/how-to-sell-online)
+- Kund: [Personal PayPal-konto](https://www.paypal.com/webapps/mpp/buying-online)
 
 ## Arbetsflöde för Express Chout
 
@@ -48,11 +48,11 @@ Till skillnad från andra betalningsmetoder gör PayPal Express Checkout det mö
 
 ## Kontextutcheckning
 
-PayPals _In-Context Checkout_ gör det enklare än någonsin att betala online. Kunderna förlorar aldrig ur sikte under den här förenklade enkla enklicksutcheckningen. Kontextutcheckning fungerar lika bra på Mac och PC och ger en enhetlig upplevelse på stationära datorer, surfplattor och mobila enheter. Mer information finns i [Kontextutcheckning i Express Checkout][5].
+PayPals _In-Context Checkout_ gör det enklare än någonsin att betala online. Kunderna förlorar aldrig ur sikte under den här förenklade enkla enklicksutcheckningen. Kontextutcheckning fungerar lika bra på Mac och PC och ger en enhetlig upplevelse på stationära datorer, surfplattor och mobila enheter. Mer information finns i [Kontextutcheckning i Express Checkout](https://www.paypal.com/rs/webapps/mpp/express-checkout).
 
 ![PayPal - demo av kontextutcheckning](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
 
-[_PayPal - demo av kontextutcheckning_][6]
+[_PayPal - demo av kontextutcheckning_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout)
 
 När du konfigurerar din butik för [!DNL PayPal Express Checkout] kan du aktivera det här alternativet.
 
@@ -60,7 +60,7 @@ När du konfigurerar din butik för [!DNL PayPal Express Checkout] kan du aktive
 
 Innan du konfigurerar PayPal Express Checkout i Commerce Admin måste du konfigurera ditt handlarkonto på PayPals webbplats.
 
-1. Logga in på ditt avancerade PayPal-konto på [manager.paypal.com][3].
+1. Logga in på ditt avancerade PayPal-konto på [manager.paypal.com](https://manager.paypal.com/).
 
 1. Gå till **[!UICONTROL Service Settings]** > **[!UICONTROL Hosted Checkout Pages]** > **[!UICONTROL Set Up]** och gör följande inställningar:
 
@@ -72,7 +72,7 @@ Innan du konfigurerar PayPal Express Checkout i Commerce Admin måste du konfigu
 
 1. Konfigurera en annan användare (rekommenderas av PayPal):
 
-   - Gå till [manager.paypal.com][3] och logga in på ditt konto.
+   - Gå till [manager.paypal.com](https://manager.paypal.com/) och logga in på ditt konto.
 
    - Följ instruktionerna för att konfigurera en annan användare.
 
@@ -88,19 +88,19 @@ Du kan ha två PayPal-lösningar aktiva samtidigt: PayPal Express Checkout plus 
 
 ### Steg 1: Påbörja konfigurationen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
 1. Om din installation har flera webbplatser, butiker eller vyer anger du **[!UICONTROL Store View]** till den butiksvy där du vill använda den här konfigurationen.
 
-1. I avsnittet _[!UICONTROL Merchant Location]_&#x200B;väljer du **[!UICONTROL Merchant Country]**&#x200B;där ditt företag finns.
+1. I avsnittet _[!UICONTROL Merchant Location]_väljer du **[!UICONTROL Merchant Country]**där ditt företag finns.
 
    Den här inställningen bestämmer valet av PayPal-lösningar som visas i konfigurationen.
 
    ![Handelsland](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Configure]** för **[!UICONTROL PayPal Express Checkout]** under _[!UICONTROL Recommended Solutions]_.
+1. Klicka _[!UICONTROL Recommended Solutions]_för **[!UICONTROL Configure]**under **[!UICONTROL PayPal Express Checkout]**.
 
    ![Konfigurera PayPal Express Checkout](./assets/paypal-express-checkout.png){width="600"}
 
@@ -112,7 +112,7 @@ Du kan ha två PayPal-lösningar aktiva samtidigt: PayPal Express Checkout plus 
 
 1. Koppla ditt konto för test eller produktion:
 
-   - Klicka på **[!UICONTROL Sandbox Credentials]** och ange dina autentiseringsuppgifter för [PayPal-sandlådan][7] för testning (utvecklingsläge).
+   - Klicka på **[!UICONTROL Sandbox Credentials]** och ange dina autentiseringsuppgifter för [PayPal-sandlådan](https://developer.paypal.com/docs/api-basics/sandbox/) för testning (utvecklingsläge).
    - Klicka på **[!UICONTROL Connect with PayPal]** för produktionsläget och ange autentiseringsuppgifter för produktionskontot.
 
    När anslutningen har verifierats kan du fortsätta.
@@ -158,7 +158,7 @@ Du kan ha två PayPal-lösningar aktiva samtidigt: PayPal Express Checkout plus 
 
 1. Om du använder autentiseringsuppgifter från ditt sandlådekonto anger du **[!UICONTROL Sandbox Mode]** till `Yes`.
 
-   När du testar konfigurationen i en sandlåda ska du bara använda [kreditkortsnummer][4] som rekommenderas av PayPal. När du är redo att börja producera återgår du till konfigurationen och anger sandlådeläget till `No` och ansluter till ditt PayPal-produktionskonto.
+   När du testar konfigurationen i en sandlåda ska du bara använda [kreditkortsnummer](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) som rekommenderas av PayPal. När du är redo att börja producera återgår du till konfigurationen och anger sandlådeläget till `No` och ansluter till ditt PayPal-produktionskonto.
 
 1. Om systemet använder en proxyserver för att upprätta anslutningen mellan Commerce och PayPal-betalningssystemet anger du **[!UICONTROL API Uses Proxy]** till `Yes` och slutför följande:
 
@@ -312,11 +312,11 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
    - `Sale` - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto.
    - `Order` - Orderbeloppet hämtas eller auktoriseras inte i kundsaldot, bankkontot eller kreditkortet på PayPal. Orderbetalningsåtgärden representerar ett avtal mellan betalningssystemet PayPal och handlaren. Det gör det möjligt för handlaren att samla in ett eller flera belopp upp till den beställda summan från kundens köparkonto under en period på upp till 29 dagar. Efter beställningen kan handlaren när som helst samla in pengarna under den följande 29-dagarsperioden. Beställningsbeloppet kan bara hämtas från Commerce Admin genom att en eller flera fakturor skapas.
 
-1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_&#x200B;på produktsidan anger du **[!UICONTROL Display on Product Details Page]**&#x200B;till `Yes`.
+1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_på produktsidan anger du **[!UICONTROL Display on Product Details Page]**till `Yes`.
 
 1. Om betalningsåtgärden är inställd på `Order` utför du följande
 
-   - **[!UICONTROL Authorization Honor Period (days)]** - Anger hur länge den primära auktoriseringen ska vara giltig. Värdet ska vara lika med motsvarande värde i PayPal-handelskontot. Standardvärdet i ditt PayPal-handelskonto är `3`. Om du vill öka det här numret måste du kontakta PayPal. Behörigheten blir ogiltig kl. 23.49 (USA:s Pacific Time) förra dagen.
+   - **[!UICONTROL Authorization Honor Period (days)]** - Anger hur länge den primära auktoriseringen ska vara giltig. Värdet ska vara lika med motsvarande värde i PayPal-handelskontot. Standardvärdet i ditt PayPal-handelskonto är `3`. Om du vill öka det här numret måste du kontakta PayPal. Behörigheten blir ogiltig kl. 11:00 PST den senaste dagen.:49
 
    - **[!UICONTROL Order Valid Period (days)]** - Avgör hur länge ordern är giltig. När ordern blir ogiltig kan du inte längre skapa fakturor för den. Ange värdet som är lika med värdet för Order Valid Period i PayPal-handelskontot. Standardvärdet i ditt PayPal-handelskonto är `29`. Om du vill ändra det här numret måste du kontakta PayPal.
 
@@ -574,11 +574,3 @@ Med funktionsinställningarna kan du inaktivera vissa funktioner som hör till d
    - Venmo
    - Kreditkortsikoner för PayPal-gästutcheckning
    - Elektronisches Lastschriftverfahren - German ELV
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypal.com/webapps/mpp/buying-online
-[3]: https://manager.paypal.com/
-[4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&page=incontextProductCheckout
-[7]: https://developer.paypal.com/docs/api-basics/sandbox/

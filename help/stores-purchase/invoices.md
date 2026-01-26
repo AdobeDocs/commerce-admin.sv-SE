@@ -3,9 +3,9 @@ title: Fakturor
 description: Lär dig hur du skapar och skriver ut fakturor som stöder orderbehandling och kundserviceåtgärder.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 En faktura är en post för betalningsposten för en order. Flera fakturor kan [skapas](#create-an-invoice) för en enda order, och var och en kan innehålla så många eller några av de köpta produkterna som du anger. Du kan också skapa [utskriftsklara PDF-fakturor](#print-invoices) som försäljningsdokument för dina kunder.
 
-Gå till **[!UICONTROL Sales]** > _Åtgärder_ > **Fakturor** på sidofältet _Admin_ för att öppna rutnätet _Fakturor_ och få tillgång till dina skapade fakturor.
+Gå till _>_&#x200B;Åtgärder **[!UICONTROL Sales]** > _Fakturor_ på sidofältet **Admin** för att öppna rutnätet _Fakturor_ och få tillgång till dina skapade fakturor.
 
 ![Fakturarutnät](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -57,21 +57,21 @@ När tillståndet för nya order är `Processing` blir alternativet _Fakturera a
 >
 >Fakturor skapas inte automatiskt för order som har placerats med `Gift Card`, `Store Credit`, `Reward Points` eller andra offlinebetalningsmetoder.
 
-En faktura för ordern måste genereras innan den kan skrivas ut. Om du vill visa eller skriva ut PDF måste du först hämta och installera en läsare för PDF som [Adobe Acrobat Reader][1].
+En faktura för ordern måste genereras innan den kan skrivas ut. Om du vill visa eller skriva ut PDF hämtar och installerar du först en PDF-läsare, till exempel [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Hämta Adobe Reader").
 
-**_Så här fakturerar du en order:_**
+**_Om du vill fakturera en order:_**
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_Admin **[!UICONTROL Orders]**.
 
 1. Hitta försäljningsordern med statusen `Processing` i rutnätet. Gör sedan följande:
 
-1. Klicka på **[!UICONTROL View]** i kolumnen _Åtgärd_.
+1. Klicka på _i kolumnen_&#x200B;Åtgärd **[!UICONTROL View]**.
 
 1. Välj alternativet **[!UICONTROL Invoice]** i försäljningsorderhuvudet.
 
    >[!NOTE]
    >
-   >Alternativet _[!UICONTROL Invoice]_&#x200B;visas inte när [betalningsåtgärden](../configuration-reference/sales/payment-methods.md#payment-actions) för din specifika [betalningsmetod](../configuration-reference/sales/payment-methods.md) är inställd på `Authorize and Capture`, vilket automatiskt genererar en faktura. Detta gäller också om ordern har lagts och betalningsåtgärden för betalningsmetoden har angetts till `Authorize` och ordern har fakturerats.
+   >Alternativet _[!UICONTROL Invoice]_visas inte när [betalningsåtgärden](../configuration-reference/sales/payment-methods.md#payment-actions) för din specifika [betalningsmetod](../configuration-reference/sales/payment-methods.md) är inställd på `Authorize and Capture`, vilket automatiskt genererar en faktura. Detta gäller också om ordern har lagts och betalningsåtgärden för betalningsmetoden har angetts till `Authorize` och ordern har fakturerats.
 
    ![Fakturaförsäljningsorder](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -79,7 +79,7 @@ En faktura för ordern måste genereras innan den kan skrivas ut. Om du vill vis
 
 1. Om artiklarna är klara att skickas genererar du en följesedel för leveransen samtidigt som du skapar fakturan:
 
-   - Markera kryssrutan **[!UICONTROL Create Shipment]** i avsnittet _Leveransinformation_.
+   - Markera kryssrutan _i avsnittet_ Leveransinformation **[!UICONTROL Create Shipment]**.
 
      Leveransposten skapas samtidigt som fakturan genereras.
 
@@ -107,11 +107,11 @@ En faktura för ordern måste genereras innan den kan skrivas ut. Om du vill vis
 
 1. Klicka **[!UICONTROL Submit Invoice]** längst ned på sidan när du är klar.
 
-   **_Onlinebetalningsmetod:_**
+   **_Betalningsmetod online:_**
 
    ![Skicka faktura - onlinebetalningsmetod](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
 
-   **_Offlinebetalningsmetod:_**
+   **_Betalningsmetod offline:_**
 
    ![Skicka faktura - betalningsmetod offline)](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
 
@@ -121,32 +121,30 @@ En faktura för ordern måste genereras innan den kan skrivas ut. Om du vill vis
 
 ## Skriv ut fakturor
 
-Fakturor kan skrivas ut individuellt eller som en batch. Innan en faktura kan skrivas ut måste den först genereras för ordern. Du kan överföra en högupplöst logotyp för en utskriftsklar PDF-faktura och inkludera [Order ID](../stores-purchase/sales-documents.md#add-reference-ids) i rubriken. Mer information om hur du anpassar fakturamallen med din logotyp och adress finns i [Krav för PDF-logotypen](../stores-purchase/sales-documents.md#image-formats).
+Fakturor kan skrivas ut individuellt eller som en batch. Innan en faktura kan skrivas ut måste den först genereras för ordern. Du kan överföra en högupplöst logotyp för en utskriftsklar PDF-faktura och inkludera [Order ID](../stores-purchase/sales-documents.md#add-reference-ids) i rubriken. Information om hur du anpassar fakturamallen med din logotyp och adress finns i [PDF logotypkrav](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
->Om du vill visa eller skriva ut PDF måste du ha en läsare för PDF. Du kan hämta [Adobe Reader][1] utan kostnad.
+>Om du vill visa eller skriva ut PDF måste du ha en PDF-läsare. Du kan ladda ned [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Hämta Adobe Reader") utan kostnad.
 
 ### Skriva ut en enda faktura
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_Admin **[!UICONTROL Invoices]**.
 
-1. Leta reda på fakturan i rutnätet _[!UICONTROL Invoices]_&#x200B;och klicka på&#x200B;**[!UICONTROL View]**&#x200B;i kolumnen_&#x200B;Åtgärd _.
+1. Leta reda på fakturan i rutnätet _[!UICONTROL Invoices]_och klicka på&#x200B;**[!UICONTROL View]**i kolumnen_&#x200B;Åtgärd _.
 
 1. Klicka på **[!UICONTROL Print]** högst upp på fakturan för att generera en PDF av fakturan.
 
-1. Spara det genererade PDF i en fil eller skriv ut den.
+1. Spara den genererade PDF-filen i en fil eller skriv ut den.
 
 ### Skriva ut flera fakturor
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_Admin **[!UICONTROL Invoices]**.
 
-1. I rutnätet _[!UICONTROL Invoices]_&#x200B;markerar du kryssrutan för varje faktura som ska skrivas ut.
+1. I rutnätet _[!UICONTROL Invoices]_markerar du kryssrutan för varje faktura som ska skrivas ut.
 
 1. Ställ in kontrollen **[!UICONTROL Actions]** på `PDF Invoices`.
 
    ![Skriv ut flera fakturor](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 Fakturorna sparas i en enda PDF-fil som kan skickas till en skrivare eller sparas.
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Skaffa Adobe Reader"

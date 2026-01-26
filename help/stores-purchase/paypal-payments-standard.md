@@ -3,8 +3,8 @@ title: PayPal Payments Standard
 description: Lär dig hur du konfigurerar PayPal Payments Standard som en onlinebetalningslösning i din butik.
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2081'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PayPal Payments Standard
 
-[PayPal Payments Standard][4] är det enklaste sättet att acceptera betalningar online. Du kan erbjuda dina kunder en smidig betalning både med kreditkort och PayPal genom att lägga till en utcheckningsknapp i din butik.
+[PayPal Payments Standard](https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/) är det enklaste sättet att acceptera betalningar online. Du kan erbjuda dina kunder en smidig betalning både med kreditkort och PayPal genom att lägga till en utcheckningsknapp i din butik.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Med PayPal Payments Standard kan du svepa kreditkort på mobila enheter. Det kos
 
 ## Krav för handlare
 
-- [PayPal Business Account][1]
+- [PayPal Business Account](https://www.paypal.com/webapps/mpp/how-to-sell-online)
 
 ## Arbetsflöde för kassor
 
@@ -52,13 +52,13 @@ För kunder är PayPal Payments Standard en enstegsprocess om kreditkortsinforma
 
 Den här installationsmetoden förutsätter att du har ett befintligt PayPal-konto.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
 1. Om din Commerce-installation har flera webbplatser, butiker eller vyer anger du **[!UICONTROL Store View]** i butiksvyn där du vill använda den här konfigurationen.
 
-1. I avsnittet _[!UICONTROL Merchant Location]_&#x200B;väljer du **[!UICONTROL Merchant Country]**&#x200B;där ditt företag finns.
+1. I avsnittet _[!UICONTROL Merchant Location]_väljer du **[!UICONTROL Merchant Country]**där ditt företag finns.
 
    Den här inställningen bestämmer valet av PayPal-lösningar som visas i konfigurationen.
 
@@ -74,7 +74,7 @@ Den här installationsmetoden förutsätter att du har ett befintligt PayPal-kon
 
 1. Koppla ditt konto för test eller produktion:
 
-   - Klicka på **[!UICONTROL Sandbox Credentials]** och ange dina autentiseringsuppgifter för [PayPal-sandlådan][3] för testning (utvecklingsläge).
+   - Klicka på **[!UICONTROL Sandbox Credentials]** och ange dina autentiseringsuppgifter för [PayPal-sandlådan](https://developer.paypal.com/docs/api-basics/sandbox/) för testning (utvecklingsläge).
    - Klicka på **[!UICONTROL Connect with PayPal]** för produktionsläget och ange autentiseringsuppgifter för produktionskontot.
 
    När anslutningen har verifierats kan du fortsätta.
@@ -110,7 +110,7 @@ Den här installationsmetoden förutsätter att du har ett befintligt PayPal-kon
 
 1. Om du använder autentiseringsuppgifter från ditt sandlådekonto anger du **[!UICONTROL Sandbox Mode]** till `Yes`.
 
-   När du testar konfigurationen i en sandlåda ska du bara använda [kreditkortsnummer][2] som rekommenderas av PayPal. När du är redo att börja producera återgår du till konfigurationen och anger sandlådeläget till `No` och ansluter till ditt PayPal-produktionskonto.
+   När du testar konfigurationen i en sandlåda ska du bara använda [kreditkortsnummer](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) som rekommenderas av PayPal. När du är redo att börja producera återgår du till konfigurationen och anger sandlådeläget till `No` och ansluter till ditt PayPal-produktionskonto.
 
 1. Om systemet använder en proxyserver för att upprätta anslutningen mellan Adobe Commerce eller Magento Open Source och betalningssystemet PayPal anger du **[!UICONTROL API Uses Proxy]** till `Yes` och slutför följande:
 
@@ -257,7 +257,7 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
    - `Authorization` - Godkänner köpet och spärrar pengarna. Beloppet dras inte tillbaka förrän handlaren har tagit det.
    - `Sale` - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto.
 
-1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_&#x200B;på produktsidan anger du **[!UICONTROL Display on Product Details Page]**&#x200B;till `Yes`.
+1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_på produktsidan anger du **[!UICONTROL Display on Product Details Page]**till `Yes`.
 
 ### Steg 6: Slutför de avancerade inställningarna
 
@@ -398,7 +398,7 @@ Ett [faktureringsavtal](paypal-billing-agreements.md) är ett försäljningsavta
 
 #### Frontend Experience Settings
 
-Använd _[!UICONTROL Frontend Experience Settings]_&#x200B;för att välja vilka PayPal-logotyper som ska visas på din webbplats och för att anpassa utseendet på PayPal-handlarsidorna.
+Använd _[!UICONTROL Frontend Experience Settings]_för att välja vilka PayPal-logotyper som ska visas på din webbplats och för att anpassa utseendet på PayPal-handlarsidorna.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Frontend Experience Settings]**.
 
@@ -433,8 +433,3 @@ Använd _[!UICONTROL Frontend Experience Settings]_&#x200B;för att välja vilka
       - **[!UICONTROL Header Background Color]** - Bakgrundsfärg för sidhuvudet i kassan.
       - **[!UICONTROL Header Border Color]** - Färg för en kant på två pixlar runt huvudet.
       - **[!UICONTROL Page Background Color]** - Bakgrundsfärg för utcheckningssidan och runt rubriken och betalningsformuläret.
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[3]: https://developer.paypal.com/docs/api-basics/sandbox/
-[4]: https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/

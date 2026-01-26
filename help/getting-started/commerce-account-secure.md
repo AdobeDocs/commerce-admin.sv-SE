@@ -3,9 +3,9 @@ title: Skydda ditt [!DNL Commerce] konto
 description: Lär dig hur du använder tvåfaktorsautentisering för att skydda ditt [!DNL Commerce] konto.
 exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 feature: User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Om du vill använda TFA måste du ha ett TFA-program installerat på din personl
 
 ## Aktivera tvåfaktorsautentisering
 
-1. Logga in på ditt [[!DNL Commerce] konto][1]{:target=&quot;_blank&quot;}.
+1. Logga in på ditt [[!DNL Commerce] konto](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. I den vänstra navigeringsrutan väljer du **[!UICONTROL Account Settings]** och sedan **[!UICONTROL Two-factor Authentication]**.
 
@@ -46,7 +46,7 @@ Om du vill använda TFA måste du ha ett TFA-program installerat på din personl
 
 1. Öppna det tvåfaktorsautentiseringsprogram som du har laddat ned och installerat på din personliga enhet.
 
-1. Använd **[!UICONTROL Setup Code]** i formuläret [!UICONTROL SETUP TWO-FACTOR AUTHENTICATION] för att lägga till Adobe Commerce i ditt TFA-program.
+1. Använd [!UICONTROL SETUP TWO-FACTOR AUTHENTICATION] i formuläret **[!UICONTROL Setup Code]** för att lägga till Adobe Commerce i ditt TFA-program.
 
    ![Lägg till Adobe Commerce i TFA-appen](./assets/commerce-account-2fa-setup-app.png){width="400"}
 
@@ -96,7 +96,7 @@ Om du vill använda TFA måste du ha ett TFA-program installerat på din personl
 
 ## Logga in med en verifieringskod
 
-1. Gå till [!DNL Commerce] [kontoinloggningen][1]{:target=&quot;_blank&quot;}.
+1. Gå till [!DNL Commerce] [kontoinloggningen](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Ange ditt användarnamn och lösenord och välj sedan **[!UICONTROL Login]**.
 
@@ -108,7 +108,7 @@ Om du vill använda TFA måste du ha ett TFA-program installerat på din personl
 
 ## Logga in med en återställningskod
 
-1. Gå till [!DNL Commerce] [kontoinloggningen][1]{:target=&quot;_blank&quot;}.
+1. Gå till [!DNL Commerce] [kontoinloggningen](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Ange ditt användarnamn och lösenord och välj sedan **[!UICONTROL Login]**.
 
@@ -122,7 +122,7 @@ Om du vill använda TFA måste du ha ett TFA-program installerat på din personl
 
 ## Logga in med ditt återställningsmejl
 
-1. Logga in på ditt [[!DNL Commerce] konto][1]{:target=&quot;_blank&quot;}.
+1. Logga in på ditt [[!DNL Commerce] konto](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Ange ditt användarnamn och lösenord och välj sedan **[!UICONTROL Login]**.
 
@@ -140,7 +140,7 @@ När du har använt en tillfällig återställningskod för att komma åt ditt k
 
 ## Visa dina återställningskoder
 
-1. Gå till [!DNL Commerce] [kontoinloggningen][1]{:target=&quot;_blank&quot;}.
+1. Gå till [!DNL Commerce] [kontoinloggningen](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Ange ditt användarnamn och lösenord och välj sedan **[!UICONTROL Login]**.
 
@@ -168,7 +168,7 @@ När du har använt en tillfällig återställningskod för att komma åt ditt k
 
 ## Generera nya återställningskoder
 
-1. Gå till [!DNL Commerce] [kontoinloggningen][1]{:target=&quot;_blank&quot;}.
+1. Gå till [!DNL Commerce] [kontoinloggningen](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Ange ditt användarnamn och lösenord och välj sedan **[!UICONTROL Login]**.
 
@@ -190,7 +190,7 @@ När du har använt en tillfällig återställningskod för att komma åt ditt k
 
 ## Ändra ditt återställningsmejl
 
-1. Gå till [!DNL Commerce] [kontoinloggningen][1]{:target=&quot;_blank&quot;}.
+1. Gå till [!DNL Commerce] [kontoinloggningen](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Ange ditt användarnamn och lösenord och välj sedan **[!UICONTROL Login]**.
 
@@ -218,7 +218,7 @@ När du har använt en tillfällig återställningskod för att komma åt ditt k
 
 ## Ändra ditt tvåfaktorautentiseringsprogram
 
-1. Gå till [!DNL Commerce] [kontoinloggningen][1]{:target=&quot;_blank&quot;}.
+1. Gå till [!DNL Commerce] [kontoinloggningen](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Ange ditt användarnamn och lösenord och välj sedan **[!UICONTROL Login]**.
 
@@ -270,7 +270,7 @@ När du har använt en tillfällig återställningskod för att komma åt ditt k
 >
 >Om din organisationssäkerhetsprincip kräver multifaktorautentisering på Adobe Commerce-konton kan du inte inaktivera tvåfaktorsautentisering.
 
-1. Gå till [!DNL Commerce] [kontoinloggningen][1]{:target=&quot;_blank&quot;}.
+1. Gå till [!DNL Commerce] [kontoinloggningen](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Ange ditt användarnamn och lösenord och välj sedan **[!UICONTROL Login]**.
 
@@ -287,5 +287,3 @@ När du har använt en tillfällig återställningskod för att komma åt ditt k
    Systemet skickar en e-postbekräftelse som anger att TFA har inaktiverats på ditt [!DNL Commerce]-konto.
 
    ![Inaktivera TFA](./assets/2fa-disable.png){width="400"}
-
-[1]: https://account.magento.com/customer/account/login

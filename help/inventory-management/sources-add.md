@@ -3,7 +3,7 @@ title: Lägg till en lagerkälla
 description: Lär dig hur du skapar en källa för en plats, till exempel ett lagerställe, en fysisk butik, ett distributionscenter eller en avsändare.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Om du redigerar Source Standard kan du redigera alla konfigurationer förutom na
 
 ## Lägg till en lagerkälla
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Inventory]_Admin **[!UICONTROL Sources]**.
 
 1. Klicka på **[!UICONTROL Add New Source]**.
 
@@ -38,7 +38,7 @@ Om du redigerar Source Standard kan du redigera alla konfigurationer förutom na
 
    - För **[!UICONTROL Latitude]** och **[!UICONTROL Longitude]** anger du GPS-koordinaterna (Global Positioning System) för platsen.
 
-     Om du vill hitta GPS-koordinaterna med [Google Maps][1] anger du adressen i sökrutan. Högerklicka på markören på kartan och välj **[!UICONTROL What's here?]**. GPS-koordinaterna visas i informationsrutan nedanför gatuadressen.
+     Om du vill hitta GPS-koordinaterna med [Google Maps](https://www.google.com/maps) anger du adressen i sökrutan. Högerklicka på markören på kartan och välj **[!UICONTROL What's here?]**. GPS-koordinaterna visas i informationsrutan nedanför gatuadressen.
 
      ![Allmänna källalternativ](assets/inventory-source-general.png)
 
@@ -123,5 +123,3 @@ Om du redigerar Source Standard kan du redigera alla konfigurationer förutom na
 | **[!UICONTROL Pickup Location]** | |
 | [!UICONTROL Frontend Name] | Namnet på hämtningsplatsen för källan som visas på butiken. |
 | [!UICONTROL Frontend Description] | Beskrivningen av hämtningsplatsen för källan som visas på butiken. Den kan innehålla bifogade bilder. |
-
-[1]: https://www.google.com/maps

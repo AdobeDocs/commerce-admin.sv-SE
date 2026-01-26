@@ -3,7 +3,7 @@ title: Ditt administratörsanvändarkonto
 description: Lär dig mer om ditt Admin-konto och hur du använder tvåfaktorsautentisering för att logga in på Admin.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -36,7 +36,7 @@ För ytterligare säkerhet kan du avgöra vilka delar av _Admin_ som varje anvä
 
 ### Steg 1: Konfigurera tvåfaktorsautentisering
 
-Innan du kan logga in på _Admin_ i din butik måste du ha en autentiseringslösning med två faktorer konfigurerad och klar att använda. Mer information om autentiseringsprocessen som används av varje lösning finns i [Använda Tvåfaktorautentisering](../systems/security-two-factor-authentication-use.md). Som standard har [!DNL Commerce] stöd för [Google Authenticator][1].
+Innan du kan logga in på _Admin_ i din butik måste du ha en autentiseringslösning med två faktorer konfigurerad och klar att använda. Mer information om autentiseringsprocessen som används av varje lösning finns i [Använda Tvåfaktorautentisering](../systems/security-two-factor-authentication-use.md). Som standard har [!DNL Commerce] stöd för [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US).
 
 Fråga din [!DNL Commerce]-systemadministratör vilka 2FA-lösningar som stöds för butiken. Slutför sedan konfigurationen av den 2FA-lösning du föredrar enligt leverantörens instruktioner.
 
@@ -110,7 +110,7 @@ Det är inte tillåtet att återanvända de fyra senaste lösenorden som tilldel
 
    ![Logga ut](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-Sidan _[!UICONTROL Sign In]_&#x200B;visar ett meddelande om att du är utloggad. Logga ut från_ Admin _när du lämnar datorn obevakad.
+Sidan _[!UICONTROL Sign In]_visar ett meddelande om att du är utloggad. Logga ut från_ Admin _när du lämnar datorn obevakad.
 
 ## Redigera kontoinformation
 
@@ -132,13 +132,13 @@ Sidan _[!UICONTROL Sign In]_&#x200B;visar ett meddelande om att du är utloggad.
 
 Administratören ger åtkomst till funktionerna för att hantera order, kunder, produkter, frakt och betalningar. Standardkonfigurationen är inställd på att inte tillåta flera inloggningar för ett administratörskonto som en god säkerhetsrutin. Du kan dock ändra den här inställningen så att administratörsanvändare kan logga in från flera enheter för att få plats med dina arbetsflöden.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra navigeringspanelen och välj **[!UICONTROL Admin]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Security]**.
 
-1. Välj `Yes` för **Admin Account Sharing**.
+1. Välj **för** Admin Account Sharing`Yes`.
 
    ![Tillåt delning av administratörskonton](./assets/multiple-admin-login.png){width="700" zoomable="yes"}
 
@@ -146,7 +146,7 @@ Administratören ger åtkomst till funktionerna för att hantera order, kunder, 
 
 ## Ange administratörens inloggningsnamn som skiftlägeskänsliga
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra navigeringspanelen och välj **[!UICONTROL Admin]**.
 
@@ -156,13 +156,12 @@ Administratören ger åtkomst till funktionerna för att hantera order, kunder, 
 
 1. Klicka på **[!UICONTROL Save Config]**.
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## Upprätthåll säker åtkomst till administratören
 
 För att försäkra dig om att din administratör är säker bör du regelbundet kontrollera användare och roller med administratörsåtkomst.
 
-Överväg också att [uppdatera Admin Base URL-konfigurationen](https://experienceleague.adobe.com/sv/docs/commerce-admin/config/advanced/admin#admin-base-url) om du vill ändra standardslutpunkten `/admin` till en anpassad sökväg. Att konfigurera en anpassad sökväg ger följande säkerhetsfördelar:
+Överväg också att [uppdatera Admin Base URL-konfigurationen](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) om du vill ändra standardslutpunkten `/admin` till en anpassad sökväg. Att konfigurera en anpassad sökväg ger följande säkerhetsfördelar:
 
 **Förbättrat skydd**: Standardsökvägen för admin är allmänt känd och är ofta riktad till illasinnade aktörer som försöker attackera med styrkan. Genom att ändra det till ett unikt, anpassat värde minskar du avsevärt risken för obehöriga åtkomstförsök.
 
@@ -174,4 +173,4 @@ För att försäkra dig om att din administratör är säker bör du regelbundet
 
 >[!NOTE]
 >
->Om det finns misstanke om en överträdelse ska du ta bort alla okända administratörsanvändare och återställa alla administratörslösenord. Mer information finns i [säkerhetsplanen](https://experienceleague.adobe.com/sv/docs/commerce-admin/systems/security/security).
+>Om det finns misstanke om en överträdelse ska du ta bort alla okända administratörsanvändare och återställa alla administratörslösenord. Mer information finns i [säkerhetsplanen](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security).

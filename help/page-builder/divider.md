@@ -3,7 +3,7 @@ title: Elements - avdelare
 description: Lär dig mer om Divider-innehållstypen som används för att lägga till en regel som en visuell brytning mellan innehållsavsnitt på  [!DNL Page Builder] scenen.
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Använd innehållstypen _Delare_ om du vill lägga till en regel som en visuell 
 
 1. Ändra avgränsaren **[!UICONTROL Line Color]** på något av följande sätt:
 
-   - Ange ett giltigt [HTML-färgnamn][1]. Exempel: `Teal`.
+   - Ange ett giltigt [HTML-färgnamn](https://en.wikipedia.org/wiki/Web_colors). Exempel: `Teal`.
    - Ange hexadecimalt färgvärde. Exempel: `#008080`.
 
    Klicka på **[!UICONTROL Apply]** när du är klar.
@@ -73,7 +73,7 @@ Använd innehållstypen _Delare_ om du vill lägga till en regel som en visuell 
 
    ![Anger linjefärg, tjocklek och bredd](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Uppdatera inställningarna för _[!UICONTROL Advanced]_&#x200B;efter behov.
+1. Uppdatera inställningarna för _[!UICONTROL Advanced]_efter behov.
 
    - Om du vill styra placeringen av avgränsaren i den överordnade behållaren väljer du **[!UICONTROL Alignment]**:
 
@@ -146,7 +146,7 @@ För en formaterad avgränsare med specifika inställningar är det effektivare 
 
    ![Duplicerad avdelare](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. Håll pekaren över den nya delningsbehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta &#x200B;](./assets/pb-icon-move.png){width="20"} ).
+1. Håll pekaren över den nya delningsbehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta ](./assets/pb-icon-move.png){width="20"} ).
 
    ![Flytta en avdelare](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 
@@ -156,6 +156,5 @@ För en formaterad avgränsare med specifika inställningar är det effektivare 
 
    ![Flyttar den duplicerade delaren till position](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
-[1]: https://en.wikipedia.org/wiki/Web_colors
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

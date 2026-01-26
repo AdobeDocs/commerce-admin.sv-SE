@@ -3,8 +3,8 @@ title: '[!DNL Commerce Intelligence]-verktyg'
 description: Läs om hur handlare i Adobe Commerce och Magento Open Source kan använda Commerce Intelligence verktyg för att få de insikter de behöver för att fatta sunda affärsbeslut.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -17,13 +17,13 @@ Använd Commerce Intelligence verktyg för att få den kunskap som behövs för 
 
 ## [!DNL Commerce Intelligence]-konto
 
-När du aktiverar ett [!DNL Commerce Intelligence]-konto via Adobe får du tillgång till fem instrumentpaneler med ungefär 70 rapporter. Dessa rapporter är utformade för att ge insikter om era data och svara på frågor som&quot;Hur växer mina order månadsvis?&quot;,&quot;Vilka är mina mest lojala kunder?&quot; och&quot;Fungerar min kupongstrategi?&quot; Mer information om den här verktygsuppsättningen finns i [Commerce Intelligence användarhandbok][1].
+När du aktiverar ett [!DNL Commerce Intelligence]-konto via Adobe får du tillgång till fem instrumentpaneler med ungefär 70 rapporter. Dessa rapporter är utformade för att ge insikter om era data och svara på frågor som&quot;Hur växer mina order månadsvis?&quot;,&quot;Vilka är mina mest lojala kunder?&quot; och&quot;Fungerar min kupongstrategi?&quot; Mer information om den här verktygsuppsättningen finns i [Commerce Intelligence användarhandbok](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html).
 
 ## [!DNL Advanced Reporting]
 
 [!DNL Advanced Reporting] ingår i Adobe Commerce och Magento Open Source. Den här funktionen ger er tillgång till en uppsättning dynamiska rapporter som baseras på era produkt-, order- och kunddata, med en anpassad kontrollpanel som är anpassad efter era affärsbehov. [!DNL Advanced Reporting] använder [!DNL Commerce Intelligence] för analys, men du behöver inte ha något Commerce Intelligence-konto för att använda [!DNL Advanced Reporting].
 
-Teknisk information finns i avsnittet [[!DNL Advanced Reporting]][2]{:target="_blank"} i utvecklardokumentationen.
+Teknisk information finns i avsnittet [[!DNL Advanced Reporting]](https://developer.adobe.com/commerce/php/development/advanced-reporting/){:target="_blank"} i utvecklardokumentationen.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Teknisk information finns i avsnittet [[!DNL Advanced Reporting]][2]{:target="_b
 
 * [!DNL Commerce] och **[!UICONTROL Use Secure URLs on Storefront]** måste anges till **[!UICONTROL Use Secure URLs in Admin]** i konfigurationen `Yes` för arkiv-URL:er.
 
-* [[!DNL Commerce] crontab][3] skapas och cron-jobb körs på den installerade servern.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) skapas och cron-jobb körs på den installerade servern.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Teknisk information finns i avsnittet [[!DNL Advanced Reporting]][2]{:target="_b
 
 I [!DNL Commerce]-konfigurationen är [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) aktiverad som standard och startar automatiskt om cron är [konfigurerad](../configuration-reference/advanced/system.md) och körs. Ett försök att upprätta prenumerationen påbörjas i början av varje timme under de kommande 24 timmarna tills det är klart. Prenumerationsstatusen är &quot;väntande&quot; tills prenumerationen har upprättats.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Välj **[!UICONTROL General]** i den vänstra navigeringspanelen där **[!UICONTROL Advanced Reporting]** är expanderat och gör följande:
 
@@ -77,7 +77,7 @@ I [!DNL Commerce]-konfigurationen är [[!DNL Advanced Reporting]](../configurati
 1. Gör något av följande:
 
    * Välj _på sidofältet_ Admin **[!UICONTROL Dashboard]**. Klicka sedan på **[!UICONTROL Go to Advanced Reporting]**.
-   * Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Business Intelligence]_&#x200B;Admin **[!UICONTROL Advanced Reporting]**.
+   * Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Business Intelligence]_Admin **[!UICONTROL Advanced Reporting]**.
 
    Kontrollpanelen [!DNL Advanced Reporting] innehåller en snabb sammanfattning av dina beställningar, kunder och produkter. Se till att bläddra nedåt för att se hela instrumentpanelen.
 
@@ -100,7 +100,7 @@ Om du får ett 404-meddelande om att sidan inte hittades kontrollerar du att din
 
 ### Kontrollera att integreringen är aktiv
 
-1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Extensions]_&#x200B;Admin **[!UICONTROL Integration]**.
+1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Extensions]_Admin **[!UICONTROL Integration]**.
 
 1. Kontrollera att integreringen av **[!UICONTROL Magento Analytics user]** visas i listan och att **[!UICONTROL Status]** är `Active`.
 
@@ -176,8 +176,3 @@ Om du märker att bildtexten `Data last updated...` visar gårdagens datum och i
 | [!UICONTROL Best Selling Products by Revenue] | Visar de mest säljande produkterna och intäkterna som genereras av försäljningen av produkten via butiksvyn under den definierade tidsperioden. |
 
 {style="table-layout:auto"}
-
-
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=sv-SE
-[2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=sv-SE

@@ -3,30 +3,30 @@ title: Google AdWord
 description: Lär dig hur du konfigurerar din Commerce-butik för konvertering av Google AdWords för att mäta vilka annonsklickningar som leder till en försäljning eller andra värdefulla åtgärder.
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
 # Google AdWord
 
-[Google AdWords][1] är en tjänst som du kan använda för att placera annonser i Google Search-resultat och på företagssidor i Google Display Network. På AdWords-kontrollpanelen finns verktyg för att hantera kampanjer, spåra svar och mäta resultat.
+[Google AdWords](https://www.google.com/adwords/) är en tjänst som du kan använda för att placera annonser i Google Search-resultat och på företagssidor i Google Display Network. På AdWords-kontrollpanelen finns verktyg för att hantera kampanjer, spåra svar och mäta resultat.
 
-Konverteringsspårning visar antalet annonsklickningar som leder till en försäljning eller någon annan värdefull åtgärd. Sidan _Slutfört_ som visas för kunden efter att en order har skickats används för att spåra konverteringar eftersom den bara visas efter en försäljning. När du har slutfört Google AdWords-konfigurationen för din butik behöver du inte kopiera konverteringsspårningsskriptet till sidan Slutfört eftersom Commerce redan har den information som krävs. Mer information finns i [Hjälp för Google AdWords][2].
+Konverteringsspårning visar antalet annonsklickningar som leder till en försäljning eller någon annan värdefull åtgärd. Sidan _Slutfört_ som visas för kunden efter att en order har skickats används för att spåra konverteringar eftersom den bara visas efter en försäljning. När du har slutfört Google AdWords-konfigurationen för din butik behöver du inte kopiera konverteringsspårningsskriptet till sidan Slutfört eftersom Commerce redan har den information som krävs. Mer information finns i [Hjälp för Google AdWords](https://support.google.com/adwords/answer/6095821).
 
-![Adobe annons i Google sökresultat](./assets/google-adwords-adobe-ad.png){width="500"}
+![Adobe Ad in Google Search Results](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## Steg 1. Skapa en kampanj för Google AdWords
 
-1. Besök [Google AdWords][3] och registrera dig för ett konto.
+1. Besök [Google AdWords](https://ads.google.com/) och registrera dig för ett konto.
 
 1. Följ instruktionerna för att skapa en kampanj.
 
 1. Så här ställer du in konverteringsspårning för kampanjen:
 
-   - Välj **[!UICONTROL Conversions]** på fliken **[!UICONTROL Tools]** på din AdWords-instrumentpanel och klicka på **[!UICONTROL Conversion]**.
+   - Välj **[!UICONTROL Tools]** på fliken **[!UICONTROL Conversions]** på din AdWords-instrumentpanel och klicka på **[!UICONTROL Conversion]**.
 
    - Välj **[!UICONTROL Website]** när du uppmanas att ange konverteringskällan.
 
@@ -62,7 +62,7 @@ Konverteringsspårning visar antalet annonsklickningar som leder till en försä
 
 {{gtag-api-note}}
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Om du konfigurerar Google AdWords för en viss butiksvy gör du följande:
 
@@ -90,7 +90,7 @@ Konverteringsspårning visar antalet annonsklickningar som leder till en försä
       - `2` - Visar ett tvåradsmeddelande med en länk till mer information om Google-spårning.
       - `3` - Visar inget kundmeddelande.
 
-   - Ange den [hexadecimala koden][4]{:target=&quot;_blank&quot;} för den **[!UICONTROL Conversion Color]** som du vill använda som meddelandeetikett för Google Site Stats.
+   - Ange den [hexadecimala koden](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} för den **[!UICONTROL Conversion Color]** som du vill använda som meddelandeetikett för Google Site Stats.
 
    - Ange den krypterade texten för **[!UICONTROL Conversion Label]** som visas på Google Sites Stat-meddelandet.
 
@@ -125,15 +125,10 @@ Konverteringsspårning visar antalet annonsklickningar som leder till en försä
    - `Dynamic` - Avgör att en konvertering har skett baserat på det dynamiska orderbeloppsvärdet.
    - `Constant` - Avgör att en konvertering har inträffat baserat på ett specifikt värde som angetts.
 
-   För konverteringsvärdetypen _Konstant_ anger du en specifik **[!UICONTROL Value]** för _[!UICONTROL Order Amount]_&#x200B;som ska kvalificeras som en konvertering.
+   För konverteringsvärdetypen _Konstant_ anger du en specifik **[!UICONTROL Value]** för _[!UICONTROL Order Amount]_som ska kvalificeras som en konvertering.
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Steg 4. Verifiera konfigurationen
 
 Spårningsstatusen på Google AdWords-instrumentpanelen ändras inom några timmar från `Unverified` till `No recent conversions` eller `Recording conversions`. När någon klickar på din annons och gör ett köp visas konverteringen på sidan Konverteringsåtgärder på kontrollpanelen och kampanjrapporten.
-
-[1]: https://www.google.com/adwords/
-[2]: https://support.google.com/adwords/answer/6095821
-[3]: https://ads.google.com/
-[4]: https://www.w3schools.com/colors/colors_picker.asp

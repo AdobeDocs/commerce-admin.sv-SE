@@ -3,7 +3,7 @@ title: Element - knappar
 description: Lär dig mer om innehållstypen Knappar som används för att lägga till en enskild knapp eller en uppsättning knappar på scenen [!DNL Page Builder] .
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -107,7 +107,7 @@ När du arbetar med innehållstypen Knappar lägger du till och redigerar enskil
 
      ![Välj CMS-sida för knapplänken](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. Slutför de [avancerade inställningarna][advanced-settings] efter behov.
+1. Slutför de [avancerade inställningarna](#change-advanced-settings) efter behov.
 
 1. När du är klar klickar du på **[!UICONTROL Save]** i det övre högra hörnet för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
@@ -135,7 +135,7 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
    ![Knappinställningar för Kontakta oss](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Slutför de [avancerade inställningarna][advanced-settings] efter behov.
+1. Slutför de [avancerade inställningarna](#change-advanced-settings) efter behov.
 
 1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
@@ -161,13 +161,13 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
    ![Knappbehållarverktygslådan](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Välj _[!UICONTROL Appearance]_&#x200B;under **[!UICONTROL Stacked]**.
+1. Välj _[!UICONTROL Appearance]_under **[!UICONTROL Stacked]**.
 
 1. Ange **[!UICONTROL All Buttons are same size]** till `Yes`.
 
    ![Staplade knappar med samma storlek](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. Uppdatera de återstående inställningarna efter behov med hjälp av beskrivningarna från [Ändra inställningarna för en knappbehållare][button-container].
+1. Uppdatera de återstående inställningarna efter behov med hjälp av beskrivningarna från [Ändra inställningarna för en knappbehållare](#change-settings-for-a-button-container).
 
 1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
@@ -179,7 +179,7 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
 1. Klicka på den knapp som du vill flytta.
 
-1. Markera och dra ikonen Flytta ( ![ikonen Flytta &#x200B;](./assets/pb-icon-move.png){width="20"} ), som visas precis före knapptexten, till en ny plats för knappen i knappbehållaren.
+1. Markera och dra ikonen Flytta ( ![ikonen Flytta ](./assets/pb-icon-move.png){width="20"} ), som visas precis före knapptexten, till en ny plats för knappen i knappbehållaren.
 
    ![Flytta en knapp](./assets/pb-elements-button-set-move-button.png){width="500" zoomable="yes"}
 
@@ -214,7 +214,7 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
      {style="table-layout:auto"}
 
-1. Slutför de [avancerade inställningarna][advanced-settings] efter behov.
+1. Slutför de [avancerade inställningarna](#change-advanced-settings) efter behov.
 
 1. Om du vill spara inställningarna och återgå till arbetsytan [!DNL Page Builder] klickar du på **[!UICONTROL Save]** i det övre högra hörnet.
 
@@ -237,7 +237,7 @@ I följande avsnitt beskrivs en serie steg som börjar med en enskild knapp och 
 
      När värdet är `Yes` har alla knappar i behållaren en konsekvent storlek baserat på längden på den längsta knapptexten.
 
-1. Slutför de [avancerade inställningarna][advanced-settings] efter behov.
+1. Slutför de [avancerade inställningarna](#change-advanced-settings) efter behov.
 
 1. När du är klar klickar du på **[!UICONTROL Save]** för att tillämpa inställningarna och återgå till arbetsytan i [!DNL Page Builder].
 
@@ -298,7 +298,5 @@ Du kan ändra _[!UICONTROL Advanced]_-inställningarna för enskilda knappar och
 
    {style="table-layout:auto"}
 
-[advanced-settings]: #change-advanced-settings
-[button-container]: #change-settings-for-a-button-container
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

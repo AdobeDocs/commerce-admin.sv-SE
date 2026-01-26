@@ -3,7 +3,7 @@ title: Utfärda en kreditnota
 description: Lär dig hur du skapar och skriver ut en kreditnota för en fakturerad order.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2132'
 ht-degree: 0%
@@ -47,13 +47,13 @@ Fastställ vilken typ av återbetalning du vill utfärda - för ett [kreditköp]
 
 ### Återbetala ett kreditköp
 
-1. Gå till **[!UICONTROL Sales]** > **[!UICONTROL Orders]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Sales]** Admin **[!UICONTROL Orders]**.
 
    ![Ordningsrutnät](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 1. Sök efter ordningen i rutnätet och klicka på **[!UICONTROL View]**.
 
-1. Om knappen _[!UICONTROL Credit Memo]_&#x200B;visas i knappfältet gör du något av följande:
+1. Om knappen _[!UICONTROL Credit Memo]_visas i knappfältet gör du något av följande:
 
    - Gå till steg 6 för att utfärda en `offline`-återbetalning.
    - Om du vill återbetala `online` fortsätter du med steg 4.
@@ -122,7 +122,7 @@ Fastställ vilken typ av återbetalning du vill utfärda - för ett [kreditköp]
 
 ### Utfärda en offlineåterbetalning för check- eller penningorder
 
-1. Gå till **[!UICONTROL Sales]** > **[!UICONTROL Orders]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Sales]** Admin **[!UICONTROL Orders]**.
 
 1. Leta reda på den slutförda ordningen i rutnätet och öppna den genom att klicka på länken **[!UICONTROL View]**.
 
@@ -272,9 +272,9 @@ Betalningsmetoden som används för ordern avgör vilka återbetalningsknappar s
 
 ## Skriv ut en kreditnota
 
-Om du vill skriva ut eller visa den ifyllda kreditnotan måste du ha en läsare för PDF installerad. Du kan hämta [Adobe Reader][1] utan kostnad.
+Om du vill skriva ut eller visa den ifyllda kreditnotan måste du ha en PDF Reader installerad. Du kan ladda ned [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Hämta Adobe Reader") utan kostnad.
 
-1. Gå till **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Sales]** på sidofältet _[!UICONTROL Operations]_Admin **[!UICONTROL Credit Memos]**.
 
 1. Skriv ut kreditnotan på något av följande sätt:
 
@@ -298,7 +298,4 @@ Om du vill skriva ut eller visa den ifyllda kreditnotan måste du ha en läsare 
 
    - Spara dokumentet genom att klicka på **[!UICONTROL Save]** och följa anvisningarna för att spara filen på datorn. När nedladdningen är klar öppnar du PDF i Adobe Reader och skriver ut dokumentet.
 
-   - Klicka på **[!UICONTROL Open]** om du vill visa dokumentet. Den tryckta kreditnotan för PDF öppnas i Adobe Reader. Härifrån kan du antingen skriva ut kreditnotan eller spara den på datorn.
-
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Skaffa Adobe Reader"
+   - Klicka på **[!UICONTROL Open]** om du vill visa dokumentet. Den tryckta PDF-kreditnotan öppnas i Adobe Reader. Härifrån kan du antingen skriva ut kreditnotan eller spara den på datorn.

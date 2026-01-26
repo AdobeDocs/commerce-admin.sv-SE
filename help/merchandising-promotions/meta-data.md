@@ -1,21 +1,21 @@
 ---
-title: Metadata
+title: Meta data
 description: Läs om hur du kan ange metadata med nyckelord för att förbättra det sätt på vilket sökmotorer indexerar din Commerce-webbplats.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Metadata
+# Meta data
 
 >[!TIP]
 >
->Information om Adobe Commerce as a Cloud Service finns i [metadatariktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=sv-SE) i dokumentationen för Commerce Storefront
+>Information om Adobe Commerce as a Cloud Service finns i [metadatariktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) i dokumentationen för Commerce Storefront
 
 Din butik innehåller platser där du kan ange metadata med sökord för att förbättra sökmotorernas indexering av webbplatsen. När du konfigurerar din butik kan du ange preliminära metadata för att slutföra den senare. Med tiden kan ni finjustera metadata för att inrikta er på kundernas köpmönster och önskemål.
 
@@ -27,19 +27,19 @@ Meta-titeln visas i namnlisten och på fliken i webbläsaren och i sökresultatl
 
 ![Exempelarkiv - metarubrik](./assets/storefront-home-page-meta-title.png){width="600"}
 
-## Meta-nyckelord
+## Meta nyckelord
 
 Även om vissa sökmotorer ignorerar metatangentord används de fortfarande av andra. Det bästa sättet är att lägga in nyckelord med högt värde i metatiteln och metabeskrivningen.
 
 ![Webbläsarsökning - metannyckelord](./assets/storefront-meta-description.png){width="500"}
 
-## Meta description
+## Beskrivning av Meta
 
-Metabeskrivningar ger en kort översikt över sidan för sökresultatlistor. I idealfallet bör en metabeskrivning innehålla mellan 150 och 160 tecken, men fältet får innehålla upp till 255 tecken.
+Meta beskrivningar ger en kort översikt över sidan med sökresultatlistor. I idealfallet bör en metabeskrivning innehålla mellan 150 och 160 tecken, men fältet får innehålla upp till 255 tecken.
 
 ## Omfattande textutdrag
 
-Detaljerade kodavsnitt innehåller detaljerad information om sökresultatlistor och andra program. Som standard läggs strukturerad datakod som är baserad på standarden [schema.org][1] till i butikens produktmall. Därför finns det mer information för sökmotorer som ska inkluderas som _avancerade fragment_ i produktlistor.
+Detaljerade kodavsnitt innehåller detaljerad information om sökresultatlistor och andra program. Som standard läggs strukturerad datakod som är baserad på standarden [schema.org](https://schema.org/) till i butikens produktmall. Därför finns det mer information för sökmotorer som ska inkluderas som _avancerade fragment_ i produktlistor.
 
 ## Kanonisk meta-tagg
 
@@ -70,7 +70,7 @@ Du kan undvika att straffas av sökmotorer genom att utelämna kategorin från U
 
 ### Aktivera den kanoniska meta-taggen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL Catalog]** under.
 
@@ -82,22 +82,20 @@ Du kan undvika att straffas av sökmotorer genom att utelämna kategorin från U
 
 1. Om du vill att sökmotorer bara ska indexera kategorisidor med den fullständiga kategorisökvägen gör du följande:
 
-   - Ange **Använd metataggen för kanonisk länk för kategorierna** till `Yes`.
+   - Ange **Använd Meta-taggen för kanoniska länkar för kategorierna** till `Yes`.
 
-   - Ange **Använd metataggen för kanoniska länkar för produkterna** till `No`.
+   - Ange **Använd Meta-taggen för kanoniska länkar för produkterna** till `No`.
 
 1. Om du vill att sökmotorer bara ska indexera produktsidor med formatet domän-namn/produkt-url-nyckel gör du följande:
 
-   - Ange **Använd metataggen för kanoniska länkar för produkterna** till `Yes`.
+   - Ange **Använd Meta-taggen för kanoniska länkar för produkterna** till `Yes`.
 
-   - Ange **Använd metataggen för kanonisk länk för kategorierna** till `No`.
+   - Ange **Använd Meta-taggen för kanoniska länkar för kategorierna** till `No`.
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
-## Demo av metadata
+## Meta Data Demo
 
 I den här videon får du lära dig mer om hur du hanterar SEO-metadata:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
-
-[1]: https://schema.org/

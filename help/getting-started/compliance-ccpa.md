@@ -3,9 +3,9 @@ title: CCPA-kompatibilitet
 description: Läs mer om California Consumer Privacy Act (CCPA), som utökar konsumenternas rättigheter i Kalifornien att avgöra hur deras personuppgifter samlas in, lagras och används.
 exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2256'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Informationen är en del av ett antal ämnen som hjälper Adobe Commerce handlare och utvecklare att förstå vad Kaliforniens konsumentsekretesslag innebär. Informationen baseras på lagens text. Kontakta er advokat för att bekräfta om CCPA gäller ditt företag.
 
-CCPA [California Consumer Privacy Act][5] (CCPA) utökar konsumenternas rättigheter i Kalifornien för att avgöra hur deras personuppgifter samlas in, lagras och används. Dess betoning är att skydda konsumenterna mot otillåten försäljning eller otillåtet utbyte av eller deras personuppgifter. CCPA antogs 2018 och trädde i kraft den 1 januari 2020.
+CCPA [California Consumer Privacy Act](https://oag.ca.gov/privacy/ccpa) (CCPA) utökar konsumenternas rättigheter i Kalifornien för att avgöra hur deras personuppgifter samlas in, lagras och används. Dess betoning är att skydda konsumenterna mot otillåten försäljning eller otillåtet utbyte av eller deras personuppgifter. CCPA antogs 2018 och trädde i kraft den 1 januari 2020.
 
 CCPA ger konsumenterna följande nya rättigheter:
 
@@ -56,13 +56,13 @@ Om ditt företag måste uppfylla både [allmänna dataskyddsförordningen](compl
 - CCPA har ytterligare krav på datalager och datamappning.
 - Reglerna har olika krav på integritetspolicy.
 
-Företag som följer GDPR kan ha ytterligare skyldigheter enligt CCPA. Mer information finns i [faktablad för CCPA][3]{:target=&quot;_blank&quot;}.
+Företag som följer GDPR kan ha ytterligare skyldigheter enligt CCPA. Mer information finns i [faktablad för CCPA](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ### Vägkarta för regelefterlevnad
 
 Det krävs en samordnad insats för att utveckla och genomföra en plan för att uppfylla kraven. Använd den här färdplanen som guide för att mobilisera resurser och prioritera uppgifter så att ni kan gå vidare på flera fronter. Processen är i princip densamma för alla [!DNL Commerce]-installationer, med följande undantag:
 
-- **Adobe Commerce i molninfrastruktur**: Handlare med butiker som finns i Adobe [molninfrastruktur][4]{:target=&quot;_blank&quot;} kan be sin Adobe Commerce Technical Account Manager eller kundsupport om hjälp med att svara på kundförfrågningar.
+- **Adobe Commerce i molninfrastruktur**: Handlare med butiker som finns i Adobe [molninfrastruktur](https://www.adobe.com/commerce/magento.html){:target="_blank"} kan be sin Adobe Commerce Technical Account Manager eller kundsupport om hjälp med att svara på kundförfrågningar.
 
 - **On-Premise**: Handlare med lokala installationer av Adobe Commerce eller Magento Open Source måste utveckla egna processer och verktyg för att svara på och hantera kundförfrågningar som rör sekretessbestämmelser.
 
@@ -111,8 +111,8 @@ Ta reda på era digitala resurser, inklusive alla integreringar och vem som har 
 
 1. Se följande avsnitt för relevanta dataflödesdiagram och databastentitetsmappningar för respektive version:
 
-   - [Referens för personlig information (2.x)][1]
-   - [Referens för personlig information (1.x)][2]
+   - [Referens för personlig information (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+   - [Referens för personlig information (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
 
    ![diagram](./assets/privacy-frontend-diagram.svg)
 
@@ -126,7 +126,7 @@ Ur datahanteringsperspektiv omfattar varje begäran om personuppgifter följande
 
 - **Enheter som fungerar som företag inom ramen för CCPA** (varumärken): [!DNL Commerce] Handlare samlar in och lagrar personuppgifter från sina kunder och gäster som handlar i sina butiker.
 
-- **Dataprocessor** (teknikleverantörer): Adobe Commerce och Magento Open Source fungerar som processorer av de personuppgifter som lagras som en del av de tjänster som tillhandahålls handlare. Som personuppgiftsbiträde behandlar Adobe personuppgifter i enlighet med handlarens tillstånd och instruktioner, i enlighet med licensavtalet.
+- **Dataprocessor** (teknikleverantörer): Adobe Commerce och Magento Open Source fungerar som processorer av de personuppgifter som lagras som en del av de tjänster som tillhandahålls handlare. Som behandlare behandlar Adobe personuppgifter i enlighet med handlarens tillstånd och instruktioner, enligt licensavtalet.
 
 Handlarna ansvarar för följande:
 
@@ -146,8 +146,8 @@ Handlarna ansvarar för följande:
 
    - **Begäranden att ta bort**
 
-      - Handlare vars butiker ligger hos Adobe Commerce Cloud bör kontakta Adobe Support för att få hjälp med att radera personuppgifter. Kontakta den tekniska kontohanteraren eller kundsupporten på Adobe för mer information.
-      - Handlare som kör installationer av Adobe Commerce eller Magento Open Source lokalt måste implementera sin egen process och skript för att radera personuppgifter på begäran.
+      - Handlare vars butiker ligger hos Adobe Commerce Cloud bör kontakta Adobe Support för att få hjälp med att ta bort personuppgifter. Kontakta din kontoansvarige på Adobe eller kundsupport om du vill ha mer information.
+      - Handlare som kör installationer av Adobe Commerce eller Magento Open Source lokalt måste implementera sina egna processer och skript för att radera personuppgifter på begäran.
 
 #### Steg 5: Skriv innehållet för de kundmeddelanden som krävs
 
@@ -198,16 +198,10 @@ Granska din nuvarande integritetspolicy och överväg vilka ytterligare uppgifte
 
   >[!IMPORTANT]
   >
-  >Handlare får inte lagra personuppgifter om barn på [!DNL Commerce]-plattformen eller -systemen. Om det finns anledning att tro att insamlade data tillhör en minderårig måste de tas bort från en [!DNL Commerce]-plattform omedelbart för att undvika brott mot licensvillkoren för Adobe.
+  >Handlare får inte lagra personuppgifter om barn på [!DNL Commerce]-plattformen eller -systemen. Om det finns anledning att tro att insamlade data tillhör en minderårig måste de tas bort från en [!DNL Commerce]-plattform omedelbart för att undvika brott mot Adobe licensvillkor.
 
 #### Steg 8: Dokumentera alla relaterade procedurer och föra register
 
 **intressenter:** Kundtjänst, administrativ support
 
 Under 24 månader efter att varje enskild begäran om rättigheter har tagits emot ska du föra ett register över begäran och ditt företags svar.
-
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=sv-SE
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=sv-SE
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
-[4]: https://www.adobe.com/commerce/magento.html
-[5]: https://oag.ca.gov/privacy/ccpa

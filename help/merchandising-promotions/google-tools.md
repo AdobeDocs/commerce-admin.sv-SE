@@ -3,7 +3,7 @@ title: Google webbplatsverktyg
 description: Läs mer om de Google-verktyg som ni kan använda för att optimera ert innehåll, analysera trafiken och koppla samman er katalog med shoppingaggregatorer och marknadsplatser.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Om ditt företag måste följa sekretessregler som [GDPR](../getting-started/com
 
 ### Steg 1: Uppdatera Google-inställningar
 
-1. [Logga in][1]{: target="_blank"} på ditt företags Google Analytics-konto.
+1. [Logga in](https://www.google.com/analytics/){: target="_blank"} på ditt företags Google Analytics-konto.
 
 1. Välj **[!UICONTROL Admin]** längst ned i det vänstra sidfältet och navigera sedan till det konto som du vill redigera (om tillämpligt).
 
@@ -45,7 +45,7 @@ Om ditt företag måste följa sekretessregler som [GDPR](../getting-started/com
 
 1. Acceptera _databearbetningstillägget_.
 
-   Google Ads Data Processing Terms beskriver hur Google behandlar data och vilka åtgärder som vidtas för att säkerställa datasäkerheten för företag som omfattas av den allmänna dataskyddsförordningen. En förteckning över era juridiska personer och kontaktuppgifter bevaras också i samband med ändringen. Om du vill [lära dig mer][2]{: target="_blank"} klickar du på länken i meddelandet längst upp på sidan.
+   Google Ads Data Processing Terms beskriver hur Google behandlar data och vilka åtgärder som vidtas för att säkerställa datasäkerheten för företag som omfattas av den allmänna dataskyddsförordningen. En förteckning över era juridiska personer och kontaktuppgifter bevaras också i samband med ändringen. Om du vill [lära dig mer](https://support.google.com/analytics/answer/3379636){: target="_blank"} klickar du på länken i meddelandet längst upp på sidan.
 
    - Bläddra ned sidan till **[!UICONTROL Data Processing Amendment]**.
    - Klicka på **[!UICONTROL Review Amendment]** för att läsa _Google Ads Data Processing Terms_.
@@ -56,7 +56,7 @@ Om ditt företag måste följa sekretessregler som [GDPR](../getting-started/com
 
    - Klicka på **[!UICONTROL Manage DPA Details]** för att öppna en DPA-administrationssida där du kan redigera kontakter och organisationens juridiska personer.
 
-   - Klicka på ikonen **[!UICONTROL Legal Entities]** Redigera _(_ Google-redigeringsikonen![&#x200B; ) i avsnittet &#x200B;](./assets/google-icon-edit.png) och lägg till ett eller flera registrerade namn för din organisation. Klicka på **[!UICONTROL Save]** när du är klar.
+   - Klicka på ikonen **[!UICONTROL Legal Entities]** Redigera _(_ Google-redigeringsikonen![ ) i avsnittet ](./assets/google-icon-edit.png) och lägg till ett eller flera registrerade namn för din organisation. Klicka på **[!UICONTROL Save]** när du är klar.
 
    - I avsnittet **Kontakter** klickar du på ikonen _Lägg till_ ( ![Lägg till Google-ikon](./assets/google-icon-add.png) ) och anger information för den första kontakten. Markera sedan kryssrutan för varje tillämplig roll och klicka på **[!UICONTROL Add]**.
 
@@ -80,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-Mer information finns i [Fältreferens för Analytics.js][3]{: target="_blank"} i Google-hjälpen.
+Mer information finns i [Fältreferens för Analytics.js](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"} i Google-hjälpen.
 
 Om du använder det gamla `ga.js`-biblioteket lägger du till följande kodutdrag:
 
@@ -98,7 +98,7 @@ gtag.js
 : `gtag('event', 'your_event', { 'anonymize_ip': true })`
 ```
 
-Mer information finns i [IP-analys i Analytics][4] i Google-hjälpen.
+Mer information finns i [IP-analys i Analytics](https://support.google.com/analytics/answer/2763052) i Google-hjälpen.
 
 #### Tvinga SSL
 
@@ -118,8 +118,3 @@ Uppdatera din [sekretesspolicy](../getting-started/privacy-policy.md) för att a
 - Maskerar IP-adresser för att dölja personlig information
 - Har inaktiverat Google-datadelning
 - Använder inte andra Google-tjänster med Google Analytics cookies
-
-[1]: https://www.google.com/analytics/
-[2]: https://support.google.com/analytics/answer/3379636
-[3]: https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference
-[4]: https://support.google.com/analytics/answer/2763052

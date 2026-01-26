@@ -3,8 +3,8 @@ title: Länk till PayPal-betalningsflöde
 description: Lär dig hur du konfigurerar PayPal Payflow Link som en onlinebetalningslösning i din butik.
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Kreditnotor stöds för både online- och offlineåterbetalningar. Flera online�
 
 ## Krav
 
-- [PayPal Business Account][1] PayPal Payflow Pro-gatewayen länkar handlarkontot på PayPal till handlarens webbplats, vilket fungerar som både gateway och handlarkonto.
+- [PayPal Business Account](https://www.paypal.com/webapps/mpp/how-to-sell-online) PayPal Payflow Pro-gatewayen länkar handlarkontot på PayPal till handlarens webbplats, vilket fungerar som både gateway och handlarkonto.
 
 - Om du hanterar flera Commerce-webbplatser måste du ha ett separat PayPal-handelskonto för varje webbplats.
 
@@ -50,9 +50,9 @@ Kreditnotor stöds för både online- och offlineåterbetalningar. Flera online�
 
 ## Konfigurera ditt PayPal-konto
 
-1. Logga in på ditt [PayPal-företagskonto][2].
+1. Logga in på ditt [PayPal-företagskonto](https://manager.paypal.com/).
 
-1. Konfigurera [värdbaserade utcheckningssidor][4] med PayPal Manager med följande inställningar:
+1. Konfigurera [värdbaserade utcheckningssidor](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager) med PayPal Manager med följande inställningar:
 
    - Fyll i följande inställningar under **[!UICONTROL Security Options]**:
 
@@ -93,13 +93,13 @@ Kreditnotor stöds för både online- och offlineåterbetalningar. Flera online�
 
 Den här installationsmetoden förutsätter att du har ett befintligt PayPal-konto.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Payment Methods]**.
 
 1. Om din Commerce-installation har flera webbplatser, butiker eller vyer anger du **[!UICONTROL Store View]** i butiksvyn där du vill använda den här konfigurationen.
 
-1. I avsnittet _[!UICONTROL Merchant Location]_&#x200B;väljer du **[!UICONTROL Merchant Country]**&#x200B;där ditt företag finns.
+1. I avsnittet _[!UICONTROL Merchant Location]_väljer du **[!UICONTROL Merchant Country]**där ditt företag finns.
 
    Den här inställningen bestämmer valet av PayPal-lösningar som visas i konfigurationen.
 
@@ -129,7 +129,7 @@ Den här installationsmetoden förutsätter att du har ett befintligt PayPal-kon
 
 1. Om du vill köra testtransaktioner anger du **[!UICONTROL Test Mode]** till `Yes`.
 
-   När du testar konfigurationen i en sandlåda ska du bara använda [kreditkortsnummer][3] som rekommenderas av PayPal. När du är redo att börja producera återgår du till konfigurationen och ställer in testläget på `No`.
+   När du testar konfigurationen i en sandlåda ska du bara använda [kreditkortsnummer](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) som rekommenderas av PayPal. När du är redo att börja producera återgår du till konfigurationen och ställer in testläget på `No`.
 
 1. Om systemet använder en proxyserver för att upprätta anslutningen till PayPal-systemet anger du **[!UICONTROL Test Mode]** till `Yes` och gör följande:
 
@@ -365,7 +365,7 @@ Ange **[!UICONTROL Enable PayPal PayLater Experience]** till något av följande
 
 #### Frontend Experience Settings
 
-Använd _[!UICONTROL Frontend Experience Settings]_&#x200B;för att välja vilka PayPal-logotyper som ska visas på din webbplats och för att anpassa utseendet på PayPal-handlarsidorna.
+Använd _[!UICONTROL Frontend Experience Settings]_för att välja vilka PayPal-logotyper som ska visas på din webbplats och för att anpassa utseendet på PayPal-handlarsidorna.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Frontend Experience Settings]**.
 
@@ -420,7 +420,7 @@ Använd _[!UICONTROL Frontend Experience Settings]_&#x200B;för att välja vilka
    - `Authorization` - Godkänner köpet och spärrar pengarna. Beloppet dras inte tillbaka förrän det _har hämtats_ av handlaren.
    - `Sale` - Köpbeloppet är auktoriserat och dras omedelbart tillbaka från kundens konto.
 
-1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_&#x200B;på produktsidan anger du **[!UICONTROL Display on Product Details Page]**&#x200B;till `Yes`.
+1. Om du vill visa knappen _[!UICONTROL Check out with PayPal]_på produktsidan anger du **[!UICONTROL Display on Product Details Page]**till `Yes`.
 
 ### Steg 7: Slutför de avancerade inställningarna för PayPal Express Checkout
 
@@ -448,8 +448,3 @@ Använd _[!UICONTROL Frontend Experience Settings]_&#x200B;för att välja vilka
 1. Om du vill att kunden ska kunna slutföra transaktionen från PayPal-webbplatsen utan att gå tillbaka till din butik för ordergranskning anger du **[!UICONTROL Skip Order Review Step]** till `Yes`.
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[4]: https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager

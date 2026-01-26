@@ -3,7 +3,7 @@ title: '[!DNL Page Builder] Gå igenom del 3: kataloginnehåll'
 description: Lär dig hur du lägger till en produktlista på en [!DNL Page Builder] sida.
 exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 0%
@@ -24,15 +24,15 @@ I den här övningen förutsätts att du har slutfört [Del 1: Enkel sida](1-sim
 
 ### Steg 1: Lägg till en produktlista på scenen
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Elements]_Admin **[!UICONTROL Pages]**.
 
 1. Hitta den _enkla sidan_ som du skapade i den första övningen och ändrade i den andra och välj **[!UICONTROL Edit]** i kolumnen _[!UICONTROL Action]_.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Content]** och klicka på **[!UICONTROL Edit with Page Builder]** eller inuti förhandsvisningsområdet för innehållet.
 
-1. Dra en **[!UICONTROL Row]** till scenens övre del på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_.
+1. Dra en [!DNL Page Builder] till scenens övre del på panelen _[!UICONTROL Layout]_under **[!UICONTROL Row]**.
 
-1. Expandera **[!UICONTROL Add Content]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Products]** platshållare till den nya raden.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Add Content]** och dra en **[!UICONTROL Products]** platshållare till den nya raden.
 
    ![Dra en produktplatshållare till raden](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"}
 
@@ -42,17 +42,17 @@ I den här övningen förutsätts att du har slutfört [Del 1: Enkel sida](1-sim
 
    ![Verktygslådan Produkter](./assets/pb-add-content-products-toolbox.png){width="600" zoomable="yes"}
 
-1. Välj `Condition` för **[!UICONTROL Select Products By]**.
+1. Välj **[!UICONTROL Select Products By]** för `Condition`.
 
 1. Lägg till ett villkor:
 
    - Klicka på ikonen _Lägg till_ (![Lägg till ikon](../assets/icon-add-green-circle.png)).
 
-   - Välj **[!UICONTROL Category]** under _[!UICONTROL Product Attribute]_.
+   - Välj _[!UICONTROL Product Attribute]_under **[!UICONTROL Category]**.
 
      ![Väljer kategoriattribut för villkoret](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
-   - Slutför delen _[!UICONTROL Category is]..._ av villkoret genom att klicka på ikonen Mer (..) och sedan på ikonen _Väljaren_ (![Väljaren &#x200B;](../assets/icon-list-chooser.png)).
+   - Slutför delen _[!UICONTROL Category is]..._ av villkoret genom att klicka på ikonen Mer (..) och sedan på ikonen _Väljaren_ (![Väljaren ](../assets/icon-list-chooser.png)).
 
      ![Definierar villkoret](./assets/pb-add-content-products-settings-condition-category-is.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ I den här övningen förutsätts att du har slutfört [Del 1: Enkel sida](1-sim
 
 1. Klicka på ikonen _Stäng helskärm_ ( ![ikonen Stäng helskärm](./assets/pb-icon-reduce.png){width="20"} ) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_&#x200B;för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
 
 1. Klicka på pilen **[!UICONTROL Save]** i det övre högra hörnet och välj **[!UICONTROL Save & Close]**.
 
@@ -92,25 +92,25 @@ I den här övningen förutsätts att du har slutfört [Del 1: Enkel sida](1-sim
 
 I den här delen av övningen får du lära dig hur enkelt det är att anpassa en produktsida genom att placera en video under flikarna på produktsidan. Processen att uppdatera [kategorisidans](../catalog/categories-content-settings.md)-innehåll är i princip densamma.
 
-1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
 1. Hitta en enkel produkt som du kan använda i det här exemplet och öppna den i redigeringsläge.
 
 1. Bläddra nedåt och utöka ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Content]**.
 
-1. Klicka på **[!UICONTROL Edit with Page Builder]** bredvid _[!UICONTROL Description]_.
+1. Klicka på _[!UICONTROL Description]_bredvid **[!UICONTROL Edit with Page Builder]**.
 
    ![Innehåll i produktbeskrivning](./assets/pb-catalog-product-content.png){width="600" zoomable="yes"}
 
    Om produktbeskrivningen har angetts tidigare utan [!DNL Page Builder] visas den aktuella beskrivningen som HTML i en [HTML Code](html-code.md) -behållare. Med Luma-temat visas produktbeskrivningen på fliken Detaljer.
 
-1. Dra en **[!UICONTROL Row]** till scenen på panelen [!DNL Page Builder] under _[!UICONTROL Layout]_&#x200B;och placera den nedanför kodbehållaren HTML.
+1. Dra en [!DNL Page Builder] till scenen på panelen _[!UICONTROL Layout]_under **[!UICONTROL Row]**och placera den nedanför HTML-kodbehållaren.
 
    Leta efter den röda stödlinjen som ska visas när raden är i rätt position.
 
    ![Dra en rad till scenen](./assets/catalog-product-content-stage-row-drag.png){width="600" zoomable="yes"}
 
-1. Expandera **[!UICONTROL Media]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Video]** platshållare till den nya raden.
+1. Expandera [!DNL Page Builder] på panelen **[!UICONTROL Media]** och dra en **[!UICONTROL Video]** platshållare till den nya raden.
 
    ![Platshållare för video på raden](./assets/tutorial3-product-drag-video.png){width="600" zoomable="yes"}
 
@@ -120,7 +120,7 @@ I den här delen av övningen får du lära dig hur enkelt det är att anpassa e
 
 1. Ange **[!UICONTROL Video URL]**.
 
-   Videon kan finnas på [YouTube][1] eller [Vimeo][2]. Videon i det här exemplet finns på YouTube på följande URL:
+   Videon kan finnas på [YouTube](https://www.youtube.com/) eller [Vimeo](https://vimeo.com/). Videon i det här exemplet finns på YouTube på följande URL:
 
    `https://www.youtube.com/watch?v=ZpFrNyD4100`
 
@@ -136,7 +136,7 @@ I den här delen av övningen får du lära dig hur enkelt det är att anpassa e
 
 1. Klicka på ikonen _Stäng helskärm_ ( ![ikonen Stäng helskärm](./assets/pb-icon-reduce.png){width="20"} ) i scenens övre högra hörn.
 
-   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_&#x200B;för sidan där förhandsvisningen visas.
+   Om du klickar på den här ikonen återgår du till avsnittet _[!UICONTROL Content]_för sidan där förhandsvisningen visas.
 
 1. Klicka på pilen **[!UICONTROL Save]** i det övre högra hörnet och välj **[!UICONTROL Save & Close]**.
 
@@ -154,28 +154,23 @@ Använd det anpassade attributet [!DNL Page Builder] för att lägga till en ful
 
 Om du vill undvika ändringar i din livebutik skapar du en produkt med de beskrivna egenskaperna.
 
-1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
 1. Klicka på **[!UICONTROL Add Product]** i det övre högra hörnet.
 
 1. Skapa produkten med följande egenskaper:
 
-   - &#x200B;
-
-     [!UICONTROL -attributuppsättning]: Default
+   - 
+     [!UICONTROL-attributuppsättning]: Default
    - [!UICONTROL Product Name]: Min produkt
-   - &#x200B;
-
+   - 
      [!UICONTROL SKU]: Tutorial
-   - &#x200B;
-
+   - 
      [!UICONTROL Price]: 75.00
-   - &#x200B;
-
+   - 
      [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status]: I Stock
-   - &#x200B;
-
+   - 
      [!UICONTROL Weight]: 1
    - [!UICONTROL Categories]: Kvinnor > Tops > Tees
 
@@ -185,7 +180,7 @@ Om du vill undvika ändringar i din livebutik skapar du en produkt med de beskri
 
 I det här steget skapar du två nya anpassade attribut som visar hur indatatyperna [!DNL Page Builder] och textredigeraren kan användas.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Product]**.
 
 1. Klicka på **[!UICONTROL Add New Attribute]** i det övre högra hörnet.
 
@@ -195,35 +190,29 @@ I det här steget skapar du två nya anpassade attribut som visar hur indatatype
 
 1. Ange **[!UICONTROL Catalog Input Type for Store Owner]** till `Page Builder`.
 
-   När du skapar ett anpassat attribut kan du ange den redigerare som är bäst lämpad för programmet som antingen `Page Builder` eller standard, WYSIWYG `Text Editor`.
+   När du skapar ett anpassat attribut kan du ange att den redigerare som passar bäst för programmet ska vara antingen `Page Builder` eller standardversionen, WYSIWYG `Text Editor`.
 
-   ![[!DNL Page Builder] Indatatyp &#x200B;](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] Indatatyp ](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) i avsnittet **[!UICONTROL Advanced Attribute Properties]** och gör följande inställningar:
 
    - [!UICONTROL Attribute Code]: Ange en attributkod med gemener, med bindestreck i stället för mellanslag. Använd `my_page_builder_attribute` i det här exemplet.
    - [!UICONTROL Scope]: Acceptera standardvärdet, `Store View`.
    - [!UICONTROL Default Value]: Ange ett standardvärde för attributet.
-   - &#x200B;
-
+   - 
      [!UICONTROL Unique Value]: `No`
-   - &#x200B;
-
+   - 
      [!UICONTROL Add to Column Options]: `No`
-   - &#x200B;
-
+   - 
      [!UICONTROL Use in Filter Options]: `Yes`
 
-1. Välj **[!UICONTROL Storefront Properties]** på panelen _[!UICONTROL Attribute Information]_&#x200B;till vänster och gör följande inställningar:
+1. Välj _[!UICONTROL Attribute Information]_på panelen **[!UICONTROL Storefront Properties]**till vänster och gör följande inställningar:
 
-   - &#x200B;
-
+   - 
      [!UICONTROL Use for Promo Rule Conditions]: `Yes`
-   - &#x200B;
-
+   - 
      [!UICONTROL Visible on Catalog Pages on Storefront]: `Yes`
-   - &#x200B;
-
+   - 
      [!UICONTROL Used in Product Listing]: `Yes`
 
 1. Klicka på **[!UICONTROL Save Attribute]** när du är klar.
@@ -232,13 +221,12 @@ I det här steget skapar du två nya anpassade attribut som visar hur indatatype
 
    - [!UICONTROL Default Label]: Mitt textredigeringsattribut
    - [!UICONTROL Catalog Input Type for Store Owner]: Textredigeraren
-   - &#x200B;
-
-     [!UICONTROL -attributkod]: `my_text_editor_attribute`
+   - 
+     [!UICONTROL-attributkod]: `my_text_editor_attribute`
 
 ### Steg 3: Uppdatera produktattributuppsättningen
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Attributes]_Admin **[!UICONTROL Attribute Set]**.
 
    I det här exemplet lägger du tillfälligt till de nya attributen i attributuppsättningen `default`. När du är klar med övningen tar du bort attributen från attributuppsättningen så att katalogen inte påverkas.
 
@@ -246,7 +234,7 @@ I det här steget skapar du två nya anpassade attribut som visar hur indatatype
    >
    >Om du inte vill ändra din live-butik kan du följa med utan att uppdatera attributuppsättningen.
 
-1. Leta reda på attributuppsättningen _[!UICONTROL Default]_&#x200B;i listan och dubbelklicka på den för att öppna den i redigeringsläge.
+1. Leta reda på attributuppsättningen _[!UICONTROL Default]_i listan och dubbelklicka på den för att öppna den i redigeringsläge.
 
 1. I listan _Ej tilldelade attribut_ letar du reda på de nya attributen som du skapade och drar vart och ett till kolumnen _[!UICONTROL Groups]_, under **[!UICONTROL Content]**.
 
@@ -260,7 +248,7 @@ I det här steget skapar du två nya anpassade attribut som visar hur indatatype
 
 ### Steg 4: Uppdatera produkten
 
-1. Gå till **[!UICONTROL Catalog]** > **[!UICONTROL Products]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Catalog]** Admin **[!UICONTROL Products]**.
 
 1. Leta reda på _Min produkt_ i stödrastret Produkter och öppna den i redigeringsläge.
 
@@ -276,17 +264,17 @@ I det här steget skapar du två nya anpassade attribut som visar hur indatatype
    När du bläddrar till den nedre halvan av avsnittet finns det två attribut som du har skapat och tilldelat:
 
    - _Mitt [!DNL Page Builder] attribut_, som visar [!DNL Page Builder]-förhandsvisningen.
-   - _Mitt textredigeringsattribut_, som använder WYSIWYG-standardredigeraren.
+   - _Mitt textredigeringsattribut_, som använder WYSIWYG standardredigerare.
 
    ![Redigera produktinnehåll](./assets/pb-product-content-my-attributes.png){width="600" zoomable="yes"}
 
-1. Ange `Text Editor Attribute placeholder text` i redigeraren **Mitt textredigeringsattribut**.
+1. Ange **i redigeraren** Mitt textredigeringsattribut`Text Editor Attribute placeholder text`.
 
    - Klicka på pilen **[!UICONTROL Save]** i det övre högra hörnet och välj **[!UICONTROL Save & Close]**.
 
 1. För **My Page Builder-attribut** klickar du på **[!UICONTROL Edit with Page Builder]** och lägger till beskrivningstexten:
 
-   - Expandera **[!UICONTROL Elements]** på panelen [!DNL Page Builder] och dra en **[!UICONTROL Text object]** till scenen.
+   - Expandera [!DNL Page Builder] på panelen **[!UICONTROL Elements]** och dra en **[!UICONTROL Text object]** till scenen.
 
    - Ange `Page Builder attribute placeholder text`.
 
@@ -313,6 +301,3 @@ I det här steget skapar du två nya anpassade attribut som visar hur indatatype
    ![[!DNL Page Builder]- och textredigeringsattribut i butiken](./assets/pb-storefront-product-attribute.png){width="600" zoomable="yes"}
 
 Du har slutfört [!DNL Page Builder]-kataloginnehållsövningen. Behåll det du skapat så att du kan hänvisa till det senare.
-
-[1]: https://www.youtube.com/
-[2]: https://vimeo.com/

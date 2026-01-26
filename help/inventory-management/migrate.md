@@ -3,7 +3,7 @@ title: '[!DNL Commerce] uppgraderingar'
 description: Lär dig hur uppgraderingar av Adobe Commerce och Magento Open Source påverkar kataloger och [!DNL Inventory Management] konfigurationer.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
-source-git-commit: 392d8550741fe6fca3ea1301575c9ebb5e2483bd
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Om du använde lager med en enda källa i en tidigare version innehåller den här informationen information om nya funktioner och ändringar i din befintliga katalog- och lagerkonfigurationer.
 
-[!DNL Inventory Management] för Adobe Commerce och Magento Open Source innehåller funktioner, förbättringar och utvecklarstöd som förbättrar och uppdaterar all produktarkivering och lägger till nya funktioner. Alla funktioner är färdiga, inklusive Source Selection Algorithm och Concurrent Checkout för att matcha orderkvantiteter mot källor och orderleveranser. Beroende på webbplatser, butiker och handelstyp kan du skapa ytterligare lager och källor, tilldela lagerbelopp och mycket annat. Fullständig information finns i [Inventory management](introduction.md).
+[!DNL Inventory Management] för Adobe Commerce och Magento Open Source innehåller funktioner, förbättringar och utvecklarstöd som förbättrar och uppdaterar all produktarkivhantering och lägger till nya funktioner. Alla funktioner är färdiga, inklusive Source Selection Algorithm och Concurrent Checkout för att matcha orderkvantiteter mot källor och orderleveranser. Beroende på webbplatser, butiker och handelstyp kan du skapa ytterligare lager och källor, tilldela lagerbelopp och mycket annat. Fullständig information finns i [Inventory management](introduction.md).
 
 När du installerar Magento Open Source 2.4.x eller Adobe Commerce 2.4.x sker följande initiala ändringar:
 
@@ -54,9 +54,9 @@ När du installerar Magento Open Source 2.4.x eller Adobe Commerce 2.4.x sker f�
 
 ## [!DNL Commerce Order Management] och [!DNL Inventory Management]
 
-[Commerce Order Management (MCOM)][1] är inte kompatibelt med [!DNL Inventory Management]. När MCOM-modulerna är installerade tillhandahåller de alla lagerhanteringsfunktioner för [!DNL Commerce], inklusive single- och multi-source-hantering, stockar, reservationer med mera. Modulerna [!DNL Inventory Management] är inaktiverade som standard.
+[Commerce Order Management (MCOM)](https://commerce-docs.github.io/oms-documentation-archive/) är inte kompatibelt med [!DNL Inventory Management]. När MCOM-modulerna är installerade tillhandahåller de alla lagerhanteringsfunktioner för [!DNL Commerce], inklusive single- och multi-source-hantering, stockar, reservationer med mera. Modulerna [!DNL Inventory Management] är inaktiverade som standard.
 
-MCOM erbjuder omfattande funktioner och tjänster för avancerad flerkanalsbeställningshantering, global lagerhantering och flerleverantörshantering, leverans från butik till lagerställe samt centraliserad kundservice. En fullständig lista över funktioner finns i [MCOM-funktionslistan][2].
+MCOM erbjuder omfattande funktioner och tjänster för avancerad flerkanalsbeställningshantering, global lagerhantering och flerleverantörshantering, leverans från butik till lagerställe samt centraliserad kundservice. En fullständig lista över funktioner finns i [MCOM-funktionslistan](https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/).
 
 [!DNL Inventory Management] utökar befintliga [!DNL Commerce]-funktioner med ytterligare alternativ för att spåra pågående order, lagerbehållning, tillgängligt lager för ett lager och API:er för tilläggsutveckling.
 
@@ -71,6 +71,3 @@ Du kan inaktivera [!DNL Inventory Management] moduler till:
 - Använd [!DNL Order Management System] för lagerhantering. Den aktuella kopplingen stöder inte [!DNL Inventory Management]-gränssnitt. För OMS-handlare som uppgraderar till Adobe Commerce 2.4.0 måste de inaktivera dessa moduler.
 
 Fullständig information finns i [Installera och uppdatera](install-update.md).
-
-[1]: https://commerce-docs.github.io/oms-documentation-archive/
-[2]: https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/

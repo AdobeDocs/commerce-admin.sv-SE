@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Page Builder]-konfiguration'
-description: Lär dig mer om  [!DNL Page Builder] funktionskonfigurationen i Admin för Adobe Commerce och Magento Open Source.
+title: Inställningar för [!DNL Page Builder]
+description: Lär dig mer om  [!DNL Page Builder] funktionskonfigurationen i Admin for Adobe Commerce och Magento Open Source.
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Inställningar för [!DNL Page Builder]
 
-När det är aktiverat i konfigurationen är [!DNL Page Builder] standardverktyget för att skapa innehåll för CMS-sidor, block och dynamiska block. Dessutom erbjuder knappen _[!UICONTROL Enable Advanced CMS]_[!DNL Page Builder] som ett alternativ för Kategorier och Produkter. Du kan också välja standardsidlayouten [som du vill använda för produkter, kategorier och CMS-sidor.](../content-design/page-layout.md) [!DNL Page Builder] är inte tillgängligt för nyhetsbrevinnehåll, som använder WYSIWYG [editor](../content-design/editor.md).
+När det är aktiverat i konfigurationen är [!DNL Page Builder] standardverktyget för att skapa innehåll för CMS-sidor, block och dynamiska block. Dessutom erbjuder knappen _[!UICONTROL Enable Advanced CMS]_[!DNL Page Builder] som ett alternativ för Kategorier och Produkter. Du kan också välja standardsidlayouten [som du vill använda för produkter, kategorier och CMS-sidor.](../content-design/page-layout.md) [!DNL Page Builder] är inte tillgängligt för nyhetsbrevinnehåll som använder WYSIWYG [editor](../content-design/editor.md).
 
 >[!NOTE]
 >
@@ -28,23 +28,23 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 
 ## Konfigurera [!DNL Page Builder]
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
+1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Content Management]**.
 
-1. Expandera ![Expansionsväljaren &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och verifiera att **[!UICONTROL Enable Page Builder]** är inställd på `Yes`.
+1. Expandera ![Expansionsväljaren ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och verifiera att **[!UICONTROL Enable Page Builder]** är inställd på `Yes`.
 
    ![Avancerade innehållsverktyg](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
 1. Om du är redo att konfigurera [!DNL Google Maps] gör du följande:
 
-   - Om det behövs följer du instruktionerna för [Hämta API-nyckel][1] och kopierar och klistrar sedan in **[!UICONTROL Google Maps API Key]**.
+   - Om det behövs följer du instruktionerna för [Hämta API-nyckel](https://developers.google.com/maps/documentation/javascript/get-api-key) och kopierar och klistrar sedan in **[!UICONTROL Google Maps API Key]**.
 
-   - Om du vill ändra **[!UICONTROL Google Maps Style]** klistrar du in JSON-koden som genereras av [[!DNL Google Maps] API:ernas formateringsguide][2].
+   - Om du vill ändra **[!UICONTROL Google Maps Style]** klistrar du in JSON-koden som genereras av [[!DNL Google Maps] API:ernas formateringsguide](https://mapstyle.withgoogle.com/).
 
    >[!NOTE]
    >
-   >Mer information om hur du använder [!DNL Google Maps] i ditt [!DNL Page Builder]-innehåll finns i [Media - karta](map.md).
+   >Mer information om hur du använder [ i ditt ](map.md)-innehåll finns i [!DNL Google Maps]Media - karta[!DNL Page Builder].
 
 1. Så här konfigurerar du antalet stödlinjer i kolumnstödrastret [!DNL Page Builder]:
 
@@ -54,15 +54,15 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 
    >[!NOTE]
    >
-   >Mer information om hur du använder kolumnstödrastret när du arbetar med ditt [!DNL Page Builder]-innehåll finns i [Layout - kolumn](column.md).
+   >Mer information om hur du använder kolumnstödrastret när du arbetar med ditt [-innehåll finns i ](column.md)Layout - kolumn[!DNL Page Builder].
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 ## Konfigurera standardlayouter
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL Web]** i den vänstra panelen under _[!UICONTROL General]_.
+1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Web]**.
 
 1. Expandera ![Expansionsväljaren](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]** och gör följande:
 
@@ -82,19 +82,16 @@ Mer information om konfigurationsalternativen för det avancerade verktyget för
 
 >[!NOTE]
 >
->Om du inaktiverar [!DNL Page Builder] ersätts de avancerade innehållsverktygen med WYSIWYG-redigeraren [&#128279;](../content-design/editor.md), vilket kan orsaka visningsfel i butiken. Innehåll som du tidigare skapat med [!DNL Page Builder] kanske inte kan redigeras från administratören.
+>Om du inaktiverar [!DNL Page Builder] ersätts de avancerade innehållsverktygen med WYSIWYG [editor](../content-design/editor.md). Det kan orsaka visningsfel i butiken. Innehåll som du tidigare skapat med [!DNL Page Builder] kanske inte kan redigeras från administratören.
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Välj **[!UICONTROL Content Management]** i den vänstra panelen under _[!UICONTROL General]_.
+1. Välj _[!UICONTROL General]_i den vänstra panelen under **[!UICONTROL Content Management]**.
 
-1. Expandera ![Expansionsväljaren &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och ange **[!UICONTROL Enable Page Builder]** till `No`.
+1. Expandera ![Expansionsväljaren ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** och ange **[!UICONTROL Enable Page Builder]** till `No`.
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL Turn Off]**.
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
 
 1. [Uppdatera](../systems/cache-management.md) om du uppmanas till det.
-
-[1]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[2]: https://mapstyle.withgoogle.com/

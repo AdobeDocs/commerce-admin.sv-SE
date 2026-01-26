@@ -3,9 +3,9 @@ title: United States Postal Service (USPS)
 description: Lär dig hur du konfigurerar USPS som fraktfirma för din butik.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ United States Postal Service är en oberoende posttjänst som tillhör USA:s reg
 
 ## Steg 1: Öppna ett USPS-leveranskonto
 
-Öppna ett [USPS Web Tools][1]-konto. När du är klar med registreringsprocessen får du ditt användar-ID och en URL till USPS-testservern.
+Öppna ett [USPS Web Tools](https://secure.shippingapis.com/registration/)-konto. När du är klar med registreringsprocessen får du ditt användar-ID och en URL till USPS-testservern.
 
-Du kan även öppna ett [USPS Web Tools][1]-konto. När du är klar med registreringsprocessen får du ditt användar-ID och en URL till USPS-testservern. Mer information om webbverktygen för USPS finns i den [tekniska dokumentationen][2] för dem.
+Du kan även öppna ett [USPS Web Tools](https://secure.shippingapis.com/registration/)-konto. När du är klar med registreringsprocessen får du ditt användar-ID och en URL till USPS-testservern. Mer information om webbverktygen för USPS finns i den [tekniska dokumentationen](https://www.usps.com/business/web-tools-apis/welcome.htm) för dem.
 
 ## Steg 2: Aktivera USPS för din butik
 
 {{$include /help/_includes/usps-api-type-configuration-note.md}}
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** i den vänstra panelen och välj **[!UICONTROL Delivery Methods]**.
 
@@ -142,7 +142,5 @@ Hanteringsavgiften är valfri och visas som en extra avgift som läggs till DHL:
 
 1. Klicka på **[!UICONTROL Save Config]**.
 
-[1]: https://secure.shippingapis.com/registration/
-[2]: https://www.usps.com/business/web-tools-apis/welcome.htm
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->

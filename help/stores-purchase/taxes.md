@@ -3,7 +3,7 @@ title: Skatter
 description: Lär dig hur du konfigurerar din butik för att beräkna skatter enligt kraven för din språkinställning.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Konfigurera din butik för att beräkna skatter enligt kraven för din språkins
 
 >[!NOTE]
 >
->Adobe Commerce och Magento Open Source, version 2.4.0 till 2.4.3, innehåller tillägget Vertex som utvecklades av leverantören och som används för att integrera med Vertex Cloud för att tillhandahålla skattehantering och adressrensning. Från och med version 2.4.4 är det här tillägget inte längre bundet till kärnversionen och måste installeras och uppdateras från Commerce Marketplace eller direkt från leverantören. [Kontakta hörnet](https://marketplace.magento.com/partner/vertex_inc) om du vill ha information om tillägget och dokumentationen.<br><br>
+>Adobe Commerce och Magento Open Source version 2.4.0 till 2.4.3 innehåller tillägget Vertex som utvecklades av leverantören och som används för att integrera med Vertex Cloud för att tillhandahålla skattehantering och adressrensning. Från och med version 2.4.4 är det här tillägget inte längre bundet till kärnversionen och måste installeras och uppdateras från Commerce Marketplace eller direkt från leverantören. [Kontakta hörnet](https://marketplace.magento.com/partner/vertex_inc) om du vill ha information om tillägget och dokumentationen.<br><br>
 >
->Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Se [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=sv-SE) i _uppgraderingshandboken_.
+>Om du har det paketerade tillägget aktiverat och konfigurerat måste du uppdatera filen Composer.json som en del av uppgraderingsprocessen för 2.4.4 och hantera tilläggsuppdateringar vidare. Se [Uppgraderingsmoduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) i _uppgraderingshandboken_.
 
 ## Snabbreferens
 
@@ -89,7 +89,7 @@ Handlare som är föremål för revision av skatter som betalas för digitala va
 - Kundens leveransadress och ett kvitto på en lyckad betalningstransaktion kan användas för att fastställa kundens bosättningsort. (Betalning accepteras endast om leveransadressen stämmer överens med betalarens information.)
 - Informationen kan också hämtas direkt från datalagret i Commerce databastabeller.
 
-_&#x200B;**Så här samlar du in skatteinformation för digitala varor:**&#x200B;_
+_**Så här samlar du in skatteinformation för digitala varor:**_
 
 1. Läs in skattesatserna för alla EU:s medlemsländer.
 
@@ -107,8 +107,5 @@ _&#x200B;**Så här samlar du in skatteinformation för digitala varor:**&#x200B
 
 Ytterligare resurser:
 
-- [Europeiska kommissionens skatteunion och tullunion][1]
-- [EU 1015 Platsen för leveransändringar][2]
-
-[1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
-[2]: https://www2.deloitte.com/global/en/services/tax.html
+- [Europeiska kommissionens skatteunion och tullunion](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [EU 1015 Platsen för leveransändringar](https://www2.deloitte.com/global/en/services/tax.html)

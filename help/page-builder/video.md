@@ -3,16 +3,16 @@ title: Media - video
 description: Lär dig mer om videoinnehållstypen som används för att lägga till en video som finns på YouTube eller Vimeo på  [!DNL Page Builder] scenen.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
 # Media - video
 
-Använd innehållstypen _Video_ för att lägga till en video som finns på [YouTube][1] eller [Vimeo][2] på [[!DNL Page Builder] scenen](workspace.md#stage). Det är enkelt att bädda in video på en sida eller i ett block eller i beskrivningar av produkter och kategorier.
+Använd innehållstypen _Video_ för att lägga till en video som finns på [YouTube](https://www.youtube.com/) eller [Vimeo](https://vimeo.com/) på [[!DNL Page Builder] scenen](workspace.md#stage). Det är enkelt att bädda in video på en sida eller i ett block eller i beskrivningar av produkter och kategorier.
 
 ![Video på butikens startsida](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
@@ -38,7 +38,7 @@ Använd innehållstypen _Video_ för att lägga till en video som finns på [You
 
 ## Lägga till en video
 
-1. Navigera till [YouTube][1] - eller [Vimeo][2] -videon som du vill bädda in och kopiera länken innan du börjar.
+1. Navigera till [YouTube](https://www.youtube.com/) - eller [Vimeo](https://vimeo.com/) -videon som du vill bädda in och kopiera länken innan du börjar.
 
    Du kan också kopiera en direktlänk till en giltig videofil. Mer information om giltiga länkar finns i [Grundläggande videoinställningar](#basic-video-settings).
 
@@ -154,7 +154,7 @@ Använd innehållstypen _Video_ för att lägga till en video som finns på [You
 
 ## Flytta en video
 
-1. Håll pekaren över videobehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta &#x200B;](./assets/pb-icon-move.png){width="20"} ).
+1. Håll pekaren över videobehållaren för att visa verktygslådan och välj ikonen _Flytta_ ( ![Flytta ](./assets/pb-icon-move.png){width="20"} ).
 
    ![Flytta en video](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
 
@@ -168,7 +168,5 @@ Använd innehållstypen _Video_ för att lägga till en video som finns på [You
 
 1. När du uppmanas att bekräfta klickar du på **[!UICONTROL OK]**.
 
-[1]: https://www.youtube.com/
-[2]: https://vimeo.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->
