@@ -42,9 +42,9 @@ Att konfigurera Adobe Stock-integrationen för Adobe Commerce är en tvåstegspr
 
 1. Gå till [Adobe Developer Console](https://developer.adobe.com/console/home).
 
-1. Klicka på _[!UICONTROL Quick Start]_under **[!UICONTROL Create new project]**.
+1. Klicka på _[!UICONTROL Quick Start]_&#x200B;under **[!UICONTROL Create new project]**.
 
-1. Klicka på _[!UICONTROL Project overview]_i blocket **[!UICONTROL Add API]**.
+1. Klicka på _[!UICONTROL Project overview]_&#x200B;i blocket **[!UICONTROL Add API]**.
 
 1. Välj **[!UICONTROL Adobe Stock]** i integreringslistan och klicka på **[!UICONTROL Next]**.
 
@@ -76,7 +76,7 @@ Att konfigurera Adobe Stock-integrationen för Adobe Commerce är en tvåstegspr
 
 Om du vill ange systemkonfigurationen i din [!DNL Commerce]-administratör använder du _API-nyckeln_ och _klienthemligheten_ som genererats i [föregående avsnitt](#create-an-adobeio-integration).
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
