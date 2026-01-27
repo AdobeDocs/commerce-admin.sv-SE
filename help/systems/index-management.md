@@ -3,8 +3,8 @@ title: Indexhantering
 description: Lär dig mer om indexhantering, inklusive åtgärder som utlöser omindexering och bästa praxis.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: f4b5ca01ddb02a9392095fa46ae8baa73892319b
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: a3737a3fef2e275f110b8858123ea722b4449da3
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Omindexering av data snabbar upp bearbetningen och minskar kundens väntetid. Om
 Indexerarna kan ställas in på att antingen uppdateras när de sparas eller enligt schema. Alla index kan använda båda alternativen, förutom kundstödraster som bara stöds när de sparas. När du indexerar när du sparar, startar Commerce om indexeringen när du sparar åtgärder. Indexhanteringssidan slutför uppdateringen och tömmer cacheminnet, och meddelandet om omindexering visas inom en minut eller två. Vid omindexering av ett schema körs ett omindexvärde enligt ett schema som ett cron-jobb. Ett systemmeddelande visas om ett [cron-jobb](cron.md) inte är tillgängligt för att uppdatera indexerare som blir ogiltiga. Butiken är fortfarande tillgänglig under omindexeringsprocesserna.
 
 >[!NOTE]
-> Adobe Commerce handlare som använder Live Search, Catalog Service eller Product Recommendations har möjlighet att använda en [SaaS-baserad prisindexerare](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing?lang=sv-SE).
+> Adobe Commerce handlare som använder Live Search, Catalog Service eller Product Recommendations har möjlighet att använda en [SaaS-baserad prisindexerare](https://experienceleague.adobe.com/en/docs/commerce/price-indexer/price-indexing).
 
 När du behöver indexera om visas ett meddelande högst upp på sidan. Indexet och meddelandet rensas baserat på omindexeringsläget och möjliga åtgärder som du vidtar. Mer information om indexering finns i [Hur programmet implementerar indexering](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) i _PHP-utvecklarhandboken_.
 
@@ -44,9 +44,9 @@ Omindexering och cachelagring har olika syften i Commerce. Indexen spårar datab
 
 >[!IMPORTANT]
 >
->För butiker som använder [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=sv-SE) och har angett Elasticsearch som fulltextindexerare (`catalogsearch_fulltext`): fulltextindexet måste köras igen efter att gruppbehörigheter har ändrats eller när behörighetsindexeraren är i läget Schemalagd.
+>För butiker som använder [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) och har angett Elasticsearch som fulltextindexerare (`catalogsearch_fulltext`): fulltextindexet måste köras igen efter att gruppbehörigheter har ändrats eller när behörighetsindexeraren är i läget Schemalagd.
 
-1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Tools]_&#x200B;Admin **[!UICONTROL Index Management]**.
+1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Tools]_Admin **[!UICONTROL Index Management]**.
 
 1. Markera kryssrutan för varje indexerare som du vill ändra.
 
@@ -80,7 +80,7 @@ Omindexering och cachelagring har olika syften i Commerce. Indexen spårar datab
 
 ## Indexera om med kommandoraden
 
-I Commerce finns fler alternativ för indexering via kommandoraden. Fullständig information och kommandoalternativ finns i [Indexera om](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=sv-SE#reindex){:target="blank"} i _Konfigurationshandboken_.
+I Commerce finns fler alternativ för indexering via kommandoraden. Fullständig information och kommandoalternativ finns i [Indexera om](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} i _Konfigurationshandboken_.
 
 ## Utlösarhändelser för index
 
