@@ -3,10 +3,10 @@ title: Adobe Stock Integration
 description: Integrera Adobe Stock med  [!DNL Commerce] -instansen för att få tillgång till ett oändligt antal mediefiler som kan användas i din butik.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Den här integreringen kräver:
 
 För licensiering av Adobe Stock-bilder krävs:
 
-- Ett [Adobe-konto](https://helpx.adobe.com/se/manage-account/using/access-adobe-id-account.html)
+- Ett [Adobe-konto](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - En betald [Adobe Stock](https://stock.adobe.com)-plan som är kopplad till kontot
 
 ## Integrera [!DNL Commerce] och Adobe Stock
@@ -42,9 +42,9 @@ Att konfigurera Adobe Stock-integrationen för Adobe Commerce är en tvåstegspr
 
 1. Gå till [Adobe Developer Console](https://developer.adobe.com/console/home).
 
-1. Klicka på _[!UICONTROL Quick Start]_&#x200B;under **[!UICONTROL Create new project]**.
+1. Klicka på _[!UICONTROL Quick Start]_under **[!UICONTROL Create new project]**.
 
-1. Klicka på _[!UICONTROL Project overview]_&#x200B;i blocket **[!UICONTROL Add API]**.
+1. Klicka på _[!UICONTROL Project overview]_i blocket **[!UICONTROL Add API]**.
 
 1. Välj **[!UICONTROL Adobe Stock]** i integreringslistan och klicka på **[!UICONTROL Next]**.
 
@@ -62,7 +62,7 @@ Att konfigurera Adobe Stock-integrationen för Adobe Commerce är en tvåstegspr
    - Alla punkter (`.`) måste föregås av två omvända snedstreck (`\\`).
    - Lägg till `.*` i slutet av mönstret.
 
-   Om du använder exemplet från den tidigare omdirigerings-URI:n blir det `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
+   Om du använder exemplet från föregående standard-URI för omdirigering blir mönstret `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`
 
 1. Klicka på **[!UICONTROL Next]**.
 
@@ -76,7 +76,7 @@ Att konfigurera Adobe Stock-integrationen för Adobe Commerce är en tvåstegspr
 
 Om du vill ange systemkonfigurationen i din [!DNL Commerce]-administratör använder du _API-nyckeln_ och _klienthemligheten_ som genererats i [föregående avsnitt](#create-an-adobeio-integration).
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Advanced]** i den vänstra panelen och välj **[!UICONTROL System]**.
 
