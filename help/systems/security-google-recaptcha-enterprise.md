@@ -3,10 +3,10 @@ title: Google reCAPTCHA Enterprise
 description: Lär dig hur du konfigurerar Google CAPTCHA Enterprise för att skydda din Adobe Commerce as a Cloud Service-butik från stötar och bedrägliga aktiviteter.
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="Endast SaaS" type="Positive" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+badgeSaas: label="Endast SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."
+source-git-commit: 3bc89a2dcecc91bbb4b3df285b6e1dd7c64bc477
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Den här funktionen har INTE stöd för reCAPTCHA för administratören.
+
+Integrering med [reCAPTCHA](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/) beskriver hur du lägger till stöd för reCAPTCHA Enterprise i din butik.
 
 Se [Google reCAPTCHA V3 och V2](security-google-recaptcha.md) för information om hur du konfigurerar andra versioner av Google reCAPTCHA.
 
@@ -57,9 +59,11 @@ Följ de här allmänna stegen för att konfigurera Google reCAPTCHA Enterprise 
 
 ## Steg 2: Konfigurera Google reCAPTCHA för butiken
 
-1. Välj _[!UICONTROL Security]_&#x200B;i den vänstra panelen under **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet för Adobe Commerce _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
-1. Fyll i avsnittet **[!UICONTROL reCAPTCHA Enterprise]** enligt följande.
+1. Expandera _[!UICONTROL Security]_och välj **[!UICONTROL Google reCAPTCHA Storefront]**.
+
+1. Bläddra ned till avsnittet **[!UICONTROL reCAPTCHA Enterprise]** och slutför konfigurationen enligt följande.
 
    - För **[!UICONTROL Site Key]** kopierar och klistrar du in din reCAPTCHA Enterprise-webbplatsnyckel från din Google Cloud-konsol.
 
