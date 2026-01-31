@@ -3,9 +3,9 @@ title: Kundgrupper
 description: Använd kundgrupper för att avgöra vilka rabatter som är tillgängliga för kunder som är tilldelade till en grupp och den skatteklass som är associerad med gruppen.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 17469d27128030b54fad6cf563a4b53f5f119eed
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Kundgrupper avgör vilka rabatter som är tillgängliga och vilken skatteklass s
 
 ## Filtrera listan [!UICONTROL Customer Groups]
 
-1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Customers]** Admin **[!UICONTROL Customer Groups]**.
 
 1. Klicka på **[!UICONTROL Filters]**.
 
@@ -34,7 +34,7 @@ Kundgrupper avgör vilka rabatter som är tillgängliga och vilken skatteklass s
 >
 >Administratörsanvändare som inte har åtkomst till alla webbplatser (tilldelade en roll med en Custom [!UICONTROL Role Scope]) kan inte skapa, ändra eller ta bort kundgrupper.
 
-1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Customers]** Admin **[!UICONTROL Customer Groups]**.
 
 1. Klicka på **[!UICONTROL Add New Customer Group]**.
 
@@ -56,7 +56,7 @@ Kundgrupper avgör vilka rabatter som är tillgängliga och vilken skatteklass s
 
 ## Redigera en kundgrupp
 
-1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Customers]** Admin **[!UICONTROL Customer Groups]**.
 
 1. Öppna posten i redigeringsläge.
 
@@ -69,8 +69,9 @@ Kundgrupper avgör vilka rabatter som är tillgängliga och vilken skatteklass s
 >[!NOTE]
 >
 >När företagsgruppen har ändrats måste en företagsanvändare logga ut och logga in på Storefront för att se nya priser i katalogen.
+>När en kund har tilldelats ett företag blir kundgruppen skrivskyddad och kan inte uppdateras av en Admin-användare.
 
-1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Customers]** Admin **[!UICONTROL All Customers]**.
 
 1. Hitta kunden i listan och markera kryssrutan i den första kolumnen.
 
@@ -82,7 +83,7 @@ Kundgrupper avgör vilka rabatter som är tillgängliga och vilken skatteklass s
 
 ## Associera en grupp kunder med specifika rabatter
 
-1. Gå till **[!UICONTROL Marketing]** > _Kampanjer_ > **[!UICONTROL Cart Price Rules]** på sidofältet _Admin_.
+1. Gå till _>_ Kampanjer **[!UICONTROL Marketing]** > _på sidofältet_ Admin **[!UICONTROL Cart Price Rules]**.
 
 1. Välj den kundprisregel där du vill associera en grupp för rabatten eller [skapa en prisregel](../merchandising-promotions/price-rules-catalog.md).
 
@@ -98,7 +99,7 @@ Kundgrupper avgör vilka rabatter som är tillgängliga och vilken skatteklass s
 
 ## Ta bort en kundgrupp
 
-1. Gå till **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]** på sidofältet _Admin_.
+1. Gå till _>_ på sidofältet **[!UICONTROL Customers]** Admin **[!UICONTROL Customer Groups]**.
 
 1. Öppna posten i redigeringsläge.
 
