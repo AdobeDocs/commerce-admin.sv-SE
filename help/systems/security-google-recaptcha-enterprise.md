@@ -3,7 +3,7 @@ title: Google reCAPTCHA Enterprise
 description: Lär dig hur du konfigurerar Google CAPTCHA Enterprise för att skydda din Adobe Commerce as a Cloud Service-butik från stötar och bedrägliga aktiviteter.
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="Endast SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."
+badgeSaas: label="Endast SaaS" type="Positive" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."
 source-git-commit: 3bc89a2dcecc91bbb4b3df285b6e1dd7c64bc477
 workflow-type: tm+mt
 source-wordcount: '570'
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Den här funktionen har INTE stöd för reCAPTCHA för administratören.
 
-Integrering med [reCAPTCHA](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/) beskriver hur du lägger till stöd för reCAPTCHA Enterprise i din butik.
+Integrering med [reCAPTCHA](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/?lang=sv-SE) beskriver hur du lägger till stöd för reCAPTCHA Enterprise i din butik.
 
 Se [Google reCAPTCHA V3 och V2](security-google-recaptcha.md) för information om hur du konfigurerar andra versioner av Google reCAPTCHA.
 
