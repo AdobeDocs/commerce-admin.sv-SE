@@ -59,9 +59,9 @@ Följ de här allmänna stegen för att konfigurera Google reCAPTCHA Enterprise 
 
 ## Steg 2: Konfigurera Google reCAPTCHA för butiken
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet för Adobe Commerce _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet för Adobe Commerce _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
-1. Expandera _[!UICONTROL Security]_och välj **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. Expandera _[!UICONTROL Security]_&#x200B;och välj **[!UICONTROL Google reCAPTCHA Storefront]**.
 
 1. Bläddra ned till avsnittet **[!UICONTROL reCAPTCHA Enterprise]** och slutför konfigurationen enligt följande.
 
