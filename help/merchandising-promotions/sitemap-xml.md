@@ -3,10 +3,10 @@ title: Webbplatskartor
 description: Lär dig hur du konfigurerar en webbplatskarta för att indexera alla sidor och bilder på dina Commerce-webbplatser.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: c9af0854f60da74959b5d1d822b342def417b0f9
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=sv-SE) i dokumentationen för Commerce Storefront
+>Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) i dokumentationen för Commerce Storefront
 
 En webbplatskarta förbättrar det sätt på vilket din butik indexeras av sökmotorer och är utformad för att hitta sidor som kan förbises av webbcrawler. En platskarta kan konfigureras för indexering av alla sidor och bilder.
 
@@ -23,7 +23,7 @@ När det här alternativet är aktiverat skapar Commerce en fil med namnet `site
 
 När din webbplats är under utveckling kan du inkludera instruktioner i filen `robots.txt` för webbcrawlningar för att undvika att indexera webbplatsen. Innan du startar programmet kan du ändra instruktionerna så att webbplatsen kan indexeras.
 
-Mer teknisk information finns i [Lägg till platskarta och robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=sv-SE) i _Commerce on Cloud Infrastructure Guide_.
+Mer teknisk information finns i [Lägg till platskarta och robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) i _Commerce on Cloud Infrastructure Guide_.
 
 ![Rutnät för platskartor](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -33,7 +33,7 @@ Slutför konfigurationen [XML-platskarta](#site-map-configuration) för att fast
 
 ## Steg 2. Generera webbplatskartan
 
-1. Gå till _>_ > **[!UICONTROL Marketing]** på menyn _[!UICONTROL SEO & Search]_&#x200B;Admin **[!UICONTROL Site Map]**.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på menyn _[!UICONTROL SEO & Search]_Admin **[!UICONTROL Site Map]**.
 
 1. Klicka på **[!UICONTROL Add Site Map]**.
 
@@ -85,7 +85,7 @@ Så här skapar du platskartor för en multistore-instans:
        /sitemaps/domain_1/
        /sitemaps/domain_2/
    
-1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL SEO & Search]_&#x200B;Admin **[!UICONTROL Site Map]**.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL SEO & Search]_Admin **[!UICONTROL Site Map]**.
 
 1. Skapa eller redigera platskartlistor för varje butik och ställ in **[!UICONTROL Path]** på den som du skapade för butiken:
 
@@ -102,7 +102,7 @@ Så här skapar du platskartor för en multistore-instans:
    
 >[!NOTE]
 >
->Om din webbplats använder webbservermotorn [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=sv-SE) bör du uppdatera filen [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) i webbplatsens rot för att dirigera eventuella andra platskarteförfrågningar till rätt plats.
+>Om din webbplats använder webbservermotorn [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) bör du uppdatera filen [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) i webbplatsens rot för att dirigera eventuella andra platskarteförfrågningar till rätt plats.
 
 ## Kolumnbeskrivningar
 
@@ -124,7 +124,7 @@ Din webbplatskarta bör uppdateras så ofta som innehållet på din webbplats ä
 
 ### Steg 1. Ange frekvens och prioritet för innehållsuppdateringar
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i den vänstra panelen och välj **[!UICONTROL XML Sitemap]**.
 
@@ -227,30 +227,3 @@ Din webbplatskarta bör uppdateras så ofta som innehållet på din webbplats ä
 1. Om du använder en `robots.txt`-fil för att ge instruktioner till sökmotorer som crawlar din webbplats, anger du **[!UICONTROL Enable Submission to Robots.txt]** till `Yes`.
 
 1. Klicka på **[!UICONTROL Save Config]** när du är klar.
-
-## Aktivera generering av batchplatskarta för stora kataloger
-
-För butiker med stora kataloger använder du följande alternativa kron-jobb för att aktivera generering av batchplatskarta. Detta tillvägagångssätt behandlar data i mindre steg, vilket avsevärt minskar risken för att PHP-minnet tar slut och säkerställer att webbplatskartan genereras utan problem, även för webbplatser med omfattande produktdata.
-
-Ersätt i `app/code/Magento/Sitemap/etc/config.xml`:
-
-```xml
-<jobs>
-  <sitemap_generate>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate>
-</jobs>
-```
-
-med:
-
-```xml
-<jobs>
-  <sitemap_generate_batch>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate_batch>></jobs>
-```
