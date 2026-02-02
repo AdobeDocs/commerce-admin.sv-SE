@@ -51,7 +51,7 @@ För en lyckad integrering krävs att alla Adobe Commerce-användare har adminis
 
 ## Konfigurera integreringen
 
-När följande steg har slutförts av en administratör eller utvecklare med systemåtkomst visas knappen _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_på inloggningssidan för Commerce Admin för alla Admin-användare.
+När följande steg har slutförts av en administratör eller utvecklare med systemåtkomst visas knappen _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;på inloggningssidan för Commerce Admin för alla Admin-användare.
 
 ### Steg 1: Hämta Adobe Org ID
 
@@ -82,7 +82,7 @@ Innan du aktiverar integreringen bör du kontrollera att alla Adobe Commerce Adm
 >
 >Du kan skapa flera användarkonton genom att överföra användarinformationen från en CSV-fil. Se [Hantera flera användare](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. Gå till [ > ](https://helpx.adobe.com/se/enterprise/using/admin-console.html) i **[!UICONTROL Users]** Adobe Admin Console **[!UICONTROL Users]**.
+1. Gå till [&#x200B; > &#x200B;](https://helpx.adobe.com/se/enterprise/using/admin-console.html) i **[!UICONTROL Users]** Adobe Admin Console **[!UICONTROL Users]**.
 
 1. Klicka på **[!UICONTROL Add User]**.
 
