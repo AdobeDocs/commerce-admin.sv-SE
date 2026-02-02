@@ -31,7 +31,7 @@ En inloggad köpare som är associerad med ett företagskonto kan skapa en rekvi
 
 1. I sidofältet för deras konto väljer **[!UICONTROL My Requisition Lists]**.
 
-1. Klicka på _[!UICONTROL Requisition Lists]_på sidan **[!UICONTROL Create New Requisition List]**.
+1. Klicka på _[!UICONTROL Requisition Lists]_&#x200B;på sidan **[!UICONTROL Create New Requisition List]**.
 
 1. Anger **[!UICONTROL Requisition List Name]** och **[!UICONTROL Description]**.
 
