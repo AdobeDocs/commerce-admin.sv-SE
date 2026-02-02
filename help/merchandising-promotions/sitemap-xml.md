@@ -3,7 +3,7 @@ title: Webbplatskartor
 description: Lär dig hur du konfigurerar en webbplatskarta för att indexera alla sidor och bilder på dina Commerce-webbplatser.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
 workflow-type: tm+mt
 source-wordcount: '1209'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) i dokumentationen för Commerce Storefront
+>Information om Adobe Commerce as a Cloud Service finns i [SEO-riktlinjerna](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=sv-SE) i dokumentationen för Commerce Storefront
 
 En webbplatskarta förbättrar det sätt på vilket din butik indexeras av sökmotorer och är utformad för att hitta sidor som kan förbises av webbcrawler. En platskarta kan konfigureras för indexering av alla sidor och bilder.
 
@@ -23,7 +23,7 @@ När det här alternativet är aktiverat skapar Commerce en fil med namnet `site
 
 När din webbplats är under utveckling kan du inkludera instruktioner i filen `robots.txt` för webbcrawlningar för att undvika att indexera webbplatsen. Innan du startar programmet kan du ändra instruktionerna så att webbplatsen kan indexeras.
 
-Mer teknisk information finns i [Lägg till platskarta och robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) i _Commerce on Cloud Infrastructure Guide_.
+Mer teknisk information finns i [Lägg till platskarta och robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=sv-SE) i _Commerce on Cloud Infrastructure Guide_.
 
 ![Rutnät för platskartor](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -102,7 +102,7 @@ Så här skapar du platskartor för en multistore-instans:
    
 >[!NOTE]
 >
->Om din webbplats använder webbservermotorn [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) bör du uppdatera filen [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) i webbplatsens rot för att dirigera eventuella andra platskarteförfrågningar till rätt plats.
+>Om din webbplats använder webbservermotorn [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=sv-SE) bör du uppdatera filen [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) i webbplatsens rot för att dirigera eventuella andra platskarteförfrågningar till rätt plats.
 
 ## Kolumnbeskrivningar
 
