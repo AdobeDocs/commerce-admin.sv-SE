@@ -3,7 +3,7 @@ title: Rekvisitionslistor
 description: Lär dig mer om rekvisitionslistor och hur de används för att enkelt lägga till produkter som beställts ofta i kundvagnen.
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 7e4eef8a6862667b9ab11cd07f85eb4b5ac9a6e4
+source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Rekvisitionslistor
 
-Genom att använda en rekvisitionslista sparar du tid när du köper produkter som beställts ofta, eftersom artiklarna läggs till i kundvagnen direkt från listan. Köpare kan hantera flera listor som fokuserar på produkter från olika leverantörer, köpare, team, kampanjer eller annat som effektiviserar arbetsflödet. Den är tillgänglig för både inloggade användare och gäster.
+Genom att använda en rekvisitionslista sparar du tid när du köper produkter som beställts ofta, eftersom artiklarna läggs till i kundvagnen direkt från listan. Köpare kan hantera flera listor som fokuserar på produkter från olika leverantörer, köpare, team, kampanjer eller annat som effektiviserar arbetsflödet. Funktionen för rekvisitionslista är tillgänglig för inloggade användare.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ En inloggad köpare som är associerad med ett företagskonto kan skapa en rekvi
 
 1. I sidofältet för deras konto väljer **[!UICONTROL My Requisition Lists]**.
 
-1. Klicka på **[!UICONTROL Create New Requisition List]** på sidan _[!UICONTROL Requisition Lists]_.
+1. Klicka på _[!UICONTROL Requisition Lists]_på sidan **[!UICONTROL Create New Requisition List]**.
 
 1. Anger **[!UICONTROL Requisition List Name]** och **[!UICONTROL Description]**.
 
