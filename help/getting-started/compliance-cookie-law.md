@@ -32,7 +32,7 @@ Din [sekretesspolicy](privacy-policy.md) ska innehålla namnet på din butik och
 
 ### Steg 1: Aktivera läget för begränsning av cookies
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Välj **[!UICONTROL General]** i den vänstra navigeringspanelen under **[!UICONTROL Web]**.
 
