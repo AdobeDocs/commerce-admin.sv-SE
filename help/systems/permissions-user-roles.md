@@ -3,9 +3,9 @@ title: Användarroller
 description: Lär dig hur du skapar användarroller och tillhörande behörigheter för att hantera åtkomst till administratörsfunktioner.
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: dff29b7c3a95d4a0ae5ce16819c41a4560b477c4
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 ## Definiera en roll
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Permissions]_Admin **[!UICONTROL User Roles]**.
 
 1. Klicka på **[!UICONTROL Add New Role]** i det övre högra hörnet.
 
@@ -26,7 +26,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 ### Steg 1: Lägg till rollnamnet
 
-1. Under _[!UICONTROL Role Information]_&#x200B;anger du en beskrivande **[!UICONTROL Role Name]**.
+1. Under _[!UICONTROL Role Information]_anger du en beskrivande **[!UICONTROL Role Name]**.
 
 1. Ange ditt lösenord under _[!UICONTROL Current User Identity Verification]_.
 
@@ -49,9 +49,13 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
    >[!NOTE]
    >
-   >Användare med rollomfånget `Custom` kan inte skapa webbplatser och kategorier, tilldela produkter till kategorier eller redigera produkter i omfattningen _[!UICONTROL All Store Views]_&#x200B;när de tilldelas begränsade butiker. De här användarna kan inte heller utföra andra_ globala _åtgärder som påverkar scope där de inte har åtkomst.
+   >Användare med rollomfånget `Custom` kan inte skapa webbplatser och kategorier, tilldela produkter till kategorier eller redigera produkter i omfattningen _[!UICONTROL All Store Views]_när de tilldelas begränsade butiker. De här användarna kan inte heller utföra andra_ globala _åtgärder som påverkar scope där de inte har åtkomst.
 
-1. Under _[!UICONTROL Roles Resources]_&#x200B;anger du **[!UICONTROL Resource Access]**&#x200B;till `Custom`.
+1. Under _[!UICONTROL Roles Resources]_anger du **[!UICONTROL Resource Access]**till `Custom`.
+
+   >[!NOTE]
+   >
+   >Om 2FA (Two Factor Authentication) krävs för att logga in i administratören måste du aktivera resursen `Permissions` > `Two Factor Auth` för den här rollen. I annat fall kan nyskapade användare med det här rollomfånget `Custom` inte konfigurera 2FA när de öppnar administratören för första gången.
 
 1. Markera kryssrutan för varje administratörsfunktion som rollen har åtkomst till i trädstrukturen **[!UICONTROL Resource]**.
 
@@ -63,7 +67,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
    >[!NOTE]
    >
-   >En Admin-användare måste ha **[!UICONTROL Sales / Archive]** behörigheter för att kunna se flikarna _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ och _[!UICONTROL Shipments]_&#x200B;order [&#128279;](../stores-purchase/order-processing.md).
+   >En Admin-användare måste ha **[!UICONTROL Sales / Archive]** behörigheter för att kunna se flikarna _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ och _[!UICONTROL Shipments]_order [ ](../stores-purchase/order-processing.md).
 
 1. Klicka på **[!UICONTROL Save Role]** när du är klar.
 
@@ -77,7 +81,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 1. Välj **[!UICONTROL Role Users]** på den vänstra panelen.
 
-   Alternativet _[!UICONTROL Role Users]_&#x200B;visas bara när en ny roll har sparats.
+   Alternativet _[!UICONTROL Role Users]_visas bara när en ny roll har sparats.
 
    ![Användarkonton som tilldelats rollen](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
@@ -93,7 +97,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 ## Redigera en roll
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Permissions]_Admin **[!UICONTROL User Roles]**.
 
 1. Leta reda på rollen med hjälp av filter ovanför stödrastret och klicka på rollnamnet.
 
@@ -107,7 +111,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 ## Ta bort en roll
 
-1. Gå till **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL System]** på sidofältet _[!UICONTROL Permissions]_Admin **[!UICONTROL User Roles]**.
 
 1. Leta reda på rollen med hjälp av filter ovanför stödrastret och öppna i redigeringsläge.
 
@@ -119,7 +123,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 I den här videon får du lära dig mer om hur du hanterar användarroller:
 
->[!VIDEO](https://video.tv.adobe.com/v/3443511?quality=12&learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
 
 ## Rollresurser
 
@@ -147,7 +151,7 @@ En anpassad roll kan tilldelas åtkomst till följande resurser. På den länkad
 | [`Marketing`](../merchandising-promotions/marketing-menu.md) | [`Promotions`](../merchandising-promotions/marketing-menu.md#uicontrol-promotions) | [`Catalog Price Rule`](../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../merchandising-promotions/price-rules-cart.md) <br/>[`Related Products Rules`](../merchandising-promotions/product-related-rules.md)![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Gift Card Accounts`](../stores-purchase/product-gift-card-accounts.md) ![Adobe Commerce](../assets/adobe-logo.svg) |
 |  | [`Private Sales`](../merchandising-promotions/events-private-sales.md) ![Adobe Commerce](../assets/adobe-logo.svg) | [`Events`](../merchandising-promotions/event-create.md) <br/>[`Invitations`](../merchandising-promotions/invitations.md) |
 |  | `Communications` | [`Email Templates`](email-templates.md) <br/>[`Newsletter Template`](../merchandising-promotions/newsletter-template.md) <br/>[`Newsletter Queue`](../merchandising-promotions/newsletter-queue.md) <br/>[`Newsletter Subscribers`](../merchandising-promotions/newsletter-subscribers.md) <br/>[`Email Reminders`](../merchandising-promotions/email-reminder-rules.md) |
-|  | `Sales Channel` | [`Amazon Sales Channel`](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=sv-SE) |
+|  | `Sales Channel` | [`Amazon Sales Channel`](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html) |
 |  | [`SEO & Search`](../merchandising-promotions/marketing-menu.md#uicontrol-seo--search) | [`Search Terms`](../catalog/search-terms.md) <br/>[`Search Synonyms`](../catalog/search-terms.md#search-synonyms) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`URL Rewrites`](../merchandising-promotions/url-rewrite-custom.md) <br/>[`Site Map`](../merchandising-promotions/sitemap-xml.md) |
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
@@ -156,7 +160,7 @@ En anpassad roll kan tilldelas åtkomst till följande resurser. På den länkad
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |
-|  | `System Insights` ![Adobe Commerce](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=sv-SE) |
+|  | `System Insights` ![Adobe Commerce](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) |
 |  | [`Customers`](../getting-started/customer-reports.md)<br/>[`Products`](../getting-started/product-reports.md)<br/>[`Private Sales`](../getting-started/private-sales-reports.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br />[`Statistics`](../getting-started/reports-menu.md#uicontrol-statistics)<br />[`Business Intelligence`](../getting-started/business-intelligence.md) |  |
 | [`Stores`](../stores-purchase/stores.md) | [`Settings`](../stores-purchase/stores-menu.md) | [`All Stores`](../stores-purchase/stores.md)<br/>[`Configuration`](../configuration-reference/guide-overview.md)<br/>[`Terms and Conditions`](../stores-purchase/terms-and-conditions.md)<br/>[`Order Status`](../stores-purchase/order-status.md) |  |
 |  | [`Inventory`](../inventory-management/sources-stocks.md) | [`Sources`](../inventory-management/sources-manage.md)<br/>[`Stocks`](../inventory-management/stocks-manage.md) |  |
