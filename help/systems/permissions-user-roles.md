@@ -123,7 +123,7 @@ För att ge någon begränsad åtkomst till administratören är det första ste
 
 I den här videon får du lära dig mer om hur du hanterar användarroller:
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443511?captions=swe&quality=12&learn=on)
 
 ## Rollresurser
 
