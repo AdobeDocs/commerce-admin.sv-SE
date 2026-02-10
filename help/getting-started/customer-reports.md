@@ -109,7 +109,7 @@ Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_
 
 ## [!UICONTROL Customer Wish List Report]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce)
 

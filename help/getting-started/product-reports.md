@@ -16,7 +16,7 @@ Produktrapporterna ger dig insikt om vilka produkter som visas och beställs, vi
 
 ## [!UICONTROL Product Views Report]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 [!UICONTROL Product Views Report] visar de produkter som har visats under ett tidsintervall eller datumintervall. Rapporten innehåller produktnamn, pris och antal visningar.
 
@@ -50,7 +50,7 @@ Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_&
 
 ## [!UICONTROL Downloads Report]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 [!UICONTROL Downloads Report] visar alla hämtningar under det angivna tidsintervallet eller datumintervallet. Rapporten innehåller produktnamn, nedladdningslänk och SKU, samt antal inköp och nedladdningar.
 

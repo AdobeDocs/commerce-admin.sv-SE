@@ -151,7 +151,7 @@ Fakturorna sparas i en enda PDF-fil som kan skickas till en skrivare eller spara
 
 ## Anpassade fångstbelopp
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 För att ge säljarna större flexibilitet vid partiella klipp och specialiserade betalningsscenarier har API:t för faktura stöd för anpassade fångstbelopp med hjälp av tilläggsattribut.
 

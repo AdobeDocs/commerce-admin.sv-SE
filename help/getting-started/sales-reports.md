@@ -131,7 +131,7 @@ Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Sales]_&#x2
 
 ## Uppdatera statistik
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Om du vill minska prestandapåverkan av att generera försäljningsrapporter, beräknar och lagrar [!DNL Commerce] den statistik som krävs för varje rapport. I stället för att räkna om statistiken varje gång en rapport genereras används den lagrade statistiken, såvida du inte uppdaterar statistiken. Om du vill inkludera de senaste uppgifterna måste rapportstatistiken uppdateras innan en försäljningsrapport genereras.
 

@@ -22,7 +22,7 @@ Rapporten [!UICONTROL Products in Cart] innehåller en lista över alla produkte
 
 ## [!UICONTROL Search Terms Report]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Rapporten [Sökvillkor](../catalog/search-terms.md#search-terms-report) visar vad dina kunder letar efter i varje butiksvy. Rapporten innehåller antalet matchande objekt i katalogen och hur många gånger söktermen har använts.
 
@@ -36,7 +36,7 @@ Rapporten [!UICONTROL Abandoned Carts] innehåller alla registrerade kunder som 
 
 ## [!UICONTROL Newsletter Problems Report]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 [!UICONTROL Newsletter Problems Report] innehåller information om en nyhetsbrevkö som inte kunde överföras. Rapporten innehåller namnet på varje prenumerant, ködatum och ämne samt information om felet.
 
