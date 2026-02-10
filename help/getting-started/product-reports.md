@@ -3,10 +3,9 @@ title: Produktrapporter
 description: De produktrapporter som finns i Adobe Commerce och Magento Open Source ger er insikt i vilka produkter som visas och beställs, vilka som säljer bäst, vilka som har lagrad och vilka nedladdningar som finns.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -17,9 +16,11 @@ Produktrapporterna ger dig insikt om vilka produkter som visas och beställs, vi
 
 ## [!UICONTROL Product Views Report]
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 [!UICONTROL Product Views Report] visar de produkter som har visats under ett tidsintervall eller datumintervall. Rapporten innehåller produktnamn, pris och antal visningar.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_&#x200B;Admin **[!UICONTROL Views]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_Admin **[!UICONTROL Views]**.
 
 ![Rapport om produktvyer](./assets/product-views.png){width="600"}
 
@@ -27,7 +28,7 @@ Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_&
 
 [!UICONTROL Bestsellers Report] visar de fem populäraste fem under ett tids- eller datumintervall. Rapporten innehåller produktnamn, pris och beställd kvantitet.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_&#x200B;Admin **[!UICONTROL Bestsellers]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_Admin **[!UICONTROL Bestsellers]**.
 
 ![rapport från bestsellers](./assets/bestsellers.png){width="600"}
 
@@ -35,7 +36,7 @@ Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_&
 
 [!UICONTROL Low Stock Report] visar alla produkter med lagernivåer inom ett angivet intervall. När [[!DNL Inventory Management]](../inventory-management/introduction.md) är aktiverat innehåller rapporten låga lagerbelopp per källa med den angivna källkoden.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_&#x200B;Admin **[!UICONTROL Low Stock]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_Admin **[!UICONTROL Low Stock]**.
 
 ![Rapport om låg lagernivå](./assets/low-stock.png){width="600"}
 
@@ -43,14 +44,16 @@ Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_&
 
 [!UICONTROL Ordered Products Report] visar alla produkter som beställts för ett angivet tidsintervall eller datumintervall. Rapporten innehåller produktnamn och beställd kvantitet.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_&#x200B;Admin **[!UICONTROL Ordered]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_Admin **[!UICONTROL Ordered]**.
 
 ![Rapport över beställda produkter](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 [!UICONTROL Downloads Report] visar alla hämtningar under det angivna tidsintervallet eller datumintervallet. Rapporten innehåller produktnamn, nedladdningslänk och SKU, samt antal inköp och nedladdningar.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_&#x200B;Admin **[!UICONTROL Downloaded]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Products]_Admin **[!UICONTROL Downloaded]**.
 
 ![Hämtningsrapport](./assets/downloads.png){width="600"}

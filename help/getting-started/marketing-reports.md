@@ -3,10 +3,9 @@ title: Marknadsföringsrapporter
 description: Marknadsföringsrapporter innehåller information om kundvagnens status, användningen av söktermer och överföring av nyhetsbrev.
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -23,6 +22,8 @@ Rapporten [!UICONTROL Products in Cart] innehåller en lista över alla produkte
 
 ## [!UICONTROL Search Terms Report]
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 Rapporten [Sökvillkor](../catalog/search-terms.md#search-terms-report) visar vad dina kunder letar efter i varje butiksvy. Rapporten innehåller antalet matchande objekt i katalogen och hur många gånger söktermen har använts.
 
 ![Rapport om sökvillkor](./assets/search-terms.png){width="600"}
@@ -34,6 +35,8 @@ Rapporten [!UICONTROL Abandoned Carts] innehåller alla registrerade kunder som 
 ![Rapport om övergivna kort](./assets/abandoned-carts.png){width="600"}
 
 ## [!UICONTROL Newsletter Problems Report]
+
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 [!UICONTROL Newsletter Problems Report] innehåller information om en nyhetsbrevkö som inte kunde överföras. Rapporten innehåller namnet på varje prenumerant, ködatum och ämne samt information om felet.
 

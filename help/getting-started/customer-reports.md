@@ -3,8 +3,7 @@ title: Kundrapporter
 description: Kundrapporter som finns i Adobe Commerce och Magento Open Source ger insikt i kundaktiviteten under en viss tidsperiod eller ett visst datumintervall.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -19,7 +18,7 @@ Kundrapporter ger insikt i kundaktivitet under en viss tidsperiod eller ett viss
 
 [!UICONTROL Order Total Report] visar kundorder för ett angivet tidsintervall eller datumintervall. Rapporten innehåller antalet order per kund, genomsnittligt orderbelopp och totalt belopp.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_&#x200B;Admin **[!UICONTROL Order Total]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_Admin **[!UICONTROL Order Total]**.
 
 ![Ordersummeringsrapport](./assets/customers-order-total.png){width="600"}
 
@@ -51,7 +50,7 @@ Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_
 
 [!UICONTROL Order Count Report] visar antalet order per kund för ett angivet tidsintervall eller datumintervall. Rapporten innehåller antalet order per kund, genomsnittligt orderbelopp och totalt belopp.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_&#x200B;Admin **[!UICONTROL Order Count]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_Admin **[!UICONTROL Order Count]**.
 
 ![Orderräkningsrapport](./assets/customer-order-count.png){width="600"}
 
@@ -83,7 +82,7 @@ Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_
 
 [!UICONTROL New Accounts Report] visar antalet nya kundkonton som öppnats under ett angivet tidsintervall eller datumintervall.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_&#x200B;Admin **[!UICONTROL New]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_Admin **[!UICONTROL New]**.
 
 ![Rapport om nya konton](./assets/customers-new-accounts.png){width="600"}
 
@@ -110,11 +109,13 @@ Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_
 
 ## [!UICONTROL Customer Wish List Report]
 
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+
 ![Adobe Commerce](../assets/adobe-logo.svg) (endast Adobe Commerce)
 
 [!UICONTROL Customer Wish List Report] innehåller information om kundernas önskelistor.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_&#x200B;Admin **[!UICONTROL Wish Lists]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_Admin **[!UICONTROL Wish Lists]**.
 
 ![Önsklisterapport](./assets/customer-wish-list.png){width="600"}
 
@@ -154,7 +155,7 @@ Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_
 
 [!UICONTROL Customer Segment Report] ger information om antalet kunder i varje segment.
 
-Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_&#x200B;Admin **[!UICONTROL Segments]**.
+Gå till _>_ > **[!UICONTROL Reports]** på sidofältet _[!UICONTROL Customers]_Admin **[!UICONTROL Segments]**.
 
 ![Segmentrapport](./assets/customers-segments.png){width="600"}
 
