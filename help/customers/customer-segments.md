@@ -46,5 +46,5 @@ Mer information om hur du definierar kundsegment finns i [Skapa och ta bort kund
 
 ## eBooks
 
-- **Kundsegmentering** - Hämta [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) och lär dig hur du kan öka vinsten och få nöjda kunder.
-- **Segmenteringsstrategi** - Hämta [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) för att förbättra målsättningen för dina meddelanden och kampanjer och skapa meningsfulla konversationer med dina kunder.
+- **Kundsegmentering** - Hämta [eBook](https://business.adobe.com/se/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) och lär dig hur du kan öka vinsten och få nöjda kunder.
+- **Segmenteringsstrategi** - Hämta [eBook](https://business.adobe.com/se/resources/3-segmentation-tactics-ignite-conversion.html) för att förbättra målsättningen för dina meddelanden och kampanjer och skapa meningsfulla konversationer med dina kunder.
