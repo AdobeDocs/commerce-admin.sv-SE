@@ -3,10 +3,10 @@ title: Adobe Identity Management Service (IMS) - översikt
 description: Introducerar den valfria integreringen av Adobe Commerce Admin-inloggningar med Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 484351d7db33139e3339ccea82e7a96f5ea7966e
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,13 @@ Information om hur du implementerar den här integreringen finns i [Konfigurera 
 
 ## Ändringar i administratörens arbetsflöden och gränssnitt efter integrering med IMS
 
-När den här integreringen är aktiverad, kommer Commerce Admin-användare att se ändringar i standardarbetsflödet för inloggning och autentisering i Commerce Admin när de utför rutinuppgifter i Admin som kräver omautentisering, t.ex. skapar en Admin-användare. Tvåfaktorautentisering (2FA) på Adobe-organisationsnivå krävs för modulaktivering. Standardadministratörsinloggningen och 2FA är inaktiverade och knappen _[!UICONTROL Sign In with Adobe ID]_&#x200B;ersätter standardformuläret för administratörsinloggning. Tillstånd hanteras fortfarande från administratören.
+När den här integreringen är aktiverad, kommer Commerce Admin-användare att se ändringar i standardarbetsflödet för inloggning och autentisering i Commerce Admin när de utför rutinuppgifter i Admin som kräver omautentisering, t.ex. skapar en Admin-användare. Tvåfaktorautentisering (2FA) på Adobe-organisationsnivå krävs för modulaktivering. Standardadministratörsinloggningen och 2FA är inaktiverade och knappen _[!UICONTROL Sign In with Adobe ID]_ersätter standardformuläret för administratörsinloggning. Tillstånd hanteras fortfarande från administratören.
+
+>
+>
+>Integreringen med AdobeIms tillämpas globalt. När den är aktiverad måste alla användare autentisera via AdobeIms. Det går inte att utesluta enskilda användare från den här konfigurationen.
+>
+>**Aktivera den här integreringen först när du har förstått dess konsekvenser.**
 
 ## Hur administratörsintegrering med IMS påverkar Commerce lösenord
 
