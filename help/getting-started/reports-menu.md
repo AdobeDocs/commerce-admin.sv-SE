@@ -28,7 +28,7 @@ Ett urval av [marknadsföringsrapporter](marketing-reports.md), inklusive produk
 
 ### [!UICONTROL Reviews]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Urvalet av produkt [granskningsrapporter](review-reports.md) omfattar Efter kund och Efter produkt.
 
@@ -38,9 +38,9 @@ Markeringen av [försäljningsrapporter](sales-reports.md) innehåller rapporter
 
 ### [!UICONTROL System Insights]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
-(Endast Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) ger systeminsikter för installationer av Adobe Commerce i molninfrastruktur med prestandaövervakning, rapporter och rekommendationer i realtid dygnet runt, alla dagar.
+(Endast Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=sv-SE) ger systeminsikter för installationer av Adobe Commerce i molninfrastruktur med prestandaövervakning, rapporter och rekommendationer i realtid dygnet runt, alla dagar.
 
 ### [!UICONTROL Customers]
 
@@ -52,18 +52,18 @@ Urvalet av [produktrapporter](product-reports.md) innehåller vyer, beställare,
 
 ### [!UICONTROL Private Sales]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 (Endast Adobe Commerce) I urvalet av rapporter för [privat försäljning och evenemang](private-sales-reports.md) ingår Inbjudan, Inbjudna kunder och Konverteringar.
 
 ### [!UICONTROL Statistics]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 [Statistik](sales-reports.md#refresh-statistics) är ett verktyg som minskar prestandaeffekterna av att generera rapporter genom att beräkna och lagra statistiska data. I stället för att räkna om statistiken varje gång en rapport genereras, används den lagrade statistiken tills du uppdaterar statistiken.
 
 ### [!DNL Commerce Intelligence]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 Integrerade [[!DNL Commerce Intelligence]](business-intelligence.md)-verktyg ger den insikt du behöver för att fatta strategiska affärsbeslut.
