@@ -54,13 +54,13 @@ I avsnittet Faktureringshistorik visas endast äldre fakturor som har skapats f�
      Ett tips är att använda ditt organisationsnamn som [!UICONTROL Share Name]. Använd inte ett namn som börjar med `CLOUD SHARED ACCESS FROM MAG XYX`.
    - Om du vill dela din personliga kontaktinformation med den nya användaren anger du **[!UICONTROL Your Email]** och **[!UICONTROL Your Phone]**.
 
-1. Under _[!UICONTROL Grant Account Permissions]_markerar du kryssrutan för varje [!DNL Commerce]-produkt och tjänst som du vill dela.
+1. Under _[!UICONTROL Grant Account Permissions]_&#x200B;markerar du kryssrutan för varje [!DNL Commerce]-produkt och tjänst som du vill dela.
 
    ![Bevilja kontobehörigheterna](./assets/shared-permissions.png){width="600"}
 
 1. Klicka på **[!UICONTROL Create Shared Access]**.
 
-   Den nya användarinformationen visas i avsnittet _[!UICONTROL Manage Permissions]_på sidan Delad åtkomst och en e-postinbjudan med instruktioner om hur du får åtkomst till det delade kontot skickas till den nya användaren.
+   Den nya användarinformationen visas i avsnittet _[!UICONTROL Manage Permissions]_&#x200B;på sidan Delad åtkomst och en e-postinbjudan med instruktioner om hur du får åtkomst till det delade kontot skickas till den nya användaren.
 
    ![Hantera behörigheter för delad åtkomst](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
@@ -74,13 +74,13 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
 
 1. När du får en inbjudan till ett delat konto följer du instruktionerna i e-postmeddelandet för att logga in på ditt eget [!DNL Commerce]-konto.
 
-   Den vänstra navigeringspanelen för ditt konto har en ny _[!UICONTROL Shared with me]_-flik. Kontrollen_[!UICONTROL Switch Accounts]_ i det övre högra hörnet har alternativ för `My Account` och namnet på det delade kontot.
+   Den vänstra navigeringspanelen för ditt konto har en ny _[!UICONTROL Shared with me]_-flik. Kontrollen&#x200B;_[!UICONTROL Switch Accounts]_ i det övre högra hörnet har alternativ för `My Account` och namnet på det delade kontot.
 
    ![Delad med mig](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >   Om du inte ser kontrollen _[!UICONTROL Switch Accounts]_kontaktar du den primära kontoinnehavaren och bekräftar att de har angett rätt [kontoinformation](#set-up-a-shared-account).
+   >   Om du inte ser kontrollen _[!UICONTROL Switch Accounts]_&#x200B;kontaktar du den primära kontoinnehavaren och bekräftar att de har angett rätt [kontoinformation](#set-up-a-shared-account).
 
 
 1. Om du vill få åtkomst till det delade kontot anger du **[!UICONTROL Switch Accounts]** till namnet på det delade kontot.
@@ -107,7 +107,7 @@ Följande instruktioner är skrivna ur ett delat användarperspektiv som tar emo
 
 1. Klicka på **[!UICONTROL Shared Access]** i den vänstra navigeringspanelen.
 
-1. Hitta kontot som ska återkallas under _[!UICONTROL Managing Users & Permissions]_och klicka på&#x200B;**[!UICONTROL Delete]**.
+1. Hitta kontot som ska återkallas under _[!UICONTROL Managing Users & Permissions]_&#x200B;och klicka på&#x200B;**[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
