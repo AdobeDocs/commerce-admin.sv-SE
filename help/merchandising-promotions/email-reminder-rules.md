@@ -20,7 +20,7 @@ Påminnelser via e-post kan aktiveras efter ett visst antal dagar sedan en vagn 
 
 >[!NOTE]
 >
->Om en kund har fler än en matchande övergiven kundvagn, önskelista eller kombination av båda aktiveras e-postpåminnelsen endast en gång för den kunden. Om du vill utlösa samma e-postpåminnelse igen använder du fältet _[!UICONTROL Repeat Schedule]_för att ange antalet dagar mellan e-postmeddelanden.
+>Om en kund har fler än en matchande övergiven kundvagn, önskelista eller kombination av båda aktiveras e-postpåminnelsen endast en gång för den kunden. Om du vill utlösa samma e-postpåminnelse igen använder du fältet _[!UICONTROL Repeat Schedule]_&#x200B;för att ange antalet dagar mellan e-postmeddelanden.
 
 ![E-postpåminnelser](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -28,7 +28,7 @@ Påminnelser via e-post kan aktiveras efter ett visst antal dagar sedan en vagn 
 
 Regler för e-postpåminnelser kan skickas med regelbundna intervall på minut, timme eller dag. Konfigurationen avgör hur många e-postmeddelanden som skickas i en batch och den butiksidentitet som visas som meddelandets avsändare.
 
-1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_&#x200B;Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Customers]** i den vänstra panelen och välj **[!UICONTROL Promotions]**.
 
@@ -66,7 +66,7 @@ Standardmallen för e-postpåminnelser kan anpassas och ytterligare mallar skapa
 
 ### Anpassa en mall för e-postpåminnelser
 
-1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Communications]_Admin **[!UICONTROL Email Templates]**.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Communications]_&#x200B;Admin **[!UICONTROL Email Templates]**.
 
 1. Klicka på **[!UICONTROL Add New Template]**.
 
