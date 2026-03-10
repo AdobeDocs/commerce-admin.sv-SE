@@ -3,9 +3,9 @@ title: Kassa på gäst
 description: Lär dig hur du aktiverar funktioner för gästutcheckning i din butik.
 exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 347321ec5b0722f06240780136cb29816aab559f
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Din butik kan konfigureras så att kunderna måste öppna ett konto innan de kan
 
 ![Lumaarkivet visar Checka ut som gäst](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
 
-**_Så här inaktiverar du gästutcheckning:_**
+**_Inaktivera gästutcheckning:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Sales]** på den vänstra panelen och välj **[!UICONTROL Checkout]**.
 
@@ -37,3 +37,13 @@ En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Utc
    Om det behövs avmarkerar du kryssrutan **[!UICONTROL Use system value]** för att aktivera ändringar av den här inställningen.
 
 1. Klicka på **[!UICONTROL Save Config]**.
+
+## Tillåt gästorderåtkomst för registrerade e-postmeddelanden
+
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+
+Med en konfiguration på butiksnivå som är inaktiverad som standard kan gästshoppare spåra sina beställningar via en e-postadress som matchar ett registrerat kundkonto.
+
+När det här alternativet är aktiverat är beställningar av gäster som gjorts med ett registrerat e-postmeddelande fortfarande tillgängliga, samtidigt som de visas i kundens orderhistorik.
+
+Om du vill aktivera den här funktionen går du till **Butiker** > Inställningar > **Konfiguration** > Försäljning > **Försäljning** > **Gästutcheckning** och anger inställningen **Tillåt gästorderåtkomst för registrerade e-postmeddelanden** till `Yes`.
