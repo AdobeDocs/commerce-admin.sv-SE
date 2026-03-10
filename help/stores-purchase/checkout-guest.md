@@ -40,7 +40,7 @@ En detaljerad beskrivning av de här konfigurationsinställningarna finns i [Utc
 
 ## Tillåt gästorderåtkomst för registrerade e-postmeddelanden
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 Med en konfiguration på butiksnivå som är inaktiverad som standard kan gästshoppare spåra sina beställningar via en e-postadress som matchar ett registrerat kundkonto.
 
