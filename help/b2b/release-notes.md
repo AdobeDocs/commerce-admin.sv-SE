@@ -3,9 +3,9 @@ title: Versionsinformation för [!DNL Adobe Commerce B2B]
 description: Granska versionsinformationen för information om ändringar i  [!DNL Adobe Commerce B2B] releaser.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 7850768a5533c4baa9e7ca3d09860a7f27072563
+source-git-commit: b815977ab2284b31febe75d8affa532318bca367
 workflow-type: tm+mt
-source-wordcount: '10026'
+source-wordcount: '9937'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 0%
 Versionsinformationen för B2B-tillägget innehåller tillägg och korrigeringar som Adobe har lagt till under en releasecykel, inklusive:
 
 ![Nya](../assets/new.svg) nya funktioner
-![&#x200B; Åtgärdat problem &#x200B;](../assets/fix.svg) Korrigeringar och förbättringar
+![ Åtgärdat problem ](../assets/fix.svg) Korrigeringar och förbättringar
 ![Kända fel](../assets/bug.svg)
 
 >[!NOTE]
 >
->Mer information om vilka versioner av B2B Commerce-tillägget som stöds för tillgängliga Adobe Commerce-versioner finns i [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=sv-SE).
+>Mer information om vilka versioner av B2B Commerce-tillägget som stöds för tillgängliga Adobe Commerce-versioner finns i [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
 
 ## B2B v1.5.3-beta1
 
@@ -28,134 +28,62 @@ Versionsinformationen för B2B-tillägget innehåller tillägg och korrigeringar
 
 Kompatibel med Adobe Commerce version 2.4.9-beta1.
 
-- ![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB26-05](https://helpx.adobe.com/se/security/products/magento/apsb26-05.html)
+B2B v1.5.3-beta1-versionen innehåller kvalitetsförbättringar och felkorrigeringar. Versionen innehåller även de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
 
-### B2B
+### Förhandlingsbar offert
 
-#### Monteringsorder fungerar inte med Gå till kassan via Negotiable Quote med betalningsmetoden PayFlow Pro Credit Card
+![Korrigerat problem](../assets/fix.svg)<!-- AC-11973 --> **Förhandlingsbar utcheckning av offerter med Payflow Pro** - Adobe Commerce kan nu placera order vid utcheckning från en överlåtbar offert med betalningsmetoden Payflow Pro. Tidigare när B2B-funktioner var aktiverade och en köpare gick vidare till kassan från en överlåtbar offert där Payflow Pro valdes och användaren klickade på Lägg till order, lästes sidan in oavbrutet utan något felmeddelande och ordern skapades aldrig.
 
-Adobe Commerce kan nu lägga order vid utcheckning från en överlåtbar offert med betalningsmetoden Payflow Pro. Tidigare när B2B-funktioner var aktiverade och en köpare gick vidare till kassan från en överlåtbar offert där Payflow Pro valdes och användaren klickade på Lägg till order, lästes sidan in oavbrutet utan något felmeddelande och ordern skapades aldrig. AC-11973
+![Korrigerat problem](../assets/fix.svg)<!-- AC-13447 --> **Meddelandet lyckades efter byte av namn på överlåtbar offert** - Adobe Commerce visar nu konsekvent ett meddelande om att offerten eller offerten har bytt namn. Tidigare visades inte meddelandet om att en köpare har bytt namn på en överlåtbar offert (rensas ofta nästan omedelbart), vilket även medförde att automatiska tester som väntade på att det här meddelandet skulle misslyckas trots att namnbytet lyckades.
 
-_AC-11973_
+![Korrigerat problem](../assets/fix.svg)<!-- AC-15280 --> **Leveranskostnad i kassan för överlåtbara offerter för PayPal Express** - Adobe Commerce tillämpar nu rätt fraktkostnad när en PayPal Express-kassan för en godkänd överlåtbar offert slutförs. Tidigare fördubblades fraktkostnaderna felaktigt, vilket ledde till ett totalt överskott.
 
-#### Meddelande om att offerten har bytt namn försvinner ibland
+### Inköpsorder
 
-Adobe Commerce visar nu alltid ett meddelande om att en offert eller offertmall har bytt namn i butiken. Tidigare visades inte meddelandet om att en köpare har bytt namn på en överlåtbar offert (rensas ofta nästan omedelbart), vilket även medförde att automatiska tester som väntade på att det här meddelandet skulle misslyckas trots att namnbytet lyckades.
+![Korrigerat problem](../assets/fix.svg)<!-- ACP2E-3727 --> **Summor för inköpsorder med gränsöverskridande handel** - En order innehåller nu korrekta summor när den placeras från en befintlig inköpsorder med alternativet Gränsöverskridande handel aktiverat.
 
-_AC-13447_
+### Rekvisitionslista
 
-#### Begränsad administratör kan inte tilldela företag till delad katalog
+![Korrigerat problem](../assets/fix.svg)<!-- AC-15862 --> **Grupperade produkter i rekvisitionslistor med kategoribehörigheter** - Korrigerade ett TypeError-fel som uppstod när grupperade produkter lades till i en rekvisitionslista med kategoribehörigheter aktiverade. Efter korrigeringen hanteras produktalternativen säkert som matriser, vilket gör att alla produkttyper kan läggas till utan fel.
 
-Ett problem har korrigerats där begränsade administratörsanvändare påträffade ett undantag när de tilldelade ett företag till en delad katalog. Uppdateringen ser till att tilldelningen fungerar korrekt utan fel.
+![Korrigerat problem](../assets/fix.svg)<!-- AC-8575 --> **Knappen Lägg till i rekvisitionslista på kategorisida** - Knappen [!UICONTROL Add to Requisition List] visas nu på kategorisidan. Tidigare försvann knappen när användare försökte lägga till en produkt från kategorisidan.
 
-_AC-15662_
+![Korrigerat problem](../assets/fix.svg)<!-- AC-14711 --> **Utskriftsalternativ för rekvisitionslistsida** - Skriv ut-alternativet på sidan Rekvisitionslista fungerar nu korrekt. Tidigare uppstod felet när [!UICONTROL Print] klickades: `An error has happened during application run. See exception log for details.`
 
-#### Undantag när en grupperad produkt läggs till i en rekvisitionslista när kategoribehörigheter är aktiverade
+![Korrigerat problem](../assets/fix.svg)<!-- AC-16226 --> **Skapande av rekvisitionslista med Lägg till butikskod i URL:er** - Korrigerat ett problem där det inte gick att skapa rekvisitionslistor för produkter som tilldelats en ny webbplats och källa när [!UICONTROL Add Store Code to URLs] är aktiverat. Problemet uppstod eftersom lagringskoden rensades från API-begäran, vilket orsakade ett otillåtet fel. När korrigeringen är klar bevaras rätt butikskontext och rekvisitionslistor skapas.
 
-Korrigerade ett TypeError-fel som uppstod när grupperade produkter lades till i en rekvisitionslista med kategoribehörigheter aktiverade genom att kontrollera att produktalternativ hanteras på ett säkert sätt som arrayer. Med den här korrigeringen kan alla produkttyper läggas till utan undantag.
+### Delad katalog
 
-_AC-15862_
+![Korrigerat problem](../assets/fix.svg)<!-- ACP2E-3796 --> **Ångra tilldelning av delad katalogkategori** - Prestanda förbättras avsevärt när du frigör kategorier i en delad B2B-katalog. Tidigare tog det lång tid att ta bort tilldelningen av kategorier via REST API.
 
-#### Knappen Lägg till i rekvisitionslistan försvinner när vi försöker lägga till den från kategorisidan
+![Korrigerat problem](../assets/fix.svg)<!-- ACP2E-4097 --> **Avtilldelning av produkt från delad katalog** - En administratör kan nu ta bort tilldelning av produkter från den delade katalogen. Tidigare uppstod ett fel när produkter med ett stort antal långa SKU:er från den delade katalogen skulle tas bort.
 
-Tidigare försvann knappen [!UICONTROL Add to Requisition List] när den lades till från kategorisidan. Detta är nu fast och rekvisitionslistknappen visas på kategorisidan.
+![Korrigerat problem](../assets/fix.svg)<!-- AC-15662 --> **Tilldelning av delat katalogföretag för begränsade administratörer** - Korrigerat ett fel där begränsade administratörsanvändare påträffade ett undantag när ett företag tilldelades en delad katalog.
 
-_AC-8575_
+### Kundvagn och kassan
 
-#### Den totala beräkningen inkluderar inte momsbeloppet
+![Korrigerat problem](../assets/fix.svg)<!-- AC-15962 --> **Omdirigering vid utcheckning efter sessionens förfallodatum** - Korrigerade ett fel där användare omdirigerades till inloggningssidan för Mitt konto i stället för den utcheckade inloggningen efter sessionens förfallodatum, vilket innebar att de kunde checkas ut med inloggningsformuläret.
 
-En order innehåller nu korrekta summor när den placeras från en befintlig inköpsorder med alternativet Gränsöverskridande handel aktiverat.
-
-_ACP2E-3727_
-
-#### Det tar lång tid att frigöra kategorier i en delad B2B-katalog via REST API
-
-Nu har prestandan förbättrats avsevärt när du frigör kategorier i B2B. Tidigare tog det lång tid att ta bort tilldelningen av kategorier i den delade B2B-katalogen.
-
-_ACP2E-3796_
-
-### Kort och utcheckning
-
-#### Fortsätt till Omdirigering av utcheckning Mitt konto efter inloggning
-
-Ett problem har korrigerats där användare omdirigerades till inloggningssidan för Mitt konto i stället för till utcheckningen av inloggningen efter att sessionen har upphört att gälla, vilket säkerställer att de checkas ut korrekt med inloggningsformuläret.
-
-_AC-15962_
-
-#### Verifieringen av serversidan för faktureringsinformation fungerar inte med REST API för leveransinformation
-
-Valideringen av kundadressdata har förbättrats för att vara mer konsekvent mellan REST och GraphQl för utcheckning.
-
-_ACP2E-4223_
-
-### Katalog
-
-#### 500-fel inträffar på klientsidan eftersom en felaktig layoutstruktur cachas i layouten
-
-Korrigerade ett problem där en sida skulle returnera ett 500-fel på grund av att en felaktig layoutstruktur cachelagrades i layouten.
-
-_ACP2E-4040_
+![Korrigerat problem](../assets/fix.svg)<!-- ACP2E-4223 --> **Verifiering av utcheckningsadress för REST och GraphQL** - Verifiering av kundadressdata har förbättrats för att vara mer konsekvent mellan REST och GraphQL för utcheckning.
 
 ### Ramverk
 
-#### Community-teman innehåller resurser för Commerce-utgåvans moduler
+![Korrigerat problem](../assets/fix.svg)<!-- ACP2E-4040 --> **Frontend 500-fel från den cachelagrade layoutstrukturen** - Korrigerade ett fel där en sida skulle returnera ett 500-fel på grund av att en felaktig layoutstruktur cachelagrades i layouten.
 
-Borttagen formatresurser för endast Commerce från användarteman genom att flytta dem till deras respektive modulkataloger. Detta förhindrar att oanvänd CSS paketeras i Community Edition, vilket minskar onödig nyttolast och eliminerar statiska formatregler samtidigt som du säkerställer korrekt formatering när Commerce-moduler är aktiverade.
-
-_AC-15347_
+![Korrigerat problem](../assets/fix.svg)<!-- AC-15347 --> **Commerce formatresurser i communityteman** - Tog bort formatresurser för endast Commerce från användarteman genom att flytta dem till sina respektive modulkataloger. Detta förhindrar att oanvänd CSS paketeras i Community Edition, vilket minskar onödig nyttolast och eliminerar statiska formatregler samtidigt som du säkerställer korrekt formatering när Commerce-moduler är aktiverade.
 
 ### GraphQL
 
-#### GraphQL-svar för orderplacering innehåller inte något undantagsmeddelande
-
-Återställde tidigare ändring som returnerade fel i ett annat format. Potentiella fel returneras nu på ett konsekvent sätt som inte bryter mot GraphQL-schemat.
-
-_ACP2E-3399_
-
-### Beställning
-
-#### Det går inte att skapa en rekvisitionslista för produkt som tilldelats till ny webbplats och källa
-
-Ett problem har korrigerats där rekvisitionslistor inte kunde skapas för produkter som tilldelats en ny webbplats och källa när [!UICONTROL Add Store Code to URLs] är aktiverat. Problemet uppstod eftersom lagringskoden rensades från API-begäran, vilket orsakade ett otillåtet fel. När korrigeringen är klar bevaras rätt butikskontext och rekvisitionslistor skapas.
-
-_AC-16226_
-
-### Priser
-
-#### Leveransdetaljerna matchar inte efter att du har slutfört PayPal Express-utcheckningen för en överlåtbar offert
-
-Den här versionen åtgärdar ett leveransfel vid slutförande av en PayPal Express-utcheckning för en godkänd överlåtbar offert.
-Före korrigeringen fördubblades leveransen felaktigt (10 dollar istället för 5 dollar), vilket ledde till ett totalt belopp.
-Korrigeringen ser till att rätt fraktkostnad används.
-
-_AC-15280_
-
-### Produkt
-
-#### Utskriftsalternativet Rekvisitionslistsida fungerar inte
-
-Alternativet Skriv ut på sidan Rekvisitionslista fungerar nu korrekt.
-Tidigare uppstod felet när [!UICONTROL Print] klickades: `An error has happened during application run. See exception log for details.`
-
-_AC-14711_
-
-#### Spara delad katalog returnerar inaktuellt funktionsfel
-
-En administratör kan nu ta bort tilldelning av produkter från den delade katalogen.
-Tidigare uppstod ett fel när produkter med ett stort antal långa SKU:er från den delade katalogen skulle tas bort.
-
-_ACP2E-4097_
-
+![Korrigerat problem](../assets/fix.svg)<!-- ACP2E-3399 --> **GraphQL-felsvarsformat** - Återställde en tidigare ändring som returnerade fel i ett annat format. Potentiella fel returneras nu på ett konsekvent sätt som inte bryter GraphQL-schemat.
 
 ## B2B v1.5.2-p4
 
-@@ -55,7 +163,7 @@ Kompatibel med Adobe Commerce version 2.4.7 till 2.4.7-p9, 2.4.6 till 2.4.6-p14.
 *10 mars 2026*
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.8-p4, 2.4.7-p9 och 2.4.6-p14 säkerhetsuppdateringar.
-Kompatibel med Adobe Commerce version 2.4.7 till 2.4.7-p9, 2.4.6 till 2.4.6-p14
+Kompatibel med Adobe Commerce version 2.4.7 till 2.4.7-p9, 2.4.6 till 2.4.6-p14.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB26-05](https://helpx.adobe.com/se/security/products/magento/apsb26-05.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
 
 ## B2B v1.5.2-p3
 
@@ -164,7 +92,7 @@ Kompatibel med Adobe Commerce version 2.4.7 till 2.4.7-p9, 2.4.6 till 2.4.6-p14
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.8-p3, 2.4.7-p8 och 2.4.6-p13 säkerhetsuppdateringar.
 Kompatibel med Adobe Commerce version 2.4.7 till 2.4.7-p7, 2.4.6 till 2.4.6-p12.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-94](https://helpx.adobe.com/se/security/products/magento/apsb25-94.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 ## B2B v1.5.2-p2
 
@@ -173,7 +101,7 @@ Kompatibel med Adobe Commerce version 2.4.7 till 2.4.7-p7, 2.4.6 till 2.4.6-p12.
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.8-p2, 2.4.7-p7 och 2.4.6-p12 säkerhetsuppdateringar.
 Kompatibel med Adobe Commerce version 2.4.7 till 2.4.7-p6, 2.4.6 till 2.4.6-p11.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/se/security/products/magento/apsb25-71.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.5.2-p1
 
@@ -182,7 +110,7 @@ Kompatibel med Adobe Commerce version 2.4.7 till 2.4.7-p6, 2.4.6 till 2.4.6-p11.
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.8-p1, 2.4.7-p6 och 2.4.6-p11 säkerhetsuppdateringar.
 Kompatibel med Adobe Commerce version 2.4.7 till 2.4.7-p5, 2.4.6 till 2.4.6-p10.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-50](https://helpx.adobe.com/se/security/products/magento/apsb25-50.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
 
 ## B2B 1.5.2
 
@@ -211,9 +139,9 @@ Den här förbättringen bygger på B2B 1.5.0:s funktioner för medlemskap för 
 
 ![Ett problem har korrigerats](../assets/fix.svg) I B2B v1.5.2-versionen finns följande korrigeringar för överlåtbara offerter:
 
-- &#x200B;<!-- B2B-3252 -->Fältet [!UICONTROL Line Item Discount Amount] validerar indata för att förhindra att negativa rabattvärden anges.
-- &#x200B;<!-- B2B-3224 -->Korrigerade ett användarupplevelseproblem där anteckningar för långradsobjekt trunkerades och var svåra att läsa för B2B-kunder.
-- &#x200B;<!-- B2B-2865 -->B2B-kunder kan nu ange produktkvantiteter med hjälp av decimalvärden (till exempel 1.5 eller 2.75) när de skapar offerter.
+- <!-- B2B-3252 -->Fältet [!UICONTROL Line Item Discount Amount] validerar indata för att förhindra att negativa rabattvärden anges.
+- <!-- B2B-3224 -->Korrigerade ett användarupplevelseproblem där anteckningar för långradsobjekt trunkerades och var svåra att läsa för B2B-kunder.
+- <!-- B2B-2865 -->B2B-kunder kan nu ange produktkvantiteter med hjälp av decimalvärden (till exempel 1.5 eller 2.75) när de skapar offerter.
 
 ### Offertmall
 
@@ -257,10 +185,10 @@ B2B v1.5.1-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
 *30 oktober 2024*
 
-[!BADGE Säkerhetsuppdateringar som stöds i &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.7-p3+ och 2.4.6-p8+.
+[!BADGE Säkerhetsuppdateringar som stöds i ]{type=Informative tooltip="Stöds"} Adobe Commerce version 2.4.7-p3+ och 2.4.6-p8+.
 Kompatibel med Adobe Commerce version 2.4.8-beta1, 2.4.7 till 2.4.7-p2, 2.4.6 till 2.4.6-p7.
 
-Adobe Commerce B2B version 1.5.0 är även kompatibel med PHP 8.3 och stöder [GraphQL Application Server](https://experienceleague.adobe.com/sv/docs/commerce-operations/performance-best-practices/concepts/application-server).
+Adobe Commerce B2B version 1.5.0 är även kompatibel med PHP 8.3 och stöder [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 B2B v1.5.0 innehåller nya funktioner, kvalitetsförbättringar och felkorrigeringar.
 
@@ -268,13 +196,13 @@ B2B v1.5.0 innehåller nya funktioner, kvalitetsförbättringar och felkorrigeri
 >
 > Lär dig mer om bakåtkompatibla ändringar (BIC) som introducerades i B2B 1.5.0 genom att granska markeringar och referensinformation i avsnittet [Bakåtkompatibla ändringar](backward-incompatible-changes.md).
 
-### Företagshantering
+### Företagsledning
 
 ![Nytt](../assets/new.svg) **Företagshantering**<!--B2B-2901--> - Nu kan affärsfolk visa och hantera Adobe Commerce-företag som hierarkiska organisationer genom att tilldela företag till utsedda överordnade företag. När ett företag har tilldelats en överordnad kan administratören för det överordnade företaget hantera företagskontot. Endast behöriga administratörsanvändare kan lägga till och hantera företagstilldelningar. Mer information finns i [Hantera företagshierarki](manage-company-hierarchy.md).
 
 - Lägg till och hantera företagstilldelningar från det nya *[!UICONTROL Company Hierarchy]*-avsnittet på sidan *[!UICONTROL Company Account]* i Admin.
 
-- Sortera och filtrera företag efter den nya *[!UICONTROL Company Type]*-inställningen. I företagsrutnätet anger kolumnen *[!UICONTROL Company Type]* om ett företag är ett enskilt företag eller en del av organisationshierarkin (överordnat eller underordnat).
+- Sortera och filtrera företag efter den nya *[!UICONTROL Company Type]*-inställningen. I företagsrutnätet anger kolumnen *[!UICONTROL Company Type]* om ett företag är ett enskilt företag eller en del av en organisationshierarki (överordnad eller underordnad).
 
 ![Nytt](../assets/new.svg) **Hantera företagskonfiguration i skala**<!--B2B-2849--> - Ändra företagskonfigurationsinställningar snabbt för utvalda företag med hjälp av gruppåtgärden *[!UICONTROL Change company setting]* som nu är tillgänglig när du hanterar företag från rutnätet *[!UICONTROL Companies]* eller *[!UICONTROL Company Hierarchy]*. Om du till exempel skapar en ny delad katalog för en grupp företag kan du ändra den delade katalogkonfigurationen i en enda åtgärd i stället för att redigera varje företag individuellt.
 
@@ -291,13 +219,14 @@ B2B v1.5.0 innehåller nya funktioner, kvalitetsförbättringar och felkorrigeri
 ![Nytt](../assets/new.svg) <!--B2B-2747--> **Företagsomfångsväljare** - Ger möjlighet för företagsanvändare som har tilldelats flera företag att ändra företag i butiken. När omfånget ändras uppdateras data för att visa information baserat på det nya företagssammanhanget. Om det nya företaget till exempel använder en annan delad katalog, ser företagsanvändaren produkter, priser och annan information baserat på den nya delade katalogen. Innehåll som rör order, offerter och offertmallar uppdateras också baserat på det valda företagets sammanhang.
 
 >[!NOTE]
+>
 >Innehållet i kundvagnen återspeglar artiklar som valts av den aktuella kunden. Om kunden har en aktiv kundvagn och väljer ett annat företag uppmanas de att uppdatera kundvagnen för att återspegla produktsortiment, priser och kampanjrabatter baserat på det nya företagssammanhanget. Produkter som inte är tillgängliga i den katalog som är kopplad till det nya företaget tas bort från kundvagnen. Om produkten har ett annat pris eller en annan tillgänglighet uppdateras kundvagnen så att den återspeglar tillgängliga data i det valda företagets kontext.<!--B2B-4222-->
 
 ![Korrigerat problem](../assets/fix.svg)<!--ACP2E-1933--> Företagsadministratörer kan nu lägga till företagsanvändare från butiken. Tidigare loggade Commerce ett fel när en Admin-användare försökte lägga till en ny användare: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ### Offerter och offertmallar
 
-Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerter och offertförhandlingar mer effektivt.
+Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerter och offertförhandlingar effektivare.
 
 ![Nya](../assets/new.svg) **Offertmallar**—<!--B2B-3367-->Köpare och säljare kan nu effektivisera offertprocessen genom att skapa återanvändbara och anpassningsbara offertmallar. Med offertmallar kan offertförhandlingen slutföras en gång, och köpare kan generera på förhand godkända länkade offerter för återkommande order i stället för att gå igenom offertförhandlingen för varje order. Offertmallar utökar de befintliga offertfunktionerna genom att lägga till följande avancerade funktioner:
 
@@ -318,7 +247,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 - **Flytta offertobjekt till rekvisitionslista**<!--B2B-2755--> - Nu kan köpare ta bort produkter från en offert och spara dem i en rekvisitionslista om de bestämmer sig för att inte ta med dem i offertförhandlingen.
 
-- **Ta bort flera produkter från en offert**<!--B2B-2881--> - På offerter med ett stort antal produkter kan köpare nu ta bort flera produkter från offerten genom att markera dem och använda alternativet *[!UICONTROL Remove]* från kontrollen *[!UICONTROL Actions]* på offertdetaljsidan. I tidigare versioner var en köpare tvungen att ta bort produkter en gång.
+- **Ta bort flera produkter från en offert**<!--B2B-2881--> - På offerter med ett stort antal produkter kan köpare nu ta bort flera produkter från offerten genom att markera dem en åt gången och använda alternativet *[!UICONTROL Remove]* i kontrollen *[!UICONTROL Actions]* på offertdetaljsidan. I tidigare versioner var en köpare tvungen att ta bort produkter en åt gången.
 
 - **Låsning av rabattrader**<!--B2B-2597--> - Under offertförhandling kan säljarna använda låsning av radrabjekt för större flexibilitet när de tillämpar rabatter under offertförhandlingen. En säljare kan till exempel tillämpa en särskild artikelrabatt på en artikel och låsa artikeln för att förhindra ytterligare rabatter. När en artikel är låst kan artikelpriset inte uppdateras när en rabatt på offertnivå används. Se [Initiera offert för en köpare](sales-rep-initiates-quote.md).
 
@@ -340,9 +269,9 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *14 oktober 2025*
 
-[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p8+ och 2.4.6-p13+.
+[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p8+ och 2.4.6-p13+.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-94](https://helpx.adobe.com/se/security/products/magento/apsb25-94.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 {{b2b-compatibility}}
 
@@ -350,9 +279,9 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *12 augusti 2025*
 
-[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p7+ och 2.4.6-p12+.
+[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p7+ och 2.4.6-p12+.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/se/security/products/magento/apsb25-71.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 {{b2b-compatibility}}
 
@@ -360,9 +289,9 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *10 juni 2025*
 
-[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p6+ och 2.4.6-p11+.
+[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p6+ och 2.4.6-p11+.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-50](https://helpx.adobe.com/se/security/products/magento/apsb25-50.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
 
 {{b2b-compatibility}}
 
@@ -374,7 +303,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p5+ och 2.4.6-p10+ har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-26](https://helpx.adobe.com/se/security/products/magento/apsb25-26.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 {{b2b-compatibility}}
 
@@ -382,11 +311,11 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *11 februari 2025*
 
-[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p4+ och 2.4.6-p9+.
+[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p4+ och 2.4.6-p9+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p4+ och 2.4.6-p9+ har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-08](https://helpx.adobe.com/se/security/products/magento/apsb25-08.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 {{b2b-compatibility}}
 
@@ -394,21 +323,23 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *8 oktober 2024*
 
-[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p3+ och 2.4.6-p8+.
+[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p3+ och 2.4.6-p8+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p3+ och 2.4.6-p8+ har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB24-73](https://helpx.adobe.com/se/security/products/magento/apsb24-73.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 {{b2b-compatibility}}
 
 ## B2B v1.4.2-p2
 
-[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p2+ och 2.4.6-p7+.
+*6 augusti 2024*
+
+[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p2+ och 2.4.6-p7+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p2+ och 2.4.6-p7+ har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i Säkerhetsbulletin xxxx.
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i säkerhetsbulletin [APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 {{b2b-compatibility}}
 
@@ -416,7 +347,7 @@ Förbättrade offertfunktioner hjälper köpare och säljare att hantera offerte
 
 *9 augusti 2024*
 
-[!BADGE Säkerhetsuppdateringar som stöds &#x200B;]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p1+ och 2.4.6-p6+.
+[!BADGE Säkerhetsuppdateringar som stöds ]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.7-p1+ och 2.4.6-p6+.
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.7-p1+ och 2.4.6-p6+ har lagts till.
 
@@ -434,13 +365,13 @@ B2B v1.4.2-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att den använder PHP-version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen. Dessutom stöder inte B2B 1.4.2+ för närvarande [GraphQL Application Server](https://experienceleague.adobe.com/sv/docs/commerce-operations/performance-best-practices/concepts/application-server).
+>Adobe Commerce B2B version 1.4.2+ är kompatibel med PHP 8.2. Om du uppgraderar Commerce-instansen till version 2.4.7+ måste du se till att den använder PHP-version 8.2 för att bibehålla kompatibiliteten med Adobe Commerce B2B-versionen. Dessutom stöder inte B2B 1.4.2+ för närvarande [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.1
 
 *7 augusti 2023*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=sv-SE). Kompatibel med Adobe Commerce 2.4.7-beta1.
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Kompatibel med Adobe Commerce 2.4.7-beta1.
 
 B2B v1.4.1-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
@@ -458,7 +389,7 @@ B2B v1.4.1-versionen innehåller kvalitetsförbättringar och felkorrigeringar.
 
 *13 juni 2023*
 
-[!BADGE Stöds]{type=Informative tooltip="Stöds"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=sv-SE). Kompatibel med Adobe Commerce 2.4.7-beta1.
+[!BADGE Stöds]{type=Informative tooltip="Stöds"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Kompatibel med Adobe Commerce 2.4.7-beta1.
 
 Den här versionen innehåller nya funktioner och förbättringar för B2B-överlåtbara offerter och flera felkorrigeringar.
 
@@ -484,7 +415,7 @@ Den här versionen innehåller nya funktioner och förbättringar för B2B-över
 
 ### Känt fel
 
-Om du installerar eller uppgraderar B2B 1.4.0 på [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=sv-SE) inträffar följande fel:
+Om du installerar eller uppgraderar B2B 1.4.0 på [Adobe Commerce version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html) inträffar följande fel:
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -496,7 +427,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-Du kan åtgärda det här problemet genom att lägga till manuella beroenden för B2B-säkerhetspaketet med en [stabilitetstagg](https://getcomposer.org/doc/04-schema.md#package-links). Instruktioner finns i [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html?lang=sv-SE).
+Du kan åtgärda det här problemet genom att lägga till manuella beroenden för B2B-säkerhetspaketet med en [stabilitetstagg](https://getcomposer.org/doc/04-schema.md#package-links). Instruktioner finns i [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
 ## B2B v1.3.5-p13
 
@@ -504,7 +435,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 [!BADGE Säkerhetsuppdateringar för Adobe Commerce 2.4.6-p13+ stöds]{type=Informative tooltip="Stöds"}.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-94](https://helpx.adobe.com/se/security/products/magento/apsb25-94.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 ## B2B v1.3.5-p12
 
@@ -512,7 +443,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 [!BADGE Säkerhetsuppdateringar som stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.6-p12+.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/se/security/products/magento/apsb25-71.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.5-p10
 
@@ -522,7 +453,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.6-p10 har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-26](https://helpx.adobe.com/se/security/products/magento/apsb25-26.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 ## B2B v1.3.5-p9
 
@@ -532,7 +463,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.6-p9 har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-08](https://helpx.adobe.com/se/security/products/magento/apsb25-08.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 ## B2B v1.3.5-p8
 
@@ -542,7 +473,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Nytt](../assets/new.svg) Kompatibilitet med säkerhetsuppdateringar för Adobe Commerce 2.4.6-p8 har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB24-73](https://helpx.adobe.com/se/security/products/magento/apsb24-73.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ## B2B v1.3.5-p7
 
@@ -564,7 +495,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 >[!NOTE]
 >
->När du har uppgraderat Commerce från 2.4.6 till den [senaste utgåvan](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=sv-SE#2.4.6) måste du uppdatera till den version av B2B 1.3.5 som stöds. Eller uppgradera B2B-tillägget från version 1.3.5 till version 1.4.0 eller senare för att få de senaste funktionerna.
+>När du har uppgraderat Commerce från 2.4.6 till den [senaste utgåvan](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6) måste du uppdatera till den version av B2B 1.3.5 som stöds. Eller uppgradera B2B-tillägget från version 1.3.5 till version 1.4.0 eller senare för att få de senaste funktionerna.
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.6 har lagts till.
 
@@ -594,7 +525,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.5-p16 (utökad support)
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB26-05](https://helpx.adobe.com/se/security/products/magento/apsb26-05.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
 
 ## B2B v1.3.4-p15
 
@@ -602,7 +533,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-94](https://helpx.adobe.com/se/security/products/magento/apsb25-94.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 ## B2B v1.3.4-p14
 
@@ -610,7 +541,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/se/security/products/magento/apsb25-71.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.4-p13
 
@@ -620,7 +551,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.5-p12 har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-50](https://helpx.adobe.com/se/security/products/magento/apsb25-50.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
 
 ## B2B v1.3.4-p12
 
@@ -630,7 +561,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.5-p12 har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-26](https://helpx.adobe.com/se/security/products/magento/apsb25-26.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 ## B2B v1.3.4-p11
 
@@ -640,7 +571,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.5-p11 har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-08](https://helpx.adobe.com/se/security/products/magento/apsb25-08.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 ## B2B v1.3.4-p10
 
@@ -650,7 +581,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.5-p10 har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB24-73](https://helpx.adobe.com/se/security/products/magento/apsb24-73.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ## B2B v1.3.4
 
@@ -692,8 +623,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.4-p17 (utökad support)
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB26-05](https://helpx.adobe.com/se/security/products/magento/apsb26-05.html)
-
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
 
 ## B2B v1.3.3-p16
 
@@ -701,7 +631,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-94](https://helpx.adobe.com/se/security/products/magento/apsb25-94.html)
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 ## B2B v1.3.3-p15
 
@@ -709,7 +639,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"} Adobe Commerce 2.4.0 och senare versioner
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/se/security/products/magento/apsb25-71.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.3-p14
 
@@ -719,7 +649,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.5-p12 har lagts till.
 
-![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-50](https://helpx.adobe.com/se/security/products/magento/apsb25-50.html).
+![Åtgärdat problem](../assets/fix.svg) Innehåller de säkerhetskorrigeringar som beskrivs i [Säkerhetsbulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
 
 ## B2B v1.3.3
 
@@ -791,7 +721,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Korrigerat problem](../assets/fix.svg) <!--- MC-41260--> Om du klickar på knappen **[!UICONTROL Return]** för en order som har skapats av en företagsanvändare dirigeras nu en administrativ användare till sidan Skapa retursida som förväntat. Administratören har tidigare omdirigerats till sidan Orderhistorik.
 
-![Korrigerat problem](../assets/fix.svg) [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} <!--- MC-40798--> Adobe Commerce misslyckas inte längre med ett minnesfel när metoden `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` körs under `bin/magento setup:upgrade`. Tidigare använde Adobe Commerce inte batchstorlek för att samla in när behörigheter initierades, utan i stället lästes in en samling med alla företagsroller.
+![Korrigerat problem](../assets/fix.svg) [!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} <!--- MC-40798--> Adobe Commerce misslyckas inte längre med ett minnesfel när metoden `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` körs under `bin/magento setup:upgrade`. Tidigare använde Adobe Commerce inte batchstorlek för att samla in när behörigheter initierades, utan i stället lästes in en samling med alla företagsroller.
 
 ![Ett problem har korrigerats](../assets/fix.svg) <!--- MC-40551--> Företagsanvändare kan nu redigera och uppdatera anpassade attributvärden för kunder. Tidigare var dessa attribut inte korrekt kopplade till formuläret för att skapa och redigera användare. En företagsanvändare kunde ange olika attributvärden, men Adobe Commerce sparade inte dessa värden korrekt.
 
@@ -843,7 +773,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 ![Korrigerat problem](../assets/fix.svg) <!--- MC-40426--> Merchants kan nu använda POST `rest/all/V1/requisition_lists`-slutpunkten för att skapa en rekvisitionslista för en kund. Tidigare inträffade detta 400-fel i Adobe Commerce när du försökte skapa en rekvisitionslista: `Could not save Requisition List`.
 
-![Ett problem har korrigerats](../assets/fix.svg) <!--- MC-41123--> Knappen **[!UICONTROL Add to Requisition List]** visas nu för en kundvagns produkter i lager när vagnen även innehåller produkter som inte finns i lager. Tidigare visades inte knappen _[!UICONTROL Add to Requisition List]_&#x200B;för någon av produkterna om en varukorg innehöll två produkter, varav en inte fanns i lager.
+![Ett problem har korrigerats](../assets/fix.svg) <!--- MC-41123--> Knappen **[!UICONTROL Add to Requisition List]** visas nu för en kundvagns produkter i lager när vagnen även innehåller produkter som inte finns i lager. Tidigare visades inte knappen _[!UICONTROL Add to Requisition List]_för någon av produkterna om en varukorg innehöll två produkter, varav en inte fanns i lager.
 
 ![Korrigerat problem](../assets/fix.svg) <!--- MC-40877--> Du kan nu använda REST API för att lägga till en produkt i en rekvisitionslista.
 
@@ -933,7 +863,7 @@ Du kan åtgärda det här problemet genom att lägga till manuella beroenden fö
 
 - Adobe Commerce visar ibland ett 404-fel när en köpare skapar en inköpsorder och sedan navigerar till utcheckningssidan. Det här felet inträffar när en köpare tidigare har skapat en annan inköpsorder med en onlinebetalningsmetod innan han/hon går till utcheckningssidan utan att slutföra det föregående köpet. Köparen kan fortfarande göra inköpsordern. **_Tillfällig lösning_**: Ingen. <!--- B2B-1605-->
 
-- Rabatterna för en viss betalningsmetod gäller även vid utcheckning av en inköpsorder även när köparen ändrar sin betalningsmetod under den slutliga utcheckningen. Det innebär att kunderna får en rabatt som de inte har rätt till. Det här problemet inträffar eftersom en kundvagnsregel för den ursprungliga betalningsmetoden fortfarande tillämpas trots att betalningsmetoden har ändrats. **_Tillfällig lösning_**: Ingen. Se den kända utgåvan av [Adobe Commerce 2.4.2 B2B: Rabatten gäller fortfarande för onlineinköpsorder när betalningsmetoden har ändrats.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html?lang=sv-SE) _Kunskapsbasen_ är en artikel. <!-- B2B-1012 -->
+- Rabatterna för en viss betalningsmetod gäller även vid utcheckning av en inköpsorder även när köparen ändrar sin betalningsmetod under den slutliga utcheckningen. Det innebär att kunderna får en rabatt som de inte har rätt till. Det här problemet inträffar eftersom en kundvagnsregel för den ursprungliga betalningsmetoden fortfarande tillämpas trots att betalningsmetoden har ändrats. **_Tillfällig lösning_**: Ingen. Se den kända utgåvan av [Adobe Commerce 2.4.2 B2B: Rabatten gäller fortfarande för onlineinköpsorder när betalningsmetoden har ändrats.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _Kunskapsbasen_ är en artikel. <!-- B2B-1012 -->
 
 - Frågan `deleteRequisitionListOutput` returnerar information om listan med borttagna rekvisitioner i stället för de återstående rekvisitionslistorna. <!--- MC-39894-->
 
@@ -951,7 +881,7 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Nya](../assets/new.svg) B2B-handlare kan nu styra leveransmetoder som erbjuds varje företag.<!--- BUNDLE-160 161 162 -->
 
-![Ny](../assets/new.svg)-handlare kan nu tillåta användare att rensa innehållet i kundvagnen i en enda åtgärd och konfigurera funktionen separat på varje webbplats <!--- BUNDLE-108 -->
+![Ny](../assets/new.svg)-handlare kan nu tillåta användare att rensa innehållet i kundvagnen i en enda åtgärd och konfigurera den här möjligheten separat på varje webbplats. <!--- BUNDLE-108 -->
 
 ![Nya](../assets/new.svg) B2B-köpare kan nu lägga till enskilda artiklar eller hela innehållet i kundvagnen direkt i en rekvisitionslista. <!--- BUNDLE-145 144-->
 
@@ -983,7 +913,9 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Åtgärdat problem](../assets/fix.svg) Fälten för anpassade kundadressattribut visas nu som förväntat i arbetsflödet för utcheckning av lagerlokal. <!--- MC-35607-->
 
-![Korrigerat problem](../assets/fix.svg) Konfigurationsfliken för B2B-funktioner öppnas nu korrekt. <!--- MC-35458--> Gäster kan nu använda QuickOrder för att lägga till produkter i kundvagnen och sedan ta bort artiklar. Tidigare togs produkten inte bort när en kund använde QuickOrder för att lägga till flera produkter i kundvagnen och sedan tog bort en produkt. <!--- MC-35327-->
+![Korrigerat problem](../assets/fix.svg) Konfigurationsfliken för B2B-funktioner öppnas nu korrekt. <!--- MC-35458-->
+
+![Åtgärdat problem](../assets/fix.svg) Gäster kan nu använda QuickOrder för att lägga till produkter i kundvagnen och sedan ta bort artiklar. Tidigare togs produkten inte bort när en kund använde QuickOrder för att lägga till flera produkter i kundvagnen och sedan tog bort en produkt. <!--- MC-35327-->
 
 ![Korrigerat problem](../assets/fix.svg) Ett företag kan nu uppdateras med REST API PUT `/V1/company/:companyId` -begäran utan att ange `region_id` när tillståndet är konfigurerat som **inte obligatoriskt**. Tidigare inträffade ett fel i Adobe Commerce om `region_id` inte hade angetts, trots att  inte krävdes. <!--- MC-35304-->
 
@@ -1001,7 +933,7 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Korrigerat problem](../assets/fix.svg) Du kan nu implementera multileverans för order som innehåller både fysiska och virtuella produkter. <!--- MC-33818-->
 
-![Korrigerat problem](../assets/fix.svg) Merchants kan nu skapa företagsanvändare från avsnittet _[!UICONTROL Company Users]_&#x200B;på sidorna Mitt konto och Företagsstruktur när **[!UICONTROL Access Restriction]**&#x200B;är aktiverat och **[!UICONTROL Restriction Mode]**&#x200B;är inställd på `Sales: Login Only`. Tidigare inträffade det här felet i Adobe Commerce när en handlare försökte skapa en användare: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![Korrigerat problem](../assets/fix.svg) Merchants kan nu skapa företagsanvändare från avsnittet _[!UICONTROL Company Users]_på sidorna Mitt konto och Företagsstruktur när **[!UICONTROL Access Restriction]**är aktiverat och **[!UICONTROL Restriction Mode]**är inställd på `Sales: Login Only`. Tidigare inträffade det här felet i Adobe Commerce när en handlare försökte skapa en användare: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 ![Korrigerat problem](../assets/fix.svg) Adobe Commerce återställer inte längre en kunds kundgrupp till standardvärdet när en kund sparar sin kontoinformation. <!--- MC-33554-->
 
@@ -1027,7 +959,7 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Nytt](../assets/new.svg) Stöd för Adobe Commerce 2.4.0 har lagts till.
 
-![Ny](../assets/new.svg) Storefront Order Search, med ytterligare tack för Marek Mularczyk från [Divante](https://www.divante.com/) och communitymedlemmar.
+![New](../assets/new.svg) Storefront Order Search, med tack för Marek Mularczyks bidrag från [Divante](https://www.divante.com/) och communitymedlemmar.
 
 ![Nya](../assets/new.svg) inköpsorder har förbättrats och skrivits om. De ingår nu som standard i Adobe Commerce.
 
@@ -1061,13 +993,13 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Ett problem har korrigerats](../assets/fix.svg). Butiksadministratörer kan lägga till produkter i en order som inte finns i den delade katalogen. Tidigare visades ett felmeddelande när ett objekt som inte finns i katalogen lades till.
 
-![Ett problem har korrigerats](../assets/fix.svg) [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Tidigare uppstod ett fel när kommandot `php bin/magento indexer:set-dimensions-mode catalog_product_price website` kördes och sedan en delad katalog skapades. Problemet har åtgärdats.
+![Ett problem har korrigerats](../assets/fix.svg) [!BADGE PaaS endast]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."} Tidigare uppstod ett fel när kommandot `php bin/magento indexer:set-dimensions-mode catalog_product_price website` kördes och sedan en delad katalog skapades. Problemet har åtgärdats.
 
 ![Korrigerat problem](../assets/fix.svg) När ett företag lades till och företagsadministratören tilldelades en icke-standardwebbplats skickades fel webbplats-ID, vilket orsakade ett fel. Problemet har åtgärdats.
 
 ![Ett problem har korrigerats](../assets/fix.svg). När en kund flyttats till en annan kundgrupp gick det inte att lägga till en produkt i en beställning med _Snabbordning_. Problemet har åtgärdats.
 
-![Ett fel &#x200B;](../assets/fix.svg) har korrigerats vid försök att checka ut med WebAPI med ett B2B-citattecken. Ett felaktigt värde skickades till API:t, vilket orsakade att ett fel uppstod. Problemet har åtgärdats.
+![Ett fel ](../assets/fix.svg) har korrigerats vid försök att checka ut med WebAPI med ett B2B-citattecken. Ett felaktigt värde skickades till API:t, vilket orsakade att ett fel uppstod. Problemet har åtgärdats.
 
 ![Ett fel har korrigerats](../assets/fix.svg) Tidigare uppstod ett fel när ett företag ställdes in på &quot;Active&quot; via API:t. Problemet har nu åtgärdats.
 
@@ -1077,7 +1009,7 @@ Den här versionen innehåller förbättringar av ordergodkännanden, leveransme
 
 ![Ett problem har korrigerats](../assets/fix.svg) Tidigare kopierades den ursprungliga administratörsadressen till den nya administratören när administratören för ett företag ändrades, och två adresser angavs. Nu läggs bara rätt adress till.
 
-![Ett problem har korrigerats](../assets/fix.svg) Tidigare gick det inte att använda API:t för att spara ett offertobjekt när Git är inställt på Tillåten och Meddela kund. Detta API-anrop fungerar nu som förväntat.
+![Ett problem har korrigerats](../assets/fix.svg) Tidigare gick det inte att använda API:t för att spara ett offertobjekt när backorder är inställd på Tillåten och Meddela kund.  &quot;Tillåtet och meddela kunden&quot; misslyckas. Detta API-anrop fungerar nu som förväntat.
 
 ![Åtgärdat problem](../assets/fix.svg) Fast produktskatt visas nu på informationssidan för offerter.
 
