@@ -20,7 +20,7 @@ Alla åtgärder som vidtas när kunden är inloggad tillämpas på den faktiska 
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 När det är aktiverat för en _Admin_ -användare visas knappen _[!UICONTROL Login as Customer]_&#x200B;på flera sidor:
 
@@ -34,7 +34,7 @@ När det är aktiverat för en _Admin_ -användare visas knappen _[!UICONTROL Lo
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 I Adobe Commerce as a Cloud Service använder funktionen Logga in som kund ett **OTC**-arbetsflöde i stället för en direkt inloggning. Administratörer genererar en kortvarig engångskod för en kund. Den här koden kan sedan bytas ut mot en kundåtkomsttoken via GraphQL, vilket möjliggör lösenordslös inloggning som kundarbetsflöden för shoppingscenarier som stöds av säljare.
 
@@ -101,7 +101,7 @@ Om du vill aktivera kontoåtkomst för butiksupporten från administratören må
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 1. Kunden går till sidan **[!UICONTROL Account Information]**.
 
@@ -113,7 +113,7 @@ Om du vill aktivera kontoåtkomst för butiksupporten från administratören må
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 Kunden måste ha tilläggsattributet `login_as_customer_assistance_allowed` inställt på **2**. Detta kan konfigureras på sidan **Redigera kund** i Admin eller via GraphQL när en kund skapas eller redigeras.
 
@@ -133,7 +133,7 @@ Om du vill ange den här behörigheten med GraphQL för ett befintligt kundkonto
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
+[!BADGE Endast PaaS]{type=Informative url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."}
 
 1. Gå till _>_ Alla kunder **[!UICONTROL Customers]** på sidofältet [!UICONTROL _Admin_].
 
@@ -149,7 +149,7 @@ Om du vill ange den här behörigheten med GraphQL för ett befintligt kundkonto
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 >[!NOTE]
 >
@@ -177,7 +177,7 @@ Om du vill ange den här behörigheten med GraphQL för ett befintligt kundkonto
 
 >[!IMPORTANT]
 >
->Den genererade OTC-koden är som standard giltig i 30 sekunder och ogiltigförklaras efter en engångsanvändning. TTL-värdet kan konfigureras genom att skicka en [supportanmälan](https://experienceleague.adobe.com/home?support-tab=home#support).
+>Den genererade OTC-koden är som standard giltig i 30 sekunder och ogiltigförklaras efter en engångsanvändning. TTL-värdet kan konfigureras genom att skicka en [supportanmälan](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support).
 
 När du har skapat engångskoden kan du använda den genom att navigera till butiken och logga in med följande inloggningsuppgifter:
 
