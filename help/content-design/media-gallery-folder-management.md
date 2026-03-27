@@ -19,7 +19,7 @@ Använd mappar för att ordna bilder i det nya [mediegalleriet](media-gallery.md
 
 Du kan bara skapa en mapp i `pub/media/wysywig`, `pub/media/catalog/category` eller andra mappar som lagts till av moduler.
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_&#x200B;Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på **[!UICONTROL Create Folder]**.
 
@@ -35,7 +35,7 @@ Du kan bara skapa en mapp i `pub/media/wysywig`, `pub/media/catalog/category` el
 >
 >Om du tar bort en mapp tas alla bilder i mappen bort. Du kan bara ta bort en mapp i mapparna `pub/media/wysywig` och `pub/media/catalog/category`.
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_&#x200B;Admin **[!UICONTROL Media Gallery]**.
 
 1. Markera mappen som ska tas bort.
 
