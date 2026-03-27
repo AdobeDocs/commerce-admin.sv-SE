@@ -3,10 +3,10 @@ title: Mediegalleriets resurshantering
 description: Lär dig hur du hanterar överförda mediefiler och mediefiler som du hämtar via en Adobe Stock-integrering.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -15,19 +15,21 @@ ht-degree: 0%
 
 Det nya [Mediegalleriet](media-gallery.md) innehåller verktyg för att hantera överförda mediefiler och resurser som du hämtar via en [Adobe Stock-integrering](adobe-stock.md). Om du har sparat en [bildförhandsvisning](adobe-stock-save-preview.md) från Adobe Stock kan du även [licensiera](adobe-stock-license-image.md) bilden i det nya mediegalleriet.
 
+Assets kan bara överföras till `pub/media/wysywig`, `pub/media/catalog/category` eller andra mappar som lagts till av moduler.
+
 ## Överföra en resurs
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_&#x200B;Admin **[!UICONTROL Media Gallery]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på **[!UICONTROL Upload Image]**.
 
 1. Markera filen som ska överföras.
 
-   Den valda resursen överförs automatiskt till den valda mappen (eller till lagringsroten om ingen mapp har valts).
+   Den valda resursen överförs automatiskt till den valda mappen.
 
 ## Visa tillgångsinformation
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_&#x200B;Admin **[!UICONTROL Media Gallery]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på de tre punkterna under resursen (![Ikonen Detaljer](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och klicka sedan på **[!UICONTROL View Details]**.
 
@@ -50,7 +52,7 @@ Det nya [Mediegalleriet](media-gallery.md) innehåller verktyg för att hantera 
 
 ## Redigera en resurs
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_&#x200B;Admin **[!UICONTROL Media Gallery]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på de tre punkterna under resursen (![Ikonen Resurs-menyn](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) och klicka sedan på **[!UICONTROL Edit]**.
 
@@ -78,7 +80,7 @@ Assets kan användas i stor utsträckning i hela administratören, till exempel 
 
 ## Ta bort resurser
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_&#x200B;Admin **[!UICONTROL Media Gallery]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på **[!UICONTROL Delete Images...]** och markera kryssrutan för varje resurs som du vill ta bort.
 
@@ -88,7 +90,7 @@ Assets kan användas i stor utsträckning i hela administratören, till exempel 
 
 ## Sök efter resurser
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_&#x200B;Admin **[!UICONTROL Media Gallery]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Använd indata från **[!UICONTROL Search by keywords]** för att utföra bildsökning med nyckelord/taggar.
 
@@ -106,7 +108,7 @@ Assets kan användas i stor utsträckning i hela administratören, till exempel 
 >
 >Funktionen _Används i_ kräver att [!UICONTROL Media Gallery Image Optimization] är aktiverad i [konfigurationsinställningarna](media-gallery-image-optimization.md).
 
-1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_&#x200B;Admin **[!UICONTROL Media Gallery]**.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på fliken **[!UICONTROL Filters]**.
 

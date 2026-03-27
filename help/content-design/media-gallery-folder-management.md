@@ -3,10 +3,10 @@ title: Mapphantering för mediegalleriet
 description: Lär dig hur du använder mappar för att ordna medieresurser.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+source-git-commit: c542ab1bf941c8bebcb665b7c29b6a2a80c15790
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,9 @@ Använd mappar för att ordna bilder i det nya [mediegalleriet](media-gallery.md
 
 ## Skapa en mapp
 
->[!NOTE]
->
->Du kan bara skapa en mapp i mapparna `pub/media/wysywig` och `pub/media/catalog/category`.
+Du kan bara skapa en mapp i `pub/media/wysywig`, `pub/media/catalog/category` eller andra mappar som lagts till av moduler.
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Klicka på **[!UICONTROL Create Folder]**.
 
@@ -37,7 +35,7 @@ Använd mappar för att ordna bilder i det nya [mediegalleriet](media-gallery.md
 >
 >Om du tar bort en mapp tas alla bilder i mappen bort. Du kan bara ta bort en mapp i mapparna `pub/media/wysywig` och `pub/media/catalog/category`.
 
-1. Gå till **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Content]** på sidofältet _[!UICONTROL Media]_Admin **[!UICONTROL Media Gallery]**.
 
 1. Markera mappen som ska tas bort.
 
