@@ -1,13 +1,13 @@
 ---
 title: Skapa och få åtkomst till ditt [!DNL Commerce] konto
 description: Lär dig mer om  [!DNL Commerce] konton, som hanterar de produkter och tjänster som du har köpt.
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: 518333eb4a5bcd2c4276ade008bb38552c7fd066
+source-git-commit: 96acaff3e614a5758fdc51bc5de70ce0507a970a
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 1%
+source-wordcount: '1010'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 Ett [!DNL Commerce]-konto är din centrala åtkomstpunkt för hantering av Adobe Commerce-tjänster för Adobe Commerce-projekt som distribueras i molninfrastruktur eller lokalt. På kontokontrollpanelen kan du visa prenumerationer, hantera API-nycklar för Commerce Services, granska tidigare faktureringsinformation och samarbeta med andra användare i organisationen.
 
-Om du behöver [skicka in din första biljett](https://experienceleague.adobe.com/sv/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) eller hantera din Adobe Commerce-relation, i stället för att arbeta i en viss butik, börjar du med att skapa eller komma åt ditt [!DNL Commerce]-konto.
+Om du behöver [skicka in din första biljett](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) eller hantera din Adobe Commerce-relation, i stället för att arbeta i en viss butik, börjar du med att skapa eller komma åt ditt [!DNL Commerce]-konto.
 
-Du kan komma åt ditt [!DNL Commerce]-konto från webbplatsen [!DNL Commerce]. På kontokontrollpanelen kan du visa information om de produkter och tjänster du har köpt och tillhandahålla [delad åtkomst](https://experienceleague.adobe.com/sv/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) till andra användare. Viss information, t.ex. API-nycklar för Commerce Services, visas endast för licensägare.
+Du kan komma åt ditt [!DNL Commerce]-konto från webbplatsen [!DNL Commerce]. På kontokontrollpanelen kan du visa information om de produkter och tjänster du har köpt och tillhandahålla [delad åtkomst](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) till andra användare. Viss information, t.ex. API-nycklar för Commerce Services, visas endast för licensägare.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Du kan komma åt ditt [!DNL Commerce]-konto från webbplatsen [!DNL Commerce]. P
 
 Inloggningen för ditt [!DNL Commerce]-konto är skild från inloggningen för din administratör för butik. Du använder vanligtvis olika autentiseringsuppgifter för varje, och åtkomsten till varje system hanteras separat.
 
-En användare som vill effektivisera sin inloggning på Adobe Commerce och Adobe Business-produkter kan dock konfigurera sin Adobe ID att logga in på butiksadministratören: [Konfigurera Commerce Admin Integration med Adobe ID](https://experienceleague.adobe.com/sv/docs/commerce-admin/start/admin/ims/adobe-ims-config) i *IMS Integration Guide for Commerce*.
+En användare som vill effektivisera sin inloggning på Adobe Commerce och Adobe Business-produkter kan dock konfigurera sin Adobe ID att logga in på butiksadministratören: [Konfigurera Commerce Admin Integration med Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) i *IMS Integration Guide for Commerce*.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Du måste ha en Adobe ID för att få tillgång till ditt [!DNL Commerce]-konto.
 
 >[!WARNING]
 >
->Om du inte hittar Commerce-organisationen när du skickar in ett [supportärende](https://experienceleague.adobe.com/sv/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) från Adobe Commerce betyder det vanligtvis något av följande: Kontoägaren har inte skapat någon Adobe ID, eller så finns en Adobe ID men är inte länkad till Commerce-kontot.
+>Om du inte hittar Commerce-organisationen när du skickar in ett [supportärende](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) från Adobe Commerce betyder det vanligtvis något av följande: Kontoägaren har inte skapat någon Adobe ID, eller så finns en Adobe ID men är inte länkad till Commerce-kontot.
 
 1. Gå till webbplatsen [[!DNL Commerce]](https://account.magento.com/customer/account/login/).
 
@@ -108,6 +108,19 @@ Alla kan skapa ett kostnadsfritt [!DNL Commerce]-konto. Den e-postadress du anv�
 
 Med delad åtkomst kan du ge betrodda användare - t.ex. kollegor, partners och administratörer - behörighet att hantera din Adobe Commerce-relation åt dig utan att använda din personliga inloggning. Detta inkluderar att andra kan öppna och spåra supportärenden.
 
-I avsnittet [Dela ett Commerce-konto](https://experienceleague.adobe.com/sv/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) i Adobe Commerce Starthandbok finns mer information om hur du konfigurerar ett delat konto.
+I avsnittet [Dela ett Commerce-konto](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) i Adobe Commerce Starthandbok finns mer information om hur du konfigurerar ett delat konto.
 
-Detaljerade instruktioner om hur du skickar in ett supportärende från Commerce finns i [användarhandboken för Adobe Commerce Help Center](https://experienceleague.adobe.com/sv/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+Detaljerade instruktioner om hur du skickar in ett supportärende från Commerce finns i [användarhandboken för Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+
+## Sammanfattning
+
+| Scenario | Vad händer? | Så här gör du med Adobe ID | Vad du ska göra för MAGE ID/Commerce-konto | Resultat |
+| --- | --- | --- | --- | --- |
+| Nyheter i Adobe och Commerce | Ingen Adobe ID, inget MAGE-ID | Skapa en Adobe ID när du uppmanas att göra det under inloggning på https://account.magento.com | När Adobe ID har skapats loggar du in igen på https://account.magento.com | Ett Commerce-konto skapas och ett MAGE-ID skapas och länkas till Adobe ID |
+| Har Adobe ID, men ännu inget MAGE-ID | Använder endast andra Adobe-produkter | Logga in med Adobe ID på https://account.magento.com | Första lyckade inloggningen skapar Commerce-kontot och MAGE-ID:t | MAGE ID skapas och länkas automatiskt |
+| Äldre Commerce-kund med gammalt MAGE-ID | Har ett historiskt MAGE-ID, men inte Adobe ID | Skapa en Adobe ID på https://account.adobe.com med samma e-postadress som det befintliga MAGE-ID:t | Logga in på https://account.magento.com med&quot;Logga in med Adobe ID&quot; | Befintligt MAGE-ID är länkat till nya Adobe ID |
+| Adobe ID och MAGE ID finns men är inte länkade | E-post för Adobe ID och Commerce skiljer sig åt | Justera e-postmeddelandet från Adobe ID så att det matchar e-postadressen för Commerce-kontot (eller vice versa, beroende på ägarskap) | När e-postmeddelandena matchar loggar du in via&quot;Logga in med Adobe ID&quot; på https://account.magento.com | Adobe ID blir inloggningsnamn; MAGE-ID:t är fortfarande berättigandeidentifieraren |
+| Har Adobe ID men inget MAGE-ID | Aldrig inloggad på https://account.magento.com | Använda befintlig Adobe ID | Logga in på https://account.magento.com för första gången | Den första inloggningen genererar och länkar ett MAGE-ID |
+| Använder endast inloggning för molnprojekt (accounts.magento.cloud) | Kan komma åt molnprojekt men inte klassiskt Commerce-konto | Fortsätt använda Adobe ID för molnprojekt | Om Marketplace/licensvillkoren behövs kan du även logga in på https://account.magento.com med samma Adobe ID | Ett klassiskt Commerce-konto (med MAGE-ID) skapas och länkas |
+
+Om en användare anser att de bör ha Commerce-berättiganden men inte ser ett MAGE-ID är nästa steg att logga in på https://account.magento.com med hjälp av sin Adobe ID så att ett Commerce-konto och ett MAGE-ID kan skapas eller länkas på rätt sätt.
