@@ -3,7 +3,7 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Lär dig mer om  [!DNL Commerce Marketplace], som erbjuder handlare ett välstrukturerat urval av lösningar, och ger kvalificerade utvecklare verktyg, plattform och primär plats för att skapa ett livskraftigt företag.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: 9441c181a4272607d91bbaf5d410d8e433cb144f
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [Adobe Commerce Marketplace](https://marketplace.magento.com/) är en programbutik som erbjuder handlare ett välstrukturerat urval av lösningar och ger kvalificerade utvecklare de verktyg, den plattform och den plats där de ska skapa ett livskraftigt företag. [!DNL Commerce Marketplace] erbjuder ett urval tillägg som är tillgängliga utan kostnad och andra som är till salu. Inköp kan betalas med kreditkort eller [PayPal](https://www.paypal.com/us/home).
 
-Alla tillägg som är tillgängliga på [!DNL Commerce Marketplace] har genomgått en omfattande granskning. [EQP (Extension Quality Program](https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/)) kombinerar [!DNL Commerce] expertis, riktlinjer för utveckling och verifieringsverktyg för att säkerställa att alla tillägg i Commerce Marketplace uppfyller kodningsstandarder och bästa praxis. Granskningsprocessen innefattar både en automatiserad kontroll och en manuell QA-granskning. Under processen undersöks och testas strukturen och koden för varje förlängning för tecken på virus-/virusinfektion och eventuella tecken på plagiarism. Granskningen innehåller en djupgående teknisk undersökning och en säkerhetskontroll utförd av en [!DNL Commerce]-tekniker, med fokus på dokumentation, kodningsstruktur, prestanda, skalbarhet, säkerhet och kompatibilitet med [!DNL Commerce]-kärnan.
+Alla tillägg som är tillgängliga på [!DNL Commerce Marketplace] har genomgått en omfattande granskning. [EQP (Extension Quality Program](https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program)) kombinerar [!DNL Commerce] expertis, riktlinjer för utveckling och verifieringsverktyg för att säkerställa att alla tillägg i Commerce Marketplace uppfyller kodningsstandarder och bästa praxis. Granskningsprocessen innefattar både en automatiserad kontroll och en manuell QA-granskning. Under processen undersöks och testas strukturen och koden för varje förlängning för tecken på virus-/virusinfektion och eventuella tecken på plagiarism. Granskningen innehåller en djupgående teknisk undersökning och en säkerhetskontroll utförd av en [!DNL Commerce]-tekniker, med fokus på dokumentation, kodningsstruktur, prestanda, skalbarhet, säkerhet och kompatibilitet med [!DNL Commerce]-kärnan.
 
 Även om du kan köpa tillägg från andra källor verifieras endast de tillägg som är tillgängliga på [!DNL Commerce Marketplace] via omfattande teknisk granskning och marknadsföringsgranskning i Extension Quality Program.
 
@@ -43,7 +43,7 @@ Följande resurser är en startpunkt för nya användare som vill bekanta sig me
 
 ## [!DNL Marketplace] autentiseringsuppgifter
 
-Innan du kan installera ett tillägg som köpts från [!DNL Commerce Marketplace] loggar du in på ditt [!DNL Commerce]-konto och kontrollerar att du har en aktiv åtkomstnyckel. Du kan logga in på ditt [!DNL Commerce]-konto från huvudet på [[!DNL Marketplace]](https://marketplace.magento.com/) eller [Magento.com](https://business.adobe.com/se/products/magento/magento-commerce.html).
+Innan du kan installera ett tillägg som köpts från [!DNL Commerce Marketplace] loggar du in på ditt [!DNL Commerce]-konto och kontrollerar att du har en aktiv åtkomstnyckel. Du kan logga in på ditt [!DNL Commerce]-konto från huvudet på [[!DNL Marketplace]](https://marketplace.magento.com/) eller [Magento.com](https://business.adobe.com/products/magento/magento-commerce.html).
 
 Din åtkomstnyckel är en uppsättning offentliga och privata nycklar som används för att synkronisera din [!DNL Commerce]-installation med ditt [!DNL Commerce]-konto och verifiera dina autentiseringsuppgifter. När ditt konto har synkroniserats måste du ange din privata nyckel varje gång du installerar ett tillägg eller en modul från Commerce Marketplace eller uppgraderar din [!DNL Commerce]-installation.
 
@@ -53,13 +53,13 @@ Du kan skapa flera åtkomstnycklar för olika syften och aktivera eller inaktive
 
 1. Logga in på ditt [!DNL Commerce]-konto.
 
-1. Välj fliken _[!UICONTROL My Account]_&#x200B;på sidan **[!UICONTROL Marketplace]**.
+1. Välj fliken _[!UICONTROL My Account]_på sidan **[!UICONTROL Marketplace]**.
 
 1. Klicka på nedpilen i det övre högra hörnet bredvid ditt namn och välj **[!UICONTROL My Profile]**.
 
    ![Din [!DNL Marketplace]-profil](./assets/marketplace-profile.png){width="600"}
 
-1. Klicka på _[!UICONTROL Marketplace]_&#x200B;på fliken&#x200B;_[!UICONTROL My Products]_ under **[!UICONTROL Access Keys]** och gör sedan något av följande:
+1. Klicka på _[!UICONTROL Marketplace]_på fliken_[!UICONTROL My Products]_ under **[!UICONTROL Access Keys]** och gör sedan något av följande:
 
    - Kontrollera om du redan har en uppsättning nycklar för dina Marketplace-inköp. Du kan skapa flera uppsättningar åtkomstnycklar för olika syften.
 
@@ -77,7 +77,7 @@ Du kan skapa flera åtkomstnycklar för olika syften och aktivera eller inaktive
 
 >[!IMPORTANT]
 >
->Från och med Adobe Commerce och Magento Open Source 2.4.0 tas webbinstallationsguiden bort och du måste använda kommandoraden för att [installera](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=sv-SE) eller [uppgradera](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=sv-SE) din instans. Detta krav omfattar även [moduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=sv-SE) och [tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=sv-SE).
+>Från och med Adobe Commerce och Magento Open Source 2.4.0 tas webbinstallationsguiden bort och du måste använda kommandoraden för att [installera](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) eller [uppgradera](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) din instans. Detta krav omfattar även [moduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) och [tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 Installationsprocessen för [!DNL Marketplace]-köp skiljer sig åt för _lokala_-installationer av Commerce jämfört med för installationer som finns på [Adobe Cloud-arkitekturen](https://www.adobe.com/commerce/magento/enterprise.html).
 
@@ -109,7 +109,7 @@ Inloggningsproblem är vanligtvis relaterade till en felmatchning mellan ditt MA
 
 ### Frågor om öppen källkod
 
-Marketplace Support-teamet löser problem som bara gäller webbplatserna [commercialMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) och [commercialDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) . Du kan ställa frågor om Magento Open Source till [Community-forumet](https://community.magento.com/) eller [kontakta en partner](https://business.adobe.com/se/products/magento/partners.html) som kan hjälpa till med Magento Open Source.
+Marketplace Support-teamet löser problem som bara gäller webbplatserna [commercialMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) och [commercialDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) . Du kan ställa frågor om Magento Open Source till [Community-forumet](https://community.magento.com/) eller [kontakta en partner](https://business.adobe.com/products/magento/partners.html) som kan hjälpa till med Magento Open Source.
 
 ### Återbetalningsbegäranden
 
