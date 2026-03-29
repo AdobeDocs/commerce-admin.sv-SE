@@ -43,7 +43,7 @@ Följande resurser är en startpunkt för nya användare som vill bekanta sig me
 
 ## [!DNL Marketplace] autentiseringsuppgifter
 
-Innan du kan installera ett tillägg som köpts från [!DNL Commerce Marketplace] loggar du in på ditt [!DNL Commerce]-konto och kontrollerar att du har en aktiv åtkomstnyckel. Du kan logga in på ditt [!DNL Commerce]-konto från huvudet på [[!DNL Marketplace]](https://marketplace.magento.com/) eller [Magento.com](https://business.adobe.com/products/magento/magento-commerce.html).
+Innan du kan installera ett tillägg som köpts från [!DNL Commerce Marketplace] loggar du in på ditt [!DNL Commerce]-konto och kontrollerar att du har en aktiv åtkomstnyckel. Du kan logga in på ditt [!DNL Commerce]-konto från huvudet på [[!DNL Marketplace]](https://marketplace.magento.com/) eller [Magento.com](https://business.adobe.com/se/products/magento/magento-commerce.html).
 
 Din åtkomstnyckel är en uppsättning offentliga och privata nycklar som används för att synkronisera din [!DNL Commerce]-installation med ditt [!DNL Commerce]-konto och verifiera dina autentiseringsuppgifter. När ditt konto har synkroniserats måste du ange din privata nyckel varje gång du installerar ett tillägg eller en modul från Commerce Marketplace eller uppgraderar din [!DNL Commerce]-installation.
 
@@ -77,7 +77,7 @@ Du kan skapa flera åtkomstnycklar för olika syften och aktivera eller inaktive
 
 >[!IMPORTANT]
 >
->Från och med Adobe Commerce och Magento Open Source 2.4.0 tas webbinstallationsguiden bort och du måste använda kommandoraden för att [installera](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) eller [uppgradera](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) din instans. Detta krav omfattar även [moduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) och [tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>Från och med Adobe Commerce och Magento Open Source 2.4.0 tas webbinstallationsguiden bort och du måste använda kommandoraden för att [installera](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=sv-SE) eller [uppgradera](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=sv-SE) din instans. Detta krav omfattar även [moduler](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=sv-SE) och [tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=sv-SE).
 
 Installationsprocessen för [!DNL Marketplace]-köp skiljer sig åt för _lokala_-installationer av Commerce jämfört med för installationer som finns på [Adobe Cloud-arkitekturen](https://www.adobe.com/commerce/magento/enterprise.html).
 
@@ -109,7 +109,7 @@ Inloggningsproblem är vanligtvis relaterade till en felmatchning mellan ditt MA
 
 ### Frågor om öppen källkod
 
-Marketplace Support-teamet löser problem som bara gäller webbplatserna [commercialMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) och [commercialDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) . Du kan ställa frågor om Magento Open Source till [Community-forumet](https://community.magento.com/) eller [kontakta en partner](https://business.adobe.com/products/magento/partners.html) som kan hjälpa till med Magento Open Source.
+Marketplace Support-teamet löser problem som bara gäller webbplatserna [commercialMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) och [commercialDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) . Du kan ställa frågor om Magento Open Source till [Community-forumet](https://community.magento.com/) eller [kontakta en partner](https://business.adobe.com/se/products/magento/partners.html) som kan hjälpa till med Magento Open Source.
 
 ### Återbetalningsbegäranden
 
