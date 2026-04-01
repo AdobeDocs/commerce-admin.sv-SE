@@ -3,9 +3,9 @@ title: Skapa en relaterad produktregel
 description: Lär dig hur du skapar en relaterad produktregel som kan aktiveras för att visa relaterade produkter, merförsäljning och korsförsäljning.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
+source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Processen med att skapa en relaterad produktregel liknar att ställa in en prisr
 
 ## Skapa en relaterad produktregel
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Promotions]_Admin **[!UICONTROL Related Product Rules]**.
 
 1. Klicka på **[!UICONTROL Add Rule]** i det övre högra hörnet.
 
@@ -52,7 +52,7 @@ Processen med att skapa en relaterad produktregel liknar att ställa in en prisr
 
    - Om regeln gäller för ett specifikt [kundsegment](../customers/customer-segments.md) anger du **[!UICONTROL Customer Segments]** till `Specified` och väljer kundsegmentet i listan.
 
-   - Om regeln gäller för en viss [Real-Time CDP-målgrupp](../customers/audience-activation.md) anger du **[!UICONTROL Real-Time CDP Audience]** till `Specified` och väljer målgruppen för Real-Time CDP i listan. Den här funktionen är i betaversion. Om du vill gå med i betaprogrammet skickar du en begäran till [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Om regeln gäller för en viss [Real-Time CDP-målgrupp](../customers/audience-activation.md) anger du **[!UICONTROL Real-Time CDP Audience]** till `Specified` och väljer målgruppen för Real-Time CDP i listan.
 
      ![Relaterade produkter - Real-Time CDP-målgrupp](./assets/rtcdp-related-products.png){width="500"}
 
@@ -70,7 +70,7 @@ Processen med att skapa en relaterad produktregel liknar att ställa in en prisr
 
 ## Ta bort en relaterad produktregel
 
-1. Gå till **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Promotions]_Admin **[!UICONTROL Related Product Rules]**.
 
 1. Hitta den relaterade produktregel som du vill ta bort.
 
