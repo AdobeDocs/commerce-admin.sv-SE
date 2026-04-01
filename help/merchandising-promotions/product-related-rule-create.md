@@ -26,7 +26,7 @@ Processen med att skapa en relaterad produktregel liknar att ställa in en prisr
 
 ## Skapa en relaterad produktregel
 
-1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Promotions]_Admin **[!UICONTROL Related Product Rules]**.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Promotions]_&#x200B;Admin **[!UICONTROL Related Product Rules]**.
 
 1. Klicka på **[!UICONTROL Add Rule]** i det övre högra hörnet.
 
@@ -70,7 +70,7 @@ Processen med att skapa en relaterad produktregel liknar att ställa in en prisr
 
 ## Ta bort en relaterad produktregel
 
-1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Promotions]_Admin **[!UICONTROL Related Product Rules]**.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Promotions]_&#x200B;Admin **[!UICONTROL Related Product Rules]**.
 
 1. Hitta den relaterade produktregel som du vill ta bort.
 
