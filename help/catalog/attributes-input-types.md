@@ -3,9 +3,9 @@ title: Attributindatatyper
 description: Lär dig mer om de indatatyper som är tillgängliga för produktattribut, som bestämmer vilken typ av data som kan anges och formatet för fältet eller indatakontrollen.
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 5398555aa025db6ff0eafd758d8e930b81c5e771
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,17 @@ När attribut visas från administratören är de fält som du fyller i när du 
 | Egenskap | Beskrivning |
 |--- |--- |
 | [!UICONTROL Text Field] | Ett enradigt inmatningsfält för text. |
-| [!UICONTROL Text Area] | Ett inmatningsfält med flera rader för att skriva textstycken, som en produktbeskrivning. Du kan använda WYSIWYG-redigeraren för att formatera texten med HTML-taggar, eller ange taggarna direkt i texten. |
+| [!UICONTROL Text Area] | Ett inmatningsfält med flera rader för att skriva textstycken, som en produktbeskrivning. Du kan använda WYSIWYG Editor för att formatera texten med HTML-taggar eller ange taggarna direkt i texten. |
 | [!UICONTROL Text Editor] | En fullt fungerande textredigerare på attributplatsen. |
-| [!UICONTROL Date] | Visar ett datumvärde i det [önskade formatet](#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!_**&#x200B;Beroende på systemkonfigurationen kan_Admin _-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](#date-and-time-options). |
+| [!UICONTROL Date] | Visar ett datumvärde i det [önskade formatet](#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datumvärden kan väljas från en lista eller en kalender ( ![kalenderikon](../assets/icon-calendar.png) ). <br/><br/>**_Obs!:_** Beroende på systemkonfigurationen kan _Admin_-användare ange datum direkt i ett fält eller välja ett datum i kalendern eller listan. Mer information om att ange datum- och tidsvärden finns i [Datum- och tidsalternativ](#date-and-time-options). |
 | [!UICONTROL Date and Time] | Visar ett datum- och tidsvärde i det [önskade formatet](#date-and-time-options) och [tidszonen](../getting-started/store-details.md#locale-options). Datum och tid kan anges manuellt eller väljas från en kalender. Exempelformat: MM/DD/ÅÅÅÅ HH:MM |
 | [!UICONTROL Yes/No] | Visar en nedrullningsbar lista med fördefinierade alternativ för `Yes` och `No`. |
 | Listruta | Visar en nedrullningsbar lista med värden som endast accepterar ett val. Indatatypen för listrutan är en nyckelkomponent för [konfigurerbara produkter](../catalog/product-create-configurable.md). |
 | [!UICONTROL Multiple Select] | Visar en nedrullningsbar lista med värden som accepterar flera val. |
+| [!UICONTROL Number] [!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."} | Ett numeriskt inmatningsfält som lagrar decimalvärden. Till skillnad från indatatypen **Price** används inte valutaformatering och negativa värden accepteras. Använd den här indatatypen för mått, dimensioner eller tekniska specifikationer som temperaturintervall. |
 | [!UICONTROL Price] | Den här indatatypen används för att skapa prisfält utöver de fördefinierade attributen: `Price`, `Special Price`, `Tier Price` och `Cost`. Valutan som används avgörs av systemkonfigurationen. |
 | [!UICONTROL Media Image] | Kopplar en extra bild till en produkt, t.ex. en produktlogotyp, anvisningar för omvårdnad eller ingredienser från en livsmedelsetikett. När du lägger till ett mediabildsattribut i en produkts attributuppsättning blir det en extra bildtyp tillsammans med Base, Small och Thumbnail. Mediebildattributet kan uteslutas från medieläsaren [storefront](catalog-images-video.md#storefront-media-browser). |
+| [!UICONTROL File] [!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."} | Tillåter att en fil överförs och associeras med ett produktattribut. Filtyper som stöds och maximal filstorlek har konfigurerats i [produktfilsattribut](../configuration-reference/catalog/product-file-attributes.md). Använd den här indatatypen för dokument som produkthandböcker, specifikationsblad eller certifikat. |
 | [!UICONTROL Fixed Product Tax] | Gör att du kan definiera [FPT-frekvenser](../stores-purchase/fixed-product-tax.md) baserat på kraven för din språkinställning. |
 | [!UICONTROL Visual Swatch] | Visar en färgruta som visar färg, struktur eller mönster för en konfigurerbar produkt. En [visuell färgruta](swatches.md) kan fyllas med ett hexadecimalt färgvärde, eller så kan en överförd bild som representerar färg, material, struktur eller mönster för alternativet visas. |
 | [!UICONTROL Text Swatch] | En textbaserad representation av ett konfigurerbart produktalternativ som ofta används för storlek. [Textfärgrutor](swatches.md) kan även innehålla hexadecimala färgvärden. |
@@ -41,9 +43,9 @@ Du kan anpassa formatet för datum- och tidsfält och välja den indatakontroll 
 
 ![Exempel - popup-kalender för butiker](./assets/storefront-popup-calendar.png){width="700" zoomable="yes"}
 
-**_Så här formaterar du datum/tid-fält:_**
+**_För att formatera datum/tid-fält:_**
 
-1. Gå till **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;på sidofältet_ Admin _.
+1. Gå till _>_ > **[!UICONTROL Stores]** på sidofältet _[!UICONTROL Settings]_Admin **[!UICONTROL Configuration]**.
 
 1. Expandera **[!UICONTROL Catalog]** i panelen till vänster och klicka på underobjektet **[!UICONTROL Catalog]**.
 
@@ -66,7 +68,7 @@ Du kan anpassa formatet för datum- och tidsfält och välja den indatakontroll 
    - `12h AM/PM`
    - `24h`
 
-1. Ange år (YYY) för att ställa in **[!UICONTROL from]**- och **[!UICONTROL to]**-datumen om du vill fastställa **[!UICONTROL Year Range]** för de nedrullningsbara värdena.
+1. Ange år (YYY) för att ställa in **[!UICONTROL Year Range]**- och **[!UICONTROL from]**-datumen om du vill fastställa **[!UICONTROL to]** för de nedrullningsbara värdena.
 
    Om fältet är tomt används det aktuella året som standard.
 

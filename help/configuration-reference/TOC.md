@@ -5,10 +5,10 @@ breadcrumb-title: Konfigurationsreferens
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 0%
    - [XML-webbplatskarta](./catalog/xml-sitemap.md)
    - [RSS-flöden](./catalog/rss-feeds.md)
    - [Skicka e-post till en vän](./catalog/email-to-a-friend.md)
+   - [Produktfilattribut](./catalog/product-file-attributes.md)
 - Säkerhet {#security}
    - [2FA](./security/2fa.md)
    - [Administrationspanelen för Google reCAPTCHA](./security/google-recaptcha-admin.md)
@@ -83,4 +84,4 @@ ht-degree: 0%
    - [Administratör](./advanced/admin.md)
    - [System](./advanced/system.md)
    - [Utvecklare](./advanced/developer.md)
-- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=sv-SE)
+- [Återgå till administratörens användarhandböcker](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
