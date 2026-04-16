@@ -93,7 +93,7 @@ Innan du konfigurerar en påminnelseregel för e-post måste du först [ställa 
 
      ![Titlar och beskrivningar - butiksvy](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."} Om du använder [!DNL Adobe Commerce as a Cloud Service] kan du aktivera [regelrepeterbarhet](#rule-repeatability) genom att markera kryssrutan [!UICONTROL Rule Repeatability].
+1. [!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."} Om du använder [!DNL Adobe Commerce as a Cloud Service] kan du aktivera [regelrepeterbarhet](#rule-repeatability) genom att markera kryssrutan [!UICONTROL Rule Repeatability].
 
    >[!IMPORTANT]
    >
@@ -103,7 +103,7 @@ Innan du konfigurerar en påminnelseregel för e-post måste du först [ställa 
 
 ## Regelupprepning
 
-[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
+[!BADGE Endast SaaS]{type=Positive url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce as a Cloud Service- och Adobe Commerce Optimizer-projekt (SaaS-infrastruktur som hanteras av Adobe)."}
 
 >[!IMPORTANT]
 >
