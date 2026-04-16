@@ -3,7 +3,7 @@ title: Nyligen visade eller jämförda produkter
 description: Lär dig hur du konfigurerar butiksinnehållsblocken för nyligen visade och jämförda produkter.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
-badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
+badgePaas: label="Endast PaaS" type="Informative" url="https://experienceleague.adobe.com/sv/docs/commerce/user-guides/product-solutions" tooltip="Gäller endast Adobe Commerce i molnprojekt (Adobe-hanterad PaaS-infrastruktur) och lokala projekt."
 source-git-commit: 6848b28d05bc3da12d0ecdeb32d6515c7be7cdfb
 workflow-type: tm+mt
 source-wordcount: '244'
