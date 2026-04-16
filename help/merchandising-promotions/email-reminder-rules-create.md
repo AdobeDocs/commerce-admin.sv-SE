@@ -18,11 +18,11 @@ Innan du konfigurerar en påminnelseregel för e-post måste du först [ställa 
 >
 >Påminnelser via e-post kan höja en kundvagnsregel med eller utan en kupong. En kundprisregel som definierar en autogenererad kupong genererar en slumpmässig kupongkod för varje kund.
 
-1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Communications]_Admin **[!UICONTROL Email Reminder Rules]**.
+1. Gå till _>_ > **[!UICONTROL Marketing]** på sidofältet _[!UICONTROL Communications]_&#x200B;Admin **[!UICONTROL Email Reminder Rules]**.
 
 1. Klicka på **[!UICONTROL Add New Rule]** i det övre högra hörnet.
 
-1. Slutför _[!UICONTROL Rule Information]_enligt följande:
+1. Slutför _[!UICONTROL Rule Information]_&#x200B;enligt följande:
 
    ![Påminnelseregel för e-post](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -55,7 +55,7 @@ Innan du konfigurerar en påminnelseregel för e-post måste du först [ställa 
 
    >[!NOTE]
    >
-   >Om en kund har fler än en matchande övergiven kundvagn, önskelista eller kombination av båda aktiveras e-postpåminnelsen endast en gång för den kunden. Om du vill utlösa samma e-postpåminnelse igen använder du fältet _[!UICONTROL Repeat Schedule]_för att ange antalet dagar mellan e-postmeddelanden. <br/>
+   >Om en kund har fler än en matchande övergiven kundvagn, önskelista eller kombination av båda aktiveras e-postpåminnelsen endast en gång för den kunden. Om du vill utlösa samma e-postpåminnelse igen använder du fältet _[!UICONTROL Repeat Schedule]_&#x200B;för att ange antalet dagar mellan e-postmeddelanden. <br/>
    >
    >Samma e-postpåminnelse hämtas **_inte_** för samma kund för **_nya_** övergivna kundvagnar och önskelistor **_när_** _[!UICONTROL Repeat Schedule]_-perioden är slut.
    >
@@ -67,7 +67,7 @@ Innan du konfigurerar en påminnelseregel för e-post måste du först [ställa 
 
 1. Välj **[!UICONTROL Emails and Labels]** i panelen till vänster.
 
-   ![Regel för påminnelse via e-post - mallar för e-post och etiketter ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Regel för påminnelse via e-post - mallar för e-post och etiketter &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. I avsnittet **[!UICONTROL Email Templates]** väljer du den e-postmall som ska användas för varje webbplats och butiksvy i din [butikshierarki](../getting-started/websites-stores-views.md).
 
@@ -85,7 +85,7 @@ Innan du konfigurerar en påminnelseregel för e-post måste du först [ställa 
 
      ![Påminnelser via e-post - titlar och beskrivningar](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - I avsnittet _[!UICONTROL Titles and Descriptions Per Store View]_anger du **[!UICONTROL Rule Title]**och **[!UICONTROL Description]**för_ standardbutiksvyn _. Om du har flera butiksvyer anger du lämplig rubrik och beskrivning för varje.
+   - I avsnittet _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;anger du **[!UICONTROL Rule Title]**&#x200B;och **[!UICONTROL Description]**&#x200B;för_ standardbutiksvyn _. Om du har flera butiksvyer anger du lämplig rubrik och beskrivning för varje.
 
      >[!NOTE]
      >
